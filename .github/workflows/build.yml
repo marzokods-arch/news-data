@@ -11,12 +11,20 @@ on:
 permissions:
   contents: write
 
+# Prevent two runs from colliding when pushing
+concurrency:
+  group: json-api
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (full history)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -40,3 +48,6 @@ jobs:
             docs/api/days/*.json
             data/state/feeds_state.json
           message: "chore: update JSON API [skip ci]"
+          default_author: github_actions
+          pull: "--rebase --autostash"
+          push: true
