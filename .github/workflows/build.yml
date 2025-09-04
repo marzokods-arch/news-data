@@ -1,24 +1,42 @@
 name: Build JSON API
+
 on:
-workflow_dispatch:
-push:
-branches: [ main ]
-schedule:
-- cron: '*/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/5 * * * *"
+
 permissions:
-contents: write
+  contents: write
+
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
-- uses: actions/setup-node@v4
-with:
-node-version: 20
-- run: npm ci || npm i
-- run: npm run build
-- name: Commit JSON API
-uses: EndBug/add-and-commit@v9
-with:
-add: 'docs/api/*.json docs/api/categories/*.json docs/api/lang/*.json docs/api/regions/*.json docs/api/days/*.json data/state/feeds_state.json'
-message: 'chore: update JSON API [skip ci]'
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm ci || npm i
+
+      - name: Build JSON API
+        run: npm run build
+
+      - name: Commit JSON
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: |
+            docs/api/*.json
+            docs/api/categories/*.json
+            docs/api/lang/*.json
+            docs/api/regions/*.json
+            docs/api/days/*.json
+            data/state/feeds_state.json
+          message: "chore: update JSON API [skip ci]"
