@@ -1,0 +1,15 @@
+{
+"name": "light-news-db",
+"version": "2.0.0",
+"type": "module",
+"description": "Massive, politics-free RSS collector for GitHub Pages (JSON API only).",
+"scripts": {
+"build": "node scripts/build_db.mjs",
+"verify": "node scripts/verify_feeds.mjs",
+"start": "npx http-server ./docs -p 8080 -c-1"
+},
+"dependencies": {
+"cheerio": "^1.0.0",
+"rss-parser": "^3.13.0"
+}
+}
