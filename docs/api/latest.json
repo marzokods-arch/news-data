@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-09-04T20:58:35.386Z",
-    "total": 337,
+    "generated_at": "2025-09-04T21:28:20.596Z",
+    "total": 339,
     "processed_feeds": 23,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -22,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -30,7 +43,20 @@
         "cats": [
           "sports"
         ],
-        "taken": 60,
+        "taken": 62,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -48,19 +74,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -71,19 +84,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 44,
-        "error": null,
         "notModified": false
       },
       {
@@ -100,16 +100,55 @@
         "notModified": false
       },
       {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 47,
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 44,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -126,28 +165,28 @@
         "notModified": false
       },
       {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "lifestyle"
+          "general"
         ],
-        "taken": 100,
+        "taken": 47,
         "error": null,
         "notModified": false
       },
@@ -165,32 +204,6 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/feed/",
         "homepage": "https://www.technologyreview.com/feed/",
@@ -204,36 +217,10 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -256,6 +243,32 @@
         "notModified": false
       },
       {
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Masrawy — فن",
         "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
         "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
@@ -266,19 +279,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -311,13 +311,29 @@
   },
   "items": [
     {
-      "id": "1a2ab813c4c4233c",
-      "title": "England beaten to lose South Africa ODI series",
-      "link": "https://www.bbc.com/sport/cricket/articles/cgrqjkvgy79o?at_medium=RSS&at_campaign=rss",
-      "summary": "England's poor form in white-ball cricket continues as they are beaten by South Africa to lose the second one-day international and the series with a game to spare.",
+      "id": "d9b52e77e7897c04",
+      "title": "Charli XCX shines in quirky film debut Erupcja",
+      "link": "https://www.bbc.com/culture/article/20250904-erupcja-charli-xcxs-makes-auspicious-start-in-first-major-film-roles?ocid=global_culture_rss",
+      "summary": "The Brat star makes an \"auspicious start\" in her first major acting role",
+      "body": null,
+      "image": "https://ychef.files.bbci.co.uk/144x81/p0m0wv0j.jpg",
+      "pubDate": "2025-09-04T22:00:00.000Z",
+      "source": {
+        "name": "BBC Culture",
+        "homepage": "https://www.bbc.com/culture/feed.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5499b1973bd168f3",
+      "title": "England take match to final ball but South Africa clinch series",
+      "link": "https://www.bbc.com/sport/cricket/videos/cwyrj0873p8o?at_medium=RSS&at_campaign=rss",
+      "summary": "England's poor form in white-ball cricket continued as they were beaten by South Africa to lose the second one-day international and the series with a game to spare.",
       "body": null,
       "image": null,
-      "pubDate": "2025-09-04T20:54:57.000Z",
+      "pubDate": "2025-09-04T21:14:12.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -333,7 +349,103 @@
       "summary": "England's poor form in white-ball cricket continues as they are beaten by South Africa to lose the second one-day international and the series with a game to spare.",
       "body": null,
       "image": null,
-      "pubDate": "2025-09-04T20:54:57.000Z",
+      "pubDate": "2025-09-04T21:11:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1a2ab813c4c4233c",
+      "title": "England beaten to lose South Africa ODI series",
+      "link": "https://www.bbc.com/sport/cricket/articles/cgrqjkvgy79o?at_medium=RSS&at_campaign=rss",
+      "summary": "England's poor form in white-ball cricket continues as they are beaten by South Africa to lose the second one-day international and the series with a game to spare.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-04T21:11:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "14a8087a846bb07f",
+      "title": "We'll probably never get over Jota's death - Robertson",
+      "link": "https://www.bbc.com/sport/football/articles/cly1lez5xp8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Andy Robertson says the leaders in the Liverpool dressing room can help with the heartache of Diogo Jota's death, but thinks it is \"something we'll probably never get over\".",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-04T21:10:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c6afa91d6a5fd27e",
+      "title": "What will be Levy's legacy as his Spurs era ends?",
+      "link": "https://www.bbc.com/sport/football/articles/cn76l4z3m2mo?at_medium=RSS&at_campaign=rss",
+      "summary": "Tottenham's success off the field under chairman Daniel Levy will always be overshadowed by failures on it, says chief football writer Phil McNulty",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-04T21:05:39.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "10042dd019c066ff",
+      "title": "Gene that human ancestors lost millions of years ago could help treat gout",
+      "link": "https://www.livescience.com/health/genetics/gene-that-human-ancestors-lost-millions-of-years-ago-could-help-treat-gout",
+      "summary": "Researchers used evolutionary genetics and CRISPR gene editing tech to develop an innovative treatment for gout. The approach has yet to be tested in humans.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/oXoLm8jKUhNSduJjTx4QY9-1280-80.jpg",
+      "pubDate": "2025-09-04T21:05:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "76ac2b2ae92b490d",
+      "title": "Pretzel Pigs In A Blanket",
+      "link": "https://www.delish.com/cooking/recipe-ideas/a65873083/pretzel-pigs-in-a-blanket-recipe/",
+      "summary": "",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/pretzel-pigs-in-a-blanket-socialindex-web-0035-lp-del079925-68b9ef5badcc0.jpg",
+      "pubDate": "2025-09-04T21:00:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "55f66e55b1d224ae",
+      "title": "Leeds defeat Huddersfield for fifth straight win",
+      "link": "https://www.bbc.com/sport/rugby-league/articles/cn0rlexr3ggo?at_medium=RSS&at_campaign=rss",
+      "summary": "Leeds boost their hopes of a second-place finish with a 26-0 away win over West Yorkshire rivals Huddersfield.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-04T20:51:57.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -375,6 +487,54 @@
       "region": "global"
     },
     {
+      "id": "750a2fbd0d71ca99",
+      "title": "Football Daily podcast special: Levy steps down as Spurs chairman",
+      "link": "https://www.bbc.co.uk/sounds/play/p0m0yc81?at_medium=RSS&at_campaign=rss",
+      "summary": "James Gregg presents reaction to Daniel Levy stepping down as Spurs chairman.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-04T19:25:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c24da79535c20e4a",
+      "title": "لا فوينتي يعادل سلسلة لوبيتيجي.. ويلاحق إنجاز ديل بوسكي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7-%D9%81%D9%88%D9%8A%D9%86%D8%AA%D9%8A-%D9%8A%D8%B9%D8%A7%D8%AF%D9%84-%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D9%84%D9%88%D8%A8%D9%8A%D8%AA%D9%8A%D8%AC%D9%8A-%D9%88%D9%8A%D9%84%D8%A7%D8%AD%D9%82-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%AF%D9%8A%D9%84-%D8%A8%D9%88%D8%B3%D9%83%D9%8A/bltbf75ac7be714719b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يواصل لويس دي لا فوينتي، المدير الفني لمنتخب إسبانيا، كتابة أرقام مميزة مع الماتادور، بعدما بلغ 21 مباراة متتالية دون هزيمة في مختلف البطولات.",
+      "body": "يواصل لويس دي لا فوينتي، المدير الفني لمنتخب إسبانيا، كتابة أرقام مميزة مع الماتادور، بعدما بلغ 21 مباراة متتالية دون هزيمة في مختلف البطولات. وبهذا الرقم، تجاوز دي لا فوينتي، سلسلة جولين لوبيتيجي، التي توقفت عند 20 مباراة في عام 2018، عندما حقق 14 انتصارًا و6 تعادلات. شبكة \" أوبتا \" أوضحت أن سلسلة دي لا فوينتي الحالية، تتضمن 16 انتصارا و5 تعادلات، لتصبح الأطول منذ إنجاز المدرب التاريخي فيسنتي ديل بوسكي، الذي قاد إسبانيا بين عامي 2011 و2013 في 26 مباراة دون خسارة (20 فوزًا و6 تعادلات). وبهذا الأداء الثابت والصلابة الجماعية التي يظهرها المنتخب الإسباني تحت قيادته، يرسخ دي لا فوينتي، مكانته كأحد أنجح المدربين في مسيرة الماتادور. وكان المنتخب الإسباني قد حقق فوزًا كبيرًا على مضيفه البلغاري بنتيجة (3-0) اليوم الخميس، ضمن الجولة الأولى من التصفيات المؤهلة لكأس العالم 2026. &nbsp;",
+      "image": null,
+      "pubDate": "2025-09-04T19:20:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ddd678c3830a386b",
+      "title": "ألمانيا تجدد ذكرى سبتمبر الأليمة في تصفيات المونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AC%D8%AF%D8%AF-%D8%B0%D9%83%D8%B1%D9%89-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D9%84%D9%8A%D9%85%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt787d5111356e7830?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "سقوط تاريخي لألمانيا في افتتاح تصفيات كأس العالم",
+      "body": "تلقى منتخب ألمانيا هزيمة مفاجئة على يد سلوفاكيا بنتيجة 2-0، اليوم الخميس، في مستهل التصفيات الأوروبية المؤهلة لبطولة كأس العالم 2026. وذكرت شبكة \"أوبتا\" للإحصائيات أن ألمانيا تعرضت للهزيمة بفارق أكثر من هدف، للمرة الثانية على مدار تاريخ مشاركاتها في تصفيات المونديال. وتعود المرة الأولى لشهر سبتمبر/ أيلول 2001، حينما سقط المانشافت بنتيجة (1-5) على يد إنجلترا، ضمن تصفيات مونديال 2002. وأفادت الشبكة بأن المنتخب الألماني ذاق مرارة الهزيمة للمرة الأولى على الإطلاق خارج الأرض في تصفيات كأس العالم، وذلك في مباراته الـ52، بعدما حقق 41 انتصارا وتعادل في 10 مواجهات سابقة. بالإضافة لتعرض ألمانيا لأول خسارة في تاريخها، بالجولة الافتتاحية لتصفيات المونديال. وبسبب الهزيمة، تذيلت ألمانيا ترتيب المجموعة الأولى بلا نقاط، خلف أيرلندا الشمالية، سلوفاكيا ولوكسمبورج.",
+      "image": null,
+      "pubDate": "2025-09-04T19:17:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "78717af2fd823bf9",
       "title": "جلالة الملك يصدر عفوه السامي على 681 شخصا بمناسبة عيد المولد النبوي الشريف",
       "link": "https://assabah.ma/869408.html",
@@ -389,6 +549,22 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "3b433726d69b719b",
+      "title": "بعد إغلاق الميركاتو.. عرض مفاجئ لمهاجم آرسنال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%95%D8%BA%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%83%D8%A7%D8%AA%D9%88-%D8%B9%D8%B1%D8%B6-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%84%D9%85%D9%87%D8%A7%D8%AC%D9%85-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84/bltc0934e3ca5a15b04?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بعد إغلاق الميركاتو.. عرض مفاجئ لمهاجم آرسنال",
+      "body": "تلقى البلجيكي لياندرو تروسارد، مهاجم آرسنال، عرضا مفاجئا من الدوري التركي، بعد 3 أيام من انتهاء فترة الانتقالات الصيفية بإنجلترا. ووفقا لصحيفة \"ذا صن\" البريطانية، نقلا عن تقارير تركية، طلب بشكتاش ضم صاحب الـ30 عاما، وأرسل عرضا بقيمة 19.1 مليون جنيه إسترليني، لكن النادي اللندني لم يرد بعد عليه. ولا زال أمام بشكتاش وقت كافٍ للتعاقد مع تروسارد، إذ سيُغلق باب الانتقالات الصيفية في تركيا يوم 12 سبتمبر الجاري. ويأتي هذا العرض بعد أشهر من توقيع الدولي البلجيكي عقدا جديدا مع الجانرز، يبقيه داخل ملعب الإمارات حتى صيف 2027. ووجه بشكتاش أنظاره نحو تروسارد، بعدما فشل في إقناع جادون سانشو بالانضمام إلى صفوفه، حيث فضل الأخير الانتقال إلى أستون فيلا، على سبيل الإعارة من مانشستر يونايتد.",
+      "image": null,
+      "pubDate": "2025-09-04T19:07:10.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "5fb20ca937adbf13",
@@ -437,6 +613,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "c95b34debdb4aee3",
+      "title": "مبابي فقط يتفوق على يامال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%81%D9%82%D8%B7-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%89-%D9%8A%D8%A7%D9%85%D8%A7%D9%84/blt1b38ca80aab38814?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نجم برشلونة يواصل توهجه مع \"لاروخا\"",
+      "body": "أكد النجم الشاب، لامين يامال، حضوره القوي مع منتخب إسبانيا، بعدما صنع الهدف الثالث خلال الانتصار الكبير على أرض بلغاريا (3-0)، اليوم الخميس، ضمن التصفيات المؤهلة لكأس العالم 2026. وأبرزت شبكة \"أوبتا\" للإحصائيات أن منذ ظهوره الأول بقميص \"لاروخا\"، في سبتمبر 2023، لم يتفوق على يامال سوى النجم الفرنسي، كيليان مبابي، فيما يتعلق بصناعة الأهداف مع المنتخبات الأوروبية. فقد قدم يامال 9 تمريرات حاسمة مع إسبانيا، بينما يتصدر مبابي القائمة بـ11 تمريرة، متفوقا أيضا على البرتغالي برونو فرنانديز الذي يمتلك أرقاما قريبة. وبدأت المباراة بقوة من جانب الإسبان، حيث افتتح ميكيل أويارزابال التسجيل مبكرًا، في الدقيقة الخامسة، بعد تمريرة متقنة من زوبيميندي. وحاول المنتخب البلغاري عبر تسديدة قوية من كيريلوف ارتطمت بالقائم، لكن الرد الإسباني جاء سريعًا، إذ أضاف مارك كوكوريلا الهدف الثاني، في الدقيقة 30، بتسديدة رائعة. وبعدها بثماني دقائق، عزز ميكيل ميرينو النتيجة برأسية قوية، إثر ركلة ركنية نفذها لامين يامال.",
+      "image": null,
+      "pubDate": "2025-09-04T19:02:48.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "f61ebf595032e4a6",
@@ -551,12 +743,12 @@
       "region": "global"
     },
     {
-      "id": "e9ce652c8be37238",
-      "title": "سلوفاكيا تصعق ألمانيا في تصفيات المونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%84%D9%88%D9%81%D8%A7%D9%83%D9%8A%D8%A7-%D8%AA%D8%B5%D8%B9%D9%82-%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/bltdb99f6558cdfc2fd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "f4deb3a6fbb0dd09",
+      "title": "بالصور.. سلوفاكيا تصعق ألمانيا بثنائية بيضاء",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1-%D8%B3%D9%84%D9%88%D9%81%D8%A7%D9%83%D9%8A%D8%A7-%D8%AA%D8%B5%D8%B9%D9%82-%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D8%A8%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1/bltdb99f6558cdfc2fd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "فاز منتخب سلوفاكيا، على ضيفه الألماني، بنتيجة 2-0 مساء اليوم الخميس، في مستهل مشوار الفريقين بالتصفيات الأوروبية المؤهلة لكأس العالم 2026.",
       "body": "فاز منتخب سلوفاكيا، على ضيفه الألماني، بنتيجة 2-0 مساء اليوم الخميس، في مستهل مشوار الفريقين بالتصفيات الأوروبية المؤهلة لكأس العالم 2026. وسجل ثنائية سلوفاكيا، دافيد هانكو (42) ودافيد ستريليتش (55). وشكلت سلوفاكيا، الخطورة الأولى في الدقيقة 21، بعدما مرر ستريليتش، بينية ساحرة لساوير، ليسدد كرة من داخل المنطقة، تألق بومان في التصدي لها. وبعدها مباشرة تحصلت سلوفاكيا على ركلة ركنية، نفذها دودا بعرضية مباشرة موجهة تجاه المرمى اصطدمت بالقائم. وجاء الرد الألماني في الدقيقة 24، بعدما تابع ميتليشتات، كرة مبعدة من دفاع سلوفاكيا داخل المنطقة، ليسدد كرة قوية تألق دوبرافكا في إبعادها لركلة ركنية. ومن تلك الركنية ارتقى روديجر لعرضية من فيرتز، وسدد رأسية مرت بقليل إلى جوار القائم. وحاول كيميتش، اختبار يقظة دوبرافكا، بتسديدة أرضية من على حدود المنطقة في الدقيقة 27، ولكن أمسك بها الحارس بسهولة. وواصل ساوير، إزعاج الدفاعات الألمانية بتوغل جديد في الدقيقة 28 تلاعب خلاله بروديجر، قبل أن يسدد كرة من داخل المنطقة اصطدمت بتاه، وهي في طريقها للمرمى. وأهدر فيرتز، فرصة محققة للتسجيل في الدقيقة 32، بعدما تلاعب بساتكا داخل المنطقة لينفرد بدوبرافكا، ويسدد كرة أرضية تألق الحارس في التصدي لها. وافتتحت سلوفاكيا، التسجيل في الدقيقة 42، بعدما مرر ستريليتش، الكرة إلى هانكو الخالي من الرقابة إلى جواره داخل المنطقة…",
-      "image": null,
+      "image": "https://assets.kooora.com/images/v3/getty-2233043511/crop/MM5DGOJQGI5DEOBTHA5G433XMU5DAORQ/GettyImages-2233043511.jpg",
       "pubDate": "2025-09-04T18:42:35.000Z",
       "source": {
         "name": "Kooora",
@@ -935,22 +1127,6 @@
       "region": "mena"
     },
     {
-      "id": "c7aab80a8ee40b87",
-      "title": "ليبيا تنعش حظوظها في تصفيات المونديال.. وغانا تتعثر",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D8%A8%D9%8A%D8%A7-%D8%AA%D9%86%D8%B9%D8%B4-%D8%AD%D8%B8%D9%88%D8%B8%D9%87%D8%A7-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%88%D8%BA%D8%A7%D9%86%D8%A7-%D8%AA%D8%AA%D8%B9%D8%AB%D8%B1/bltd70f4e5fe0acfa49?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الحارس الليبي تألق أمام أنجولا",
-      "body": "اقترب منتخب الرأس الأخضر من التأهل إلى كأس العالم 2026، بعد فوزه على صاحب الأرض موريشيوس (2-0)، في الجولة السابعة من المجموعة الرابعة للتصفيات الإفريقية، ليرفع رصيده إلى 16 نقطة في الصدارة، أمام الكاميرون (12 نقطة) وليبيا (11).&nbsp; وسجل جوفان (22) وديني بورجيش (71) هدفي اللقاء. كما أنعشت ليبيا حظوظها بالفوز على مضيفتها أنجولا (1-0)، بهدف عزو المريمي (48)، في مباراة تألق خلالها الحارس مراد الوحيشي. وفي المجموعة السابعة، تعادلت غانا على أرض تشاد (1-1)، حيث سجل جوردان أيو (17)، قبل أن يدرك إيكوا التعادل (89). وتغلبت مدغشقر على إفريقيا الوسطى (2-0) في الدار البيضاء (الأرض الافتراضية لمنتخب مدغشقر)، بهدفي وارن كادي (45+2) وراندريانانتيناينا (59). وبذلك، تتصدر غانا المجموعة برصيد 16 نقطة، بفارق 3 نقاط عن مدغشقر، فيما تلتها جزر القمر (12)، بانتظار مباراتها مع مالي (9).",
-      "image": null,
-      "pubDate": "2025-09-04T16:46:19.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "bf31e462e3e99b52",
       "title": "Ayuso wins stage 12 of the Vuelta a Espana",
       "link": "https://www.bbc.com/sport/cycling/articles/c930p2y1ze4o?at_medium=RSS&at_campaign=rss",
@@ -983,22 +1159,6 @@
       "region": "global"
     },
     {
-      "id": "98e8b3692351c09c",
-      "title": "ماجواير يرد على الاهتمام السعودي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D8%AC%D9%88%D8%A7%D9%8A%D8%B1-%D9%8A%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/blt7d933953a9dc6061?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الدولي الإنجليزي يفضل الاستمرار في أولد ترافورد",
-      "body": "ذكرت تقارير صحفية، اليوم الخميس، أن مدافع مانشستر يونايتد، هاري ماجواير، أصبح هدفا لاثنين من أندية الدوري السعودي، دون الكشف عنهما. لكن صحيفة \"ذا صن\" البريطانية قالت إن ماجواير (32 عاما)، أكد أنه لن ينظر في أي خطوة انتقال، إلا بعد نهاية الموسم الحالي. وتظل نافذة الانتقالات السعودية مفتوحة حتى 23 سبتمبر/أيلول الجاري. وكان عقد ماجواير سينتهي هذا الصيف، غير أن مانشستر يونايتد فعّل خيار التمديد لعام إضافي، ليستمر اللاعب حتى صيف 2026. وأشار ماجواير أيضا إلى أنه لا يستبعد البقاء مع يونايتد، حتى بعد نهاية عقده الحالي، إذا رغب النادي في ذلك. وانضم المدافع إلى الشياطين الحمر من ليستر سيتي، مقابل 85 مليون جنيه إسترليني قبل 6 أعوام، وخاض أكثر من 200 مباراة بقميص اليونايتد.",
-      "image": null,
-      "pubDate": "2025-09-04T16:38:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "e3db6af70859ff67",
       "title": "Map of 600,000 brain cells rewrites the textbook on how the brain makes decisions",
       "link": "https://www.livescience.com/health/neuroscience/map-of-600-000-brain-cells-rewrites-the-textbook-on-how-the-brain-makes-decisions",
@@ -1013,38 +1173,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "742e21a23ef60554",
-      "title": "ماكينة دمرتها الإصابات.. ماذا قدم ميتروفيتش مع الهلال؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9-%D8%AF%D9%85%D8%B1%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%AF%D9%85-%D9%85%D9%8A%D8%AA%D8%B1%D9%88%D9%81%D9%8A%D8%AA%D8%B4-%D9%85%D8%B9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blt22391ede77b98475?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>أسدل الصربي ألكسندر ميتروفيتش الستار على مسيرته مع الهلال السعودي، بعد فترة قصيرة دون خلالها العديد من الإنجازات الفردية والجماعية. </p><p>وأعلن الهلال رحيل لاعبه ميتروفيتش إلى الريان القطري، بعد موسمين لعبهما ضمن صفوف \"الزعيم\" بداية من صيف 2023، قادمًا من فولهام الإنجليزي. </p><p>وكان يرتبط ميت…",
-      "body": "أسدل الصربي ألكسندر ميتروفيتش الستار على مسيرته مع الهلال السعودي، بعد فترة قصيرة دون خلالها العديد من الإنجازات الفردية والجماعية. وأعلن الهلال رحيل لاعبه ميتروفيتش إلى الريان القطري، بعد موسمين لعبهما ضمن صفوف \"الزعيم\" بداية من صيف 2023، قادمًا من فولهام الإنجليزي. وكان يرتبط ميتروفيتش بعقد يمتد حتى صيف عام 2026، ولكن تكرار إصابته في العضلة الخلفية، تسبب في تخلص الهلال منه، والتعاقد مع الأوروجوياني داروين نونيز خلال الصيف الجاري. ماذا قدم ميتروفيتش مع الهلال؟ نجح ميتروفيتش في تقديم مستويات مذهلة مع \"الزعيم\" خلال موسمين على المستويين المحلي والآسيوي، حيث شارك في 79 مباراة بمختلف المسابقات، سجل خلالها 68 هدفًا وصنع 15. واحتل ميتروفيتش وصافة قائمة هدافي الدوري السعودي خلال موسم 2023-2024، بتسجيل 28 هدفًا، خلف الأسطورة البرتغالي كريستيانو رونالدو، قائد النصر (35). وكان المهاجم الصربي عنصرًا أساسيًا في تتويج \"الأزرق\" بـ4 ألقاب محلية، متمثلة في الدوري السعودي وكأس الملك، بجانب لقبي من السوبر المحلي. أرقام مذهلة دون المهاجم الصربي عدة أرقام مثيرة في رحلته مع الهلال، حيث يعد أكثر لاعب من الهلال سجل أهدافًا في موسم واحد من دوري المحترفين، بواقع 28 هدفًا (2023-2024). كذلك، بات ثالث هدافي الهلال الأجانب عبر التاريخ، برصيد 69 هدفًا، خلف البرازيلي كارلوس إدواردو (81) والفرنسي بافتيمبي جوميز …",
-      "image": null,
-      "pubDate": "2025-09-04T16:33:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "77b20fba488bed9d",
-      "title": "جورجيا تسقط على أرضها أمام تركيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%88%D8%B1%D8%AC%D9%8A%D8%A7-%D8%AA%D8%B3%D9%82%D8%B7-%D8%B9%D9%84%D9%89-%D8%A7%D9%94%D8%B1%D8%B6%D9%87%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%AA%D8%B1%D9%83%D9%8A%D8%A7/bltdffc60c0721309c5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "فاز المنتخب التركي، على مضيفه الجورجي بنتيجة 3-2، اليوم الخميس، في مستهل مشوار المنتخبين ضمن منافسات المجموعة الأولى من تصفيات أوروبا المؤهلة لمونديال 2026.",
-      "body": "فاز المنتخب التركي، على مضيفه الجورجي بنتيجة 3-2، اليوم الخميس، في مستهل مشوار المنتخبين ضمن منافسات المجموعة الأولى من تصفيات أوروبا المؤهلة لمونديال 2026. وأنجز منتخب المدرب الإيطالي فينتشنتسو مونتيلا، مهمته الأولى بنجاح، وذلك قبل مواجهة ضيفه الإسباني، الأحد المقبل. افتتح مرت مولدور، التسجيل برأسية من مسافة قريبة، أسكنها على يسار الحارس جورجي مامارداشفيلي، إثر ركلة ركنية من الجهة اليسرى نفذها أردا جولر (3). وأضاف كريم أكتوركوغولو، الهدف الثاني بتسديدة من داخل منطقة الجزاء، تحول مسارها بعد اصطدامها بأحد لاعبي جورجيا، إلى يسار مامارداشفيلي في الدقيقة 41. وأحرز أكتوركوغولو، الهدف الثالث في الدقيقة 52، قبل أن يقلص زوريكو دافيتاشفيلي، النتيجة، بتسجيل الهدف الأول لصالح جورجيا في الدقيقة 63. وأشهر الحكم، البطاقة الحمراء في وجه اللاعب التركي باريش ألبير يلماز، بسبب الخشونة، وذلك بعد 5 دقائق فقط من دخوله بدلًا من أكتوركوغولو (71). وترك كفاراتسخيليا، بصمته، بتسجيل الهدف الثاني لجورجيا، بتسديدة من الجهة اليسرى من على مشارف منطقة الجزاء سكنت الزاوية الأرضية اليسرى للمرمى التركي (90+8).",
-      "image": null,
-      "pubDate": "2025-09-04T16:32:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "964e677e01865998",
@@ -1092,22 +1220,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ec6bc7aa0c7e5f7a",
-      "title": "Hundred windfall a 'game changer' - Derbyshire CEO",
-      "link": "https://www.bbc.com/sport/cricket/articles/cy9nerjg4xjo?at_medium=RSS&at_campaign=rss",
-      "summary": "The millions received from the sale of The Hundred franchises will be a \"game changer\" for Derbyshire, says club chief executive Ryan Duckett.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-04T16:17:16.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1927,22 +2039,6 @@
       "region": "gulf"
     },
     {
-      "id": "4fe2a990b5e71e83",
-      "title": "'Mum would be in awe of support I've received since tumour'",
-      "link": "https://www.bbc.com/sport/rugby-union/videos/c89dwq0pq87o?at_medium=RSS&at_campaign=rss",
-      "summary": "Scotland's Emma Wassell pays tribute to the \"incredible\" support she has received from her team-mates over the last year as she recovered from the loss of her mum, and a tumour in her chest, to make her return at the Women's Rugby World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-04T09:02:51.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "15a8bc56dfc27a36",
       "title": "This Blood Thinner Is More Effective Than Aspirin at Preventing Heart Attacks",
       "link": "https://www.wired.com/story/anticoagulant-shown-to-be-more-effective-than-aspirin-in-preventing-heart-attacks/",
@@ -2407,22 +2503,6 @@
       "region": "global"
     },
     {
-      "id": "b34c7bb8229424a3",
-      "title": "The Instagram iPad App Is Finally Here",
-      "link": "https://www.wired.com/story/instagram-ipad-app-is-finally-here/",
-      "summary": "Now you can doomscroll on a bigger screen.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-03T16:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "4fca01451cc2680d",
       "title": "Candied Sweet Potato Cinnamon Rolls",
       "link": "https://www.delish.com/cooking/recipe-ideas/a65402837/candied-sweet-potato-cinnamon-rolls-recipe/",
@@ -2436,6 +2516,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b34c7bb8229424a3",
+      "title": "The Instagram iPad App Is Finally Here",
+      "link": "https://www.wired.com/story/instagram-ipad-app-is-finally-here/",
+      "summary": "Now you can doomscroll on a bigger screen.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-03T16:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2535,22 +2631,6 @@
       "region": "gulf"
     },
     {
-      "id": "77965f029e26679a",
-      "title": "How to Switch From iPhone to Android (2025)",
-      "link": "https://www.wired.com/story/how-to-switch-from-iphone-to-android/",
-      "summary": "If you’re leaving Apple behind to try Google’s Pixel, a Samsung Galaxy, or another Android phone, this guide covers all your bases.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-03T13:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "dc33df1cce896239",
       "title": "Benito Skinner's Sober Playbook For Surviving A Very Drink-y Event",
       "link": "https://www.delish.com/food-news/a65935205/benito-skinner-heineken-00-us-open-interview/",
@@ -2561,6 +2641,22 @@
       "source": {
         "name": "Delish",
         "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "77965f029e26679a",
+      "title": "How to Switch From iPhone to Android (2025)",
+      "link": "https://www.wired.com/story/how-to-switch-from-iphone-to-android/",
+      "summary": "If you’re leaving Apple behind to try Google’s Pixel, a Samsung Galaxy, or another Android phone, this guide covers all your bases.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-03T13:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "general",
@@ -3255,22 +3351,6 @@
       "region": "global"
     },
     {
-      "id": "36a0134c35d8a577",
-      "title": "What does Australia's Hundred dominance mean for women's cricket?",
-      "link": "https://www.bbc.com/sport/cricket/articles/c7072l7g9g9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Australian players have dominated the women's Hundred this year, but what does this mean for English domestic players and the wider game?",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-02T09:00:23.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f85a03abb021cb2a",
       "title": "Giant sandy 'slug' crawls through floodplains in Kazakhstan, but it could soon be frozen in place — Earth from space",
       "link": "https://www.livescience.com/planet-earth/geology/giant-sandy-slug-crawls-through-floodplains-in-kazakhstan-but-it-could-soon-be-frozen-in-place-earth-from-space",
@@ -3719,12 +3799,12 @@
       "region": "global"
     },
     {
-      "id": "7119867f51def8c2",
-      "title": "The world's first view of Earth from the moon, taken 59 years ago — Space photo of the week",
-      "link": "https://www.livescience.com/space/the-moon/the-worlds-first-view-of-earth-from-the-moon-taken-59-years-ago-space-photo-of-the-week",
-      "summary": "On Aug. 23, 1966, NASA's Lunar Orbiter 1 sent back the first photo of Earth from the moon. It showed a grainy crescent Earth that predated Apollo 8's famous color \"Earthrise\" by over two years.",
+      "id": "8cf46c5958e56b24",
+      "title": "There are 32 different ways AI can go rogue, scientists say — from hallucinating answers to a complete misalignment with humanity",
+      "link": "https://www.livescience.com/technology/artificial-intelligence/there-are-32-different-ways-ai-can-go-rogue-scientists-say-from-hallucinating-answers-to-a-complete-misalignment-with-humanity",
+      "summary": "New research has created the first comprehensive effort to categorize all the ways AI can go wrong, with many of those behaviors resembling human psychiatric disorders.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/bFRQwnYgRhv34zN5nAHvrU-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/bGVzhaPD9gujwpEGhfT6Nm-1280-80.jpg",
       "pubDate": "2025-08-31T10:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -3735,12 +3815,12 @@
       "region": "global"
     },
     {
-      "id": "8cf46c5958e56b24",
-      "title": "There are 32 different ways AI can go rogue, scientists say — from hallucinating answers to a complete misalignment with humanity",
-      "link": "https://www.livescience.com/technology/artificial-intelligence/there-are-32-different-ways-ai-can-go-rogue-scientists-say-from-hallucinating-answers-to-a-complete-misalignment-with-humanity",
-      "summary": "New research has created the first comprehensive effort to categorize all the ways AI can go wrong, with many of those behaviors resembling human psychiatric disorders.",
+      "id": "7119867f51def8c2",
+      "title": "The world's first view of Earth from the moon, taken 59 years ago — Space photo of the week",
+      "link": "https://www.livescience.com/space/the-moon/the-worlds-first-view-of-earth-from-the-moon-taken-59-years-ago-space-photo-of-the-week",
+      "summary": "On Aug. 23, 1966, NASA's Lunar Orbiter 1 sent back the first photo of Earth from the moon. It showed a grainy crescent Earth that predated Apollo 8's famous color \"Earthrise\" by over two years.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/bGVzhaPD9gujwpEGhfT6Nm-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/bFRQwnYgRhv34zN5nAHvrU-1280-80.jpg",
       "pubDate": "2025-08-31T10:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -4007,22 +4087,6 @@
       "region": "global"
     },
     {
-      "id": "bcb55c548a3a89c2",
-      "title": "'Hilarious masterpiece' is this year's Parasite",
-      "link": "https://www.bbc.com/culture/article/20250830-no-other-choice-review-parasite-venice-film-festival?ocid=global_culture_rss",
-      "summary": "Why bleak comedy No Other Choice could be a huge hit",
-      "body": null,
-      "image": "https://ychef.files.bbci.co.uk/144x81/p0lzx1tq.jpg",
-      "pubDate": "2025-08-30T11:00:00.000Z",
-      "source": {
-        "name": "BBC Culture",
-        "homepage": "https://www.bbc.com/culture/feed.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "43a33128b58f66b7",
       "title": "Scientists turned to a red onion to improve solar cells — and it could make solar power more sustainable",
       "link": "https://www.livescience.com/technology/scientists-turned-to-a-red-onion-to-improve-solar-cells-and-it-could-make-solar-power-more-sustainable",
@@ -4244,22 +4308,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bf3c149f9c7ff386",
-      "title": "Levoit Sprout air purifier review — Baby-friendly solution to airborne pollutants",
-      "link": "https://www.livescience.com/health/levoit-sprout-air-purifier-review",
-      "summary": "Efficient, smart-enabled, and thoughtfully designed, the Levoit Sprout air purifier is a great choice for small nurseries and toddler rooms.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/yXqRzNnfchh5xz7g2ZkSwT-1280-80.jpg",
-      "pubDate": "2025-08-29T14:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4500,22 +4548,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f43adeb1a7ff66ed",
-      "title": "We've Made A LOT Of Recipes This Summer—These Are Our Editors' Favorites",
-      "link": "https://www.delish.com/cooking/recipe-ideas/g65903266/editor-favorite-summer-recipes/",
-      "summary": "The recipes we tried again and again... and again.",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/smores-fluff-socialindex-web-0067-mh-del069925-68754119d43e1.jpg",
-      "pubDate": "2025-08-28T13:00:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
