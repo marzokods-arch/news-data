@@ -1,37 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>News Data Viewer</title>
+  <meta charset="utf-8" />
+  <title>News Data — Minimal Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; background: #fafafa; }
-    h1 { margin-bottom: 1rem; }
-    .card { background: white; padding: 1rem; margin: 0.5rem 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-    .card img { max-width: 200px; float:right; margin-left:1rem; }
+    :root { color-scheme: light dark; }
+    body {
+      font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 24px;
+      background: Canvas; color: CanvasText;
+    }
+    header { margin-bottom: 16px; }
+    h1 { font-size: 16px; margin: 0 0 4px 0; font-weight: 600; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .muted { opacity: .7; }
+    .pill { display:inline-block; padding:2px 6px; border:1px solid currentColor; border-radius: 999px; font-size:12px; }
+    .stats { display:flex; gap:16px; flex-wrap: wrap; margin: 8px 0 16px; }
+    .stat { padding:6px 10px; border:1px solid color-mix(in oklab, currentColor 20%, transparent); border-radius:8px; }
+    .bar { height:1px; background: color-mix(in oklab, currentColor 20%, transparent); margin: 8px 0 16px; }
+    .controls { margin-bottom: 8px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+    input, select { font: inherit; padding: 4px 6px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 6px 8px; border-bottom: 1px solid color-mix(in oklab, currentColor 15%, transparent); vertical-align: top; }
+    th { text-align: left; font-weight: 600; }
+    td.small { white-space: nowrap; }
+    a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    footer { margin-top: 24px; font-size: 12px; }
   </style>
 </head>
 <body>
-  <h1>Collected News (latest.json)</h1>
-  <div id="news"></div>
+  <header>
+    <h1>Collected News — Minimal Viewer</h1>
+    <div class="row">
+      <div id="refresh" class="muted">Last refresh: —</div>
+      <div id="meta" class="muted"></div>
+    </div>
+    <div class="stats" id="stats">
+      <!-- stats pills injected here -->
+    </div>
+    <div class="bar"></div>
+  </header>
 
-  <script>
-    async function load() {
-      const res = await fetch('./api/latest.json');
-      const data = await res.json();
-      const container = document.getElementById('news');
-      data.items.slice(0,50).forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'card';
-        div.innerHTML = `
-          ${item.image ? `<img src="${item.image}" alt="">` : ""}
-          <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-          <p>${item.summary || ""}</p>
-          <small>${item.pubDate || ""} — ${item.source?.name || ""}</small>
-        `;
-        container.appendChild(div);
+  <section class="controls">
+    <label>Source JSON:
+      <select id="src">
+        <option value="./api/latest.json">latest.json (default)</option>
+        <option value="./api/categories/sports.json">categories/sports.json</option>
+        <option value="./api/categories/technology.json">categories/technology.json</option>
+        <option value="./api/categories/health.json">categories/health.json</option>
+        <option value="./api/categories/lifestyle.json">categories/lifestyle.json</option>
+        <option value="./api/categories/markets.json">categories/markets.json</option>
+        <option value="./api/categories/weather.json">categories/weather.json</option>
+        <option value="./api/lang/ar.json">lang/ar.json</option>
+        <option value="./api/lang/en.json">lang/en.json</option>
+      </select>
+    </label>
+    <label>Limit:
+      <input id="limit" type="number" min="1" max="4000" value="200" />
+    </label>
+    <label>Filter (contains):
+      <input id="q" type="text" placeholder="title/source/category…" />
+    </label>
+    <button id="reload">Load</button>
+    <span class="muted">Tip: you can also add <span class="mono">?src=…&limit=…&q=…</span> to the URL</span>
+  </section>
+
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th style="width:42%">Title</th>
+        <th>Source</th>
+        <th class="small">Category</th>
+        <th class="small">Lang</th>
+        <th class="small">Time</th>
+      </tr>
+    </thead>
+    <tbody id="rows">
+      <!-- data -->
+    </tbody>
+  </table>
+
+  <footer class="muted">
+    Serving static JSON from <span class="mono">/docs/api/</span>. No UI framework. No tracking.
+  </footer>
+
+<script>
+(function(){
+  const $ = (sel) => document.querySelector(sel);
+  const params = new URLSearchParams(location.search);
+  const srcSel = $('#src');
+  const limitInp = $('#limit');
+  const qInp = $('#q');
+
+  // allow URL params e.g. ?src=./api/lang/ar.json&limit=300&q=egypt
+  if (params.get('src')) srcSel.value = params.get('src');
+  if (params.get('limit')) limitInp.value = params.get('limit');
+  if (params.get('q')) qInp.value = params.get('q');
+
+  $('#reload').addEventListener('click', () => {
+    const url = new URL(location);
+    url.searchParams.set('src', srcSel.value);
+    url.searchParams.set('limit', limitInp.value);
+    url.searchParams.set('q', qInp.value);
+    history.replaceState({}, '', url);
+    load();
+  });
+
+  function fmtTime(iso){
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d)) return '';
+    return d.toISOString().replace('T',' ').replace('Z','Z');
+  }
+
+  function pill(text){
+    const span = document.createElement('span');
+    span.className = 'stat';
+    span.textContent = text;
+    return span;
+  }
+
+  async function load(){
+    const src = srcSel.value || './api/latest.json';
+    const limit = Math.max(1, Math.min(4000, Number(limitInp.value) || 200));
+    const query = (qInp.value || '').toLowerCase().trim();
+
+    const res = await fetch(src, { cache: 'no-store' });
+    if (!res.ok) {
+      $('#refresh').textContent = `Load error: HTTP ${res.status}`;
+      $('#meta').textContent = '';
+      $('#rows').innerHTML = '';
+      $('#stats').innerHTML = '';
+      return;
+    }
+
+    const data = await res.json();
+
+    // meta for latest.json ({meta, items}) vs partitions (array)
+    let items = Array.isArray(data) ? data : (data.items || []);
+    const meta = Array.isArray(data) ? null : (data.meta || null);
+
+    // basic stats
+    $('#stats').innerHTML = '';
+    if (meta) {
+      $('#refresh').textContent = `Last refresh: ${fmtTime(meta.generated_at)}`;
+      const pills = [
+        pill(`items: ${meta.total}`),
+        pill(`processed_feeds: ${meta.processed_feeds}`),
+        pill(`discovered_feeds: ${meta.discovered_feeds}`),
+        pill(`shard ${meta.shard_index + 1 || '-'} of ${meta.shard_of || '-'}`),
+        pill(meta.sports_processed_every_run ? 'sports: every run' : 'sports: sharded')
+      ];
+      pills.forEach(p => $('#stats').appendChild(p));
+      $('#meta').textContent = '';
+    } else {
+      $('#refresh').textContent = `Last refresh: (from file)`;
+      $('#meta').textContent = '';
+    }
+
+    // filter + limit
+    if (query) {
+      items = items.filter(x => {
+        const hay = [
+          x.title || '', x.summary || '', x.category || '',
+          x.lang || '', x.source?.name || '', x.region || ''
+        ].join(' ').toLowerCase();
+        return hay.includes(query);
       });
     }
-    load();
-  </script>
+    items = items.slice(0, limit);
+
+    // render
+    const rows = items.map(x => `
+      <tr>
+        <td>
+          <a href="${x.link}" target="_blank" rel="noopener">${escapeHtml(x.title || '')}</a>
+          ${x.summary ? `<div class="muted">${escapeHtml(x.summary)}</div>` : ''}
+        </td>
+        <td>${escapeHtml(x.source?.name || '')}</td>
+        <td class="small">${escapeHtml(x.category || '')}</td>
+        <td class="small">${escapeHtml(x.lang || '')}</td>
+        <td class="small">${fmtTime(x.pubDate || '')}</td>
+      </tr>
+    `).join('');
+
+    $('#rows').innerHTML = rows || `<tr><td colspan="5" class="muted">No items.</td></tr>`;
+  }
+
+  function escapeHtml(s){
+    return String(s)
+      .replaceAll('&','&amp;')
+      .replaceAll('<','&lt;')
+      .replaceAll('>','&gt;')
+      .replaceAll('"','&quot;')
+      .replaceAll("'", '&#39;');
+  }
+
+  // initial
+  load();
+})();
+</script>
 </body>
 </html>
