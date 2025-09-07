@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-09-07T15:26:49.417Z",
-    "total": 182,
+    "generated_at": "2025-09-07T15:36:50.714Z",
+    "total": 184,
     "processed_feeds": 21,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,15 +9,28 @@
     "shard_index": 1,
     "results": [
       {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "url": "https://www.skynewsarabia.com/rss/technology.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
-        "lang": "ar",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 100,
+        "taken": 54,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -48,29 +61,16 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
+        "name": "Sky News Arabia — تكنولوجيا",
+        "url": "https://www.skynewsarabia.com/rss/technology.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 52,
+        "taken": 100,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
         "notModified": false
       },
       {
@@ -87,16 +87,29 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -126,19 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Masrawy - رياضة",
         "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
@@ -149,19 +149,6 @@
         ],
         "taken": 10,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main/rss",
-        "homepage": "https://www.thekitchn.com/main/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -178,6 +165,19 @@
         "notModified": false
       },
       {
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main/rss",
+        "homepage": "https://www.thekitchn.com/main/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Al Arabiya — اقتصاد",
         "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
@@ -188,6 +188,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "9to5Google",
+        "url": "https://9to5google.com/feed/",
+        "homepage": "https://9to5google.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -217,49 +243,10 @@
         "notModified": false
       },
       {
-        "name": "9to5Google",
-        "url": "https://9to5google.com/feed/",
-        "homepage": "https://9to5google.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
         "name": "Android Authority",
         "url": "https://www.androidauthority.com/feed/",
         "homepage": "https://www.androidauthority.com/feed/",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "AI الملتقى (AITnews)",
-        "url": "https://aitnews.com/feed/",
-        "homepage": "https://aitnews.com/feed/",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -279,6 +266,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "AI الملتقى (AITnews)",
+        "url": "https://aitnews.com/feed/",
+        "homepage": "https://aitnews.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       }
     ]
@@ -445,13 +445,13 @@
       "region": "global"
     },
     {
-      "id": "781d692174561197",
-      "title": "Twelve-try Italy beat Brazil to end World Cup with win",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cy8r75k5xv9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Italy score 12 tries to beat Brazil 64-3 and finish the 2025 Women's Rugby World Cup with a bonus-point win.",
+      "id": "3fa777589c619496",
+      "title": "Piastri told to let Norris past as Verstappen wins",
+      "link": "https://www.bbc.com/sport/formula1/articles/cx2rn7y5r36o?at_medium=RSS&at_campaign=rss",
+      "summary": "McLaren's approach to racing in the title fight between their drivers sparked controversy as Red Bull's Max Verstappen won the Italian Grand Prix.",
       "body": null,
       "image": null,
-      "pubDate": "2025-09-07T15:16:03.000Z",
+      "pubDate": "2025-09-07T15:34:57.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -461,13 +461,61 @@
       "region": "global"
     },
     {
-      "id": "3fa777589c619496",
-      "title": "Piastri told to let Norris past as Verstappen wins",
-      "link": "https://www.bbc.com/sport/formula1/articles/cx2rn7y5r36o?at_medium=RSS&at_campaign=rss",
-      "summary": "McLaren's approach to racing in the title fight between their drivers sparked controversy as Red Bull's Max Verstappen won the Italian Grand Prix.",
+      "id": "e5cc924008226f34",
+      "title": "Sabalenka retains US Open to win first grand slam of 2025",
+      "link": "https://www.bbc.com/sport/tennis/videos/cwy8g1nklp2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Defending champion Aryna Sabalenka beats American Amanda Anisimova 6-3 7-6 (7-3) to retain the US Open and win her first grand slam of 2025, having already lost the Australian and French Open finals earlier this year.",
       "body": null,
       "image": null,
-      "pubDate": "2025-09-07T15:01:30.000Z",
+      "pubDate": "2025-09-07T15:27:44.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4bd65d70fad39c59",
+      "title": "Gregoire wins Tour of Britain as Thomas retires",
+      "link": "https://www.bbc.com/sport/cycling/articles/c931p0q72wqo?at_medium=RSS&at_campaign=rss",
+      "summary": "French rider Roman Gregoire takes Green Jersey at Tour of Britain as Geraint Thomas completes final ever race.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-07T15:24:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4bd65d70fad39c59",
+      "title": "Gregoire wins Tour of Britain as Thomas retires",
+      "link": "https://www.bbc.com/sport/cycling/articles/c931p0q72wqo?at_medium=RSS&at_campaign=rss",
+      "summary": "French rider Roman Gregoire takes Green Jersey at Tour of Britain as Geraint Thomas completes final ever race.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-07T15:24:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "781d692174561197",
+      "title": "Twelve-try Italy beat Brazil to end World Cup with win",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cy8r75k5xv9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Italy score 12 tries to beat Brazil 64-3 and finish the 2025 Women's Rugby World Cup with a bonus-point win.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-07T15:16:03.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1194,22 +1242,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ef4a790809c91e2a",
-      "title": "Thousands to line streets for Thomas' final race",
-      "link": "https://www.bbc.com/sport/cycling/articles/c1dq5gz4krko?at_medium=RSS&at_campaign=rss",
-      "summary": "Geraint Thomas ends his glittering career at the Tour of Britain finishing line in his hometown Cardiff later today.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-07T04:18:37.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
