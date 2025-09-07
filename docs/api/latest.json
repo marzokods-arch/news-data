@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-09-07T13:54:56.968Z",
-    "total": 179,
+    "generated_at": "2025-09-07T14:29:17.555Z",
+    "total": 178,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 52,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -18,32 +31,6 @@
           "general"
         ],
         "taken": 0,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 21,
         "error": null,
         "notModified": false
       },
@@ -61,32 +48,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 51,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 45,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -97,19 +58,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
         "notModified": false
       },
       {
@@ -126,6 +74,19 @@
         "notModified": false
       },
       {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 21,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Food52",
         "url": "https://food52.com/blog.rss",
         "homepage": "https://food52.com/blog.rss",
@@ -139,6 +100,19 @@
         "notModified": false
       },
       {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Oilprice.com — Latest",
         "url": "https://oilprice.com/rss/main",
         "homepage": "https://oilprice.com/rss/main",
@@ -148,6 +122,45 @@
           "general"
         ],
         "taken": 7,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
         "error": null,
         "notModified": false
       },
@@ -165,32 +178,6 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
         "homepage": "https://www.kooora.com/",
@@ -201,6 +188,32 @@
         ],
         "taken": 20,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -217,10 +230,10 @@
         "notModified": false
       },
       {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "lang": "ar",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -230,9 +243,9 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -267,23 +280,42 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "b8b4d69cd0b8a4d1",
+      "title": "Nightdive Studios says System Shock 2's multiplayer was 'so hard to get working' for modern platforms, but you should still 'probably play it in singleplayer first to get the true experience'",
+      "link": "https://www.pcgamer.com/games/rpg/nightdive-studios-says-system-shock-2s-multiplayer-was-so-hard-to-get-working-for-modern-platforms-but-you-should-still-probably-play-it-in-singleplayer-first-to-get-the-true-experience/",
+      "summary": "Nightdive Studios says System Shock 2's multiplayer was 'so hard to get working' for modern platforms, but you should still 'probably play it in singleplayer first to get the true experience'",
+      "body": "One of System Shock 2 's more unusual quirks is how it supports four player co-op. This was extremely rare in PC gaming in general at the tail end of the nineties, and it makes System Shock 2 unique among the classic immersive sims. With its 25 th anniversary remaster, Nightdive Studios wanted to ensure this co-op functionality was brought up to date with the rest of System Shock 2. Yet according to producer Daniel Grayshon, getting it to work was a nightmare worthy of SHODAN herself. Speaking on the Nightdive Studios Deep Dive podcast, Grayshon explains the sticking point was how System Shock 2 uses an old-fashioned direct IP connection based on DirectPlay. \"[This] was a very old Windows built-in functionality to do some redirecting somewhere and ultimately try to end up at the destination,\" he says. Aside from DirectPlay being insecure by modern standards, Nightdive also wanted the remaster to support crossplay between PS5, Xbox, Switch and so forth. \"We need to strip this out, completely strip this out. We can't have direct connections anymore because the consoles will not allow that at all,\" Grayshon explains. \"We need to construct some kind of lobby system, and we need to tap…",
+      "image": "https://cdn.mos.cms.futurecdn.net/NWRnVkpy38KPoegVQmoNFZ-1280-80.jpg",
+      "pubDate": "2025-09-07T14:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6d48467a51811743",
+      "title": "McColgan third in Great North Run as Chepkirui wins",
+      "link": "https://www.bbc.com/sport/athletics/articles/c20e7r4jg35o?at_medium=RSS&at_campaign=rss",
+      "summary": "Kenya's Sheila Chepkirui claims victory in the Great North Run women's race as Eilish McColgan finished third.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-07T13:56:17.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "47f54ada9c185d58",
       "title": "Bethell scores 'magnificent'  first hundred",
@@ -306,7 +338,7 @@
       "link": "https://www.investing.com/news/analyst-ratings/evercore-isi-maintains-kenvue-stock-rating-amid-tylenol-autism-study-concerns-93CH-4227953",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC210Z4_M.jpg",
       "pubDate": "2025-09-07T13:43:14.000Z",
       "source": {
         "name": "Investing.com News (EN)",
@@ -525,22 +557,6 @@
       "region": "global"
     },
     {
-      "id": "0b8a3c1adaa73fe3",
-      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.58%",
-      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-058-4227947",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC470BW_M.jpg",
-      "pubDate": "2025-09-07T12:45:04.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "e0182830df8cd6d6",
       "title": "Can TIFF’s Content Market Compete With AFM and Cannes?",
       "link": "https://www.hollywoodreporter.com/movies/movie-news/tiff-content-market-compete-afm-cannes-1236363256/",
@@ -557,20 +573,84 @@
       "region": "global"
     },
     {
-      "id": "6d48467a51811743",
-      "title": "McColgan third in Great North Run as Chepkirui wins",
-      "link": "https://www.bbc.com/sport/athletics/articles/c20e7r4jg35o?at_medium=RSS&at_campaign=rss",
-      "summary": "Kenya's Sheila Chepkirui claims victory in the Great North Run women's race as Eilish McColgan finished third.",
-      "body": null,
+      "id": "96f18225634daba2",
+      "title": "بيلينجهام يفاجئ ريال مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blte2d7abfcc4c8ee0f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "زف تقرير صحفي إسباني، نبأ سارًا لجماهير ريال مدريد، بشأن نجمهم الدولي الإنجليزي جود بيلينجهام.",
+      "body": "زف تقرير صحفي إسباني، نبأ سارًا لجماهير ريال مدريد، بشأن نجمهم الدولي الإنجليزي جود بيلينجهام. وخضع بيلينجهام لعملية جراحية في الكتف، عقب انتهاء مشوار الريال في كأس العالم للأندية، وكان من المقرر أن يغيب اللاعب حتى نهاية الشهر المقبل. ومع ذلك، كشفت صحيفة \" ماركا \" أن اللاعب يتعافى من الإصابة بشكل أسرع من المتوقع، مما يجعل احتمالية عودته للملاعب في توقيت مبكر. وأشار التقرير إلى أن بيلينجهام قد يشارك في جزء من التدريبات هذا الأسبوع، ضمن برنامجه التأهيلي الذي وضعه أطباء ريال مدريد. ويعاني بيلينجهام من إصابة في الكتف منذ عام 2023، تعرض لها في مباراة ضد رايو فاليكانو في 5 نوفمبر/تشرين ثان 2023. وكان من المقرر إجراء العملية في نهاية الموسم الماضي، ولكن مشاركته في بطولة \"يورو 2024\" منعت ذلك.",
       "image": null,
-      "pubDate": "2025-09-07T12:28:37.000Z",
+      "pubDate": "2025-09-07T12:27:21.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
+    },
+    {
+      "id": "35cf0fbfb439691b",
+      "title": "حقيقة مشاركة أيمن حسين مصاباً في ودية العراق وتايلاند",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D8%A7%D9%94%D9%8A%D9%85%D9%86-%D8%AD%D8%B3%D9%8A%D9%86-%D9%85%D8%B5%D8%A7%D8%A8%D8%A7%D9%8B-%D9%81%D9%8A-%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%88%D8%AA%D8%A7%D9%8A%D9%84%D8%A7%D9%86%D8%AF/blt52c8e56a07fda7a5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>&nbsp;دار جدل واسع حول مشاركة أيمن حسين، مهاجم منتخب العراق في ودية تايلاند، مساء اليوم الأحد في نهائي كأس ملك تايلاند.</p><p style=\"direction: rtl;\">وشارك أيمن حسين أساسياً في مباراة تايلاند كقائد للهجوم، ولكنه اشتكى من بعض الآلام أثناء تدريبات الإحماء.</p><p style=\"direction: rtl;\">وبحسب سلام …",
+      "body": "&nbsp;دار جدل واسع حول مشاركة أيمن حسين، مهاجم منتخب العراق في ودية تايلاند، مساء اليوم الأحد في نهائي كأس ملك تايلاند. وشارك أيمن حسين أساسياً في مباراة تايلاند كقائد للهجوم، ولكنه اشتكى من بعض الآلام أثناء تدريبات الإحماء. وبحسب سلام المناصير المنسق الإعلامي للمنتخب العراقي عبر تصريحات تلفزيونية، فإن أيمن حسين اشتكى من بعض الآلام وغادر تدريبات الإحماء وخضع للعلاج، ولكن جاهزيته تأكدت لخوض المباراة. وأشار إلى أن تصرف أيمن حسين كان احترافياً لأن التحضيرات الحالية هدفها تجهيز منتخب العراق لخوض منافسات الملحق الآسيوي المقرر في الشهر المقبل. ويلعب منتخب العراق ضد إندونيسيا والسعودية في ملحق تصفيات آسيا المؤهلة إلى كأس العالم 2026 في شهر أكتوبر المقبل. &nbsp;",
+      "image": null,
+      "pubDate": "2025-09-07T12:26:35.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "21dde761da1622f4",
+      "title": "قبل مواجهة الخلود.. ثلاثي النصر تحت القيود الطبية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D9%82%D9%8A%D9%88%D8%AF-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9/blt5282e608d93cdefe?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فرض البرتغالي كارلوس ميجيل، طبيب نادي النصر، قيودًا طبية صارمة على الثلاثي أيمن يحيى، نادر الشراري، وعبد الإله العمري.",
+      "body": "فرض البرتغالي كارلوس ميجيل، طبيب نادي النصر، قيودًا طبية صارمة على الثلاثي أيمن يحيى، نادر الشراري، وعبد الإله العمري. &nbsp; ووفقًا لصحيفة \" الرياضية \" السعودية، فإن الطبيب ألزم اللاعبين العيادة بدلاً من الاستفادة من الإجازة التي منحها جورجي جيسوس، مدرب الفريق، لبقية اللاعبين. &nbsp; وقالت الصحيفة إن التقرير الطبي أشار إلى أن أيمن يحيى بات قريبًا من العودة للتدريبات الجماعية، حيث ينتظر أن ينهي برنامجه التأهيلي خلال خمسة أيام ليصبح جاهزًا قبل مواجهة الخلود، المقررة في 14 سبتمبر/أيلول الجاري على ملعب الأول بارك بالرياض. &nbsp; وأضافت الصحيفة أن الشراري يعاني من آلام في العضلة الأمامية، فيما يشكو العمري من إصابة في مفصل القدم، ما دفع الجهاز الطبي لوضع برنامج خاص لتجهيزهما قبل الجولة الثالثة من دوري روشن السعودي. &nbsp; يُذكر أن النصر سيستأنف تدريباته، غدًا الإثنين، بعد أن خاض مناورة كروية أمام فريق تحت 21 عامًا، السبت الماضي، ضمن استعداداته لاستكمال مشواره في الدوري.",
+      "image": null,
+      "pubDate": "2025-09-07T12:21:33.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c8d7e44f2a582c1d",
+      "title": "تحرك ثنائي لخطف لاعب اتحاد جدة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AD%D8%B1%D9%83-%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D9%84%D8%AE%D8%B7%D9%81-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9/bltc55e0ffd166607bb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تلقى أحمد الغامدي، لاعب وسط اتحاد جدة، مجموعة عروض من بعض أندية دوري روشن السعودي، خلال فترة الانتقالات الصيفية الجارية 2025.",
+      "body": "تلقى أحمد الغامدي، لاعب وسط اتحاد جدة، مجموعة عروض من بعض أندية دوري روشن السعودي، خلال فترة الانتقالات الصيفية الجارية 2025. ووفقًا لصحيفة \"الرياضية\"، فقد تقدم ناديان من دوري روشن، بعرضين رسميين لاستعارة الغامدي. وأوضحت الصحيفة أن إدارة اتحاد جدة لم تصدر أي رد فعل حتى الآن، في وقت يملك فيه الغامدي، عقدًا يمتد حتى صيف 2027. وانضم أحمد الغامدي إلى اتحاد جدة في يناير/كانون ثان 2024 قادمًا من الاتفاق، على سبيل الإعارة، قبل أن يوقع عقدًا دائمًا. وخرج الغامدي من حسابات مدربه الفرنسي لوران بلان، ليعار لاحقًا إلى نيوم، مكتفيًا بالظهور في 4 مباريات فقط خلال الموسم الماضي.",
+      "image": null,
+      "pubDate": "2025-09-07T12:20:05.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f908389d36b5031d",
+      "title": "جوارديولا: ندمت على السماح برحيل هذا اللاعب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D9%86%D8%AF%D9%85%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%AD-%D8%A8%D8%B1%D8%AD%D9%8A%D9%84-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D9%84%D8%A7%D8%B9%D8%A8/blt571571b152e2ab16?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>&nbsp;اعترف بيب جوارديولا، المدير الفني لمانشستر سيتي، بأكثر قرار ندم عليه مع السيتيزنس، منذ أن تولى قيادة الفريق عام 2016.</p><p style=\"direction: rtl;\">وقال بيب، في تصريحات نقلتها صحيفة \"آس\" الإسبانية، إن هذا القرار تمثل في موافقته على رحيل اللاعب الإسباني خيسوس نافاس.</p><p style=\"direction: …",
+      "body": "&nbsp;اعترف بيب جوارديولا، المدير الفني لمانشستر سيتي، بأكثر قرار ندم عليه مع السيتيزنس، منذ أن تولى قيادة الفريق عام 2016. وقال بيب، في تصريحات نقلتها صحيفة \"آس\" الإسبانية، إن هذا القرار تمثل في موافقته على رحيل اللاعب الإسباني خيسوس نافاس. وانضم نافاس إلى مانشستر سيتي في يوليو/تموز 2013، وغادر في عام 2017. ولم يتدرب نافاس مع جوارديولا سوى في أول موسم للمدرب الإسباني مع الفريق. وسئل جوارديولا عن اللاعب الذي يعتقد أنه كان يستحق البقاء في مانشستر سيتي لفترة أطول، وقال: \"سأختار اسمًا بشكل واضح، خيسوس نافاس\". وأكد جوارديولا، أن أكثر قرار ندم عليه في فترة وجوده مع مانشستر هو السماح لخيسوس نافاس بالرحيل مبكرًا، مشددًا: \"كان ينبغي أن يبقى معنا لفترة أطول\". واعتزل خيسوس نافاس، البالغ من العمر 39 عامًا، كرة القدم في الموسم الماضي، بعدما شارك في 16 مباراة مع إشبيلية، سجل خلالها هدفًا واحدًا ولم يُقدم أي تمريرة حاسمة. &nbsp;",
+      "image": null,
+      "pubDate": "2025-09-07T12:18:47.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "054ca7ad8a4742ac",
@@ -587,6 +667,54 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "8b6454a1b0f9f353",
+      "title": "حسام حسن يستبعد حمدي فتحي من لقاء بوركينا فاسو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D9%8A%D8%B3%D8%AA%D8%A8%D8%B9%D8%AF-%D8%AD%D9%85%D8%AF%D9%8A-%D9%81%D8%AA%D8%AD%D9%8A-%D9%85%D9%86-%D9%84%D9%82%D8%A7%D8%A1-%D8%A8%D9%88%D8%B1%D9%83%D9%8A%D9%86%D8%A7-%D9%81%D8%A7%D8%B3%D9%88/bltb65a25b427f1aae6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "استبعد حسام حسن، المدير الفني لمنتخب مصر، اللاعب حمدي فتحي نجم خط وسط الوكرة القطري من قائمة الفراعنة التي تسافر مساء اليوم الأحد إلى بوركينا فاسو.",
+      "body": "استبعد حسام حسن، المدير الفني لمنتخب مصر، اللاعب حمدي فتحي نجم خط وسط الوكرة القطري من قائمة الفراعنة التي تسافر مساء اليوم الأحد إلى بوركينا فاسو. &nbsp; ويخوض منتخب مصر مواجهة مرتقبة بعد غدٍ الثلاثاء ضد مضيفه بوركينا فاسو في الجولة الثامنة للمجموعة الأولى بالتصفيات المؤهلة إلى كأس العالم 2026. &nbsp; وقال إبراهيم حسن مدير المنتخب في تصريحات للمركز الإعلامي للاتحاد المصري إن حمدي فتحي اشتكى من إصابة في وجه القدم عقب انتهاء مباراة إثيوبيا مساء الجمعة الماضي. &nbsp; وأوضح أن اللاعب خضع لفحوصات طبية أثبتت إصابته في وجه القدم وكانت هناك محاولات لتجهيز اللاعب للحاق بمباراة بوركينا فاسو لكن تم الاستقرار في نهاية الأمر علي إراحة اللاعب بناء على طلبه. &nbsp; ويستعيد منتخب مصر خدمات مروان عطية لاعب الوسط بعد نهاية إيقافه كما يضم الثنائي مهند لاشين ونبيل عماد \"دونجا\" في مركز خط الوسط المدافع.",
+      "image": null,
+      "pubDate": "2025-09-07T12:13:10.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "5cb1b317a6a9b2de",
+      "title": "أبو ريدة يتنازل عن رئاسة بعثة الفراعنة في موقعة الحسم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%A8%D9%88-%D8%B1%D9%8A%D8%AF%D8%A9-%D9%8A%D8%AA%D9%86%D8%A7%D8%B2%D9%84-%D8%B9%D9%86-%D8%B1%D9%8A%D9%94%D8%A7%D8%B3%D8%A9-%D8%A8%D8%B9%D8%AB%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%B9%D9%86%D8%A9-%D9%81%D9%8A-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%85/bltcfce3f66fd613400?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تنازل هاني أبو ريدة رئيس الاتحاد المصري لكرة القدم، عن رئاسة بعثة منتخب الفراعنة في بوركينا فاسو.",
+      "body": "تنازل هاني أبو ريدة رئيس الاتحاد المصري لكرة القدم، عن رئاسة بعثة منتخب الفراعنة في بوركينا فاسو. وقال بيان صادر عن الاتحاد المصري، إن أبو ريدة كلف نائبه خالد الدرندلي، بمرافقة بعثة المنتخب الوطني إلى بوركينا فاسو، بعد إصابته بنزلة برد، حذر معها الأطباء من خطورة اختلاطه بأعضاء البعثة. ويحل منتخب مصر، ضيفًا بعد غد الثلاثاء، على بوركينا فاسو، في الجولة الثامنة بالمجموعة الأولى بالتصفيات الأفريقية المؤهلة إلى كأس العالم 2026. وسيتأهل منتخب مصر رسميًا إلى كأس العالم، حال فوزه على بوركينا فاسو. ويحتل منتخب مصر، صدارة ترتيب المجموعة الأولى برصيد 19 نقطة، بفارق 5 نقاط عن بوركينا فاسو صاحبة المركز الثاني. وفاز منتخب مصر على إثيوبيا بنتيجة 2-0 يوم الجمعة الماضي، في الجولة السابعة.",
+      "image": null,
+      "pubDate": "2025-09-07T12:10:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "fe388578d6d49f5a",
+      "title": "برشلونة يتطلع لإحراز تقدم في ملف إريك جارسيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%AA%D8%B7%D9%84%D8%B9-%D9%84%D8%A7%D9%95%D8%AD%D8%B1%D8%A7%D8%B2-%D8%AA%D9%82%D8%AF%D9%85-%D9%81%D9%8A-%D9%85%D9%84%D9%81-%D8%A7%D9%95%D8%B1%D9%8A%D9%83-%D8%AC%D8%A7%D8%B1%D8%B3%D9%8A%D8%A7/blt197ca96a689351e7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رغبة مشتركة بين اللاعب والنادي الكتالوني",
+      "body": "يخطط نادي برشلونة، لتجديد عقد مدافعه إريك جارسيا، في ظل الأداء الجيد الذي قدمه تحت قيادة هانز فليك، وذلك بحسب تقرير صحفي إسباني. وبحسب صحيفة \"سبورت\" الكتالونية، فإن برشلونة يسعى لتجديد عقد جارسيا قبل نهاية عام 2025، لمدة خمس سنوات حتى عام 2030. وسيبلغ جارسيا 29 عامًا بحلول عام 2030، ويبدو أن لديه نفس الرغبة أيضًا. ولفتت الصحيفة، إلى أنه إذا لم ينجح برشلونة في تجديد عقد جارسيا، قبل يناير/كانون الثاني المقبل، سيكون بإمكانه التوقيع لأي نادٍ مع مطلع 2026. وأضافت أن برشلونة مهتم بتجديد عقد جارسيا منذ أبريل/نيسان الماضي، لكن انشغال النادي في الانتقالات ومشاكل التسجيل، وتأخير تمديد عقد فرينكي دي يونج أجلت الملف بعض الشيء. ولكن، يبدو الآن أن المدير الرياضي ديكو يتطلع إلى إحراز تقدم في الصفقة، وفقا لـ \"سبورت\". ويعد جارسيا عنصرًا مهمًا بالنسبة لبرشلونة، خاصة أنه يجيد في 3 مراكز: لاعب الوسط وقلب الدفاع والظهير.",
+      "image": null,
+      "pubDate": "2025-09-07T12:04:01.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "17c3269ee4797b4a",
@@ -621,6 +749,22 @@
       "region": "global"
     },
     {
+      "id": "f1b26877c0267145",
+      "title": "السر في عوار.. كيف يتعامل الاتحاد مع أكبر أزمات الموسم؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B3%D8%B1-%D9%81%D9%8A-%D8%B9%D9%88%D8%A7%D8%B1-%D9%83%D9%8A%D9%81-%D9%8A%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%85%D8%B9-%D8%A7%D9%94%D9%83%D8%A8%D8%B1-%D8%A7%D9%94%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85/bltf43e17fd49b6a3b8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"text-align: right;\">يواجه اتحاد جدة واحدة من أكبر الأزمات الفنية خلال الموسم الحالي، الذي سيشهد العديد من التحديات المختلفة بكافة المسابقات المحلية والقارية.</p><p style=\"text-align: right;\">الاتحاد حامل لقب الدوري وكأس الملك في الموسم الماضي، يطمح للحفاظ على القمة، بالإضافة لمشاركته المن…",
+      "body": "يواجه اتحاد جدة واحدة من أكبر الأزمات الفنية خلال الموسم الحالي، الذي سيشهد العديد من التحديات المختلفة بكافة المسابقات المحلية والقارية. الاتحاد حامل لقب الدوري وكأس الملك في الموسم الماضي، يطمح للحفاظ على القمة، بالإضافة لمشاركته المنتظرة في البطولة الآسيوية التي أصبحت أقوى من السابق، نظرًا لنظامها الجديد تحت مسمى النخبة. وبطبيعة الحال، لن يتحقق النجاح المطلوب، سوى بالحفاظ على أغلب العناصر الأساسية، وهو ما سيجد الاتحاد فيه أزمة كبرى، نظرًا لإمكانية غياب الجزائري حسام عوار في العديد من المباريات. غياب متوقع يعد حوار أحد أهم الأسلحة في صفوف اتحاد جدة منذ بداية الموسم، وهو الدور الذي لا يقل أهمية عن وجوده في منتخب الجزائر الذي سينافس بقوة على بطولة كأس الأمم الأفريقية 2025. وبنسبة كبيرة، سيكون عوار أحد عناصر \"محاربي الصحراء\" في البطولة الأفريقية، ما يضع الاتحاد في أزمة خلال وقت حساس من الموسم، خاصة وأن \"الكان\" ستقام خلال الفترة من 21 ديسمبر/كانون الأول 2025 حتى 18 يناير/كانون ثانٍ. وبالتالي، فإن عوار سيغيب بشكل مبدئي عن مباريات الاتحاد، أثناء مشاركته مع الجزائر ضد السودان وبوركينا فاسو وغينيا الاستوائية بدور المجموعات. وحال واصل المنتخب الجزائري مشواره في البطولة حتى النهائي، فإن عوار سيغيب عن الاتحاد خلال 10 مباريات متتالية على المستويين المحلي والأفريقي. وتتمثل الـ10 مباريات في ا…",
+      "image": null,
+      "pubDate": "2025-09-07T11:59:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "db9f4a921ff5cc40",
       "title": "Top Wall Street analysts prefer these 3 dividend-paying stocks for consistent income",
       "link": "https://www.cnbc.com/2025/09/07/top-wall-street-analysts-prefer-these-3-dividend-paying-stocks-for-consistent-income.html",
@@ -637,11 +781,11 @@
       "region": "global"
     },
     {
-      "id": "2c21c347629d2077",
-      "title": "الركراكي يحدث أهداف الأسود بعد التأهل للمونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%83%D8%B1%D8%A7%D9%83%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AB-%D8%A7%D9%94%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D9%88%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%84%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/bltd371c330ba150b89?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "51fb445634fbeb5f",
+      "title": "الركراكي يحدد أهداف الأسود بعد التأهل للمونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%83%D8%B1%D8%A7%D9%83%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AF-%D8%A7%D9%94%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D9%88%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%84%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/bltd371c330ba150b89?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "إنهاء التصفيات من دون هزيمة يعني الكثير لمدرب المغرب",
-      "body": "أكد وليد الركراكي المدير الفني لمنتخب المغرب أنه يستهدف إنهاء مشواره بالتصفيات المؤهلة لكأس العالم 2026، دون خسارة. ويستعد أسود الأطلس الذين حسموا أولى بطاقات التأهل عن قارة أفريقيا لمونديال أمريكا وكندا والمكسيك، لمواجهة زامبيا في الجولة الثامنة من التصفيات غدا الاثنين، وذلك بعدما اكتسحوا النيجر 5-0، الجمعة الماضي. وقال مدرب المغرب في المؤتمر الصحفي لمباراة زامبيا اليوم الأحد: \"هدفنا واضح، وهو أن ننهي دور المجموعات دون هزيمة. هذا يعني لنا الكثير\". وتابع: \"أتينا مرهقين بعض الشيء لكن لا أبحث عن الأعذار لأننا سنلعب كي ننتصر\". وأضاف: \"سجلنا ما يقرب من 40 هدفا هذا العام، ولم نخسر منذ عام ونصف، كما انتصرنا في 13 مباراة تواليا، لذلك نستهدف تعزيز حزمة أرقامنا القياسية رغم التأهل للمونديال\". واختتم المدرب المغربي: \"المنافس سيحاول الثأر لخسارة الذهاب، وأنا سأحاول تجربة عناصر أخرى مع إراحة القائد حكيمي\". &nbsp;",
+      "body": "أكد وليد الركراكي المدير الفني لمنتخب المغرب أنه يستهدف إنهاء مشواره بالتصفيات المؤهلة لكأس العالم 2026، دون خسارة. ويستعد أسود الأطلس الذين حسموا أولى بطاقات التأهل عن قارة أفريقيا لمونديال أمريكا وكندا والمكسيك، لمواجهة زامبيا في الجولة الثامنة من التصفيات غدا الاثنين، وذلك بعدما اكتسحوا النيجر 5-0، الجمعة الماضي. وقال مدرب المغرب في المؤتمر الصحفي لمباراة زامبيا اليوم الأحد: \"هدفنا واضح، وهو أن ننهي دور المجموعات دون هزيمة. هذا يعني لنا الكثير\". وتابع: \"أتينا مرهقين بعض الشيء لكن لا أبحث عن الأعذار لأننا سنلعب كي ننتصر\". وأضاف: \"سجلنا ما يقرب من 40 هدفا هذا العام، ولم نخسر منذ عام ونصف، كما انتصرنا في 13 مباراة تواليا، لذلك نستهدف تعزيز حزمة أرقامنا القياسية رغم التأهل للمونديال\". واختتم المدرب المغربي: \"المنافس سيحاول الثأر لخسارة الذهاب، وأنا سأحاول تجربة عناصر أخرى مع إراحة القائد حكيمي\".",
       "image": null,
       "pubDate": "2025-09-07T11:53:21.000Z",
       "source": {
@@ -877,86 +1021,6 @@
       "region": "mena"
     },
     {
-      "id": "233ff11203166bbc",
-      "title": "كوناتي: مبابي يتصل بي كل ساعتين للانتقال إلى ريال مدريد!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%88%D9%86%D8%A7%D8%AA%D9%8A-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%8A%D8%AA%D8%B5%D9%84-%D8%A8%D9%8A-%D9%83%D9%84-%D8%B3%D8%A7%D8%B9%D8%AA%D9%8A%D9%86-%D9%84%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A7%D9%95%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt39fd2577dc184b13?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>تحدث الفرنسي إبراهيما كوناتي، مدافع ليفربول، البالغ من العمر 26 عاماً، عن أنباء ارتباطه بالانتقال إلى ريال مدريد خلال الميركاتو الصيفي المقبل.</p><p>ولم يجدد المدافع الفرنسي عقده مع ليفربول حتى الآن، والذي ينتهي في صيف 2026، ما جعل الكثيرين يتوقعون انضمامه إلى الفريق الملكي في صفقة انتقال حر.</p…",
-      "body": "تحدث الفرنسي إبراهيما كوناتي، مدافع ليفربول، البالغ من العمر 26 عاماً، عن أنباء ارتباطه بالانتقال إلى ريال مدريد خلال الميركاتو الصيفي المقبل. ولم يجدد المدافع الفرنسي عقده مع ليفربول حتى الآن، والذي ينتهي في صيف 2026، ما جعل الكثيرين يتوقعون انضمامه إلى الفريق الملكي في صفقة انتقال حر. وظهر كوناتي، في مقابلة مع برنامج \" تيليفوت \" الفرنسي، حيث وُجهت له أسئلة حول مستقبله وإمكانية انتقاله إلى ريال مدريد. وأجاب المدافع على هذه الأنباء بروح الدعابة، خاصة عندما سُئل إذا كان كيليان مبابي، مهاجم الميرنجي وزميله في المنتخب الفرنسي، يمارس ضغوطاً عليه من أجل الانتقال إلى ريال مدريد وقال كوناتي ضاحكاً: \"نعم، كيليان مبابي يتصل بي كل ساعتين\".. وهي الإجابة التي أثارت موجة من الضحك داخل الاستوديو. وكانت تقارير صحفية سابقة أشارت إلى أن المدافع الفرنسي مرشح لتعزيز دفاع ريال مدريد هذا الموسم، إلا أن ليفربول رفض التخلي عن لاعبه.",
-      "image": null,
-      "pubDate": "2025-09-07T10:24:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6ec6e2894726e628",
-      "title": "نجم تشيلسي غير متحمس لعرض سعودي ضخم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A-%D8%BA%D9%8A%D8%B1-%D9%85%D8%AA%D8%AD%D9%85%D8%B3-%D9%84%D8%B9%D8%B1%D8%B6-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%B6%D8%AE%D9%85/blt7d5ed9633dc00695?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رغبة النادي السعودي تصطدم بحلم المونديال",
-      "body": "دخل نادي القادسية السعودي بقوة على خط المفاوضات خلال سوق الانتقالات الصيفية 2025، من أجل التعاقد مع لاعب الوسط البرازيلي الواعد أندريه سانتوس، نجم تشيلسي الإنجليزي. ووفا لصحيفة \"ميرور\" البريطانية، فإن القادسية قدم عرضا قيمته نحو 59.5 مليون جنيه إسترليني من أجل التعاقد مع أندريه سانتوس. وقالت الصحيفة إن القادسية عرض أيضًا راتبا ضخما لإقناعه بالانتقال إلى الدوري السعودي للمحترفين، إلا أن سانتوس (20 عامًا) لم يبد حماسًا لهذه الخطوة في الوقت الحالي. وأكدت الصحيفة أن اللاعب يضع في مقدمة أولوياته حجز مكان أساسي في قائمة منتخب البرازيل، تحت قيادة المدرب كارلو أنشيلوتي، استعدادًا لمونديال 2026. ويعد سانتوس من أبرز المواهب الصاعدة في أوروبا، بعدما قدم مستويات مميزة خلال فترة إعارته إلى ستراسبورج الفرنسي الموسم الماضي، ما جعل مدرب تشيلسي إنزو ماريسكا يتمسك ببقائه في لندن هذا الصيف. وشارك سانتوس مع تشيلسي في المباريات الثلاث الأولى بالدوري الإنجليزي الممتاز هذا الموسم، لكنه لم يلعب كأساسي حتى الآن، بإجمالي دقائق 48 دقيقة فقط، وترى إدارة النادي اللندني أن اللاعب يمثل مشروعًا طويل الأمد، وترفض بشكل قاطع فكرة الاستغناء عنه.",
-      "image": null,
-      "pubDate": "2025-09-07T10:22:04.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "30f96f50016f38fd",
-      "title": "بعد الإجازة المفاجئة.. هل يلحق كانتي بمواجهة الفتح؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%A7%D9%95%D8%AC%D8%A7%D8%B2%D8%A9-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94%D8%A9-%D9%87%D9%84-%D9%8A%D9%84%D8%AD%D9%82-%D9%83%D8%A7%D9%86%D8%AA%D9%8A-%D8%A8%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%AA%D8%AD/blt8fe10ea9e9358159?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"text-align: right;\">تحوم حالة من الشك حول لحاق الفرنسي نجولو كانتي، لاعب وسط اتحاد جدة، بمواجهة فريقه ضد الفتح، المقرر إقامتها، مساء الجمعة المقبل، في إطار منافسات الجولة الثانية من دوري روشن للمحترفين.</p><p style=\"text-align: right;\">وكان الاتحاد أعلن أمس السبت عن حصول كانتي على إجازة م…",
-      "body": "تحوم حالة من الشك حول لحاق الفرنسي نجولو كانتي، لاعب وسط اتحاد جدة، بمواجهة فريقه ضد الفتح، المقرر إقامتها، مساء الجمعة المقبل، في إطار منافسات الجولة الثانية من دوري روشن للمحترفين. وكان الاتحاد أعلن أمس السبت عن حصول كانتي على إجازة من الجهاز الفني، بقيادة الفرنسي لوران بلان، لأسباب خاصة. وبحسب صحيفة \"اليوم\" السعودية، فإن كانتي سيلتحق بالتدريبات الجماعية لفريقه في غضون أيام قليلة، وهو ما سيعزز فرص لحاقه بمباراة الفتح. وتسيطر حالة من الغضب على كانتي في الوقت الراهن، بسبب عدم تجديد عقده خلال الأيام الماضية، رغم حصوله على وعد من الإدارة بشأن الانتهاء من هذا الملف. وكان كانتي انضم لصفوف الاتحاد في صيف 2023، بعد نهاية عقده مع تشيلسي، وساهم في تحقيق ثنائية الدوري وكأس الملك في الموسم الماضي. ومن المقرر أن يدخل كانتي الفترة الحرة في عقده خلال يناير/كانون ثان المقبل، والتي تتيح له التفاوض أو التوقيع مع أي نادٍ آخر.",
-      "image": null,
-      "pubDate": "2025-09-07T10:19:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "aafd7e0028004f03",
-      "title": "مدرب جالطة سراي: هاكان ضحى للرحيل.. وإنتر ميلان غالى في مطالبه",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%AC%D8%A7%D9%84%D8%B7%D8%A9-%D8%B3%D8%B1%D8%A7%D9%8A-%D9%87%D8%A7%D9%83%D8%A7%D9%86-%D8%B6%D8%AD%D9%89-%D9%84%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D9%88%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D9%84%D8%A7%D9%86-%D8%BA%D8%A7%D9%84%D9%89-%D9%81%D9%8A-%D9%85%D8%B7%D8%A7%D9%84%D8%A8%D9%87/blt60dead3ff33cb0b2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النيراتزوري رفض بيع تشالهانوجلو بحسب بوروك",
-      "body": "قال أوكان بوروك، مدرب جالطة سراي، إن ناديه حاول مجددا الأسبوع الماضي التعاقد مع التركي هاكان تشالهانوجلو، لاعب وسط إنتر ميلان، لكنه اصطدم برفض النادي الإيطالي. وصرح بوروك لشبكة \"Now Sports\" : \"كنا نريد هاكان بجدية.. هو من مشجعي جالطة سراي، وأكد في أكثر من مناسبة استعداده للتضحية في المستقبل.. حاولنا الأسبوع الماضي، لكن إنتر رفض التخلي عنه، وأبلغونا أنهم سيوافقون فقط إذا قدمنا عرضا أعلى بكثير من المعتاد\". وتابع: \"اللاعب أبدى مرونة مالية من أجل الانتقال.. إلكاي (جوندوجان) ضحى بجزء من راتبه، وهاكان كان سيفعل الشيء نفسه، لكن إنتر كانت لديه مطالب مالية مرتفعة جدا.. لو وافقوا على بيعه، لكان علينا دفع ما بين 40 و45 مليون يورو\". وختم بوروك: \"حاولنا مرة أخرى، وهاكان قدّم تضحيات، لكن إنتر لم يرغب في إتمام الصفقة.. السبب الرئيسي أن النادي لا يريد بيعه، ولا أعتقد أن هذا الموقف سيتغير\".",
-      "image": null,
-      "pubDate": "2025-09-07T10:07:36.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "29e7ce8a0d68f818",
-      "title": "كابوس جديد يحاصر باريس بعد إصابة ديمبلي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%A7%D8%A8%D9%88%D8%B3-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%AD%D8%A7%D8%B5%D8%B1-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D8%AF%D9%8A%D9%85%D8%A8%D9%84%D9%8A/blt29bb2598129516a7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم الفرنسي مهدد بالغياب 9 مباريات",
-      "body": "كشف تقرير صحفي عن كابوس جديد يواجه نادي باريس سان جيرمان بعد إصابة نجمه عثمان ديمبلي، جناح الفريق، خلال مواجهة فرنسا وأوكرانيا، في التصفيات المؤهلة لكأس العالم 2026. قالت صحيفة (ليكيب) الفرنسية: \"كابوس جديد. ديمبلي مهدد بالغياب عن الفريق لمدة 8 أسابيع\". وأضافت أن اللاعب الدولي الذي يعد أبرز المرشحين للفوز بالكرة الذهبية لأفضل لاعب في العالم هذا العام، قد يغيب عن صفوف فريقه في 9 مباريات محلية وقارية. وأشارت إلى أنه حال غياب ديمبلي لشهرين، سيغيب عن مباريات لانس وأتالانتا وأولمبيك مارسيليا، وبرشلونة وليل وستراسبورج وباير ليفركوزن، ونيس وبايرن ميونخ. وكان النادي الباريسي أعلن أمس السبت أن عثمان ديمبلي سيغيب لمدة 6 أسابيع على الأقل بعد تعرضه لإصابة في عضلة الفخذ اليمنى. كما أشار نفس البيان أيضا إلى غياب ديزيريه دوي لمدة 4 أسابيع على الأقل بسبب إصابة عضلية خلال مواجهة أوكرانيا أيضا.",
-      "image": null,
-      "pubDate": "2025-09-07T10:07:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "e87bd8a1e9d7852c",
       "title": "Gold is on a record run — here's how to invest, according to experts",
       "link": "https://www.cnbc.com/2025/09/06/how-to-invest-in-gold-amid-record-run.html",
@@ -1037,38 +1101,6 @@
       "region": "global"
     },
     {
-      "id": "62bb4ec43b215a04",
-      "title": "4 تغييرات متوقعة في تشكيلة ألمانيا أمام أيرلندا الشمالية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/4-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%D8%A7%D8%AA-%D9%85%D8%AA%D9%88%D9%82%D8%B9%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D8%A9-%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%94%D9%8A%D8%B1%D9%84%D9%86%D8%AF%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9/bltbd9ef51c883ed230?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بعد الهزيمة النكراء في سلوفاكيا",
-      "body": "يخطط المدرب الألماني جوليان ناجلسمان لإجراء 4 تغييرات في تشكيلته الأساسية في المباراة الثانية من التصفيات المؤهلة لكأس العالم 2026 ضد أيرلندا الشمالية. هذا ما أوردته صحيفة بيلد قبل المباراة التي ستقام اليوم الأحد في كولونيا. بعد الهزيمة في سلوفاكيا في المباراة الافتتاحية (2-0)، سيجلس سيرج جنابري وماكسيميليان ميتلشتات وأنجيلو ستيلر واللاعب الجديد نامدي كولينز على مقاعد البدلاء، وفقًا لـ\"الخطط الحالية\" للمدرب. ناجلسمان، الذي طالب بزيادة الحماس ضد أيرلندا الشمالية بعد 3 هزائم متتالية في المباريات الرسمية، أكد قبل التدريب الأخير مساء السبت أن \"بعض التغييرات ستحدث بالتأكيد\" في التشكيلة، لكنها لن تكون كبيرة. بعد 3 أيام من الهزيمة في براتيسلافا، هناك حاجة إلى لاعبين \"مناسبين للوضع\". فالديمار أنطون في مركز الظهير الأيمن؟ كبديل لكولينز، يمكن أن يلعب فالدمر أنطون مدافع دورتموند في مركز الظهير الأيمن، إلى جانب القائد جوشوا كيميتش وليون جوريتسكا، ويمكن أن يلعب روبرت أندريش من ليفركوزن في وسط الملعب. وإلى جانب جنابري، يعتبر كريم أديمي وبول نيبيل أو جيمي لويلينج مرشحين. بعد ميتلشتات، ديفيد راوم هو الخيار الأول للظهير الأيسر. وقال ناجلسمان لبرنامج Sportschau: \"في النهاية، كل لاعب يعرف ما هو على المحك ومدى أهمية المباراة بالنسبة لنا، من حيث الترتيب والنقاط، ولكن أيضًا من حيث الحالة المعنوية العام…",
-      "image": null,
-      "pubDate": "2025-09-07T09:55:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "43e6146daf79ac80",
-      "title": "لبنان يخوض اختبارًا مهمًا أمام إندونيسيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%8A%D8%AE%D9%88%D8%B6-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D9%8B%D8%A7-%D9%85%D9%87%D9%85%D9%8B%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%95%D9%86%D8%AF%D9%88%D9%86%D9%8A%D8%B3%D9%8A%D8%A7/blt6b1713e1fee29ba6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المنتخب اللبناني يفتقد العديد من نجومه حاليًا",
-      "body": "يخوض منتخب لبنان مباراة ودية أمام مضيفه الإندونيسي، الاثنين المقبل، على ملعب \"غلورا بونغ تومو\" في سورابايا، ضمن استعداداته للتصفيات المؤهلة إلى كأس آسيا 2027، حيث سيواجه بوتان ذهابا وإيابا الشهر المقبل. ويتصدّر لبنان مجموعته في التصفيات برصيد 4 نقاط، من فوز كبير على بروناي 5–0، وتعادل سلبي مع اليمن، فيما ضمن المنتخب الإندونيسي تأهله المباشر إلى النهائيات القارية، بعد مشاركته في الدور الحاسم من التصفيات المزدوجة. ويفتقد منتخب \"الأرز\" عدداً من لاعبيه البارزين، أبرزهم القائد قاسم الزين والمدافع بيدرو بوديب، إلى جانب مالك فخرو وسامي مرهج وحسين شكرون وعمر بوغيل.&nbsp; في المقابل، سيمنح المدرب ميودراغ رادولوفيتش الفرصة لوجوه جديدة، مثل الثنائي المحترف في أستراليا، رامي نجارين وخضر قدور. وكان لبنان قد فاز وديا على قطر في الدوحة (1-0). ويعتبر رادولوفيتش مواجهة إندونيسيا اختبارا أساسيا لرفع جاهزية اللاعبين الشباب، قبل استئناف التصفيات. من جهته، يعتمد المنتخب الإندونيسي - بقيادة المدرب الهولندي باتريك كلويفرت - على تشكيلة مدعومة بلاعبين محترفين في الدوريات الأوروبية، أبرزهم جاي إيدزيس (ساسولو الإيطالي)، كيفن ديكس (مونشنجلادباخ الألماني)، وميليانو جوناثنس (أوتريخت الهولندي).",
-      "image": null,
-      "pubDate": "2025-09-07T09:50:34.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "bd6fae428e57d162",
       "title": "The inquest begins into Wales' woeful World Cup",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c62qrjd45vmo?at_medium=RSS&at_campaign=rss",
@@ -1083,38 +1115,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "3775e112567a5917",
-      "title": "كشف أدق تفاصيل انتقال هويلوند إلى نابولي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%B4%D9%81-%D8%A7%D9%94%D8%AF%D9%82-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D9%87%D9%88%D9%8A%D9%84%D9%88%D9%86%D8%AF-%D8%A7%D9%95%D9%84%D9%89-%D9%86%D8%A7%D8%A8%D9%88%D9%84%D9%8A/bltcdc30b04eb658ec7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مهاجم الشياطين الحمر وصل نابولي لسد ثغرة لوكاكو",
-      "body": "انضم الدنماركي راسموس هويلوند، مهاجم مانشستر يونايتد، إلى صفوف نابولي لتعويض غياب البلجيكي روميلو لوكاكو لنحو 4 أشهر بسبب الإصابة. ونشر موقع \"كالتشيو ميركاتو\" الإيطالي، اليوم الأحد، تفاصيل صفقة انتقال هويلوند إلى نابولي، حيث سيدفع الأخير 6 ملايين يورو (قيمة إعارة اللاعب)، مع خيار شراء مقابل 44 مليون يورو. وسيصبح الشراء إلزاميا في حال تحقق عدد من الشروط، ويرتبط ذلك بعدد المباريات التي سيخوضها هويلوند، هذا الموسم، وعدد الأهداف التي سيسجلها، إلى جانب تأهل نابولي لدوري أبطال أوروبا من عدمه. وتابع الموقع: \"إذا أصبح الشراء إلزاميا، سيحصل المهاجم على عقد لمدة 5 سنوات مع نابولي، حتى صيف 2031، وسيتقاضى راتبا صافيا يبلغ حوالي 5 ملايين يورو سنويا.. وفي هذه الحالة، سيكون أيضا هناك شرط جزائي بقيمة 85 مليون يورو، في عقد المهاجم مع النادي، وسيسري من عام 2027 فصاعدا\". وأضاف: \"الشرط الجزائي سيتم دفعه على 3 أقساط، بحيث تزيد قيمة الدفعة قليلا عن 28.3 مليون يورو\".",
-      "image": null,
-      "pubDate": "2025-09-07T09:31:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "87d0f2a87d1bd573",
-      "title": "ديشامب يمتص غضب إدارة باريس سان جيرمان",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%8A%D8%B4%D8%A7%D9%85%D8%A8-%D9%8A%D9%85%D8%AA%D8%B5-%D8%BA%D8%B6%D8%A8-%D8%A7%D9%95%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86/blta98d569f93c8c2e7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">دافع ديديه ديشامب، مدرب منتخب فرنسا، عن نفسه بعد توجيه الاتهام له بالتسبب في إصابة ديزيريه دوي وعثمان ديمبلي خلال مواجهة أوكرانيا، مساء الجمعة، في تصفيات كأس العالم، مشددا على أنه يقدر موقف نادي باريس سان جيرمان.</p><p style=\"direction: rtl;\">وصرح ديشامب عبر برنامج \"تيليف…",
-      "body": "دافع ديديه ديشامب، مدرب منتخب فرنسا، عن نفسه بعد توجيه الاتهام له بالتسبب في إصابة ديزيريه دوي وعثمان ديمبلي خلال مواجهة أوكرانيا، مساء الجمعة، في تصفيات كأس العالم، مشددا على أنه يقدر موقف نادي باريس سان جيرمان. وصرح ديشامب عبر برنامج \"تيليفوت\" المذاع عبر قناة TF1 الفرنسية \"القرار النهائي بشأن مشاركة أي لاعب لا يخص الجهاز الطبي فقط بل الجهاز الفني بالكامل\". وأضاف \"نتواصل باستمرار مع جميع الأندية، وندرك تماما حالة كل لاعب بناء على المعلومات المتوافرة لدينا، هناك أندية تهتم بدرجة أكبر من فرق أخرى\". وشدد \"لقد تعاملنا مع الأمور بجدية واحترافية كبيرتين، وأتفهم غضب مسؤولي باريس سان جيرمان، فإذا كنت مكانهم، لانتابني نفس الشعور\". تابع مدرب الديوك \"لا مجال للمخاطرة على الإطلاق، لقد استبعدت ريان شرقي وويليام ساليبا لأنهما مصابان، الأمر محسوم\" أوضح \"ينص البروتوكول على وجوب حضور اللاعبين إلى مقر تدريبات المنتخب للتأكد من حقيقة إصابتهم، وهذا غير منطقي، نعمل بجدية واجتهاد، ونهتم دائما بالاستفسار عن حالة اللاعبين قبل كل حصة تدريبية، لأن شعور اللاعب أمر مهم للغاية\". وأتم ديشامب \"على سبيل المثال، لقد طالبني ديزيريه دوي باستبداله، بينما في حالات أخرى تكون رغبة اللاعب قوية في الاستمرار، فإذا أبلغني لاعب بعدم قدرته على الاستمرار بعد أول 20 دقيقة، سأقرر استبداله على الفور\". بيان باريس سان جيرمان كان …",
-      "image": null,
-      "pubDate": "2025-09-07T09:30:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "e97b6eb1baa3a1c0",
@@ -1383,22 +1383,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d544d8cd8166929a",
-      "title": "Creative Arts Emmys: Shawn Hatosy and Merritt Wever Win for Best Guest Acting in a Drama",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/2025-creative-arts-emmys-guest-actor-drama-shawn-hatosy-merritt-wever-winners-1236363199/",
-      "summary": "Hatosy won for his role as Dr. Jack Abbot in 'The Pitt' and Wever her portrayal of Gretchen George on 'Severance.'",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-07T02:52:45.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -1677,22 +1661,6 @@
       "region": "global"
     },
     {
-      "id": "e37493afdb5ef92d",
-      "title": "I'm mourning the Dragon Age game I missed my opportunity to play",
-      "link": "https://www.pcgamer.com/games/dragon-age/im-mourning-the-dragon-age-game-i-missed-my-opportunity-to-play/",
-      "summary": "Dragon Age: The Last Court featured some of the series' very best writing. Or so I'm led to believe.",
-      "body": "Weird Weekend Weird Weekend is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh and Rick have become obsessed with this time, whether it's the canon height of Thief's Garrett or that time someone in the Vatican pirated Football Manager . How many Dragon Age games would you say there are? Only four, right? Origins, its sequel, Inquisition and last year's Veilguard. Not many, for a beloved franchise spanning a decade and a half at a major publisher. But then the BioWare team behind the series was often characterised as a pirate ship by colleagues: sailing haphazardly between projects and often drifting off course as it found its way to its next hit. Certainly, there was never a straightforward follow-up that built directly on the success of Origins. BioWare's pirates were routinely tossed about on the rough seas of EA's whims, following mandates for tight budgets or new engines or live service features. Those internal skirmishes added years to the development of mainline Dragon Age games, and we got fewer of them as a consequence. It's hard not to talk ab…",
-      "image": "https://cdn.mos.cms.futurecdn.net/k9kFYq4p5KWHqiS6Ej2LvZ-1280-80.jpg",
-      "pubDate": "2025-09-06T17:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "a924a37a9f309a32",
       "title": "The Energy Monster AI Is Creating",
       "link": "https://oilprice.com/Energy/Energy-General/The-Energy-Monster-AI-Is-Creating.html",
@@ -1706,6 +1674,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e37493afdb5ef92d",
+      "title": "I'm mourning the Dragon Age game I missed my opportunity to play",
+      "link": "https://www.pcgamer.com/games/dragon-age/im-mourning-the-dragon-age-game-i-missed-my-opportunity-to-play/",
+      "summary": "Dragon Age: The Last Court featured some of the series' very best writing. Or so I'm led to believe.",
+      "body": "Weird Weekend Weird Weekend is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh and Rick have become obsessed with this time, whether it's the canon height of Thief's Garrett or that time someone in the Vatican pirated Football Manager . How many Dragon Age games would you say there are? Only four, right? Origins, its sequel, Inquisition and last year's Veilguard. Not many, for a beloved franchise spanning a decade and a half at a major publisher. But then the BioWare team behind the series was often characterised as a pirate ship by colleagues: sailing haphazardly between projects and often drifting off course as it found its way to its next hit. Certainly, there was never a straightforward follow-up that built directly on the success of Origins. BioWare's pirates were routinely tossed about on the rough seas of EA's whims, following mandates for tight budgets or new engines or live service features. Those internal skirmishes added years to the development of mainline Dragon Age games, and we got fewer of them as a consequence. It's hard not to talk ab…",
+      "image": "https://cdn.mos.cms.futurecdn.net/k9kFYq4p5KWHqiS6Ej2LvZ-1280-80.jpg",
+      "pubDate": "2025-09-06T17:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1805,22 +1789,6 @@
       "region": "global"
     },
     {
-      "id": "bad4d857071a0b3f",
-      "title": "I spoke to FF14's 'Solo Only', who spent 85 days beating a single raid boss on his own, and I was wrong—that old MMO magic is still alive and well",
-      "link": "https://www.pcgamer.com/games/mmo/i-spoke-to-ff14s-solo-only-who-spent-85-days-beating-a-single-raid-boss-on-his-own-and-i-was-wrong-that-old-mmo-magic-is-still-alive-and-well/",
-      "summary": "A genre reborn.",
-      "body": "Terminally Online This is Terminally Online: PC Gamer's very own MMORPG column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice. A while back, I proclaimed that the old-school MMOs we all used to play are dead, and that we have killed them . I still mostly stand by that opinion, but I now have a major exception: The old sense of discovery, community, and mythology in these MMORPGs is alive and well in an air-pocket, deep under a sea of disseminated knowledge: It lives on in challenge running. I spoke with Final Fantasy 14's \"Solo Only\", otherwise known as RathGames , who I've been following on YouTube for a while. Rath has been chewing his way through the game's 400+ hour main questline in considerably more time, for one very important reason: He plays the game solo. No market board, no quest rewards, no AI party members in dungeons—Rath takes content designed for four to eight people and routinely beats the odds, crafting nearly every bit of gear he uses himself. One boss, who has a mechani…",
-      "image": "https://cdn.mos.cms.futurecdn.net/vj6g9J2xgK5YTNh6dPrv3e-1280-80.png",
-      "pubDate": "2025-09-06T15:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "8526f6dd924db6aa",
       "title": "The Rise of Battery Trains",
       "link": "https://oilprice.com/Energy/Energy-General/The-Rise-of-Battery-Trains.html",
@@ -1834,6 +1802,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "bad4d857071a0b3f",
+      "title": "I spoke to FF14's 'Solo Only', who spent 85 days beating a single raid boss on his own, and I was wrong—that old MMO magic is still alive and well",
+      "link": "https://www.pcgamer.com/games/mmo/i-spoke-to-ff14s-solo-only-who-spent-85-days-beating-a-single-raid-boss-on-his-own-and-i-was-wrong-that-old-mmo-magic-is-still-alive-and-well/",
+      "summary": "A genre reborn.",
+      "body": "Terminally Online This is Terminally Online: PC Gamer's very own MMORPG column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice. A while back, I proclaimed that the old-school MMOs we all used to play are dead, and that we have killed them . I still mostly stand by that opinion, but I now have a major exception: The old sense of discovery, community, and mythology in these MMORPGs is alive and well in an air-pocket, deep under a sea of disseminated knowledge: It lives on in challenge running. I spoke with Final Fantasy 14's \"Solo Only\", otherwise known as RathGames , who I've been following on YouTube for a while. Rath has been chewing his way through the game's 400+ hour main questline in considerably more time, for one very important reason: He plays the game solo. No market board, no quest rewards, no AI party members in dungeons—Rath takes content designed for four to eight people and routinely beats the odds, crafting nearly every bit of gear he uses himself. One boss, who has a mechani…",
+      "image": "https://cdn.mos.cms.futurecdn.net/vj6g9J2xgK5YTNh6dPrv3e-1280-80.png",
+      "pubDate": "2025-09-06T15:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2007,6 +1991,22 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "fa515af650da6e22",
+      "title": "Conlan keen on St Patrick's Day world title fight",
+      "link": "https://www.bbc.com/sport/boxing/articles/cddm4lqnezvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Belfast boxer Michael Conlan says he would like to fight for a world title in New York or Dublin on St Patrick's Day after stopping Jack Bateson in the fourth round on Friday.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-06T10:40:40.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -2842,22 +2842,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0c1988c000271f28",
-      "title": "Mark Zuckerberg has filed a lawsuit against Mark Zuckerberg. No, not that Mark Zuckerberg, an entirely different Mark Zuckerberg. Although the one being sued is that Mark Zuckerberg",
-      "link": "https://www.pcgamer.com/hardware/mark-zuckerberg-has-filed-a-lawsuit-against-mark-zuckerberg-no-not-that-mark-zuckerberg-an-entirely-different-mark-zuckerberg-although-the-one-being-sued-is-that-mark-zuckerberg/",
-      "summary": "You might laugh, but it's no joke for Mark Zuckerberg. No, the other one.",
-      "body": "While having the same name as someone incredibly famous might be occasionally fun for some people, for others, it can be really annoying. And in certain cases, it can be so bad that the impact it's having on your livelihood ultimately forces you to do one thing: file a lawsuit against your famous namesake. This is exactly what's happened with an Indiana-based lawyer called Mark S. Zuckerberg, as reported by TechCrunch . Sharing a near-identical name with Meta's CEO might seem to be a relatively innocuous thing, as does the fact that the aforementioned lawyer has been legitimately using Facebook to advertise his legal services. However, as explained in a short report from WHTR, Meta's moderation systems have apparently flagged such Facebook posts as being a false impersonation of the other Zuckerberg and promptly taken them down. The lawyer has, of course, paid fees for using a commercial Facebook page, but you never get them back if a post is removed. This has apparently been going on for so long that Mark Zuckerberg has filed a lawsuit against Meta for breach of contract and other aspects. Yes, I know he's not directly naming the other Mark Zuckerberg, but arguably, he is, in jus…",
-      "image": "https://cdn.mos.cms.futurecdn.net/vHQW2fW7xte26Vqrc3jew8-1280-80.jpg",
-      "pubDate": "2025-09-05T11:14:39.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
