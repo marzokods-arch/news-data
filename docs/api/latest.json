@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-09-11T11:00:20.930Z",
-    "total": 207,
+    "generated_at": "2025-09-11T11:25:35.822Z",
+    "total": 199,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -43,21 +43,34 @@
         "cats": [
           "technology"
         ],
-        "taken": 8,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 114\nColumn: 68\nChar: >",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
         "notModified": false
       },
       {
@@ -71,6 +84,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -100,55 +126,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -178,6 +165,19 @@
         "notModified": false
       },
       {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "AnandTech",
         "url": "https://www.anandtech.com/rss/",
         "homepage": "https://www.anandtech.com/rss/",
@@ -188,6 +188,19 @@
         ],
         "taken": 0,
         "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -202,23 +215,58 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "8916310a7a62bc67",
+      "title": "Nano11 compresses Windows 11 install footprint to as little as 2.8GB — 'extreme experimental script' is 3.5 times smaller than Tiny11 and comes with 'none of the fluff'",
+      "link": "https://www.tomshardware.com/software/windows/nano11-compresses-windows-11-install-footprint-to-as-little-as-2-8gb-extreme-experimental-script-is-3-5-times-smaller-than-tiny11-and-comes-with-none-of-the-fluff",
+      "summary": "Nano11 Builder for Windows 11 produces the smallest Windows 11 installer ISOs and finished installation sizes yet.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/Ritfuyc62CTzuimqyEqCMU-1280-80.jpg",
+      "pubDate": "2025-09-11T11:15:03.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6fc55494bec32e57",
+      "title": "Cardiff want to 'annihilate' League One - Lawlor",
+      "link": "https://www.bbc.com/sport/football/articles/cx27k182gn0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Defender Dylan Lawlor says Cardiff City's players want to \"annihilate\" League One following their unbeaten start to the season.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-11T11:10:43.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "ef439801dca0d073",
+      "title": "Azim signs new contract extension with Boxxer",
+      "link": "https://www.bbc.com/sport/boxing/articles/ce845yygjn9o?at_medium=RSS&at_campaign=rss",
+      "summary": "\"Generational talent\" Adam Azim extends his contract with promoters Boxxer.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-11T11:01:54.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "bb83fb04fbb7b892",
       "title": "Jailed Akins named on Mansfield squad list",
@@ -239,7 +287,7 @@
       "id": "b5f4f81502734682",
       "title": "Chelsea face 74 charges over agent payments",
       "link": "https://www.bbc.com/sport/football/articles/c8643dp5043o?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea are charged by the Football Association with 74 alleged rule breaches related to payments to agents between 2009 and 2022.",
+      "summary": "Chelsea are charged by the Football Association with 74 alleged rule breaches related to payments to agents between 2009 and 2022 when Roman Abramovich was in control of the club.",
       "body": null,
       "image": null,
       "pubDate": "2025-09-11T10:42:45.000Z",
@@ -428,6 +476,22 @@
       "region": "global"
     },
     {
+      "id": "85cfca227aecd5cc",
+      "title": "الاتحاد الإنجليزي يوجه اتهامًا رسميًا لتشيلسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D9%8A%D9%88%D8%AC%D9%87-%D8%A7%D8%AA%D9%87%D8%A7%D9%85%D9%8B%D8%A7-%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D9%84%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A/blt8818f88adfc61154?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يواجه نادي تشيلسي الإنجليزي، الفائز بلقبي كأس العالم للأندية ودوري المؤتمر هذا العام، اتهاما بارتكاب ما يزيد عن 70 مخالفة.",
+      "body": "يواجه نادي تشيلسي الإنجليزي، الفائز بلقبي كأس العالم للأندية ودوري المؤتمر هذا العام، اتهاما بارتكاب ما يزيد عن 70 مخالفة. &nbsp; وأشار الاتحاد الإنجليزي لكرة القدم في بيان رسمي إلى أن النادي اللندني ارتكب 74 مخالفة للوائح وكلاء اللاعبين خلال الفترة بين عامي 2009 و2022. &nbsp; وتقع أغلب المخالفات في عهد الملياردير الروسي، رومان أبراموفيتش، المالك السابق للنادي اللندني. &nbsp; وتتعلق المخالفات التي ارتكبها تشيلسي بشكل كبير خلال الفترة بين موسمي 2010-2011 و2015-2016. &nbsp; ومنح الاتحاد الإنجليزي لكرة القدم، فرصة للرد على هذه الاتهامات في مهلة تنتهي يوم 19 سبتمبر/أيلول المقبل. &nbsp; وتلقى تشيلسي هذه الصدمة قبل أسبوع شائك، سيخوض خلاله الفريق مباراتين صعبتين خارج ملعبه أمام برينتفورد، يوم السبت، في الدوري الإنجليزي، قبل أن يحل ضيفا على بايرن ميونخ، يوم الأربعاء في دوري أبطال أوروبا.",
+      "image": null,
+      "pubDate": "2025-09-11T09:05:54.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "dcf66bdabc9a8465",
       "title": "حسام غالي: صالح سليم هو شخصية الأهلي الحقيقة.. وأرفض فكرة التفرد بالإدارة",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/523038/%d8%ad%d8%b3%d8%a7%d9%85-%d8%ba%d8%a7%d9%84%d9%8a-%d8%b5%d8%a7%d9%84%d8%ad-%d8%b3%d9%84%d9%8a%d9%85-%d9%87%d9%88-%d8%b4%d8%ae%d8%b5%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d9%88%d8%a3%d8%b1%d9%81%d8%b6-%d9%81%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d9%81%d8%b1%d8%af-%d8%a8%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9",
@@ -458,22 +522,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "ec2ca0e9e338554b",
-      "title": "David Zaslav thinks HBO Max is ‘way underpriced’",
-      "link": "https://www.theverge.com/news/776211/david-zaslav-hbo-max-way-underpriced-password-sharing",
-      "summary": "Everyone’s favorite CEO, Warner Bros. Discovery head David Zaslav, thinks HBO Max is ripe for a price hike. Speaking at the Goldman Sachs Communacopia and Technology Conference (doesn’t that sound like a fun time?) Zaslav argued that his company’s premium output can command a premium price. “The fa…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-11T08:57:34.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "4743615f80f2846a",
@@ -892,22 +940,6 @@
       "region": "mena"
     },
     {
-      "id": "c606825c333db097",
-      "title": "بعد الفشل في التأهل للمونديال.. إقالة مدربي فنزويلا وبيرو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D9%81%D8%B4%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%84%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A7%D9%95%D9%82%D8%A7%D9%84%D8%A9-%D9%85%D8%AF%D8%B1%D8%A8%D9%8A-%D9%81%D9%86%D8%B2%D9%88%D9%8A%D9%84%D8%A7-%D9%88%D8%A8%D9%8A%D8%B1%D9%88/blt59dcf58ec832df2c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أعلن منتخبا فنزويلا وبيرو أمس الأربعاء، إقالة مدربيهما عقب الخروج من سباق التأهل إلى نهائيات كأس العالم لكرة القدم 2026.",
-      "body": "أعلن منتخبا فنزويلا وبيرو أمس الأربعاء، إقالة مدربيهما عقب الخروج من سباق التأهل إلى نهائيات كأس العالم لكرة القدم 2026. &nbsp; وطلب رئيس فنزويلا نيكولاس مادورو بنفسه \"إعادة هيكلة الجهاز الفني\" للمنتخب الوطني بعد الخسارة المذلة على أرضه أمام كولومبيا 3-6 الثلاثاء والتي قضت على آخر آمال \"لافينوتينتو\" في التأهل. &nbsp; وقال مادورو \"تكبّدنا خسارة مؤلمة. أود أن أعبر عن تضامني مع جميع أفراد عائلة كرة القدم ومع منتخب فنزويلا. إن كل فنزويلا تطالب بإعادة هيكلة الجهاز الفني للمنتخب وبإعادة تنظيم الاستراتيجية والعقيدة وخط العمل والكفاح\". &nbsp; وبعد ذلك بوقت قصير، أعلن الاتحاد الفنزويلي إقالة المدرب الأرجنتيني فرناندو \"بوتشا\" باتيستا وجهازه الفني بأكمله، على أن يُعلن اسم المدرب الجديد لاحقا. &nbsp; وتبقى فنزويلا الدولة الوحيدة في اتحاد أمريكا الجنوبية لكرة القدم (كونميبول) التي لم يسبق لها أن شاركت في كأس العالم. &nbsp; وكانت زيادة عدد المشاركين في البطولة إلى 48 منتخبا في نسخة 2026، وما ترتب عليه من زيادة عدد المقاعد لكل منطقة، منح \"لافينوتينتو\" فرصة تاريخية، لكنها أنهت التصفيات في المركز الثامن من أصل عشرة منتخبات في المنطقة. &nbsp; من جانبها، أنهت بيرو التصفيات في المركز التاسع قبل الاخير وأقالت مدربها الأرجنتيني-البيروفي أوسكار إيبانييز بعد أسوأ حصيلة في تاريخ المنتخب في التصفيات: فوزان…",
-      "image": null,
-      "pubDate": "2025-09-11T06:43:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "0898560f87ccd976",
       "title": "'Age is just a number' - Vardy begins life in Italy",
       "link": "https://www.bbc.com/sport/football/articles/cy50k97dgxpo?at_medium=RSS&at_campaign=rss",
@@ -1100,22 +1132,6 @@
       "region": "global"
     },
     {
-      "id": "be87595d83a78da5",
-      "title": "Charlie Kirk fatally shot at Turning Point USA event in Utah",
-      "link": "https://www.theverge.com/news/776079/charlie-kirk-shooting",
-      "summary": "Charlie Kirk, the influencer and activist who co-founded right-wing group Turning Point USA, has died at the age of 31 after being shot while speaking at an event at Utah Valley University, according to his spokesperson Andrew Kolvet, speaking to the New York Times. Deseret News had earlier reporte…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-11T00:41:20.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d536f8fd5d93490c",
       "title": "Nothing starts teasing Nothing OS 4.0 based on Android 16",
       "link": "https://www.gsmarena.com/nothing_starts_teasing_nothing_os_40_based_on_android_16-news-69444.php",
@@ -1142,22 +1158,6 @@
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9e544925691659f0",
-      "title": "How platforms are responding to the Charlie Kirk shooting",
-      "link": "https://www.theverge.com/news/776187/charlie-kirk-shooting-videos-platforms-meta-youtube",
-      "summary": "Horrifying videos of influencer and right-wing activist Charlie Kirk being fatally shot were widely available on social media platforms. We’ve reached out to some of the platforms to ask how they will be treating the videos and charged posts about the shooting. So far, we’re aware of responses from…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T23:31:18.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
       },
       "lang": "en",
       "category": "technology",
@@ -1196,38 +1196,6 @@
       "region": "global"
     },
     {
-      "id": "4c0178472676f690",
-      "title": "'Shambles of a night' - Brook on rain-reduced T20",
-      "link": "https://www.bbc.com/sport/cricket/articles/c740mdm9yg4o?at_medium=RSS&at_campaign=rss",
-      "summary": "England captain Harry Brook says the rain-reduced opening T20 at Cardiff was a 'shambles'.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T23:04:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "96627df639ed5ebf",
-      "title": "OpenAI reportedly signs $300 billion Project Stargate cloud deal with Oracle",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/776170/oracle-openai-300-billion-contract-project-stargate",
-      "summary": "OpenAI and Oracle signed a deal “to purchase $300 billion in computing power over roughly five years,” one of the largest cloud computing deals ever, reports the Wall Street Journal. In July, the two companies revealed their partnership to build data centers worth 4.5 gigawatts of power as part of …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T23:01:10.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "78ac97d7a7740539",
       "title": "ملف يلا كورة.. ثنائي جديد في تخطيط الأهلي.. عودة الجزيري.. ومواعيد كأس إنتركونتيننتال",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/523030/%d9%85%d9%84%d9%81-%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d8%ab%d9%86%d8%a7%d8%a6%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d8%ac%d8%b2%d9%8a%d8%b1%d9%8a-%d9%88%d9%85%d9%88%d8%a7%d8%b9%d9%8a%d8%af-%d9%83%d8%a3%d8%b3-%d8%a5%d9%86%d8%aa%d8%b1%d9%83%d9%88%d9%86%d8%aa%d9%8a%d9%86%d9%86%d8%aa%d8%a7%d9%84",
@@ -1257,22 +1225,6 @@
       },
       "lang": "en",
       "category": "entertainment",
-      "region": "global"
-    },
-    {
-      "id": "be56b02110aee136",
-      "title": "Amazon drivers could be wearing AR glasses with a built-in display next year",
-      "link": "https://www.theverge.com/news/776155/amazon-augmented-reality-glasses-jayhawk-launch-rumors",
-      "summary": "The new glasses would go beyond Amazon’s Echo Frames. Amazon, like Meta, Google, Samsung, and Snap, is working on a new pair of augmented-reality (AR) glasses, according to a report from The Information. The AR glasses, codenamed Jayhawk, could reportedly come with a full-color display in one eye, …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T22:30:08.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1628,22 +1580,6 @@
       "region": "global"
     },
     {
-      "id": "65482d8d9688f8aa",
-      "title": "The best iPad to buy",
-      "link": "https://www.theverge.com/23639378/best-ipad-apple-buy-model-price",
-      "summary": "The iPad is still the best tablet on the market. | Image: Cath Virginia / The Verge There are no bad iPads. That’s the best news about Apple’s tablet lineup: 15 years after Steve Jobs first debuted the device, the iPad is the best tablet on the market, and it’s not particularly close. Apple’s App S…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T18:31:58.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "7d0ef3ed75a247e1",
       "title": "Samsung Galaxy S26 Pro, S26 Edge to offer same charging speed as predecessors",
       "link": "https://www.gsmarena.com/samsung_galaxy_s26_pro_s26_edge_to_offer_same_charging_speed_as_predecessors-news-69438.php",
@@ -1657,22 +1593,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f5621be2ee0a4e04",
-      "title": "You can preorder the AirPods Pro 3 right now",
-      "link": "https://www.theverge.com/tech/775719/airpods-pro-3-third-gen-preorder-buy-amazon-best-buy-walmart",
-      "summary": "The AirPods Pro 3 will hit stores on September 19th for $249. Apple’s most impressive wireless earbuds are now available to preorder from Amazon, Best Buy, Walmart, and Target for $249. The new AirPods Pro 3 won’t arrive until September 19th, but you can place your order from the retailer of your c…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T18:29:39.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1718,22 +1638,6 @@
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6be56db6e0e85886",
-      "title": "Apple isn&#8217;t packing a charging cable in with the AirPods Pro 3",
-      "link": "https://www.theverge.com/news/775981/apple-airpods-pro-3-no-charging-cable-in-box",
-      "summary": "The AirPods Pro 3 seem like a solid upgrade, but they have one significant drawback: Apple isn’t including a charging cable in the box, MacRumors reports. Apple spells it out right on the AirPods Pro 3 tech specs page, saying in the “In the Box” section, “USB‑C Charge Cable sold separately.” That m…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T18:17:55.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
       },
       "lang": "en",
       "category": "technology",
@@ -2345,22 +2249,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3b6f4543b9b11717",
-      "title": "How can Martinelli find his form for Arsenal to silence critics?",
-      "link": "https://www.bbc.com/sport/football/articles/c62q367jlzdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Things have not been clicking for the Gabriel Martinelli at Arsenal recently. BBC Sport looks at the issues and how the Brazilian winger could regain his form.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-10T11:27:05.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3401,22 +3289,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "20b28d49d1c70f47",
-      "title": "HP's Omen 16 Slim gaming laptop with an RTX 5050 and 2K 165Hz display is $550 off right now — all-time low pricing and a free copy of Battlefield 6",
-      "link": "https://www.tomshardware.com/pc-components/hps-omen-16-slim-gaming-laptop-with-an-rtx-5050-and-2k-165hz-display-is-usd550-off-right-now-all-time-low-pricing-and-a-free-copy-of-battlefield-6",
-      "summary": "HP's Omen 16 Slim is a solid gaming laptop that allows you to jump the barrier into entry-level RTX gaming at a low cost. With a sleek design, beautiful 16-inch screen, fast refresh rate, capable cooling, it's great at games and can double as a daily machine for most.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/X6wS3FYkHHR5B3ffRY3JWF-1280-80.png",
-      "pubDate": "2025-09-07T18:14:27.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
