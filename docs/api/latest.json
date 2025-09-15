@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-09-15T13:54:25.456Z",
-    "total": 199,
+    "generated_at": "2025-09-15T14:34:09.376Z",
+    "total": 203,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -17,7 +17,20 @@
         "cats": [
           "sports"
         ],
-        "taken": 64,
+        "taken": 65,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
         "error": null,
         "notModified": false
       },
@@ -35,45 +48,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "CNBC — Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
@@ -83,45 +57,6 @@
           "general"
         ],
         "taken": 25,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 6,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 21,
         "error": null,
         "notModified": false
       },
@@ -139,16 +74,68 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 6,
+        "error": null,
         "notModified": false
       },
       {
@@ -165,9 +152,48 @@
         "notModified": false
       },
       {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 22,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Jazirah (KSA) - رياضة",
+        "url": "https://www.al-jazirah.com/rss/rss09.xml",
+        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -191,9 +217,22 @@
         "notModified": false
       },
       {
-        "name": "Al Jazirah (KSA) - رياضة",
-        "url": "https://www.al-jazirah.com/rss/rss09.xml",
-        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -228,49 +267,410 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "cb0101ce6496b9b0",
+      "title": "Azeri State Oil Firm Socar Set to Buy Italian Refiner",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Azeri-State-Oil-Firm-Socar-Set-to-Buy-Italian-Refiner.html",
+      "summary": "Azerbaijan’s state oil company Socar is close to signing a deal to buy privately-held Italian refiner Italiana Petroli, Reuters reported on Monday, citing sources. The Brachetti-Peretti family, owners of Italiana Petroli, which controls one of Italy’s biggest gasoline station networks, have agreed …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:30:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "8b043ab02dce2abd",
+      "title": "Alphabet market value exceeds $3tn",
+      "link": "https://www.ft.com/content/a18ce1c4-d610-4cdf-b853-2d8f43ff4be1",
+      "summary": "Shares in Google’s parent company up more than 30% since late July",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:27:30.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "4bf88715d3d3d227",
+      "title": "Trump advocates end to quarterly earnings reports",
+      "link": "https://www.cnbc.com/2025/09/15/trump-advocates-that-companies-stop-reporting-earnings-on-a-quarterly-basis-.html",
+      "summary": "Trump said the idea is \"subject to SEC approval\" and would \"save money, and allow managers to focus on properly running their companies.\"",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:27:27.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "93441d98ab532c5e",
+      "title": "Charlie Hunnam Goes Full-on ‘Monster’ in Haunting Official Trailer for ‘The Ed Gein Story’",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/monster-the-ed-gein-story-charlie-hunnam-full-trailer-1236369652/",
+      "summary": "The third season in the Netflix horror anthology is described as the most harrowing yet.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:19:54.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "bc3c85025bb556ba",
+      "title": "Earnings call transcript: Gold Fields Ltd ADR Q1 2025 sees strong EPS beat",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-gold-fields-ltd-adr-q1-2025-sees-strong-eps-beat-93CH-4239037",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2025-09-15T14:18:38.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "0b275e2da6e165a3",
+      "title": "Chegg pays $7.5 million to settle FTC claims its services were hard to cancel",
+      "link": "https://www.investing.com/news/stock-market-news/federal-trade-commission-sues-chegg-for-making-service-hard-to-cancel-4238986",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E0JP_L.jpg",
+      "pubDate": "2025-09-15T14:18:26.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5638bfb96c670df1",
+      "title": "Form 144 Evergy For: 15 September",
+      "link": "https://www.investing.com/news/filings/form-144-evergy-for-15-september-93CH-4239036",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2025-09-15T14:18:15.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c241b66f1e073ef0",
+      "title": "American Century Investment Management discloses 1.33% stake in Dalata",
+      "link": "https://www.investing.com/news/company-news/american-century-investment-management-discloses-133-stake-in-dalata-93CH-4239035",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2025-09-15T14:17:19.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a8b72a422c3e3d6d",
+      "title": "Gearbox CEO Randy Pitchford's chronic tweeting syndrome strikes again, says 'less than 1% of 1%' of players are filing tickets about performance so clearly the internet's overblowing it",
+      "link": "https://www.pcgamer.com/games/fps/gearbox-ceo-randy-pitchfords-chronic-tweeting-syndrome-strikes-again-says-less-than-1-percent-of-1-percent-of-players-are-filing-tickets-about-performance-so-clearly-the-internets-overblowing-it/",
+      "summary": "Interested to see how this one's gonna play out.",
+      "body": "To what I assume is the eternal dismay of the Gearbox PR department, studio CEO Randy Pitchford has once again been tweeting. What's he up to now? Well, he's applying the ol' scientific method to people's Borderlands 4 performance complaints, pointing out that—if this game is really as stutter-prone as you horrible lot have been making it sound like —how come \"less than one percent of one percent\" of players are filing customer service tickets about performance woes? Pitchford's maths minute goes as follows: \"Customer Service reports for Borderlands 4 at roughly 1% or so of installs.\" That is to say, if 1,000,000 people had installed the game, a mere 10,000 of them would have filed tickets. Pitchford does a little legerdemain here—classic magician behaviour—and transitions to talking about the tickets as a percentage of the game's overall customers (everyone who has it installed). So, rather than saying that 55% of customer service tickets are about people's SHiFT accounts, he says 0.55% of customers are having problems, and so on. Bearing that in mind, Pitchford goes on to say that \"0.04% of customers [tickets] are PC performance related.\" The number gets smaller. Of that 0.04% o…",
+      "image": "https://cdn.mos.cms.futurecdn.net/QTSUhgDUPYpGoPbuQVvpeM-1280-80.jpg",
+      "pubDate": "2025-09-15T14:17:07.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f9d044bb470de809",
+      "title": "Do yourself a favour and turn off this annoying grapple setting in Borderlands 4",
+      "link": "https://www.pcgamer.com/games/fps/borderlands-4-grapple-view-tilt/",
+      "summary": "You don't need to give yourself whiplash.",
+      "body": "Borderlands 4 introduces a bunch of new movement options that you can use in combat, like a glide pack, dash, and, of course, a grappling hook—all games need one, apparently. These are all great additions, and I know I'll miss them the next time I replay Borderlands 2 or 3 again. Plus, if you've made it to any of the main bosses or final encounters in any of the vaults, you'll know just how much you'll have to use these in combat, especially the grapple. The unfortunate thing is, the grapple is clunky. Whenever you use your grappling hook, your camera will immediately turn to face towards the grapple spot like it's switched on aimbot for an inanimate object. Although it's done in an effort to show you where you're headed, it's enough to give you whiplash while you're rushing around the arena. What if I told you that there's a way to fix it? Head into the accessibility settings and disable ' grapple view tilt '. This'll stop control from being ripped out of your hands, letting you grapple so long as you can see the hook in your peripheral vision without automatically pulling your camera in another direction. Given how clunky the grapple tilt is, I'm actually baffled it's enabled by…",
+      "image": "https://cdn.mos.cms.futurecdn.net/ioAhFGVukwNQV9xE2JrvhF-1280-80.jpg",
+      "pubDate": "2025-09-15T14:16:01.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d8edb5ad861063ec",
+      "title": "Alphabet becomes fourth company to reach $3 trillion market cap",
+      "link": "https://www.cnbc.com/2025/09/15/alphabet-3-trillion-market-cap.html",
+      "summary": "Google's parent company added hundreds of billions of dollars in value in September following a favorable ruling.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:15:26.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8c3dc9d986b2a532",
+      "title": "Alphabet hits record $3 trillion market cap as shares push to new highs",
+      "link": "https://www.investing.com/news/stock-market-news/alphabet-hits-record-3-trillion-market-cap-as-shares-push-to-new-highs-93CH-4239033",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/google_2_M_1440049078.jpg",
+      "pubDate": "2025-09-15T14:15:06.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "1bba0c00a4b55053",
+      "title": "Citadel Group discloses 1.75% stake in Mural Oncology",
+      "link": "https://www.investing.com/news/company-news/citadel-group-discloses-175-stake-in-mural-oncology-93CH-4239032",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+      "pubDate": "2025-09-15T14:14:44.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8653d9033c1d0231",
+      "title": "Alphabet hits $3 trillion in market capitalization for the first time",
+      "link": "https://www.investing.com/news/stock-market-news/alphabet-hits-3-trillion-in-market-capitalization-for-the-first-time-4239031",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E0KY_L.jpg",
+      "pubDate": "2025-09-15T14:13:48.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ac0785f137d78f80",
+      "title": "Over half of US healthcare workers plan to switch jobs by next year, survey finds",
+      "link": "https://www.investing.com/news/economic-indicators/over-half-of-us-healthcare-workers-plan-to-switch-jobs-by-next-year-survey-finds-4238640",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E0HH_L.jpg",
+      "pubDate": "2025-09-15T14:13:29.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "5d57962a5ef9389a",
+      "title": "Blackstone to buy Hill Top power plant for about $1 billion",
+      "link": "https://www.investing.com/news/stock-market-news/blackstone-to-buy-hill-top-power-plant-for-about-1-billion-4239030",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E0L0_L.jpg",
+      "pubDate": "2025-09-15T14:12:56.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "bf97725c045dfc7d",
+      "title": "GB trio reach 1500m final as Olympic champion Hocker disqualified",
+      "link": "https://www.bbc.com/sport/athletics/videos/c9qn0g40qgpo?at_medium=RSS&at_campaign=rss",
+      "summary": "GB's Jake Wightman, Josh Kerr and Neil Gourley qualify for the the men's 1500m finals while USA's Olympic Champion Cole Hocker is disqualified at the World Athletics Championships in Tokyo.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:08:41.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "99508c6da1c9407b",
+      "title": "'What a legend!' Duplantis clears 6.30m to break world record",
+      "link": "https://www.bbc.com/sport/athletics/videos/c237mlvl845o?at_medium=RSS&at_campaign=rss",
+      "summary": "Armand Duplantis breaks the men's pole vault world record for the 14th time, clearing 6.30m attempt after winning gold at the World Athletics Championships in Tokyo.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:04:53.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8906db3f3418e773",
+      "title": "Duplantis seals 14th world record & third world title",
+      "link": "https://www.bbc.com/sport/athletics/articles/c1ed6845ng7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Armand Duplantis clinches his 14th world record as the Swedish superstar continues his pole vault domination by winning a third consecutive world title.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:03:30.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "bc33616ea5ba37e9",
+      "title": "Serena and Venus Williams Launch New Podcast Addressing Misconceptions and More: “We Can Own Our Own Story”",
+      "link": "https://www.hollywoodreporter.com/business/digital/serena-venus-williams-podcast-stockton-street-1236370922/",
+      "summary": "The tennis champions are launching 'Stockton Street' on X Sept. 17.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:03:16.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a427c5d9c00ba4b4",
+      "title": "Bessent: TikTok deal 'framework' reached with China, Trump and Xi will finalize it Friday",
+      "link": "https://www.cnbc.com/2025/09/15/trump-tiktok-china.html",
+      "summary": "The U.S. and China have a 'framework' deal for social media platform TikTok in place, Treasury Secretary Scott Bessent said Monday.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T14:03:14.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "25d145f1ab31c41b",
+      "title": "Strange Antiquities review",
+      "link": "https://www.pcgamer.com/games/puzzle/strange-antiquities-review/",
+      "summary": "Unravel the mysteries of occult artifacts in your creepy yet cozy little shop.",
+      "body": "Need to Know What is it? A cozy puzzle adventure about identifying occult artifacts. Developer : Bad Viking Publisher : Iceberg Interactive Reviewed on : Intel i7 9700K, RTX 4070 Ti, 16GB RAM Multiplayer? No Link : Steam If the \"What Is This Thing?\" subreddit existed in the Edwardian era, it'd be a quiet little curio shop called Strange Antiquities. As a temp shopkeeper filling in for the local thaumaturge, I sit behind a desk and spend my rainy days puzzling over bizarre artifacts to determine what they are and what they do. A glass bottle containing a single glowing strand of hair suspended in blue liquid. An iron claw clutching black gemstone covered in blood-red streaks. Grotesque wooden figurines, several items that appear to be severed hands, a silver pendant with a green eyeball in the center that rolls to follow my every movement. What are these things? Fans of Bad Viking's first shopkeeping puzzle adventure, Strange Horticulture, will feel right at home in the gloomy yet cozy occult shop solving the little mysteries surrounding each artifact, dozens and dozens of them, over the course of about 12 hours. While Strange Antiquities doesn't manage to be quite as novel and int…",
+      "image": "https://cdn.mos.cms.futurecdn.net/YkVCrgdKSCJ7R49knMAc9L-1280-80.jpg",
+      "pubDate": "2025-09-15T14:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2897e383600d4318",
+      "title": "Stats behind England's 31-match record winning run",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c89dyplee5wo?at_medium=RSS&at_campaign=rss",
+      "summary": "England surpass their own best winning streak across men's and women's international rugby union by recording a 31st successive victory.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T13:57:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "355698fd6c9f46a8",
+      "title": "Kerr return 'scary for the league' - analysis",
+      "link": "https://www.bbc.com/sport/football/videos/c1kwvnrmdyvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fara Williams and Rehanne Skinner analyse Sam Kerr's performance against Aston Villa after the Chelsea striker scores on her return following 20 months on the sidelines with an anterior cruciate ligament (ACL) injury.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T13:54:55.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d578abacdeed7312",
+      "title": "Preparing for the Bank of England’s big, unpredictable gilt sales decision",
+      "link": "https://www.ft.com/content/96e60909-47ba-415d-ba84-f2db8756e9a6",
+      "summary": "QT pageant",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T13:54:33.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "696a64795352aa54",
       "title": "How to find and use the Craw Summons in Silksong",
@@ -304,86 +704,6 @@
       "region": "global"
     },
     {
-      "id": "f46d6a46fc8656a4",
-      "title": "Trump advocates that companies stop reporting earnings on a quarterly basis",
-      "link": "https://www.cnbc.com/2025/09/15/trump-advocates-that-companies-stop-reporting-earnings-on-a-quarterly-basis-.html",
-      "summary": "Trump said the idea is \"subject to SEC approval\" and would \"save money, and allow managers to focus on properly running their companies.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-15T13:46:17.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "050c57a60ca41d3d",
-      "title": "China and Poland discuss rare earth exports, EV industry cooperation",
-      "link": "https://www.investing.com/news/world-news/china-and-poland-discuss-rare-earth-exports-ev-industry-cooperation-93CH-4238961",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_open_108x81.jpg",
-      "pubDate": "2025-09-15T13:45:45.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c75c310aa21d5787",
-      "title": "Ally Financial stock hits 52-week high at $42.51",
-      "link": "https://www.investing.com/news/company-news/ally-financial-stock-hits-52week-high-at-4251-93CH-4238960",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2025-09-15T13:44:44.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0b400257db138afc",
-      "title": "Global Ship Lease stock hits 52-week high at 32.46 USD",
-      "link": "https://www.investing.com/news/company-news/global-ship-lease-stock-hits-52week-high-at-3246-usd-93CH-4238959",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2025-09-15T13:44:40.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bbc994053025627b",
-      "title": "nLIGHT Inc stock hits 52-week high at $30.09",
-      "link": "https://www.investing.com/news/company-news/nlight-inc-stock-hits-52week-high-at-3009-93CH-4238958",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-09-15T13:44:22.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "6d829b1b8d6bbf94",
       "title": "How to prepare for the Wheatflour Wonderland DLC in Hello Kitty Island Adventure",
       "link": "https://www.pcgamer.com/games/life-sim/hello-kitty-island-adventure-how-to-prepare-for-the-wheatflour-wonderland-dlc/",
@@ -394,38 +714,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "73b504c3b17a67d1",
-      "title": "US, China reach framework deal on TikTok; Trump and Xi to speak on Friday",
-      "link": "https://www.investing.com/news/world-news/us-china-talks-in-madrid-on-trade-tiktok-carry-over-into-second-day-4237884",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E040_L.jpg",
-      "pubDate": "2025-09-15T13:43:25.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a41cd03666a4542e",
-      "title": "Novartis signs up to $5.7 billion licensing deal with Monte Rosa Therapeutics",
-      "link": "https://www.investing.com/news/stock-market-news/novartis-monte-rosa-strike-57-billion-drug-development-deal-4238430",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E0FD_L.jpg",
-      "pubDate": "2025-09-15T13:42:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -448,22 +736,6 @@
       "region": "global"
     },
     {
-      "id": "08b7434a136ba6a9",
-      "title": "Oil rises as investors assess attacks on Russian energy facilities",
-      "link": "https://www.investing.com/news/commodities-news/oil-holds-gains-as-investors-eye-impact-from-attacks-on-russian-energy-facilities-4237864",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8E00V_L.jpg",
-      "pubDate": "2025-09-15T13:42:31.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
       "id": "fbff3330f90fe6a2",
       "title": "'There's your surprise!' Kambundji wins stunning 100m hurdles gold",
       "link": "https://www.bbc.com/sport/athletics/videos/c4gw2q2v941o?at_medium=RSS&at_campaign=rss",
@@ -477,22 +749,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a427c5d9c00ba4b4",
-      "title": "Bessent: TikTok deal 'framework' reached with China, Trump and Xi will finalize it Friday",
-      "link": "https://www.cnbc.com/2025/09/15/trump-tiktok-china.html",
-      "summary": "The U.S. and China have a 'framework' deal for social media platform TikTok in place, Treasury Secretary Scott Bessent said Monday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-15T13:39:25.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -519,6 +775,22 @@
       "body": null,
       "image": null,
       "pubDate": "2025-09-15T13:30:43.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "252313c2a4c3b7cd",
+      "title": "Scottish Premiership tops European per capita attendances again",
+      "link": "https://www.bbc.com/sport/football/articles/c749ql0yzdno?at_medium=RSS&at_campaign=rss",
+      "summary": "The SPFL say Scottish football supporters have topped a European attendance chart for a third year running.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-15T13:30:28.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -720,6 +992,22 @@
       "region": "global"
     },
     {
+      "id": "d6ef3f22e5e1c7de",
+      "title": "قبل مواجهة الدحيل.. سجل ذهبي للهلال ضد الأندية القطرية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AD%D9%8A%D9%84-%D8%B3%D8%AC%D9%84-%D8%B0%D9%87%D8%A8%D9%8A-%D9%84%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%B6%D8%AF-%D8%A7%D9%84%D8%A7%D9%94%D9%86%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9/blt2d09ed3f2b0ee31d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يتجدد الصدام بين الهلال السعودي، والأندية القطرية، عندما يستضيف الدحيل، مساء غد الثلاثاء، ضمن منافسات الجولة الأولى من دوري أبطال آسيا للنخبة 2025-2026.",
+      "body": "يتجدد الصدام بين الهلال السعودي، والأندية القطرية، عندما يستضيف الدحيل، مساء غد الثلاثاء، ضمن منافسات الجولة الأولى من دوري أبطال آسيا للنخبة 2025-2026. &nbsp; ويستند نادي الهلال، إلى سجله الذهبي، ضد الأندية القطرية، قبل مواجهة الدحيل، التي ستقام على ملعب المملكة آرينا. &nbsp; وذكرت صحيفة \" اليوم \" السعودية، أن \"الزعيم\" يتفوق تاريخيًا على الأندية القطرية في المواجهات الآسيوية، حيث واجهها 41 مرة سابقة، انتصر في 23 مباراة وتعادل في 10 مباريات، وخسر 8 مباريات، واحدة منها بركلات الترجيح. &nbsp; المواجهة الأولى بين الهلال والأندية القطرية، تعود إلى 21 نوفمبر/تشرين الثاني 1997 عندما واجه الريان في التصفية الثانية «غرب» لبطولة الأندية الاسيوية أبطال الدوري، وفاز حينها الزعيم 3-2. &nbsp; وتعود آخر مباراة بين الهلال والأندية القطرية، إلى 3 ديسمبر/كانون الأول 2024 عندما واجه الغرافة في دور المجموعات لدوري أبطال آسيا للنخبة وانتهت المباراة بفوز الهلال 3-0. &nbsp; يذكر أن النادي العاصمي، قد تعادل أمام القادسية (2-2) في المباراة التي جمعت بينهما أول أمس السبت، بدوري روشن، في مواجهة تعد البروفة الأخيرة للهلال، قبل لقاء الدحيل القطري.",
+      "image": null,
+      "pubDate": "2025-09-15T12:29:50.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "6475eb403f8a6145",
       "title": "Northern Ireland's Dugdale ends playing career aged 28",
       "link": "https://www.bbc.com/sport/football/articles/cx2jeyzz07do?at_medium=RSS&at_campaign=rss",
@@ -736,6 +1024,22 @@
       "region": "global"
     },
     {
+      "id": "2dabcc8aebaef1c6",
+      "title": "السويسرية كامبوندجي تفجر المفاجأة وتحرز ذهبية في مونديال ألعاب القوى",
+      "link": "https://www.kooora.com/%D8%A7%D9%94%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%82%D9%88%D9%89/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D9%8A%D8%A9-%D9%83%D8%A7%D9%85%D8%A8%D9%88%D9%86%D8%AF%D8%AC%D9%8A-%D8%AA%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%88%D8%AA%D8%AD%D8%B1%D8%B2-%D8%B0%D9%87%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A7%D9%94%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%82%D9%88%D9%89/blteda2980e055eb3d7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فجرت السويسرية ديتاجي كامبوندجي مفاجأة بإحرازها ذهبية سباق 100 م حواجز، اليوم الإثنين في بطولة العالم لألعاب القوى في طوكيو.",
+      "body": "فجرت السويسرية ديتاجي كامبوندجي مفاجأة بإحرازها ذهبية سباق 100 م حواجز، اليوم الإثنين في بطولة العالم لألعاب القوى في طوكيو. &nbsp; وسجلت كامبوندجي رقما وطنيا بلغ 12.24 ثانية متقدمة على حاملة الرقم العالمي النيجيرية تووبي اموسان (12.29 ث) والأمريكية جرايس ستارك (12.34 ث). &nbsp; من جهتها، اكتفت البطلة الأولمبية الأمريكية ماساي راسل بالمركز الرابع بزمن 12.44 ثانية. &nbsp; وكانت كامبوندجي (23 عاما) خرجت من نصف نهائي الألعاب الأولمبية في باريس الصيف الماضي، وقد حسنت بفارق كبير رقمها المحلي السابق البالغ 12.40 ثانية.&nbsp; &nbsp; ولم تسجل كامبوندجي هذا الصيف سوى الرقم الـ13 على الصعيد العالمي في هذه المسافة.",
+      "image": null,
+      "pubDate": "2025-09-15T12:21:44.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "94e768c4896f1763",
       "title": "Rees-Zammit takes 'first of big steps' in comeback",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c4gk6lk9ry8o?at_medium=RSS&at_campaign=rss",
@@ -750,6 +1054,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "6c036c2e5a182622",
+      "title": "يشنق نفسه بيده.. العناد يضع أموريم على حافة الهاوية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%8A%D8%B4%D9%86%D9%82-%D9%86%D9%81%D8%B3%D9%87-%D8%A8%D9%8A%D8%AF%D9%87-%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D8%AF-%D9%8A%D8%B6%D8%B9-%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D9%87%D8%A7%D9%88%D9%8A%D8%A9/blta8b47bbdbce31eb9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أصبح المدرب البرتغالي روبن أموريم مهددا بالإقالة من تدريب مانشستر يونايتد، في ظل البداية المتعثرة لفريقه هذا الموسم، إذ تعرض لهزيمتين في الدوري الإنجليزي بأول 4 جولات، ولإقصاء مبكر من كأس الرابطة على يد جريمسبي تاون، الناشط في دوري الدرجة الرابعة.",
+      "body": "أصبح المدرب البرتغالي روبن أموريم مهددا بالإقالة من تدريب مانشستر يونايتد، في ظل البداية المتعثرة لفريقه هذا الموسم، إذ تعرض لهزيمتين في الدوري الإنجليزي بأول 4 جولات، ولإقصاء مبكر من كأس الرابطة على يد جريمسبي تاون، الناشط في دوري الدرجة الرابعة. &nbsp; وسجل أموريم أسوأ انطلاقة للشياطين الحمر في أول 4 جولات للبريميرليج، وذلك منذ موسم 1992-1993، بعدما اكتفى بحصد 4 نقاط فقط. &nbsp; وتولى أموريم منصب المدير الفني لليونايتد في نوفمبر/تشرين الثاني 2024، خلفا للهولندي إيريك تين هاج، الذي أقيل من منصبه أيضا بسبب انطلاقته الكارثية في الموسم الماضي، لكنه لم ينجح حتى الآن في تصحيح الأوضاع. &nbsp; هوية جديدة منذ وصول أموريم إلى ملعب أولد ترافورد، تحول اليونايتد للعب بطريقة (3-4-3) في أغلب المباريات، وهو ما لم يعتد عليه الفريق طوال السنوات الماضية. &nbsp; وأصر المدرب البرتغالي على محاكاة أسلوبه الذي طبقه في تجربته السابقة مع سبورتنج لشبونة، رغم عدم امتلاك اليونايتد العناصر المناسبة لهذه الطريقة. &nbsp; ولم يستطع أموريم تطبيق أفكاره بسهولة حتى نهاية الموسم الماضي، ليصبح الأمل في الموسم الجديد بعد إبرام صفقات جديدة، تتناسب مع النهج الجديد للمدرب البرتغالي. &nbsp; لكن بداية الموسم الحالي أثبتت أن المان يونايتد مازال بعيدا عن الطريق الصحيح، حيث لم يظهر الفريق بالمستوى المنشود، فضلا عن تحقيقه نتا…",
+      "image": null,
+      "pubDate": "2025-09-15T12:14:06.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "706783d040853a8f",
+      "title": "ما القنوات الناقلة لمباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D9%85%D8%A7%D8%B1%D8%B3%D9%8A%D9%84%D9%8A%D8%A7-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt6ca5fcaa3828b6b0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026، وكيف تشاهدها عبر الإنترنت؟",
+      "body": "يستعد ريال مدريد لانطلاق نسخة جديدة من دوري أبطال أوروبا، حينما يستضيف مارسيليا على أرضه في سانتياجو برنابيو.&nbsp; ريال مدريد خرج من دوري أبطال أوروبا الموسم الماضي من ربع النهائي أمام آرسنال، إلا أنّ الفريق بدأ بشكل جيد خلال الموسم الحالي تحت قيادة المدرب الجديد تشابي ألونسو. ويتصدر الملكي الدوري الإسباني بالعلامة الكاملة بعد أربع جولات. ويرصد كووورة في السطور التالية، القنوات الناقلة لمباراة يال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026 وطرق المشاهدة عبر الإنترنت .. ما القنوات الناقلة لمباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026؟&nbsp; يمكن مشاهدة مباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026 عن طريق قنوات بي إن سبورتس. وخصصت الشبكة قناة beIN SPORTS 1 HD لبث المواجهة المرتقبة في دوري أبطال أوروبا. كيف تشاهد مباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026 عبر الإنترنت؟ لهواة البث المباشر، يمكن متابعة مباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026 عبر تطبيق TOD TV و beIN Connect. وإن كنت خارج منطقة الشرق الأوسط وترغب في الاستمتاع بمتابعة المباريات يمكن الاعتماد على Nord VPN . شاهد البث المباشر في أي مكان بالعالم باستخدام Nord VPN اشترك الآن &nbsp; من معلق مباراة ريال مدريد ومارسيليا في دوري أبطال أوروبا 2025-2026؟ سوف يتم إذ…",
+      "image": null,
+      "pubDate": "2025-09-15T12:07:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "3fabc991bf72eeda",
@@ -782,6 +1118,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "a4d85afd0c4ea48c",
+      "title": "للمرة الثالثة تواليًا.. دوبلانتيس يقتنص ذهبية القفز بالزانة",
+      "link": "https://www.kooora.com/%D8%A7%D9%94%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%82%D9%88%D9%89/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%84%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%AA%D9%88%D8%A7%D9%84%D9%8A%D9%8B%D8%A7-%D8%AF%D9%88%D8%A8%D9%84%D8%A7%D9%86%D8%AA%D9%8A%D8%B3-%D9%8A%D9%82%D8%AA%D9%86%D8%B5-%D8%B0%D9%87%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D9%81%D8%B2-%D8%A8%D8%A7%D9%84%D8%B2%D8%A7%D9%86%D8%A9/blt986b92c83f42b909?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "توج السويدي أرماند دوبلانتيس، البطل الأولمبي وحامل الرقم القياسي، بذهبية مسابقة القفز بالزانة، للمرة الثالثة تواليًا، في بطولة العالم لألعاب القوى، المقامة حاليًا في طوكيو.",
+      "body": "توج السويدي أرماند دوبلانتيس، البطل الأولمبي وحامل الرقم القياسي، بذهبية مسابقة القفز بالزانة، للمرة الثالثة تواليًا، في بطولة العالم لألعاب القوى، المقامة حاليًا في طوكيو. وضمن دوبلانتيس، البالغ من العمر 25 عامًا، اللقب العالمي، بقفزه 6.15 أمتار، متقدمًا على اليوناني إيمانويل كاراليس (6 أمتار) والأسترالي كورتيس مارشال (5.95 أمتار)، قبل أن يطلب رفع العارضة لارتفاع 6.30 أمتار في محاولة لتحطيم رقمه القياسي العالمي البالغ 6.29 أمتار.",
+      "image": null,
+      "pubDate": "2025-09-15T11:58:55.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "30af2f4084f8c847",
@@ -883,7 +1235,7 @@
       "id": "445a7955ba6f7e20",
       "title": "Channel 4 to Mark Trump’s U.K. Visit With “Longest Uninterrupted Reel of Untruths Ever Broadcast on Television”",
       "link": "https://www.hollywoodreporter.com/tv/tv-news/channel-4-donald-trump-uk-visit-truth-untruth-lies-program-1236371565/",
-      "summary": "'Trump v The Truth' will run for several hours on Sept. 17 and is set to be punctuated by \"brief text-based fact-checks.\"",
+      "summary": "'Trump v the Truth' will run for several hours on Sept. 17 and is set to be punctuated by \"brief text-based fact-checks.\"",
       "body": null,
       "image": null,
       "pubDate": "2025-09-15T11:39:48.000Z",
@@ -1184,38 +1536,6 @@
       "region": "mena"
     },
     {
-      "id": "ddbcdb0e80980f0c",
-      "title": "موعد مباراة إنتر ميامي وسياتل ساوندرز في الدوري الأمريكي 2025 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D8%A7%D9%85%D9%8A-%D9%88%D8%B3%D9%8A%D8%A7%D8%AA%D9%84-%D8%B3%D8%A7%D9%88%D9%86%D8%AF%D8%B1%D8%B2-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D9%8A-2025-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/bltc4385f96c43e01d8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على موعد مباراة إنتر ميامي وسياتل ساوندرز في الدوري الأمريكي 2025 والقنوات الناقلة",
-      "body": "يخوض إنتر ميامي اختبارًا صعبًا عندما يستضيف سياتل ساوندرز، الأربعاء المقبل على ملعب تشايس ستاديوم، ضمن منافسات الدوري الأمريكي للمحترفين 2025. يحتل إنتر ميامي المركز الثامن في جدول ترتيب الدوري الأمريكي برصيد 46 نقطة، ويسعى لتعويض خسارته السابقة أمام شارلوت بثلاثية نظيفة. وفي التقرير الآتي، نستعرض موعد مباراة إنتر ميامي وسياتل ساوندرز في الدوري الأمريكي 2025 والقنوات الناقلة والتشكيل المتوقع وكل ما تريد معرفته: متى موعد مباراة إنتر ميامي وسياتل ساوندرزفي الدوري الأمريكي 2025؟ موعد مباراة إنتر ميامي وسياتل ساوندرز في الدوري الأمريكي 2025 هو الأربعاء 17 سبتمبر 2025&nbsp;على ملعب \"تشايس ستاديوم\". وتنطلق صافرة بداية المباراة في الثانية والنصف صباحًا (02:30) بتوقيت مصر والسعودية، الثالثة والنصف صباحًا (03:30) بتوقيت الإمارات. ما القنوات الناقلة لمباراة إنتر ميامي وسياتل ساوندرز في الدوري الأمريكي 2025؟ وكيف تتابعها عبر الإنترنت؟ يمكن متابعة البث المباشر لمباراة إنتر ميامي وسياتل ساوندرز عبر الإنترنت عن طريق تطبيق Apple TV+، وهي الطريق الوحيدة، إذ لا تمتلك أي قناة عربية حقوق متابعة الدوري الأمريكي. شاهد مباريات إنتر ميامي عبر Apple TV+ اشترك الآن &nbsp; &nbsp; المباراة الموعد القنوات الناقلة الملعب إنتر ميامي - سياتل الأربعاء 17 سبتمبر 2025، (02:30) مصر والسعودية Apple TV+ تشايس ستاديوم…",
-      "image": null,
-      "pubDate": "2025-09-15T10:27:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "31355ec684da0c3e",
-      "title": "قفازات النصر تطمئن قلب جيسوس",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D9%81%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%AA%D8%B7%D9%85%D9%8A%D9%94%D9%86-%D9%82%D9%84%D8%A8-%D8%AC%D9%8A%D8%B3%D9%88%D8%B3/blt930631756b1b855d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يشعر جورجي جيسوس مدرب النصر السعودي، بالاطمئنان، بشأن مركز حراسة المرمى، بعد المستوى المميز الذي ظهر به راغد النجار أمام الخلود.",
-      "body": "يشعر جورجي جيسوس مدرب النصر السعودي، بالاطمئنان، بشأن مركز حراسة المرمى، بعد المستوى المميز الذي ظهر به راغد النجار أمام الخلود. وساهم النجار بشكل مباشر، في فوز النصر 2-0 على الخلود بالجولة الثانية من دوري روشن للمحترفين، بعدما تصدى لركلة جزاء، حصل عليها المنافس، كادت تغير سيناريو المباراة. ومع غياب نواف العقيدي للإصابة، رفض جيسوس، اللجوء لخيار البرازيلي بينتو، ليس لسبب فني، حسبما كشف المدرب، ولكن سعيًا لتوفير عدد أجانب أكبر داخل الملعب، ليستقر على الدفع بالنجار، الذي تألق بشدة. ويمتلك النجار 9 مشاركات فقط مع النصر، حيث أن الحارس صاحب 28 عاما، لم يلعب دورا أساسيا مع العالمي، بل أن جماهير الفريق الأصفر، لم تكن تحمل ذكريات طيبة له. ومن بين الذكريات الصادمة لراغد، مباراة النصر ضد العين الإماراتي في دوري أبطال آسيا بالموسم قبل الماضي، حيث خرج العالمي بركلات الترجيح، لكن قبل ذلك ارتكب الحارس هفوة قاتلة مكنت الفريق الإماراتي من تسجيل هدف، أوصله لركلات الترجيح لاحقًا، بعدما كاد النصر يخرج بالنتيجة التي تؤهله مباشرة. ومنذ ذلك الحين، سجل راغد النجار، حضورا محدودا من بين ذلك الفوز 4-2 على الاتحاد في ختام موسم 2023-2024، حيث كانت مباراة بلا حسابات للعالمي. واليوم يعود النجار من الباب الكبير، ليثبت تألقه مع النصر، ويزيد الضغط على العقيدي وبينتو، لصالح الفريق ومدربه جيسوس، الذي لم يعد يقلق من …",
-      "image": null,
-      "pubDate": "2025-09-15T10:24:28.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "21d7e82211c91954",
       "title": "Someone has been up to ARKK shenanigans again",
       "link": "https://www.ft.com/content/c50d6c1a-dcf3-40ad-9e3a-739be8802acf",
@@ -1230,54 +1550,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "76b80ce34ebeb098",
-      "title": "بايرن ميونخ يعلن تشخيص إصابة لاعبه",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D8%B9%D9%84%D9%86-%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5-%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D9%84%D8%A7%D8%B9%D8%A8%D9%87/blt29c634aedb30d92e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشف نادي بايرن ميونخ، اليوم الإثنين، تشخيص إصابة لاعبه البرتغالي رافاييل جيريرو.",
-      "body": "كشف نادي بايرن ميونخ، اليوم الإثنين، تشخيص إصابة لاعبه البرتغالي رافاييل جيريرو. وأعلن البافاري في بيان، على موقعه الرسمي، أن جيريرو تعرض لإصابة طفيفة في عضلات البطن خلال مباراة الفريق أمام هامبورج في الدوري الألماني. وأوضح البايرن أن الفحوصات الطبية التي أجرتها الطواقم المختصة، أكدت معاناة اللاعب من هذه الإصابة، مما سيجبره على التوقف عن اللعب في الفترة المقبلة. ويبلغ جيريرو من العمر 31 عاماً، وسيبتعد مؤقتاً عن المشاركة مع الفريق البافاري حتى تعافيه بشكل كامل. ويحتل بايرن ميونخ، صدارة الدوري الألماني برصيد 9 نقاط، متفوقًا بفارق نقطتين، على بوروسيا دورتموند صاحب الوصافة. ويستعد بايرن ميونخ لمواجهة تشيلسي، بعد غد الأربعاء، في الجولة الأولى من دوري أبطال أوروبا. &nbsp;",
-      "image": null,
-      "pubDate": "2025-09-15T10:15:15.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7e13163db8805ac0",
-      "title": "مودريتش: آمل ألا يذكرني أحد بعمري",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D8%AF%D8%B1%D9%8A%D8%AA%D8%B4-%D8%A7%D9%93%D9%85%D9%84-%D8%A7%D9%94%D9%84%D8%A7-%D9%8A%D8%B0%D9%83%D8%B1%D9%86%D9%8A-%D8%A7%D9%94%D8%AD%D8%AF-%D8%A8%D8%B9%D9%85%D8%B1%D9%8A/blte93d71a42800f805?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>&nbsp;طلب لوكا مودريتش، نجم ميلان، ألا يُذكِّره أحد بعمره مجدداً، بعدما احتفل بعيد ميلاده الـ40 بتسجيل هدف منح ميلان الفوز على بولونيا.</p><p style=\"direction: rtl;\">أقيمت المباراة على ملعب سان سيرو، حيث سيطر بولونيا على فترات طويلة، فيما اصطدمت كرات ميلان بالقائم والعارضة 3 مرات قبل أن يتمكن مو…",
-      "body": "&nbsp;طلب لوكا مودريتش، نجم ميلان، ألا يُذكِّره أحد بعمره مجدداً، بعدما احتفل بعيد ميلاده الـ40 بتسجيل هدف منح ميلان الفوز على بولونيا. أقيمت المباراة على ملعب سان سيرو، حيث سيطر بولونيا على فترات طويلة، فيما اصطدمت كرات ميلان بالقائم والعارضة 3 مرات قبل أن يتمكن مودريتش من تسجيل هدف الحسم. وكسر مودريتش التعادل بنفسه بعدما بدأ الهجمة ثم أنهاها، حين استقبل تمريرة أرضية من أليكسيس سايليمايكرز وسدد الكرة داخل منطقة الجزاء لتسكن الشباك. وقال مودريش، في تصريحات لشبكة \"DAZN\": \"كانت طريقة رائعة للاحتفال. الأهم أننا فزنا وعلينا الآن التركيز على المباريات المقبلة. آمل ألا يذكرني أحد بعمري مرة أخرى!\". وأضاف: \"الهدف جاء من تمريرة رائعة من سايليمايكرس، كان الأمر أسهل بالنسبة لي، الفضل له أكثر من إنهائي للكرة. الفريق قاتل جيداً، مباراة تلو الأخرى سنزداد ثقة، ومع عودة اللاعبين وتفاهمنا أكثر، سنصبح أفضل\". من جانبه، تحدث سايليمايكرس الذي كان بجوار مودريتش، قائلاً: \"كنت أشاهد لوكا عندما كنت طفلاً، والآن اللعب إلى جانبه حلم بالنسبة لي. إنه لاعب مذهل، لكنه شخص أروع بكثير. متواضع جداً، لكنه من صنع الهدف بكل تفاصيله\". وشهدت الدقائق الأخيرة طرد المدرب ماسيميليانو أليجري وتمزيق سترته من على كتفيه، ما أثار التساؤلات حول ما إذا كان ميلان بدأ يتحول إلى فريق \"أليجري\" الكلاسيكي من خلال تحقيق الانتصار بنتيجة …",
-      "image": null,
-      "pubDate": "2025-09-15T10:06:24.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a425dc8bac83fc5f",
-      "title": "ارتجاج في المخ يبعد أسد المغرب عن مواجهة الريال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%B1%D8%AA%D8%AC%D8%A7%D8%AC-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AE-%D9%8A%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D8%B3%D8%AF-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%B9%D9%86-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84/blt6ea9c0dcfa3967db?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تأكد غياب المغربي نايف أكرد، مدافع مارسيليا، عن مباراة فريقه أمام ريال مدريد، غدا الثلاثاء، في الجولة الأولى لدوري أبطال أوروبا.",
-      "body": "تأكد غياب المغربي نايف أكرد، مدافع مارسيليا، عن مباراة فريقه أمام ريال مدريد، غدا الثلاثاء، في الجولة الأولى لدوري أبطال أوروبا. وذكرت صحيفة \" ليكيب \" أن أكرد سيبقى في مارسيليا، من أجل الخضوع للبروتوكول الطبي الخاص بالتعامل مع إصابات الارتجاج في المخ. وأضافت أن نايف أكرد أصيب في فوز مارسيليا 4-0 على لوريان، يوم الجمعة الماضي، في بطولة الدوري الفرنسي. وأشارت إلى أن المدافع المغربي لم يهنأ بهز الشباك في ظهوره الأول بقميص الفريق الفرنسي، الذي انضم إليه قادما من وست هام خلال الصيف الجاري. ولفتت \"في المقابل سيعود لدفاع مارسيليا، القائد ليوناردو باليردي، الذي حصل على راحة من مباراة الجمعة بعد عودته متأخرا من صفوف منتخب الأرجنتين، وشكواه من آلام في قدمه\". وختمت \"ليكيب\" بأن باليردي سيكون حاضرًا للمؤتمر الصحفي الخاص بالمباراة، اليوم الإثنين.",
-      "image": "https://assets.kooora.com/images/v3/getty-2234411457/crop/MM5DENRTHE5DCNZVHE5G433XMU5DGMZQHIZDEMA=/GettyImages-2234411457.jpg",
-      "pubDate": "2025-09-15T09:56:24.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "95468c006c972402",
@@ -1335,22 +1607,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-09-15T09:09:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "8620ad07b2d86534",
-      "title": "I am not going to change formation - Amorim",
-      "link": "https://www.bbc.com/sport/football/videos/c75qd557215o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United manager Ruben Amorim repeats his commitment to his 3-4-3 formation despite their derby defeat.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-15T08:57:16.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1584,22 +1840,6 @@
       "region": "global"
     },
     {
-      "id": "c0fdf9ab0148b8f7",
-      "title": "Noah Wyle Wears Tuxedo Made by Scrubs Brand to Emmys",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/noah-wyle-scrubs-tuxedo-figs-2025-emmys-1236371490/",
-      "summary": "The best drama actor winner for 'The Pitt' sported a custom navy suit created by health care apparel company FIGS.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-15T05:42:47.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "35f9a0595afbccd2",
       "title": "Caudery suffers injury heartbreak in Tokyo",
       "link": "https://www.bbc.com/sport/athletics/articles/cm285g99dyzo?at_medium=RSS&at_campaign=rss",
@@ -1661,22 +1901,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "e4c73faec97f70d4",
-      "title": "Emmys Snubs and Surprises: Jeff Hiller and Katherine LaNasa Score Unexpected Wins as Kathy Bates, ‘The Bear’ Shut Out",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/2025-emmys-snubs-surprises-kathy-bates-jeff-hiller-1236371468/",
-      "summary": "Britt Lower took the best drama actress award experts predicted would go to the 'Matlock' star in a historic win, while limited series actor fave Colin Farrell couldn't escape the 'Adolescence' juggernaut.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-15T05:09:12.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2272,22 +2496,6 @@
       "region": "global"
     },
     {
-      "id": "8ed6ba7886b40756",
-      "title": "England beat Scotland to set up France semi-final",
-      "link": "https://www.bbc.com/sport/rugby-union/videos/c5ye5q5nrdqo?at_medium=RSS&at_campaign=rss",
-      "summary": "England score six tries on their way to an impressive 40-8 win over Scotland to set up a semi-final against France at the Women's Rugby World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-14T17:22:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "84ac4623cde91e73",
       "title": "Conan O'Brien played Borderlands 4 for charity, but somebody should have told him about the Claptrap mute button: 'He's my least favorite trash can'",
       "link": "https://www.pcgamer.com/games/fps/conan-obrien-played-borderlands-4-for-charity-but-somebody-should-have-told-him-about-the-claptrap-mute-button-hes-my-least-favorite-trash-can/",
@@ -2432,22 +2640,6 @@
       "region": "global"
     },
     {
-      "id": "6fe29df369137f6c",
-      "title": "Noren beats Saddier in play-off to win PGA Championship",
-      "link": "https://www.bbc.com/sport/golf/articles/c2ejwp1lxrdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sweden's Alex Noren finally beat France's Adrien Saddier in a play-off to win the BMW PGA Championship in torrential rain at Wentworth Club.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-14T16:04:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f3cf35634dfbe924",
       "title": "US companies put brakes on hiring after Trump’s tariffs hit",
       "link": "https://www.ft.com/content/35848bf7-16e1-4036-bacf-629af9d19469",
@@ -2480,22 +2672,6 @@
       "region": "global"
     },
     {
-      "id": "5ed40d4f1b74a7f7",
-      "title": "England and South Africa draw T20 series after washout",
-      "link": "https://www.bbc.com/sport/cricket/articles/cn820e5d7vpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The series-deciding third T20 between England and South Africa is abandoned without a ball being bowled because of rain.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-14T15:27:01.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "a277e2b7d2cae0c9",
       "title": "5 Live Boxing with Steve Bunce",
       "link": "https://www.bbc.co.uk/sounds/play/p0m2t33x?at_medium=RSS&at_campaign=rss",
@@ -2525,22 +2701,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "15c5d661dc78afd9",
-      "title": "Seville storms to 100m gold as Bolt cheers him on",
-      "link": "https://www.bbc.com/sport/athletics/videos/cgj1lyxynjno?at_medium=RSS&at_campaign=rss",
-      "summary": "Jamaica's Oblique Seville runs a personal best of 9.77 seconds to take gold in the men's 100m final as sprint legend Usain Bolt cheers him on.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-14T13:36:01.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2733,22 +2893,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "65fc02f6d599214c",
-      "title": "U.S. Oil Patch Sheds Jobs as Producers Face Weaker Prices",
-      "link": "https://oilprice.com/Energy/Energy-General/US-Oil-Patch-Sheds-Jobs-as-Producers-Face-Weaker-Prices.html",
-      "summary": "The U.S. shale patch is seeing the deepest jobs cuts in three years as producers respond to lower oil prices with slowing drilling activity and greater efficiencies through consolidation and cost cuts. Employment in the industry fell by 1.7% in August, per data from the Bureau of Labor Statistics (…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-13T23:00:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
@@ -2970,22 +3114,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4dd73d85cf0c5d01",
-      "title": "Sachem Head is pushing for a Performance Food merger. Here's why a deal makes sense",
-      "link": "https://www.cnbc.com/2025/09/13/sachem-head-is-pushing-for-a-performance-food-merger-heres-why-a-deal-makes-sense.html",
-      "summary": "While there is an opportunity to improve Performance Food's profitability, the main catalyst here is a potential merger with US Foods.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-13T12:17:57.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "technology",
@@ -3216,22 +3344,6 @@
       "region": "global"
     },
     {
-      "id": "77ee0e8a995a7234",
-      "title": "Furious Destiny 2 players accuse Bungie of secretly moving a stunning free armor set into the Eververse Store so players have to pay real money for it instead",
-      "link": "https://www.pcgamer.com/games/fps/furious-players-accuse-bungie-of-secretly-moving-a-stunning-free-armor-set-into-the-eververse-store-so-players-have-to-pay-real-money-for-it-instead/",
-      "summary": "The studio desperately needs a win, but seems determined to avoid taking one.",
-      "body": "Between a systemic overhaul that the playerbase hates, and a list of bugs that frankly beggar belief, Destiny 2 is currently in perhaps the worst shape of its history. Which, if you've been paying attention to the game's ability to self-immolate, is truly something. And yet Bungie still seems determined to find new ways to take Ls. This time, it's the greed again. The studio stands accused of taking a very cool new armor set, which had been intended to be a reward from the returning Iron Banner activity, and instead placing it inside the Eververse Store where it sells for 1,500 Silver per character—$15 in real money. The shambles goes back to September 9, when the Destiny 2 team announced the return of the Iron Banner PvP mode, \"with new weapons to earn and an incredibly cool new set of armor .\" A couple days later, though, Bungie unveiled the new Iron Banner armor and it was in fact \"reprised\" armor , which is to say a reskin of old armor—and not an especially impressive one in the eyes of Destiny 2 fashionistas. The disappointing walkback from \"incredibly cool\" to old hand-me-down was a bummer for players looking for new drip. The real trouble, though, began when concept artist …",
-      "image": "https://cdn.mos.cms.futurecdn.net/GqZ9fcBWcKiJNiUJA3JAng-1280-80.jpg",
-      "pubDate": "2025-09-12T22:35:54.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "78c0dc39b0608498",
       "title": "Apple, Google and Meta are trying to perfect a science fiction gadget: The universal translator",
       "link": "https://www.cnbc.com/2025/09/12/apple-google-meta-universal-translator.html",
@@ -3245,54 +3357,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "232358c9647f1abf",
-      "title": "Battlefield 6 is 'secretly console first,' says half-joking dev who has bravely risked resurrecting 2000s-era console vs PC bitterness",
-      "link": "https://www.pcgamer.com/games/fps/battlefield-6-console-first-interview/",
-      "summary": "\"We don't want to, obviously, tear down or destroy any of the legacy that Battlefield has, which is, first, a PC game,\" they added.",
-      "body": "Speaking to IGN in a recent interview, Battlefield Studios developers said that Battlefield 6 has been built from the start with console players in mind, going so far as to describe their approach as \"secretly console first.\" I'd joke that we should keep our torches and pitchforks stowed, because there is some mitigating context to the statement, but haven't seen any PC gamers reaching for their angry mob gear yet anyway. (Well, except for a lone IGN commenter who says, \"So BF6 is mainly a console game now? Gross.\") How far we've come! And in context, it does sound like the Battlefield 6 devs aim to correct an imbalance, not to disregard the PC version. \"We don't want to, obviously, tear down or destroy any of the legacy that Battlefield has, which is, first, a PC game,\" said senior console combat designer Matthew Nickerson, who revealed in the interview that he coined the \"secretly console first\" saying at Ripple Effect. \"But we really have to care about console at the end of the day.\" Battlefield 6 technical director Christian Buhl offered a similar take. \"Obviously, we're still also thinking about PC players, but in the past, frankly, Battlefield was built as a PC game and then…",
-      "image": "https://cdn.mos.cms.futurecdn.net/nnjAzBiGn9vUerPijkBkjm-1280-80.jpg",
-      "pubDate": "2025-09-12T22:14:13.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a734e9832aa99e2a",
-      "title": "Battlefield 6 devs knew 'everything' would leak from playtests but said the risk was worth it to get feedback from players: 'That had to come at any cost'",
-      "link": "https://www.pcgamer.com/games/fps/battlefield-6-devs-knew-everything-would-leak-from-playtests-but-said-the-risk-was-worth-it-to-get-feedback-from-players-that-had-to-come-at-any-cost/",
-      "summary": "Ripple Effect was determined to collect all the player data it could, even though it meant accepting that leaks would happen.",
-      "body": "Game developers, generally speaking, don't like leaks. Infinity Nikki studio Infold, for instance, recently described leaks as \" poison to all creation .\" That's maybe a bit much, but it does capture the broad sentiment: When you're working on something that's meant to be a surprise, and someone blows that surprise, it sucks. Developers do what they can to prevent leaks, but sometimes there's just no getting around it. Such is the case with Battlefield 6: Technical director Christian Buhl told IGN that Ripple Effect ( formerly DICE LA ) \"did not want leaks,\" but it did want as much feedback from players as possible—and that meant rolling the dice. \"We had, actually, discussions, I think about a year or two ago,\" Buhl said. \"I guess it was maybe about two years ago, about how much we were going to do to prevent leaks versus how much we were going to do to get the game in front of players. We made a very deliberate decision that we were going to bias very heavily towards putting things in front of players and getting their feedback, even though we knew things would leak.\" Sure enough, that's exactly what happened: The Battlefield Labs program is technically a closed testing platform…",
-      "image": "https://cdn.mos.cms.futurecdn.net/xPmeGgCvVNsDxFGkhAbUTg-1280-80.jpg",
-      "pubDate": "2025-09-12T20:31:42.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "38333579573d7cad",
-      "title": "Cathie Wood’s flagship ARK fund balloons by $3.5bn ahead of Klarna IPO",
-      "link": "https://www.ft.com/content/02964812-1965-4c1c-85ed-da34be611cb4",
-      "summary": "Traders say rush to create new ETF shares echoes unusual trading pattern around last month’s listing of Bullish",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-12T19:44:38.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
