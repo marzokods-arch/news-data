@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2025-09-19T05:33:10.106Z",
-    "total": 347,
+    "generated_at": "2025-09-19T05:43:29.148Z",
+    "total": 348,
     "processed_feeds": 23,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
       {
         "name": "Sky News Arabia Varieties",
         "url": "https://www.skynewsarabia.com/rss/varieties.xml",
@@ -35,16 +22,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "lang": "ar",
-        "region": "egypt",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -56,8 +43,21 @@
         "cats": [
           "sports"
         ],
-        "taken": 65,
+        "taken": 66,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -100,16 +100,16 @@
         "notModified": false
       },
       {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 45,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -126,29 +126,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 45,
+        "error": null,
         "notModified": false
       },
       {
@@ -178,9 +165,48 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 87\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
         "name": "Gulf News — Lifestyle",
         "url": "https://gulfnews.com/lifestyle/rss",
         "homepage": "https://gulfnews.com/lifestyle/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -201,32 +227,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -282,16 +282,16 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -310,6 +310,70 @@
     ]
   },
   "items": [
+    {
+      "id": "15c1133173214af3",
+      "title": "إدارات في قفص التمييز",
+      "link": "https://assabah.ma/871877.html",
+      "summary": "حذر حسن طارق، وسيط المملكة، أول أمس (الأربعاء) بالرباط، من عدم تشبع الإدارة بمرجعية قيمية حديثة، والتهاون في حماية الحقوق وتجاهل المعايير لتجنب السقوط في التمييز. وشدد طارق، خلال افتتاح ورشة تفاعلية مع مكونات المجتمع المدني حول “الإدارة المغربية ورهان المساواة بين الجنسين”، على أن المساواة الإدارية…",
+      "body": "حذر حسن طارق، وسيط المملكة، أول أمس (الأربعاء) بالرباط، من عدم تشبع الإدارة بمرجعية قيمية حديثة، والتهاون في حماية الحقوق وتجاهل المعايير لتجنب السقوط في التمييز. وشدد طارق، خلال افتتاح ورشة تفاعلية مع مكونات المجتمع المدني حول &#8220;الإدارة المغربية ورهان المساواة بين الجنسين&#8221;، على أن المساواة الإدارية أكمل القراءة &raquo; المقالة إدارات في قفص التمييز fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2025-09-19T05:37:28.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "833ad01f715296c2",
+      "title": "I locked Coleen out for putting Liverpool flags up - Rooney",
+      "link": "https://www.bbc.com/sport/football/articles/cq8ez858kdgo?at_medium=RSS&at_campaign=rss",
+      "summary": "With the Merseyside derby approaching, former Everton star Wayne Rooney explains how he locked Coleen out for putting up Liverpool flags.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-19T05:34:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b5c039ba7530fb20",
+      "title": "الأراضي السلالية… تلاعبات وخروقات",
+      "link": "https://assabah.ma/871820.html",
+      "summary": "أدرك الملك أن التقسيم المتزايد الذي تعرفه الأراضي الفلاحية ينتج عنه ضعف في الإنتاجية، وأيقن أن استقرار الشباب بأرضهم سيبقى رهينا بتمكينهم من فرص الشغل، ففتح الباب أمام انبثاق بورجوازية جديدة تجمع الفلاح بالمستثمر وتصالح الأرض مع الرأسمال، سعيا إلى إحداث طبقة وسطى قروية، لكن التوجه الملكيأكمل القراء…",
+      "body": "أدرك الملك أن التقسيم المتزايد الذي تعرفه الأراضي الفلاحية ينتج عنه ضعف في الإنتاجية، وأيقن أن استقرار الشباب بأرضهم سيبقى رهينا بتمكينهم من فرص الشغل، ففتح الباب أمام انبثاق بورجوازية جديدة تجمع الفلاح بالمستثمر وتصالح الأرض مع الرأسمال، سعيا إلى إحداث طبقة وسطى قروية، لكن التوجه الملكي أكمل القراءة &raquo; المقالة الأراضي السلالية… تلاعبات وخروقات fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2025-09-19T05:28:12.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "2ec6a08ba4ae2f7e",
+      "title": "الرجوي تشارك في “ورديات”",
+      "link": "https://assabah.ma/871734.html",
+      "summary": "تضرب الفنانة نجاة الرجوي موعدا لجمهورها يوم ثاني أكتوبر المقبل بالمسرح الوطني محمد الخامس بالرباط، من أجل إحياء حفل يحمل عنوان “ورديات”. ويعد الحفل، الذي روجت له الرجوي على حساباتها الرسمية على مواقع التواصل الاجتماعي، بمثابة احتفاء بمسار الفنانة وردة الجزائرية، التي أغنت الخزانة الفنية العربية بعد…",
+      "body": "تضرب الفنانة نجاة الرجوي موعدا لجمهورها يوم ثاني أكتوبر المقبل بالمسرح الوطني محمد الخامس بالرباط، من أجل إحياء حفل يحمل عنوان &#8220;ورديات&#8221;. ويعد الحفل، الذي روجت له الرجوي على حساباتها الرسمية على مواقع التواصل الاجتماعي، بمثابة احتفاء بمسار الفنانة وردة الجزائرية، التي أغنت الخزانة الفنية العربية بعدد أكمل القراءة &raquo; المقالة الرجوي تشارك في “ورديات” fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2025-09-19T05:26:47.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "entertainment",
+      "region": "global"
+    },
     {
       "id": "6dc163e3a01e0f6b",
       "title": "“إيفا” تراهن  على “الهيبة”",
@@ -455,54 +519,6 @@
       "region": "global"
     },
     {
-      "id": "4536b521c4f1e26c",
-      "title": "كلاب ضالة تقتل طفلا بتازة",
-      "link": "https://assabah.ma/871711.html",
-      "summary": "توفي طفل في نهاية عقده الأول، متأثرا بجروح بالغة بعدما هاجمته، أخيرا، كلاب ضالة قرب مقهى بمركز جماعة بوحلو بدائرة واد أمليل، على بعد 40 كيلومترا غرب تازة، قبل نقله جثته لمستودع الأموات بمستشفى ابن باجة لتشريحها بأمر من النيابة العامة المختصة، في إطار بحث أمرت بهأكمل القراءة » المقالة كلاب ضالة تقتل…",
-      "body": "توفي طفل في نهاية عقده الأول، متأثرا بجروح بالغة بعدما هاجمته، أخيرا، كلاب ضالة قرب مقهى بمركز جماعة بوحلو بدائرة واد أمليل، على بعد 40 كيلومترا غرب تازة، قبل نقله جثته لمستودع الأموات بمستشفى ابن باجة لتشريحها بأمر من النيابة العامة المختصة، في إطار بحث أمرت به أكمل القراءة &raquo; المقالة كلاب ضالة تقتل طفلا بتازة fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2025-09-19T05:14:23.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "5b240211f9974751",
-      "title": "16 سنة لمتهمين بالسرقة بالجديدة",
-      "link": "https://assabah.ma/871708.html",
-      "summary": "أصدرت غرفة الجنايات الابتدائية التابعة لمحكمة الاستئناف بالجديدة، الثلاثاء الماضي، قرارها القاضي بإدانة شخصين بعد متابعتهما من قبل الوكيل العام للملك، من أجل جناية السرقة الموصوفة تحت طائلة التهديد بالسلاح الأبيض، وحكمت على كل واحد منهما ب8 سنوات سجنا نافذا. وحسب مصادر “الصباح” فإن الحكم جاء إثرأكم…",
-      "body": "أصدرت غرفة الجنايات الابتدائية التابعة لمحكمة الاستئناف بالجديدة، الثلاثاء الماضي، قرارها القاضي بإدانة شخصين بعد متابعتهما من قبل الوكيل العام للملك، من أجل جناية السرقة الموصوفة تحت طائلة التهديد بالسلاح الأبيض، وحكمت على كل واحد منهما ب8 سنوات سجنا نافذا. وحسب مصادر &#8220;الصباح&#8221; فإن الحكم جاء إثر أكمل القراءة &raquo; المقالة 16 سنة لمتهمين بالسرقة بالجديدة fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2025-09-19T05:12:45.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2219a1ddbeb63f1b",
-      "title": "اغتصاب “وحشي” لمعاقة يطيح بملتح",
-      "link": "https://assabah.ma/871706.html",
-      "summary": "تفنن ملتح بمنطقة الهراويين بالبيضاء، في استغلال فتاة تعاني إعاقة ذهنية، جنسيا، إذ أكدت خبرة طبية أنه يتم بطريقة وحشية وشاذة، قبل أن تطيح به عناصر الدرك خلال محاولته إعادتها إلى منزلها بمديونة ليلا، على متن دراجة نارية، بعد أن ألبسها زيا رجاليا للتمويه. وأخضع الملتحي لتعميقأكمل القراءة » المقالة اغت…",
-      "body": "تفنن ملتح بمنطقة الهراويين بالبيضاء، في استغلال فتاة تعاني إعاقة ذهنية، جنسيا، إذ أكدت خبرة طبية أنه يتم بطريقة وحشية وشاذة، قبل أن تطيح به عناصر الدرك خلال محاولته إعادتها إلى منزلها بمديونة ليلا، على متن دراجة نارية، بعد أن ألبسها زيا رجاليا للتمويه. وأخضع الملتحي لتعميق أكمل القراءة &raquo; المقالة اغتصاب “وحشي” لمعاقة يطيح بملتح fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2025-09-19T05:12:16.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "a5ad2321b0e792c8",
       "title": "Premier League ticket black market exposed",
       "link": "https://www.bbc.com/sport/articles/cwy9dlqxx2ro?at_medium=RSS&at_campaign=rss",
@@ -596,6 +612,22 @@
       },
       "lang": "en",
       "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "b426b5abb9fb6f59",
+      "title": "Sutton's predictions v The Coral, Starsailor, Picture Parlour & AI",
+      "link": "https://www.bbc.com/sport/football/articles/cvg98pv6vnvo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport football expert Chris Sutton takes on celebrity fans of Liverpool and Everton with his predictions for this weekend's Premier League fixtures.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-18T23:25:48.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -2087,22 +2119,6 @@
       "region": "global"
     },
     {
-      "id": "d7f4e675b1c7a97e",
-      "title": "Injury denied Kerr podium spot with me - Wightman",
-      "link": "https://www.bbc.com/sport/athletics/articles/cderzd3xr0ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Jake Wightman is adamant Josh Kerr would have been alongside him on the podium had injury not ruined his attempts to retain his 1500m title at the World Athletics Championships.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-18T12:03:33.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "8e24e82abcf3e438",
       "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2025)",
       "link": "https://www.wired.com/gallery/iphone-buying-guide/",
@@ -2871,22 +2887,6 @@
       "region": "global"
     },
     {
-      "id": "063aa167a41c0239",
-      "title": "Apple iPhone 17 Pro and iPhone 17 Pro Max Review: Level Up",
-      "link": "https://www.wired.com/review/apple-iphone-17-pro-and-iphone-17-pro-max/",
-      "summary": "Big, beefy batteries mean you might not have to charge your iPhone every day anymore.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-17T12:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ce1c736c6e8c6809",
       "title": "Apple iPhone Air Review: Better Than Expected",
       "link": "https://www.wired.com/review/apple-iphone-air/",
@@ -2900,6 +2900,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "063aa167a41c0239",
+      "title": "Apple iPhone 17 Pro and iPhone 17 Pro Max Review: Level Up",
+      "link": "https://www.wired.com/review/apple-iphone-17-pro-and-iphone-17-pro-max/",
+      "summary": "Big, beefy batteries mean you might not have to charge your iPhone every day anymore.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-17T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
