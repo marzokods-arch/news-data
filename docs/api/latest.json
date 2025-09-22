@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2025-09-22T04:39:52.919Z",
-    "total": 210,
-    "processed_feeds": 19,
-    "discovered_feeds": 82,
+    "generated_at": "2025-09-22T04:49:45.451Z",
+    "total": 194,
+    "processed_feeds": 20,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
@@ -22,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
         "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -35,16 +48,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -61,16 +74,16 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 27,
+        "error": null,
         "notModified": false
       },
       {
@@ -100,42 +113,16 @@
         "notModified": false
       },
       {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 27,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -165,6 +152,45 @@
         "notModified": false
       },
       {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Gulf News - Entertainment",
         "url": "https://gulfnews.com/entertainment/rss",
         "homepage": "https://gulfnews.com/entertainment/rss",
@@ -178,10 +204,10 @@
         "notModified": false
       },
       {
-        "name": "Al Jazirah (KSA) - رياضة",
-        "url": "https://www.al-jazirah.com/rss/rss09.xml",
-        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
-        "lang": "ar",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -217,10 +243,10 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
+        "name": "Al Jazirah (KSA) - رياضة",
+        "url": "https://www.al-jazirah.com/rss/rss09.xml",
+        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -241,55 +267,10 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
       }
     ]
   },
   "items": [
-    {
-      "id": "097d9a666123cfb5",
-      "title": "Morning Bid: Fedspeak to cut through the noise",
-      "link": "https://www.investing.com/news/economy-news/morning-bid-fedspeak-to-cut-through-the-noise-4247833",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8L04A_L.jpg",
-      "pubDate": "2025-09-22T04:36:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cdb46c3b5046dda7",
-      "title": "US H-1B visa clarification eases uncertainty, India’s IT industry body says",
-      "link": "https://www.investing.com/news/stock-market-news/us-h1b-visa-clarification-eases-uncertainty-indias-it-industry-body-says-4247831",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8L03N_L.jpg",
-      "pubDate": "2025-09-22T04:24:26.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
     {
       "id": "cfcafe0d2f8a723e",
       "title": "Apple-supplier Luxshare shares pop 10% on report of OpenAI hardware deal",
@@ -307,86 +288,6 @@
       "region": "global"
     },
     {
-      "id": "8369da89c89ee3bf",
-      "title": "Egyptian billionaire Nassef Sawiris seeks to invest $50 billion in US infrastructure, FT reports",
-      "link": "https://www.investing.com/news/economy-news/egyptian-billionaire-nassef-sawiris-seeks-to-invest-50-billion-in-us-infrastructure-ft-reports-4247830",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8L03R_L.jpg",
-      "pubDate": "2025-09-22T04:18:54.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2c44ae319e93560c",
-      "title": "Hardest-hit Vietnam risks losing $25 billion from US tariffs, UN estimates",
-      "link": "https://www.investing.com/news/stock-market-news/hardesthit-vietnam-risks-losing-25-billion-from-us-tariffs-un-estimates-4247823",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8L039_L.jpg",
-      "pubDate": "2025-09-22T04:18:37.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9517019e4ba61a66",
-      "title": "Israeli drone strikes kill five, including children, in southern Lebanon",
-      "link": "https://www.investing.com/news/world-news/israeli-drone-strikes-kill-five-including-children-in-southern-lebanon-4247829",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2025-09-22T04:18:14.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e000005a9d4a2081",
-      "title": "Pfizer close to $7.3 bln takeover of weight loss drugmaker Metsera- FT",
-      "link": "https://www.investing.com/news/stock-market-news/pfizer-close-to-73-bln-takeover-of-weight-loss-drugmaker-metsera-ft-4247828",
-      "summary": "",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T04:15:24.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b7fb282b908938c0",
-      "title": "Australia’s economy in a good place, though risks loom, RBA governor says",
-      "link": "https://www.investing.com/news/economy-news/australias-central-bank-alert-to-risks-over-economic-outlook-governor-says-4247811",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8L01D_L.jpg",
-      "pubDate": "2025-09-22T04:12:25.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9f8b4b2eeda6fbdd",
       "title": "Gloucester ideal to stake Wales claim - Llewellyn",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cx2rr3d945zo?at_medium=RSS&at_campaign=rss",
@@ -400,22 +301,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "5027603345ef54bd",
-      "title": "Asia FX muted with Fed rate path in focus; China keeps lending rates steady",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-muted-with-fed-rate-path-in-focus-china-keeps-lending-rates-steady-4247827",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEA750OZ_M.jpg",
-      "pubDate": "2025-09-22T04:10:00.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -515,22 +400,6 @@
       "region": "global"
     },
     {
-      "id": "738ee1965aaec8fc",
-      "title": "Disney’s ‘Lilith Fair’ Doc Premiere: Sarah McLachlan Says Musical Performances Canceled Amid Calls for Free Speech Following Jimmy Kimmel Suspension",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/disney-lilith-fair-sarah-mclachlan-free-speech-jimmy-kimmel-1236377086/",
-      "summary": "A source tells The Hollywood Reporter that Sarah McLachlan and Jewel were the artists who were going to take the stage at the event. \"We have collectively decided not to perform but instead to stand in solidarity in support of free speech,\" McLachlan told those in attendance.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T02:42:20.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "b36fa59d047ceec3",
       "title": "Iraq Boosts Oil Exports as OPEC+ Rolls Back Cuts",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Boosts-Oil-Exports-Amid-OPEC-Output-Rollback.html",
@@ -557,54 +426,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2da3635b7500ff18",
-      "title": "Travis Kelce Fined $14,491 by NFL for Making “Obscene Gestures” During Chiefs-Eagles Match",
-      "link": "https://www.hollywoodreporter.com/news/general-news/travis-kelce-fined-nfl-obscene-gestures-chiefs-eagles-1236377057/",
-      "summary": "The football star, podcaster and burgeoning actor celebrated a play during a game that aired Sept. 14 on Fox.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T01:36:29.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c02aaecc48f5e7f4",
-      "title": "Tom Holland Suffers Concussion on ‘Spider-Man’ Set, Takes Break from Filming",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/tom-holland-suffers-concussion-spider-man-set-1236377062/",
-      "summary": "The Marvel star is expected to return in several days.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T01:07:07.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d5e130a91e158f7d",
-      "title": "James Van Der Beek Drops Out of ‘Dawson’s Creek’ Live Event Due to Illness; Lin-Manuel Miranda Will Replace Him",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/james-van-der-beek-dawsons-creek-reunion-lin-manuel-miranda-1236377049/",
-      "summary": "The event, featuring a live reading with the show's original stars, is set to take place Monday in New York.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T00:01:50.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -819,22 +640,6 @@
       "region": "global"
     },
     {
-      "id": "72ad15fa47de33f5",
-      "title": "French Duo Air On Bringing ‘Moon Safari’ to the  Hollywood Bowl: “Los Angeles Is Actually a Big Studio”",
-      "link": "https://www.hollywoodreporter.com/music/music-features/air-moon-safari-hollywood-bowl-interview-1236377039/",
-      "summary": "Nicolas Godin and Jean-Benoît Dunckel spoke with THR ahead of the start of their North American tour run, reflecting on 25 years of Moon Safari and how watching ‘70s TV informed their orchestral sounds.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-21T21:24:13.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "3870d3163abe99c8",
       "title": "موعد مباراة الأهلي السعودي وبيراميدز في كأس القارات للأندية إنتركونتيننتال 2025 والقنوات الناقلة",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%88%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%84%D8%A7%D9%94%D9%86%D8%AF%D9%8A%D8%A9-%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%83%D9%88%D9%86%D8%AA%D9%8A%D9%86%D9%86%D8%AA%D8%A7%D9%84-2025-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/bltbbcb27f3799c50ba?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -867,22 +672,6 @@
       "region": "global"
     },
     {
-      "id": "c7ec832c651e4c88",
-      "title": "Margot Robbie, Colin Farrell on ‘A Big Bold Beautiful Journey’ and More Original Stories: “Right Now Is a Really Good Time for Film”",
-      "link": "https://www.hollywoodreporter.com/movies/movie-features/margot-robbie-a-big-bold-beautiful-journey-original-films-1236372868/",
-      "summary": "The Oscar nominees spoke to The Hollywood Reporter about shooting those emotional scenes and why there will always be a balance of sequels and new content: \"There's room for both.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-21T20:45:57.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "aebe999e6db0ef97",
       "title": "Chelsea consider Maignan again - Monday's gossip",
       "link": "https://www.bbc.com/sport/football/articles/cn0rrk04ry6o?at_medium=RSS&at_campaign=rss",
@@ -893,22 +682,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "43f79670b1d3c58c",
-      "title": "Tom Blyth, Mia McKenna-Bruce Join Claire Denis in San Sebastian for European Premiere of ‘The Fence’",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/tom-blyth-claire-denis-the-fence-san-sebastian-film-fest-1236377013/",
-      "summary": "The film's lead actor, Matt Dillon, had to pull out of his scheduled San Sebastian appearances at the last minute.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-21T20:19:46.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -1107,22 +880,6 @@
       "region": "mena"
     },
     {
-      "id": "d75bd7ea395a1c25",
-      "title": "Angelina Jolie, Louis Garrel Brave Torrential Rain in San Sebastian for European Premiere of Alice Winocour’s ‘Couture’",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/angelina-jolie-couture-san-sebastian-film-alice-winocour-1236376971/",
-      "summary": "The film, about the intersection of three women's lives across Paris Fashion Week, is screening in competition at the Spanish film fest with producer Jolie co-presenting it alongside Winocour.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-21T19:27:52.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "22fb2f8608c37549",
       "title": "لقجع يحدد هدفا لشباب المغرب قبل المونديال",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%82%D8%AC%D8%B9-%D9%8A%D8%AD%D8%AF%D8%AF-%D9%87%D8%AF%D9%81%D8%A7-%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt06bc66c4ef781aaa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1235,22 +992,6 @@
       "region": "global"
     },
     {
-      "id": "be9f54f4b9245f27",
-      "title": "جدول مباريات اليوم الإثنين 22 سبتمبر 2025 .. القنوات الناقلة والمعلقين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D9%95%D8%AB%D9%86%D9%8A%D9%86-22-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2025-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blta7a53b207c8bcd3a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين.",
-      "body": "تتجه أنظار عشاق كرة القدم اليوم، الإثنين 22 سبتمبر/ أيلول 2025 إلى استكمال مباريات الدوريات الأوروبية الكبرى. اليوم يشهد مواجهة نابولي ضد بيزا في الدوري الإيطالي، بجانب لقاء مارسيليا وباريس سان جيرمان المؤجل من الأمس، الأحد، بسبب الظروف المناخية. على الصعيد العربي، فاليوم يشهد مواجهات دور الـ32 في كأس الملك السعودي، وأبرزها لقاء بين العدالة والهلال. في هذا التقرير، يستعرض كووورة جدول مباريات اليوم الإثنين 22 سبتمبر/ أيلول 2025 والقنوات الناقلة لهذه المواجهات المرتقبة. ما القنوات الناقلة لمباريات اليوم الإثنين 22 سبتمبر 2025؟ يمكن مشاهدة مباريات الدوري الإيطالي على أبو ظبي الرياضية والقناة الرابعة، بينما الدوري الفرنسي على بي إن سبورتس. ولهواة البث المباشر، فإنّ تطبيق TOD TV هو الناقل للدوري الفرنسي ، بينما ستارز بلاي وتطبيق شاشا ينقل الدوري الإيطالي. وبالنسبة للدوري المصري، فهو متاح عبر قنوات أون تايم سبورتس وكذلك موقع كورة بلس. وإن كنت ترغب في مشاهد البث المباشر من أي مكان في العالم يمكن الاستعانة بتطبيق Nord VPN Nord VPN اشترك الآن &nbsp; &nbsp; جدول مباريات اليوم الإثنين 22 سبتمبر 2025 \"22-09-2025\" كأس الملك السعودي - دور الـ32 &nbsp; المباراة الموعد القنوات الناقلة البكرية - الخلود 18:35 السعودية، 19:35 الإمارات ثمانية&nbsp; الطائي - الخليج 18:45 السعودية، 19:45 الإمارات ثماني…",
-      "image": null,
-      "pubDate": "2025-09-21T19:00:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "12ff5b18ca00de70",
       "title": "The Race to Reinvent U.S. Nuclear Power",
       "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Race-to-Reinvent-US-Nuclear-Power.html",
@@ -1265,6 +1006,22 @@
       "lang": "en",
       "category": "markets",
       "region": "global"
+    },
+    {
+      "id": "be9f54f4b9245f27",
+      "title": "جدول مباريات اليوم الإثنين 22 سبتمبر 2025 .. القنوات الناقلة والمعلقين",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D9%95%D8%AB%D9%86%D9%8A%D9%86-22-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2025-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blta7a53b207c8bcd3a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين.",
+      "body": "تتجه أنظار عشاق كرة القدم اليوم، الإثنين 22 سبتمبر/ أيلول 2025 إلى استكمال مباريات الدوريات الأوروبية الكبرى. اليوم يشهد مواجهة نابولي ضد بيزا في الدوري الإيطالي، بجانب لقاء مارسيليا وباريس سان جيرمان المؤجل من الأمس، الأحد، بسبب الظروف المناخية. على الصعيد العربي، فاليوم يشهد مواجهات دور الـ32 في كأس الملك السعودي، وأبرزها لقاء بين العدالة والهلال. في هذا التقرير، يستعرض كووورة جدول مباريات اليوم الإثنين 22 سبتمبر/ أيلول 2025 والقنوات الناقلة لهذه المواجهات المرتقبة. ما القنوات الناقلة لمباريات اليوم الإثنين 22 سبتمبر 2025؟ يمكن مشاهدة مباريات الدوري الإيطالي على أبو ظبي الرياضية والقناة الرابعة، بينما الدوري الفرنسي على بي إن سبورتس. ولهواة البث المباشر، فإنّ تطبيق TOD TV هو الناقل للدوري الفرنسي ، بينما ستارز بلاي وتطبيق شاشا ينقل الدوري الإيطالي. وبالنسبة للدوري المصري، فهو متاح عبر قنوات أون تايم سبورتس وكذلك موقع كورة بلس. وإن كنت ترغب في مشاهد البث المباشر من أي مكان في العالم يمكن الاستعانة بتطبيق Nord VPN Nord VPN اشترك الآن &nbsp; &nbsp; جدول مباريات اليوم الإثنين 22 سبتمبر 2025 \"22-09-2025\" كأس الملك السعودي - دور الـ32 &nbsp; المباراة الموعد القنوات الناقلة البكرية - الخلود 18:35 السعودية، 19:35 الإمارات ثمانية&nbsp; الطائي - الخليج 18:45 السعودية، 19:45 الإمارات ثماني…",
+      "image": null,
+      "pubDate": "2025-09-21T19:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "47fd901ea5f40738",
