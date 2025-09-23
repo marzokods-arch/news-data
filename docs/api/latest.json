@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-09-23T16:44:08.539Z",
-    "total": 204,
+    "generated_at": "2025-09-23T16:54:25.427Z",
+    "total": 201,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 64,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -22,28 +35,15 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 64,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -61,19 +61,6 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "CNBC — Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
@@ -87,16 +74,16 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -121,7 +108,7 @@
         "cats": [
           "general"
         ],
-        "taken": 10,
+        "taken": 7,
         "error": null,
         "notModified": false
       },
@@ -152,19 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Oilprice.com — Latest",
         "url": "https://oilprice.com/rss/main",
         "homepage": "https://oilprice.com/rss/main",
@@ -178,23 +152,36 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Gulf News - Entertainment",
         "url": "https://gulfnews.com/entertainment/rss",
         "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -217,10 +204,36 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Al Bayan (UAE) - رياضة",
         "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -254,23 +267,154 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "615f0bc705b9da05",
+      "title": "Major automakers call for EPA to ease tailpipe emissions rules",
+      "link": "https://www.investing.com/news/stock-market-news/major-automakers-call-for-epa-to-ease-tailpipe-emissions-rules-4251782",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8M0RS_L.jpg",
+      "pubDate": "2025-09-23T16:50:00.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f0003246a869dbab",
+      "title": "Meta rolls out real-time translation feature on WhatsApp",
+      "link": "https://www.investing.com/news/stock-market-news/meta-rolls-out-realtime-translation-feature-on-whatsapp-4251773",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8M0RP_L.jpg",
+      "pubDate": "2025-09-23T16:49:42.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "219bea001cd3806f",
+      "title": "Moderna stock rises as Brookline reiterates Buy on strong COVID vaccine data",
+      "link": "https://www.investing.com/news/analyst-ratings/moderna-stock-rises-as-brookline-reiterates-buy-on-strong-covid-vaccine-data-93CH-4251780",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-23T16:49:09.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2bad55cbca658eda",
+      "title": "Trump’s new visa fees spur offshoring talks, hiring turmoil",
+      "link": "https://www.investing.com/news/economy-news/silicon-valley-hiring-in-turmoil-after-new-h1b-visa-fees-move-spurs-offshoring-talk-4250727",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8M0D2_L.jpg",
+      "pubDate": "2025-09-23T16:48:36.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "1c74b5c48903a917",
+      "title": "Revolut pledges £3bn UK investment as it prioritises full banking licence",
+      "link": "https://www.ft.com/content/eb21d54a-57b6-4ce6-b130-46a142544fea",
+      "summary": "Fintech says it will spend $30bn in push to reach 100mn worldwide users by 2030",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-23T16:48:11.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a81ad50be28cf31c",
+      "title": "Why Zillow stock is tumbling",
+      "link": "https://www.investing.com/news/stock-market-news/why-zillow-stock-is-tumbling-4251777",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPEABM0MT_M.jpg",
+      "pubDate": "2025-09-23T16:45:51.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a8c994a97abfe397",
+      "title": "Powell says slowing labor market prompted rate cut, sees 'challenging situation' ahead",
+      "link": "https://www.cnbc.com/2025/09/23/powell-says-slowing-labor-market-prompted-rate-cut-sees-challenging-situation-ahead.html",
+      "summary": "Powell said Tuesday that weakness in the labor market is outweighing concerns about stubborn inflation.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-23T16:45:34.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0200033fd5fbae20",
+      "title": "Fed's Powell says there is \"no risk-free path\" in balancing inflation and jobs",
+      "link": "https://www.investing.com/news/stock-market-news/feds-powell-says-there-is-no-riskfree-path-in-balancing-inflation-and-jobs-4251776",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-23T16:43:46.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8a79bb9b02697c92",
+      "title": "Fed’s Powell: Repeats no risk-free path as Fed balances job, inflation risks",
+      "link": "https://www.investing.com/news/economy-news/feds-powell-repeats-no-riskfree-path-as-fed-balances-job-inflation-risks-4251775",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8M0RJ_L.jpg",
+      "pubDate": "2025-09-23T16:43:10.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "ee3c8e67f1792bb8",
       "title": "X-COM's creator wants to make a sequel to his spiritual successor, despite it being a 'very difficult project'",
@@ -304,102 +448,6 @@
       "region": "global"
     },
     {
-      "id": "5a95cc9cd4789d6b",
-      "title": "DallasNews shareholders approve $16.50 per share merger with Hearst",
-      "link": "https://www.investing.com/news/company-news/dallasnews-shareholders-approve-1650-per-share-merger-with-hearst-93CH-4251768",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-09-23T16:37:20.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "42c8d7825c7b2618",
-      "title": "Vuzix and TCL CSOT partner on microLED display integration for AR",
-      "link": "https://www.investing.com/news/company-news/vuzix-and-tcl-csot-partner-on-microled-display-integration-for-ar-93CH-4251767",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2025-09-23T16:37:05.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8aa7335ac8fd5a09",
-      "title": "Lombard Odier reduces stake in Sosandar to below 5%",
-      "link": "https://www.investing.com/news/company-news/lombard-odier-reduces-stake-in-sosandar-to-below-5-93CH-4251765",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-09-23T16:36:51.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f270d69699b0e522",
-      "title": "Exclusive-Exxon signs initial agreement with Rosneft to chart possible path to recoup Russian losses, sources say",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveexxon-signs-initial-agreement-with-rosneft-to-chart-possible-path-to-recoup-russian-losses-sources-say-4251680",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8M0O2_L.jpg",
-      "pubDate": "2025-09-23T16:36:31.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8652e0541d782634",
-      "title": "Hecla Mining outlook revised to positive by S&P on debt reduction",
-      "link": "https://www.investing.com/news/stock-market-news/hecla-mining-outlook-revised-to-positive-by-sp-on-debt-reduction-93CH-4251762",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/gold_2_M_1440047838.jpg",
-      "pubDate": "2025-09-23T16:35:22.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a8c994a97abfe397",
-      "title": "Powell says slowing labor market prompted rate cut, sees 'challenging situation' ahead",
-      "link": "https://www.cnbc.com/2025/09/23/powell-says-slowing-labor-market-prompted-rate-cut-sees-challenging-situation-ahead.html",
-      "summary": "Powell said Tuesday that weakness in the labor market is outweighing concerns about stubborn inflation.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-23T16:35:01.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "db1e607a7629fa1a",
       "title": "Folks falling for LLM chatbots often end up with AI girlfriends 'unintentionally,' claims new study",
       "link": "https://www.pcgamer.com/software/ai/folks-falling-for-llm-chatbots-often-end-up-with-ai-girlfriends-unintentionally-claims-new-study/",
@@ -416,22 +464,6 @@
       "region": "global"
     },
     {
-      "id": "c0ab023e8b458c57",
-      "title": "Greenpro Capital appoints SFAI Malaysia as new auditor after JP Centurion resignation",
-      "link": "https://www.investing.com/news/sec-filings/greenpro-capital-appoints-sfai-malaysia-as-new-auditor-after-jp-centurion-resignation-93CH-4251761",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-09-23T16:33:01.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5c6fc4b0dd11119b",
       "title": "Single-family rent growth is starting to show new weakness",
       "link": "https://www.cnbc.com/2025/09/23/single-family-rent-growth-is-starting-to-show-new-weakness.html",
@@ -442,70 +474,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7431479dc1fe4934",
-      "title": "Celestica director Wilson sells $2.46 million in shares",
-      "link": "https://www.investing.com/news/insider-trading-news/celestica-director-wilson-sells-246-million-in-shares-93CH-4251760",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-09-23T16:31:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4d6cc7ce4b83784d",
-      "title": "Form 6K Galaxy Payroll Group Ltd For: 23 September",
-      "link": "https://www.investing.com/news/filings/form-6k-galaxy-payroll-group-ltd-for-23-september-93CH-4251759",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-09-23T16:31:21.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "15a83de811d5e7b4",
-      "title": "Form 8K Greenpro Capital Corp. For: 23 September",
-      "link": "https://www.investing.com/news/filings/form-8k-greenpro-capital-corp-for-23-september-93CH-4251758",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2025-09-23T16:31:17.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5bca86187abab159",
-      "title": "European shares rise as US spending boosts luxury stocks",
-      "link": "https://www.investing.com/news/stock-market-news/european-shares-open-higher-on-utilities-boost-but-asmi-caps-gains-4250445",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXNPEL8M07J_L.jpg",
-      "pubDate": "2025-09-23T16:31:08.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -551,6 +519,22 @@
       "body": null,
       "image": null,
       "pubDate": "2025-09-23T16:27:50.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d77c5fa381b8de0e",
+      "title": "Scotland's Davidson to referee World Cup final",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c8xr1kdlv4zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Saturday's Women's Rugby World Cup final between England and Canada will be refereed by Scotland's Hollie Davidson.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-09-23T16:23:27.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1056,6 +1040,22 @@
       "region": "global"
     },
     {
+      "id": "c95efc773f2643ba",
+      "title": "ثنائي ليفربول يهنئ ديمبلي بالكرة الذهبية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D9%87%D9%86%D9%8A%D9%94-%D8%AF%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blt47bc1d0723d681ce?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>&nbsp;حرص ثنائي ليفربول، على تهنئة عثمان ديمبلي، نجم باريس سان جيرمان، على تتويجه بجائزة الكرة الذهبية لأفضل لاعب في العالم لعام 2025.</p><p style=\"direction: rtl;\">وأعلنت مجلة \"فرانس فوتبول\"، أمس الإثنين، عن فوز الفرنسي عثمان ديمبلي، نجم باريس سان جيرمان، بجائزة البالون دور كأفضل لاعب في العالم…",
+      "body": "&nbsp;حرص ثنائي ليفربول، على تهنئة عثمان ديمبلي، نجم باريس سان جيرمان، على تتويجه بجائزة الكرة الذهبية لأفضل لاعب في العالم لعام 2025. وأعلنت مجلة \"فرانس فوتبول\"، أمس الإثنين، عن فوز الفرنسي عثمان ديمبلي، نجم باريس سان جيرمان، بجائزة البالون دور كأفضل لاعب في العالم. وجاء لامين يامال، لاعب برشلونة في المركز الثاني، والبرتغالي فيتينا نجم باريس سان جيرمان في المركز الثالث، ثم المصري محمد صلاح نجم ليفربول في المركز الرابع، والبرازيلي رافينيا جناح البارسا في المركز الخامس. وغاب صلاح عن حفل الكرة الذهبية، ولكن زميليه فيرجيل فان دايك وأليسون بيكر كانا حاضرين. وبحسب صحيفة \"ميرور\" البريطانية، فإن الثنائي الفرنسي في ليفربول، هوجو إيكتيكي وإبراهيما كوناتي، حرصا على تهنئة مواطنهما ديمبلي بالكرة الذهبية. وأشارت الصحيفة، إلى أن إيكتيكي وكوناتي صديقين في المنتخب الفرنسي، في حين شارك الأول غرفة الملابس لفترة وجيزة مع الفائز بالكرة الذهبية في باريس سان جيرمان. وعلق إيكيتيكي لديمبلي على ما منشوره في \"إنستجرام\"، وقال: \"في قمة السعادة، شكرًا لك يا عثمان\"، بينما علق الآخر، قائلًا: \"تهانينا يا أخي\". وأكدت الصحيفة، أن صلاح لن يحمل أي ضغينة تجاه زميليه في ليفربول، خاصة وأنه يعرف أنهما يتزاملان مع ديمبلي في منتخب فرنسا. &nbsp;",
+      "image": null,
+      "pubDate": "2025-09-23T14:50:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "081894cc0e9d43ec",
       "title": "Disney Dreamlight Valley's newest free update is coming next week, and will take us back to one of my favourite realms",
       "link": "https://www.pcgamer.com/games/life-sim/disney-dreamlight-valleys-newest-free-update-is-coming-next-week-and-will-take-us-back-to-one-of-my-favourite-realms/",
@@ -1070,6 +1070,22 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "f6ff737594dfda5b",
+      "title": "قناة مفتوحة تذيع مباراة الأهلي السعودي ضد بيراميدز",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D9%86%D8%A7%D8%A9-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9-%D8%AA%D8%B0%D9%8A%D8%B9-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%B6%D8%AF-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2/bltd4cb41d0b3a1e376?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"direction: rtl;\">نجحت محاولات مسؤولي ناديي الأهلي السعودي وبيراميدز المصري لإذاعة لقاء الفريقين مساء اليوم الثلاثاء في الدور الثاني من بطولة كأس إنتر كونتيننتال.</p><p style=\"direction: rtl;\">وحصلت منصة شاهد على حقوق بث المباراة قبل أن يتم الاتفاق على إذاعتها عبر قناة إم بي سي أكشن بحسب ب…",
+      "body": "نجحت محاولات مسؤولي ناديي الأهلي السعودي وبيراميدز المصري لإذاعة لقاء الفريقين مساء اليوم الثلاثاء في الدور الثاني من بطولة كأس إنتر كونتيننتال. وحصلت منصة شاهد على حقوق بث المباراة قبل أن يتم الاتفاق على إذاعتها عبر قناة إم بي سي أكشن بحسب بيان إعلامي أصدره نادي بيراميدز قبل ساعات من اللقاء الذي يقام على ملعب \"الإنماء\" بمدينة جدة. وكان بيراميدز حامل لقب دوري أبطال أفريقيا قد فاز على أوكلاند سيتي النيوزيلندي بطل أوقيانوسيا في الدور الأول بثلاثة أهداف دون رد في ستاد الدفاع الجوي بالقاهرة. وتوج الأهلي السعودي بلقب دوري أبطال آسيا للنخبة في الموسم الماضي لأول مرة في تاريخه. ويتأهل الفائز من هذه المواجهة إلى نصف نهائي بطولة كأس إنتر كونتيننتال الذي يقام في قطر.",
+      "image": null,
+      "pubDate": "2025-09-23T14:47:20.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d7f0edddf3d9ad5d",
@@ -1783,38 +1799,6 @@
       "body": "حقق اللاعب التشيلي أليخاندرو تابيلو لقب بطولة شينجدو فئة 250 نقطة اليوم الثلاثاء، بعد فوزه على المصنف الأول على البطولة الإيطالي لورينزو موسيتي بنتيجة (6-3) و(2-6) و(7-6) ليحصد لقبه الثالث في مسيرته والأول هذا الموسم. وتمكن اللاعب التشيلي المتأهل من التصفيات من إنقاذ نقطتين لخسارة البطولة في إرساله عند نتيجة (5-6) في المجموعة الثالثة، ثم عاد من تأخره (1-4) في شوط كسر التعادل للمجموعة الفاصلة، ليصبح ثاني أقل لاعب تصنيفاً يفوز بلقب في جولة رابطة محترفي التنس هذا الموسم. وقال تابيلو بحسب ما نقل رابطة اللاعبين المحترفين: \"كان علي فقط أن أبقى صامداً ذهنياً وبدنياً، كنت سعيداً جداً بتقديم تلك الإرسالات الأولى على نقاط الفوز بالمباراة، لقد كان جهداً لا يصدق من الفريق أيضاً، لقد كانا أسبوعين طويلين، وأنا سعيد جداً\". وكان تابيلو قد خسر أول 6 مباريات له في العام، وغاب شهرين عن جولة الملاعب الترابية الأوروبية بسبب إصابة في المعصم، ووصل إلى شينجدو بسجل 5 انتصارات و13 هزيمة هذا الموسم، لكنه وجد أفضل مستوى له ليتوج بلقب البطولة. وأصبح تابيلو الآن بطلاً لثلاثة ألقاب في الجولة العالمية، بعد فوزه في أوكلاند ومايوركا العام الماضي، وقد ارتقى 40 مركزًا ليصل إلى المركز 72 في التصنيف المباشر لرابطة محترفي التنس، ومن المقرر أن يعود إلى قائمة أفضل 100 لاعب لأول مرة منذ شهر يونيو. أما موسيتي، فقد غادر شين…",
       "image": null,
       "pubDate": "2025-09-23T12:40:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "d3214f1484b912a2",
-      "title": "جراديشار ينهي صيامه مع الأهلي.. ولاعب الحرس يرفض الاحتفال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%B1%D8%A7%D8%AF%D9%8A%D8%B4%D8%A7%D8%B1-%D9%8A%D9%86%D9%87%D9%8A-%D8%B5%D9%8A%D8%A7%D9%85%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%88%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84/blt150e074eaa876aff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أنهى اللاعب السلوفيني نيتس جراديشار صيامه مع فريقه الأهلي المصري والذي دام ما يقرب من 37 يومًا.",
-      "body": "أنهى اللاعب السلوفيني نيتس جراديشار صيامه مع فريقه الأهلي المصري والذي دام ما يقرب من 37 يومًا. &nbsp; وسجل جراديشار هدف التقدم لصالح الأهلي بعد مرور 3 دقائق فقط من انطلاق مباراة حرس الحدود مساء اليوم الثلاثاء بإستاد الكلية الحربية بالقاهرة في الجولة الثامنة للدوري المصري. &nbsp; وسجل جراديشار ثاني أهدافه في الدوري المصري هذا الموسم بعد أن أحرز هدفًا في مباراة فاركو يوم 15 أغسطس الماضي بالجولة الثانية للدوري. &nbsp; في المقابل، تعادل محمد حمدي زكي سريعًا لحرس الحدود في الدقيقة 8 رافضًا الاحتفال لكونه لعب من قبل للأهلي في الفترة بين 2014 إلى 2016. &nbsp; وكان محمد حمدي زكي قد انتقل إلى حرس الحدود في الموسم الحالي بعد رحلة طويلة في المستطيل الأخضر دافع خلالها عن ألوان الاتحاد السكندري والأهلي وغزل المحلة وأسوان.",
-      "image": null,
-      "pubDate": "2025-09-23T12:39:31.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "d110b59ca854eca0",
-      "title": "الركراكي يرفع معنويات حكيمي.. ويراقب توهج أكرد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%83%D8%B1%D8%A7%D9%83%D9%8A-%D9%8A%D8%B1%D9%81%D8%B9-%D9%85%D8%B9%D9%86%D9%88%D9%8A%D8%A7%D8%AA-%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%88%D9%8A%D8%B1%D8%A7%D9%82%D8%A8-%D8%AA%D9%88%D9%87%D8%AC-%D8%A7%D9%94%D9%83%D8%B1%D8%AF/blt710799b7cd8075b5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>&nbsp;حرص وليد الركراكي، مدرب المغرب، على دعم لاعب باريس سان جيرمان، أشرف حكيمي، بعما حل سادسا في سباق الكرة الذهبية.</p><p style=\"direction: rtl;\">ويتواجد الركراكي في فرنسا، حيث حضر مباراة باريس بدوري أبطال أوروبا أمام أتالانتا، وكلاسيكو الدوري أمام مارسيليا.</p><p style=\"direction: rtl;\">وأكد …",
-      "body": "&nbsp;حرص وليد الركراكي، مدرب المغرب، على دعم لاعب باريس سان جيرمان، أشرف حكيمي، بعما حل سادسا في سباق الكرة الذهبية. ويتواجد الركراكي في فرنسا، حيث حضر مباراة باريس بدوري أبطال أوروبا أمام أتالانتا، وكلاسيكو الدوري أمام مارسيليا. وأكد وليد لحكيمي أنه الأفضل وأنه سيعوض ما ضاع منه بحمل كأس أمم أفريقيا بالمغرب.. وبحسب مصادر خاصة قريبة من مدرب الأسود، فقد كان الركراكي سعيدا جدا وهو يعاين تألق المدافع نايف أكرد الذي سجل هدف انتصار مارسيليا أمام باريس. وهذا هو الهدف الثاني تواليا من مباراته الثانية مع مارسيليا الذي تعاقد معه قادما في صفقة هامة من وست هام الإنجليزي. تألق أكرد، الذي قاده ليتوج بجائزة رجل مباراة الكلاسيكو أراح الركراكي الذي كان قد أبعده عن مباراة زامبيا مؤخرا في تصفيات كأس العالم لعدم جاهزيته.",
-      "image": null,
-      "pubDate": "2025-09-23T12:30:07.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -3104,22 +3088,6 @@
       "region": "global"
     },
     {
-      "id": "672ded69e008f2cf",
-      "title": "Voyce was over drink-drive limit during storm - inquest",
-      "link": "https://www.bbc.com/news/articles/cj4y1vkpqrgo?at_medium=RSS&at_campaign=rss",
-      "summary": "An inquest hears ex-England star Tom Voyce died when his vehicle was washed into a river in a storm.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T13:12:36.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "47d76fe55d399b5d",
       "title": "'World-class human being' - how England have built around Jones",
       "link": "https://www.bbc.com/sport/rugby-union/videos/c87y48lrqzgo?at_medium=RSS&at_campaign=rss",
@@ -3399,22 +3367,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-09-21T04:00:15.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9853facd5a3bedbe",
-      "title": "Private equity warns of mis-selling as sector opens up to individual investors",
-      "link": "https://www.ft.com/content/5125a35e-f062-4dcc-8df3-e08c3cbb1f2c",
-      "summary": "Surge of investment raises concerns over whether advisers adequately explain illiquidity risk",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-21T04:00:07.000Z",
       "source": {
         "name": "Financial Times — Markets",
         "homepage": "https://www.ft.com/markets?format=rss"
