@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-09-25T22:32:57.205Z",
+    "generated_at": "2025-09-25T22:42:27.764Z",
     "total": 395,
     "processed_feeds": 20,
     "discovered_feeds": 84,
@@ -22,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/meta-now-has-a-feed-for-ai-slop-205751808.html",
+        "homepage": "https://www.engadget.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 0,
+        "error": "Error: Invalid character in entity name\nLine: 0\nColumn: 7985\nChar: &",
+        "notModified": false
+      },
+      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -32,19 +45,6 @@
         ],
         "taken": 59,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -61,94 +61,16 @@
         "notModified": false
       },
       {
-        "name": "Engadget",
-        "url": "https://www.engadget.com/meta-now-has-a-feed-for-ai-slop-205751808.html",
-        "homepage": "https://www.engadget.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: Invalid character in entity name\nLine: 0\nColumn: 7985\nChar: &",
-        "notModified": false
-      },
-      {
-        "name": "Hacker News - Front",
-        "url": "https://news.ycombinator.com/rss",
-        "homepage": "https://news.ycombinator.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 29,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "New Scientist",
-        "url": "https://www.newscientist.com/feed/home",
-        "homepage": "https://www.newscientist.com/feed/home",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 94,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Mayo Clinic News",
-        "url": "https://newsnetwork.mayoclinic.org/feed/",
-        "homepage": "https://newsnetwork.mayoclinic.org/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "المصري اليوم - ملاعب",
-        "url": "https://sports.almasryalyoum.com/feed/",
-        "homepage": "https://sports.almasryalyoum.com/feed/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "global",
+        "region": "egypt",
         "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/feed/",
-        "homepage": "https://arstechnica.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 16,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "NIH News",
-        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -178,6 +100,71 @@
         "notModified": false
       },
       {
+        "name": "المصري اليوم - ملاعب",
+        "url": "https://sports.almasryalyoum.com/feed/",
+        "homepage": "https://sports.almasryalyoum.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/feed/",
+        "homepage": "https://arstechnica.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 16,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - رياضة",
+        "url": "https://www.skynewsarabia.com/rss/sports.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "New Scientist",
+        "url": "https://www.newscientist.com/feed/home",
+        "homepage": "https://www.newscientist.com/feed/home",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 94,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Engadget",
         "url": "https://www.engadget.com/rss.xml",
         "homepage": "https://www.engadget.com/rss.xml",
@@ -191,10 +178,36 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - رياضة",
-        "url": "https://www.skynewsarabia.com/rss/sports.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
-        "lang": "ar",
+        "name": "Hacker News - Front",
+        "url": "https://news.ycombinator.com/rss",
+        "homepage": "https://news.ycombinator.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 29,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Mayo Clinic News",
+        "url": "https://newsnetwork.mayoclinic.org/feed/",
+        "homepage": "https://newsnetwork.mayoclinic.org/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "NIH News",
+        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -214,32 +227,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Met Office (UK) — News",
-        "url": "https://www.metoffice.gov.uk/rss/news",
-        "homepage": "https://www.metoffice.gov.uk/rss/news",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -267,10 +254,39 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Met Office (UK) — News",
+        "url": "https://www.metoffice.gov.uk/rss/news",
+        "homepage": "https://www.metoffice.gov.uk/rss/news",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "62bf1e4c170dcd54",
+      "title": "Call-recording app Neon goes offline after security flaw uncovered",
+      "link": "https://www.engadget.com/call-recording-app-neon-goes-offline-after-security-flaw-uncovered-223425297.html?src=rss",
+      "summary": "Neon is an call-recording app that pays users for access to the audio, which the app in turn sells to AI companies for training their models. Since its launch last week, it quickly rose in popularity, but the service was taken offline today. TechCrunch reported that it found a security flaw that al…",
+      "body": null,
+      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2025-09%2F1a54716e-6ceb-48a7-9bb4-db30944581b0&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=bd5d484292bcfb9a7b1b793c5178df505980d1ac",
+      "pubDate": "2025-09-25T22:34:25.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/rss.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "88e2149375e84795",
       "title": "Meta launches ‘Vibes,’ a short-form video feed of AI slop",
@@ -3341,22 +3357,6 @@
       },
       "lang": "en",
       "category": "lifestyle",
-      "region": "global"
-    },
-    {
-      "id": "ac26ca25eacec8e9",
-      "title": "Google's AI Search Live is now available to all US app users",
-      "link": "https://www.engadget.com/ai/googles-ai-search-live-is-now-available-to-all-us-app-users-151849371.html?src=rss",
-      "summary": "Search Live is now available for Google app users in the US, offering real-time, multimodal search, powered by AI. This feature will enable users to have real-time conversations with Google Search in AI Mode while sharing their phone's camera feed with the app. Search will be able to see and interp…",
-      "body": null,
-      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-09%2Fd182d100-9183-11f0-affb-d5431e773de2&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=c49bb79c2bce6fd8a5d549a790157291f4498f64",
-      "pubDate": "2025-09-24T15:18:49.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
