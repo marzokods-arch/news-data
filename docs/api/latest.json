@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-10-04T11:13:11.055Z",
+    "generated_at": "2025-10-04T11:23:15.284Z",
     "total": 340,
     "processed_feeds": 23,
     "discovered_feeds": 83,
@@ -9,15 +9,15 @@
     "shard_index": 3,
     "results": [
       {
-        "name": "BBC Culture",
-        "url": "https://www.bbc.com/culture/feed.rss",
-        "homepage": "https://www.bbc.com/culture/feed.rss",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
         "cats": [
-          "general"
+          "lifestyle"
         ],
-        "taken": 9,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -35,9 +35,61 @@
         "notModified": false
       },
       {
+        "name": "BBC Culture",
+        "url": "https://www.bbc.com/culture/feed.rss",
+        "homepage": "https://www.bbc.com/culture/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "Youm7 - رياضة",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 48,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -61,81 +113,16 @@
         "notModified": false
       },
       {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 48,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
+        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -152,9 +139,48 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -162,19 +188,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -191,6 +204,32 @@
         "notModified": false
       },
       {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/feed/",
         "homepage": "https://www.technologyreview.com/feed/",
@@ -204,9 +243,9 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -227,32 +266,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -279,19 +292,6 @@
         ],
         "taken": 20,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -2199,22 +2199,6 @@
       "region": "global"
     },
     {
-      "id": "f3be66f78ea43bf5",
-      "title": "Why Are Car Software Updates Still So Bad?",
-      "link": "https://www.wired.com/story/why-are-car-software-updates-still-so-bad/",
-      "summary": "Over-the-air upgrades can not only transform your ride, they can help carmakers slash costs. Here's why they're still miles away from being seamless.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-03T11:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "cd15719a6bbef161",
       "title": "Swifties, Assemble: Snag Food, Freebies & Deals With 'The Life Of A Showgirl' Release",
       "link": "https://www.delish.com/food-news/a68156704/taylor-swift-life-of-a-showgirl-food-deals-discounts/",
@@ -2228,6 +2212,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f3be66f78ea43bf5",
+      "title": "Why Are Car Software Updates Still So Bad?",
+      "link": "https://www.wired.com/story/why-are-car-software-updates-still-so-bad/",
+      "summary": "Over-the-air upgrades can not only transform your ride, they can help carmakers slash costs. Here's why they're still miles away from being seamless.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-03T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -3607,22 +3607,6 @@
       "region": "global"
     },
     {
-      "id": "f01c734b26b89ed7",
-      "title": "Alen BreatheSmart 35i air purifier review — A real treat for gadget enthusiasts",
-      "link": "https://www.livescience.com/health/alen-breathesmart-35i-air-purifier-review",
-      "summary": "The Alen BreatheSmart 35i easily lives up to its name, offering superb air-cleaning performance and some of the best smart features on the market.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/QNYHjH5dxxyus62t9bgWDi-1280-80.jpg",
-      "pubDate": "2025-10-01T14:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c448feb50c531c47",
       "title": "Best fitness trackers for swimming 2025",
       "link": "https://www.livescience.com/health/exercise/best-fitness-trackers-for-swimming",
@@ -3636,6 +3620,22 @@
       },
       "lang": "en",
       "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "f01c734b26b89ed7",
+      "title": "Alen BreatheSmart 35i air purifier review — A real treat for gadget enthusiasts",
+      "link": "https://www.livescience.com/health/alen-breathesmart-35i-air-purifier-review",
+      "summary": "The Alen BreatheSmart 35i easily lives up to its name, offering superb air-cleaning performance and some of the best smart features on the market.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/QNYHjH5dxxyus62t9bgWDi-1280-80.jpg",
+      "pubDate": "2025-10-01T14:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
