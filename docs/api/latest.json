@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-08T04:25:42.474Z",
-    "total": 226,
+    "generated_at": "2025-10-08T04:40:31.670Z",
+    "total": 216,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,16 +9,16 @@
     "shard_index": 0,
     "results": [
       {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/a4b8fef3-707d-4af2-9da4-66a80d93442b",
+        "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
         "notModified": false
       },
       {
@@ -35,16 +35,29 @@
         "notModified": false
       },
       {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/a4b8fef3-707d-4af2-9da4-66a80d93442b",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
           "sports"
         ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -74,19 +87,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -96,7 +96,20 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -110,19 +123,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -152,19 +152,6 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "GSMArena",
         "url": "https://www.gsmarena.com/rss-news-reviews.php3",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
@@ -178,23 +165,23 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -215,88 +202,37 @@
         "taken": 0,
         "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
         "notModified": false
+      },
+      {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "d9a520a01830fad8",
-      "title": "The 207 best October Prime Day deals",
-      "link": "https://www.theverge.com/tech/788343/best-amazon-prime-day-tech-deals-october-2025-day-1",
-      "summary": "Amazon’s October Prime Day sale (aka Prime Big Deal Days) is finally here, and we’ve collected the best deals we could find on everything from noise-canceling headphones and robot vacuums to 4K OLED TVs. The majority of our recommendations have been thoroughly tested by Verge writers and editors, a…",
+      "id": "25ebd2a1e4bcfb29",
+      "title": "‘KPop Demon Hunters’ Singers Take ‘The Tonight Show’ With First Full Live Performance of ‘Golden’",
+      "link": "https://variety.com/2025/tv/news/kpop-demon-hunters-tonight-show-golden-performance-1236541623/",
+      "summary": "Huntr/x took over Jimmy Fallon’s “The Tonight Show,” with the singing stars of Netflix’s smash “KPop Demon Hunters” making their late-night debut Tuesday for their first full live performance of the chart-topping single “Golden.” EJAE, Audrey Nuna and Rei Ami sing for the roles of Rumi (Arden Cho),…",
       "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T04:11:48.000Z",
+      "image": "https://variety.com/wp-content/uploads/2025/10/kpop-demon-hutners-fallon.jpg",
+      "pubDate": "2025-10-08T04:34:13.000Z",
       "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b3208cf04d937288",
-      "title": "The best laptop deals you can get for Amazon’s October Prime Day",
-      "link": "https://www.theverge.com/tech/792893/amazon-october-prime-big-deal-day-laptops-gaming-apple",
-      "summary": "Apple’s powerful MacBook Pro with M4 Max is $400 off. The second Amazon Prime Day sales event of the year is here, and once again it offers discounts on MacBooks, Windows laptops, and various PC accessories. Like previous Prime Big Deal Days, this sale runs for two days and requires a Prime members…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T03:04:14.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ea0f6321a9ca1a79",
-      "title": "You can score up to $750 off robovacs from iRobot, Dreame, and Eufy right now",
-      "link": "https://www.theverge.com/tech/793567/robot-vacuum-mop-deals-amazon-october-prime-day-2025",
-      "summary": "Roborock’s Saros Z70 features a built-in robotic arm and is down to its best price yet. Black Friday might bring some of the deepest discounts on tech like robot vacuums, but if you’d like to tidy up before Halloween parties and Thanksgiving guests arrive, Amazon’s fall Prime Day event features ple…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T02:56:30.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f7ae20e37491dc38",
-      "title": "The 26 best fall Prime Day deals on AirPods, iPads, and other Apple gear",
-      "link": "https://www.theverge.com/tech/792289/amazon-october-prime-day-apple-deals-ipad-airpods-sale-2025",
-      "summary": "At long last, Amazon’s October Prime Day event has begun — and as expected, it’s packed with a slew of notable Apple deals. If you don’t want to wait until Black Friday to score a discount, the current promo is a great opportunity to save, as Amazon is offering steep discounts on a variety of last-…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T02:42:12.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4e253887fcd3e2fb",
-      "title": "The best October Prime Day deals on TVs, soundbars, and more — up to 50% off",
-      "link": "https://www.theverge.com/tech/788328/amazon-october-prime-day-4k-tv-soundbar-streaming-deal-sale-2025",
-      "summary": "LG’s 42-inch C5 OLED TV is on sale for $996.99 ($100 off) at Amazon. The day has finally come for a home theater overhaul. Perhaps you’re looking for a low-cost replacement that offers more features and a sharper design. Or maybe your gaze is set upon massive OLED TVs with all the fixings. Regardle…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T02:39:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -316,22 +252,6 @@
       "region": "global"
     },
     {
-      "id": "66573cd06bc7f462",
-      "title": "We dug through thousands of Prime Day deals to find 60 standouts for $50 or less",
-      "link": "https://www.theverge.com/tech/793435/amazon-october-prime-day-best-cheap-tech-deals-under-50-2025",
-      "summary": "The Blink Outdoor 4 is more than 50 percent off thanks to Prime Big Deal Days. Big-ticket tech like Sony’s Bravia 8 4K TV and Bose’s QuietComfort Headphones might be some of the more marquee deals we’re seeing during Prime Big Deal Days, but you don’t need to spend hundreds of dollars to score some…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T02:01:20.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "7bb8ed58bc146178",
       "title": "Ray Winstone Says He Was Drunk During His ‘Star Wars’ Audition for Padmé Amidala’s Father: ‘It Didn’t Go Well’",
       "link": "https://variety.com/2025/film/news/ray-winstone-drunk-star-wars-padme-amidala-father-1236542763/",
@@ -345,22 +265,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1a82a8ee4b8d4536",
-      "title": "The electric screwdriver I use for DIY projects is 40 percent off right now",
-      "link": "https://www.theverge.com/tech/792618/amazon-october-prime-day-hoto-electric-screwdriver-deal-tools-sale-2025",
-      "summary": "Hoto’s handy carrying case features a space for every component, plus a place to magnetize the bits. | Image: Hoto If you have small devices that are on the fritz — or in need of a slight modification — Hoto’s Electric Precision Screwdriver ADV is great for DIY projects. Its size and power make it …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T00:53:11.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -396,38 +300,6 @@
       "region": "global"
     },
     {
-      "id": "d2a43d818a727384",
-      "title": "Some of our favorite gadgets are cheaper than ever for fall Prime Day",
-      "link": "https://www.theverge.com/tech/794507/amazon-october-prime-day-deals-verge-favorites-2025",
-      "summary": "The UE Wonderboom 4 starts at just under $70 right now. All of the deals we’ve recommended from Prime Big Deal Days are for products our team has tested and can personally vouch for, whether it be a streaming device, a laptop, or a pair of noise-canceling earbuds. However, there are also plenty of …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-07T23:35:15.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d4419ba6501f7dd4",
-      "title": "Jimmy Fallon wants to turn Wordle into a TV show",
-      "link": "https://www.theverge.com/news/795536/wordle-tv-game-show-jimmy-fallon-savannah-guthrie-nbc",
-      "summary": "Jimmy Fallon is helping make Wordle into a television series, Deadline reports. NBC is piloting the Wordle game show with the help of Fallon’s production company, and the show is currently filming in the UK. Savannah Guthrie will host. Around when Wordle really started to blow up, Jimmy Fallon once…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-07T23:21:16.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c6803b0b21dd81db",
       "title": "'Masters of their own downfall' - is Arsenal form just a blip?",
       "link": "https://www.bbc.com/sport/football/articles/cvg4j7vrljvo?at_medium=RSS&at_campaign=rss",
@@ -457,22 +329,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "856b895a0dc1ae86",
-      "title": "Philips Hue customizable string lights are up to $125 off for October Prime Day",
-      "link": "https://www.theverge.com/tech/792811/amazon-october-prime-day-philips-hue-festavia-string-lights-deal-sale",
-      "summary": "Philips Hue’s Festavia lights are great for Christmas, but you can actually use them year-round as home decor. | Image: Signify It may be October, but the holidays will be here before you know it. Amazon’s fall Prime Day event is here, offering Prime subscribers a great opportunity to save on holid…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-07T23:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -739,22 +595,6 @@
       "body": null,
       "image": "https://variety.com/wp-content/uploads/2025/10/OZZY-NEFN-UHDMMOV177_2-SCREEN-GRAB.jpg",
       "pubDate": "2025-10-07T20:39:17.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "13bab173eb286ca9",
-      "title": "Rebecca Blumenstein Expands NBC News Duties in Executive Reshuffle",
-      "link": "https://variety.com/2025/tv/news/rebecca-blumenstein-nbc-news-expands-duties-executive-1236542554/",
-      "summary": "And then there were two. After unveiling an unorthodox three-executive structure for NBC News in 2023, the top officer overseeing news operations at NBCUniversal, Cesar Conde, is bringing two units under a single person’s oversight. In a memo sent to staffers Monday, Conde revealed that Janelle Rod…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Rebecca-Blumenstein.jpg",
-      "pubDate": "2025-10-07T20:36:16.000Z",
       "source": {
         "name": "Variety (Entertainment)",
         "homepage": "https://variety.com/feed/"
