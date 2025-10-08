@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-08T21:29:02.320Z",
-    "total": 360,
+    "generated_at": "2025-10-08T21:38:20.901Z",
+    "total": 352,
     "processed_feeds": 23,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,29 +9,16 @@
     "shard_index": 3,
     "results": [
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 69,
-        "error": null,
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -48,6 +35,19 @@
         "notModified": false
       },
       {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 70,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "BBC Culture",
         "url": "https://www.bbc.com/culture/feed.rss",
         "homepage": "https://www.bbc.com/culture/feed.rss",
@@ -61,15 +61,15 @@
         "notModified": false
       },
       {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
         "cats": [
-          "general"
+          "lifestyle"
         ],
-        "taken": 48,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -87,16 +87,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "taken": 48,
+        "error": null,
         "notModified": false
       },
       {
@@ -113,29 +113,16 @@
         "notModified": false
       },
       {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -152,9 +139,48 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 46,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -191,45 +217,6 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Masrawy — فن",
         "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
         "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
@@ -243,23 +230,10 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -282,10 +256,36 @@
         "notModified": false
       },
       {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "NOAA Climate.gov — News",
         "url": "https://www.climate.gov/feeds/all/rss.xml",
         "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -310,6 +310,22 @@
     ]
   },
   "items": [
+    {
+      "id": "e1ef448537b8a000",
+      "title": "England will be 'underdogs' at World Cup - Tuchel",
+      "link": "https://www.bbc.com/sport/football/articles/cx25q1wr02xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thomas Tuchel believes England will go into the World Cup as \"underdogs\" and says they have \"no chance\" of succeeding unless the team unite.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-08T21:21:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "f06cee20d33a8ba4",
       "title": "Fernandes wants to stay at Man Utd - Thursday's gossip",
@@ -1271,22 +1287,6 @@
       "region": "global"
     },
     {
-      "id": "1bac5c917dbe151d",
-      "title": "Google Pixel 10 Pro Fold Review: Missing Pro Features",
-      "link": "https://www.wired.com/review/google-pixel-10-pro-fold/",
-      "summary": "Google’s $1,800 folding phone is missing many of the “pro” features of its cheaper siblings, but upgrades like an IP68 rating and Qi2 make up for it.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-08T17:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "53a700b3a844ff5c",
       "title": "Google Pixel Watch 4 Review: The Best Smartwatch for Android",
       "link": "https://www.wired.com/review/google-pixel-watch-4/",
@@ -1300,6 +1300,22 @@
       },
       "lang": "en",
       "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "1bac5c917dbe151d",
+      "title": "Google Pixel 10 Pro Fold Review: Missing Pro Features",
+      "link": "https://www.wired.com/review/google-pixel-10-pro-fold/",
+      "summary": "Google’s $1,800 folding phone is missing many of the “pro” features of its cheaper siblings, but upgrades like an IP68 rating and Qi2 make up for it.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-08T17:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1809,22 +1825,6 @@
       "source": {
         "name": "Live Science",
         "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8bcee3392aa7ba6d",
-      "title": "The Download: carbon removal factories’ funding cuts, and AI toys",
-      "link": "https://www.technologyreview.com/2025/10/08/1125301/the-download-carbon-removal-factories-funding-cuts-and-ai-toys/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Trump administration may cut funding for two major direct-air capture plants The US Department of Energy appears poised to terminate funding for a pair of la…",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Trump administration may cut funding for two major direct-air capture plants The US Department of Energy appears poised to terminate funding for a pair of large carbon-sucking factories that were originally set to receive more than $1 billion in government grants, according to a department-issued list of projects obtained by MIT Technology Review and circulating among federal agencies. One of the projects is the South Texas Direct Air Capture Hub, a facility that Occidental Petroleum’s 1PointFive subsidiary planned to develop in Kleberg County, Texas. The other is Project Cypress in Louisiana, a collaboration between Battelle, Climeworks, and Heirloom. Read the full story . —James Temple AI toys are all the rage in China—and now they’re appearing on shelves in the US too Kids have always played with and talked to stuffed animals. But now their toys can talk back, thanks to a wave of companies that are fitting children’s playthings with chatbots and voice assistants. It’s a trend that has particularly taken off in China: A recent…",
-      "image": null,
-      "pubDate": "2025-10-08T12:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -3063,22 +3063,6 @@
       "region": "global"
     },
     {
-      "id": "707aad1dd50d7f86",
-      "title": "AI toys are all the rage in China—and now they’re appearing on shelves in the US too",
-      "link": "https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/",
-      "summary": "Kids have always played with and talked to stuffed animals. But now their toys can talk back, thanks to a wave of companies that are fitting children’s playthings with chatbots and voice assistants. It’s a trend that has particularly taken off in China: A recent report by the Shenzhen Toy Industry …",
-      "body": "Kids have always played with and talked to stuffed animals. But now their toys can talk back, thanks to a wave of companies that are fitting children’s playthings with chatbots and voice assistants.&nbsp; It’s a trend that has particularly taken off in China: A recent report by the Shenzhen Toy Industry Association and JD.com predicts that the sector will surpass ¥100 billion ($14 billion) by 2030, growing faster than almost any other branch of consumer AI. According to the Chinese corporation registration database Qichamao, there are over 1,500 AI toy companies operating in China as of October 2025. One of the latest entrants to the market is a toy called BubblePal, a device the size of a Ping-Pong ball that clips onto a child’s favorite stuffed animal and makes it “talk.” The gadget comes with a smartphone app that lets parents switch between 39 characters, from Disney’s Elsa to the Chinese cartoon classic Nezha. It costs $149, and 200,000 units have been sold since it launched last summer. It’s made by the Chinese company Haivivi and runs on DeepSeek’s large language models.&nbsp; Other companies are approaching the market differently. FoloToy, another Chinese startup, allows p…",
-      "image": null,
-      "pubDate": "2025-10-07T16:51:02.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "872f3b84411730f8",
       "title": "England survive scare as Knight stars in narrow win against Bangladesh",
       "link": "https://www.bbc.com/sport/cricket/videos/cr5qynp8v3po?at_medium=RSS&at_campaign=rss",
@@ -3303,22 +3287,6 @@
       "region": "global"
     },
     {
-      "id": "ceb3d9ba41f50819",
-      "title": "The Download: extracting lithium, and what we still don’t know about Sora",
-      "link": "https://www.technologyreview.com/2025/10/07/1125075/the-download-extracting-lithium-and-what-we-still-dont-know-about-sora/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This company is planning a lithium empire from the shores of the Great Salt Lake On a bright afternoon in August, the shore of Utah’s Great Salt Lake looks like …",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company is planning a lithium empire from the shores of the Great Salt Lake On a bright afternoon in August, the shore of Utah’s Great Salt Lake looks like something out of a science fiction film set in a scorching alien world. This otherworldly scene is the test site for a company called Lilac Solutions, which is developing a technology it says will shake up the United States’ efforts to pry control over the global supply of lithium, the so-called “white gold” needed for electric vehicles and batteries, away from China. The startup is in a race to commercialize a new, less environmentally-damaging way to extract lithium from rocks. If everything pans out, it could significantly increase domestic supply at a crucial moment for the nation’s lithium extraction industry. Read the full story . — Alexander C. Kaufman The three big unanswered questions about Sora Last week OpenAI released Sora, a TikTok-style app that presents an endless feed of exclusively AI-generated videos, each up to 10 seconds long. The app allows you to create…",
-      "image": null,
-      "pubDate": "2025-10-07T12:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "701bee9e174cdc4f",
       "title": "'The perfect signing' - Son's Messi-like impact in Los Angeles",
       "link": "https://www.bbc.com/sport/football/articles/c708lx0y87xo?at_medium=RSS&at_campaign=rss",
@@ -3524,38 +3492,6 @@
       },
       "lang": "en",
       "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "9f3f5257d64d4ce2",
-      "title": "The three big unanswered questions about Sora",
-      "link": "https://www.technologyreview.com/2025/10/07/1124998/the-three-big-unanswered-questions-about-sora/",
-      "summary": "Last week OpenAI released Sora, a TikTok-style app that presents an endless feed of exclusively AI-generated videos, each up to 10 seconds long. The app allows you to create a “cameo” of yourself—a hyperrealistic avatar that mimics your appearance and voice—and insert other peoples’ cameos into you…",
-      "body": "Last week OpenAI released Sora, a TikTok-style app that presents an endless feed of exclusively AI-generated videos, each up to 10 seconds long. The app allows you to create a “cameo” of yourself—a hyperrealistic avatar that mimics your appearance and voice—and insert other peoples’ cameos into your own videos (depending on what permissions they set).&nbsp; To some people who believed earnestly in OpenAI’s promise to build AI that benefits all of humanity, the app is a punchline. A former OpenAI researcher who left to build an AI-for-science startup referred to Sora as an “infinite AI tiktok slop machine.”&nbsp; That hasn’t stopped it from soaring to the top spot on Apple’s US App Store. After I downloaded the app, I quickly learned what types of videos are, at least currently, performing well: bodycam-style footage of police pulling over pets or various trademarked characters, including SpongeBob and Scooby Doo; deepfake memes of Martin Luther King Jr. talking about Xbox; and endless variations of Jesus Christ navigating our modern world.&nbsp; Just as quickly, I had a bunch of questions about what’s coming next for Sora. Here’s what I’ve learned so far. Can it last? OpenAI is be…",
-      "image": null,
-      "pubDate": "2025-10-07T09:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c8646eb0d2636fb7",
-      "title": "This company is planning a lithium empire from the shores of the Great Salt Lake",
-      "link": "https://www.technologyreview.com/2025/10/07/1125060/this-company-is-planning-a-lithium-empire-from-the-shores-of-the-great-salt-lake/",
-      "summary": "BOX ELDER COUNTY, Utah – On a bright afternoon in August, the shore on the North Arm of the Great Salt Lake looks like something out of a science fiction film set in a scorching alien world. The desert sun is blinding as it reflects off the white salt that gathers and crunches underfoot like…",
-      "body": "BOX ELDER COUNTY, Utah – On a bright afternoon in August, the shore on the North Arm of the Great Salt Lake looks like something out of a science fiction film set in a scorching alien world. The desert sun is blinding as it reflects off the white salt that gathers and crunches underfoot like snow at the water’s edge. In a part of the lake too shallow for boats, bacteria have turned the water a Pepto-Bismol pink. The landscape all around is ringed with jagged red mountains and brown brush. The only obvious sign of people is the salt-encrusted hose running from the water’s edge to a makeshift encampment of shipping containers and trucks a few hundred feet away.&nbsp; This otherworldly scene is the test site for a company called Lilac Solutions, which is developing a technology it says will shake up the United States’ efforts to pry control over the global supply of lithium, the so-called “white gold” needed for electric vehicles and batteries, away from China. Before tearing down its demonstration facility to make way for its first commercial plant, due online next year, the company invited me to be the first journalist to tour its outpost in this remote area, a roughly two-hour dri…",
-      "image": null,
-      "pubDate": "2025-10-07T09:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4103,22 +4039,6 @@
       "region": "global"
     },
     {
-      "id": "70b405f6eb5bca0a",
-      "title": "The Download: introducing the 10 climate tech companies to watch for 2025",
-      "link": "https://www.technologyreview.com/2025/10/06/1124939/the-download-introducing-the-10-climate-tech-companies-to-watch-for-2025/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: 10 climate tech companies to watch Every year, the MIT Technology Review newsroom produces a list of some of the most promising climate tech firms o…",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: 10 climate tech companies to watch Every year, the MIT Technology Review newsroom produces a list of some of the most promising climate tech firms on the planet. It’s an exercise that we hope brings positive attention to companies working to decarbonize major sectors of the economy, whether by spinning up new, cleaner sources of energy or reinventing how we produce foods and distribute goods. Though the political and funding landscape has shifted dramatically in the US since last year, nothing has altered the urgency of the climate dangers the world now faces—we need to rapidly curb greenhouse gas emissions to avoid the most catastrophic impacts of climate change. This project highlights the firms making progress toward that end. Check out the third annual edition of the list , and learn more about why we selected these companies . Our best weapon against climate change is ingenuity —Bill Gates is a technologist, business leader, and philanthropist. It’s a foregone conclusion that the world will not meet the goals for l…",
-      "image": null,
-      "pubDate": "2025-10-06T12:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c6e6dc64009106e7",
       "title": "Delays, distrust, dynamic prices - how 'welcoming' will World Cup be?",
       "link": "https://www.bbc.com/sport/football/articles/cdjzknpxlv2o?at_medium=RSS&at_campaign=rss",
@@ -4193,54 +4113,6 @@
       "source": {
         "name": "Live Science",
         "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "dbd89fc918058dc2",
-      "title": "2025 Climate Tech Companies to Watch",
-      "link": "https://www.technologyreview.com/2025/10/06/1124257/2025-climate-tech-companies-to-watch/",
-      "summary": "",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-06T10:45:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "939fdd283dca14d2",
-      "title": "Bill Gates: Our best weapon against climate change is ingenuity",
-      "link": "https://www.technologyreview.com/2025/10/06/1124265/bill-gates-ingenuity-climate-change-tech-investment/",
-      "summary": "It’s a foregone conclusion that the world will not meet the goals for limiting emissions and global warming laid out in the 2015 Paris Agreement. Many people want to blame politicians and corporations for this failure, but there’s an even more fundamental reason: We don’t have all the technological…",
-      "body": "It’s a foregone conclusion that the world will not meet the goals for limiting emissions and global warming laid out in the 2015 Paris Agreement. Many people want to blame politicians and corporations for this failure, but there’s an even more fundamental reason: We don’t have all the technological tools we need to do it, and many of the ones we do have are too expensive. For all the progress the world has made on renewable energy sources, electric vehicles, and electricity storage, we need a lot more innovation on every front—from discovery to deployment—before we can hope to reach our ultimate goal of net-zero emissions.&nbsp; But I don’t think this is a reason to be pessimistic. I see it as cause for optimism, because humans are very good at inventing things. In fact, we’ve already created many tools that are reducing emissions. In just the past 10 years, energy breakthroughs have lowered the global forecast for emissions in 2040 by 40%. In other words, because of the human capacity to innovate, we are on course to reduce emissions substantially by 2040 even if nothing else changes. And I am confident that more positive changes are coming. I’ve been learning about global warmin…",
-      "image": null,
-      "pubDate": "2025-10-06T10:45:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "28ddc2eecc087d93",
-      "title": "2025 Climate Tech Companies to Watch: HiNa Battery Technology and its effort to commercialize salt cells",
-      "link": "https://www.technologyreview.com/2025/10/06/1124270/2025-climate-tech-companies-to-watch-hina-battery-salt-cells/",
-      "summary": "HiNa Battery Technology is a trailblazer in developing and mass-producing batteries using sodium, a widely available element that can be extracted from sea salt. The startup’s products—already powering small vehicles and energy storage plants in China—provide a valuable alternative to lithium-based…",
-      "body": "HiNa Battery Technology is a trailblazer in developing and mass-producing batteries using sodium, a widely available element that can be extracted from sea salt. The startup’s products—already powering small vehicles and energy storage plants in China—provide a valuable alternative to lithium-based batteries, made with materials mined and processed in just a few countries. Over the next few decades the world will need a lot more batteries to power electric cars and keep grids stable. Today most battery cells are made with lithium, so the mineral is expected to be in hyper demand , leading to supply chain risks: 85% of the global lithium supply will be refined in just three countries in 2030—China, Chile, and Argentina, according to the International Energy Agency. But a new technology has come on the scene, potentially disrupting the global battery industry. Sodium-ion cells are made with an element 400 times more abundant than lithium. It can be found and extracted pretty much anywhere there is seawater or salt deposits in the ground, and harvesting it is a centuries-old practice. For decades, research of the technology was abandoned due to the huge commercial success of lithium-…",
-      "image": null,
-      "pubDate": "2025-10-06T10:45:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
       },
       "lang": "en",
       "category": "technology",
