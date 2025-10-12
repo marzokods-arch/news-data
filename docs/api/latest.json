@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2025-10-12T15:59:42.545Z",
-    "total": 178,
+    "generated_at": "2025-10-12T16:24:02.468Z",
+    "total": 189,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 57,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -31,6 +18,19 @@
           "general"
         ],
         "taken": 0,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 57,
         "error": null,
         "notModified": false
       },
@@ -74,19 +74,6 @@
         "notModified": false
       },
       {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 44,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Hollywood Reporter",
         "url": "https://www.hollywoodreporter.com/feed/",
         "homepage": "https://www.hollywoodreporter.com/feed/",
@@ -95,20 +82,7 @@
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 6,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -139,29 +113,16 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 6,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -178,16 +139,29 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
+        "error": null,
         "notModified": false
       },
       {
@@ -217,9 +191,61 @@
         "notModified": false
       },
       {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -241,36 +267,74 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "2d506b67fa638080",
+      "title": "Smith inspires Harlequins to victory over Saracens",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c2dnwn321e7o?at_medium=RSS&at_campaign=rss",
+      "summary": "England fly-half Marcus Smith marks his Prem return with 15 of Harlequins' 20 points in a narrow victory over local rivals Saracens.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T16:22:54.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f9c54d8d71e7645d",
+      "title": "Murphy beats Wilson to set up meeting with Williams",
+      "link": "https://www.bbc.com/sport/snooker/articles/cvgqg6457z1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Shaun Murphy beats Gary Wilson 6-4 at the Xi'an Grand Prix - and will face a record-chasing Mark Williams in the final.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T16:10:58.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2425c5a311699e4b",
+      "title": "'Rockstar keeps us on our toes': Will we get another GTA 6 trailer before launch, and if so, what can we expect?",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-keeps-us-on-our-toes-will-we-get-another-gta-6-trailer-before-launch-and-if-so-what-can-we-expect/",
+      "summary": "Love is a long, long (long, long) road",
+      "body": "The hype for GTA 6 is undeniable, and with Rockstar keeping its cards gripped firmly against its chest, the community has squeezed everything it possibly can from the incoming crime sim's trailers to date. So far, that amounts to just two snippets of footage, offering a combined glimpse of less than five minutes into life in Leonida and our long-awaited return to Vice City. As we edge closer to the May 26, 2026 launch date, excitement for a third trailer is growing, but with a far from orthodox road to release thus far—one that's included leaks, court cases and \"indefinite\" secure hospital sentences , to name but some of its twists and turns—is a third pre-launch outing a given at all? Your guess, quite frankly, is as good as ours. Which is exactly why we sought insights from some members of the Grand Theft Auto community on whether or not we can expect a third trailer, and, assuming we do get one, what shape it might take. \"Rockstar is known to keep us on our toes during the run-up to a new game launch—you never really know what you're going to get or when,\" posits staff member, admin, and moderator within the popular and longstanding fansite GTANet.com, GTAKid. \"A new trailer wo…",
+      "image": "https://cdn.mos.cms.futurecdn.net/yQMaYRaDjzCfY5KEckx8Yb-1280-80.jpg",
+      "pubDate": "2025-10-12T16:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "53189f9375828182",
+      "title": "'Fantastic' Healy hits century as Australia close in on record chase",
+      "link": "https://www.bbc.com/sport/cricket/videos/ckgygr70lygo?at_medium=RSS&at_campaign=rss",
+      "summary": "Alyssa Healy's sixth ODI hundred, off 84 balls, puts Australia well on their way towards completing the highest successful run chase in women's ODI history, as they need 331 runs to beat India in the ICC Women's Cricket World Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T15:53:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "d6865ce1aeb30a2e",
       "title": "Beijing blames US for raising trade tensions, defends rare earth curbs",
@@ -288,10 +352,10 @@
       "region": "global"
     },
     {
-      "id": "5f6a34a612853c40",
-      "title": "Wales sense 'special moment coming' before Belgium showdown",
+      "id": "14e85dbd195d9aa0",
+      "title": "Wales sense 'special moment' before Belgium showdown",
       "link": "https://www.bbc.com/sport/football/articles/cwy9yzzyq7vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wales boss Craig Bellamy says there is a \"special moment coming\" as he prepares for Monday's crucial World Cup qualifier against Belgium.",
+      "summary": "Wales boss Craig Bellamy wants his players to \"embrace\" the occasion of Monday's crucial World Cup qualifier against Belgium.",
       "body": null,
       "image": null,
       "pubDate": "2025-10-12T15:44:02.000Z",
@@ -320,22 +384,6 @@
       "region": "global"
     },
     {
-      "id": "7f01fc59327dd0b2",
-      "title": "Murphy beats Wilson to make back-to-back finals",
-      "link": "https://www.bbc.com/sport/snooker/articles/cvgqg6457z1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Shaun Murphy beats Gary Wilson 6-4 at the Xi'an Grand Prix to book his place in a second consecutive ranking final.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-12T15:32:23.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "1bdcecaefc91233e",
       "title": "Vance says ACA credits fuel fraud as Democrats push for extension to end shutdown",
       "link": "https://www.investing.com/news/economy-news/vance-says-aca-credits-fuel-fraud-as-democrats-push-for-extension-to-end-shutdown-4282982",
@@ -349,6 +397,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "332c192aeb2b8ad2",
+      "title": "Box Office: ‘Tron’ Hits the Skids With $33.5M Opening, ‘Roofman’ No. 2 at $8 million",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/tron-hits-the-skids-box-office-opening-1236398953/",
+      "summary": "The big-budget 'Tron: Ares' came in $10 million or so behind expectations domestically and likely ends hopes of ever rebooting the once storied sci-fi franchise.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T15:14:42.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -432,6 +496,22 @@
       "region": "global"
     },
     {
+      "id": "265003b155e6f6a4",
+      "title": "Chloé Zhao on the “Superpower” of Being a Neurodivergent Director: “I Have an Extreme Sensitivity to Dissonance”",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/chloe-zhao-neurodivergent-hamnet-paul-mescal-jessie-buckley-1236398940/",
+      "summary": "\"It's a superpower,\" said the Oscar-winning filmmaker, who was hosted by the BFI London Film Festival to discuss her career following the U.K. premiere of her new movie, 'Hamnet.'",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T14:29:30.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "39a53062dfdf4644",
       "title": "Super Sutherland takes five-wicket haul against India",
       "link": "https://www.bbc.com/sport/cricket/videos/cly0yl11gjwo?at_medium=RSS&at_campaign=rss",
@@ -448,6 +528,22 @@
       "region": "global"
     },
     {
+      "id": "815e690725526a4b",
+      "title": "مبابي أم فينيسيوس؟.. هكذا أجاب فاسكيز!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%A7%D9%94%D9%85-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%87%D9%83%D8%B0%D8%A7-%D8%A7%D9%94%D8%AC%D8%A7%D8%A8-%D9%81%D8%A7%D8%B3%D9%83%D9%8A%D8%B2/blt34215f8692e4184d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مبابي أم فينيسيوس؟.. شاهد إجابة فاسكيز في هذا الفيديو.",
+      "body": "مبابي أم فينيسيوس؟.. شاهد إجابة فاسكيز في هذا الفيديو.",
+      "image": null,
+      "pubDate": "2025-10-12T14:14:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "8c552f40ee98aeb4",
       "title": "Former Wales women head coach Abrahams dies aged 43",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c4gqgk12e47o?at_medium=RSS&at_campaign=rss",
@@ -462,6 +558,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "68ce440b059f7b0f",
+      "title": "موعد مباراة البرتغال والمجر في التصفيات المؤهلة لكأس العالم 2026 أوروبا.. والقنوات الناقلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%AC%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D9%94%D9%87%D9%84%D8%A9-%D9%84%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt133cfb28cb8a3d5e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على موعد مباراة البرتغال والمجر في التصفيات المؤهلة لكأس العالم 2026 والقنوات الناقلة والتشكيل المتوقع...",
+      "body": "يستضيف منتخب البرتغال نظيره منتخب المجر، في مباراة قوية ضمن منافسات الجولة الرابعة من التصفيات الأوروبية المؤهلة لكأس العالم 2026. يدخل منتخب البرتغال اللقاء وهو يتصدر ترتيب المجموعة برصيد 9 نقاط، ويسعى لتحقيق فوز على أرضه يعزز به صدارته. في المقابل، يحتل منتخب المجر المركز الثاني برصيد 4 نقاط، ويدخل المباراة بمحاولة خطف نتيجة إيجابية خارج الديار للحفاظ على آماله في المنافسة على بطاقة التأهل. ويستعرض كووورة في التقرير التالي موعد مباراة البرتغال والمجر في التصفيات المؤهلة لكأس العالم 2026 أوروبا والقنوات الناقلة والتشكيل المتوقع.. متى موعد مباراة البرتغال والمجر في التصفيات المؤهلة لكأس العالم 2026؟ موعد مباراة البرتغال والمجر في التصفيات المؤهلة لكأس العالم 2026، هو يوم الثلاثاء 14 أكتوبر/تشرين الأول 2025، على ملعب خوسيه الفالادي في العاصمة لشبونة. وتنطلق صافرة بداية المباراة في تمام الساعة العاشرة إلا الربع مساءً (21:45) بتوقيت السعودية ومصر، الحادية عشرة إلا الربع (22:45) بتوقيت الإمارات. ما القنوات الناقلة لمباراة البرتغال والمجر في التصفيات المؤهلة لكأس العالم 2026؟ تمتلك شبكة قنوات بي إن سبورتس القطرية، حقوق بث التصفيات المؤهلة لكأس العالم 2026 في منطقة الشرق الأوسط وشمال أفريقيا، ومن المنتظر أن تقوم بإذاعة مباراة البرتغال والمجر عبر قناة beIN SPORTS 5. كيف تشاهد مباراة البر…",
+      "image": null,
+      "pubDate": "2025-10-12T14:12:03.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "3e935963a7af5ef0",
+      "title": "موعد مباراة المغرب والكونغو في تصفيات كأس العالم 2026 أفريقيا.. والقنوات الناقلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt5bbb26186076ff9f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على موعد مباراة المغرب والكونغو في الجولة الأخيرة من تصفيات كأس العالم 2026 والقنوات الناقلة والتشكيل المتوقع...",
+      "body": "يستضيف منتخب المغرب نظيره منتخب الكونغو، في مباراة تمثل الجولة الأخيرة من التصفيات الأفريقية المؤهلة لكأس العالم 2026. يدخل \"أسود الأطلس\" اللقاء بمعنويات مرتفعة وبعد أن حسموا التأهل للمونديال بشكل رسمي، حيث يتصدرون المجموعة بالعلامة الكاملة برصيد 21 نقطة من 7 انتصارات، وبسجل هجومي مرعب ودفاعي صلب. ويستعرض كووورة في التقرير التالي موعد مباراة المغرب والكونغو في التصفيات المؤهلة لكأس العالم 2026 أفريقيا والقنوات الناقلة والتشكيل المتوقع.. متى موعد مباراة المغرب والكونغو في تصفيات أفريقيا المؤهلة إلى كأس العالم 2026؟ موعد مباراة المغرب والكونغو في الجولة الأخيرة من التصفيات المؤهلة لكأس العالم 2026، هو يوم الثلاثاء 14 أكتوبر/تشرين الأول 2025، على أرضية المجمع الرياضي الأمير مولاي عبد الله بالرباط. وتنطلق صافرة بداية المباراة في تمام الساعة الثامنة مساءً (20:00) بتوقيت المغرب، العاشرة مساءً (22:00) بتوقيت مصر والسعودية، الحادية عشرة مساءً (23:00) بتوقيت الإمارات. ما القنوات الناقلة لمباراة المغرب والكونغو في تصفيات أفريقيا المؤهلة إلى كأس العالم 2026؟ تمتلك قناة المغربية الرياضية حقوق بث مباريات المغرب في التصفيات الأفريقية المؤهلة لكأس العالم 2026 في منطقة الشرق الأوسط وشمال أفريقيا، ومن المنتظر أن تقوم بإذاعة المباراة عبر شاشتها. كيف تشاهد مباراة المغرب والكونغو في تصفيات كأس العالم…",
+      "image": null,
+      "pubDate": "2025-10-12T14:05:49.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "64d89c7d2267a1b6",
@@ -592,11 +720,11 @@
       "region": "mena"
     },
     {
-      "id": "28e31d695d49d167",
-      "title": "سباق تورينو يشتعل… 3 بطولات داخل الصالات ترسم ملامح ختام موسم التنس",
-      "link": "https://www.kooora.com/%D8%AA%D9%86%D8%B3/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A8%D8%A7%D9%82-%D8%AA%D9%88%D8%B1%D9%8A%D9%86%D9%88-%D9%8A%D8%B4%D8%AA%D8%B9%D9%84-3-%D8%A8%D8%B7%D9%88%D9%84%D8%A7%D8%AA-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D8%B1%D8%B3%D9%85-%D9%85%D9%84%D8%A7%D9%85%D8%AD-%D8%AE%D8%AA%D8%A7%D9%85-%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AA%D9%86%D8%B3/blt1a8089ffac131b17?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>تعود جولة رابطة محترفي التنس إلى المنافسات داخل الصالات هذا الأسبوع مع إقامة ثلاث بطولات من فئة 250 نقطة في كل من ألماتي (كازاخستان)، وبروكسل (بلجيكا)، وستوكهولم (السويد)، حيث تنطلق تلك البطولات غدًا الإثنين لمدة أسبوع.</p><p>واستعرض موقع رابطة اللاعبين المحترفين أبرز الملامح في كل بطولة، خاصة ف…",
-      "body": "تعود جولة رابطة محترفي التنس إلى المنافسات داخل الصالات هذا الأسبوع مع إقامة ثلاث بطولات من فئة 250 نقطة في كل من ألماتي (كازاخستان)، وبروكسل (بلجيكا)، وستوكهولم (السويد)، حيث تنطلق تلك البطولات غدًا الإثنين لمدة أسبوع. واستعرض موقع رابطة اللاعبين المحترفين أبرز الملامح في كل بطولة، خاصة فيما يتعلق بسباق التأهل لنهائيات البطولة الختامية في تورينو في السطور التالية.. &nbsp;بطولة ألماتي المفتوحة المدافع عن اللقب خاتشانوف يتصدر الروسي كارين خاشانوف (المصنف 10 عالمياً) قائمة المصنفين وهو حامل لقب البطولة، ويعود خاشانوف إلى ألماتي بهدف استعادة مستواه بعد ثلاث هزائم متتالية تعرض لها في أمريكا المفتوحة وبكين وشنغهاي. ميدفيديف يسعى للمزيد يشارك المصنف الأول عالمياً سابقاً الروسي دانييل ميدفيديف كمصنف ثاني في أول ظهور له في ألماتي، وبعد وصوله إلى نصف نهائي شنغهاي، هدف ميدفيديف إلى تعزيز فرصه للتأهل لنهائيات تورينو، حيث يتواجد حالياً في المركز 15 في سباق النقاط المباشر. الإيطاليون يبحثون عن إنجاز في الملاعب الصلبة يسعى الإيطاليان الشابان فلافيو كوبولي ولوسيانو داريري، المصنفان الثالث والرابع على التوالي، لتغيير مسارهما، فكلاهما لم يحقق أي لقب على أي أرضية غير الملاعب الترابية هذا العام، رغم أن كوبولي حقق لقب هامبورج من فئة 500 نقطة. شيفشينكو يقود المهمة المحلية يأمل اللاعب الكازاخستاني ألكس…",
+      "id": "eb63a78d944fdfbf",
+      "title": "سباق تورينو يشتعل… 3 بطولات ترسم ملامح ختام موسم التنس",
+      "link": "https://www.kooora.com/%D8%AA%D9%86%D8%B3/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A8%D8%A7%D9%82-%D8%AA%D9%88%D8%B1%D9%8A%D9%86%D9%88-%D9%8A%D8%B4%D8%AA%D8%B9%D9%84-3-%D8%A8%D8%B7%D9%88%D9%84%D8%A7%D8%AA-%D8%AA%D8%B1%D8%B3%D9%85-%D9%85%D9%84%D8%A7%D9%85%D8%AD-%D8%AE%D8%AA%D8%A7%D9%85-%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AA%D9%86%D8%B3/blt1a8089ffac131b17?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعود جولة رابطة محترفي التنس، إلى المنافسات داخل الصالات هذا الأسبوع، مع إقامة 3 بطولات من فئة 250 نقطة في كل من ألماتي (كازاخستان)، وبروكسل (بلجيكا)، وستوكهولم (السويد)، حيث تنطلق تلك البطولات غدًا الإثنين، لمدة أسبوع.",
+      "body": "تعود جولة رابطة محترفي التنس، إلى المنافسات داخل الصالات هذا الأسبوع، مع إقامة 3 بطولات من فئة 250 نقطة في كل من ألماتي (كازاخستان)، وبروكسل (بلجيكا)، وستوكهولم (السويد)، حيث تنطلق تلك البطولات غدًا الإثنين، لمدة أسبوع. واستعرض موقع رابطة اللاعبين المحترفين، أبرز الملامح في كل بطولة، خاصة فيما يتعلق بسباق التأهل لنهائيات البطولة الختامية في تورينو في السطور التالية: بطولة ألماتي المفتوحة المدافع عن اللقب: خاتشانوف يتصدر الروسي كارين خاشانوف (المصنف 10 عالمياً) قائمة المصنفين، وهو حامل لقب البطولة. ويعود خاشانوف إلى ألماتي، بهدف استعادة مستواه بعد 3 هزائم متتالية تعرض لها في أمريكا المفتوحة وبكين وشنغهاي. ميدفيديف يسعى للمزيد يشارك المصنف الأول عالمياً سابقاً، الروسي دانييل ميدفيديف، كمصنف ثاني في أول ظهور له في ألماتي. وبعد وصوله إلى نصف نهائي شنغهاي، يسعى ميدفيديف إلى تعزيز فرصه للتأهل لنهائيات تورينو، حيث يتواجد حالياً في المركز 15 في سباق النقاط المباشر. الإيطاليون يبحثون عن إنجاز في الملاعب الصلبة يسعى الإيطاليان الشابان فلافيو كوبولي ولوسيانو داريري، المصنفان الثالث والرابع على التوالي، لتغيير مسارهما، فكلاهما لم يحقق أي لقب على أي أرضية غير الملاعب الترابية هذا العام، رغم أن كوبولي حقق لقب هامبورج من فئة 500 نقطة. شيفشينكو يقود المهمة المحلية يأمل اللاعب الكازاخستاني ألكسندر…",
       "image": null,
       "pubDate": "2025-10-12T13:16:01.000Z",
       "source": {
@@ -718,22 +846,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "63c8c5bba8722267",
-      "title": "Marvellous Mandhana puts India in control against Australia",
-      "link": "https://www.bbc.com/sport/cricket/videos/c33r3kjn5l7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Smriti Mandhana's 80 runs off 66 balls, including nine fours and three sixes, puts India in a commanding position against Australia at the ICC Women's Cricket World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-12T12:48:37.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "63c8c5bba8722267",
@@ -992,38 +1104,6 @@
       "region": "global"
     },
     {
-      "id": "ec7062c0311be68f",
-      "title": "عملاق إيطالي يلقي لإندريك طوق النجاة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-%D9%8A%D9%84%D9%82%D9%8A-%D9%84%D8%A7%D9%95%D9%86%D8%AF%D8%B1%D9%8A%D9%83-%D8%B7%D9%88%D9%82-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%A9/blt35d5ec08b366d6a3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اللاعب البرازيلي يأمل في المشاركة بمونديال 2026",
-      "body": "استفسر يوفنتوس عن النجم البرازيلي إندريك، مهاجم ريال مدريد، خلال فترة الانتقالات الصيفية الماضية، في محاولة من النادي الإيطالي لتعزيز صفوفه بلاعب موهوب صغير السن، غير أن الصفقة لم تكتمل، ليستمر اللاعب في صفوف النادي الملكي. رغم ذلك، فإن احتمالية انتقال إندريك إلى الدوري الإيطالي ما تزال قائمة، خلال فترة الانتقالات الشتوية المقبلة، خاصةً في ظل معاناته للحصول على دقائق لعب كافية، تحت قيادة مدربه الإسباني تشابي ألونسو. وبحسب الصحفي الإيطالي ماتيو موريتو، فإن يوفنتوس تواصل مع ريال مدريد خلال الصيف الماضي، للحصول على معلومات تتعلق بإمكانية ضم إندريك، إلى جانب استفسارات مماثلة من أندية إيطالية وإسبانية وألمانية. لكن النادي الملكي قرر الاحتفاظ بالمهاجم البرازيلي ضمن صفوفه. ومع ذلك، لم يشارك اللاعب حتى الآن في أي مباراة بالدوري الإسباني أو دوري أبطال أوروبا، هذا الموسم. وقال موريتو: \"يرغب إندريك في الحصول على المزيد من وقت اللعب، خصوصًا مع اقتراب كأس العالم 2026.. كما يرغب مدرب المنتخب البرازيلي، كارلو أنشيلوتي، في حصول المهاجم الشاب على وقت لعب منتظم قبل البطولة\". وأضاف: \"نظرًا لقلة مشاركاته مع ريال مدريد، فإن جميع الأطراف ستقوم بتقييم الموقف خلال الأسابيع المقبلة، لمعرفة ما إذا كان انتقال إندريك على سبيل الإعارة في يناير سيكون الخيار الأفضل، وإيطاليا تُعد إحدى الوجهات المحتملة للاعب الب…",
-      "image": null,
-      "pubDate": "2025-10-12T11:16:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "45138c38e1383118",
-      "title": "لخلافة أموريم.. نجم السيتي السابق ينصح يونايتد بأسطورة عاطل",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A9-%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%8A%D9%86%D8%B5%D8%AD-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D8%A8%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%B9%D8%A7%D8%B7%D9%84/bltb8752b40ff19ddef?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">يواجه المدرب البرتغالي روبن أموريم ضغوطا متزايدة في مانشستر يونايتد، في ظل تفاوت الأداء والنتائج، مما زاد من التكهنات حول مستقبله.</p><p style=\"direction: rtl;\">ووسط هذا الجدل اقترح أحد نجوم مانشستر سيتي وفالنسيا السابقين اسما غير مألوف لخلافة أموريم، هو أسطورة الشياطين ا…",
-      "body": "يواجه المدرب البرتغالي روبن أموريم ضغوطا متزايدة في مانشستر يونايتد، في ظل تفاوت الأداء والنتائج، مما زاد من التكهنات حول مستقبله. ووسط هذا الجدل اقترح أحد نجوم مانشستر سيتي وفالنسيا السابقين اسما غير مألوف لخلافة أموريم، هو أسطورة الشياطين الحمر جاري نيفيل، وفقا لما صرح به لصحيفة \"ميرور\" البريطانية. وكان نيفيل قد قاد فالنسيا في 28 مباراة فقط عام 2015 في تجربته التدريبية الوحيدة، قبل أن تتم إقالته، بعدما حقق 3 انتصارات فقط في الدوري الإسباني، وهي فترة وُصفت آنذاك بالفاشلة. ورغم ذلك، يرى المهاجم الإسباني السابق ألفارو نيجريدو، الذي لعب لمانشستر سيتي وفالنسيا، أن نيفيل (50 عاما) قد يكون خيارا جيدا لقيادة مانشستر يونايتد في هذه المرحلة الصعبة. وقال نيجريدو: \"الأمر يعتمد أيضا على وضع مانشستر يونايتد. لقد كان نيفيل لاعبا مهما للغاية بالنسبة للنادي، وقدم الكثير لكرة القدم الإنجليزية\". وأضاف: \"ربما، كما حدث مع فالنسيا في ذلك الوقت، يمر يونايتد بفترة لم يكن فيها في القمة منذ فترة طويلة، وربما الآن ليس الوقت المثالي. لكن من الصحيح أيضا أن التغييرات تأتي عندما لا يكون الفريق في أفضل حالاته. كنت سأمنحه الفرصة، لأنه كمدرب أعجبني بالفعل\". ومنذ رحيله عن فالنسيا، لم يعد نيفيل إلى مجال التدريب، مفضلا التركيز على عمله التحليلي في شبكة \"سكاي سبورتس\"، إضافة إلى مشاريعه التجارية، أبرزها ملكيته الجزئي…",
-      "image": null,
-      "pubDate": "2025-10-12T11:14:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "fbb88868836bd2c1",
       "title": "A new ToeJam and Earl is 'in the planning stage' according to its co-creator, but don't expect to see it anytime soon: 'We intend to make it happen'",
       "link": "https://www.pcgamer.com/games/adventure/a-new-toejam-and-earl-is-in-the-planning-stage-according-to-its-co-creator-but-dont-expect-to-see-it-anytime-soon-we-intend-to-make-it-happen/",
@@ -1038,22 +1118,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "ac3fe7d2d6b2fa2e",
-      "title": "سلاح إضافي.. دفعة معنوية للمنتخب السعودي قبل موقعة العراق",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%84%D8%A7%D8%AD-%D8%A7%D9%95%D8%B6%D8%A7%D9%81%D9%8A-%D8%AF%D9%81%D8%B9%D8%A9-%D9%85%D8%B9%D9%86%D9%88%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82/bltd1a71d341d7a72d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>تلقى الفرنسي هيرفي رينارد، المدير الفني للمنتخب السعودي، خبرًا سارًا قبل مباراة العراق المرتقبة في الملحق الآسيوي المؤهل لنهائيات كأس العالم 2026 التي تُقام في الولايات المتحدة الأمريكية وكندا والمكسيك صيف العام المقبل.</p><p>ويستعد منتخب السعودية لمواجهة نظيره العراقي، يوم الثلاثاء المقبل، على …",
-      "body": "تلقى الفرنسي هيرفي رينارد، المدير الفني للمنتخب السعودي، خبرًا سارًا قبل مباراة العراق المرتقبة في الملحق الآسيوي المؤهل لنهائيات كأس العالم 2026 التي تُقام في الولايات المتحدة الأمريكية وكندا والمكسيك صيف العام المقبل. ويستعد منتخب السعودية لمواجهة نظيره العراقي، يوم الثلاثاء المقبل، على ملعب الإنماء، في ختام الملحق الآسيوي المؤهل لنهائيات كأس العالم 2026. ويحتاج رفاق المدرب الفرنسي هيرفي رينارد إلى الفوز أو التعادل من أجل حسم المقعد المؤهل إلى كأس العالم 2026 بشكل مباشر، فيما لا يمتلك منتخب \"أسود الرافدين\" سوى فرصة وحيدة للتأهل المباشر، وهي تحقيق الفوز. فرص المنتخب السعودي تزداد يومًا بعد يوم، لا سيما بعد أن كشفت صحيفة \"الرياضية\" السعودية أن عبدالله الحمدان، مهاجم الهلال، سيعود إلى التدريبات التي سيخوضها الأخضر، في السابعة من مساء اليوم الأحد، بتوقيت مكة المكرمة، على ملعب الإنماء، استعدادًا لموقعة العراق. وتغيب الحمدان عن تدريبات المنتخب السعودي، أمس السبت، بسبب تعرضه لنزلة برد. إضافة قوية عودة الحمدان تمثل إضافة قوية للمنتخب السعودي، إذ تمنح المدير الفني الفرنسي هيرفي رينارد عمقًا في القائمة، يسمح له بتغيير الخطط وزيادة عدد المهاجمين، أو استبدال المهاجم الأساسي. ويعتمد رينارد على فراس البريكان كمهاجم أساسي، فيما يلعب صالح الشهري كبديل له، بينما يأتي عبدالله الحمدان في المرتبة ا…",
-      "image": null,
-      "pubDate": "2025-10-12T10:55:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "5a14d371d1eb58cc",
@@ -1095,22 +1159,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-10-12T08:26:14.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6c8baa55066cd0bb",
-      "title": "How Germany-born striker became NI goalkeeping great",
-      "link": "https://www.bbc.com/sport/football/articles/cjw7ey4y5e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Thanks to a now defunct eligibility rule, Germany-born goalkeeper Maik Taylor became the most unlikely of Northern Ireland heroes.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-12T08:09:42.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1200,6 +1248,22 @@
       "region": "global"
     },
     {
+      "id": "c0690fec66110faf",
+      "title": "Charli XCX Crashes Role Model’s ‘Saturday Night Live’ Performance",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/charli-xcx-saturday-night-live-role-model-cameo-1236398888/",
+      "summary": "The Grammy winner served as the singer's \"Sally girl,\" making a surprise appearance while he performed his track \"Sally, When The Wine Runs Out.\"",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T05:45:16.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "b6aba62d9e84514c",
       "title": "Kirby reflects on first England call-up and 'Mini Messi' nickname",
       "link": "https://www.bbc.com/sport/football/videos/c0kn6mlre48o?at_medium=RSS&at_campaign=rss",
@@ -1229,6 +1293,38 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8c5d480a1e6c7b1f",
+      "title": "Tina Fey and Seth Meyers Make Surprise ‘Weekend Update’ Appearance With Amy Poehler on ‘SNL’",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/tina-fey-seth-meyers-amy-poehler-weekend-update-snl-1236398889/",
+      "summary": "The trio previously spent half a decade together as part of the cast of the late night series. Earlier in the night, Fey made her first unexpected cameo during the episode's cold open.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T05:06:34.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f7226bcb289df2ff",
+      "title": "‘The Wild Robot,’ ‘The Daily Show’ Among Winners at Environmental Media Awards",
+      "link": "https://www.hollywoodreporter.com/news/general-news/wild-robot-daily-show-winners-environmental-media-awards-1236397470/",
+      "summary": "'Grey's Anatomy' and 'The Americas' were also recognized at Saturday night's ceremony, hosted by reality stars Ariana Madix and Harry Jowsey.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T04:30:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1280,6 +1376,22 @@
       "region": "global"
     },
     {
+      "id": "07baffa1a7050d9b",
+      "title": "Amy Poehler Slams AI Actress Tilly Norwood on ‘Saturday Night Live’: “You’ll Never Be Able to Write a Joke, You Stupid Robot!”",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/amy-poehler-slams-ai-actress-tilly-norwood-snl-1236398834/",
+      "summary": "The former 'SNL' cast member herself returned to the Studio 8H stage as the second official host of season 51, following last week's premiere episode led by Bad Bunny.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T03:55:33.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "83ca6fd8b6bd3464",
       "title": "Today's Wordle clues, hints and answer for October 12 (#1576)",
       "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-october-12-2025/",
@@ -1306,6 +1418,22 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f282e103ac37c395",
+      "title": "Critic’s Appreciation: The Irreplaceable Diane Keaton Modernized the Screwball Heroine With Sophistication, Intellect and Singular Style",
+      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/diane-keaton-critic-appreciation-1236398831/",
+      "summary": "The Oscar-winning star of ‘Annie Hall,’ ‘Manhattan,’ all three ‘Godfather’ movies, ‘Reds’ and ‘The First Wives Club' was a one-of-a-kind screen presence.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-12T00:53:51.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -1341,6 +1469,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "fa672171a0909575",
+      "title": "‘Annie Hall,’ ‘Baby Boom,’ ‘Father of the Bride’ and More of Diane Keaton’s Most Memorable Movies",
+      "link": "https://www.hollywoodreporter.com/gallery/diane-keaton-best-movies-photos-1236398573/",
+      "summary": "The Oscar winner, who died Friday at the age of 79, was known for her collaborations with Woody Allen, Francis Ford Coppola, Nancy Meyers, Steve Martin, Jack Nicholson and Bette Midler, among others.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-11T23:14:56.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1405,6 +1549,38 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e8611029bcb208d5",
+      "title": "Hollywood Pays Tribute to Diane Keaton: “We Lost a True Original”",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/diane-keaton-dead-stars-tributes-reactions-1236398465/",
+      "summary": "Bette Midler, Francis Ford Coppola, Kate Hudson, Steve Martin, Jane Fonda, Octavia Spencer and more stars are sharing their condolences for the Oscar-winning actress who died on Saturday.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-11T22:43:22.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c6e5dc7fb95fb70f",
+      "title": "‘Mortal Kombat III’ Greenlit as Director and Cast Talk Sequel Expectations and Delay at NYCC",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/mortal-kombat-3-announced-nycc-1236398729/",
+      "summary": "The team behind 'Mortal Kombat II' appeared Saturday night to talk about the sequel’s “blockbuster” energy and IMAX release, while revealing a third installment is already in the works.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-11T22:33:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1645,6 +1821,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8455dd8811c35fac",
+      "title": "England go top of World Cup table with comfortable Sri Lanka win",
+      "link": "https://www.bbc.com/sport/cricket/videos/c1mxmz75j22o?at_medium=RSS&at_campaign=rss",
+      "summary": "Nat Sciver-Brunt and Sophie Ecclestone put in standout performances as England seal a comfortable 89-run win over Sri Lanka to go top of the table in the ICC Women's World Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-11T17:29:14.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -2845,22 +3037,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e5cb658aaa35c6e4",
-      "title": "'My family no longer attend matches because of abuse by fans'",
-      "link": "https://www.bbc.com/sport/football/videos/c8jm4yn8djxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Premier League referee Anthony Taylor says his family \"no longer attend matches\" after the abuse they faced from Roma fans after the 2023 Europa League final.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-10T05:02:01.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
