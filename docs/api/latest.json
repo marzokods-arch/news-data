@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-16T21:27:27.226Z",
-    "total": 509,
+    "generated_at": "2025-10-16T21:37:21.013Z",
+    "total": 489,
     "processed_feeds": 19,
     "discovered_feeds": 85,
     "sports_processed_every_run": true,
@@ -9,15 +9,28 @@
     "shard_index": 2,
     "results": [
       {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/feed/",
-        "homepage": "https://techcrunch.com",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 19,
+        "taken": 65,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/rss.xml",
+        "homepage": "https://www.engadget.com/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 46,
         "error": null,
         "notModified": false
       },
@@ -35,19 +48,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -61,29 +61,16 @@
         "notModified": false
       },
       {
-        "name": "Engadget",
-        "url": "https://www.engadget.com/rss.xml",
-        "homepage": "https://www.engadget.com/rss.xml",
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "homepage": "https://techcrunch.com",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
-        ],
-        "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
+          "technology"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -96,19 +83,6 @@
           "general"
         ],
         "taken": 95,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/feed/",
-        "homepage": "https://arstechnica.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -126,15 +100,15 @@
         "notModified": false
       },
       {
-        "name": "المصري اليوم - ملاعب",
-        "url": "https://sports.almasryalyoum.com/feed/",
-        "homepage": "https://sports.almasryalyoum.com/feed/",
-        "lang": "ar",
+        "name": "Hacker News - Front",
+        "url": "https://news.ycombinator.com/rss",
+        "homepage": "https://news.ycombinator.com/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
+        "taken": 28,
         "error": null,
         "notModified": false
       },
@@ -152,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Hacker News - Front",
-        "url": "https://news.ycombinator.com/rss",
-        "homepage": "https://news.ycombinator.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 29,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "NIH News",
         "url": "https://www.nih.gov/news-events/news-releases/all.xml",
         "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
@@ -178,29 +139,29 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - رياضة",
-        "url": "https://www.skynewsarabia.com/rss/sports.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "global",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
-        "lang": "ar",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/feed/",
+        "homepage": "https://arstechnica.com/feed/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -217,10 +178,36 @@
         "notModified": false
       },
       {
-        "name": "Met Office (UK) — News",
-        "url": "https://www.metoffice.gov.uk/rss/news",
-        "homepage": "https://www.metoffice.gov.uk/rss/news",
-        "lang": "en",
+        "name": "Sky News Arabia - رياضة",
+        "url": "https://www.skynewsarabia.com/rss/sports.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "المصري اليوم - ملاعب",
+        "url": "https://sports.almasryalyoum.com/feed/",
+        "homepage": "https://sports.almasryalyoum.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -254,10 +241,39 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Met Office (UK) — News",
+        "url": "https://www.metoffice.gov.uk/rss/news",
+        "homepage": "https://www.metoffice.gov.uk/rss/news",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "74b9d8157b3dbbc1",
+      "title": "‘Come See Me in the Good Light’: New Apple TV documentary gets moving first trailer",
+      "link": "https://9to5mac.com/2025/10/16/come-see-me-in-the-good-light-apple-tv-trailer/",
+      "summary": "Apple unveiled today a touching trailer for “Come See Me in the Good Light,” its upcoming award-winning documentary about the late poet Andrea Gibson. Watch it below. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-16T21:35:26.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "a6f7114b88bc1d92",
       "title": "The Crew 2 is now playable offline",
@@ -275,8 +291,8 @@
       "region": "global"
     },
     {
-      "id": "48b19a51c2539dbf",
-      "title": "Microsoft’s vision for AI PCs looks a lot like another crack at Cortana",
+      "id": "25680377044524e5",
+      "title": "AI-powered features begin creeping deeper into the bedrock of Windows 11",
       "link": "https://arstechnica.com/gadgets/2025/10/microsofts-vision-for-ai-pcs-looks-a-lot-like-another-crack-at-cortana/",
       "summary": "Copilot expands with an emphasis on creating and editing files, voice input.",
       "body": "Like virtually every major Windows announcement in the last three years, the spate of features that Microsoft announced for the operating system today all revolve around generative AI. In particular, they’re concerned with the company’s more recent preoccupation with “agentic” AI, an industry buzzword for “telling AI-powered software to perform a task, which it then does in the background while you move on to other things.” But the overarching impression I got, both from reading the announcement and sitting through a press briefing earlier this month, is that Microsoft is using language models and other generative AI technologies to try again with Cortana, Microsoft’s failed and discontinued entry in the voice assistant wars of the 2010s. According to Microsoft’s Consumer Chief Marketing Officer Yusuf Mehdi, “AI PCs” should be able to recognize input “naturally, in text or voice,” to be able to guide users based on what’s on their screens at any given moment, and that AI assistants “should be able to take action on your behalf.” Read full article Comments",
@@ -352,22 +368,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "777a1a8b7cf7a302",
-      "title": "VC legend Ron Conway quits Salesforce Foundation after Benioff’s National Guard comments",
-      "link": "https://techcrunch.com/2025/10/16/vc-legend-ron-conway-quits-salesforce-foundation-after-benioffs-national-guard-comments/",
-      "summary": "Ron Conway has been on the board of the Salesforce's philanthropic organization for 10 years.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T20:57:45.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -515,22 +515,6 @@
       "region": "global"
     },
     {
-      "id": "d36f45f90c881c91",
-      "title": "Waymo dips its wheels back into delivery, this time with DoorDash",
-      "link": "https://techcrunch.com/2025/10/16/waymo-dips-its-wheels-back-into-delivery-this-time-with-doordash/",
-      "summary": "Waymo has spent the past several years scaling up its robotaxi business. The partnership with DoorDash could mark a return to delivery.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T19:56:33.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "5ad94aeafe5418fa",
       "title": "Benjie's Humanoid Olympic Games",
       "link": "https://generalrobots.substack.com/p/benjies-humanoid-olympic-games",
@@ -563,22 +547,6 @@
       "region": "global"
     },
     {
-      "id": "0a17a106b957189c",
-      "title": "Kayak launches an ‘AI Mode’ for travel questions, search, and bookings",
-      "link": "https://techcrunch.com/2025/10/16/kayak-launches-an-ai-mode-for-travel-questions-search-and-bookings/",
-      "summary": "Kayak is bringing AI directly to its main platform with a new “AI Mode” that lets travelers research, plan, and book trips through a built-in chatbot.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T19:23:07.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "67eba2b089d7e301",
       "title": "Apple TV and Peacock bundle starts at $15/month, available on Oct. 20",
       "link": "https://arstechnica.com/gadgets/2025/10/apple-tv-gets-rare-discount-in-peacock-streaming-bundle/",
@@ -605,22 +573,6 @@
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b743a4602e06e8be",
-      "title": "Why AI startups are taking data into their own hands",
-      "link": "https://techcrunch.com/2025/10/16/why-ai-startups-are-taking-data-into-their-own-hands/",
-      "summary": "Where training sets were once scraped freely from the web or collected from low-paid annotators, companies are looking to proprietary training data as a competitive advantage.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T19:08:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -755,22 +707,6 @@
       "region": "mena"
     },
     {
-      "id": "2b5da824cefb6687",
-      "title": "Amazon’s Ring to partner with Flock, a network of AI cameras used by ICE, feds, and police",
-      "link": "https://techcrunch.com/2025/10/16/amazons-ring-to-partner-with-flock-a-network-of-ai-cameras-used-by-ice-feds-and-police/",
-      "summary": "Agencies that use Flock can request that Ring doorbell users share footage to help with \"evidence collection and investigative work.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T18:35:05.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "6a254ddb501955c0",
       "title": "قبل موقعة ليفربول.. رباعي مانشستر يونايتد يغيب عن التدريبات",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%A8%D9%84-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%B9%D9%86-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D8%A7%D8%AA/bltdb62bbff0e1be51b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -835,22 +771,6 @@
       "region": "global"
     },
     {
-      "id": "75f2ea5c3233dd35",
-      "title": "Meta to shut down Messenger desktop apps for Mac and Windows",
-      "link": "https://techcrunch.com/2025/10/16/meta-to-shut-down-messenger-desktop-apps-for-mac-and-windows/",
-      "summary": "Starting December 15, users will no longer be able to log into the apps and will be automatically redirected to the Facebook website to access Messenger.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T18:15:22.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "638b6d41f1281e40",
       "title": "سالم الدوسري.. الإعصار الذي لا يخشى المناسبات الكبرى",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B3%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B9%D8%B5%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%8A-%D9%84%D8%A7-%D9%8A%D8%AE%D8%B4%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89/bltde233123e300f8e3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -893,38 +813,6 @@
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "054acaf2510df0f2",
-      "title": "The real reason Google DeepMind is working with a fusion energy startup",
-      "link": "https://techcrunch.com/2025/10/16/the-real-reason-google-deepmind-is-working-with-a-fusion-energy-startup/",
-      "summary": "Google has invested in fusion startups as potential power suppliers. This latest move suggests Google sees them as potential customers, too.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T18:06:08.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "055104d3418c6886",
-      "title": "Rent a Cyber Friend will pay you to talk to strangers online and will show off its platform at TechCrunch Disrupt 2025",
-      "link": "https://techcrunch.com/2025/10/16/rent-a-cyber-friend-will-pay-you-to-talk-to-strangers-online-and-will-show-off-its-platform-at-techcrunch-disrupt-2025/",
-      "summary": "\"Loneliness is the biggest disease in the world right now,\" founder Francesco Vitali said. \"So we built a platform where human time has value again, and a place where being human is important.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T17:57:30.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -1267,22 +1155,6 @@
       "region": "global"
     },
     {
-      "id": "bb9667385f56a45b",
-      "title": "A new wave of social media apps provide hope in a doomscrolling world",
-      "link": "https://techcrunch.com/2025/10/16/a-new-wave-of-social-media-apps-provide-hope-in-a-doomscrolling-world/",
-      "summary": "“The platforms that won were the ones that kept people scrolling the longest, not the ones that made them feel the most connected,” Zehra Naqvi told TechCrunch. “Now there is an abundance of content but a scarcity of joy.”",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T16:40:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9d9ca8a89ebd4bc2",
       "title": "Sport can 'change country' amid climate crisis",
       "link": "https://www.bbc.com/sport/articles/cgr40nnenv1o?at_medium=RSS&at_campaign=rss",
@@ -1507,22 +1379,6 @@
       "region": "mena"
     },
     {
-      "id": "7af8d792a0f9b358",
-      "title": "Deel hits $17.3B valuation after raising $300M from big-name VCs",
-      "link": "https://techcrunch.com/2025/10/16/deel-hits-17-3b-valuation-after-raising-300m-from-big-name-vcs/",
-      "summary": "Deel says it's been profitable for three years and surpassed $1 billion in ARR, including having a month that hit $100 million in revenue.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T16:01:32.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "1a5d76f9dc37a7d2",
       "title": "New Apple TV and Peacock bundle offers both services at discounted price, including special Apple One perk",
       "link": "https://9to5mac.com/2025/10/16/apple-tv-peacock-bundle-subscription-discount/",
@@ -1613,22 +1469,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ab22e30f79e442fc",
-      "title": "How a headphone site operator built loyalty startup Lantern to solve his own problems",
-      "link": "https://techcrunch.com/2025/10/16/how-a-headphone-site-operator-built-loyalty-startup-lantern-to-solve-his-own-problems/",
-      "summary": "After struggling to retain customers at his e-commerce site Headphones.com, founder Andrew Lissimore built his own loyalty solution — and it’s now a startup called Lantern. The Shopify-native platform helps brands boost retention through customizable loyalty, referrals, and account management tools.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T15:52:06.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -1795,38 +1635,6 @@
       "region": "global"
     },
     {
-      "id": "e946ee1ea72b9947",
-      "title": "Apple loses another AI exec to Meta",
-      "link": "https://techcrunch.com/2025/10/16/apple-loses-another-ai-exec-to-meta/",
-      "summary": "Yang’s departure marks the latest in a string of exits from Apple’s AI unit, putting the company into jeopardy in the lead-up to a much-anticipated Siri revamp scheduled for March.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T15:21:03.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "bc2a2bab035ec7d6",
-      "title": "Pinterest adds controls to let you  limit the amount of ‘AI slop’ in your feed",
-      "link": "https://techcrunch.com/2025/10/16/pinterest-adds-controls-to-let-you-limit-the-amount-of-ai-slop-in-your-feed/",
-      "summary": "Pinterest is rolling out new controls that let users limit how much AI-generated content appears in their feeds. The company is also making its AI content labels more visible.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T15:15:50.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5982a06f99f66ab0",
       "title": "Rating Raducanu's season - and what does future hold?",
       "link": "https://www.bbc.com/sport/tennis/articles/cp975ld0x58o?at_medium=RSS&at_campaign=rss",
@@ -1875,22 +1683,6 @@
       "region": "global"
     },
     {
-      "id": "bd77666030aa0e74",
-      "title": "Microsoft, AWS, and Google are trying to drastically reduce China’s role in their supply chains",
-      "link": "https://techcrunch.com/2025/10/16/microsoft-aws-and-google-are-trying-to-drastically-reduce-chinas-role-in-their-supply-chains/",
-      "summary": "In particular, Microsoft wants to have up to 80% of the components needed to make its Surface notebooks and tablets, as well as its data centers, manufactured outside of China as soon as 2026.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T14:51:46.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "915caa48a1ae9aed",
       "title": "M5 MacBook Pro vs M4 MacBook Pro: What’s actually changed?",
       "link": "https://9to5mac.com/2025/10/16/m5-macbook-pro-vs-m4-macbook-pro-whats-actually-changed/",
@@ -1904,22 +1696,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "df3e07ac5c51dc03",
-      "title": "Final 2 days to claim your exhibit table at TechCrunch Disrupt 2025",
-      "link": "https://techcrunch.com/2025/10/16/final-2-days-to-claim-your-exhibit-table-at-techcrunch-disrupt-2025/",
-      "summary": "With less than 48 hours to secure your table at TechCrunch Disrupt 2025, now is the time to step in before a competitor takes your place.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T14:30:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1955,22 +1731,6 @@
       "region": "global"
     },
     {
-      "id": "4722811ef0470aef",
-      "title": "General Intuition lands $134M seed to teach agents spatial reasoning using video game clips",
-      "link": "https://techcrunch.com/2025/10/16/general-intuition-lands-134m-seed-to-teach-agents-spatial-reasoning-using-video-game-clips/",
-      "summary": "General Intuition’s next milestone is twofold: generating new simulated worlds for training other agents and autonomously navigating entirely unfamiliar physical environments.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T14:08:04.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "573dae2a3491a100",
       "title": "DoorDash and Waymo launch autonomous delivery service in Phoenix",
       "link": "https://about.doordash.com/en-us/news/waymo",
@@ -1984,54 +1744,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d558886813f5e128",
-      "title": "Amazon launches pay-per-visit virtual healthcare service for kids",
-      "link": "https://techcrunch.com/2025/10/16/amazon-launches-pay-per-visit-virtual-healthcare-service-for-kids/",
-      "summary": "Amazon’s One Medical is expanding into pediatric care with a new pay-per-visit virtual health service for children ages 2 to 11. Starting at $29 for message-based visits and $49 for video calls, the service treats common conditions like pink eye, eczema, and rashes, and also handles medication rene…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T14:00:49.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "394c4dcbb9b7ca24",
-      "title": "Last 48 hours to save before TechCrunch Disrupt 2025 flash sale ends",
-      "link": "https://techcrunch.com/2025/10/16/only-48-hours-left-to-save-before-the-techcrunch-disrupt-2025-flash-sale-ends/",
-      "summary": "Last 48 hours to save before the TechCrunch Disrupt 2025 flash sale ends. Save up to $624 on your ticket and join 10,000 tech leaders.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T14:00:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f8664c372313d5f2",
-      "title": "Why I Chose Elixir Phoenix over Rails, Laravel, and Next.js",
-      "link": "https://akarshc.com/post/phoenix-for-my-project.html",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T13:48:33.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2080,22 +1792,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "debc1789ff1f3657",
-      "title": "Spotify partners with record labels to create ‘artist-first’ AI music products",
-      "link": "https://techcrunch.com/2025/10/16/spotify-partners-with-record-labels-to-create-artist-first-ai-music-products/",
-      "summary": "Spotify has announced new partnerships with major record labels — including Sony, Universal, Warner, and Merlin — to build “responsible AI” tools that protect artists’ rights and ensure fair compensation. The initiative will let artists opt in or out of AI use.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T13:28:10.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5615,22 +5311,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/business.xml"
       },
       "lang": "ar",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3d51fb885dbdbb03",
-      "title": "Apple Glasses suddenly make so much sense after this new reveal",
-      "link": "https://9to5mac.com/2025/10/13/apple-glasses-suddenly-make-so-much-sense-after-this-new-reveal/",
-      "summary": "Apple Glasses are a high priority for Apple, so much so that the company has reportedly paused development of a lighter Vision Pro to focus on the Glasses product. A new rumor has helped make a lot of sense of that move, and has me more excited than ever for Apple Glasses. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-13T14:25:28.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
       "category": "general",
       "region": "global"
     },
