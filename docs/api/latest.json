@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-16T22:15:02.852Z",
-    "total": 218,
+    "generated_at": "2025-10-16T22:30:03.071Z",
+    "total": 209,
     "processed_feeds": 16,
     "discovered_feeds": 85,
     "sports_processed_every_run": true,
@@ -9,15 +9,15 @@
     "shard_index": 0,
     "results": [
       {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 10,
+        "taken": 66,
         "error": null,
         "notModified": false
       },
@@ -35,16 +35,29 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 65,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -61,42 +74,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 7\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 45,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 114\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -113,6 +100,32 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Masrawy — لايف ستايل",
         "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
@@ -123,19 +136,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -165,6 +165,19 @@
         "notModified": false
       },
       {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "MarketWatch — Metals",
         "url": "https://www.marketwatch.com/feeds/marketpulse",
         "homepage": "https://www.marketwatch.com/feeds/marketpulse",
@@ -191,19 +204,6 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
         "name": "Science — News",
         "url": "https://www.science.org/content/topic/latest/rss.xml",
         "homepage": "https://www.science.org/content/topic/latest/rss.xml",
@@ -219,6 +219,22 @@
     ]
   },
   "items": [
+    {
+      "id": "177a5f09961b7b4f",
+      "title": "Cundy wins 22nd world track title in Rio",
+      "link": "https://www.bbc.com/sport/cycling/articles/c62540zj7x6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jody Cundy wins his 22nd world track gold medal with victory in the 1km time trial at the Para-Cycling World Championships in Rio de Janeiro.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-16T22:21:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "3a283194ee9b1083",
       "title": "Ace Frehley, Kiss Lead Guitarist and Solo Artist, Dies at 74",
@@ -255,7 +271,7 @@
       "id": "3367c3b46c7a4520",
       "title": "‘Yellowstone’ Beth and Rip Spinoff ‘The Dutton Ranch’ Adds Four Series Regulars (EXCLUSIVE)",
       "link": "https://variety.com/2025/tv/news/yellowstone-beth-and-rip-spinoff-dutton-ranch-cast-1236554818/",
-      "summary": "The upcoming “Yellowstone” spinoff centered on Beth and Rip has added four new series regulars, Variety has learned exclusively. Natalie Alyn Lind, Marc Menchaca, Juan Pablo Raba, and JR Villareal have all joined the series, which is currently titled “The Dutton Ranch.” As previously reported, Kell…",
+      "summary": "The upcoming “Yellowstone” spinoff centered on Beth and Rip has added four new series regulars, Variety has learned exclusively. Natalie Alyn Lind, Marc Menchaca, Juan Pablo Raba, and JR Villarreal have all joined the series, which is currently titled “The Dutton Ranch.” As previously reported, Kel…",
       "body": null,
       "image": "https://variety.com/wp-content/uploads/2025/10/Dutton-Ranch-cast-Yellowstone.jpg",
       "pubDate": "2025-10-16T22:00:00.000Z",
@@ -310,38 +326,6 @@
       "source": {
         "name": "Variety (Entertainment)",
         "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8b5f5d3b3b978761",
-      "title": "I just reviewed the Xbox Ally and answered your burning questions",
-      "link": "https://www.theverge.com/games/800212/i-just-reviewed-the-xbox-ally-ask-me-anything",
-      "summary": "It’s-a-me, Ally-o. | Photo by Sean Hollister / The Verge Hey! I'm Sean Hollister, and I've been The Verge's unofficial handheld gaming PC reviewer since 2022, when the Steam Deck and kin took over my life. (I also helped launch this website back in the day!) I also just spent the past week reviewin…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T21:44:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "95a2d30746099776",
-      "title": "New York bans AI-enabled rent price fixing",
-      "link": "https://www.theverge.com/news/801205/new-york-rent-price-fixing-ban-software",
-      "summary": "On Thursday, New York Gov. Kathy Hochul signed into law legislation banning the use of price-fixing software by landlords to set rental rates. New York is the first state to outlaw algorithmic pricing by landlords, following a number of city-wide bans in Jersey City, Philadelphia, San Francisco, an…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T21:24:52.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
       },
       "lang": "en",
       "category": "technology",
@@ -521,22 +505,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ecc5c177e7ea833a",
-      "title": "The best Bluetooth trackers for Apple and Android phones",
-      "link": "https://www.theverge.com/23769840/best-bluetooth-trackers",
-      "summary": "Bluetooth trackers come in all shapes and sizes. | Illustration: Cath Virginia / The Verge Some people rarely lose things. Wallets are always exactly where they’re supposed to be, keys never go missing, and remotes never slip between the couch cushions. And then there’s the rest of us — the folks w…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T20:27:03.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -732,22 +700,6 @@
       "region": "global"
     },
     {
-      "id": "690cda567d4a077a",
-      "title": "Unions are trying to stop Trump from kicking out immigrants over social media posts",
-      "link": "https://www.theverge.com/policy/801110/eff-catch-and-revoke-visa-social-media-surveillance-lawsuit",
-      "summary": "The Trump administration’s heightened monitoring of immigrants’ social media accounts seeking grounds to revoke their visas stifles the speech rights of both noncitizens and citizens alike, the Electronic Frontier Foundation (EFF) alleges in a new lawsuit. The lawsuit seeks to end the State Departm…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T19:21:10.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "3a2b09ce55270e2f",
       "title": "الخطيب: لن أتواجد بشكل كامل بعد الانتخابات.. وقناة الأهلي ركيزة إعلامية هامة",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/527082/%d8%a7%d9%84%d8%ae%d8%b7%d9%8a%d8%a8-%d9%84%d9%86-%d8%a3%d8%aa%d9%88%d8%a7%d8%ac%d8%af-%d8%a8%d8%b4%d9%83%d9%84-%d9%83%d8%a7%d9%85%d9%84-%d8%a8%d8%b9%d8%af-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d9%88%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%b1%d9%83%d9%8a%d8%b2%d8%a9-%d8%a5%d8%b9%d9%84%d8%a7%d9%85%d9%8a%d8%a9-%d9%87%d8%a7%d9%85%d8%a9",
@@ -761,22 +713,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a0365587f626582a",
-      "title": "Judge orders immigration agents in Chicago to use body cams",
-      "link": "https://www.theverge.com/news/801112/judge-orders-chicago-ice-agents-use-body-cams",
-      "summary": "Residents And Protesters Clash With Federal Agents In Chicago, Illinois. | Getty Images Judge Sara L. Ellis of the Federal District Court for the Northern District of Illinois said during a hearing Thursday morning that she would require ICE agents in Chicago engaged in “Operation Midway Blitz” to …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T19:08:33.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -825,22 +761,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "e42c6f8bcf73dd31",
-      "title": "I tested 30 smart locks, and these are the best",
-      "link": "https://www.theverge.com/23393163/best-smart-door-lock",
-      "summary": "A smart lock is an easy solution to some common problems. Locked yourself out? Need to let a friend in to water the plants? Your latchkey kid lost their key? Hands are full, and it’s raining cats and dogs? A smart lock solves all of these problems and more. One of the best smart home upgrades you c…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T19:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1004,38 +924,6 @@
       "region": "global"
     },
     {
-      "id": "973258d3e6a5838a",
-      "title": "Fujifilm&#8217;s bringing instant cameras into the selfie age",
-      "link": "https://www.theverge.com/news/801098/fujifilm-instax-mini-liplay-plus-instant-camera-selfies",
-      "summary": "The LiPlay Plus is designed to be held vertically, but can be used to snap photos in a landscape orientation, too. | Image: Fujifilm Fujifilm has announced an update to its Instax Mini LiPlay that first launched in 2019. The new Instax Mini LiPlay Plus offers similar functionality as the original w…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T18:21:24.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "63c0d87e163ec3af",
-      "title": "Pinterest&#8217;s &#8216;tuner&#8217; lets you dial down the amount of AI content — but not entirely",
-      "link": "https://www.theverge.com/news/801093/pinterest-tuner-tool-ai-content-categories",
-      "summary": "Pinterest is rolling out a tool that allows users to “dial down the AI” in their feed, the company says. Users can select which categories they want populated with more or less AI-generated content. But Pinterest stops short of promising a feed that’s completely free of AI: the tool will work only …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T18:15:12.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "638b6d41f1281e40",
       "title": "سالم الدوسري.. الإعصار الذي لا يخشى المناسبات الكبرى",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B3%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B9%D8%B5%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%8A-%D9%84%D8%A7-%D9%8A%D8%AE%D8%B4%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89/bltde233123e300f8e3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1084,22 +972,6 @@
       "region": "global"
     },
     {
-      "id": "e85987e38919ad7c",
-      "title": "Apple TV and Peacock announce a discounted $15 monthly subscription bundle",
-      "link": "https://www.theverge.com/news/800928/apple-tv-peacock-premium-plus-nbcuniversal-subscription-bundle",
-      "summary": "Starting next week you can bundle Apple TV and Peacock with a significant discount. | Image: Apple Apple has partnered with NBCUniversal for a new subscription bundle that includes Apple TV and Peacock Premium for $14.99 per month, or Apple TV and the mostly ad-free Peacock Premium Plus for $19.99 …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T17:47:59.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b6522ce014ad57e1",
       "title": "Here's the Samsung Galaxy S26 Ultra inside another case",
       "link": "https://www.gsmarena.com/heres_the_samsung_galaxy_s26_ultra_inside_another_case-news-69942.php",
@@ -1113,22 +985,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f2b3accdb0102e64",
-      "title": "The best fitness trackers and watches we’ve tested",
-      "link": "https://www.theverge.com/22985108/best-fitness-tracker",
-      "summary": "Fitness trackers have come a long way from the simple bands that tracked steps and little else. Modern trackers can monitor everything from your heart health to how well you’ve recovered from a hard bout of training. Even flagship smartwatches, which used to be lackluster trackers, have become pret…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T17:30:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
