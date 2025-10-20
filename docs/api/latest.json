@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-20T04:56:51.748Z",
-    "total": 224,
+    "generated_at": "2025-10-20T05:16:25.981Z",
+    "total": 207,
     "processed_feeds": 21,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,15 +9,15 @@
     "shard_index": 1,
     "results": [
       {
-        "name": "Eater",
-        "url": "https://www.eater.com/rss/index.xml",
-        "homepage": "https://www.eater.com/rss/index.xml",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 10,
+        "taken": 77,
         "error": null,
         "notModified": false
       },
@@ -35,19 +35,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 77,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Sky News Arabia — تكنولوجيا",
         "url": "https://www.skynewsarabia.com/rss/technology.xml",
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
@@ -57,6 +44,19 @@
           "general"
         ],
         "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -74,23 +74,36 @@
         "notModified": false
       },
       {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "name": "TimeOut Dubai",
+        "url": "https://www.timeoutdubai.com/rss.xml",
+        "homepage": "https://www.timeoutdubai.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 7,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 405",
         "notModified": false
       },
       {
-        "name": "TimeOut Dubai",
-        "url": "https://www.timeoutdubai.com/rss.xml",
-        "homepage": "https://www.timeoutdubai.com/rss.xml",
-        "lang": "en",
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -113,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Masrawy - رياضة",
         "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
@@ -139,100 +139,22 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "lang": "ar",
+        "name": "Eater",
+        "url": "https://www.eater.com/rss/index.xml",
+        "homepage": "https://www.eater.com/rss/index.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
         "name": "Billboard",
         "url": "https://www.billboard.com/feed/",
         "homepage": "https://www.billboard.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — اقتصاد",
-        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main/rss",
-        "homepage": "https://www.thekitchn.com/main/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "9to5Google",
-        "url": "https://9to5google.com/feed/",
-        "homepage": "https://9to5google.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Android Authority",
-        "url": "https://www.androidauthority.com/feed/",
-        "homepage": "https://www.androidauthority.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -256,16 +178,81 @@
         "notModified": false
       },
       {
-        "name": "AI الملتقى (AITnews)",
-        "url": "https://aitnews.com/feed/",
-        "homepage": "https://aitnews.com/feed/",
-        "lang": "ar",
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "9to5Google",
+        "url": "https://9to5google.com/feed/",
+        "homepage": "https://9to5google.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main/rss",
+        "homepage": "https://www.thekitchn.com/main/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — اقتصاد",
+        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Android Authority",
+        "url": "https://www.androidauthority.com/feed/",
+        "homepage": "https://www.androidauthority.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -279,6 +266,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "AI الملتقى (AITnews)",
+        "url": "https://aitnews.com/feed/",
+        "homepage": "https://aitnews.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       }
     ]
@@ -2061,38 +2061,6 @@
       "region": "global"
     },
     {
-      "id": "37c4681ac023f160",
-      "title": "The 38 Best Restaurants in Honolulu, According to a Local Expert",
-      "link": "https://www.eater.com/maps/best-restaurants-honolulu-hawaii-38",
-      "summary": "A bowl of noodles at Zippy’s. | Martha Cheng Honolulu hangs onto its food and culture fiercely. It’s why decades-old mom-and-pop restaurants still dominate certain neighborhoods and why you see dishes that would have been familiar to some of the islands’ earliest settlers. While the world moves at …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T22:00:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f68f04e1fdaf046f",
-      "title": "Nancy Silverton Is Still the Busiest Not-a-Chef in Los Angeles’s Food Scene",
-      "link": "https://www.eater.com/dining-out/917731/nancy-silverton-lapaba-max-helens-snibbs-interview",
-      "summary": "Nancy Silverton still doesn’t like being called a chef. When I caught up with her on the phone — all while prepping for dinner at one of her Los Angeles restaurants — she says that she much prefers to be “called a cook, or a restaurant owner,” adding, “that whole image of a chef is still somebody m…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T17:42:04.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "5982a06f99f66ab0",
       "title": "Rating Raducanu's season - and what does future hold?",
       "link": "https://www.bbc.com/sport/tennis/articles/cp975ld0x58o?at_medium=RSS&at_campaign=rss",
@@ -2138,134 +2106,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cf1b75d6a80bd03d",
-      "title": "Traditional Korean Ingredients Are Transformed in Shia’s Sustainable D.C. Kitchen",
-      "link": "https://www.eater.com/dining-out/915867/shia-edward-lee-traditional-korean-sustainable-kitchen-dc",
-      "summary": "Celebrity chef Edward Lee, known for renowned restaurants like Succotash and winning second place on international Netflix hit Cultural Class Wars, walks through a seven-course meal at his newest project. As anon-profit, fine dining Korean restaurant focused on sustainability, Shia transforms tradi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T15:02:20.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e02c562c791694c0",
-      "title": "Eric Wareheim Gets Existential About the Steakhouse",
-      "link": "https://www.eater.com/dining-out/916430/eric-wareheim-steakhouse-cookbook-interview",
-      "summary": "Steak House pays homage to the country’s many steakhouses and the staff who have shaped them | Photos by Marcus Nilsson/Ten Speed Press | Collage by Masood Shah Eric Wareheim, the media and food-world multihyphenate, has been to a lot of steakhouses — at least 65, in fact, while conducting research…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T13:00:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "7aaf922c048c0d94",
-      "title": "In Search of the Yakult Lady",
-      "link": "https://www.eater.com/dining-out/916976/yakult-lady-japan-yogurt-drink-working-mothers",
-      "summary": "Meenakshi Sagar rides her scooter to deliver Yakult in New Delhi. When my sister and I were growing up in Nagoya, Japan, our mother would sometimes bring us to Tsuruma Park after school to let us run free. The playground, fringed by dark trees that cast shade on the Showa-era slides, always felt a …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3ff81c80ddf64fc4",
-      "title": "Once Again, Goa’s Taverns Are the Place to Be",
-      "link": "https://www.eater.com/dining-out/917276/goa-india-taverns-revived-feni",
-      "summary": "Laughing it up at Pablo’s in Assagao. | Rebecca D’costa “Have a magical day and night,” reads the sign at the entrance of Cifa Bar in Panaji, the capital of the coastal Indian state of Goa. Set among the narrow lanes and colonial architecture of the city’s Fontainhas neighborhood (Latin Quarter), t…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f988d4af8e33c2e3",
-      "title": "Colonial Williamsburg Feeds a Historic Moment",
-      "link": "https://www.eater.com/dining-out/917316/colonial-williamsburg-food-taverns-virginia-america-250",
-      "summary": "Dominek Marsh and Frank Clark prepare a meal for the American Indian Initiative at CW in 2024. Dominek Marsh had to make jugged hare five times. Working from a recipe written in the 18th century, he put butchered pieces of rabbit in a jug along with clove-stuffed onions, shallots, herbs, spices, an…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fa9cf7a4e20ab461",
-      "title": "Where to Eat: Fall Back in Time",
-      "link": "https://www.eater.com/dining-out/917032/fall-travel-ideas-2025-best-food-destinations",
-      "summary": "Dominek Marsh and Frank Clark prepare a meal for the American Indian Initiative at CW in 2024. Some meals are worth traveling for. Others have the ability to transport you, not just in space, but in time. A dish from childhood can send you tumbling down memory lane. A traditional meal can bring you…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2605f3bb55fd0dfc",
-      "title": "Vienna’s Vollpension Cafe Is Like a Visit to Grandma’s House",
-      "link": "https://www.eater.com/dining-out/917008/vienna-vollpension-cafe-grandma-cake",
-      "summary": "Oma Kathrin. It was Kathrin’s niece who told her about Vollpension. The 68-year-old applied for a job as a baker and was hired at the cafe in Vienna, Austria, in 2017. Eight years later, Kathrin is still baking at Vollpension following her mother-in-law’s recipes, churning out treats like banana cr…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:28:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "480c13d0a57488d4",
-      "title": "A New Cookbook Compiles Recipes From Gravestones Around the World",
-      "link": "https://www.eater.com/eater-at-home/916291/rosie-grant-gravestone-recipes-book",
-      "summary": "Photo courtesy of Rosie Grant Pumpkin pie, caramel apples, and candy corn usually signal the start of spooky season, but, this month, author and archivist Rosie Grant encourages cooking enthusiasts to ring in October differently. Her cookbook of recipes sourced from gravestones makes a macabre addi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-14T17:48:32.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3197,70 +3037,6 @@
       "region": "global"
     },
     {
-      "id": "a8f20a0df3ebf057",
-      "title": "October’s Night Sky Notes: Let’s Go, LIGO!",
-      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/octobers-night-sky-notes-lets-go-ligo/",
-      "summary": "by Kat Troche of the Astronomical Society of the Pacific September 2025 marks ten years since the first direct detection of gravitational waves as predicted by Albert Einstein’s 1916 theory of General Relativity. These invisible ripples in space were first directly detected by the Laser Interferome…",
-      "body": "4 Min Read October’s Night Sky Notes: Let’s Go, LIGO! An artist’s impression of gravitational waves generated by binary neutron stars. Credits: R. Hurt/Caltech-JPL by Kat Troche of the Astronomical Society of the Pacific September 2025 marks ten years since the first direct detection of gravitational waves as predicted by Albert Einstein’s 1916 theory of General Relativity. These invisible ripples in space were first directly detected by the Laser Interferometer Gravitational-Wave Observatory (LIGO). Traveling at the speed of light (~186,000 miles per second), these waves stretch and squeeze the fabric of space itself, changing the distance between objects as they pass. Waves In Space Gravitational waves are created when massive objects accelerate in space, especially in violent events. LIGO detected the first gravitational waves when two black holes, orbiting one another, finally merged, creating ripples in space-time. But these waves are not exclusive to black holes . If a star were to go supernova, it could produce the same effect. Neutron stars can also create these waves for various reasons. While these waves are invisible to the human eye, this animation from NASA’s Science …",
-      "image": null,
-      "pubDate": "2025-10-01T02:22:25.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "eec4e8bc65a4eae9",
-      "title": "NASA, Blue Origin Invite Media to Attend Mars Mission Launch",
-      "link": "https://www.nasa.gov/news-release/nasa-blue-origin-invite-media-to-attend-mars-mission-launch/",
-      "summary": "NASA and Blue Origin are reopening media accreditation for the launch of the agency’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission. The twin ESCAPADE spacecraft will study the solar wind’s interaction with Mars, providing insight into the planet’s real-time response to s…",
-      "body": "A stylized illustration shows the twin ESCAPADE spacecraft entering Mars’ orbit. Credits: James Rattray/Rocket Lab USA NASA and Blue Origin are reopening media accreditation for the launch of the agency’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission. The twin ESCAPADE spacecraft will study the solar wind’s interaction with Mars, providing insight into the planet’s real-time response to space weather and how solar activity drives atmospheric escape. This will be the second launch of Blue Origin’s New Glenn rocket. Media interested in covering&nbsp;ESCAPADE&nbsp;launch activities must apply for media credentials. Media who previously applied for media credentials for the ESCAPADE launch do not need to reapply. U.S. media and U.S. citizens representing international media must apply by 11:59 p.m. EDT on Monday, Oct. 13. Media accreditation requests should be submitted online to: https://media.ksc.nasa.gov . A copy of NASA’s media accreditation policy is available online. For questions about accreditation, please email: ksc-media-accreditat@mail.nasa.gov . For other mission questions, please contact NASA Kennedy’s newsroom: 321-867-2468. Blue Origin is targ…",
-      "image": null,
-      "pubDate": "2025-09-30T22:00:25.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e9624b81d0f981c0",
-      "title": "What’s Up: October 2025 Skywatching Tips from NASA",
-      "link": "https://science.nasa.gov/solar-system/whats-up-october-2025-skywatching-tips-from-nasa/",
-      "summary": "A supermoon, and meteor showers from the Draconids and Orionids A supermoon takes over the sky, the Draconid meteor shower peeks through, and the Orionid meteor shower shines bright. Skywatching Highlights Transcript What’s Up for October? A Supermoon takes over, the Draconid meteor shower peeks th…",
-      "body": "Skywatching Skywatching Home What’s Up Meteor Showers Eclipses Daily Moon Guide More Tips &#038; Guides Skywatching FAQ Night Sky Network A supermoon, and meteor showers from the Draconids and Orionids A supermoon takes over the sky, the Draconid meteor shower peeks through, and the Orionid meteor shower shines bright. Skywatching Highlights Oct. 6: The October supermoon Oct. 6-10: The Draconid meteor shower Oct. 21: The Orionid meteor shower peaks (full duration Sept. 26 – Nov. 22) Transcript What’s Up for October? A Supermoon takes over, the Draconid meteor shower peeks through, and the Orionid meteors sparkle across the night sky. The evening of October 6, look up and be amazed as the full moon is bigger and brighter because – it’s a supermoon! Illustrated infographic showing the difference (as seen from Earth) between perigee, when a supermoon appears, and apogee, when a micromoon appears. NASA/JPL-Caltech This evening, the moon could appear to be about 30% brighter and up to 14% larger than a typical full moon. But why? Supermoons happen when a new moon or a full moon coincides with “perigee,” which is when the moon is at its closest to Earth all month. So this is an exceptio…",
-      "image": null,
-      "pubDate": "2025-09-30T20:58:13.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4795e48c02c90228",
-      "title": "Helio Highlights: October 2025",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/helio-highlights-october-2025/",
-      "summary": "Since we all have a relationship with the Sun, it is important to learn about how it impacts our lives. NASA’s Heliophysics Education Activation Team (HEAT) teaches people of all ages about the Sun, covering everything from how to safely view an eclipse to how to mitigate the effects of geomagnetic…",
-      "body": "Explore This Section Science Science Activation Helio Highlights: October… Home Framework for Heliophysics Education About Helio Big Idea 1.1 Helio Big Idea 1.2 Helio Big Idea 1.3 Helio Big Idea 2.1 Helio Big Idea 2.2 Helio Big Idea 2.3 Helio Big Idea 3.1 Helio Big Idea 3.2 Helio Big Idea 3.3 Helio Missions Helio Topics Resource Database About NASA HEAT More Highlights Space Math 5 min read Helio Highlights: October 2025 5 Min Read Helio Highlights: October 2025 NASA Education Specialist Christine Milotte demonstrates heliophysics activities during a teacher professional development event hosted by the NASA Heliophysics Education Activation Team (HEAT) at the Dallas Arboretum, Saturday, April 6, 2024. Credits: NASA/Keegan Barber The Sun and Our Lives On a clear night, you might see thousands of stars in the sky. Most of these stars are dozens or hundreds of light years away from us. A light year is the distance a beam of light travels in a year: about 5.88 trillion miles (9.46 trillion kilometers). This means that for those stars we see at night, it takes their light, which travels at about 186,000 miles per second (or about 300 thousand kilometers per second), dozens or hundreds …",
-      "image": null,
-      "pubDate": "2025-09-30T19:51:11.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "9d6be251cb431f2e",
       "title": "بالذكاء الاصطناعي.. أداة جديدة لتحسين علاج الصرع عند الأطفال",
       "link": "https://www.skynewsarabia.com/technology/1824031-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A7%D9%94%D8%AF%D8%A7%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%84%D8%B5%D8%B1%D8%B9-%D8%A7%D9%84%D8%A7%D9%94%D8%B7%D9%81%D8%A7%D9%84",
@@ -3305,54 +3081,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "334067bf1ef2c8f0",
-      "title": "Headquarters and Center Chief Counsel Contacts",
-      "link": "https://www.nasa.gov/organizations/headquarters-and-center-chief-counsel-contacts/",
-      "summary": "Headquarters Centers",
-      "body": "Headquarters General Counsel Iris Lan Deputy General Counsel Bryan R. Diederich (Acting) Chief of Legal Operations Christine Pham (Acting) Associate General Counsel for Contracts and Procurement, Headquarters Karen Reilley (Acting) Associate General Counsel for Contracts and Acquisition Integrity Law Practice Group, Headquarters Karen Reilley (Acting) Associate General Counsel for General Law Practice Group, Headquarters Katie Spear Associate General Counsel for International and Space Law Practice Group, Headquarters Rebecca Bresnik Agency Counsel for Ethics, Headquarters Adam Greenstone Agency Counsel for the Acquisition Integrity Program, Headquarters Adam Supple (Acting) Agency Counsel for Intellectual Property, Headquarters Trenton Roche Centers Chief Counsel, Ames Research Center Christine Pham Chief Counsel, Armstrong Flight Research Center Brett Swanson Chief Counsel, Glenn Research Center James Jackson (Acting) Chief Counsel, Goddard Space Flight Center Dave Barrett Chief Counsel, Johnson Space Center Randall Suratt Chief Counsel, Kennedy Space Center Alex Vinson Chief Counsel, Langley Research Center Andrea Warmbier Chief Counsel, Marshall Space Flight Center Pam Bourque…",
-      "image": null,
-      "pubDate": "2025-09-30T18:07:41.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8ee12cb9e6417ff9",
-      "title": "Discovery Alert: ‘Baby’ Planet Photographed in a Ring around a Star for the First Time!",
-      "link": "https://science.nasa.gov/universe/exoplanets/discovery-alert-baby-planet-photographed-in-a-ring-around-a-star-for-the-first-time/",
-      "summary": "The (Proto) Planet: WISPIT 2b The Discovery: Researchers have discovered a young protoplanet called WISPIT 2b embedded in a ring-shaped gap in a disk encircling a young star. While theorists have thought that planets likely exist in these gaps (and possibly even create them), this is the first time…",
-      "body": "This artist’s concept depicts the protoplanet WISPIT 2b accreting matter as it orbits around its star, WISPIT 2. NASA/JPL-Caltech/R. Hurt (IPAC) The (Proto) Planet: WISPIT 2b The Discovery: Researchers have discovered a young protoplanet called WISPIT 2b embedded in a ring-shaped gap in a disk encircling a young star. While theorists have thought that planets likely exist in these gaps (and possibly even create them), this is the first time that it has actually been observed. This image of the WISPIT 2 system was captured by the Magellan Telescope in Chile and the Large Binocular Telescope in Arizona. The protoplanet WISPIT 2b is a small purple dot to the right of a bright white ring of dust surrounding the system’s star. A fainter white ring outside of WISPIT 2b can be seen. Laird Close, University of Arizona Key Takeaway: Researchers have directly detected – essentially photographed – a new planet called WISPIT 2b, labeled a protoplanet because it is an astronomical object that is accumulating material and growing into a fully-realized planet. However, even in its “proto” state, WISPIT 2b is a gas giant about 5 times as massive as Jupiter. This massive protoplanet is just about …",
-      "image": null,
-      "pubDate": "2025-09-30T17:51:03.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "ded76b700bf788e2",
-      "title": "Jupiter’s Volcanic Moon Io",
-      "link": "https://www.nasa.gov/image-article/jupiters-volcanic-moon-io/",
-      "summary": "During its close flyby of Jupiter’s moon Io on December 30, 2023, NASA’s Juno spacecraft captured some of the most detailed imagery ever of Io’s volcanic surface. In this image, taken by the JunoCam instrument from about 930 miles (1,500 kilometers) above the moon, Io’s night side [left lobe] is il…",
-      "body": "NASA/Jet Propulsion Laboratory–Caltech/Southwest Research Institute (SwRI)/Malin Space Science Systems (MSSS); Image processing: Emma Wälimäki © CC BY During its close flyby of Jupiter’s moon Io on December 30, 2023, NASA’s Juno spacecraft captured some of the most detailed imagery ever of Io’s volcanic surface. In this image, taken by the JunoCam instrument from about 930 miles (1,500 kilometers) above the moon, Io’s night side [left lobe] is illuminated by “Jupitershine,” which is sunlight reflected from the planet’s surface. This image is the NASA Science Image of the Month for October 2025 . Each month, NASA’s Science Mission Directorate chooses an image to feature, offering desktop wallpaper downloads, as well as links to related topics, activities, and games. Text credit: NASA/JPL–Caltech/Southwest Research Institute (SwRI)/Malin Space Science Systems (MSSS) Image credit: NASA/JPL–Caltech/Southwest Research Institute (SwRI)/Malin Space Science Systems (MSSS); Image processing: Emma Wälimäki © CC BY",
-      "image": null,
-      "pubDate": "2025-09-30T16:26:14.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
       "category": "technology",
       "region": "global"
     },
