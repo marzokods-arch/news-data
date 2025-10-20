@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-10-20T21:31:23.502Z",
-    "total": 315,
+    "generated_at": "2025-10-20T21:41:06.174Z",
+    "total": 207,
     "processed_feeds": 21,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -35,19 +48,6 @@
         "notModified": false
       },
       {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "WHO — News (EN)",
         "url": "https://www.who.int/rss-feeds/news-english.xml",
         "homepage": "https://www.who.int/rss-feeds/news-english.xml",
@@ -61,19 +61,6 @@
         "notModified": false
       },
       {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "TimeOut Dubai",
         "url": "https://www.timeoutdubai.com/rss.xml",
         "homepage": "https://www.timeoutdubai.com/rss.xml",
@@ -83,19 +70,19 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 405",
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Sky News Arabia — تكنولوجيا",
+        "url": "https://www.skynewsarabia.com/rss/technology.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
         "lang": "ar",
-        "region": "mena",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -103,6 +90,19 @@
         "name": "Al Arabiya - صحة",
         "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -121,34 +121,8 @@
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
         "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Android Authority",
-        "url": "https://www.androidauthority.com/feed/",
-        "homepage": "https://www.androidauthority.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 79,
-        "error": null,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -165,32 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "url": "https://www.skynewsarabia.com/rss/technology.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — اقتصاد",
-        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Masrawy - رياضة",
         "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
@@ -201,32 +149,6 @@
         ],
         "taken": 10,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -243,9 +165,87 @@
         "notModified": false
       },
       {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "9to5Google",
         "url": "https://9to5google.com/feed/",
         "homepage": "https://9to5google.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — اقتصاد",
+        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Asharq Al-Awsat - رياضة",
+        "url": "https://aawsat.com/feeds/section/sport.xml",
+        "homepage": "https://aawsat.com/feeds/section/sport.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Android Authority",
+        "url": "https://www.androidauthority.com/feed/",
+        "homepage": "https://www.androidauthority.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -264,26 +264,42 @@
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
-        "name": "Asharq Al-Awsat - رياضة",
-        "url": "https://aawsat.com/feeds/section/sport.xml",
-        "homepage": "https://aawsat.com/feeds/section/sport.xml",
-        "lang": "ar",
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 7,
+        "error": null,
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "2850392ca828dff6",
+      "title": "مواعيد مباريات اليوم الثلاثاء والقنوات الناقلة",
+      "link": "https://www.masrawy.com/sports/sports-arab-international/details/2025/10/21/2876305/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9",
+      "summary": "مواعيد مباريات اليوم الثلاثاء والقنوات الناقلة",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-21T00:16:30.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "3f7ef53e72418f68",
       "title": "لاعبو النادي الأهلي يهنئون منتخب المغرب للشباب بكأس العالم (فيديو)",
@@ -429,27 +445,27 @@
       "region": "global"
     },
     {
-      "id": "9bc2783d20400925",
-      "title": "حسام حسن يوجه رسالة للاعبي منتخب الناشئين قبل كأس العالم",
-      "link": "https://www.masrawy.com/sports/sports-arab-international/details/2025/10/20/2876201/%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D9%8A%D9%88%D8%AC%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D9%86%D8%A7%D8%B4%D8%A6%D9%8A%D9%86-%D9%82%D8%A8%D9%84-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
-      "summary": "حسام حسن يوجه رسالة للاعبي منتخب الناشئين قبل كأس العالم",
+      "id": "0b37687157c3d2b4",
+      "title": "Maccabi Tel Aviv will not accept Villa tickets",
+      "link": "https://www.bbc.com/sport/football/articles/c3w98224xx8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Israeli club Maccabi Tel Aviv say they will not accept any ticket allocation from Aston Villa should the decision to ban their supporters from next month's Europa League match be overturned.",
       "body": null,
       "image": null,
-      "pubDate": "2025-10-20T22:00:13.000Z",
+      "pubDate": "2025-10-20T21:35:12.000Z",
       "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
-      "lang": "ar",
+      "lang": "en",
       "category": "sports",
       "region": "global"
     },
     {
-      "id": "20c25b2e8cdb5aaf",
-      "title": "Gunna Set to Headline Rolling Loud’s First Australian Shows in 7 Years",
+      "id": "0f638111b1028620",
+      "title": "Gunna Set For Rolling Loud’s First Australian Shows in 7 Years",
       "link": "https://www.billboard.com/music/concerts/gunna-rolling-loud-australia-2026-festival-1236093115/",
       "summary": "Rolling Loud Australia will return in 2026 for two one-day festivals in Sydney and Melbourne.",
-      "body": "Rolling Loud is headed back to Australia for the first time since 2019. The ever-expanding festival franchise is set to return Down Under in March with Gunna as their headliner. Related Inside Opening Night of Kaytranada &amp; Justice&#8217;s Co-Headlining Tour: Exclusive&nbsp;Photos Lorde Brings Out Charli XCX to ‘Work it Out on the Remix’ at Ultrasound Tour’s L.A.&nbsp;Stop 7 Best Moments From SEVENTEEN’s Return to BMO Stadium in LA: Surprise Talents, &#8216;Aju Nice&#8217; &amp;&nbsp;More Rolling Loud Australia 2026 will touch down for two one-day festivals on March 7 at Sydney’s Centennial Park and March 8 at Melbourne’s Flemington Racecourse. The 2026 edition will mark the first time the festival has reached Melbourne. Gunna is set to headline both dates with the remaining lineup to be announced soon. Future headlined the last Rolling Loud Australia with Lil Uzi Vert , Playboi Carti and Tyga also taking the stage. The first Rolling Loud Australia was a single day event that sold out in one hour, according to producers, and featured a surprise performance from a then-rising The Kid LAROI during DJ Scheme ’s set. “We’re thrilled to finally bring Rolling Loud back to Australia,”…",
+      "body": "Rolling Loud is headed back to Australia for the first time since 2019. The ever-expanding festival franchise is set to return Down Under in March with Gunna performing. Related Inside Opening Night of Kaytranada &amp; Justice&#8217;s Co-Headlining Tour: Exclusive&nbsp;Photos Lorde Brings Out Charli XCX to ‘Work it Out on the Remix’ at Ultrasound Tour’s L.A.&nbsp;Stop 7 Best Moments From SEVENTEEN’s Return to BMO Stadium in LA: Surprise Talents, &#8216;Aju Nice&#8217; &amp;&nbsp;More Rolling Loud Australia 2026 will touch down for two one-day festivals on March 7 at Sydney’s Centennial Park and March 8 at Melbourne’s Flemington Racecourse. The 2026 edition will mark the first time the festival has reached Melbourne. Gunna is set to perform at both dates with the remaining lineup to be announced soon. Future headlined the last Rolling Loud Australia with Lil Uzi Vert , Playboi Carti and Tyga also taking the stage. The first Rolling Loud Australia was a single day event that sold out in one hour, according to producers, and featured a surprise performance from a then-rising The Kid LAROI during DJ Scheme ’s set. “We’re thrilled to finally bring Rolling Loud back to Australia,” said …",
       "image": null,
       "pubDate": "2025-10-20T21:30:00.000Z",
       "source": {
@@ -458,22 +474,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0b37687157c3d2b4",
-      "title": "Maccabi Tel Aviv will not accept Villa tickets",
-      "link": "https://www.bbc.com/sport/football/articles/c3w98224xx8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Israeli club Maccabi Tel Aviv say they will not accept any ticket allocation from Aston Villa should the decision to ban their supporters from next month's Europa League match be overturned.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T21:26:51.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -525,35 +525,19 @@
       "region": "global"
     },
     {
-      "id": "cdb4c395b64f3274",
-      "title": "Movie night, music, and mornings: This projector aims to be your cinema and social hub",
-      "link": "https://www.androidauthority.com/vibe-by-xgimi-vibe-one-3608769/",
-      "summary": "This affordable projector doubles as a portable speaker and alarm clock.",
-      "body": "Credit: XGIMI TL;DR XGIMI has launched a sub-brand called Vibe. The sub-brand’s first product is a portable, battery-powered projector called the Vibe One. The device is available for pre-order in the US at an early-bird price of $199 (regularly $269). Normally, when you look for low priced projectors, you’ll find products that fail to meet expectations. Well-known projector company XGIMI is aiming to fix that by launching a new sub-brand called Vibe by XGIMI, which will focus on more approachable devices. That sub-brand is launching its first smart device today. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Vibe-One-P9-Netflix-GTV.jpg",
-      "pubDate": "2025-10-20T21:13:56.000Z",
+      "id": "97bbd33ed1f0da9f",
+      "title": "Allen survives scare to beat Milkins in NI Open",
+      "link": "https://www.bbc.com/sport/snooker/articles/cev1e13mrpeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Mark Allen edges out Robert Milkins 4-3 to progress to the second round of the Northern Ireland Open at the Waterfront Hall in Belfast.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-20T21:17:59.000Z",
       "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "88b02f045500a68c",
-      "title": "Think you should design the Pixel 11? Google asks Pixel Superfans for help",
-      "link": "https://www.androidauthority.com/pixel-superfans-design-3608746/",
-      "summary": "The Trusted Tester program looks for user feedback on new hardware.",
-      "body": "TL;DR Google’s looking for 15 Pixel Superfans to help with its Trusted Tester program. Superfans who are chosen will have the opportunity to provide feedback on upcoming Pixel hardware. Their input may ultimately end up helping to shape what we get as the Pixel 11. Who doesn’t love access? Being able to attend an exclusive event, or getting your hands on a limited-availability product can be a real rush. The tricky bit, so often, is getting yourself into those kind of special groups in the first place. Google has its own exclusive society of Android smartphone enthusiasts, the Pixel Superfans , and this week we’re feeling especially jealous at the level of access we hear they’re getting. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/08/google-pixel-10-frost-obsidian-indigo-colors-1.jpg",
-      "pubDate": "2025-10-20T21:04:43.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -573,19 +557,19 @@
       "region": "global"
     },
     {
-      "id": "86e1e1f039679b04",
-      "title": "Meet the “Scene Select Mechanism”—Part of the LDCM Thermal Infrared Sensor",
-      "link": "https://science.nasa.gov/image-article/1119019/",
-      "summary": "Meet the “Scene Select Mechanism”—Part of the LDCM Thermal Infrared Sensor Special Topics: LDCM and LDCM Components The Scene Select Mechanism is an apparatus that rotates the LDCM Thermal Infrared Sensor (TIRS) mirror among three scenes: the Earth view (“nadir;” when imaging the Earth), and two ca…",
-      "body": "Meet the “Scene Select Mechanism”—Part of the LDCM Thermal Infrared Sensor Engineer (in a “bunny suit”) working on the Scene Select Mechanism of the Thermal Infrared Sensor (TIRS) that will fly on LDCM. NASA Special Topics: LDCM and LDCM Components The Scene Select Mechanism is an apparatus that rotates the LDCM Thermal Infrared Sensor (TIRS) mirror among three scenes: the Earth view (“nadir;” when imaging the Earth), and two calibration views (one of a warm blackbody carried onboard and the other of a deep-space cold view). The Earth view requirements for instrument pointing are very stringent, correct image positioning depends on precise pointing and that position must be returned to faithfully after each calibration sequence. The requirement for the Thermal Infrared Sensor (TIRS) is to image up to 44 minutes continuously, which corresponds to the longest uninterrupted landmass pass that TIRS needs to image before traveling over water—when the calibration sequence can be performed again. (This long-land path curves from Northern Russia to the southern tip of Africa.) Bunny suit: The TIRS instrument is kept in a cleanroom and anyone working on it must wear cleanroom clothing that…",
+      "id": "66bb67adbf33e7d0",
+      "title": "The questions Tandy faces for his first Wales squad",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c1wle8ge347o?at_medium=RSS&at_campaign=rss",
+      "summary": "New Wales coach Steve Tandy will name his first squad for the autumn internationals on Tuesday.",
+      "body": null,
       "image": null,
-      "pubDate": "2025-10-20T20:45:51.000Z",
+      "pubDate": "2025-10-20T21:02:13.000Z",
       "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -685,38 +669,6 @@
       "region": "global"
     },
     {
-      "id": "076befc737dfbaba",
-      "title": "LDCM Operational Land Imager (OLI) Telescope",
-      "link": "https://science.nasa.gov/image-article/1118728/",
-      "summary": "LDCM Operational Land Imager (OLI) Telescope Special Topics: LDCM and LDCM Components The OLI telescope uses a four-mirror compact design. The optics are positioned inside a lightweight, yet highly stable, carbon composite optical bench (i.e., a substrate on which the optics are mounted) that has s…",
-      "body": "LDCM Operational Land Imager (OLI) Telescope Mirrors for the LDCM Operational Land Imager (OLI) Telescope. NASA Special Topics: LDCM and LDCM Components The OLI telescope uses a four-mirror compact design. The optics are positioned inside a lightweight, yet highly stable, carbon composite optical bench (i.e., a substrate on which the optics are mounted) that has special features to control undesired stray light (stray light is any light entering the optics from someplace other than the observed Earth surface, or imaging “target”). Because OLI is a push-broom instrument, as opposed to a scanner (or “whisk-broom”), it has a wide field-of-view to cover the entire ground swath width. Wide field-of-view telescopes are generally susceptible to stray light, so the OLI telescope is designed for improved stray light control. The number and shapes of the mirrors meet the required optical design parameters, like focal length, for example, within a size that also meets the volume and mass requirements for the instrument. Note: The previous Landsat sensors have used scanner or “whisk-broom” technology. This means that a mirror scans from side-to-side across the satellite path directing light i…",
-      "image": null,
-      "pubDate": "2025-10-20T20:22:46.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ba7ca7d174d70dda",
-      "title": "Halle Bailey Will Reunite With Sister Chlöe on Debut Album ‘Love? Or Something Like It’: See the Tracklist",
-      "link": "https://www.billboard.com/music/rb-hip-hop/halle-bailey-love-or-something-like-it-tracklist-1236093455/",
-      "summary": "The 15-track LP will be released on Friday (Oct. 24) via Parkwood Entertainment and Columbia Records.",
-      "body": "Halle Bailey is prepping fans for the release of her debut album Love? Or Something Like It this week by revealing the tracklist on Monday (Oct. 20). Related Halle Bailey Is Bringing &#8216;Love, Heartbreak, and Everything&#8217; to Debut Album &#8216;Love? Or Something Like&nbsp;It&#8217; DDG Appears to Comment on Halle Bailey Custody Battle in New Song: &#8216;I Don&#8217;t Wanna Fight No&nbsp;More&#8217; DDG &amp; Halle Bailey Custody Battle: Rapper Requests Permission to Visit Son in Italy at L.A. Court&nbsp;Hearing The 15-track LP includes a reunion with her sister and bandmate Chlöe (&#8220;So I Can Feel Again&#8221;) as well as more collaborations with stars including GloRilla (&#8220;Know Bout Me&#8221;), Mariah the Scientist (&#8220;Alone&#8221;) and H.E.R. (&#8220;No Warning&#8221;). Bailey previously appeared on &#8220;Want Me&#8221; from Chlöe&#8217;s 2024 sophomore album Trouble in Paradise . As part of their duo&nbsp; Chloe x Halle , they&#8217;ve released a pair of albums: 2018’s&nbsp; The Kids Are Alright&nbsp; and 2020’s&nbsp; Ungodly Hour .&nbsp; The Kids Are Alright earned a best urban contemporary album nod at the 2019 Grammys, where Chloe x Halle was also up f…",
-      "image": null,
-      "pubDate": "2025-10-20T20:18:00.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "13c28204006a937e",
       "title": "Mourinho is a visionary - Howe",
       "link": "https://www.bbc.com/sport/football/articles/c781wxeev6wo?at_medium=RSS&at_campaign=rss",
@@ -729,38 +681,6 @@
         "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "55f168c0227da9f5",
-      "title": "Google is selling refurb Pixel 8 phones for $489 — but is it worth it?",
-      "link": "https://www.androidauthority.com/google-pixel-8-refurbished-3608757/",
-      "summary": "A brand-new Pixel 9a will set you back $500 at retail.",
-      "body": "TL;DR Google now sells refurbished Pixel 8 and Pixel 8 Pro phones starting at $489 and $699, respectively. Both phones are guaranteed updates well into 2030. The Pixel 9a or a Pixel 9 or 9 Pro XL (if discounted) may be a better bargain, depending on your priorities. Google started selling refurbished Pixel phones about a year ago , starting with the Pixel 6 and Pixel 7. A few weeks ago, it dropped the aging Pixel 6 — currently guaranteed OS updates through October 2026 — from the rotation. Now, Google’s added a newer old phone to its refurb offerings: the Pixel 8 is back on the Google Store, starting at $489. 9to5Google spotted today that the Pixel 8 and Pixel 8 Pro have joined the Pixel 7, Pixel 7 Pro, and Pixel 7a on Google’s Certified Refurbished storefront. The 128-gig Pixel 8 goes for $489, down from its $699 MSRP; the 256-gig model is $539. As of publication, the refurbished 8 Pro is only available with 128 gigabytes of storage for $699, down from $999.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/google-pixel-8-cactus-scaled.jpg",
-      "pubDate": "2025-10-20T20:08:21.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "39bd68487e3400fe",
-      "title": "المعاهد التقانية في سوريَة.. رافد مهم لسوق العمل",
-      "link": "https://aitnews.com/2025/10/20/%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%87%d8%af-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d9%86%d9%8a%d8%a9-%d9%81%d9%8a-%d8%b3%d9%88%d8%b1%d9%8a%d9%8e%d8%a9-%d8%b1%d8%a7%d9%81%d8%af-%d9%85%d9%87%d9%85-%d9%84%d8%b3/",
-      "summary": "في إجراء دوري يحدث سنويًا، أعلنت وزارة التربية والتعليم في سوريَة عن فتح باب التسجيل في المعاهد التقانية للعام الدراسي 2025-2026، بيد أن هذه الخطوة لا تمثل مجرد إجراء روتيني، بل هي محطة حاسمة في مسار آلاف الطلاب الحاصلين على شهادة الثانوية المهنية، إذ ستُحدِد المفاضلة التي تلي التسجيل اتجاهاتهم الم…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T19:49:32.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
       "category": "sports",
       "region": "global"
     },
@@ -778,38 +698,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "64ae30f2c720475f",
-      "title": "Landsat Data Continuity Mission Becomes an Observatory",
-      "link": "https://science.nasa.gov/image-article/1118087/",
-      "summary": "Landsat Data Continuity Mission Becomes an Observatory • Engineers at Orbital Sciences Corporation, Gilbert, Ariz., have installed the Thermal Infrared Sensor (TIRS) instrument back onto to the Landsat Data Continuity Mission (LDCM) spacecraft. With both the Operational Land Imager (OLI) and TIRS i…",
-      "body": "Landsat Data Continuity Mission Becomes an Observatory TIRS being hoisted into place on the LDCM satellite in Gilbert, Ariz. Orbital Science Corp • Engineers at Orbital Sciences Corporation, Gilbert, Ariz., have installed the Thermal Infrared Sensor (TIRS) instrument back onto to the Landsat Data Continuity Mission (LDCM) spacecraft. With both the Operational Land Imager (OLI) and TIRS instruments now on the spacecraft, LDCM is a complete observatory.After the TIRS instrument was shipped to Orbital in February, engineers discovered that helium had leaked from the TIRS cryogenic cooler. The cooler keeps the detectors extremely cold, which is required for the instrument to detect thermal infrared radiation emitted from Earth. The leak was quickly repaired, the cooler was re-pressurized with helium, and TIRS was re-installed onto the instrument deck of the spacecraft. Once the TIRS instrument is electrically connected later this month, TIRS will be ready to begin environmental testing with the rest of the observatory. The engineering team at NASA’s Goddard Space Flight Center in Greenbelt, Md., built TIRS on an accelerated schedule, going from a design on paper to a completed instrum…",
-      "image": null,
-      "pubDate": "2025-10-20T19:36:12.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "1a76f7014a5de966",
-      "title": "Google continues to make Sheets easier to use with latest Gemini update",
-      "link": "https://www.androidauthority.com/google-sheets-gemini-multi-table-analysis-3608696/",
-      "summary": "Google Sheets is making easier to get the data you need from multiple tables.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR Google is expanding Gemini’s capabilities in Sheets. The AI can now understand and analyze multiple tables. Users will be able to get Gemini to generate formulas based on several tables, generate charts from table data, and more. Since Google integrated Gemini into Sheets, it’s been increasingly easier to manage spreadsheets. Whether you need to create a chart, correct errors, or explain how a formula works, the company’s AI can do it for you. And Gemini’s capabilities in Sheets continue to grow, as it received an update last week that allows it to handle more complex, multi-stage edits . Now a new update has arrived and it improves how the AI understands and analyzes tables. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/02/Google-Sheets-next-to-calculator-stock-photo-2.jpg",
-      "pubDate": "2025-10-20T19:26:24.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -841,22 +729,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2d7cbde625eaf26d",
-      "title": "Google’s Pixel 10 can now run Linux apps better than other Android phones",
-      "link": "https://www.androidauthority.com/pixel-10-linux-apps-gpu-acceleration-3608754/",
-      "summary": "Unlike other Android phones, the Pixel 10 supports GPU-accelerated rendering for Linux apps in Android 16 QPR2.",
-      "body": "TL;DR Google is adding GPU acceleration for graphical Linux apps to Android’s Terminal app, but the feature is currently exclusive to the Pixel 10. This feature relies on Gfxstream, a library that forwards graphics API calls from the guest Linux virtual machine to the host Android device’s GPU for accelerated rendering. Though the feature is live for Pixel 10 users in Android 16 QPR2 Beta 3, it’s still buggy and doesn’t yet offer the near-native performance expected. Back in March, Google introduced the Linux Terminal app to Android, which uses virtualization to run full-fledged Linux programs on Android devices. While the initial release only supported command-line apps, Google is addressing that limitation in the upcoming Android 16 QPR2 update. Even though Android 16 QPR2 will add support for graphical desktop Linux apps , they will run poorly on most Android devices. This is because the Linux Terminal app currently relies on a software-based renderer called Lavapipe. Lavapipe uses the device’s CPU for complex calculations and rasterization (the process of converting vector graphics into pixels) — tasks that the device’s GPU can perform much more quickly and efficiently.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/google-pixel-10-pro-fold-back-holding-scaled.jpg",
-      "pubDate": "2025-10-20T19:20:11.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
       "category": "technology",
       "region": "global"
     },
@@ -925,38 +797,6 @@
       "region": "global"
     },
     {
-      "id": "ac675b19511f426e",
-      "title": "Here’s an early look at how you’ll use your Apple Watch with OxygenOS 16’s health features",
-      "link": "https://www.androidauthority.com/oxygenos-16-apple-watch-pairing-door-access-apk-teardown-3608699/",
-      "summary": "And Apple Watch support might not be the only thing arriving in the OHealth app.",
-      "body": "Credit: Kaitlyn Cimino / Android Authority TL;DR Our APK teardown found that the latest OHealth app update includes steps for setting up pairing with an Apple Watch. Code strings detail syncing calls, messages, and health data via OHealth. A new “Cardless entry” feature also appears, potentially letting your OnePlus watch act as an NFC door key. We already knew that the OxygenOS 16 update would be bringing Apple Watch connectivity to the OnePlus ecosystem through the OHealth app. Now, a teardown of the latest OHealth release gives us a better look at how this cross-platform pairing might actually work. Beyond that, it also hides a separate feature that could turn your OnePlus watch into an NFC access card. NEWSLETTER | Authority Insights --> Authority Insights You're reading an Authority Insights story. Subscribe to our new Authority Insights newsletter for more exclusive reports, app teardowns, leaks, and in-depth tech coverage you won't find anywhere else. sign up now By signing up, you agree to our Terms of Use and acknowledge the data practices in our Privacy Policy. You may unsubscribe at any time. According to strings and screenshots we spotted in version 4.40.7_6a8017d_2510…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/02/OnePlus-Watch-2-OHealth-scaled.jpg",
-      "pubDate": "2025-10-20T19:11:42.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "1cd827a5b0c651a7",
-      "title": "سوريَة تنضم إلى منصة “بُنى” للمدفوعات.. نحو دفع فوري وتكاليف أقل",
-      "link": "https://aitnews.com/2025/10/20/%d8%b3%d9%88%d8%b1%d9%8a%d9%8e%d8%a9-%d8%aa%d9%86%d8%b6%d9%85-%d8%a5%d9%84%d9%89-%d9%85%d9%86%d8%b5%d8%a9-%d8%a8%d9%8f%d9%86%d9%89-%d9%84%d9%84%d9%85%d8%af%d9%81%d9%88%d8%b9%d8%a7%d8%aa-%d9%86/",
-      "summary": "في تطور يُعدّ مهمًا على الصعيد المالي الإقليمي، أعلن حاكم مصرف سوريَة المركزي، عبد القادر الحصرية، انضمام الجمهورية العربية السورية إلى منصة (بُنى)، الإقليمية للمدفوعات عبر الحدود، التي أنشأها صندوق النقد العربي. ويأتي هذا القرار بعد لقاء جمع الدكتور الحصرية برئيس صندوق النقد العربي، الدكتور فهد ال…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T19:10:33.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "af4697949319bdfd",
       "title": "هل إصابة كورتوا تقلق ريال مدريد قبل الكلاسيكو؟",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D9%83%D9%88%D8%B1%D8%AA%D9%88%D8%A7-%D8%AA%D9%82%D9%84%D9%82-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88/bltac4b0eda989cf17f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -989,22 +829,6 @@
       "region": "mena"
     },
     {
-      "id": "729ba33804f2b7fb",
-      "title": "من البرمجة إلى البيولوجيا.. نماذج أنثروبيك تساعد العلماء في المختبرات الطبية",
-      "link": "https://aitnews.com/2025/10/20/%d9%86%d9%85%d8%a7%d8%b0%d8%ac-%d8%a3%d9%86%d8%ab%d8%b1%d9%88%d8%a8%d9%8a%d9%83-%d8%aa%d8%b3%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%b9%d9%84%d9%85%d8%a7%d8%a1-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%ae%d8%aa/",
-      "summary": "في ظل تسارع السباق بين شركات الذكاء الاصطناعي لتطوير تطبيقات متخصصة في المجالات العلمية، أعلنت شركة أنثروبيك الأمريكية توسيع استخدام نموذجها اللغوي “كلود Claude” ليخدم الباحثين وشركات علوم الحياة، عبر إدماجه في برامج إدارة المختبرات والمنصات الجينومية وقواعد البيانات الطبية الحيوية. وقالت الشركة عب…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T19:03:53.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "eb00e5f62c9b7e79",
       "title": "جدول مباريات اليوم الثلاثاء 21 أكتوبر 2025 .. القنوات الناقلة والمعلقين",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-21-%D8%A7%D9%94%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2025-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/bltb2e431cafde5cc7f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1012,6 +836,38 @@
       "body": "يتطلع عشاق كرة القدم اليوم، الثلاثاء الموافق 21 أكتوبر/تشرين الأول 2025 إلى مباريات مثيرة ومنافسات قوية بعد عودة دوري أبطال أوروبا. اليوم، انطلاق الجولة الثالثة من مرحلة الدوري في دوري أبطال أوربا بمواجهة بين برشلونة وأولمبياكوس، كما يواجه فياريال نظيره مانشستر سيتي، وأتلتيكو مدريد يلعب ضد آرسنال. كما يواجه الهلال نظيره السد في دوري أبطال آسيا النخبة، بجانب مباراة في الدوري المصري تجمع بين بيراميدز وفاركو. في هذا التقرير، يستعرض معكم \"كووورة\" جدول مباريات اليوم الثلاثاء 21 أكتوبر/تشرين الأول 2025 والقنوات الناقلة لهذه المواجهات المرتقبة. ما القنوات الناقلة لمباريات اليوم الثلاثاء 21 أكتوبر 2025؟ يمكن مشاهدة مباريات دوري أبطال أوروبا ودوري أبطال آسيا النخبة عبر قنوات beIN SPORTS، ولهواة البث المباشر، فإنّ تطبيق TOD TV هو الناقل الرسمي. أما بالنسبة للدوري المصري، فمنقول عبر قنوات أون سبورت، ودوري يلو عبر قنوات ثمانية. وإن كنت ترغب في مشاهد البث المباشر من أي مكان في العالم يمكن الاستعانة بتطبيق Nord VPN beIN SPORTS شاهد من هنا الكأس&nbsp; شاهد من هنا TOD TV شاهد من هنا ثمانية شاهد من هنا Nord VPN اشترك الآن &nbsp; جدول مباريات اليوم الثلاثاء 21 أكتوبر 2025 &nbsp;\"21-10-2025\" دوري أبطال أوروبا - الجولة الثالثة &nbsp; المباراة الموعد القنوات الناقلة المعلق برشلونة - أولمبياكوس 19:45 ا…",
       "image": null,
       "pubDate": "2025-10-20T19:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "46baadb6116bdb25",
+      "title": "جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt642666b88ab760ff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
+      "body": "يحظى الدوري الإسباني بمتابعة استثنائية على مستوى العالم، كونه أحد أكثر المسابقات إثارة وقوة، بفضل المنافسة الشرسة بين العملاقين ريال مدريد وبرشلونة. وتمكن برشلونة من التتويج بلقب الدوري الإسباني 2024-2025، بعدما خسر اللقب في الموسم السابق لصالح غريمه الأزلي ريال مدريد. حصد البارسا، تحت قيادة المدرب هانز فليك، الثلاثية المحلية في الموسم الماضي (الدوري والكأس والسوبر)، وفاز على ريال مدريد في جميع المواجهات، ما دفع النادي الملكي لتعزيز صفوفه بأكثر من لاعب، إلى جانب التوقيع مع تشابي ألونسو ليقود الفريق خلفًأ لكارلو أنشيلوتي، ما يمهد لصراع هائل في الموسم المقبل. ويترقب الجميع حول العالم موعد انطلاق الموسم المقبل من الدوري الإسباني 2025-2026، والذي سيكون مشتعلًا بكل تأكيد، كما كان الموسم الماضي. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإسباني 2025-2026 والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإسباني 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 ريال مدريد 9 8 0 1 20 9 11 24 2 برشلونة 9 7 1 1 24 10 14 22 3 فياريال 9 5 2 2 16 10 6 17 4 أتلتيكو مدريد 9 4 4 1 16 10 6 16 5 ريال بيتيس 9 4 4 1 15 10 5 16 6 إسبانيول 9 4 3 2 13 11 2 15 7 إلتشي 9 3 5 1 11 9 2 14 8 أتلتيك بيلباو 9 4 2 3 9 9 0 14 9 إشبيلية 9 4…",
+      "image": null,
+      "pubDate": "2025-10-20T18:54:22.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e5ceacd17f7debf8",
+      "title": "جدول ترتيب الدوري الإسباني 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026/bltecb2c26fb57f825b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب جدول الدوري الإسباني 2025-2026",
+      "body": "انطلقت منافسات الدوري الإسباني لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات نارية بين كبار الليجا على لقب البطولة الأكثر شهرة في إسبانيا. ويخوض برشلونة الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين توّج باللقب المحلي إلى جانب كأس الملك وكأس السوبر الإسباني، محققًا رباعية تاريخية على حساب غريمه ريال مدريد، الذي يدخل الموسم بقيادة جديدة للمدرب تشابي ألونسو خلفًا لكارلو أنشيلوتي أملًا في استعادة هيبة الملكي. ولا يبدو أتلتيكو مدريد بعيدا عن الصورة حيث يدخل بقوة في قائمة الترشيحات للمنافسة على لقب الليجا، مع مزاحمة من فرق الوسط القوية مثل أتلتيك بيلباو وجيرونا وفياريال وغيرها. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب 2025، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من كووورة، نستعرض جدول ترتيب الدوري الإسباني 2025-2026. جدول ترتيب الدوري الإسباني 2025-2026: ريال مدريد يدخل الكلاسيكو متصدرًا استعاد برشلونة الصدارة بعد الفوز على جيرونا بهدفين لهدف في الوقت القاتل. وانتصر أتلتيكو بهدف نظيف على أوساسونا. وضمن ريال مدريد دخول الكلاسيكو الأسبوع المقبل متصدرًا بعد الفوز على خيتافي. &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 ريال مدريد 9 8 0 1 20 9 11 24 2 برشلونة 9 7 1 1 24 10 14 22 3 …",
+      "image": null,
+      "pubDate": "2025-10-20T18:50:23.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -1069,36 +925,20 @@
       "region": "mena"
     },
     {
-      "id": "de356e19acf9ad57",
-      "title": "من العزلة إلى الاتصال.. “زوم” تفتح بوابة جديدة لسوريَة نحو العالم الرقمي",
-      "link": "https://aitnews.com/2025/10/20/%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2%d9%84%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-%d8%b2%d9%88%d9%85-%d8%aa%d9%81%d8%aa%d8%ad-%d8%a8%d9%88%d8%a7%d8%a8%d8%a9-%d8%ac/",
-      "summary": "لطالما كانت التكنولوجيا جسرًا يربط الشعوب بالعالم، لكنها في بعض الأحيان تتحول إلى حاجز بفعل القيود السياسية. وبعد سنوات طويلة من العزلة الرقمية التي فرضتها العقوبات الدولية على سوريَِة، وشلت حركة العمل والتعليم من بُعد، شهد قطاع الاتصالات السوري تطورًا، يُعدّ الأول من نوعه منذ سنوات، وهو دخول منصة …",
-      "body": null,
+      "id": "6fa3e7414bfdc0d9",
+      "title": "جدول ترتيب الدوري الإنجليزي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026/blt32989d7601f1774a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026",
+      "body": "تترقب جماهير كرة القدم حول العالم منافسات الدوري الإنجليزي الممتاز لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات مثيرة بين كبار القوم على لقب البطولة الأغلى في إنجلترا. ويخوض ليفربول الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين حصد اللقب العشرين في تاريخه معادلًا رقم مانشستر يونايتد، ومُنهيًا سلسلة هيمنة مانشستر سيتي الذي توج بالبطولة أربع مرات متتالية. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب بمواجهة افتتاحية قوية تجمع ليفربول وبورنموث على ملعب أنفيلد، فيما تتوزع باقي المباريات على مدار عطلة نهاية الأسبوع، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من \"كووورة\"، نستعرض جدول ترتيب الدوري الإنجليزي 2025-2026. جدول ترتيب الدوري الإنجليزي 2025-2026: آرسنال في الصدارة ومانشستر سيتي يطارده وليفربول ينهار فاز مانشستر سيتي على إيفرتون ليرتقي للصدارة، لكن سرعان ما استعادها آرسنال بالفوز على فولهام أما ليفربول فقد خسر الديربي أمام مانشستر يونايتد في أنفيلد &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 8 6 1 1 15 3 12 19 2 مانشستر سيتي 8 5 1 2 17 6 11 16 3 ليفربول 8 5 0 3 14 11 3 15 4 بورنموث 8 4 3 1 14 11 3 15 5 تشيلسي 8 4 2 2 16 9 7 14 6 توتنهام 8 4 2 2 14 7 7 14 7 سندرلاند 8 4 …",
       "image": null,
-      "pubDate": "2025-10-20T18:43:52.000Z",
+      "pubDate": "2025-10-20T18:40:29.000Z",
       "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
       "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f70b3ce1acf38cc4",
-      "title": "اسم يساوي ثروة.. إكس تفتتح سوقًا لبيع الحسابات غير النشطة بملايين الدولارات",
-      "link": "https://aitnews.com/2025/10/20/%d8%a7%d8%b3%d9%85-%d9%8a%d8%b3%d8%a7%d9%88%d9%8a-%d8%ab%d8%b1%d9%88%d8%a9-%d8%a5%d9%83%d8%b3-%d8%aa%d9%81%d8%aa%d8%aa%d8%ad-%d8%b3%d9%88%d9%82%d9%8b%d8%a7-%d9%84%d8%a8%d9%8a%d8%b9-%d8%a7%d9%84/",
-      "summary": "في خطوة جديدة لتعزيز إيراداتها من المشتركين، أعلنت منصة إكس، تويتر سابقًا، أنها ستتيح قريبًا إمكانية شراء أسماء المستخدمين غير النشطة (Handles@) مقابل مبالغ قد تصل إلى ملايين الدولارات، وذلك ضمن سوق مخصصة لفئات محددة من المشتركين المميزين. وأوضحت المنصة عبر حسابها الرسمي “@XHandles” أنها ستطلق هذه …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T18:35:21.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "4ed81d729b1f8fd6",
@@ -1149,38 +989,6 @@
       "region": "mena"
     },
     {
-      "id": "5cc03209482e90ee",
-      "title": "Echo Dots with Jack Skellington and Sally shell bundle drops to record-low price!",
-      "link": "https://www.androidauthority.com/amazon-echo-dot-jack-skellington-sally-bundle-deal-3608618/",
-      "summary": "Get in the Halloween spirit with this bundle deal!",
-      "body": "Credit: Amazon Halloween is just around the corner, but you’re still in time to get your decorations. Right now is the time to pull the trigger if you’ve been thinking of snagging Amazon’s bundle with two Echo Dots and both the Jack Skellington and Sally Shells. The bundle was already on sale, but it has dropped $5 more, bringing the cost down to just $124.99. Buy two Amazon Echo Dots with the Jack Skellington and Sally shells for just $124.99 ($54.97 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Amazon-Echo-Dot-Jack-Skellington-Sally-deals.jpg",
-      "pubDate": "2025-10-20T18:13:50.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "591b45b29187b919",
-      "title": "Trick-or-treaters got you spooked? This smart security camera bundle is for you",
-      "link": "https://www.androidauthority.com/ring-outdoor-cam-pro-candy-cam-bundle-3608655/",
-      "summary": "If you take two Reese's Cups I'm calling the police.",
-      "body": "TL;DR Ring is selling a Candy Cam Bundle that includes a 4K security camera, a Halloween-themed camera cover, and a candy bowl with a camera mount. The camera covers are cute, but pointing a security camera at trick-or-treaters may be seen as invasive. 3D printer files for the camera covers are available for free. Amazon-owned Ring is a leading name in DIY connected home security, offering just about every kind of smart camera you could want. Now, with Halloween coming up, Ring’s offering a seasonal bundle built for an unusual purpose: recording trick-or-treaters. Ring’s new Candy Cam bundle includes the company’s latest Outdoor Cam Pro plus a 3D-printed Costume Cover. There’s a selection of five different costumes, each coming with a camera mount attached to a bowl for candy. Fully assembled, the kit points your new Ring camera toward the candy bowl.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/ring-cam-pro-outdoor-weather.jpg",
-      "pubDate": "2025-10-20T18:09:01.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "1188b24fb2ead192",
       "title": "Sri Lanka knock out Bangladesh after dramatic final over",
       "link": "https://www.bbc.com/sport/cricket/videos/cq50g75gnqqo?at_medium=RSS&at_campaign=rss",
@@ -1197,22 +1005,6 @@
       "region": "global"
     },
     {
-      "id": "22f817f7e55ab29c",
-      "title": "تمكين المرأة رقميًا.. محور إستراتيجي لإعادة الإعمار في سوريَة",
-      "link": "https://aitnews.com/2025/10/20/%d8%aa%d9%85%d9%83%d9%8a%d9%86-%d8%a7%d9%84%d9%85%d8%b1%d8%a3%d8%a9-%d8%b1%d9%82%d9%85%d9%8a%d9%8b%d8%a7-%d9%85%d8%ad%d9%88%d8%b1-%d8%a5%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d9%84%d8%a5/",
-      "summary": "في إطار المساعي الحكومية لتعزيز التوجه نحو الاقتصاد الرقمي في سوريَة، عُقد، خلال شهر أكتوبر الجاري، اجتماع تشاوري في وزارة الاتصالات وتقانة المعلومات برئاسة معالي الوزير، عبد السلام هيكل، ضمّ وفدًا من 26 سيدة رائدة في قطاعات ريادة الأعمال، والتقنيات الحديثة، والتعليم الجامعي، والإدارة التنفيذية. وه…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T18:04:27.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "141bac968f5ea1fa",
       "title": "Sri Lanka take four wickets in four balls of final over against Bangladesh",
       "link": "https://www.bbc.com/sport/cricket/videos/cj9718xk8v2o?at_medium=RSS&at_campaign=rss",
@@ -1226,22 +1018,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1d2ac95d0b2932e4",
-      "title": "Google’s Play Store overhaul continues with work on new Expressive changes",
-      "link": "https://www.androidauthority.com/play-store-expressive-ui-3608641/",
-      "summary": "Google isn't done yet with its work on these UI tweaks.",
-      "body": "TL;DR Google’s been working to modernize the Play Store’s interface, recently giving it a new gradient-shaded status bar. The app’s also working on a couple more Expressive updates, including a new loading indicator. Card UI may also be updated to move text away from graphics. Material 3 Expressive finally landed in full force last month, and based on your feedback, the changes it implements are well appreciated. But as we’ve seen this past summer, Expressive revamps to existing Android apps haven’t been hitting all at once, and Google continues to whittle away at them. Right now we’ve spotted some new tweaks to one of the company’s apps, and some hints at what could be changing next. NEWSLETTER | Authority Insights --> Authority Insights You're reading an Authority Insights story. Subscribe to our new Authority Insights newsletter for more exclusive reports, app teardowns, leaks, and in-depth tech coverage you won't find anywhere else. sign up now By signing up, you agree to our Terms of Use and acknowledge the data practices in our Privacy Policy. You may unsubscribe at any time. We are looking at the Play Store itself today, and Google’s version 48.4.38-31 release in particular…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2023/09/Google-Play-Store-app-next-to-other-Google-Apps-stock-photo.jpg",
-      "pubDate": "2025-10-20T17:54:27.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1277,38 +1053,6 @@
       "region": "mena"
     },
     {
-      "id": "7e6786eef81330f7",
-      "title": "فوجيتسو تكشف عن FMV UX-K3.. أخف حاسوب محمول في العالم",
-      "link": "https://aitnews.com/2025/10/20/%d9%81%d9%88%d8%ac%d9%8a%d8%aa%d8%b3%d9%88-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-fmv-ux-k3-%d8%a3%d8%ae%d9%81-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-%d9%85%d8%ad%d9%85%d9%88%d9%84-%d9%81%d9%8a-%d8%a7%d9%84/",
-      "summary": "كشفت شركة فوجيتسو عن أحدث أجهزتها FMV UX-K3، وهو حاسوب محمول بشاشة قياسها 14 إنشًا لا يتجاوز وزنه 634 جرامًا فقط، ليُصبح بذلك الأخف وزنًا في فئته عالميًا، في خطوة تعزز ريادتها في سوق الحواسيب المحمولة الفائقة الخِفة. ويتميز الجهاز بهيكل فائق الخفة مصنوع من مزيج من ألياف الكربون وسبائك المغنيسيوم وا…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T17:46:11.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5bb0102186fecea8",
-      "title": "تكسبولاند.. حكاية سورية بلغات التحول الرقمي والذكاء الاصطناعي",
-      "link": "https://aitnews.com/2025/10/20/%d8%aa%d9%83%d8%b3%d8%a8%d9%88%d9%84%d8%a7%d9%86%d8%af-%d8%ad%d9%83%d8%a7%d9%8a%d8%a9-%d8%b3%d9%88%d8%b1%d9%8a%d8%a9-%d8%a8%d9%84%d8%ba%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d8%a7%d9%84/",
-      "summary": "تحوّلت مدينة المعارض بريف دمشق إلى نقطة جذب استثنائية وإلى عاصمة للتقنية والابتكار في سوريَة، خلال المدة الممتدة من 17 إلى 20 أكتوبر 2025، وذلك عبر استضافتها الدورة الأولى من معرض (تكسبو لاند) للتكنولوجيا والابتكار، التي شاركت فيها نحو 80 علامة تجارية محلية وعربية ودولية. وهذا الحدث، الذي نجح في جذ…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T17:34:21.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5ffa80b48cbbea0f",
       "title": "Players have 'long' list of possible changes - Murphy",
       "link": "https://www.bbc.com/sport/snooker/articles/cq6zgz3mpp2o?at_medium=RSS&at_campaign=rss",
@@ -1322,22 +1066,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2697356d2434a9d7",
-      "title": "الهواتف الفائقة النحافة تفقد بريقها.. آبل تخفض الإنتاج وسامسونج تتراجع",
-      "link": "https://aitnews.com/2025/10/20/%d8%a7%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-%d8%a7%d9%84%d9%81%d8%a7%d8%a6%d9%82%d8%a9-%d8%a7%d9%84%d9%86%d8%ad%d8%a7%d9%81%d8%a9-%d8%aa%d9%81%d9%82%d8%af-%d8%a8%d8%b1%d9%8a%d9%82%d9%87%d8%a7-%d8%a2/",
-      "summary": "في تطور يعكس فتور الإقبال على الهواتف الفائقة النحافة، كشفت تقارير حديثة أن آبل تخطط لخفض إنتاج هاتفها النحيف “آيفون آير iPhone Air” بنحو مليون وحدة خلال العام الجاري، في ظل مبيعات أقل من التوقعات في الأسواق الغربية، لكن مع إقبال قوي على الهاتف في الصين. ووفقًا لتقديرات شركة Mizuho Securities الياب…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T17:25:56.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1371,22 +1099,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "eba126e9ffd2d4c6",
-      "title": "T-Mobile is celebrating Halloween with some of its best free device promotions of the year",
-      "link": "https://www.androidauthority.com/t-mobile-halloween-promo-3608660/",
-      "summary": "T-Mobile has a wide variety of free device offers you might want to check out this month.",
-      "body": "Credit: Joe Maring / Android Authority TL;DR T-Mobile’s “Treat Season” promotion offers free flagship phones like the Galaxy S25 Edge, Pixel 10 Pro, and iPhone 17 Pro with 24 monthly bill credits for new Experience Beyond customers. Additional deals include a free Galaxy Watch 8 or SyncUP KIDS Watch 2 with new lines, plus tablet discounts like 50% off iPads and a free Galaxy Tab A9 Plus and up to 25% off most accessories. Metro by T-Mobile and Mint Mobile are also joining with up to $300 off the iPhone 17 Pro and $250 off the Pixel 10 respectively. Halloween is right around the corner and, as first spotted by TmoNews , the company is celebrating the holiday season wit hsome of its best free phone and device promotions of the year. Dubbed “Treat Season” by T-Mobile, the carrier will offer several free flagship phone offers to new customers who sign up for Experience Beyond. The device will be free, but the catch is you’ll still technically have a device repayment plan, you’ll just get 24 monthly credits that cover the total cost. While there are several free phone offers some of the best promotions include the Samsung Galaxy S25 Edge, Google Pixel 10 Pro, and the Apple iPhone 17 Pr…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/t-mobile-logo-pixel-hero-5-scaled.jpg",
-      "pubDate": "2025-10-20T17:16:04.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "a7cf2b85ae4c396d",
@@ -1437,22 +1149,6 @@
       "region": "mena"
     },
     {
-      "id": "8b0f9e9ab2d72283",
-      "title": "Google confirms when Android 16 QPR2 Beta 3 will return",
-      "link": "https://www.androidauthority.com/android-16-qpr2-beta-3-return-3608643/",
-      "summary": "Here's when you'll be able to install Android 16 QPR2 Beta 3 again.",
-      "body": "Credit: Mishaal Rahman / Android Authority TL;DR Google recently halted the roll out of Android 16 QPR2 Beta 3. The update had a bug that caused system UI to crash when desktop mode was enabled. Google has confirmed that the rollout will resume this week. Last week, Google released Android 16 QPR2 Beta 3 for eligible Pixel devices. While some users were able to install the update, others were not. That’s because shortly after the company released the update, it appeared the beta was pulled . If you were looking forward to this update, you won’t have to wait that much longer to jump on board. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Android-16-QPR2-Beta-3-logo.jpg",
-      "pubDate": "2025-10-20T16:49:10.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d8154f278f5d2452",
       "title": "رئيس الإسماعيلي: لم يصلنا قرار وزير الرياضة.. ولسنا مسؤولين عن الأزمة المالية",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D9%84%D9%85-%D9%8A%D8%B5%D9%84%D9%86%D8%A7-%D9%82%D8%B1%D8%A7%D8%B1-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%88%D9%84%D8%B3%D9%86%D8%A7-%D9%85%D8%B3%D9%88%D9%94%D9%88%D9%84%D9%8A%D9%86-%D8%B9%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9/blt1fff1c7138da9cfc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1501,38 +1197,6 @@
       "region": "mena"
     },
     {
-      "id": "604412afbc4888e8",
-      "title": "Qualcomm’s new Snapdragon chip misses out on one of Android 16’s best features",
-      "link": "https://www.androidauthority.com/snapdragon-chips-android-linux-terminal-3608648/",
-      "summary": "The Snapdragon 8 Elite Gen 5 doesn’t support Android’s Linux Terminal, making Qualcomm the only vendor to not support it.",
-      "body": "TL;DR Qualcomm’s powerful new Snapdragon 8 Elite Gen 5 chip unfortunately doesn’t support Android’s new Linux Terminal feature. This is because the feature requires support for “non-protected” virtual machines, which Qualcomm’s latest high-end chip does not offer. As a result, users wanting to run desktop Linux apps on Android must currently use a device with a Google, MediaTek, or Samsung chip. When Qualcomm unveiled its new Snapdragon 8 Elite Gen 5 last month, the question on most people’s minds was: “How well does it perform?” The answer, it turns out, is incredibly well — at least in benchmarks . Qualcomm has always done a great job at building powerful, yet efficient, mobile processors, but it’s hard to find real-world tasks that can really push those processors to their limits. That’s because most Android apps are built for the lowest common denominator — cheap devices with vastly slower processors than flagship phones. On the other hand, many Linux apps are built for people with powerful workstations, as Linux is popular among power users and developers.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Snapdragon-8-Elite-Gen-5-vs-Tensor-G5-phones.jpg",
-      "pubDate": "2025-10-20T16:27:43.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a0a10a6cacebaa99",
-      "title": "Amazon admits its color Kindles aren’t the best option for bookworms (Updated: Amazon response)",
-      "link": "https://www.androidauthority.com/amazon-kindle-colorsoft-worse-for-reading-3607560/",
-      "summary": "Amazon had indicated that black-and-white Kindle models deliver a sharper reading experience, but has since clarified this.",
-      "body": "Credit: Amazon TL;DR Amazon updated its Kindle Colorsoft FAQs with a candid disclaimer. The company says that black-and-white Kindles, like the Paperwhite, offer crisper text. Colorsoft screens still suit comics and PDFs, but trade sharpness for color. Update: October 20, 2025 (12:25 PM ET): Following the publication of the original article below, Amazon contacted us to highlight an amendment to the FAQ section on the Kindle Scribe Colorsoft. In response to the question “How is the reading experience different on Kindle Colorsoft than on Kindle Paperwhite?” the answer now reads “The Colorsoft display is distinct from the Paperwhite display, and includes a fully optimized display stack to deliver high quality color reading. The black and white resolution (300ppi) is the same across devices.” It’s an understandable change. While the original intention of the company might have been to honestly outline the optimizations of each device, signposting a different Kindle for reading black and white text could be construed by some as an indication that the Colorsoft is lacking in this regard. The new FAQ answer removes this part to avoid such confusion and makes clear that the resolution o…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/07/Kindle-Colorsoft-16GB-Press-Image.jpg",
-      "pubDate": "2025-10-20T16:25:57.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "0ac5f58896d13edb",
       "title": "Outstanding Simeone would succeed anywhere - Arteta",
       "link": "https://www.bbc.com/sport/football/articles/ckg4yxp303lo?at_medium=RSS&at_campaign=rss",
@@ -1565,22 +1229,6 @@
       "region": "mena"
     },
     {
-      "id": "b1e7d891f60022e7",
-      "title": "كلوب: تشاجرت مع صلاح.. وهذه طبيعة علاقتنا حاليا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%84%D9%88%D8%A8-%D8%AA%D8%B4%D8%A7%D8%AC%D8%B1%D8%AA-%D9%85%D8%B9-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D9%87%D8%B0%D9%87-%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%B9%D9%84%D8%A7%D9%82%D8%AA%D9%86%D8%A7-%D8%AD%D8%A7%D9%84%D9%8A%D8%A7/bltb205a32bc5e76020?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>أكد الألماني يورجن كلوب، المدير الفني لليفربول، أن هناك لاعبين في صفوف الريدز كان بإمكانه أن يصبح أكثر صرامة معهم.</p><p>ورحل يورجن كلوب عن صفوف ليفربول، في صيف 2024، حيث تولى المسؤولية خلفًا له الهولندي آرني سلوت، الذي قاد الفريق لتحقيق لقب الدوري الإنجليزي في موسمه الأول.</p><p>وقال كلوب، في ح…",
-      "body": "أكد الألماني يورجن كلوب، المدير الفني لليفربول، أن هناك لاعبين في صفوف الريدز كان بإمكانه أن يصبح أكثر صرامة معهم. ورحل يورجن كلوب عن صفوف ليفربول، في صيف 2024، حيث تولى المسؤولية خلفًا له الهولندي آرني سلوت، الذي قاد الفريق لتحقيق لقب الدوري الإنجليزي في موسمه الأول. وقال كلوب، في حديثه لبرنامج \"The Diary of a CEO\": \"بالطبع هناك ساديو ماني ومحمد صلاح، مثالان بارزان\". وأضاف: \"لتحقيق النجاح كفريق كرة قدم، عليك تنظيم فريقك لتحقيق الاستقرار، ومن ثم عليك إيجاد طريقة للدفاع بشكل صحيح وجماعي، إذا كان لديهم ذلك، يمكنهم البدء في التألق\". وتابع: \"تحدثت معهما كثيرًا، كانت طريقة حديثنا واضحة تمامًا، أنت تريد الفوز في أغلب الأحيان وتحقيق أقصى نجاح، تريد أن تصبح أفضل فريق في إنجلترا في مرحلة ما، حسنًا؟ هيا نفعل ذلك، اتفقنا ومضينا قدمًا، ولكن مع مرور السنين، وليس بسبب تغيرهما أو أي شيء آخر، كان عليّ أن أقرر، هل أتعامل معهما كما أتعامل مع لاعب صغير يلعب في هذا المركز؟ أخبرهما (اركض، قاتل، اقفز، واخرجهما في لحظة؟)، لا، بالطبع لا، لم أكن أفعل ذلك في تلك اللحظة\". وأكمل: \"لقد تشاجرت مرة مع مو (صلاح) خلال مباراة وست هام على خط التماس عندما لم يبدأ المباراة، وقررت الدفع به ولم يكن سعيدًا، مشاكلنا دائمًا ما تكون علنية، لم يكن الأمر مهمًا حقًا، لكننا في تلك اللحظة لم نتفق بالتأكيد\". وبسؤاله كيف كان الأم…",
-      "image": null,
-      "pubDate": "2025-10-20T16:20:37.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "c8475735a14d6939",
       "title": "'You dream of the World Cup' - new  Sweden boss Potter",
       "link": "https://www.bbc.com/sport/football/videos/cddr9g3rqmlo?at_medium=RSS&at_campaign=rss",
@@ -1597,38 +1245,6 @@
       "region": "global"
     },
     {
-      "id": "57836fd6ce04ca23",
-      "title": "Why a Reservation Is Almost Impossible at this Modern Indian Spot in NYC",
-      "link": "https://www.eater.com/dining-out/918143/bungalow-vikas-khanna-modern-indian-nyc",
-      "summary": "With a waitlist that diners can be sitting on for over a year and a half, New York’s Bungalow makes every meal at the Indian restaurant special. Celebrity chef Vikas Khanna, known for being one of the original judges of MasterChef India, goes through a whole day of prep, as he reflect on the Michel…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T16:11:34.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d3b46735089b2620",
-      "title": "اتحاد جدة يكتسح الشرطة العراقي ويحصد فوزه الأول في نخبة آسيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D9%8A%D9%83%D8%AA%D8%B3%D8%AD-%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A-%D9%88%D9%8A%D8%AD%D8%B5%D8%AF-%D9%81%D9%88%D8%B2%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84-%D9%81%D9%8A-%D9%86%D8%AE%D8%A8%D8%A9-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7/blt54189ee9ba82eaca?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "حقق اتحاد جدة السعودي فوزه الأول في دوري أبطال آسيا للنخبة بعد اكتساح مضيفه الشرطة العراقي (4-1)، مساء اليوم الإثنين في العاصمة العراقية بغداد ضمن منافسات الجولة الثالثة للقسم الغربي بالبطولة القارية.",
-      "body": "حقق اتحاد جدة السعودي فوزه الأول في دوري أبطال آسيا للنخبة بعد اكتساح مضيفه الشرطة العراقي (4-1)، مساء اليوم الإثنين في العاصمة العراقية بغداد ضمن منافسات الجولة الثالثة للقسم الغربي بالبطولة القارية. ولم يتمكن الاتحاد من تحقيق الفوز في أول جولتين بعد خسارته أمام الوحدة وشباب الأهلي الإماراتيين، ورفع الفريق السعودي رصيده بقيادة مدربه البرتغالي سيرجيو كونسيساو إلى 3 نقاط في المركز الثامن. وتوقف رصيد الشرطة العراقي بقيادة مدربه المصري مؤمن سليمان عند نقطة واحدة في المركز الحادي عشر وقبل الأخير في ترتيب القسم الغربي. تقدم بسام شاكر لصالح الشرطة في الدقيقة الخامسة ولكن الفرنسي موسى ديابي أدرك التعادل في الدقيقة 17 للاتحاد الذي تقدم بهدف البرازيلي فابينيو في الدقيقة 29. وأحرز الجزائري حسام عوار هدفين في الدقيقتين 60، 76 من عمر المباراة التي شهدت جدلاً تحكيمياً بسبب قرارات الحكم الإماراتي عمر العلي الذي أشهر البطاقة الحمراء للاعب دانيلو بيريرا نجم الاتحاد في الدقيقة 50 بعد الحصول على إنذارين. وألغى الحكم هدفاً سجله الشرطة عن طريق محمد داوود في الدقيقة 78 كما رفض احتساب هدف للفريق العراقي بعد تسديدة السنغالي دومينيك ميندي وسط شكوك بتجاوز الكرة خط المرمى. الشوط الأول قدم الشرطة بداية حماسية في الدقائق الأولى للمباراة بحثاً عن هدف مبكر لاستغلال عامل الأرض والجمهور، ووجه محمود المواس تسديدة…",
-      "image": null,
-      "pubDate": "2025-10-20T16:02:06.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "bf38c3cd3942e651",
       "title": "Sinner to miss Italy's Davis Cup title defence",
       "link": "https://www.bbc.com/sport/tennis/articles/c4gj7v7ep61o?at_medium=RSS&at_campaign=rss",
@@ -1636,70 +1252,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-10-20T15:58:08.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0223d09f5e445755",
-      "title": "The Android 16 QPR2 Beta 3 update has gone MIA (Update: Return window)",
-      "link": "https://www.androidauthority.com/android-16-qpr2-beta-3-pulled-3608040/",
-      "summary": "The update has a bug that causes the SystemUI to crash.",
-      "body": "Credit: Mishaal Rahman / Android Authority TL;DR Google recently released Android 16 QPR2 Beta 3 for eligible Pixel devices. Now, it appears the tech giant may have pulled the update. The reason could be related to bootlooping issues caused by desktop mode. Update: October 20, 2025 (12:56 PM ET): A Google spokesperson has confirmed to Android Authority that Android 16 QPR2 Beta 3 will be available again this week. Original article: October 16, 2025 (4:29 PM ET): Yesterday, Google released the third and final beta of Android 16 QPR2 for eligible Pixel devices. This update resolves several issues, such as home screen shortcuts appearing as gray circles, selected themes not being applied on the first attempt, and Google Play System updates failing to install. If you waited on installing Android 16 QPR2 Beta 3 , it looks like you’ll have to continue waiting. Google may have pulled the update.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Android-16-QPR2-Beta-3-on-a-Pixel-phone.jpg",
-      "pubDate": "2025-10-20T15:56:14.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "456b08e22fbb5681",
-      "title": "جدول ترتيب مجموعة الغرب في دوري أبطال آسيا للنخبة 2025-2026 .. المباريات والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9-2025-2026-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt5d289fae95d8a66b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات دوري أبطال آسيا للنخبة 2025-2026 في مجموعة الغرب والقنوات الناقلة ...",
-      "body": "يستعد عشاق كرة القدم لمتابعة انطلاق بطولة دوري أبطال آسيا للنخبة لموسم 2025-2026، البطولة التي ينتظرها أكثر من مليار مشاهد من مختلف القارات، والتي تعد النسخة الأبرز على صعيد الأندية الآسيوية لما تحمله من منافسة محتدمة وأسماء لامعة. الاتحاد الآسيوي لكرة القدم كان قد أعلن عن هيكلة جديدة لمسابقاته اعتبارًا من موسم 2024-2025، حيث جرى تقسيم بطولات الأندية إلى ثلاث بطولات بدلًا من اثنتين، في خطوة تهدف إلى رفع القيمة التسويقية للمسابقات وزيادة جماهيريتها عالميًا، لتصبح القارة الصفراء أكثر جذبًا للاستثمارات والمتابعة. الموسم الماضي شهد تتويج الأهلي السعودي باللقب الأول في تاريخه بالبطولة بنظامها الجديد، بعدما تفوق على كاواساكي فرونتال الياباني بهدفين نظيفين في النهائي، ليؤكد \"الراقي\" مكانته كأحد أقوى أندية القارة، ويفتح الباب أمام الأندية السعودية الأخرى للحلم بالمجد الآسيوي. وفي هذا التقرير، يستعرض موقع كووورة جدول مباريات مجموعة الغرب في دوري أبطال آسيا للنخبة 2025-2026 والترتيب والقنوات الناقلة، وكل ما تريد معرفته.. جدول مواعيد مباريات مجموعة الغرب في دوري أبطال آسيا للنخبة 2025-2026؟ تبدأ مباريات مرحلة الدوري في منطقة الغرب يوم 15 سبتمبر/أيلول على أن تكون آخر المباريات في الجولة الثامنة يوم 17 فبراير/ شباط 2026. المرحلة الجولة الموعد مرحلة الدوري الأولى 15 سبتمبر - 16 سبتمبر 2025 الثا…",
-      "image": null,
-      "pubDate": "2025-10-20T15:55:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "f8a978ab65e49bad",
-      "title": "This smart lighting app has some spooky freebies to get you in the Halloween mood",
-      "link": "https://www.androidauthority.com/smart-light-app-halloween-scene-3608619/",
-      "summary": "iConnectHue adds free Halloween scenes for a limited time.",
-      "body": "Credit: LIFX TL;DR Halloween scenes are now available in the iConnectHue app. The animation set has expanded to include “Blood Moon” and “Abyss.” These animations are free to all users until mid-November. Time really flies by, as we’re already at that spooky time of the year again. Halloween is only a little more than a week away. If you’re in the Halloween spirit, the smart light app iConnectHue has a little something special for you. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/07/A-kitchen-lit-up-with-LIFX-smart-bulbs-and-lightstrips.jpg",
-      "pubDate": "2025-10-20T15:47:28.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f7330b4dba8f950e",
-      "title": "What awaits new Rangers manager Rohl?",
-      "link": "https://www.bbc.com/sport/football/articles/cvgv0wv098lo?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Scotland looks at what needs to be fixed at Rangers after Danny Rohl's appointment.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T15:43:23.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1738,22 +1290,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0dc8154381b87b41",
-      "title": "Oura’s got new tools to help you manage long-term stress",
-      "link": "https://www.androidauthority.com/oura-ring-cumulative-stress-blood-pressure-3608605/",
-      "summary": "Cumulative Stress tracking and a Blood Pressure Profile study are coming soon.",
-      "body": "TL;DR In the next few weeks, the Oura app is getting a major update with new stress management and period tracking functionality. Oura is also kicking off a trial to estimate users’ risk of high blood pressure in the coming months. The blood pressure trial will be open to Oura Labs participants. Smart ring maker Oura introduced stress tracking to its platform in 2023. Today, the company announced that it’s building on these shorter-term stress features with an upcoming tool that’s meant to give you insight into how your body is handling stress over time. Oura’s also taking the first steps to develop features that’ll warn users when their blood pressure may be creeping up. In a press release , Oura detailed a busy end to the year. Over the next few weeks, Oura will be rolling out a new Cumulative Stress feature, improvements to its Cycle Insights, and a major update to its app. It’s also kicking off a study to develop a feature it’s calling Blood Pressure Profile, which combine trends measured by Oura Ring wearables with questionnaire responses to give users a rough idea of whether their blood pressure may be cause for concern.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/oura-ring-4-flare-scaled.jpg",
-      "pubDate": "2025-10-20T15:18:18.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1821,54 +1357,6 @@
       "region": "global"
     },
     {
-      "id": "6de8d0c54e430f3a",
-      "title": "An Exynos-powered S26 Ultra could be a thing, but would you buy it?",
-      "link": "https://www.androidauthority.com/galaxy-s26-ultra-exynos-2600-open-thread-3608588/",
-      "summary": "We want to hear from you. Is an Exynos Galaxy S26 Ultra a no-go, or a hell yeah?",
-      "body": "This is an open thread. We want to hear from you! Share your thoughts in the comments and vote in the poll below — your take might be featured in a future roundup.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/05/samsung-galaxy-s25-ultra-joe-revisit-7-scaled.jpg",
-      "pubDate": "2025-10-20T12:53:40.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a3bc8e0ce5e9eadf",
-      "title": "OnePlus reveals OnePlus 15 battery size, and it puts S25 Ultra to shame",
-      "link": "https://www.androidauthority.com/oneplus-15-battery-size-3608565/",
-      "summary": "The OnePlus 13 already had a big battery, but the OnePlus 15 ups the ante.",
-      "body": "Credit: OnePlus/Weibo TL;DR OnePlus has revealed the OnePlus 15’s battery capacity, and it’ll offer a 7,300mAh battery. That means the phone’s battery is over 1,000mAh bigger than the OnePlus 13’s battery. The upcoming flagship will also offer 120W wired and 50W wireless charging. OnePlus will officially launch the OnePlus 15 in China next week, and the company has already revealed display specs and a few colors. Now, OnePlus has revealed the phone’s battery and charging specs. OnePlus confirmed on Weibo that the OnePlus 15 will have a 7,300mAh battery. That’s a significant upgrade over the OnePlus 13’s 6,000mAh battery, and a gigantic upgrade over phones like the Galaxy S25 Ultra (5,000mAh).",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/OnePlus-15-sand-dune-colorway-official-image.jpg",
-      "pubDate": "2025-10-20T12:46:03.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c25389d724f49e10",
-      "title": "مقارنة بين iPad Pro M5 و iPad Pro M4.. ما الجديد في أقوى جهاز لوحي من آبل؟",
-      "link": "https://aitnews.com/2025/10/20/%d9%85%d9%82%d8%a7%d8%b1%d9%86%d8%a9-%d8%a8%d9%8a%d9%86-ipad-pro-m5-%d9%88-ipad-pro-m4-%d9%85%d8%a7-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%a3%d9%82%d9%88%d9%89-%d8%ac%d9%87%d8%a7/",
-      "summary": "بعد أن رسّخ iPad Pro M4 مكانته كأقوى جهاز لوحي في فئته، تعود آبل هذا العام لتدفع الأداء إلى مستوى أعلى مع iPad Pro M5، الذي صُمم لتلبية احتياجات المستخدمين المحترفين وتقديم تجربة استخدام أكثر قوة وسلاسة. والسؤال الآن: ما الجديد الذي يقدّمه هذا الجهاز الرائد؟ وهل يجب على مستخدمي iPad Pro M4 الترقية؟…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T12:06:26.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f557c99dc9cf5a6b",
       "title": "Gen Z wonderkid, Devon revival & Moody returns - Prem talking points",
       "link": "https://www.bbc.com/sport/rugby-union/articles/ce3xnxy3epwo?at_medium=RSS&at_campaign=rss",
@@ -1882,22 +1370,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "69200c13dc578f48",
-      "title": "The Samsung Galaxy S25 FE is a good upgrade for anyone but newer FE owners",
-      "link": "https://www.androidauthority.com/samsung-galaxy-s25-fe-review-3601188/",
-      "summary": "A few long overdue upgrades, and a couple we're still waiting on.",
-      "body": "The Galaxy S20 FE marked the debut of the Fan Edition for Samsung, and it was a sensation upon its release back in 2020. It was a genuine flagship-tier Android phone that didn’t break the bank. I’ve long felt like subsequent releases have failed to live up to that initial device, as the Galaxy maker chose penny-pinching conservatism over a truly exciting product. Samsung has recently released the Galaxy S25 FE (), and I’ve spent just over two weeks with it. The good news is that the company is stepping up its game with a couple of long-overdue upgrades. But is this enough to make the phone worth buying? Let’s dive into our Galaxy S25 FE review.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-against-wall-showing-back.jpg",
-      "pubDate": "2025-10-20T11:34:43.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1949,22 +1421,6 @@
       "region": "global"
     },
     {
-      "id": "33896a0c33456764",
-      "title": "Watch this sub-$100 dual-screen Android gaming handheld play DS and 3DS games",
-      "link": "https://www.androidauthority.com/anbernic-rg-ds-gameplay-3608529/",
-      "summary": "It's not original hardware, but these emulation handhelds have come a long, long way.",
-      "body": "TL;DR The ANBERNIC RG DS is a new dual-screen handheld with a DS Lite form factor. A new video showcases not just Nintendo DS emulation, but also lightweight 3DS emulation. Details are still slim, but it will retail for less than $100. ANBERNIC has put out some very interesting Android gaming handhelds this year, like the PSP Go-inspired RG Slide , but the RG DS takes the cake. In a year that’s largely been defined by expensive dual-screen handhelds like the AYANEO Pocket DS and AYN Thor , this device finally brings the price below $100. A new video uploaded over the weekend finally shows the device in action, and despite the affordable price, it looks like it will be capable of much more than just DS games. The video shows off gameplay in two 3DS games: Rune Factory 4 and Shovel Knight. The former had some minor audio tearing, but otherwise gameplay seemed smooth.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/ANBERNIC-RG-DS-Shovel-Knight-3DS.jpg",
-      "pubDate": "2025-10-20T11:16:38.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "e6a9c57a9cd5009a",
       "title": "Boulter's poor run continues with first-round loss",
       "link": "https://www.bbc.com/sport/tennis/articles/ce8zy3vrrl8o?at_medium=RSS&at_campaign=rss",
@@ -1978,38 +1434,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "4be78a5d06a07e1c",
-      "title": "This new ‘Lite’ PC emulator removes sketchy permissions and trackers",
-      "link": "https://www.androidauthority.com/gamehub-lite-3608539/",
-      "summary": "GameHub has no shortage of trackers, analytics, and heavy-handed permissions, but GameHub Lite is to the rescue.",
-      "body": "Credit: Hadlee Simons / Android Authority TL;DR GameHub Lite has been released as an alternative to the GameHub PC emulator for Android. This is a reverse-engineered project that strips away GameHub’s trackers and extensive permissions. Controller brand GameSir launched the GameHub app early this year, allowing you to run PC games directly on your Android phone without an internet connection. There have been some privacy concerns about this app, but an enterprising developer has launched GameHub Lite to assuage these concerns. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/07/GameHub-on-phone-scaled.jpg",
-      "pubDate": "2025-10-20T11:02:48.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c5a465f57bd01ad2",
-      "title": "It’s been 5 months since I left T-Mobile, and I have no regrets",
-      "link": "https://www.androidauthority.com/five-months-since-i-left-t-mobile-no-regrets-3608328/",
-      "summary": "I'd say I made the right call.",
-      "body": "Earlier this year, I made a pretty drastic change in mobile carriers. After 10 years of being subscribed to T-Mobile , I decided it was time to call it quits and switch to a different provider. I moved not only myself, but also my partner and some of my family members to Visible, and that’s where we’ve been ever since. Fast forward to today, and it’s officially been over five months since T-Mobile and I parted ways. Now that the honeymoon phase with Visible is over and I’ve had time to really assess things, what’s my conclusion? Was the switch worth it?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/t-mobile-logo-pixel-hero-5-scaled.jpg",
-      "pubDate": "2025-10-20T10:30:23.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2045,38 +1469,6 @@
       "region": "global"
     },
     {
-      "id": "387f7b6bbc089614",
-      "title": "‘Ok Google’ can die; this is my favorite new way to talk to Gemini",
-      "link": "https://www.androidauthority.com/ok-google-vs-raise-to-talk-pixel-watch-4-3608289/",
-      "summary": "The Pixel Watch 4's new gesture makes talking to Gemini more seamless than ever.",
-      "body": "The Pixel Watch 4 has won me over with its longer battery life, faster charging, better repairability, and absolutely gorgeous new display, but one feature I keep finding myself swooning over is the new raise-to-talk gesture to invoke Gemini. I can simply raise my wrist in the direction of my head, and the Pixel Watch will immediately trigger a blue Gemini animation, telling me it’s ready to listen to my question or command. I love this so much that it’s reduced my usage of Nest speakers and hubs around the house because it doesn’t require the dreaded “Ok Google” first.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2020/01/hey-google-jacket-at-ces-2020.jpg",
-      "pubDate": "2025-10-20T10:00:14.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cfb3bcf2eb8c0b5b",
-      "title": "One of the best Android Auto dongles now plays nice with Apple CarPlay",
-      "link": "https://www.androidauthority.com/aawireless-two-plus-launched-3608290/",
-      "summary": "One adapter, two platforms, zero cables.",
-      "body": "TL;DR The AAWireless Two Plus just launched, adding Apple CarPlay support to the popular Android Auto adapter. It offers quick setup, easy phone switching, and automatic reconnection when you return to the car. The device is available now in the US and EU, with a UK launch coming soon. The startup behind one of our favorite Android Auto dongles has launched a new model that finally works for both major phone ecosystems. The new AAWireless Two Plus adapter brings wireless Android Auto and Apple CarPlay connectivity to cars that only support wired connections.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/AAWireless-Two-Plus-4-of-5.jpg",
-      "pubDate": "2025-10-20T10:00:01.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "e244e0d437c6ce51",
       "title": "What would Dyche bring to Forest?",
       "link": "https://www.bbc.com/sport/football/videos/c4gpxwz8jj4o?at_medium=RSS&at_campaign=rss",
@@ -2106,70 +1498,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "e9426d180a8926fe",
-      "title": "A ton of services are down or facing issues right now (Update: Fixes applied)",
-      "link": "https://www.androidauthority.com/aws-outage-services-down-3608513/",
-      "summary": "Update: Services affected by AWS issues should be coming back online now.",
-      "body": "Credit: Hadlee Simons / Android Authority TL;DR Users on a variety of websites and services are reporting outages and connectivity issues today. Affected services include Snapchat, Grammarly, Prime Video, Signal, Asana, and Slack. AWS has confirmed an issue and that it’s applied fixes for the problem. Update: October 20, 2025 (5:30 AM ET): Amazon has updated its AWS dashboard to confirm that it has applied fixes for the issue. The firm said it applied “initial mitigations” and noticed early signs of a recovery. “We are seeing significant signs of recovery. Most requests should now be succeeding. We continue to work through a backlog of queued requests. We will continue to provide additional information,” the company added in a subsequent update.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Prime-Video-offline-on-phone.jpg",
-      "pubDate": "2025-10-20T09:34:27.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "20ec35c6d8e96a10",
-      "title": "Is Reddit not working? Here are some fixes you can try!",
-      "link": "https://www.androidauthority.com/reddit-not-working-how-to-fix-1184723/",
-      "summary": "Here's some tips to get Reddit up and running again.",
-      "body": "Credit: Edgar Cervantes / Android Authority It’s nowhere close to Google, YouTube, or Facebook, but Reddit stays firm on the list of the most popular websites in the world. The network covers pretty much any subject, and has a strong following. The community is known for its loyalty, so we can understand how frustrating it can be when you have problems with Reddit not working. This rarely happens, so it might come as a shock. An outage is often the cause, but it could also be an external problem. Here’s a quick guide on how to fix any issues you might experience.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2021/09/Reddit-stock-photo.jpg",
-      "pubDate": "2025-10-20T09:24:16.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1e71820761163998",
-      "title": "I wish Google didn’t make smartphones",
-      "link": "https://www.androidauthority.com/drawbacks-to-google-making-smartphones-3603716/",
-      "summary": "Pixel is good for Google, but not for Android.",
-      "body": "While I always welcome more competition in the Android smartphone market, one key player I haven’t been so happy about is Google. At first, I was interested to see what Google could do and the potential that more stock Android smartphones could offer. But over time, that interest has turned into concern — to the point that I actually wish Google didn’t make smartphones. This isn’t due to the hardware itself or even Google as a company, but rather Google’s position as the primary developer of Android.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/Google-Pixel-10-in-Frost-vs-Google-Pixel-10-Pro-in-Moonstone-2-of-5.jpg",
-      "pubDate": "2025-10-20T09:00:06.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cccd153177f45a91",
-      "title": "Gemini for TV appears on another new device, and it’s still not the Google TV Streamer",
-      "link": "https://www.androidauthority.com/gemini-for-tv-sony-bravia-3608500/",
-      "summary": "Gemini creeps its way onto another Google TV set.",
-      "body": "Credit: Ryan Haines / Android Authority TL;DR A user has encountered a setup screen Gemini for Google TV on their Sony Bravia TV. The screen appeared after they updated their Google TV Home app. This is the first instance of Gemini for TV running on a device beyond TCL’s premier televisions. There’s still no word on when Gemini for TV will roll out to Google’s own devices. In September, Google began rolling out Gemini to Google TV products, as promised in May, but initially, only one device received the next-generation assistant. Now, it seems that support for additional devices may be imminent. A Reddit user, u/Proshis_Saha_Swopna , discovered the Gemini setup screen on their Sony Bravia TV running Android TV 14 after updating the Google TV Home app via the Play Store.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/01/Google-TV-with-Gemini-question-interface.jpg",
-      "pubDate": "2025-10-20T08:26:17.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2292,22 +1620,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-10-20T03:47:22.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "690f4c7a3566c99b",
-      "title": "'Demanding' Tandy set to name first Wales picks",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c4gpxj66n10o?at_medium=RSS&at_campaign=rss",
-      "summary": "Wales head coach Steve Tandy, about to pick his first squad, is described as \"beautiful\" and \"awesome\" by Filo Tiatia.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-20T03:46:57.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2589,102 +1901,6 @@
       "region": "global"
     },
     {
-      "id": "8f78d3daf6fd1df2",
-      "title": "I brought Nova Launcher’s best feature to my new launcher, but I don’t think you should",
-      "link": "https://www.androidauthority.com/nova-launcher-best-feature-sesame-shortcuts-3608155/",
-      "summary": "Three years since its last update, Sesame is no longer at the peak of its power.",
-      "body": "Saying that Nova Launcher had a profound impact on the Android we know and love today would be an understatement. The launcher endured over a dozen operating system versions and opened up a universe of customization to users. Not only that, it also made app search and discovery a huge part of its functionality, forcing competing launchers to up their game. These smarts are largely thanks to Sesame Shortcuts . Although Nova Launcher’s death knell has already sounded, my recent thoughts have turned to Sesame Shortcuts’ dim future. But, for now at least, you can still integrate the powerful search app in your new Android launcher. Here’s how to do it, why you might want to think twice about it, and what you should consider before doing it.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/nova-launcher-sesame-shortcuts-feature-1.jpg",
-      "pubDate": "2025-10-19T12:00:36.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2d12aa98ea0fa5bd",
-      "title": "5 ways the Galaxy Z Fold 7 beats the Pixel 10 Pro Fold",
-      "link": "https://www.androidauthority.com/google-pixel-10-pro-fold-vs-samsung-galaxy-z-fold-7-3605727/",
-      "summary": "One is the future, the other is history repeating itself.",
-      "body": "Credit: Adamya Sharma / Android Authority It’s been an exciting year for foldable phones, thanks largely to the Galaxy Z Fold 7 . It’s a phone I haven’t been able to put down since launch. It’s not my daily driver, but it’s become my go-to work phone, the one that always draws a few too many stares for my liking. This is the year Samsung reclaimed mastery over the form factor and reminded everyone that foldables aren’t a fad, they’re the future.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Google-Pixel-10-Pro-vs-Galaxy-Z-Fold-7-Cover.jpg",
-      "pubDate": "2025-10-19T11:00:46.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5588670304829915",
-      "title": "I tried Apple SharePlay, and now Google’s version feels like a beta test",
-      "link": "https://www.androidauthority.com/apple-shareplay-vs-google-live-sharing-android-3607462/",
-      "summary": "Google has a LOT of work to do.",
-      "body": "SharePlay isn’t new. It’s been around on Apple devices for a few years now, allowing you to team up with friends or family to watch something together, syncing video streams over a video call. It’s a handy tool when your loved ones aren’t in the same location. As with everything Apple, you can’t use it outside of the walled garden, so Android users are left out. To counter that, Google made its own version of SharePlay (I don’t blame you if you’ve never heard of it), but it leaves you wanting more — much more. After a moment of using it, I thought, “That’s it? That’s all it does?”",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/07/ipad-air-facetime.jpg",
-      "pubDate": "2025-10-19T10:30:21.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3a5645963996f2e9",
-      "title": "These 6 lesser-known free apps make my life easier",
-      "link": "https://www.androidauthority.com/lesser-known-useful-apps-3607263/",
-      "summary": "Sometimes, focused is better.",
-      "body": "For a while, I wanted to keep my phone as streamlined as possible, only keeping my essential apps installed. But this year has been a tough one and keeping track of everything mentally has been getting more difficult to do. I decided to start leaning on some niche apps, while not adding on additional subscriptions, to help me keep track of everything. Overall, it has proven to be a positive change. While not every app I’ve tried has been a hit, these six have proven to be hidden gems that make my life easier.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/useful-free-apps-on-a-smartphone-screen-scaled.jpg",
-      "pubDate": "2025-10-19T10:00:55.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c63c02aaaecbfe75",
-      "title": "Whatever you do, don’t buy these 6 Google gadgets right now",
-      "link": "https://www.androidauthority.com/dont-buy-these-google-gadgets-october-2025-3608007/",
-      "summary": "The stinkers of the Google Store.",
-      "body": "As the weather gets colder and the days get shorter, that can only mean one thing: fall is officially here. Not only is this the time for pumpkin spice lattes and haunted houses, but there’s also a good chance you’re starting to think about your upcoming holiday shopping. And if you’re an Android fan, you’re probably going to do some of that shopping on the Google Store. Front and center on the Google Store today are all of Google’s latest releases — including the Pixel 10 , Pixel 10 Pro , Pixel Watch 4 , and the shockingly good Pixel Buds 2a . They’re the best of what Google has to offer, and they’re likely what you’re visiting the Google Store for.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/old-google-gadgets-hero-pixel-9-pixel-tablet-1-scaled.jpg",
-      "pubDate": "2025-10-19T09:30:02.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "78332badf2d76bee",
-      "title": "It’s time for Samsung to ditch the Galaxy Store",
-      "link": "https://www.androidauthority.com/samsung-should-ditch-galaxy-store-3607055/",
-      "summary": "The Galaxy Store is broken, irrelevant, and still full of ads — it's time to move on.",
-      "body": "Samsung’s Galaxy Store has been around for a long time, and it’s where you’d go to download and update Samsung apps, Galaxy Themes, apps for your Tizen smartwatch, and more. In recent years, however, the Galaxy Store has become less relevant, and today it’s little more than an annoyance that lives in a forgotten folder on my Galaxy S25 . It’s time for Samsung to cut its losses and move everything to the Play Store. Pop-ups and failed updates",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2023/11/Samsung-Galaxy-Store-app-icon-in-app-drawer-search.jpg",
-      "pubDate": "2025-10-19T09:00:18.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "86ce31241734d74e",
       "title": "Root or Smith? Build your combined Ashes XI",
       "link": "https://www.bbc.com/sport/cricket/articles/cr5en5m50zno?at_medium=RSS&at_campaign=rss",
@@ -2813,102 +2029,6 @@
       "region": "global"
     },
     {
-      "id": "9e085543bb7c2410",
-      "title": "Amazon says the Kindle Colorsoft isn’t great for reading books, and I agree",
-      "link": "https://www.androidauthority.com/kindle-colorsoft-not-great-for-reading-3607576/",
-      "summary": "Color me unsurprised.",
-      "body": "Amazon rarely undercuts its own products, but when the company quietly slipped a caveat into the FAQ for its new Colorsoft Kindle , it made one thing abundantly clear: if you care about crisp, black-and-white reading, buy something else. As someone who still acts like they’ll earn a pizza party if they read enough books, I spend a lot of time with my Kindle. Amazon’s honest take doesn’t surprise me (and won’t surprise anyone who’s read on both types of e-reader), but it’s a rare day I find myself agreeing with the company about anything. Kindle Colorsoft’s honest fine print",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/kindle_scribe_color_1.jpg",
-      "pubDate": "2025-10-18T13:00:51.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7f68512a45447fb3",
-      "title": "A new (artificial) era for Google Photos",
-      "link": "https://www.androidauthority.com/authority-insights-podcast-009-3608297/",
-      "summary": "Thanks to AI and XR, Google Photos is entering a new era of content creation - for better or worse.",
-      "body": "https://www.youtube.com/watch?v=_ZF42Sm4Gq0 This week, Mishaal Rahman and C. Scott Brown dive into a suite of upcoming Google Photos features that could change how we create and remember our favorite moments. They discuss new AI-powered highlight video templates that automate editing, the controversial introduction of face-retouching tools, and the exciting prospect of reliving memories in a 3D spatial environment with a new generation of Android XR headsets. The Authority Insights Podcast is a new weekly show from the Android Authority team hosted by Mishaal Rahman and C. Scott Brown. In each episode, we’ll break down the latest exclusive reports, app teardowns, and leaks from the Android Authority team.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Episode-Thumbnail-2.jpg",
-      "pubDate": "2025-10-18T12:01:03.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e20c4ba69d917e34",
-      "title": "Google is preparing big screen recording upgrades for Android tablets and PCs",
-      "link": "https://www.androidauthority.com/android-screen-recorder-toolbar-rumor-3608449/",
-      "summary": "Google is adding a toolbar, selfie camera capture, and more features to Android’s screen recorder.",
-      "body": "If you want to share your Android phone’s screen content, you have a few options: take a screenshot , cast the screen, or record it with the built-in screen recorder. The screen recorder has been around for a couple of years now, but it’s still fairly basic. Despite receiving a few new features in recent years, it lacks many quality-of-life improvements found in other operating systems. Now, in preparation for Android coming to PCs , Google is working on a major upgrade to the feature. Here’s an early look. You’re reading the Authority Insights Newsletter , a weekly newsletter that reveals some new facet of Android that hasn’t been reported on anywhere else. If you’re looking for the latest scoops, the hottest leaks, and breaking news on Google’s Android operating system and other mobile tech topics, then we’ve got you covered.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Photo-of-new-screen-recorder-toolbar-on-an-Android-tablet-scaled.jpg",
-      "pubDate": "2025-10-18T12:00:07.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "74e3215f4ca1f2c2",
-      "title": "I’m a Pixel and foldable fan, but the Pixel 10 Pro Fold isn’t for me",
-      "link": "https://www.androidauthority.com/google-pixel-10-pro-fold-review-3605611/",
-      "summary": "How badly do you want a foldable Pixel?",
-      "body": "The Google Pixel 10 Pro Fold is a very good foldable. It’s the first folding phone with an IP68 rating and built-in magnetic charging. Staples like a good hinge, reliable battery life, quality screens, and well-made software are all present. By all of those accounts, the Pixel 10 Pro Fold should be an easy recommendation. And yet, I think it’s the most challenging model to recommend out of the entire Pixel 10 series.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/google-pixel-10-pro-fold-standing-hero-4-scaled.jpg",
-      "pubDate": "2025-10-18T10:30:57.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9a11b1def2da975d",
-      "title": "It’s the little things: 4 quality-of-life updates I want to see in Gemini",
-      "link": "https://www.androidauthority.com/gemini-quality-of-life-updates-3607636/",
-      "summary": "The AI chatbot can be vastly improved with minimal effort.",
-      "body": "Credit: Megan Ellis / Android Authority Gemini is one of my favorite apps, but there’s definitely room for improvement. I want to see changes, but I’m not talking about anything super substantial here. Sure, we all want tools like Gemini to be faster, more engaging, and 100% factual, but that’s not the point of this post. I want to highlight a few smaller changes that I personally want to see that would drastically elevate the experience with Google’s AI chatbot. Don’t be weird, Gemini",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/gemini-app-on-a-smartphone-screen-with-a-greeting-scaled.jpg",
-      "pubDate": "2025-10-18T10:00:15.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "aaf5b4fa50e620b1",
-      "title": "This Android launcher goes all in on widgets, and I absolutely love it",
-      "link": "https://www.androidauthority.com/aio-launcher-3607681/",
-      "summary": "I came from Niagara and I’m not sure I want to go back.",
-      "body": "I’ve used almost every major Android launcher in recent years, some for a few days for testing purposes and others for years as the backbone of my smartphone’s home screen. These launchers range from the now-deprecated Nova Launcher to hot new properties like Octopi Launcher . Through it all, I’ve settled on Niagara Launcher thanks to its minimalist, productivity-focused design, which I’ve thoughtfully integrated into my daily workflow. However, as readers know, I’m always ready to reevaluate my choices and consider better alternatives. Today, I’m exploring AIO Launcher . Although I’ve seen many users recommend this app across various online forums, I haven’t spent much time exploring all its features. And wow, there’s a lot to uncover here. Not a smooth transition At its core, AIO Launcher is unlike any other home screen on the market. It’s decidedly different from traditional products like Nova Launcher and Smart Launcher, but I can’t quite compare it to other niche launchers. The best way to describe it is as an amalgamation of Kvaesitso’s endless scrolling home screen and Niagara Launcher’s app drawer, but this isn’t a bang-on description.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/aio-launcher-android-launcher-2.jpg",
-      "pubDate": "2025-10-18T09:30:41.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c3bfb310810dea54",
       "title": "جدل فلكي.. علماء يرصدون أدلة محتملة على \"نجم خفي\"",
       "link": "https://www.skynewsarabia.com/technology/1827945-%D8%AC%D8%AF%D9%84-%D9%81%D9%84%D9%83%D9%8A-%D8%B9%D9%84%D9%85%D8%A7%D8%A1-%D9%8A%D8%B1%D8%B5%D8%AF%D9%88%D9%86-%D8%A7%D9%94%D8%AF%D9%84%D8%A9-%D9%85%D8%AD%D8%AA%D9%85%D9%84%D8%A9-%D9%86%D8%AC%D9%85-%D8%AE%D9%81%D9%8A",
@@ -2922,38 +2042,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cf286ae6f9c9cba5",
-      "title": "We’ve tested the best phones with an IR blaster, and these are the ones you should buy in 2025",
-      "link": "https://www.androidauthority.com/best-phone-ir-blaster-3604234/",
-      "summary": "These are your best smartphone options if you're in need of an infrared blaster.",
-      "body": "There was a time when smartphones packed everything and the kitchen sink, including headphone jacks, removable batteries, notification LEDs, and IR blasters. While those first three have largely fallen by the wayside, there are a few notable Android smartphones that still include the infrared projector. IR blasters are super useful for controlling other devices, like TVs and audio equipment. We’ve tested a slew of Android phones in 2025, but only a handful include IR blasters that are worth your time. I’ve narrowed your choices based on use cases, price points, and unique selling points.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/04/oneplus-13-close-up-logo-phone-scaled.jpg",
-      "pubDate": "2025-10-18T09:15:03.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d7463668e267e2ca",
-      "title": "3 carriers with international features that rival Google Fi",
-      "link": "https://www.androidauthority.com/google-fi-alternatives-3598182/",
-      "summary": "Visible, US Mobile, and Total all offer some advantages over Google Fi. Of course, none of these are perfect.",
-      "body": "Credit: Edgar Cervantes / Android Authority Google Fi has long been the go-to choice for travelers thanks to its unlimited plans with international roaming and calling perks. In fact, it often outperforms even the most expensive options from the big three postpaid carriers. The downside is that Fi’s “unlimited” data is not truly unlimited, with speeds dropping dramatically after 30 to 100GB of use. Add in premium pricing and a mixed reputation for customer service, and it is clear Google Fi is not perfect. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/06/Google-Fi-Wireless-logo-on-smartphone-with-colored-background-stock-photo.jpg",
-      "pubDate": "2025-10-18T09:00:52.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2973,102 +2061,6 @@
       "region": "global"
     },
     {
-      "id": "79058d7ae4595de9",
-      "title": "Is AT&T down for you? You’re not alone (Update: Resolved)",
-      "link": "https://www.androidauthority.com/att-network-is-down-3608425/",
-      "summary": "AT&T is currently experiencing issues.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR AT&amp;T users are reporting that the service is down. It appears the reports began as early as this morning, but now the reports are spiking. Update: October 17, 2025 (7:58 PM ET): After a brief outage, it appears that AT&amp;T’s network is starting to return to normal. Original article: October 17, 2025 (5:17 PM ET): If you’re an AT&amp;T customer and you’re having trouble with the service, you’re not alone. A growing number of users are reporting that the network is experiencing an outage.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2019/10/ATT-logo-stock-image-2.jpg",
-      "pubDate": "2025-10-17T22:58:15.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "78acd5dfe0fb97c9",
-      "title": "Google Play spills the beans on what apps and games are coming to Android XR",
-      "link": "https://www.androidauthority.com/google-play-apps-games-android-xr-early-listings-3608434/",
-      "summary": "The Galaxy XR may not be out yet, but the Play Store isn't waiting around.",
-      "body": "TL;DR A new Play Store section highlights apps and games built for Android XR. Titles spotted include Asteroid, Vacation Simulator, and NFL Pro Era. Virtual Desktop has also appeared, hinting at PCVR streaming support for the platform. The big Galaxy XR headset reveal is just around the corner, but Google seems unconcerned about syncing everything perfectly with Samsung’s timing. A section on the Play Store has popped up showcasing “immersive experiences made for your XR headset,” giving us a decent idea of what’s on the way for Android XR. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Google-Play-Store-Listings-for-XR-headset.jpg",
-      "pubDate": "2025-10-17T22:02:06.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9ab9674d19f8ed2d",
-      "title": "The next version of Google Gemini could be just around the corner (Update: Maybe not?)",
-      "link": "https://www.androidauthority.com/gemini-3-possible-launch-date-3606795/",
-      "summary": "An announcement could happen in the very near future.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR A leak may have revealed when Google plans to launch Gemini 3.0. The leak suggests we’ll get an announcement on Oct 22, 2025. Update, October 17, 2025 (05:16 PM ET): It hasn’t even been a week yet since we looked at this possible leak into a Gemini 3.0 ETA, and now a new source is throwing just a lot of cold water on those claims. The site Sources reports that contrary to what we just heard, Google will stick with the same December launch for Gemini 3.0 that it used for Gemini 2.0 and Gemini 1.0 before it.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/02/Google-Gemini-logo-on-smartphone-stock-photo-6.jpg",
-      "pubDate": "2025-10-17T21:16:50.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8b37ec31d5d97b4f",
-      "title": "That weird camera gimbal ‘Robot Phone’ might actually go up for sale next year",
-      "link": "https://www.androidauthority.com/robot-phone-progress-3608390/",
-      "summary": "The hardware could be a lot further along than its AI-looking video suggested.",
-      "body": "TL;DR Earlier this week, HONOR teased a phone with a unique camera gimbal arm. While the company said we’d see more at MWC, the very AI-looking nature of the video left it unclear how far along this project is. A new source claims that work on the prototype is 80% complete. In 2025, telling the difference between what’s real and what’s not can feel like a Sisyphean task. Generative AI tools are becoming more sophisticated every day, and while lots of AI content is still easy to spot, who knows how much you’re missing? Earlier this week we checked out one of the most impressive-looking phone hardware teasers we’ve seen in a minute, but was it even real? Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/honor-robot-phone-clouds.jpg",
-      "pubDate": "2025-10-17T21:08:20.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f8fe81e0cf9ef6ea",
-      "title": "A Nothing Phone 1 user may have figured out how to get Android 16 on their device",
-      "link": "https://www.androidauthority.com/nothing-phone-1-android-16-3608405/",
-      "summary": "The port is reportedly not ready for everyone yet.",
-      "body": "Credit: Oliver Cragg / Android Authority TL;DR A developer claims to have successfully installed Nothing OS 4.0 on a Phone 1. Everything reportedly works, including the new Camera app and its presets. There are a few issues, like the clock in the status bar not being correctly aligned. Although Android 16 has been available on Pixels for a while now, many other Android phones are just now starting to get a taste. For example, Nothing recently rolled out the Nothing OS 4.0 beta , which is based on Android 16. This beta is only available for the Phone 2, Phone 2a, Phone 2a Pro, Phone 3, and eventually the Phone 3a. However, it appears a developer may have found a way to get the OS running on a Phone 1. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/07/nothing-phone-1-glyph-on-rear-scaled.jpeg",
-      "pubDate": "2025-10-17T20:50:12.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9680cba95f3da465",
-      "title": "OnePlus tries to show OxygenOS 16 is snappier than One UI, but something’s fishy",
-      "link": "https://www.androidauthority.com/oneplus-oxygenos-16-vs-samsung-one-ui-speed-3608394/",
-      "summary": "Skill issue.",
-      "body": "TL;DR OnePlus has detailed its upcoming OxygenOS 16 update. A head-to-head comparison with Samsung One UI was meant to show that OnePlus’s software is more respsonsive. Closer viewing shows One UI failed to keep pace largely due to user error. OnePlus’s latest OxygenOS 16 update is set to begin rolling out broadly next month . The update will bring a bunch of new features , including, OnePlus says, enhancements to its Parallel Processing, which is meant to make opening and switching apps feel faster. In a video showcasing the new update, OnePlus compared the app switching experience in OxygenOS to Samsung’s One UI — but the demo seemed intentionally dishonest. As flagged by uyagoda_ on Threads, a split-screen pitting OxygenOS 16 against Samsung One UI (labeled “Other Flagship UI”) appears to show a Samsung phone hanging as a game loads while the OnePlus phone next to it continued to fly through cycling in and out of various apps. At a glance, it looks bad for Samsung, but on closer inspection, the One UI hiccup was pretty clearly user error.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Photo-of-Android-16-logo-on-a-OnePlus-13-scaled.jpg",
-      "pubDate": "2025-10-17T20:23:20.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "96bbbdcb1bac1a9b",
       "title": "الماء والشاي والقهوة.. ماذا يفعل جمع هذه المشروبات بصحتك؟",
       "link": "https://www.skynewsarabia.com/technology/1827892-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%B4%D8%A7%D9%8A-%D9%88%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D9%8A%D9%81%D8%B9%D9%84-%D8%AC%D9%85%D8%B9-%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%A8%D8%A7%D8%AA-%D8%A8%D8%B5%D8%AD%D8%AA%D9%83%D8%9F",
@@ -3085,262 +2077,6 @@
       "region": "global"
     },
     {
-      "id": "c1b3636fd169177e",
-      "title": "Galaxy S26 Edge out, S26 Plus in: Listing suggests Samsung lineup reversal",
-      "link": "https://www.androidauthority.com/galaxy-s26-plus-imei-listing-3608365/",
-      "summary": "This is the latest evidence that the Plus is still alive.",
-      "body": "Credit: Ryan Haines / Android Authority TL;DR The Samsung Galaxy S26 Plus has appeared in a listing on the IMEI database. According to the listing, the phone carries the model number SM-S947B. A rumor claims the Galaxy S26 series will launch in March 2026. Rumors and leaks have been swirling around the Galaxy S26 series. Some of the most interesting of which regard the Galaxy S26 Plus and Galaxy S26 Edge. At first, we heard that Samsung may replace the Plus with the Edge. Now the pendulum is swinging the other way, as we’re now hearing that the Plus may be safe and the Edge may be out. Lending further credence to the Plus making its return, the model has been spotted on a database. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/07/Samsung-Galaxy-S25-Plus-vs-Galaxy-S25-Edge-laying-flat.jpg",
-      "pubDate": "2025-10-17T19:35:20.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a04e72e2f2b4f555",
-      "title": "Google Maps might finally let you personalize your vehicle before hitting the road",
-      "link": "https://www.androidauthority.com/google-maps-avatar-settings-apk-teardown-3608362/",
-      "summary": "Changing your car icon when you’re not meant to be focused on driving makes sense.",
-      "body": "TL;DR In the latest Google Maps build, we managed to enable a setting that lets you choose your Driving avatar in the settings menu. Right now, you can only change the icon from the navigation screen. Choosing it before setting off would mean you can give the road your full focus. Google Maps already lets you swap that little blue arrow for something that feels a bit more like your own ride, whether that’s a sporty hatchback or a pickup truck. The catch is that you can only do it once navigation has started. However, we’ve unearthed clues that this might be about to change. NEWSLETTER | Authority Insights --> Authority Insights You're reading an Authority Insights story. Subscribe to our new Authority Insights newsletter for more exclusive reports, app teardowns, leaks, and in-depth tech coverage you won't find anywhere else. sign up now By signing up, you agree to our Terms of Use and acknowledge the data practices in our Privacy Policy. You may unsubscribe at any time. As it stands, once on the route navigation screen, you can change the icon representing your location by tapping on the blue arrow to bring up the menu of avatars on offer. You can get to the same selection by pul…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/08/Google-Maps-stock-photo-2.jpg",
-      "pubDate": "2025-10-17T19:21:45.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b161b1de79de1dde",
-      "title": "These Google Maps search-along-route changes are one step forward, and one step back",
-      "link": "https://www.androidauthority.com/maps-search-along-route-3608343/",
-      "summary": "Maps is working on new filters for destinations you add to a route.",
-      "body": "TL;DR Google Maps may be considering a change to its interface for adding stops to a route. Instead of seeing options on the map, you could choose them from a list, and also filter those results. The new filters also appear to be in the works for Maps on Android Auto. Plans change, but when they do, Google Maps is ready to roll with the punches. Even if we’re already in the middle of a journey, Maps makes it easy to search for new destinations along our route, and add them as new stops in just a couple taps. While that works great, Google has never been one to leave well enough alone, and we’ve spotted the company’s developers working on what looks like a new approach to how we add destinations like that. NEWSLETTER | Authority Insights --> Authority Insights You're reading an Authority Insights story. Subscribe to our new Authority Insights newsletter for more exclusive reports, app teardowns, leaks, and in-depth tech coverage you won't find anywhere else. sign up now By signing up, you agree to our Terms of Use and acknowledge the data practices in our Privacy Policy. You may unsubscribe at any time. Today we’re looking at version 25.42.02.817770306 of Google Maps for Android, a…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/01/google-maps-custom-routes-add-stops-2.jpg",
-      "pubDate": "2025-10-17T19:03:07.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "df33e1db9d54cb48",
-      "title": "Save $400 on the Motorola Razr Plus or Ultra!",
-      "link": "https://www.androidauthority.com/motorola-razr-plus-ultra-deals-3608237/",
-      "summary": "These deals are flipping awesome!",
-      "body": "Credit: Ryan Haines / Android Authority Samsung foldables may be more popular, but Motorola makes some awesome flip phones that don’t fall far behind. In fact, many would prefer these. They are also at great prices right now. You can save $400 on both the Motorola Razr Plus and Razr Ultra. Buy the Motorola Razr Plus for just $599.99 ($400 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/04/Motorola-Razr-2025-series-cover-screens.jpg",
-      "pubDate": "2025-10-17T18:50:38.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7909a5e0f6f49d87",
-      "title": "Stock up on rechargeable batteries with this deal!",
-      "link": "https://www.androidauthority.com/imuto-rechargeable-4-aaa-and-4-aa-batteries-with-charger-deal-3608238/",
-      "summary": "Love it or hate it, we still need these! Might as well save money on them.",
-      "body": "Credit: Amazon Like it or not, traditional AA and AAA batteries are still necessary. If you’ve been looking to get some, here’s a nice deal on a setup that should keep most people covered. This bundle of Imuto Rechargeable 4 AAA and 4 AA Batteries with Charger is only $20.79, which is a record-low price for this product. Buy the Imuto Rechargeable 4 AAA and 4 AA Batteries with Charger for just $20.79 ($5.20 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Imuto-Rechargeable-4-AAA-and-4-AA-Batteries-with-Charger.jpg",
-      "pubDate": "2025-10-17T17:46:05.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4204a2a6c4c84b2c",
-      "title": "Sony Xperia 1 VIII surfaces for the first time",
-      "link": "https://www.androidauthority.com/sony-xperia-1-viii-model-numbers-3608309/",
-      "summary": "Here are the model numbers for the Xperia 1 VIII.",
-      "body": "Credit: Robert Triggs / Android Authority TL;DR The Sony Xperia 1 VIII has been spotted in a database for eSIM-compatible phones. The model numbers are PM-1521-BV, PM-1522-BV, and PM-1523-BV. These model numbers are likely for the phone and its variants rather than three different models. There was a time when the fate of the Xperia line felt like it was up in the air, as it seemed the company was readying an exit from the mobile phone sector. However, Sony’s CFO confirmed that the firm still plans to support Xperia phones. Qualcomm also mentioned Sony as one of the manufacturers that will be taking advantage of its latest processor. As further proof that the Xperia line continues on, the company’s next Android flagship was recently spotted on a database. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/08/Sony-Xperia-1-VII-camera-bar.jpg",
-      "pubDate": "2025-10-17T17:34:42.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "42327b1c5bdb5585",
-      "title": "The Yaber T1 Pro Mini Projector is really cool, and you can save $60 on it right now",
-      "link": "https://www.androidauthority.com/yaber-t1-pro-mini-projector-deal-3-3608239/",
-      "summary": "Cozy up and enjoy your favorite movies with this fun projector.",
-      "body": "Credit: Yaber The weekend is upon us, and it’s time to start planning for the fun. My days off always involve enjoying a movie or two, and I appreciate them more with my projector. Want in on the fun? Check out this deal on the Yaber T1 Pro Mini Projector. Buy the Yaber T1 Pro Mini Projector for just $139.99 ($60 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/07/Yaber-T1-Pro-featured.jpg",
-      "pubDate": "2025-10-17T17:06:45.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3cd190eff0ac8963",
-      "title": "You can now preorder AYANEO’s cheapest handheld yet, without the FOMO pricing",
-      "link": "https://www.androidauthority.com/ayaneo-pocket-air-mini-launch-3608260/",
-      "summary": "The unbeatable super early bird pricing is here to stay.",
-      "body": "Credit: AYANEO TL;DR The AYANEO Pocket AIR Mini is now available to pre-order on Indiegogo. The budget device starts at $69.99 and offers some GameCube and PS2 support. Super early bird pricing will be available for 30 days, and shipping starts at the end of November. AYANEO made big waves when it announced its first truly affordable device, the Pocket AIR Mini. It combines the company’s boutique design chops with a price that’s extremely competitive in the Android gaming handheld market, and starting today, you can finally buy one. Or at least, you can pre-order one. The Indiegogo campaign kicked off this morning, and as of writing, it’s already racked up over $50,000 in orders. The device was a big seller when it launched in China last month, so expect that number to climb over the weekend and beyond.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/AYANEO-Pocket-AIR-Mini-colorways.jpg",
-      "pubDate": "2025-10-17T16:40:35.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "82367374ae655bd3",
-      "title": "Take 31% off the GoPro HERO13 Black Ultra Wide Edition action camera",
-      "link": "https://www.androidauthority.com/gopro-hero13-black-ultra-wide-edition-deal-2-3608240/",
-      "summary": "That's a $150 discount!",
-      "body": "Credit: GoPro via Amazon For several years, GoPro cameras have been the go-to for everyone looking to record their adventures. Today, we have a deal that will get you one of the hottest ones at a 31% discount: the GoPro HERO13 Black Ultra Wide Edition is $150 off! Buy the GoPro HERO13 Black Ultra Wide Edition for just $329.99 ($150 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Switching-lens-on-GoPro-HERO13-Black-Ultra-Wide-Edition.jpg",
-      "pubDate": "2025-10-17T16:14:00.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ca28365058a4679d",
-      "title": "A clever USB hack might just save QPR2 Beta 3 testers from their bootloops",
-      "link": "https://www.androidauthority.com/qpr2-beta-3-fix-3608225/",
-      "summary": "QPR2 Beta 3 testers are going to ridiculous lengths save their phones.",
-      "body": "TL;DR Google has pulled Android 16 QPR2 Beta 3 due to the risk of it bootlooping phones with desktop settings enabled. Users who already installed the update have been looking for solutions to escape the loop without a factory reset. A method involving plugging and unplugging USB peripherals has proved fruitful, but can be very slow to get results. Trying out beta software means accepting some level of risk, but how much do you really expect to break when running an Android beta? Maybe Google Wallet stops working? Fingerprint sensor shuts down? A few app crashes, sure, but most of the time Google still manages to give us a largely functional piece of software. That may be true, but this week was apparently the exception that proves the rule, as Google was forced to pump the brakes on Android 16 QPR2 Beta 3 following reports of some seriously phone-breaking glitches. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/07/android-16-update-screens-samsung-google-scaled.jpg",
-      "pubDate": "2025-10-17T16:00:19.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "66b1435d96e843d1",
-      "title": "Fairphone proves patience pays off with a surprise Android 15 jump",
-      "link": "https://www.androidauthority.com/fairphone-4-getting-android-15-3608254/",
-      "summary": "Last year’s delay turns into an unexpected bonus for Fairphone 4 owners.",
-      "body": "TL;DR The Fairphone 4 will skip Android 14 and jump straight to Android 15 in early November. According to the company, development sped up after last year’s Qualcomm-related delay. The update will roll out in batches, bringing the 2021 phone in line with its successors. Fairphone 4 owners have waited a long time for their next big software update, and in return for that patience, they’re getting more than they expected. The company has confirmed that it’s skipping Android 14 entirely and going straight to Android 15 , with the rollout planned for early November. The announcement comes from a Fairphone employee on the company’s Community Forum , who said development has “sped up” enough to make the jump possible. The update will roll out in batches, so don’t worry if it doesn’t appear on your phone right away.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2023/08/Fairphone-5-20.jpg",
-      "pubDate": "2025-10-17T15:33:11.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "bf7040ba6ed9d791",
-      "title": "HTC may be entering the gaming phone arena with a budget model",
-      "link": "https://www.androidauthority.com/new-htc-wildfire-series-phones-3608222/",
-      "summary": "HTC is cooking up some new Wildfire series phones.",
-      "body": "Credit: Yasuhiro Yamane TL;DR A group of new HTC phones was spotted at the GITEX 2025 tech exhibition. The phones are new additions to the Wildfire series. One of the devices appears to be a budget gaming phone, which may be powered by a Unisoc T765 chip and a 5,600mAh battery. GITEX, a global tech exhibition, is taking place in Dubai this week. As you would expect, a variety of brands are at the event to showcase their wares. Even HTC is taking part in the action, and it’s showing off several new Android phones in the Wildfire series. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/HTC-gaming-phone.jpg",
-      "pubDate": "2025-10-17T15:28:39.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "95c6aebd483a6fef",
-      "title": "Get a load of One UI 8.5’s flashy new lock screen media animation",
-      "link": "https://www.androidauthority.com/one-ui-8-5-lock-screen-media-animation-3608214/",
-      "summary": "Whoosh!",
-      "body": "TL;DR A new animation that plays when skipping tracks from the lock screen in Samsung One UI 8.5 has appeared on Twitter. One UI 8.5 is not officially released yet and this animation is subject to change. A beta program for One UI 8.5 is expected to begin in the coming weeks. We’ve seen a lot of One UI 8.5 in recent weeks, stemming from leaked builds that have made their way out ahead of an official beta reportedly starting before the end of the year . Early this morning, a splashy new lock screen media animation from an in-progress One UI 8.5 build surfaced on Twitter. A video shared by Tarun Vats on Twitter demonstrates the new effect on a phone running One UI 8.5. When tapping to skip forward or back, large album art fades from one album to the next, along with a sort of wipe effect that expands from one or two seemingly random spots within the frame.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/05/samsung-galaxy-s25-ultra-joe-revisit-11-scaled.jpg",
-      "pubDate": "2025-10-17T15:15:38.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "77c79bb6188f26e2",
-      "title": "Deal: Ember Smart Cup starts your day with a hot cup of joe, and keeps it hot!",
-      "link": "https://www.androidauthority.com/ember-cup-6oz-deal-3608241/",
-      "summary": "There's nothing worse than a cold sip of joe!",
-      "body": "Credit: Ember It turns out many of our readers are morning people, so I am waking up earlier to write these deals. My morning coffee has never been as important as now, and if you can relate, have I got a deal for you! The Ember Cup (6oz) is just $49.98, which is a half-off sale! Buy the Ember Smart Cup 6oz for just $49.98 ($49.97 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Ember-Smart-Cup-in-kitchen.jpg",
-      "pubDate": "2025-10-17T15:10:09.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "49c113a2bd86a977",
-      "title": "This tiny clamshell might be your next EDC gaming handheld",
-      "link": "https://www.androidauthority.com/miyoo-mini-flip-launch-3608182/",
-      "summary": "The miniature Game Boy Advance SP clone is launching this weekend.",
-      "body": "TL;DR The Miyoo Mini Flip is a new clamshell gaming handheld with a tiny form factor. It has the same 2.8-inch screen as the Miyoo Mini, another very popular handheld. Orders start October 19 at 8 PM PT, although full pricing and specs are not yet available. The Game Boy Advance SP was the original clamshell EDC, and countless gaming handhelds have been chasing that high ever since. Earlier this year, the Miyoo Flip tried and mostly failed due to a seriously compromised hinge design. Now the company is back with an even smaller version, and hopefully it’s learned from the previous release. The Miyoo Mini Flip has the same 2.8-inch screen as 2021’s Miyoo Mini, but apart from that, the company hasn’t announced specs or pricing. It’s almost certainly going to be a low-powered Linux device, most likely topping off at PS1 emulation.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Miyoo-Mini-Flip-promo-yellow.jpg",
-      "pubDate": "2025-10-17T14:53:27.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "32a2e50051d92c9f",
-      "title": "This denim-clad Android flagship is jean-ius",
-      "link": "https://www.androidauthority.com/redmi-k90-pro-max-teaser-3608177/",
-      "summary": "It's giving \"Casual Friday.\"",
-      "body": "Credit: Redmi on Weibo TL;DR Redmi is teasing its upcoming K90 Pro Max flagship smartphone, featuring a unique “denim-like” nano-leather textured back panel that is resistant to dirt and UV damage. Official renders also show Bose-branded speaker-like grilles on the back. It’s unclear if these are functional or decorative. Most Android flagships look and feel the same these days, and unless you’re dabbling with foldables, it might be hard to get excited. However, occasionally, some OEMs experiment with the CMF of their phones, giving us some radically different smartphones that stand out from the crowd. The upcoming Redmi K90 Pro Max is one of those radically different phones that not only adopts a denim-like texture, but could also seemingly pack a rear-firing, Bose-tuned speaker. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Xiaomi-Redmi-K90-Pro-Max-Denim-blue-3.jpg",
-      "pubDate": "2025-10-17T13:41:22.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9966aefac6df625a",
       "title": "جيل \"إي آند\" الصاعد يصنع تكنولوجيا الغد في منصة \"جيتكس 2025\"",
       "link": "https://www.skynewsarabia.com/technology/1827834-%D8%AC%D9%8A%D9%84-%D8%A7%D9%95%D9%8A-%D8%A7%D9%93%D9%86%D8%AF-%D8%A7%D9%84%D8%B5%D8%A7%D8%B9%D8%AF-%D9%8A%D8%B5%D9%86%D8%B9-%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D8%A7%D9%84%D8%BA%D8%AF-%D9%85%D9%86%D8%B5%D8%A9-%D8%AC%D9%8A%D8%AA%D9%83%D8%B3-2025",
@@ -3354,118 +2090,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b5b96a578cd62bf7",
-      "title": "Frustrated by your internet bill? AT&T is raising prices yet again",
-      "link": "https://www.androidauthority.com/att-home-internet-price-hike-3608156/",
-      "summary": "After raising prices in 2023 and 2024, and posting $4.9 billion in quarterly profit, AT&T wants even more of your money.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR AT&amp;T will raise home internet prices by $5/month starting December 1, 2025. The company attributes the price rise to rising operational costs, despite posting $4.9 billion in quarterly profit recently. New customers and low-income users in the Access from AT&amp;T program won’t be affected. AT&amp;T is raising the cost of its home internet plans once again, with the latest $5 monthly price hike set to take effect on December 1, 2025. The change was first spotted by users on Reddit , who began receiving notifications about the increase in their billing sections. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/04/ATT-logo-on-smartphone-1.jpg",
-      "pubDate": "2025-10-17T12:05:32.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "087edf105980dff1",
-      "title": "Switch and save: T-Mobile sweetens the deal on 5G Home Internet and Fiber",
-      "link": "https://www.androidauthority.com/t-mobile-5g-home-internet-fiber-discount-3608145/",
-      "summary": "Customers can save $20 per month on 5G Home Internet and get up to $200 back with a voice line bundle.",
-      "body": "Credit: Mishaal Rahman / Android Authority TL;DR T-Mobile is offering $20 off per month on its 5G Home Internet service when bundled with a voice line, plus up to $200 back via a virtual prepaid Mastercard. The Fiber Founders Club deal drops the cost of the Fiber 2 Gig plan to $70/month in select locations, along with a notable 10-year price guarantee. These limited-time deals are part of T-Mobile’s ongoing holiday promotions and require AutoPay enrollment. T-Mobile has some great plans for phone users, but the company has more to offer, especially in the home internet space. The carrier recently launched its fiber home internet service with unlimited data, T-Moile Tuesdays, and a five-year price guarantee. If you’ve been eyeing a home internet connection, T-Mobile has some limited-time holiday offers that you can snag to save some cash ahead of the holiday season. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/06/Stock-photo-of-the-T-Mobile-logo-scaled-e1759329153159-500w-260h.jpg",
-      "pubDate": "2025-10-17T11:26:59.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "74f29c259dbfdc29",
-      "title": "These 5 apps died this year, and I already miss them dearly",
-      "link": "https://www.androidauthority.com/dead-android-apps-2025-3606641/",
-      "summary": "It's been a brutal few months for some of Android's once beloved apps.",
-      "body": "I’ve encountered a bouquet of incredible new Android apps this year, from small utilities that bolster my productivity to genuine problem solvers that make the platform better. Not every Android app has or will survive to see the new year, though. As 2025 draws to a swift close and I scroll through the remaining apps pinned to my drawer, I can’t help but remember those wares that once formed a core part of my Android experience and that were sunset this year. Many of these apps I’ve used religiously in the past, and I’ll certainly miss them going forward. I’ll miss these five dead Android apps in particular.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/01/Nova-Launcher-with-dynamic-notification-badges.jpg",
-      "pubDate": "2025-10-17T10:00:49.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ada75e981f0fc649",
-      "title": "Here’s when Samsung will ditch Microsoft for photo backups",
-      "link": "https://www.androidauthority.com/samsung-gallery-onedrive-support-end-date-3608135/",
-      "summary": "Samsung reportedly marks April 11, 2026, as breakup day for One UI Gallery and OneDrive.",
-      "body": "Credit: Ryan Haines / Android Authority TL;DR Samsung’s Gallery app will reportedly stop syncing with OneDrive on April 11, 2026. Users will be encouraged to move their photo backups to Samsung Cloud instead. The change strengthens Samsung’s ecosystem as it phases out Microsoft integration. Samsung’s plan to end OneDrive integration in its Gallery app now has a date. According to a screenshot shared by X user Nirmal Sri , the feature is set to stop working on April 11, 2026. Once the cutoff arrives, users will no longer be able to sync their photos or videos from Samsung Gallery directly to OneDrive, with the company steering them toward Samsung Cloud instead. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/02/Samsung-Audio-Eraser-gallery-clip.jpg",
-      "pubDate": "2025-10-17T09:57:41.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7d7d98d53ef28148",
-      "title": "Samsung is having an identity crisis",
-      "link": "https://www.androidauthority.com/galaxy-s26-edge-cancellation-proves-samsung-problems-3607775/",
-      "summary": "Anything you can do, I can do better.",
-      "body": "Yesterday, a report out of South Korea dropped a bombshell for Samsung’s Galaxy S26 lineup. According to the report, Samsung has canceled its upcoming Galaxy S26 Edge and will release the Galaxy S26 Plus instead. The Edge was supposed to replace the Plus in next year’s Galaxy S family, but those plans are now apparently scrapped. The report cites extremely low sales of the Galaxy S25 Edge as the reason for the S26 Edge’s cancellation. This isn’t the first time we’ve heard of poor Edge sales , and Samsung seemingly doesn’t want to risk repeating itself in 2026.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/05/Samsung-Logo-on-back-of-Samsung-Galaxy-S25-Edge-Titanium-Jetblack-Model.jpg",
-      "pubDate": "2025-10-17T09:30:21.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ecb903e8110a01d4",
-      "title": "This is the the main upgrade I want to see on the Pixel 10a",
-      "link": "https://www.androidauthority.com/pixel-10a-glass-back-3606620/",
-      "summary": "Ditch the plastic, Google.",
-      "body": "Credit: Ryan Haines / Android Authority I’m in love with my Pixel 9a. I switched over to Google’s mid-ranger after using flagship phones for more than a decade, and I regret nothing. The phone has plenty of power, offers a brilliant software experience with seven years of updates, and is very affordable at its launch price of $500. However, there is one thing that bothers me about it. One thing I’d like Google to change with the Pixel 10a , and it’s not what you think. I don’t care for a larger display, the fancy camera setup from the Pixel 10 Pro , or anything else that will drastically increase the price. What I want is to get the feeling of a premium phone back, which I lost when I switched to the Pixel 9a.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/04/Google-Pixel-9a-home-screen.jpg",
-      "pubDate": "2025-10-17T09:00:10.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "636ed43916733d62",
-      "title": "OnePlus set to unveil OnePlus 15 flagship lineup this month, and here are the colors",
-      "link": "https://www.androidauthority.com/oneplus-15-ace-6-china-launch-date-colors-3608120/",
-      "summary": "The OnePlus 15 and OnePlus Ace 6 (potentially rebranded into the OnePlus 15R) are all set to launch in China in ten days.",
-      "body": "TL;DR The OnePlus 15 and OnePlus Ace 6 are set to launch in China on October 27. The OnePlus 15 will feature the Snapdragon 8 Elite Gen 5, a 165Hz display, and be available in three colors. The OnePlus Ace 6 is widely expected to be rebranded as the OnePlus 15R for international markets. Both phones are rumored to launch internationally on November 13, 2025. We’re already on our way to the next generation of Android flagships , sporting the Qualcomm Snapdragon 8 Elite Gen 5 SoC . OnePlus doesn’t intend to be left behind, and the company has now confirmed that the OnePlus 15 will launch this month alongside its sub-flagship offering. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/oneplus-15-hand-render-background-edited.jpg",
-      "pubDate": "2025-10-17T08:40:54.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3517,166 +2141,6 @@
       "region": "global"
     },
     {
-      "id": "40cfcb80a5d4e61d",
-      "title": "Deal: The Litheli Eclair 1000 Portable Power Station has built-in power banks!",
-      "link": "https://www.androidauthority.com/litheli-eclair-1000-portable-power-station-deal-3608021/",
-      "summary": "Save $280 on this awesome power station.",
-      "body": "Credit: Litheli We don’t talk much about Litheli around here, but I have been keeping an eye on its products. There are some nice offerings from the brand, and there’s currently a great deal on the Litheli Eclair 1000 Portable Power Station that makes it irresistible. Buy the Litheli Eclair 1000 Portable Power Station for just $419.99 ($280 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Litheli-Eclair-1000-Portable-Power-Station-inside-car-trunk.jpg",
-      "pubDate": "2025-10-17T00:06:45.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "418fdcfa761d3b70",
-      "title": "Deal: The Apple Mac Mini M4 is too good for just $499",
-      "link": "https://www.androidauthority.com/apple-mac-mini-m4-deal-5-3608022/",
-      "summary": "This could be the best computer option for many of you!",
-      "body": "Credit: Apple I was talking to a friend about the Apple Mac Mini M4 some days ago, and upon checking, it was at full price. I told him to wait a bit, and it would go on sale. Well, that day came quickly! It’s $100 off right now! Buy the Apple Mac Mini M4 for just $499 ($100 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/11/Apple-Mac-Mini-M4-with-accessories.jpg",
-      "pubDate": "2025-10-16T23:19:44.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5fbafc0ac88ae487",
-      "title": "Heading home? Google Maps might tell you how long it’ll take before you even ask",
-      "link": "https://www.androidauthority.com/google-maps-home-travel-time-chip-3608081/",
-      "summary": "You know the way to your place, but this change would let you get a sense of how long the drive will take at a glance.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR A user noticed Google Maps showing a live travel time in the Home chip below the search bar. The chip appears when you’re not at home, but this is the first time we’ve seen it display a travel time. It could help you keep in mind when to start driving when you know the route but not the traffic situation. Google Maps looks set to make it even simpler to keep track of how far you are from home. At least one user has spotted that the app now shows your estimated travel time directly in the Home chip below the search bar, potentially avoiding the need to open the route preview or start navigation.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/08/Google-Maps-stock-photo-6.jpg",
-      "pubDate": "2025-10-16T22:12:16.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "37c4681ac023f160",
-      "title": "The 38 Best Restaurants in Honolulu, According to a Local Expert",
-      "link": "https://www.eater.com/maps/best-restaurants-honolulu-hawaii-38",
-      "summary": "A bowl of noodles at Zippy’s. | Martha Cheng Honolulu hangs onto its food and culture fiercely. It’s why decades-old mom-and-pop restaurants still dominate certain neighborhoods and why you see dishes that would have been familiar to some of the islands’ earliest settlers. While the world moves at …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T22:00:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "38428733a1c2fcaf",
-      "title": "Save a whopping $520 on the Samsung Galaxy Z Fold 7 with 512GB!",
-      "link": "https://www.androidauthority.com/samsung-galaxy-z-fold-7-deal-6-3608023/",
-      "summary": "This is still the best deal we've seen on the Samsung Galaxy Z Fold 7!",
-      "body": "Credit: Ryan Haines / Android Authority Samsung Galaxy Z Fold 7 deals can get pretty good, but you have to be ready to catch them when they come. Now is one of those times! You can get Samsung’s foldable phone for just $1,599.99, and that’s for the upgraded 512GB model. Buy the Samsung Galaxy Z Fold 7 with 512GB for just $1,599.99 ($520 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/07/samsung-galaxy-z-fold-7-open-lying-flat.jpg",
-      "pubDate": "2025-10-16T21:42:54.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2a1c1bccdb1a38c1",
-      "title": "Nest speakers start showing some new color — is Gemini to thank?",
-      "link": "https://www.androidauthority.com/nest-speakers-color-3608033/",
-      "summary": "Multicolor light effects have just started appearing up on Nest speakers, right in time for the Gemini preview.",
-      "body": "TL;DR Nest speakers are getting a Gemini overhaul, with early access beginning this month. Nest speakers have featured a four-light display that’s so far been mostly white. Users are now sharing reports of those lights changing to a multi-colored rainbow. Nest speakers are in the middle of a big change right now, and its name is Gemini. Back at the start of the month, Google didn’t just introduce the upcoming Google Home Speaker , but confirmed that early access previews of Gemini on existing Nest speaker hardware would commence later in October. As we start getting into the back half of the month, users are beginning to share the colorful new look they’ve spotted for their hardware. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/nest-mini-rainbow.jpg",
-      "pubDate": "2025-10-16T20:44:23.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f5e5fa15066c9b8b",
-      "title": "Verizon-owned Total Wireless now has a free plan, though there are a few catches",
-      "link": "https://www.androidauthority.com/total-wireless-free-plan-3608009/",
-      "summary": "Partnerining with Lifeline, Total now has a totally free plan available only in California.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR Total Wireless, a Verizon Value brand, is launching a free phone plan available only in California at first. The offer is limited to customers who qualify for the government Lifeline assistance program. The plan includes unlimited talk, text, and 6GB of high-speed data, with an $11 upgrade option for unlimited data. While Verizon is best known for its own network and services, its Value brands have become increasingly popular as well. This includes Total Wireless, a premium prepaid brand that offers limited in-store support, free streaming services on select plans, and plenty of other features that help it compare favorably to postpaid options. While its plans normally start around $40, there’s about to be a much more affordable option — one that will cost you nothing. Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/10/2024-Verizon-logo-on-smartpohone-Stock-photo-8.jpg",
-      "pubDate": "2025-10-16T20:28:56.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6a21d644c134f04f",
-      "title": "Save $100 on the Bose QuietComfort Ultra, amazing ANC headphones",
-      "link": "https://www.androidauthority.com/bose-quietcomfort-ultra-deal-5-3608024/",
-      "summary": "Silence all the noise with these stunning headphones.",
-      "body": "Credit: SoundGuys.com There are plenty of new and exciting headphones around, but if you care most about noise canceling, the Bose QuietComfort Ultra are still among our favorite headphones. There’s a really nice deal on these right now! If you like blue, you can save a whole $100 on them. Buy the Bose QuietComfort Ultra in Lunar Blue for just $329 ($100 off)",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/08/Bose-QuietComfort-Ultra-headphones.jpg",
-      "pubDate": "2025-10-16T20:20:11.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2336bdc7692488e5",
-      "title": "Gemini can basically use Google Sheets for you now",
-      "link": "https://www.androidauthority.com/google-sheets-complex-gemini-integration-3608027/",
-      "summary": "Google says this will 'save valuable time in your workday,' so you can... do more spreadsheets, probably?",
-      "body": "TL;DR Gemini can now do more intricate work inside Google Sheets. You can now request complex, multi-stage edits in a single prompt. This upgraded functionality is available now on qualifying accounts. Last month, Google Sheets picked up additional Gemini functionality , gaining the ability call on Google’s AI to do things like explain how formulas work and automatically correct errors in formatting. Today, Google’s announced that Gemini can now do even more in Sheets, carrying out increasingly complex tasks on your behalf. In a blog post, Google has shared that new Gemini integration in Sheets can automate actions that involve multiple discrete steps. You can now make longer, more complicated Gemini requests in Sheets to, for example, add a new column that populates with a formula dealing with inputs you define, or to add, delete, or rearrange columns, rows, and cells however you see fit.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/02/Google-Sheets-next-to-calculator-stock-photo-3.jpg",
-      "pubDate": "2025-10-16T20:06:20.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f68f04e1fdaf046f",
-      "title": "Nancy Silverton Is Still the Busiest Not-a-Chef in Los Angeles’s Food Scene",
-      "link": "https://www.eater.com/dining-out/917731/nancy-silverton-lapaba-max-helens-snibbs-interview",
-      "summary": "Nancy Silverton still doesn’t like being called a chef. When I caught up with her on the phone — all while prepping for dinner at one of her Los Angeles restaurants — she says that she much prefers to be “called a cook, or a restaurant owner,” adding, “that whole image of a chef is still somebody m…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-16T17:42:04.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "557c539dc63287cd",
       "title": "اكتشاف بقايا أحد أقدم الديناصورات في العالم",
       "link": "https://www.skynewsarabia.com/technology/1827565-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%A8%D9%82%D8%A7%D9%8A%D8%A7-%D8%A7%D9%94%D8%AD%D8%AF-%D8%A7%D9%94%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D8%A7%D8%B5%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
@@ -3706,118 +2170,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cf1b75d6a80bd03d",
-      "title": "Traditional Korean Ingredients Are Transformed in Shia’s Sustainable D.C. Kitchen",
-      "link": "https://www.eater.com/dining-out/915867/shia-edward-lee-traditional-korean-sustainable-kitchen-dc",
-      "summary": "Celebrity chef Edward Lee, known for renowned restaurants like Succotash and winning second place on international Netflix hit Cultural Class Wars, walks through a seven-course meal at his newest project. As a non-profit, fine dining Korean restaurant focused on sustainability, Shia transforms trad…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T15:02:20.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e02c562c791694c0",
-      "title": "Eric Wareheim Gets Existential About the Steakhouse",
-      "link": "https://www.eater.com/dining-out/916430/eric-wareheim-steakhouse-cookbook-interview",
-      "summary": "Steak House pays homage to the country’s many steakhouses and the staff who have shaped them | Photos by Marcus Nilsson/Ten Speed Press | Collage by Masood Shah Eric Wareheim, the media and food-world multihyphenate, has been to a lot of steakhouses — at least 65, in fact, while conducting research…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T13:00:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "7aaf922c048c0d94",
-      "title": "In Search of the Yakult Lady",
-      "link": "https://www.eater.com/dining-out/916976/yakult-lady-japan-yogurt-drink-working-mothers",
-      "summary": "Meenakshi Sagar rides her scooter to deliver Yakult in New Delhi. When my sister and I were growing up in Nagoya, Japan, our mother would sometimes bring us to Tsuruma Park after school to let us run free. The playground, fringed by dark trees that cast shade on the Showa-era slides, always felt a …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3ff81c80ddf64fc4",
-      "title": "Once Again, Goa’s Taverns Are the Place to Be",
-      "link": "https://www.eater.com/dining-out/917276/goa-india-taverns-revived-feni",
-      "summary": "Laughing it up at Pablo’s in Assagao. | Rebecca D’costa “Have a magical day and night,” reads the sign at the entrance of Cifa Bar in Panaji, the capital of the coastal Indian state of Goa. Set among the narrow lanes and colonial architecture of the city’s Fontainhas neighborhood (Latin Quarter), t…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f988d4af8e33c2e3",
-      "title": "Colonial Williamsburg Feeds a Historic Moment",
-      "link": "https://www.eater.com/dining-out/917316/colonial-williamsburg-food-taverns-virginia-america-250",
-      "summary": "Dominek Marsh and Frank Clark prepare a meal for the American Indian Initiative at CW in 2024. Dominek Marsh had to make jugged hare five times. Working from a recipe written in the 18th century, he put butchered pieces of rabbit in a jug along with clove-stuffed onions, shallots, herbs, spices, an…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fa9cf7a4e20ab461",
-      "title": "Where to Eat: Fall Back in Time",
-      "link": "https://www.eater.com/dining-out/917032/fall-travel-ideas-2025-best-food-destinations",
-      "summary": "Dominek Marsh and Frank Clark prepare a meal for the American Indian Initiative at CW in 2024. Some meals are worth traveling for. Others have the ability to transport you, not just in space, but in time. A dish from childhood can send you tumbling down memory lane. A traditional meal can bring you…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:30:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2605f3bb55fd0dfc",
-      "title": "Vienna’s Vollpension Cafe Is Like a Visit to Grandma’s House",
-      "link": "https://www.eater.com/dining-out/917008/vienna-vollpension-cafe-grandma-cake",
-      "summary": "Oma Kathrin. It was Kathrin’s niece who told her about Vollpension. The 68-year-old applied for a job as a baker and was hired at the cafe in Vienna, Austria, in 2017. Eight years later, Kathrin is still baking at Vollpension following her mother-in-law’s recipes, churning out treats like banana cr…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-15T12:28:00.000Z",
-      "source": {
-        "name": "Eater",
-        "homepage": "https://www.eater.com/rss/index.xml"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -4749,70 +3101,6 @@
       "region": "global"
     },
     {
-      "id": "a8f20a0df3ebf057",
-      "title": "October’s Night Sky Notes: Let’s Go, LIGO!",
-      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/octobers-night-sky-notes-lets-go-ligo/",
-      "summary": "by Kat Troche of the Astronomical Society of the Pacific September 2025 marks ten years since the first direct detection of gravitational waves as predicted by Albert Einstein’s 1916 theory of General Relativity. These invisible ripples in space were first directly detected by the Laser Interferome…",
-      "body": "4 Min Read October’s Night Sky Notes: Let’s Go, LIGO! An artist’s impression of gravitational waves generated by binary neutron stars. Credits: R. Hurt/Caltech-JPL by Kat Troche of the Astronomical Society of the Pacific September 2025 marks ten years since the first direct detection of gravitational waves as predicted by Albert Einstein’s 1916 theory of General Relativity. These invisible ripples in space were first directly detected by the Laser Interferometer Gravitational-Wave Observatory (LIGO). Traveling at the speed of light (~186,000 miles per second), these waves stretch and squeeze the fabric of space itself, changing the distance between objects as they pass. Waves In Space Gravitational waves are created when massive objects accelerate in space, especially in violent events. LIGO detected the first gravitational waves when two black holes, orbiting one another, finally merged, creating ripples in space-time. But these waves are not exclusive to black holes . If a star were to go supernova, it could produce the same effect. Neutron stars can also create these waves for various reasons. While these waves are invisible to the human eye, this animation from NASA’s Science …",
-      "image": null,
-      "pubDate": "2025-10-01T02:22:25.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "eec4e8bc65a4eae9",
-      "title": "NASA, Blue Origin Invite Media to Attend Mars Mission Launch",
-      "link": "https://www.nasa.gov/news-release/nasa-blue-origin-invite-media-to-attend-mars-mission-launch/",
-      "summary": "NASA and Blue Origin are reopening media accreditation for the launch of the agency’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission. The twin ESCAPADE spacecraft will study the solar wind’s interaction with Mars, providing insight into the planet’s real-time response to s…",
-      "body": "A stylized illustration shows the twin ESCAPADE spacecraft entering Mars’ orbit. Credits: James Rattray/Rocket Lab USA NASA and Blue Origin are reopening media accreditation for the launch of the agency’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission. The twin ESCAPADE spacecraft will study the solar wind’s interaction with Mars, providing insight into the planet’s real-time response to space weather and how solar activity drives atmospheric escape. This will be the second launch of Blue Origin’s New Glenn rocket. Media interested in covering&nbsp;ESCAPADE&nbsp;launch activities must apply for media credentials. Media who previously applied for media credentials for the ESCAPADE launch do not need to reapply. U.S. media and U.S. citizens representing international media must apply by 11:59 p.m. EDT on Monday, Oct. 13. Media accreditation requests should be submitted online to: https://media.ksc.nasa.gov . A copy of NASA’s media accreditation policy is available online. For questions about accreditation, please email: ksc-media-accreditat@mail.nasa.gov . For other mission questions, please contact NASA Kennedy’s newsroom: 321-867-2468. Blue Origin is targ…",
-      "image": null,
-      "pubDate": "2025-09-30T22:00:25.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e9624b81d0f981c0",
-      "title": "What’s Up: October 2025 Skywatching Tips from NASA",
-      "link": "https://science.nasa.gov/solar-system/whats-up-october-2025-skywatching-tips-from-nasa/",
-      "summary": "A supermoon, and meteor showers from the Draconids and Orionids A supermoon takes over the sky, the Draconid meteor shower peeks through, and the Orionid meteor shower shines bright. Skywatching Highlights Transcript What’s Up for October? A Supermoon takes over, the Draconid meteor shower peeks th…",
-      "body": "Skywatching Skywatching Home What’s Up Meteor Showers Eclipses Daily Moon Guide More Tips &#038; Guides Skywatching FAQ Night Sky Network A supermoon, and meteor showers from the Draconids and Orionids A supermoon takes over the sky, the Draconid meteor shower peeks through, and the Orionid meteor shower shines bright. Skywatching Highlights Oct. 6: The October supermoon Oct. 6-10: The Draconid meteor shower Oct. 21: The Orionid meteor shower peaks (full duration Sept. 26 – Nov. 22) Transcript What’s Up for October? A Supermoon takes over, the Draconid meteor shower peeks through, and the Orionid meteors sparkle across the night sky. The evening of October 6, look up and be amazed as the full moon is bigger and brighter because – it’s a supermoon! Illustrated infographic showing the difference (as seen from Earth) between perigee, when a supermoon appears, and apogee, when a micromoon appears. NASA/JPL-Caltech This evening, the moon could appear to be about 30% brighter and up to 14% larger than a typical full moon. But why? Supermoons happen when a new moon or a full moon coincides with “perigee,” which is when the moon is at its closest to Earth all month. So this is an exceptio…",
-      "image": null,
-      "pubDate": "2025-09-30T20:58:13.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4795e48c02c90228",
-      "title": "Helio Highlights: October 2025",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/helio-highlights-october-2025/",
-      "summary": "Since we all have a relationship with the Sun, it is important to learn about how it impacts our lives. NASA’s Heliophysics Education Activation Team (HEAT) teaches people of all ages about the Sun, covering everything from how to safely view an eclipse to how to mitigate the effects of geomagnetic…",
-      "body": "Explore This Section Science Science Activation Helio Highlights: October… Home Framework for Heliophysics Education About Helio Big Idea 1.1 Helio Big Idea 1.2 Helio Big Idea 1.3 Helio Big Idea 2.1 Helio Big Idea 2.2 Helio Big Idea 2.3 Helio Big Idea 3.1 Helio Big Idea 3.2 Helio Big Idea 3.3 Helio Missions Helio Topics Resource Database About NASA HEAT More Highlights Space Math 5 min read Helio Highlights: October 2025 5 Min Read Helio Highlights: October 2025 NASA Education Specialist Christine Milotte demonstrates heliophysics activities during a teacher professional development event hosted by the NASA Heliophysics Education Activation Team (HEAT) at the Dallas Arboretum, Saturday, April 6, 2024. Credits: NASA/Keegan Barber The Sun and Our Lives On a clear night, you might see thousands of stars in the sky. Most of these stars are dozens or hundreds of light years away from us. A light year is the distance a beam of light travels in a year: about 5.88 trillion miles (9.46 trillion kilometers). This means that for those stars we see at night, it takes their light, which travels at about 186,000 miles per second (or about 300 thousand kilometers per second), dozens or hundreds …",
-      "image": null,
-      "pubDate": "2025-09-30T19:51:11.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "9d6be251cb431f2e",
       "title": "بالذكاء الاصطناعي.. أداة جديدة لتحسين علاج الصرع عند الأطفال",
       "link": "https://www.skynewsarabia.com/technology/1824031-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A7%D9%94%D8%AF%D8%A7%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%84%D8%B5%D8%B1%D8%B9-%D8%A7%D9%84%D8%A7%D9%94%D8%B7%D9%81%D8%A7%D9%84",
@@ -4858,22 +3146,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "334067bf1ef2c8f0",
-      "title": "Headquarters and Center Chief Counsel Contacts",
-      "link": "https://www.nasa.gov/organizations/headquarters-and-center-chief-counsel-contacts/",
-      "summary": "Headquarters Centers",
-      "body": "Headquarters General Counsel Iris Lan Deputy General Counsel Bryan R. Diederich (Acting) Chief of Legal Operations Christine Pham (Acting) Associate General Counsel for Contracts and Procurement, Headquarters Karen Reilley (Acting) Associate General Counsel for Contracts and Acquisition Integrity Law Practice Group, Headquarters Karen Reilley (Acting) Associate General Counsel for General Law Practice Group, Headquarters Katie Spear Associate General Counsel for International and Space Law Practice Group, Headquarters Rebecca Bresnik Agency Counsel for Ethics, Headquarters Adam Greenstone Agency Counsel for the Acquisition Integrity Program, Headquarters Adam Supple (Acting) Agency Counsel for Intellectual Property, Headquarters Trenton Roche Centers Chief Counsel, Ames Research Center Christine Pham Chief Counsel, Armstrong Flight Research Center Brett Swanson Chief Counsel, Glenn Research Center James Jackson (Acting) Chief Counsel, Goddard Space Flight Center Dave Barrett Chief Counsel, Johnson Space Center Randall Suratt Chief Counsel, Kennedy Space Center Alex Vinson Chief Counsel, Langley Research Center Andrea Warmbier Chief Counsel, Marshall Space Flight Center Pam Bourque…",
-      "image": null,
-      "pubDate": "2025-09-30T18:07:41.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
