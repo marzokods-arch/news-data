@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-25T18:41:34.561Z",
-    "total": 216,
+    "generated_at": "2025-10-25T18:51:31.179Z",
+    "total": 186,
     "processed_feeds": 22,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -22,15 +22,15 @@
         "notModified": false
       },
       {
-        "name": "WHO — News (EN)",
-        "url": "https://www.who.int/rss-feeds/news-english.xml",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 21,
+        "taken": 56,
         "error": null,
         "notModified": false
       },
@@ -48,58 +48,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 56,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "TimeOut Dubai",
-        "url": "https://www.timeoutdubai.com/rss.xml",
-        "homepage": "https://www.timeoutdubai.com/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 405",
-        "notModified": false
-      },
-      {
         "name": "Sky News Arabia — تكنولوجيا",
         "url": "https://www.skynewsarabia.com/rss/technology.xml",
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
@@ -113,9 +61,9 @@
         "notModified": false
       },
       {
-        "name": "Eater",
-        "url": "https://www.eater.com/rss/index.xml",
-        "homepage": "https://www.eater.com/rss/index.xml",
+        "name": "WHO — News (EN)",
+        "url": "https://www.who.int/rss-feeds/news-english.xml",
+        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -123,6 +71,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -165,9 +126,22 @@
         "notModified": false
       },
       {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main/rss",
-        "homepage": "https://www.thekitchn.com/main/rss",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "TimeOut Dubai",
+        "url": "https://www.timeoutdubai.com/rss.xml",
+        "homepage": "https://www.timeoutdubai.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -175,6 +149,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Eater",
+        "url": "https://www.eater.com/rss/index.xml",
+        "homepage": "https://www.eater.com/rss/index.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -191,48 +191,22 @@
         "notModified": false
       },
       {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main/rss",
+        "homepage": "https://www.thekitchn.com/main/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "name": "9to5Google",
+        "url": "https://9to5google.com/feed/",
+        "homepage": "https://9to5google.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -243,9 +217,9 @@
         "notModified": false
       },
       {
-        "name": "9to5Google",
-        "url": "https://9to5google.com/feed/",
-        "homepage": "https://9to5google.com/feed/",
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -266,6 +240,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -458,22 +458,6 @@
       "region": "global"
     },
     {
-      "id": "fae4b9601eb8688c",
-      "title": "Here’s How Half of Greta Van Fleet Became Part of the New Bruce Springsteen Biopic",
-      "link": "https://www.billboard.com/music/music-news/greta-van-fleet-bruce-springsteen-deliver-me-from-nowhere-1236097932/",
-      "summary": "Billboard spoke with Greta Van Fleet’s Jake Kiszka about the band’s role in Springsteen: Deliver Me From Nowhere.",
-      "body": "Bruce Springsteen is, of course, the musical focus of the newly released film Springsteen: Deliver Me From Nowhere , adapted by director and screenwriter Scott Cooper from Warren Zanes&#8217; book, with Jeremy Allen White starring as The Boss. But astute viewers will see some other familiar, and perhaps surprising, rock &#8216;n&#8217; roll faces in the production. Related Will Bruce Springsteen Biopic &#8216;Deliver Me From Nowhere&#8217; Boost the Value of His Music Catalog? Sony Is Betting On&nbsp;It Bruce Springsteen&#8217;s Only Note on Jeremy Allen White&#8217;s &#8216;Deliver Me From Nowhere&#8217; Portrayal: &#8216;I Don&#8217;t Remember Being That Good&nbsp;Looking&#8217; Jeremy Allen White Strips It All Down in First Trailer For Bruce Springsteen Biopic &#8216;Deliver Me From&nbsp;Nowhere&#8217; Scenes depicting Springsteen joining a &#8220;local&#8221; band at the Stone Pony in Asbury Park, New Jersey, feature an all-star lineup assembled by the film’s music producer, Dave Cobb. The band is led by Jay Buchanan of Rival Sons and includes Greta Van Fleet ’s Jake Kiszka on guitar, Sam F. Kiszka on bass, keyboardist Bobby Emmett from Jack White’s band, and Nashville drummer…",
-      "image": null,
-      "pubDate": "2025-10-25T18:23:32.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c56ecffaf412e70f",
       "title": "My finish was like Shearer - Guimaraes",
       "link": "https://www.bbc.com/sport/football/videos/c797ex234veo?at_medium=RSS&at_campaign=rss",
@@ -519,22 +503,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1bb0efc1a5fc6315",
-      "title": "Nelly Furtado Says She’s Taking a ‘Step Away’ from Performing for the ‘Foreseeable Future’",
-      "link": "https://www.billboard.com/music/music-news/nelly-furtado-stepping-away-performing-foreseeable-future-1236097926/",
-      "summary": "The Grammy winner noted that she’ll “always identify as a songwriter.”",
-      "body": "Nelly Furtado is taking a break from the stage. On Friday (Oct. 24), the 46-year-old pop veteran announced on social media that she’s stepping back from live performances for the &#8220;foreseeable future&#8221; to focus on new “creative and personal endeavors.” The decision comes as she reflects on how fans have reconnected with her music in recent years. &#8220;I have decided to step away from performance for the foreseeable future and pursue some other creative and personal endeavors that I feel would better suit this next phase of my life,&#8221; Furtado wrote on Instagram . &#8220;I have enjoyed my career immensely , and I still love writing music as I have always seen it as a hobby I was lucky enough to make into a career. I’ll identify as a songwriter forever.&#8221; The announcement coincides with the 25th anniversary of the Grammy winner’s debut album, Whoa, Nelly! , which peaked at No. 24 on the Billboard 200 in January 2001. Furtado’s carousel post opened with a throwback photo of herself at 20, just before her first professional performance at Lilith Fair in 1999. The next slide jumped to a video from her recent show in Berlin, where she shared that she “finally unders…",
-      "image": null,
-      "pubDate": "2025-10-25T17:26:50.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1178,22 +1146,6 @@
       "region": "global"
     },
     {
-      "id": "4b0171bf145fef8f",
-      "title": "Olivia Rodrigo Caps Guts Tour With ‘Lacy’ Performance in NYC",
-      "link": "https://www.billboard.com/music/pop/olivia-rodrigo-guts-tour-surprise-nyc-show-1236097911/",
-      "summary": "“Ever since it was in that show, people have been chanting at me at concerts to sing this song if I wasn’t going to sing it,” Rodrigo told the crowd.",
-      "body": "Olivia Rodrigo closed out her blockbuster Guts World Tour with a secret show in New York City on Thursday night (Oct. 23), playing to an intimate crowd of fans, friends, and celebrity guests inside the historic Park Avenue Armory. The invite-only event, hosted by American Express, featured a setlist packed with fan favorites — including “Drivers License,” “Vampire&#8221; and &#8220;Deja Vu&#8221; — as well as the rare live performance of “Lacy,” a track that has taken on a viral life of its own since being featured on the TV series The Summer I Turned Pretty . “Ever since it was in that show, people have been chanting at me at concerts to sing this song if I wasn’t going to sing it,” Rodrigo told the crowd. “And so I&#8217;m really grateful to that show, and I&#8217;m really grateful to you guys for listening to this song and streaming it, because it&#8217;s always been one of my favorites.” The &#8220;Good 4 U&#8221; singer also welcomed young fans from the Make-A-Wish Foundation, meeting with several attendees before the show. Proceeds from ticket sales benefited Rodrigo’s own Fund 4 Good, an initiative launched to support education, reproductive rights, and young women’s leader…",
-      "image": null,
-      "pubDate": "2025-10-25T07:51:09.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "948c9e9504239049",
       "title": "'I watched Parker from the pub, now I'm fighting him'",
       "link": "https://www.bbc.com/sport/boxing/articles/c629g1rql5vo?at_medium=RSS&at_campaign=rss",
@@ -1290,22 +1242,6 @@
       "region": "global"
     },
     {
-      "id": "55e912c0354809fb",
-      "title": "Guns N’ Roses Address Axl Rose’s Onstage Outburst in Buenos Aires",
-      "link": "https://www.billboard.com/music/rock/guns-n-roses-axl-rose-onstage-outburst-buenos-aires-1236097912/",
-      "summary": "The incident took place during the band's performance of “Welcome to the Jungle” at Estadio Huracán on Oct. 18.",
-      "body": "Guns N’ Roses have issued a statement addressing frontman Axl Rose’s apparent outburst during the band’s Oct. 18 concert in Buenos Aires, Argentina. During the opening number, their 1987 hit “Welcome to the Jungle” at Estadio Huracán, Rose was visibly frustrated, kicking the bass drum, hurling his microphone toward the kit, and storming offstage after stripping off his leather jacket. The abrupt departure stunned the crowd, prompting confusion both in the audience and among his bandmates. Minutes later, Rose returned to the stage and addressed the situation with a terse, “So, I’ll just try and wing this,” before continuing the set. On Tuesday (Oct. 22), the band released a statement via social media explaining the cause of the disruption. According to the post, the issue stemmed from an in-ear monitor malfunction. “During the opening song at our recent Buenos Aires concert, Axl’s in-ear monitor pack had only the percussion in his ears versus his entire mix,” the statement read. “The issue was fixed by our tech team by the third song, and we had a great night. The situation had nothing to do with Isaac Carpenter’s playing, who is top-notch and a great drummer.” Ferrer’s “amicable” …",
-      "image": null,
-      "pubDate": "2025-10-25T06:02:38.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "86752ddbe235cb69",
       "title": "Tarling and Charlton win world track golds for GB",
       "link": "https://www.bbc.com/sport/cycling/articles/cgjd876364zo?at_medium=RSS&at_campaign=rss",
@@ -1370,22 +1306,6 @@
       "region": "global"
     },
     {
-      "id": "66de4dc87f5336fa",
-      "title": "Jon Bon Jovi Talks Collaborating With Bruce Springsteen and Jelly Roll",
-      "link": "https://www.billboard.com/music/music-news/bon-jovi-springsteen-jelly-roll-1236097903/",
-      "summary": "Forever (Legendary Edition) also features “Living Proof,” a duet with Jelly Roll.",
-      "body": "Jon Bon Jovi is reflecting on decades of friendship and influence as he celebrates Forever (Legendary Edition) , a newly expanded version of Bon Jovi’s 2024 album that features fresh collaborations with Bruce Springsteen and Jelly Roll . Speaking on SiriusXM’s Bon Jovi Radio , the frontman opened up about how his longtime New Jersey peer Bruce Springsteen ended up contributing harmonica to a new version of “Hollow Man,” a fan-favorite track from Forever . “As I wrote this song, I was basically asking the heavens to make me a conduit,” Bon Jovi explained. “Give me the message, where am I going with this? I am the hollow man, fill me up with information and I’ll write it down. What do you sing when your song&#8217;s been sung?&#8221; After hearing the demo, Springsteen called Bon Jovi the next morning. “He says, ‘I can’t get that one out of my head,’” Bon Jovi recalled. “Now you know, you’re talking to not only your childhood hero but one of the great American songwriters of the last half century.” The Boss later agreed to lend his signature harmonica sound to the track. “I want it to be like that. Come and join my story,” Bon Jovi said. “He said, ‘I got it. Just leave it to me.’” T…",
-      "image": null,
-      "pubDate": "2025-10-25T04:39:51.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1264e16d9787edb3",
       "title": "اختراق علمي.. علاج آمن يقتل خلايا السرطان باستخدام الضوء",
       "link": "https://www.skynewsarabia.com/technology/1829459-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%93%D9%85%D9%86-%D9%8A%D9%82%D8%AA%D9%84-%D8%AE%D9%84%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%B6%D9%88%D8%A1",
@@ -1399,70 +1319,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d2a886ec05b5252c",
-      "title": "Mother & Son Who Inspired 2Pac’s ‘Brenda’s Got a Baby’ Reunited After 34 Years",
-      "link": "https://www.billboard.com/music/rb-hip-hop/2pac-brendas-got-a-baby-mother-son-reunited-1236097839/",
-      "summary": "Bestselling author Jeff Pearlman tells the wild story of how he was able to make the reunion happen.",
-      "body": "2Pac &#8216;s classic song &#8220;Brenda&#8217;s Got a Baby&#8221; was inspired by a true story &#8212; and the story continues. The rapper wrote the song addressing teen pregnancy in America&#8217;s ghettos while he was filming his star-turning role as Bishop in Juice after coming across a story in the news about a 12-year-old girl who threw her baby in a trash chute after being impregnated by her 21-year-old cousin. The track has since become one of the late entertainer&#8217;s most important records in his extensive catalog. Enter bestselling author Jeff Pearlman. During a recent appearance on The Rich Eisen Show to promote his new book Only God Can Judge Me: The Many Lives of Tupac Shakur , Pearlman dropped a bombshell after being asked if he came across anybody that didn&#8217;t want to talk to him when he was trying to put the book together. &#8220;I didn&#8217;t get Dr. Dre or Snoop Dogg, but they&#8217;re hard to get anyway,&#8221; he said. &#8220;I did find most people. The vast majority. Classmates, people who worked with him in music, even Death Row employees were pretty open about talking.&#8221; He then revealed that he &#8220;had a breakthrough very early on.&#8221; …",
-      "image": null,
-      "pubDate": "2025-10-25T00:36:10.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bd34067f7a0fa8c8",
-      "title": "Sphere Shares Jump 15% on ‘The Wizard of Oz’ Sales Milestone",
-      "link": "https://www.billboard.com/pro/sphere-stock-up-wizard-of-oz-sales-milestone/",
-      "summary": "While most music stocks rose in the week ended Oct. 24, the Billboard Global Music Index fell for the fifth consecutive week.",
-      "body": "Buoyed by news that The Wizard of Oz surpassed 1 million tickets sold and $130 million in sales since its Aug. 28 debut, Sphere Entertainment Co. shares rose 14.5% to a new all-time high closing price of $67.24. The film has helped send Sphere Entertainment’s stock price into a new stratosphere. Shares of the Las Vegas venue’s parent company are up 58.4% year to date and have gained 56.4% since Sphere debuted its revamped version of the classic film.&nbsp; While some music stocks had big gains this week, the 19-company Billboard Global Music Index (BGMI) fell 1.4% to 2,845.60, marking its fifth consecutive losing week. Three music companies had stock gains over 10%, but they are relatively small compared to the index’s largest companies, Spotify and Live Nation, both of which lost ground this week. Foreign exchange rates also played a role in the BGMI’s poor performance despite numerous music stocks posting gains. In the last week, the euro fell about 0.3% against the U.S. dollar while the Korean won lost approximately 1.2%.&nbsp; Related Sphere&#8217;s &#8216;Wizard of Oz&#8217; Hits New Box Office&nbsp;Milestone Charlie Puth Joining Anitta, Chris Martin &amp; More on Brazil&#039…",
-      "image": null,
-      "pubDate": "2025-10-25T00:05:09.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "458ed803fce0a3ba",
-      "title": "Billboard’s Music Industry Events Calendar",
-      "link": "https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/",
-      "summary": "A complete rundown of the most important events across the music business.",
-      "body": "As part of our continuing efforts to serve the music industry and its creators, Billboard Pro now features a music industry events calendar for readers. The calendar will act as music&#8217;s most complete summary major national and international industry events, from conferences to festivals to networking mixers and more. Just as Billboard is music&#8217;s must-read source for news, charts and analysis, now it also is the go-to for business happenings. Related Dates Announced for SXSW London&nbsp;Debut Charlie Puth Joining Anitta, Chris Martin &amp; More on Brazil&#039;s Global Citizen Festival Amazônia Lineup: &#039;Such an Important Cause for Our Planet&#039; Sphere&#039;s &#039;Wizard of Oz&#039; Hits New Box Office Milestone October 2025 Oct. 20-24 &#8211; Billboard Latin Music Week (Miami) Oct. 22-25 &#8211; International Music Expo (Shanghai) Oct. 22-26 &#8211; Amsterdam Dance Event (Amsterdam) Oct. 22-26 &#8211; Worldwide Music Expo (Tampere, Finland) Oct. 24-26 &#8211; Art Basel Paris (Paris) Oct. 25 &#8211; The Danny Awards (New York) Oct. 25 &#8211; iHeartRadio Fiesta Latina (Miami) Oct. 25-26 &#8211; ComplexCon (Las Vegas) Oct. 25-26 &#8211; ONE Musicfest (Atlanta) Oct…",
-      "image": null,
-      "pubDate": "2025-10-24T23:52:00.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a2c36d464ca13868",
-      "title": "Cardi B Told Fans She Won’t ‘Pick On’ BIA’s ‘BIANCA’ Album Sales: ‘That’s Overkill’",
-      "link": "https://www.billboard.com/music/rb-hip-hop/cardi-b-bia-album-sales-bianca-1236097845/",
-      "summary": "The two rappers have been beefing for about a year.",
-      "body": "Cardi B is using some discretion when it comes with her ongoing beef with fellow rapper BIA . During a recent X Spaces, the Bronx rapper told fans listening in that she has no intentions of dissing BIA&#8217;s album sales as she was in the middle of a rant about bullies. “I don’t pick on bi&#8212;es,&#8221; she said . &#8220;I don’t wake up every single day like, ‘I’mma pick on this girl ‘cause I can. I just found out BIA’s numbers yesterday. I’m not going to pick on her ‘cause of that sh&#8211;. Then that’s overkill.” Related Cardi B Gets &#8216;Pretty &amp; Petty&#8217; by Dropping a Video for Her BIA Diss&nbsp;Track Olivia Rodrigo Caps Guts Tour With &#039;Lacy&#039; Performance in NYC Guns N&#039; Roses Address Axl Rose&#039;s Onstage Outburst in Buenos Aires The two have been going back and forth since about 2024 when fans felt like the Massachusetts rapper subbed Cardi on Dreezy&#8217;s &#8220;Bi&#8212; Duh&#8221; Remix where she rapped, “I hear bi&#8212;es poppin’ sh&#8211; and that’s so funny to me/ How you say you runnin’ down but you can’t walk on the beat?” in a supposed reference to a comment Cardi made during an interview about having a hard time catching the pocket o…",
-      "image": null,
-      "pubDate": "2025-10-24T23:24:13.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2282,22 +2138,6 @@
       "region": "global"
     },
     {
-      "id": "e643a2bbffe777e5",
-      "title": "Fiji becomes the 26th country to eliminate trachoma as a public health problem",
-      "link": "https://www.who.int/news/item/20-10-2025-fiji-becomes-the-26th-country-to-eliminate-trachoma-as-a-public-health-problem",
-      "summary": "In a landmark public health achievement, Fiji has been validated by the World Health Organization (WHO) for eliminating trachoma as a public health problem. Trachoma, a neglected tropical disease (NTD) and the world’s leading infectious cause of blindness, no longer poses a public health threat in …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-19T19:27:44.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "9973c50fdb4cb50d",
       "title": "\"شات جي بي تي\" يراك ويسمعك.. خبير يكشف الحقيقة",
       "link": "https://www.skynewsarabia.com/technology/1828077-%D8%B4%D8%A7%D8%AA-%D8%AC%D9%8A-%D8%AA%D9%8A-%D9%8A%D8%B1%D8%A7%D9%83-%D9%88%D9%8A%D8%B3%D9%85%D8%B9%D9%83-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9",
@@ -2570,22 +2410,6 @@
       "region": "global"
     },
     {
-      "id": "628657d296c459c0",
-      "title": "WHO and the European Union launch collaboration to advance digitized health systems in sub-Saharan Africa",
-      "link": "https://www.who.int/news/item/14-10-2025-who-and-the-european-union-launch-collaboration-to-advance-digitized-health-systems-in-sub-saharan-africa",
-      "summary": "The World Health Organization (WHO) and the European Union (EU) announced today a new agreement to support the digital transformation of health systems and wider adoption of WHO’s Global Digital Health Certification Network (GDHCN) in sub-Saharan Africa. This EU–WHO partnership will improve pandemi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-14T12:27:10.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "6e54f102cb138465",
       "title": "علامة على ارتفاع السكر في الدم.. احذر \"الشواك الأسود\"",
       "link": "https://www.skynewsarabia.com/technology/1827033-%D8%B9%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A7%D9%84%D8%AF%D9%85-%D8%A7%D8%AD%D8%B0%D8%B1-%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D9%83-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D9%88%D8%AF",
@@ -2666,22 +2490,6 @@
       "region": "global"
     },
     {
-      "id": "976122650a24b861",
-      "title": "WHO upgrades its public health intelligence system to boost global health security",
-      "link": "https://www.who.int/news/item/13-10-2025-who-upgrades-its-public-health-intelligence-system-to-boost-global-health-security",
-      "summary": "Today, the World Health Organization (WHO), in collaboration with key partners and supporters, launched version 2.0 of the Epidemic Intelligence from Open Sources (EIOS) system, used globally for the early detection of public health threats.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-13T14:50:51.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "ba3ab89c97669e5c",
       "title": "\"بكتيريا قاتلة\" تنتشر.. تحذير من منظمة الصحة العالمية",
       "link": "https://www.skynewsarabia.com/technology/1826791-%D8%A8%D9%83%D8%AA%D9%8A%D8%B1%D9%8A%D8%A7-%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D8%AA%D9%86%D8%AA%D8%B4%D8%B1-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9",
@@ -2695,38 +2503,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f9a0dedeeaa41199",
-      "title": "Maldives becomes the first country to achieve ‘triple elimination’ of mother-to-child transmission of HIV, syphilis and hepatitis B",
-      "link": "https://www.who.int/news/item/13-10-2025-maldives-becomes-the-first-country-to-achieve-triple-elimination-of-mother-to-child-transmission-of-hiv-syphilis-and-hepatitis-b",
-      "summary": "In a landmark public health achievement, the World Health Organization (WHO) has validated the Maldives for eliminating mother-to-child transmission (EMTCT) of hepatitis B, while maintaining its earlier validation (in 2019) for EMTCT of HIV and syphilis.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-13T09:19:27.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c6758b7b2d1d6afd",
-      "title": "WHO warns of widespread resistance to common antibiotics worldwide",
-      "link": "https://www.who.int/news/item/13-10-2025-who-warns-of-widespread-resistance-to-common-antibiotics-worldwide",
-      "summary": "One in six laboratory-confirmed bacterial infections causing common infections in people worldwide in 2023 were resistant to antibiotic treatments, according to a new World Health Organization (WHO) report launched today. Between 2018 and 2023, antibiotic resistance rose in over 40% of the pathogen…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-13T07:22:00.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -3242,22 +3018,6 @@
       "region": "global"
     },
     {
-      "id": "ca04c08dd8795fd4",
-      "title": "WHO tobacco trends report: 1 in 5 adults still addicted to tobacco",
-      "link": "https://www.who.int/news/item/06-10-2025-who-tobacco-trends-report-1-in-5-adults-still-addicted-to-tobacco",
-      "summary": "The world is smoking less, but the tobacco epidemic is far from over. A new WHO global report shows the number of tobacco users has dropped from 1.38 billion in 2000 to 1.2 billion in 2024. Since 2010, the number of people using tobacco has dropped by 120 million – a 27% drop in relative terms. Yet…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-06T13:18:40.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "5edee7f4b0ff50e5",
       "title": "أميركيان وياباني يفوزون بجائزة نوبل للطب",
       "link": "https://www.skynewsarabia.com/technology/1825251-%D8%A7%D9%94%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A7%D9%86-%D9%88%D9%8A%D8%A7%D8%A8%D8%A7%D9%86%D9%8A-%D9%8A%D9%81%D9%88%D8%B2%D9%88%D9%86-%D8%A8%D8%AC%D8%A7%D9%8A%D9%94%D8%B2%D8%A9-%D9%86%D9%88%D8%A8%D9%84-%D9%84%D9%84%D8%B7%D8%A8-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2%D9%87%D9%85%D8%9F",
@@ -3386,22 +3146,6 @@
       "region": "global"
     },
     {
-      "id": "2b6d1af45edab765",
-      "title": "Global health agencies issue new recommendations to help end deaths from postpartum haemorrhage",
-      "link": "https://www.who.int/news/item/05-10-2025-global-health-agencies-issue-new-recommendations-to-help-end-deaths-from-postpartum-haemorrhage",
-      "summary": "Through landmark new guidelines released today, leading reproductive health agencies are calling for a major shift in how postpartum haemorrhage (PPH) is prevented, diagnosed and treated. The recommendations highlight the urgent need for earlier detection and faster intervention – steps that could …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-03T13:55:25.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "1139d3b479188144",
       "title": "دراسة عن سيدة عاشت 117 عاما تكشف \"سر العمر الطويل\"",
       "link": "https://www.skynewsarabia.com/technology/1824761-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%B3%D9%8A%D8%AF%D8%A9-%D8%B9%D8%A7%D8%B4%D8%AA-117-%D8%B9%D8%A7%D9%85%D8%A7-%D8%AA%D9%83%D8%B4%D9%81-%D8%B3%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D8%B1-%D8%A7%D9%84%D8%B7%D9%88%D9%8A%D9%84",
@@ -3450,134 +3194,6 @@
       "region": "global"
     },
     {
-      "id": "eca387d6dd081d50",
-      "title": "Recommendations announced for influenza vaccine composition for the 2026 southern hemisphere influenza season",
-      "link": "https://www.who.int/news/item/26-09-2025-recommendations-announced-for-influenza-vaccine-composition-for-the-2026-southern-hemisphere-influenza-season",
-      "summary": "The World Health Organization (WHO) today announced its recommendations for the viral composition of influenza vaccines for use in the 2026 influenza season in the southern hemisphere. The announcement was made at an Information Meeting after a 4-day Consultation on the Composition of Influenza Vir…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-26T08:38:34.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "3bff75e58a4c37ef",
-      "title": "Member States advance vital work in support of WHO Pandemic Agreement",
-      "link": "https://www.who.int/news/item/25-09-2025-member-states-advance-vital-work-in-support-of-who-pandemic-agreement",
-      "summary": "WHO Member States are actively progressing with the development of the Pathogens Access and Benefit Sharing (PABS) system, a key component of the WHO Pandemic Agreement aimed at ensuring equitable and timely sharing of pathogen materials and related benefits. This work follows the historic adoption…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-25T21:44:39.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d620c00608ada6ac",
-      "title": "WHO statement on autism-related issues",
-      "link": "https://www.who.int/news/item/24-09-2025-who-statement-on-autism-related-issues",
-      "summary": "The World Health Organization (WHO) emphasizes that there is currently no conclusive scientific evidence confirming a possible link between autism and use of acetaminophen (also known as paracetamol) during pregnancy. Globally, nearly 62 million people (1 in 127) have autism spectrum disorder, a di…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-24T06:10:14.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "8ad51c4ddb004e8c",
-      "title": "Uncontrolled high blood pressure puts over a billion people at risk",
-      "link": "https://www.who.int/news/item/23-09-2025-uncontrolled-high-blood-pressure-puts-over-a-billion-people-at-risk",
-      "summary": "The World Health Organization (WHO) today released its second Global hypertension report, showing that 1.4 billion people lived with hypertension in 2024, yet just over one in five have it under control either through medication or addressing modifiable health risks.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-23T12:00:22.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "0271fccd49871fc2",
-      "title": "EU renews support for WHO’s Universal Health Coverage Partnership",
-      "link": "https://www.who.int/news/item/22-09-2025-eu-renews-support-for-who-s-universal-health-coverage-partnership",
-      "summary": "WHO and the European Union (EU) have renewed their collaboration on achieving universal health coverage with the launch of Phase V (2025–2028) of the Universal Health Coverage (UHC) Partnership – WHO’s largest platform for strengthening health systems and advancing primary health care.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-22T15:26:44.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "9b2e3cedaf035d12",
-      "title": "Amended International Health Regulations enter into force",
-      "link": "https://www.who.int/news/item/19-09-2025-amended-international-health-regulations-enter-into-force",
-      "summary": "Today marks a milestone in global health governance as the amendments to the International Health Regulations (IHR) enter into force. This reflects a renewed global commitment to cooperation in the face of public health emergencies, shaped by hard-earned lessons of the COVID-19 pandemic.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-19T14:07:54.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "6f52d809c17f3a39",
-      "title": "WHO urges cost effective solutions on NCDs and mental health amidst slowing progress",
-      "link": "https://www.who.int/news/item/18-09-2025-who-urges-cost-effective-solutions-on-ncds-and-mental-health-amidst-slowing-progress",
-      "summary": "The World Health Organization (WHO) today released a new report titled “Saving lives, spending less”, revealing that an additional investment of just US$3 per person annually in tackling noncommunicable diseases (NCDs) could yield economic benefits of up to US$1 trillion by 2030.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-18T13:33:07.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "ae69a79ae03aa465",
-      "title": "Cholera kills more people for second consecutive year, while prevention and treatment available",
-      "link": "https://www.who.int/news/item/12-09-2025-cholera-kills-more-people-for-second-consecutive-year-while-prevention-and-treatment-available",
-      "summary": "The global cholera statistics for 2024, shows an increase in both the number of people who fell sick and died from the disease. Reported cholera cases rose by 5% and deaths by 50% in 2024 compared to 2023, with more than 6000 people dying from a disease that is both preventable and treatable.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-12T14:16:33.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d474fc8c60aa2ddd",
       "title": "Humble & sweet, but a lion - the story of the first female £1m player",
       "link": "https://www.bbc.com/sport/football/articles/cn82lx29558o?at_medium=RSS&at_campaign=rss",
@@ -3591,38 +3207,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "681656791e537ed5",
-      "title": "WHO updates list of essential medicines to include key cancer, diabetes treatments",
-      "link": "https://www.who.int/news/item/05-09-2025-who-updates-list-of-essential-medicines-to-include-key-cancer--diabetes-treatments",
-      "summary": "Today, the World Health Organization (WHO) has released updated editions of its Model Lists of Essential Medicines (EML) and Essential Medicines for Children (EMLc), adding new treatments for various types of cancer and for diabetes with associated comorbidities such as obesity. Medicines for cysti…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-09-05T10:12:51.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "dab6ed8463b03601",
-      "title": "Over a billion people living with mental health conditions – services require urgent scale-up",
-      "link": "https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up",
-      "summary": "More than 1 billion people are living with mental health disorders, according to new data released by the World Health Organization (WHO). The new findings published in two reports – World mental health today and Mental Health Atlas 2024 – highlight some areas of progress while exposing significant…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-08-28T12:16:07.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -3658,22 +3242,6 @@
       "region": "global"
     },
     {
-      "id": "95d89101c8562c19",
-      "title": "WHO, WMO issue new report and guidance to protect workers from increasing heat stress",
-      "link": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
-      "summary": "The WHO and WMO have released a comprehensive technical report and guidance addressing the escalating global health and economic risks posed by extreme heat, particularly in the workplace. This guidance builds on five decades of research and responds to the record-breaking temperatures of recent ye…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-08-15T12:33:53.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f25dc9c8596e685f",
       "title": "'He has made young players dream' - the making of Liverpool icon Salah",
       "link": "https://www.bbc.com/sport/football/articles/cx2xlk74llno?at_medium=RSS&at_campaign=rss",
@@ -3687,54 +3255,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ebf4f028276a5929",
-      "title": "WHO designates new WHO-Listed Authorities, strengthening global access to quality-assured medical products",
-      "link": "https://www.who.int/news/item/07-08-2025-who-designates-new-who-listed-authorities--strengthening-global-access-to-quality-assured-medical-products",
-      "summary": "The World Health Organization (WHO) has officially designated Health Canada, the Ministry of Health, Labour and Welfare/Pharmaceuticals and Medical Devices Agency (MHLW/PMDA) of Japan, and the Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom as WHO-Listed Authorities…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-08-07T17:12:58.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "3193d1cd6d75b43f",
-      "title": "Kenya achieves elimination of human African trypanosomiasis or sleeping sickness as a public health problem",
-      "link": "https://www.who.int/news/item/08-08-2025-kenya-achieves-elimination-of-human-african-trypanosomiasis-or-sleeping-sickness",
-      "summary": "The World Health Organization (WHO) has validated Kenya as having eliminated human African trypanosomiasis (HAT) or sleeping sickness as a public health problem, making it the tenth country to reach this important milestone. HAT is the second neglected tropical disease (NTD) to be eliminated in Ken…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-08-06T09:47:17.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "822afc7273085224",
-      "title": "On World Breastfeeding Week, countries urged to invest in health systems and support breastfeeding mothers",
-      "link": "https://www.who.int/news/item/04-08-2025-on-world-breastfeeding-week-countries-urged-to-invest-in-health-systems-and-support-breastfeeding-mothers",
-      "summary": "Strengthening health systems to support breastfeeding is not just a health imperative, it is a moral and economic imperative. WHO and UNICEF remain committed to supporting countries to build resilient health systems that leave no mother or child behind.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-08-05T08:15:02.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
