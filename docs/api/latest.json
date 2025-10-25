@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2025-10-25T10:58:22.895Z",
-    "total": 350,
-    "processed_feeds": 23,
-    "discovered_feeds": 83,
+    "generated_at": "2025-10-25T11:13:51.688Z",
+    "total": 348,
+    "processed_feeds": 24,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "Youm7 — منوعات",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
@@ -35,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/470b379e-c866-4b12-82be-c10e6769869f",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -43,46 +43,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 71,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
+        "taken": 69,
         "error": null,
         "notModified": false
       },
@@ -100,42 +61,16 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "lang": "ar",
-        "region": "egypt",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -148,6 +83,32 @@
           "general"
         ],
         "taken": 44,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
         "error": null,
         "notModified": false
       },
@@ -165,6 +126,19 @@
         "notModified": false
       },
       {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Khaleej Times - Lifestyle",
         "url": "https://www.khaleejtimes.com/rss/lifestyle",
         "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
@@ -178,16 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -204,16 +178,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
         "lang": "ar",
-        "region": "global",
+        "region": "gulf",
         "cats": [
-          "general"
+          "lifestyle"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
+        "taken": 100,
+        "error": null,
         "notModified": false
       },
       {
@@ -230,9 +204,9 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -256,10 +230,36 @@
         "notModified": false
       },
       {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -282,16 +282,29 @@
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
-        "lang": "en",
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -310,6 +323,70 @@
     ]
   },
   "items": [
+    {
+      "id": "0573a238afd64bc8",
+      "title": "High bar bronze for GB's Fraser at World Artistic Championships",
+      "link": "https://www.bbc.com/sport/gymnastics/videos/cj0e9yrmgp4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Watch Great Britain's Joe Fraser win bronze in the high bar at the World Artistic Gymnastics Championships, securing Great Britain's first ever medal in the event.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-25T11:12:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "aac1561aa43ef45c",
+      "title": "Gear News of the Week: There’s Yet Another New AI Browser, and Fujifilm Debuts the X-T30 III",
+      "link": "https://www.wired.com/story/gear-news-of-the-week-theres-yet-another-new-ai-browser-and-fujifilm-debuts-the-x-t30-iii/",
+      "summary": "Plus: Aura’s new digital photo frame goes wireless, a mood-morphing watch, Wyze and TP-Link unveil solar-powered outdoor security cameras, and Intel will open “AI Experience Stores” in five cities.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-25T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "66273673f164f03b",
+      "title": "The 55 Best Shows on Netflix Right Now (October 2025)",
+      "link": "https://www.wired.com/story/netflix-best-shows-this-week/",
+      "summary": "Wayward, Haunted Hotel, and House of Guinness are just a few of the shows you need to watch on Netflix this month.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-25T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b8f3b2b1b3122f00",
+      "title": "Science news this week: Comets light up the skies and race toward the sun, our galaxy's mysterious glow is explained, and scientists tell us why time moves faster as we age",
+      "link": "https://www.livescience.com/space/science-news-this-week-comets-light-up-the-skies-and-race-toward-the-sun-our-galaxys-mysterious-glow-is-explained-and-scientists-tell-us-why-time-moves-faster-as-we-age",
+      "summary": "Oct. 25, 2025: Our weekly roundup of the latest science in the news, as well as a few fascinating articles to keep you entertained over the weekend.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/hd8JprnPTBqbpZNZgkjqYi-1280-80.jpg",
+      "pubDate": "2025-10-25T11:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "5d7443077c06e30e",
       "title": "Double medal success for GB women on floor at Worlds",
@@ -442,7 +519,7 @@
       "id": "3b755223644d9977",
       "title": "Two Australia players 'touched inappropriately' at Women's World Cup",
       "link": "https://www.bbc.com/sport/cricket/articles/cp9720x189mo?at_medium=RSS&at_campaign=rss",
-      "summary": "Cricket Australia confirmed that police in Indore are handling the matter.",
+      "summary": "Two Australia cricketers were \"approached and touched inappropriately\" while in India for the Women's Cricket World Cup, Cricket Australia says.",
       "body": null,
       "image": null,
       "pubDate": "2025-10-25T09:47:53.000Z",
@@ -533,6 +610,22 @@
       "lang": "en",
       "category": "health",
       "region": "global"
+    },
+    {
+      "id": "03fa8babc198ef4e",
+      "title": "انتقم منه مرتين.. إنزاجي يضع كونسيساو أمام القطار",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%86%D8%AA%D9%82%D9%85-%D9%85%D9%86%D9%87-%D9%85%D8%B1%D8%AA%D9%8A%D9%86-%D8%A7%D9%95%D9%86%D8%B2%D8%A7%D8%AC%D9%8A-%D9%8A%D8%B6%D8%B9-%D9%83%D9%88%D9%86%D8%B3%D9%8A%D8%B3%D8%A7%D9%88-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1/blte7485941bb42b2cf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>رد الإيطالي سيموني إنزاجي، المدير الفني لفريق الهلال السعودي، الصاع لغريمه البرتغالي سيرجيو كونسيساو، مدرب اتحاد جدة، صاعين، بعد مباراة الكلاسيكو بين الفريقين.</p><p>وقاد إنزاجي الهلال لتحقيق الفوز على الاتحاد بنتيجة 2-0، خلال المباراة التي جمعت بينهما، أمس الجمعة، على ملعب الإنماء، في الجولة ال…",
+      "body": "رد الإيطالي سيموني إنزاجي، المدير الفني لفريق الهلال السعودي، الصاع لغريمه البرتغالي سيرجيو كونسيساو، مدرب اتحاد جدة، صاعين، بعد مباراة الكلاسيكو بين الفريقين. وقاد إنزاجي الهلال لتحقيق الفوز على الاتحاد بنتيجة 2-0، خلال المباراة التي جمعت بينهما، أمس الجمعة، على ملعب الإنماء، في الجولة السادسة من الدوري السعودي للمحترفين. مباراة التعادل الفوز الذي حققه إنزاجي على كونسيساو عدل الكفة بين المدربين في تاريخ المواجهات التي جمعت بينهما كمدربين، حيث كان هذا الانتصار هو الثاني للمدرب الإيطالي. وبذلك يعدل إنزاجي الكفة مع كونسيساو، حيث فاز كل مدرب منهما بمباراتين، فيما انتهت 3 مباريات بالتعادل. غير أن كونسيساو لا يزال متفوقًا في عدد الأهداف، حيث سجلت فرقه 8 أهداف، مقابل 6 أهداف سجل لاعبو فرق المدرب الإيطالي. وقاد إنزاجي إنتر ميلان للتأهل إلى ربع نهائي دوري أبطال أوروبا 2022-2023 على حساب بورتو بقيادة المدرب البرتغالي، بعدما انتهت مباراة الذهاب بفوزه 1-0، قبل التعادل في مباراة الإياب بدون أهداف. كونسيساو حقق فوزه الأول على إنزاجي عندما قاد ميلان للفوز على \"النيراتزوري\" 3-2 في كأس السوبر الإيطالي في يناير/كانون الثاني الماضي، قبل حضور التعادل مجددًا في مباراة الفريقين بالدوري الإيطالي بنتيجة 1-1. النتيجة ذاتها حكمت مباراة ذهاب نصف نهائي كأس إيطاليا، قبل أن يحقق المدرب البرتغالي انتصاره الثان…",
+      "image": null,
+      "pubDate": "2025-10-25T08:58:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "38c010f2f742152f",
@@ -1255,22 +1348,6 @@
       "region": "mena"
     },
     {
-      "id": "c47e371e8614e54f",
-      "title": "نهاية أم بداية جديدة؟ لغز صلاح وسلوت في ليفربول",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%94%D9%85-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%BA%D8%B2-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D8%B3%D9%84%D9%88%D8%AA-%D9%81%D9%8A-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/bltd51edb180f5882a0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لماذا يحتاج الملك إلى التراجع خطوة؟",
-      "body": "كانت ليلة الانتصار الكبير في فرانكفورت بمثابة نسمة هواء نقي لجماهير ليفربول التي كادت تختنق من رائحة الإحباط. فبعد 4 هزائم متتالية، عاد الفريق الأحمر ليُذكّر أوروبا بقوته، دكّ شباك آينتراخت بخماسية مقابل هدف في دوري الأبطال، واستعاد شيئًا من كبريائه تحت قيادة الهولندي آرني سلوت. لكن وسط بهجة النصر، كانت هناك صورة مختلفة تمامًا: محمد صلاح، الهادئ الحزين، يصفّق للجماهير ثم يتجه مباشرة إلى نفق الملعب دون أن يشارك زملاءه فرحتهم. كانت لغة جسده تقول كل شيء؛ الرجل الذي اعتاد أن يكون بطل المشهد، بدا غريبًا على نفسه، غريبًا على الفريق. لم يكن صلاح غاضبًا كما رُوّج، لكنه بدا مثقلًا بخيبة لم يعرفها من قبل. لقد اتخذ سلوت القرار الجريء بإبعاده عن التشكيل الأساسي، مفضّلًا اللعب بطريقة 4-4-2 بدلًا من 4-2-3-1 المعتادة، وأسند دور الجناح الأيمن إلى فلوريان فيرتز، الوافد الجديد من باير ليفركوزن مقابل 116 مليون جنيه إسترليني. القرار بدا صادمًا، لكنه أتى بنتيجة مثالية؛ فالفريق قدّم أفضل أداء له هذا الموسم، في حين بدا صلاح، خلال الدقائق الـ16 التي شارك فيها، بلا تأثير يُذكر. لمس الكرة 12 مرة فقط، فقدها أربع مرات، وأهدر فرصتين واضحتين، أبرزها تسديدة ضعيفة في الدقيقة 89 حين فضّل التسديد من زاوية مستحيلة بدلاً من تمرير الكرة إلى فيرتز الذي كان في وضعٍ مثالي. كانت لقطة تلخّص حال صلاح: كثير من الإصرار، قليل…",
-      "image": "https://assets.kooora.com/images/v3/blt8d7a5ae599204168/crop/MM5DCOBYGU5DCMBTHE5G433XMU5DGNJ2GQYQ====/3.jpg",
-      "pubDate": "2025-10-25T04:07:04.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "d1f954f3a59099dd",
       "title": "McLaren 'already behind' as Verstappen sets practice pace",
       "link": "https://www.bbc.com/sport/formula1/articles/cvgwngjxe4eo?at_medium=RSS&at_campaign=rss",
@@ -1342,22 +1419,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-10-24T22:48:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6c640fdda7032cac",
-      "title": "Brilliant Grull goal earns Bremen back-to-back home victories",
-      "link": "https://www.bbc.com/sport/football/videos/c201np7q2zqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Marco Grull's \"moment of magic\" secures Werder Bremen a 1-0 victory against Union Berlin in the Bundesliga.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-24T22:32:51.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2327,22 +2388,6 @@
       "region": "global"
     },
     {
-      "id": "b4e4f2d4e4890674",
-      "title": "Salah form 'last thing' Slot worries about - plus surprise stats on his season",
-      "link": "https://www.bbc.com/sport/football/articles/ckgk181pr05o?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool manager Arne Slot says \"the last thing\" he needs to worry about is Mohamed Salah returning to form.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-24T11:59:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "837798b3d76e4aad",
       "title": "Dell Tower Plus Review: A Hybrid Work and Gaming Desktop",
       "link": "https://www.wired.com/review/dell-tower-plus-ebt2250/",
@@ -2356,22 +2401,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a14fdf8f614e0d22",
-      "title": "Confidence, momentum, belief - can rampant Coventry keep it up?",
-      "link": "https://www.bbc.com/sport/football/articles/cqjwd1yexk7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Are Frank Lampard's Coventry City finally on their way back to the Premier League, even with 35 games remaining?",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-24T11:28:54.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2455,22 +2484,6 @@
       "region": "global"
     },
     {
-      "id": "8cea3055cd9af264",
-      "title": "Herbert leads Chargers to big win over Vikings",
-      "link": "https://www.bbc.com/sport/american-football/videos/cq6z71m6vqvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Justin Herbert throws three touchdown passes as the Los Angeles Chargers return to winning ways with a 37-10 victory over the Minnesota Vikings.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-24T10:01:24.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "699037c56c96a21c",
       "title": "Strange object between Saturn and Uranus is 'evolving' its own ring system, study suggests",
       "link": "https://www.livescience.com/space/astronomy/strange-object-between-saturn-and-uranus-is-evolving-its-own-ring-system-study-suggests",
@@ -2532,6 +2545,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "107e29d72709f400",
+      "title": "'I was shocked' - Warriors' Curry & Green on NBA gambling arrests",
+      "link": "https://www.bbc.com/sport/basketball/videos/c201xy1pz46o?at_medium=RSS&at_campaign=rss",
+      "summary": "Golden State Warriors stars Steph Curry and Draymond Green reflect on the allegations of illegal gambling involving figures from the NBA.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-24T09:24:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -3095,22 +3124,6 @@
       "region": "global"
     },
     {
-      "id": "72c83ec7a5b4f096",
-      "title": "One-Pot Lazy Lasagna",
-      "link": "https://www.delish.com/cooking/recipe-ideas/a69021106/one-pot-lazy-lasagna-recipe/",
-      "summary": "",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/one-pot-lazy-lasagna-index-web-997-rl-del099925-68d57717af152.jpg",
-      "pubDate": "2025-10-23T15:00:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "7276998debddbed6",
       "title": "Google Earth Gets an AI Chatbot to Help Chart the Climate Crisis",
       "link": "https://www.wired.com/story/google-earth-gemini-ai-chatbot/",
@@ -3140,6 +3153,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "72c83ec7a5b4f096",
+      "title": "One-Pot Lazy Lasagna",
+      "link": "https://www.delish.com/cooking/recipe-ideas/a69021106/one-pot-lazy-lasagna-recipe/",
+      "summary": "",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/one-pot-lazy-lasagna-index-web-997-rl-del099925-68d57717af152.jpg",
+      "pubDate": "2025-10-23T15:00:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3207,22 +3236,6 @@
       "region": "gulf"
     },
     {
-      "id": "48236e001eb38b46",
-      "title": "Creamy Pumpkin Beans & Greens",
-      "link": "https://www.delish.com/cooking/recipe-ideas/a69107204/creamy-pumpkin-beans-and-greens-recipe/",
-      "summary": "",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/creamy-pumpkin-beans-greens-socialindex-web-133-rv-hi-res-del099925-68f671a34a382.jpg",
-      "pubDate": "2025-10-23T14:00:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "0e21ba00447f5539",
       "title": "The Best Hearing Aids of 2025, Tested and Reviewed",
       "link": "https://www.wired.com/gallery/best-hearing-aids/",
@@ -3236,6 +3249,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "48236e001eb38b46",
+      "title": "Creamy Pumpkin Beans & Greens",
+      "link": "https://www.delish.com/cooking/recipe-ideas/a69107204/creamy-pumpkin-beans-and-greens-recipe/",
+      "summary": "",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/creamy-pumpkin-beans-greens-socialindex-web-133-rv-hi-res-del099925-68f671a34a382.jpg",
+      "pubDate": "2025-10-23T14:00:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3271,22 +3300,6 @@
       "region": "global"
     },
     {
-      "id": "29846c513daa4317",
-      "title": "Costco Just Dropped Pumpkin Spice Bagels—And They’re Shockingly Good",
-      "link": "https://www.delish.com/food-news/a69124637/costcos-pumpkin-spice-bagels/",
-      "summary": "Shoppers are adding them to their carts faster than you can say “PSL.”",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/img-9480-68f922a225409.jpeg",
-      "pubDate": "2025-10-23T13:00:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "236767d50dce1677",
       "title": "Nike’s Robotic Shoe Gets Humans One Step Closer to Cyborg",
       "link": "https://www.wired.com/story/nike-project-amplify/",
@@ -3313,6 +3326,22 @@
       "source": {
         "name": "Wired",
         "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "29846c513daa4317",
+      "title": "Costco Just Dropped Pumpkin Spice Bagels—And They’re Shockingly Good",
+      "link": "https://www.delish.com/food-news/a69124637/costcos-pumpkin-spice-bagels/",
+      "summary": "Shoppers are adding them to their carts faster than you can say “PSL.”",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/img-9480-68f922a225409.jpeg",
+      "pubDate": "2025-10-23T13:00:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
       },
       "lang": "en",
       "category": "general",
@@ -3662,38 +3691,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-10-22T18:14:27.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "826f4f06a0ee9763",
-      "title": "AI Models Get Brain Rot, Too",
-      "link": "https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/",
-      "summary": "A new study shows that feeding large language models low-quality, high-engagement content from social media lowers their cognitive abilities.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-22T18:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "df10b0a32b2c6579",
-      "title": "Also TM-B Ebike: Specs, Release Date, Price, and Features",
-      "link": "https://www.wired.com/story/rivian-also-tm-b-modular-repairable-electric-bike/",
-      "summary": "Preorders are open now for the Also TM-B ebike, which starts at $4,000. It ships next year.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-22T17:30:00.000Z",
       "source": {
         "name": "Wired",
         "homepage": "https://www.wired.com/feed/rss"
@@ -4549,22 +4546,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "c6783306929de0fb",
-      "title": "Double comet alert! Comets Lemmon and SWAN will reach their brightest tonight and tomorrow — here's how to spot them",
-      "link": "https://www.livescience.com/space/comets/double-comet-alert-comets-lemmon-and-swan-will-reach-their-brightest-this-week-heres-how-to-spot-them",
-      "summary": "Comet Lemmon (C/2025 A6) makes its closest approach to Earth on Oct. 21, about 24 hours after the fainter Comet SWAN (C/2025 R2) does the same. Here's how, where and when to see them both.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/rLcMkhrSEbafUgKMXW8Xge-1280-80.jpg",
-      "pubDate": "2025-10-19T11:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "3858f08942130723",
