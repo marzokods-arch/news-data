@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-10-26T18:15:35.359Z",
-    "total": 211,
+    "generated_at": "2025-10-26T18:40:38.113Z",
+    "total": 207,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 69,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
@@ -35,32 +48,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 66,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Khaleej Times — Entertainment",
         "url": "https://www.khaleejtimes.com/rss/entertainment",
         "homepage": "https://www.khaleejtimes.com/rss/entertainment",
@@ -74,16 +61,42 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "egypt",
+        "region": "mena",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -113,42 +126,16 @@
         "notModified": false
       },
       {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -165,16 +152,29 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -187,20 +187,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: Unable to parse XML.",
         "notModified": false
       },
       {
@@ -215,10 +202,103 @@
         "taken": 0,
         "error": "Error: HTTP 500",
         "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "98e8fa1750dbc122",
+      "title": "Fan anger, rock bottom - what next for Pereira and Wolves?",
+      "link": "https://www.bbc.com/sport/football/articles/cnvemy2gp23o?at_medium=RSS&at_campaign=rss",
+      "summary": "Fans revolt and turn on Vitor Pereira as winless Wolves struggle in the Premier League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-26T18:36:10.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0c8907f3ccc6a463",
+      "title": "Xu wins singles and doubles titles at Wrexham Open",
+      "link": "https://www.bbc.com/sport/tennis/articles/cpwvqrnrvxno?at_medium=RSS&at_campaign=rss",
+      "summary": "Welsh 18-year-old Mimi Xu backs up the biggest singles win of her career by clinching the doubles title just hours later.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-26T18:35:35.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a571bdf252ead253",
+      "title": "Bellingham scores El Clasico winner as Real Madrid beat Barcelona",
+      "link": "https://www.bbc.com/sport/football/videos/cj0emrp5gv1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jude Bellingham assists the first goal and scores the second for Real Madrid as they beat Barcelona 2-1 in the first Clasico of the La Liga season.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-26T18:34:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "56b3239cd4fe35d0",
+      "title": "Sinner battles cramp to claim Vienna Open title",
+      "link": "https://www.bbc.com/sport/tennis/articles/c201w6nx47qo?at_medium=RSS&at_campaign=rss",
+      "summary": "World number two Jannik Sinner battles cramp to stage a 3-6 6-3 7-5 comeback against Alexander Zverev and claim the Vienna Open title.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-26T18:23:09.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4e6b6e9d8f800a6f",
+      "title": "Cooler Master's new PC case with 5.25-inch drive bay launches in Japan as optical drive boom hits due to Windows 10 upgrade cycle — MasterBox CM695 is unabashedly towering and addresses the country's reluctance to ditch physical media",
+      "link": "https://www.tomshardware.com/pc-components/pc-cases/cooler-masters-new-pc-case-with-5-25-inch-drive-bay-launches-in-japan-as-residents-continue-to-embrace-optical-drives-masterbox-cm695-is-unabashedly-towering-and-addresses-the-countrys-reluctance-to-ditch-physical-media",
+      "summary": "Cooler Master is defying convention by launching a new midtower case in Japan that features a 5.25-inch optical drive bay up front. The MasterBox CM695 features a suitably-vintage design that also has space for up to four 3.5-inch hard drives, while still rocking a 20Gbps Type-C port at the top, al…",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/F9tCthJrtsWnYCqWyepWwd-1280-80.png",
+      "pubDate": "2025-10-26T18:19:26.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
     {
       "id": "eec3af22d3bc80b4",
       "title": "Morris sprints 'like a champion' to take silver in women's points race",
@@ -444,22 +524,6 @@
       "region": "global"
     },
     {
-      "id": "1b9dae7b86f9f66a",
-      "title": "Sydney Sweeney on Filming ‘Euphoria’ Season 3: ‘Feels Like I’m Going Home to Family’",
-      "link": "https://variety.com/2025/film/columns/sydney-sweeney-euphoria-season-3-kim-novak-1236561380/",
-      "summary": "Sydney Sweeney is getting ready to finish filming “Euphoria” Season 3. “I wrap ‘Euphoria’ in two days,” she told me at the AFI Fest premiere of her new drama “Christy” on Saturday night in Los Angeles. Sweeney talked about returning to the HBO series after three years. “It’s mostly the same crew, s…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/GIP_5152-1.jpg",
-      "pubDate": "2025-10-26T17:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "e0f024301cf11747",
       "title": "Arsenal 'suffer every week' to win matches - Arteta",
       "link": "https://www.bbc.com/sport/football/videos/cy8vg0gegx6o?at_medium=RSS&at_campaign=rss",
@@ -492,6 +556,22 @@
       "region": "global"
     },
     {
+      "id": "09785b2f5e209eee",
+      "title": "ألونسو: فينيسيوس من إيجابيات الكلاسيكو.. وبيلينجهام يستخدم إحساسه",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%84%D9%88%D9%86%D8%B3%D9%88-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%85%D9%86-%D8%A7%D9%95%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D9%88%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D8%B3%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D9%95%D8%AD%D8%B3%D8%A7%D8%B3%D9%87/blt2623015cb3342a94?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الإسباني يقلل من واقعة التغيير",
+      "body": "تحدث تشابي ألونسو المدير الفني لريال مدريد، بثقة وهدوء أمام وسائل الإعلام، بعد تحقيقه أول انتصار له كمدرب في الكلاسيكو بنتيجة (2-1)، محللًا أسباب الفوز ومؤكدًا أهمية الانتصار من الناحيتين الذهنية والمستقبلية. وقال ألونسو في بداية حديثه: \"أنا سعيد جدًا من أجل اللاعبين، كانوا بحاجة لمعرفة أن لديهم المقدرة على الفوز في مباراة من هذا النوع، كان انتصارًا مستحقًا، بل وأقل من مجريات اللقاء، وهذا مهم للمستقبل\". وعن شعوره الشخصي بعد الفوز، شدد مدرب ريال مدريد على أنه لا يرى الأمر كتحرر من ضغط أو عبء معين: \"لم يتحرر شيء بالنسبة لي، لا يزال أمامنا الكثير، يجب أن نتحلى بالهدوء\". أزمة فينيسيوس لم يخل المؤتمر من الأسئلة المثارة حول غضب فينيسيوس جونيور بعد استبداله، إلا أن ألونسو تعامل مع الأمر بهدوء: \"خرجت من المباراة بالكثير من الإيجابيات، ومن بينها أداء فيني، سنتحدث عن الأمر بالتأكيد، لكن لا أريد فقدان التركيز عن النقاط المهمة، هناك لاعبين يملكون شخصيات مختلفة، وسنوضح الأمور داخل المجموعة\". ورغم تكرار الأسئلة حول النجم البرازيلي، فضل ألونسو عدم التوسع في الجدل، مؤكدًا أن التوتر جزء طبيعي من مباريات الكلاسيكو: \"هذا طبيعي، في كل كلاسيكو يحدث الكثير وسيستمر ذلك، فالتوتر دائمًا موجود، طالما أن الأمور تبقى في إطار المنافسة الصحية فلا يوجد ما يدعو للقلق\". وعند الحديث عن الجانب الفني، أشاد ألونسو بت…",
+      "image": null,
+      "pubDate": "2025-10-26T16:40:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "cb1aa6297295683b",
       "title": "الدوري المصري.. الإسماعيلي 0-1 فاركو.. طلائع الجيش 2-1 زد",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/528209/%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a-0-1-%d9%81%d8%a7%d8%b1%d9%83%d9%88-%d8%b7%d9%84%d8%a7%d8%a6%d8%b9-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-2-1-%d8%b2%d8%af",
@@ -508,20 +588,68 @@
       "region": "global"
     },
     {
-      "id": "1fb2bf057a0c1b98",
-      "title": "‘Anne Rice’s Talamasca’ Is Another Disappointing Entry in AMC’s Immortal Universe: TV Review",
-      "link": "https://variety.com/2025/tv/reviews/anne-rice-talmasca-review-amc-1236561145/",
-      "summary": "“Interview With the Vampire,” the opening salvo of AMC’s attempt to turn the oeuvre of fantasy author Anne Rice into a so-called Immortal Universe of television shows, is one of the best shows on air. Smart, sensual and frequently funny, “Interview” manages the balancing act of all great adaptation…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Talamasca_S1_DG_1011_0181_RT.jpg",
-      "pubDate": "2025-10-26T16:30:00.000Z",
+      "id": "6fa3e7414bfdc0d9",
+      "title": "جدول ترتيب الدوري الإنجليزي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026/blt32989d7601f1774a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026",
+      "body": "تترقب جماهير كرة القدم حول العالم منافسات الدوري الإنجليزي الممتاز لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات مثيرة بين كبار القوم على لقب البطولة الأغلى في إنجلترا. ويخوض ليفربول الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين حصد اللقب العشرين في تاريخه معادلًا رقم مانشستر يونايتد، ومُنهيًا سلسلة هيمنة مانشستر سيتي الذي توج بالبطولة أربع مرات متتالية. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب بمواجهة افتتاحية قوية تجمع ليفربول وبورنموث على ملعب أنفيلد، فيما تتوزع باقي المباريات على مدار عطلة نهاية الأسبوع، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من \"كووورة\"، نستعرض جدول ترتيب الدوري الإنجليزي 2025-2026. جدول ترتيب الدوري الإنجليزي 2025-2026: مانشستر يونايتد ينضم للكبار، وليفربول مستمر في السقوط فاز مانشستر يونايتد على برايتون ليرتقي للمركز الرابع، بينما خسر ليفربول للمباراة الرابعة على التوالي في الدوري الإنجليزي. &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 9 7 1 1 16 3 13 22 2 بورنموث 9 5 3 1 16 11 5 18 3 توتنهام 9 5 2 2 17 7 10 17 4 سندرلاند 9 5 2 2 11 7 4 17 5 مانشستر سيتي 9 5 1 3 17 7 10 16 6 مانشستر يونايتد 9 5 1 3 15 14 1 16 7 ليفربول 9 5 0 4 16 14 2 15 8 أس…",
+      "image": null,
+      "pubDate": "2025-10-26T16:30:04.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1dd596282c63f50c",
+      "title": "جدول مباريات الدوري الإنجليزي 2025-2026، القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt28b7c412b9304dab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات الدوري الإنجليزي 2025-2026..",
+      "body": "نجح ليفربول في حصد لقب الدوري الإنجليزي 2024-2025 للمرة العشرين في تاريخه ليعادل مانشستر يونايتد كأكثر فريق إنجليزي تتويجًا باللقب. وقاد محمد صلاح فريقه للقب آخر في البريمييرليج بعد موسم 2019-2020 ليؤكد تفوق الريدز على باقي الخصوم بعد حسم اللقب قبل أربع جولات كاملة من النهاية. وأوقف الريدز سلسلة مانشستر سيتي الذي فاز بالدوري الإنجليزي 4 مرات على التوالي، ليخرج بموسم إيجابي رغم الخروج المبكر من دوري أبطال أوروبا وخسارة نهائي كأس الرابطة. وتنطلق النسخة الجديدة من البريميرليج بمواجهة ليفربول وبورنموث يوم الجمعة الموافق 15 أغسطس/آب على ملعب أنفيلد. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإنجليزي 2025-2024، والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإنجليزي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 9 7 1 1 16 3 13 22 2 بورنموث 9 5 3 1 16 11 5 18 3 توتنهام 9 5 2 2 17 7 10 17 4 سندرلاند 9 5 2 2 11 7 4 17 5 مانشستر سيتي 9 5 1 3 17 7 10 16 6 مانشستر يونايتد 9 5 1 3 15 14 1 16 7 ليفربول 9 5 0 4 16 14 2 15 8 أستون فيلا 9 4 3 2 9 8 1 15 9 تشيلسي 9 4 2 3 17 11 6 14 10 كريستال بالاس 9 3 4 2 12 9 3 13 11 برينتفورد 9 4 1 4 14 14 0 13 12 نيوكاسل يونايتد 9 3 3 3 9 8 1 12 13 برايتون 9 3 3 3 14 15 -1 1…",
+      "image": null,
+      "pubDate": "2025-10-26T16:29:37.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "72afcf89f0cd0bca",
+      "title": "ألونسو يكرر بداية زيدان.. وبيلينجهام يتفوق على فينيسيوس",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%84%D9%88%D9%86%D8%B3%D9%88-%D9%8A%D9%83%D8%B1%D8%B1-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%B2%D9%8A%D8%AF%D8%A7%D9%86-%D9%88%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%89-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3/bltb9f91e491f48a13b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>حقق ريال مدريد فوزا مهما على غريمه التاريخي برشلونة، بنتيجة 2-1، في لقاء الكلاسيكو الذي أقيم اليوم الأحد، على ملعب سانتياجو برنابيو، ضمن لقاءات الجولة العاشرة لليجا.</p><p>وسجل هدفي ريال مدريد كلًا من كيليان مبابي (22') وجود بيلينجهام (43')، بينما سجل هدف برشلونة فيرمين لوبيز (38').</p><p>وبحسب …",
+      "body": "حقق ريال مدريد فوزا مهما على غريمه التاريخي برشلونة، بنتيجة 2-1، في لقاء الكلاسيكو الذي أقيم اليوم الأحد، على ملعب سانتياجو برنابيو، ضمن لقاءات الجولة العاشرة لليجا. وسجل هدفي ريال مدريد كلًا من كيليان مبابي (22') وجود بيلينجهام (43')، بينما سجل هدف برشلونة فيرمين لوبيز (38'). وبحسب شبكة \"أوبتا\" للإحصائيات، فقد سدد ريال مدريد بقيادة تشابي ألونسو 23 تسديدة على برشلونة، وهو أعلى عدد تسديدات لمدرب في أول مباراة له في الكلاسيكو في الدوري الإسباني منذ موسم 2003-2004 على الأقل (21 تسديدة لفرانك ريكارد مع برشلونة في ديسمبر 2003). أما شبكة \"سكوكا\" للإحصائيات، فقد أشارت إلى أن تشابي ألونسو هو أول مدرب لريال مدريد يفوز بأول كلاسيكو له في الدوري الإسباني منذ زين الدين زيدان عام 2016. وأصبح الإنجليزي جود بيلينجهام أصغر لاعب من ريال مدريد يُسجل ويصنع هدفًا في الكلاسيكو في القرن الحادي والعشرين، عن عمره 22 عامًا و119 يومًا. وتجاوز جود الرقم القياسي الذي سجله فينيسيوس جونيور في كأس ملك إسبانيا في أبريل 2023 (22 عامًا و267 يومًا). كما انضم الفرنسي كيليان مبابي، مهاجم الريال، لقائمة مميزة تضم البرتغالي كريستيانو رونالدو والفرنسي كريم بنزيما. وأصبح مبابي ثالث أكثر اللاعبين تسجيلًا للأهداف ضد برشلونة في جميع المسابقات في القرن الحادي والعشرين، بعد كريستيانو رونالدو (20 هدفًا في 34 مباراة، وكريم بنزي…",
+      "image": "https://assets.kooora.com/images/v3/getty-2243129779/GettyImages-2243129779.jpg",
+      "pubDate": "2025-10-26T16:27:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "91cd7a5ff4fe0e39",
+      "title": "دي يونج: لاعبو الريال بالغوا في التعامل مع تصريحات يامال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%8A-%D9%8A%D9%88%D9%86%D8%AC-%D9%84%D8%A7%D8%B9%D8%A8%D9%88-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%BA%D9%88%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA-%D9%8A%D8%A7%D9%85%D8%A7%D9%84/blt6b5df758a989c857?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"direction: rtl;\">أشعلت تصريحات لامين يامال قبل الكلاسيكو أجواء القمة، بعدما أثارت تعليقاته حول ريال مدريد والتحكيم غضب جماهير النادي الملكي ولاعبيه.&nbsp;</p><p style=\"direction: rtl;\">وبعد فوز ريال مدريد على برشلونة بنتيجة (2-1)، لم تمر الكلمات التي قالها لاعب البارسا الصاعد مرور الكرام …",
+      "body": "أشعلت تصريحات لامين يامال قبل الكلاسيكو أجواء القمة، بعدما أثارت تعليقاته حول ريال مدريد والتحكيم غضب جماهير النادي الملكي ولاعبيه.&nbsp; وبعد فوز ريال مدريد على برشلونة بنتيجة (2-1)، لم تمر الكلمات التي قالها لاعب البارسا الصاعد مرور الكرام داخل الملعب، حيث توجه داني كارفاخال مباشرة إلى زميله في المنتخب الإسباني لتوبيخه على تصريحاته السابقة.&nbsp; ولم يتوقف الأمر عند هذا الحد، إذ انضم إليه كل من الحارس تيبو كورتوا ثم البرازيلي فينيسيوس جونيور، في مشاهد بدت واضحة من التوتر بين لاعبي الغريمين. وعند سؤاله عن تلك الأحداث التي وقعت بعد صافرة النهاية، خرج الهولندي فرينكي دي يونج للدفاع عن زميله الشاب، قائلاً: \"الأمور كان مبالغًا فيها بشكل كبير\". وتابع: \"إذا كان أحدهم يرى أن لامين أخطأ، فليتصل به على الخاص. ما قاله لم يكن بهذا الحجم، وأنا شخصيًا لم أسمعه يتهم ريال مدريد بالسرقة بشكل مباشر\". دي يونج أكد أن الجدل تضخم دون داع، مشيرًا إلى أن يامال ما زال لاعبًا صغيرًا ولا يستحق كل هذه الهجمة القاسية. وعلى المستوى الفني، تطرق دي يونج لتحليل الهزيمة التي تعد الثانية لبرشلونة هذا الموسم في الليجا، موضحًا: \"إذا لم تكن في أفضل حالتك أمام ريال مدريد سيعاقبك بهجماته المرتدة. افتقدنا لخلق الفرص وعلينا التحسن. حاولنا المنافسة، لكن ذلك لم يكن كافيًا. في الشوط الثاني سيطرنا أكثر، لكننا افتقدنا للخطور…",
+      "image": "https://assets.kooora.com/images/v3/getty-2243129524/GettyImages-2243129524.jpg",
+      "pubDate": "2025-10-26T16:23:38.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "9213d1748dea9acd",
@@ -586,22 +714,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "8fff0346a766b469",
-      "title": "'We've still got 29 games left' - Rodgers on Celtic's eight-point deficit",
-      "link": "https://www.bbc.com/sport/football/videos/cgkz31g5zdvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manager Brendan Rodgers refuses to panic about Celtic's Scottish Premiership title chances despite slipping eight points behind Hearts.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-26T16:04:25.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "f9b40b3240498110",
@@ -892,38 +1004,6 @@
       "region": "mena"
     },
     {
-      "id": "09e44b141662a274",
-      "title": "الكشف عن مصير إيفان توني مع أهلي جدة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D9%85%D8%B5%D9%8A%D8%B1-%D8%A7%D9%95%D9%8A%D9%81%D8%A7%D9%86-%D8%AA%D9%88%D9%86%D9%8A-%D9%85%D8%B9-%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D8%AC%D8%AF%D8%A9/blt083bd6edc51209f5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">كشفت تقارير صحفية سعودية عن مستقبل الإنجليزي الدولي إيفان توني، مهاجم أهلي جدة مع فريقه، وذلك في ظل الشائعات حول مصيره مع الفريق.</p><p style=\"direction: rtl;\">توني الذي ساهم في تتويج الأهلي بطلا لدوري أبطال آسيا للنخبة لأول مرة في تاريخه الموسم الماضي، وكأس السوبر السعود…",
-      "body": "كشفت تقارير صحفية سعودية عن مستقبل الإنجليزي الدولي إيفان توني، مهاجم أهلي جدة مع فريقه، وذلك في ظل الشائعات حول مصيره مع الفريق. توني الذي ساهم في تتويج الأهلي بطلا لدوري أبطال آسيا للنخبة لأول مرة في تاريخه الموسم الماضي، وكأس السوبر السعودي قبل بداية الموسم الحالي، تحيط الشائعات بمستقبله مع الفريق الأخضر. ونقلت صحيفة \"اليوم\" السعودية عن مصادر مقربة من اللاعب الإنجليزي، تأكيدها على أن رغبته الأولى هي البقاء مع الأهلي خلال الفترة المقبلة. وأضافت الصحيفة أن الألماني ماتياس يايسله المدير الفني للأهلي يتمسك ببقاء توني بوصفه أحد العناصر الرئيسية التي لا غنى عنها في الفريق. ولم يقم الأهلي في الميركاتو الصيفي الأخير بتدعيم صفوفه على مستوى رأس الحربة في ظل وجود توني بشكل أساسي مع التعويل في بعض الوقت في هذا المركز على فراس البريكان الذي يلعب أيضا كجناح. وانضم توني إلى الأهلي في صيف العام الماضي قادما من برينتفورد الإنجليزي، حيث لعب المهاجم صاحب الـ29 عاما، 57 مباراة سجل خلالها 39 هدفا وصنع 8 أهداف. ورغم البداية المتذبذبة للأهلي على مستوى النتائج لاسيما في دوري روشن، إلا أن توني يحتفظ لنفسه بسجل تهديفي مميز، إذ أن النجم الإنجليزي سجل 9 أهداف في 13 مباراة بجانب صناعة هدفين بكل البطولات. ولعل أكثر ما يثير قلق يايسله وجماهير الأهلي، هو انفراط عقد النجوم، خاصة أن عدد من المتألقين في الموسم ا…",
-      "image": null,
-      "pubDate": "2025-10-26T15:09:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "b9308cfe02295eb4",
-      "title": "أرتيتا: أسلوبنا مذهل.. وكنا متميزين دفاعيًا أمام كريستال بالاس",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D8%A7%D9%94%D8%B3%D9%84%D9%88%D8%A8%D9%86%D8%A7-%D9%85%D8%B0%D9%87%D9%84-%D9%88%D9%83%D9%86%D8%A7-%D9%85%D8%AA%D9%85%D9%8A%D8%B2%D9%8A%D9%86-%D8%AF%D9%81%D8%A7%D8%B9%D9%8A%D9%8B%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3/blt25c16a3cfb6119b9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أعرب الإسباني ميكيل أرتيتا، المدير الفني لفريق آرسنال الإنجليزي، عن سعادته بالفوز الصعب الذي تحقق على حساب كريستال بالاس.",
-      "body": "أعرب الإسباني ميكيل أرتيتا، المدير الفني لفريق آرسنال الإنجليزي، عن سعادته بالفوز الصعب الذي تحقق على حساب كريستال بالاس. وحقق آرسنال فوزًا صعبًا على ضيفه كريستال بالاس، بهدف دون رد، في المباراة التي أقيمت بينهما اليوم الأحد، ضمن الجولة الـ9 من الدوري الإنجليزي الممتاز، على ملعب الإمارات. وقال أرتيتا، في تصريحات لشبكة \"سكاي سبورتس\" عقب المباراة: \"أنا سعيد للغاية لأننا كنا ندرك صعوبة المباراة، لقد كان فوزًا حاسمًا ضد فريق قوي\". وأضاف: \"اليوم كنا حاسمين ومتميزين دفاعيًا، لا أحد يخلق فرصًا كبيرة ضدهم بهذه الطريقة التي يبنون بها هجماتهم\". وتابع: \"لقد استحققنا الفوز، أسلوبنا في التنافس واللعب ورغبتنا في الفوز أمرٌ مذهل\". وأكمل: \"البدلاء الخمسة الذين دخلوا اليوم صنعوا فرقًا كبيرًا مرة أخرى، كما ترون نتائج الدوري الإنجليزي الممتاز.. يجب أن تكون جيدًا جدًا للفوز\". وعن هدف إيبيريتشي إيزي الأول بقميص آرسنال وضد ناديه السابق، قال: \"لقد سجل الهدف بشكل رائع\". وعن الإصابات، قال: شعر ويليام ساليبا ببعض الألم، وكذلك ديكلان رايس\". من جانبه، قال لياندرو تروسارد، جناح آرسنال: \"نحن سعداء للغاية بالفوز والحفاظ على شباكنا نظيفة، علينا مواصلة العمل، لقد كان الوضع هكذا مؤخرًا، علينا التحلي بالصبر طوال المباراة لأننا نعلم أننا قادرون على التسجيل في أي وقت\". وأضاف: \"كان من الأفضل لو حسمنا المباراة بهدف ثان…",
-      "image": null,
-      "pubDate": "2025-10-26T15:08:41.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "ebfb24e74b2838f3",
       "title": "Top charger deals from Amazon US: here are the best chargers for your home, car and travel",
       "link": "https://www.gsmarena.com/top_charger_deals_from_amazon_us_here_are_the_best_chargers_for_your_home_car_and_travel-news-70012.php",
@@ -938,54 +1018,6 @@
       "lang": "en",
       "category": "lifestyle",
       "region": "global"
-    },
-    {
-      "id": "7384122fc99139de",
-      "title": "Box Office: ‘Chainsaw Man’ Is Latest Anime Win With $17 Million Debut, ‘Springsteen’ Underwhelms With $9 Million",
-      "link": "https://variety.com/2025/film/box-office/box-office-chainsaw-man-surprises-springsteen-disappoints-1236561362/",
-      "summary": "Another win for anime. “Chainsaw Man The Movie: Reze Arc,” the latest offering from Sony’s Crunchyroll, was No. 1 at the box office with $17.2 million from 3,003 North American theaters. It’s the second consecutive success for Crunchyroll following September’s sleeper hit “Demon Slayer: Kimetsu no …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/springsteen-movie.jpg",
-      "pubDate": "2025-10-26T15:06:01.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "13d26fd71d9b64f6",
-      "title": "جيسوس في ورطة قبل مواجهة اتحاد جدة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D9%81%D9%8A-%D9%88%D8%B1%D8%B7%D8%A9-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9/blt3acca525595e84dc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>وقع البرتغالي جورجي جيسوس، مدرب فريق النصر، في ورطة حقيقية، قبل المواجهة المرتقبة ضد الاتحاد، في بطولة كأس الملك.</p><p>ويستضيف النادي العاصمي، نظيره الغربي، مساء بعد غد الثلاثاء، على ملعب الأول بارك بالدور ثمن النهائي لبطولة كأس خادم الحرمين الشريفين.</p><p>وذكرت صحيفة \"اليوم\" السعودية، إن ثنائ…",
-      "body": "وقع البرتغالي جورجي جيسوس، مدرب فريق النصر، في ورطة حقيقية، قبل المواجهة المرتقبة ضد الاتحاد، في بطولة كأس الملك. ويستضيف النادي العاصمي، نظيره الغربي، مساء بعد غد الثلاثاء، على ملعب الأول بارك بالدور ثمن النهائي لبطولة كأس خادم الحرمين الشريفين. وذكرت صحيفة \"اليوم\" السعودية، إن ثنائي النصر، أيمن يحيى، وإنييجو مارتينيز، تعرضا لإصابة قبل أيام قليلة من كلاسيكو الاتحاد، استدعت تواجدهما في العيادة الطبية للعالمي. ويأمل جيسوس في تعافي ثنائي النصر، من الإصابة التي ألمت بهما خلال مشاركتهما في لقاء الحزم الذي حسمه العالمي بثنائية نظيفة في الجولة السادسة لدوري روشن السعودي. جيسوس يتعجل عودة بروزوفيتش طالب البرتغالي جورجي جيسوس، الجهاز الطبي لفريق النصر، بتجهيز النجم الكرواتي، مارسيلو بروزوفيتش، للمشاركة في مباراة الاتحاد بكأس الملك. وتعرض مارسيلو بروزوفيتش لإصابة عضلية في الدقيقة 18 من مباراة فريقه ضد الفتح، والتي فاز فيها العالمي بنتيجة 5-1، ليتم استبداله مع إشراك عبد الله الخيبري بدلًا منه. كما غاب بروزوفيتش عن مباراة النصر ضد جوا الهندي، التي أقيمت الأربعاء الماضي، في الجولة الثالثة من دور المجموعات لبطولة دوري أبطال آسيا 2، ومن كما غاب عن مواجهة الحزم، في الجولة السادسة من دوري روشن السعودي للمحترفين. وأوضحت صحيفة \"الرياضية\" السعودية، جورجي جيسوس، يأمل في تعافي مارسيلو بروزوفيتش سريعًا…",
-      "image": null,
-      "pubDate": "2025-10-26T15:01:59.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7fbeaa897ad9d68f",
-      "title": "موعد مباراة الأخدود والهلال في كأس الملك السعودي 2025-2026 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D8%AF%D9%88%D8%AF-%D9%88%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt42496b8d02361a75?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن موعد مباراة الأخدود والهلال في كأس الملك السعودي 2025-2026 والقنوات الناقلة والتشكيل المتوقع...",
-      "body": "يحل الهلال ضيفًا ثقيلًا على الأخدود، الثلاثاء المقبل باستاد مدينة الأمير هذلول بن عبد العزيز الرياضية، ضمن منافسات دور الـ16 من مباريات كأس الملك السعودي 2025-2026.&nbsp; الهلال يمر بفترة جيدة على المستوى المحلي بعد الفوز على الاتحاد في كلاسيكو الكرة السعودية، ويسعى لتأكيد تفوقه في مواجهات الكأس، ويطمح في الفوز على الأخدود لمواصلة حملة الدفاع عن لقب كأس الملك.&nbsp; في المقابل، يطمح الأخدود لتحقيق إحدى مفاجآت الكأس والإطاحة \"بالزعيم\" من السباق مبكرًا. ويستعرض كووورة في السطور التالية، موعد مباراة الأخدود والهلال في كأس الملك السعودي 2025-2026 والقنوات الناقلة والمعلق والتشكيل المتوقع.. &nbsp; متى موعد مباراة الأخدود والهلال في كأس الملك السعودي 2025-2026؟ تقام مباراة الأخدود والهلال في كأس الملك السعودي 2025-2026 يوم الثلاثاء 28 أكتوبر/تشرين أول 2025، على استاد مدينة الأمير هذلول بن عبد العزيز الرياضية. &nbsp;وتنطلق صافرة بداية المباراة في تمام السادسة وعشر دقائق مساءً (18:10) بتوقيت مصر والسعودية، السابعة وعشر دقائق مساءً (19:10) بتوقيت الإمارات. ما القنوات الناقلة لمباراة الأخدود والهلال في كأس الملك السعودي 2025-2026؟ تمتلك شبكة قنوات ثمانية، حقوق بث مباريات كأس الملك، وقد خصصت قناة Thmanyah 1HD، لنقل مباراة الأخدود والهلال في كأس الملك السعودي 2025-2026. كيف تشاهد مباراة الأخد…",
-      "image": null,
-      "pubDate": "2025-10-26T14:58:55.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "0119893004f7a688",
@@ -1018,22 +1050,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "1b466e867b2e598d",
-      "title": "سينر يتوج بلقب فيينا.. وفونسيكا يكتب التاريخ في بازل",
-      "link": "https://www.kooora.com/%D8%AA%D9%86%D8%B3/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%8A%D9%86%D8%B1-%D9%8A%D8%AA%D9%88%D8%AC-%D8%A8%D9%84%D9%82%D8%A8-%D9%81%D9%8A%D9%8A%D9%86%D8%A7-%D9%88%D9%81%D9%88%D9%86%D8%B3%D9%8A%D9%83%D8%A7-%D9%8A%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%81%D9%8A-%D8%A8%D8%A7%D8%B2%D9%84/bltb70344295efe636e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اجتاز الإيطالي يانيك سينر، التشنجات العضلية، ليعيد تأكيد هيمنته على الملاعب داخل الصالات، اليوم الأحد، في بطولة إرسته بانك المفتوحة للتنس في فيينا (فئة 500 نقطة).",
-      "body": "اجتاز الإيطالي يانيك سينر، التشنجات العضلية، ليعيد تأكيد هيمنته على الملاعب داخل الصالات، اليوم الأحد، في بطولة إرسته بانك المفتوحة للتنس في فيينا (فئة 500 نقطة). وعاد المصنف الأول في البطولة، بعد تأخره، ليتغلب على الألماني ألكسندر زفيريف بنتيجة (3-6) و(6-3) و(7-5)، ويستعيد لقب البطولة التي فاز بها سابقاً في عام 2023. وبذل سينر جهداً كبيراً للتغلب على البداية القوية لزفيريف، وتجاوز أيضاً مشاكله البدنية في المجموعتين الأولى والثالثة، ليختتم انتصاره الذي استغرق لنحو ساعتين و29 دقيقة، وحصد لقبه رقم 21 على مستوى الجولة. تصريحات سينر وسلسلة الانتصارات قال يانيك سينر، الذي يمتلك الآن سلسلة انتصارات متتالية بلغت 21 مباراة على الملاعب الصلبة داخل الصالات، بحسب ما نقل موقع رابطة اللاعبين المحترفين \"الشعور مذهل، كانت بداية صعبة للغاية في هذا النهائي بالنسبة لي، خسرت إرسالي مبكراً، وكانت لدي بعض الفرص في المجموعة الأولى، لكنني لم أستطع استغلالها، لقد كان زفيريف يرسل جيداً جداً، لكنني حاولت فقط التمسك ذهنياً واللعب بأفضل ما لدي عندما حانت الفرصة\". وأضاف \"المجموعة الثالثة كانت متقلبة بعض الشيء، لكنني كنت أشعر بالكرة جيداً في بعض الأوقات، لذلك حاولت الضغط، وبالطبع أنا سعيد جداً بالفوز بلقب آخر، إنه أمر خاص جداً\". صراع التشنجات سدد زفيريف، الكرة بقوة من كلا الجانبين في المراحل المبكرة وحقق الكسر…",
-      "image": null,
-      "pubDate": "2025-10-26T14:30:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "a6a4d147f3b2b460",
@@ -1820,22 +1836,6 @@
       "region": "global"
     },
     {
-      "id": "8fa0206ed22d90cd",
-      "title": "Dean takes catch & wicket in consecutive balls",
-      "link": "https://www.bbc.com/sport/cricket/videos/cq504n8g32wo?at_medium=RSS&at_campaign=rss",
-      "summary": "England's Charlie Dean takes a catch from Melie Kerr before dismissing Georgia Plimmer lbw the very next ball as New Zealand fall to 89-3 in their ICC Women's Cricket World Cup match in Visakhapatnam, India.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-26T07:14:06.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "b42962d5139099e2",
       "title": "£160m and counting - Everton's search for their dream striker",
       "link": "https://www.bbc.com/sport/football/articles/crmxz2lpxr8o?at_medium=RSS&at_campaign=rss",
@@ -2076,6 +2076,22 @@
       "region": "global"
     },
     {
+      "id": "7a96727d8f9355b0",
+      "title": "Sunderland go second after late winner at Chelsea",
+      "link": "https://www.bbc.com/sport/football/videos/cp97284mlmmo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sunderland move into second place in the Premier League as winger Chemsdine Talbi scores a 94th-minute winner to stun Chelsea at Stamford Bridge.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-25T21:30:01.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "166b141eb09ec486",
       "title": "Man Utd put four past Brighton for third successive win",
       "link": "https://www.bbc.com/sport/football/videos/cz91yjjqnk0o?at_medium=RSS&at_campaign=rss",
@@ -2220,22 +2236,6 @@
       "region": "global"
     },
     {
-      "id": "2a6f8bf8930e5290",
-      "title": "In ‘Orion,’ a Tense Sci-Fi Two-Hander Serves as Sharp Social Allegory: We Don’t Have ‘Absolute Truth Anymore in This World’ — FilmQuest",
-      "link": "https://variety.com/2025/film/features/orion-sci-fi-movie-truth-modern-world-1236561244/",
-      "summary": "While “Orion” is an ambitious indie space saga, its examination of human nature is decidedly earthbound. The film stars Andrew McCarthy as Jim, a NASA bigwig tasked with helping Apollo (Drew Van Acker), an astronaut with memory loss, figure out what happened to cause his ship to crash and leave the…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/ORION_STILL_7.png",
-      "pubDate": "2025-10-25T20:31:41.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "ac04e7ab31d293e0",
       "title": "Man Utd eye Bellingham loan in January - Sunday's gossip",
       "link": "https://www.bbc.com/sport/football/articles/cwy1jez48l6o?at_medium=RSS&at_campaign=rss",
@@ -2249,22 +2249,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "75e58d60e74fdb45",
-      "title": "Guillermo del Toro Says He’d ‘Rather Die’ Than Use Generative AI in His Films: ‘Not Interested’",
-      "link": "https://variety.com/2025/film/news/guillermo-del-toro-rather-die-generative-ai-frankenstein-1236561316/",
-      "summary": "During a recent sit-down with NPR, Guillermo del Toro asserted that he would “rather die” than use artificial intelligence, “particularly generative AI,” in any of his future films. He compared the growing cultural fascination surrounding the controversial tech to the “arrogance” displayed by the t…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/08/GettyImages-2232838901.jpg",
-      "pubDate": "2025-10-25T20:04:04.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2297,22 +2281,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "750cf5784f9b4313",
-      "title": "‘Hocus Pocus 3’: Thora Birch Is ‘Super Open’ To Returning as Dani Dennison",
-      "link": "https://variety.com/2025/film/news/hocus-pocus-3-thora-super-open-dani-dennison-1236561318/",
-      "summary": "As Disney+ develops “Hocus Pocus 3,” Thora Birch, who played young Dani Dennison in the original 1993 film, says she’s willing to reprise the role. During an interview with Entertainment Tonight, the actress responded to questions about Dani’s return in the third installment, saying “Yeah, I’d like…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/MixCollage-25-Oct-2025-12-13-PM-2624.jpg",
-      "pubDate": "2025-10-25T19:24:14.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2393,22 +2361,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a617eb08367b577a",
-      "title": "June Lockhart, ‘Lost In Space’ and ‘Lassie’ Star, Dies at 100",
-      "link": "https://variety.com/2025/film/news/june-lockhart-dead-lost-in-space-lassie-1236561320/",
-      "summary": "June Lockhart, a popular actress of the 1950s and ’60s known for her roles in “Lost In Space,” “Lassie” and “Meet Me in St. Louis,” died of natural causes on Oct. 23 in Santa Monica, Calif. She was 100. Lockhart became known for her performances as Timmy’s foster mother, Ruth Martin, on the CBS ser…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/08/GettyImages-170269131.jpg",
-      "pubDate": "2025-10-25T18:42:23.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -2812,22 +2764,6 @@
       "region": "global"
     },
     {
-      "id": "0ae20b750f43677e",
-      "title": "Saying goodbye to Nvidia's retired GeForce GTX 1080 Ti — we benchmark 2017's hottest graphics card against some modern GPUs as it rides into the sunset",
-      "link": "https://www.tomshardware.com/pc-components/gpus/saying-goodbye-to-nvidias-geforce-gtx-1080-ti-as-it-rides-into-the-sunset-we-benchmark-2017s-hottest-card-compared-to-modern-gpus",
-      "summary": "We check in on Nvidia’s most famous graphics card ever as support ends.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/FZNrbBupYDrsHKPuvv2zQe-1280-80.jpg",
-      "pubDate": "2025-10-25T10:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "4eaaf01ca59132a6",
       "title": "Ludicrous $6 billion Counter Strike 2 skins market crashes, loses $3 billion overnight — game update destroys inventories, collapses market",
       "link": "https://www.tomshardware.com/video-games/ludicrous-usd6-billion-counter-strike-2-skins-market-crashes-loses-usd3-billion-overnight-game-update-destroys-inventories-collapses-market",
@@ -2841,6 +2777,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0ae20b750f43677e",
+      "title": "Saying goodbye to Nvidia's retired GeForce GTX 1080 Ti — we benchmark 2017's hottest graphics card against some modern GPUs as it rides into the sunset",
+      "link": "https://www.tomshardware.com/pc-components/gpus/saying-goodbye-to-nvidias-geforce-gtx-1080-ti-as-it-rides-into-the-sunset-we-benchmark-2017s-hottest-card-compared-to-modern-gpus",
+      "summary": "We check in on Nvidia’s most famous graphics card ever as support ends.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/FZNrbBupYDrsHKPuvv2zQe-1280-80.jpg",
+      "pubDate": "2025-10-25T10:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3350,22 +3302,6 @@
       "source": {
         "name": "GSMArena",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d6c6dd9f1b181106",
-      "title": "MSI’s X870 Gaming Plus Wifi Motherboard drops to $210 – save $60 and start your new AMD AM5 PC today",
-      "link": "https://www.tomshardware.com/pc-components/motherboards/msis-x870-gaming-plus-wifi-motherboard-drops-to-usd210-save-usd50-and-start-your-new-amd-am5-pc-today",
-      "summary": "Save $50 (24% off MSRP) on a capable X870-based AMD motherboard with this Newegg deal",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/7joLgUDBtKbgMV6CdUG5Bo-1280-80.jpg",
-      "pubDate": "2025-10-23T19:45:51.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
       },
       "lang": "en",
       "category": "general",
