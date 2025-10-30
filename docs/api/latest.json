@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2025-10-30T20:00:05.827Z",
-    "total": 217,
+    "generated_at": "2025-10-30T20:24:46.445Z",
+    "total": 216,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 76,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -32,32 +19,6 @@
         ],
         "taken": 0,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -74,19 +35,6 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "CNBC — Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
@@ -95,7 +43,20 @@
         "cats": [
           "general"
         ],
-        "taken": 23,
+        "taken": 24,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 76,
         "error": null,
         "notModified": false
       },
@@ -113,16 +74,16 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -139,10 +100,10 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -152,10 +113,49 @@
         "notModified": false
       },
       {
-        "name": "Al Jazirah (KSA) - رياضة",
-        "url": "https://www.al-jazirah.com/rss/rss09.xml",
-        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
-        "lang": "ar",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -178,10 +178,23 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 23,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Jazirah (KSA) - رياضة",
+        "url": "https://www.al-jazirah.com/rss/rss09.xml",
+        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -191,16 +204,16 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -227,19 +240,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 23,
-        "error": null,
         "notModified": false
       },
       {
@@ -272,141 +272,93 @@
   },
   "items": [
     {
-      "id": "c66080f3be52ac4e",
-      "title": "Insmed stock price target raised to $223 by TD Cowen on strong Brinsupri launch",
-      "link": "https://www.investing.com/news/analyst-ratings/insmed-stock-price-target-raised-to-223-by-td-cowen-on-strong-brinsupri-launch-93CH-4321478",
+      "id": "316d8f21c5bf97c2",
+      "title": "Netflix announces a 10-for-1 stock split",
+      "link": "https://www.cnbc.com/2025/10/30/netflix-stock-split.html",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
-      "pubDate": "2025-10-30T19:47:10.000Z",
+      "image": null,
+      "pubDate": "2025-10-30T20:23:58.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fc813cac18d9344a",
-      "title": "Tenaris stock price target raised to $46 from $43 at TD Cowen",
-      "link": "https://www.investing.com/news/analyst-ratings/tenaris-stock-price-target-raised-to-46-from-43-at-td-cowen-93CH-4321477",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-10-30T19:47:02.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c880a189808f7fb4",
-      "title": "KBR stock price target raised to $62 from $60 at Truist Securities",
-      "link": "https://www.investing.com/news/analyst-ratings/kbr-stock-price-target-raised-to-62-from-60-at-truist-securities-93CH-4321476",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2025-10-30T19:47:00.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "50f3df7cfcb61b40",
-      "title": "Form 13F Univest Bank & Trust Co. For: 30 October",
-      "link": "https://www.investing.com/news/filings/form-13f-univest-bank--trust-co-for-30-october-93CH-4321475",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2025-10-30T19:46:12.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "general",
       "region": "global"
     },
     {
-      "id": "978d3c221c0188c9",
-      "title": "Earnings call transcript: Hexcel Q3 2025 beats estimates, stock surges",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-hexcel-q3-2025-beats-estimates-stock-surges-93CH-4321474",
-      "summary": "",
+      "id": "7dcb2e75671a89eb",
+      "title": "Reddit shares climb on earnings beat, strong forecast",
+      "link": "https://www.cnbc.com/2025/10/30/reddit-rddt-q3-2025.html",
+      "summary": "Reddit beats on top and bottom, but logged in user growth keeps slowing",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2025-10-30T19:46:07.000Z",
+      "image": null,
+      "pubDate": "2025-10-30T20:22:09.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "5a0b1da79f8f8be0",
+      "title": "Amazon soars 10% as earnings beat estimates, company posts strong cloud growth",
+      "link": "https://www.cnbc.com/2025/10/30/amazon-amzn-q3-earnings-report-2025.html",
+      "summary": "Amazon reported third-quarter earnings Thursday.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-30T20:19:48.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "general",
       "region": "global"
     },
     {
-      "id": "fdd1dbb9d233eb01",
-      "title": "Form 13F Kingdom Financial Group LLC. For: 30 October",
-      "link": "https://www.investing.com/news/filings/form-13f-kingdom-financial-group-llc-for-30-october-93CH-4321473",
-      "summary": "",
+      "id": "1528d76299069549",
+      "title": "Amazon cloud records 20% sales growth, topping estimates",
+      "link": "https://www.cnbc.com/2025/10/30/aws-q3-2025-earnings-report-amazon-cloud.html",
+      "summary": "Amazon Web Services is the world's top provider of cloud infrastructure, but it's facing intensifying pressure from competitors Google and Microsoft.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2025-10-30T19:46:04.000Z",
+      "image": null,
+      "pubDate": "2025-10-30T20:14:15.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "general",
       "region": "global"
     },
     {
-      "id": "1df3fc059c2129db",
-      "title": "Earnings call transcript: Getty Realty Q3 2025 beats expectations, stock rises",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-getty-realty-q3-2025-beats-expectations-stock-rises-93CH-4321472",
+      "id": "9e870f6a17dda9ea",
+      "title": "Crypto exchange Coinbase profit rises on trading strength",
+      "link": "https://www.investing.com/news/stock-market-news/crypto-exchange-coinbase-profit-rises-on-trading-strength-4321585",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2025-10-30T19:46:03.000Z",
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEL9T16F_L.jpg",
+      "pubDate": "2025-10-30T20:12:35.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
-      "id": "c62156de7e2ccbe7",
-      "title": "Form 13F UNIVEST FINANCIAL Corp For: 30 October",
-      "link": "https://www.investing.com/news/filings/form-13f-univest-financial-corp-for-30-october-93CH-4321471",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-10-30T19:46:02.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "dc1823252374e28d",
-      "title": "Form 13F Wendel SE For: 30 October",
-      "link": "https://www.investing.com/news/filings/form-13f-wendel-se-for-30-october-93CH-4321470",
+      "id": "394ebe91599b6a67",
+      "title": "Earnings call transcript: Eagle Materials Q2 2025 misses EPS, stock drops",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-eagle-materials-q2-2025-misses-eps-stock-drops-93CH-4321584",
       "summary": "",
       "body": null,
       "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-10-30T19:45:54.000Z",
+      "pubDate": "2025-10-30T20:12:11.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -416,19 +368,179 @@
       "region": "global"
     },
     {
-      "id": "3682c64c71767a8a",
-      "title": "Form 13F Park Avenue Institutional Advisers LLC For: 30 October",
-      "link": "https://www.investing.com/news/filings/form-13f-park-avenue-institutional-advisers-llc-for-30-october-93CH-4321469",
+      "id": "58ef0b2acdd7c358",
+      "title": "BJ's Restaurants misses Q3 estimates, maintains 2025 guidance",
+      "link": "https://www.investing.com/news/earnings/bjs-restaurants-misses-q3-estimates-maintains-2025-guidance-93CH-4321582",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2025-10-30T19:45:54.000Z",
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2025-10-30T20:12:05.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "2f7062c6ec42c2c2",
+      "title": "Standex earnings beat by $0.08, revenue topped estimates",
+      "link": "https://www.investing.com/news/earnings/standex-earnings-beat-by-008-revenue-topped-estimates-4321581",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2025-10-30T20:11:56.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ae61f8a109f1130e",
+      "title": "Monolithic earnings beat by $0.09, revenue topped estimates",
+      "link": "https://www.investing.com/news/earnings/monolithic-earnings-beat-by-009-revenue-topped-estimates-4321580",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2025-10-30T20:11:52.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "07d5f0884e043af1",
+      "title": "Onespan earnings beat by $0.04, revenue fell short of estimates",
+      "link": "https://www.investing.com/news/earnings/onespan-earnings-beat-by-004-revenue-fell-short-of-estimates-4321579",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2025-10-30T20:11:52.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0880de35582ff40e",
+      "title": "Form 6K Genfit S.A. For: 30 October",
+      "link": "https://www.investing.com/news/filings/form-6k-genfit-sa-for-30-october-93CH-4321578",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2025-10-30T20:11:34.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d6c9273ab795a7e7",
+      "title": "Form 6K Molecular Partners AG ADR For: 30 October",
+      "link": "https://www.investing.com/news/filings/form-6k-molecular-partners-ag-adr-for-30-october-93CH-4321577",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2025-10-30T20:11:34.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3a8a2312c0c7a70e",
+      "title": "Arrow Electronics earnings beat by $0.12, revenue topped estimates",
+      "link": "https://www.investing.com/news/earnings/arrow-electronics-earnings-beat-by-012-revenue-topped-estimates-4321576",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2025-10-30T20:11:29.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0b347b5155269c8d",
+      "title": "Lumen Technologies earnings beat by $0.06, revenue topped estimates",
+      "link": "https://www.investing.com/news/earnings/lumen-technologies-earnings-beat-by-006-revenue-topped-estimates-4321575",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2025-10-30T20:11:29.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e6174107dd34bc79",
+      "title": "Roblox stock slips 15% as company expects more spending on safety and infrastructure",
+      "link": "https://www.cnbc.com/2025/10/30/roblox-stock-earnings-safety.html",
+      "summary": "Roblox is facing multiple lawsuits alleging that the platform enables predators to sexually exploit and abuse underage victims.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-30T20:10:06.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5824cee12fa72bc9",
+      "title": "Meta readies $25bn bond sale as soaring AI costs trigger stock sell-off",
+      "link": "https://www.ft.com/content/120d2321-8382-4d74-ab48-f9ecb483c2a9",
+      "summary": "Social media group sheds $200bn in market value as Mark Zuckerberg’s investment plans spook investors",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-30T20:07:37.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d6b1b2d94b6d005b",
+      "title": "Meta stock has worst day in 3 years, dropping 11% on higher AI spend",
+      "link": "https://www.cnbc.com/2025/10/30/meta-stock-earnings-ai-spend.html",
+      "summary": "Meta's results raised skepticism over the payoff from its aggressive artificial intelligence spending plans and overshadowed strong results.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-30T20:06:26.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -864,6 +976,22 @@
       "region": "global"
     },
     {
+      "id": "655605f24f5dcfd4",
+      "title": "القوة الجوية يتخطى ديالى.. والنجف يصعق أمانة بغداد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D9%8A%D8%AA%D8%AE%D8%B7%D9%89-%D8%AF%D9%8A%D8%A7%D9%84%D9%89-%D9%88%D8%A7%D9%84%D9%86%D8%AC%D9%81-%D9%8A%D8%B5%D8%B9%D9%82-%D8%A7%D9%94%D9%85%D8%A7%D9%86%D8%A9-%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/blt1f8fe3256ffbc861?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "شهدت منافسات الجولة السادسة من الدوري العراقي الممتاز لكرة القدم، العديد من النتائج المثيرة، أبرزها سقوط أمانة بغداد أمام النجف بهدف نظيف",
+      "body": "شهدت منافسات الجولة السادسة من الدوري العراقي الممتاز لكرة القدم، العديد من النتائج المثيرة، أبرزها سقوط أمانة بغداد أمام النجف بهدف نظيف، وفوز القوة الجوية على ديالى في قمة قوية، بينما سيطر التعادل السلبي على مواجهتي الغرافة أمام زاخو، ودهوك ضد النفط. وفي ملعب النجف، نجح أصحاب الأرض في اقتناص فوز ثمين، على حساب أمانة بغداد بهدف دون رد، جاء بتوقيع اللاعب السنغالي إدريسا نيانغ، الذي قاد فريقه لتحقيق ثلاث نقاط مهمة عززت موقعه في جدول الترتيب. وشهدت المباراة، حالة طرد أثارت الجدل، بعدما أشهر الحكم البطاقة الحمراء في وجه اللاعب التونسي حمدي العبيدي من صفوف أمانة بغداد، ليكمل فريقه اللقاء بعشرة لاعبين، مما زاد من صعوبة العودة في النتيجة. وحاول أمانة بغداد، تعديل الكفة رغم النقص العددي، إلا أن دفاع النجف كان في الموعد، ليحافظ على شباكه نظيفة حتى صافرة النهاية. وفي مواجهة أخرى، حسم التعادل السلبي، نتيجة لقاء الغرافة وزاخو، في مباراة اتسمت بالندية والحذر الدفاعي من الجانبين، حيث غابت الفرص الخطيرة الحقيقية، ليكتفي الفريقان بنقطة واحدة لكل منهما. المشهد ذاته تكرر في مباراة دهوك والنفط، التي انتهت أيضًا بالتعادل دون أهداف، رغم محاولات الفريقين في الشوط الثاني لخطف هدف الانتصار، إلا أن التنظيم الدفاعي وحالة التسرع أمام المرمى حرما الجماهير من مشاهدة الأهداف. أما في أبرز مباريات الجولة، فقد و…",
+      "image": null,
+      "pubDate": "2025-10-30T18:04:37.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "ad0e0371e5046ae7",
       "title": "Global Power Surge Pushes Out 2050 Net Zero By A Decade",
       "link": "https://oilprice.com/Energy/Energy-General/Global-Power-Surge-Pushes-Out-2050-Net-Zero-By-A-Decade.html",
@@ -912,8 +1040,8 @@
       "region": "mena"
     },
     {
-      "id": "b16d12669a2d1e3e",
-      "title": "Barrett and Clarke return for All Blacks v Ireland",
+      "id": "7238999e89f77c7e",
+      "title": "Barrett & Clarke return for New Zealand v Ireland",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cpq1558yy0jo?at_medium=RSS&at_campaign=rss",
       "summary": "New Zealand head coach Scott Robertson recalls Beauden Barrett and Caleb Clarke for Saturday's Test against Ireland in Chicago.",
       "body": null,
@@ -960,9 +1088,9 @@
       "region": "global"
     },
     {
-      "id": "157dbec648aebfac",
-      "title": "فرحة منقوصة.. التوقف الدولي يُعكر صفو عودة نجم برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%B1%D8%AD%D8%A9-%D9%85%D9%86%D9%82%D9%88%D8%B5%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%8A%D9%8F%D8%B9%D9%83%D8%B1-%D8%B5%D9%81%D9%88-%D8%B9%D9%88%D8%AF%D8%A9-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/bltc1efd42a022731e0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "e43f00ae689bc3d5",
+      "title": "فرحة منقوصة.. قرار حماية منتظر يُعكر صفو عودة نجم برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%B1%D8%AD%D8%A9-%D9%85%D9%86%D9%82%D9%88%D8%B5%D8%A9-%D9%82%D8%B1%D8%A7%D8%B1-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D9%85%D9%86%D8%AA%D8%B8%D8%B1-%D9%8A%D9%8F%D8%B9%D9%83%D8%B1-%D8%B5%D9%81%D9%88-%D8%B9%D9%88%D8%AF%D8%A9-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/bltc1efd42a022731e0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "<p>يدرس الألماني هانز فليك، مدرب برشلونة، وطاقمه المعاون، إرجاء عودة الإسباني خوان جارسيا حارس مرمى الفريق الكتالوني، إلى الملاعب قبل فترة التوقف الدولي المقررة خلال شهر نوفمبر/ تشرين الثاني المقبل. </p><p>وكانت الساعات الماضية قد زفت أنباء سارة للجهاز الفني للبارسا، بعودة حارس إسبانيول السابق للتد…",
       "body": "يدرس الألماني هانز فليك، مدرب برشلونة، وطاقمه المعاون، إرجاء عودة الإسباني خوان جارسيا حارس مرمى الفريق الكتالوني، إلى الملاعب قبل فترة التوقف الدولي المقررة خلال شهر نوفمبر/ تشرين الثاني المقبل. وكانت الساعات الماضية قد زفت أنباء سارة للجهاز الفني للبارسا، بعودة حارس إسبانيول السابق للتدريبات، بعد غياب دام نحو شهر بسبب الإصابة. وخضع جارسيا لعملية جراحية في ركبته اليسرى، مما أدى لغيابه عن مباريات برشلونة على مدار شهر أكتوبر/ تشرين الأول الجاري، آخرها الكلاسيكو ضد ريال مدريد، والذي انتهى لصالح الميرينجي بنتيجة 2-1. وكشفت صحيفة \"موندو ديبورتيفو\" الكتالونية عن استبعاد مشاركة جارسيا في المباراتين المقبلتين ضد إلتشي، يوم الأحد المقبل، ضمن منافسات الدوري الإسباني، وكلوب بروج يوم الأربعاء التالي في دوري أبطال أوروبا. وأضافت الصحيفة: \"بنسبة كبيرة، سيكون جارسيا جاهزا للمشاركة أمام سيلتا فيجو يوم 8 نوفمبر/ تشرين الثاني المقبل\". لكن الصحيفة الإسبانية أشارت إلى اعتماد هذا الأمر يتوقف على قرار من الأطباء بمشاركة فليك، حيث من الممكن إرجاء عودته لما بعد فترة التوقف الدولي المقبلة، حال استعدى الأمر ذلك. وحال اتُخذ هذا القرار، فإن حارس برشلونة قد يعود للملاعب أمام أتلتيك بيلباو يوم 22 نوفمبر/ تشرين الثاني المقبل، والتي من المحتمل أن تقام على ملعب \"سبوتيفاي كامب نو، قبل 3 أيام فقط من مواجهة تشيلسي …",
       "image": null,
@@ -974,22 +1102,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "f42b0143fc7e8c48",
-      "title": "Amazon earnings: Cloud growth, holiday outlook and layoffs in focus",
-      "link": "https://www.cnbc.com/2025/10/30/amazon-amzn-q3-earnings-report-2025.html",
-      "summary": "Investors are closely watching growth in Amazon's cloud computing unit, which faces increasing pressure from rivals and artificial intelligence deals.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T17:44:19.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "f9056d4209b3b925",
@@ -1264,22 +1376,6 @@
       "region": "global"
     },
     {
-      "id": "5824cee12fa72bc9",
-      "title": "Meta readies $25bn bond sale as soaring AI costs trigger stock sell-off",
-      "link": "https://www.ft.com/content/120d2321-8382-4d74-ab48-f9ecb483c2a9",
-      "summary": "Social media group sheds $200bn in market value as Mark Zuckerberg’s investment plans spook investors",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T16:48:41.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "e18ff4c2bb042498",
       "title": "بيراميدز يعبر عقبة التأمين الإثيوبي.. ويبلغ مجموعات أبطال أفريقيا",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%8A%D8%B9%D8%A8%D8%B1-%D8%B9%D9%82%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D9%95%D8%AB%D9%8A%D9%88%D8%A8%D9%8A-%D9%88%D9%8A%D8%A8%D9%84%D8%BA-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A7%D8%AA-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blt2c301d41bc558a34?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1294,22 +1390,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "c04d96a0ddca3d00",
-      "title": "Roblox stock slips 10% as company expects more spending on safety and infrastructure",
-      "link": "https://www.cnbc.com/2025/10/30/roblox-stock-earnings-safety.html",
-      "summary": "Roblox is facing multiple lawsuits alleging that the platform enables predators to sexually exploit and abuse underage victims.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T16:39:53.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "e2b56428fcf227d6",
@@ -1546,22 +1626,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b8626cdebccc4d20",
-      "title": "Meta stock drops 10% as heightened AI spending overshadows strong third-quarter results",
-      "link": "https://www.cnbc.com/2025/10/30/meta-stock-earnings-ai-spend.html",
-      "summary": "Meta's results raised skepticism over the payoff from its aggressive artificial intelligence spending plans and overshadowed strong results.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T15:42:12.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "technology",
@@ -1808,22 +1872,6 @@
       "region": "global"
     },
     {
-      "id": "185d622792c985f1",
-      "title": "Restaurant Brands earnings top estimates, fueled by Tim Hortons and international growth",
-      "link": "https://www.cnbc.com/2025/10/30/restaurant-brands-international-qsr-q3-2025-earnings.html",
-      "summary": "The company's international segment was the star of the quarter with 6.5% same-store sales growth.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T14:26:52.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "a95eb49aaf754448",
       "title": "Monzo still thinks it’s a tech company",
       "link": "https://www.ft.com/content/4a0de1c8-8c39-4d1b-9a89-bf4e201a1418",
@@ -1981,22 +2029,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e950194669ba0b0f",
-      "title": "Merck tops estimates on Keytruda strength and narrows profit outlook, as it lowers estimated tariff hit",
-      "link": "https://www.cnbc.com/2025/10/30/merck-mrk-earnings-q3-2025.html",
-      "summary": "Merck said its narrowed profit guidance reflects several new items, including \"lower estimated costs related to the impact of tariffs.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T13:36:25.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2240,22 +2272,6 @@
       "region": "global"
     },
     {
-      "id": "7edcee1a30e2b011",
-      "title": "أموريم: لن أغير قناعاتي.. وسنعاني أثناء أمم أفريقيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85-%D9%84%D9%86-%D8%A7%D9%94%D8%BA%D9%8A%D8%B1-%D9%82%D9%86%D8%A7%D8%B9%D8%A7%D8%AA%D9%8A-%D9%88%D8%B3%D9%86%D8%B9%D8%A7%D9%86%D9%8A-%D8%A7%D9%94%D8%AB%D9%86%D8%A7%D8%A1-%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blt827d8f80af0a4d64?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">تحدث روبن أموريم، مدرب مانشستر يونايتد، عن استعدادات فريقه لمواجهة نوتنجهام فورست، بعد غد السبت، على ملعب سيتي جراوند، وذلك ضمن لقاءات الجولة العاشرة من الدوري الإنجليزي الممتاز.</p><p style=\"direction: rtl;\">ويدخل مانشستر يونايتد، اللقاء، بمعنويات مرتفعة بعد الانتصارات ا…",
-      "body": "تحدث روبن أموريم، مدرب مانشستر يونايتد، عن استعدادات فريقه لمواجهة نوتنجهام فورست، بعد غد السبت، على ملعب سيتي جراوند، وذلك ضمن لقاءات الجولة العاشرة من الدوري الإنجليزي الممتاز. ويدخل مانشستر يونايتد، اللقاء، بمعنويات مرتفعة بعد الانتصارات الأخيرة التي حققها، والتي ارتقت بالفريق للمركز السادس في جدول الترتيب برصيد 16 نقطة بعد تحقيقه 5 انتصارات وتعادل في لقاء وحيد وخسر 3 مواجهات أخرى، وسجل الشياطين 15 هدفًا واستقبلوا 14 هدفًا في تلك اللقاءات. أما نوتنجهام فورست، فيعاني من ضعف النتائج، مما أدى إلى قدوم المدرب الجديد شون دايتش. ويحتل نوتنجهام فورست، المركز 18 في جدول ترتيب البريميرليج برصيد 5 نقاط فقط، بالفوز في لقاء واحد والتعادل في مباراتين وخسارة 6 مواجهات أخرى، ولم يسجل سوى 5 أهداف واستقبل 17 آخرين. ورد أموريم على تعليقات دايتش مدرب نوتنجهام فورست، بأن مانشستر يونايتد كان يمكن أن ينتصر في مباريات أكثر خلال الموسم الماضي، لو لعب بخطة (4-4-2). وقال المدرب البرتغالي \"أولاً وقبل كل شيء، قد يكون صحيحاً أننا لو لعبنا بخطة (4-4-2) لفزنا بمزيد من المباريات، لكنني أقول دائماً إن لدي طريقة لعب ستستغرق وقتاً طويلاً، لكنها ستكون أفضل في المستقبل\". وأضاف أموريم \"يمكنني النظر إلى شون دايتش كمدرب وكخبير، إذا كنت خبيرًا ولا تقول أشياء قوية، فلن أرغب في مشاهدتك، أنا أيضاً كذلك، أستطيع أن أفهم تم…",
-      "image": null,
-      "pubDate": "2025-10-30T12:09:10.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "f17ee0bccd2684a0",
       "title": "Legion Remix characters from 'Quality Assurance' guild breach containment, enter WoW proper with their godlike power intact—forcing Blizzard to quarantine Remix for the time being",
       "link": "https://www.pcgamer.com/games/world-of-warcraft/legion-remix-characters-from-quality-assurance-guild-breach-containment-enter-wow-proper-with-their-godlike-power-intact-forcing-blizzard-to-quarantine-remix-for-the-time-being/",
@@ -2416,22 +2432,6 @@
       "region": "global"
     },
     {
-      "id": "38199d78fdcedd5b",
-      "title": "Washington’s $200 Million Move to Rebuild America’s Rare Earth Supply Chain",
-      "link": "https://oilprice.com/Energy/Energy-General/Washingtons-200-Million-Move-to-Rebuild-Americas-Rare-Earth-Supply-Chain.html",
-      "summary": "Washington has drawn a new line in the global battle for critical minerals. The U.S. Export-Import Bank has issued a $200 million Letter of Interest to REAlloys Inc., a rare-earth company developing what could become North America’s first fully integrated mine-to-magnet supply chain. The commitment…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T11:00:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "0d1219327090dd63",
       "title": "Thomas hopes new-look Wales rise from 'dark spot'",
       "link": "https://www.bbc.com/sport/rugby-union/articles/clyzvknyyk8o?at_medium=RSS&at_campaign=rss",
@@ -2461,54 +2461,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "22ffb755879a19fa",
-      "title": "The best Arc Raiders skills you should unlock first",
-      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-best-skills/",
-      "summary": "Up your survival rate with the best skills to unlock first.",
-      "body": "Unsurprisingly, Arc Raiders is hard, and your odds of success are never all that great. It is an extraction shooter, after all, so losing your loot is all part of the routine. Luckily, you can increase your chances of survival using the best skills . Unlike most extraction shooters, Arc Raiders actually has a full progression system with a skill tree that can soften the blow of a genre often obsessed with loot as the main form of progression—loot that you'll inevitably lose sooner or later. Below, I'll go over all the best perks in the skill trees that you should unlock. Best Arc Raiders skills (Image credit: Embark) There's a total of 45 unique skills in Arc Raiders, most with five upgrade levels, split between three distinct trees: Conditioning, Mobility, and Survival. In general, I'd recommend focusing on any skills that improve stamina efficiency, as it's required for sprinting and evading, and stamina is incredibly limiting early on. As you'd expect, this means you'll want to invest in the Mobility skill tree the most early on , especially as you need to spend points within a tree to unlock perks further in. Skills like Marathon Runner and Youthful Lungs from Mobility, and Us…",
-      "image": "https://cdn.mos.cms.futurecdn.net/kNjhUEVGnkBRSrdTKJUDHg-1280-80.jpg",
-      "pubDate": "2025-10-30T10:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "939fec1e440e92ce",
-      "title": "How to find and use Field Crates in Arc Raiders",
-      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-field-crate-locations-down-to-earth/",
-      "summary": "Deliver a Field Crate to beat the Down to Earth quest.",
-      "body": "Once you've completed early quests like A Bad Feeling for Celeste, the training wheels come off in Arc Raiders , and you're given heaps of new quests. One of the most confusing is Down to Earth , offered by Shani, which asks you to deliver a Field Crate to a supply station inside a Field Depot. While you'll have visited one of the Field Depot locations earlier on for the Off The Radar quest, you didn't have to complete the unique activity found in these points of interest: Field Crate deliveries. To complete the Down to Earth quest, you need to visit a Field Depot, deliver a Field Crate to a Supply Station (in the depot), and collect the reward, all in a single round. Here's how you do just that. How to find and use Field Crates in Arc Raiders Image 1 of 3 (Image credit: Embark) Image 2 of 3 (Image credit: Embark) Image 3 of 3 (Image credit: Embark) Your first task is to head to one of the Field Depot locations in any of the maps, though Dam Battlegrounds is the easiest of the bunch. Search the area around the Field Depot to find the Field Crate — a large silver box that you have to pick up and carry back to the supply station machine inside the Field Depot building. Generally, th…",
-      "image": "https://cdn.mos.cms.futurecdn.net/6tEmip37G72JtKTEaRzeq3-1280-80.png",
-      "pubDate": "2025-10-30T10:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c8d22bbe05674965",
-      "title": "Where to find Fireballs in Arc Raiders",
-      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-fireballs/",
-      "summary": "Track down Fireballs and get your hands on a Fireball Burner.",
-      "body": "From Wasps and Hornets to Bison and Ticks, there are a lot of different ARC robots in Arc Raiders , and most aren't all that self-explanatory as to what they actually are and do. The Fireballs are an exception, though that doesn't make them any easier to find, which is unfortunate given early quests like Fight Fire With Fire, The Right Tool and What Goes Around require you to find Fireballs. Outside of quests, Fireballs are also the source of Fireball Burners , so they're worth tracking down. Below, I'll go over where to find Fireballs and how to get Fireball Burners to tick off both quests. Where to find Fireballs in Arc Raiders Image 1 of 2 (Image credit: Embark) Image 2 of 2 (Image credit: Embark) Fireballs are exactly what they sound like: small metal balls that dish out fire damage, though they're easy to confuse with Pops, which are slightly smaller electric variants. You will almost always find Fireballs inside buildings in tight hallways and rooms. The easiest places to check first are generally Control Tower and Research & Administration on the Dam Battlegrounds map , since they're right next to each other and near where they commonly spawn. Hydroponic Dome Complex is pre…",
-      "image": "https://cdn.mos.cms.futurecdn.net/4cVapr9UxLDdthqMcGg4Ak-1280-80.jpg",
-      "pubDate": "2025-10-30T10:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2566,6 +2518,54 @@
       "summary": "Starter weapons don't need to be terrible.",
       "body": "As with all extraction shooters, your main goal in Arc Raiders is to find better and better equipment…which you'll eventually lose. That's just the circle of life topside, and when that happens, you're back to basics using humble guns like the Rattler and Kettle, which don't hit particularly hard. But what if I told you it doesn't have to be that way? That, for a small price, you could upgrade guns instead of simply relying on pure hope, luck, and a good bit of scavenging for higher rarity alternatives? Well, you can. Only after spending hours with Arc Raiders did I figure out that you can actually upgrade every single weapon you find or craft to a higher tier, finally explaining why guns have a Roman numeral next to their name. That terrible common Rattler I can become a slightly less terrible common Rattler II or even higher if you've got the necessary resources. I'll say, the Rattler, a go-to basic gun because it's cheap as chips, becomes much more usable when it's got a larger magazine, and that's exactly what upgrading this gun will do. While you won't have access to this right away, since you need to build the Gunsmith 1 workshop station , which requires 20 Metal Parts and 3…",
       "image": "https://cdn.mos.cms.futurecdn.net/k2BJc8pwykuZXjWmKAsVub-1280-80.jpg",
+      "pubDate": "2025-10-30T10:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "22ffb755879a19fa",
+      "title": "The best Arc Raiders skills you should unlock first",
+      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-best-skills/",
+      "summary": "Up your survival rate with the best skills to unlock first.",
+      "body": "Unsurprisingly, Arc Raiders is hard, and your odds of success are never all that great. It is an extraction shooter, after all, so losing your loot is all part of the routine. Luckily, you can increase your chances of survival using the best skills . Unlike most extraction shooters, Arc Raiders actually has a full progression system with a skill tree that can soften the blow of a genre often obsessed with loot as the main form of progression—loot that you'll inevitably lose sooner or later. Below, I'll go over all the best perks in the skill trees that you should unlock. Best Arc Raiders skills (Image credit: Embark) There's a total of 45 unique skills in Arc Raiders, most with five upgrade levels, split between three distinct trees: Conditioning, Mobility, and Survival. In general, I'd recommend focusing on any skills that improve stamina efficiency, as it's required for sprinting and evading, and stamina is incredibly limiting early on. As you'd expect, this means you'll want to invest in the Mobility skill tree the most early on , especially as you need to spend points within a tree to unlock perks further in. Skills like Marathon Runner and Youthful Lungs from Mobility, and Us…",
+      "image": "https://cdn.mos.cms.futurecdn.net/kNjhUEVGnkBRSrdTKJUDHg-1280-80.jpg",
+      "pubDate": "2025-10-30T10:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "939fec1e440e92ce",
+      "title": "How to find and use Field Crates in Arc Raiders",
+      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-field-crate-locations-down-to-earth/",
+      "summary": "Deliver a Field Crate to beat the Down to Earth quest.",
+      "body": "Once you've completed early quests like A Bad Feeling for Celeste, the training wheels come off in Arc Raiders , and you're given heaps of new quests. One of the most confusing is Down to Earth , offered by Shani, which asks you to deliver a Field Crate to a supply station inside a Field Depot. While you'll have visited one of the Field Depot locations earlier on for the Off The Radar quest, you didn't have to complete the unique activity found in these points of interest: Field Crate deliveries. To complete the Down to Earth quest, you need to visit a Field Depot, deliver a Field Crate to a Supply Station (in the depot), and collect the reward, all in a single round. Here's how you do just that. How to find and use Field Crates in Arc Raiders Image 1 of 3 (Image credit: Embark) Image 2 of 3 (Image credit: Embark) Image 3 of 3 (Image credit: Embark) Your first task is to head to one of the Field Depot locations in any of the maps, though Dam Battlegrounds is the easiest of the bunch. Search the area around the Field Depot to find the Field Crate — a large silver box that you have to pick up and carry back to the supply station machine inside the Field Depot building. Generally, th…",
+      "image": "https://cdn.mos.cms.futurecdn.net/6tEmip37G72JtKTEaRzeq3-1280-80.png",
+      "pubDate": "2025-10-30T10:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c8d22bbe05674965",
+      "title": "Where to find Fireballs in Arc Raiders",
+      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-fireballs/",
+      "summary": "Track down Fireballs and get your hands on a Fireball Burner.",
+      "body": "From Wasps and Hornets to Bison and Ticks, there are a lot of different ARC robots in Arc Raiders , and most aren't all that self-explanatory as to what they actually are and do. The Fireballs are an exception, though that doesn't make them any easier to find, which is unfortunate given early quests like Fight Fire With Fire, The Right Tool and What Goes Around require you to find Fireballs. Outside of quests, Fireballs are also the source of Fireball Burners , so they're worth tracking down. Below, I'll go over where to find Fireballs and how to get Fireball Burners to tick off both quests. Where to find Fireballs in Arc Raiders Image 1 of 2 (Image credit: Embark) Image 2 of 2 (Image credit: Embark) Fireballs are exactly what they sound like: small metal balls that dish out fire damage, though they're easy to confuse with Pops, which are slightly smaller electric variants. You will almost always find Fireballs inside buildings in tight hallways and rooms. The easiest places to check first are generally Control Tower and Research & Administration on the Dam Battlegrounds map , since they're right next to each other and near where they commonly spawn. Hydroponic Dome Complex is pre…",
+      "image": "https://cdn.mos.cms.futurecdn.net/4cVapr9UxLDdthqMcGg4Ak-1280-80.jpg",
       "pubDate": "2025-10-30T10:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2653,22 +2653,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "8403d00e071c597c",
-      "title": "Asian Coal Imports Set for Decline on Higher Prices",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Coal-Imports-Set-for-Decline-on-Higher-Prices.html",
-      "summary": "Asian energy importers are curbing their appetite for thermal coal as prices rebound after falling to the lowest in four years earlier in 2025. Reuters’ Clyde Russell reported today that October coal arrivals in China, India, Japan, and South Korea were all going to be lower than the September tota…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T09:10:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
