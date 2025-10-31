@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-31T07:30:56.217Z",
-    "total": 217,
+    "generated_at": "2025-10-31T07:40:40.295Z",
+    "total": 207,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -48,29 +48,29 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
         "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -83,20 +83,33 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 114\nColumn: 68\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -126,16 +139,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -149,19 +162,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Unable to parse XML.",
         "notModified": false
       },
       {
@@ -191,45 +191,61 @@
         "notModified": false
       },
       {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
         "taken": 0,
-        "error": "Error: HTTP 500",
+        "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
         "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "240b6848fbc12b1d",
-      "title": "Sony-Backed Jabali.ai Bows AI Game Development Platform to Democratize Creation",
-      "link": "https://variety.com/2025/gaming/news/sony-jabali-ai-ai-game-development-platform-1236566619/",
-      "summary": "Jabali.ai is making a play to open up game development to the masses with the launch of Jabali Studio, a next-gen platform that lets users design, build and pub 2D and 3D games without wrestling with complex code. The AI game tech company is positioning the platform as a bridge between technical pr…",
+      "id": "766b5e4fefb6a28c",
+      "title": "'I don't believe that' - Farrell on 'underdone' tag",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c1d0qxvp49eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ireland head coach Andy Farrell dismisses talk of his side being \"underdone\" before Saturday's autumn Test opener against the All Blacks in Chicago.",
       "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Jabali.jpg",
-      "pubDate": "2025-10-31T07:19:13.000Z",
+      "image": null,
+      "pubDate": "2025-10-31T07:35:55.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "3ff2cc96acb0ddb4",
+      "title": "WhatsApp starts testing an Apple Watch companion app",
+      "link": "https://www.gsmarena.com/whatsapp_apple_watch_companion_app_ios_beta_users-news-70109.php",
+      "summary": "WhatsApp has started testing a companion app for the Apple Watch, reports WABetaInfo. This app allows Apple Watch users to view messages and media in their WhatsApp chat list, send new messages without waiting for a notification, and send message reactions using emojis. Additionally, users can send…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-31T07:30:02.000Z",
+      "source": {
+        "name": "GSMArena",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
       },
       "lang": "en",
       "category": "technology",
@@ -265,22 +281,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "fffcc5edac676748",
-      "title": "Indonesian Zombie Horror ‘The Elixir’ Tops Netflix’s Global Non-English Film Chart",
-      "link": "https://variety.com/2025/tv/news/indonesian-zombie-horror-elixir-netflix-global-1236566554/",
-      "summary": "Netflix’s Indonesian horror film “The Elixir” has surged to the top of the streamer’s worldwide rankings for non-English language titles, drawing more than 11 million viewers in the first several days following its Oct. 23 debut. During the Oct. 20-26 tracking period, director Kimo Stamboel’s zombi…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/The-Elixir1.jpg",
-      "pubDate": "2025-10-31T06:46:33.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -332,27 +332,27 @@
       "region": "global"
     },
     {
-      "id": "1f44942e51e49e5a",
-      "title": "‘The Captive’ Review: ‘Don Quixote’s’ Author Becomes the Hero in a Handsome Historical Fiction",
-      "link": "https://variety.com/2025/film/reviews/the-captive-review-don-quixote-1236566081/",
-      "summary": "“The Captive” offers the intriguing concept of “Don Quixote’s” author viewed through a lens more redolent of “Arabian Nights,” spinning tales to keep himself alive while a hostage of Moors in Algiers. But the known facts about this murky biographical chapter are vague, permitting writer-director Al…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/the-captive-review-tokyo.jpg",
-      "pubDate": "2025-10-31T05:45:00.000Z",
+      "id": "57f459ad1c06fb71",
+      "title": "ثاندر وسبيرز يواصلان الانطلاقة المثالية.. ويمبانياما يسطع من جديد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D8%B3%D9%84%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D8%A7%D9%86%D8%AF%D8%B1-%D9%88%D8%B3%D8%A8%D9%8A%D8%B1%D8%B2-%D9%8A%D9%88%D8%A7%D8%B5%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A%D8%A9-%D9%88%D9%8A%D9%85%D8%A8%D8%A7%D9%86%D9%8A%D8%A7%D9%85%D8%A7-%D9%8A%D8%B3%D8%B7%D8%B9-%D9%85%D9%86-%D8%AC%D8%AF%D9%8A%D8%AF/blt86a4c81f81a8d532?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>واصل فريق أوكلاهوما سيتي ثاندر، حامل لقب دوري كرة السلة الأميركي للمحترفين، بدايته القوية هذا الموسم بتحقيق فوزه السادس توالياً، بعدما تغلب بسهولة على مضيفه واشنطن ويزاردز بنتيجة 127-108، في حين واصل سان أنتونيو سبيرز مسيرته المبهرة محققاً انتصاره الخامس على التوالي بفوزه الصعب على ميامي هيت (10…",
+      "body": "واصل فريق أوكلاهوما سيتي ثاندر، حامل لقب دوري كرة السلة الأميركي للمحترفين، بدايته القوية هذا الموسم بتحقيق فوزه السادس توالياً، بعدما تغلب بسهولة على مضيفه واشنطن ويزاردز بنتيجة 127-108، في حين واصل سان أنتونيو سبيرز مسيرته المبهرة محققاً انتصاره الخامس على التوالي بفوزه الصعب على ميامي هيت (107-101)، في مباريات ليلة الخميس. وفي العاصمة واشنطن، قدّم النجم الكندي شاي جلجيوس-ألكسندر عرضاً جديداً من التألق، مسجلاً 31 نقطة مع 3 متابعات و7 تمريرات حاسمة، قبل أن يكتفي بالمشاهدة من على مقاعد البدلاء في الربع الأخير بعدما ضمن فريقه التفوق المريح. جلجيوس-ألكسندر، المتوَّج الموسم الماضي بجائزة أفضل لاعب في الدوري (MVP) وكذلك أفضل لاعب في النهائي، واصل أداءه المتوازن الذي يمنح ثاندر شخصية البطل في كل ليلة. وبعكس المباراة السابقة التي قلب فيها الفريق تأخره أمام ساكرامنتو كينغز، فرض هذه المرة إيقاعه منذ البداية، متقدماً 59-49 مع نهاية الشوط الأول، قبل أن يحافظ على الفارق حتى صافرة النهاية دون أن يسمح لويزاردز بالعودة. البدلاء يصنعون الفارق ولم يكتف جلجيوس-ألكسندر بالسطوع الفردي، إذ ساهم أيزياه جو وأجاي ميتشل في تعزيز التقدم بإضافة 20 نقطة لكل منهما، بعد دخولهما من دكة البدلاء. واستفاد ثاندر من أخطاء مضيفه الذي ارتكب 23 كرة ضائعة، ترجمها بذكاء إلى 26 نقطة مباشرة. ورغم الغيابات المؤثرة، إذ يواص…",
+      "image": null,
+      "pubDate": "2025-10-31T05:30:38.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
-      "id": "5e3117c5101d87e3",
-      "title": "ناشئو مصر إلى نهائي المونديال بعد قهر إسبانيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%8A%D8%AF/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%A7%D8%B4%D9%8A%D9%94%D9%88-%D9%85%D8%B5%D8%B1-%D8%A7%D9%95%D9%84%D9%89-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A8%D8%B9%D8%AF-%D9%82%D9%87%D8%B1-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7/bltb554ebad342c7c33?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">تأهل منتخب مصر لكرة اليد للناشئين للدور النهائي ببطولة العالم تحت 17 عاماً التي تستضيفها المغرب بعد الفوز على إسبانيا بنتيجة 31/28 مساء الخميس في نصف النهائي.</p><p style=\"direction: rtl;\">وخرج الشوط الأول بالتعادل 12/12 بين المنتخبين، ونجح الفراعنة في إحباط كل محاولات بط…",
-      "body": "تأهل منتخب مصر لكرة اليد للناشئين للدور النهائي ببطولة العالم تحت 17 عاماً التي تستضيفها المغرب بعد الفوز على إسبانيا بنتيجة 31/28 مساء الخميس في نصف النهائي. وخرج الشوط الأول بالتعادل 12/12 بين المنتخبين، ونجح الفراعنة في إحباط كل محاولات بطل أوروبا وحسم الفوز بفارق 3 نقاط. وواصل منتخب مصر بقيادة مدربه عماد إبراهيم عروضه المميزة للغاية بعدما حقق الفوز في جميع مبارياته ببطولة العالم التي تقام لأول مرة بعد استحداثها من جانب الاتحاد الدولي للعبة. وتأهل منتخب مصر لمواجهة ألمانيا بعد غدٍ السبت في الدور النهائي بينما يلعب منتخب إسبانيا ضد قطر في مباراة المركز الثالث. وحصل يوسف عمرو على لقب أفضل لاعب في مباراة مصر وإسبانيا، وحقق منتخب مصر الكاملة بالدور الأول بعد الفوز على البرازيل وأمريكا والمغرب، قبل التغلب على إسبانيا. ووجّه رئيس الاتحاد الإسباني لكرة اليد رسالة تهنئة إلى خالد فتحي رئيس بعثة منتخب مصر للناشئين، بعد الفوز التاريخي الذي حققه منتخبنا على إسبانيا والتأهل إلى نهائي بطولة العالم المقامة حاليًا في المغرب. وأشاد رئيس الاتحاد الإسباني بالأداء القوي والمتميز الذي قدمه لاعبو المنتخب المصري خلال المباراة، مؤكدًا أن الفوز جاء عن جدارة واستحقاق بعد أداء تكتيكي رائع وتنظيم دفاعي وهجومي مميز. وأشار إلى أن المنتخب المصري أثبت أنه من أقوى فرق البطولة بفضل الروح العالية والقدرات الفنية…",
+      "id": "40b426e5ed232831",
+      "title": "ناشئو مصر إلى نهائي مونديال اليد بعد قهر إسبانيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%8A%D8%AF/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%A7%D8%B4%D9%8A%D9%94%D9%88-%D9%85%D8%B5%D8%B1-%D8%A7%D9%95%D9%84%D9%89-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D9%8A%D8%AF-%D8%A8%D8%B9%D8%AF-%D9%82%D9%87%D8%B1-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7/bltb554ebad342c7c33?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تأهل منتخب مصر لكرة اليد للناشئين، للدور النهائي ببطولة العالم تحت 17 عاما، المقامة حاليا في المغرب، بعد الفوز 31-28 على إسبانيا",
+      "body": "تأهل منتخب مصر لكرة اليد للناشئين، للدور النهائي ببطولة العالم تحت 17 عاما، المقامة حاليا في المغرب، بعد الفوز 31-28 على إسبانيا، مساء الخميس، في نصف النهائي. وخرج الشوط الأول بالتعادل 12-12 بين المنتخبين، ونجح الفراعنة في إحباط كل محاولات بطل أوروبا، وحسم الفوز بفارق 3 نقاط. وواصل منتخب مصر بقيادة مدربه عماد إبراهيم، عروضه المميزة للغاية بعدما حقق الفوز في جميع مبارياته ببطولة العالم التي تقام لأول مرة بعد استحداثها من جانب الاتحاد الدولي للعبة. وتأهل منتخب مصر لمواجهة ألمانيا، غدا السبت في الدور النهائي، بينما سيلعب منتخب إسبانيا ضد قطر في مباراة تحديد صاحب المركز الثالث. وحصل يوسف عمرو، على لقب أفضل لاعب في مباراة مصر وإسبانيا، وحقق منتخب مصر، العلامة الكاملة بالدور الأول بعد الفوز على البرازيل وأمريكا والمغرب، قبل التغلب على إسبانيا. ووجّه رئيس الاتحاد المصري لكرة اليد، رسالة تهنئة إلى خالد فتحي رئيس بعثة منتخب مصر للناشئين، بعد الفوز التاريخي الذي حققه ناشئو الفراعنة على إسبانيا، والتأهل إلى نهائي بطولة العالم المقامة حاليًا في المغرب. وأشاد رئيس الاتحاد الإسباني، بالأداء القوي والمتميز الذي قدمه لاعبو المنتخب المصري خلال المباراة، مؤكدًا أن الفوز جاء عن جدارة واستحقاق، بعد أداء تكتيكي رائع وتنظيم دفاعي وهجومي مميز. وأشار إلى أن المنتخب المصري أثبت أنه من أقوى فرق البطولة بفض…",
       "image": null,
       "pubDate": "2025-10-31T05:06:24.000Z",
       "source": {
@@ -380,38 +380,6 @@
       "region": "global"
     },
     {
-      "id": "7ebd0228b5ac5ccc",
-      "title": "‘I Am Frankelda’ Review: Mexico’s First Stop-Motion Feature Is an Ambitious Gothic Musical",
-      "link": "https://variety.com/2025/film/reviews/i-am-frankelda-review-stop-motion-mexico-1236566537/",
-      "summary": "For its painstaking physicality alone, stop-motion is inherently impressive as an animation technique, no matter the scale or budgetary specifics of the project. But when artists, like those behind the ambitiously crafted phantasmagorical musical “I Am Frankelda,” throw caution to wind to build an …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/soy-frankelda.jpg",
-      "pubDate": "2025-10-31T04:30:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7cbf95e96fe8fd51",
-      "title": "YouTube TV Drops Disney’s ABC, ESPN and Other Networks After Two Sides Fail to Reach New Deal",
-      "link": "https://variety.com/2025/tv/news/youtube-tv-blackout-loses-abc-espn-disney-networks-1236566477/",
-      "summary": "Disney’s networks including ESPN and ABC have gone dark on YouTube TV. YouTube TV removed Disney’s networks as much as 30 minutes before the previous carriage deal expired at the stroke of midnight ET, after the two sides remain far apart on a deal renewal to keep ABC, ESPN and more on the internet…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/High-Potential.png",
-      "pubDate": "2025-10-31T03:15:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f219260bd2459f2c",
       "title": "Android is safer than iOS (in protecting you from scams)",
       "link": "https://www.gsmarena.com/android_is_safer_than_ios_in_protecting_you_from_scams-news-70106.php",
@@ -425,86 +393,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "135ea551bff715bc",
-      "title": "Yamada Yoji and Lee Sang-il Trade Insights on Art, Rivalry and Japan’s Film Future at Tokyo Festival",
-      "link": "https://variety.com/2025/film/festivals/yamada-yoji-lee-sang-il-tokyo-1236566546/",
-      "summary": "The Tokyo International Film Festival’s TIFF Lounge series of talks and masterclasses featured a conversation between Yamada Yoji, director of the festival Centerpiece “Tokyo Taxi”, and Lee Sang-il, recipient of this year’s Kurosawa Akira Award for his film “Kokuho.” The 94-year-old Yamada, whose, …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Yamada-Yoji-Lee-Sang-Il.jpg",
-      "pubDate": "2025-10-31T02:20:51.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "efccaf78eb1f596e",
-      "title": "‘Take Off’ Director Pengfei on Tokyo Competition Entry: ‘A Fable-Like Story, With a Touch of Fairy Tale’",
-      "link": "https://variety.com/2025/film/festivals/take-off-pengfei-tokyo-competition-1236566525/",
-      "summary": "Director Pengfei’s “Take Off,” which world premiered in competition at the Tokyo International Film Festival, represents both a continuation and evolution of the filmmaker’s artistic preoccupations. Adapted from Shuang Xuetao’s novella “The Aeronaut,” the film follows Li Mingqi (Jiang Qiming), an o…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Take-Off.jpg",
-      "pubDate": "2025-10-31T02:02:55.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "75962b228085a8d5",
-      "title": "‘Little Bear Ridge Road’ Review: Laurie Metcalf Shines in a Flawed but Fascinating COVID Story",
-      "link": "https://variety.com/2025/legit/reviews/little-bear-ridge-road-laurie-metcalf-review-1236562382/",
-      "summary": "The script for Samuel D. Hunter’s “Little Bear Ridge Road” indicates that the play takes place at “a couch in a void.” As the lights come up, we see it — a white leather monstrosity with separate recliners built in — and we see, too, the void. The stage is utterly bare otherwise. The play […]",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Laurie-Metcalf-and-Micah-Stock.-Photo-by-Julieta-Cervantes-1.jpg",
-      "pubDate": "2025-10-31T02:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "24b0a54d2570c850",
-      "title": "Pen-ek Ratanaruang Talks Casting, ‘Last Life In The Universe’ and Miike Takashi’s ‘Punch Perm’",
-      "link": "https://variety.com/2025/film/festivals/pen-ek-ratanaruang-last-life-in-the-universe-1236566510/",
-      "summary": "Acclaimed Thai director Pen-ek Ratanaruang is back at the Tokyo International Film Festival presenting his latest film “Morte Cucina.” But it was his storied collaboration with Japanese actors that took centerstage at a masterclass with “Lost Land” director Fujimoto Akio. The counterpoint focus of …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/Pen-ek-Ratanaruang-Fujimoto-Akio.jpg",
-      "pubDate": "2025-10-31T01:31:06.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "bc7acecd8c913d10",
-      "title": "Claire Danes, Ewan McGregor to Lead ‘The Spot’ at Hulu",
-      "link": "https://variety.com/2025/tv/news/claire-danes-ewan-mcgregor-the-spot-hulu-1236566479/",
-      "summary": "Claire Danes and Ewan McGregor have been tapped to lead “The Spot,” Hulu’s upcoming drama series headed by screenwriter Ed Solomon. The series comes from A24 as the lead studio, in co-production with 20th Television. Danes’ casting comes after Kate Winslet exited the project in June, reportedly for…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/10/danes-mcgregor-split.jpg",
-      "pubDate": "2025-10-31T01:30:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1420,22 +1308,6 @@
       "region": "global"
     },
     {
-      "id": "bf4cc773032daf34",
-      "title": "تفوق على صلاح ويامال.. ساحر بايرن ميونخ يواصل الإبداع",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%89-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D8%B3%D8%A7%D8%AD%D8%B1-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%A7%D9%95%D8%A8%D8%AF%D8%A7%D8%B9/bltfc8767543dabf01e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يعيش الفرنسي ميكائيل أوليسيه، نجم بايرن ميونخ، فترة زاهية في مسيرته الكروية، وبالتحديد منذ انتقاله للنادي الألماني العام الماضي.",
-      "body": "يعيش الفرنسي ميكائيل أوليسيه، نجم بايرن ميونخ، فترة زاهية في مسيرته الكروية، وبالتحديد منذ انتقاله للنادي الألماني العام الماضي. الدولي الفرنسي كان عنصرا رئيسيا في انطلاقة بايرن الاستثنائية هذا الموسم، والتي ساعدته على الفوز بكافة مبارياته بمختلف البطولات حتى هذه اللحظة. وشارك صاحب 23 عاما في كل المباريات، ومجموعها 14، ليسجل خلالها 7 أهداف ويصنع مثلها لزملائه. وأشار الحساب الرسمي لقناة \"تي إن تي سبورتس\" على موقع التواصل \"إكس\"، إلى العمل الهائل الذي يقوم به أوليسيه، في الجانب الهجومي للفريق البافاري. وأفادت بأن جناح كريستال بالاس السابق، قام بصنع 29 فرصة كبيرة لزملائه منذ بداية عام 2025، أكثر من أي لاعب آخر بمختلف الدوريات الأوروبية الخمس الكبرى. ويتفوق أوليسيه بفارق كبير عن أقرب ملاحقيه، إذ يأتي خلفه ريان شرقي، محمد صلاح وفيديريكو ديماركو، إذ قام كل منهم بخلق 18 فرصة كبرى هذا العام. وفي المرتبة الثالثة، يأتي الإسباني لامين يامال، جناح برشلونة، برصيد 17 فرصة. صفقة ناجحة منذ انتقاله إلى بايرن ميونخ في صيف 2024، أثبت أوليسيه أنه واحد من أفضل الصفقات التي أبرمها النادي الألماني في السنوات الأخيرة، بعدما قدم أداءا مميزا جعله أحد أبرز مفاتيح اللعب الهجومي في فريق المدرب فينسنت كومباني. الإحصائيات تتحدث بوضوح عن تأثير الجناح الفرنسي، إذ شارك في موسمه الأول بـ 55 مباراة، سجل 20 هدفا خلاله…",
-      "image": null,
-      "pubDate": "2025-10-30T17:12:07.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "03abec10c4cccc83",
       "title": "Intel opens pop-up stores across five cities featuring AI PCs from laptop manufacturers — we stopped by the NYC store, and one visitor in Munich found Panther Lake",
       "link": "https://www.tomshardware.com/pc-components/cpus/intel-opens-pop-up-stores-across-five-cities-featuring-ai-pcs-from-laptop-manufacturers-we-stopped-by-the-nyc-store-and-one-visitor-in-munich-found-panther-lake",
@@ -1934,22 +1806,6 @@
     {
       "id": "c01aefa591f14bfb",
       "title": "Crowley starts at 10 with Doris on bench for Ireland against All Blacks",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cwypwn28d9jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jack Crowley is named to start at fly-half in Ireland's much-anticipated Chicago rematch against New Zealand, while returning captain Caelan Doris will start on the bench.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T13:00:30.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d3e6b52c7148ce8c",
-      "title": "'He deserves it' - Farrell names Crowley at 10 for Ireland's All Blacks game",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cwypwn28d9jo?at_medium=RSS&at_campaign=rss",
       "summary": "Jack Crowley is named to start at fly-half in Ireland's much-anticipated Chicago rematch against New Zealand, while returning captain Caelan Doris will start on the bench.",
       "body": null,
@@ -2537,22 +2393,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c8fbbafc4a8412bf",
-      "title": "Xiaomi 15 global units start receiving Android 16-based HyperOS 3 stable update",
-      "link": "https://www.gsmarena.com/xiaomi_15_global_android_16_hyperos_3_stable_update-news-70088.php",
-      "summary": "Xiaomi recently rolled out the Android 16-based HyperOS 3 stable update for the Xiaomi 15T and 15T Pro's global units, and now it's the non-T model that's getting upgraded to HyperOS 3. The HyperOS 3 stable update for the global Xiaomi 15 is currently rolling out in some European countries for Mi P…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-10-30T05:00:02.000Z",
-      "source": {
-        "name": "GSMArena",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
