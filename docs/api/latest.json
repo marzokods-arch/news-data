@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-11-02T07:12:51.408Z",
+    "generated_at": "2025-11-02T07:27:49.883Z",
     "total": 400,
     "processed_feeds": 19,
     "discovered_feeds": 83,
@@ -8,32 +8,6 @@
     "shard_of": 5,
     "shard_index": 2,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 72,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — اقتصاد",
-        "url": "https://www.skynewsarabia.com/rss/business.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
@@ -45,6 +19,19 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 72,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,6 +61,32 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia — اقتصاد",
+        "url": "https://www.skynewsarabia.com/rss/business.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Ars Technica",
         "url": "https://arstechnica.com/feed/",
         "homepage": "https://arstechnica.com/feed/",
@@ -83,6 +96,32 @@
           "general"
         ],
         "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hacker News - Front",
+        "url": "https://news.ycombinator.com/rss",
+        "homepage": "https://news.ycombinator.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 30,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "New Scientist",
+        "url": "https://www.newscientist.com/feed/home",
+        "homepage": "https://www.newscientist.com/feed/home",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 91,
         "error": null,
         "notModified": false
       },
@@ -100,29 +139,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "New Scientist",
-        "url": "https://www.newscientist.com/feed/home",
-        "homepage": "https://www.newscientist.com/feed/home",
+        "name": "NIH News",
+        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 91,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -139,19 +165,6 @@
         "notModified": false
       },
       {
-        "name": "Hacker News - Front",
-        "url": "https://news.ycombinator.com/rss",
-        "homepage": "https://news.ycombinator.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 30,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "المصري اليوم - ملاعب",
         "url": "https://sports.almasryalyoum.com/feed/",
         "homepage": "https://sports.almasryalyoum.com/feed/",
@@ -162,19 +175,6 @@
         ],
         "taken": 10,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "NIH News",
-        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -304,22 +304,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "99531761f899e274",
-      "title": "Meta readies $25B bond sale as soaring AI costs trigger stock sell-off",
-      "link": "https://www.ft.com/content/120d2321-8382-4d74-ab48-f9ecb483c2a9",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-02T05:33:00.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1472,6 +1456,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "07228803a2e538d6",
+      "title": "Word2vec-style vector arithmetic on docs embeddings",
+      "link": "https://technicalwriting.dev/embeddings/arithmetic/index.html",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-01T19:14:58.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
