@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-11-04T13:45:05.866Z",
-    "total": 223,
+    "generated_at": "2025-11-04T13:56:00.122Z",
+    "total": 224,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -19,6 +19,19 @@
         ],
         "taken": 9,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -48,19 +61,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
         "name": "Variety (Entertainment)",
         "url": "https://variety.com/feed/",
         "homepage": "https://variety.com/feed/",
@@ -69,7 +69,7 @@
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -100,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -152,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -178,6 +139,19 @@
         "notModified": false
       },
       {
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 18,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "MarketWatch — Metals",
         "url": "https://www.marketwatch.com/feeds/marketpulse",
         "homepage": "https://www.marketwatch.com/feeds/marketpulse",
@@ -188,6 +162,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -215,6 +202,19 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
+        "notModified": false
       }
     ]
   },
@@ -233,6 +233,54 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7d98c320725f83b4",
+      "title": "‘White Lotus’ Cements Thailand as Production Hub: Media Partners Asia Unveils $1.4 Billion Market at Taiwan Creative Content Fest",
+      "link": "https://variety.com/2025/tv/markets-festivals/white-lotus-thailand-production-hub-media-partners-asia-tccf-1236569377/",
+      "summary": "When HBO’s “The White Lotus” Season 3 set up shop in Thailand with a budget of $4-6 million per episode, it cemented the country’s position as Southeast Asia’s leading production hub in a creative industry generating approximately $1.4 billion across film, television, animation and streaming in 202…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/04/white-lotus-finale-lisa.1.jpg",
+      "pubDate": "2025-11-04T13:54:02.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "1f92115165491829",
+      "title": "الاستعانة بـ\"4 أعضاء سابقين\".. الأهلي يوزع الملفات على المجلس الجديد",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/529125/%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b9%d8%a7%d9%86%d8%a9-%d8%a8%d9%80-4-%d8%a3%d8%b9%d8%b6%d8%a7%d8%a1-%d8%b3%d8%a7%d8%a8%d9%82%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%8a%d9%88%d8%b2%d8%b9-%d8%a7%d9%84%d9%85%d9%84%d9%81%d8%a7%d8%aa-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af",
+      "summary": "أصدر مجلس إدارة النادي الأهلي برئاسة محمود الخطيب عدة قرارات بشأن توزيع المهام والملفات على أعضاء المجلس الجدد.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-04T13:49:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5a83f6b8a9a3af59",
+      "title": "On this day in 1988, the Morris worm infected 10% of the Internet within 24 hours — worm slithered out and sparked a new era in cybersecurity",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/on-this-day-in-1988-the-morris-worm-slithered-out-and-sparked-a-new-era-in-cybersecurity-10-percent-of-the-internet-was-infected-within-24-hours",
+      "summary": "Cornell graduate student Robert Tappan Morris unleashed his eponymous worm upon the Internet 37 years ago, changing the face of cybersecurity.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/ttuF6zAsvkYiVcKNJst2TH-1280-80.jpg",
+      "pubDate": "2025-11-04T13:45:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2924,22 +2972,6 @@
       "region": "global"
     },
     {
-      "id": "c0c0ce3d08b3b822",
-      "title": "البداية من القاهرة.. مواعيد مباريات الزمالك في الكونفدرالية",
-      "link": "https://www.yallakora.com/african-confederation-cup/3000/news/528986/%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%a7%d9%87%d8%b1%d8%a9-%d9%85%d9%88%d8%a7%d8%b9%d9%8a%d8%af-%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%81%d9%8a-%d8%a7%d9%84%d9%83%d9%88%d9%86%d9%81%d8%af%d8%b1%d8%a7%d9%84%d9%8a%d8%a9",
-      "summary": "أسفرت قرعة دور المجموعات من بطولة كأس الكونفدرالية الأفريقية، عن وقوع الزمالك والمصري في مجموعة واحدة.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-03T12:32:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "ce9ed8a45a18fdcf",
       "title": "RedMagic 11 Pro in for review",
       "link": "https://www.gsmarena.com/redmagic_11_pro_in_for_review-news-70117.php",
@@ -3667,22 +3699,6 @@
       "body": null,
       "image": "https://cdn.mos.cms.futurecdn.net/H3GMhLXLRM6xxYFrPg5t53-1280-80.gif",
       "pubDate": "2025-10-31T18:26:52.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a2b387eeff77a1dc",
-      "title": "Lenovo's Black Friday Deal Days sale is live — here are the best deals we've spotted so far",
-      "link": "https://www.tomshardware.com/pc-components/lenovos-black-friday-deal-days-sale-is-live-here-are-the-best-deals-weve-spotted-so-far",
-      "summary": "The sales have cometh!",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/ckFS7URGLsgTCGAT56a3Y6-1280-80.jpg",
-      "pubDate": "2025-10-31T18:16:42.000Z",
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
