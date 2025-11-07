@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2025-11-07T04:20:29.488Z",
+    "generated_at": "2025-11-07T04:40:23.273Z",
     "total": 205,
-    "processed_feeds": 17,
-    "discovered_feeds": 84,
+    "processed_feeds": 16,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -35,19 +35,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
         "name": "The Verge",
         "url": "https://www.theverge.com/rss/index.xml",
         "homepage": "https://www.theverge.com/",
@@ -71,19 +58,6 @@
         ],
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 114\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -113,29 +87,16 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "global",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -152,10 +113,36 @@
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -165,23 +152,10 @@
         "notModified": false
       },
       {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -204,6 +178,32 @@
         "notModified": false
       },
       {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Yallakora",
         "url": "https://www.yallakora.com/feed/rssfeed",
         "homepage": "https://www.yallakora.com/feed/rssfeed",
@@ -213,19 +213,6 @@
           "general"
         ],
         "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
         "error": null,
         "notModified": false
       }
@@ -2137,22 +2124,6 @@
       "region": "global"
     },
     {
-      "id": "60632afd3db802c3",
-      "title": "How to rip your DVDs with Handbrake — preserve your DVD library before bit rot claims another victim",
-      "link": "https://www.tomshardware.com/software/how-to-rip-your-dvds-with-handbrake-preserve-your-dvd-library-before-bit-rot-claims-another-victim",
-      "summary": "Algorithms are telling us what to watch, but we can fight back by curating our old DVD collection into a digital archive that we can use on our modern devices.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/FXP4g8WEXa4PETpMnrm5v4-1280-80.jpg",
-      "pubDate": "2025-11-06T13:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ae96e116cf2fd656",
       "title": "Sony reportedly working on 'Cross-Buy' feature for unified game ownership between PlayStation 5 and PC — Leaked icons indicate Sony's answer to Xbox Play Anywhere is coming",
       "link": "https://www.tomshardware.com/video-games/playstation/sony-reportedly-working-on-cross-buy-feature-for-unified-game-ownership-between-playstation-5-and-pc-leaked-icons-indicate-sonys-answer-to-xbox-play-anywhere-is-coming",
@@ -2166,6 +2137,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "60632afd3db802c3",
+      "title": "How to rip your DVDs with Handbrake — preserve your DVD library before bit rot claims another victim",
+      "link": "https://www.tomshardware.com/software/how-to-rip-your-dvds-with-handbrake-preserve-your-dvd-library-before-bit-rot-claims-another-victim",
+      "summary": "Algorithms are telling us what to watch, but we can fight back by curating our old DVD collection into a digital archive that we can use on our modern devices.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/FXP4g8WEXa4PETpMnrm5v4-1280-80.jpg",
+      "pubDate": "2025-11-06T13:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2329,22 +2316,6 @@
       "region": "global"
     },
     {
-      "id": "d2ce2554b2437aee",
-      "title": "Crypto fraud and laundering ring that stole $689 million busted by European authorities — 9 arrests made across multiple countries, perps face a decade behind bars and huge fines",
-      "link": "https://www.tomshardware.com/tech-industry/cryptocurrency/crypto-fraud-and-laundering-ring-that-stole-eur600m-usd689m-busted-by-european-authorities-9-arrests-made-across-multiple-countries-perps-face-a-decade-behind-bars-and-huge-fines",
-      "summary": "Crypto fraud and laundering ring that stole €600m ($689m) busted by European authorities — 9 arrests made across multiple countries",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/dfh9c3ZZ8aMMjHpDdUoaBd-1280-80.png",
-      "pubDate": "2025-11-06T12:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ee6d27a62c5d01bd",
       "title": "EufyMake E1 review: Dimensional UV printer",
       "link": "https://www.tomshardware.com/3d-printing/eufymake-e1-uv-printer-review",
@@ -2358,6 +2329,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d2ce2554b2437aee",
+      "title": "Crypto fraud and laundering ring that stole $689 million busted by European authorities — 9 arrests made across multiple countries, perps face a decade behind bars and huge fines",
+      "link": "https://www.tomshardware.com/tech-industry/cryptocurrency/crypto-fraud-and-laundering-ring-that-stole-eur600m-usd689m-busted-by-european-authorities-9-arrests-made-across-multiple-countries-perps-face-a-decade-behind-bars-and-huge-fines",
+      "summary": "Crypto fraud and laundering ring that stole €600m ($689m) busted by European authorities — 9 arrests made across multiple countries",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/dfh9c3ZZ8aMMjHpDdUoaBd-1280-80.png",
+      "pubDate": "2025-11-06T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
