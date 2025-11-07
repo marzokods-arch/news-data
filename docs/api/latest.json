@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-11-07T10:00:15.025Z",
-    "total": 219,
+    "generated_at": "2025-11-07T10:25:57.699Z",
+    "total": 213,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
       {
         "name": "The Verge",
         "url": "https://www.theverge.com/rss/index.xml",
@@ -17,21 +30,8 @@
         "cats": [
           "technology"
         ],
-        "taken": 6,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -48,16 +48,42 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,29 +100,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -113,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Masrawy — لايف ستايل",
         "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
@@ -136,58 +136,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -204,6 +152,45 @@
         "notModified": false
       },
       {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "AnandTech",
         "url": "https://www.anandtech.com/rss/",
         "homepage": "https://www.anandtech.com/rss/",
@@ -215,10 +202,55 @@
         "taken": 0,
         "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
         "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "a84a13fab9e38f1d",
+      "title": "Bellingham and Foden recalled to England squad",
+      "link": "https://www.bbc.com/sport/football/articles/c0mxgd10j2yo?at_medium=RSS&at_campaign=rss",
+      "summary": "England manager Thomas Tuchel recalls Jude Bellingham and Phil Foden to his squad for games against Serbia and Albania.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-07T10:18:36.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7cf5f42a44b04293",
+      "title": "‘Querer’ Co-Writer Júlia de Paz Solvas Unpacks ‘The Good Daughter,’ One of the Big Catalan Highlights at Tallinn",
+      "link": "https://variety.com/2025/film/global/julia-de-paz-solvas-the-good-daughter-1236572279/",
+      "summary": "“My parents didn’t just argue,” Carmela confides in her best friend at school, her face darkening. But she doesn’t go into detail. “Have you ever seen your dad act violent? Has he ever treated your badly?” a judge asks Carmela later in the film, in a crux scene caught in a new teaser trailer for […]",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/The-Good-Daughter_1_c_Astra-Pictures_Avalon-Pc_Harta-La-Pelicula-1.jpg",
+      "pubDate": "2025-11-07T10:16:05.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "aa1619e9c3e18572",
       "title": "‘Stranger Things 5’ First Five Minutes Revealed: Young Will Byers Battles Vecna in the Upside Down After 1983 Disappearance",
@@ -396,26 +428,10 @@
       "region": "global"
     },
     {
-      "id": "2a6fb6bd96d393ba",
-      "title": "Five things to look out for in EFL: Old faces, new places",
-      "link": "https://www.bbc.com/sport/football/articles/cj0edy24338o?at_medium=RSS&at_campaign=rss",
-      "summary": "Five things to keep an eye on in the EFL this weekend, including managers facing their old team, promoted sides finding their feet and bosses under pressure.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-07T08:07:05.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "db9fb6197ea2f25d",
       "title": "ITV in Talks to Sell Networks Arm to Comcast-Owned Sky for $2.1 Billion",
       "link": "https://variety.com/2025/biz/global/sky-itv-media-and-entertainment-unit-bid-1236572240/",
-      "summary": "U.K. broadcaster ITV has confirmed it has received a £1.6 billion ($2.1 billion) bid from Comcast’s pay-TV platform Sky for its media and entertainment unit. The shock news — which landed overnight in the U.K. — would see Comcast take control of ITV’s linear channels and ITVX streaming business, si…",
+      "summary": "U.K. broadcaster ITV has confirmed it has received a £1.6 billion ($2.1 billion) bid from Comcast’s pay-TV platform Sky for its media and entertainment unit. The shock news — which would fundamentally change the British broadcasting landscape if it were to go ahead — would see Comcast take control …",
       "body": null,
       "image": "https://variety.com/wp-content/uploads/2025/11/ITV-logo.jpg",
       "pubDate": "2025-11-07T08:01:26.000Z",
@@ -876,22 +892,6 @@
       "region": "global"
     },
     {
-      "id": "4ceeb1b376c78b26",
-      "title": "‘Tyler Perry’s Finding Joy’ Review: A Designer and a Dreamboat Recluse Get Snowbound in a Cabin in Perry’s Treacly Holiday Romance",
-      "link": "https://variety.com/2025/film/reviews/tyler-perrys-finding-joy-review-shannon-thornton-1236571456/",
-      "summary": "It’s Perry’s version of a holiday movie and a connect-the-dots love story, but it’s cliché-driven in such a minimal way that it makes you long for the Perry movies that can feel like a night of channel surfing all rolled into one.",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/11/JOYR_2025_UT_240222_BERCHI_00183.jpg",
-      "pubDate": "2025-11-07T05:58:12.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "eb849c84d1e80086",
       "title": "لعنة الديربي تنكسر.. بنزيما وديابي يعودان إلى الحياة قبل الأهلي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%B9%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D8%AA%D9%86%D9%83%D8%B3%D8%B1-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7-%D9%88%D8%AF%D9%8A%D8%A7%D8%A8%D9%8A-%D9%8A%D8%B9%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%95%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A/blt2525909f74b1c0b0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -972,22 +972,6 @@
       "region": "mena"
     },
     {
-      "id": "19c52339111ef053",
-      "title": "Apple’s latest sci-fi series Pluribus luxuriates in its mystery",
-      "link": "https://www.theverge.com/entertainment/815745/pluribus-review-apple-tv",
-      "summary": "Toward the end of the first episode of Pluribus, Carol (Rhea Seehorn), a woman put in a bizarre and impossible scenario, asks a very straightforward question: \"What the fuck is happening?\" It's something you'll likely be asking yourself a lot while watching. I certainly did. But that ongoing sense …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-07T02:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "e0ca2f211a213f74",
       "title": "Harry apologises to Canada for wearing LA Dodgers cap during World Series",
       "link": "https://www.bbc.com/news/articles/cd9kgpvzlndo?at_medium=RSS&at_campaign=rss",
@@ -1001,22 +985,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "be56452c8e66f834",
-      "title": "The best AirPods to buy",
-      "link": "https://www.theverge.com/tech/645217/best-apple-airpods-pro",
-      "summary": "Whether you’re buying your first pair of AirPods or replacing a well-used older pair, it’s easy to understand why so many iPhone owners prefer Apple’s earbuds and headphones over other options. Apple has spent years gradually adding new features that work best — and sometimes only work at all — wit…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-07T01:39:11.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1084,22 +1052,6 @@
       "region": "global"
     },
     {
-      "id": "1dd05520222e07de",
-      "title": "Samsung’s new Switch 2-compatible microSD Express card is already on sale",
-      "link": "https://www.theverge.com/tech/815946/samsung-p9-microsd-express-card-nintendo-switch-2-deal-sale",
-      "summary": "The Nintendo Switch 2 is backward compatible with most original Switch games, which is a great feature to tide early adopters (like me!) over until more Switch 2 exclusives launch. The console comes with 256GB of internal storage, but that probably won’t be enough room for your entire digital game …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-06T23:27:19.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "40e13bf023a6904f",
       "title": "عبد الناصر محمد: جمهور الزمالك رقم 1.. وهذا موقف بيزيرا من النهائي",
       "link": "https://www.yallakora.com/egyptian-super-cup/2975/news/529470/%d8%b9%d8%a8%d8%af-%d8%a7%d9%84%d9%86%d8%a7%d8%b5%d8%b1-%d9%85%d8%ad%d9%85%d8%af-%d8%ac%d9%85%d9%87%d9%88%d8%b1-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%b1%d9%82%d9%85-1-%d9%88%d9%87%d8%b0%d8%a7-%d9%85%d9%88%d9%82%d9%81-%d8%a8%d9%8a%d8%b2%d9%8a%d8%b1%d8%a7-%d9%85%d9%86-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a",
@@ -1161,22 +1113,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4419740f95cb254a",
-      "title": "The best robot vacuum and mop to buy right now",
-      "link": "https://www.theverge.com/tech/625409/best-robot-vacuum-mops",
-      "summary": "Robot vacuums that can both mop and sweep your floors have improved significantly in recent years. While they are still not as effective as good ol’ manual labor, if you run them regularly, they will help keep your floors cleaner with much less effort on your part. The difference is that newer “com…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-06T22:33:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1353,22 +1289,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1c3214fcab88f4fc",
-      "title": "Amazon offers AI translation for self-published Kindle books",
-      "link": "https://www.theverge.com/news/815987/amazon-kindle-translate-ai-ebook-translation",
-      "summary": "Amazon is making it easier for self-published authors to release their ebooks in multiple languages with Kindle Translate, a new AI translation tool that launched in beta on Thursday to a limited number of Kindle Direct Publishing (KDP) authors. In its early form, it can translate between English a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-06T21:17:59.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1769,22 +1689,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1a4a629bc6893a85",
-      "title": "The best budget smartphone you can buy",
-      "link": "https://www.theverge.com/21420196/best-budget-smartphone-cheap",
-      "summary": "You can get a great budget device these days if you know how to pick your priorities. | Image: The Verge Some of us take a kind of “I eat to live” rather than an “I live to eat” approach to gadgets. They’re tools that help you get things done, not something you want to invest a lot of time or money…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-06T20:06:36.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2572,22 +2476,6 @@
       "region": "global"
     },
     {
-      "id": "ae96e116cf2fd656",
-      "title": "Sony reportedly working on 'Cross-Buy' feature for unified game ownership between PlayStation 5 and PC — Leaked icons indicate Sony's answer to Xbox Play Anywhere is coming",
-      "link": "https://www.tomshardware.com/video-games/playstation/sony-reportedly-working-on-cross-buy-feature-for-unified-game-ownership-between-playstation-5-and-pc-leaked-icons-indicate-sonys-answer-to-xbox-play-anywhere-is-coming",
-      "summary": "You might be able to buy PlayStation games once and own them across PC and PS5 together, similar to Microsoft's Xbox Play Anywhere. A new \"Cross-Buy\" feature has been datamined inside PlayStation Store, added only a few months ago, hinting that it's been in the works for quite some time and might b…",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/GwByAoskyoPxNr6mpk9rdP-1280-80.png",
-      "pubDate": "2025-11-06T13:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "60632afd3db802c3",
       "title": "How to rip your DVDs with Handbrake — preserve your DVD library before bit rot claims another victim",
       "link": "https://www.tomshardware.com/software/how-to-rip-your-dvds-with-handbrake-preserve-your-dvd-library-before-bit-rot-claims-another-victim",
@@ -2601,6 +2489,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ae96e116cf2fd656",
+      "title": "Sony reportedly working on 'Cross-Buy' feature for unified game ownership between PlayStation 5 and PC — Leaked icons indicate Sony's answer to Xbox Play Anywhere is coming",
+      "link": "https://www.tomshardware.com/video-games/playstation/sony-reportedly-working-on-cross-buy-feature-for-unified-game-ownership-between-playstation-5-and-pc-leaked-icons-indicate-sonys-answer-to-xbox-play-anywhere-is-coming",
+      "summary": "You might be able to buy PlayStation games once and own them across PC and PS5 together, similar to Microsoft's Xbox Play Anywhere. A new \"Cross-Buy\" feature has been datamined inside PlayStation Store, added only a few months ago, hinting that it's been in the works for quite some time and might b…",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/GwByAoskyoPxNr6mpk9rdP-1280-80.png",
+      "pubDate": "2025-11-06T13:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3244,22 +3148,6 @@
       "region": "global"
     },
     {
-      "id": "779e5ba41e6c1238",
-      "title": "How to check and enable Secure Boot on your Windows PC",
-      "link": "https://www.tomshardware.com/software/windows/how-to-check-and-enable-secure-boot-on-your-windows-pc",
-      "summary": "If you plan to migrate to Windows 11, you will need to enable Secure Boot to ensure your install is protected. We show you how to enable Secure Boot with no drama.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/LTKJkUWLf8djLokvJSJbb6-1280-80.jpg",
-      "pubDate": "2025-11-05T13:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ec661adc67689236",
       "title": "Vectrex Mini retro console shatters Kickstarter goal within minutes — it will now cost $173, up from $115 and $150, to secure yours.",
       "link": "https://www.tomshardware.com/video-games/retro-gaming/vectrex-mini-retro-console-shatters-kickstarter-goal-within-minutes-it-will-now-cost-usd173-up-from-usd115-and-usd150-to-secure-yours",
@@ -3273,6 +3161,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "779e5ba41e6c1238",
+      "title": "How to check and enable Secure Boot on your Windows PC",
+      "link": "https://www.tomshardware.com/software/windows/how-to-check-and-enable-secure-boot-on-your-windows-pc",
+      "summary": "If you plan to migrate to Windows 11, you will need to enable Secure Boot to ensure your install is protected. We show you how to enable Secure Boot with no drama.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/LTKJkUWLf8djLokvJSJbb6-1280-80.jpg",
+      "pubDate": "2025-11-05T13:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
