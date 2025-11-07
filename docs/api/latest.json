@@ -1,23 +1,36 @@
 {
   "meta": {
-    "generated_at": "2025-11-06T23:56:54.441Z",
-    "total": 206,
-    "processed_feeds": 21,
-    "discovered_feeds": 83,
+    "generated_at": "2025-11-07T01:12:02.428Z",
+    "total": 243,
+    "processed_feeds": 22,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/25145963-78c6-436d-ab5a-7e4ba1629eff",
+        "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 68,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Eater",
+        "url": "https://www.eater.com/rss/index.xml",
+        "homepage": "https://www.eater.com/rss/index.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -35,6 +48,19 @@
         "notModified": false
       },
       {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 69,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Billboard",
         "url": "https://www.billboard.com/feed/",
         "homepage": "https://www.billboard.com/feed/",
@@ -43,7 +69,7 @@
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -61,29 +87,16 @@
         "notModified": false
       },
       {
-        "name": "TimeOut Dubai",
-        "url": "https://www.timeoutdubai.com/rss.xml",
-        "homepage": "https://www.timeoutdubai.com/rss.xml",
+        "name": "9to5Google",
+        "url": "https://9to5google.com/feed/",
+        "homepage": "https://9to5google.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Eater",
-        "url": "https://www.eater.com/rss/index.xml",
-        "homepage": "https://www.eater.com/rss/index.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
+        "taken": 25,
+        "error": null,
         "notModified": false
       },
       {
@@ -100,6 +113,19 @@
         "notModified": false
       },
       {
+        "name": "TimeOut Dubai",
+        "url": "https://www.timeoutdubai.com/rss.xml",
+        "homepage": "https://www.timeoutdubai.com/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 405",
+        "notModified": false
+      },
+      {
         "name": "Al Arabiya — منوعات",
         "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
@@ -113,6 +139,19 @@
         "notModified": false
       },
       {
+        "name": "Masrawy - رياضة",
+        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "The Kitchn",
         "url": "https://www.thekitchn.com/main/rss",
         "homepage": "https://www.thekitchn.com/main/rss",
@@ -122,7 +161,33 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -136,6 +201,45 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia — تكنولوجيا",
+        "url": "https://www.skynewsarabia.com/rss/technology.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Android Authority",
+        "url": "https://www.androidauthority.com/feed/",
+        "homepage": "https://www.androidauthority.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -165,110 +269,6 @@
         "notModified": false
       },
       {
-        "name": "Asharq Al-Awsat - رياضة",
-        "url": "https://aawsat.com/feeds/section/sport.xml",
-        "homepage": "https://aawsat.com/feeds/section/sport.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "9to5Google",
-        "url": "https://9to5google.com/feed/",
-        "homepage": "https://9to5google.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "url": "https://www.skynewsarabia.com/rss/technology.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy - رياضة",
-        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Android Authority",
-        "url": "https://www.androidauthority.com/feed/",
-        "homepage": "https://www.androidauthority.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
         "name": "AI الملتقى (AITnews)",
         "url": "https://aitnews.com/feed/",
         "homepage": "https://aitnews.com/feed/",
@@ -279,6 +279,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Asharq Al-Awsat - رياضة",
+        "url": "https://aawsat.com/feeds/section/sport.xml",
+        "homepage": "https://aawsat.com/feeds/section/sport.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       }
     ]
@@ -317,6 +330,38 @@
       "region": "global"
     },
     {
+      "id": "0fbd75d3a883abef",
+      "title": "Fitbit Labs testing ‘Unusual Trend Detection’ and Hypertension Study",
+      "link": "https://9to5google.com/2025/11/06/fitbit-unusual-trend-detection/",
+      "summary": "As the personal health coach preview gets underway, Fitbit Labs is testing more features: Unusual Trend Detection and Hypertension Study Lab. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-07T00:56:38.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "4d23e4786f66d1a2",
+      "title": "New Rangers dawn as far away as ever in European Groundhog Day",
+      "link": "https://www.bbc.com/sport/football/articles/c2kp884p2y4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rangers' resurrection under new regime still feels a pipe dream after latest European defeat, writes BBC Scotland's Scott Mullen.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-07T00:47:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "85139adca80a90e9",
       "title": "تغطية خاصة لمباراة الزمالك وبيراميدز في السوبر المصري",
       "link": "https://www.masrawy.com/sports/sports_news/details/2025/11/7/2886245/-%D8%AA%D8%BA%D8%B7%D9%8A%D8%A9-%D8%AE%D8%A7%D8%B5%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A",
@@ -330,6 +375,22 @@
       },
       "lang": "ar",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c30682a458453b08",
+      "title": "sombr? ‘More Like angr!’ See How Nikki Glaser Gets the Pop Star Mad in New ‘SNL’ Promos",
+      "link": "https://www.billboard.com/culture/tv-film/sombr-nikki-glaser-snl-promos-1236107266/",
+      "summary": "Both Glaser & sombr are making their Saturday Night Live debuts this weekend.",
+      "body": "If you have questions about the unique spelling of sombr &#8216;s stage name, this week&#8217;s Saturday Night Live promos are for you. The pop singer/songwriter is joined by host Nikki Glaser and cast member Chloe Fineman in the new promos, in which Fineman says, &#8220;sombr &#8212; it&#8217;s such a cool name.&#8221; &#8220;It is!&#8221; Glaser agrees. &#8220;It&#8217;s like if i called myself &#8216;Glasr.'&#8221; Related Sombr Is No. 1 on Hot 100 Songwriters Chart: &#8216;Songwriting Is Where It All Began for&nbsp;Me&#8217; Sombr &amp; Olivia Dean to Make &#8216;Saturday Night Live&#8217; Debuts, With Glen Powell Set to Host for First&nbsp;Time Every Sketch From the Miles Teller-Hosted Episode of &#8216;SNL&#8217; Ranked &#8220;What?&#8221; sombr replies. &#8220;You know, because it&#8217;s usually spelled S-O-M-B-E-R &#8212; you took the E out,&#8221; Glaser explains. &#8220;It is? I&#8217;ve been spelling it wrong this whole time and NOBODY TOLD ME ?&#8221; the pop star explodes, even letting out a primal scream off camera. This has Glaser giving him a brand-new name: &#8220;More like &#8216; angr .'&#8221; Elsewhere in the promos, Fineman asks, &#8220;I&#8217;ve always wan…",
+      "image": null,
+      "pubDate": "2025-11-07T00:20:38.000Z",
+      "source": {
+        "name": "Billboard",
+        "homepage": "https://www.billboard.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -361,6 +422,38 @@
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
       },
       "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "77389b268b1995a8",
+      "title": "Katy Perry Cheats Death While Narrowly Escaping One Disaster After the Next in Vulnerable ‘Bandaids’ Video",
+      "link": "https://www.billboard.com/music/pop/katy-perry-bandaids-video-2025-1236107040/",
+      "summary": "The pop star can't catch a break in the explosive visual to her new single, which arrived on Thursday (Nov. 6).",
+      "body": "Leonardo DiCaprio starred in the One Battle After Another movie, but Katy Perry lived that title to the fullest in her &#8220;Bandaids&#8221; music video, which arrived on Thursday night (Nov. 6). Related Diplo Jokes That Justin Trudeau Was &#8216;The One That Got Away&#8217; After Addressing Past Katy Perry&nbsp;Romance Katy Perry Jokes About Justin Trudeau Romance Rumors at Concert: &#8216;You Heard I Was&nbsp;Single?&#8217; Katy Perry Says She&#8217;s Done &#8216;Forcing&#8217; Her Career in &#8216;143&#8217; Anniversary Post: &#8216;I Am Proud of Where &amp; How I Have&nbsp;Landed&#8217; &#8220;Bandaids&#8221; serves as Perry&#8217;s first solo single of 2025, as she displays emotional vulnerability while looking back on her journey in the spotlight. &#8220;If I had to do it all over again. I would still do it all over again,&#8221; she sings. The accompanying visual finds KP nearly meeting her demise on multiple instances as she faces near-death experiences while life continues to throw hurdles at her, but the pop star doesn&#8217;t stop trudging on. She lives out every kid&#8217;s nightmare of having their shoelace stuck in an escalator while walking through the Puente Hills…",
+      "image": null,
+      "pubDate": "2025-11-07T00:00:00.000Z",
+      "source": {
+        "name": "Billboard",
+        "homepage": "https://www.billboard.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a94418a5869f78e5",
+      "title": "'Flying' Sarr easing Crystal Palace's Eze loss",
+      "link": "https://www.bbc.com/sport/football/articles/ceq0vwdd1e3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ismaila Sarr shines as Crystal Palace earn first home victory in Europa Conference League this term.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T23:51:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
       "category": "sports",
       "region": "global"
     },
@@ -493,6 +586,22 @@
       "region": "global"
     },
     {
+      "id": "00f7fe10a5e60557",
+      "title": "The Best Food Gifts Under $25 (That Feel Thoughtful and Chic)",
+      "link": "https://www.eater.com/shopping/921848/best-food-gifts-under-25-dollars",
+      "summary": "Eater’s under-$25 holiday gift guide is, unabashedly, one of my favorites to curate during gift guide season — both as a shopping writer and a writer who lives, laughs, loves to shop. I live for the thrill of a thrifty find; that rush of finding the perfect gift that somehow comes in way under budg…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T23:29:35.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "f2c2f6ca19d5caa8",
       "title": "أول تعليق من أحمد عبد الرؤوف على فوز الزمالك أمام بيراميدز",
       "link": "https://www.masrawy.com/sports/sports_news/details/2025/11/6/2886214/%D8%A3%D9%88%D9%84-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D9%85%D9%86-%D8%A3%D8%AD%D9%85%D8%AF-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B1%D8%A4%D9%88%D9%81-%D8%B9%D9%84%D9%89-%D9%81%D9%88%D8%B2-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A3%D9%85%D8%A7%D9%85-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2",
@@ -513,7 +622,7 @@
       "title": "Juan Luis Guerra & Sting Join Forces for ‘Genuine’ Duet in ‘Estrellitas y Duendes’: Watch",
       "link": "https://www.billboard.com/music/latin/juan-luis-guerra-sting-estrellitas-y-duendes-collab-watch-1236106984/",
       "summary": "\"I had to try to sing them exactly as they were written because they’re impeccable,\" Sting, who sings completely in Spanish, says of the lyrics.",
-      "body": "Juan Luis Guerra &nbsp;and&nbsp; Sting , two of the most globally admired artists in music, surprise their fans Thursday night (Nov. 6) with a new version of &#8220;Estrellitas y Duendes&#8221; &#8212; a classic by the Dominican maestro, included on his iconic 1990 album Bachata Rosa &#8212; which you can preview exclusively above. (Return at 7:00 p.m. ET to watch the full music video). The sweet song — a bachata with bolero elements that expresses the pain and melancholy of a lost love through deeply poetic lyrics — returns 35 years later to unite Guerra&#8217;s celebrated sound with Sting&#8217;s unmistakable artistic sensitivity, with the latter taking on the task of singing entirely in Spanish. &#8220;Juan&nbsp;Luis’ lyrics in &#8216;Estrellitas y Duendes&#8217; are a master class in what one might call romantic magical realism. I had to try to sing them exactly as they were written because they’re impeccable,&#8221; Sting says in a statement to Billboard Español . &#8220;My Spanish pronunciation is hardly perfect, but the spirit in which I sang them is genuine and true.&#8221;&nbsp; For Guerra, this came as a surprise. &#8220;We recorded remotely, and what stood out to me the…",
+      "body": "Juan Luis Guerra and Sting , two of the most globally admired artists in music, surprise their fans Thursday night (Nov. 6) with a new version of &#8220;Estrellitas y Duendes&#8221; &#8212; a classic by the Dominican maestro, included on his iconic 1990 album Bachata Rosa &#8212; which you can watch above. The sweet song — a bachata with bolero elements that expresses the pain and melancholy of a lost love through deeply poetic lyrics — returns 35 years later to unite Guerra&#8217;s celebrated sound with Sting&#8217;s unmistakable artistic sensitivity, with the latter taking on the task of singing entirely in Spanish. &#8220;Juan&nbsp;Luis’ lyrics in &#8216;Estrellitas y Duendes&#8217; are a master class in what one might call romantic magical realism. I had to try to sing them exactly as they were written because they’re impeccable,&#8221; Sting says in a statement to Billboard Español . &#8220;My Spanish pronunciation is hardly perfect, but the spirit in which I sang them is genuine and true.&#8221;&nbsp; For Guerra, this came as a surprise. &#8220;We recorded remotely, and what stood out to me the most is that he wanted to record it all in Spanish,&#8221; he explains separately…",
       "image": null,
       "pubDate": "2025-11-06T23:00:00.000Z",
       "source": {
@@ -522,22 +631,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "88d338155edd749b",
-      "title": "'Teacher' O'Neill with work to do as Celtic taught another lesson",
-      "link": "https://www.bbc.com/sport/football/articles/cp3x2lzd9g6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Interim Celtic manager cut an exasperated figure in Denmark as he watched a magnificent Midtjylland teach the Scottish champions a lesson.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-06T22:49:41.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -612,22 +705,6 @@
       "body": "Charli xcx wasn&#8217;t messing around when she took on the assignment of writing an original song for Emerald Fennell&#8217;s upcoming Wuthering Heights adaptation. On Thursday (Nov. 6), the pop star posted a teaser for the track, titled &#8220;House,&#8221; and shared a long description of the creative process behind how she made it &#8212; including how she teamed up with surprise guest the Velvet Underground&#8217;s John Cale for the project. Explaining that she was immediately taken with the &#8220;world [Fennell] was creating&#8221; after the director reached out about making a song for Wuthering Heights last Christmas, Charli wrote, &#8220;After being so in the depths of my previous album [ Brat ], I was excited to escape into something entirely new, entirely opposite.&#8221; Related Lorde Brings Out Charli XCX to ‘Work it Out on the Remix’ at Ultrasound Tour’s L.A.&nbsp;Stop Charli xcx Reveals Why She Stopped Getting Botox &amp; Says She&#8217;ll &#8216;Probably&#8217; Get a Face&nbsp;Lift Charli xcx Soundtracks Margot Robbie &amp; Jacob Elordi&#8217;s Twisted Romance in Steamy &#8216;Wuthering Heights&#8217;&nbsp;Teaser &#8220;When I think of Wuthering Heights , I think o…",
       "image": null,
       "pubDate": "2025-11-06T22:11:12.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f06e3451a300cda8",
-      "title": "Mon Laferte’s ‘Femme Fatale’ Debuts on Top Latin Pop Albums Chart: ‘It Was Kind of An Exorcism’",
-      "link": "https://www.billboard.com/music/chart-beat/mon-laferte-femme-fatale-debuts-latin-pop-albums-chart-1236107078/",
-      "summary": "Her 10th full-length album starts at No. 10.",
-      "body": "Mon Laferte is back in the top 10 on Billboard ’s Top Latin Pop Albums chart as Femme Fatale , her 10th studio album, debuts at No. 10 on the chart dated Nov. 8, marking her third top 10 on the ranking. Related Bizarrap &amp; Daddy Yankee Will Headline NFL’s First Halftime Game In&nbsp;Spain Rauw Alejandro Becomes Day of the Dead Skull for ‘Cosa Nuestra’ Show in Mexico: ‘When Two Cultures Become&nbsp;One’ Marc Anthony Reveals the Super Bowl Advice He Gave Bad Bunny: &#8216;He Sees This as a Massive Responsibility&#8217; “One night, I stayed on the terrace of my house, listening to voice notes and reading old texts on my phone,” Mon Laferte tells Billboard . “I finished a bottle of wine, probably smoked a pack of cigarettes, and watched the sunrise. That early morning, I gathered and invented 54 songs. That&#8217;s how Femme Fatale began.” Femme Fatale starts at No. 10 on Top Latin Pop Albums chart with 2,000 equivalent album units earned in the United States in the week ending Oct. 30, according to Luminate. The album, released Oct. 24 on Sony Music Latin, includes collabs with Conociendo Rusia, Nathy Peluso, Natalia Lafourcade, Silvana Estrada and Tiago IORC. Of its opening-week …",
-      "image": null,
-      "pubDate": "2025-11-06T21:49:48.000Z",
       "source": {
         "name": "Billboard",
         "homepage": "https://www.billboard.com/feed/"
@@ -731,6 +808,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "bcf956da114b5e42",
+      "title": "The 38 Best Restaurants in Tokyo, According to a Local Expert",
+      "link": "https://www.eater.com/maps/best-restaurants-tokyo-japan",
+      "summary": "Omurice at Taimeiken. | Taimeiken Restaurants in Tokyo are known for shokunin, the people who focus on a single skill to the point of obsession. These chefs dedicate their lives to the smallest details of a cuisine: the optimal temperature for the oil when frying tempura, the perfect texture for su…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T20:30:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "eadf4c4f15d2f0e1",
@@ -941,6 +1034,38 @@
       "region": "global"
     },
     {
+      "id": "04995f763eda93c2",
+      "title": "I love Nothing Ear (Open), but this $40 alternative gives them a run for their money",
+      "link": "https://9to5google.com/2025/11/06/nothing-ear-open-alternative-acefit-air/",
+      "summary": "Over the past several months, the Nothing Ear (Open) have quickly become my favorite pair of earbuds thanks to their comfortable fit and ability to deliver excellent audio quality without blocking out the world around me. But the problem with open-ear headphones is that they’re only ever a secondar…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T19:12:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d911e0aa106c3910",
+      "title": "Today’s Android app deals and freebies: Potion Permit, Bendy, Mythic Trials 2, more",
+      "link": "https://9to5toys.com/2025/11/06/android-app-deals-free-potion-permit-2/",
+      "summary": "Thursday afternoon’s lineup of the best Android game and app deals is now ready to roll. Just be sure to stop by the all-time low pricing now live on Pixel 10 devices while you still can alongside Samsung’s ultra-thin Galaxy S25 Edge at over $600 off, this Google Pixel Watch 3 at $239 less than the…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T19:04:03.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "5d6d2304388871cf",
       "title": "'It's mind-boggling' - Genge's struggles on finding normality",
       "link": "https://www.bbc.com/sport/rugby-union/videos/c4gjev847ejo?at_medium=RSS&at_campaign=rss",
@@ -989,6 +1114,22 @@
       "region": "mena"
     },
     {
+      "id": "281d10622392c7c5",
+      "title": "Big NotebookLM for Android, iOS update adds flashcards and quizzes",
+      "link": "https://9to5google.com/2025/11/06/notebooklm-app-flashcards-quizzes/",
+      "summary": "Since launch, the NotebookLM mobile experience has been focused on letting you listen to Audio Overviews on the go. The NotebookLM app for Android and iOS now supports flashcards and quizzes. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T18:39:12.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "b37f05591d5481f7",
       "title": "'We are changing things' - Amorim responds to Ronaldo comments",
       "link": "https://www.bbc.com/sport/football/videos/cew4z8n5g95o?at_medium=RSS&at_campaign=rss",
@@ -1019,6 +1160,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "54b97afda11ead08",
+      "title": "Hands-on: Oura’s Ceramic Ring 4 is more than a pop of color",
+      "link": "https://9to5google.com/2025/11/06/hands-on-oura-ring-4-ceramic/",
+      "summary": "Instead of launching another generation of its successful health-tracking ring, Oura created a new variant without a metallic finish simply called the “Oura Ring 4 Ceramic.” As simple as the change is, it’s almost as exciting as a completely new ring. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T18:30:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
     },
     {
       "id": "b84d7d116f2e2549",
@@ -1083,6 +1240,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "19e7259f009560a7",
+      "title": "Spotify adds ‘Listening Stats’ that are like your yearly Wrapped, but every week",
+      "link": "https://9to5google.com/2025/11/06/spotify-listening-stats-rolling-out/",
+      "summary": "Spotify is rolling out a new “Listening Stats” feature that packages up your activity in the music and podcasts app with a weekly summary. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T17:35:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "f778986a90b47067",
@@ -1181,6 +1354,22 @@
       "region": "global"
     },
     {
+      "id": "2b71d2e21e685487",
+      "title": "Gemini starts rolling out on Android Auto with Live support [Gallery]",
+      "link": "https://9to5google.com/2025/11/06/android-auto-gemini-starts-rolling-out/",
+      "summary": "After a lengthy wait, Google has started rolling out Gemini access on Android Auto through the latest updates. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T17:05:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "557888ebb0f321b2",
       "title": "بالتعادل مع جنوب إفريقيا.. قطر تبقي على آمالها في مونديال الناشئين",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D9%85%D8%B9-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%95%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D9%82%D8%B7%D8%B1-%D8%AA%D8%A8%D9%82%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%93%D9%85%D8%A7%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B4%D9%8A%D9%94%D9%8A%D9%86/bltf58aecdc70b7da0d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1213,6 +1402,22 @@
       "region": "global"
     },
     {
+      "id": "ca899a223e607eee",
+      "title": "Qualcomm expects to dominate Galaxy S26 lineup, casting doubt on Exynos takeover",
+      "link": "https://9to5google.com/2025/11/06/qualcomm-expects-to-dominate-galaxy-s26-lineup-casting-doubt-on-exynos-takeover/",
+      "summary": "In a big shift, it was rumored that Samsung would rely on its own Exynos 2600 chip for most Galaxy S26 devices. That might be a massive exaggeration, as Qualcomm still expects to power the large majority of Galaxy S26 phones in 2026. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T17:00:10.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "274fb20ec8097deb",
       "title": "لمسة يد مزدوجة تفجر غضب سيراميكا أمام الأهلي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%85%D8%B3%D8%A9-%D9%8A%D8%AF-%D9%85%D8%B2%D8%AF%D9%88%D8%AC%D8%A9-%D8%AA%D9%81%D8%AC%D8%B1-%D8%BA%D8%B6%D8%A8-%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A/bltf40b426bbe0d9016?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1227,6 +1432,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "b1ae3cd25492a013",
+      "title": "Deals: Galaxy S25 Edge up to $600 off, Pixel Watch 3 up to $239 less than Pixel 4, Vivobook S $520 off, more",
+      "link": "https://9to5google.com/2025/11/06/deals-galaxy-s25-edge-pixel-watch-vivobook-s/",
+      "summary": "Thursday’s 9to5Toys Lunch Break is now now ready to go starting with a deep discount on Galaxy S25 Edge. New units are $400 off at Amazon, but Best Buy has “excellent” condition open-box units at over $600 off today. We also spotted Pixel Watch 3 at up to $239 less than the new series 4 model. The …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T16:50:54.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "d16071c9599df176",
@@ -1261,6 +1482,38 @@
       "region": "mena"
     },
     {
+      "id": "04bf49152288a3a2",
+      "title": "IKEA’s new lights, sensors, and remotes work with Google Home through Matter, and they’re super cheap",
+      "link": "https://9to5google.com/2025/11/06/ikeas-new-lights-sensors-and-remotes-work-with-google-home-through-matter-and-theyre-super-cheap/",
+      "summary": "IKEA has announced over 20 new Matter-connected smart home products coming to market soon. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T16:25:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "1e20ec0e92be23e6",
+      "title": "Pebblebee’s new Android Find Hub trackers add limited-time colors, wireless charging",
+      "link": "https://9to5google.com/2025/11/06/pebblebee-gen-5-trackers-android-find-hub-apple-find-my/",
+      "summary": "Pebblebee is updating its lineup of trackers for Android Find Hub and Apple’s Find My with better hardware, new limited-time colors, and wireless charging too. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T16:00:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "a5c0a98049dd1652",
       "title": "Zhao beats Selby, Wu dazzles, and Scots into semi-final",
       "link": "https://www.bbc.com/sport/snooker/articles/c4gw5qpw0wlo?at_medium=RSS&at_campaign=rss",
@@ -1274,6 +1527,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e9dc178d99f0abae",
+      "title": "Eater Wins Two International Association of Culinary Professionals Awards",
+      "link": "https://www.eater.com/press-room/921728/eater-wins-two-international-association-culinary-professional-awards",
+      "summary": "Last night, winners were announced at the 47th annual International Association of Culinary Professional (IACP) awards at the Venue at City Harvest in Brooklyn, New York. The IACP awards recognize excellence in four overarching categories: cookbooks, digital media, food writing, and food photograph…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T15:55:41.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1306,6 +1575,38 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "6931bf678a31d420",
+      "title": "Niagara Launcher’s new themes perfectly avoid clashing with your home screen",
+      "link": "https://9to5google.com/2025/11/06/niagara-launchers-new-themes-perfectly-avoid-clashing-with-your-home-screen/",
+      "summary": "Niagara Launcher has long been one of the best alternative launchers you can find on the Play Store, and today, a new update is rolling out that brings a colorful, artistic touch to practically every aspect of the UI. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T15:00:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6c270703d44765f5",
+      "title": "YouTube rolls out AI age verification to a new wave of users",
+      "link": "https://9to5google.com/2025/11/06/youtube-rolls-out-ai-age-verification-to-a-new-wave-of-users/",
+      "summary": "After launching the feature earlier this year, YouTube has unleashed a new wave of AI age verification on the platform, angering some. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-06T14:45:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1933,6 +2234,22 @@
       "region": "global"
     },
     {
+      "id": "f1af3008a17506d3",
+      "title": "Motorola’s thin Edge 70 launches globally with 5.99mm profile and €799 price tag",
+      "link": "https://9to5google.com/2025/11/05/motorola-edge-70-global-launch/",
+      "summary": "After its debut in China, Motorola Edge 70 is now available in the UK and parts of Europe with a thin profile and surprisingly affordable price tag. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T20:05:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "1e815095b68be107",
       "title": "ظاهرة نادرة.. \"قمر القندس العملاق\" الأقرب للأرض في 2025",
       "link": "https://www.skynewsarabia.com/technology/1831879-%D8%B8%D8%A7%D9%87%D8%B1%D8%A9-%D9%86%D8%A7%D8%AF%D8%B1%D8%A9-%D9%82%D9%85%D8%B1-%D8%A7%D9%84%D9%82%D9%86%D8%AF%D8%B3-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A7%D9%94%D9%82%D8%B1%D8%A8-%D9%84%D9%84%D8%A7%D9%94%D8%B1%D8%B6-2025",
@@ -1946,6 +2263,102 @@
       },
       "lang": "ar",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ef37d32eb816f3dc",
+      "title": "Disney-YouTube TV feud extends to Movies Anywhere, as Google no longer syncs digital movie purchases",
+      "link": "https://9to5google.com/2025/11/05/disney-youtube-tv-feud-extends-to-movies-anywhere-google-no-longer-syncs/",
+      "summary": "It’s been less than a week since Disney-owned channels went off the air for YouTube TV subscribers, but we’re still seeing some unintended effects ripple through the industry. Following Disney’s move to pull its vast collection of original and acquired entertainment, Movies Anywhere is the next pla…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T19:58:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6f4cbdaa42db6994",
+      "title": "‘Sonic Rumble’ is a Fall Guys-like multiplayer game, available now on Android [U]",
+      "link": "https://9to5google.com/2025/11/05/sonic-rumble-android-ios/",
+      "summary": "After being initially unveiled last year, Sega has offiically released “Sonic Rumble” on Android as a new mobile game starring Sonic The Hedgehog and other characters from the series in a Fall Guys-like multiplayer game. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T19:35:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3bd5fe278e9f2f93",
+      "title": "Sony embraces cloud gaming on PlayStation Portal, but requires $18/month subscription",
+      "link": "https://9to5google.com/2025/11/05/sony-playstation-portal-cloud-gaming/",
+      "summary": "While Google’s Stadia project is becoming a distant memory, cloud gaming lives on, and Sony is now embracing it further with its PlayStation Portal handheld finally adding cloud gaming for everyone. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T19:30:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ba5adf8496733475",
+      "title": "Fairphone is coming to the US, but it’s starting with headphones instead",
+      "link": "https://9to5google.com/2025/11/05/fairphone-us-launch-headphones/",
+      "summary": "Fairphone has been building ultra-repairable Android smartphones for the past few years, but has yet to sell anything in the US market. That’s officially changing now, but it’s starting off with headphones instead. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T19:25:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "df1303706cd7dadb",
+      "title": "Today’s Android app deals and freebies: Sadhana, SpongeBob, Railways, more",
+      "link": "https://9to5toys.com/2025/11/05/android-app-deals-free-sadhana/",
+      "summary": "Wednesday afternoon has arrived and with it we have fresh batch of discounted Android games and apps to check out. Today’s collection features titles like Railways – Train Simulator, 911 Operator, SpongeBob – The Cosmic Shake, Sadhana, the spiritual journey, and more. Just be sure to dive into the …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T19:18:38.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a9035f20b9b746da",
+      "title": "Shop Gifts Curated by Eater Editors at Macy’s Holiday Square",
+      "link": "https://www.eater.com/press-room/921609/macys-holiday-square-shopping-eater-the-cut-ps",
+      "summary": "While the Halloween candy may barely have a dent in it, November 1 often marks the beginning of the holiday season — and all the shopping that goes along with it. To help shoppers check off their lists, Macy’s teamed up with editors from Vox Media brands including Eater, The Cut, and PS to put toge…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T19:13:26.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1981,6 +2394,102 @@
       "region": "global"
     },
     {
+      "id": "9f4a0e5de44d8ef5",
+      "title": "Google releases new Pixel ‘Theme packs’ app on the Play Store",
+      "link": "https://9to5google.com/2025/11/05/pixel-theme-packs/",
+      "summary": "Google has released a new “Theme packs” app on the Play Store for its devices that “Personalize your Pixel in one tap.” more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T18:31:43.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "313cf1e19b115b6c",
+      "title": "Gemini Deep Research can tap into your Gmail and Google Drive",
+      "link": "https://9to5google.com/2025/11/05/gemini-deep-research-google-drive-gmail/",
+      "summary": "After adding PDF support in May, Gemini Deep Research can now directly tap information stored in your Gmail and Google Chat conversations, as well as Google Drive files. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T17:25:13.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "08afaf46680b890e",
+      "title": "Google AI Mode comes to Chrome for Android & iOS, expands agentic booking",
+      "link": "https://9to5google.com/2025/11/05/ai-mode-chrome-agentic-expansion/",
+      "summary": "After giving AI Mode new floating controls on Android, the new Search experience is expanding its presence on Chrome and getting more agentic features. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T17:15:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e868035b19434878",
+      "title": "Deals: Galaxy Book5 $350 off, Surface Pro new low, 2025 The Frame $650 off, Google Find Hub card $23, more",
+      "link": "https://9to5google.com/2025/11/05/deals-galaxy-book5-surface-pro-google-find-hub-card/",
+      "summary": "Today’s 9to5Toys Lunch Break is featuring some fresh new price drops to join the ongoing all-time low pricing across the Pixel 10 lineup. Firstly, we have Samsung’s early holiday sale that is knocking up to $350 off Galaxy Book5 Copilot+ PCs with deals from $650 alongside a new all-time low on Micr…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T16:49:13.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "99ccdc28ac9cf64c",
+      "title": "Google’s latest merch drop includes a familiar Android plushie and more",
+      "link": "https://9to5google.com/2025/11/05/google-merch-drop-android-plushie/",
+      "summary": "Google has released a handful of new merch ahead of the holiday season, with the latest batch including a familiar Android plushie and more. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T16:40:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "30b5cda6c4238dd9",
+      "title": "Samsung compares Galaxy S25 Edge to iPhone Air, runs out of things to talk about [Video]",
+      "link": "https://9to5google.com/2025/11/05/samsung-galaxy-s25-edge-iphone-air-ads/",
+      "summary": "Samsung has reportedly been on the fence regarding the future of its super-slim smartphones after the Galaxy S25 Edge failed badly, but that hasn’t stopped the company from putting on a brave face to try and compare the Galaxy S25 Edge to the iPhone Air in a series of ads. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T16:05:00.000Z",
+      "source": {
+        "name": "9to5Google",
+        "homepage": "https://9to5google.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "234e1ab1e884c27a",
       "title": "'Australia not a bunch of old-timers - they're an outstanding team'",
       "link": "https://www.bbc.com/sport/cricket/articles/cwy7n0je49wo?at_medium=RSS&at_campaign=rss",
@@ -2010,6 +2519,22 @@
       },
       "lang": "ar",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d56304e65d23f3cf",
+      "title": "After ‘Top Chef,’ Padma Lakshmi Wants to Show How People Really Eat",
+      "link": "https://www.eater.com/food-culture/921093/padma-lakshmi-padmas-all-american-cookbook-interview",
+      "summary": "Padma Lakshmi’s new book, Padma’s All American, is a record of the years she spent traveling for Taste the Nation | Cover courtesy Knopf | Collage by Masood Shah For her show Taste the Nation, Padma Lakshmi traveled across the country to cook, eat, and immerse herself in different immigrant communi…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-05T14:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -2173,6 +2698,22 @@
       "region": "global"
     },
     {
+      "id": "5ff0f4dd8b8ef0cd",
+      "title": "The Best Gifts Under $50 for People Who (Really) Love Food",
+      "link": "https://www.eater.com/shopping/921229/best-food-gifts-under-50-dollars",
+      "summary": "If the colorful Bauhaus French press on my nightstand could talk, all $30 of its retail price — not to mention its immeasurable value in joy and whimsy — would remind you that a present doesn’t have to be wildly expensive to be great; it just has to be thoughtful. As a fastidious, near-obsessive gi…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-04T22:43:34.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "36f42e22a53f7597",
       "title": "دراسة تكشف فوائد \"مذهلة\" للمحليات الصناعية في إنقاص الوزن",
       "link": "https://www.skynewsarabia.com/technology/1831694-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D9%81%D9%88%D8%A7%D9%8A%D9%94%D8%AF-%D9%85%D8%B0%D9%87%D9%84%D8%A9-%D9%84%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D8%A7%D9%95%D9%86%D9%82%D8%A7%D8%B5-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
@@ -2189,6 +2730,22 @@
       "region": "global"
     },
     {
+      "id": "9094f37159e14e1e",
+      "title": "South Indian Lobster and Caribbean Goat: How I Eat Around New York City",
+      "link": "https://www.eater.com/chefs/921203/padma-lakshmi-restaurant-guide-new-york-city",
+      "summary": "NY Dosas in Washington Square Park. I grew up in Elmhurst, Queens, not far from Jackson Heights. It was a very mixed neighborhood, but it did have a lot of South Asian kids. In the ’70s, I remember always going to Jackson Heights on Saturday to the temple, to go grocery shopping for all our Indian …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-04T17:25:29.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "b71fbf77dea74a73",
       "title": "منافع مذهلة.. خبراء تغذية يكشفون \"أكثر أنواع الشاي فائدة\"",
       "link": "https://www.skynewsarabia.com/technology/1831675-%D9%85%D9%86%D8%A7%D9%81%D8%B9-%D9%85%D8%B0%D9%87%D9%84%D8%A9-%D8%AE%D8%A8%D8%B1%D8%A7%D8%A1-%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%8A%D9%83%D8%B4%D9%81%D9%88%D9%86-%D8%A7%D9%94%D9%83%D8%AB%D8%B1-%D8%A7%D9%94%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%B4%D8%A7%D9%8A-%D9%81%D8%A7%D9%8A%D9%94%D8%AF%D8%A9",
@@ -2201,6 +2758,22 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0fad14b57ae2c3c4",
+      "title": "The Experiential Dish Is the New Hard-to-Get Reservation",
+      "link": "https://www.eater.com/dining-out/919845/dish-experience-restaurant-trend-butter-chicken",
+      "summary": "At Little Walter’s in Philadelphia, only two golonka dinners are available each week When the New York City Indian restaurant Adda transformed from a casual Queens canteen to a swankier Manhattan hot spot, it ditched the butter chicken that diners at the original location knew and loved — its best-…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-04T14:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
       "category": "technology",
       "region": "global"
     },
@@ -2445,6 +3018,22 @@
       "region": "global"
     },
     {
+      "id": "835a5cbde61124fa",
+      "title": "The 38 Best Restaurants in Lisbon, Portugal, According to a Local Expert",
+      "link": "https://www.eater.com/maps/best-lisbon-portugal-restaurants",
+      "summary": "Inside Restaurante Alma. | Nuno Correia A food-loving visitor will quickly learn that sardines, cod, and the iconic pastel de nata are great, but the Lisbon restaurant scene can offer much more. Portuguese cuisine draws on global flavors from the country’s centuries of trade, and Lisbon’s restaurat…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-31T18:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "60f2c3338f5e3a19",
       "title": "تجربة طبية مثيرة.. حقن الجسم بفيروسات يشفيه من بكتيريا خطيرة",
       "link": "https://www.skynewsarabia.com/technology/1830860-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%B7%D8%A8%D9%8A%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D8%AC%D8%B3%D9%85-%D8%A8%D9%81%D9%8A%D8%B1%D9%88%D8%B3%D8%A7%D8%AA-%D9%8A%D8%B4%D9%81%D9%8A%D9%87-%D8%A8%D9%83%D8%AA%D9%8A%D8%B1%D9%8A%D8%A7-%D8%AE%D8%B7%D9%8A%D8%B1%D8%A9",
@@ -2458,6 +3047,22 @@
       },
       "lang": "ar",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d6eff9438b670d30",
+      "title": "How to Pitch Eater",
+      "link": "https://www.eater.com/2016/12/15/13962822/eater-pitching-guidelines-how-to-pitch",
+      "summary": "Go on — scoop up every bit of knowledge about pitching Eater. | Kimberly Motos Eater is for people who care about where they eat. Through our extensive reporting on restaurants and bars, we believe food is culture, identity, and community — and where you eat matters. Our coverage is approachable an…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-10-30T21:22:32.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
