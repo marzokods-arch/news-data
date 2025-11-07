@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2025-11-07T04:40:23.273Z",
+    "generated_at": "2025-11-07T04:50:44.842Z",
     "total": 205,
-    "processed_feeds": 16,
-    "discovered_feeds": 83,
+    "processed_feeds": 17,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -35,6 +35,32 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "The Verge",
         "url": "https://www.theverge.com/rss/index.xml",
         "homepage": "https://www.theverge.com/",
@@ -61,16 +87,16 @@
         "notModified": false
       },
       {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -83,45 +109,6 @@
           "general"
         ],
         "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -139,9 +126,9 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -149,6 +136,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -156,32 +169,6 @@
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -204,16 +191,42 @@
         "notModified": false
       },
       {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       }
     ]
@@ -2124,22 +2137,6 @@
       "region": "global"
     },
     {
-      "id": "ae96e116cf2fd656",
-      "title": "Sony reportedly working on 'Cross-Buy' feature for unified game ownership between PlayStation 5 and PC — Leaked icons indicate Sony's answer to Xbox Play Anywhere is coming",
-      "link": "https://www.tomshardware.com/video-games/playstation/sony-reportedly-working-on-cross-buy-feature-for-unified-game-ownership-between-playstation-5-and-pc-leaked-icons-indicate-sonys-answer-to-xbox-play-anywhere-is-coming",
-      "summary": "You might be able to buy PlayStation games once and own them across PC and PS5 together, similar to Microsoft's Xbox Play Anywhere. A new \"Cross-Buy\" feature has been datamined inside PlayStation Store, added only a few months ago, hinting that it's been in the works for quite some time and might b…",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/GwByAoskyoPxNr6mpk9rdP-1280-80.png",
-      "pubDate": "2025-11-06T13:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "60632afd3db802c3",
       "title": "How to rip your DVDs with Handbrake — preserve your DVD library before bit rot claims another victim",
       "link": "https://www.tomshardware.com/software/how-to-rip-your-dvds-with-handbrake-preserve-your-dvd-library-before-bit-rot-claims-another-victim",
@@ -2153,6 +2150,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ae96e116cf2fd656",
+      "title": "Sony reportedly working on 'Cross-Buy' feature for unified game ownership between PlayStation 5 and PC — Leaked icons indicate Sony's answer to Xbox Play Anywhere is coming",
+      "link": "https://www.tomshardware.com/video-games/playstation/sony-reportedly-working-on-cross-buy-feature-for-unified-game-ownership-between-playstation-5-and-pc-leaked-icons-indicate-sonys-answer-to-xbox-play-anywhere-is-coming",
+      "summary": "You might be able to buy PlayStation games once and own them across PC and PS5 together, similar to Microsoft's Xbox Play Anywhere. A new \"Cross-Buy\" feature has been datamined inside PlayStation Store, added only a few months ago, hinting that it's been in the works for quite some time and might b…",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/GwByAoskyoPxNr6mpk9rdP-1280-80.png",
+      "pubDate": "2025-11-06T13:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2316,22 +2329,6 @@
       "region": "global"
     },
     {
-      "id": "ee6d27a62c5d01bd",
-      "title": "EufyMake E1 review: Dimensional UV printer",
-      "link": "https://www.tomshardware.com/3d-printing/eufymake-e1-uv-printer-review",
-      "summary": "EufyMake’s not quite 3D UV printer is exciting…but is it worth it?",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/DxnwYAo5HqFsbipcPnzAXP-1280-80.jpg",
-      "pubDate": "2025-11-06T12:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "d2ce2554b2437aee",
       "title": "Crypto fraud and laundering ring that stole $689 million busted by European authorities — 9 arrests made across multiple countries, perps face a decade behind bars and huge fines",
       "link": "https://www.tomshardware.com/tech-industry/cryptocurrency/crypto-fraud-and-laundering-ring-that-stole-eur600m-usd689m-busted-by-european-authorities-9-arrests-made-across-multiple-countries-perps-face-a-decade-behind-bars-and-huge-fines",
@@ -2345,6 +2342,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ee6d27a62c5d01bd",
+      "title": "EufyMake E1 review: Dimensional UV printer",
+      "link": "https://www.tomshardware.com/3d-printing/eufymake-e1-uv-printer-review",
+      "summary": "EufyMake’s not quite 3D UV printer is exciting…but is it worth it?",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/DxnwYAo5HqFsbipcPnzAXP-1280-80.jpg",
+      "pubDate": "2025-11-06T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
