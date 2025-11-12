@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-11-12T04:43:15.868Z",
+    "generated_at": "2025-11-12T04:54:05.944Z",
     "total": 353,
     "processed_feeds": 24,
     "discovered_feeds": 84,
@@ -22,15 +22,28 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 73,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -61,41 +74,15 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 45,
+        "taken": 73,
         "error": null,
         "notModified": false
       },
@@ -109,32 +96,6 @@
           "general"
         ],
         "taken": 49,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
         "error": null,
         "notModified": false
       },
@@ -178,16 +139,55 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
+        "taken": 45,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -217,19 +217,6 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Medical News Today",
         "url": "https://www.medicalnewstoday.com/rss",
         "homepage": "https://www.medicalnewstoday.com/rss",
@@ -256,16 +243,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 500",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -295,19 +295,6 @@
         "notModified": false
       },
       {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Assabah Sports (MA)",
         "url": "https://www.assabah.ma/feed/",
         "homepage": "https://www.assabah.ma/feed/",
@@ -318,6 +305,19 @@
         ],
         "taken": 10,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "AbortError: This operation was aborted",
         "notModified": false
       }
     ]
@@ -916,22 +916,6 @@
       "region": "global"
     },
     {
-      "id": "5989cc2b006a7b96",
-      "title": "‘The Running Man’ Conjures a Dystopian Vision of America That’s Still Not as Bad as Reality",
-      "link": "https://www.wired.com/story/the-running-man-conjures-a-dystopian-vision-of-america-thats-still-not-as-bad-as-reality/",
-      "summary": "Edgar Wright’s violent, incoherent remake is hard to view as satire in a world where right-wing narratives and reality-TV-style ICE raids dominate the media.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-11T19:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "623e31d6ee063dc2",
       "title": "The Best Way To Cut A Pomegranate Is Easier Than You Think",
       "link": "https://www.delish.com/kitchen-tools/kitchen-secrets/a69382394/how-to-cut-a-pomegranate/",
@@ -977,6 +961,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5989cc2b006a7b96",
+      "title": "‘The Running Man’ Conjures a Dystopian Vision of America That’s Still Not as Bad as Reality",
+      "link": "https://www.wired.com/story/the-running-man-conjures-a-dystopian-vision-of-america-thats-still-not-as-bad-as-reality/",
+      "summary": "Edgar Wright’s violent, incoherent remake is hard to view as satire in a world where right-wing narratives and reality-TV-style ICE raids dominate the media.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-11T19:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -4020,22 +4020,6 @@
       "region": "global"
     },
     {
-      "id": "4df4eb8ef2ecaaa8",
-      "title": "The 42 Best Movies on Netflix, WIRED’s Picks (November 2025)",
-      "link": "https://www.wired.com/story/netflix-best-movies-this-week/",
-      "summary": "Frankenstein, The Twits, and The Running Man are just a few of the movies you should watch on Netflix this month.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-08T12:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "d101641683da6de9",
       "title": "Gear News of the Week: Fairphone Lands in the US, and WhatsApp Is Finally on the Apple Watch",
       "link": "https://www.wired.com/story/gear-news-of-the-week-fairphone-lands-in-the-us-and-whatsapp-is-finally-on-the-apple-watch/",
@@ -4065,6 +4049,22 @@
       },
       "lang": "en",
       "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "4df4eb8ef2ecaaa8",
+      "title": "The 42 Best Movies on Netflix, WIRED’s Picks (November 2025)",
+      "link": "https://www.wired.com/story/netflix-best-movies-this-week/",
+      "summary": "Frankenstein, The Twits, and The Running Man are just a few of the movies you should watch on Netflix this month.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-08T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
