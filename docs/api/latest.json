@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2025-11-13T17:39:12.647Z",
-    "total": 210,
+    "generated_at": "2025-11-13T17:49:31.553Z",
+    "total": 203,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "CDC — Newsroom",
-        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
-        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -35,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "CDC — Newsroom",
+        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -45,6 +45,32 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 23,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,58 +100,6 @@
         "notModified": false
       },
       {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 22,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 6,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -152,6 +126,32 @@
         "notModified": false
       },
       {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "PC Gamer",
         "url": "https://www.pcgamer.com/rss/",
         "homepage": "https://www.pcgamer.com/rss/",
@@ -165,10 +165,10 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -191,16 +191,16 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 6,
+        "error": null,
         "notModified": false
       },
       {
@@ -217,9 +217,9 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -230,9 +230,9 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -272,131 +272,115 @@
   },
   "items": [
     {
-      "id": "b4bfda625ef118fd",
-      "title": "UBS takeover of Credit Suisse pushed up Swiss banks' funding costs, SNB says",
-      "link": "https://www.investing.com/news/economy-news/ubs-takeover-of-credit-suisse-pushed-up-swiss-banks-funding-costs-snb-says-4356341",
-      "summary": "",
+      "id": "08eb06e945f893c8",
+      "title": "IRS announces 401(k) catch-up contributions for 2026, raises cap",
+      "link": "https://www.cnbc.com/2025/11/13/401-k-catch-up-contribution-limits-2026.html",
+      "summary": "The IRS has announced the 401(k) catch-up contribution limits for 2026. Here's what investors need to know.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAC0ZT_L.jpg",
-      "pubDate": "2025-11-13T17:36:48.000Z",
+      "image": null,
+      "pubDate": "2025-11-13T17:48:22.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "60119822bee426ae",
-      "title": "Fed's December rate cut looks increasingly like a toss-up",
-      "link": "https://www.investing.com/news/economy-news/odds-of-fed-rate-cut-in-december-on-knifes-edge-as-hawks-doves-face-off-4355720",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAC0RN_L.jpg",
-      "pubDate": "2025-11-13T17:36:30.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7727284c7d32e135",
-      "title": "Truist Securities reiterates Hold rating on Hims and Hers stock at $37 price target",
-      "link": "https://www.investing.com/news/analyst-ratings/truist-securities-reiterates-hold-rating-on-hims-and-hers-stock-at-37-price-target-93CH-4356339",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2025-11-13T17:35:48.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "025c281322dca0da",
-      "title": "Earnings call transcript: Eagle Point Income Q3 2025 reveals strategic shifts",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-eagle-point-income-q3-2025-reveals-strategic-shifts-93CH-4356338",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-11-13T17:34:50.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b9be4db59f88effd",
-      "title": "Elon Musk says report on xAI's $15 billion fundraise is 'false'",
-      "link": "https://www.investing.com/news/stock-market-news/elon-musks-xai-raises-15-billion-in-series-e-round-cnbc-reports-4355781",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAC0SL_L.jpg",
-      "pubDate": "2025-11-13T17:31:31.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "technology",
       "region": "global"
     },
     {
-      "id": "de3d58e9ff40f645",
-      "title": "France commemorates victims of deadly Paris attacks 10 years on",
-      "link": "https://www.investing.com/news/world-news/france-marks-10th-anniversary-of-deadly-paris-attacks-4353731",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAC01B_L.jpg",
-      "pubDate": "2025-11-13T17:31:13.000Z",
+      "id": "76e1e18e8eb8e824",
+      "title": "Fallout Season 2's latest trailer includes New Vegas easter eggs like Dinky the T-Rex and the enigmatic head honcho, Mr House",
+      "link": "https://www.pcgamer.com/movies-tv/fallout-season-2s-latest-trailer-includes-new-vegas-easter-eggs-like-dinky-the-t-rex-and-the-enigmatic-head-honcho-mr-house/",
+      "summary": "I wanted answers, but Elvis ghouls work.",
+      "body": "There's just a month to go until the release of Fallout Season 2 , and I've been gnawing at the bars of my enclosure, desperate to see what life is like in New Vegas and finally get some answers to the cliff hangers set up at the end of Season 1. Sadly, we're going to have to wait a bit longer for anything specific, but the official trailer for Season 2 just dropped, and I think it'll tide me over until the episodes finally come out. There is a hell of a lot to unpack in the short two-minute 38-second trailer, but I'm going to try my best to do so. (Image credit: Prime Video) At the end of Fallout Season 1 , our main cast of characters had split up, and it seems like the second season will follow a similar structure to the first in that episodes will cut between the various groups, following their stories side by side. It looks like Maximus and Thaddeus are still together, although Thaddeus has seen better days, as his recent ghoulification has had a couple of visual repercussions. The mouth on his collarbone does not look good. And Maximus still seems obsessed with \"that girl\", our protagonist Lucy MacLean. Cut to Lucy, and she's still got The Ghoul and Dogmeat by her side as she…",
+      "image": "https://cdn.mos.cms.futurecdn.net/7xFQneA7Av7BiqRmmvT3JN-1280-80.png",
+      "pubDate": "2025-11-13T17:47:55.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "964967e3b1b0ada8",
+      "title": "AI startup Cursor raises $2.3 billion funding round at $29.3 billion valuation",
+      "link": "https://www.cnbc.com/2025/11/13/cursor-ai-startup-funding-round-valuation.html",
+      "summary": "Cursor built a popular AI coding tool that helps software developers generate, edit and review code.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-13T17:44:56.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "31fa9fb2127f463f",
+      "title": "Why a Top Hollywood Exec Became an AI Evangelist: a “Tidal Wave” Is Coming to the Industry",
+      "link": "https://www.hollywoodreporter.com/business/digital/kevin-reilly-ai-hollywood-interview-1236425898/",
+      "summary": "Longtime NBC and Fox leader Kevin Reilly, who now runs AI startup Kartel, has a message for the entertainment figures fighting AI.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-13T17:44:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "92960d7651268147",
+      "title": "Disney stock falls 8% as media giant posts mixed results",
+      "link": "https://www.cnbc.com/2025/11/13/disney-dis-earnings-q4-2025.html",
+      "summary": "Disney reported fiscal fourth-quarter results before the bell Thursday, giving its final update on streaming subscriber metrics.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-13T17:40:16.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "general",
       "region": "global"
     },
     {
-      "id": "701a3f8d9615b34c",
-      "title": "Farinvest co Offers User-Friendly Tools for Asset Analysis",
-      "link": "https://www.investing.com/news/press-releases/farinvest-co-offers-userfriendly-tools-for-asset-analysis-4356337",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-11-13T17:31:09.000Z",
+      "id": "ed21fcd39fc9c700",
+      "title": "AMD's FSR 4 Redstone Ray Regeneration update finally arrives in Call of Duty: Black Ops 7, which is better late than never",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/amds-fsr-4-redstone-ray-regeneration-update-finally-arrives-in-call-of-duty-black-ops-7-which-is-better-late-than-never/",
+      "summary": "Good things come to those who wait. Probably.",
+      "body": "I was there folks, I was there. In May of this year, AMD announced a massive new update to its upscaling tech, giving us our first glimpse of FSR 4 \"Redstone\" which was said to be bringing a whole host of machine learning-based improvements. One of the key features is the addition of Ray Regeneration, which, much like Nvidia's Ray Reconstruction tech , is said to be capable of regenerating inaccurate pixels to prevent the gritty, noisy mess that can surround some ray traced lighting effects. The Redstone update was supposed to be making an appearance at some point this year, but it's been so long since we'd heard anything about it, I'd nearly forgotten it existed. Available on AMD Radeon™ RX 9000 Series graphics cards, FSR ‘Redstone’ Ray Regeneration goes live tomorrow in Call of Duty: Black Ops 7. Hear more from @JackMHuynh, SVP and GM, Computing and Graphics Group at AMD. pic.twitter.com/1hKjYmAubB November 13, 2025 And yet, here it is. AMD has announced on X that FSR 4 Redstone Ray Regeneration will be making its debut on RX 9000-series cards in Call of Duty: Black Ops 7 , which will be launched *checks watch* tomorrow . So, if you've got an RX 9070 XT , RX 9070 , or RX 9060 XT…",
+      "image": "https://cdn.mos.cms.futurecdn.net/cz669wkLZNanFjtXkMK46L-1280-80.jpg",
+      "pubDate": "2025-11-13T17:36:39.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
       },
       "lang": "en",
-      "category": "general",
+      "category": "technology",
       "region": "global"
     },
     {
-      "id": "60416b0394ee19b8",
-      "title": "Brazil cuts forecasts for 2025 economic growth, inflation",
-      "link": "https://www.investing.com/news/economy-news/brazil-cuts-forecasts-for-2025-economic-growth-inflation-4356335",
-      "summary": "",
+      "id": "73eee0bbd5de7d90",
+      "title": "New foreclosures jump 20% in October, a sign of more distress in the housing market",
+      "link": "https://www.cnbc.com/2025/11/13/foreclosures-rise-october-housing-market-distress.html",
+      "summary": "All phases of the foreclosure process are seeing big increases, as homeowners fall behind on mortgage payments due to stress in the economy.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAC0YF_L.jpg",
-      "pubDate": "2025-11-13T17:30:36.000Z",
+      "image": null,
+      "pubDate": "2025-11-13T17:34:40.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
-      "category": "weather",
+      "category": "general",
       "region": "global"
     },
     {
@@ -586,22 +570,6 @@
       "source": {
         "name": "Financial Times — Markets",
         "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "964967e3b1b0ada8",
-      "title": "AI startup Cursor raises $2.3 billion funding round at $29.3 billion valuation",
-      "link": "https://www.cnbc.com/2025/11/13/cursor-ai-startup-funding-round-valuation.html",
-      "summary": "Cursor built a popular AI coding tool that helps software developers generate, edit and review code.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-13T16:57:21.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "technology",
@@ -896,26 +864,10 @@
       "region": "global"
     },
     {
-      "id": "42c8879159166746",
-      "title": "Schlock Meisters Asylum Get Doc Treatment With ‘Mockbuster’ (Exclusive Trailer)",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/schlock-meisters-asylum-doc-mockbusters-1236426248/",
-      "summary": "Giant Pictures are pitching the award-winning Aussie documentary on the B-movie studio behind 'Sharknado' to buyers at AFM.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-13T16:17:29.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5e30409398d0e829",
-      "title": "‘Big Short’ star Michael Burry names FT Alphaville charts quiz winner as successor",
+      "id": "0ffa522871c1e18c",
+      "title": "Michael Burry names FT Alphaville charts quiz winner as successor",
       "link": "https://www.ft.com/content/b6ea22a5-539f-43c8-8527-852f682add2c",
-      "summary": "…while pub quiz photographer misses scoop",
+      "summary": "… while pub quiz photographer misses scoop",
       "body": null,
       "image": null,
       "pubDate": "2025-11-13T16:07:52.000Z",
@@ -1040,6 +992,22 @@
       "region": "global"
     },
     {
+      "id": "568a2cddc0d99ecd",
+      "title": "الأهلي يكشف لكووورة موقفه من ضم ثنائي البنك ونجم بتروجت",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D9%84%D9%83%D9%88%D9%88%D9%88%D8%B1%D8%A9-%D9%85%D9%88%D9%82%D9%81%D9%87-%D9%85%D9%86-%D8%B6%D9%85-%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D9%88%D9%86%D8%AC%D9%85-%D8%A8%D8%AA%D8%B1%D9%88%D8%AC%D8%AA/bltf160236f5ea652e0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأهلي يسعى لتدعيم صفوفه في الميركاتو الشتوي",
+      "body": "ستبدأ إدارة الكرة في النادي الأهلي المصري اجتماعات مكثفة، السبت المقبل، لوضع خريطة الانتقالات الشتوية الخاصة بالفريق الأول لكرة القدم، في إطار التحضير للمرحلة المقبلة، بعد انتهاء فترة التوقف والراحة التي حصل عليها اللاعبون عقب التتويج ببطولة السوبر المحلي. وأوضح مصدر داخل النادي في تصريحات خاصة لـ\"كووورة\"، اليوم الخميس، أن الدنماركي ييس توروب، المدير الفني، سيعود إلى القاهرة خلال الساعات القليلة المقبلة، على أن يقود تدريبات الفريق الأحمر بدءًا من يوم السبت، بعد انتهاء الراحة السلبية التي منحها للاعبين لمدة خمسة أيام، عقب الفوز على الزمالك بهدفين نظيفين في نهائي السوبر المصري، الذي أُقيم بملعب الشيخ محمد بن زايد في أبوظبي. وأضاف المصدر أن سيد عبدالحفيظ، عضو مجلس الإدارة ونائب القائم بأعمال المشرف العام على الكرة، سيتولى المسؤولية الكاملة عن ملف صفقات الشتاء، بالتنسيق مع المدير الفني ييس توروب، موضحًا أن ما تردد بشأن إنجاز الأهلي صفقتي أسامة فيصل ومحمود الجزار من البنك الأهلي \"غير صحيح حتى الآن\". وقال المصدر: \"الثنائي بالفعل ضمن اهتمامات النادي، لكن لم يحدث أي تحرك رسمي أو تفاوض مع مسؤولي البنك الأهلي، حتى الآن، وسيتم عرض الموقف الكامل على المدير الفني لحسم قراره النهائي بشأنهما\". حامد حمدان وتابع المصدر موضحًا أن هناك اتصالات تمت مع الفلسطيني حامد حمدان، لاعب وسط نادي بتروجت، لاستط…",
+      "image": null,
+      "pubDate": "2025-11-13T15:43:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "d1dda555159c682a",
       "title": "Uber will start taking skiers to the slopes at over 40 resorts across U.S. and Europe",
       "link": "https://www.cnbc.com/2025/11/13/uber-skis-share-eats.html",
@@ -1072,22 +1040,6 @@
       "region": "mena"
     },
     {
-      "id": "92960d7651268147",
-      "title": "Disney stock falls 8% as media giant posts mixed results",
-      "link": "https://www.cnbc.com/2025/11/13/disney-dis-earnings-q4-2025.html",
-      "summary": "Disney reported fiscal fourth-quarter results before the bell Thursday, giving its final update on streaming subscriber metrics.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-13T15:32:29.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "f404f1b892b50aff",
       "title": "مدرب كوت ديفوار يكشف دور \"الجاسوس\" قبل مواجهة السعودية",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D9%83%D9%88%D8%AA-%D8%AF%D9%8A%D9%81%D9%88%D8%A7%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AC%D8%A7%D8%B3%D9%88%D8%B3-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/bltdef118950ce3b58a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1104,27 +1056,11 @@
       "region": "mena"
     },
     {
-      "id": "08eb06e945f893c8",
-      "title": "IRS announces 401(k) catch-up contributions for 2026, raises cap",
-      "link": "https://www.cnbc.com/2025/11/13/401-k-catch-up-contribution-limits-2026.html",
-      "summary": "The IRS has announced the 401(k) catch-up contribution limits for 2026. Here’s what investors need to know.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-13T15:02:50.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ea059a7fb9c04a16",
-      "title": "أبو الشامات: أتطلع أن أكون أفضل.. وهوساوي يحدد هدف السعودية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%A8%D9%88-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%94%D8%AA%D8%B7%D9%84%D8%B9-%D8%A7%D9%94%D9%86-%D8%A7%D9%94%D9%83%D9%88%D9%86-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%88%D9%87%D9%88%D8%B3%D8%A7%D9%88%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AF-%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/blte53324736ffdb683?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"text-align: right;\">تحدث صالح أبو الشامات، نجم أهلي جدة والمنتخب السعودي أمام وسائل الإعلام، مساء اليوم الخميس، ليحدد أهداف \"الأخضر\" خلال الفترة المقبلة.</p><p style=\"text-align: right;\">ويتواجد أبو الشامات مع المنتخب السعودي استعدادًا لمواجهة كوت ديفوار وديًا، غدًا الجمعة، قبل أن يلعب ضد…",
-      "body": "تحدث صالح أبو الشامات، نجم أهلي جدة والمنتخب السعودي أمام وسائل الإعلام، مساء اليوم الخميس، ليحدد أهداف \"الأخضر\" خلال الفترة المقبلة. ويتواجد أبو الشامات مع المنتخب السعودي استعدادًا لمواجهة كوت ديفوار وديًا، غدًا الجمعة، قبل أن يلعب ضد الجزائر، مساء الثلاثاء المقبل، في إطار برنامج الإعداد لبطولة كأس العرب 2025 بقطر. ماذا قال صالح أبو الشامات؟ قال صالح أبو الشامات، لاعب المنتخب السعودي، في تصريحاته لوسائل الإعلام إن الأجواء داخل معسكر الأخضر مميزة للغاية، مشيرًا إلى أن الروح الإيجابية تسود بين جميع اللاعبين والجهاز الفني، وهو ما ينعكس على الأداء داخل التدريبات اليومية. &nbsp;وأكد أن المنتخب سيخوض مباريات ودية قوية خلال هذه المرحلة، بمستوى يوازي حجم المنافسة التي تنتظره في بطولة كأس العالم المقبلة، الأمر الذي يمنح اللاعبين فرصة مثالية للاستعداد البدني والذهني بأفضل صورة ممكنة. وأضاف أبو الشامات أن امتلاكه مدربًا شخصيًا ليس أمرًا سلبيًا كما يعتقد البعض، بل هو جزء من الاحترافية في التعامل مع متطلبات التطور الفني والبدني. &nbsp;وأوضح أن الهدف من العمل الفردي هو معالجة النقاط التي يحتاج إلى تحسينها قبل ختام الموسم، مؤكدًا أن تركيزه الكامل منصبّ على تطوير نفسه والظهور بأفضل مستوى ممكن لتمثيل المنتخب الوطني بالصورة التي تليق باسم المملكة في المحافل العالمية. هوساوي يحدد أهداف السعودية من…",
+      "id": "c5543a2f233c7598",
+      "title": "أبو الشامات: اللجوء لمدرب شخصي ليس أمرًا سلبيًا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%A8%D9%88-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%AC%D9%88%D8%A1-%D9%84%D9%85%D8%AF%D8%B1%D8%A8-%D8%B4%D8%AE%D8%B5%D9%8A-%D9%84%D9%8A%D8%B3-%D8%A7%D9%94%D9%85%D8%B1%D9%8B%D8%A7-%D8%B3%D9%84%D8%A8%D9%8A%D9%8B%D8%A7/blte53324736ffdb683?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مراد هوساوي: جاهز لخدمة المنتخب السعودي في أي وقت",
+      "body": "تحدث صالح أبو الشامات، نجم أهلي جدة والمنتخب السعودي، أمام وسائل الإعلام، مساء اليوم الخميس، ليحدد أهداف \"الأخضر\" خلال الفترة المقبلة. ويتواجد أبو الشامات مع المنتخب السعودي، استعدادًا لمواجهة كوت ديفوار وديًا، غدًا الجمعة، قبل أن يلعب ضد الجزائر، مساء الثلاثاء المقبل، في إطار برنامج الإعداد لبطولة كأس العرب 2025 بقطر. ماذا قال صالح أبو الشامات؟ قال صالح أبو الشامات، لاعب المنتخب السعودي، في تصريحاته لوسائل الإعلام، إن الأجواء داخل معسكر الأخضر مميزة للغاية، مشيرًا إلى أن الروح الإيجابية تسود بين جميع اللاعبين والجهاز الفني، وهو ما ينعكس على الأداء داخل التدريبات اليومية. وأكد أن المنتخب سيخوض مباريات ودية قوية خلال هذه المرحلة، بمستوى يوازي حجم المنافسة التي تنتظره في بطولة كأس العالم المقبلة، الأمر الذي يمنح اللاعبين، فرصة مثالية للاستعداد البدني والذهني بأفضل صورة ممكنة. وأضاف أبو الشامات، أن لجوئي لمدرب شخصي، ليس أمرًا سلبيًا كما يعتقد البعض، بل هو جزء من الاحترافية في التعامل مع متطلبات التطور الفني والبدني. وأوضح أن الهدف من العمل الفردي، هو معالجة النقاط التي يحتاج إلى تحسينها قبل ختام الموسم، مؤكدًا أن تركيزه الكامل منصبّ على تطوير نفسه والظهور بأفضل مستوى ممكن لتمثيل المنتخب الوطني بالصورة التي تليق باسم المملكة في المحافل العالمية. هوساوي يحدد أهداف السعودية من جانبه، تح…",
       "image": null,
       "pubDate": "2025-11-13T14:59:54.000Z",
       "source": {
@@ -1540,7 +1476,7 @@
       "title": "كيميتش يغيب عن لقاء لوكسمبورج في تصفيات المونديال",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%8A%D9%85%D9%8A%D8%AA%D8%B4-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%B9%D9%86-%D9%84%D9%82%D8%A7%D8%A1-%D9%84%D9%88%D9%83%D8%B3%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt55cf6d34596b3ebf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "<p style=\"direction: rtl;\">تعرض المنتخب الألماني لضربة قبل مواجهة لوكسمبورج، غدًا الجمعة، ضمن لقاءات الجولة الخامسة من المجموعة الأولى في التصفيات الأوروبية المؤهلة إلى كأس العالم 2026، والذي سيقام في الولايات المتحدة والمكسيك وكندا.</p><p style=\"direction: rtl;\">وتعرض القائد جوشوا كيميتش لإصابة في…",
-      "body": "تعرض المنتخب الألماني لضربة قبل مواجهة لوكسمبورج، غدًا الجمعة، ضمن لقاءات الجولة الخامسة من المجموعة الأولى في التصفيات الأوروبية المؤهلة إلى كأس العالم 2026، والذي سيقام في الولايات المتحدة والمكسيك وكندا. وتعرض القائد جوشوا كيميتش لإصابة في الكاحل الأيمن خلال تدريب الأمس، وسيسافر مع الفريق إلى لوكسمبورج، لكنه لن يتمكن من اللعب في المباراة، وذلك بحسب الاتحاد الألماني لكرة القدم. وكتب كيميتش، رسالة عبر حسابه على موقع إنستجرام، قال من خلالها \"لسوء الحظ، هذا هو مكان عملي في الوقت الحالي (في إشارة إلى مركز العلاج)، سأبذل قصارى جهدي للعودة إلى الملعب يوم الإثنين\". تعويض كيميتش من المرجح أن يشغل ريدل باكو، مركز الظهير الجناح الأيمن، وكان المدرب جوليان ناجلسمان، قد أعاد اللاعب البالغ من العمر 27 عامًا من لايبزيج إلى صفوف المنتخب الألماني في أكتوبر/تشرين ثان الماضي، بعد فترة انقطاع طويلة كبديل احتياطي لكيميتش. من سيتولى شارة القيادة؟ لا يتواجد نائبا للقادة جوشوا كيميتش، أنطونيو روديجر وكاي هافيرتز، ضمن التشكيلة الحالية بعد تعرضهما لإصابات، ويبقى المرشحون المحتملون، هم ليون جوريتسكا وسيرجي جنابري وجوناثان تاه، في الوقت الذي يبقى فيه حارس المرمى أوليفر باومان، وهو أكبر لاعب في التشكيلة بسن 35 عامًا. ملاحظة إحصائية بعد جوشوا كيميتش (105 مباريات دولية)، يمتلك ليروي ساني (70 مباراة دولية) أكب…",
+      "body": "تعرض المنتخب الألماني لضربة قبل مواجهة لوكسمبورج، غدًا الجمعة، ضمن لقاءات الجولة الخامسة من المجموعة الأولى في التصفيات الأوروبية المؤهلة إلى كأس العالم 2026، والذي سيقام في الولايات المتحدة والمكسيك وكندا. وتعرض القائد جوشوا كيميتش لإصابة في الكاحل الأيمن خلال تدريب الأمس، وسيسافر مع الفريق إلى لوكسمبورج، لكنه لن يتمكن من اللعب في المباراة، وذلك بحسب الاتحاد الألماني لكرة القدم. وكتب كيميتش، رسالة عبر حسابه على موقع إنستجرام، قال من خلالها \"لسوء الحظ، هذا هو مكان عملي في الوقت الحالي (في إشارة إلى مركز العلاج)، سأبذل قصارى جهدي للعودة إلى الملعب يوم الإثنين\". تعويض كيميتش من المرجح أن يشغل ريدل باكو، مركز الظهير الجناح الأيمن، وكان المدرب جوليان ناجلسمان، قد أعاد اللاعب البالغ من العمر 27 عامًا من لايبزيج إلى صفوف المنتخب الألماني في أكتوبر/تشرين أول الماضي، بعد فترة انقطاع طويلة كبديل احتياطي لكيميتش. من سيتولى شارة القيادة؟ لا يتواجد نائبا للقادة جوشوا كيميتش، أنطونيو روديجر وكاي هافيرتز، ضمن التشكيلة الحالية بعد تعرضهما لإصابات، ويبقى المرشحون المحتملون، هم ليون جوريتسكا وسيرجي جنابري وجوناثان تاه، في الوقت الذي يبقى فيه حارس المرمى أوليفر باومان، وهو أكبر لاعب في التشكيلة بسن 35 عامًا. ملاحظة إحصائية بعد جوشوا كيميتش (105 مباريات دولية)، يمتلك ليروي ساني (70 مباراة دولية) أكب…",
       "image": null,
       "pubDate": "2025-11-13T13:27:25.000Z",
       "source": {
@@ -1918,22 +1854,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "39d0a05529a318d5",
-      "title": "سولسكاير يكشف أسباب فشله في التعامل مع سانشو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%88%D9%84%D8%B3%D9%83%D8%A7%D9%8A%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D8%A7%D9%94%D8%B3%D8%A8%D8%A7%D8%A8-%D9%81%D8%B4%D9%84%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%B3%D8%A7%D9%86%D8%B4%D9%88/blt02bc965209cfc7a4?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">منذ لحظة انتقال جادون سانشو إلى مانشستر يونايتد في صيف 2021، كان يُنظر إلى الصفقة على أنها خطوة كبيرة نحو إعادة النادي إلى أيامه الذهبية، لكن الواقع سار في اتجاه آخر تماما.&nbsp;</p><p style=\"direction: rtl;\">وبعد مرور أكثر من أربع سنوات على تلك الصفقة التي بلغت قيمتها 73…",
-      "body": "منذ لحظة انتقال جادون سانشو إلى مانشستر يونايتد في صيف 2021، كان يُنظر إلى الصفقة على أنها خطوة كبيرة نحو إعادة النادي إلى أيامه الذهبية، لكن الواقع سار في اتجاه آخر تماما.&nbsp; وبعد مرور أكثر من أربع سنوات على تلك الصفقة التي بلغت قيمتها 73 مليون جنيه إسترليني، خرج المدرب النرويجي أولي جونار سولسكاير عن صمته، ليكشف للمرة الأولى الأسباب التي جعلت علاقته مع الجناح الإنجليزي الشاب لا تنجح كما كان يأمل. سانشو كان أحد أكثر الأسماء التي أصر سولسكاير على التعاقد معها خلال فترته في أولد ترافورد. اللاعب، الذي تألق بقميص بوروسيا دورتموند بعد مغادرته مانشستر سيتي، جذب أنظار أوروبا بفضل مهاراته وسرعته وقدرته على صناعة الفارق في الثلث الهجومي. &nbsp;وعند إعلان الصفقة في يوليو/تموز 2021، قال سولسكاير إن سانشو \"يجسد أفضل تقاليد مانشستر يونايتد\". لكن ما حدث بعد ذلك لم يكن كما خطط له المدرب ولا اللاعب. فالتأقلم كان صعباً منذ البداية، ولم يتمكن سانشو من تكرار مستوياته في الدوري الألماني داخل أجواء الدوري الإنجليزي وضغوطه الهائلة. مشكلة صحية مفاجئة وكشف سولسكاير خلال حديثه في برنامج \"ذا أوفرلاب\"، أن سانشو لم يبدأ فترته في مانشستر بالشكل المطلوب بسبب مشكلة صحية مفاجئة.&nbsp; وقال: \"قبل انضمامه إلينا، سافر جادون في عطلة، وكما يحدث عادة، أصيب بعد ذلك بعدوى في الأذن أدخلته المستشفى. لقد عانى كثيراً في…",
-      "image": null,
-      "pubDate": "2025-11-13T12:09:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "1af33cd17c3e4990",
@@ -3085,38 +3005,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "943f60916869a0a8",
-      "title": "Valve's new Steam Machine is a SteamOS-powered mini PC over six times faster than a Steam Deck",
-      "link": "https://www.pcgamer.com/hardware/gaming-pcs/steam-machine-specs-availability/",
-      "summary": "\"We finally have all the software and the hardware bits to make the original vision a reality.\"",
-      "body": "Built by Valve, powered by SteamOS, the new Steam Machine is a compact gaming PC. One trying to make good on a promise Valve made a long time ago. With prototype Steam Machines heading out to reviewers back in 2013, us included , the company had grand plans of reinventing what constitutes a gaming PC around its new creation, a Linux-based operating system called SteamOS. Years on, and following a few failed partner launches that you can read all about in our retrospective of their demise , the project was more or less doomed. By 2018, Valve pulled the plug . Or did it? Valve never stopped working on SteamOS, plugging away until it landed on the successful formula launched inside the Steam Deck in 2022. Following this success, Valve feels ready to take a second punt at a system with more firepower. \"We finally have all the software and the hardware bits to make the original vision a reality,\" Yazan Aldehayyat, a Valve engineer working on the Steam Machine, says during my visit to Valve HQ. They mention it's the right time because users are already making Steam Machines happen, putting a recovery image of SteamOS onto a range of devices or using their Steam Deck while docked. \"Our c…",
-      "image": "https://cdn.mos.cms.futurecdn.net/Y9i6CYLktSwRFeQnFgVePR-1280-80.jpg",
-      "pubDate": "2025-11-12T18:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "815a22062521f271",
-      "title": "Valve announces three new products: the Steam Frame, Steam Machine and Steam Controller",
-      "link": "https://www.pcgamer.com/hardware/valve-announces-steam-machine-frame-controller/",
-      "summary": "Good things come in threes?",
-      "body": "Following on from the success of the Steam Deck, Valve is creating its very own ecosystem of products. The Steam Frame, Steam Machine, and Steam Controller are all set to launch in the new year. We've tried each of them and here's what you need to know about each one. \"From the Frame to the Controller to the Machine, we're a fairly small industrial design team here, and we really made sure it felt like a family of devices, even to the slightest detail,\" Clement Gallois, a designer at Valve, tells me during a recent visit to Valve HQ. \"How it feels, the buttons, how they react… everything belongs and works together kind of seamlessly.\" For more detail, make sure to check out our in-depth stories linked below: Steam Frame : Valve's new wireless VR headset Steam Machine : Compact living room gaming box Steam Controller : A controller to replace your mouse Steam Frame: Valve's new VR headset Image 1 of 4 (Image credit: Future) Image 2 of 4 (Image credit: Future) Image 3 of 4 (Image credit: Future) Image 4 of 4 (Image credit: Future) Key specs Optics: Pancake Resolution: 2160 x 2160 Tracking: Inside-out FOV: Up to 110 degrees SoC: Qualcomm Snapdragon 8 Gen 3 (SM8650) RAM: 16 GB Storage…",
-      "image": "https://cdn.mos.cms.futurecdn.net/aM2jwzZ9PRZBWPfs7XUXgX-1280-80.jpg",
-      "pubDate": "2025-11-12T18:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
