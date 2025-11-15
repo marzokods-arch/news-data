@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2025-11-15T08:20:11.575Z",
-    "total": 198,
+    "generated_at": "2025-11-15T08:40:04.729Z",
+    "total": 208,
     "processed_feeds": 17,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 63,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "ESPN",
         "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/d0caa29a-aecf-4854-b523-3eadd070d00d",
@@ -32,6 +19,32 @@
         ],
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 64,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 9,
+        "error": null,
         "notModified": false
       },
       {
@@ -70,20 +83,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: Attribute without value\nLine: 114\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -100,6 +100,19 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -110,45 +123,6 @@
         ],
         "taken": 45,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -165,16 +139,29 @@
         "notModified": false
       },
       {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
-        "lang": "en",
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -204,16 +191,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 500",
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
         "notModified": false
       },
       {
@@ -232,6 +232,38 @@
     ]
   },
   "items": [
+    {
+      "id": "9fdeb3af91f19ff3",
+      "title": "Jemimah Rodrigues, Shafali Verma to Celebrate Cricket World Cup Win on Prime Video’s ‘Two Much With Kajol and Twinkle’ (EXCLUSIVE)",
+      "link": "https://variety.com/2025/tv/news/jemimah-rodrigues-world-cup-win-two-much-with-kajol-and-twinkle-1236582621/",
+      "summary": "Prime Video is marking the Indian women’s cricket team World Cup triumph with a special episode of its unscripted series “Two Much with Kajol and Twinkle,” featuring championship-winning players Jemimah Rodrigues and Shafali Verma. Hosted by Bollywood actor Kajol and author Twinkle Khanna, the inst…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/Two-Much-with-Kajol-and-Twinkle.jpg",
+      "pubDate": "2025-11-15T08:27:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "461f2b3ef8ab35f5",
+      "title": "Why has Sweden's World Cup bid gone wrong and can Potter save them?",
+      "link": "https://www.bbc.com/sport/football/articles/ckgk4x4gnmyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Graham Potter was appointed Sweden manager in October after spells at West Ham and Chelsea. Is he the perfect fit?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-15T08:23:48.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "1f29bae684440ac9",
       "title": "Will Scotland's luck hold for biggest test of World Cup dream?",
@@ -409,6 +441,22 @@
       "region": "global"
     },
     {
+      "id": "8a8b0ac9bc439c18",
+      "title": "فليك يتحرّك.. خطة جديدة لإعادة الانضباط الدفاعي إلى برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%AA%D8%AD%D8%B1%D9%91%D9%83-%D8%AE%D8%B7%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%A7%D9%95%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B6%D8%A8%D8%A7%D8%B7-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9%D9%8A-%D8%A7%D9%95%D9%84%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt5d84ab7fb6d223c6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فليك يتحرّك.. خطة جديدة لإعادة الانضباط الدفاعي إلى برشلونة",
+      "body": "بدأ هانز فليك اتخاذ خطوات عملية لاستعادة الانضباط الدفاعي لفريق برشلونة، بعد سلسلة من المباريات التي أظهرت هشاشة واضحة في الخط الخلفي. المدرب الألماني يدرك أن الفريق يواجه واحدة من أبرز مشكلاته هذا الموسم، ولذلك بدأ تنفيذ خطة شاملة تعتمد على الضغط، وضبط التمركز، وزيادة الوعي الدفاعي، مع الحفاظ على فلسفة النادي المعتادة. وبحسب ما جاء في تقرير صحيفة \" موندو ديبورتيفو \" الإسبانية، يكثّف الجهاز الفني بقيادة فليك العمل على إصلاح الأخطاء التي ظهرت في الفترة الماضية، خصوصاً فيما يتعلق بتنفيذ مصيدة التسلل والضغط على حامل الكرة. بعد التعادل في بروج، وهي إحدى المباريات التي بدا فيها الدفاع في أكثر حالاته ضعفاً، أكد فليك قائلاً: “لن نغيّر فلسفتنا، نحن برشلونة”. المدرب أوضح أنه سيواصل العمل بأسلوبه، سواء قاد الفريق للفوز أو تلقى الهزيمة. ومع ذلك، يعاني برشلونة هذا الموسم من تراجع فعالية مصيدة التسلل، وهو ما يسعى فليك إلى تعديله. الجدول المزدحم لمباريات برشلونة يحد من الوقت المخصص للعمل التكتيكي. ولهذا شدد فليك كثيراً على الجوانب الدفاعية خلال الحصص الأولى له كمدرب للفريق في صيف 2024. ومع استمرار الموسم، تزداد صعوبة إيجاد فترات تدريبية مكثفة، خاصة بعد المباريات حين يكتفي اللاعبون الأساسيون بجلسات خفيفة، بينما يعمل البدلاء على موازنة الحمل البدني في مباريات مصغرة. ولتطوير الأداء الدفاعي، يعتمد …",
+      "image": "https://assets.kooora.com/images/v3/kooora_1408968_1/2025-05-11-12091782_epa.jpg",
+      "pubDate": "2025-11-15T06:24:55.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "b87beeb2f1794fad",
       "title": "المنتخب المغربي يكسر الأرقام.. ويصدر الشك لأنصاره",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%8A%D9%83%D8%B3%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85-%D9%88%D9%8A%D8%B5%D8%AF%D8%B1-%D8%A7%D9%84%D8%B4%D9%83-%D9%84%D8%A7%D9%94%D9%86%D8%B5%D8%A7%D8%B1%D9%87/blt92d45324880308a7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -423,6 +471,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "6fe883b368290f31",
+      "title": "BravoCon Shocker: ‘Real Housewives of Orange County’ Star Vicki Gunvalson Offered Full-Time Season 20 Role Live on Stage, Bringing Back the ‘OG of the OC’",
+      "link": "https://variety.com/2025/tv/news/vicki-gunvalson-returning-rhoc-season-20-andy-cohen-1236575953/",
+      "summary": "Live on stage at BravoCon in Las Vegas Friday night, “Real Housewives” executive producer Andy Cohen offered Vicki Gunvalson her old job back for the upcoming 20th season of “The Real Housewives of Orange County.” During a taping of “The Bravos” — BravoCon’s biennial awards show, which will air on …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/VickiGunvalson-AndyCohen-placeholder.jpg",
+      "pubDate": "2025-11-15T06:08:28.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "6da3d31cd959b510",
@@ -553,6 +617,38 @@
       "region": "global"
     },
     {
+      "id": "68a7f95c40cc3317",
+      "title": "YouTube TV and Disney Reach Deal Ending Two-Week Blackout of ESPN, ABC",
+      "link": "https://variety.com/2025/tv/news/youtube-tv-disney-blackout-deal-renewal-espn-abc-1236567658/",
+      "summary": "ESPN, ABC and other Disney TV networks are coming back to YouTube TV. Google and Disney finally ended their standoff, announcing a multiyear agreement Friday on pricing and terms for a renewed carriage deal for YouTube TV. Disney’s nets went dark on the internet TV service just before midnight ET o…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/Dancing-With-the-Stars.jpg",
+      "pubDate": "2025-11-15T00:40:45.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c1f996f50f708eec",
+      "title": "Walmart Drops Price of Walmart+ Membership to $49 Ahead of Competitive Black Friday",
+      "link": "https://variety.com/2025/shopping/news/best-walmart-plus-deals-streaming-offers-1236040212/",
+      "summary": "Walmart is offering up some new deals, discounts and special offers, as the retailer attempts to get a jump on online shoppers ahead of Black Friday. The latest Walmart deal discounts the price of an annual Walmart+ membership to just $49 — a 50% savings. The limited-time offer runs until December …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2024/06/GettyImages-2152961478.jpg",
+      "pubDate": "2025-11-15T00:38:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "e80103de9820d419",
       "title": "Honor 500 Pro's cameras detailed",
       "link": "https://www.gsmarena.com/honor_500_pros_cameras_detailed-news-70309.php",
@@ -563,6 +659,54 @@
       "source": {
         "name": "GSMArena",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e3e336689a68cbc9",
+      "title": "‘Keeper’ Ending Explained: What’s Up With Those Monsters in the Creepy Cabin in Osgood Perkins’ Latest Horror?",
+      "link": "https://variety.com/2025/film/news/keeper-ending-explained-horror-movie-osgood-perkins-1236581539/",
+      "summary": "SPOILER ALERT: This article contains major spoilers for Osgood Perkins’ “Keeper,” now playing in theaters. Director Osgood Perkins has given us not one, but two twisted horror movies this year that are vastly different but equally chilling: “The Monkey,” a gory Stephen King adaptation that dropped …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/MCDKEEP_EC047.jpg",
+      "pubDate": "2025-11-15T00:30:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "4ddcff4253b8a6a0",
+      "title": "Stephen Wilson Jr., Best New Artist Nominee for CMA Awards, on Why His Maverick ‘Death Cab for Country’ Approach Found a Home at Big Loud Records",
+      "link": "https://variety.com/2025/music/news/stephen-wilson-jr-big-loud-records-country-interview-1236582486/",
+      "summary": "Among this year’s CMA Awards nominees, there are a few slightly outside-the-box contenders that may leave the casual listener and maybe even a genre aficionado wondering: “Wait, are they an outlier, or are they really an in-lier?” That isn’t truer of anybody than Stephen Wilson Jr., a best new arti…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/SWJ_credit-acacia-evans-1-e1763160982557.jpg",
+      "pubDate": "2025-11-15T00:04:51.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d4e4abbe7a8d024e",
+      "title": "From Cardboard Boxes to AI: Stunt Legends Share Stories, Wisdom at Round Top Film Festival",
+      "link": "https://variety.com/2025/film/festivals/cardboard-boxes-ai-stunt-legends-round-top-film-festival-1236582410/",
+      "summary": "Airbags are fine. But when it comes to high falls, sometimes all you need to land safely is a stack of cardboard boxes. That was one of the takeaways from the Round Top Film Festival’s “From the Jump: Film and TV Stunt Designers in Conversation” panel in Round Top, Texas on Nov. 9, which featured […",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/fall-guy.jpg",
+      "pubDate": "2025-11-15T00:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -601,6 +745,38 @@
       "region": "global"
     },
     {
+      "id": "7be1d7242c841258",
+      "title": "Referee needed to 'be stronger' - O'Neill",
+      "link": "https://www.bbc.com/sport/football/articles/c2059n74j2xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Northern Ireland manager Michael O'Neill says the yellow card he was shown at the end of his side's 1-0 defeat by Slovakia was for telling the referee to \"be stronger\".",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-14T23:45:49.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d779ed138619925f",
+      "title": "Chloé Zhao on Channeling Feminine Power in ‘Hamnet,’ Four-Year Break After ‘Eternals’ and ‘Buffy the Vampire Slayer’ Sequel With ‘OG Characters’",
+      "link": "https://variety.com/2025/film/news/chloe-zhao-hamnet-eternals-buffy-og-characters-1236580231/",
+      "summary": "Chloé Zhao emerges from her cave — her words, not mine — with “Hamnet.” It’s a film that feels less like a period drama and more like a spiritual excavation. The co-writer and director, who spent a decade traversing America for her first three features before winning an Oscar for “Nomadland” (2020)…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/P10257FA-e1763001234406.jpg",
+      "pubDate": "2025-11-14T23:37:21.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "6956302d4fabddb5",
       "title": "Liverpool want Olise to replace Salah - Saturday's gossip",
       "link": "https://www.bbc.com/sport/football/articles/clyzk7p416zo?at_medium=RSS&at_campaign=rss",
@@ -614,6 +790,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "60f91af24ca007fe",
+      "title": "‘Demon Slayer: Infinity Castle’: Crunchyroll Bosses Want Oscar Voters to Consider the ‘Beautiful Art Form’ of Anime",
+      "link": "https://variety.com/2025/film/news/demon-slayer-infinity-castle-oscars-1236581665/",
+      "summary": "Is this the year anime dominates the animated feature race at the Oscars? Crunchyroll’s “Demon Slayer: Infinity Castle” shattered records when it became the highest-grossing Japanese film of all time, earning $682 million worldwide. The film won fans over, but now Crunchyroll bosses have the Oscars…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/07/Demon-Slayer-poster.jpg",
+      "pubDate": "2025-11-14T23:11:23.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1335,22 +1527,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "991695f4f84489d8",
-      "title": "حسام حسن يبرر الهزيمة أمام أوزبكستان",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D9%8A%D8%A8%D8%B1%D8%B1-%D8%A7%D9%84%D9%87%D8%B2%D9%8A%D9%85%D8%A9-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%94%D9%88%D8%B2%D8%A8%D9%83%D8%B3%D8%AA%D8%A7%D9%86/blt20ba488a4d856118?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "حسام حسن بعد الهزيمة أمام أوزبكستان: تأثرنا بالغيابات.. واستفدنا الكثير‎",
-      "body": "أعرب حسام حسن، المدير الفني لمنتخب مصر، عن حزنه للخسارة التي تلقاها الفراعنة أمام منتخب أوزبكستان بنتيجة 0-2، مساء اليوم الجمعة، في نصف نهائي بطولة كأس العين الدولية المقامة في الإمارات، مؤكدًا أن الهدف الأساسي من المباريات الودية هو تقييم الوضع الفني واكتشاف الأخطاء لمعالجتها قبل خوض غمار كأس الأمم الأفريقية المقبلة في المغرب. وقال حسام حسن، في المؤتمر الصحفي عقب المباراة، إن منتخب مصر خاض اللقاء في ظل ظروف صعبة للغاية نتيجة غياب عدد كبير من العناصر الأساسية. وأوضح العميد: \"القائمة افتقدت 10 لاعبين من قوامها الرئيسي، من بينهم محمد الشناوي، ومحمد عبد المنعم، ومحمود حسن تريزيجيه، وإبراهيم عادل، وعمر مرموش، وحمدي فتحي، وإمام عاشور، ومهند لاشين.. معظم هؤلاء اللاعبين يمثلون ركائز أساسية في تشكيل المنتخب\". وأضاف: \"هذه الغيابات أثرت بشكل واضح على الانسجام والأداء داخل الملعب، خصوصًا في المراحل الأولى من المباراة\". وأشار المدير الفني لمنتخب مصر: \"رغم الظروف الفنية الصعبة والغيابات الاضطرارية، فإن المنتخب لعب من أجل الفوز كما يفعل دائمًا، وأرى أن الشوط الثاني شهد تحسنًا كبيرًا في أداء اللاعبين، وظهورًا حقيقيًا لمستوى المنتخب وقدرته على صناعة الفرص، إلا أن سوء الحظ في إنهاء الهجمات حال دون تسجيل الأهداف وتقليص الفارق\". ولفت حسام حسن: \"لقد دفعنا بعدد من اللاعبين الجدد بهدف منحهم الفرصة لاكت…",
-      "image": null,
-      "pubDate": "2025-11-14T17:31:52.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "bd2606518dad9419",
@@ -2185,22 +2361,6 @@
       "region": "global"
     },
     {
-      "id": "3d0dd0dbf6be501d",
-      "title": "AMD's FSR Redstone officially debuts in Call of Duty: Black Ops 7 — AMD's answer to Nvidia's Ray Reconstruction",
-      "link": "https://www.tomshardware.com/video-games/pc-gaming/call-of-duty-black-ops-7-first-ever-title-to-feature-amd-fsr-ray-regeneration-for-rx-9000-gpus-machine-learning-based-real-time-denoiser-promises-sharper-detail-and-fewer-ray-tracing-artifacts",
-      "summary": "FSR Redstone is here and Call of Duty's getting it first. In Black Ops 7, there's a \"Ray Regeneration\" option that allows users to clean up ray tracing data before it's fed into the upscaler, resulting in higher-quality ray-traced lighting, shadows and reflections. It only works with RX 9000 series…",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/5KmpCK2xULZpqLtWMGAYBk-1280-80.jpg",
-      "pubDate": "2025-11-14T11:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1f5ea407e3ba9b06",
       "title": "xTool P3 review: Massive flagship laser engraver claims to offer '2x the workspace, speed, and efficiency' of its predecessor",
       "link": "https://www.tomshardware.com/maker-stem/xtool-p3-review",
@@ -2214,6 +2374,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3d0dd0dbf6be501d",
+      "title": "AMD's FSR Redstone officially debuts in Call of Duty: Black Ops 7 — AMD's answer to Nvidia's Ray Reconstruction",
+      "link": "https://www.tomshardware.com/video-games/pc-gaming/call-of-duty-black-ops-7-first-ever-title-to-feature-amd-fsr-ray-regeneration-for-rx-9000-gpus-machine-learning-based-real-time-denoiser-promises-sharper-detail-and-fewer-ray-tracing-artifacts",
+      "summary": "FSR Redstone is here and Call of Duty's getting it first. In Black Ops 7, there's a \"Ray Regeneration\" option that allows users to clean up ray tracing data before it's fed into the upscaler, resulting in higher-quality ray-traced lighting, shadows and reflections. It only works with RX 9000 series…",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/5KmpCK2xULZpqLtWMGAYBk-1280-80.jpg",
+      "pubDate": "2025-11-14T11:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2480,22 +2656,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-11-14T07:42:15.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "31fe1437adf82605",
-      "title": "I think about diabetes 'every five minutes' - Slade",
-      "link": "https://www.bbc.com/sport/articles/cj41kzvwjk4o?at_medium=RSS&at_campaign=rss",
-      "summary": "England international Henry Slade tells BBC Sport how he manages his type 1 diabetes as a top rugby player.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-14T07:19:15.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
