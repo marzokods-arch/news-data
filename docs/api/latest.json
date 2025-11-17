@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-11-17T21:09:02.047Z",
+    "generated_at": "2025-11-17T21:28:30.522Z",
     "total": 349,
     "processed_feeds": 23,
     "discovered_feeds": 83,
@@ -8,32 +8,6 @@
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 71,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
       {
         "name": "BBC Culture",
         "url": "https://www.bbc.com/culture/feed.rss",
@@ -45,6 +19,19 @@
         ],
         "taken": 8,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -61,16 +48,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "taken": 71,
+        "error": null,
         "notModified": false
       },
       {
@@ -84,19 +71,6 @@
         ],
         "taken": 48,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -126,29 +100,29 @@
         "notModified": false
       },
       {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "lang": "en",
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -165,16 +139,42 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 46,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -217,16 +217,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "lang": "ar",
-        "region": "mena",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -243,9 +243,9 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -256,9 +256,9 @@
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -311,6 +311,22 @@
   },
   "items": [
     {
+      "id": "8fe0adde895152fe",
+      "title": "WSL referee 'lost role' after complaint to PGMOL",
+      "link": "https://www.bbc.com/sport/football/articles/c4gjnq381d3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Women's Super League referee Lisa Benn tells an employment tribunal she lost her role as an international official after complaining about a referee coach \"manhandling\" her.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-17T21:07:11.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "b60e1b94ee8eceaa",
       "title": "Tuchel to contact every overlooked England player",
       "link": "https://www.bbc.com/sport/football/articles/crregl8xk9eo?at_medium=RSS&at_campaign=rss",
@@ -343,8 +359,8 @@
       "region": "global"
     },
     {
-      "id": "49cc63a4d58937c1",
-      "title": "'I couldn't sleep imagining it over and over'",
+      "id": "be64d5eee60cb9da",
+      "title": "'First time I cried in years,' says Ireland hero Parrott",
       "link": "https://www.bbc.com/sport/football/articles/c8x10lrp8kgo?at_medium=RSS&at_campaign=rss",
       "summary": "Republic of Ireland striker Troy Parrott tells BBC Sport's Sami Mokbel about his stellar goalscoring week and \"tears of joy\".",
       "body": null,
@@ -517,6 +533,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "9b518aea4c505373",
+      "title": "\"موتوا بغيظكم وهل تجهلون تاريخي؟\".. حسام حسن ينفجر بعد مباراة كاب فيردي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D8%AA%D9%88%D8%A7-%D8%A8%D8%BA%D9%8A%D8%B8%D9%83%D9%85-%D9%88%D9%87%D9%84-%D8%AA%D8%AC%D9%87%D9%84%D9%88%D9%86-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D9%8A%D9%86%D9%81%D8%AC%D8%B1-%D8%A8%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%83%D8%A7%D8%A8-%D9%81%D9%8A%D8%B1%D8%AF%D9%8A/blt3073f51920d6707e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"direction: rtl;\">أطلق حسام حسن، المدير الفني لمنتخب مصر، تصريحات نارية بعد الفوز على كاب فيردي بنتيجة 2-0 بركلات الترجيح، عقب التعادل بهدف لكل منهما، في مباراة المركز الثالث ببطولة كأس \"العين\" الدولية بالإمارات.</p><p style=\"direction: rtl;\">وتقدم منتخب كاب فيردي بهدف سجله جاري رودريجيز ف…",
+      "body": "أطلق حسام حسن، المدير الفني لمنتخب مصر، تصريحات نارية بعد الفوز على كاب فيردي بنتيجة 2-0 بركلات الترجيح، عقب التعادل بهدف لكل منهما، في مباراة المركز الثالث ببطولة كأس \"العين\" الدولية بالإمارات. وتقدم منتخب كاب فيردي بهدف سجله جاري رودريجيز في الدقيقة 7 من ضربة جزاء ولكن منتخب مصر تعادل بهدف سجله عمر مرموش في الدقيقة 56. وقال حسام حسن في المؤتمر الصحفي عقب لقاء كاب فيردي بالإمارات: \"تأثرنا بالإجهاد الذي ضرب معظم اللاعبين، ولم تكن أمامنا فرصة كافية للاستشفاء\". وانتقد مدرب الفراعنة إقامة بطولة كأس السوبر المصري قبل معسكر المنتخب في شهر نوفمبر/ تشرين الثني الجاري، موضحاً أنه كان لا بد من تأجيلها لمصلحة الفراعنة، خاصة أن هناك مهمة قومية للإعداد لبطولة كأس الأمم الأفريقية في الشهر المقبل، والتحضير لبطولة كأس العالم. وأضاف: \"لم أستطع فعل شيء على الجانب البدني، حاولت منح الفرصة لجميع اللاعبين وتجنب إجهادهم ولا أستطيع رفع الأحمال البدنية لأن الإصابات كانت سترتفع\". وتألق الحارس البديل مصطفى شوبير في ركلات الترجيح وتصدى لركلتين كما أهدر لاعبو كاب فيردي ركلتين أخرتين ليخرج اللقاء بفوز الفراعنة بنتيجة 2-0. وكان منتخب مصر قد خسر مباراة نصف النهائي ضد أوزبكستان بهدفين دون رد وهي أول هزيمة تحت قيادة المدرب حسام حسن منذ شهر مارس/ آذار 2024 أمام كرواتيا (2-4). رد قاسي ضد الانتقادات وواجه حسام حسن …",
+      "image": null,
+      "pubDate": "2025-11-17T19:09:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "a0799228e199534b",
@@ -1527,22 +1559,6 @@
       "region": "global"
     },
     {
-      "id": "ee228d678d6f536a",
-      "title": "هالاند: لا يمكن التنبؤ بأسلوبنا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D8%A7%D9%84%D8%A7%D9%86%D8%AF-%D9%84%D8%A7-%D9%8A%D9%85%D9%83%D9%86-%D8%A7%D9%84%D8%AA%D9%86%D8%A8%D9%88%D9%94-%D8%A8%D8%A7%D9%94%D8%B3%D9%84%D9%88%D8%A8%D9%86%D8%A7/blt296b301b97be86a3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>أكد إيرلينج هالاند، مهاجم منتخب النرويج ومانشستر سيتي، أن التأهل لكأس العالم كان الهدف الرئيسي لبلاده، وقد تحقق بعد الفوز العريض على منتخب إيطاليا، في ختام مشوار التصفيات المؤهلة لكأس العالم 2026.</p><p>وسجل هالاند هدفين في فوز النرويج 4-1 على إيطاليا، بميلانو، أمس الأحد، رافعًا رصيده التهديفي ف…",
-      "body": "أكد إيرلينج هالاند، مهاجم منتخب النرويج ومانشستر سيتي، أن التأهل لكأس العالم كان الهدف الرئيسي لبلاده، وقد تحقق بعد الفوز العريض على منتخب إيطاليا، في ختام مشوار التصفيات المؤهلة لكأس العالم 2026. وسجل هالاند هدفين في فوز النرويج 4-1 على إيطاليا، بميلانو، أمس الأحد، رافعًا رصيده التهديفي في تصفيات كأس العالم 2026 إلى 16 هدفًا، أي ضعف أي لاعب آخر في أوروبا. وقال هالاند، في تصريحات نقلتها شبكة \"TNT\" التليفزيونية: \"الأمر يتعلق بالدخول في مناطق أستطيع تسجيل أغلب الأهداف فيها، كان الأمر جنونيًا تمامًا، أنا فخور، وهذا أمر رائع حقًا\". وأضاف: \"قدرتنا على الحضور إلى هنا والفوز بنتيجة 4-1، تُظهر أننا لا يمكن التنبؤ بأسلوبنا\". وصرح هالاند للصحفيين مؤخرًا، أن تأهل النرويج لكأس العالم هو \"الهدف الرئيسي\" في مسيرته، مضيفًا أن ضمان تأهلهم لكأس العالم 2026 في الولايات المتحدة والمكسيك وكندا، ليس مجرد إنجاز شخصي له، بل هو شهادة على تطور النرويج. وتابع: \"لقد كسرنا القواعد وأصبحنا لاعبين أفضل على المستوى الفردي، حقق لاعبون إنجازات حقيقية، مثل أنطونيو نوسا وأوسكار بوب\". وختم: \"من المهم أن تسعد قلوبنا، فنحن شعب صغير، أشعر أن هذه بداية لشيء عظيم، من المهم أن نستمتع باللحظة\". ويحتل هالاند صدارة قائمة هدافين تصفيات أوروبا المؤهلة لكأس العالم بـ16 هدفًا، متفوقًا على هاري كين قائد منتخب إنجلترا، وممفيس ديبا…",
-      "image": null,
-      "pubDate": "2025-11-17T13:45:08.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "643356f7a44427cf",
       "title": "مقاييس الأمطار المسجلة بالمملكة خلال الـ 24 ساعة الماضية",
       "link": "https://assabah.ma/883309.html",
@@ -1902,22 +1918,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-11-17T07:40:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "72cd57eebde5d3ca",
-      "title": "How hard is it for Channel Island players to become professionals?",
-      "link": "https://www.bbc.com/sport/football/articles/ckg1w78r166o?at_medium=RSS&at_campaign=rss",
-      "summary": "Following Alex Scott's recent England call-up, BBC Sport examines how hard it is for Channel Island footballers to become professionals.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-17T06:28:53.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
