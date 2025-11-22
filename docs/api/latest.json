@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-11-22T04:39:01.707Z",
+    "generated_at": "2025-11-22T04:48:46.364Z",
     "total": 345,
     "processed_feeds": 24,
     "discovered_feeds": 84,
@@ -8,32 +8,6 @@
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/7d819cf3-4ba9-455d-97d6-75d871cad793",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "Youm7 — منوعات",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
@@ -48,16 +22,29 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "egypt",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/7d819cf3-4ba9-455d-97d6-75d871cad793",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: Attribute without value\nLine: 32\nColumn: 83\nChar: /",
         "notModified": false
       },
       {
@@ -87,6 +74,19 @@
         "notModified": false
       },
       {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 65,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Delish",
         "url": "https://www.delish.com/rss/all.xml/",
         "homepage": "https://www.delish.com/rss/all.xml/",
@@ -96,6 +96,32 @@
           "general"
         ],
         "taken": 50,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
         "error": null,
         "notModified": false
       },
@@ -113,58 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 45,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Al Arabiya — تكنولوجيا",
         "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
@@ -175,6 +149,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -191,6 +178,19 @@
         "notModified": false
       },
       {
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 46,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Khaleej Times - Lifestyle",
         "url": "https://www.khaleejtimes.com/rss/lifestyle",
         "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
@@ -204,35 +204,22 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
         "name": "Gulf News — Lifestyle",
         "url": "https://gulfnews.com/lifestyle/rss",
         "homepage": "https://gulfnews.com/lifestyle/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -256,23 +243,36 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -295,16 +295,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
         "lang": "ar",
-        "region": "mena",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -3380,22 +3380,6 @@
       "region": "global"
     },
     {
-      "id": "975c6d77f8ee54ec",
-      "title": "ModRetro Chromatic Review: Chic and Durable",
-      "link": "https://www.wired.com/review/modretro-chromatic/",
-      "summary": "This Game Boy clone is an uncompromising approach to the ultimate gamer nostalgia. But there are better options out there.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-20T13:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c9cfe1146ff84311",
       "title": "10 Best Early Black Friday Deals at Best Buy (2025)",
       "link": "https://www.wired.com/story/early-black-friday-best-buy-deals/",
@@ -3409,6 +3393,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "975c6d77f8ee54ec",
+      "title": "ModRetro Chromatic Review: Chic and Durable",
+      "link": "https://www.wired.com/review/modretro-chromatic/",
+      "summary": "This Game Boy clone is an uncompromising approach to the ultimate gamer nostalgia. But there are better options out there.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-20T13:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
