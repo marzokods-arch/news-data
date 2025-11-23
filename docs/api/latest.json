@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-11-23T06:29:58.038Z",
+    "generated_at": "2025-11-23T06:49:54.097Z",
     "total": 203,
     "processed_feeds": 20,
     "discovered_feeds": 83,
@@ -8,6 +8,19 @@
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 74,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -22,6 +35,19 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -32,19 +58,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 74,
-        "error": null,
         "notModified": false
       },
       {
@@ -100,19 +113,6 @@
         "notModified": false
       },
       {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -152,6 +152,32 @@
         "notModified": false
       },
       {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
@@ -178,29 +204,16 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -220,19 +233,6 @@
         "name": "The Information - Tech",
         "url": "https://www.theinformation.com/rss",
         "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -294,7 +294,7 @@
       "summary": "",
       "body": null,
       "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAM02S_L.jpg",
-      "pubDate": "2025-11-23T06:12:26.000Z",
+      "pubDate": "2025-11-23T06:24:25.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -1328,22 +1328,6 @@
       "region": "global"
     },
     {
-      "id": "4e247aa316f385da",
-      "title": "GTA 5's character-swapping system was a stroke of genius that was supposed to feature in San Andreas 9 years earlier—this masterclass mod makes that dream a reality",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-character-swapping-system-was-a-stroke-of-genius-that-was-supposed-to-feature-in-san-andreas-9-years-earlier-this-masterclass-mod-makes-that-dream-a-reality/",
-      "summary": "Real Multiple Protagonists recreates a long-forgotten source code quirk from a game now 21 years old.",
-      "body": "As I flitted between Peter Parker and Miles Morales boroughs-apart in Spider-Man 2's New York City, I thought: why haven't more games copied the character-swapping system from GTA 5? Marvel's Spider-Man 2 first swung onto PS5 consoles towards the end of 2023, and breached the shores of Steam at the beginning of this year. Grand Theft Auto 5, on the other hand, followed the same two-year console-to-desktop pilgrimage a full decade earlier. (Image credit: Rockstar) That first time switching between Michael or Franklin or Trevor was a wonderful feeling, as the camera moved skyward, birds-eye-view and in slow-motion, before darting in a different direction across the map and landing back at ground level; you now in control of someone else altogether. Off the top of my head, I can't think of a game that comes close to the same feeling and masterful execution of the mechanic besides Insomniac's Spidey sequel. Back in 2013, it was a watershed moment for the Grand Theft Auto series as a whole. Not only was it cool, it was the first time we were able to guide different playable protagonists through missions and swap paths on the fly—something that lent itself well to GTA 5's often open-end…",
-      "image": "https://cdn.mos.cms.futurecdn.net/HZJShvzuZJp2fqtWj6QNef-1280-80.jpg",
-      "pubDate": "2025-11-22T19:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "5b1b28d6c9100d82",
       "title": "جدول مباريات اليوم الأحد 23 نوفمبر 2025 .. القنوات الناقلة والمعلقين",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%AD%D8%AF-23-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2025-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/bltd4187f57b0db50e8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1358,6 +1342,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "4e247aa316f385da",
+      "title": "GTA 5's character-swapping system was a stroke of genius that was supposed to feature in San Andreas 9 years earlier—this masterclass mod makes that dream a reality",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-character-swapping-system-was-a-stroke-of-genius-that-was-supposed-to-feature-in-san-andreas-9-years-earlier-this-masterclass-mod-makes-that-dream-a-reality/",
+      "summary": "Real Multiple Protagonists recreates a long-forgotten source code quirk from a game now 21 years old.",
+      "body": "As I flitted between Peter Parker and Miles Morales boroughs-apart in Spider-Man 2's New York City, I thought: why haven't more games copied the character-swapping system from GTA 5? Marvel's Spider-Man 2 first swung onto PS5 consoles towards the end of 2023, and breached the shores of Steam at the beginning of this year. Grand Theft Auto 5, on the other hand, followed the same two-year console-to-desktop pilgrimage a full decade earlier. (Image credit: Rockstar) That first time switching between Michael or Franklin or Trevor was a wonderful feeling, as the camera moved skyward, birds-eye-view and in slow-motion, before darting in a different direction across the map and landing back at ground level; you now in control of someone else altogether. Off the top of my head, I can't think of a game that comes close to the same feeling and masterful execution of the mechanic besides Insomniac's Spidey sequel. Back in 2013, it was a watershed moment for the Grand Theft Auto series as a whole. Not only was it cool, it was the first time we were able to guide different playable protagonists through missions and swap paths on the fly—something that lent itself well to GTA 5's often open-end…",
+      "image": "https://cdn.mos.cms.futurecdn.net/HZJShvzuZJp2fqtWj6QNef-1280-80.jpg",
+      "pubDate": "2025-11-22T19:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "b9112bf63cafb2f6",
