@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-11-25T19:29:03.289Z",
-    "total": 198,
+    "generated_at": "2025-11-25T19:39:23.465Z",
+    "total": 192,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 68,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -18,6 +31,32 @@
           "general"
         ],
         "taken": 0,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -35,15 +74,15 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 68,
+        "taken": 44,
         "error": null,
         "notModified": false
       },
@@ -61,19 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 6,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "National Geographic — Science",
         "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
@@ -87,16 +113,16 @@
         "notModified": false
       },
       {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 44,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -126,19 +152,6 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Financial Times — Markets",
         "url": "https://www.ft.com/markets?format=rss",
         "homepage": "https://www.ft.com/markets?format=rss",
@@ -149,19 +162,6 @@
         ],
         "taken": 22,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -191,16 +191,42 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -230,19 +256,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Kooora - الدوريات العربية",
         "url": "https://www.kooora.com/?region=o&module=content&rss=1",
         "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
@@ -254,117 +267,24 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "b9ae07ef120021a7",
-      "title": "US judge approves Elliott affiliate bid for Citgo Petroleum parent",
-      "link": "https://www.investing.com/news/commodities-news/us-judge-approves-elliott-affiliate-bid-for-citgo-petroleum-parent-4378071",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELAO13C_L.jpg",
-      "pubDate": "2025-11-25T19:24:43.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1d73b74a58e9a463",
-      "title": "S&P 500 climbs, but Nvidia slip keeps lid on gains",
-      "link": "https://www.investing.com/news/stock-market-news/wall-st-futures-steady-after-tech-rebound-rally-dec-rate-cut-bets-soar-4376319",
-      "summary": "",
+      "id": "214b7fa7b995b88c",
+      "title": "Popcorn Palooza: AMC Theatres Offers Half-Off Yearly Concession Pass",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/popcorn-amc-theatres-offers-half-off-discount-pass-1236435291/",
+      "summary": "The $29.99 program will commence on Cyber Monday and is available to all AMC Stub members.",
       "body": null,
       "image": null,
-      "pubDate": "2025-11-25T19:24:40.000Z",
+      "pubDate": "2025-11-25T19:31:34.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ca03b6120a9537bc",
-      "title": "OUTFRONT Media CFO to present at Bank of America conference",
-      "link": "https://www.investing.com/news/company-news/outfront-media-cfo-to-present-at-bank-of-america-conference-93CH-4378070",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
-      "pubDate": "2025-11-25T19:22:22.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5f8d38f97bd8c32a",
-      "title": "Friedman Industries (FRD) CEO Taylor buys $38k in stock",
-      "link": "https://www.investing.com/news/insider-trading-news/friedman-industries-frd-ceo-taylor-buys-38k-in-stock-93CH-4378069",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2025-11-25T19:20:44.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e0e460770c108e74",
-      "title": "Horace Mann SVP Desrochers sells $141,000 in HMN stock",
-      "link": "https://www.investing.com/news/insider-trading-news/horace-mann-svp-desrochers-sells-141000-in-hmn-stock-93CH-4378068",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2025-11-25T19:20:41.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9ee551562927d559",
-      "title": "Form 144 UNIVERSAL INSURANCE HOLDINGS For: 25 November",
-      "link": "https://www.investing.com/news/filings/form-144-universal-insurance-holdings-for-25-november-93CH-4378066",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2025-11-25T19:19:30.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -496,22 +416,6 @@
       "region": "global"
     },
     {
-      "id": "a6cd096324af36f5",
-      "title": "Smart Grids and EVs Fuel Massive Growth in the Copper Connector Market",
-      "link": "https://oilprice.com/Metals/Commodities/Smart-Grids-and-EVs-Fuel-Massive-Growth-in-the-Copper-Connector-Market.html",
-      "summary": "The vast global effort to electrify transport and modernize power grids is driving a surging, often overlooked demand for one critical component: the humble copper alloy connector. While attention often focuses on breakthroughs in battery technology or records in renewable energy installations, a n…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-25T19:00:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "088ee1b980ddc360",
       "title": "Andre Holland, Wendell Pierce Starring in Boxing Drama ‘They Fight’ (Exclusive)",
       "link": "https://www.hollywoodreporter.com/movies/movie-news/andre-holland-wendell-pierce-they-fight-1236434624/",
@@ -541,6 +445,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a6cd096324af36f5",
+      "title": "Smart Grids and EVs Fuel Massive Growth in the Copper Connector Market",
+      "link": "https://oilprice.com/Metals/Commodities/Smart-Grids-and-EVs-Fuel-Massive-Growth-in-the-Copper-Connector-Market.html",
+      "summary": "The vast global effort to electrify transport and modernize power grids is driving a surging, often overlooked demand for one critical component: the humble copper alloy connector. While attention often focuses on breakthroughs in battery technology or records in renewable energy installations, a n…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-25T19:00:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -685,22 +605,6 @@
       },
       "lang": "en",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "e40e2c94ba104386",
-      "title": "‘Secret Lives of Mormon Wives’ Renewed for Season 4 at Hulu",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/secret-lives-of-mormon-wives-season-4-renewed-hulu-1236435325/",
-      "summary": "More of 'Mormon Wives' is on the way with another 20 episodes coming early 2026.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-25T18:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1136,9 +1040,9 @@
       "region": "global"
     },
     {
-      "id": "3342e822620f86b3",
-      "title": "شجار كين وجاي يفتح ملف اشتباكات الزملاء.. ريبيري وإبراهيموفيتش في صدارة القائمة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B4%D8%AC%D8%A7%D8%B1-%D9%83%D9%8A%D9%86-%D9%88%D8%AC%D8%A7%D9%8A-%D9%8A%D9%81%D8%AA%D8%AD-%D9%85%D9%84%D9%81-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D8%B2%D9%85%D9%84%D8%A7%D8%A1-%D8%B1%D9%8A%D8%A8%D9%8A%D8%B1%D9%8A-%D9%88%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%D9%88%D9%81%D9%8A%D8%AA%D8%B4-%D9%81%D9%8A-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9/blt74d2c40256a02823?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "629ec0c9f1dee505",
+      "title": "شجار كين وجاي يفتح ملف اشتباكات الزملاء.. وريبيري وإبراهيموفيتش في صدارة القائمة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B4%D8%AC%D8%A7%D8%B1-%D9%83%D9%8A%D9%86-%D9%88%D8%AC%D8%A7%D9%8A-%D9%8A%D9%81%D8%AA%D8%AD-%D9%85%D9%84%D9%81-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D8%B2%D9%85%D9%84%D8%A7%D8%A1-%D9%88%D8%B1%D9%8A%D8%A8%D9%8A%D8%B1%D9%8A-%D9%88%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%D9%88%D9%81%D9%8A%D8%AA%D8%B4-%D9%81%D9%8A-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9/blt74d2c40256a02823?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "تستعرض GOAL بعضًا من أشهر حوادث الشجار بين زملاء الفريق بعد اشتباك إيدريسا جوي مع زميله في إيفرتون مايكل كين خلال الفوز على مانشستر يونايتد.",
       "body": "&nbsp;حقق إيفرتون أول فوز له على مانشستر يونايتد (1/0) في أولد ترافورد منذ 12 عامًا مساء أمس الإثنين، على الرغم من طرد لاعبه السنغالي إدريسا جاي في الشوط الأول. &nbsp;ولكن المباراة ستبقى في الذاكرة بسبب الطريقة الغريبة التي انخفض بها عدد لاعبي إيفرتون إلى 10 لاعبين. في مثال نادر على شجار بين زملاء الفريق على أرض الملعب، فقد لاعب الوسط إدريسا جاي والمدافع مايكل كين أعصابهما تمامًا أمام 74 ألف مشجع والملايين من المشاهدين في منازلهم. وليس هناك شك في أن جاي كان المعتدي في هذه الحالة؛ فقد أخطأ اللاعب البالغ من العمر 36 عامًا في تمريرة قصيرة إلى قلب الدفاع في عمق نصف ملعبه، واستغل برونو فرنانديز الكرة المرتدة وسددها مباشرة من اللمسة الأولى لتخطيء القائم البعيد لجوردان بيكفورد. &nbsp;رفض جاي تحمل مسؤولية خطأه، فانطلق في نوبة غضب شديدة وأخذ يشير بيده بغضب إلى زميله عندما التقيا في منطقة الجزاء. بعد أن دفعه كين بعيدًا، رد اللاعب الدولي السنغالي بصفعة على خده، فطرده الحكم على الفور، بينما حاول بيكفورد وإليمان ندياي تهدئة زميلهما الغاضب أثناء مرافقتهما له خارج الملعب.&nbsp; سارع جاي بالاعتذار، وهو مدين بالشكر لزملائه في الفريق الذين تمكنوا من تحقيق فوز رائع ونادر على مانشستر يونايتد خارج أرضهم. مثل ذلك أحدث واقعة في قائمة محدودة من حوادث الشجار بين لاعبي نفس الفريق.&nbsp; &nbsp; &nbsp; &nbsp…",
       "image": "https://assets.kooora.com/images/v3/getty-1237564603/crop/MM5DEMBYGQ5DCMJXGI5G433XMU5DAORWGU======/GettyImages-1237564603.jpg",
