@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2025-11-28T17:10:47.875Z",
-    "total": 226,
-    "processed_feeds": 16,
-    "discovered_feeds": 83,
+    "generated_at": "2025-11-28T17:30:26.201Z",
+    "total": 225,
+    "processed_feeds": 17,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -43,33 +43,33 @@
         "cats": [
           "sports"
         ],
-        "taken": 73,
+        "taken": 72,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -100,6 +100,19 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -108,8 +121,21 @@
         "cats": [
           "general"
         ],
-        "taken": 43,
+        "taken": 44,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -126,29 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -165,6 +178,19 @@
         "notModified": false
       },
       {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -175,19 +201,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
         "notModified": false
       },
       {
@@ -204,21 +217,165 @@
         "notModified": false
       },
       {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "6b9929b44100d8c4",
+      "title": "How Dried Scabs and Menstrual Blood Informed the Red Tones in Jessie Buckley’s ‘Hamnet’ Costumes",
+      "link": "https://variety.com/2025/artisans/news/jessie-buckley-hamnet-costume-red-dress-1236593398/",
+      "summary": "“The first image in my head was a giant beating heart muscle, throbbing and pulsing with blood,” says “Hamnet” costume designer Malgosia Turzanska. Red becomes the main color palette for Jessie Buckley’s Agnes. Based on Maggie O’Farrell’s 2020 novel, “Hamnet,” now playing in theaters, tells the sto…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/11/HAMNET_FP_00179_rgb.jpg",
+      "pubDate": "2025-11-28T17:30:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d28f698cf6b5a367",
+      "title": "Okay, which of you are still using Facebook?",
+      "link": "https://www.theverge.com/news/832132/pew-social-media-landscape-2025",
+      "summary": "For a platform that everybody claims to have quit, Facebook is astonishingly resilient. A whopping 71 percent of American adults still use the site — and more than half check it daily — according to a recent Pew study, cementing it as one of the few constants in an otherwise shifting social media l…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-28T17:29:56.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5653b1894510e896",
+      "title": "Apple Airpods Are Down to $69 for Black Friday — Plus iPad, Apple Watch and Macbook Deals to Shop Today",
+      "link": "https://variety.com/shop/best-apple-deals-1234996962/",
+      "summary": "Apple rarely discounts prices on their own devices, so it’s always a big deal when their latest products go on sale elsewhere — like on Amazon. For it’s October Prime Day event (officially known as “Prime Big Deals Day“) Amazon has slashed prices on a slew of items, including AirPod earbuds, Apple …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2024/07/Apple-Deals-Prime-Day-Featured.jpg",
+      "pubDate": "2025-11-28T17:26:15.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "20fef1cb43200c52",
+      "title": "Nvidia CEO Jensen Huang allegedly asks managers discouraging AI use: ‘Are you insane?’ — assures employees their jobs aren’t at risk because of AI",
+      "link": "https://www.tomshardware.com/tech-industry/nvidia-ceo-jensen-huang-allegedly-asks-managers-discouraging-ai-use-are-you-insane-assures-employees-their-jobs-arent-at-risk-because-of-ai",
+      "summary": "The Nvidia chief wants all his people to go all-in on AI.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/zyipAsY3mE86VaEFq7vrXN-1280-80.jpg",
+      "pubDate": "2025-11-28T17:19:50.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6ee41463aa4fbbd6",
+      "title": "The best robot vacuums",
+      "link": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
+      "summary": "Editor’s note: Lots of our favorite robovacs in this piece are on sale for Black Friday! Check out the biggest and best Black Friday deals we’ve covered so far. Robot vacuums are impressive devices that will clean your floors well and — thanks to bigger batteries and better robot brains — rarely ge…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-28T17:19:32.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f81ffa5c36b5e59a",
+      "title": "France star Dupont returns after eight months out",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c9d95gn6w73o?at_medium=RSS&at_campaign=rss",
+      "summary": "France captain Antoine Dupont will make his return from a serious knee injury in Toulouse's Top 14 match against Racing 92 on Saturday (20:00 GMT).",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-28T17:15:10.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c8a7e31220af6dfc",
+      "title": "Black Friday deals on chargers and power banks we love from Anker and more",
+      "link": "https://www.theverge.com/gadgets/831598/black-friday-2025-chargers-power-banks-batteries-deal-sale",
+      "summary": "Twelve South’s HiRise 3 Deluxe is on sale for $59.99. We all know Black Friday is one of — if not the — best time to save hundreds on a laptop or big screen TV, but you shouldn’t forget about taking advantage of deals on lower-priced essentials like chargers and battery packs. These gadgets are eas…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-28T17:15:00.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "88daeba40edb4264",
+      "title": "The best Black Friday deals on AirPods, AirTags, and other Apple gear",
+      "link": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
+      "summary": "Apple’s latest AirPods Pro are down to their best price to date. If you’re planning to gift an Apple device this holiday season — or treat yourself — now’s the time to start shopping. Black Friday has officially arrived, bringing with it the best Apple deals we’ve seen all year. Despite having rece…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-28T17:11:18.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6152456561d567d0",
+      "title": "Embattled Dutch chipmaker Nexperia gets into public spat with Chinese owners — accused of deception and obstruction, suspending wafer shipments",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/wingtech-nexperia-dispute-escalates-as-public-accusations-widen-the-rift",
+      "summary": "Tensions inside Nexperia have sharpened after its parent company, Wingtech Technology, publicly accused the Dutch head office of deception and obstruction.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/6CoG4mtxeyTitsu6xtgxUL-1280-80.jpg",
+      "pubDate": "2025-11-28T17:10:33.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "41439d8506ba7edb",
       "title": "These Lego kits for kids and adults are up to 50% off for Black Friday",
@@ -265,6 +422,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c14a7c825d96f5fa",
+      "title": "What's going on with fan disorder at European games?",
+      "link": "https://www.bbc.com/sport/football/articles/c75vz7lgr76o?at_medium=RSS&at_campaign=rss",
+      "summary": "Was the disorder of Young Boys fans at Aston Villa an isolated incident, or does it indicate something more prevalent?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-28T16:57:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -444,22 +617,6 @@
       "region": "global"
     },
     {
-      "id": "6204988610f1afd0",
-      "title": "Thanksgiving Box Office: ‘Zootopia 2’ Rules With $19.7 Million, ‘Wicked: For Good’ Crosses $200 Million",
-      "link": "https://variety.com/2025/film/news/thanksgiving-box-office-zootopia-2-wicked-for-good-crosses-200-million-1236594695/",
-      "summary": "“Zootopia 2” topped the Thanksgiving box office, earning $19.7 million on Thursday. The Disney animated sequel has earned an impressive $59.2 million domestically since opening on Tuesday night and is expected to collect $140 million to $150 million over the five-day holiday period. And audiences c…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/11/MCDZOTW_WD005.jpg",
-      "pubDate": "2025-11-28T16:15:23.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "96a5af46e9b91d29",
       "title": "المعلق والقناة الناقلة.. كيف تشاهد مباراة الأهلي والجيش الملكي؟",
       "link": "https://www.yallakora.com/african-champions-league/2965/news/531801/%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%82-%d9%88%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%a7%d9%82%d9%84%d8%a9-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%a7%d9%87%d8%af-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a-",
@@ -524,22 +681,6 @@
       "region": "global"
     },
     {
-      "id": "a3340f65b5ae9fa2",
-      "title": "This Wes Anderson Criterion Collector’s Set Is 30% Off for Black Friday",
-      "link": "https://variety.com/2025/shopping/news/criterion-collection-the-wes-anderson-archive-4k-buy-online-1236416850/",
-      "summary": "Over the last 25 years, Wes Anderson has been one of the most celebrated filmmakers working today. This year, the Criterion Collection is honoring Anderson’s work with an impressive box set of his first 10 movies — all in 4K Ultrah HD. Since releasing in September, it’s sold out on many retailers b…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/06/The-Wes-Anderson-Archive-Featured.jpg",
-      "pubDate": "2025-11-28T16:03:25.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "7631771502738db4",
       "title": "My favorite Nintendo Switch 2 accessories are heavily discounted for Black Friday",
       "link": "https://www.theverge.com/gadgets/829211/nintendo-switch-2-black-friday-accessories-deal-sale",
@@ -553,22 +694,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f339f720bdaa8be8",
-      "title": "‘Milk & Serial,’ ‘Obsession’ Filmmakers Drop New YouTube Comedy ‘Fly Me to the Earth’ (EXCLUSIVE)",
-      "link": "https://variety.com/2025/film/news/curry-barker-youtube-fly-me-to-the-earth-obsession-1236593520/",
-      "summary": "Curry Barker and Cooper Tomlinson, the creators of the microbudget slasher movie “Milk & Serial,” are set to drop their latest comedy project, “Fly Me to the Earth,” on their That’s a Bad Idea YouTube channel. Barker’s horror movie “Obsession” sold for $14 million to Focus Features in October after…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/11/flymefriday-e1764207984543.jpeg",
-      "pubDate": "2025-11-28T16:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -630,22 +755,6 @@
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fe68538c3d9783ef",
-      "title": "The best Black Friday deals on Apple AirPods — up to 47 percent off",
-      "link": "https://www.theverge.com/gadgets/831908/best-black-friday-airpods-pro-max-apple-deal-sale",
-      "summary": "AirPods Pro 3 It’s the most wonderful time of the year to buy AirPods. They’re heavily discounted for Black Friday from places like Amazon and Walmart, starting at just $69 for the most basic (but still great) AirPods 4. And, better yet, you can even get a $30 off deal on Apple’s newest model, the …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-28T15:18:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
       },
       "lang": "en",
       "category": "technology",
@@ -764,38 +873,6 @@
       "region": "global"
     },
     {
-      "id": "29cde8f20c974da1",
-      "title": "We found Black Friday deals on our favorite tech, and most are under $50",
-      "link": "https://www.theverge.com/gadgets/829162/best-black-friday-deals-verge-favorites-2025",
-      "summary": "About once a month or so, we here at The Verge like to write about our favorite stuff: pet gear, backpacks, and weird toys, among others. Now that the Black Friday sales are all popping up, we’ve checked out some of the items that we’ve written about in the past — things that we have bought for our…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-28T15:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cf1c1d55f5e3e437",
-      "title": "The dark side of optimizing your metabolism",
-      "link": "https://www.theverge.com/column/830937/optimizer-cgms-metabolism-wearables",
-      "summary": "After about a year of using over the counter CGMs, I’ve realized I shouldn’t use them during holidays. This is Optimizer, a weekly newsletter sent every Friday from Verge senior reviewer Victoria Song that dissects and discusses the latest phones, smartwatches, apps, and other gizmos that swear the…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-28T15:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b9244c741217dce8",
       "title": "الثاني تواليا.. المصري يفوز على زيسكو الزامبي في الكونفدرالية",
       "link": "https://www.yallakora.com/african-confederation-cup/3000/news/531795/%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%a7-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d9%81%d9%88%d8%b2-%d8%b9%d9%84%d9%89-%d8%b2%d9%8a%d8%b3%d9%83%d9%88-%d8%a7%d9%84%d8%b2%d8%a7%d9%85%d8%a8%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%83%d9%88%d9%86%d9%81%d8%af%d8%b1%d8%a7%d9%84%d9%8a%d8%a9",
@@ -806,22 +883,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f0fee3cf5f31c768",
-      "title": "Piastri edges Norris in Qatar practice on crucial weekend",
-      "link": "https://www.bbc.com/sport/formula1/articles/cvg1pnre3q8o?at_medium=RSS&at_campaign=rss",
-      "summary": "McLaren's Oscar Piastri outpaces title rival and team-mate Lando Norris in practice at the Qatar Grand Prix.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-28T14:59:09.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -985,22 +1046,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "970bf96afd441515",
-      "title": "We handpicked 50 Black Friday deals you can get for under $50",
-      "link": "https://www.theverge.com/gadgets/829553/black-friday-best-cheap-tech-deals-under-50-2025",
-      "summary": "You can snag Microsoft’s excellent Xbox Wireless Controller starting at just $39.99 today. Black Friday is a great time to save on big-ticket items like 4K TVs, laptops, and headphones. But if you’re on a tight budget this holiday season, there are plenty of worthwhile deals on practical upgrades f…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-28T14:15:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2316,22 +2361,6 @@
       "region": "global"
     },
     {
-      "id": "a0f04d5963c520c7",
-      "title": "Tavernier defiant, but are players good enough to take Rangers forward?",
-      "link": "https://www.bbc.com/sport/football/articles/c0mpvdeemjyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Rangers captain James Tavernier insists his side can still reach the knockout stages of the Europa League despite taking just one point from their opening five fixtures.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-27T23:48:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "af879ae3c43d5a45",
       "title": "أبوريدة يكشف حقيقة خلاف حسام حسن وطولان.. ويؤكد: حزنت لإيقاف رمضان صبحي",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/531764/%d8%a3%d8%a8%d9%88%d8%b1%d9%8a%d8%af%d8%a9-%d9%8a%d9%83%d8%b4%d9%81-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%ae%d9%84%d8%a7%d9%81-%d8%ad%d8%b3%d8%a7%d9%85-%d8%ad%d8%b3%d9%86-%d9%88%d8%b7%d9%88%d9%84%d8%a7%d9%86-%d9%88%d9%8a%d8%a4%d9%83%d8%af-%d8%ad%d8%b2%d9%86%d8%aa-%d9%84%d8%a5%d9%8a%d9%82%d8%a7%d9%81-%d8%b1%d9%85%d8%b6%d8%a7%d9%86-%d8%b5%d8%a8%d8%ad%d9%8a",
@@ -2940,22 +2969,6 @@
       "region": "global"
     },
     {
-      "id": "d34d7c58d2869f2e",
-      "title": "Trump & O'Sullivan face tough UK Championship openers",
-      "link": "https://www.bbc.com/sport/snooker/articles/c3w7eyw5deno?at_medium=RSS&at_campaign=rss",
-      "summary": "World number one Judd Trump will take on Stephen Maguire when he begins his defence of his UK Championship title, while Ronnie O'Sullivan faces Zhou Yuelong.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-27T16:42:29.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "0971af498582b280",
       "title": "The Bambu Lab P2S is now available to buy in the U.S. — 'logistics delays' appear to have been resolved",
       "link": "https://www.tomshardware.com/3d-printing/the-bambu-lab-p2s-is-now-available-to-buy-in-the-u-s-logistics-delays-appear-to-have-been-resolved",
@@ -3321,22 +3334,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "36c1a23f40fddb3d",
-      "title": "Save 45% on this Razer Basilisk gaming mouse, now under £40 for Black Friday — record-low price with an 18K DPI sensor and huge battery life",
-      "link": "https://www.tomshardware.com/peripherals/gaming-mice/save-45-percent-on-this-razer-basilisk-gaming-mouse-now-under-gbp40-for-black-friday-record-low-price-with-an-18k-dpi-sensor-and-huge-battery-life",
-      "summary": "The Razer Basilisk V3 X HyperSpeed is down to just £38.49 on Amazon, a record low price for Black Friday.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/sAe2RRzdaKcF9oYM9WhdQX-1280-80.jpg",
-      "pubDate": "2025-11-27T09:47:52.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
