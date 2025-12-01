@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-12-01T09:55:17.748Z",
-    "total": 218,
+    "generated_at": "2025-12-01T10:15:31.979Z",
+    "total": 228,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -18,19 +31,6 @@
           "sports"
         ],
         "taken": 71,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -48,6 +48,19 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -58,19 +71,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -87,19 +87,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -113,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -148,19 +109,6 @@
           "general"
         ],
         "taken": 48,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 19,
         "error": null,
         "notModified": false
       },
@@ -178,10 +126,75 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 19,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -202,23 +215,106 @@
         "taken": 0,
         "error": "Error: Invalid character in entity name\nLine: 230\nColumn: 118\nChar: =",
         "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "bbb76e41e38f4a9a",
+      "title": "الرمادي: الزمالك أخطأ بتعيين إدوارد في منصب المدير الرياضي.. وما يحدث كارثة كبرى",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/532104/%d8%a7%d9%84%d8%b1%d9%85%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%a3%d8%ae%d8%b7%d8%a3-%d8%a8%d8%aa%d8%b9%d9%8a%d9%8a%d9%86-%d8%a5%d8%af%d9%88%d8%a7%d8%b1%d8%af-%d9%81%d9%8a-%d9%85%d9%86%d8%b5%d8%a8-%d8%a7%d9%84%d9%85%d8%af%d9%8a%d8%b1-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a-%d9%88%d9%85%d8%a7-%d9%8a%d8%ad%d8%af%d8%ab-%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d9%83%d8%a8%d8%b1%d9%89",
+      "summary": "انتقد أيمن الرمادي، اليوم الإثنين، تعيين جون إدوارد في منصب المدير الرياضي لنادي الزمالك، واصفًا ما يحدث بـ\"الكارثة الكبرى\".",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T10:15:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "fa9af835c8220d9b",
+      "title": "This $79.99 mini screen is the ultimate retro PC desk gadget — 3.5-inch IPS monitor with SD card reader and USB hub at new record low price",
+      "link": "https://www.tomshardware.com/pc-components/this-usd79-99-mini-screen-is-the-ultimate-retro-pc-desk-gadget-3-5-inch-ips-monitor-with-sd-card-reader-and-usb-hub-at-new-record-low-price",
+      "summary": "This delightfully quirky mini monitor, with built-in SD card reader and USB hub is the perfect desk addition to your PC setup for Cyber Monday.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/sFdC6rrVkG9BeEiC73oym3-1280-80.jpg",
+      "pubDate": "2025-12-01T10:06:26.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e1576c386f6ee168",
+      "title": "XploraOne by HMD is a hybrid phone for kids",
+      "link": "https://www.gsmarena.com/xploraone_by_hmd_is_a_hybrid_phone_for_kids_-news-70504.php",
+      "summary": "Nearly two months ago, HMD launched its Touch 4G – a hybrid phone which blends smartphone features inside a feature phone. HMD is now following up with another interesting device, which is aimed at children and was co-developed with Norwegian brand Xplora – an established player in the kids' smartw…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T10:01:02.000Z",
+      "source": {
+        "name": "GSMArena",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e6841824c9394286",
+      "title": "These great Cyber Monday tech deals will likely be gone tomorrow",
+      "link": "https://www.theverge.com/gadgets/834422/cyber-monday-2025-best-deals-tech-gadgets-gift-ideas",
+      "summary": "December is kicking off with a bang. Cyber Monday is today, and it’s one of your last chances to score major deals before the holiday rush plows us all over. It’s a great moment to snag gadgets — many of which have been tested by The Verge — at (or close to) all-time lows if you missed out over the…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T10:00:00.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "7373d1f9faf00fa8",
+      "title": "‘Gomorrah — The Origins’ Trailer: ’70s-Set Prequel Series Shows the Rise of Mobster Pietro Savastano (EXCLUSIVE)",
+      "link": "https://variety.com/2025/tv/global/gomorrah-the-origins-trailer-prequel-series-savastano-rise-1236595638/",
+      "summary": "Sky has released a trailer for “Gomorrah – The Series. The Origins,” the hotly anticipated prequel show to gritty Neapolitan mob series “Gomorrah,” which is Italy’s biggest TV export. The Comcast-owned pay-TV service, as previously announced, has set a still-unspecified January release in Italy for…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/06/GomorrahOrigins2.jpg",
+      "pubDate": "2025-12-01T10:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "159dfbdb0a85cfd9",
+      "title": "محمد رمضان يتحدث عن.. علاقته مع كولر.. كواليس عقوبة كهربا.. ورحيل معلول والسولية",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/532103/%d9%85%d8%ad%d9%85%d8%af-%d8%b1%d9%85%d8%b6%d8%a7%d9%86-%d9%8a%d8%aa%d8%ad%d8%af%d8%ab-%d8%b9%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%aa%d9%87-%d9%85%d8%b9-%d9%83%d9%88%d9%84%d8%b1-%d9%83%d9%88%d8%a7%d9%84%d9%8a%d8%b3-%d8%b9%d9%82%d9%88%d8%a8%d8%a9-%d9%83%d9%87%d8%b1%d8%a8%d8%a7-%d9%88%d8%b1%d8%ad%d9%8a%d9%84-%d9%85%d8%b9%d9%84%d9%88%d9%84-%d9%88%d8%a7%d9%84%d8%b3%d9%88%d9%84%d9%8a%d8%a9",
+      "summary": "تحدث محمد رمضان، المدير الرياضي السابق للنادي الأهلي، عن عدة ملفات وأحداث تعامل معها أثناء عمله في هذا المنصب بالقلعة الحمراء.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T09:56:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "3dcd6d0418dabb0b",
       "title": "طاهر محمد: لم أتوقع انضمام زيزو إلى الأهلي.. وتريزيجيه أسطورة",
@@ -394,6 +490,38 @@
       "lang": "en",
       "category": "entertainment",
       "region": "global"
+    },
+    {
+      "id": "3f77bd29a29d4f47",
+      "title": "فترة صادمة.. تحديد مدة غياب فلاهوفيتش عن يوفنتوس",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%AA%D8%B1%D8%A9-%D8%B5%D8%A7%D8%AF%D9%85%D8%A9-%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF-%D9%85%D8%AF%D8%A9-%D8%BA%D9%8A%D8%A7%D8%A8-%D9%81%D9%84%D8%A7%D9%87%D9%88%D9%81%D9%8A%D8%AA%D8%B4-%D8%B9%D9%86-%D9%8A%D9%88%D9%81%D9%86%D8%AA%D9%88%D8%B3/blt2f659f274ceda3cb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صدمة في يوفنتوس من غياب نجمه لفترة طويلة",
+      "body": "يواجه الصربي دوسان فلاهوفيتش، مهاجم يوفنتوس، خطر الغياب لفترة طويلة عن الملاعب، بعد إصابته خلال مباراة فريقه أمام كالياري، السبت الماضي، ضمن منافسات الجولة الـ13 من الدوري الإيطالي. وشارك فلاهوفيتش، أساسيًا، لكنه اضطر لمغادرة الملعب بعد نحو نصف ساعة فقط، عقب تعرضه لإصابة أجبرته على عدم استكمال اللقاء، وظهر خلالها متأثرًا وهو يبكي. وبحسب ما ذكرته شبكة \"سبورت ميدياست\" الإيطالية، فإن يوفنتوس سيعلن تفاصيل إصابة مهاجمه في وقت لاحق اليوم الاثنين، وذلك بعد خضوعه لفحص بالرنين المغناطيسي لتحديد حجم الإصابة ومدة التعافي المتوقعة. وأضافت الشبكة أن الفحص الأولي بالموجات فوق الصوتية، الذي خضع له اللاعب أمس الأحد، أكد إصابته بـ\"تمزق عضلي في العضلة المقربة للفخذ الأيسر\"، ما يعني غيابه لمدة لا تقل عن شهرين. وسيحرم يوفنتوس ومدربه لوتشيانو سباليتي من جهود المهاجم الصربي في 14 مباراة عبر مختلف المسابقات، تشمل الدوري الإيطالي، ودوري أبطال أوروبا، وكأس إيطاليا، بدءًا من مواجهة دور الـ16 أمام أودينيزي الثلاثاء المقبل، وحتى نهاية عام 2025. كما سيغيب فلاهوفيتش عن المواجهتين المهمتين أمام نابولي وروما، بينما يتوقع أن تكون عودته في مباراة بارما خارج الديار مطلع فبراير 2026. يشار إلى أن يوفنتوس حقق فوزًا صعبًا على كالياري بنتيجة 2-1، بفضل ثنائية للموهبة التركية كينان يلدز، رافعًا رصيده إلى 23 نقطة، وبفارق 5…",
+      "image": null,
+      "pubDate": "2025-12-01T07:54:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "afe77cbf24514e20",
+      "title": "فالدانو: كيف سيكون وضع ريال مدريد بدون مبابي؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%A7%D9%84%D8%AF%D8%A7%D9%86%D9%88-%D9%83%D9%8A%D9%81-%D8%B3%D9%8A%D9%83%D9%88%D9%86-%D9%88%D8%B6%D8%B9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A/blt3a9e90f4a998e24b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"direction: rtl;\">سلط خورخي فالدانو، نجم ومدرب ريال مدريد السابق، الضوء على تألق الفرنسي كيليان مبابي، نجم الميرينجي، والذي سجل هدف التعادل للميرنجي خلال مواجهة جيرونا، أمس الأحد التي انتهت بنتيجة (1-1)، ضمن منافسات الجولة 14 من الليجا، في معقل الفريق الكتالوني ملعب \"مونتيليفي\".</p><p styl…",
+      "body": "سلط خورخي فالدانو، نجم ومدرب ريال مدريد السابق، الضوء على تألق الفرنسي كيليان مبابي، نجم الميرينجي، والذي سجل هدف التعادل للميرنجي خلال مواجهة جيرونا، أمس الأحد التي انتهت بنتيجة (1-1)، ضمن منافسات الجولة 14 من الليجا، في معقل الفريق الكتالوني ملعب \"مونتيليفي\". سجل المغربي عز الدين أوناحي هدف جيرونا في الدقيقة 45، بينما تعادل مبابي لريال مدريد عبر ركلة جزاء في الدقيقة 67. بهذا التعادل رفع ريال مدريد رصيده إلى 33 نقطة في وصافة جدول ترتيب الليجا، تاركًا الصدارة لغريمه التقليدي برشلونة (34 نقطة) وقال فالدانو، خلال تحليله للمباراة على قناة \"موفيستار\" الإسبانية: \"السؤال الذي يجب أن يطرحه ريال مدريد على نفسه هو: أين كان سيكون الآن لولا كيليان مبابي؟\". وأضاف: \"كل مباراة للمهاجم الفرنسي هي بمثابة عرض جديد، واليوم لم يكن استثناءً\". وتابع: \"مبابي قدم مستوى هائلاً اليوم، وسواء عندما كان الفريق جيداً أو عندما كان سيئاً، سواء كان متأخراً في النتيجة أو قد حقق التعادل يُقدم أداءً استثنائياً\". واختتم فالدانو قائلا: \"مع ذلك لم يكن ذلك كافياً ليخرج ريال مدريد بالفوز\". &nbsp;",
+      "image": null,
+      "pubDate": "2025-12-01T07:54:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "3f4a839aa79db723",
@@ -844,22 +972,6 @@
       "region": "global"
     },
     {
-      "id": "1b1441904c13681a",
-      "title": "Observational Documentary ‘Aluk’ Traces Seven Years With Indonesian Tana Toraja Family at JAFF Future Project",
-      "link": "https://variety.com/2025/film/markets-festivals/observational-doc-aluk-seven-years-indonesian-family-1236596022/",
-      "summary": "Chris C.F’s observational documentary “Aluk,” which follows three generations of a family in Tana Toraja, Indonesia over seven years as they reckon with the loss of their patriarch and their community’s uncertain future, is selected for the JAFF Future Project as a work-in-progress. The Australia-I…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/11/Aluk.jpg",
-      "pubDate": "2025-12-01T04:16:51.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d1401157d2a04cd3",
       "title": "Avoid the RAM apocalypse with this $899 MSI desktop — get 32GB of DDR5 and an RTX 5060 for $200 off",
       "link": "https://www.tomshardware.com/pc-components/avoid-the-ram-apocalypse-with-this-usd899-msi-desktop-get-32gb-of-ddr5-and-an-rtx-5060-for-usd200-off",
@@ -873,6 +985,70 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "10bfa4b2d0f11da0",
+      "title": "Here are 50 standout deals under $100 we’re eyeing for Cyber Monday",
+      "link": "https://www.theverge.com/gadgets/833655/cyber-monday-best-cheap-tech-deals-under-100-2025",
+      "summary": "The Google Pixel Buds come in several colors, but why would you choose anything other than purple? When the deals are flying fast and furious, it can be easy to overspend, especially when OLED TVs, laptops, and other great pieces of tech are cheaper than they’ve ever been. You don’t have to spend a…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T03:29:13.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "23ddfc1f5b36b2d4",
+      "title": "The best Cyber Monday deals on Apple MacBooks, AirTags, iPads, and more",
+      "link": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
+      "summary": "If you’re planning to gift an Apple device this holiday season — or treat yourself — now’s the time to start shopping. Black Friday is bleeding into Cyber Monday — and these Apple deals are some of the best we’ve seen all year. Despite having recently launched, for instance, the new AirPods Pro, Ap…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T02:53:01.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ca043e97e8e5ff2c",
+      "title": "The absolute best Cyber Monday deals you can already shop",
+      "link": "https://www.theverge.com/gadgets/833101/cyber-monday-best-early-deals-2025",
+      "summary": "Editor’s note: December has arrived, bringing Cyber Monday with it. We’re tracking all of the latest deals kicking off today in a new post rounding up the best Cyber Monday deals, so we will no longer be updating this article. Black Friday is over, but the deals haven’t simply evaporated. As we tur…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T02:38:32.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6d05f3e9094aacc2",
+      "title": "Anker’s Laptop Power Bank is  $32 off for Cyber Monday, its biggest discount yet",
+      "link": "https://www.theverge.com/gadgets/834269/anker-laptop-power-bank-cyber-monday-deal-sale-2025",
+      "summary": "Anker’s portable charger is about the size of a soda can and can charge multiple devices for less than $90. If you’re planning to head out of town for the holidays, now is a good time to stock up on chargers so that your devices don’t die in transit. Lucky for you, we’ve already rounded up some of …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-01T00:53:23.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -940,6 +1116,22 @@
       "region": "global"
     },
     {
+      "id": "c900003197f9576c",
+      "title": "Our favorite laptops from Apple, Razer, HP, and others are over $500 for Cyber Monday",
+      "link": "https://www.theverge.com/gadgets/828617/best-black-friday-laptop-deals-macbook-surface-gaming-notebooks-2025",
+      "summary": "The M5-powered MacBook Pro is slightly cheaper than it was on Black Friday. Cyber Monday might be a great opportunity to pick up a new TV, but it’s also one of the best chances you’ll have all year to save on one of the biggest tech purchases we’re all likely to make: a new laptop. A new generation…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-30T23:43:02.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "4093a55debfec066",
       "title": "'Better than ever' Robertson advances in UK Championship",
       "link": "https://www.bbc.com/sport/snooker/articles/cn81923g1j6o?at_medium=RSS&at_campaign=rss",
@@ -953,6 +1145,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8a78e33067c6a587",
+      "title": "Data centers in Oregon might be helping to drive an increase in cancer and miscarriages",
+      "link": "https://www.theverge.com/news/834151/amazon-data-centers-oregon-cancer-miscarriage",
+      "summary": "Morrow County, Oregon is home to mega farms and food processing plants. But it’s also home to several Amazon data centers. And now, some experts believe, that combination is leading to an alarmingly high concentration of nitrates in the drinking water that is driving up cancer and miscarriage rates…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-30T23:17:08.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1036,6 +1244,22 @@
       "region": "global"
     },
     {
+      "id": "f903245b82325437",
+      "title": "My favorite Cyber Monday TV deals from Samsung, Sony, and others are up to 50% off",
+      "link": "https://www.theverge.com/tech/829579/best-4k-tv-streaming-soundbar-blu-ray-player-deal-sale-black-friday",
+      "summary": "Black Friday might have passed, but that doesn’t mean the holiday deals are gone. You can still find low prices on excellent TVs, streaming devices, and soundbars through Cyber Monday. I’ve found the best of these deals to level up your home theater setup, and make sure that your holiday season (an…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-30T22:23:06.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "bced79ee4419fa47",
       "title": "يانيك فيريرا: الزمالك لا يحترم كلمته.. وجون إدوارد تجاهلني",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/532092/%d9%8a%d8%a7%d9%86%d9%8a%d9%83-%d9%81%d9%8a%d8%b1%d9%8a%d8%b1%d8%a7-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%84%d8%a7-%d9%8a%d8%ad%d8%aa%d8%b1%d9%85-%d9%83%d9%84%d9%85%d8%aa%d9%87-%d9%88%d8%ac%d9%88%d9%86-%d8%a5%d8%af%d9%88%d8%a7%d8%b1%d8%af-%d8%aa%d8%ac%d8%a7%d9%87%d9%84%d9%86%d9%8a",
@@ -1065,6 +1289,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "dc31675a0381a6b4",
+      "title": "Disney Plus, Hulu, and HBO Max are all over 60 percent off for Cyber Monday",
+      "link": "https://www.theverge.com/gadgets/829306/best-black-friday-streaming-deals-hulu-disney-plus-paramount-hbo-max-2025",
+      "summary": "You can stream Pluribus, Severance, and other terrific Apple TV shows starting at just $5.99 a month for a limited time. The holidays are a great time to see family, exchange gifts, and enjoy a good meal. It’s also the perfect time to gather around a TV and catch up on must-see shows and movies. Vi…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-30T21:54:59.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -1276,22 +1516,6 @@
       "region": "global"
     },
     {
-      "id": "cc01777267818d94",
-      "title": "تشابي ألونسو يُكرر رقم زيدان السلبي بالليجا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B4%D8%A7%D8%A8%D9%8A-%D8%A7%D9%94%D9%84%D9%88%D9%86%D8%B3%D9%88-%D9%8A%D9%8F%D9%83%D8%B1%D8%B1-%D8%B1%D9%82%D9%85-%D8%B2%D9%8A%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%84%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7/blt032fe7ec06140b46?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "سقط ريال مدريد في فخ التعادل الإيجابي بهدف لمثله، خلال مواجهة جيرونا، مساء اليوم الأحد، ضمن منافسات الجولة 14 من الليجا، في معقل الأخير ملعب \"مونتيليفي\".",
-      "body": "سقط ريال مدريد في فخ التعادل الإيجابي بهدف لمثله، خلال مواجهة جيرونا، مساء اليوم الأحد، ضمن منافسات الجولة 14 من الليجا، في معقل الأخير ملعب \"مونتيليفي\". وبحسب شبكة \" أوبتا \" للإحصائيات، سدد ريال مدريد 25 تسديدة ضد جيرونا، ولم يتفوق عليه سوى ريال بيتيس ضد ليفانتي (28) في عدد التسديدات في مباراة بالدوري دون أن يضمن الفوز هذا الموسم. وأشارت الشبكة، إلى أن ريال مدريد تعادل في آخر ثلاث مباريات له في الدوري الإسباني، وهي المرة الأولى التي يسجل فيها ثلاثة تعادلات متتالية في موسم واحد منذ ديسمبر/كانون الأول 2019 تحت قيادة زين الدين زيدان. وسجل المغربي عز الدين أوناحي هدف جيرونا في الدقيقة 45، بينما تعادل مبابي لريال مدريد عبر ركلة جزاء في الدقيقة 67. وبهذا التعادل رفع ريال مدريد رصيده إلى 33 نقطة في وصافة جدول ترتيب الليجا، وبفارق نقطة عن برشلونة المتصدر بينما رفع جيرونا رصيده إلى 12 نقطة في المركز الثامن عشر. &nbsp;",
-      "image": null,
-      "pubDate": "2025-11-30T20:31:39.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "038b954502cf1eb4",
       "title": "Celtic face sixth-tier Auchinleck Talbot in Scottish Cup",
       "link": "https://www.bbc.com/sport/football/articles/cgmn1lnkrw4o?at_medium=RSS&at_campaign=rss",
@@ -1322,22 +1546,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "ef41efa8f41b92df",
-      "title": "موعد مباراة المغرب وجزر القمر في كأس العرب 2025 والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%AC%D8%B2%D8%B1-%D8%A7%D9%84%D9%82%D9%85%D8%B1-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-2025-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt7f050d9223ea6169?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على موعد مباراة المغرب وجزر القمر في كأس العرب 2025 والقنوات الناقلة والتشكيل المتوقع...",
-      "body": "تعرف على موعد مباراة المغرب وجزر القمر في كأس العرب 2025 والقنوات الناقلة والتشكيل المتوقع... يفتتح منتخب المغرب \"أسود الأطلس\" مشواره في بطولة كأس العرب 2025 بمواجهة نظيره منتخب جزر القمر، على أرضية \"استاد خليفة الدولي\"، ضمن منافسات الجولة الأولى للمجموعة الثانية التي تضم رفقتهما منتخبي السعودية وعُمان. يدخل المنتخب المغربي اللقاء وعينه على حصد النقاط الثلاث وتوجيه إنذار شديد اللهجة للمنافسين، مستفيداً من كتيبته المدججة بالنجوم، في حين يسعى منتخب جزر القمر لتحقيق مفاجأة والخروج بنتيجة إيجابية أمام أحد المرشحين لللقب. ويستعرض كووورة في التقرير التالي موعد مباراة المغرب وجزر القمر في كأس العرب 2025 والقنوات الناقلة والتشكيل المتوقع. متى موعد مباراة المغرب وجزر القمر في كأس العرب 2025؟ موعد مباراة قطر وفلسطين في كأس العرب 2025، هو الإثنين 1 ديسمبر 2025، على ملعب البيت. وتنطلق صافرة بداية المباراة في السابعة والنصف مساء بتوقيت السعودية وقطر، الثامنة والنصف بتوقيت الإمارات، السادسة والنصف بتوقيت فلسطين. ما القنوات الناقلة لمباراة المغرب وجزر القمر في كأس العرب 2025؟ تنقل مباريات كأس العرب للمنتخبات 2025 عبر قنوات بي إن سبورتس القطرية، وذلك عبر قناتي beIN SPORTS HD و beIN Xtra 1. وأكدت المجموعة أن البطولة مذاعة على قنواتها بالمجان بشكل كامل دون أي اشتراك. كما ستذاع أيضًا مباريات بطولة ك…",
-      "image": null,
-      "pubDate": "2025-11-30T20:28:10.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "f9c340bca3e3d0db",
@@ -1385,6 +1593,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2fe3ef99e8c726fc",
+      "title": "This Cyber Monday deal on smart glasses was too good for my husband to pass up",
+      "link": "https://www.theverge.com/gadgets/834064/echo-frames-cyber-monday-deal-echo-spot",
+      "summary": "You can snag a pair of Amazon’s Alexa-enabled smart glasses for an all-time low price this Cyber Monday. The last thing I need is a new Amazon Echo smart speaker. As The Verge’s smart home reviewer, I currently have a dozen scattered around my home for testing. But when Amazon’s Echo Frames smart g…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-11-30T20:00:00.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2812,22 +3036,6 @@
       "region": "global"
     },
     {
-      "id": "e16e9735e0d7dc9b",
-      "title": "توروب يمنح لاعبي الأهلي الغائبين عن رحلة المغرب راحة",
-      "link": "https://www.yallakora.com/african-champions-league/2965/news/531938/%d8%aa%d9%88%d8%b1%d9%88%d8%a8-%d9%8a%d9%85%d9%86%d8%ad-%d9%84%d8%a7%d8%b9%d8%a8%d9%8a-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d8%ba%d8%a7%d8%a6%d8%a8%d9%8a%d9%86-%d8%b9%d9%86-%d8%b1%d8%ad%d9%84%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%b1%d8%a7%d8%ad%d8%a9",
-      "summary": "منح ييس توروب، المدير الفني للفريق الأول لكرة القدم بالنادي الأهلي، راحة 5 أيام للاعبين الذين لم يرافقوا بعثة الفريق إلى المغرب.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-29T17:59:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "entertainment",
-      "region": "global"
-    },
-    {
       "id": "7ef7869e03916810",
       "title": "Awesome $11 power button gadget lets you start your PC from your desk — make your life easier by not having to bend down to reach the power button, super-durable external power switch",
       "link": "https://www.tomshardware.com/pc-components/awesome-usd8-49-power-button-gadget-lets-you-start-your-pc-from-your-desk-make-your-life-easier-by-not-having-to-bend-down-to-reach-the-power-button-super-durable-external-power-switch-is-15-percent-off",
@@ -2841,22 +3049,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "920d84c4dd4520ff",
-      "title": "بعد 120 دقيقة.. الاتحاد السكندري يودع كأس مصر أمام كهرباء الإسماعيلية",
-      "link": "https://www.yallakora.com/egypt-cup/3014/news/531936/%d8%a8%d8%b9%d8%af-120-%d8%af%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%b3%d9%83%d9%86%d8%af%d8%b1%d9%8a-%d9%8a%d9%88%d8%af%d8%b9-%d9%83%d8%a3%d8%b3-%d9%85%d8%b5%d8%b1-%d8%a3%d9%85%d8%a7%d9%85-%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a%d8%a9",
-      "summary": "أطاح كهرباء الإسماعيلية بنظيره الاتحاد السكندري من بطولة كأس مصر بعد الفوز المثير بنتيجة 1-0، مساء اليوم السبت.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-29T17:45:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3052,22 +3244,6 @@
       "region": "global"
     },
     {
-      "id": "911f13023572c19d",
-      "title": "Here are the best Black Friday deals on fans for your PC — fans from Corsair, be quiet!, Cooler Master, Lian Li, and more",
-      "link": "https://www.tomshardware.com/pc-components/here-are-the-best-black-friday-deals-on-fans-for-your-pc-fans-from-corsair-be-quiet-cooler-master-lian-li-and-more",
-      "summary": "Shop Black Friday deals for a wide variety of 120mm and 140mm fans and save up to 36%",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/3cURmAQbv7CEb9qnU2fwJP-1280-80.jpg",
-      "pubDate": "2025-11-29T12:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "dd5133223df09c50",
       "title": "Colossal Seagate 26TB HDD drops to $249.99, just over $9 per TB — shuckable high-capacity external drive smashes all-time Amazon low",
       "link": "https://www.tomshardware.com/pc-components/external-hdds/colossal-seagate-26tb-hdd-drops-to-usd249-99-just-over-usd9-per-tb-shuckable-high-capacity-external-drive-smashes-all-time-amazon-low",
@@ -3081,6 +3257,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "911f13023572c19d",
+      "title": "Here are the best Black Friday deals on fans for your PC — fans from Corsair, be quiet!, Cooler Master, Lian Li, and more",
+      "link": "https://www.tomshardware.com/pc-components/here-are-the-best-black-friday-deals-on-fans-for-your-pc-fans-from-corsair-be-quiet-cooler-master-lian-li-and-more",
+      "summary": "Shop Black Friday deals for a wide variety of 120mm and 140mm fans and save up to 36%",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/3cURmAQbv7CEb9qnU2fwJP-1280-80.jpg",
+      "pubDate": "2025-11-29T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3420,22 +3612,6 @@
       "region": "global"
     },
     {
-      "id": "6152456561d567d0",
-      "title": "Embattled Dutch chipmaker Nexperia gets into public spat with Chinese owners — accused of deception and obstruction, suspending wafer shipments",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/wingtech-nexperia-dispute-escalates-as-public-accusations-widen-the-rift",
-      "summary": "Tensions inside Nexperia have sharpened after its parent company, Wingtech Technology, publicly accused the Dutch head office of deception and obstruction.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/6CoG4mtxeyTitsu6xtgxUL-1280-80.jpg",
-      "pubDate": "2025-11-28T17:10:33.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ab3607cef0798092",
       "title": "Black Friday deals: Amazon UK's top tablet, laptop and e-reader deals",
       "link": "https://www.gsmarena.com/black_friday_deals_amazon_uks_top_tablet_laptop_and_ereader_deals-news-70493.php",
@@ -3443,22 +3619,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-11-28T16:18:02.000Z",
-      "source": {
-        "name": "GSMArena",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "576749a2e8b279a9",
-      "title": "Apple turned a failing Singles Day sale into success",
-      "link": "https://www.gsmarena.com/apple_drove_a_failing_singles_day_into_growth-news-70490.php",
-      "summary": "Apple carried China's Singles Day shopping festival into sales growth. Apple's iPhone series accounted for 26% of smartphone sales in the one-month promo period that ended on November 11. Per Counterpoint's numbers, removing the iPhone 17 series numbers would leave the Singles Day festival at a 5% …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-11-28T15:03:02.000Z",
       "source": {
         "name": "GSMArena",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
