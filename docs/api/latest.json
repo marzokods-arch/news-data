@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-12-08T22:40:23.817Z",
-    "total": 219,
+    "generated_at": "2025-12-08T22:50:09.765Z",
+    "total": 210,
     "processed_feeds": 16,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
       {
         "name": "The Verge",
         "url": "https://www.theverge.com/rss/index.xml",
@@ -17,8 +30,8 @@
         "cats": [
           "technology"
         ],
-        "taken": 9,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -35,19 +48,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -58,6 +58,19 @@
         ],
         "taken": 67,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -74,32 +87,6 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 113\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
         "homepage": "https://www.kooora.com/",
@@ -109,6 +96,19 @@
           "sports"
         ],
         "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
         "error": null,
         "notModified": false
       },
@@ -139,29 +139,16 @@
         "notModified": false
       },
       {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 45,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 19,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 113\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -169,19 +156,6 @@
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -204,6 +178,32 @@
         "notModified": false
       },
       {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 19,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "AnandTech",
         "url": "https://www.anandtech.com/rss/",
         "homepage": "https://www.anandtech.com/rss/",
@@ -220,19 +220,35 @@
   },
   "items": [
     {
-      "id": "c38a35c096c11f89",
-      "title": "The best iPad deals you can get right now",
-      "link": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "Apple’s latest iPad Pro is only a few months old, but you can already save $100 on the 11-inch base model. | Photo: Amelia Holowaty Krales / The Verge While the best iPad deals usually land during major sale events like Black Friday and Amazon Prime Day, many great iPad deals are available outside …",
+      "id": "607b0413fa1d679d",
+      "title": "Winless Wolves are breaking records - but how bad can things get?",
+      "link": "https://www.bbc.com/sport/football/articles/cly0mr6n0gyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wolves have had a nightmare start to the Premier League season but can they avoid Derby's unwanted record?",
       "body": null,
       "image": null,
-      "pubDate": "2025-12-08T22:25:02.000Z",
+      "pubDate": "2025-12-08T22:40:47.000Z",
       "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "75df9001027004c1",
+      "title": "'Disgraceful' Salah comments have caused 'carnage'",
+      "link": "https://www.bbc.com/sport/football/articles/c05897vy81eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool forward Mohamed Salah is called a \"disgrace\" who has caused \"carnage\" at the club by pundits as the fallout continues from his explosive interview.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-08T22:36:20.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -361,22 +377,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1f1cd490294c47f0",
-      "title": "The 34 best gifts that your teen will actually use",
-      "link": "https://www.theverge.com/tech/785418/best-teen-gift-ideas-2025",
-      "summary": "Between keeping up with TikTok trends and whatever new gadget just dropped, it's tough to know exactly what teens are into these days. Luckily, we can help. We may be older than teenagers, but many of us here at The Verge are kids at heart. Plus, we've also got a few staffers with older kids. To ma…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T21:30:45.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -538,6 +538,54 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "8173e5e11a6647b5",
+      "title": "ميسي يحكي عن جوارديولا قصة للمرة الأولى.. ويتفاعل مع فيديو قديم له",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%8A%D8%B3%D9%8A-%D9%8A%D8%AD%D9%83%D9%8A-%D8%B9%D9%86-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D9%82%D8%B5%D8%A9-%D9%84%D9%84%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84%D9%89-%D9%88%D9%8A%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D9%85%D8%B9-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%82%D8%AF%D9%8A%D9%85-%D9%84%D9%87/bltff82c97a5870d4dc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p>شاهد كيف يتحدث ميسي قصة عن جوارديولا للمرة الأولى.. وتفاعله مع فيديو قديم له</p>",
+      "body": "شاهد كيف يتحدث ميسي قصة عن جوارديولا للمرة الأولى.. وتفاعله مع فيديو قديم له",
+      "image": null,
+      "pubDate": "2025-12-08T20:42:35.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "67f27ee1f4763801",
+      "title": "جاور صلاح وفابريجاس.. برونو ينضم لقائمة استثنائية في البريميرليج",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%A7%D9%88%D8%B1-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D9%81%D8%A7%D8%A8%D8%B1%D9%8A%D8%AC%D8%A7%D8%B3-%D8%A8%D8%B1%D9%88%D9%86%D9%88-%D9%8A%D9%86%D8%B6%D9%85-%D9%84%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/bltcbd6ce9755b94b0d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "لعب البرتغالي برونو فيرنانديز دورا رئيسيا في انتصار مانشستر يونايتد خارج الديار على حساب وولفرهامبتون (4-1)، اليوم الإثنين، في إطار منافسات الجولة 15 من الدوري الإنجليزي الممتاز.",
+      "body": "لعب البرتغالي برونو فيرنانديز دورا رئيسيا في انتصار مانشستر يونايتد خارج الديار على حساب وولفرهامبتون (4-1)، اليوم الإثنين، في إطار منافسات الجولة 15 من الدوري الإنجليزي الممتاز. الدولي البرتغالي سجل هدفين، وصنع آخر لزميله ماسون ماونت، ليمنح اليونايتد رفقة زملائه، فرصة التقدم للمركز السادس والاقتراب من مربع الكبار. وكشفت شبكة \"سكواكا\" للإحصائيات، عن دخول فيرنانديز قائمة استثنائية في البريميرليج تضم لاعبين أمثال سيسك فابريجاس ومحمد صلاح، بعدما بات خامس لاعب يصنع هدفا على الأقل في 5 مباريات متتالية خارج القواعد. وشهدت المباريات الخمس الأخيرة لليونايتد خارج الأرض، تقديم فيرنانديز 6 تمريرات حاسمة لزملائه. على الجانب الآخر، واصل وولفرهامبتون نتائجه الكارثية هذا الموسم، بدون تذوق طعم الانتصار حتى الآن، مما أدى لاحتلاله مؤخرة الجدول بنقطتين فقط. وحسبما ذكرت \"سكواكا\"، فإنه للمرة الأولى منذ فبراير/شباط 1982، يتعرض الذئاب للخسارة في 8 مباريات متتالية بالدوري الإنجليزي. وشهدت المباراة تسجيل وولفرهامبتون أول أهدافه منذ مواجهة بيرنلي في الأسبوع الأخير من شهر أكتوبر/تشرين الأول الماضي، قبل أن يفشل الفريق في هز شباك منافسيه على مدار 5 جولات متتالية.",
+      "image": null,
+      "pubDate": "2025-12-08T20:41:30.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "78f9fe32d8e5f36e",
+      "title": "وزير الشباب والرياضة يحدد موعدا محتملا لحسم أزمة أرض الزمالك",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D9%88%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%8A%D8%AD%D8%AF%D8%AF-%D9%85%D9%88%D8%B9%D8%AF%D8%A7-%D9%85%D8%AD%D8%AA%D9%85%D9%84%D8%A7-%D9%84%D8%AD%D8%B3%D9%85-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%A7%D9%94%D8%B1%D8%B6-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83/bltf6f7d4229ff5a5cd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "طمأن الدكتور أشرف صبحي وزير الشباب والرياضة جماهير نادي الزمالك بشأن مصير أرض فرع أكتوبر مشيرا إلى احتمال صدور قرار حاسم بشأنها خلال الأسبوع المقبل.",
+      "body": "طمأن الدكتور أشرف صبحي وزير الشباب والرياضة جماهير نادي الزمالك بشأن مصير أرض فرع أكتوبر مشيرا إلى احتمال صدور قرار حاسم بشأنها خلال الأسبوع المقبل. وقال صبحي خلال تصريحات تليفزيونية، مساء الاثنين، إن \"الأسبوع المقبل قد يشهد الانتهاء من بعض الإجراءات بشأن فرع الزمالك بمدينة السادس من أكتوبر\". وأكد التزام الحكومة المصرية تجاه النادي، مشيرا إلى أن \"الحلول موجودة ويتم العمل عليها. التنسيق مستمر مع إدارة الزمالك لتجنب اتخاذ إجراء عشوائي قد يسبب مشكلة قانونية\". واسترسل أشرف صبحي قائلا: \"أشعر بالجمهور كمسؤول رياضي وأعمل لصالح المؤسسات الرياضية والزمالك كيان كبير\". وكان وزير الإسكان شريف الشربيني شدد على أن \"وزارة الإسكان حريصة تماما على مصلحة نادي الزمالك وأنها تعمل بالتنسيق مع وزير الشباب والرياضة لطرح حلول بديلة ومناسبة لهذه الأزمة\"، مبينا أن الأزمة ستنتهي في فترة لن تزيد على 3 أشهر. وتمثل أزمة سحب أرض أكتوبر من الزمالك التحدي الأكبر الذي يواجه إدارة الأبيض التي كانت تعتزم إقامة فرع جديد عليها. وأثار هذا القرار قلق كل المنتمين للزمالك، إذ يمثل خسارة فادحة لأحد أهم الأصول المستقبلية للنادي التي كانت ستوفر موارد مالية ضخمة.",
+      "image": null,
+      "pubDate": "2025-12-08T20:40:29.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "52cd486e31d84540",
@@ -876,22 +924,6 @@
       "region": "global"
     },
     {
-      "id": "014813ee55ed7418",
-      "title": "The Apple Watch Series 11 just got a big $100 discount ahead of the holidays",
-      "link": "https://www.theverge.com/gadgets/840161/apple-watch-series-11-holiday-deal-sale-2025",
-      "summary": "The discount brings the price down to $299 ($100 off). | Image: The Verge We thought Black Friday and Cyber Monday would bring the lowest prices of the year, but apparently not. Right now, you can snag Apple’s Watch Series 11 in the 42mm configuration with GPS for a new all-time low of $299 ($100 o…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T19:17:59.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "a202a3d85952250b",
       "title": "قبل المواجهة المرتقبة.. كيف كانت مواجهات السعودية وفلسطين السابقة؟",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D9%82%D8%A8%D8%A9-%D9%83%D9%8A%D9%81-%D9%83%D8%A7%D9%86%D8%AA-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82%D8%A9/bltced5909199c8efde?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -956,70 +988,6 @@
       "region": "mena"
     },
     {
-      "id": "283542a9b0396ff7",
-      "title": "أليسون: استبعاد صلاح نتيجة طبيعية.. وعليه تحمل تبعات تصريحاته",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D9%84%D9%8A%D8%B3%D9%88%D9%86-%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%86%D8%AA%D9%8A%D8%AC%D8%A9-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D9%88%D8%B9%D9%84%D9%8A%D9%87-%D8%AA%D8%AD%D9%85%D9%84-%D8%AA%D8%A8%D8%B9%D8%A7%D8%AA-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA%D9%87/blt967cfed7158abe28?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أكد حارس مرمى ليفربول أليسون بيكر، أنه ينوي التحدث مع زميله محمد صلاح، بشأن تصريحاته الأخيرة التي اتهم فيها ليفربول بإساءة معاملته في ظل ابتعاده عن تشكيلة الفريق الأساسية خلال المباريات الثلاث الأخيرة.",
-      "body": "أكد حارس مرمى ليفربول أليسون بيكر، أنه ينوي التحدث مع زميله محمد صلاح، بشأن تصريحاته الأخيرة التي اتهم فيها ليفربول بإساءة معاملته في ظل ابتعاده عن تشكيلة الفريق الأساسية خلال المباريات الثلاث الأخيرة. &nbsp; &nbsp; وخطفت تصريحات صلاح الأخيرة الأنظار قبل موقعة إنتر ميلان المرتقبة في دوري أبطال أوروبا، غدًا الثلاثاء، وفتحت باب الجدل على مصراعيه داخل أروقة النادي الإنجليزي.&nbsp; &nbsp; وأعلن صلاح في تصريحاته، انهيار علاقته مع مدربه الهولندي أرني سلوت، فضلا عن اتهامه إدارة النادي برغبتها في التخلص منه، فضلا عن عدم التزامها بالوعد التي قدمتها له الصيف الماضي. &nbsp; وبينما يترقب الجميع ما ستسفر عنه المواجهة الأوروبية الكبيرة مساء الثلاثاء، خرج حارس مرمى “الريدز” أليسون بيكر ليدافع بطريقته عن زميله، ويضع النقاط على الحروف بشأن ما يعيشه الفريق في هذه المرحلة الصعبة، مؤكدًا ضرورة الروح الجماعية والتركيز الكامل على التحدي القادم أمام صاحب الأرض. &nbsp; وتطرق أليسون في المؤتمر الصحفي الذي يسبق مواجهة ليفربول مع إنتر ميلان ضمن الجولة السادسة من الدور الأول لمسابقة دوري أبطال أوروبا إلى تداعيات تصريحات صلاح، وموقفه من استبعاد النجم المصري من المباراة، كما تحدث عن وحدة الفريق، ورد على ما أُثير من انتقادات عبر وسائل الإعلام. شخصية عظيمة وعن تعليقه على تصريحات محمد صلاح الأخيرة، قال أليسون: \"ل…",
-      "image": "https://assets.kooora.com/images/v3/getty-2250718133/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/GettyImages-2250718133.jpg",
-      "pubDate": "2025-12-08T19:03:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8bcce1c7a44a8eb2",
-      "title": "Anthropic is bringing Claude Code to Slack",
-      "link": "https://www.theverge.com/news/839817/anthropic-claude-code-slack-integration",
-      "summary": "Slack users can now access Anthropic's Claude Code directly in Slack by tagging Claude on coding-related messages and threads. The new feature is launching today in beta as a research preview. When Claude is tagged, it will now automatically scan the message to see if it's a coding task and, if so,…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T19:01:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "7111c1435fe6704c",
-      "title": "جدول مباريات اليوم الثلاثاء 9 ديسمبر 2025 في كأس العرب .. القنوات الناقلة والمعلقين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-9-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-2025-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blte5fc4fad48b43eb3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين.",
-      "body": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين. يتطلع عشاق كرة القدم اليوم، الثلاثاء الموافق 9 ديسمبر/كانون الأول 2025 إلى بطولة كأس العرب 2025 في قطر. اليوم نهاية مباريات الجولة الثالثة ودور المجموعات، إذ تًختتم مواجهات المجموعة الثالثة بمواجهتين الأولى بين مصر والأردن والثانية ضد الإمارات والكويت في التوقيت ذاته. وفي المساء، تنتهي مباريات المجموعة الرابعة بلقائين بين الجزائر والعراق في ذات توقيت مواجهة البحرين والسودان. كما تنطلق مباريات الجولة السادسة من دوري أبطال أوروبا وأبرزها لقاء بين إنتر وليفربول وكذلك برشلونة وفرانكفورت. في هذا التقرير، يستعرض معكم \"كووورة\" جدول مباريات اليوم الثلاثاء 9 ديسمبر /كانون الأول 2025 والقنوات الناقلة لهذه المواجهات المرتقبة. ما القنوات الناقلة لمباريات اليوم الثلاثاء 9 ديسمبر 2025؟ يمكن مشاهدة مباريات كأس العرب ودوري أبطال أوروبا عبر قنوات beIN SPORTS، ولهواة البث المباشر، فإنّ تطبيق TOD TV هو الناقل الرسمي. كما أنّ قنوات الكأس، أبو ظبي الرياضية، دبي الرياضية، المغربية الرياضية، السادسة الجزائرية، الكويت الرياضية وغيرها من القنوات تنقل كأس العرب، ويمكن متابعتها عبر الإنترنت عن طريق تطبيق شاشا و stc tv وموقع كووورة. وإن كنت ترغب في مشاهد البث المباشر من أي مكان في العالم يمكن الاستعانة بتطبيق Nord VPN beIN SPORTS HD شاهد من هنا قنوات ال…",
-      "image": null,
-      "pubDate": "2025-12-08T19:00:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0386f386512f2f1c",
-      "title": "كاراجر يتهم صلاح بالتخطيط للإطاحة بسلوت",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%83%D8%A7%D8%B1%D8%A7%D8%AC%D8%B1-%D9%8A%D8%AA%D9%87%D9%85-%D8%B5%D9%84%D8%A7%D8%AD-%D8%A8%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-%D9%84%D9%84%D8%A7%D9%95%D8%B7%D8%A7%D8%AD%D8%A9-%D8%A8%D8%B3%D9%84%D9%88%D8%AA/bltb309cccb94ed14ed?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">وصف مدافع ليفربول ليفربول السابق جيمي كاراجر، سلوك نجم الفريق الحالي محمد صلاح بأنه \"عار\" بسبب تصريحاته الصحفية الصادمة، لكنه أعرب في الوقت ذاته عن أمله في ألا يكون صلاح قد خاض مباراته الأخيرة مع النادي.</p><p style=\"direction: rtl;\">&nbsp;</p><p style=\"direction: rtl;\">و…",
-      "body": "وصف مدافع ليفربول ليفربول السابق جيمي كاراجر، سلوك نجم الفريق الحالي محمد صلاح بأنه \"عار\" بسبب تصريحاته الصحفية الصادمة، لكنه أعرب في الوقت ذاته عن أمله في ألا يكون صلاح قد خاض مباراته الأخيرة مع النادي. &nbsp; وكان ليفربول قد استبعد صلاح من قائمة الفريق لملاقاة إنتر ميلان مساء الثلاثاء، بعد أن صرّح النجم المصري بأنه لم تعد تربطه أي علاقة بالمدرب آرني سلوت، كما زعم أن النادي \"رماه تحت الحافلة\" بسبب قرار إبقائه على مقاعد البدلاء للمباراة الثالثة على التوالي. تصريحات لتعزيز الموقف الشخصي كاراجر، الذي ذُكر اسمه أيضًا بشكل مباشر في مقابلة صلاح، يعتقد أن تدخل النجم المصري كان مدبرا مسبقً وربما كان يهدف إلى الإطاحة بالمدرب سلوت. &nbsp; وقال كاراجر خلال ظهوره في برنامج \"مونداي نايت فوتبول\" على شبكة \"سكاي سبورتس\" مساء الاثنين: \"بصراحة، أرى أن ما فعله كان عارا بعد المباراة. بعض الناس صوّروا الأمر على أنه انفجار عاطفي، لكنني لا أعتقد ذلك إطلاقا\". &nbsp; وأضاف: \"في كل مرة يتوقف فيها محمد صلاح في المنطقة المختلطة للحديث مع الصحفيين، وهو أمر فعله أربع مرات فقط خلال ثماني سنوات في ليفربول، يكون ذلك دائمًا منسقا مع وكيله لإحداث أكبر قدر ممكن من الضرر وتعزيز موقفه الشخصي\". محاولة للإطاحة بالمدرب وتابع كاراجر هجومه الحاد قائلا: \"لقد اختار هذا التوقيت تحديدًا للقيام بذلك، وانتظر — من وجهة نظري — حت…",
-      "image": "https://assets.kooora.com/images/v3/getty-2250700301/crop/MM5DINBQGA5DENBXGU5G433XMU5DAORSG4YQ====/GettyImages-2250700301.jpg",
-      "pubDate": "2025-12-08T18:59:06.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "007c31bda007b560",
       "title": "Intel Arc B370 Xe3 iGPU appears on Furmark 2 — Panther Lake graphics fall 14% behind last-gen Xe2 Arc 140V",
       "link": "https://www.tomshardware.com/pc-components/gpus/intel-arc-b370-xe3-igpu-appears-on-furmark-2-panther-lake-graphics-fall-14-percent-behind-last-gen-xe2-arc-140v",
@@ -1068,22 +1036,6 @@
       "region": "global"
     },
     {
-      "id": "2bc5572d6d0bc941",
-      "title": "Lenovo’s next gaming laptop may have a rollable OLED screen that stretches ultrawide",
-      "link": "https://www.theverge.com/news/840124/lenovo-rollable-legion-pro-gaming-laptop-rumor",
-      "summary": "Lenovo has already demonstrated its ability to put rollable OLEDs into laptops by graduating last year from demo concept models to shipping the ThinkBook Plus Gen 6, an actual device you can buy. It has a built-in mechanism that expands the screen vertically to give you more screen real estate for …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T18:33:51.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "3f40afcf7da0776f",
       "title": "\"2 من 32\".. سلاح بلا ذخيرة يحبط ظهور منتخب مصر في كأس العرب (أرقام)",
       "link": "https://www.yallakora.com/fifa-arab-cup/2966/news/533038/-2-%d9%85%d9%86-32-%d8%b3%d9%84%d8%a7%d8%ad-%d8%a8%d9%84%d8%a7-%d8%b0%d8%ae%d9%8a%d8%b1%d8%a9-%d9%8a%d8%ad%d8%a8%d8%b7-%d8%b8%d9%87%d9%88%d8%b1-%d9%85%d9%86%d8%aa%d8%ae%d8%a8-%d9%85%d8%b5%d8%b1-%d9%81%d9%8a-%d9%83%d8%a3%d8%b3-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-%d8%a3%d8%b1%d9%82%d8%a7%d9%85-",
@@ -1097,22 +1049,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0f384f2122c8ece5",
-      "title": "It’s ugly, it’s beautiful, it’s how you know a game might be a classic",
-      "link": "https://www.theverge.com/entertainment/840080/square-enix-hd2d-games-octopath-dragon-quest",
-      "summary": "At their biggest and most expensive, video games all sort of look the same. The reason often comes down to simple economics: More resources means more costs that need to be recouped, and historically the way publishers have done that is by being comically risk-averse. Hence the glut of semi-realist…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T18:30:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1180,22 +1116,6 @@
       "region": "global"
     },
     {
-      "id": "91774118185f663d",
-      "title": "A first look at Google’s Project Aura glasses built with Xreal",
-      "link": "https://www.theverge.com/tech/839392/project-aura-android-xr-software-headsets-ai-glasses",
-      "summary": "Google provided this photo of Project Aura, as we were not allowed to take our own. | Photo: Google, Xreal Teased at Google I/O, Project Aura is a collaboration between Xreal and Google. It's the second Android XR device (the first being Samsung's Galaxy XR headset) and is expected to launch in 202…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T18:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "30ca5e7f63f0872b",
       "title": "بمشاركة بيراميدز.. فيفا يعلن ملعب نهائي كأس إنتر كونتيننتال 2025",
       "link": "https://www.yallakora.com/fifa-intercontinental-cup/2972/news/533034/%d8%a8%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a8%d9%8a%d8%b1%d8%a7%d9%85%d9%8a%d8%af%d8%b2-%d9%81%d9%8a%d9%81%d8%a7-%d9%8a%d8%b9%d9%84%d9%86-%d9%85%d9%84%d8%b9%d8%a8-%d9%86%d9%87%d8%a7%d8%a6%d9%8a-%d9%83%d8%a3%d8%b3-%d8%a5%d9%86%d8%aa%d8%b1-%d9%83%d9%88%d9%86%d8%aa%d9%8a%d9%86%d9%86%d8%aa%d8%a7%d9%84-2025",
@@ -1244,22 +1164,6 @@
       "region": "global"
     },
     {
-      "id": "c27018b55ea94d05",
-      "title": "HP OmniBook 5 14 review: an OLED is almost enough",
-      "link": "https://www.theverge.com/tech/839858/hp-omnibook-5-14-snapdragon-arm-oled-laptop-review",
-      "summary": "That vivid OLED display is one of the OmniBook’s biggest draws. You know what I love more than OLEDs? Cheap OLEDs. And that's exactly what drew me to the 14-inch HP OmniBook 5. It's a $700 Windows laptop with a Snapdragon X Plus processor and an OLED screen. That means it should have great battery …",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T17:30:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c192282b8d8577c5",
       "title": "Norris keen to 'live a normal few days' and 'forget I drive in F1'",
       "link": "https://www.bbc.com/sport/formula1/articles/c4g45j2xn26o?at_medium=RSS&at_campaign=rss",
@@ -1273,22 +1177,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "332332b9f11a1cb3",
-      "title": "Analogue is restocking its 4K N64 and making it more colorful",
-      "link": "https://www.theverge.com/news/840068/analogue-3d-transparent-funtastic-limited-edition",
-      "summary": "As if the Analogue 3D wasn't nostalgic enough, the 4K N64 emulator will soon be available in a handful of transparent \"Funtastic\" limited editions going on sale on December 10th at 8AM Pacific/11AM Eastern. The vibrant transparent models will be available \"in highly limited quantities,\" and they'll…",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T17:18:28.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2092,22 +1980,6 @@
       "region": "global"
     },
     {
-      "id": "89ad5437f29242de",
-      "title": "Worse than Derby? Can Wolves avoid the unwanted record?",
-      "link": "https://www.bbc.com/sport/football/articles/cly0mr6n0gyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wolves have had a nightmare start to the Premier League season but can they avoid Derby's unwanted record?",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-08T07:04:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "9e82da30722edec0",
       "title": "vivo S50 and S50 Pro mini launch date revealed",
       "link": "https://www.gsmarena.com/vivo_s50_and_s50_pro_mini_launch_date_revealed-news-70603.php",
@@ -2329,22 +2201,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1d6749428180a776",
-      "title": "Al Hilal prepare Salah bid - Monday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/cp8z92rgy3mo?at_medium=RSS&at_campaign=rss",
-      "summary": "Al Hilal are ready to offer Mohamed Salah a move away from Liverpool, who have already identified Bournemouth's Antoine Semenyo as his replacement.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-07T21:58:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
