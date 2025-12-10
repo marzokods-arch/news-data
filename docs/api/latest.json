@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-12-10T07:40:18.694Z",
-    "total": 206,
+    "generated_at": "2025-12-10T07:50:31.068Z",
+    "total": 207,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -17,7 +17,20 @@
         "cats": [
           "sports"
         ],
-        "taken": 64,
+        "taken": 65,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -48,6 +61,19 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Variety (Entertainment)",
         "url": "https://variety.com/feed/",
         "homepage": "https://variety.com/feed/",
@@ -74,19 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Masrawy — لايف ستايل",
         "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
@@ -97,32 +110,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 44,
-        "error": null,
         "notModified": false
       },
       {
@@ -139,16 +126,16 @@
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 44,
+        "error": null,
         "notModified": false
       },
       {
@@ -165,16 +152,29 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
         "lang": "ar",
-        "region": "mena",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -234,6 +234,38 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "da710e61c54cb587",
+      "title": "The man behind the headlines - Salah, by Klopp, Diaz and more",
+      "link": "https://www.bbc.com/sport/football/articles/cjezk98ny81o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport explores Mohamed Salah's personality with help from the people who know him best.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-10T07:46:34.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "646588580d0cb836",
+      "title": "World Cup 'Pride Match' set to take place amid Egypt anger",
+      "link": "https://www.bbc.com/sport/football/articles/c208392884jo?at_medium=RSS&at_campaign=rss",
+      "summary": "The organisation behind the LGBTQ+ \"Pride Match\" at the 2026 World Cup say they intend to push forward with their plans despite one of the teams involved objecting to Fifa.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-10T07:45:55.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
     },
     {
       "id": "3ba56c686a98745b",
@@ -380,20 +412,20 @@
       "region": "global"
     },
     {
-      "id": "87d8fac85c89f820",
-      "title": "Watch new Salah documentary on BBC iPlayer",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m002p54c?at_medium=RSS&at_campaign=rss",
-      "summary": "The story of Mo Salah’s unlikely rise to global stardom.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-10T06:00:00.000Z",
+      "id": "1c00bc26e886590c",
+      "title": "كومباني: نجم بايرن خطير وقاتل.. وعودة ديفيز لحظة جيدة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%83%D9%88%D9%85%D8%A8%D8%A7%D9%86%D9%8A-%D9%86%D8%AC%D9%85-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D8%AE%D8%B7%D9%8A%D8%B1-%D9%88%D9%82%D8%A7%D8%AA%D9%84-%D9%88%D8%B9%D9%88%D8%AF%D8%A9-%D8%AF%D9%8A%D9%81%D9%8A%D8%B2-%D9%84%D8%AD%D8%B8%D8%A9-%D8%AC%D9%8A%D8%AF%D8%A9/bltdddd856d750249ac?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تحدث فنسنت كومباني، مدرب بايرن ميونخ، عن الانتصار الذي حققه فريقه على حساب سبورتنج لشبونة البرتغالي بنتيجة (3-1)، مساء أمس الثلاثاء، ضمن لقاءات الجولة السادسة من مرحلة الدوري لمسابقة دوري أبطال أوروبا.",
+      "body": "تحدث فنسنت كومباني، مدرب بايرن ميونخ، عن الانتصار الذي حققه فريقه على حساب سبورتنج لشبونة البرتغالي بنتيجة (3-1)، مساء أمس الثلاثاء، ضمن لقاءات الجولة السادسة من مرحلة الدوري لمسابقة دوري أبطال أوروبا. صعوبة سبورتنج وقال كومباني عن اللقاء بحسب ما نقل الموقع الرسمي للبايرن: \"سبورتنج خصم صعب، هم ضمن الثمانية الأوائل في دوري أبطال أوروبا لسبب وجيه. لقد حافظنا على هدوئنا بعد أن تأخرنا في النتيجة، أنا سعيد لأن فونزى (ألفونسو ديفيز) عاد. استغرق الأمر تسعة أشهر. هذه لحظات جيدة بالنسبة لنا\". إشادة وأشاد كومباني بمستوى اللاعب الشاب لينارت كارل الذي حصد جائزة أفضل لاعب في المباراة، فقال: \"لينارت (كارل) دائما خطير. لأكون صادقا، لقد قدم مباريات أفضل لنا، لكنه موجود دائما. عندما يحصل على فرصه يكون قاتلا (للمنافسين) وهذا مهم بالنسبة لنا\". وأضاف: \"إذا كنت موضوعيا للغاية، فإن ليني لعب مباريات أفضل لنا. لكن تحية كبيرة له لأنه دائما خطير. من الرائع أن يكون تهديدا بهذا الحجم في مثل سنه دون أن يكون قد لعب حتى أفضل مباراة له. إنه أيضا يدافع ويرتد للخلف مع الفريق. تطور جميل، ولكن هناك المزيد ليقدمه\". مكافأة ورقم قياسي جديد من جانبه عبر الشاب كارل عن فخره بتحقيق رقم قياسي جديد كونه أصغر لاعب في تاريخ دوري الأبطال يسجل في 3 مباريات متتالية إذ قال: \"إنه أمر مميز للغاية بالنسبة لي أن أسجل في دوري أبطال أور…",
+      "image": "https://assets.kooora.com/images/v3/getty-2250997733/crop/MM5DEOBSGA5DCNJYGY5G433XMU5DAORRGQ3Q====/GettyImages-2250997733.jpg",
+      "pubDate": "2025-12-10T05:45:15.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
     },
     {
       "id": "2aa15f30b8e07c6a",
@@ -476,8 +508,8 @@
       "region": "global"
     },
     {
-      "id": "27d8974831b61a9e",
-      "title": "Aryan Khan’s Netflix Series ‘The Ba*ds of Bollywood’ Tops IMDb’s 2025 Most Popular Indian Shows (EXCLUSIVE)",
+      "id": "078c3ce57ed1dc8c",
+      "title": "Aryan Khan’s Netflix Series ‘The Ba***ds of Bollywood’ Tops IMDb’s 2025 Most Popular Indian Shows (EXCLUSIVE)",
       "link": "https://variety.com/2025/tv/news/aryan-khan-bads-of-bollywood-imdb-top-indian-series-2025-1236604983/",
       "summary": "IMDb has unveiled its annual ranking of the most popular Indian series of 2025, with Aryan Khan’s “The Ba***ds of Bollywood” claiming the top spot among global viewers. The rankings are determined by page views from IMDb’s more than 250 million monthly visitors worldwide and include series released…",
       "body": null,
@@ -1075,22 +1107,6 @@
       "body": "تعرف على جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 والقنوات الناقلة والترتيب.. يستعد ليفربول لخوض نسخة جديدة من دوري أبطال أوروبا وطموحه تكرار إنجاز 2019 وحصد البطولة. الريدز قدّم مستويات مميزة الموسم الماضي في دوري الأبطال وتصدر مرحلة الدوري، لكنّه ودّع المسابقة من ثمن النهائي أمام باريس سان جيرمان. ونجحت كتيبة أرني سلوت في جلب صفقات كبيرة خلال الصيف الجاري، كما بدأ ليفربول الموسم بنتائج إيجابية، لترتفع التطلعات بالفوز باللقب القاري في الموسم الحالي. ويستعرض كووورة جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 وترتيبه العام في مرحلة الدوري.. جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 - مرحلة الدوري &nbsp; المباراة الموعد النتيجة الملعب ليفربول - أتلتيكو مدريد الأربعاء 17 سبتمبر 2025 22:00 السعودية، 23:00 الإمارات 2-3 أنفيلد جلطة سراي - ليفربول الثلاثاء 30 سبتمبر 2025 22:00 السعودية، 23:00 الإمارات 0-1 رامس بارك فرانكفورت - ليفربول الأربعاء 22 أكتوبر 2025 22:00 السعودية، 23:00 الإمارات 5-1 كومرتسبانك أرينا ليفربول - ريال مدريد الثلاثاء 4 نوفمبر 2025 23:00 السعودية، 00:00 الإمارات 0-1 أنفيلد ليفربول - أيندهوفن الأربعاء 26 نوفمبر 2025 23:00 السعودية، 00:00 الإمارات 4-1 أنفيلد إنتر - ليفربول الثلاثاء 9 ديسمبر 2025 23:00 السعودية، 00:00 الإمارات 1-0 جيوزيبي مي…",
       "image": null,
       "pubDate": "2025-12-09T20:19:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3fc9be3657c178f4",
-      "title": "جدول مباريات دوري أبطال أوروبا 2025-2026 وترتيب الدوري .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2025-2026-%D9%88%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt46e903a9895bc932?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "جدول مباريات دوري أبطال أوروبا 2025-2026 والقنوات الناقلة وكل ما تريد معرفته عن نظام البطولة وجوائزها المالية..",
-      "body": "جدول مباريات دوري أبطال أوروبا 2025-2026 والقنوات الناقلة وكل ما تريد معرفته عن نظام البطولة وجوائزها المالية.. انطلقت منافسات دوري أبطال أوروبا 2025-2026 وسط ترقب جماهيري واسع، وهي النسخة الثانية على التوالي بالنظام الجديد، وسط تغييرات تنظيمية شاملة ضاعفت من متعة البطولة مع مواجهات نارية بين الكبار في جميع المراحل. وكانت أبرز التغييرات في نظام دوري أبطال أوروبا، هو زيادة عدد الفرق المشاركة في دور المجموعات إلى 36 فريقًا، ضمن نظام الدوري الموحد الذي أقره الاتحاد الأوروبي لكرة القدم، علمًا بأن هذه التعديلات نجحت في زيادة التنافسية وأسفرت في النسختين الماضية والحالية عن مواجهات أكثر إثارة بين كبار القارة في مراحل مبكرة من البطولة. وبعد فوز باريس سان جيرمان للمرة الأولى في تاريخه بلقب دوري أبطال أوروبا العام الماضي، تدخل أندية مثل مانشستر سيتي، برشلونة، ريال مدريد، إنتر، ليفربول وبايرن ميونخ المسابقة وهي تحمل ترشيحات قوية للظفر باللقب، مدعومة بكوكبة من النجوم ومدربين ذوي خبرة أوروبية. ويرصد كووورة في السطور التالية جدول مباريات دوري أبطال أوروبا 2025-2025-2026 وترتيب مرحلة الدوري، على النحو التالي: مواعيد مباريات دوري أبطال أوروبا 2025-2026 تبدأ مرحلة الدوري في دوري أبطال أوروبا، يوم 16 سبتمبر/أيلول 2025 وتنتهي البطولة يوم 30 مايو/آيار 2026. وبدأت البطولة فعليًا بالأدوار التأهيلية لم…",
-      "image": null,
-      "pubDate": "2025-12-09T20:14:22.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
