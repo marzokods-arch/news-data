@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-12-15T19:34:05.943Z",
-    "total": 304,
+    "generated_at": "2025-12-15T19:44:05.455Z",
+    "total": 342,
     "processed_feeds": 23,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -19,19 +19,6 @@
         ],
         "taken": 0,
         "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -87,16 +74,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -113,16 +113,29 @@
         "notModified": false
       },
       {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 41,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 131\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -139,16 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "gulf",
+        "region": "egypt",
         "cats": [
-          "lifestyle"
+          "sports"
         ],
-        "taken": 100,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -165,15 +178,28 @@
         "notModified": false
       },
       {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 41,
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -191,29 +217,16 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 131\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -230,16 +243,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -269,16 +282,16 @@
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -293,23 +306,42 @@
         "taken": 10,
         "error": null,
         "notModified": false
-      },
-      {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "AbortError: This operation was aborted",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "f4e0cc76c1794173",
+      "title": "حموشي يزف خبرا سعيدا لموظفي الأمن",
+      "link": "https://assabah.ma/889355.html",
+      "summary": "في إطار المبادرات ذات الطابع الاجتماعي والصحي المقدمة لأسرة الأمن الوطني, أصدر عبد اللطيف حموشي المدير العام للأمن الوطني ومراقبة التراب الوطني، قرارا يقضي بصرف مساعدات مالية استثنائية لما مجموعه 409 مستفيدة ومستفيدا من موظفي الشرطة ممن يعانون من أمراض خطيرة ومكلفة، أو لفائدة ذوي حقوقهمأكمل القراءة…",
+      "body": "&nbsp; في إطار المبادرات ذات الطابع الاجتماعي والصحي المقدمة لأسرة الأمن الوطني, أصدر عبد اللطيف حموشي المدير العام للأمن الوطني ومراقبة التراب الوطني، قرارا يقضي بصرف مساعدات مالية استثنائية لما مجموعه 409 مستفيدة ومستفيدا من موظفي الشرطة ممن يعانون من أمراض خطيرة ومكلفة، أو لفائدة ذوي حقوقهم أكمل القراءة &raquo; المقالة حموشي يزف خبرا سعيدا لموظفي الأمن fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2025-12-15T19:39:32.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0d2649ff427c5b71",
+      "title": "Donegal captain McBrearty retires from inter-county football",
+      "link": "https://www.bbc.com/sport/articles/cly1027123go?at_medium=RSS&at_campaign=rss",
+      "summary": "Donegal skipper Patrick McBrearty retires from inter-county football because of persistent injury problems.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T19:39:31.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "117137630cdf1050",
       "title": "Menzies apologises for repeatedly punching table after loss",
@@ -388,6 +420,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "657f3ea3beec3017",
+      "title": "Cozy Earth Is Offering 40 Percent off Pajamas Right Now",
+      "link": "https://www.wired.com/story/cozy-earth-pajamas-flash-deal-december-2025/",
+      "summary": "Rarely are deals better than what you see on Black Friday, but Cozy Earth's upping the ante for this pajama sale.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T18:27:02.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -487,6 +535,38 @@
       "region": "global"
     },
     {
+      "id": "c7298ba58a77d94a",
+      "title": "بالفيديو.. هدف مباراة السعودية ضد الأردن",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%87%D8%AF%D9%81-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AF%D9%86/blt3ab54ade8f1dea08?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رأسية قوية تمنح الاردن الفوز على السعودية في كأس العرب",
+      "body": "رأسية قوية تمنح الاردن الفوز على السعودية في كأس العرب تأهل منتخب الأردن إلى نهائي بطولة كأس العرب 2025، بعدما انتصر على شقيقه السعودي بهدف نظيف. هدف المباراة الوحيد جاء عن طريق نزان الرشدان بعد عرضية مميزة من محمود مرضي. بهذه النتيجة يضرب النشامى موعدا ناريا مع منتخب المغرب، في نهائي البطولة، الخميس المقبل. في حين سيلعب منتخب السعودية ضد الإمارات في مباراة تحديد المركزين الثالث والرابع، الخميس. وكان المنتخب المغربي قد تفوق في نصف النهائي الأول على الإمارات بثلاثية نظيفة. &nbsp; شووف الهدف | منتخب الأردن تقدم 1-0 السعودية.. نزار الرشدان الدقيقة 66 .. كأس العرب قطر 2025 #السعودية_الأردن | #الأردن_السعودية #كأس_العرب2025 #قنوات_الكاس | #منصة_شووف pic.twitter.com/XUuuUPVxHS &mdash; قنوات الكاس (@AlkassTVSports) December 15, 2025 &nbsp;",
+      "image": null,
+      "pubDate": "2025-12-15T17:41:05.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "4528d6f0d28ad733",
+      "title": "المنتخب الأردني ينهي أحلام السعودية ويتأهل إلى نهائي كأس العرب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AF%D9%86%D9%8A-%D9%8A%D9%86%D9%87%D9%8A-%D8%A7%D9%94%D8%AD%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D9%8A%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D8%A7%D9%95%D9%84%D9%89-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/bltf67195ddb320d41b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"direction: rtl;\">حجز منتخب الأردن مقعده في نهائي كأس العرب 2025 بعد فوز مثير على حساب السعودية بنتيجة 1-0 مساء اليوم الاثنين على ملعب \"البيت\" بالعاصمة القطرية الدوحة في نصف النهائي.</p><p style=\"direction: rtl;\">سجل للمنتخب الأردني لاعبه نزار الرشدان في الدقيقة 66 من عمر المباراة التي شهد…",
+      "body": "حجز منتخب الأردن مقعده في نهائي كأس العرب 2025 بعد فوز مثير على حساب السعودية بنتيجة 1-0 مساء اليوم الاثنين على ملعب \"البيت\" بالعاصمة القطرية الدوحة في نصف النهائي. سجل للمنتخب الأردني لاعبه نزار الرشدان في الدقيقة 66 من عمر المباراة التي شهدت حضوراً جماهيرياً كبيراً. وتأهل النشامى بقيادة المدرب المغربي جمال السلامي لأول مرة إلى نهائي كأس العرب ليضربوا موعداً مع المغرب يوم الخميس المقبل بينما ودع المنتخب السعودي بقيادة مدربه الفرنسي هيرفي رينارد. بداية حذرة الدقائق الأولى من عمر المباراة اتسمت بالحذر الشديد من جانب المنتخب الأردني بينما استحوذ المنتخب السعودي على خط الوسط ولكن دون صناعة الخطورة على مرمى الحارس يزيد أبو ليلى. وانطلق سالم الدوسري يساراً ولكن الدفاع الأردني أبعد الخطورة ثم محاولة من جانب أبو الشامات تعامل معها اللاعب بشكل مميز، وكانت المحاولة الأولى للمنتخب الأردني عن طريق أحمد العرسان الذي انطلق في عمق الدفاع ولكنه لم يصل للمرمى. واتسمت المباراة بالأجواء الجماهيرية الرائعة ولكن الربع ساعة الأولى جاءت هادئة وبعيدة تماماً عن أي فرص حقيقية من جانب المنتخبين. مطالبة بضربة جزاء للسعودية المنتخب الأردني فرض أسلوبه وإيقاعه بينما سنحت محاولة من صالح أبو الشامات بانطلاقة سريعة في عمق الدفاع، ورد النشامى بفرصة خطيرة من كرة عرضية أبعدها الدفاع السعودي. ونشطت محاولات المنتخب ال…",
+      "image": "https://assets.kooora.com/images/v3/blt419704bf762787f1/jordannnn.jpg",
+      "pubDate": "2025-12-15T17:35:24.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "77f0d0b57f86624f",
       "title": "تحليل.. حزام ناري يقوض السعودية ويقود الأردن لنهائي كأس العرب",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%AD%D8%B2%D8%A7%D9%85-%D9%86%D8%A7%D8%B1%D9%8A-%D9%8A%D9%82%D9%88%D8%B6-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D9%8A%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AF%D9%86-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/bltf4308ff9c820f58e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -517,6 +597,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "6815c2cfd1f2a18d",
+      "title": "Get 22 Percent Off One of Our (and Taylor Swift’s) Favorite Pillows",
+      "link": "https://www.wired.com/story/coop-pillow-sale-taylor-swift-2025/",
+      "summary": "Eagle-eyed Swifties have ID’d the star’s pillow brand in a recent TV show appearance, and it’s one of my favorites as well. Coop is having a special sale to commemorate the event.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T17:16:12.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "af97bb2c6bd6a77e",
@@ -855,22 +951,6 @@
       "region": "mena"
     },
     {
-      "id": "7904bf832a83fcf2",
-      "title": "رقم السكتيوي وبصمة إماراتية في أبرز مشاهد تأهل المغرب لنهائي كأس العرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B1%D9%82%D9%85-%D8%A7%D9%84%D8%B3%D9%83%D8%AA%D9%8A%D9%88%D9%8A-%D9%88%D8%A8%D8%B5%D9%85%D8%A9-%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%94%D8%A8%D8%B1%D8%B2-%D9%85%D8%B4%D8%A7%D9%87%D8%AF-%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/bltc4046505805dc31b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "احتفل المنتخب المغربي بتأهله إلى نهائي بطولة كأس العرب المقامة حاليًا في قطر، عقب تجاوزه منتخب الإمارات (3-0) مساء اليوم الإثنين، في مباراة حفلت بعدة مشاهد لافتة، أبرزها الأرقام القياسية غير المسبوقة التي بصم عليها المدرب طارق السكتيوي.",
-      "body": "احتفل المنتخب المغربي بتأهله إلى نهائي بطولة كأس العرب المقامة حاليًا في قطر، عقب تجاوزه منتخب الإمارات (3-0) مساء اليوم الإثنين، في مباراة حفلت بعدة مشاهد لافتة، أبرزها الأرقام القياسية غير المسبوقة التي بصم عليها المدرب طارق السكتيوي. &nbsp; ويرصد \"كووورة\" في السطور التالية أبرز مشاهد المباراة: كلين شيت جديد للمباراة الرابعة تواليًا، نجح المنتخب المغربي في الحفاظ على نظافة شباكه، ليصبح الحارس المهدي بنعبيد الوحيد بين حراس البطولة الذي لم يستقبل أي هدف. &nbsp; وكان المنتخب المغربي قد استقبل هدفًا وحيدًا خلال مواجهة جزر القمر في دور المجموعات، عبر هدف عكسي سجله محمد بولكسوت بالخطأ في مرماه، في لقاء شهد مشاركة الحارس صلاح الدين شهاب، وهو ما يعكس الصلابة الكبيرة للمنظومة الدفاعية المغربية. تفوق السكتيوي تفوق السكتيوي بشكل واضح على نظيره كوزمين أولاريو مدرب الإمارات خلال فترات المباراة، من حيث الاستحواذ وعدد الفرص والسيطرة الميدانية، قبل أن يترجم هذا التفوق خلال الربع ساعة الأخيرة من الشوط الثاني.&nbsp; &nbsp; وساهمت التغييرات التي أجراها في تعزيز النتيجة، بعدما حمل الهدف الثاني بصمة تمريرة من عبد الرزاق حمد الله، فيما نجح أشرف المهديوي في التسجيل بعد دقائق قليلة فقط من دخوله أرضية الملعب، كما كان إشراك وليد الكرتي حاسمًا في استعادة التوازن بخط الوسط، قبل أن يعود حمد الله لتسجيل الهد…",
-      "image": null,
-      "pubDate": "2025-12-15T15:31:07.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "c15b66c7135a2ce3",
       "title": "حقوقيون: تثمين العمل المنزلي للمرأة مسؤولية الدولة",
       "link": "https://assabah.ma/889316.html",
@@ -885,22 +965,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "b2bd7b6936803eb0",
-      "title": "ثقب في الرئة وكسر بالضلوع.. إصابة مروعة لنجم إنجلترا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D9%82%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D9%94%D8%A9-%D9%88%D9%83%D8%B3%D8%B1-%D8%A8%D8%A7%D9%84%D8%B6%D9%84%D9%88%D8%B9-%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D9%85%D8%B1%D9%88%D8%B9%D8%A9-%D9%84%D9%86%D8%AC%D9%85-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7/bltd0e8623c11eb72dd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نجم نيوكاسل دان بيرن سيغيب لفترة طويلة",
-      "body": "نجم نيوكاسل دان بيرن سيغيب لفترة طويلة تلقى نيوكاسل يونايتد ضربة قوية، بعد تأكد إصابة مدافعه الدولي الإنجليزي دان بيرن بثقب في الرئة وكسر في أحد الضلوع، ما سيحرمه من المشاركة مع الفريق لمدة قد تصل إلى ستة أسابيع، في توقيت حرج يشهد ازدحامًا كبيرًا في المباريات. وبحسب ما كشفته ديلي ميل سبورت، فإن بيرن تعرّض للإصابة خلال خسارة نيوكاسل أمام غريمه سندرلاند بهدف دون رد في ديربي تاين وير ، إثر اصطدام عنيف مع نوردي موكيلي، اضطره لمغادرة الملعب قبل نهاية الشوط الأول. وخسر فريق نيوكاسل يونايتد أمام غريمه سندرلاند، بنتيجة 1-0، مساء أمس الأحد، ضمن الجولة 16 للدوري الإنجليزي. وعانى بيرن من صعوبة واضحة في التنفس، قبل أن يُنقل مباشرة إلى المستشفى بين الشوطين لإجراء الفحوصات، التي أكدت إصابته بثقب في الرئة وكسر في الضلع، ليغيب رسميًا عن فترة الأعياد بالكامل ومعظم شهر يناير/ كانون الثاني، وقد يمتد غيابه إلى نحو 10 مباريات. وتأتي إصابة نائب قائد الفريق في وقت بالغ الصعوبة لإيدي هاو، خاصة مع استمرار غياب عدد من المدافعين الأساسيين بسبب الإصابة، أبرزهم سفين بوتمان، كيران تريبيير، جمال لاسيلس وإميل كرافت، ما يترك المدرب بأربعة مدافعين كبار فقط. ويستعد نيوكاسل لسلسلة مباريات مكثفة، تشمل أربع مواجهات خلال أقل من أسبوعين، تبدأ بملاقاة فولهام في ربع نهائي كأس رابطة المحترفين، وسط مخاوف متزايدة من تفاقم أز…",
-      "image": null,
-      "pubDate": "2025-12-15T15:27:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "502d4afc0dc08b2d",
@@ -932,22 +996,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f334553c5c572750",
-      "title": "The fast and the future-focused are revolutionizing motorsport",
-      "link": "https://www.technologyreview.com/2025/12/15/1127432/the-fast-and-the-future-focused-are-revolutionizing-motorsport/",
-      "summary": "When the ABB FIA Formula E World Championship launched its first race through Beijing’s Olympic Park in 2014, the idea of all-electric motorsport still bordered on experimental. Batteries couldn’t yet last a full race, and drivers had to switch cars mid-competition. Just over a decade later, Formul…",
-      "body": "When the ABB FIA Formula E World Championship launched its first race through Beijing’s Olympic Park in 2014, the idea of all-electric motorsport still bordered on experimental. Batteries couldn’t yet last a full race, and drivers had to switch cars mid-competition. Just over a decade later, Formula E has evolved into a global entertainment brand broadcast in 150 countries, driving both technological innovation and cultural change in sport.&nbsp;&nbsp; &#8220;Gen4, that&#8217;s to come next year,&#8221; says Dan Cherowbrier, Formula E’s chief technology and information officer. &#8220;You will see a really quite impressive car that starts us to question whether EV is there. It&#8217;s actually faster—it&#8217;s actually more than traditional [internal combustion engines] ICE.&#8221;&nbsp; That acceleration isn’t just happening on the track. Formula E’s digital transformation, powered by its partnership with Infosys, is redefining what it means to be a fan. “It&#8217;s a movement to make motor sport accessible and exciting for the new generation,” says principal technologist at Infosys, Rohit Agnihotri.&nbsp; From real-time leaderboards and predictive tools to personalized storylin…",
-      "image": null,
-      "pubDate": "2025-12-15T15:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1047,6 +1095,22 @@
       "region": "global"
     },
     {
+      "id": "47a0a5a83b68d63c",
+      "title": "Nvidia Becomes a Major Model Maker With Nemotron 3",
+      "link": "https://www.wired.com/story/nvidia-becomes-major-model-maker-nemotron-3/",
+      "summary": "The world’s top chipmaker wants open source AI to succeed—perhaps because closed models increasingly run on its rivals’ silicon.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T14:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "08b0cfd3fef5bb99",
       "title": "كأس العرب … المغرب يتأهل إلى النهائي",
       "link": "https://assabah.ma/889248.html",
@@ -1092,22 +1156,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "32941efae4768010",
-      "title": "The Download: introducing the AI Hype Correction package",
-      "link": "https://www.technologyreview.com/2025/12/15/1129719/the-download-introducing-the-ai-hype-correction-package/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the AI Hype Correction package AI is going to reproduce human intelligence. AI will eliminate disease. AI is the single biggest, most important inve…",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the AI Hype Correction package AI is going to reproduce human intelligence. AI will eliminate disease. AI is the single biggest, most important invention in human history. You&#8217;ve likely heard it all—but probably none of these things are true. AI is changing our world, but we don&#8217;t yet know the real winners, or how this will all shake out. After a few years of out-of-control hype, people are now starting to re-calibrate what AI is, what it can do, and how we should think about its ultimate impact. Here, at the end of 2025, we&#8217;re starting the post-hype phase. This new package of stories , called Hype Correction, is a way to reset expectations—a critical look at where we are, what AI makes possible, and where we go next. Here’s a sneak peek at what you can expect: + An introduction to four ways of thinking about the great AI hype correction of 2025 . +&nbsp; While it’s safe to say we’re definitely in an AI bubble right now, what’s less clear is what it really looks like—and what comes after it pops. Read …",
-      "image": null,
-      "pubDate": "2025-12-15T13:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1191,6 +1239,38 @@
       "region": "global"
     },
     {
+      "id": "b70f2deaa4f760d0",
+      "title": "This Startup Wants to Build Self-Driving Car Software—Super Fast",
+      "link": "https://www.wired.com/story/hyprlabs-wants-to-build-a-self-driving-robot-super-fast/",
+      "summary": "The autonomous vehicle industry is heating up thanks to advances in AI. But can those same innovations help startups like HyprLabs build safe tech?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "edf21a779044d7c2",
+      "title": "7 Best Desktop Computers (2025): Gaming, Macs, Compact, and More",
+      "link": "https://www.wired.com/gallery/best-desktop-computers/",
+      "summary": "Despite advancements in laptops, desktop computers still have a place. These are the WIRED-tested options you should consider.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "63eac28e910c40b8",
       "title": "Xiaomi Smart Band 10 fitness tracker review: Sleek and budget-friendly",
       "link": "https://www.livescience.com/health/exercise/xiaomi-smart-band-10-fitness-tracker-review",
@@ -1271,6 +1351,22 @@
       "region": "global"
     },
     {
+      "id": "7d3af812ae70cb0f",
+      "title": "Interstellar Arc Serves Up Alien Foxes, Exoplanets, and VR Carl Sagan",
+      "link": "https://www.wired.com/story/interstellar-arc-las-vegas/",
+      "summary": "Interstellar Arc is an immersive sci-fi experience that uses recent advances in headset tech to break new ground in virtual reality. And it all happens inside an empty-looking room in Las Vegas.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-15T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "3d98cfc5260b6ae4",
       "title": "Magdala stone: 2,000-year-old carving from Jerusalem is world's oldest known depiction of a menorah",
       "link": "https://www.livescience.com/archaeology/magdala-stone-2-000-year-old-carving-from-jerusalem-is-worlds-oldest-known-depiction-of-a-menorah",
@@ -1300,134 +1396,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3d9a936a2bd85020",
-      "title": "O'Connor 'never could have imagined' 2025 success",
-      "link": "https://www.bbc.com/sport/athletics/articles/cd6x7nev16lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Kate O'Connor says 2025 saw her achieve more than she ever imagined as she picked up four international medals, including a stunning silver medal at the World Championships in Tokyo.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-15T10:30:45.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1f96071c82ab2368",
-      "title": "AI coding is now everywhere. But not everyone is convinced.",
-      "link": "https://www.technologyreview.com/2025/12/15/1128352/rise-of-ai-coding-developers-2026/",
-      "summary": "Depending who you ask, AI-powered coding is either giving software developers an unprecedented productivity boost or churning out masses of poorly designed code that saps their attention and sets software projects up for serious long term-maintenance problems. The problem is right now, it’s not eas…",
-      "body": "Depending who you ask, AI-powered coding is either giving software developers an unprecedented productivity boost or churning out masses of poorly designed code that saps their attention and sets software projects up for serious long term-maintenance problems. The problem is right now, it’s not easy to know which is true. As tech giants pour billions into large language models (LLMs), coding has been touted as the technology’s killer app. Both Microsoft CEO Satya Nadella and Google CEO Sundar Pichai have claimed that around a quarter of their companies’ code is now AI-generated. And in March, Anthropic’s CEO, Dario Amodei, predicted that within six months 90% of all code would be written by AI. It’s an appealing and obvious use case. Code is a form of language, we need lots of it, and it’s expensive to produce manually. It’s also easy to tell if it works—run a program and it’s immediately evident whether it’s functional. This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. Executives enamored with the potential to break through human bottlenecks are pushing engineers…",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "741af1989a6a2f2a",
-      "title": "A brief history of Sam Altman’s hype",
-      "link": "https://www.technologyreview.com/2025/12/15/1129169/a-brief-history-of-sam-altmans-hype/",
-      "summary": "Each time you’ve heard a borderline outlandish idea of what AI will be capable of, it often turns out that Sam Altman was, if not the first to articulate it, at least the most persuasive and influential voice behind it. For more than a decade he has been known in Silicon Valley as a world-class…",
-      "body": "Each time you’ve heard a borderline outlandish idea of what AI will be capable of, it often turns out that Sam Altman was, if not the first to articulate it, at least the most persuasive and influential voice behind it.&nbsp; For more than a decade he has been known in Silicon Valley as a world-class fundraiser and persuader. OpenAI’s early releases around 2020 set the stage for a mania around large language models, and the launch of ChatGPT in November 2022 granted Altman a world stage on which to present his new thesis: that these models mirror human intelligence and could swing the doors open to a healthier and wealthier techno-utopia. This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. Throughout, Altman’s words have set the agenda. He has framed a prospective superintelligent AI as either humanistic or catastrophic, depending on what effect he was hoping to create, what he was raising money for, or which tech giant seemed like his most formidable competitor at the moment.&nbsp; Examining Altman’s statements over the years reveals just how much his outlook has p…",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "02fc083a99db0057",
-      "title": "The great AI hype correction of 2025",
-      "link": "https://www.technologyreview.com/2025/12/15/1129174/the-great-ai-hype-correction-of-2025/",
-      "summary": "Some disillusionment was inevitable. When OpenAI released a free web app called ChatGPT in late 2022, it changed the course of an entire industry—and several world economies. Millions of people started talking to their computers, and their computers started talking back. We were enchanted, and we e…",
-      "body": "Some disillusionment was inevitable. When OpenAI released a free web app called ChatGPT in late 2022, it changed the course of an entire industry—and several world economies. Millions of people started talking to their computers, and their computers started talking back. We were enchanted, and we expected more. We got it. Technology companies scrambled to stay ahead, putting out rival products that outdid one another with each new release: voice, images, video. With nonstop one-upmanship, AI companies have presented each new product drop as a major breakthrough, reinforcing a widespread faith that this technology would just keep getting better. Boosters told us that progress was exponential. They posted charts plotting how far we’d come since last year’s models: Look how the line goes up! Generative AI could do anything, it seemed. Well, 2025 has been a year of reckoning.&nbsp; This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. For a start, the heads of the top AI companies made promises they couldn’t keep. They told us that generative AI would replace the white-co…",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3640e0ccd56a59f9",
-      "title": "Generative AI hype distracts us from AI’s more important breakthroughs",
-      "link": "https://www.technologyreview.com/2025/12/15/1129179/generative-ai-hype-distracts-us-from-ais-more-important-breakthroughs/",
-      "summary": "On April 28, 2022, at a highly anticipated concert in Spokane, Washington, the musician Paul McCartney astonished his audience with a groundbreaking application of AI: He began to perform with a lifelike depiction of his long-deceased musical partner, John Lennon. Using recent advances in audio and…",
-      "body": "On April 28, 2022, at a highly anticipated concert in Spokane, Washington, the musician Paul McCartney astonished his audience with a groundbreaking application of AI: He began to perform with a lifelike depiction of his long-deceased musical partner, John Lennon.&nbsp; Using recent advances in audio and video processing, engineers had taken the pair’s final performance (London, 1969), separated Lennon’s voice and image from the original mix and restored them with lifelike clarity. This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. For years, researchers like me had taught machines to “see” and “hear” in order to make such a moment possible. As McCartney and Lennon appeared to reunite across time and space, the arena fell silent; many in the crowd began to cry. As an AI scientist and lifelong Beatles fan, I felt profound gratitude that we could experience this truly life-changing moment.&nbsp; Later that year, the world was captivated by another major breakthrough: AI conversation. For the first time in history, systems capable of generating new, contextually relev…",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "640d7bbfd0703785",
-      "title": "AI might not be coming for lawyers’ jobs anytime soon",
-      "link": "https://www.technologyreview.com/2025/12/15/1129181/ai-might-not-be-coming-for-lawyers-jobs-anytime-soon/",
-      "summary": "When the generative AI boom took off in 2022, Rudi Miller and her law school classmates were suddenly gripped with anxiety. “Before graduating, there was discussion about what the job market would look like for us if AI became adopted,” she recalls. So when it came time to choose a speciality, Mill…",
-      "body": "When the generative AI boom took off in 2022, Rudi Miller and her law school classmates were suddenly gripped with anxiety. “Before graduating, there was discussion about what the job market would look like for us if AI became adopted,” she recalls.&nbsp; So when it came time to choose a speciality, Miller—now a junior associate at the law firm Orrick—decided to become a litigator, the kind of lawyer who represents clients in court. She hoped the courtroom would be the last human stage. “Judges haven’t allowed ChatGPT-enabled robots to argue in court yet,” she says. This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. She had reason to be worried. The artificial-intelligence job apocalypse seemed to be coming for lawyers. In March 2023, researchers reported that GPT-4 had smashed the Uniform Bar Exam. That same month, an industry report predicted that 44% of legal work could be automated. The legal tech industry entered a boom as law firms began adopting generative AI to mine mountains of documents and draft contracts, work ordinarily done by junior associates. Last …",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "62553b9be158cd44",
-      "title": "What even is the AI bubble?",
-      "link": "https://www.technologyreview.com/2025/12/15/1129183/what-even-is-the-ai-bubble/",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. In July, a widely cited MIT study claimed that 95% of organizations that invested in generative AI were getting “zero re…",
-      "body": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here . In July, a widely cited MIT study claimed that 95% of organizations that invested in generative AI were getting “zero return.” Tech stocks briefly plunged. While the study itself was more nuanced than the headlines, for many it still felt like the first hard data point confirming what skeptics had muttered for months: Hype around AI might be outpacing reality. Then, in August, OpenAI CEO Sam Altman said what everyone in Silicon Valley had been whispering. “Are we in a phase where investors as a whole are overexcited about AI?” he said during a press dinner I attended. “My opinion is yes.”&nbsp; This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. He compared the current moment to the dot-com bubble. “When bubbles happen, smart people get overexcited about a kernel of truth,” he explained. “Tech was really important. The internet was a really big deal. People got overexcited.”&nbsp; With tho…",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2417d7c253715e71",
-      "title": "AI materials discovery now needs to move into the real world",
-      "link": "https://www.technologyreview.com/2025/12/15/1129210/ai-materials-science-discovery-startups-investment/",
-      "summary": "The microwave-size instrument at Lila Sciences in Cambridge, Massachusetts, doesn’t look all that different from others that I’ve seen in state-of-the-art materials labs. Inside its vacuum chamber, the machine zaps a palette of different elements to create vaporized particles, which then fly throug…",
-      "body": "The microwave-size instrument at Lila Sciences in Cambridge, Massachusetts, doesn’t look all that different from others that I’ve seen in state-of-the-art materials labs. Inside its vacuum chamber, the machine zaps a palette of different elements to create vaporized particles, which then fly through the chamber and land to create a thin film, using a technique called sputtering. What sets this instrument apart is that artificial intelligence is running the experiment; an AI agent, trained on vast amounts of scientific literature and data, has determined the recipe and is varying the combination of elements.&nbsp; Later, a person will walk the samples, each containing multiple potential catalysts, over to a different part of the lab for testing. Another AI agent will scan and interpret the data, using it to suggest another round of experiments to try to optimize the materials’ performance.&nbsp;&nbsp; This story is part of MIT Technology Review’s Hype Correction package, a series that resets expectations about what AI is, what it makes possible, and where we go next. For now, a human scientist keeps a close eye on the experiments and will approve the next steps on the basis of the …",
-      "image": null,
-      "pubDate": "2025-12-15T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1476,22 +1444,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "64e6e27b8537dd7b",
-      "title": "قافلة سينمائية تبرز إيموزار كوجهة لتصوير الأعمال الفنية",
-      "link": "https://assabah.ma/889095.html",
-      "summary": "تنظم مجلة نادي الصحافة بمراكش، خلال الفترة من 19 إلى 22 دجنبر الجاري، قافلة سينمائية لمدينة إيموزار التابعة لإقليم صفرو، بمشاركة نخبة من الفنانين والسينمائيين والإعلاميين والفاعلين السياحيين، بهدف إبراز الدور الذي تلعبه السينما في الترويج للسياحة والتعريف بالخصوصيات السياحية والثقافية للمدينة، وتسل…",
-      "body": "تنظم مجلة نادي الصحافة بمراكش، خلال الفترة من 19 إلى 22 دجنبر الجاري، قافلة سينمائية لمدينة إيموزار التابعة لإقليم صفرو، بمشاركة نخبة من الفنانين والسينمائيين والإعلاميين والفاعلين السياحيين، بهدف إبراز الدور الذي تلعبه السينما في الترويج للسياحة والتعريف بالخصوصيات السياحية والثقافية للمدينة، وتسليط الضوء على مؤهلاتها الطبيعية أكمل القراءة &raquo; المقالة قافلة سينمائية تبرز إيموزار كوجهة لتصوير الأعمال الفنية fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2025-12-15T08:30:02.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -2023,6 +1975,22 @@
       "region": "global"
     },
     {
+      "id": "35990e2b2e6762c2",
+      "title": "Best Tested Walking Pads (2025): Urevo, WalkingPad, Sperax",
+      "link": "https://www.wired.com/story/best-walking-pads/",
+      "summary": "These compact walking pads fit under your desk and make staying active so much easier.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T15:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
       "id": "8c96d4fdace9c970",
       "title": "'This has re-written our understanding of Roman concrete manufacture': Abandoned Pompeii worksite reveal how self-healing concrete was made",
       "link": "https://www.livescience.com/archaeology/romans/this-has-re-written-our-understanding-of-roman-concrete-manufacture-abandoned-pompeii-worksite-reveal-how-self-healing-concrete-was-made",
@@ -2055,6 +2023,38 @@
       "region": "gulf"
     },
     {
+      "id": "2450406333520f96",
+      "title": "10 Best Portable Power Stations (2025): Power Capacity, Portability, Camping, and More",
+      "link": "https://www.wired.com/gallery/best-portable-power-stations/",
+      "summary": "Whether you’re going off-grid or safeguarding against blackouts, these beefy, WIRED-tested batteries can keep the lights on.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T14:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "93c972c8e9cf759f",
+      "title": "Nanit Home Display Review: A Transformative Tablet",
+      "link": "https://www.wired.com/review/nanit-home-display/",
+      "summary": "The innovative smart baby monitor ecosystem adds a tablet to its lineup. Is it worth overlooking some quirks?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T14:04:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "61c5ac9a85c74058",
       "title": "Shake Shack Just Made A Limited-Time Favorite Permanent & Fans Are Losing It",
       "link": "https://www.delish.com/food-news/a69717791/shake-shack-onion-rings-permanent-menu-item/",
@@ -2084,6 +2084,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "245ed3a245f38098",
+      "title": "The Best Bike Gear for Your Brisk, Wintry Commute (2025)",
+      "link": "https://www.wired.com/gallery/bike-gear-winter-commute/",
+      "summary": "Stay strong, fair-weather friends—you can keep biking to work even through the darkest, coldest days.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T13:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2151,6 +2167,70 @@
       "region": "global"
     },
     {
+      "id": "cc2126249144a10d",
+      "title": "Samsung Galaxy XR Review: Needs More Polish",
+      "link": "https://www.wired.com/review/samsung-galaxy-xr/",
+      "summary": "A little more accessible than the Apple Vision Pro, this Android XR headset could use more polish.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5bbe5893e0219905",
+      "title": "PlayStation Portal's Latest Update Proves Sony Needs a Real Handheld Console Again",
+      "link": "https://www.wired.com/story/playstation-portals-latest-update-proves-sony-needs-a-real-handheld-console-again/",
+      "summary": "Cloud gaming remains a pie-in-the-sky idea.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d54be74c04d7baca",
+      "title": "How Do Astronomers Find Planets in Other Solar Systems?",
+      "link": "https://www.wired.com/story/how-do-astronomers-find-planets-in-other-solar-systems/",
+      "summary": "Even the best telescopes can’t see exoplanets. It’s all about watching for jiggly stars, blue shifts, and transits.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "537b6da4e3828127",
+      "title": "Is Your Vibrator Spying on You?",
+      "link": "https://www.wired.com/story/is-your-vibrator-spying-on-you/",
+      "summary": "Here’s everything you need to know about data privacy in sex toys and the apps that connect to them.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T10:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "2c0e22a9c25da163",
       "title": "Can a turtle tuck its head all the way inside its shell?",
       "link": "https://www.livescience.com/animals/can-a-turtle-tuck-its-head-all-the-way-inside-its-shell",
@@ -2181,6 +2261,38 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
+    },
+    {
+      "id": "5945499251208a7d",
+      "title": "For the First Time, AI Analyzes Language as Well as a Human Expert",
+      "link": "https://www.wired.com/story/in-a-first-ai-models-analyze-language-as-well-as-a-human-expert/",
+      "summary": "If language is what makes us human, what does it mean now that large language models have gained “metalinguistic” abilities?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T07:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "43c2f6f962ce5f78",
+      "title": "Alpine A390 Review: Price, Specs, Availability",
+      "link": "https://www.wired.com/review/review-alpine-a390/",
+      "summary": "Ahead of its entry into the US, the European brand with an ex-Ferrari boss and decades of motorsport success has a new EV to take on Porsche and Polestar. WIRED tries it on for size.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-14T07:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
     },
     {
       "id": "29b4e8ff434a123a",
@@ -2359,6 +2471,22 @@
       "region": "global"
     },
     {
+      "id": "73b9f06a84827ad6",
+      "title": "18 Gifts for People Who Are Perpetually Cold (2025)",
+      "link": "https://www.wired.com/gallery/gift-ideas-for-people-who-are-perpetually-cold-2025/",
+      "summary": "From a backyard hot tub to the warmest slippers, these picks will make your loved ones feel warm and fuzzy—inside and out.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T14:09:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "7c61d1453895eb5f",
       "title": "Bath & Body Works’ New Food-Scented Candles Have Fans Asking 'Who The Hell Greenlit This?'",
       "link": "https://www.delish.com/food-news/a69715502/bath-body-works-candle-day-food-candles-fan-reactions/",
@@ -2407,6 +2535,38 @@
       "region": "global"
     },
     {
+      "id": "646c8496bbe33129",
+      "title": "The Best Motorola Phones (2025), Tested and Reviewed",
+      "link": "https://www.wired.com/story/best-motorola-phones/",
+      "summary": "Motorola phones may seem old-school, but their reasonable prices, colorful designs, and simple software make them good, wallet-friendly Android smartphones.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T13:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "47a893a3a2589039",
+      "title": "The Best Kindle of 2025: Paperwhite, Scribe, or Colorsoft?",
+      "link": "https://www.wired.com/gallery/best-kindle/",
+      "summary": "Here’s how Amazon’s ebook readers stack up—and which one might be right for you.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T12:35:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "a46caadbcfa43071",
       "title": "Risk Alert: Almost 20,000 Kids Water Bottles Recalled For Choking Hazard",
       "link": "https://www.delish.com/food-news/a69715154/hydrojug-kids-sport-tumbler-recall-loose-rivets/",
@@ -2420,6 +2580,54 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6e0268e5b23370f5",
+      "title": "Google Data Centers Are Returning Nuclear Power to Tornado Country",
+      "link": "https://www.wired.com/story/google-data-centers-will-bring-nuclear-power-back-to-tornado-country/",
+      "summary": "A destructive storm in 2020 prematurely shut down Iowa’s only nuclear plant. With Google’s plans to reopen it to power nearby data centers, will extreme weather threaten the reactor’s safety?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "b62372f538ab63c8",
+      "title": "The 24 Best Shows on Amazon Prime, WIRED’s Picks (December 2025)",
+      "link": "https://www.wired.com/story/best-shows-amazon-prime/",
+      "summary": "Bat-Fam, The Girlfriend, and The Mighty Nein are just a few of the shows you should be watching on Amazon Prime Video this week.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c45d3bb91e43bc73",
+      "title": "Velotric Discover 2 Electric Bike Review: Versatile and Powerful",
+      "link": "https://www.wired.com/review/velotric-discover-2/",
+      "summary": "This laid-back ride comes with an almost bewildering array of power modes and riding styles. Just make sure you obey the law.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2437,6 +2645,54 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
+    },
+    {
+      "id": "51a28e536b615cb2",
+      "title": "Gear News of the Week: Android Gets Emergency Live Video, and the Pixel Watch 4 Supports Gestures",
+      "link": "https://www.wired.com/story/gear-news-of-the-week-android-gets-emergency-live-video-and-the-pixel-watch-4-supports-gestures/",
+      "summary": "Plus: Apple Fitness+ expands to new markets, it’s even easier to add photos to Aura’s digital frames, and the new Nocs speakers go heavy metal.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "7a10d0075bc300af",
+      "title": "How to Use Smart Lighting Around the Home: Reviewer Recommendations",
+      "link": "https://www.wired.com/story/how-to-use-smart-lighting/",
+      "summary": "I’ve been reviewing smart lighting for years. Here are tips on how to prep, what to choose, and the smart lights that work best in each room.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T10:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "10bd0d02ceca1e6e",
+      "title": "The Instagram-Fueled Boom in Copycat Vintage Car-Body Shells",
+      "link": "https://www.wired.com/story/the-instagram-fueled-boom-in-copycat-vintage-car-body-shells/",
+      "summary": "Instagram is awash with Asian firms showing how they can remake old Broncos, Defenders, and other whole classic cars—better and much cheaper than in the US.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-13T10:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "034f74151f3ac24c",
@@ -2695,6 +2951,22 @@
       "region": "global"
     },
     {
+      "id": "126c403b29fdbd5b",
+      "title": "AMD CEO Lisa Su Isn’t Afraid of the Competition",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-amd-ceo-lisa-su-isnt-afraid-of-the-competition/",
+      "summary": "In this episode of Uncanny Valley we take you through our recent conversation with Lisa Su and go behind the scenes of our Big Interview event.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T20:01:14.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "65741d7fd2519666",
       "title": "17 Lazy Recipes For When Time Isn’t Real Between Christmas & New Year’s",
       "link": "https://www.delish.com/cooking/recipe-ideas/g69711410/best-recipes-between-christmas-nye/",
@@ -2708,6 +2980,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "04c649a8ed3a620c",
+      "title": "Why SpaceX Is Finally Gearing Up to Go Public",
+      "link": "https://www.wired.com/story/why-spacex-is-finally-gearing-up-to-go-public/",
+      "summary": "Like so many things in Elon Musk's orbit, a lot of it may come down to AI.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T18:37:54.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2791,6 +3079,22 @@
       "region": "global"
     },
     {
+      "id": "b83bd98d8f1da9b7",
+      "title": "This Group Pays Bounties to Repair Broken Devices—Even If the Fix Breaks the Law",
+      "link": "https://www.wired.com/story/fulu-repair-bounties-nest-molekule/",
+      "summary": "Fulu sets repair bounties on consumer products that employ sneaky features that limit user control. Just this week, it awarded more than $10,000 to the person who hacked the Molekule air purifier.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T17:01:02.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "59ef6df11e26b2f2",
       "title": "Giant structure discovered deep beneath Bermuda is unlike anything else on Earth",
       "link": "https://www.livescience.com/planet-earth/geology/giant-structure-discovered-deep-beneath-bermuda-is-unlike-anything-else-on-earth",
@@ -2871,6 +3175,22 @@
       "region": "global"
     },
     {
+      "id": "caf6f4f454b5700e",
+      "title": "You’re Thinking About AI and Water All Wrong",
+      "link": "https://www.wired.com/story/karen-hao-empire-of-ai-water-use-statistics/",
+      "summary": "Fears about AI data centers’ water use have exploded. Experts say the reality is far more complicated than people think.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T16:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "7189491e7db1b167",
       "title": "All The New York City Christmas Bars You Should Visit This Year",
       "link": "https://www.delish.com/restaurants/g29814168/best-christmas-bars-in-nyc/",
@@ -2919,6 +3239,54 @@
       "region": "global"
     },
     {
+      "id": "e8fe8007ac75ad58",
+      "title": "The Best Age-Tech Gadgets Tried and Tested by WIRED",
+      "link": "https://www.wired.com/gallery/best-age-tech/",
+      "summary": "As more and more age tech hits the market, I’ve been testing the most innovative gadgets for older folks and caregivers.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T15:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "83e6432148ff8f0e",
+      "title": "The Best Permanent Outdoor Lights (2025): Govee, Eufy, Lepro",
+      "link": "https://www.wired.com/story/should-you-get-permanent-outdoor-lights/",
+      "summary": "DIY permanent eave lights that attach to the exterior of your home are becoming more popular. But are they worth the effort (and cost)?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T14:06:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "7aac85b2908f8c23",
+      "title": "Best Merino Wool T-Shirts (2025), Tried On and Tested",
+      "link": "https://www.wired.com/gallery/best-merino-wool-t-shirts/",
+      "summary": "These merino wool tees are the last shirts you’ll ever wear. I’m wearing one right now.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T13:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "b7ba6fe236f7dc02",
       "title": "New 'DNA cassette tape' can store up to 1.5 million times more data than a smartphone — and the data can last 20,000 years if frozen",
       "link": "https://www.livescience.com/technology/computing/new-dna-cassette-tape-can-store-up-to-1-5-million-times-more-data-than-a-smartphone-and-the-data-can-last-20-000-years-if-frozen",
@@ -2932,6 +3300,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "7425321db197a95d",
+      "title": "Baseus Inspire XH1 Headphones Review: Affordable Excellence",
+      "link": "https://www.wired.com/review/baseus-inspire-xh1/",
+      "summary": "Watch out high-end models, these noise-canceling headphones are an amazing value.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T13:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2964,6 +3348,38 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4deb68ff1b88bfec",
+      "title": "Does Red-Light Therapy Work? (2025)",
+      "link": "https://www.wired.com/story/does-red-light-therapy-work/",
+      "summary": "Even if the glowing mask scares your family, red-light therapy can rejuvenate skin and aid in muscle repair.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c24e708a897835ca",
+      "title": "People Are Already Taking This Unapproved New Weight-Loss Drug",
+      "link": "https://www.wired.com/story/people-are-already-taking-this-unapproved-new-weight-loss-drug-triple-g-retatrutide/",
+      "summary": "Retatrutide, originally developed by Eli Lilly, has found a loyal fan base—even though clinical trials of the drug still haven’t finished.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "health",
       "region": "global"
     },
     {
@@ -3015,6 +3431,38 @@
       "region": "global"
     },
     {
+      "id": "0bb85809fa3d1db5",
+      "title": "The Best Meteor Shower of the Year Is Coming—Here’s How to Watch",
+      "link": "https://www.wired.com/story/how-to-watch-the-geminids-meteor-shower/",
+      "summary": "The highlight of the year, the Geminids are the most active and colorful meteor shower, offering the chance to see hundreds of shooting stars every hour when they peak in mid-December.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T10:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "184592f6260e7e8d",
+      "title": "Evolved Novelties Pleasure Puff Inflatable Rabbit Review: A-Spot Stimulation",
+      "link": "https://www.wired.com/review/evolved-novelties-pleasure-puff-inflatable-rabbit/",
+      "summary": "If A-spot stimulation doesn't mean much to you, the Pleasure Puff likely won't excite.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T09:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
       "id": "025c390f2ad5e720",
       "title": "إحصائية طريفة.. ترامب تحدث للصحفيين بنحو 2.4 مليون كلمة",
       "link": "https://www.skynewsarabia.com/varieties/1839652-%D8%A7%D9%95%D8%AD%D8%B5%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D8%B7%D8%B1%D9%8A%D9%81%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AA%D8%AD%D8%AF%D8%AB-%D9%84%D9%84%D8%B5%D8%AD%D9%81%D9%8A%D9%8A%D9%86-%D8%A8%D9%86%D8%AD%D9%88-24-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%83%D9%84%D9%85%D8%A9",
@@ -3047,6 +3495,38 @@
       "region": "global"
     },
     {
+      "id": "b2e8e906f4bd2d24",
+      "title": "B&H Photo Promo Codes and Deals for December 2025",
+      "link": "https://www.wired.com/story/bh-photo-coupon/",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T06:10:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "68ee105ee2d12415",
+      "title": "Factor Promo Code: Up to $130 Off Meal Prep",
+      "link": "https://www.wired.com/story/factor-promo-code/",
+      "summary": "Make meal prep easier for any dietary need while enjoying great savings with our hand-picked Factor discount codes this December.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T06:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "7585bb6471fe2254",
       "title": "32 Zero-Proof Christmas Mocktails That Are 100% Delicious",
       "link": "https://www.delish.com/holiday-recipes/christmas/g42063143/non-alcoholic-christmas-drinks/",
@@ -3057,6 +3537,22 @@
       "source": {
         "name": "Delish",
         "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "61f87fc72c11ce1e",
+      "title": "Trump Signs Executive Order That Threatens to Punish States for Passing AI Laws",
+      "link": "https://www.wired.com/story/trump-signs-executive-order-ai-state-laws/",
+      "summary": "The order creates a Justice Department task force to challenge state AI laws and directs the Commerce Department to pull future broadband funding from states that pass “onerous” legislation.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-12T00:54:47.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "technology",
@@ -3095,6 +3591,22 @@
       "region": "global"
     },
     {
+      "id": "abe522dc7e57c26e",
+      "title": "Crypto Magnate Do Kwon Sentenced to 15 Years in Prison",
+      "link": "https://www.wired.com/story/do-kwon-terraform-sentenced-prison-crypto-fraud/",
+      "summary": "The founder of Terraform Labs was sentenced today for lying about “experimental” coins that blew a $40 billion hole in the crypto economy.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T22:19:59.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "c02f55ea1b258c56",
       "title": "I Tried The Famous Randy’s Donuts—Here’s The One I’d Elbow A Tourist For",
       "link": "https://www.delish.com/food/a69697549/randys-donuts-nyc-bleecker-street-menu-taste-test/",
@@ -3108,6 +3620,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8c02c7f3cfeb3018",
+      "title": "RFK Jr.’s Health Department Is Pondering a National Men’s Health Initiative",
+      "link": "https://www.wired.com/story/rfk-jrs-health-department-is-pondering-a-national-mens-health-initiative/",
+      "summary": "At an FDA discussion of testosterone replacement therapy, a top official called for special health centers to address a “men’s health crisis.” Others called to ease men’s access to hormones.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T22:11:31.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "health",
       "region": "global"
     },
     {
@@ -3159,6 +3687,22 @@
       "region": "global"
     },
     {
+      "id": "37a2b05d139c3847",
+      "title": "The 45 Best Movies on Hulu, WIRED's Picks (December 2025)",
+      "link": "https://www.wired.com/story/best-movies-hulu-right-now/",
+      "summary": "Gremlins, Home Alone, and Sovereign are just a few of the movies you need to watch on Hulu right now.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T20:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "954722b7d7d91119",
       "title": "Killer whales are teaming up with dolphins on salmon hunts, study finds — but not everyone agrees",
       "link": "https://www.livescience.com/animals/marine-mammals/killer-whales-are-teaming-up-with-dolphins-on-salmon-hunts-study-finds-but-not-everyone-agrees",
@@ -3172,6 +3716,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c10fac8e91f9ada6",
+      "title": "Best Holiday Coffee Subscription Deals (2025): Atlas, Trade",
+      "link": "https://www.wired.com/story/best-holiday-coffee-subscription-deals-2025/",
+      "summary": "Coffee subscriptions offer their steepest discounts in December—including on WIRED’s two favorite coffee subscriptions.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T19:08:28.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3220,6 +3780,54 @@
       },
       "lang": "en",
       "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "2d47bfd3faedbe75",
+      "title": "Doxers Posing as Cops Are Tricking Big Tech Firms Into Sharing People’s Private Data",
+      "link": "https://www.wired.com/story/doxers-posing-as-cops-are-tricking-big-tech-firms-into-sharing-peoples-private-data/",
+      "summary": "A spoofed email address and an easily faked document is all it takes for major tech companies to hand over your most personal information.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T18:54:50.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "026963c4e4888aaf",
+      "title": "How Taiwan Made Cashless Payments Cute",
+      "link": "https://www.wired.com/story/icash-taiwan-payments-keychains-how-it-works/",
+      "summary": "Taiwan’s digital payment infrastructure is tactile, decentralized, and completely distinct from China’s QR-code-dominated model.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T18:06:15.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0fec3058400c1150",
+      "title": "OpenAI Launches GPT-5.2 as It Navigates ‘Code Red’",
+      "link": "https://www.wired.com/story/openai-gpt-launch-gemini-code-red/",
+      "summary": "The ChatGPT-maker is releasing its “best model yet” as it faces new pressures from Google and other AI competitors.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-11T18:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
