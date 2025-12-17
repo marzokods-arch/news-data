@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-12-17T08:54:58.013Z",
-    "total": 200,
+    "generated_at": "2025-12-17T09:19:15.686Z",
+    "total": 182,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,29 +9,16 @@
     "shard_index": 4,
     "results": [
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 63,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -48,16 +35,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "egypt",
+        "region": "mena",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,15 +61,28 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 63,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 22,
         "error": null,
         "notModified": false
       },
@@ -100,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 22,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Oilprice.com — Latest",
         "url": "https://oilprice.com/rss/main",
         "homepage": "https://oilprice.com/rss/main",
@@ -139,15 +113,41 @@
         "notModified": false
       },
       {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 47,
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -165,16 +165,29 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 20,
+        "taken": 47,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -201,19 +214,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -288,96 +288,16 @@
       "region": "global"
     },
     {
-      "id": "0a8c5ca367acd26e",
-      "title": "Wild currency swings put emerging markets in the spotlight",
-      "link": "https://www.investing.com/news/economy-news/wild-currency-swings-put-emerging-markets-in-the-spotlight-4411930",
-      "summary": "",
+      "id": "38e8b1b2f003a433",
+      "title": "European markets rise; sterling falls as UK inflation cools",
+      "link": "https://www.cnbc.com/2025/12/17/european-markets-on-dec-17-stoxx-600-ftse-dax-cac.html",
+      "summary": "European stocks were broadly higher on Wednesday as investors gear up for central bank decisions.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELBE0JP_L.jpg",
-      "pubDate": "2025-12-17T08:54:30.000Z",
+      "image": null,
+      "pubDate": "2025-12-17T08:58:55.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "520458783f3ef88a",
-      "title": "Citizens initiates Spotify stock coverage with Market Outperform rating",
-      "link": "https://www.investing.com/news/analyst-ratings/citizens-initiates-spotify-stock-coverage-with-market-outperform-rating-93CH-4411929",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEAAA112_M.jpg",
-      "pubDate": "2025-12-17T08:53:36.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b1600a88e1a1daee",
-      "title": "TotalEnergies sells 50% stake in Greek renewable assets to Asterion",
-      "link": "https://www.investing.com/news/stock-market-news/totalenergies-sells-50-stake-in-greek-renewable-assets-to-asterion-93CH-4411928",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6R0AQ_M.jpg",
-      "pubDate": "2025-12-17T08:51:43.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2a884a5f0e24f24c",
-      "title": "Monzo secures full European banking licence, expands to Ireland",
-      "link": "https://www.investing.com/news/company-news/monzo-secures-full-european-banking-licence-expands-to-ireland-93CH-4411927",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-12-17T08:50:13.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0cea6a4cdfe688c9",
-      "title": "Robert Peugeot to continue on Stellantis board for final term",
-      "link": "https://www.investing.com/news/stock-market-news/robert-peugeot-to-continue-on-stellantis-board-for-final-term-93CH-4411925",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEC0409P_M.jpg",
-      "pubDate": "2025-12-17T08:48:09.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cbb04bea1a0054ab",
-      "title": "UK post-budget festive spending boost proves short-lived, Barclays warns",
-      "link": "https://www.investing.com/news/stock-market-news/uk-postbudget-festive-spending-boost-proves-shortlived-barclays-warns-4411913",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEBAG0BO_M.jpg",
-      "pubDate": "2025-12-17T08:46:32.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "general",
@@ -397,70 +317,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "11807a9e798bb73a",
-      "title": "Fed’s Waller to speak; Lennar earnings; Micron to report - what’s moving markets",
-      "link": "https://www.investing.com/news/economy-news/feds-waller-to-speak-lennar-earnings-micron-to-report--whats-moving-markets-4411923",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2025-12-17T08:44:25.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3ad9f26809437410",
-      "title": "HANetf II ICAV declares December 2025 dividends for six funds",
-      "link": "https://www.investing.com/news/company-news/hanetf-ii-icav-declares-december-2025-dividends-for-six-funds-93CH-4411922",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2025-12-17T08:43:09.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8d3bd905bde632f1",
-      "title": "Japan’s premier says country must pursue proactive spending for growth",
-      "link": "https://www.investing.com/news/economy-news/japan-must-pursue-proactive-spending-for-growth-premier-says-4411753",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELBG08K_L.jpg",
-      "pubDate": "2025-12-17T08:42:26.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "4035b7e06b4cdc8a",
-      "title": "European markets open higher; sterling falls as UK inflation cools",
-      "link": "https://www.cnbc.com/2025/12/17/european-markets-on-dec-17-stoxx-600-ftse-dax-cac.html",
-      "summary": "European stocks opened broadly higher on Wednesday as investors gear up for central bank decisions.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-17T08:38:53.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -740,7 +596,7 @@
       "title": "مهاجم تشيلسي السابق يقترب من الدوري الأمريكي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%87%D8%A7%D8%AC%D9%85-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D9%8A/bltf532711d6e516db3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "تيمو فيرنر يقترب من الرحيل عن لايبزيج",
-      "body": "تيمو فيرنر يقترب من الرحيل عن لايبزيج تشير تقارير ألمانية إلى وجود احتمالية كبيرة لرحيل تيمو فيرنر، مهاجم لايبزيج في سوق الانتقالات الشتوية المقبلة، حيث يبدو نادي سان خوسيه إيرثكويكس هو الخيار الأكثر جدية لإتمام الصفقة. ويمتد عقد فيرنر مع نادي لايبزيج حتى عام 2026، ويرغب اللاعب البالغ من العمر 29 عاماً في مغادرة الفريق هذا الشتاء، وتعتبر الولايات المتحدة الأمريكية حالياً هي الوجهة الأكثر احتمالاً له، بحسب شبكة \"سكاي ألمانيا\". وبعد عودته إلى صفوف لايبزيج، تمت إعارة المهاجم مؤقتاً إلى نادي توتنهام هوتسبير في إنجلترا. إلا أن رحلته في البريميرليج كانت مخيبة للآمال تماماً مثل موسمه الحالي مع ناديه في الدوري الألماني. يُذكر أن فيرنر كان قد انتقل في عام 2020 إلى نادي تشيلسي الإنجليزي في صفقة بلغت قيمتها قرابة 60 مليون يورو، لكنه لم يتمكن من استعادة بريقه التهديفي الذي عرف به في فترته الأولى مع لايبزيج. ولم يشارك فيرنر مع لايبزيج هذا الموسم سوى في مباراتين فقط، وذلك في الفوز على فولفسبورج (1-0) وفي الخسارة أمام يونيون برلين (3-1)، حيث خاض دقيقة واحدة في كل مباراة.",
+      "body": "تيمو فيرنر يقترب من الرحيل عن لايبزيج تشير تقارير ألمانية إلى وجود احتمالية كبيرة لرحيل تيمو فيرنر، مهاجم لايبزيج في سوق الانتقالات الشتوية المقبلة، حيث يبدو نادي سان خوسيه إيرثكويكس الأمريكي هو الخيار الأكثر جدية لإتمام الصفقة. ويمتد عقد فيرنر مع نادي لايبزيج حتى عام 2026، ويرغب اللاعب البالغ من العمر 29 عاماً في مغادرة الفريق هذا الشتاء، وتعتبر الولايات المتحدة الأمريكية حالياً هي الوجهة الأكثر احتمالاً له، بحسب شبكة \"سكاي ألمانيا\". وبعد عودته إلى صفوف لايبزيج، تمت إعارة المهاجم مؤقتاً إلى نادي توتنهام هوتسبير في إنجلترا. إلا أن رحلته في البريميرليج كانت مخيبة للآمال تماماً مثل موسمه الحالي مع ناديه في الدوري الألماني. يُذكر أن فيرنر كان قد انتقل في عام 2020 إلى نادي تشيلسي الإنجليزي في صفقة بلغت قيمتها قرابة 60 مليون يورو، لكنه لم يتمكن من استعادة بريقه التهديفي الذي عرف به في فترته الأولى مع لايبزيج. ولم يشارك فيرنر مع لايبزيج هذا الموسم سوى في مباراتين فقط، وذلك في الفوز على فولفسبورج (1-0) وفي الخسارة أمام يونيون برلين (3-1)، حيث خاض دقيقة واحدة في كل مباراة.",
       "image": null,
       "pubDate": "2025-12-17T06:52:57.000Z",
       "source": {
@@ -1184,38 +1040,6 @@
       "region": "global"
     },
     {
-      "id": "8657f3834eb2179c",
-      "title": "Billy Crystal, Martin Short, Larry David, Albert Brooks and More Remember Rob and Michele Reiner: “We Will Miss Them Forever”",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/billy-crystal-martin-short-larry-david-rob-michele-reiner-1236452805/",
-      "summary": "A group of friends close to the Reiners released a joint statement, commemorating Rob and Michele as \"a special force together-dynamic, unselfish and inspiring.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-17T03:29:31.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "15e09d0a455dc58b",
-      "title": "Gil Gerard, Star of ‘Buck Rogers in the 25th Century,’ Dies at 82",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/gil-gerard-dead-buck-rogers-25th-century-1236452804/",
-      "summary": "He battled a weight problem for decades and talked about it on the reality series 'Action Hero Makeover.'",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-17T03:00:32.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "4843795587232490",
       "title": "Two wickets in three balls as Archer removes Labuschagne and Green",
       "link": "https://www.bbc.com/sport/cricket/videos/c3v16lvnr0qo?at_medium=RSS&at_campaign=rss",
@@ -1312,22 +1136,6 @@
       "region": "global"
     },
     {
-      "id": "6ccdf728c04ea76b",
-      "title": "Neel Somani on How Privacy-Preserving Machine Learning Is Changing the Digital Landscape",
-      "link": "https://www.hollywoodreporter.com/news/general-news/how-machine-learning-is-changing-the-digital-landscape-1236452753/",
-      "summary": "As data privacy collides with AI’s rapid expansion, the Berkeley-trained technologist explains how a new generation of models is learning without crossing ethical lines.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-17T01:35:46.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5e384e21791d6f85",
       "title": "'Walking away a great' - Crawford retires from boxing",
       "link": "https://www.bbc.com/sport/boxing/articles/cj01v4z6107o?at_medium=RSS&at_campaign=rss",
@@ -1373,22 +1181,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e55214403ba5766f",
-      "title": "Apple Martin Steps Out in Calvin Klein Dress Mom Gwyneth Paltrow Wore to 1996 ‘Emma’ Premiere",
-      "link": "https://www.hollywoodreporter.com/lifestyle/style/gwyneth-paltrow-daughter-apple-martin-calvin-klein-dress-1236452707/",
-      "summary": "The 21-year-old daughter of the Oscar winner has had her eye on her mother’s wardrobe for some time: “Sometimes we just play dress up and she’ll put on my Oscar dresses and stuff like that.”",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-17T01:03:29.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1600,22 +1392,6 @@
       "region": "global"
     },
     {
-      "id": "9797dd26d52c78ca",
-      "title": "Gov. Phil Murphy on New Jersey’s Two Big Studios Competing for Warner Bros: “May the Best Team Win”",
-      "link": "https://www.hollywoodreporter.com/business/business-news/nj-gov-phil-murphy-netflix-paramount-warners-1888-studios-1236452190/",
-      "summary": "The Hollywood Reporter was on hand for Tuesday’s groundbreaking at the future site of 1888 Studios, where Paramount will be the anchor tenant.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-16T23:29:55.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "990269d3b35e4d1a",
       "title": "Hyperscaler AI spending could slow down if Oracle shows 'discipline'",
       "link": "https://www.cnbc.com/2025/12/16/hyperscaler-ai-spending-could-slow-down-if-oracle-shows-discipline.html",
@@ -1629,22 +1405,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ae7866bc68f642c4",
-      "title": "Mona Fastvold on Making ‘The Testament of Ann Lee’ “Quite Different From a Traditional Musical”",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/mona-fastvold-the-testament-of-ann-lee-different-musical-1236452271/",
-      "summary": "Amanda Seyfried stars in Fastvold's \"musical and movement piece\" about Shakers founder Ann Lee.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-16T23:22:41.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1677,22 +1437,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7bc98097e0cf6da6",
-      "title": "James Woods Slams “Infuriating and Distasteful” Comments Amid Rob Reiner’s Death",
-      "link": "https://www.hollywoodreporter.com/news/general-news/james-woods-rob-reiner-distasteful-comments-1236452476/",
-      "summary": "\"Do I agree on many of his ideas on how that patriotism should be enacted, to celebrate the America that we both love? No. But he doesn’t agree with me either, but he also respects my patriotism,\" the actor said of the late director.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-16T23:05:32.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1741,22 +1485,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "545cbdf59a6b82df",
-      "title": "MasterClass Offering Half-Off Holiday Sale for Hollywood-Led Learning Site",
-      "link": "https://www.hollywoodreporter.com/lifestyle/shopping/is-masterclass-subscription-worth-it-best-membership-deal-1235053316/",
-      "summary": "Martin Scorsese, the Duffer brothers, Shonda Rhimes, Kim Kardashian, Martha Stewart, Neil deGrasse Tyson, Spike Lee, Lewis Hamilton and Gordon Ramsay are just a handful of A-list instructors.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-16T22:34:37.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -1866,22 +1594,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "653317671313f763",
-      "title": "FX’s Elizabeth Olsen Starrer ‘Seven Sisters’ Ordered to Series at Hulu",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/elizabeth-olsen-seven-sisters-ordered-series-fx-hulu-1236452483/",
-      "summary": "The drama also stars Cristin Milioti and J. Smith-Cameron in the show from executive producers Will Arbery, Garrett Basch and Sean Durkin, marking a reunion between Olsen and her 'Martha Marcy May Marlene' director, who directed the pilot.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-16T22:18:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
