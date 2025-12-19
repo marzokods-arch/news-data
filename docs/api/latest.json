@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-12-19T22:40:33.624Z",
+    "generated_at": "2025-12-19T22:50:55.252Z",
     "total": 215,
     "processed_feeds": 17,
     "discovered_feeds": 84,
@@ -35,32 +35,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 67,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 6,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -74,29 +48,42 @@
         "notModified": false
       },
       {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 67,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 113\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
         "lang": "ar",
-        "region": "egypt",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -109,6 +96,19 @@
           "general"
         ],
         "taken": 46,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
         "error": null,
         "notModified": false
       },
@@ -126,32 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -165,6 +139,19 @@
         "notModified": false
       },
       {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
+        "notModified": false
+      },
+      {
         "name": "MarketWatch — Metals",
         "url": "https://www.marketwatch.com/feeds/marketpulse",
         "homepage": "https://www.marketwatch.com/feeds/marketpulse",
@@ -175,6 +162,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -204,48 +204,64 @@
         "notModified": false
       },
       {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "taken": 6,
+        "error": null,
         "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "029ded01785880bd",
-      "title": "Gemini isn’t replacing Google Assistant on Android just yet",
-      "link": "https://www.theverge.com/news/848455/google-assistant-gemini-upgrade-2026",
-      "summary": "Gemini on the Samsung Galaxy S25 Ultra. Google isn't ready to replace Assistant with Gemini on Android devices just yet. The company said on Friday that it will \"continue our work to upgrade Assistant users to Gemini on mobile devices into 2026,\" instead of its original plans to make the switch by …",
+      "id": "0b085c920fd75cc2",
+      "title": "Kata stars as Leicester swat aside limp Gloucester",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cdrnm8yk6llo?at_medium=RSS&at_campaign=rss",
+      "summary": "Leicester move level on points with Prem leaders Bath as Solomone Kata inspires the Tigers to victory over Gloucester.",
       "body": null,
       "image": null,
-      "pubDate": "2025-12-19T22:39:14.000Z",
+      "pubDate": "2025-12-19T22:40:32.000Z",
       "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0b085c920fd75cc2",
+      "title": "Kata stars as Leicester swat aside limp Gloucester",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cdrnm8yk6llo?at_medium=RSS&at_campaign=rss",
+      "summary": "Leicester move level on points with Prem leaders Bath as Solomone Kata inspires the Tigers to victory over Gloucester.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-19T22:40:32.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -323,38 +339,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0b085c920fd75cc2",
-      "title": "Kata stars as Leicester swat aside limp Gloucester",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cdrnm8yk6llo?at_medium=RSS&at_campaign=rss",
-      "summary": "Leicester move level on points with Prem leaders Bath as Solomone Kata inspires the Tigers to victory over Gloucester.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-19T22:04:20.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0b085c920fd75cc2",
-      "title": "Kata stars as Leicester swat aside limp Gloucester",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cdrnm8yk6llo?at_medium=RSS&at_campaign=rss",
-      "summary": "Leicester move level on points with Prem leaders Bath as Solomone Kata inspires the Tigers to victory over Gloucester.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-19T22:04:20.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -663,6 +647,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "9add30b3daaa587b",
+      "title": "المطلق: رينارد وقته انتهى.. وهذا الثنائي الأنسب لقيادة السعودية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D8%B7%D9%84%D9%82-%D8%B1%D9%8A%D9%86%D8%A7%D8%B1%D8%AF-%D9%88%D9%82%D8%AA%D9%87-%D8%A7%D9%86%D8%AA%D9%87%D9%89-%D9%88%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%86%D8%B3%D8%A8-%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/bltbe8a35543b2c4a77?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "عبر صالح المطلق، نجم الكرة السعودية السابق، عن غضبه من الفرنسي هيرفي رينارد، المدير الفني الحالي لمنتخب \"الصقور\"، حيث يرى أن وقته قد انتهى ويجب التخلص منه.",
+      "body": "عبر صالح المطلق، نجم الكرة السعودية السابق، عن غضبه من الفرنسي هيرفي رينارد، المدير الفني الحالي لمنتخب \"الصقور\"، حيث يرى أن وقته قد انتهى ويجب التخلص منه. وكان المنتخب السعودي قد حقق المركز الثالث في بطولة كأس العرب الأخيرة، مناصفة مع الإمارات، وذلك بعد خسارته في الدور نصف النهائي أمام الأردن، بهدف دون رد، وهو ما تسبب في موجة من الغضب في الشارع الرياضي. وقال المطلق في تصريحات عبر برنامج \"في المرمى\" السعودي: \"منذ وصول رينارد لتدريب المنتخب السعودي، وأنا لست مقتنعًا بوجوده، فهو يتعامل بتعالٍ واضح، ودائمًا ما يبحث عن الأعذار\". وأضاف: \"رينارد مؤخرًا يتحدث عن قلة دقائق اللاعب السعودي وغيرها من الأمور لتبرير فشله في كأس العرب، وأسوأ شيء هو عدم الاعتراف بالأخطاء، فهو لم يقم بأي بصمة واضحة سواء على المستوى الهجومي أو الدفاعي\". وأكمل حديثه: \"لا أعلم سبب الإصرار على استمراره رغم غياب البصمة، فيجب التعاقد مع مدرب آخر، يستطيع التعامل مع المشاكل التي نعاني منها، مثلما جلبنا سكولاري في وقتٍ سابق\". وشدد: \"بغض النظر عن ضيق الوقت، فالاستمرار على الخطأ هو أكبر خطأ، فيجب التعاقد مع مدرب آخر، والتخلص منه في أسرع وقت\". وتطرق للحديث عن رأيه في البدائل المتاحة، بقوله: \"أعتقد أن المغربي حسين عموتة، سيكون خيارًا رائعًا، فهو دليل واضح على نجاح الكرة المغربية التي أنتجت العديد من المدربين الرائعين\". واختتم…",
+      "image": null,
+      "pubDate": "2025-12-19T20:48:35.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "528c08e9d653916a",
@@ -1145,22 +1145,6 @@
       "region": "global"
     },
     {
-      "id": "e6fb268685ef7964",
-      "title": "بعد حمزة عبد الكريم.. برشلونة يتحرك نحو موهبة إنجليزية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%AA%D8%AD%D8%B1%D9%83-%D9%86%D8%AD%D9%88-%D9%85%D9%88%D9%87%D8%A8%D8%A9-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9/blt2b98ea54ad63831c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لا يتوقف برشلونة عن مطاردة المواهب الشاب بمختلف أنحاء العالم، لتعزيز صفوفه فرقه المختلفة بعناصر مميزة، تخدمه في المستقبل بتكلفة زهيدة.",
-      "body": "لا يتوقف برشلونة عن مطاردة المواهب الشاب بمختلف أنحاء العالم، لتعزيز صفوفه فرقه المختلفة بعناصر مميزة، تخدمه في المستقبل بتكلفة زهيدة. وفي الوقت الذي يكثف فيه النادي الكتالوني جهوده للتعاقد مع المهاجم المصري حمزة عبد الكريم، لاعب الأهلي، رصد البارسا موهبة أخرى في ملاعب إنجلترا. ووفقا لصحيفة \"موندو ديبورتيفو\" الكتالونية، فإن برشلونة يضع عينه على أجاي تافاريز، وهو لاعب إنجليزي شاب، ينشط في مركز الجناح بنادي نوريتش سيتي. وسيبلغ تافاريز عامه السادس عشر يوم 28 ديسمبر الجاري، كما أنه يحمل جواز سفر أوروبي، يسمح له بمغادرة المملكة المتحدة قبل بلوغه 18 سنة، حسبما ذكرت الصحيفة ذاتها. وأوضحت أن الجناح الشاب يتمتع بقدم يسارية قوية، وأيضا قدرات بدنية وجسدية رائعة، كما أنه قادر على اللعب في عمق الهجوم (رأس حربة). ويلعب تافاريز حاليا ضمن صفوف منتخب إنجلترا تحت 17 سنة، بعدما لعب من قبل في فريقي تحت 15 و16 سنة. وفي الوقت الذي يجذب تافاريز أنظار أندية أوروبية أخرى، يطمح برشلونة للظفر بخدماته، للعب في أكاديمية لامسيا، أملا في تطويره وإلحاقه بالفريق الأول مستقبلا.",
-      "image": null,
-      "pubDate": "2025-12-19T18:15:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "a2c78b61830d0391",
       "title": "بعد شائعات كيروش.. اتحاد الكرة ينفي التعاقد مع مدير فني جديد",
       "link": "https://www.yallakora.com/afcon/2958/news/534508/%d8%a8%d8%b9%d8%af-%d8%b4%d8%a7%d8%a6%d8%b9%d8%a7%d8%aa-%d9%83%d9%8a%d8%b1%d9%88%d8%b4-%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d9%83%d8%b1%d8%a9-%d9%8a%d9%86%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%82%d8%af-%d9%85%d8%b9-%d9%85%d8%af%d9%8a%d8%b1-%d9%81%d9%86%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-",
@@ -1259,6 +1243,22 @@
     {
       "id": "981e42633c250cbb",
       "title": "Do we have a genuine three-way Scottish title race?",
+      "link": "https://www.bbc.com/sport/football/articles/cy072767gwjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Heart of Midlothian continue to lead stumbling Celtic as Rangers continue to improve, so how does that leave the Scottish Premiership title race?",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-19T17:49:50.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f155a5012d9b55c9",
+      "title": "Do we have a genuine Scottish title race?",
       "link": "https://www.bbc.com/sport/football/articles/cy072767gwjo?at_medium=RSS&at_campaign=rss",
       "summary": "Heart of Midlothian continue to lead stumbling Celtic as Rangers continue to improve, so how does that leave the Scottish Premiership title race?",
       "body": null,
@@ -1385,22 +1385,6 @@
       "region": "global"
     },
     {
-      "id": "61aa3834fac4288e",
-      "title": "BBC replaced by TNT Sports as Commonwealth Games live broadcaster",
-      "link": "https://www.bbc.com/news/articles/c5yj9pnl5n4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The subscription channel takes over from the BBC which had been the principal partner since 1954 and provided free-to-air coverage.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-19T17:15:23.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "48eafb634b5d20ba",
       "title": "The RAM shortage is here to stay, raising prices on PCs and phones",
       "link": "https://www.theverge.com/news/848199/ram-shortage-pc-phone-price-increases",
@@ -1446,6 +1430,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "056c059bb5d12938",
+      "title": "Bose’s first-gen QC Ultra headphones just hit their lowest price to date",
+      "link": "https://www.theverge.com/gadgets/846881/bose-quietcomfort-ultra-headphones-first-gen-deal-sale-2025",
+      "summary": "The QC Ultra remain a great noise-canceling option if you plan on traveling during the holidays. | Image: The Verge If you value peace and quiet, particularly when traveling, Bose’s first-gen QuietComfort Ultra Headphones are worth checking out. They’re our favorite noise-canceling headphones for t…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-19T17:00:00.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1993,22 +1993,6 @@
       "region": "global"
     },
     {
-      "id": "1c73d42df2b5cb1f",
-      "title": "سلوت عن علاقته بمحمد صلاح: الأفعال أبلغ من الأقوال",
-      "link": "https://www.yallakora.com/epl/2968/news/534453/%d8%b3%d9%84%d9%88%d8%aa-%d8%b9%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%aa%d9%87-%d8%a8%d9%85%d8%ad%d9%85%d8%af-%d8%b5%d9%84%d8%a7%d8%ad-%d8%a7%d9%84%d8%a3%d9%81%d8%b9%d8%a7%d9%84-%d8%a3%d8%a8%d9%84%d8%ba-%d9%85%d9%86-%d8%a7%d9%84%d8%a3%d9%82%d9%88%d8%a7%d9%84",
-      "summary": "عاد أرني سلوت، المدير الفني لليفربول الإنجليزي للحديث حول علاقته مع محمد صلاح، نجم الفريق، وذلك بعدما تم توجيه سؤالًا له، خلال المؤتمر الصحفي الذي عقده اليوم",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-19T12:00:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "entertainment",
-      "region": "global"
-    },
-    {
       "id": "ac0cd57f9807f77d",
       "title": "China convicts 27 people for smuggling 166 tons of critical chipmaking element antimony — heavily-restricted mineral used for semiconductor manufacturing exported without licenses, court decides",
       "link": "https://www.tomshardware.com/tech-industry/china-convicts-27-people-for-smuggling-antimony-166-tons-of-mineral-used-for-semiconductor-manufacturing-exported-without-licenses-court-decides",
@@ -2022,6 +2006,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "1c73d42df2b5cb1f",
+      "title": "سلوت عن علاقته بمحمد صلاح: الأفعال أبلغ من الأقوال",
+      "link": "https://www.yallakora.com/epl/2968/news/534453/%d8%b3%d9%84%d9%88%d8%aa-%d8%b9%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%aa%d9%87-%d8%a8%d9%85%d8%ad%d9%85%d8%af-%d8%b5%d9%84%d8%a7%d8%ad-%d8%a7%d9%84%d8%a3%d9%81%d8%b9%d8%a7%d9%84-%d8%a3%d8%a8%d9%84%d8%ba-%d9%85%d9%86-%d8%a7%d9%84%d8%a3%d9%82%d9%88%d8%a7%d9%84",
+      "summary": "عاد أرني سلوت، المدير الفني لليفربول الإنجليزي للحديث حول علاقته مع محمد صلاح، نجم الفريق، وذلك بعدما تم توجيه سؤالًا له، خلال المؤتمر الصحفي الذي عقده اليوم",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-19T12:00:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "entertainment",
       "region": "global"
     },
     {
