@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-12-20T11:26:36.179Z",
-    "total": 284,
+    "generated_at": "2025-12-20T11:36:32.574Z",
+    "total": 283,
     "processed_feeds": 21,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 64,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
@@ -35,19 +48,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Sky News Arabia — تكنولوجيا",
         "url": "https://www.skynewsarabia.com/rss/technology.xml",
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
@@ -70,65 +70,26 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
+        "error": "Error: HTTP 405",
         "notModified": false
       },
       {
         "name": "Eater",
         "url": "https://www.eater.com/rss/index.xml",
         "homepage": "https://www.eater.com/rss/index.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -152,19 +113,6 @@
         "notModified": false
       },
       {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
         "name": "Masrawy - رياضة",
         "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
@@ -178,29 +126,29 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya — اقتصاد",
-        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
-        "name": "9to5Google",
-        "url": "https://9to5google.com/feed/",
-        "homepage": "https://9to5google.com/feed/",
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main/rss",
+        "homepage": "https://www.thekitchn.com/main/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -217,9 +165,9 @@
         "notModified": false
       },
       {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main/rss",
-        "homepage": "https://www.thekitchn.com/main/rss",
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -227,6 +175,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "9to5Google",
+        "url": "https://9to5google.com/feed/",
+        "homepage": "https://9to5google.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -252,20 +213,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 415",
-        "notModified": false
-      },
-      {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -279,6 +227,58 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — اقتصاد",
+        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       }
     ]
@@ -298,6 +298,22 @@
       },
       "lang": "ar",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d236928d8fa1f9ab",
+      "title": "Game emulators on Android are super hot right now, and here’s the proof",
+      "link": "https://www.androidauthority.com/game-emulator-android-poll-results-3626050/",
+      "summary": "What was once niche is now pretty mainstream.",
+      "body": "Using an emulator on Android devices has become a popular way to play classic, PC, and console games on mobile devices. These emulators have come a long way in such a short period, and are now capable of mimicking even the most complex architectures. This, combined with the performance of modern smartphones, is no wonder that we’ve seen massive growth in this space. It’s a great time to be a part of the Android game emulator scene In a recent article about gaming giant Valve’s hand in accelerating this sector , we asked readers if they use an emulator on their devices to play games. Over 11,000 readers responded with either a “yes” or a “no,” and the results are as follows.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2025/11/RetroAssembly-emulator-continue-playing.jpg",
+      "pubDate": "2025-12-20T11:30:08.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -507,6 +523,22 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "99835eaa87227b89",
+      "title": "بسبب الإصابة.. نجم برشلونة خارج موقعة فياريال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A7%D9%84%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AE%D8%A7%D8%B1%D8%AC-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D9%81%D9%8A%D8%A7%D8%B1%D9%8A%D8%A7%D9%84/bltc966dbc10163548a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فليك يرفض المخاطرة مع مصابي البارسا.. والعودة منتظرة في الديربي",
+      "body": "فليك يرفض المخاطرة مع مصابي البارسا.. والعودة منتظرة في الديربي بات بيدري، نجم برشلونة، خارج حسابات المدرب هانز فليك في مباراة فياريال بالدوري الإسباني المقرر لها، غدا الأحد، على ملعب لا سيراميكا بسبب الإصابة. ووفقا لصحيفة \"موندو ديبورتيفو\" الإسبانية، يعاني بيدري من مشاكل في العضلة ذات الرأسين الفخذية، بالإضافة إلى عضلة السمانة، ما جعل الجهاز الفني يقرر عدم المخاطرة به في هذه المباراة المهمة. وأشارت إلى أن بيدري شعر بالإجهاد أثناء مشاركته في الدقائق الأخيرة أمام جوادالاخارا في كأس ملك إسبانيا، لذا كان من الأفضل عدم سفره مع الفريق، لضمان تعافيه بشكل كامل. ومن المتوقع أن يكون بيدري جاهزاً لمواجهة الديربي أمام إسبانيول يوم 3 يناير، وفي حال وجود أي مخاطرة، سيتم تأجيل عودته حتى كأس السوبر الإسباني في السعودية، حيث سيواجه برشلونة نظيره أتلتيك بلباو في نصف النهائي يوم 7 يناير. رغم أن المباراة أمام فياريال تحمل أهمية كبيرة للفريق الكتالوني، إذ أن الفوز سيمنحه لقب بطل الشتاء، إلا أن سياسة المدرب هانز فليك تركز على تجنب أي مخاطرة تتعلق بالإصابات مع جميع اللاعبين، خاصة مع بيدري الذي يُعتبر عنصراً محورياً في خطة اللعب الخاصة بالمدرب الألماني. يذكر أن برشلونة يحتل صدارة الترتيب في الدوري الإسباني برصيد 43 نقطة.",
+      "image": null,
+      "pubDate": "2025-12-20T09:32:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "51038395c54ae0a6",
@@ -1028,22 +1060,6 @@
       "body": "قرارات السفر الأمريكية قبل مونديال 2026 لا تبعد المشجعين عن المدرجات فقط.. بل تحول الحلم العالمي إلى امتياز لا يملكه الجميع لم يكن حلم كأس العالم في أي وقت سابق مجرد مباراة تلعب، أو كأس ترفع، أو نجم يلمع تحت الأضواء. الحلم الحقيقي ظل دائما هناك، في المدرجات، في الجماهير التي تسافر خلف منتخباتها، في الأصوات التي تتجاوز الحدود، وفي الشعور الجمعي بأن البطولة وجدت ليكون العالم كله حاضرا فيها بلا استثناء. لكن مع اقتراب كأس العالم 2026، يبدو أن هذا المعنى يتعرض لاختبار صعب، اختبار لا يتعلق بالكرة داخل الملعب فقط، بل بالطريق إلى المدرجات نفسها. قرارات أمريكية مقيدة خلال عام 2025، أعلنت إدارة الرئيس الأمريكي دونالد ترامب سلسلة من القيود على السفر إلى الولايات المتحدة، تصفها واشنطن بأنها تهدف إلى تعزيز الأمن القومي وتقليل معدلات تجاوز التأشيرة، لكنها ستؤثر بشكل مباشر في وصول الجماهير إلى البطولة التي تستضيفها الولايات المتحدة بجانب كندا والمكسيك. في يونيو / حزيران 2025، فرضت واشنطن حظرا صارمًا على دخول مواطني عدة دول، منها هايتي وإيران وليبيا واليمن، بينما طبقت قيودا جزئية على آخرين مثل أبناء السنغال وكوت ديفوار، ما يعني أن الجماهير من هذه الدول قد لا تستطيع الحصول على التأشيرات السياحية اللازمة لحضور المباريات في الولايات المتحدة. القيود الأمريكية توسعت لاحقًا في ديسمبر / كانون الأول 2025…",
       "image": "https://assets.kooora.com/images/v3/blt2ba6d6cba05c75b9/crop/MM5DCNJQHE5DQNBZHJXG653FHIZTEORQ/Untitled.png",
       "pubDate": "2025-12-20T05:30:07.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3c255112c8fea62c",
-      "title": "ايقاف قيد النصر.. السر عند مانشستر سيتي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%8A%D9%82%D8%A7%D9%81-%D9%82%D9%8A%D8%AF-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D8%B1-%D8%B9%D9%86%D8%AF-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/blt83e88c24d1f933d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشفت تقارير صحفية عن السبب الحقيقي وراء عقوبة المنع من القيد التي تعرض لها نادي النصر خلال الساعات القليلة الماضية.",
-      "body": "كشفت تقارير صحفية عن السبب الحقيقي وراء عقوبة المنع من القيد التي تعرض لها نادي النصر خلال الساعات القليلة الماضية. وأدرج الاتحاد الدولي لكرة القدم \"فيفا\"، أمس الجمعة، نادي النصر ضمن الأندية الممنوعة من القيد، لحين دفع المبالغ المالية المستحقة ضده، دون الكشف عن &nbsp;تفاصيل القضية التي تسببت في ذلك. غير أن صحيفة \"الرياضية\" السعودية كشفت أن السبب في تلك العقوبة، هو نادي مانشستر سيتي، وتحديدًا بسبب صفقة انتقال المدافع الإسباني إيميريك لابورت إلى النصر في صيف 2023. واتفق النصر مع مانشستر سيتي على سداد قيمة انتقال لابورت على دفعات، من بينها 9 ملايين يورو في أغسطس/آب الماضي، وهي التي لم يسددها النادي العاصمي، ليتم توقيع عقوبة ضده. وأكدت الصحيفة أن \"العالمي\" سيتخلص من تلك العقوبة فور دفع الأموال المستحقة للنادي السماوي، ليكون بإمكانه إبرام تعاقدات جديدة خلال فترة الانتقالات الشتوية المقبلة. يُذكر أن لابورت لعب لصالح النصر بين عامي 2023 و2025، قبل الانتقال إلى أتلتيك بلباو، وقد شارك خلال تلك الفترة في 69 مباراة، وفشل في قيادة الفريق لتحقيق أي ألقاب رسمية.",
-      "image": null,
-      "pubDate": "2025-12-20T05:24:24.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -2154,22 +2170,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "aec15ebd494aae1a",
-      "title": "Nacua sorry for antisemitic gesture on livestream",
-      "link": "https://www.bbc.com/sport/american-football/articles/cy472855xdwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Los Angeles Rams wide receiver Puka Nacua apologises for performing an antisemitic gesture during a livestream appearance.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-19T09:05:52.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3322,22 +3322,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b0ac98097931bb7e",
-      "title": "OnePlus 15R lands with near-flagship power and a massive battery",
-      "link": "https://www.androidauthority.com/oneplus-15r-launch-3625273/",
-      "summary": "Here is what you need to know about the phone's US availability and pre-order deals.",
-      "body": "Credit: Joe Maring / Android Authority TL;DR The OnePlus 15R features a Snapdragon 8 Gen 5 SoC, a 165Hz AMOLED screen, and a 7,400mAh battery. It lacks a telephoto camera and LTPO display but adds IP69K ratings and an ultrasonic fingerprint sensor. Pricing starts at $699.99 with pre-orders beginning today and open sales beginning January 8, 2026. OnePlus is launching not one, but two pairs of flagships this year. At the start of the year, the much-acclaimed OnePlus 13 and OnePlus 13R were launched, but a few weeks ago, the less-acclaimed OnePlus 15 was also introduced. Rounding up the year is the new OnePlus 15R, which is now available globally alongside the OnePlus Pad Go 2 . Don’t want to miss the best from Android Authority ?",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/12/oneplus-15r-review-6-scaled.jpg",
-      "pubDate": "2025-12-17T15:00:35.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
