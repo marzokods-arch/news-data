@@ -1,13 +1,39 @@
 {
   "meta": {
-    "generated_at": "2025-12-21T07:11:01.821Z",
-    "total": 225,
+    "generated_at": "2025-12-21T07:30:21.300Z",
+    "total": 216,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 83,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
@@ -32,45 +58,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 83,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
         "notModified": false
       },
       {
@@ -100,6 +87,32 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -110,32 +123,6 @@
         ],
         "taken": 45,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -152,19 +139,6 @@
         "notModified": false
       },
       {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "MarketWatch — Metals",
         "url": "https://www.marketwatch.com/feeds/marketpulse",
         "homepage": "https://www.marketwatch.com/feeds/marketpulse",
@@ -178,23 +152,23 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 18,
+        "error": null,
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -215,10 +189,52 @@
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
         "notModified": false
+      },
+      {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "2f8a864dbbb64f92",
+      "title": "جدول مباريات اليوم.. انطلاق كأس الأمم الأفريقية 2025 ومهمة محلية لبرشلونة",
+      "link": "https://www.yallakora.com/afcon/2958/news/534701/%d8%ac%d8%af%d9%88%d9%84-%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%86%d8%b7%d9%84%d8%a7%d9%82-%d9%83%d8%a3%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d9%85-%d8%a7%d9%84%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a9-2025-%d9%88%d9%85%d9%87%d9%85%d8%a9-%d9%85%d8%ad%d9%84%d9%8a%d8%a9-%d9%84%d8%a8%d8%b1%d8%b4%d9%84%d9%88%d9%86%d8%a9",
+      "summary": "تقام مساء اليوم الأحد، مباريات عديدة في الدوريات العالمية والأفريقية، لكن قد تنصب الأعين نحو افتتاح بطولة كأس الأمم الأفريقية التي ستقام في المغرب.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-21T07:29:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "23ca3bd178f118b1",
       "title": "Stokes wants to remain captain despite Ashes defeat",
@@ -265,22 +281,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6b2f8a6d311dfab7",
-      "title": "Bowen Yang Pays Tribute to ‘SNL’ in Tearful Final Sketch: ‘This Is My Last Shift, I’m Gonna Miss Everything About This Place’",
-      "link": "https://variety.com/2025/tv/news/bowen-yang-cries-last-snl-ariana-grande-cher-1236613068/",
-      "summary": "Bowen Yang said goodbye to “Saturday Night Live” with the final sketch of the night, which was also his last. News broke on Friday that Saturday’s episode would be Yang’s final appearance as part of the “SNL” cast after being on the show for eight seasons. He first joined “Saturday Night Live” as a…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/bowen.jpg",
-      "pubDate": "2025-12-21T06:08:39.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -332,38 +332,6 @@
       "region": "global"
     },
     {
-      "id": "42f313a78114e130",
-      "title": "‘Dan Da Dan’ Confirms Season 3 Airing in 2027, Unveils New Key Visual",
-      "link": "https://variety.com/2025/tv/news/dan-da-dan-season-3-2027-1236612509/",
-      "summary": "Science Saru will return with a third season of “Dan Da Dan” airing in 2027, the studio revealed during Jump Festa 2026 on Dec. 21, revealing a new key visual for the supernatural comedy series. The anime’s debut season aired from October to December 2024, and its second season from July to Septemb…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/Da-Da-Dan-Season-3.jpg",
-      "pubDate": "2025-12-21T05:50:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a95428147a1814b8",
-      "title": "Michael Che Makes Colin Jost Insult Wife Scarlett Johansson in ‘SNL’ Joke Swap: ‘B—- You Having a Hot Flash’",
-      "link": "https://variety.com/2025/tv/news/snl-colin-jost-scarlett-johansson-joke-michael-che-swap-1236613703/",
-      "summary": "“Saturday Night Live” stars Colin Jost and Michael Che continued their yearly Christmas tradition of writing horribly offensive jokes for the other person to tell on Weekend Update. Except this year, Che lied to Jost that they weren’t doing their annual swap but still prepared his own — so Jost was…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/snl.jpg",
-      "pubDate": "2025-12-21T05:48:07.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9b705e5a8cbd341c",
       "title": "'I put my hands up' - McCullum admits Ashes mistakes",
       "link": "https://www.bbc.com/sport/cricket/articles/cm20d0nle64o?at_medium=RSS&at_campaign=rss",
@@ -377,22 +345,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1185e3ca5a4d2d0d",
-      "title": "Yash’s ‘Toxic’ Unveils First Look of Kiara Advani as Nadia (EXCLUSIVE)",
-      "link": "https://variety.com/2025/film/news/yash-toxic-kiara-advani-first-look-1236613449/",
-      "summary": "The filmmakers behind Yash’s highly anticipated “Toxic – A Fairytale for Grown-Ups” have revealed the first look at Kiara Advani’s character Nadia, offering a glimpse into what promises to be a transformative role for the actor. The poster presents Advani set against a circus backdrop, balancing gl…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/Kiara-Advani-First-Look-Toxic.jpg",
-      "pubDate": "2025-12-21T05:42:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -412,27 +364,43 @@
       "region": "global"
     },
     {
-      "id": "30d5113194d914b5",
-      "title": "Finn Wolfhard to Host First ‘SNL’ of New Year, A$AP Rocky Will Be Musical Guest",
-      "link": "https://variety.com/2025/tv/news/finn-wolfhard-host-saturday-night-live-aap-rocky-1236613688/",
-      "summary": "The first “Saturday Night Live” episode of 2026 will be hosted by Finn Wolfhard, with musical guest A$AP Rocky. The episode, which premieres on Jan. 17, comes weeks after the series finale of Wolfhard’s series “Stranger Things.” Meanwhile, Rocky will be performing music from his upcoming album “Don…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/MixCollage-21-Dec-2025-12-07-AM-7133.jpg",
-      "pubDate": "2025-12-21T05:11:42.000Z",
+      "id": "26321554d701b56e",
+      "title": "مبابي يغازل رونالدو في احتفاله بالرقم الأسطوري",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%8A%D8%BA%D8%A7%D8%B2%D9%84-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%81%D9%8A-%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84%D9%87-%D8%A8%D8%A7%D9%84%D8%B1%D9%82%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D9%8A/blt073993e843474e29?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صورة الطفولة.. كيليان يحتفل مع كريستيانو بالهدف التاريخي",
+      "body": "صورة الطفولة.. كيليان يحتفل مع كريستيانو بالهدف التاريخي وجه الفرنسي كيليان مبابي، نجم ريال مدريد، رسالة إلى البرتغالي كريستيانو رونالدو، نجم النصر السعودي وأسطورة الميرنجي. ونجح مبابي في معادلة أعلى حصيلة أهداف للاعب من ريال مدريد في عام واحد عبر التاريخ، والتي حققها كريستيانو رونالدو في عام 2013 (59 هدفًا). وجاء ذلك بعدما سجل مبابي، هدف الريال الثاني في مرمى إشبيلية من ركلة جزاء، أمس السبت، على ملعب سانتياجو برنابيو، ضمن لقاءات الجولة 17 بالليجا. ونشر مبابي صورا من احتفاله بالهدف في المباراة، على حسابه بشبكة \"إنستجرام\"، وأرفق معها صورته مع رونالدو عندما كان النجم الفرنسي طفلا. وكتب مبابي على الصورة: \"آمن بأحلامك.. لك مني كل التقدير\"، وأشار النجم الفرنسي في التغريدة إلى الحساب الرسمي لكريستيانو. &nbsp; View this post on Instagram ولم يعد بإمكان مبابي كسر رقم رونالدو هذا العام، حيث يعد هذا اللقاء الأخير للميرنجي في عام 2026. وفاز ريال مدريد على ضيفه إشبيلية، بهدفين دون رد، ليرفع رصيده إلى 42 نقطة في المركز الثاني. أما إشبيلية، فتجمد رصيده عند 20 نقطة في المركز التاسع.",
+      "image": null,
+      "pubDate": "2025-12-21T05:27:41.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
+    },
+    {
+      "id": "7f93ebd6d61921cd",
+      "title": "بايرن يطارد نهاية قوية للعام في ثاني أفضل مواسمه",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%8A%D8%B7%D8%A7%D8%B1%D8%AF-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%82%D9%88%D9%8A%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D9%81%D9%8A-%D8%AB%D8%A7%D9%86%D9%8A-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%85%D9%88%D8%A7%D8%B3%D9%85%D9%87/bltfd75c2765abb06c1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فجوة رقمية هائلة تسبق مواجهة بايرن وهايدنهايم",
+      "body": "فجوة رقمية هائلة تسبق مواجهة بايرن وهايدنهايم عندما يسافر بايرن ميونخ لمواجهة فريق هايدنهايم مساء اليوم الأحد، في مباراته الأخيرة لهذا العام، ستكون المواجهة بمثابة صدام بين طرفي نقيض في كل شيء. فالفريق البافاري يمتلك أقوى خط هجوم في الدوري الألماني هذا الموسم، بتسجيله 51 هدفًا (بمعدل 3.64 هدف في المباراة الواحدة)، وهو رقم قياسي تاريخي بعد مرور 14 جولة فقط. وفي المقابل، يمتلك هايدنهايم أضعف خط هجوم في \"البوندسليجا\"، بالتساوي مع ماينز وسانت باولي، برصيد 13 هدفًا فقط. كما يمتد هذا الفارق إلى الجانب الدفاعي، حيث يملك البايرن أقوى خط دفاع (استقبل 11 هدفًا)، بينما يملك هايدنهايم الأضعف باستقباله 30 هدفًا. لغة الأرقام تظهر الفوارق الشاسعة أيضًا في لغة الأرقام المتعلقة بالاستحواذ على الكرة، إذ يسجل بايرن ميونخ أعلى نسبة استحواذ في الدوري بمعدل 68%، بينما يأتي هايدنهايم في المركز قبل الأخير بنسبة 42%. وفي مباراته الأخيرة ضد ماينز، حقق البايرن رقمًا قياسيًا جديدًا منذ بدء جمع البيانات التفصيلية في موسم (2004-2005)، وذلك بعد أن وصلت نسبة استحواذه على الكرة إلى 85%. السفر على صعيد النتائج خارج الديار، يظهر بايرن ميونخ كقوة لا تُقهر في عام 2025، حيث لم يتلقَّ أي خسارة في 15 مباراة خاضها بعيدًا عن ملعبه في الدوري الألماني، محققًا 11 فوزًا و4 تعادلات. وإذا نجح الفريق في تجنب الهزيمة اليوم، فستكو…",
+      "image": "https://assets.kooora.com/images/v3/getty-2249037490/crop/MM5DGOJRGU5DEMRQGI5G433XMU5DAORSG4ZA====/GettyImages-2249037490.jpg",
+      "pubDate": "2025-12-21T05:19:47.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "ee44575f393a5a86",
       "title": "أسد متمرد لا يعرف المستحيل.. سيناريو الحلم يُنهي معاناة حمد الله الدولية",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D8%B3%D8%AF-%D9%85%D8%AA%D9%85%D8%B1%D8%AF-%D9%84%D8%A7-%D9%8A%D8%B9%D8%B1%D9%81-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84-%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A7%D9%84%D8%AD%D9%84%D9%85-%D9%8A%D9%8F%D9%86%D9%87%D9%8A-%D9%85%D8%B9%D8%A7%D9%86%D8%A7%D8%A9-%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9/blt6ed9e5ce37ea46d0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "لم يأتِ الختام صدفة، ولم يكن مجرد تتويج عابر، فقد كانت لحظة محسوبة، انتظرها طويلًا لاعب اختار أن يقاتل حتى آخر ثانية، حين ظن كثيرون أن القصة شارفت على نهايتها، كتب فصلها الأجمل بقدميه، واضعًا نهاية مختلفة لمسيرة دولية مليئة بالتحديات.",
-      "body": "لم يأتِ الختام صدفة، ولم يكن مجرد تتويج عابر، فقد كانت لحظة محسوبة، انتظرها طويلًا لاعب اختار أن يقاتل حتى آخر ثانية، حين ظن كثيرون أن القصة شارفت على نهايتها، كتب فصلها الأجمل بقدميه، واضعًا نهاية مختلفة لمسيرة دولية مليئة بالتحديات. ذلك اللاعب هو عبد الرزاق حمد الله، الذي أسدل الستار على مسيرته الدولية مع منتخب المغرب قبل أيام قليلة بطريقة لم يكن يحلم بها أفضل من ذلك، بعد التتويج بلقب كأس العرب، محققًا حلمًا طال انتظاره. &nbsp; مسيرة مليئة بالأشواك رغم ما يمتلكه عبد الرزاق حمد الله من قدرات تهديفية استثنائية ومسيرة لامعة مع الأندية، فإن رحلته الدولية جاءت معقدة وصعبة إلى حد كبير. أرقامه مع الفرق التي دافع عن ألوانها، سواء في الدوري السعودي أو غيره، وضعته دائمًا ضمن أبرز المهاجمين العرب والأفارقة، إلا أن هذا التألق لم يُترجم بالقدر نفسه على الصعيد الدولي. عانى \"الساطي\" كما لقبته الجماهير في الدوري السعودي من عدم الاستقرار مع منتخب المغرب، حيث ظل اسمه حاضرًا في دائرة الجدل أكثر من كونه عنصرًا ثابتًا داخل المنتخب. الاستبعادات المتكررة، وتغير الأجهزة الفنية، إضافة إلى الخلافات التي نشبت في فترات مختلفة، جعلت مسيرته الدولية تتسم بالتقطع، رغم كونه واحدًا من أفضل الهدافين في جيله. كما لعبت الإصابات دورًا سلبيًا في تعقيد مشواره مع المنتخب، إذ جاءت في توقيتات حاسمة حرمته من المشاركة في ب…",
+      "body": "لم يأتِ الختام صدفة، ولم يكن مجرد تتويج عابر، فقد كانت لحظة محسوبة، انتظرها طويلًا لاعب اختار أن يقاتل حتى آخر ثانية، حين ظن كثيرون أن القصة شارفت على نهايتها، كتب فصلها الأجمل بقدميه، واضعًا نهاية مختلفة لمسيرة دولية مليئة بالتحديات. ذلك اللاعب هو عبد الرزاق حمد الله، الذي أسدل الستار على مسيرته الدولية مع منتخب المغرب قبل أيام قليلة بطريقة لم يكن يحلم بها أفضل من ذلك، بعد التتويج بلقب كأس العرب، محققًا حلمًا طال انتظاره. &nbsp; مسيرة مليئة بالأشواك رغم ما يمتلكه عبد الرزاق حمد الله من قدرات تهديفية استثنائية ومسيرة لامعة مع الأندية، فإن رحلته الدولية جاءت معقدة وصعبة إلى حد كبير. أرقامه مع الفرق التي دافع عن ألوانها، سواء في الدوري السعودي أو غيره، وضعته دائمًا ضمن أبرز المهاجمين العرب والأفارقة، إلا أن هذا التألق لم يُترجم بالقدر نفسه على الصعيد الدولي. عانى \"الساطي\" كما لقبته الجماهير من عدم الاستقرار مع منتخب المغرب، حيث ظل اسمه حاضرًا في دائرة الجدل أكثر من كونه عنصرًا ثابتًا داخل المنتخب. الاستبعادات المتكررة، وتغير الأجهزة الفنية، إضافة إلى الخلافات التي نشبت في فترات مختلفة، جعلت مسيرته الدولية تتسم بالتقطع، رغم كونه واحدًا من أفضل الهدافين في جيله. كما لعبت الإصابات دورًا سلبيًا في تعقيد مشواره مع المنتخب، إذ جاءت في توقيتات حاسمة حرمته من المشاركة في بطولات مهمة، وأفقدت…",
       "image": "https://assets.kooora.com/images/v3/getty-1448828242/crop/MM5DGMZRGI5DCOBWGM5G433XMU5DIMBSHI4TC===/GettyImages-1448828242.jpg",
       "pubDate": "2025-12-21T05:10:37.000Z",
       "source": {
@@ -457,22 +425,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b55df7e751031845",
-      "title": "Ariana Grande Spoofs Mariah Carey’s ‘All I Want for Christmas Is You’ With Bowen Yang in ‘SNL’ Monologue",
-      "link": "https://variety.com/2025/tv/news/ariana-grande-mariah-carey-all-want-christmas-snl-monologue-1236613677/",
-      "summary": "Ariana Grande belted out her own rendition of Mariah Carey’s “All I Want for Christmas Is You” during her “Saturday Night Live” monologue about the difficulties of of buying presents for acquaintances and friends of friends, titled “What Do I Get for Christmas for This Dude?” Saturday marked the Ch…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/ari.jpg",
-      "pubDate": "2025-12-21T05:00:22.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -508,8 +460,8 @@
       "region": "global"
     },
     {
-      "id": "fecfb5014212b205",
-      "title": "The 10 moments that decided the Ashes",
+      "id": "d62a696a9fcc3fbe",
+      "title": "10 moments that decided the Ashes",
       "link": "https://www.bbc.com/sport/cricket/articles/cx25jx75lpxo?at_medium=RSS&at_campaign=rss",
       "summary": "Australia have regained the Ashes after winning the first three Tests against England down under once again - here are the 10 moments that decided the destination of the urn.",
       "body": null,
@@ -908,22 +860,6 @@
       "region": "global"
     },
     {
-      "id": "64442b93edd52189",
-      "title": "Kate Winslet ‘Desperately Tried’ to Recast Herself in ‘Goodbye June’ Directorial Debut: ‘I Cannot Do Three Jobs’",
-      "link": "https://variety.com/2025/film/news/kate-winslet-goodbye-june-directorial-debut-1236613502/",
-      "summary": "Kate Winslet is opening up about the challenges she faced while making her directorial debut, “Goodbye June.” Written by her son, Joe Anders, the actress revealed that she only planned to star and produce the film. When she was also offered the opportunity to direct the feature, Winslet said that h…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/08/GJ_20250306_Unit_01585-_RT.jpg",
-      "pubDate": "2025-12-20T22:24:48.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "780204680a9f766e",
       "title": "Dobey dumped out by Gilding as Bunting progresses",
       "link": "https://www.bbc.com/sport/darts/articles/c0edy4vvxpzo?at_medium=RSS&at_campaign=rss",
@@ -982,22 +918,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "55d3d7a8652b5fb1",
-      "title": "Sydney Sweeney on ‘The Housemaid,’ Reading Freida McFadden’s ‘Delicious’ Novel in One Sitting and Her Hopes for a Sequel: ‘Give the People What They Want’",
-      "link": "https://variety.com/2025/film/columns/sydney-sweeney-erotic-thriller-the-housemaid-novel-sequel-1236613155/",
-      "summary": "Sydney Sweeney was familiar with “The Housemaid” novel when she landed a starring role in Paul Feig’s movie adaptation. “I was juicy, it was delicious,” she told me at the film’s Los Angeles premiere on Monday. “I could not put the book down. I remember I opened it, and you know when you’re like, ‘…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/GettyImages-2251604162-1.jpg",
-      "pubDate": "2025-12-20T21:38:45.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -1066,22 +986,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "d1824fae62a6289d",
-      "title": "Dave Chappelle Slams Bill Maher for Saudi Show Criticism: ‘F— That Guy’",
-      "link": "https://variety.com/2025/tv/news/dave-chappelle-bill-maher-saudi-criticism-1236613489/",
-      "summary": "Dave Chappelle went after Bill Maher in his new Netflix special, “The Unstoppable,” for criticizing his appearance at Saudi Arabia’s Riyadh Comedy Festival. “Recently in the news, I’ve been getting a lot of grief, again, because I did a comedy festival in Saudi Arabia,” Chappelle said to applause. …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/MixCollage-20-Dec-2025-12-42-PM-5386.jpg",
-      "pubDate": "2025-12-20T21:07:21.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "693f3b1238539a76",
@@ -1404,22 +1308,6 @@
       "region": "global"
     },
     {
-      "id": "80eaacb190e9e0f8",
-      "title": "مدرب توتنهام: هدف إيكيتيكي أكبر خطأ ارتكبه الڤار",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D9%87%D8%AF%D9%81-%D8%A7%D9%95%D9%8A%D9%83%D9%8A%D8%AA%D9%8A%D9%83%D9%8A-%D8%A7%D9%94%D9%83%D8%A8%D8%B1-%D8%AE%D8%B7%D8%A7%D9%94-%D8%A7%D8%B1%D8%AA%D9%83%D8%A8%D9%87-%D8%A7%D9%84%DA%A4%D8%A7%D8%B1/blt3aca72e5c1e255cb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "فرانك يرفض الاعتراف بصحة طرد سيمونز",
-      "body": "فرانك يرفض الاعتراف بصحة طرد سيمونز عبر توماس فرانك مدرب توتنهام عن غضبه تجاه قرارات حكم الفيديو المساعد (VAR)، معتبرا أن عدم احتساب خطأ على هوجو إيكيتيكي مهاجم ليفربول في لقطة تسجيله الهدف الثاني للريدز كان الخطأ الأكبر\" في لقاء الليلة الذي انتهى بهزيمة سبيرز 2-1، بالجولة 17 من الدوري الإنجليزي الممتاز. وشهدت المباراة التي أقيمت على ملعب توتنهام فوضى كبيرة مع طرد الثنائي تشافي سيمونز وكريستيان روميرو قائد الفريق ليختتم توتنهام اللقاء بـ9 لاعبين فقط. ومع ذلك، ركز فرانك انتقاداته الرئيسية على الهدف الثاني الذي سجله إيكيتيكي في الدقيقة 66، حيث قال إن المهاجم الفرنسي دفع روميرو بكلتا يديه في الظهر أثناء قفزة مشتركة على الكرة العرضية التي جاء منها الهدف. ونقلت صحيفة إندبندنت البريطانية تصريحات فرانك بعد المباراة، إذ قال: \"أعتقد أن الهدف الثاني خطأ من الحكم، هناك دفعتان واضحتان باليدين في الظهر. لا أفهم كيف يمكن فعل ذلك دون احتساب خطأ. رأينا ذلك آلاف المرات: قفزة على ركلة مرمى أو كرة عرضية، يدين في الظهر، ويعلن الخطأ فورا... لكن داخل منطقة الجزاء، يبدو الأمر مختلفا. هذا كان الخطأ الأكبر في رأيي سواء من الحكم أو من غرفة تقنية الفيديو VAR، لكن يبدو أنه لم يكن كافيا للتدخل\". وحصل روميرو على بطاقة صفراء بسبب احتجاجه على الهدف، قبل أن يطرد في الوقت بدل الضائع بعد ركلة متعمدة ضد إبراهيما كون…",
-      "image": null,
-      "pubDate": "2025-12-20T20:12:12.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "18e15cac9755556a",
       "title": "Ruthless Bristol batter Harlequins at Twickenham",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c783lpe8eg8o?at_medium=RSS&at_campaign=rss",
@@ -1450,22 +1338,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "46baadb6116bdb25",
-      "title": "جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt642666b88ab760ff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
-      "body": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب يحظى الدوري الإسباني بمتابعة استثنائية على مستوى العالم، كونه أحد أكثر المسابقات إثارة وقوة، بفضل المنافسة الشرسة بين العملاقين ريال مدريد وبرشلونة. وتمكن برشلونة من التتويج بلقب الدوري الإسباني 2024-2025، بعدما خسر اللقب في الموسم السابق لصالح غريمه الأزلي ريال مدريد. حصد البارسا، تحت قيادة المدرب هانز فليك، الثلاثية المحلية في الموسم الماضي (الدوري والكأس والسوبر)، وفاز على ريال مدريد في جميع المواجهات، ما دفع النادي الملكي لتعزيز صفوفه بأكثر من لاعب، إلى جانب التوقيع مع تشابي ألونسو ليقود الفريق خلفًأ لكارلو أنشيلوتي، ما يمهد لصراع هائل في الموسم المقبل. ويترقب الجميع حول العالم موعد انطلاق الموسم المقبل من الدوري الإسباني 2025-2026، والذي سيكون مشتعلًا بكل تأكيد، كما كان الموسم الماضي. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإسباني 2025-2026 والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإسباني 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 برشلونة 17 14 1 2 49 20 29 43 2 ريال مدريد 18 13 3 2 36 16 20 42 3 فياريال 15 11 2 2 31 13 18 35 4 أتلتيكو مدريد 17 10 4 3 30 16 14 34 5 إسبانيول 16 9 3 4 20 16 4 30 6 ريال بيتيس 16 6 …",
-      "image": null,
-      "pubDate": "2025-12-20T20:04:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "11125d737a21e1b8",
@@ -3036,22 +2908,6 @@
       "region": "global"
     },
     {
-      "id": "5ec7d2cd620468d0",
-      "title": "قائمة الزمالك.. غياب ناصر ماهر وعبدالله السعيد.. وعودة 3 لاعبين أمام حرس الحدود",
-      "link": "https://www.yallakora.com/egyptian-league-cup/3012/news/534524/-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%ba%d9%8a%d8%a7%d8%a8-%d9%86%d8%a7%d8%b5%d8%b1-%d9%85%d8%a7%d9%87%d8%b1-%d9%88%d8%b9%d8%a8%d8%af%d8%a7%d9%84%d9%84%d9%87-%d8%a7%d9%84%d8%b3%d8%b9%d9%8a%d8%af-%d9%88%d8%b9%d9%88%d8%af%d8%a9-3-%d9%84%d8%a7%d8%b9%d8%a8%d9%8a%d9%86-%d8%a3%d9%85%d8%a7%d9%85-%d8%ad%d8%b1%d8%b3-%d8%a7%d9%84%d8%ad%d8%af%d9%88%d8%af",
-      "summary": "أعلن أحمد عبد الرؤوف المدير الفني لنادي الزمالك، القائمة التي ستخوض مباراة حرس الحدود، غدًا السبت، ببطولة كأس الرابطة المصرية.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-19T20:10:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "4eabde6fc0f3437a",
       "title": "vivo X200T's full specs leak revealing a very familiar device",
       "link": "https://www.gsmarena.com/vivo_x200ts_full_specs_leak_revealing_a_very_familiar_device-news-70795.php",
@@ -3644,22 +3500,6 @@
       "region": "global"
     },
     {
-      "id": "ad9df7812ff8cd9c",
-      "title": "Samsung eyed up for huge 8nm chip order from Intel — the Z990 chipset for Nova Lake CPUs could be Intel's 8nm debut",
-      "link": "https://www.tomshardware.com/pc-components/chipsets/samsung-eyed-up-for-huge-8nm-chip-order-from-intel-the-z990-chipset-for-nova-lake-cpus-could-be-intels-8nm-debut",
-      "summary": "According to a Hankyung report, Samsung Foundry has secured a substantial order from Intel to produce Intel's chipsets on Samsung Foundry's 8nm process node.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/Canz6fbwbM92bChfTj37p7-1280-80.jpg",
-      "pubDate": "2025-12-18T12:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "4ea5d14e79b60c07",
       "title": "42-year old QuickShot II joystick gets an era-appropriate revival — iconic joystick is the perfect companion for an 80s retro setup",
       "link": "https://www.tomshardware.com/video-games/retro-gaming/42-year-old-quickshot-ii-joystick-gets-an-era-appropriate-revival-iconic-joystick-is-the-perfect-companion-for-an-80s-retro-setup",
@@ -3673,6 +3513,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ad9df7812ff8cd9c",
+      "title": "Samsung eyed up for huge 8nm chip order from Intel — the Z990 chipset for Nova Lake CPUs could be Intel's 8nm debut",
+      "link": "https://www.tomshardware.com/pc-components/chipsets/samsung-eyed-up-for-huge-8nm-chip-order-from-intel-the-z990-chipset-for-nova-lake-cpus-could-be-intels-8nm-debut",
+      "summary": "According to a Hankyung report, Samsung Foundry has secured a substantial order from Intel to produce Intel's chipsets on Samsung Foundry's 8nm process node.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/Canz6fbwbM92bChfTj37p7-1280-80.jpg",
+      "pubDate": "2025-12-18T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
