@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2025-12-21T15:10:54.106Z",
-    "total": 214,
-    "processed_feeds": 16,
-    "discovered_feeds": 83,
+    "generated_at": "2025-12-21T15:30:39.359Z",
+    "total": 213,
+    "processed_feeds": 17,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -35,6 +35,32 @@
         "notModified": false
       },
       {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/ade19bc0-6884-49cc-a57d-fb1dbe88f983",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 72,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -45,32 +71,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
         "notModified": false
       },
       {
@@ -87,19 +87,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 73,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -109,7 +96,33 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -123,6 +136,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -152,19 +178,6 @@
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "GSMArena",
         "url": "https://www.gsmarena.com/rss-news-reviews.php3",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
@@ -178,23 +191,23 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 500",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -219,6 +232,38 @@
     ]
   },
   "items": [
+    {
+      "id": "a7fa7ed3947ef04a",
+      "title": "ضمنها مباراتي الأهلي والزمالك.. تعديل في مواجهات الجولة الثالثة بكأس الرابطة",
+      "link": "https://www.yallakora.com/egyptian-league-cup/3012/news/534748/%d8%b6%d9%85%d9%86%d9%87%d8%a7-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d9%81%d9%8a-%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%84%d8%ab%d8%a9-%d8%a8%d9%83%d8%a3%d8%b3-%d8%a7%d9%84%d8%b1%d8%a7%d8%a8%d8%b7%d8%a9",
+      "summary": "يستعد الفريق الأول لكرة القدم بالنادي الأهلي، لملاقاة نظيره فريق غزل المحلة، ضمن منافسات بطولة كأس رابطة الأندية المحترفة 2025.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-21T15:20:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c2bef6be3b9e69fa",
+      "title": "طبيب الأهلي يعلن تفاصيل إصابة طاهر.. وتعافي أفشة من آلام عضلة السمانة",
+      "link": "https://www.yallakora.com/egyptian-league-cup/3012/news/534747/%d8%b7%d8%a8%d9%8a%d8%a8-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%8a%d8%b9%d9%84%d9%86-%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%b7%d8%a7%d9%87%d8%b1-%d9%88%d8%aa%d8%b9%d8%a7%d9%81%d9%8a-%d8%a3%d9%81%d8%b4%d8%a9-%d9%85%d9%86-%d8%a2%d9%84%d8%a7%d9%85-%d8%b9%d8%b6%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%85%d8%a7%d9%86%d8%a9",
+      "summary": "أعلن أحمد جاب الله، طبيب الأهلي، إصابة طاهر محمد طاهر، لاعب الفريق الأحمر، بعد مباراة الفريق ضد سيراميكا كليوباترا.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-21T15:19:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "06ee0027eb4e5519",
       "title": "بحثًا عن الصدارة.. الأهلي يمطر شباك إنبي في الدوري المصري للكرة النسائية",
@@ -412,6 +457,22 @@
       "region": "global"
     },
     {
+      "id": "fcc0b916bb89b0b0",
+      "title": "ساعات حاسمة.. الرعب يسيطر على أروقة ليفربول",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AD%D8%A7%D8%B3%D9%85%D8%A9-%D8%A7%D9%84%D8%B1%D8%B9%D8%A8-%D9%8A%D8%B3%D9%8A%D8%B7%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%94%D8%B1%D9%88%D9%82%D8%A9-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/blt699746f27bffe713?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مسؤولو الريدز يعيشون حالة من القلق الشديد",
+      "body": "مسؤولو الريدز يعيشون حالة من القلق الشديد يعيش مسؤولو ليفربول حالة من القلق الشديد، انتظارا لما ستسفر عنه الفحوص الطبية بشأن إصابة المهاجم السويدي ألكسندر إيزاك، التي وقعت أمس السبت، خلال الفوز على توتنهام 2-1 في البريميرليج. وبحسب الصحفي الشهير جيمس بيرس، فإن هناك اشتباه بأن المشكلة في أسفل الساق، وليس الركبة كما بدا في التصوير التليفزيوني للإصابة. وبدأ الدولي السويدي المباراة من على مقاعد البدلاء، بعدما فضل مدربه آرني سلوت الدفع بالفرنسي هوجو إيكيتيكي على حسابه. وبعد 10 دقائق فقط، نجح إيزاك في إحراز هدف التقدم للريدز بعدما استغل فريقه هفوة المدافع الأرجنتينيي كريستيان روميرو بالقرب من منطقة الجزاء. لكن لاعب نيوكاسل يونايتد السابق، تعرض لإصابة لحظة تسجيل الهدف، بعدما سقط أرضا متألما عقب تدخل المدافع الهولندي فان دي فين لحظة تسديده الكرة. ولم يستطع إيزاك الاحتفال بالهدف، بل ظل يتألم من الإصابة، مما استوجب دخول الطاقم الطبي لعلاجه. وبدا أن إيزاك تعرض لإصابة قوية، إذ لم يستطع النهوض وظل يبكي على أرض الملعب، قبل مساعدته من قبل أفراد الطاقم الطبي على النهوض ومغادرة ملعب المباراة. واضطر سلوت لاستبدال إيزاك بعدها مباشرة، ليدفع بالهولندي جيريمي فريمبونج بدلا منه.",
+      "image": null,
+      "pubDate": "2025-12-21T13:27:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "3a9b4860089c710a",
       "title": "رسميًا.. حسن مصطفى يفوز برئاسة الاتحاد الدولي لكرة اليد",
       "link": "https://www.yallakora.com/handball-/2890/news/534733/%d8%b1%d8%b3%d9%85%d9%8a-%d8%a7-%d8%ad%d8%b3%d9%86-%d9%85%d8%b5%d8%b7%d9%81%d9%89-%d9%8a%d9%81%d9%88%d8%b2-%d8%a8%d8%b1%d8%a6%d8%a7%d8%b3%d8%a9-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a-%d9%84%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d9%8a%d8%af",
@@ -444,6 +505,38 @@
       "region": "global"
     },
     {
+      "id": "d85cfa8ecd67db58",
+      "title": "مدرب الشارقة عن غياب بونو وكوليبالي: الهلال لا يتأثر بأي لاعب.. وهدفي التفوق عليه",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9-%D8%B9%D9%86-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%A8%D9%88%D9%86%D9%88-%D9%88%D9%83%D9%88%D9%84%D9%8A%D8%A8%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%84%D8%A7-%D9%8A%D8%AA%D8%A7%D9%94%D8%AB%D8%B1-%D8%A8%D8%A7%D9%94%D9%8A-%D9%84%D8%A7%D8%B9%D8%A8-%D9%88%D9%87%D8%AF%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%8A%D9%87/blt4ac142e2e741784e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أثنى البرازيلي جوزيه مورايس، المدير الفني الجديد لفريق الشارقة الإماراتي، على قدرات فريق الهلال السعودي قبل المواجهة المرتقبة التي ستجمع الطرفين، غدًا الإثنين، ضمن منافسات الجولة السادسة من بطولة دوري أبطال آسيا للنخبة.",
+      "body": "أثنى البرازيلي جوزيه مورايس، المدير الفني الجديد لفريق الشارقة الإماراتي، على قدرات فريق الهلال السعودي قبل المواجهة المرتقبة التي ستجمع الطرفين، غدًا الإثنين، ضمن منافسات الجولة السادسة من بطولة دوري أبطال آسيا للنخبة. وسبق وأن تولى مورايس تدريب الهلال لمدة شهرين فقط خلال موسم 2020-2021، وتمكن من قيادة \"الزعيم\" نحو تحقيق الدوري السعودي للمحترفين. وقبل المواجهة المرتقبة، تحدث مورايس في تصريحات بالمؤتمر الصحفي، قائلاً: \"الهلال فريق كبير، وأمتلك معه ذكريات رائعة، ولكنني أسعى لتحقيق الفوز في مباراة الغد والحصول على النقاط كاملة\". وعن غياب المغربي ياسين بونو والسنغالي كاليدو كوليبالي عن الهلال، قال مورايس: \"الزعيم لا يتأثر بغياب أي لاعب، فهو فريق محترف ومليء بالعناصر الرائعة، وأعتقد أنه سيخوض المباراة بكل قوة\". وأكمل: \"لقد درسنا الهلال بشكل جيد واطلعنا بدقة على نقاط القوة والضعف لديهم، وهو ما يمنحنا فرصة أفضل للاستعداد بشكل مثالي للمباراة المقبلة\". واختتم: \"نحن ملتزمون بالتركيز والعمل الجاد لتصحيح مسار الفريق في بطولة نخبة آسيا وتحقيق الأداء المرجو أمام جماهيرنا\". ويتصدر الهلال جدول ترتيب دوري غرب آسيا من بطولة النخبة، برصيد 15 نقطة، بعدما حقق العلامة الكاملة في أول 5 مباريات، فيما يمتلك الشارقة 7 نقاط في المركز السابع.",
+      "image": null,
+      "pubDate": "2025-12-21T13:24:25.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "13c82c605c0e8366",
+      "title": "اتحاد جدة يقدم عرضه الأول لضم هدف الهلال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D9%8A%D9%82%D8%AF%D9%85-%D8%B9%D8%B1%D8%B6%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84-%D9%84%D8%B6%D9%85-%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/bltb58b14d5c6f64854?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صراع بين الزعيم والعميد على نجم الخليج",
+      "body": "صراع بين الزعيم والعميد على نجم الخليج قدم نادي اتحاد جدة، عرضه الأول، لنظيره الخليج، بشأن الحصول على خدمات لاعبه، مراد هوساوي، خلال فترة الانتقالات الشتوية المقبلة. ونقلا عن صحيفة \"الشرق الأوسط\" السعودية، فإن النادي الغربي، أرسل خطابًا رسميًا اليوم الأحد، إلى نادي الخليج، يُعبّر فيه عن رغبته في بدء مفاوضات للتعاقد مع مراد هوساوي. وأضافت الصحيفة، أن الخطاب المرسل من جانب العميد، لم يحدد أي مبلغٍ ماليٍ مُقترحٍ لصفقة مراد هوساوي، حيث اقتصر مضمونه على إبلاغ إدارة الخليج رسميًا برغبته في فتح باب التفاوض بشأن الحصول على خدمات اللاعب في يناير/كانون الثاني المقبل. وأكدت أن إدارة الخليج، اتفقت مع الهلال (الراغب في ضم اللاعب أيضًا) والاتحاد، على إجراء المفاوضات في سرية تامة، لضمان سير المحادثات بسلاسة ومنطقية، بعيداً عن أي ضغوط أو تدخلات خارجية قد تؤثر على مسارها أو نتائجها، وتجنباً لأي مزايدة أو تضخيم للأرقام. وكان مراد هوساوي، قد انتقل إلى صفوف الخليج على سبيل الإعارة، في الموسم الماضي، ليشارك معه في 32 مباراة، أحرز خلالها هدفًا وحيدًا. وبعدها انضم للكناري بشكل نهائي، خلال فترة الانتقالات الصيفية الماضية. وفي الموسم الحالي، شارك هوساوي مع الخليج في 9 مباريات، 7 منها في الدوري السعودي، ومباراتين في كأس خادم الحرمين الشريفين، وسجّل هدفًا وحيدًا، كما صنع هدفين.",
+      "image": null,
+      "pubDate": "2025-12-21T13:17:07.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "1c516c8677eb6973",
       "title": "‘LeBron James of Excel spreadsheets’ celebrates 2025 Microsoft Excel World Championships win — beat 256 other spreadsheet whizzes to claim the $60,000 first prize in Las Vegas tournament",
       "link": "https://www.tomshardware.com/software/microsoft-office/lebron-james-of-excel-spreadsheets-celebrates-2025-microsoft-excel-world-championships-win-beat-256-other-spreadsheet-whizzes-to-claim-the-usd60-000-first-prize-in-las-vegas-tournament",
@@ -458,6 +551,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "570d0a80e792f507",
+      "title": "بروس للاعبي جنوب إفريقيا: لا تجبرونا على الفوز أمام مصر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D9%88%D8%B3-%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%95%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D9%84%D8%A7-%D8%AA%D8%AC%D8%A8%D8%B1%D9%88%D9%86%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%81%D9%88%D8%B2-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%85%D8%B5%D8%B1/blt98bb3e4240bce504?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب طالب فريقه بدخول البطولة بقوة منذ المباراة الأولى",
+      "body": "المدرب طالب فريقه بدخول البطولة بقوة منذ المباراة الأولى يعود المدرب البلجيكي، هوجو بروس، إلى كأس أمم إفريقيا بعد قيادته منتخب جنوب إفريقيا، العام الماضي، إلى احتلال المركز الثالث. وأوقعت قرعة كان 2025 منتخب الأولاد في المجموعة الثانية، إلى جانب أنجولا ومصر وزيمبابوي، وسيواجه الأولى غدًا الاثنين في مستهل مشواره. ويطمح بروس إلى تكرار إنجازه، عندما تُوج بالبطولة مع منتخب الكاميرون عام 2017، على حساب الفراعنة (2-1)، رغم غياب عدد من العناصر الأساسية آنذاك. لا للضغوط أمام مصر وخلال المؤتمر الصحفي الذي عقده اليوم الأحد، شدد بروس على أهمية لقاء أنجولا، محذرًا من تكرار سيناريو الهزيمة الافتتاحية أمام مالي في النسخة الماضية، معتبرًا أن أي تعثر في المباراة الأولى سيضع منتخبه تحت ضغط كبير، ويجبره على البحث عن الفوز أمام منتخب مصر، صاحب الرقم القياسي في عدد الألقاب القارية (7). كما دعا البلجيكي إلى عدم الاستهانة بمنتخب زيمبابوي، رغم تصنيفه الأقل داخل المجموعة. وأردف: \"التفاؤل المفرط قد يتحول إلى عبء.. في النسخة الماضية، تعرضنا لانتقادات واسعة وسخرية على مواقع التواصل الاجتماعي، بعد الخسارة في اللقاء الأول، قبل أن نتمكن من بلوغ نصف النهائي\".",
+      "image": null,
+      "pubDate": "2025-12-21T13:10:56.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d26d9df91b49747d",
@@ -1084,22 +1193,6 @@
       "region": "global"
     },
     {
-      "id": "30bffc6728dbb352",
-      "title": "فأل قطري للهلال قبل لقاء الشارقة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%A7%D9%94%D9%84-%D9%82%D8%B7%D8%B1%D9%8A-%D9%84%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%82%D8%A8%D9%84-%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9/bltcb4e52a257b72b42?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يستعد فريق الهلال السعودي لمواجهة الشارقة الإماراتي، التي ستجمع بينهما يوم غد الإثنين ، ضمن منافسات دوري أبطال آسيا للنخبة.",
-      "body": "يستعد فريق الهلال السعودي لمواجهة الشارقة الإماراتي غدا الاثنين ضمن منافسات دوري أبطال آسيا للنخبة. واختار الاتحاد الآسيوي لكرة القدم الحكم القطري سلمان فلاحي لإدارة مباراة الهلال والشارقة، التي ستقام بالجولة السادسة من مرحلة الدوري للبطولة القارية. وأوضحت صحيفة \"اليوم\" السعودية أن الحكم القطري سلمان فلاحي سبق أن أدار مباراتين للهلال قبل مواجهة الشارقة الإماراتي. ونجح الزعيم في تحقيق الفوز خلال المباراتين اللتين أدارهما الحكم القطري، الأولى انتصر فيها خارج ملعبه على حساب نافباخور الأوزبكي ضمن منافسات نسخة 2024 من دوري أبطال آسيا بهدفين نظيفين. والثانية كانت ضمن منافسات دوري روشن السعودي لموسم 2021-2022 وفاز الزعيم يومها بنتيجة 3-2 على حساب الاتفاق. ويعتلي الموج الأزرق قمة ترتيب مجموعة الغرب ببطولة دوري أبطال آسيا للنخبة بالعلامة الكاملة (15 نقطة)، بينما يحتل الشارقة الإماراتي المركز السابع في الترتيب العام برصيد 7 نقاط.",
-      "image": null,
-      "pubDate": "2025-12-21T10:16:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "81f8759ee66c2bc4",
       "title": "المباراة الافتتاحية لكأس أمم أفريقيا 2025.. حقائق قبل مواجهة المغرب وجزر القمر",
       "link": "https://www.yallakora.com/afcon/2958/news/534714/%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%a7%d9%81%d8%aa%d8%aa%d8%a7%d8%ad%d9%8a%d8%a9-%d9%84%d9%83%d8%a3%d8%b3-%d8%a3%d9%85%d9%85-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-2025-%d8%ad%d9%82%d8%a7%d8%a6%d9%82-%d9%82%d8%a8%d9%84-%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%88%d8%ac%d8%b2%d8%b1-%d8%a7%d9%84%d9%82%d9%85%d8%b1",
@@ -1114,54 +1207,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "8be3c81e4dcefb72",
-      "title": "ليس الشباب.. نادٍ عاصمي يقرب البلطان من العودة للكرة السعودية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D9%86%D8%A7%D8%AF%D9%8D-%D8%B9%D8%A7%D8%B5%D9%85%D9%8A-%D9%8A%D9%82%D8%B1%D8%A8-%D8%A7%D9%84%D8%A8%D9%84%D8%B7%D8%A7%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D9%84%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/bltc86ac4331931513d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اقترب خالد البلطان، رئيس نادي الشباب السابق، من العودة للظهور في الدوري السعودي مرة أخرى، ولكن هذه المرة من خلال نادٍ جديد، يلعب في العاصمة الرياض أيضًا.",
-      "body": "اقترب خالد البلطان، رئيس نادي الشباب السابق، من العودة للظهور في الدوري السعودي مرة أخرى، ولكن هذه المرة من خلال نادٍ جديد، يلعب في العاصمة الرياض أيضًا. وتولى البلطان رئاسة نادي الشباب في أكثر من ولاية، آخرها بدأت في عام 2018، قبل أن يرحل عن هذا المنصب بشكل نهائي منذ عام 2023. وقالت صحيفة \"الجزيرة\" السعودية إن خالد البلطان مهتم بشراء نادي الرياض، الذي يقع في العاصمة السعودية أيضًا، خلال الفترة المقبلة. وتأتي هذه الخطوة في ظل مشروع خصخصة الأندية الرياضية السعودية، والذي بدأ بالفعل خلال الفترة الماضية، على أن يتم استكماله خلال الفترة المقبلة. وكانت تقارير صحفية قد وضعت نادي الرياض بين 8 أندية سيتم الإعلان عن خصخصتها بشكل رسمي خلال العام المقبل، وهو ما يمنح خالد البلطان فرصة الاستحواذ عليه. يُذكر أن خالد البلطان نجح في قيادة الشباب لتحقيق العديد من الألقاب خلال فترة رئاسته للنادي، أبرزها لقب الدوري السعودي مرتين، إحداهما بدون هزيمة، بالإضافة إلى كأس خادم الحرمين الشريفين 3 مرات.",
-      "image": null,
-      "pubDate": "2025-12-21T10:15:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "4af009e30e88426d",
-      "title": "رغم غيابات \"الكان\".. أموريم يرفض الحلول المؤقتة في مانشستر يونايتد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%BA%D9%85-%D8%BA%D9%8A%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A7%D9%86-%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%94%D9%82%D8%AA%D8%A9-%D9%81%D9%8A-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF/blt5d0524333c856ffd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب البرتغالي يحدد استراتيجية الشياطين الحمر في الميركاتو",
-      "body": "المدرب البرتغالي يحدد استراتيجية الشياطين الحمر في الميركاتو أكد روبن أموريم، المدير الفني لمانشستر يونايتد، أنه لن ينجرف وراء إغراءات الدخول في سوق الانتقالات الشتوية للبحث عن حلول مؤقتة، رغم النقص العددي الذي يواجهه الفريق، مشدداً على أن استراتيجية النادي تتركز على جلب لاعبين يمثلون جزءاً من المستقبل طويل الأمد لقلعة \"أولد ترافورد\". ويواجه أموريم مأزقاً فنياً في يناير، حيث قد يفتقد لخدمات الثلاثي بريان مبيومو، وأماد ديالو، ونصير مزراوي لمدة قد تصل إلى شهر، نظراً لارتباطهم باللعب مع منتخبات بلادهم في بطولة كأس الأمم الأفريقية. وحسم مدرب \"الشياطين الحمر\" موقفه قائلاً في تصريحات أبرزتها شبكة \"espn\": \"لن نبرم صفقات لمجرد إنقاذ موقف مؤقت أو للتعامل مع فقدان 3 لاعبين بسبب كأس الأمم الأفريقية، لن يسير الأمر بهذا الشكل. لا أعرف ما الذي سيحدث، لكن من الممكن أن نقوم بتحرك ما\". ويعد مانشستر يونايتد في حاجة ماسة لتدعيم مركز خط الوسط، وقد ارتبط بالفعل بأسماء مثل إليوت أندرسون، وآدم وارتون، وكارلوس باليبا، لكن مع احتمال بقاء هذه الأهداف بعيدة المنال حتى الصيف المقبل، ألمح أموريم إلى أن النادي قد يتجاهل الاحتياجات العاجلة في يناير مقابل التوقيع مع لاعبين يراهم المسؤولون حجر زاوية لمستقبل الفريق. وفي هذا السياق، أوضح المدرب البرتغالي وجهة نظره، قائلاً: \"سنرى ما سيحدث، الشيء الوحيد الذي نعرفه هو…",
-      "image": null,
-      "pubDate": "2025-12-21T10:12:38.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6e3e6002e9a90761",
-      "title": "تريزيجيه: الإخفاق لا يقلل من تاريخ منتخب مصر",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B1%D9%8A%D8%B2%D9%8A%D8%AC%D9%8A%D9%87-%D8%A7%D9%84%D8%A7%D9%95%D8%AE%D9%81%D8%A7%D9%82-%D9%84%D8%A7-%D9%8A%D9%82%D9%84%D9%84-%D9%85%D9%86-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1/blt0b42c272568618fd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نجم الفراعنة يستهدف اللقب القاري",
-      "body": "نجم الفراعنة يستهدف اللقب القاري عبر محمود حسن \"تريزيجيه\"، نجم الأهلي ومنتخب مصر، عن جاهزية الفراعنة لخوض بطولة كأس الأمم الأفريقية التي تنطلق مساء اليوم الأحد في المغرب. ويفتتح الفراعنة مشوارهم غداً الاثنين في المجموعة الثانية بمواجهة زيمبابوي في الجولة الأولى. وقال تريزيجيه في مؤتمر صحفي اليوم الأحد إن الجميع جاهز ومستعد لمواجهة زيمبابوي، كما أن الجهاز الفني بقيادة حسام حسن عمل بقوة في الفترة الأخيرة على تأهيل اللاعبين بأفضل صورة. وأضاف: \"سنخوض كل مباراة كأنها بطولة، وهدفنا إسعاد الشعب المصري.. اللعب باسم المنتخب شعور رائع وحين أنضم للمعسكر أكون في قمة السعادة\". وتابع: \"أخوض كأس الأمم الأفريقية للمرة الخامسة ووصلت للمباراة النهائية مرتين من قبل وأحلم بالتتويج هذه المرة والجميع هنا على قلب رجل واحد وأشعر أن الجيل الحالي سيتوج بالبطولة\". وأكد أن كأس الأمم الأفريقية دائماً تضم منتخبات كبرى وبالتالي المنافسة ستكون صعبة للغاية موضحاً أن مباراة زيمبابوي قوية والتركيز بها على الفوز. وأشار إلى أن حدوث إخفاق في النسخة الماضية لا يقلل من تاريخ منتخب مصر أو كون الكرة المصرية تعاني أزمة، موضحاً أن منتخب مصر الأكثر تتويجاً كما أنه يضم أساطير القارة ويجب ألا يتم التقليل منه.",
-      "image": null,
-      "pubDate": "2025-12-21T10:00:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "ff5cf068ea5040a9",
@@ -2524,38 +2569,6 @@
       "region": "global"
     },
     {
-      "id": "7a885a8a1248fda9",
-      "title": "سبورتنج براجا يطلب معايشة بلال عطية.. واللاعب يغادر لهانوفر الألماني (مستند)",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/534621/%d8%b3%d8%a8%d9%88%d8%b1%d8%aa%d9%86%d8%ac-%d8%a8%d8%b1%d8%a7%d8%ac%d8%a7-%d9%8a%d8%b7%d9%84%d8%a8-%d9%85%d8%b9%d8%a7%d9%8a%d8%b4%d8%a9-%d8%a8%d9%84%d8%a7%d9%84-%d8%b9%d8%b7%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%84%d8%a7%d8%b9%d8%a8-%d9%8a%d8%ba%d8%a7%d8%af%d8%b1-%d9%84%d9%87%d8%a7%d9%86%d9%88%d9%81%d8%b1-%d8%a7%d9%84%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a-%d9%85%d8%b3%d8%aa%d9%86%d8%af-",
-      "summary": "تلقي النادي الأهلي إخطارا رسميا من سبورتنج براجا البرتغالي يطلب فيه خضوع بلال عطية، لاعب وسط فريق الشباب بالنادي، للمعايشة بالفريق.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-20T16:20:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e80cafbf2e5cff21",
-      "title": "القناة يحتفظ بالصدارة.. وبترول أسيوط يطارده بانتصار مثير في دوري المحترفين",
-      "link": "https://www.yallakora.com/egyptian-second-division/2996/news/534620/%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d9%8a%d8%ad%d8%aa%d9%81%d8%b8-%d8%a8%d8%a7%d9%84%d8%b5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a8%d8%aa%d8%b1%d9%88%d9%84-%d8%a3%d8%b3%d9%8a%d9%88%d8%b7-%d9%8a%d8%b7%d8%a7%d8%b1%d8%af%d9%87-%d8%a8%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%b1-%d9%85%d8%ab%d9%8a%d8%b1-%d9%81%d9%8a-%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d8%b1%d9%81%d9%8a%d9%86",
-      "summary": "شهدت منافسات الجولة 16 من دوري المحترفين (دوري القسم الثاني-أ)، احتفاظ فريق القناة بصدارة جدول ترتيب المسابقة، بعد تغلبه على نظيره بروكسي بنتيجة 2-1.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-20T16:20:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "fdd2857b16dd4969",
       "title": "Maresca hints at wanting older heads at end of chaotic week",
       "link": "https://www.bbc.com/sport/football/articles/c20kynlj473o?at_medium=RSS&at_campaign=rss",
@@ -3017,22 +3030,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "31c1b9e0fe7b7d4d",
-      "title": "Dubois drops & outclasses Panatta to retain WBC title",
-      "link": "https://www.bbc.com/sport/boxing/articles/c5y9x61dl52o?at_medium=RSS&at_campaign=rss",
-      "summary": "Caroline Dubois produced a commanding performance on her American debut, outpointing Camilla Panatt to retain her WBC lightweight title in Miami.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-20T00:39:36.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
