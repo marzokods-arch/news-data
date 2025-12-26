@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-12-26T03:15:37.468Z",
-    "total": 207,
+    "generated_at": "2025-12-26T04:05:58.106Z",
+    "total": 201,
     "processed_feeds": 17,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -10,7 +10,7 @@
     "results": [
       {
         "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/2c138374-4333-48ee-b913-0d48b9339dd6",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/2ed4dcf9-aea1-4f73-bd1a-a847b97650fb",
         "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
@@ -61,16 +61,16 @@
         "notModified": false
       },
       {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -82,8 +82,8 @@
         "cats": [
           "general"
         ],
-        "taken": 6,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -100,19 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Khaleej Times — Entertainment",
         "url": "https://www.khaleejtimes.com/rss/entertainment",
         "homepage": "https://www.khaleejtimes.com/rss/entertainment",
@@ -123,32 +110,6 @@
         ],
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 114\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
         "notModified": false
       },
       {
@@ -165,6 +126,19 @@
         "notModified": false
       },
       {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -178,9 +152,9 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -204,16 +178,16 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -228,10 +202,52 @@
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
         "notModified": false
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "1fe13f35bb31d203",
+      "title": "Carse punishes Green hesitation with direct hit",
+      "link": "https://www.bbc.com/sport/cricket/videos/c1w9v8pqw99o?at_medium=RSS&at_campaign=rss",
+      "summary": "Cameron Green is made to rue his hesitation between the wickets as the Australian batter is run out by Brydon Carse at the non-striker's end for 17, leaving Australia 143-7 on day one of the fourth Ashes Test in Melbourne.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-26T03:53:51.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "d59e08304e8465b4",
       "title": "'Absolutely cleans him up!' - Tongue bowls Smith",
@@ -246,22 +262,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6d9ecc498cc18ac3",
-      "title": "Ben Folds Does Holiday Music Right, Offering Fans a Very Ho-Ho-Holistic Christmas: Concert Review",
-      "link": "https://variety.com/2025/music/concert-reviews/ben-folds-christmas-music-tour-concert-review-1236617507/",
-      "summary": "Christmas albums still have a bit of a stigma among fans of higher-cred artists. It can be difficult, first, to overcome the expectation that they’re either cash grabs or sops to sentimentality, and secondly, to come up with an original take on seasonal music, even with the best intentions. Should …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/Ben-Folds-72.jpg",
-      "pubDate": "2025-12-26T00:43:23.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -281,19 +281,19 @@
       "region": "global"
     },
     {
-      "id": "965873378d3d40cb",
-      "title": "Snoop Dogg, Lainey Wilson, Huntr/x and Andrea Bocelli Deliver Christmas-Themed Halftime Show for Netflix’s NFL Lions-Vikings Telecast",
-      "link": "https://variety.com/2025/tv/news/snoop-dogg-huntrx-lainey-wilson-netflix-nfl-halftime-1236617525/",
-      "summary": "It was a holiday-tastic mix of Snoop Dogg’s greatest hits and Christmas favorites that livened up Minneapolis’ U.S. Bank Stadium during the halftime break for Netflix’s Christmas Day telecast of the NFL’s Detroit Lions game against the Minnesota Vikings. Snoop Dogg, Lainey Wilson and Huntr/x of “Kp…",
+      "id": "5e63dfbc507ac3d2",
+      "title": "Head drags on as Atkinson takes early wicket",
+      "link": "https://www.bbc.com/sport/cricket/videos/ce3zx9yp2v2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Gus Atkinson dismisses Travis Head for 12 as the ball is played onto the stumps, to leave Australia 27-1 on day one of the fourth Ashes Test in Melbourne.",
       "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/L1154417_R.jpg",
-      "pubDate": "2025-12-26T00:10:19.000Z",
+      "image": null,
+      "pubDate": "2025-12-26T00:21:52.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -326,22 +326,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d7b1d8d21a4b90d6",
-      "title": "‘Anaconda’ Director on Those Original Cast Cameos, Making Fun of Hollywood Reboots and Reusing a Cyclone-Destroyed Set",
-      "link": "https://variety.com/2025/film/news/anaconda-jennifer-lopez-ice-cube-cameos-1236615057/",
-      "summary": "SPOILER ALERT: This story discusses spoilers for “Anaconda,” now playing in theaters When co-writers Tom Gormican and Kevin Etten first pitched what would become their reimagined take on the so-bad-it’s-good 1997 classic “Anaconda,” they never thought Sony would be on board with the idea. “We went …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/MCDANAC_CO026.jpg",
-      "pubDate": "2025-12-25T23:30:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
@@ -646,22 +630,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b9d1deae3bc66c9d",
-      "title": "‘Bridgerton’ Season 4 Trailer Adds a Dash of ‘Cinderella’ to a Forbidden Romance",
-      "link": "https://variety.com/2025/streaming/news/bridgerton-season-4-trailer-steamy-romance-cinderella-1236617470/",
-      "summary": "“You simply must marry. You just haven’t met the right young lady,” Benedict Bridgerton’s mother Violet admonishes him in the trailer for season 4 of Netflix’s “Bridgerton.” But he might disagree after he meets the fetching Sophie Baek, played by Yerin Ha, unleashing a captivating romance. Part one…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/BRIDGERTON_401_Unit_05419R.jpg",
-      "pubDate": "2025-12-25T20:24:13.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1177,22 +1145,6 @@
       "region": "global"
     },
     {
-      "id": "93c037d16451ce19",
-      "title": "Martin Scorsese Remembers Rob Reiner: ‘He Had a Beautiful Sense of Uninhibited Freedom’",
-      "link": "https://variety.com/2025/film/news/martin-scorsese-rob-reiner-essay-1236617459/",
-      "summary": "Martin Scorsese honored the late Reiners in an essay published in The New York Times, writing, “Rob Reiner was my friend, and so was Michele. From now on, I’ll have to use the past tense, and that fills me with such profound sadness. But there’s no other choice.” The Reiners, aged 78 and 70, were […",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/GettyImages-465092257-e1766684600569.jpg",
-      "pubDate": "2025-12-25T18:02:33.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "0481a4512488f4e3",
       "title": "شوبير: عالجنا أخطاء مباراة زيمبابوي.. ونريد حسم التأهل أمام جنوب أفريقيا",
       "link": "https://www.yallakora.com/afcon/2958/news/535301/-%d8%b4%d9%88%d8%a8%d9%8a%d8%b1-%d8%b9%d8%a7%d9%84%d8%ac%d9%86%d8%a7-%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%b2%d9%8a%d9%85%d8%a8%d8%a7%d8%a8%d9%88%d9%8a-%d9%88%d9%86%d8%b1%d9%8a%d8%af-%d8%ad%d8%b3%d9%85-%d8%a7%d9%84%d8%aa%d8%a3%d9%87%d9%84-%d8%a3%d9%85%d8%a7%d9%85-%d8%ac%d9%86%d9%88%d8%a8-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7",
@@ -1299,22 +1251,6 @@
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8592453c88da689a",
-      "title": "Is ‘Marty Supreme’ Based on a Real Person? Here’s the True Story of Ping Pong Champion Marty Reisman",
-      "link": "https://variety.com/2025/film/news/is-marty-supreme-based-real-person-ping-pong-marty-reisman-1236600740/",
-      "summary": "Spoiler warning: This article contains spoilers for “Marty Supreme,” now in theaters. Josh Safdie’s “Marty Supreme” is galvanized by an invigorating performance by Timothée Chalamet as the cocky young table tennis champion Marty Mauser. Safdie and his crew faithfully recreated the world of 1950s pi…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/Marty-Reisman.jpg",
-      "pubDate": "2025-12-25T17:15:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -3337,22 +3273,6 @@
       "region": "global"
     },
     {
-      "id": "d64ac253d9856b54",
-      "title": "Watch: Celtic's McAneny scores after just four seconds",
-      "link": "https://www.bbc.com/sport/videos/c9qe94ryd9wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Celtic's Maria McAneny gets her team off to an audacious start against Hibernian by scoring straight from kick-off in Sunday's SWPL victory.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-22T11:10:45.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "0e98cae76df3c010",
       "title": "Tomori on Tuchel, living in Italy and why this is the best he has felt",
       "link": "https://www.bbc.com/sport/football/articles/c0edy3ey48no?at_medium=RSS&at_campaign=rss",
@@ -3376,22 +3296,6 @@
       "body": null,
       "image": null,
       "pubDate": "2025-12-22T00:00:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b5bf1c2680cf5f57",
-      "title": "Chelsea hammer nine goals past Liverpool in Women's League Cup",
-      "link": "https://www.bbc.com/sport/football/videos/c4g5y11204yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea put nine past Liverpool in the Women's League Cup to progress to the semi-finals, as Sam Kerr scores the opening two goals and Johanna Rytting Kaneryd completes a hat-trick.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-21T23:53:46.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
