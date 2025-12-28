@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-12-28T21:18:28.685Z",
+    "generated_at": "2025-12-28T21:33:27.589Z",
     "total": 360,
     "processed_feeds": 24,
     "discovered_feeds": 84,
@@ -8,6 +8,19 @@
     "shard_of": 5,
     "shard_index": 3,
     "results": [
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -22,16 +35,29 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "global",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/2231e333-4fe0-4c03-9721-60987b7c699c",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -61,32 +87,6 @@
         "notModified": false
       },
       {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/2231e333-4fe0-4c03-9721-60987b7c699c",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Youm7 - رياضة",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
@@ -100,28 +100,15 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
+        "taken": 50,
         "error": null,
         "notModified": false
       },
@@ -139,15 +126,15 @@
         "notModified": false
       },
       {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
         "cats": [
-          "general"
+          "lifestyle"
         ],
-        "taken": 48,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -165,16 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 48,
+        "error": null,
         "notModified": false
       },
       {
@@ -191,6 +178,19 @@
         "notModified": false
       },
       {
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
         "name": "Al Arabiya — تكنولوجيا",
         "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
@@ -204,9 +204,9 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -230,6 +230,19 @@
         "notModified": false
       },
       {
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
         "homepage": "https://www.kooora.com/",
@@ -243,19 +256,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/feed/",
         "homepage": "https://www.technologyreview.com/feed/",
@@ -266,6 +266,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -286,19 +299,6 @@
         "url": "https://www.climate.gov/feeds/all/rss.xml",
         "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -580,9 +580,9 @@
       "region": "mena"
     },
     {
-      "id": "ffc390e00e585a32",
-      "title": "مبابي: المغرب يستطيع حصد لقب أمم أفريقيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%8A%D8%B3%D8%AA%D8%B7%D9%8A%D8%B9-%D8%AD%D8%B5%D8%AF-%D9%84%D9%82%D8%A8-%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blte31e036fac2b884f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "ef39fb93efd041e2",
+      "title": "ماذا قال مبابي عن فرص المغرب في الفوز بأمم أفريقيا؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%A7%D9%84-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%B9%D9%86-%D9%81%D8%B1%D8%B5-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%88%D8%B2-%D8%A8%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blte31e036fac2b884f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "كشف أشرف حكيمي، نجم المنتخب المغربي، تفاصيل الحديث الذي دار مع زميله السابق في باريس سان جيرمان، كيليان مبابي مهاجم ريال مدريد.",
       "body": "كشف أشرف حكيمي، نجم المنتخب المغربي، تفاصيل الحديث الذي دار مع زميله السابق في باريس سان جيرمان، كيليان مبابي مهاجم ريال مدريد. وحضر النجم الفرنسي إلى المغرب، الخميس الماضي، بدعوة من أشرف حكيمي، لحضور مباراة المغرب أمام مالي، في الجولة الثانية من كأس الأمم الأفريقية. وتابع مبابي، لقاء المغرب أمام مالي، يوم الجمعة الماضي، من مدرجات ملعب الأمير مولاي عبد الله بالرباط، والذي انتهى بالتعادل الإيجابي 1-1. وقال حكيمي في المؤتمر الصحفي لمباراة زامبيا \"من دواعي سروري أن أرى صديقي في بلدي\". وتابع \"كيليان مبابي يحب المغرب كثيرًا، ويأتي إلى هنا كثيرًا، ويستمتع بالبلد وبالطعام\". ولفت \"أنا سعيد للغاية، لأنه حضر لمتابعة المباراة أمام مالي\". وأتم حكيمي \"مبابي أعجب بفريقنا وقال إننا تطورنا وأننا قادرون على الفوز بهذه النسخة من كأس أمم أفريقيا\". ويمتلك المغرب 4 نقاط من مباراتين في صدارة المجموعة الأولى، متفوقًا بفارق نقطتين عن مالي وزامبيا، فيما يمتلك جزر القمر، نقطة واحدة في ذيل الترتيب. 🇲🇦🗯️ Maroc - Hakimi sur Mbappé : &quot;C&#39;est un plaisir de voir mon ami dans mon pays&quot; #beINSPORTS2025 #CAN2025 #beINSPORTS pic.twitter.com/0kjgDMojMH &mdash; beIN SPORTS (@beinsports_FR) December 28, 2025",
       "image": null,
