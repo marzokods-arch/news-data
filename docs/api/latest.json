@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2025-12-31T08:54:19.616Z",
-    "total": 199,
+    "generated_at": "2025-12-31T09:14:46.495Z",
+    "total": 200,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "CDC — Newsroom",
+        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
@@ -22,28 +35,15 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "CDC — Newsroom",
-        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
-        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
+        "taken": 71,
         "error": null,
         "notModified": false
       },
@@ -82,7 +82,20 @@
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
         "error": null,
         "notModified": false
       },
@@ -100,36 +113,23 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -139,15 +139,15 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 71,
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -165,13 +165,26 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
         ],
         "taken": 20,
         "error": null,
@@ -188,32 +201,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -256,6 +243,19 @@
         "notModified": false
       },
       {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Kooora - الدوريات العربية",
         "url": "https://www.kooora.com/?region=o&module=content&rss=1",
         "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
@@ -286,6 +286,86 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "20d1a8ee191989d6",
+      "title": "Who will win what in 2026? Make your predictions",
+      "link": "https://www.bbc.com/sport/football/articles/cwy54ywengwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Who will win the Premier League, Champions League and Ballon d'Or in 2026? It's time to make your predictions.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-31T09:00:26.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "25e7f63d0e52406b",
+      "title": "FTSE 100 today: London stocks dip, pound weakens ahead of holiday close",
+      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-london-stocks-dip-pound-weakens-ahead-of-holiday-close-4426265",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPECA10LL_M.jpg",
+      "pubDate": "2025-12-31T08:56:08.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b9b9ca35c133510a",
+      "title": "Taiwan stays on high alert as Chinese ships pull back after massive drills",
+      "link": "https://www.investing.com/news/world-news/taiwan-stays-on-high-alert-as-chinese-ships-pull-back-after-massive-drills-4426132",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPELBU02C_L.jpg",
+      "pubDate": "2025-12-31T08:54:27.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "27d6183ff411a1c4",
+      "title": "Bitcoin price today: up near $88k but set for yearly decline, Q4 losses weigh",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-up-near-88k-but-set-for-yearly-decline-q4-losses-weigh-4426264",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-31T08:48:46.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3dbb916df2647aa7",
+      "title": "Berenberg lowers Xaar stock price target to GBP1.40 on EV strategy shifts",
+      "link": "https://www.investing.com/news/analyst-ratings/berenberg-lowers-xaar-stock-price-target-to-gbp140-on-ev-strategy-shifts-93CH-4426263",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2025-12-31T08:46:39.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "f8be51d10fad84ed",
@@ -416,22 +496,6 @@
       "region": "global"
     },
     {
-      "id": "12bcf747a91c5390",
-      "title": "Provexis reports lower half-year revenue amid production delays",
-      "link": "https://www.investing.com/news/company-news/provexis-reports-lower-halfyear-revenue-amid-production-delays-93CH-4426242",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2025-12-31T08:24:39.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "6146bb3d4cca8be4",
       "title": "BBC Sport's 2025 Quiz: 12 months, 12 questions, how many can you get?",
       "link": "https://www.bbc.com/sport/articles/c0q5qkq8e4eo?at_medium=RSS&at_campaign=rss",
@@ -445,38 +509,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "aed5635940b60121",
-      "title": "Motilal Oswal initiates coverage on Zydus Wellness stock with Buy rating",
-      "link": "https://www.investing.com/news/analyst-ratings/motilal-oswal-initiates-coverage-on-zydus-wellness-stock-with-buy-rating-93CH-4426239",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2025-12-31T08:16:40.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "b3453c6f5683f5a6",
-      "title": "Julian Hanna steps down as director, becomes Cassowary project manager",
-      "link": "https://www.investing.com/news/company-news/julian-hanna-steps-down-as-director-becomes-cassowary-project-manager-93CH-4426238",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2025-12-31T08:08:32.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -510,6 +542,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "d50d24194fabc83d",
+      "title": "بالفيديو.. أغرب مشجع في التاريخ؟ قصة الرجل التمثال في ملاعب أمم أفريقيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%94%D8%BA%D8%B1%D8%A8-%D9%85%D8%B4%D8%AC%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%82%D8%B5%D8%A9-%D8%A7%D9%84%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D8%A7%D9%84-%D9%81%D9%8A-%D9%85%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/bltdb547963268b5ef0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "شهدت مباريات منتخب الكونغو الديمقراطية في كأس الأمم الأفريقية 2025 مشهدا نادرا، بعدما لفت أحد المشجعين الأنظار بسلوك غير مسبوق داخل المدرجات، حين وقف صامتا وجامدا طوال 90 دقيقة دون أي حركة.",
+      "body": "شهدت مباريات منتخب الكونغو الديمقراطية في كأس الأمم الأفريقية 2025 مشهدا نادرا، بعدما لفت أحد المشجعين الأنظار بسلوك غير مسبوق داخل المدرجات، حين وقف صامتا وجامدا طوال 90 دقيقة دون أي حركة. المشجع الكونغولي كوكا مولادينجا، لم يكن تصرفه عفويا، بل تعمد تحويل جسده إلى \"تمثال حي\" تخليدا لذكرى باتريس لومومبا، أول رئيس وزراء منتخب لجمهورية الكونغو الديمقراطية بعد الاستقلال عن بلجيكا عام 1960، والذي اغتيل عام 1961. اختار المشجع الصمت التام وسط أجواء الملاعب الصاخبة، في رسالة رمزية حملت أبعادا سياسية وتاريخية، عكست حزنا جماعيا وحنينا لقيم لومومبا، في وقت اعتاد فيه الجمهور التعبير بالهتاف والتصفيق. وأظهرت مقاطع فيديو متداولة المشجع واقفا بلا حراك حتى في لحظات تسجيل الأهداف، التي عادة ما تشهد انفجارًا عاطفيا في المدرجات، ليظل ثابتا كتمثال برونزي وسط الحشد، في لقطة اختصرت تداخل الرياضة مع الذاكرة السياسية للشعوب. يذكر أن منتخب الكونغو الديمقراطية فاز أمس على بوتسوانا بنتيجة (3-0)، ضمن منافسات الجولة الثالثة من المجموعة الرابعة لدور المجموعات بكأس أمم أفريقيا 2025 المقامة حاليا في المغرب. وتأهل منتخب الكونغو الديمقراطية في وصافة المجموعة الرابعة برصيد 7 نقاط، ليضرب موعدًا، الثلاثاء المقبل، مع منتخب الجزائر الذي حسم صدارة المجموعة السادسة قبل خوض الجولة الأخيرة. &nbsp; WATCH: A DRC supporter s…",
+      "image": null,
+      "pubDate": "2025-12-31T07:07:32.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "65e6b6c5f6870be3",
@@ -1504,22 +1552,6 @@
       "region": "mena"
     },
     {
-      "id": "dd0909786abcb18f",
-      "title": "فوز آرسنال على أستون فيلا.. نكبة معتادة وسلاح \"المدفعجية\" بطل 2025",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%88%D8%B2-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D8%A7%D9%94%D8%B3%D8%AA%D9%88%D9%86-%D9%81%D9%8A%D9%84%D8%A7-%D9%86%D9%83%D8%A8%D8%A9-%D9%85%D8%B9%D8%AA%D8%A7%D8%AF%D8%A9-%D9%88%D8%B3%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D9%85%D8%AF%D9%81%D8%B9%D8%AC%D9%8A%D8%A9-%D8%A8%D8%B7%D9%84-2025/blt633e28cb9fd466cb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مجموعة من الأرقام المميزة خلفتها مباراة آرسنال وأستون فيلا",
-      "body": "مجموعة من الأرقام المميزة خلفتها مباراة آرسنال وأستون فيلا حقق آرسنال فوزا عريضا على ضيفه أستون فيلا بنتيجة (4-1)، اليوم الثلاثاء، في مباراة أقيمت بملعب الإمارات ضمن منافسات الدوري الإنجليزي الممتاز. أهداف المدفعجية جاءت عن طريق جابرييل ماجاليس، مارتن زوبيميندي، لياندرو تروسارد وجابرييل جيسوس، في الدقائق 48، 52، 69 و78، وتكفل أولي واتكينز بتسجيل هدف الضيوف (ق 90+4). وبذلك، أنهى آرسنال العام على رأس الترتيب برصيد 45 نقطة، فيما حل أستون فيلا ثالثا بفارق 6 نقاط أقل. رباعية لندنية معتادة استقبل أستون فيلا 4 أهداف أو أكثر في الشوط الثاني، خلال 3 مباريات فقط بالدوري الإنجليزي آخر 10 مواسم، حسبما أفادت شبكة \"سكواكا\". حدث ذلك في مناسبتين العام الماضي أمام توتنهام هوتسبير، قبل تكرار الأمر الليلة أمام فريق لندني آخر. وتسبب آرسنال في إيقاف سلسلة انتصارات الفيلانز المتتالية، عند 11 فوزا، والتي تعد الأطول في تاريخ النادي. سلاح فتاك وفقا لشبكة \"أوبتا\"، فإن آرسنال سجل 17 هدفا من الركنيات هذا العام في البريميرليج، وذلك بعدما جاء الهدف الأول لجابرييل ماجاليس بهذا السلاح. وأضافت: \"لا يوجد فريق يتفوق على آرسنال تاريخيا في هذا الجانب بعام ميلادي واحد، سوى مانشستر يونايتد في 2012، حينما سجل 18 هدفا\". فيما ذكرت شبكة \"سكواكا\" بأن الفريق اللندني هو ثاني من يسجل 20 هدفا أو أكثر من الركلات الثابتة، بعيدا ع…",
-      "image": "https://assets.kooora.com/images/v3/getty-2254097164/crop/MM5DGMZWG45DCOBZGQ5G433XMU5DAORRHEZA====/GettyImages-2254097164.jpg",
-      "pubDate": "2025-12-30T20:38:49.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "c543c6d938abc9f7",
       "title": "This sequel to a classic NES beat 'em up is about to be delisted from Steam, but you can get it for a few bucks in the meantime: 'The delisting process is currently underway'",
       "link": "https://www.pcgamer.com/games/action/this-sequel-to-a-classic-nes-beat-em-up-is-about-to-be-delisted-from-steam-but-you-can-get-it-for-a-few-bucks-in-the-meantime-the-delisting-process-is-currently-underway/",
@@ -2352,22 +2384,6 @@
       "region": "global"
     },
     {
-      "id": "d25cf119ab88e593",
-      "title": "Broadhead seeks Wrexham and Wales double in 2026",
-      "link": "https://www.bbc.com/sport/football/articles/clydywemndxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nathan Broadhead ended 2025 in style, and the forward is targeting an even bigger 2026 with both Wrexham and Wales.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-30T06:16:16.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "fb7e82489078ee65",
       "title": "Elon Musk envisions humanoid robots everywhere. China may be the first to make it a reality",
       "link": "https://www.cnbc.com/2025/12/30/elon-musk-wants-robots-everywhere-china-is-making-that-a-reality.html",
@@ -2656,12 +2672,12 @@
       "region": "global"
     },
     {
-      "id": "2ef721bc0255200e",
-      "title": "2025 is the year I discovered I love charging docks, and it's all because of one surprisingly reasonably priced gaming mouse",
-      "link": "https://www.pcgamer.com/hardware/gaming-mice/2025-is-the-year-i-discovered-i-love-charging-docks-and-its-all-because-of-one-surprisingly-reasonably-priced-gaming-mouse/",
-      "summary": "8BitDo what others don't.",
-      "body": "Gear of the Year (Image credit: Future) Check out more of the year's best tech in our PC Gamer Hardware Awards 2025 coverage. Okay, I'll admit it. I've always liked the idea of a charging dock conceptually, but I've never quite committed to getting a bit of gaming gear with one for a specific reason: I'm a bit lazy. I was worried I'd pay a premium for a bit of hardware, and then forget to charge it, so end up leaving it plugged in anyway, thus removing the whole point of getting it in the first place. Well, I and all my hubris didn't account for two ways that 8BitDo's Retro R8 would counter those points. First is that its retail price is $50 (with it going as low as $35 already). The second is that it looks so good, I can't help but put it on its well-earned throne. See, the Retro R8 I reviewed earlier this year comes in an NES-style theming, with a smattering of whites, greys, reds, and blacks. It looks incredible next to my 8BitDo Retro keyboard . The stand itself plugs into the PC via a USB Type-C cable, and you can pop a dongle from the bottom of the mouse into the stand. This means, with just a single cable, it can both charge the mouse and work as a wireless receiver. This i…",
-      "image": "https://cdn.mos.cms.futurecdn.net/6F5PvxgvAVRpyLz3LNqixi-1280-80.jpg",
+      "id": "c46c8175738bb31b",
+      "title": "I played 31 new cozy games this year, and my top 6 picks are all completely different",
+      "link": "https://www.pcgamer.com/games/i-played-31-new-cozy-games-this-year-and-my-top-6-picks-are-all-completely-different/",
+      "summary": "Sometimes you just have to try something new.",
+      "body": "At the end of every year I always feel impressed by just how many cozy games launched, and more specifically how many I actually found the time to play. Looking back, 2025 was a year where cozy games really broke the mold and appealed to a wider audience. Notably though, I found that I didn't just spend hundreds of hours in a dozen farming simulators. This might be a conscious effort on my part, because other than becoming infatuated with Story of Seasons: Grand Bazaar, I actually didn't sink much time at all into finding my next farming obsession. So if you want to do the same, here are my favorite cozy games from 2025. Top six cozy games of 2025 Once Upon a Katamari POCO The Guardian of Nature Vending Dokan!: Kozy Kiosk Out and About Hello Kitty Island Adventure Some other games I spent more time than I like to admit playing, but didn't quite make the top six: Ritual of Raven, Discounty, Instants, Is this seat taken?, and Fantasy Life i: The Girl Who Steals Time . Once Upon a Katamari (Image credit: Bandai Namco) Style : Puzzle The r elease of a new mainline Katamari game is always exciting, as someone who's poured hundreds of hours into the series already, and even more so when…",
+      "image": "https://cdn.mos.cms.futurecdn.net/kS3pQqdZ3rJPW8kHkfGz7E-1280-80.jpg",
       "pubDate": "2025-12-29T16:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2672,12 +2688,12 @@
       "region": "global"
     },
     {
-      "id": "c46c8175738bb31b",
-      "title": "I played 31 new cozy games this year, and my top 6 picks are all completely different",
-      "link": "https://www.pcgamer.com/games/i-played-31-new-cozy-games-this-year-and-my-top-6-picks-are-all-completely-different/",
-      "summary": "Sometimes you just have to try something new.",
-      "body": "At the end of every year I always feel impressed by just how many cozy games launched, and more specifically how many I actually found the time to play. Looking back, 2025 was a year where cozy games really broke the mold and appealed to a wider audience. Notably though, I found that I didn't just spend hundreds of hours in a dozen farming simulators. This might be a conscious effort on my part, because other than becoming infatuated with Story of Seasons: Grand Bazaar, I actually didn't sink much time at all into finding my next farming obsession. So if you want to do the same, here are my favorite cozy games from 2025. Top six cozy games of 2025 Once Upon a Katamari POCO The Guardian of Nature Vending Dokan!: Kozy Kiosk Out and About Hello Kitty Island Adventure Some other games I spent more time than I like to admit playing, but didn't quite make the top six: Ritual of Raven, Discounty, Instants, Is this seat taken?, and Fantasy Life i: The Girl Who Steals Time . Once Upon a Katamari (Image credit: Bandai Namco) Style : Puzzle The r elease of a new mainline Katamari game is always exciting, as someone who's poured hundreds of hours into the series already, and even more so when…",
-      "image": "https://cdn.mos.cms.futurecdn.net/kS3pQqdZ3rJPW8kHkfGz7E-1280-80.jpg",
+      "id": "2ef721bc0255200e",
+      "title": "2025 is the year I discovered I love charging docks, and it's all because of one surprisingly reasonably priced gaming mouse",
+      "link": "https://www.pcgamer.com/hardware/gaming-mice/2025-is-the-year-i-discovered-i-love-charging-docks-and-its-all-because-of-one-surprisingly-reasonably-priced-gaming-mouse/",
+      "summary": "8BitDo what others don't.",
+      "body": "Gear of the Year (Image credit: Future) Check out more of the year's best tech in our PC Gamer Hardware Awards 2025 coverage. Okay, I'll admit it. I've always liked the idea of a charging dock conceptually, but I've never quite committed to getting a bit of gaming gear with one for a specific reason: I'm a bit lazy. I was worried I'd pay a premium for a bit of hardware, and then forget to charge it, so end up leaving it plugged in anyway, thus removing the whole point of getting it in the first place. Well, I and all my hubris didn't account for two ways that 8BitDo's Retro R8 would counter those points. First is that its retail price is $50 (with it going as low as $35 already). The second is that it looks so good, I can't help but put it on its well-earned throne. See, the Retro R8 I reviewed earlier this year comes in an NES-style theming, with a smattering of whites, greys, reds, and blacks. It looks incredible next to my 8BitDo Retro keyboard . The stand itself plugs into the PC via a USB Type-C cable, and you can pop a dongle from the bottom of the mouse into the stand. This means, with just a single cable, it can both charge the mouse and work as a wireless receiver. This i…",
+      "image": "https://cdn.mos.cms.futurecdn.net/6F5PvxgvAVRpyLz3LNqixi-1280-80.jpg",
       "pubDate": "2025-12-29T16:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2736,22 +2752,6 @@
       "region": "global"
     },
     {
-      "id": "3e9c814a195280ed",
-      "title": "How well do you know the videogame movie and TV adaptations of 2025? Test your viewing prowess with some trivia!",
-      "link": "https://www.pcgamer.com/games/how-well-do-you-know-the-videogame-movie-and-tv-adaptations-of-2025-test-your-viewing-prowess-with-some-trivia/",
-      "summary": "Did you stop playing games long enough this year to see some movies and shows based on games?",
-      "body": "More quizzes! (Image credit: Larian Studios, PC Gamer) Want to keep testing your knowledge of gaming trivia? We've got loads more PC Gamer quizzes , on everything from health bars to weird currencies to absurd patch notes. What a time to be alive. There are so many film and TV adaptations that when we take a rare break from playing games we can watch movies and shows about the games we were just playing! 2025 was another big year for videogame adaptations: the movies took us to Minecraft, Until Dawn, and Five Nights at Freddy's (again), and streaming series included The Last of Us, Splinter Cell, Devil May Cry, Twisted Metal, Castlevania, and Fallout. Whew! That's a lot to watch. So... how many shows and movies based on games did you watch this year? Enough to pass a test? Don't worry, this'll be a pretty easy one: I'll give you 10 facts about 2025's videogame adaptations, and you just tell me if they're true or false. Even if you haven't seen a single film or show this year, you've got a 50-50 shot! Good luck, and let us know how you did in the comments.",
-      "image": "https://cdn.mos.cms.futurecdn.net/o5wJtqGY3Y63nRoGBF2mfE-1280-80.jpg",
-      "pubDate": "2025-12-29T14:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "f8070e39d51e791b",
       "title": "We're living in the new golden age of 2D beat-'em-ups—but the best one released this year had one foot in a different genre entirely",
       "link": "https://www.pcgamer.com/games/roguelike/were-living-in-the-new-golden-age-of-2d-beat-em-ups-but-the-best-one-released-this-year-had-one-foot-in-a-different-genre-entirely/",
@@ -2774,6 +2774,22 @@
       "summary": "Join me for a look back at the microphone movers of 2025.",
       "body": "Gear of the Year (Image credit: Future) Check out more of the year's best tech in our PC Gamer Hardware Awards 2025 coverage. Gaming microphones have come on in leaps and bounds over the past few years, putting great vocal capture in the hands of anyone with a USB connection and a small slab of cash to spend. However, 2025 has seen the rise of several reasonably-priced contenders that can swim remarkably close to the pricier players for minimal expense, and that's the sort of development I can really get behind. Each of the three microphones below is very well-priced for what it delivers, and also happens to be one of the best mics we've tested all year. All that's left now is to give one of our contenders the best microphone of 2025 award, so we'd better round up our nominations into one big capsule-shaped basket, hadn't we? If you're looking for the cheapest of the cheap, look no further than the Amazon Basics USB Condenser Microphone . It might be a frill-less option with no included software, but it's incredibly difficult to argue with the sound quality it's capable of capturing for less than $30. Still, if you don't mind spending a bit more cash for a whole lot of features, t…",
       "image": "https://cdn.mos.cms.futurecdn.net/EKXqDHzXu5cUDMarFcjqib-1280-80.jpg",
+      "pubDate": "2025-12-29T14:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3e9c814a195280ed",
+      "title": "How well do you know the videogame movie and TV adaptations of 2025? Test your viewing prowess with some trivia!",
+      "link": "https://www.pcgamer.com/games/how-well-do-you-know-the-videogame-movie-and-tv-adaptations-of-2025-test-your-viewing-prowess-with-some-trivia/",
+      "summary": "Did you stop playing games long enough this year to see some movies and shows based on games?",
+      "body": "More quizzes! (Image credit: Larian Studios, PC Gamer) Want to keep testing your knowledge of gaming trivia? We've got loads more PC Gamer quizzes , on everything from health bars to weird currencies to absurd patch notes. What a time to be alive. There are so many film and TV adaptations that when we take a rare break from playing games we can watch movies and shows about the games we were just playing! 2025 was another big year for videogame adaptations: the movies took us to Minecraft, Until Dawn, and Five Nights at Freddy's (again), and streaming series included The Last of Us, Splinter Cell, Devil May Cry, Twisted Metal, Castlevania, and Fallout. Whew! That's a lot to watch. So... how many shows and movies based on games did you watch this year? Enough to pass a test? Don't worry, this'll be a pretty easy one: I'll give you 10 facts about 2025's videogame adaptations, and you just tell me if they're true or false. Even if you haven't seen a single film or show this year, you've got a 50-50 shot! Good luck, and let us know how you did in the comments.",
+      "image": "https://cdn.mos.cms.futurecdn.net/o5wJtqGY3Y63nRoGBF2mfE-1280-80.jpg",
       "pubDate": "2025-12-29T14:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -3104,12 +3120,12 @@
       "region": "global"
     },
     {
-      "id": "a5626b26cdd872e9",
-      "title": "2025 was the best year for ninja games ever, but all of them just made it clear that 2008's Ninja Gaiden 2 remains untouchable",
-      "link": "https://www.pcgamer.com/games/action/2025-was-the-best-year-for-ninja-games-ever-but-all-of-them-just-made-it-clear-that-2008s-ninja-gaiden-2-remains-untouchable/",
-      "summary": "This year's Ninja Gaiden 2 Black finally does right by a messy but one-of-a-kind action game.",
-      "body": "Personal Pick (Image credit: Future) In addition to our main Game of the Year Awards 2025 , each member of the PC Gamer team is shining a spotlight on a game they loved this year. We'll post new personal picks each day throughout the rest of the month. You can find them all here . We try pretty hard to avoid lazily dropping cliches into our writing here at PC Gamer, which puts me in an awkward position as I sit down to pitch to you why a remaster, Ninja Gaiden 2 Black , is one of the best games of 2025, despite mostly being a fresh Unreal Engine 5 skin for a game that came out in 2008. So if I must sin, I may as well see just how many forbidden phrases from the style guide I can use at once. 2025's brand new Ninja Gaiden 4, despite being a visceral action romp with more bloody decapitations than you can shake a stick at, is ultimately a bit of a mixed bag . At its core is a pulse-pounding combat system that echoes the greats of yesteryear, but it's rough around the edges. Fans of the genre will still find a lot to like, but at the end of the day it's not without flaws. If you turn off your brain you'll get a kick out of PlatinumGames' no-holds-barred attempt to make Ninja Gaiden c…",
-      "image": "https://cdn.mos.cms.futurecdn.net/ZjDcgGGqnrLyCByMpAje2J-1280-80.jpg",
+      "id": "92e3fb2bb6a27836",
+      "title": "I'm obsessed with detective games, and I think these 9 prove that 2025 was the best year for the genre ever",
+      "link": "https://www.pcgamer.com/games/adventure/im-obsessed-with-detective-games-and-i-think-these-9-prove-that-2025-was-the-best-year-for-the-genre-ever/",
+      "summary": "It’s a real genre renaissance out there, chief.",
+      "body": "There's just something about solving mysteries in games. Piecing together clues, interrogating suspects, and finally discovering that oh-so-satisfying answer. It's absolute magic. Needless to say, I'm a bit of a genre obsessive — and particularly this year, I found myself sleuthing through a record number of modern classics. I think 2025 was one of the best detective game years ever, if not the best. Who knows what it was about these particular twelve months that suddenly made the idea of criminals actually suffering consequences so appealing? That’s enough of me being hilarious— on with the list! A Case of Fraud (Image credit: Hesperus Games) The CEO of a tech startup has been murdered, and you need to solve it by identifying the names, job titles, and even the pets of everyone who worked there. Openly inspired by The Roottrees are Dead (more on that game later!), this is much simpler. Piles of evidence are just dumped on you rather than revealed through anything as clever as that game’s brilliant built-in search engine. But it’s still a great little game that makes inspired use of the office setting. God bless the HR nightmare who helped me identify most of the women on the syst…",
+      "image": "https://cdn.mos.cms.futurecdn.net/vCJnW6e6Wsaa5r9kfHAHUU-1280-80.jpg",
       "pubDate": "2025-12-28T15:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -3136,12 +3152,12 @@
       "region": "global"
     },
     {
-      "id": "92e3fb2bb6a27836",
-      "title": "I'm obsessed with detective games, and I think these 9 prove that 2025 was the best year for the genre ever",
-      "link": "https://www.pcgamer.com/games/adventure/im-obsessed-with-detective-games-and-i-think-these-9-prove-that-2025-was-the-best-year-for-the-genre-ever/",
-      "summary": "It’s a real genre renaissance out there, chief.",
-      "body": "There's just something about solving mysteries in games. Piecing together clues, interrogating suspects, and finally discovering that oh-so-satisfying answer. It's absolute magic. Needless to say, I'm a bit of a genre obsessive — and particularly this year, I found myself sleuthing through a record number of modern classics. I think 2025 was one of the best detective game years ever, if not the best. Who knows what it was about these particular twelve months that suddenly made the idea of criminals actually suffering consequences so appealing? That’s enough of me being hilarious— on with the list! A Case of Fraud (Image credit: Hesperus Games) The CEO of a tech startup has been murdered, and you need to solve it by identifying the names, job titles, and even the pets of everyone who worked there. Openly inspired by The Roottrees are Dead (more on that game later!), this is much simpler. Piles of evidence are just dumped on you rather than revealed through anything as clever as that game’s brilliant built-in search engine. But it’s still a great little game that makes inspired use of the office setting. God bless the HR nightmare who helped me identify most of the women on the syst…",
-      "image": "https://cdn.mos.cms.futurecdn.net/vCJnW6e6Wsaa5r9kfHAHUU-1280-80.jpg",
+      "id": "a5626b26cdd872e9",
+      "title": "2025 was the best year for ninja games ever, but all of them just made it clear that 2008's Ninja Gaiden 2 remains untouchable",
+      "link": "https://www.pcgamer.com/games/action/2025-was-the-best-year-for-ninja-games-ever-but-all-of-them-just-made-it-clear-that-2008s-ninja-gaiden-2-remains-untouchable/",
+      "summary": "This year's Ninja Gaiden 2 Black finally does right by a messy but one-of-a-kind action game.",
+      "body": "Personal Pick (Image credit: Future) In addition to our main Game of the Year Awards 2025 , each member of the PC Gamer team is shining a spotlight on a game they loved this year. We'll post new personal picks each day throughout the rest of the month. You can find them all here . We try pretty hard to avoid lazily dropping cliches into our writing here at PC Gamer, which puts me in an awkward position as I sit down to pitch to you why a remaster, Ninja Gaiden 2 Black , is one of the best games of 2025, despite mostly being a fresh Unreal Engine 5 skin for a game that came out in 2008. So if I must sin, I may as well see just how many forbidden phrases from the style guide I can use at once. 2025's brand new Ninja Gaiden 4, despite being a visceral action romp with more bloody decapitations than you can shake a stick at, is ultimately a bit of a mixed bag . At its core is a pulse-pounding combat system that echoes the greats of yesteryear, but it's rough around the edges. Fans of the genre will still find a lot to like, but at the end of the day it's not without flaws. If you turn off your brain you'll get a kick out of PlatinumGames' no-holds-barred attempt to make Ninja Gaiden c…",
+      "image": "https://cdn.mos.cms.futurecdn.net/ZjDcgGGqnrLyCByMpAje2J-1280-80.jpg",
       "pubDate": "2025-12-28T15:00:00.000Z",
       "source": {
         "name": "PC Gamer",
