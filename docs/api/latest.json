@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-01T19:33:10.441Z",
-    "total": 361,
+    "generated_at": "2026-01-01T19:43:07.755Z",
+    "total": 355,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "ESPN",
         "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/f925fb11-1a70-4944-9358-c5ebf8472b12",
@@ -35,15 +22,15 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
         "cats": [
-          "sports"
+          "lifestyle"
         ],
-        "taken": 69,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -61,6 +48,32 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 71,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -71,19 +84,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
         "notModified": false
       },
       {
@@ -113,16 +113,29 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -139,42 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -191,29 +178,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -243,9 +217,22 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 132\nColumn: 68\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -256,10 +243,23 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -282,19 +282,6 @@
         "notModified": false
       },
       {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "NOAA Climate.gov — News",
         "url": "https://www.climate.gov/feeds/all/rss.xml",
         "homepage": "https://www.climate.gov/feeds/all/rss.xml",
@@ -305,6 +292,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -323,6 +323,38 @@
     ]
   },
   "items": [
+    {
+      "id": "5933d6a5bae04cf4",
+      "title": "Hardy double inspires Ospreys to beat Cardiff",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c5y2pl7zz7xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wales scrum-half Kieran Hardy scores two tries to inspire Ospreys to a New Year's derby victory against Cardiff in Bridgend.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-01T19:32:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5933d6a5bae04cf4",
+      "title": "Hardy double inspires Ospreys to beat Cardiff",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c5y2pl7zz7xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wales scrum-half Kieran Hardy scores two tries to inspire Ospreys to a New Year's derby victory against Cardiff in Bridgend.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-01T19:32:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "fd1497776e325c45",
       "title": "Rosenior leading contender for Chelsea job",
@@ -436,6 +468,22 @@
       "region": "global"
     },
     {
+      "id": "a4997f3c3893bf57",
+      "title": "لامين يامال يثير الذعر في برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D9%85%D9%8A%D9%86-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%B0%D8%B9%D8%B1-%D9%81%D9%8A-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt95cf3bef5a6297ae?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أثار لامين يامال نجم برشلونة، اليوم الخميس، الذعر داخل الفريق الكتالوني، بغياب مفاجئ عن المران الذي أقيم استعدادا لمواجهة إسبانيول.",
+      "body": "أثار لامين يامال نجم برشلونة، اليوم الخميس، الذعر داخل الفريق الكتالوني، بغياب مفاجئ عن المران الذي أقيم استعدادا لمواجهة إسبانيول. ويواجه برشلونة نظيره إسبانيول يوم السبت المقبل، على ملعب \"كورنيلا-إل برات\" معقل الأخير، ضمن منافسات الجولة 18 من الدوري الإسباني. وأوضحت صحيفة \"آس\" الإسبانية أن يامال لم يشارك في مران البلوجرانا بسبب شعوره بالمرض، في أول حصة تدريبية لعام 2026. ولفتت الصحيفة أن برشلونة بدأ تدريباته في ظل غياب لامين يامال، الذي يعاني من وعكة صحية عامة، ومع ذلك، كان اللاعب متواجدًا في مرافق النادي الكتالوني. ووفقًا لصحيفة \"آس\"، فإن مشاركة يامال في ديربي السبت ضد إسبانيول مؤكدة ما لم تحدث مفاجأة كبيرة.",
+      "image": null,
+      "pubDate": "2026-01-01T17:39:12.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "12c3256c46251c17",
       "title": "Record crowd for New Year's Day Cheltenham meeting",
       "link": "https://www.bbc.com/sport/horse-racing/articles/c3vekwzkgn7o?at_medium=RSS&at_campaign=rss",
@@ -450,6 +498,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "6fa3e7414bfdc0d9",
+      "title": "جدول ترتيب الدوري الإنجليزي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026/blt32989d7601f1774a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026",
+      "body": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026 تترقب جماهير كرة القدم حول العالم منافسات الدوري الإنجليزي الممتاز لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات مثيرة بين كبار القوم على لقب البطولة الأغلى في إنجلترا. ويخوض ليفربول الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين حصد اللقب العشرين في تاريخه معادلًا رقم مانشستر يونايتد، ومُنهيًا سلسلة هيمنة مانشستر سيتي الذي توج بالبطولة أربع مرات متتالية. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب بمواجهة افتتاحية قوية تجمع ليفربول وبورنموث على ملعب أنفيلد، فيما تتوزع باقي المباريات على مدار عطلة نهاية الأسبوع، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من \"كووورة\"، نستعرض جدول ترتيب الدوري الإنجليزي 2025-2026. جدول ترتيب الدوري الإنجليزي 2025-2026: ليفربول يترنح فاز آرسنال على أستون فيلا برباعية ليبتعد أكثر في الصدارة. كما سقط ليفربول في فخ التعادل السلبي أمام ليدز &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 19 14 3 2 37 12 25 45 2 مانشستر سيتي 18 13 1 4 43 17 26 40 3 أستون فيلا 19 12 3 4 30 23 7 39 4 ليفربول 19 10 3 6 30 26 4 33 5 تشيلسي 19 8 6 5 32 21 11 30 6 مان يونايتد 19 8 6 5 33 29 4 30 7 سندرلاند 18 7 7 4 20 18 2 28 8…",
+      "image": null,
+      "pubDate": "2026-01-01T17:32:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1dd596282c63f50c",
+      "title": "جدول مباريات الدوري الإنجليزي 2025-2026، القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt28b7c412b9304dab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات الدوري الإنجليزي 2025-2026..",
+      "body": "تعرف على مباريات الدوري الإنجليزي 2025-2026.. نجح ليفربول في حصد لقب الدوري الإنجليزي 2024-2025 للمرة العشرين في تاريخه ليعادل مانشستر يونايتد كأكثر فريق إنجليزي تتويجًا باللقب. وقاد محمد صلاح فريقه للقب آخر في البريمييرليج بعد موسم 2019-2020 ليؤكد تفوق الريدز على باقي الخصوم بعد حسم اللقب قبل أربع جولات كاملة من النهاية. وأوقف الريدز سلسلة مانشستر سيتي الذي فاز بالدوري الإنجليزي 4 مرات على التوالي، ليخرج بموسم إيجابي رغم الخروج المبكر من دوري أبطال أوروبا وخسارة نهائي كأس الرابطة. وتنطلق النسخة الجديدة من البريميرليج بمواجهة ليفربول وبورنموث يوم الجمعة الموافق 15 أغسطس/آب على ملعب أنفيلد. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإنجليزي 2025-2024، والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإنجليزي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 19 14 3 2 37 12 25 45 2 مانشستر سيتي 18 13 1 4 43 17 26 40 3 أستون فيلا 19 12 3 4 30 23 7 39 4 ليفربول 19 10 3 6 30 26 4 33 5 تشيلسي 19 8 6 5 32 21 11 30 6 مان يونايتد 19 8 6 5 33 29 4 30 7 سندرلاند 18 7 7 4 20 18 2 28 8 إيفرتون 19 8 4 7 20 20 0 28 9 كريستال بالاس 19 7 6 6 22 21 1 27 10 فولهام 19 8 3 8 26 27 -1 27 11 برينتفورد 18 8 2 8 28 26 2 26 1…",
+      "image": null,
+      "pubDate": "2026-01-01T17:31:32.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "f3a179a9d70240b1",
@@ -763,54 +843,6 @@
       "body": "يواصل المنتخب المغربي، تحضيراته لمواجهة تنزانيا، الأحد المقبل، في ثمن نهائي كأس الأمم الأفريقية. وبحسب صحيفة \"العربي الجديد\"، فإن المدافع المخضرم رومان سايس، لن يشارك أمام تنزانيا، نظرًا لعدم تعافيه من الإصابة. وأصيب سايس، البالغ من العمر 35 عامًا، في المباراة الأولى للأسود بالبطولة، أمام جزر القمر، والتي انتهت بفوز المغرب 2-0. وتابعت الصحيفة \"نظرًا لعدم تعافي سايس، سيعتمد المدرب وليد الركراكي، على الثنائي نايف أكرد وآدم ماسينا في الخط الخلفي، خلال لقاء تنزانيا\". وبلغ منتخب المغرب، ثمن نهائي كأس الأمم الأفريقية، بعد تصدر المجموعة الأولى برصيد 7 نقاط.&nbsp; فيما بلغت تنزانيا، دور 16 للكان، بعد احتلال المركز الثالث برصيد نقطتين، لتتأهل ضمن أفضل 4 منتخبات احتلوا المركز الثالث.",
       "image": null,
       "pubDate": "2026-01-01T15:50:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "aabdafa0356b7ce5",
-      "title": "على رأسهم ماني.. النصر يحول 3 ملفات تجديد لجيسوس",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D9%84%D9%89-%D8%B1%D8%A7%D9%94%D8%B3%D9%87%D9%85-%D9%85%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%8A%D8%AD%D9%88%D9%84-3-%D9%85%D9%84%D9%81%D8%A7%D8%AA-%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%AC%D9%8A%D8%B3%D9%88%D8%B3/blt02d79a9a905215dd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "دخل اينيجو مارتينيز ومارسيلو بروزوفيتش وساديو ماني، ثلاثي النصر السعودي، الفترة الحرة في ظل انتهاء عقد الثلاثي مع \"العالمي\" بنهاية الموسم الجاري، وأحقيتهم في التوقيع مع أي نادي خلال الفترة المقبلة.",
-      "body": "دخل اينيجو مارتينيز ومارسيلو بروزوفيتش وساديو ماني، ثلاثي النصر السعودي، الفترة الحرة في ظل انتهاء عقد الثلاثي مع \"العالمي\" بنهاية الموسم الجاري، وأحقيتهم في التوقيع مع أي نادي خلال الفترة المقبلة. وتبحث إدارة نادي النصر خلال الفترة الحالية، التجديد مع عدد من اللاعبين، في ظل انتهاء عقودهم مع \"العالمي\" بنهاية الموسم الجاري، وأحقيتهم في التوقيع مع أي فريق آخر. ومن المقرر أن يحسم جورجي جيسوس المدير الفني للنصر، مصير التجديد مع الثلاثي، ويبلغ إدارة النادي السعودي بموقفه النهائي من استمراره، في ظل رغبة النادي في إنهاء الملف مبكرا. ويستعد النصر لمواجهة نظيره أهلي جدة، ضمن مباريات الجولة القادمة، من مسابقة دوري روشن للمحترفين، وتقام المباراة على أرضية ملعب الإنماء.",
-      "image": null,
-      "pubDate": "2026-01-01T15:42:05.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e818a4b3f8a765d1",
-      "title": "بالفيديو: الزوراء يقتحم المربع الذهبي للدوري العراقي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%B2%D9%88%D8%B1%D8%A7%D8%A1-%D9%8A%D9%82%D8%AA%D8%AD%D9%85-%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%84%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A/blt3c952945a3a12b7e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "وفاز الزوراء على حساب مضيفه الكهرباء بهدف دون رد مساء اليوم الخميس في الجولة التاسعة من عمر الدوري العراقي",
-      "body": "واصل الزوراء صحوته في الدوري العراقي بحصد الفوز الخامس على التوالي تحت قيادة مدربه المصري عماد النحاس. وفاز الزوراء على حساب مضيفه الكهرباء بهدف دون رد مساء اليوم الخميس في الجولة التاسعة من عمر المسابقة. وسجل هدف الفوز للزوراء اللاعب حسن سعيد في الدقيقة 41 من عمر المباراة. &nbsp; شووف الهدف : الزوراء يتقدم 1-0 على الكهرباء في الدقيقة 41 .. الدوري العراقي #دوري_نجوم_العراق #قنوات_الكاس || #منصة_شووف pic.twitter.com/uxwC1kjrx9 &mdash; قنوات الكاس (@AlkassTVSports) January 1, 2026 واقتحم الزوراء المربع الذهبي بهذا الفوز بعدما رفع رصيده إلى 17 نقطة في المركز الرابع بعد خوض 8 مباريات، ويتبقى له مباراة مؤجلة أمام الشرطة. ويبتعد الزوراء بفارق 6 نقاط عن أربيل صاحب الصدارة بينما توقف رصيد الكهرباء عند 5 نقاط في المركز الثامن عشر. وحقق الزوراء 5 انتصارات متتالية في الدوري منذ تعيين عماد النحاس على حساب القاسم والموصل ونوروز والميناء ثم الكهرباء. وفي المقابل، تعادل الميناء مع ضيفه نوروز بهدف لكل منهما في الجولة ذاتها. سجل للميناء مهند عبد الرحيم في الدقيقة 11 بينم تعادل لصالح نوروز اللاعب مروان حسين في الدقيقة 90+4 ثم تعرض للطرد بعدها بثلاث دقائق. وارتفع رصيد الميناء إلى 13 نقطة في المركز الحادي عشر بينما وصل نوروز إلى النقطة الرابعة في المركز التاسع عشر وقبل الأخير. وتعادل النجف مع ضيفه ال…",
-      "image": null,
-      "pubDate": "2026-01-01T15:40:24.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "ebe64a7cfe3a70bf",
-      "title": "جلسة عاجلة لإنهاء رحلة ألجواسيل في الشباب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%84%D8%B3%D8%A9-%D8%B9%D8%A7%D8%AC%D9%84%D8%A9-%D9%84%D8%A7%D9%95%D9%86%D9%87%D8%A7%D8%A1-%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%94%D9%84%D8%AC%D9%88%D8%A7%D8%B3%D9%8A%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8/blt390edd3bb1fbcd60?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشفت تقارير صحفية عن اقتراب الإسباني إيمانويل ألجواسيل، المدير الفني لفريق الشباب، من الرحيل عن الدوري السعودي، مع بداية العام الجديد.",
-      "body": "كشفت تقارير صحفية عن اقتراب الإسباني إيمانويل ألجواسيل، المدير الفني لفريق الشباب، من الرحيل عن الدوري السعودي، مع بداية العام الجديد. وتولى ألجواسيل تدريب الشباب منذ بداية الموسم الحالي، غير أن الفريق العاصمي عانى تحت قيادته، سواءً في الدوري السعودي أو دوري أبطال الخليج، كما ودع كأس الملك من ربع النهائي. وقال برنامج \"رياضة سكوب\"، في تغريدة عبر حسابه الرسمي على موقع \"إكس\"، إن إدارة نادي الشباب طلبت من وكيل المدرب الإسباني الحضور إلى العاصمة السعودية الرياض، لإيجاد حل توافقي لإلغاء عقده. كشفت مصادر #رياضة_سكوب بأن إدارة نادي #الشباب طلبت من وكيل مدرب الفريق الكروي الإسباني ايمانول ألغواسيل الحضور للرياض لإيجاد حل توافقي لإلغاء عقد المدرب. pic.twitter.com/KZyBBTEfuv &mdash; رياضة سكوب (@RiyadahScoop) January 1, 2026 ويمتد تعاقد ألجواسيل مع الشباب لمدة موسمين، يحصل خلالهما على راتب مرتفع تبلغ قيمته 50 مليون ريال، غير أنه لا يشتمل على شرط جزائي، ما يجعل النادي ملزمًا بدفع قيمة العقد بالكامل حال إقالته. وكانت صحيفة \"الرياضية\" قد كشفت في وقت سابق أن إدارة الشباب السابقة، برئاسة خليف الهويشان، طالبت وزارة الرياضة بإقالة ألجواسيل، مع تكفل العضو الذهبي الأمير عبد الرحمن بن تركي بعقد المدرب الجديد، وهو ما تم رفضه. ويحتل الشباب المركز الخامس عشر في جدول ترتيب الدوري السعودي برصيد 8 نقاط، حصد…",
-      "image": null,
-      "pubDate": "2026-01-01T15:33:58.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -2052,22 +2084,6 @@
       "region": "global"
     },
     {
-      "id": "1cd25bc9aa0b5137",
-      "title": "Why inventing new emotions feels so good",
-      "link": "https://www.technologyreview.com/2025/12/31/1129403/new-emotions-online-life-feelings/",
-      "summary": "Have you ever felt “velvetmist”? It’s a “complex and subtle emotion that elicits feelings of comfort, serenity, and a gentle sense of floating.” It’s peaceful, but more ephemeral and intangible than contentment. It might be evoked by the sight of a sunset or a moody, low-key album. If you haven’t e…",
-      "body": "Have you ever felt “velvetmist”?&nbsp; It’s a “complex and subtle emotion that elicits feelings of comfort, serenity, and a gentle sense of floating.” It’s peaceful, but more ephemeral and intangible than contentment. It might be evoked by the sight of a sunset or a moody, low-key album. &nbsp; If you haven’t ever felt this sensation—or even heard of it—that’s not surprising. A Reddit user named noahjeadie generated it with ChatGPT, along with advice on how to evoke the feeling. With the right essential oils and soundtrack, apparently, you too can feel like “a soft fuzzy draping ghost floating through a lavender suburb.” Don’t scoff: Researchers say more and more terms for these “neo-­emotions” are showing up online, describing new dimensions and aspects of feeling. Velvetmist was a key example in a journal article about the phenomenon published in July 2025. But most neo-emotions aren’t the inventions of emo artificial intelligences. Humans come up with them, and they’re part of a big change in the way researchers are thinking about feelings, one that emphasizes how people continuously spin out new ones in response to a changing world.&nbsp; Velvetmist might’ve been a chatbot one…",
-      "image": null,
-      "pubDate": "2025-12-31T10:10:59.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "150a1cff5a4ed667",
       "title": "'Rangers right in mix' - can they now go level with Celtic?",
       "link": "https://www.bbc.com/sport/football/articles/c0q4ewvkq44o?at_medium=RSS&at_campaign=rss",
@@ -2756,16 +2772,16 @@
       "region": "gulf"
     },
     {
-      "id": "ec121e4e39cb9944",
-      "title": "Tips for Keeping a Digital Diary and Why You Should",
-      "link": "https://www.wired.com/story/tips-for-keeping-a-digital-diary/",
-      "summary": "After 10 years of journaling, my only regret is not starting sooner.",
+      "id": "cd83c0b5c0791633",
+      "title": "Starbucks' New Menu Has Valentine's Drinks, A Big Bakery Drop, Plus A Surprise Collab",
+      "link": "https://www.delish.com/food-news/a69881407/starbucks-february-2026-menu-new-drinks-bakery-items/",
+      "summary": "If you've been bored with your order, February is about to change that.",
       "body": null,
-      "image": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/shinjuku-japan-18-october-2023-sign-starbucks-royalty-free-image-1767045226.pjpeg",
       "pubDate": "2025-12-30T11:00:00.000Z",
       "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
       },
       "lang": "en",
       "category": "general",
@@ -2788,16 +2804,16 @@
       "region": "global"
     },
     {
-      "id": "cd83c0b5c0791633",
-      "title": "Starbucks' New Menu Has Valentine's Drinks, A Big Bakery Drop, Plus A Surprise Collab",
-      "link": "https://www.delish.com/food-news/a69881407/starbucks-february-2026-menu-new-drinks-bakery-items/",
-      "summary": "If you've been bored with your order, February is about to change that.",
+      "id": "ec121e4e39cb9944",
+      "title": "Tips for Keeping a Digital Diary and Why You Should",
+      "link": "https://www.wired.com/story/tips-for-keeping-a-digital-diary/",
+      "summary": "After 10 years of journaling, my only regret is not starting sooner.",
       "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/shinjuku-japan-18-october-2023-sign-starbucks-royalty-free-image-1767045226.pjpeg",
+      "image": null,
       "pubDate": "2025-12-30T11:00:00.000Z",
       "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "general",
@@ -3220,22 +3236,6 @@
       "region": "global"
     },
     {
-      "id": "88d6c76daacd3abb",
-      "title": "3 New Tricks to Try With Google Gemini Live After Its Latest Major Upgrade",
-      "link": "https://www.wired.com/story/3-tricks-google-gemini-live-latest-major-upgrade/",
-      "summary": "Google's AI is now even smarter, and more versatile.",
-      "body": null,
-      "image": null,
-      "pubDate": "2025-12-29T11:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "557c8d15050ead3d",
       "title": "Don’t Sleep On This: Dunkin’ Just Dropped 1 Million Free Coffee Codes",
       "link": "https://www.delish.com/food-news/a69851965/dunkin-free-coffee-promo-code-million/",
@@ -3249,6 +3249,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "88d6c76daacd3abb",
+      "title": "3 New Tricks to Try With Google Gemini Live After Its Latest Major Upgrade",
+      "link": "https://www.wired.com/story/3-tricks-google-gemini-live-latest-major-upgrade/",
+      "summary": "Google's AI is now even smarter, and more versatile.",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-29T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -4340,22 +4356,6 @@
       "region": "global"
     },
     {
-      "id": "014bec92e54c93c6",
-      "title": "MIT Technology Review’s most popular stories of 2025",
-      "link": "https://www.technologyreview.com/2025/12/26/1130318/mit-technology-review-most-popular-stories-2025/",
-      "summary": "It’s been a busy and productive year here at MIT Technology Review. We published magazine issues on power, creativity, innovation, bodies, relationships, and security. We hosted 14 exclusive virtual conversations with our editors and outside experts in our subscriber-only series, Roundtables, and h…",
-      "body": "It&#8217;s been a busy and productive year here at MIT Technology Review . We published magazine issues on power , creativity , innovation , bodies , relationships , and security . We hosted 14 exclusive virtual conversations with our editors and outside experts in our subscriber-only series, Roundtables , and held two events on MIT’s campus. And we published hundreds of articles online, following new developments in computing, climate tech, robotics, and more. As the year winds down, we wanted to give you a chance to revisit a bit of this work with us. Whether we were covering the red-hot rise of artificial intelligence or the future of biotech, these are some of the stories that resonated the most with our readers.&nbsp; We did the math on AI’s energy footprint. Here’s the story you haven’t heard. Understanding AI’s energy use was a huge global conversation in 2025 as hundreds of millions of people began using generative AI tools on a regular basis. Senior reporters James O’Donnell and Casey Crownhart dug into the numbers and published an unprecedented look at AI’s resource demand, down to the level of a single query, to help us know how much energy and water AI may require movi…",
-      "image": null,
-      "pubDate": "2025-12-26T12:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "afa263eb10df1cce",
       "title": "Kylie Jenner And Timothée Chalamet Just Made A Big Holiday Relationship Move",
       "link": "https://www.delish.com/food-news/a69865299/kylie-jenner-timothee-chalamet-kardashian-gingerbread-house/",
@@ -4369,22 +4369,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c1a7eae6d71f05aa",
-      "title": "The paints, coatings, and chemicals making the world a cooler place",
-      "link": "https://www.technologyreview.com/2025/12/26/1129301/paint-coating-chemicals-materials-cooling-air-conditioning/",
-      "summary": "It’s getting harder to beat the heat. During the summer of 2025, heat waves knocked out power grids in North America, Europe, and the Middle East. Global warming means more people need air-­conditioning, which requires more power and strains grids. But a millennia-old idea (plus 21st-century tech) …",
-      "body": "It’s getting harder to beat the heat. During the summer of 2025, heat waves knocked out power grids in North America , Europe , and the Middle East . Global warming means more people need air-­conditioning, which requires more power and strains grids. But a millennia-old idea (plus 21st-century tech) might offer an answer: radiative cooling. Paints, coatings, and textiles can scatter sunlight and dissipate heat—no additional energy required. “Radiative cooling is universal—it exists everywhere in our daily life,” says Qiaoqiang Gan, a professor of materials science and applied physics at King Abdullah University of Science and Technology in Saudi Arabia. Pretty much any object will absorb heat from the sun during the day and radiate some of it back at night. It’s why cars parked outside overnight are often covered with condensation, Gan says—their metal roofs dissipate heat into the sky, cooling the surfaces below the ambient air temperature. That’s how you get dew. Humans have harnessed this basic natural process for thousands of years. Desert peoples in Iran, North Africa, and India manufactured ice by leaving pools of water exposed to clear desert skies overnight, when radiativ…",
-      "image": null,
-      "pubDate": "2025-12-26T11:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4433,22 +4417,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "33373294c66ae856",
-      "title": "AI Wrapped: The 14 AI terms you couldn’t avoid in 2025",
-      "link": "https://www.technologyreview.com/2025/12/25/1130298/ai-wrapped-the-14-ai-terms-you-couldnt-avoid-in-2025/",
-      "summary": "If the past 12 months have taught us anything, it’s that the AI hype train is showing no signs of slowing. It’s hard to believe that at the beginning of the year, DeepSeek had yet to turn the entire industry on its head, Meta was better known for trying (and failing) to make the metaverse…",
-      "body": "If the past 12 months have taught us anything, it’s that the AI hype train is showing no signs of slowing. It’s hard to believe that at the beginning of the year, DeepSeek had yet to turn the entire industry on its head, Meta was better known for trying (and failing) to make the metaverse cool than for its relentless quest to dominate superintelligence, and vibe coding wasn’t a thing. If that’s left you feeling a little confused, fear not. As we near the end of 2025, our writers have taken a look back over the AI terms that dominated the year, for better or worse. Make sure you take the time to brace yourself for what promises to be another bonkers year. —Rhiannon Williams 1. Superintelligence As long as people have been &nbsp;hyping &nbsp;AI, they have been coming up with names for a future, ultra-powerful form of the technology that could bring about utopian or&nbsp; dystopian &nbsp;consequences for humanity. “Superintelligence” is that latest hot term. Meta&nbsp; announced &nbsp;in July that it would form an AI team to pursue superintelligence, and it was reportedly offering nine-figure compensation packages to AI experts from the company’s competitors to join. In December, Mic…",
-      "image": null,
-      "pubDate": "2025-12-25T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4609,38 +4577,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d0a852f8b816798d",
-      "title": "Meet the man hunting the spies in your smartphone",
-      "link": "https://www.technologyreview.com/2025/12/24/1129294/ronald-deibert-citizen-lab-digital-threats-spies-cybersecurity/",
-      "summary": "In April 2025, Ronald Deibert left all electronic devices at home in Toronto and boarded a plane. When he landed in Illinois, he took a taxi to a mall and headed directly to the Apple Store to purchase a new laptop and iPhone. He’d wanted to keep the risk of having his personal devices confiscated…",
-      "body": "In April 2025, Ronald Deibert left all electronic devices at home in Toronto and boarded a plane. When he landed in Illinois, he took a taxi to a mall and headed directly to the Apple Store to purchase a new laptop and iPhone. He’d wanted to keep the risk of having his personal devices confiscated to a minimum, because he knew his work made him a prime target for surveillance. “I’m traveling under the assumption that I am being watched, right down to exactly where I am at any moment,” Deibert says. Deibert directs the Citizen Lab, a research center he founded in 2001 to serve as “counterintelligence for civil society.” Housed at the University of Toronto, the lab operates independently of governments or corporate interests, relying instead on research grants and private philanthropy for financial support. It’s one of the few institutions that investigate cyberthreats exclusively in the public interest, and in doing so, it has exposed some of the most egregious digital abuses of the past two decades. For many years, Deibert and his colleagues have held up the US as the standard for liberal democracy. But that’s changing, he says: “The pillars of democracy are under assault in the U…",
-      "image": null,
-      "pubDate": "2025-12-24T11:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "385cfb25615f7fb3",
-      "title": "Four bright spots in climate news in 2025",
-      "link": "https://www.technologyreview.com/2025/12/24/1130191/good-climate-news-2025/",
-      "summary": "Climate news hasn’t been great in 2025. Global greenhouse-gas emissions hit record highs (again). This year is set to be either the second or third warmest on record. Climate-fueled disasters like wildfires in California and flooding in Indonesia and Pakistan devastated communities and caused billi…",
-      "body": "Climate news hasn’t been great in 2025. Global greenhouse-gas emissions hit record highs (again). This year is set to be either the second or third warmest on record. Climate-fueled disasters like wildfires in California and flooding in Indonesia and Pakistan devastated communities and caused billions in damage. In addition to these worrying indicators of our continued contributions to climate change and their obvious effects, the world’s largest economy has made a sharp U-turn on climate policy this year. The US under the Trump administration withdrew from the Paris Agreement , cut funds for climate research , and scrapped billions of dollars in funding for climate tech projects. We’re in a severe situation with climate change. But for those looking for bright spots, there was some good news in 2025. Here are a few of the positive stories our climate reporters noticed this year. China’s flattening emissions GETTY IMAGES One of the most notable and encouraging signs of progress this year occurred in China. The world’s second-biggest economy and biggest climate polluter has managed to keep carbon dioxide emissions flat for the last year and a half, according to an analysis in Carbo…",
-      "image": null,
-      "pubDate": "2025-12-24T11:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4852,22 +4788,6 @@
       "region": "gulf"
     },
     {
-      "id": "e962a303c7416bf6",
-      "title": "Researchers are getting organoids pregnant with human embryos",
-      "link": "https://www.technologyreview.com/2025/12/23/1130415/organoid-uterus-microfluidic-chip-embryo/",
-      "summary": "At first glance, it looks like the start of a human pregnancy: A ball-shaped embryo presses gently into the receptive lining of the uterus and then grips tight, burrowing in as the first tendrils of a future placenta appear. This is implantation—the moment that pregnancy officially begins. Only non…",
-      "body": "At first glance, it looks like the start of a human pregnancy: A ball-shaped embryo presses gently into the receptive lining of the uterus and then grips tight, burrowing in as the first tendrils of a future placenta appear.&nbsp; This is implantation—the moment that pregnancy officially begins. Only none of it is happening inside a body. These images were captured in a Beijing laboratory, inside a microfluidic chip, as scientists watched the scene unfold. This transparent microfluidic chip is used to grow an organoid that mimics the lining of a uterus. COURTESY OF THE RESEARCHERS In three papers published this week by Cell Press, scientists are reporting what they call the most accurate efforts yet to mimic the first moments of pregnancy in the lab. They’ve taken human embryos from IVF centers and let these merge with “organoids” made of endometrial cells, which form the lining of the uterus. The reports—two from China and a third involving a collaboration among researchers in the United Kingdom, Spain, and the US—show how scientists are using engineered tissues to better understand early pregnancy and potentially improve IVF outcomes. “You have an embryo and the endometrial orga…",
-      "image": null,
-      "pubDate": "2025-12-23T16:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "a66cb013c0cfc5ec",
       "title": "فيديو.. \"خطأ فادح\" أثناء عزف النشيد المصري بمباراة زيمبابوي",
       "link": "https://www.skynewsarabia.com/varieties/1841923-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AE%D8%B7%D8%A7%D9%94-%D9%81%D8%A7%D8%AF%D8%AD-%D8%A7%D9%94%D8%AB%D9%86%D8%A7%D8%A1-%D8%B9%D8%B2%D9%81-%D8%A7%D9%84%D9%86%D8%B4%D9%8A%D8%AF-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A8%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B2%D9%8A%D9%85%D8%A8%D8%A7%D8%A8%D9%88%D9%8A",
@@ -4913,22 +4833,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "20395be945bbb957",
-      "title": "How social media encourages the worst of AI boosterism",
-      "link": "https://www.technologyreview.com/2025/12/23/1130393/how-social-media-encourages-the-worst-of-ai-boosterism/",
-      "summary": "Demis Hassabis, CEO of Google DeepMind, summed it up in three words: “This is embarrassing.” Hassabis was replying on X to an overexcited post by Sébastien Bubeck, a research scientist at the rival firm OpenAI, announcing that two mathematicians had used OpenAI’s latest large language model, GPT-5,…",
-      "body": "Demis Hassabis, CEO of Google DeepMind, summed it up in three words : “This is embarrassing.”&nbsp;&nbsp; Hassabis was replying on X to an overexcited post by Sébastien Bubeck, a research scientist at the rival firm OpenAI, announcing that two mathematicians had used OpenAI’s latest large language model, GPT-5, to find solutions to 10 unsolved problems in mathematics. “Science acceleration via AI has officially begun,” Bubeck crowed. Put your math hats on for a minute, and let’s take a look at what this beef from mid-October was about. It’s a perfect example of what’s wrong with AI right now. Bubeck was excited that GPT-5 seemed to have somehow solved a number of puzzles known as Erdős problems. Paul Erdős, one of the most prolific mathematicians of the 20th century, left behind hundreds of puzzles when he died. To help keep track of which ones have been solved, Thomas Bloom, a mathematician at the University of Manchester, UK, set up erdosproblems.com , which lists more than 1,100 problems and notes that around 430 of them come with solutions.&nbsp; When Bubeck celebrated GPT-5’s breakthrough, Bloom was quick to call him out . “This is a dramatic misrepresentation,” he wrote on X…",
-      "image": null,
-      "pubDate": "2025-12-23T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
