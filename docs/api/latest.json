@@ -1,39 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-03T19:29:51.092Z",
-    "total": 188,
-    "processed_feeds": 21,
-    "discovered_feeds": 84,
+    "generated_at": "2026-01-03T19:39:20.034Z",
+    "total": 182,
+    "processed_feeds": 20,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/26ac9b64-1e21-46d5-af88-34fc8d9557f6",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -45,45 +19,6 @@
         ],
         "taken": 0,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 54,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -100,19 +35,6 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "CNBC — Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
@@ -120,32 +42,6 @@
         "region": "global",
         "cats": [
           "general"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
         ],
         "taken": 20,
         "error": null,
@@ -165,6 +61,32 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Food52",
         "url": "https://food52.com/blog.rss",
         "homepage": "https://food52.com/blog.rss",
@@ -175,6 +97,71 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 55,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 23,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
+        "error": null,
         "notModified": false
       },
       {
@@ -204,19 +191,6 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 23,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
@@ -230,29 +204,29 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -269,16 +243,29 @@
         "notModified": false
       },
       {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "lang": "ar",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       }
     ]
@@ -301,6 +288,22 @@
       "region": "global"
     },
     {
+      "id": "07a6950ceabcdca4",
+      "title": "Edinburgh hold on for narrow win at Benetton",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cgl84nnw49lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Edinburgh defeat Benetton to ease the pressure on head coach Sean Everitt but are made to sweat at Stadio Monigo.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-03T19:19:07.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "7773e4f077e24252",
       "title": "Burnley lacked belief in defeat at Brighton - Parker",
       "link": "https://www.bbc.com/sport/football/articles/c4g4vwvdpezo?at_medium=RSS&at_campaign=rss",
@@ -317,22 +320,6 @@
       "region": "global"
     },
     {
-      "id": "2aa0e155704ab106",
-      "title": "Spain will not recognize US intervention in Venezuela, PM says",
-      "link": "https://www.investing.com/news/economy-news/spain-will-not-recognize-us-intervention-in-venezuela-pm-says-4428530",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM020GL_L.jpg",
-      "pubDate": "2026-01-03T18:48:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "e2eb9be27f81549b",
       "title": "Tony Dokoupil to Start at ‘CBS Evening News’ Early to Cover Shocking Venezuela Raid",
       "link": "https://www.hollywoodreporter.com/tv/tv-news/tony-dokoupil-start-cbs-evening-news-early-maduro-capture-1236463146/",
@@ -343,54 +330,6 @@
       "source": {
         "name": "Hollywood Reporter",
         "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "20079009e95ecb07",
-      "title": "US captures Venezuela’s Maduro, Trump says US will run the country",
-      "link": "https://www.investing.com/news/world-news/column-of-smoke-seen-loud-noises-heard-in-venezuelan-capital-4428479",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM020FM_L.jpg",
-      "pubDate": "2026-01-03T18:42:44.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "18b67ce955e14466",
-      "title": "Trump says US oil companies will spend billions in Venezuela",
-      "link": "https://www.investing.com/news/stock-market-news/trump-says-us-oil-companies-will-spend-billions-in-venezuela-4428529",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM020GD_L.jpg",
-      "pubDate": "2026-01-03T18:30:25.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "06bbbae165a7f479",
-      "title": "Swiss prosecutors investigate pair who ran bar over deadly blaze",
-      "link": "https://www.investing.com/news/world-news/scrutiny-turns-to-safety-setup-of-swiss-bar-after-deadly-blaze-4428415",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM010NX_L.jpg",
-      "pubDate": "2026-01-03T18:00:50.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "technology",
@@ -477,36 +416,52 @@
       "region": "global"
     },
     {
-      "id": "513f9db125efdc1e",
-      "title": "Trump signals US may expand focus to Cuba amid Venezuela operation",
-      "link": "https://www.investing.com/news/economy-news/trump-signals-us-may-expand-focus-to-cuba-amid-venezuela-operation-4428528",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM020DU_L.jpg",
-      "pubDate": "2026-01-03T17:42:58.000Z",
+      "id": "7e32cd71e273afa3",
+      "title": "مزراوي لا يستبعد ركلات الترجيح أمام تنزانيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B2%D8%B1%D8%A7%D9%88%D9%8A-%D9%84%D8%A7-%D9%8A%D8%B3%D8%AA%D8%A8%D8%B9%D8%AF-%D8%B1%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%8A%D8%AD-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%AA%D9%86%D8%B2%D8%A7%D9%86%D9%8A%D8%A7/blt63686570a4a395ca?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نجم المغرب يستشهد بعقدة النصف قرن.. ويوجه رسالة للجمهور",
+      "body": "نجم المغرب يستشهد بعقدة النصف قرن.. ويوجه رسالة للجمهور استشهد النجم المغربي نصير مزراوي باستمرار عقدة تتويج أسود الأطلس بلقب كأس الأمم الأفريقية على مدار 50 عاما للتأكيد على ضرورة عدم الاستهانة بمنتخب تنزانيا، منافسه القادم في الدور ثمن النهائي من البطولة القارية. ويستعد المنتخب المغربي لتمديد مشواره نحو \"حلم اللقب\" عندما يقابل تنزانيا غدا الأحد في دور الـ16 من \"الكان\" التي يستضيفها على أراضيه. وأكد مزراوي \"لا توجد مباريات سهلة في أفريقيا، فكل المنافسين يظهرون كل إمكانياتهم للفوز والاستمرار في البطولة\". وطالب الجماهير المغربية بالدعم أما تنزانيا \"من الصافرة الأولى حتى نهاية المباراة، وتحت أي ظرف\"، حتى لو عانى المنتخب المغربي في بعض أوقات المباراة. واستطرد الظهير الأيمن لفريق مانشستر يونايتد بالحديث عن احتمال اللجوء لركلات الترجيح، وقال على هامش الحصة التدريبية الأخيرة للأسود مساء السبت: \"هذا وارد في مثل هذه المباريات، وعلينا أن نكون جاهزين ذهنيا لكل التحولات التي قد تطرأ على المباراة\". وجدد مزراوي تأكيده على أنه لا يفضل مركزا بعينه، بل يمكنه اللعب في كل المراكز التي يطلبها المدير الفني\". الجدير بالذكر أن المنتخب المغربي لم يتوج بكأس الأمم الأفريقية سوى مرة وحيدة عام 1976، بينما كانت آخر إنجازاته في العقدين الأخيرين بلوغ النهائي في نسخة تونس 2004 التي توج بها \"نسور قرطاج\".",
+      "image": null,
+      "pubDate": "2026-01-03T17:35:15.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
-      "id": "da8891e1e62f139d",
-      "title": "Trump: U.S. to run Venezuela after Maduro capture, open to ground troops",
-      "link": "https://www.investing.com/news/economy-news/trump-says-us-will-administer-venezuela-until-proper-transition-4428527",
-      "summary": "",
-      "body": null,
+      "id": "ba2017600a0de9ea",
+      "title": "موعد مباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026 والقنوات الناقلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt8b15dcaa9237d2bc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على موعد مباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026 والقنوات الناقلة...",
+      "body": "تعرف على موعد مباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026 والقنوات الناقلة... يخوض الاتحاد مباراة مهمة خارج قواعده عندما يحل ضيفاً ثقيلاً على نظيره الخلود، في مواجهة مرتقبة ضمن منافسات الجولة الرابعة عشرة من دوري روشن السعودي 2025-2026، والتي يحتضنها ملعب مدينة الملك عبد الله الرياضية ببريدة. ويدخل \"العميد\" اللقاء بشعار لا بديل عن الفوز من أجل تحسين موقعه في مركز التدريب، على أمل الدخول ضمن رباعي المقدمة، بينما يمني الخلود نفسه بنتيجة إيجابية تخرجه من النفق المظلم في منطقة الهبوط. ويستعرض كووورة في التقرير التالي موعد مباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026 والقنوات الناقلة. متى موعد مباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026؟ موعد مباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026 هو يوم الجمعة الموافق 9 يناير /كانون الثاني 2026، على ملعب مدينة الملك عبد الله الرياضية ببريدة. وتنطلق صافرة بداية المباراة في تمام الساعة الثامنة والنصف مساء بتوقيت السعودية، التاسعة والنصف مساء بتوقيت الإمارات. ما القنوات الناقلة لمباراة الاتحاد القادمة ضد الخلود في دوري روشن السعودي 2025-2026؟ تبث مباريات دوري روشن السعودي 2025-2026 عبر قنوات ثمانية الرياضية. وسوف تخصص الشبكة إحدى قنواتها لنقل مباراة الخلود والاتحاد بتقنية…",
       "image": null,
-      "pubDate": "2026-01-03T17:35:34.000Z",
+      "pubDate": "2026-01-03T17:31:49.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ffe1f1bc8bf8d916",
+      "title": "بالفيديو..انتفاضة الاتحاد تسقط التعاون بهدف الشنقيطي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%86%D8%AA%D9%81%D8%A7%D8%B6%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AA%D8%B3%D9%82%D8%B7-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A8%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D8%B4%D9%86%D9%82%D9%8A%D8%B7%D9%8A/blt4a9d904851ae4c5c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "حقق فريق الاتحاد انتصارا صعبا على منافسه، التعاون، بهدف نظيف، مساء اليوم السبت، ضمن منافسات الجولة 13 من دوري روشن السعودي لموسم 2025-2026.",
+      "body": "حقق فريق الاتحاد انتصارا صعبا على منافسه، التعاون، بهدف نظيف، مساء اليوم السبت، ضمن منافسات الجولة 13 من دوري روشن السعودي لموسم 2025-2026. جاء هدف النادي الغربي، عبر اللاعب مهند الشنقيطي، بالدقيقة 50 من عمر المباراة، ليقود النمور لتحقيق الانتصار الرابع على التوالي. وبهذا الانتصار، يرفع اتحاد جدة رصيده إلى 23 نقطة، ويتقدم إلى المركز الخامس بجدول ترتيب دوري روشن السعودي، بينما ظل التعاون في المركز الثالث برصيد 28 نقطة. سيطرة تعاونية سيطر فريق التعاون على الربع ساعة الأولى من عمر اللقاء، وكاد أن يسجل هدف التفوق على حساب الاتحاد، لولا براعة الحارس رايكوفينش. الدقيقة الثامنة شهدت هجمة واعدة لسكري القصيم، بعد مراوغة ناجحة من جانب روجير مارتينيز لاعب التعاون لمدافع الاتحاد، أحمد شراحيلي، ويسدد الكرة لكن يتصدى لها رايكوفينش، بنجاح. وطالب التعاون بالحصول على ركلة جزاء، بعد تداخل روجر فيرنانديز لاعب الاتحاد، على نظيره جيروتو، إلا أن الحكم رفض احتسابها لصالح السكري. &nbsp; رايكوفيتش يتألق 🔥 #الاتحاد_التعاون | #دوري_روشن_السعودي pic.twitter.com/YioZtYVist — رياضة ثمانية (@thmanyahsports) January 3, 2026 تألق مايلسون حافظ مايلسون حارس التعاون على نظافة شباك التعاون خلال مجريات الشوط الأول الذي انتهى بتعادل الفريقين بدون أهداف. البداية كانت بالدقيقة 15 بعد حصول موسى ديابي على الكرة وتمرير الك…",
+      "image": null,
+      "pubDate": "2026-01-03T17:31:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "8b3632dab27d4829",
@@ -541,6 +496,38 @@
       "region": "global"
     },
     {
+      "id": "1dd596282c63f50c",
+      "title": "جدول مباريات الدوري الإنجليزي 2025-2026، القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt28b7c412b9304dab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات الدوري الإنجليزي 2025-2026..",
+      "body": "تعرف على مباريات الدوري الإنجليزي 2025-2026.. نجح ليفربول في حصد لقب الدوري الإنجليزي 2024-2025 للمرة العشرين في تاريخه ليعادل مانشستر يونايتد كأكثر فريق إنجليزي تتويجًا باللقب. وقاد محمد صلاح فريقه للقب آخر في البريمييرليج بعد موسم 2019-2020 ليؤكد تفوق الريدز على باقي الخصوم بعد حسم اللقب قبل أربع جولات كاملة من النهاية. وأوقف الريدز سلسلة مانشستر سيتي الذي فاز بالدوري الإنجليزي 4 مرات على التوالي، ليخرج بموسم إيجابي رغم الخروج المبكر من دوري أبطال أوروبا وخسارة نهائي كأس الرابطة. وتنطلق النسخة الجديدة من البريميرليج بمواجهة ليفربول وبورنموث يوم الجمعة الموافق 15 أغسطس/آب على ملعب أنفيلد. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإنجليزي 2025-2024، والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإنجليزي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 20 15 3 2 40 14 26 48 2 أستون فيلا 20 13 3 4 33 24 9 42 3 مانشستر سيتي 19 13 2 4 43 17 26 41 4 ليفربول 19 10 3 6 30 26 4 33 5 تشيلسي 19 8 6 5 32 21 11 30 6 مانشستر يونايتد 19 8 6 5 33 29 4 30 7 سندرلاند 19 7 8 4 20 18 2 29 8 برايتون 20 7 7 6 30 27 3 28 9 إيفرتون 19 8 4 7 20 20 0 28 10 برينتفورد 19 8 3 8 28 26 2 27 11 كريستال بالاس 19 7 6 6 22 21 1 …",
+      "image": null,
+      "pubDate": "2026-01-03T17:28:30.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "6fa3e7414bfdc0d9",
+      "title": "جدول ترتيب الدوري الإنجليزي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026/blt32989d7601f1774a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026",
+      "body": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026 تترقب جماهير كرة القدم حول العالم منافسات الدوري الإنجليزي الممتاز لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات مثيرة بين كبار القوم على لقب البطولة الأغلى في إنجلترا. ويخوض ليفربول الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين حصد اللقب العشرين في تاريخه معادلًا رقم مانشستر يونايتد، ومُنهيًا سلسلة هيمنة مانشستر سيتي الذي توج بالبطولة أربع مرات متتالية. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب بمواجهة افتتاحية قوية تجمع ليفربول وبورنموث على ملعب أنفيلد، فيما تتوزع باقي المباريات على مدار عطلة نهاية الأسبوع، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من \"كووورة\"، نستعرض جدول ترتيب الدوري الإنجليزي 2025-2026. جدول ترتيب الدوري الإنجليزي 2025-2026: آرسنال يعزز موقعه في الصدارة نجح آرسنال في الفوز على بورنموث ليبتعد أكثر في صدارة جدول الترتيب المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 20 15 3 2 40 14 26 48 2 أستون فيلا 20 13 3 4 33 24 9 42 3 مانشستر سيتي 19 13 2 4 43 17 26 41 4 ليفربول 19 10 3 6 30 26 4 33 5 تشيلسي 19 8 6 5 32 21 11 30 6 مانشستر يونايتد 19 8 6 5 33 29 4 30 7 سندرلاند 19 7 8 4 20 18 2 29 8 برايتون 20 7 7 6 30 27 3 2…",
+      "image": null,
+      "pubDate": "2026-01-03T17:27:15.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "d3dcba3a6993da04",
       "title": "آرسنال يتجاوز البداية البطيئة ويهزم بورنموث",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D9%8A%D9%94%D8%A9-%D9%88%D9%8A%D9%87%D8%B2%D9%85-%D8%A8%D9%88%D8%B1%D9%86%D9%85%D9%88%D8%AB/blt682e1ec79faab0e5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -571,22 +558,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "926116530726ee4a",
-      "title": "Canaccord’s says 2026 is likely to be ’a bountiful year for Tesla’",
-      "link": "https://www.investing.com/news/stock-market-news/canaccords-says-2026-is-likely-to-be-a-bountiful-year-for-tesla-4428184",
-      "summary": "",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-03T17:15:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "a3b0d7c14178ea36",
@@ -715,6 +686,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "8eb5a4b0dd5293f4",
+      "title": "Hoban scores six in Glens win as Blues beat Bangor",
+      "link": "https://www.bbc.com/sport/articles/cy4gnez7dl8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Striker Pat Hoban scores six goals as a rampant Glentoran thump 10-man Carrick Rangers 7-0 at Taylors Avenue while there are also wins for Linfield and Crusaders in the Irish Premiership on Saturday.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-03T16:55:24.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
     },
     {
       "id": "b60d3aad7da2f838",
@@ -893,54 +880,6 @@
       "region": "mena"
     },
     {
-      "id": "15d676195d9daad6",
-      "title": "النصر يكمل اتفاقه مع الحمدان.. ويحدد موعد الإعلان الرسمي عن الصفقة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%8A%D9%83%D9%85%D9%84-%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D8%A7%D9%86-%D9%88%D9%8A%D8%AD%D8%AF%D8%AF-%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D8%A7%D9%95%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A-%D8%B9%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D9%82%D8%A9/bltae43adf72fcf83ca?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أنهى نادي النصر، اتفاقه مع عبد الله الحمدان، مهاجم الهلال، من أجل التعاقد معه بشكل رسمي، خلال الفترة القادمة.",
-      "body": "أتم نادي النصر، اتفاقه مع عبد الله الحمدان، مهاجم الهلال، من أجل التعاقد معه بشكل رسمي، خلال الفترة القادمة. ونقلا عن صحيفة \"عكاظ\" السعودية، فإن النصر اتفق بشكل نهائي مع، عبدالله الحمدان، على عقد لمدة موسمين ونصف الموسم، إضافة إلى عام إضافي. وأضاف المصدر أن الاتفاق بين الطرفين على معظم تفاصيل العقد الجديد، شبه مكتمل، فيما ينتظر العالمي انتهاء عقد الحمدان، مع ناديه لإعلان التوقيع بشكل رسمي. وكانت تقارير صحفية سابقة، قد ذكرت أن إدارة الهلال اتفقت مع الحمدان، على تجديد عقده لمدة سنتين مقابل 10 ملايين ريال سنويا، قبل أن يطلب اللاعب الرجوع لاستشارة والده، وهو ما رفضه النادي، وسحب ذلك العرض فيما بعد. ثم عاد الهلال ليقدم للحمدان عقدا بشروط أقل، إلا أن اللاعب طلب 12 مليون ريال راتبا سنويا، فغيرت الإدارة موقفها إلى الترحيب ببيع الفترة المتبقية من عقده الذي ينتهي الصيف المقبل، وبالتالي يحق له التوقيع لأي فريق في يناير/كانون الثاني الجاري. عبد الله الحمدان، يجيد في مركز المهاجم والجناحين، وانضم لصفوف الزعيم، منذ 5 سنوات تقريبًا، منذ أن انتقل إلى صفوفه في فبراير/شباط 2021، قادمًا من الشباب. ومنذ انتقاله إلى فريق الهلال، خاض اللاعب الدولي 142 مباراة، سجل خلالها 13 هدفًا، وقدم 10 تمريرات حاسمة. &nbsp;",
-      "image": null,
-      "pubDate": "2026-01-03T16:07:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "32f706eaa9752c38",
-      "title": "جدول مباريات كأس أمم إفريقيا 2025 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%95%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2025-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/bltf43219adb464d38a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات بطولة كأس أمم إفريقيا 2025 من دور المجموعات حتى النهائي..",
-      "body": "تعرف على مباريات بطولة كأس أمم إفريقيا 2025 من دور المجموعات حتى النهائي.. من جديد تعود المنتخبات الإفريقية للتنافس على لقب بطولة كأس أمم إفريقيا، حيث تقام نسخة جديدة في المغرب خلال ديسمبر/كانون أول 2025، بمشاركة 24 منتخبًا. البطولة التي بدأت في عام 1957 في السودان، شهدت منافسات شرسة على مدار تاريخها، وحققها العديد من البلدان على رأسها مصر والكاميرون وغانا. وينتظر الجمهور العربي انتصارًا جديدًا للمنتخبات العربية وحصدًا للبطولة التي تنظمها المغرب. ويرصد كووورة في السطور التالية، جدول مباريات ونتائج مباريات &nbsp;كأس أمم إفريقيا 2025، جدول المجموعات &nbsp;والقنوات الناقلة لمنافستها. متى مواعيد كأس أمم إفريقيا 2025؟ &nbsp; الدور البداية النهاية المجموعات 21 ديسمبر 2025 31 ديسمبر 2025 دور 16 3 يناير 2026 6 يناير 2026 ربع النهائي 9 يناير 2026 10 يناير 2026 نصف النهائي 14 يناير 2026 مباراة الثالث والرابع 17 يناير 2026 النهائي 18 يناير 2026 ما القنوات الناقلة لكأس أمم إفريقيا 2025؟ تنقل منافسات بطولة كأس أمم إفريقيا 2025 عبر قنوات بي إن سبورتس. وخصصت الشبكة قنوات beIN MAX 1 و beIN MAX 2 و beIN MAX 3 وكذلك beIN MAX 4 لبث البطولة. ولهواة مشاهدة البث عبر الإنترنت يمكنك متابعة beIN connect وTOD. شاهد البث المباشر في أي مكان بالعالم باستخدام Nord VPN اشترك الآن! البطولة الموعد القنوات الناقلة…",
-      "image": null,
-      "pubDate": "2026-01-03T16:07:38.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "25803c1c895dc2f1",
-      "title": "جيسوس يحدد طلبه الأول بعد صدمة الكلاسيكو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D9%8A%D8%AD%D8%AF%D8%AF-%D8%B7%D9%84%D8%A8%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84-%D8%A8%D8%B9%D8%AF-%D8%B5%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88/blt07989b4aa8c665b5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشف جورجي جيسوس، مدرب النصر، عن طلبه الأول بعد الهزيمة 2-3 أمام أهلي جدة، أمس الجمعة، في الجولة 13 من دوري روشن السعودي.",
-      "body": "كشف جورجي جيسوس، مدرب النصر، عن طلبه الأول بعد الهزيمة 2-3 أمام أهلي جدة، أمس الجمعة، في الجولة 13 من دوري روشن السعودي. وأوضحت صحيفة \"الشرق الأوسط\" أن جيسوس طلب من إدارة النصر، سرعة التعاقد مع لاعب محور أجنبي، إلى جانب مهاجم من فئة المواليد، ومدافع سعودي، خلال فترة الانتقالات الشتوية. ويهدف المدرب البرتغالي من خلال هذا الطلب، إلى تدعيم صفوف العالمي، وتعزيز حظوظه في المنافسة على لقب دوري روشن السعودي. وبدأت إدارة النصر في دراسة بعض ملفات اللاعبين المرشحين للتعاقد معهم، حيث تسعى لتلبية مطالب جيسوس، رغم وجود صعوبة في توفير الميزانية المالية اللازمة لإتمام الصفقات. وأضافت الصحيفة، أن الإدارة التنفيذية لشركة النصر، قامت بتحويل ملف الأمور المالية، بما في ذلك الموافقة على الصفقات الجديدة، إلى سلطان آل الشيخ رئيس اللجنة التنفيذية، لمراجعتها واتخاذ القرار النهائي بشأنها، وذلك حال توفير الميزانية المطلوبة. وذاق العالمي، مرارة الهزيمة الأولى بالموسم الحالي لدوري روشن السعودي، ليتوقف رصيده عند 31 نقطة في الصدارة، في حين أصبح رصيد أهلي جدة 25 نقطة بالمركز الرابع.",
-      "image": null,
-      "pubDate": "2026-01-03T16:06:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "5d2fce187081b274",
       "title": "Beyond Cheating: AI at Hollywood’s Top Private Schools",
       "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/ai-hollywood-top-private-schools-1236462767/",
@@ -955,38 +894,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "1f5c11c54a2911e6",
-      "title": "أسطورة المغرب يتوقع بطل كأس الأمم الأفريقية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%8A%D8%AA%D9%88%D9%82%D8%B9-%D8%A8%D8%B7%D9%84-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A9/blt36b25447c1ddcc9f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أشاد مصطفى الحداوي، أسطورة المنتخب المغربي، بالتنظيم المبهر لكأس الأمم الأفريقية 2025، من جانب الكاف والبلد المنظم.",
-      "body": "أشاد مصطفى الحداوي، أسطورة المنتخب المغربي، بالتنظيم المبهر لكأس الأمم الأفريقية 2025، من جانب الكاف والبلد المنظم. وأضاف الحداوي، في حوار خاص لموقع الاتحاد الأفريقي \"أتوقع بطل المسابقة، من المنتخبات الكبيرة، التي تمتلك مدربين مميزين يعرفون كيفية استغلال قدرات لاعبيهم، مثل الجزائر والسنغال ونيجيريا والمغرب ومصر وتونس والكونغو الديمقراطية والكاميرون\". وتابع \"لا أتوقع حدوث مفاجآت من منتخبات متوسطة أو مغمورة، رغم أن الكرة الأفريقية تطورت كثيرًا لتواكب جميع التغييرات\". وعن المنتخبات التي نالت إعجابه حتى الآن، أجاب \"المغرب والجزائر والكاميرون ومصر والسنغال ونيجيريا\". وأتم الحداوي \"أداء المغرب كان مميزًا في مباراتي جزر القمر وزامبيا، وأتمنى أن يكون الضغط الجماهيري لصالحنا بشكل إيجابي، من أجل الظفر باللقب القاري\".",
-      "image": null,
-      "pubDate": "2026-01-03T15:59:38.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6d064283db708e47",
-      "title": "عاد معتذرا.. جابرييل يرتكب كارثة ويمحو الآثار في 6 دقائق",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D8%A7%D8%AF-%D9%85%D8%B9%D8%AA%D8%B0%D8%B1%D8%A7-%D8%AC%D8%A7%D8%A8%D8%B1%D9%8A%D9%8A%D9%84-%D9%8A%D8%B1%D8%AA%D9%83%D8%A8-%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%88%D9%8A%D9%85%D8%AD%D9%88-%D8%A7%D9%84%D8%A7%D9%93%D8%AB%D8%A7%D8%B1-%D9%81%D9%8A-6-%D8%AF%D9%82%D8%A7%D9%8A%D9%94%D9%82/bltafcb05f6b930cb48?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "جابرييل بطل 6 دقائق مثيرة لآرسنال أمام بورنموث",
-      "body": "جابرييل بطل 6 دقائق مثيرة لآرسنال أمام بورنموث ارتكب البرازيلي جابرييل، مدافع آرسنال، خطأ فادحا أسفر عن هدف خلال مباراة فريقه أمام بورنموث. ويحل آرسنال ضيفا على بورنموث، مساء اليوم السبت، على ملعب فيتاليتي، ضمن لقاءات الجولة 20 للبريميرليج. وبعد مرور أول 10 دقائق من زمن وخلال عملية تحضير هجمة من الخلف لآرسنال، مرر مارتن زوبيمينيدي الكرة ليهنكابي ناحية اليسار، الذي أعادها لجابرييل، نظرًا لضغط لاعبي بورنموث. وبدون النظر إلى الملعب، مرر جابرييل الكرة ناحية اليمين في اتجاه زميله ويليام ساليبا، دون أن يلاحظ وجود إيفانيلسون، مهاجم بورنموث، الذي التقط الكرة وهو في وضع انفراد بدافيد رايا وسجل هدف التقدم. ولكن وبعد مرور 6 دقائق فقط، عاد جابرييل نفسه وأدرك التعادل للجانرز، بعد مجهود فردي ومهارة رائعة من جانب زميله نوني مادويكي، الذي لعب كرة من الجهة اليمنى، قابلها مارتينيلي بتسديدة ارتدت من الدفاع إلى جابرييل، الذي سددها في الشباك، واحتفل برفع يديه معتذرا لجمهور آرسنال.",
-      "image": null,
-      "pubDate": "2026-01-03T15:58:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "3cfbe5dd131c3242",
@@ -1412,22 +1319,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-01-02T21:50:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a4c363a880d67236",
-      "title": "Ulster thump Munster to move second in URC",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cdjne0nje9lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ulster move second in the United Rugby Championship with a 28-3 victory over Munster in Belfast.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-02T21:42:17.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
