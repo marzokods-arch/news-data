@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-01-02T23:54:21.766Z",
-    "total": 210,
+    "generated_at": "2026-01-03T00:44:45.038Z",
+    "total": 212,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "CDC — Newsroom",
+        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "ESPN",
         "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/a7e24e9b-870c-4f15-bee8-63c9bc4eb19c",
@@ -22,29 +35,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "CDC — Newsroom",
-        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
-        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": null,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -61,6 +61,19 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "National Geographic — Science",
         "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
@@ -74,9 +87,9 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -100,28 +113,28 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 9,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 50,
         "error": null,
         "notModified": false
       },
@@ -139,55 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 21,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 429",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -204,29 +178,42 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
-        "name": "Al Jazirah (KSA) - رياضة",
-        "url": "https://www.al-jazirah.com/rss/rss09.xml",
-        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
-        "lang": "ar",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 21,
+        "error": null,
         "notModified": false
       },
       {
@@ -243,9 +230,9 @@
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "name": "Al Jazirah (KSA) - رياضة",
+        "url": "https://www.al-jazirah.com/rss/rss09.xml",
+        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -269,10 +256,10 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -280,10 +267,183 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "bf5e1b198164002d",
+      "title": "Form 144 CAMECO CORP For: 2 January",
+      "link": "https://www.investing.com/news/filings/form-144-cameco-corp-for-2-january-93CH-4428442",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+      "pubDate": "2026-01-03T00:38:54.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "9fdde97033fc015b",
+      "title": "How Kate Winslet’s Decades-Long Acting Career Prepared Her for Her Directorial Debut",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/how-kate-winslet-acting-prepared-directing-goodbye-june-1236463023/",
+      "summary": "The Oscar winner drew on relationships from 30 years in the entertainment industry and the experience she'd amassed in front of the camera for her star-studded Netflix film 'Goodbye June.'",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-03T00:34:23.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "324c92e12f9fc3d3",
+      "title": "Yemen’s southern separatists call for path to independence amid fighting over key region",
+      "link": "https://www.investing.com/news/world-news/yemens-saudibacked-government-launches-operation-against-uaebacked-separatists-4427521",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM01043_L.jpg",
+      "pubDate": "2026-01-03T00:18:50.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "77d35b8a0057b608",
+      "title": "Saba capital sells $471k in Morgan Stanley India (IIF)",
+      "link": "https://www.investing.com/news/insider-trading-news/saba-capital-sells-471k-in-morgan-stanley-india-iif-93CH-4428440",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2026-01-03T00:11:38.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c2c123b211da79f7",
+      "title": "Axsome therapeutics director Saad sells $6.2m in shares",
+      "link": "https://www.investing.com/news/insider-trading-news/axsome-therapeutics-director-saad-sells-62m-in-shares-93CH-4428439",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2026-01-03T00:11:28.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "bce9a362e97fbf50",
+      "title": "Saba Capital buys new Germany Fund (GF) shares worth $74964",
+      "link": "https://www.investing.com/news/insider-trading-news/saba-capital-buys-new-germany-fund-gf-shares-worth-74964-93CH-4428438",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
+      "pubDate": "2026-01-03T00:11:16.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "aa9b9d1ed2661a9c",
+      "title": "Bernard Wilson resigns as director of Aberdeen International",
+      "link": "https://www.investing.com/news/company-news/bernard-wilson-resigns-as-director-of-aberdeen-international-93CH-4428437",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-01-03T00:04:49.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "928c2f4a92f6ee0c",
+      "title": "TV Ratings: ABC Hits Four-Year High for ‘New Year’s Rockin’ Eve’",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/abc-new-years-eve-2025-tv-ratings-1236462921/",
+      "summary": "The network’s annual special tops all programming for the final night of 2025.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-03T00:04:43.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "70a60eae89a75b87",
+      "title": "Form 13G Marti Technologies For: 2 January",
+      "link": "https://www.investing.com/news/filings/form-13g-marti-technologies-for-2-january-93CH-4428435",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-01-03T00:00:48.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "52c812610901da97",
+      "title": "Form 13G Zura Bio Limited For: 2 January",
+      "link": "https://www.investing.com/news/filings/form-13g-zura-bio-limited-for-2-january-93CH-4428434",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-01-03T00:00:45.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "fba62e022be87f10",
       "title": "Tesla reports 418,227 deliveries for the fourth quarter, down 16%",
@@ -301,70 +461,6 @@
       "region": "global"
     },
     {
-      "id": "20ef6395696f01e3",
-      "title": "Form 144 Global-e Online Ltd For: 2 January",
-      "link": "https://www.investing.com/news/filings/form-144-globale-online-ltd-for-2-january-93CH-4428430",
-      "summary": "",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-02T23:31:59.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9c710f17ac63d8e7",
-      "title": "Form 144 Joby Aviation For: 2 January",
-      "link": "https://www.investing.com/news/filings/form-144-joby-aviation-for-2-january-93CH-4428429",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-01-02T23:31:52.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1c22fe30aab8c208",
-      "title": "Form 144 QUALCOMM Incorporated For: 2 January",
-      "link": "https://www.investing.com/news/filings/form-144-qualcomm-incorporated-for-2-january-93CH-4428428",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEA6M0X8_M.jpg",
-      "pubDate": "2026-01-02T23:31:52.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6adbcd86eb9c85fe",
-      "title": "Form 144 The Allstate Corporation For: 2 January",
-      "link": "https://www.investing.com/news/filings/form-144-the-allstate-corporation-for-2-january-93CH-4428427",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-01-02T23:31:50.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "a35b5d961e169350",
       "title": "Littler to face Van Veen in PDC Worlds final",
       "link": "https://www.bbc.com/sport/darts/articles/clyg258v51yo?at_medium=RSS&at_campaign=rss",
@@ -394,38 +490,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "971467839233b6bc",
-      "title": "Short interest in Trump Media climbs after recent rally, S3 Partners says",
-      "link": "https://www.investing.com/news/stock-market-news/short-interest-in-trump-media-climbs-after-recent-rally-s3-partners-says-4428426",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM010O4_L.jpg",
-      "pubDate": "2026-01-02T23:25:27.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "decac29f936f7b2a",
-      "title": "Scrutiny turns to safety set-up of Swiss bar after deadly blaze",
-      "link": "https://www.investing.com/news/world-news/scrutiny-turns-to-safety-setup-of-swiss-bar-after-deadly-blaze-4428415",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM010NX_L.jpg",
-      "pubDate": "2026-01-02T23:25:08.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -439,38 +503,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "98bafc8c1109d5bc",
-      "title": "Arcutis Biotherapeutics EVP Burnett sells $49,560 in shares",
-      "link": "https://www.investing.com/news/insider-trading-news/arcutis-biotherapeutics-evp-burnett-sells-49560-in-shares-93CH-4428424",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-01-02T23:21:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "da8f372632c8ec86",
-      "title": "Sandisk appoints Alexander Bradley to board of directors",
-      "link": "https://www.investing.com/news/sec-filings/sandisk-appoints-alexander-bradley-to-board-of-directors-93CH-4428423",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2026-01-02T23:19:30.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
