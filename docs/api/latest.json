@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-01-05T05:09:11.284Z",
-    "total": 207,
+    "generated_at": "2026-01-05T05:49:27.745Z",
+    "total": 206,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -22,19 +22,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 67,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
         "homepage": "https://www.kooora.com/",
@@ -45,19 +32,6 @@
         ],
         "taken": 20,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -74,16 +48,29 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 67,
+        "error": null,
         "notModified": false
       },
       {
@@ -113,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "PC Gamer",
         "url": "https://www.pcgamer.com/rss/",
         "homepage": "https://www.pcgamer.com/rss/",
@@ -149,6 +110,45 @@
         ],
         "taken": 48,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -165,16 +165,16 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 22,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -191,29 +191,42 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "taken": 21,
+        "error": null,
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -254,23 +267,186 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "280d8574106f3796",
+      "title": "Australia stocks higher at close of trade; S&P/ASX 200 up 0.01%",
+      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-higher-at-close-of-trade-spasx-200-up-001-4428751",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC6B0B9_M.jpg",
+      "pubDate": "2026-01-05T05:30:04.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3494d8dfe1bc27eb",
+      "title": "Venezuela’s oil supply to rise in years ahead and depress prices, say analysts",
+      "link": "https://www.investing.com/news/commodities-news/us-sanctions-policy-to-determine-venezuelas-oil-production-outlook-goldman-says-4428634",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM030HV_L.jpg",
+      "pubDate": "2026-01-05T05:24:24.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "b957882ea9639752",
+      "title": "Kotak upgrades ICRA stock rating to Add on positive credit ratings outlook",
+      "link": "https://www.investing.com/news/analyst-ratings/kotak-upgrades-icra-stock-rating-to-add-on-positive-credit-ratings-outlook-93CH-4428750",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2026-01-05T05:18:21.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "06881b15986df262",
+      "title": "UBS downgrades Athens International Airport stock rating to Neutral",
+      "link": "https://www.investing.com/news/analyst-ratings/ubs-downgrades-athens-international-airport-stock-rating-to-neutral-93CH-4428749",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2026-01-05T05:18:21.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0b0bf62afb0ce53e",
+      "title": "Kotak upgrades Crisil stock rating to Reduce from Sell on reasonable valuation",
+      "link": "https://www.investing.com/news/analyst-ratings/kotak-upgrades-crisil-stock-rating-to-reduce-from-sell-on-reasonable-valuation-93CH-4428748",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2026-01-05T05:18:21.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ec3f5e47cf82e8fa",
+      "title": "Venezuela’s Maduro to appear in US court, Trump says further strikes possible",
+      "link": "https://www.investing.com/news/commodities-news/venezuelas-maduro-to-appear-in-us-court-trump-says-further-strikes-possible-4428695",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM04056_L.jpg",
+      "pubDate": "2026-01-05T05:18:21.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "9a00072fb1cce6cf",
+      "title": "Piper Sandler downgrades SentinelOne stock to Neutral on lack of catalysts",
+      "link": "https://www.investing.com/news/analyst-ratings/piper-sandler-downgrades-sentinelone-stock-to-neutral-on-lack-of-catalysts-93CH-4428745",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-05T05:12:58.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ea4470695cc063c0",
+      "title": "Piper Sandler upgrades Varonis Systems stock to Overweight on SaaS growth",
+      "link": "https://www.investing.com/news/analyst-ratings/piper-sandler-upgrades-varonis-systems-stock-to-overweight-on-saas-growth-93CH-4428744",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2026-01-05T05:12:54.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "dc2506ee4dea317d",
+      "title": "S.Korea finance minister, central bank governor vow efforts to stabilise wobbly won",
+      "link": "https://www.investing.com/news/economy-news/skorea-finance-minister-central-bank-governor-vow-efforts-to-stabilise-wobbly-won-4428743",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM04066_L.jpg",
+      "pubDate": "2026-01-05T05:12:30.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "24a00dc48e50f3d5",
+      "title": "'He can bat in Australia!' - Root hits sublime 160 for England",
+      "link": "https://www.bbc.com/sport/cricket/videos/c0kevv6k817o?at_medium=RSS&at_campaign=rss",
+      "summary": "Watch the best shots of Joe Root's first innings as he scores an impressive 160 to help England to 384 all out against Australia on day two of the fifth Ashes Test in Sydney.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-05T05:12:14.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8bb4d6109e4f1d78",
+      "title": "Morgan Stanley upgrades Mindspace Business Parks REIT stock rating to Overweight",
+      "link": "https://www.investing.com/news/analyst-ratings/morgan-stanley-upgrades-mindspace-business-parks-reit-stock-rating-to-overweight-93CH-4428742",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2026-01-05T05:11:59.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
     {
       "id": "533a97af726ca6ad",
       "title": "How would Donald Trump tap ‘tremendous’ wealth from Venezuelan oil?",
@@ -346,166 +522,6 @@
       "source": {
         "name": "Financial Times — Markets",
         "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "140e475f46a33a9c",
-      "title": "Piper Sandler upgrades Motorola Solutions stock to Overweight on LMR leadership",
-      "link": "https://www.investing.com/news/analyst-ratings/piper-sandler-upgrades-motorola-solutions-stock-to-overweight-on-lmr-leadership-93CH-4428724",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-01-05T04:51:11.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4d95bdcb85d8f79c",
-      "title": "Five9 stock rating downgraded by Piper Sandler on growth concerns",
-      "link": "https://www.investing.com/news/analyst-ratings/five9-stock-rating-downgraded-by-piper-sandler-on-growth-concerns-93CH-4428723",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-01-05T04:51:08.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "13376712ffebad7a",
-      "title": "Stifel upgrades Moody’s stock rating to Buy on strong 2026 debt issuance outlook",
-      "link": "https://www.investing.com/news/analyst-ratings/stifel-upgrades-moodys-stock-rating-to-buy-on-strong-2026-debt-issuance-outlook-93CH-4428722",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2026-01-05T04:51:04.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1082ea8e22a14590",
-      "title": "Kotak initiates coverage on Knowledge Realty Trust stock with Add rating",
-      "link": "https://www.investing.com/news/analyst-ratings/kotak-initiates-coverage-on-knowledge-realty-trust-stock-with-add-rating-93CH-4428721",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-01-05T04:50:29.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4c6cead365e951d6",
-      "title": "Dover stock rating upgraded by UBS to Buy on expected 2026 growth",
-      "link": "https://www.investing.com/news/analyst-ratings/dover-stock-rating-upgraded-by-ubs-to-buy-on-expected-2026-growth-93CH-4428719",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-01-05T04:47:23.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1d5d1c6c71c0cab6",
-      "title": "Piper Sandler upgrades Arista Networks stock rating to Overweight",
-      "link": "https://www.investing.com/news/analyst-ratings/piper-sandler-upgrades-arista-networks-stock-rating-to-overweight-93CH-4428718",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-01-05T04:47:00.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "43387f1ea92a5d78",
-      "title": "Bernstein upgrades ASML stock rating to Outperform on DRAM cycle benefits",
-      "link": "https://www.investing.com/news/analyst-ratings/bernstein-upgrades-asml-stock-rating-to-outperform-on-dram-cycle-benefits-93CH-4428717",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-01-05T04:46:35.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cdcf2f48766e5ca8",
-      "title": "BOJ’s Ueda vows to keep raising interest rates amid higher wages, inflation",
-      "link": "https://www.investing.com/news/economy-news/bojs-ueda-vows-to-keep-raising-interest-rates-amid-higher-wages-inflation-4428716",
-      "summary": "",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T04:44:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a6b016a41e5f75ff",
-      "title": "UBS upgrades Emerson stock to Buy on growth potential, raises price target",
-      "link": "https://www.investing.com/news/analyst-ratings/ubs-upgrades-emerson-stock-to-buy-on-growth-potential-raises-price-target-93CH-4428715",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
-      "pubDate": "2026-01-05T04:43:04.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "36c143009aa80e4e",
-      "title": "China’s services growth hits 6-month low in December, shows private PMI",
-      "link": "https://www.investing.com/news/economy-news/chinas-services-growth-hits-6month-low-in-december-shows-private-pmi-4428648",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM04022_L.jpg",
-      "pubDate": "2026-01-05T04:42:43.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -765,22 +781,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e77d30fa125c6645",
-      "title": "'He's done it again!' - Root reaches second century of Ashes series",
-      "link": "https://www.bbc.com/sport/cricket/videos/c0kevv6k817o?at_medium=RSS&at_campaign=rss",
-      "summary": "Joe Root scores his second century of the 2025/26 Ashes series as England move on to 265-5 against Australia on day two of the fifth Ashes Test in Sydney.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T00:51:32.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2960,12 +2960,12 @@
       "region": "global"
     },
     {
-      "id": "a1a74c1154d4145a",
-      "title": "Kill the algorithm in your head: Let's set up RSS readers and get news we actually want in 2026",
-      "link": "https://www.pcgamer.com/software/kill-the-algorithm-in-your-head-lets-set-up-rss-readers-and-get-news-we-actually-want-in-2026/",
-      "summary": "We finally have the technology to present users with a chronological list of content. They said it couldn't be done.",
-      "body": "Time was, entire social castes would be dedicated to divining the intentions of the gods. Chicken entrails, the flight of birds, the rolling of thunder—all this and more was used by ancient peoples befuddled by the randomness of life, in an attempt to impose some order on the world, some meaning on their triumphs and their suffering. We've outgrown all that these days. In the place of arbitrary and distant gods we have arbitrary and distant algorithms: vast lattices of code that no one really understands, whose purpose seems to be to make the entire world more insane and more racist. (Image credit: Bay 12) Their workings are indefinable, their intentions obscure, and they probably determine a vast amount of what you watch, read, and listen to. I know they do for me. Apple News feeds me news, my YouTube home feed suggests videos, Spotify introduces me to the latest and greatest music generated by data centres the size of Idaho. I don't have to think about anything at all; it just comes to me. It's kind of awful, really—a vast abdication of responsibility on my part. Well, no more. You and me, we're making 2026 the year of the glorious return of the RSS reader. Keep it really simple…",
-      "image": "https://cdn.mos.cms.futurecdn.net/iFj4XBxxAChvLfA3FsbTGK-1280-80.jpg",
+      "id": "396cdeefa620080f",
+      "title": "The city builders of 2026 will let us build in some wild places, including a Pokémon-style world filled with collectible creatures",
+      "link": "https://www.pcgamer.com/games/city-builder/the-city-builders-of-2026-will-let-us-build-in-some-wild-places-including-a-pokemon-style-world-filled-with-collectible-creatures/",
+      "summary": "Build cities on massive trees, on steampunk trains, and even on the back of a cosmic whale.",
+      "body": "We're still happily awash in the golden age of city builders, and there's no sign of things slowing down: 2026 is already looking like it's packed with new takes on plopping down houses and roads. You can expect loads more city builders than these next year, but the ones listed below all take place in interesting places. If you want to build a city in a world filled with vengeful gods, in deep space on the back of a cosmic whale, or on a massive steampunk train thundering through a post-apocalyptic landscape, you'll be able to. There's even a builder set in a world of collectible creatures you can tame and send into battle. That's a first! Here's a quick look at 7 city builders coming in 2026 that will let us build in some truly wild places, such as… In a Rome where gods are real (and real angry) Nova Roma Release : Jan 2026 You won't need to wait long for this beautiful builder: it's due in January. Rebuild a fallen Rome, but be careful not to anger the gods: they're watching and won't be shy about voicing their displeasure in the form of lightning bolts and other disasters. There's a demo out now if you want to try it early. Up a massive tree in a dark fantasy realm DarkSwitch R…",
+      "image": "https://cdn.mos.cms.futurecdn.net/GWU8eHh93f49L6fSWWerKc-1280-80.jpg",
       "pubDate": "2026-01-02T11:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2976,12 +2976,12 @@
       "region": "global"
     },
     {
-      "id": "396cdeefa620080f",
-      "title": "The city builders of 2026 will let us build in some wild places, including a Pokémon-style world filled with collectible creatures",
-      "link": "https://www.pcgamer.com/games/city-builder/the-city-builders-of-2026-will-let-us-build-in-some-wild-places-including-a-pokemon-style-world-filled-with-collectible-creatures/",
-      "summary": "Build cities on massive trees, on steampunk trains, and even on the back of a cosmic whale.",
-      "body": "We're still happily awash in the golden age of city builders, and there's no sign of things slowing down: 2026 is already looking like it's packed with new takes on plopping down houses and roads. You can expect loads more city builders than these next year, but the ones listed below all take place in interesting places. If you want to build a city in a world filled with vengeful gods, in deep space on the back of a cosmic whale, or on a massive steampunk train thundering through a post-apocalyptic landscape, you'll be able to. There's even a builder set in a world of collectible creatures you can tame and send into battle. That's a first! Here's a quick look at 7 city builders coming in 2026 that will let us build in some truly wild places, such as… In a Rome where gods are real (and real angry) Nova Roma Release : Jan 2026 You won't need to wait long for this beautiful builder: it's due in January. Rebuild a fallen Rome, but be careful not to anger the gods: they're watching and won't be shy about voicing their displeasure in the form of lightning bolts and other disasters. There's a demo out now if you want to try it early. Up a massive tree in a dark fantasy realm DarkSwitch R…",
-      "image": "https://cdn.mos.cms.futurecdn.net/GWU8eHh93f49L6fSWWerKc-1280-80.jpg",
+      "id": "a1a74c1154d4145a",
+      "title": "Kill the algorithm in your head: Let's set up RSS readers and get news we actually want in 2026",
+      "link": "https://www.pcgamer.com/software/kill-the-algorithm-in-your-head-lets-set-up-rss-readers-and-get-news-we-actually-want-in-2026/",
+      "summary": "We finally have the technology to present users with a chronological list of content. They said it couldn't be done.",
+      "body": "Time was, entire social castes would be dedicated to divining the intentions of the gods. Chicken entrails, the flight of birds, the rolling of thunder—all this and more was used by ancient peoples befuddled by the randomness of life, in an attempt to impose some order on the world, some meaning on their triumphs and their suffering. We've outgrown all that these days. In the place of arbitrary and distant gods we have arbitrary and distant algorithms: vast lattices of code that no one really understands, whose purpose seems to be to make the entire world more insane and more racist. (Image credit: Bay 12) Their workings are indefinable, their intentions obscure, and they probably determine a vast amount of what you watch, read, and listen to. I know they do for me. Apple News feeds me news, my YouTube home feed suggests videos, Spotify introduces me to the latest and greatest music generated by data centres the size of Idaho. I don't have to think about anything at all; it just comes to me. It's kind of awful, really—a vast abdication of responsibility on my part. Well, no more. You and me, we're making 2026 the year of the glorious return of the RSS reader. Keep it really simple…",
+      "image": "https://cdn.mos.cms.futurecdn.net/iFj4XBxxAChvLfA3FsbTGK-1280-80.jpg",
       "pubDate": "2026-01-02T11:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -3047,22 +3047,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-01-02T05:00:06.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b4a376f700bc60c3",
-      "title": "Predicting 2026: Will the Magnificent 7 tech stocks continue to diverge?",
-      "link": "https://www.ft.com/content/d55ffdc1-6a22-489e-9c41-eb5d635f1dc1",
-      "summary": "Financial Times columnist Gillian Tett predicted that the Magnificent 7 tech stocks …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-02T05:00:00.000Z",
       "source": {
         "name": "Financial Times — Markets",
         "homepage": "https://www.ft.com/markets?format=rss"
@@ -3296,22 +3280,6 @@
       "region": "global"
     },
     {
-      "id": "793579884272f6a3",
-      "title": "Can you guess which games these bizarre 2025 patch notes are from?",
-      "link": "https://www.pcgamer.com/games/can-you-guess-which-games-these-bizarre-2025-patch-notes-are-from/",
-      "summary": "Put your patch note prowess to the test with a quiz!",
-      "body": "More quizzes! (Image credit: Larian Studios, PC Gamer) Want to keep testing your knowledge of gaming trivia? We've got loads more PC Gamer quizzes , on everything from healthbars to weird currencies to absurd patch notes. That's pretty much a wrap on 2025, but we're not letting the year slip away without taking one more fond look back. No, not at the best games of the year—we've already done our GOTYs —but at the best patch notes of the year. Every game, no matter how much we love it, needs a little post-launch work, and sometimes the little bugs and glitches a game ships with can be kinda funny. Funnier still, occasionally, are the solutions to the problems. 2025 was no exception. Here's a little quiz where I'll show you a bizarre patch note, and you guess what game it's from. It's multiple choice, so it shouldn't be too hard, but there may be a few surprising answers in there, too. Happy New Year, and let us know how you did in the comments!",
-      "image": "https://cdn.mos.cms.futurecdn.net/f4TAa4QD4QV7fCQ8tSK5M4-1280-80.jpg",
-      "pubDate": "2025-12-31T14:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1b30c9a4d3437870",
       "title": "As 2025 draws to a close, test your knowledge of another packed 12 months for PC gaming with our big end of year quiz",
       "link": "https://www.pcgamer.com/games/as-2025-draws-to-a-close-test-your-knowledge-of-another-packed-12-months-for-pc-gaming-with-our-big-end-of-year-quiz/",
@@ -3325,6 +3293,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "793579884272f6a3",
+      "title": "Can you guess which games these bizarre 2025 patch notes are from?",
+      "link": "https://www.pcgamer.com/games/can-you-guess-which-games-these-bizarre-2025-patch-notes-are-from/",
+      "summary": "Put your patch note prowess to the test with a quiz!",
+      "body": "More quizzes! (Image credit: Larian Studios, PC Gamer) Want to keep testing your knowledge of gaming trivia? We've got loads more PC Gamer quizzes , on everything from healthbars to weird currencies to absurd patch notes. That's pretty much a wrap on 2025, but we're not letting the year slip away without taking one more fond look back. No, not at the best games of the year—we've already done our GOTYs —but at the best patch notes of the year. Every game, no matter how much we love it, needs a little post-launch work, and sometimes the little bugs and glitches a game ships with can be kinda funny. Funnier still, occasionally, are the solutions to the problems. 2025 was no exception. Here's a little quiz where I'll show you a bizarre patch note, and you guess what game it's from. It's multiple choice, so it shouldn't be too hard, but there may be a few surprising answers in there, too. Happy New Year, and let us know how you did in the comments!",
+      "image": "https://cdn.mos.cms.futurecdn.net/f4TAa4QD4QV7fCQ8tSK5M4-1280-80.jpg",
+      "pubDate": "2025-12-31T14:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
