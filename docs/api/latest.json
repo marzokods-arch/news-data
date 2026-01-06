@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-01-05T23:59:24.466Z",
-    "total": 208,
-    "processed_feeds": 20,
-    "discovered_feeds": 83,
+    "generated_at": "2026-01-06T01:49:38.679Z",
+    "total": 204,
+    "processed_feeds": 21,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/f5f11b5c-e2fb-41e1-b3e5-363625ef5854",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -22,19 +35,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -44,6 +44,19 @@
           "sports"
         ],
         "taken": 73,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -61,29 +74,16 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 21,
-        "error": null,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -95,7 +95,7 @@
         "cats": [
           "general"
         ],
-        "taken": 10,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -108,59 +108,20 @@
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 8,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 21,
         "error": null,
         "notModified": false
       },
@@ -178,10 +139,49 @@
         "notModified": false
       },
       {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
         "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -217,19 +217,6 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Al Bayan (UAE) - رياضة",
         "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
@@ -240,6 +227,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -256,21 +256,258 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 9,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "26f031f20b7aaef2",
+      "title": "Samsung likely to flag 160% jump in Q4 profit as AI boom stokes chip prices",
+      "link": "https://www.investing.com/news/stock-market-news/samsung-likely-to-flag-160-jump-in-q4-profit-as-ai-boom-stokes-chip-prices-4431219",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0501R_L.jpg",
+      "pubDate": "2026-01-06T01:30:28.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "703ef381478e8ff3",
+      "title": "Viking Therapeutics director Foehr sells $561,694 in shares",
+      "link": "https://www.investing.com/news/insider-trading-news/viking-therapeutics-director-foehr-sells-561694-in-shares-93CH-4431218",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2026-01-06T01:30:26.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "35a1c4cfef599108",
+      "title": "Form 144 SEMPRA For: 5 January",
+      "link": "https://www.investing.com/news/filings/form-144-sempra-for-5-january-93CH-4431217",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2026-01-06T01:29:29.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f46f1b61f6f8e93c",
+      "title": "Marcello Hernández on Bowen Yang’s ‘SNL’ Exit: “I’m Excited to See What He Does Next”",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/marcello-hernandez-reacts-bowen-yang-snl-exit-1236465160/",
+      "summary": "Yang left the sketch comedy series after his final episode on Dec. 20.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-06T01:24:46.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "4c118729397d89ec",
+      "title": "Philippine annual inflation at 1.8% in December, above forecast",
+      "link": "https://www.investing.com/news/economy-news/philippine-annual-inflation-at-18-in-december-above-forecast-4431216",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0501H_L.jpg",
+      "pubDate": "2026-01-06T01:18:40.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "7d998a34164f836d",
+      "title": "Form 13D/A Empery Digital Inc. For: 5 January",
+      "link": "https://www.investing.com/news/filings/form-13da-empery-digital-inc-for-5-january-93CH-4431214",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-01-06T01:07:22.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b28c0f26d7240353",
+      "title": "Dollar stabilises as Venezuela fears subside, risk-on mood grows",
+      "link": "https://www.investing.com/news/economy-news/dollar-stabilises-as-venezuela-fears-subside-riskon-mood-grows-4431213",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM05017_L.jpg",
+      "pubDate": "2026-01-06T01:06:31.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f434ac3fa8e979b7",
+      "title": "Worthington, Athira Pharma general counsel, sells $6k in ATHA stock",
+      "link": "https://www.investing.com/news/insider-trading-news/worthington-athira-pharma-general-counsel-sells-6k-in-atha-stock-93CH-4431212",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2026-01-06T00:55:33.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2a3f543e6c086151",
+      "title": "Stull Steven T, director, buys Corpay (CPAY) shares worth $2.5m",
+      "link": "https://www.investing.com/news/insider-trading-news/stull-steven-t-director-buys-corpay-cpay-shares-worth-25m-93CH-4431211",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2026-01-06T00:55:05.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "da69a802771a825d",
+      "title": "Ousted Maduro pleads not guilty to US drug charges",
+      "link": "https://www.investing.com/news/commodities-news/venezuelas-maduro-to-appear-in-us-court-trump-says-further-strikes-possible-4428695",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM04056_L.jpg",
+      "pubDate": "2026-01-06T00:55:04.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b5681d86cb303a0a",
+      "title": "'What a miss!' - Jacks' moment to forget as Head survives",
+      "link": "https://www.bbc.com/sport/cricket/videos/c5y24zgp356o?at_medium=RSS&at_campaign=rss",
+      "summary": "Will Jacks drops a simple catch on the boundary as England miss the chance to remove Travis Head, who remains unbeaten on 121 on day three of the fifth Ashes Test in Sydney.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-06T00:48:05.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "caac3ee11a3c18d9",
+      "title": "'He's way ahead of the rest' - Another Ashes century for Head",
+      "link": "https://www.bbc.com/sport/cricket/videos/c17zd24gz47o?at_medium=RSS&at_campaign=rss",
+      "summary": "Travis Head hits an impressive century off 105 balls, his third of the series, as Australia move onto 179-2 in their first innings, trailing England by 205 runs on day three of the fifth Ashes Test in Sydney.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-06T00:27:31.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1b9e94b5d9990149",
+      "title": "‘Jimmy Kimmel Live!’ to Cut Back Music Bookings to Twice a Week (Exlcusive)",
+      "link": "https://www.hollywoodreporter.com/music/film-tv-music-news/jimmy-kimmel-live-music-bookings-cut-twice-a-week-1236464872/",
+      "summary": "The move is the latest blow in a late night ecosystem that's been cutting down on musical guests over the past several years.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-06T00:04:20.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3246b058ff313676",
+      "title": "Trump’s Venezuela Oil Dream Meets a $100 Billion Reality Check",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Trumps-Venezuela-Oil-Dream-Meets-a-100-Billion-Reality-Check.html",
+      "summary": "The shock-and-awe capture of Nicolas Maduro by the United States, which was the culmination of the U.S. pressure on Venezuela in recent months, ended a tumultuous chapter in the history of the South American nation sitting on 17% of the world’s proven oil reserves. Maduro’s arrest and the installat…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-06T00:00:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
     {
       "id": "2b49e419eb39bf78",
       "title": "Cyberpunk 2 director says there'd be no point in giving players more time with Jackie in Cyberpunk 2077: 'It's like saying we should spend more time on Tatooine with farmer Luke before he got involved with all this Jedi stuff'",
@@ -288,80 +525,16 @@
       "region": "global"
     },
     {
-      "id": "47bfae8aafb74a78",
-      "title": "Intel launches next-gen PC chip at CES in Las Vegas",
-      "link": "https://www.investing.com/news/stock-market-news/intel-expected-to-launch-nextgen-pc-chip-at-ces-in-las-vegas-4430722",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0413E_L.jpg",
-      "pubDate": "2026-01-05T23:42:33.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9d59c29eb1767e7a",
       "title": "‘Stranger Things’ Director Shawn Levy on How the Duffers Stuck the Landing, and Bringing the “Epic and Intimate” to ‘Star Wars: Starfighter’",
       "link": "https://www.hollywoodreporter.com/tv/tv-features/stranger-things-ending-tales-from-85-starfighter-shawn-levy-1236464799/",
-      "summary": "The executive producer who co-directed the penultimate episode of the Netflix mega-hit with the Duffer Brothers says he was \"a sobbing wreck\" watching the ending, and is bringing lessons learned to Star Wars.",
+      "summary": "The executive producer who shared directing credit with the Duffer Brothers on the penultimate episode of the Netflix mega-hit says he was \"a sobbing wreck\" watching the ending, and is bringing lessons learned to Star Wars.",
       "body": null,
       "image": null,
       "pubDate": "2026-01-05T23:37:04.000Z",
       "source": {
         "name": "Hollywood Reporter",
         "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7fe44a7615a0a215",
-      "title": "Form 144 ServiceTitan For: 5 January",
-      "link": "https://www.investing.com/news/filings/form-144-servicetitan-for-5-january-93CH-4431185",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2026-01-05T23:32:46.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e19b2db62021f5a0",
-      "title": "Form 144 Adaptive Biotechnologies Corporation For: 5 January",
-      "link": "https://www.investing.com/news/filings/form-144-adaptive-biotechnologies-corporation-for-5-january-93CH-4431184",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2026-01-05T23:32:45.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "74005f05cffa0338",
-      "title": "Form 144 Atlas Lithium Corporation For: 5 January",
-      "link": "https://www.investing.com/news/filings/form-144-atlas-lithium-corporation-for-5-january-93CH-4431183",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-01-05T23:32:43.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -416,102 +589,6 @@
       "region": "global"
     },
     {
-      "id": "07f4ebe2837ad9e8",
-      "title": "Novo launches Wegovy weight-loss pill for sale in US",
-      "link": "https://www.investing.com/news/stock-market-news/novo-nordisk-to-sell-wegovy-pill-to-us-selfpay-patients-starting-at-149-per-month-4428969",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM040CD_L.jpg",
-      "pubDate": "2026-01-05T23:18:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "11075ac9c9bccb21",
-      "title": "Clearwater analytics CRO sells $107k in shares",
-      "link": "https://www.investing.com/news/insider-trading-news/clearwater-analytics-cro-sells-107k-in-shares-93CH-4431181",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-01-05T23:17:00.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d4c870e50ebcba8f",
-      "title": "Nvidia accelerates AI roadmap: Rubin superchip in full production, 5x faster",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-accelerates-ai-roadmap-rubin-superchip-in-full-production-5x-faster-4431180",
-      "summary": "",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T23:16:46.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "40c7d9eed92eeb82",
-      "title": "Form 13D/A TILE SHOP HOLDINGS For: 5 January",
-      "link": "https://www.investing.com/news/filings/form-13da-tile-shop-holdings-for-5-january-93CH-4431179",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-05T23:16:31.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cb920581f14bb6d0",
-      "title": "Form 13D/A EXELIXIS For: 5 January",
-      "link": "https://www.investing.com/news/filings/form-13da-exelixis-for-5-january-93CH-4431178",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-05T23:16:24.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d351f6b6108388d3",
-      "title": "Form 13D/A 374Water Inc For: 5 January",
-      "link": "https://www.investing.com/news/filings/form-13da-374water-inc-for-5-january-93CH-4431177",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-05T23:16:21.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "dca5e8c406b0e1d1",
       "title": "US oil refiners gear up for comeback of Venezuelan crude",
       "link": "https://www.ft.com/content/574fb50d-e26c-4d20-ba7a-99e9831f292c",
@@ -560,22 +637,6 @@
       "region": "global"
     },
     {
-      "id": "5c08973e6b460c33",
-      "title": "HP has smushed together the HyperX and Omen brands to create its new HyperX Omen range of gaming laptops, and I'm over here playing spot the difference",
-      "link": "https://www.pcgamer.com/hardware/gaming-laptops/hp-has-smushed-together-the-hyperx-and-omen-brands-to-create-its-new-hyperx-omen-range-of-gaming-laptops-and-im-over-here-playing-spot-the-difference/",
-      "summary": "All in a name, as they say.",
-      "body": "We are gathered here today to celebrate the uniting of two households, both alike in dignity. Or alternatively, two HP gaming brands, HyperX and Omen, which have now been smushed together to create... HyperX Omen. The first offspring from this union is the HyperX Omen Max 16 gaming laptop, which, in terms of its chassis design, looks a whole lot like the HP Omen Max 16 of old with two letters removed from the bottom of the screen. Yep, blink and you'll miss it, but it now sports a dose of HyperX branding beneath its 16-inch display, along with a big \"HX\" logo on the rear lid. (Image credit: HP) The chassis design looks to be pretty much the same, but HP has made some changes underneath the hood. While the GPU options still range between the RTX 5070 Ti mobile and the top whack RTX 5090, the CPU choices are now either AMD's newly-announced Ryzen AI 400-series chips, or a \"next gen Intel processor\", according to the press release. No prizes for guessing what that might be . The mega-spec lappy also comes with a new GAN power brick that's capable of delivering 300 W total platform power, without weighing the same as a boat anchor. We haven't received any images of it yet, but the pre…",
-      "image": "https://cdn.mos.cms.futurecdn.net/SxSfMbaGY5ZZhK4HpFPau9-1280-80.jpg",
-      "pubDate": "2026-01-05T23:02:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "40ffa95d5c014679",
       "title": "HyperX gaming monitors are a thing now, and HP says this 34-inch QD-OLED model has next-gen V-Stripe tech to banish text fringing",
       "link": "https://www.pcgamer.com/hardware/gaming-monitors/hyperx-gaming-monitors-are-a-thing-now-and-hp-says-this-34-inch-qd-oled-model-has-next-gen-v-stripe-tech-to-banish-text-fringing/",
@@ -589,6 +650,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5c08973e6b460c33",
+      "title": "HP has smushed together the HyperX and Omen brands to create its new HyperX Omen range of gaming laptops, and I'm over here playing spot the difference",
+      "link": "https://www.pcgamer.com/hardware/gaming-laptops/hp-has-smushed-together-the-hyperx-and-omen-brands-to-create-its-new-hyperx-omen-range-of-gaming-laptops-and-im-over-here-playing-spot-the-difference/",
+      "summary": "All in a name, as they say.",
+      "body": "We are gathered here today to celebrate the uniting of two households, both alike in dignity. Or alternatively, two HP gaming brands, HyperX and Omen, which have now been smushed together to create... HyperX Omen. The first offspring from this union is the HyperX Omen Max 16 gaming laptop, which, in terms of its chassis design, looks a whole lot like the HP Omen Max 16 of old with two letters removed from the bottom of the screen. Yep, blink and you'll miss it, but it now sports a dose of HyperX branding beneath its 16-inch display, along with a big \"HX\" logo on the rear lid. (Image credit: HP) The chassis design looks to be pretty much the same, but HP has made some changes underneath the hood. While the GPU options still range between the RTX 5070 Ti mobile and the top whack RTX 5090, the CPU choices are now either AMD's newly-announced Ryzen AI 400-series chips, or a \"next gen Intel processor\", according to the press release. No prizes for guessing what that might be . The mega-spec lappy also comes with a new GAN power brick that's capable of delivering 300 W total platform power, without weighing the same as a boat anchor. We haven't received any images of it yet, but the pre…",
+      "image": "https://cdn.mos.cms.futurecdn.net/SxSfMbaGY5ZZhK4HpFPau9-1280-80.jpg",
+      "pubDate": "2026-01-05T23:02:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -960,22 +1037,6 @@
       "region": "global"
     },
     {
-      "id": "ec1d7d5803ca2119",
-      "title": "How ‘KPop Demon Hunters’ Star Audrey Nuna Avoided a Wardrobe Malfunction at the Critics Choice Awards",
-      "link": "https://www.hollywoodreporter.com/lifestyle/style/details-of-how-audrey-nunas-stylist-fixed-her-cca-dress-1236464399/",
-      "summary": "Star stylist Danyul Brown employed a little ingenuity to restore the shape of the coveted Marc Jacobs design worn by the voice actress to Sunday's ceremony.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T20:39:48.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
-      "region": "global"
-    },
-    {
       "id": "02c755e2bc5a81c2",
       "title": "بـ10 ملايين جنيه.. الزمالك يحاول احتواء أزمة تمرد لاعبيه",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%8010-%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%8A%D8%AD%D8%A7%D9%88%D9%84-%D8%A7%D8%AD%D8%AA%D9%88%D8%A7%D8%A1-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%AA%D9%85%D8%B1%D8%AF-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%87/blt591f05df196a5ac2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1102,22 +1163,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "70dcab00d2e69757",
-      "title": "Golden Globes 2026: The Complete Guide to Parties and Events (Updating)",
-      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/golden-globes-2026-guide-to-parties-and-events-1236462729/",
-      "summary": "Awards season is officially in full swing, with plenty of celebrations leading up to the Globes on Jan. 11.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T20:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
-      "region": "global"
     },
     {
       "id": "d55696892732df8f",
@@ -1648,22 +1693,6 @@
       "region": "global"
     },
     {
-      "id": "e709206c187d9ac5",
-      "title": "Who controls Venezuela's oil now? What Maduro's arrest means for energy markets",
-      "link": "https://www.cnbc.com/2026/01/05/venezuela-oil-sour-crude-control-chevron-post-maduro-arrest.html",
-      "summary": "The arrest of Nicolás Maduro has thrown Venezuela's politically fraught oil industries back into focus.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T17:09:28.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
       "id": "8636f0d1ac5230cf",
       "title": "Ex-Wales and Fiji coach Cunningham joins Scotland",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c4gw3pg9vg9o?at_medium=RSS&at_campaign=rss",
@@ -1901,22 +1930,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3a6fa08a31b91e39",
-      "title": "Oil Tankers Exit Venezuela Under Cover of Darkness Despite U.S. Blockade",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tankers-Exit-Venezuela-Under-Cover-of-Darkness-Despite-US-Blockade.html",
-      "summary": "Venezuela has shipped out about a dozen oil tankers carrying crude and petroleum products in recent days, with vessels departing in dark mode, TankerTrackers.com said on Monday. All these tankers that have stealthily left Venezuela have been sanctioned by the U.S. Treasury, according to TankerTrack…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T15:30:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2221,22 +2234,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a5da3cf447ed8857",
-      "title": "U.S. Blitz Against Maduro Rattles Foreign Oil Claims Worth Billions",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Blitz-Against-Maduro-Rattles-Foreign-Oil-Claims-Worth-Billions.html",
-      "summary": "Billions of barrels of Venezuela’s oil claimed by major state-owned Chinese and Russian companies under current deals are now in doubt following the U.S. capture of Nicolas Maduro, according to investment bank Morgan Stanley. Oil giant and top Asian refiner China Petroleum & Chemical Corporation, o…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-05T13:00:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2768,22 +2765,6 @@
       "region": "global"
     },
     {
-      "id": "4fb381794016f1ec",
-      "title": "Expected Chelsea boss Rosenior has 'served his apprenticeship'",
-      "link": "https://www.bbc.com/sport/football/videos/c0mkvzj1wm3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Match of the Day pundits discuss the expected appointment of Liam Rosenior as Chelsea head coach following the departure of Enzo Maresca amid internal tensions at the club.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-04T23:18:31.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "7a28a353f455c4f4",
       "title": "Who has made Troy's Premier League team of the week?",
       "link": "https://www.bbc.com/sport/football/articles/cwyr3l706pgo?at_medium=RSS&at_campaign=rss",
@@ -2813,22 +2794,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "50274ba6123e7d2a",
-      "title": "Chelsea have shown character through manager changes - McFarlane",
-      "link": "https://www.bbc.com/sport/football/videos/c20g4jer3j4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Interim manager Calum McFarlane credits the leaders in the Chelsea dressing room for the character they have shown through a tumultuous week which saw manager Enzo Maresca sacked.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-04T20:36:28.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3248,22 +3213,6 @@
       "region": "global"
     },
     {
-      "id": "cb62f4f54312acb8",
-      "title": "How punk icon Dr Martens’ shares got trampled underfoot",
-      "link": "https://www.ft.com/content/6332c79b-2d68-4597-9074-97e0d153d45e",
-      "summary": "Miscalculation over bootmaker’s growth rate has cost investors dear",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-03T05:00:14.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1c1587306cf5e685",
       "title": "The story of a successful British WWII deception operation",
       "link": "https://www.bbc.co.uk/iplayer/episode/m002p282?at_mid=HWt52u3JVO&at_campaign=Operation_Mincemeat&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002p282&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=Operation_Mincemeat&at_bbc_team=BBC",
@@ -3456,12 +3405,12 @@
       "region": "global"
     },
     {
-      "id": "396cdeefa620080f",
-      "title": "The city builders of 2026 will let us build in some wild places, including a Pokémon-style world filled with collectible creatures",
-      "link": "https://www.pcgamer.com/games/city-builder/the-city-builders-of-2026-will-let-us-build-in-some-wild-places-including-a-pokemon-style-world-filled-with-collectible-creatures/",
-      "summary": "Build cities on massive trees, on steampunk trains, and even on the back of a cosmic whale.",
-      "body": "We're still happily awash in the golden age of city builders, and there's no sign of things slowing down: 2026 is already looking like it's packed with new takes on plopping down houses and roads. You can expect loads more city builders than these next year, but the ones listed below all take place in interesting places. If you want to build a city in a world filled with vengeful gods, in deep space on the back of a cosmic whale, or on a massive steampunk train thundering through a post-apocalyptic landscape, you'll be able to. There's even a builder set in a world of collectible creatures you can tame and send into battle. That's a first! Here's a quick look at 7 city builders coming in 2026 that will let us build in some truly wild places, such as… In a Rome where gods are real (and real angry) Nova Roma Release : Jan 2026 You won't need to wait long for this beautiful builder: it's due in January. Rebuild a fallen Rome, but be careful not to anger the gods: they're watching and won't be shy about voicing their displeasure in the form of lightning bolts and other disasters. There's a demo out now if you want to try it early. Up a massive tree in a dark fantasy realm DarkSwitch R…",
-      "image": "https://cdn.mos.cms.futurecdn.net/GWU8eHh93f49L6fSWWerKc-1280-80.jpg",
+      "id": "a1a74c1154d4145a",
+      "title": "Kill the algorithm in your head: Let's set up RSS readers and get news we actually want in 2026",
+      "link": "https://www.pcgamer.com/software/kill-the-algorithm-in-your-head-lets-set-up-rss-readers-and-get-news-we-actually-want-in-2026/",
+      "summary": "We finally have the technology to present users with a chronological list of content. They said it couldn't be done.",
+      "body": "Time was, entire social castes would be dedicated to divining the intentions of the gods. Chicken entrails, the flight of birds, the rolling of thunder—all this and more was used by ancient peoples befuddled by the randomness of life, in an attempt to impose some order on the world, some meaning on their triumphs and their suffering. We've outgrown all that these days. In the place of arbitrary and distant gods we have arbitrary and distant algorithms: vast lattices of code that no one really understands, whose purpose seems to be to make the entire world more insane and more racist. (Image credit: Bay 12) Their workings are indefinable, their intentions obscure, and they probably determine a vast amount of what you watch, read, and listen to. I know they do for me. Apple News feeds me news, my YouTube home feed suggests videos, Spotify introduces me to the latest and greatest music generated by data centres the size of Idaho. I don't have to think about anything at all; it just comes to me. It's kind of awful, really—a vast abdication of responsibility on my part. Well, no more. You and me, we're making 2026 the year of the glorious return of the RSS reader. Keep it really simple…",
+      "image": "https://cdn.mos.cms.futurecdn.net/iFj4XBxxAChvLfA3FsbTGK-1280-80.jpg",
       "pubDate": "2026-01-02T11:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -3472,12 +3421,12 @@
       "region": "global"
     },
     {
-      "id": "a1a74c1154d4145a",
-      "title": "Kill the algorithm in your head: Let's set up RSS readers and get news we actually want in 2026",
-      "link": "https://www.pcgamer.com/software/kill-the-algorithm-in-your-head-lets-set-up-rss-readers-and-get-news-we-actually-want-in-2026/",
-      "summary": "We finally have the technology to present users with a chronological list of content. They said it couldn't be done.",
-      "body": "Time was, entire social castes would be dedicated to divining the intentions of the gods. Chicken entrails, the flight of birds, the rolling of thunder—all this and more was used by ancient peoples befuddled by the randomness of life, in an attempt to impose some order on the world, some meaning on their triumphs and their suffering. We've outgrown all that these days. In the place of arbitrary and distant gods we have arbitrary and distant algorithms: vast lattices of code that no one really understands, whose purpose seems to be to make the entire world more insane and more racist. (Image credit: Bay 12) Their workings are indefinable, their intentions obscure, and they probably determine a vast amount of what you watch, read, and listen to. I know they do for me. Apple News feeds me news, my YouTube home feed suggests videos, Spotify introduces me to the latest and greatest music generated by data centres the size of Idaho. I don't have to think about anything at all; it just comes to me. It's kind of awful, really—a vast abdication of responsibility on my part. Well, no more. You and me, we're making 2026 the year of the glorious return of the RSS reader. Keep it really simple…",
-      "image": "https://cdn.mos.cms.futurecdn.net/iFj4XBxxAChvLfA3FsbTGK-1280-80.jpg",
+      "id": "396cdeefa620080f",
+      "title": "The city builders of 2026 will let us build in some wild places, including a Pokémon-style world filled with collectible creatures",
+      "link": "https://www.pcgamer.com/games/city-builder/the-city-builders-of-2026-will-let-us-build-in-some-wild-places-including-a-pokemon-style-world-filled-with-collectible-creatures/",
+      "summary": "Build cities on massive trees, on steampunk trains, and even on the back of a cosmic whale.",
+      "body": "We're still happily awash in the golden age of city builders, and there's no sign of things slowing down: 2026 is already looking like it's packed with new takes on plopping down houses and roads. You can expect loads more city builders than these next year, but the ones listed below all take place in interesting places. If you want to build a city in a world filled with vengeful gods, in deep space on the back of a cosmic whale, or on a massive steampunk train thundering through a post-apocalyptic landscape, you'll be able to. There's even a builder set in a world of collectible creatures you can tame and send into battle. That's a first! Here's a quick look at 7 city builders coming in 2026 that will let us build in some truly wild places, such as… In a Rome where gods are real (and real angry) Nova Roma Release : Jan 2026 You won't need to wait long for this beautiful builder: it's due in January. Rebuild a fallen Rome, but be careful not to anger the gods: they're watching and won't be shy about voicing their displeasure in the form of lightning bolts and other disasters. There's a demo out now if you want to try it early. Up a massive tree in a dark fantasy realm DarkSwitch R…",
+      "image": "https://cdn.mos.cms.futurecdn.net/GWU8eHh93f49L6fSWWerKc-1280-80.jpg",
       "pubDate": "2026-01-02T11:00:00.000Z",
       "source": {
         "name": "PC Gamer",
