@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-13T21:17:21.316Z",
-    "total": 485,
+    "generated_at": "2026-01-13T21:37:14.684Z",
+    "total": 389,
     "processed_feeds": 19,
-    "discovered_feeds": 83,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 2,
@@ -30,21 +30,8 @@
         "cats": [
           "technology"
         ],
-        "taken": 45,
+        "taken": 44,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -61,16 +48,29 @@
         "notModified": false
       },
       {
-        "name": "9to5Mac",
-        "url": "https://9to5mac.com/feed/",
-        "homepage": "https://9to5mac.com/feed/",
-        "lang": "en",
-        "region": "global",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 94,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -82,7 +82,20 @@
         "cats": [
           "general"
         ],
-        "taken": 17,
+        "taken": 16,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia — اقتصاد",
+        "url": "https://www.skynewsarabia.com/rss/business.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -126,16 +139,55 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "9to5Mac",
+        "url": "https://9to5mac.com/feed/",
+        "homepage": "https://9to5mac.com/feed/",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "NIH News",
+        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - رياضة",
+        "url": "https://www.skynewsarabia.com/rss/sports.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -148,19 +200,6 @@
           "general"
         ],
         "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — اقتصاد",
-        "url": "https://www.skynewsarabia.com/rss/business.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -178,36 +217,10 @@
         "notModified": false
       },
       {
-        "name": "NIH News",
-        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "name": "WMO — News",
+        "url": "https://public.wmo.int/en/media/news/rss.xml",
+        "homepage": "https://public.wmo.int/en/media/news/rss.xml",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - رياضة",
-        "url": "https://www.skynewsarabia.com/rss/sports.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -241,19 +254,6 @@
         "taken": 0,
         "error": "Error: Invalid character in entity name\nLine: 9\nColumn: 59\nChar:  ",
         "notModified": false
-      },
-      {
-        "name": "WMO — News",
-        "url": "https://public.wmo.int/en/media/news/rss.xml",
-        "homepage": "https://public.wmo.int/en/media/news/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
       }
     ]
   },
@@ -262,7 +262,7 @@
       "id": "935a7188470443ec",
       "title": "Hegseth wants to integrate Musk’s Grok AI into military networks this month",
       "link": "https://arstechnica.com/ai/2026/01/hegseth-wants-to-integrate-musks-grok-ai-into-military-networks-this-month/",
-      "summary": "US Defense secretary announces plans for integration despite recent controversies.",
+      "summary": "US defense secretary announces plans for integration despite recent controversies.",
       "body": "On Monday, US Defense Secretary Pete Hegseth said he plans to integrate Elon Musk's AI tool, Grok, into Pentagon networks later this month. During remarks at the SpaceX headquarters in Texas reported by The Guardian, Hegseth said the integration would place \"the world's leading AI models on every unclassified and classified network throughout our department.\" The announcement comes weeks after Grok drew international backlash for generating sexualized images of women and children, although the Department of Defense has not released official documentation confirming Hegseth's announced timeline or implementation details. During the same appearance, Hegseth rolled out what he called an \"AI acceleration strategy\" for the Department of Defense. The strategy, he said, will \"unleash experimentation, eliminate bureaucratic barriers, focus on investments, and demonstrate the execution approach needed to ensure we lead in military AI and that it grows more dominant into the future.\" Read full article Comments",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/grok_header_1-1152x648.jpg",
       "pubDate": "2026-01-13T21:13:07.000Z",
@@ -275,19 +275,19 @@
       "region": "global"
     },
     {
-      "id": "1f5421a01869f201",
-      "title": "Fun Apple ad touts the iPhone 17’s scratch-resistant cover glass",
-      "link": "https://9to5mac.com/2026/01/13/fun-apple-ad-touts-the-iphone-17-scratch-resistant-cover-glass/",
-      "summary": "The Apple Canada YouTube channel has published a fun (and slightly unnerving) new ad promoting the new Ceramic Shield 2 cover glass of the iPhone 17 line. Watch it below. more…",
+      "id": "fae9d3952550d895",
+      "title": "Jenner and Richardson suffered 'unsurvivable injuries'",
+      "link": "https://www.bbc.com/news/articles/c3ved53xgwwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Owen Jenner and Shane Richardson suffered \"unsurvivable injuries\" during a British Supersport Championship event, their inquests hear.",
       "body": null,
       "image": null,
-      "pubDate": "2026-01-13T20:44:56.000Z",
+      "pubDate": "2026-01-13T20:54:11.000Z",
       "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -339,19 +339,35 @@
       "region": "global"
     },
     {
-      "id": "762db2d480210985",
-      "title": "Apple shipments unchanged as PC market grew 10% during Q4 2025: report",
-      "link": "https://9to5mac.com/2026/01/13/apple-shipments-unchanged-as-pc-market-grew-during-q4-2025/",
-      "summary": "IDC is out with a new report detailing PC shipments for the holiday quarter. Here’s how Apple did compared with the rest of the market. more…",
+      "id": "81d2360fb03e1d1b",
+      "title": "Open sourcing Dicer: Databricks's auto-sharder",
+      "link": "https://www.databricks.com/blog/open-sourcing-dicer-databricks-auto-sharder",
+      "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-01-13T19:51:16.000Z",
+      "pubDate": "2026-01-13T19:56:37.000Z",
       "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "92810b27a2713466",
+      "title": "Ask HN: Vxlan over WireGuard or WireGuard over Vxlan?",
+      "link": "https://news.ycombinator.com/item?id=46606854",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-13T19:53:07.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -368,6 +384,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f728e58f4cdd77ac",
+      "title": "Ask HN: Discrepancy between Lichess and Stockfish",
+      "link": "https://news.ycombinator.com/item?id=46606715",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-13T19:44:44.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -403,22 +435,6 @@
       "region": "global"
     },
     {
-      "id": "d5f6c9a483987722",
-      "title": "Instagram AI Influencers Are Defaming Celebrities with Sex Scandals",
-      "link": "https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T19:39:04.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9bc7632fe0e91789",
       "title": "Proposed legislation opens the door to robotaxi services in New York",
       "link": "https://www.engadget.com/transportation/proposed-legislation-opens-the-door-to-robotaxi-services-in-new-york-193804671.html?src=rss",
@@ -433,6 +449,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "551310c8cddfd798",
+      "title": "اتهام ورفض لقرار رسمي.. أزمة جديدة تشعل الدوري السعودي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AA%D9%87%D8%A7%D9%85-%D9%88%D8%B1%D9%81%D8%B6-%D9%84%D9%82%D8%B1%D8%A7%D8%B1-%D8%B1%D8%B3%D9%85%D9%8A-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/bltf91dc54cfe998d80?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مشكلة كبيرة قد تسيطر على الأجواء في روشن",
+      "body": "مشكلة كبيرة قد تسيطر على الأجواء في روشن شهد دوري روشن السعودي أزمة كبرى جديدة، قد تلقي بظلالها على الأحداث خلال الأيام القليلة المقبلة. وكان الاتحاد السعودي لكرة القدم، قد أعلن في وقت سابق، إقامة مباراة الحزم والقادسية، يوم الأحد المقبل، في بريدة، ضمن منافسات الجولة السادسة عشرة من دوري روشن. ونشر نادي الحزم بيانًا مطولًا عبر حسابه الرسمي على موقع \"إكس\"، أعلن فيه رفضه لهذا القرار، متهما اتحاد الكرة بالإخلال بعدالة المنافسة، مشددًا على تمسكة بإقامة المباراة على ملعبه. وقال النادي السعودي في بيانه: \"تؤكد إدارة نادي الحزم اعتزازها بأن جميع ملاعب مدن ومحافظات وطننا الغالي تُعد أرضًا لنا\". واستدرك: \"فإن ذلك لا ينفي الأهمية الجماهيرية الخاصة للمباريات المقامة على الملعب الرسمي للنادي، لما يوفره من أفضلية تنافسية مشروعة، واستقرار فني، وتفاعل جماهيري أصيل يعد من أبرز عوامل التفوق داخل الميدان\". وأضاف: \"ومن هذا المنطلق، تعرب إدارة نادي الحزم عن قلقها واستيائها حيال حرمان الفريق من أحد حقوقه الأساسية والمتمثلة في خوض مبارياته على أرضه ووسط جماهيره\". وأردف: \"لقد جاءت جدولة مباريات الدور الأول من الدوري مجحفة ومحبطة لآمال جماهير نادي الحزم وأهالي محافظة الرس، إذ لم يُتح للنادي سوى خوض ثلاث مباريات فقط على ملعبه\". وواصل: \"في المقابل، نُقلت بقية المباريات إلى استاد مدينة الملك عبد الله بمدينة …",
+      "image": null,
+      "pubDate": "2026-01-13T19:32:40.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "49adda100b73d293",
+      "title": "الضربة الثانية.. سيمينيو يرتدي عباءة أديبايور بانطلاقة نارية مع السيتي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B6%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D8%B3%D9%8A%D9%85%D9%8A%D9%86%D9%8A%D9%88-%D9%8A%D8%B1%D8%AA%D8%AF%D9%8A-%D8%B9%D8%A8%D8%A7%D8%A1%D8%A9-%D8%A7%D9%94%D8%AF%D9%8A%D8%A8%D8%A7%D9%8A%D9%88%D8%B1-%D8%A8%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82%D8%A9-%D9%86%D8%A7%D8%B1%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A/blt677490b79f3019f2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "سيمينيو يسجل ثاني أهدافه بقميص مانشستر سيتي",
+      "body": "سيمينيو يسجل ثاني أهدافه بقميص مانشستر سيتي واصل أنطوان سيمينيو انطلاقته المميزة بقميص مانشستر سيتي، وذلك في مباراته الثانية تواليا مع الفريق بمختلف البطولات. وبدأ الدولي الغاني في تشكيلة السيتي الأساسية أمام نيوكاسل يونايتد، اليوم الثلاثاء، في ذهاب نصف نهائي كأس الرابطة الإنجليزية. واستطاع الوافد الجديد، تسجيل هدف تقدم المان سيتي في الدقيقة 53، قبل أن يحرز الثاني بعد 10 دقائق فقط، بتسديدة رائعة على الطائر وظهره للمرمى، قبل أن يلغى الهدف. وألغي الهدف الثاني لسيمينيو بعد مراجعة تقنية الفيديو \"VAR\"، بداعي وجود تسلل على هالاند، الذي أعاق أحد المدافعين عن محاولة منع الكرة من دخول الشباك. وكان سيمينيو، الذي انضم إلى السيتي في يناير الجاري، قد سجل أول أهدافه في ظهوره الأول مع الفريق، ضد إكسيتير سيتي بكأس الاتحاد الإنجليزي. ووفقا لشبكة \"أوبتا\" للإحصائيات، فإن سيمينيو بات أول لاعب يسجل في أول مباراتين له بقميص مانشستر سيتي بمختلف البطولات منذ إيمانويل أديبايور في أغسطس 2009. بينما أفادت شبكة \"سكواكا\" للإحصائيات، بأن سيمينيو يأتي ثالثا من ناحية الأهداف المسجلة في مختلف البطولات هذا الموسم، بين لاعبي البريميرليج. هذا بعدما سجل لاعب بورنموث السابق 12 هدفا، ليأتي خلف إيرلينج هالاند (26) وإيجور تياجو (17) هدفا.",
+      "image": null,
+      "pubDate": "2026-01-13T19:31:54.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "bec8f44dff1d6093",
@@ -451,6 +499,22 @@
       "region": "global"
     },
     {
+      "id": "412948240cea3c16",
+      "title": "خبير تحكيمي: ضمك كان يستحق ركلة جزء ضد الاتحاد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%A8%D9%8A%D8%B1-%D8%AA%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D8%B6%D9%85%D9%83-%D9%83%D8%A7%D9%86-%D9%8A%D8%B3%D8%AA%D8%AD%D9%82-%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A1-%D8%B6%D8%AF-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF/blt534c7ae149ff86d3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قرار تحكيمي مثير للجدل في مباراة العميد",
+      "body": "قرار تحكيمي مثير للجدل في مباراة العميد &nbsp; &nbsp;اعتبر المصري محمد كمال ريشة الخبير التحكيمي، أن فريق ضمك حُرم من الحصول على ركلة جزاء مستحقة ضد الاتحاد. وتعادل الاتحاد مع ضمك 1-1 على ملعب الأخير ضمن منافسات الجولة الخامسة عشرة من دوري روشن السعودي للمحترفين. وقال ريشة لصحيفة \"الرياضية\" السعودية إن ضمك كان يستحق ركلة جزاء أمام الاتحاد، لكن صافرة الحكم الدولي خالد الطريس لم تمنح صاحب الأرض الركلة. وأشار الخبير التحكيمي إلى أن التداخل الذي حصل بين سنوسي الهوساوي لاعب ضمك وحسن كادش مدافع الاتحاد، داخل منطقة جزاء العميد، وسقوط الأول جاء نتيجة احتكاك كادش وليس اختلال توازن لاعب ضمك. وأضاف أن مدافع الاتحاد ارتكب إعاقة بإهمال، وكان من الواجب على حكام تقنية الفيديو استدعاء حكم الساحة لمشاهدة اللعبة والبت فيها، وهو ما لم يحدث في المباراة. &nbsp;",
+      "image": null,
+      "pubDate": "2026-01-13T19:28:03.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "af28e5c5f509c231",
       "title": "Carrick confirmed as Man Utd caretaker head coach",
       "link": "https://www.bbc.com/sport/football/articles/c0erq5gdvwqo?at_medium=RSS&at_campaign=rss",
@@ -467,20 +531,36 @@
       "region": "global"
     },
     {
-      "id": "737e929fb3151648",
-      "title": "Apple just released new AirPods Pro 3 firmware",
-      "link": "https://9to5mac.com/2026/01/13/apple-just-released-new-airpods-pro-3-firmware/",
-      "summary": "Apple has new firmware available for AirPods Pro 3 users today ahead of iOS 26.3’s forthcoming release. Here are the details. more…",
-      "body": null,
+      "id": "2f900638de3c0f69",
+      "title": "فليك يرفض رحيل لاعب برشلونة في يناير",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%B1%D9%81%D8%B6-%D8%B1%D8%AD%D9%8A%D9%84-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D9%8A%D9%86%D8%A7%D9%8A%D8%B1/blt1dc5eba25d8a9ea9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الألماني يعتبر اللاعب أحد النجوم المستقبليين للفريق",
+      "body": "المدرب الألماني يعتبر اللاعب أحد النجوم المستقبليين للفريق أفاد تقرير صحفي إسباني، اليوم الثلاثاء، أن الألماني هانز فليك، مدرب برشلونة، رفض رحيل لاعب الفريق في فترة الانتقالات الشتوية الجارية. ووفقًا لصحيفة \"سبورت\" الكتالونية، فعلى الرغم من إبداء أكثر من نادٍ اهتمامه بالسويدي روني باردجي، إلا أن فليك أغلق الباب أمام رحيل اللاعب في يناير الجاري. وأكدت الصحيفة، أن نادي برشلونة تلقى سيلًا من العروض لاستعارة روني في الأسابيع الأخيرة. وأشارت الصحيفة، إلى أن نادي بورتو البرتغالي تواصل مع برشلونة بشكل رسمي، على أمل الحصول على اللاعب على سبيل الإعارة، لكن رد البرسا كان حاسمًا بالرفض. واتفق فليك مع الإدارة الرياضية برئاسة ديكو، على عدم التفريط في روني، باعتباره مستقبل الفريق. ويرتبط باردجي بعقد مع برشلونة حتى عام 2029، وشارك هذا الموسم في 14 مباراة بمختلف المسابقات، وسجل هدفين وقدم 4 تمريرات حاسمة.",
       "image": null,
-      "pubDate": "2026-01-13T19:20:53.000Z",
+      "pubDate": "2026-01-13T19:26:52.000Z",
       "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "dfe8b1c16669747e",
+      "title": "بالفيديو.. أربيلوا: سأفشل مع ريال مدريد في هذه الحالة!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D8%B3%D8%A7%D9%94%D9%81%D8%B4%D9%84-%D9%85%D8%B9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%81%D9%8A-%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A9/blt22e93c45d213478d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "شاهد في الفيديو المرفق جانبًا من تصريحات ألفارو أربيلوا، مدرب ريال مدريد الجديد، في أول مؤتمر صحفي بعد تولي المهمة.",
+      "body": "شاهد في الفيديو المرفق جانبًا من تصريحات ألفارو أربيلوا، مدرب ريال مدريد الجديد، في أول مؤتمر صحفي بعد تولي المهمة.",
+      "image": null,
+      "pubDate": "2026-01-13T19:23:04.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "e003bfcded976324",
@@ -513,22 +593,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "f070945c6793e173",
-      "title": "Apple confirms Pixelmator for iOS will no longer receive updates",
-      "link": "https://9to5mac.com/2026/01/13/apple-confirms-pixelmator-for-ios-will-no-longer-receive-updates/",
-      "summary": "Today Apple unveiled Pixelmator Pro for iPad alongside its new Apple Creator Studio subscription. And in a new page on Apple’s website, the company has revealed the fate of its existing Pixelmator and Photomator apps for iOS. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T19:11:18.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "7dc84e351f2bab80",
@@ -723,8 +787,8 @@
       "region": "global"
     },
     {
-      "id": "0bb755ae2e7da333",
-      "title": "Doctors think AI has a place in healthcare – but maybe not as a chatbot",
+      "id": "707b4d6f21f3ffbf",
+      "title": "Doctors think AI has a place in healthcare — but maybe not as a chatbot",
       "link": "https://techcrunch.com/2026/01/13/doctors-think-ai-has-a-place-in-healthcare-but-maybe-not-as-a-chatbot/",
       "summary": "OpenAI and Anthropic have each launched healthcare-focused products over the last week.",
       "body": null,
@@ -947,22 +1011,6 @@
       "region": "mena"
     },
     {
-      "id": "158ca5aff4a36fae",
-      "title": "Public beta 2 for macOS Tahoe 26.3, iPadOS 26.3, more now available",
-      "link": "https://9to5mac.com/2026/01/13/public-beta-2-for-macos-tahoe-26-3-ipados-26-3-more-now-available/",
-      "summary": "Following an extended software hiatus over the holidays, Apple has returned to shipping beta updates. Today the company has released public beta 2 for macOS Tahoe 26.3, iPadOS 26.3, tvOS 26.3, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T18:14:41.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "25f22023b27a7086",
       "title": "الشنقيطي: مباراة ضمك كانت صعبة.. وسنعوض في القادم",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D9%86%D9%82%D9%8A%D8%B7%D9%8A-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B6%D9%85%D9%83-%D9%83%D8%A7%D9%86%D8%AA-%D8%B5%D8%B9%D8%A8%D8%A9-%D9%88%D8%B3%D9%86%D8%B9%D9%88%D8%B6-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85/blt52e2d4af28dac94f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -993,22 +1041,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "eda449b2c1dbac3e",
-      "title": "iOS 26.3 public beta 2 now available, here’s what’s new",
-      "link": "https://9to5mac.com/2026/01/13/ios-26-3-public-beta-2-now-available-heres-whats-new/",
-      "summary": "Apple has a new beta 2 version of iOS 26.3 available for public beta testers, here’s what to expect from the latest software update. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T18:09:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "0a7074b9e31f2837",
@@ -1059,54 +1091,6 @@
       "region": "global"
     },
     {
-      "id": "5524e005828df659",
-      "title": "The Case for Blogging in the Ruins",
-      "link": "https://www.joanwestenberg.com/the-case-for-blogging-in-the-ruins/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T18:00:20.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0903e2ee10baaf5e",
-      "title": "How to get an Apple Watch Series 11 or Ultra 3 for (almost) free",
-      "link": "https://9to5mac.com/2026/01/13/free-apple-watch-for-exercise/",
-      "summary": "For years, John Hancock has offered Vitality Plus life insurance program members a way to earn an Apple Watch for (almost) free with regular exercise. Recently, the Vitality program expanded to include the newest Apple Watch Series 11 and Apple Watch Ultra 3. Here’s how it works and how to take adv…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T17:58:57.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e3b5437852141cdb",
-      "title": "بالفيديو.. ضمك يقطع سلسلة انتصارات اتحاد جدة بتعادل صعب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B6%D9%85%D9%83-%D9%8A%D9%82%D8%B7%D8%B9-%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D8%A8%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D8%B5%D8%B9%D8%A8/blt506126f2eb200992?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "العميد يتعثر بعد انتصارات متتالية في دوري روشن",
-      "body": "العميد يتعثر بعد انتصارات متتالية في دوري روشن &nbsp; أوقف فريق ضمك سلسلة انتصارات ضيفه الاتحاد، بعدما أجبره على الاتحاد بنتيجة 1-1 ضمن منافسات الجولة الخامسة عشرة من دوري روشن السعودي للمحترفين. وحول الاتحاد تأخره بهدف سجله عبدالله القحطاني لضمك في الدقيقة 37، إلى تعادل بهدف مدافعه مهند الشنقطيني في الدقيقة 45. القحطاني يسجل والشنقيطي يعدّل #ضمك_الاتحاد |⁧ #دوري_روشن_السعودي pic.twitter.com/WbOWjtisiY — رياضة ثمانية (@thmanyahsports)&nbsp; January 13, 2026 رفع العميد رصيده إلى 27 نقطة في المركز السادس، بفارق الأهداف عن القادسية السادس قبل اكتمال منافسات الجولة، بينما وصل ضمك للنقطة العاشرة في المركز الرابع عشر. بداية سريعة.. وهدف أبيض &nbsp; عرفت المباراة بداية سريعة وحماسية للمباراة، خاصة من جانب الاتحاد الساعي لاستغلال تعثر النصر من أجل الاستمرار في التقدم بجدول الترتيب، على أمل اللحاق بركب المربع الذهبي. وفي الدقيقة الثالثة حصل مهند الشنقيطي على فرصة ذهبية أمام المرمى بعد تمريرة من كريم بنزيما، ليسجل في الشباك، لكن تم إلغاء الهدف بعد العودة لتقنية الفيديو، نظرا لأن الكرة في بداية الهجمة تجاوزت خط المرمى من عرضية موسى ديابي. بيرجوين يحاول &nbsp; وواصل الاتحاد الضغط من خلال الجبهتين النشيطتين اليمنى واليسار على طريق موسى ديابي وستيفن بيرجوين، وسدد الهولندي كرة أرضية لكنها مرت سه…",
-      "image": null,
-      "pubDate": "2026-01-13T17:56:07.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "29334d71d8542463",
       "title": "Show HN: Ayder – HTTP-native durable event log written in C (curl as client)",
       "link": "https://github.com/A1darbek/ayder",
@@ -1121,22 +1105,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "91493c4f1753177a",
-      "title": "معارضة شرسة ضد قانون فينجر.. هل يتم تطبيقه قبل مونديال 2026؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%B4%D8%B1%D8%B3%D8%A9-%D8%B6%D8%AF-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%81%D9%8A%D9%86%D8%AC%D8%B1-%D9%87%D9%84-%D9%8A%D8%AA%D9%85-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%87-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-2026/blt4f945571d21d1b7a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تحالف مزدوج لعرقلته.. وحل وسط مطروح",
-      "body": "تحالف مزدوج لعرقلته.. وحل وسط مطروح تواجه مبادرة \"قانون فينجر\" - التي تهدف إلى إحداث ثورة شاملة في قاعدة التسلل- عقبات كبيرة تحول دون التوصل إلى إجماع بشأن تطبيقها. وبحسب تقرير نشرته صحيفة \"ذا تايمز\" البريطانية، فإن الاتحاد الإنجليزي لكرة القدم يرى أن هذا التعديل المقترح يعد جذرية للغاية، لما له من تأثيرات عميقة على طريقة لعب مباريات كرة القدم، حيث سيجبر المدافعين على التراجع واللعب في مناطق متأخرة جدا من الملعب. وطرح هذا القانون أسطورة التدريب، الفرنسي آرسين فينجر، المدير الفني الأسبق لنادي آرسنال، الذي يشغل حاليا رئيس قسم تطوير كرة القدم العالمية في الاتحاد الدولي لكرة القدم \"فيفا\". معارضة إنجليزية - أوروبية كشفت صحيفة \"ذا تايمز\" أن الاتحاد الإنجليزي يحظى بدعم الاتحاد الأوروبي لكرة القدم (يويفا) في موقفه المعارض من قانون فينجر ويستعد لاقتراح حل وسط. وبينما ينص قانون فينجر على أن اللاعب يكون في وضع تسلل فقط إذا تجاوز كامل جسده آخر مدافع، فإن البديل المقترح يقضي باحتساب التسلل إذا تجاوز جزء من جذع المهاجم المدافع الأخير (استبعاد القدمين والساقين والرأس من عملية القياس). هل يطبق قانون فينجر قبل مونديال 2026؟ من غير المتوقع إدخال أي تعديلات على القانون قبل نهائيات كأس العالم 2026، المقرر إقامتها في الفترة من 11 يونيو إلى 19 يوليو المقبل في المكسيك والولايات المتحدة وكندا، ومع ذلك، ي…",
-      "image": null,
-      "pubDate": "2026-01-13T17:49:34.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "d7c14b9fe0e45c8c",
@@ -1155,54 +1123,6 @@
       "region": "global"
     },
     {
-      "id": "378cea66aa13f43b",
-      "title": "الإسباني أوجستي مدرباً لمنتخب مصر للسلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D8%B3%D9%84%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%A7%D9%94%D9%88%D8%AC%D8%B3%D8%AA%D9%8A-%D9%85%D8%AF%D8%B1%D8%A8%D8%A7%D9%8B-%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D9%84%D9%84%D8%B3%D9%84%D8%A9/bltc7eb67008bc6c8c0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أعلن الاتحاد المصري لكرة السلة، اليوم الثلاثاء، تعيين المدرب الإسباني أوجستي جولبي في منصب المدير الفني للمنتخب الأول للعبة.",
-      "body": "أعلن الاتحاد المصري لكرة السلة، اليوم الثلاثاء، تعيين المدرب الإسباني أوجستي جولبي في منصب المدير الفني للمنتخب الأول للعبة. وقال بيان صادر عن اتحاد السلة برئاسة عمرو مصيلحي إن الاختيار وقع على أوجستي بعد المفاضلة بين بعض السير الذاتية لبعض المدربين الأجانب. وأوضح أن لجنة المنتخبات برئاسة طارق السعيد نائب رئيس الاتحاد المصري فضلت التعاقد مع أوجستي لخبراته في مجال التدريب. ويبلغ أوجستي 53 عاماً، وسبق له قيادة الزمالك عام 2020 قبل تولي تدريب الأهلي في الفترة بين 2021 إلى 2025. وقاد أوجستي أيضاً فيونلارباردا الإسباني كما عمل مساعداً في نادي برشلونة الإسباني. وكانت آخر تجربة للمدرب الإسباني مع فريق ديوا يونايتد الإندونيسي. وحقق أوجستي خلال مسيرته التدريبية لقب بطولة دوري أبطال أفريقيا لكرة السلة مرتين مع الزمالك والأهلي بجانب الفوز بلقب البطولة العربية والتتويج بلقب الدوري المصري 4 مرات وكأس مصر مرتين. ويستعد منتخب مصر لخوض المجموعة الرابعة بتصفيات كأس العالم 2027 بجانب منتخبات مالي وأوغندا وأنجولا والتي تقام على مرحلتين الأولى في الفترة بين 26 فبراير/ شباط إلى 1 مارس/ آذار المقبلين. وتقام المرحلة الثانية في الفترة بين 2 إلى 5 يونيو/ حزيران المقبل.",
-      "image": null,
-      "pubDate": "2026-01-13T17:39:41.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "332e05c0ee589d81",
-      "title": "\"هذا هراء\".. بيلينجهام ينفجر ويرد بقوة على تسريبات عداوة ألونسو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D8%B0%D8%A7-%D9%87%D8%B1%D8%A7%D8%A1-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D9%86%D9%81%D8%AC%D8%B1-%D9%88%D9%8A%D8%B1%D8%AF-%D8%A8%D9%82%D9%88%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D8%B3%D8%B1%D9%8A%D8%A8%D8%A7%D8%AA-%D8%B9%D8%AF%D8%A7%D9%88%D8%A9-%D8%A7%D9%94%D9%84%D9%88%D9%86%D8%B3%D9%88/blte28b31bd0edadbeb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بيلينجهام ينفي بشدة الادعاءات بأنه تزعم مجموعة النجوم الرافضة لتواجد ألونسو",
-      "body": "بيلينجهام ينفي بشدة الادعاءات بأنه تزعم مجموعة النجوم الرافضة لتواجد ألونسو نفى جود بيلينجهام نجم ريال مدريد، صحة التقارير التي أكدت انقسام غرفة ملابس الفريق خلال فترة المدرب السابق تشابي ألونسو، والتي ساهمت في رحيله بعد أقل من 8 أشهر على توليه المسؤولية. ففي بيان غاضب، قال النجم الإنجليزي \"حتى الآن كنت أتغاضى عن كثير من هذه التقارير، على أمل أن تظهر الحقيقة في وقتها، لكن بصراحة، ما تقرأونه مجرد هراء، أشعر بالأسف لأولئك الذين يصدقون كل كلمة لهؤلاء الأشخاص ومصادرهم، لا تصدقوا كل ما تقرأونه، يجب أن يتحملوا مسؤولية نشر معلومات مضللة وضارة بهدف جذب الزيارات وإثارة الجدل\". &nbsp; 🚨 BREAKING: Jude Bellingham DENIES reports from @TheAthleticFC and @ESPN : “Until now I&#39;ve let far too many of these slide, always hoping the truth will come to light in its own time. But honestly... What a load of sh*t. Truly feel sorry for the people that hang onto the… pic.twitter.com/dKB6JOhGIL &mdash; Madrid Zone (@theMadridZone) January 13, 2026 يأتي ذلك بعدما كشفت شبكة \"ذا أتلتيك\" عن انقسام واضح داخل غرفة ملابس ريال مدريد خلال فترة ألونسو، ما كان سببا في رحيل المدرب، عقب خسارة نهائي السوبر الإسباني أمام برشلونة في السعودية. وادعت الشبكة في تقرير لها أن هناك مجموعة من اللاعبين آمنت بالمدرب، على رأسه…",
-      "image": null,
-      "pubDate": "2026-01-13T17:39:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "519e08729a5f9a5b",
-      "title": "موعد مباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt2dc2276df238ff08?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على موعد مباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026 والقنوات الناقلة...",
-      "body": "تعرف على موعد مباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026 والقنوات الناقلة... يخوض الاتحاد مواجهة صعبة عندما يستضيف نظيره الاتفاق، مساء الجمعة المقبل على ملعب مدينة الإنماء، ضمن منافسات الجولة السادسة عشر من دوري روشن السعودي 2025-2026. ويدخل \"العميد\" اللقاء بحثًا عن العودة إلى النتائج الإيجابية، فبعد خسارة الديربي أمام الأهلي حقق سلسلة انتصارات متتالية وصلت إلى 5 مباريات أوقفها التعادل أمام ضمك. ويسعى الاتحاد للاستمرار في المستوى الجيد خلال الفترة الأخيرة من أجل تحسين موقعه في جدول الترتيب والدخول إلى الرباعي في المقدمة، إذ يحتل المركز السادس برصيد 27 نقطة متساويًا مع القادسية. ويستعرض كووورة في التقرير التالي موعد مباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026 والقنوات الناقلة.. متى موعد مباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026؟ موعد مباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026 هو يوم الجمعة الموافق 16 يناير /كانون الثاني 2026، على ملعب الإنماء. وتنطلق صافرة بداية المباراة في تمام الساعة الثامنة والنصف مساءً (20:30) بتوقيت السعودية، التاسعة والنصف مساءً (21:30) بتوقيت الإمارات. ما القنوات الناقلة لمباراة الاتحاد القادمة ضد الاتفاق في دوري روشن السعودي 2025-2026؟ تبث مباريات دوري روشن السعودي 2025-…",
-      "image": null,
-      "pubDate": "2026-01-13T17:35:47.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "e344acf8a5aff1af",
       "title": "How to make a damn website (2024)",
       "link": "https://lmnt.me/blog/how-to-make-a-damn-website.html",
@@ -1216,22 +1136,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fba54ca5394256b7",
-      "title": "Apple Glasses predicted to drive major product growth with three strengths",
-      "link": "https://9to5mac.com/2026/01/13/apple-glasses-predicted-to-drive-major-product-growth-with-three-strengths/",
-      "summary": "A new report from Smart Analytics Global (SAG) projects big growth in the AI smart glasses market in the years ahead. And Apple Glasses, in part due to three expected strengths, are believed to be a key driver of that growth. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T17:21:26.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1376,22 +1280,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6af965c28c83ab61",
-      "title": "Deals: M4 iPad Pro $400 off, M4 Pro Mac mini $150 off, AirTags from $16 each, Powerbeats Fit, more",
-      "link": "https://9to5mac.com/2026/01/13/deals-ipad-pro-m4-pro-mac-mini-airtags-powerbeats-fit/",
-      "summary": "Today’s 9to5Toys Lunch Break features a $150 price drop on the 24GB M4 Pro Mac mini to join the entry models starting from $499. We also have $400 off Apple’s top-end 13-inch M4 iPad Pro joined by deals on the official Neon Yellow Sport Band as well as the 4-pack of AirTags delivering Apple tracker…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T16:43:59.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1571,38 +1459,6 @@
       "region": "global"
     },
     {
-      "id": "76c9fb1fb83201e5",
-      "title": "What a year of solar and batteries saved us in 2025",
-      "link": "https://scotthelme.co.uk/what-a-year-of-solar-and-batteries-really-saved-us-in-2025/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T15:49:27.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3960f800c7750afd",
-      "title": "Apple TV unveils return of major sci-fi series coming next month",
-      "link": "https://9to5mac.com/2026/01/13/apple-tv-unveils-return-of-major-sci-fi-series-coming-next-month/",
-      "summary": "Monarch: Legacy of Monsters is returning to Apple TV next month for season 2, and the sci-fi epic with Godzilla and King Kong just revealed a brand new titan in its first trailer. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T15:41:56.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9a1436641afee911",
       "title": "Show HN: Self-host Reddit – 2.38B posts, works offline, yours forever",
       "link": "https://github.com/19-84/redd-archiver",
@@ -1648,22 +1504,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ea69c17795cbd233",
-      "title": "Apple’s new AI server chips are reportedly coming this year",
-      "link": "https://9to5mac.com/2026/01/13/apples-new-ai-server-chips-are-reportedly-coming-this-year/",
-      "summary": "Apple just struck a big deal with Google to power future AI features, and now per Ming-Chi Kuo, it sounds like the company is gearing up to mass-produce its in-house AI server chips soon. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T15:13:28.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1811,22 +1651,6 @@
       "region": "global"
     },
     {
-      "id": "e636d1c98ff6ebec",
-      "title": "Pages, Numbers, Keynote, and Freeform are becoming freemium apps",
-      "link": "https://9to5mac.com/2026/01/13/pages-numbers-keynote-and-freeform-are-becoming-freemium-apps/",
-      "summary": "Apple has long made its own productivity apps completely free to use on any of its hardware, but that’s about to change. While core features will remain free, Pages, Numbers, Keynote, and Freeform are set to get AI and premium content which will require a paid subscription … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T14:36:13.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "2384f77f22582e73",
       "title": "Anker's Solix E10 battery backup can power your entire house in a blackout",
       "link": "https://www.engadget.com/home/ankers-solix-e10-battery-backup-can-power-your-entire-house-in-a-blackout-143040115.html?src=rss",
@@ -1859,22 +1683,6 @@
       "region": "global"
     },
     {
-      "id": "090bb7975db4c588",
-      "title": "Apple announces Pixelmator Pro is coming to iPad",
-      "link": "https://9to5mac.com/2026/01/13/apple-announces-pixelmator-pro-is-coming-to-ipad/",
-      "summary": "Apple acquired the app-making team at Pixelmator in late 2024, with the acquisition closing nearly one year ago. Now, in the first major change since the acquisition, Pixelmator Pro is coming to iPad alongside the launch of Apple Creator Studio. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T14:21:59.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ad21fbb28b31794e",
       "title": "Apple Creator Studio",
       "link": "https://www.apple.com/newsroom/2026/01/introducing-apple-creator-studio-an-inspiring-collection-of-creative-apps/",
@@ -1888,22 +1696,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "93ba48b2b92ea822",
-      "title": "Apple debuts ‘Apple Creator Studio’ subscription, here’s what you get",
-      "link": "https://9to5mac.com/2026/01/13/apple-debuts-apple-creator-studio-subscription-heres-what-you-get/",
-      "summary": "Apple has announced Apple Creator Studio, which it describes as a “groundbreaking collection of powerful creative apps designed to put studio-grade power into the hands of everyone.” Apple Creator Studio will launch on the App Store on Wednesday, January 28, and will cost $12.99 per month or $129 p…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T14:09:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1936,22 +1728,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "cc6415c50c43de70",
-      "title": "Confer – End to end encrypted AI chat",
-      "link": "https://confer.to/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T13:45:45.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2013,22 +1789,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "49a7cd74088a294c",
-      "title": "macOS 26 windows are hard to resize because they aren’t really rounded",
-      "link": "https://9to5mac.com/2026/01/13/macos-26-windows-are-hard-to-resize-because-they-arent-really-rounded/",
-      "summary": "One of the things I noticed after upgrading to macOS 26 was that I would sometimes fail when trying to resize windows – I’d try to grab the corner, but nothing would happen. It turns out that this isn’t clumsiness on my part, but rather a design error by Apple – and that’s because the corners of wi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T13:23:22.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -2115,22 +1875,6 @@
       "region": "global"
     },
     {
-      "id": "bd63f074df9f4625",
-      "title": "Apple didn’t do its Siri Gemini deal for you and I, but it’s still good news",
-      "link": "https://9to5mac.com/2026/01/13/apple-didnt-do-its-siri-gemini-deal-for-you-and-i-but-its-still-good-news/",
-      "summary": "Apple yesterday confirmed reports that it was partnering with Google’s Gemini to provide the AI features for Siri and more. The primary reason for the announcement couldn’t have been made any clearer by the way the company chose to release the news … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T12:40:47.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "df472f2d734db0ec",
       "title": "Rodri and Cisse star in best goals of the FA Cup third round",
       "link": "https://www.bbc.com/sport/football/videos/c62vnmyj6vmo?at_medium=RSS&at_campaign=rss",
@@ -2205,22 +1949,6 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9bd226a33e0afa7b",
-      "title": "Apple tests real-world Car Key performance with major car makers",
-      "link": "https://9to5mac.com/2026/01/13/apple-tests-real-world-car-key-performance-with-major-car-makers/",
-      "summary": "Apple is participating in a week-long event intended to test the real-world performance of the standard behind Car Key. Participating carmakers in the Plugfest event organized by the Car Connectivity Consortium include BMW, General Motors, Hyundai, Mercedes, Rivian, and VW … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T11:59:31.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -2323,22 +2051,6 @@
       "region": "global"
     },
     {
-      "id": "5edd01751948be9b",
-      "title": "Apple @ Work Podcast: Assesing the most exciting features for IT with Apple’s recent software ugprades",
-      "link": "https://9to5mac.com/2026/01/13/apple-work-podcast-assesing-the-most-exciting-features-for-it-with-apples-recent-software-ugprades/",
-      "summary": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage & protect Apple devices at work. Over 45,000 organiza…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T11:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9e1a64d6ef78f9c1",
       "title": "ميونخ ري: تغير المناخ يزيد من خسائر الكوارث الطبيعية عالميا",
       "link": "https://www.skynewsarabia.com/business/1845896-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D8%B1%D9%8A-%D8%AA%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE-%D9%8A%D8%B2%D9%8A%D8%AF-%D8%AE%D8%B3%D8%A7%D9%8A%D9%94%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D8%A7%D8%B1%D8%AB-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A7",
@@ -2384,22 +2096,6 @@
       },
       "lang": "ar",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a015defddef93a62",
-      "title": "'I'll get him yet' - Rock on Littler showdown",
-      "link": "https://www.bbc.com/sport/darts/articles/c14rxv6n58lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Northern Ireland's Premier League newcomer Josh Rock anticipates a febrile atmosphere when he faces double world champion Luke Littler in Belfast on 26 February.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T10:26:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2659,22 +2355,6 @@
       "region": "global"
     },
     {
-      "id": "6a16ca73237bafe2",
-      "title": "Text-based web browsers",
-      "link": "https://cssence.com/2026/text-based-web-browsers/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T05:16:10.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "b1a8bd080551cc99",
       "title": "تراجع أسهم شركات بطاقات الائتمان الأميركية بعد تصريحات ترامب",
       "link": "https://www.skynewsarabia.com/business/1845776-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A7%D9%94%D8%B3%D9%87%D9%85-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%8A%D9%94%D8%AA%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8",
@@ -2803,22 +2483,6 @@
       "region": "global"
     },
     {
-      "id": "6786b161e3a7490b",
-      "title": "iOS 26.3 beta 2 hints at upcoming end-to-end encryption for RCS messages",
-      "link": "https://9to5mac.com/2026/01/12/ios-26-3-beta-hints-at-upcoming-end-to-end-encryption-for-rcs/",
-      "summary": "Last March, Apple announced plans to support end-to-end encryption (E2EE) for RCS messages, following the standardization of the feature by the GSM Association. After nearly a year of silence on that front, today’s betas suggest that Apple is moving closer to rolling it out. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-13T02:16:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "fa6880b5f2e01a19",
       "title": "More than 100 new tech unicorns were minted in 2025 — here they are",
       "link": "https://techcrunch.com/2026/01/12/at-least-36-new-tech-unicorns-were-minted-in-2025-so-far/",
@@ -2931,22 +2595,6 @@
       "region": "global"
     },
     {
-      "id": "def04948df22ea39",
-      "title": "PSA: Google Chrome 151 to drop support for macOS 12 Monterey",
-      "link": "https://9to5mac.com/2026/01/12/google-chrome-151-to-drop-support-for-macos-12-monterey/",
-      "summary": "The Chrome Platform Status blog has confirmed that Chrome 150 will be the last version compatible with macOS 12. Here’s what that means. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T23:34:01.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "cf78b031d60befca",
       "title": "You can now reserve a hotel room on the Moon for $250,000",
       "link": "https://arstechnica.com/space/2026/01/you-can-now-reserve-a-hotel-room-on-the-moon-for-250000/",
@@ -2960,22 +2608,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a7993f5e6fee05de",
-      "title": "WhatsApp testing emoji-based sticker suggestions on iOS",
-      "link": "https://9to5mac.com/2026/01/12/whatsapp-testing-emoji-based-sticker-suggestions-on-ios/",
-      "summary": "The latest WhatsApp TestFlight build introduces sticker suggestions, eliminating the extra steps of having to open and sift through the sticker panel. Here’s how it works. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T23:02:40.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3027,22 +2659,6 @@
       "region": "global"
     },
     {
-      "id": "07912aee49dcf61a",
-      "title": "Unsurprisingly, Elon Musk reacts poorly to Apple’s new Google Gemini deal",
-      "link": "https://9to5mac.com/2026/01/12/elon-musk-reacts-poorly-to-apple-google-gemini-deal/",
-      "summary": "Following today’s announcement that Google’s Gemini will drive new Siri features, Elon Musk took to X to call it “an unreasonable concentration of power” for Google. Find the full post below. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T21:59:11.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ca1ec0f1674b6556",
       "title": "Google removes some AI health summaries after investigation finds “dangerous” flaws",
       "link": "https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/",
@@ -3075,22 +2691,6 @@
       "region": "global"
     },
     {
-      "id": "3158eb1c89a570d3",
-      "title": "iOS 26’s Messages app adds five great new group chat features",
-      "link": "https://9to5mac.com/2026/01/12/ios-26s-messages-app-adds-five-great-new-group-chat-features/",
-      "summary": "iOS 26 is packed full of changes for iPhone users, including five great new group chat features in the Messages app. Here’s what’s new. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T21:31:13.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c44f2282f12fe974",
       "title": "Judge: Trump violated Fifth Amendment by ending energy grants in only blue states",
       "link": "https://arstechnica.com/tech-policy/2026/01/judge-trump-violated-fifth-amendment-by-ending-energy-grants-in-only-blue-states/",
@@ -3104,38 +2704,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b46bb8e6ff29cb87",
-      "title": "Apple’s new Google Gemini deal sounds bigger, better than expected",
-      "link": "https://9to5mac.com/2026/01/12/apples-new-google-gemini-deal-sounds-bigger-better-than-expected/",
-      "summary": "It’s official: Apple and Google are teaming up to power the next-generation Siri with custom Gemini models. And based on the few details that have been revealed, the deal sounds bigger and better than we were expecting. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T21:25:05.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b42a3c13237693c8",
-      "title": "What it’s like to watch an NBA game courtside in Apple Vision Pro",
-      "link": "https://9to5mac.com/2026/01/12/what-its-like-to-watch-an-nba-game-courtside-in-apple-vision-pro/",
-      "summary": "When I tried Apple Vision Pro for the first time at WWDC 2023, one part of the demo immediately stood out: sports in Apple Immersive Video. During a sizzle reel, I watched immersive clips from NBA and MLB games. As a sports fan, I knew right away that Vision Pro had the potential to change the game…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T20:55:37.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3203,22 +2771,6 @@
       "region": "global"
     },
     {
-      "id": "a78ddf988a354176",
-      "title": "Adobe Firefly gets GPT-Image 1.5 support and temporary unlimited image generation",
-      "link": "https://9to5mac.com/2026/01/12/adobe-firefly-gets-gpt-image-1-5-support-and-temporary-unlimited-image-generation/",
-      "summary": "To celebrate the integration between Firefly and OpenAI’s GPT-Image 1.5 model, Firefly Pro and Premium subscribers can generate unlimited images with this model until January 15. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T20:22:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "bf3af42b06bea67c",
       "title": "Switching water sources improved hygiene of Pompeii’s public baths",
       "link": "https://arstechnica.com/science/2026/01/switching-water-sources-improved-hygiene-of-pompeiis-public-baths/",
@@ -3248,22 +2800,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "99220e522c44daad",
-      "title": "Supreme Court takes case that could strip FCC of authority to issue fines",
-      "link": "https://arstechnica.com/tech-policy/2026/01/supreme-court-takes-case-that-could-strip-fcc-of-authority-to-issue-fines/",
-      "summary": "AT&T and Verizon claim right to a jury trial was violated by FCC fines.",
-      "body": "The Supreme Court will hear a case that could invalidate the Federal Communications Commission's authority to issue fines against companies regulated by the FCC. AT&amp;T, Verizon, and T-Mobile challenged the FCC's ability to punish them after the commission fined the carriers for selling customer location data without their users’ consent. AT&amp;T convinced the US Court of Appeals for the 5th Circuit to overturn its fine , while Verizon lost in the 2nd Circuit and T-Mobile lost in the District of Columbia Circuit. Verizon petitioned the Supreme Court to reverse its loss, while the FCC and Justice Department petitioned the court to overturn AT&amp;T's victory in the 5th Circuit. The Supreme Court granted both petitions to hear the challenges and consolidated the cases in a list of orders released Friday. Oral arguments will be held. Read full article Comments",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-supreme-court-1152x648.jpg",
-      "pubDate": "2026-01-12T19:56:01.000Z",
-      "source": {
-        "name": "Ars Technica",
-        "homepage": "https://arstechnica.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3299,38 +2835,6 @@
       "region": "global"
     },
     {
-      "id": "97650928bc1bc9b0",
-      "title": "MagSafe Monday: ESR OmniLock delivers Qi2.2 charging in the car with built-in heat management",
-      "link": "https://9to5mac.com/2026/01/12/esr-omnilock-delivers-qi2-2-charging-in-the-car-with-built-in-heat-management/",
-      "summary": "The appeal of MagSafe is undeniable in the car. The magnetic snap that perfectly aligns the charging coils ensures you are getting the most efficient power transfer possible while also never worrying about a cable. Frankly, once you use MagSafe in the car, there is no going back. Even prior to MagS…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T19:25:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "31d83129d81ea0f9",
-      "title": "9to5Mac Daily: January 12, 2026 – Apple’s Google Gemini deal is official",
-      "link": "https://9to5mac.com/2026/01/12/daily-january-12-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Stuff: Stuff helps you get everything out of your head a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T19:12:57.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c97d7c624baa7a3c",
       "title": "Macclesfield to host Brentford in FA Cup fourth round - see full draw",
       "link": "https://www.bbc.com/sport/football/articles/cy8pngd870vo?at_medium=RSS&at_campaign=rss",
@@ -3347,83 +2851,19 @@
       "region": "global"
     },
     {
-      "id": "cd55a67400e24456",
-      "title": "Speechify launches Voice AI Assistant on iOS",
-      "link": "https://9to5mac.com/2026/01/12/speechify-launches-voice-ai-assistant-on-ios/",
-      "summary": "After launching Voice Typing Dictation on the Mac last month, Speechify is continuing its push to become more than an AI text-to-speech platform. The company today released its Voice AI Assistant on iOS, after previously offering it only on Chrome and the web. Here are the details. more…",
+      "id": "9938caa414a292d9",
+      "title": "Superhuman AI Exfiltrates Emails",
+      "link": "https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails",
+      "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-01-12T18:51:39.000Z",
+      "pubDate": "2026-01-12T18:38:39.000Z",
       "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ea10b3ea90f13011",
-      "title": "tvOS 26.3 and watchOS 26.3 beta 2 now available, plus more",
-      "link": "https://9to5mac.com/2026/01/12/tvos-26-3-and-watchos-26-3-beta-2-now-available-plus-more/",
-      "summary": "Apple has just released developer beta 2 for tvOS 26.3, watchOS 26.3, HomePod 26.3, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T18:16:05.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "932c0848e7795985",
-      "title": "macOS Tahoe 26.3 beta 2 now available, here’s what to expect",
-      "link": "https://9to5mac.com/2026/01/12/macos-tahoe-26-3-beta-2-now-available/",
-      "summary": "Kicking off the 2026 beta period, Apple is rolling out today macOS 26.3 beta 2 for developers, alongside beta 2 releases for iOS 26.3, iPadOS 26.3, and more. Here’s what’s new. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T18:15:30.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2ecca7dca92c5571",
-      "title": "Apple releases iPadOS 26.3 beta 2 for iPad",
-      "link": "https://9to5mac.com/2026/01/12/apple-releases-ipados-26-3-beta-2-for-ipad/",
-      "summary": "iPadOS 26.3 is the next iPad software update, and Apple has just released developer beta 2 of the forthcoming release. Here’s what to expect. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T18:15:05.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9e327d029a22ab00",
-      "title": "Apple releases second iOS 26.3 beta for iPhone",
-      "link": "https://9to5mac.com/2026/01/12/ios-26-beta-2-2/",
-      "summary": "Apple has released the second iOS 26.3 beta for iPhone. The first beta introduced an easier way to switch between Android and iPhone, tweaks to the Astronomy and Weather wallpaper gallery, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T18:13:27.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "weather",
       "region": "global"
     },
     {
@@ -3459,22 +2899,6 @@
       "region": "global"
     },
     {
-      "id": "39be4a82474741aa",
-      "title": "Apple Podcasts is officially more popular than it’s ever been",
-      "link": "https://9to5mac.com/2026/01/12/apple-podcasts-is-officially-more-popular-than-its-ever-been/",
-      "summary": "Today Apple published updates on a variety of services’ 2025 performance, and one of the most surprising details for me involved Apple Podcasts. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T17:56:16.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ae737ddb38138580",
       "title": "Paramount won't quit, files suit against Warner Bros. Discovery over rejected bid",
       "link": "https://www.engadget.com/entertainment/paramount-wont-quit-files-suit-against-warner-bros-discovery-over-rejected-bid-175317166.html?src=rss",
@@ -3485,22 +2909,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4362107eb3bc00e5",
-      "title": "Will Apple-Google AI deal impact user privacy? Here’s what Apple says",
-      "link": "https://9to5mac.com/2026/01/12/will-apple-google-ai-deal-impact-user-privacy-heres-what-apple-says/",
-      "summary": "Today Apple confirmed a new partnership with Google to power future AI features, including the upcoming Siri overhaul. But how will that impact user privacy? Here’s what Apple says. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T17:13:47.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -3555,22 +2963,6 @@
       "region": "global"
     },
     {
-      "id": "072ad3ba819dd4b0",
-      "title": "iOS 26.2.1 could launch soon as next iPhone update",
-      "link": "https://9to5mac.com/2026/01/12/ios-26-2-1-could-launch-soon-as-next-iphone-update/",
-      "summary": "iOS 26.2 was released last month with a bunch of great features, and now it appears that a new iOS 26.2.1 update is coming soon for iPhone users. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T16:48:40.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "2fe32311d2ce7f2d",
       "title": "ExpressVPN deal: Two-year plans are up to 78 percent off",
       "link": "https://www.engadget.com/deals/expressvpn-deal-two-year-plans-are-up-to-78-percent-off-180602243.html?src=rss",
@@ -3584,22 +2976,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a6dca3fa273d0887",
-      "title": "Deals: Mac mini $110 off, Apple Watch Ultra 2 up to $360 off, Alpine Loop-style band $20, Best Buy Winter sale, more",
-      "link": "https://9to5mac.com/2026/01/12/deals-mac-mini-apple-watch-ultra-2-best-buy-winter-sale/",
-      "summary": "Today’s 9to5Toys Lunch Break features the ongoing $100 price drops on Apple Watch Series 11, but we also have some offers on Ultra as well. You’ll find the black Apple Watch Ultra 2 with the gorgeous matching Milanese Loop at $200 off or this Amazon “excellent” refurbished unit down at $439 (that’s…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T16:43:16.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3683,38 +3059,6 @@
       "region": "global"
     },
     {
-      "id": "f9fbb59a76dea3a1",
-      "title": "Apple confirms Google’s Gemini will power new Siri features",
-      "link": "https://9to5mac.com/2026/01/12/apple-confirms-googles-gemini-will-power-new-siri-features/",
-      "summary": "Apple has confirmed that it is teaming up with Google to use Gemini models to power future Siri and Apple Intelligence features. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T15:25:26.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7b3e32db9accbdaa",
-      "title": "Pluribus now has official merch for sale, here’s everything available",
-      "link": "https://9to5mac.com/2026/01/12/pluribus-now-has-official-merch-for-sale-heres-everything-available/",
-      "summary": "Pluribus season 2 may be a ways off, but you can now show your love for Apple TV’s popular series by getting official merchandise, with t-shirts, a hat, and hoodie all available. Here’s the full list. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T14:51:45.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "43f801551bc7491c",
       "title": "Audible deal: Get three months of access for only $3",
       "link": "https://www.engadget.com/deals/audible-deal-get-three-months-of-access-for-only-3-193859213.html?src=rss",
@@ -3725,22 +3069,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "138ad3f359e4a468",
-      "title": "PSA: Instagram password reset emails should be ignored",
-      "link": "https://9to5mac.com/2026/01/12/psa-instagram-password-reset-emails-should-be-ignored/",
-      "summary": "If you’ve received an Instagram password reset email, claiming that you requested it, you should ignore it. Malwarebytes reports that cybercriminals stole Instagram account details for 17.5 million users, but the social network claims that there was no security breach … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T14:28:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -3792,22 +3120,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b3a65d339a6d543c",
-      "title": "Eddy Cue touts ‘record-breaking year’ for Apple services, including TV, Music, more",
-      "link": "https://9to5mac.com/2026/01/12/eddy-cue-touts-record-breaking-year-for-apple-services-including-tv-music-more/",
-      "summary": "In a new press release today, Apple is celebrating the success of its services division throughout 2025. The company says that 2025 was a “record-breaking year for Apple services,” with milestones for Apple Music, Apple TV, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T14:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3968,38 +3280,6 @@
       },
       "lang": "ar",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6a9ab5d4e990178c",
-      "title": "iPhone market share now bigger than Samsung, not just due to iPhone 17",
-      "link": "https://9to5mac.com/2026/01/12/iphone-market-share-now-bigger-than-samsung-not-just-due-to-iphone-17/",
-      "summary": "After two years of Apple and Samsung being neck and neck in the smartphone market share stakes, iPhone market share beat out the Korean company by the end of last year, according to a new market intelligence report. Apple also enjoyed by far the largest year-on-year growth in smartphone shipments, …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T11:48:38.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7ed5220428f8019f",
-      "title": "Apple TV comedy that mocked Golden Globes wins Golden Globe for best comedy",
-      "link": "https://9to5mac.com/2026/01/12/apple-tv-golden-globes-win-studio-pluribus/",
-      "summary": "The story of the Apple TV comedy The Studio has come full circle, with the actual Golden Globes ceremony last night honoring the show with the Best Television Series – Musical or Comedy award, and star Seth Rogen for Best Performance by a Male Actor in a Comedy Series. It follows major wins at the …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T11:45:09.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
@@ -4419,22 +3699,6 @@
       "region": "global"
     },
     {
-      "id": "68cfa424efeb2bd7",
-      "title": "Apple launching ‘revamped’ Health app later this year with these four upgrades",
-      "link": "https://9to5mac.com/2026/01/11/apple-health-new-features-and-overhaul-coming-ios-26-4/",
-      "summary": "Over the past year or so, we’ve heard a plethora of Health app related rumors. Tim Cook has stated that one of Apple’s largest contributions to society will be in health, and this series of upgrades will be a key part of that vision. We’ll be recapping those upgrades, and you should be seeing them …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-11T23:36:49.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "1dd0d24e7edbc996",
       "title": "Google's new commerce framework cranks up the heat on 'agentic shopping'",
       "link": "https://www.engadget.com/big-tech/googles-new-commerce-framework-cranks-up-the-heat-on-agentic-shopping-212433122.html?src=rss",
@@ -4627,22 +3891,6 @@
       "region": "global"
     },
     {
-      "id": "8777c57bfd069b7c",
-      "title": "This new Apple Intelligence feature in iOS 26 might be one of my all-time favorites",
-      "link": "https://9to5mac.com/2026/01/11/ios-26-new-screenshot-apple-intelligence-favorite-feature/",
-      "summary": "It’s been half a year since iOS 26 debuted in beta, so I’ve had quite a bit of time to sit with it. In a release with such a massive redesign, it’s easy for some of the smaller additional features to fly under the radar – but after giving iOS 26 my fair shot, I’ve come to really like one underlying…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-11T17:50:49.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ed80f9462ab68e9f",
       "title": "Instagram says accounts 'are secure' after wave of suspicious password reset requests",
       "link": "https://www.engadget.com/cybersecurity/instagram-says-accounts-are-secure-after-wave-of-suspicious-password-reset-requests-192105188.html?src=rss",
@@ -4672,22 +3920,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "429cd4919584f248",
-      "title": "iPhone 17e launching as soon as next month: Here are five upgrades to look forward to",
-      "link": "https://9to5mac.com/2026/01/11/iphone-17e-launching-soon-rumored-upgrades-and-what-to-expect/",
-      "summary": "Last year, Apple introduced a new model at the bottom of the iPhone lineup, and it launched iPhone 16e. Now, the company is expected to follow up just a year later with a successor. Here’s what’s rumored. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-11T15:29:45.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -4723,22 +3955,6 @@
       "region": "global"
     },
     {
-      "id": "808c0a8c5aa46592",
-      "title": "Here are some of my favorite CES 2026 announcements for iPhone and Mac users",
-      "link": "https://9to5mac.com/2026/01/10/my-favorite-apple-accessory-ces-2026-announcements-for-iphone-and-mac/",
-      "summary": "Every January, CES takes place in Las Vegas. Given the fact that Apple themselves never partakes in CES, it’s not necessarily a super important event for me to go to. That said, it’s always fun to see what’s going on in the tech world, and also see what Apple-adjacent products are coming to market.…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-10T22:15:35.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "927775485429ae54",
       "title": "GameStop reportedly shuts down more than 400 US stores",
       "link": "https://www.engadget.com/gaming/gamestop-reportedly-shuts-down-more-than-400-us-stores-210632743.html?src=rss",
@@ -4749,38 +3965,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "be336aedb7e26c24",
-      "title": "Indie App Spotlight: ‘Zephy’ makes plane spotting easy, with an AirTag-style interface",
-      "link": "https://9to5mac.com/2026/01/10/indie-app-spotlight-zephy-plane-spotting-app-for-iphone/",
-      "summary": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. If you’ve ever found yourself looking into the sky and wondered “huh, that plane looks a little interesti…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-10T20:30:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "94fc4f874634bb6a",
-      "title": "Here’s what to expect with Siri and Apple Intelligence in the coming months",
-      "link": "https://9to5mac.com/2026/01/10/heres-what-to-expect-with-siri-and-apple-intelligence-in-the-coming-months/",
-      "summary": "In just a few short months, we should hopefully get our first look at an all new AI-infused Siri. After unveiling it over a year and a half ago, Apple’s vision for an all new Siri faced many engineering challenges – and is yet to hit users devices. That should be changing soon, though. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-10T19:03:01.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -4851,38 +4035,6 @@
       "region": "global"
     },
     {
-      "id": "2f9450af330e7002",
-      "title": "The robots we saw at CES 2026: The lovable, the creepy and the utterly confusing",
-      "link": "https://www.engadget.com/ai/the-robots-we-saw-at-ces-2026-the-lovable-the-creepy-and-the-utterly-confusing-153537930.html?src=rss",
-      "summary": "CES always has its share of attention-grabbing robots. But this year in particular seemed to be a landmark year for robotics. The advancement in AI technology has not only given robots better “brains,” it’s enabled new levels of autonomy and given rise to an ambitious, if sometimes questionable, vi…",
-      "body": null,
-      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fcloid_hands.jpg&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=191f9622b06f63c4a1d6e4ac39749f47118dae7a",
-      "pubDate": "2026-01-10T15:35:37.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6346de47c009b72c",
-      "title": "Roborock cuts $300 off its best floor cleaner in a limited-time exclusive F25 Ultra deal",
-      "link": "https://9to5mac.com/2026/01/10/roborock-cuts-300-off-best-floor-cleaner-f25-ultra-deal/",
-      "summary": "Roborock is launching a limited-time promotion on its latest F25 series floor cleaners, offering meaningful discounts on both the impressive flagship F25 Ultra and the more affordable F25 GT. Starting today, these deals make Roborock’s newest wet and dry cleaning technology affordable for everyone.…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-10T15:35:05.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "31df9d0d125ce05d",
       "title": "أبوظبي تستضيف الجمعية العامة لـ\"آيرينا\" بمشاركة 1500 مسؤول",
       "link": "https://www.skynewsarabia.com/business/1845348-%D8%A7%D9%94%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%80%D8%A7%D9%93%D9%8A%D8%B1%D9%8A%D9%86%D8%A7-%D8%A8%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-1500-%D9%85%D8%B3%D9%88%D9%94%D9%88%D9%84",
@@ -4931,22 +4083,6 @@
       "region": "global"
     },
     {
-      "id": "0b1edcca9cc24c7a",
-      "title": "Apple @ Work: It’s time for an Apple Knowledge Base Articles API to save us from bad AI troubleshooting",
-      "link": "https://9to5mac.com/2026/01/10/apple-knowledge-base-articles-api/",
-      "summary": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage and protect Apple devices at work. Over 45,000 organi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-10T14:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "a558e9845625c6a3",
       "title": "هل يعيد الذكاء الاصطناعي تعريف تجربة البحث؟",
       "link": "https://www.skynewsarabia.com/business/1844470-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB%D8%9F",
@@ -4963,83 +4099,19 @@
       "region": "global"
     },
     {
-      "id": "c3f82577e1e6ebbc",
-      "title": "Mystery AI lab that poached iPhone Air designer revealed",
-      "link": "https://9to5mac.com/2026/01/09/iphone-air-designer-left-for-hark-ai-lab/",
-      "summary": "Two months after reporting that the industrial designer who introduced the iPhone Air at Apple’s September event had left for an unnamed AI company, Bloomberg has now shared details on where he went. more…",
+      "id": "b5639a8609f181a0",
+      "title": "Why Real Life is better than IRC (2000)",
+      "link": "https://everything2.com/node/e2node/Why%20Real%20Life%20is%20better%20than%20IRC",
+      "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-01-10T00:10:07.000Z",
+      "pubDate": "2026-01-09T21:01:13.000Z",
       "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "658b0984620d3d76",
-      "title": "OmniOutliner 6 gets Liquid Glass support, Apple Intelligence compatibility, more",
-      "link": "https://9to5mac.com/2026/01/09/omnioutliner-6-officially-released-with-liquid-glass-apple-intelligence-omni-links/",
-      "summary": "Following a short beta period, The Omni Group has officially launched OmniOutliner 6. It features multiple powerful improvements and new features that will make any outlining task even more streamlined and helpful, even for the non-practicing outliners out there. Here are the highlights. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T23:04:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "066651e76205cccd",
-      "title": "iOS 26 adds new ‘Games’ app on iPhone, here’s what it does",
-      "link": "https://9to5mac.com/2026/01/09/ios-26-adds-new-games-app-on-iphone-heres-what-it-does/",
-      "summary": "iOS 26 introduces two brand new apps for iPhone users, one of which is called ‘Apple Games.’ Here’s what the Games app does, including recent iOS 26.2 updates. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T21:18:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ab1ffe393b40ad07",
-      "title": "9to5Mac Daily: January 9, 2026 – Apple exec pay, more",
-      "link": "https://9to5mac.com/2026/01/09/daily-january-9-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by 9to5Mac Daily Plus: Get ad-free versions of every episod…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T20:56:31.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5ff9b22823e467ec",
-      "title": "9to5Mac Overtime 054: How’s it better than AltaVista?",
-      "link": "https://9to5mac.com/2026/01/09/9to5mac-overtime-054-hows-it-better-than-altavista/",
-      "summary": "Jeff and Fernando are back with a chit chat about the best tech from the last year, and what they’re most looking forward to in 2026. 9to5Mac Overtime is a weekly video-first podcast exploring fun and interesting observations in the Apple ecosystem, featuring 9to5Mac’s Fernando Silva & Jeff Benjami…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T20:31:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5059,38 +4131,6 @@
       "region": "global"
     },
     {
-      "id": "57d4254caf43e8ab",
-      "title": "HomeKit Weekly: Flic brings physical button control to your Matter environment",
-      "link": "https://9to5mac.com/2026/01/09/flic-brings-physical-button-control-to-your-matter-environment/",
-      "summary": "I love the idea of a fully automated smart home setup where my lights turn on exactly when I need them, and the thermostat adjusts itself without me even thinking about it. In practice, however, there are times when you simply want to push a button for things to happen. For guests, babysitters, or …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T19:43:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d01ea635c304525a",
-      "title": "Apple says Home app upgrade deadline is fast approaching",
-      "link": "https://9to5mac.com/2026/01/09/apple-says-home-app-upgrade-deadline-is-fast-approaching/",
-      "summary": "Years ago, Apple introduced a brand new Home app architecture for improving accessory reliability and enabling new features. The deadline for users to upgrade was originally last fall, then got pushed to February, and now Apple is reminding users of the deadline once again. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T18:55:12.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d8fb035bf56ee810",
       "title": "Going for Gold: The Story of the Golden Lego RCX and NXT",
       "link": "https://bricknerd.com/home/going-for-gold-the-story-of-the-golden-lego-rcx-and-nxt-9-9-21",
@@ -5104,22 +4144,6 @@
       },
       "lang": "en",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "bba80c794fc52481",
-      "title": "Four new iPhones will launch this year, here’s what’s coming",
-      "link": "https://9to5mac.com/2026/01/09/four-new-iphones-coming-next-year-with-one-launch-very-soon/",
-      "summary": "Apple has 20+ products in the works for 2026 launches, including four new iPhone models—one of which is expected to arrive very soon. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T18:03:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -5149,102 +4173,6 @@
       "source": {
         "name": "New Scientist",
         "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9210ac6f6862a7bb",
-      "title": "Introducing 9to5Mac Forums: A new place to connect",
-      "link": "https://9to5mac.com/2026/01/09/introducing-9to5mac-forums-a-new-place-to-connect/",
-      "summary": "We’re excited to introduce a new way for the 9to5Mac community to engage: 9to5Mac Forums. Here’s how it works and everything you need to know. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T17:58:58.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b2df277ea47405e8",
-      "title": "iOS 26 lets you change your default iPhone apps, here’s how",
-      "link": "https://9to5mac.com/2026/01/09/ios-26-lets-you-change-your-default-iphone-apps-heres-how/",
-      "summary": "Your iPhone uses preinstalled Apple apps by default for system actions like opening links, making phone calls, and more. But iOS lets you set new default apps in a variety of categories, and the available options expanded in iOS 26. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T17:08:53.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "50c8bbfd3b3c83d4",
-      "title": "I love the iPhone Air, but two things stopped me from committing [Video]",
-      "link": "https://9to5mac.com/2026/01/09/i-love-the-iphone-air-but-two-things-stopped-me-from-committing-video/",
-      "summary": "The iPhone Air is the most exciting iPhone Apple has released since the iPhone X. It’s thin, lightweight, and amazingly designed, and for the first time in a long time, it’s different. Apple’s iPhone lineup has felt increasingly redundant. The iPhones have all looked and felt the same since the iPh…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T17:01:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c247d8464b996884",
-      "title": "My return to being a two-Mac guy really worked out for me",
-      "link": "https://9to5mac.com/2026/01/09/my-return-to-being-a-two-mac-guy-really-worked-out-for-me/",
-      "summary": "My Mac history is … fairly lengthy, starting with the original Macintosh when it launched way back in 1984. I’m not sure I could even reliably count the number of models I’ve owned since then. For most of the time since, I’ve owned one Mac at a time. There was a previous period when I owned two Mac…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T17:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ecdb28fbe8cd8d9c",
-      "title": "Deals: 256GB iPhone 16 Pro $320 off, 1TB M5 MacBook Pro $200 off, Trail Loops up to 25% off, more",
-      "link": "https://9to5mac.com/2026/01/09/deals-iphone-16-pro-1tb-m5-macbook-pro-trail-loop/",
-      "summary": "Today’s 9to5Toys Lunch Break is now ready to roll down below. We have a chance to score Apple’s most affordable iPhone 16 Pro models at up to $320 off alongside its 16GB/1TB M5 MacBook Pro at nearly $200 off. Moving over to the wearable side of things, you will find Apple Watch Series 11 at up to $…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T16:47:30.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5cabe30b6d1d4a3d",
-      "title": "Apple asked to pull X and Grok apps over ‘sickening content generation’",
-      "link": "https://9to5mac.com/2026/01/09/apple-asked-to-pull-x-and-grok-apps-over-sickening-content-generation/",
-      "summary": "Three U.S. Senators have asked Apple CEO Tim Cook to temporarily remove X and Grok from the App Store due to “sickening content generation” in recent days. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T16:38:10.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -5299,22 +4227,6 @@
       "region": "global"
     },
     {
-      "id": "f0cb4268cb198b84",
-      "title": "iOS 26 gave screenshots a hidden power I’ve started using a lot",
-      "link": "https://9to5mac.com/2026/01/09/ios-26-gave-screenshots-a-hidden-power-ive-started-using-a-lot/",
-      "summary": "iOS 26 brings visual intelligence to screenshots, enabling several new features. But there’s one I only recently discovered that solves the common problem of plain text URLs you can’t easily tap to open. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T15:52:24.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "338b7163cf0e43dd",
       "title": "Man whose gut made its own alcohol gets relief from faecal transplant",
       "link": "https://www.newscientist.com/article/2510789-man-whose-gut-made-its-own-alcohol-gets-relief-from-faecal-transplant/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -5325,54 +4237,6 @@
       "source": {
         "name": "New Scientist",
         "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "da034342cf80db13",
-      "title": "iPhone Air 2 could get two of the most requested feature upgrades",
-      "link": "https://9to5mac.com/2026/01/09/iphone-air-2-could-get-two-of-the-most-requested-feature-upgrades/",
-      "summary": "Apple may have fixes coming for iPhone Air 2 that address two major concerns with the first model: cameras and battery life. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T14:53:02.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "196026bd0474fa01",
-      "title": "Apple’s most watched TV show just barely makes an appearance on the Nielsen streaming chart",
-      "link": "https://9to5mac.com/2026/01/09/apple-tv-pluribus-streaming-chart-nielsen/",
-      "summary": "In December, without providing specific viewing figures of course, Apple said that Pluribus had become the most watched TV show in the history of the Apple TV streaming service. The show has now also appeared in industry analytics firm Nielsen’s US streaming report. For the week commencing December…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T14:00:45.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5d9812bb58e4ee66",
-      "title": "Here are the new emoji likely coming to iPhone with iOS 27",
-      "link": "https://9to5mac.com/2026/01/09/new-emojis-coming-to-iphone-ios-27/",
-      "summary": "Apple generally adds new emojis to the iPhone with iOS updates in spring. As spotted by the folks at Emojipedia this week, the Unicode Consortium recently published the full list of draft emojis that could debut next year. Among the list of new additions are a smiley face with squinting eyes, a pic…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T13:11:05.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -5731,102 +4595,6 @@
       "region": "global"
     },
     {
-      "id": "08bf2a39857865c9",
-      "title": "Apple TV’s first release of the year sees the return of thriller series Tehran",
-      "link": "https://9to5mac.com/2026/01/08/apple-tv-tehran-season-three-streaming-now/",
-      "summary": "The Apple TV streaming service kicks off its 2026 slate with the return of international thriller series Tehran. The long-delayed third season starts airing today with the first episode, with new episodes dropping each Friday through February 27. In season three, Hugh Laurie joins the cast in the r…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-09T02:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3b92a5d23157e8ca",
-      "title": "Here’s how much Tim Cook and other Apple execs made last year",
-      "link": "https://9to5mac.com/2026/01/08/heres-how-much-tim-cook-and-other-apple-execs-made-last-year/",
-      "summary": "In today’s annual proxy filing, Apple revealed full details on executive compensation for 2025. This includes on how much Apple CEO Tim Cook was paid during the year, as well as other senior executives including Kevan Parekh, Kate Adams, Sabih Khan, Luca Maestri, and Deirdre O’Brien. In total, Appl…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T22:43:06.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5f7273d0824816fa",
-      "title": "9to5Mac Daily: January 8, 2026 – The future of Apple Card",
-      "link": "https://9to5mac.com/2026/01/08/daily-january-8-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by 9to5Mac Daily Plus: Get ad-free versions of every episod…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T21:03:46.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a30214e34ebe561e",
-      "title": "Rumor Replay: iPhone Fold’s crease-free display, and more",
-      "link": "https://9to5mac.com/2026/01/08/rumor-replay-iphone-folds-crease-free-display-and-more/",
-      "summary": "This is Rumor Replay, a weekly column at 9to5Mac offering a quick rundown of the most recent Apple product rumors, with analysis and commentary. Today: first look at iPhone Fold’s likely crease-free display technology, future iPhone camera upgrades, and more. Here are this week’s Apple rumors. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T20:19:52.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1169968036feb273",
-      "title": "Apple releases iOS 26.3 security test for beta users, details here [U: New update]",
-      "link": "https://9to5mac.com/2026/01/08/apple-releases-ios-26-3-security-test-for-beta-users-details-here/",
-      "summary": "If you’re running the iOS 26.3 beta, Apple has just released a new security update you can install. But there’s a catch: rather than including fixes, the update is simply testing out a new system. Here are the details. [Updated 1/8 with second release details] more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T19:43:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9137a1a38c2dd995",
-      "title": "‘Eternity’ film gets Apple TV release date",
-      "link": "https://9to5mac.com/2026/01/08/eternity-film-gets-apple-tv-release-date/",
-      "summary": "Apple TV has just set the release date for its next movie, Eternity, which hails from A24 and originally debuted in theaters late last year. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T19:35:34.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "1e41a20317629d41",
       "title": "Tree bark microbiome has important overlooked role in climate",
       "link": "https://www.newscientist.com/article/2510731-tree-bark-microbiome-has-important-overlooked-role-in-climate/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -5843,54 +4611,6 @@
       "region": "global"
     },
     {
-      "id": "57013d8d51099102",
-      "title": "Apple Card Chase transition is official, NBA on Vision Pro, Fitness+ in 2026",
-      "link": "https://9to5mac.com/2026/01/08/happy-hour-572/",
-      "summary": "Benjamin and Chance cover this week in Apple news, including the long-awaited announcement that the Apple Card will be switching from Goldman Sachs to Chase, in about . Also, Fitness+ doesn’t quite live up to its own new year marketing hype, NBA live-streaming kicks off on Vision Pro, and Apple mak…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T17:56:35.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f7f05c0e25617e18",
-      "title": "Are people updating to iOS 26? Here’s what the data reportedly shows",
-      "link": "https://9to5mac.com/2026/01/08/most-iphone-users-are-still-running-ios-18-with-ios-26-adoption-slow-report/",
-      "summary": "iOS 26 has been available for nearly four months, yet reporting from Statcounter indicates the iPhone update is lagging significantly behind predecessors in adoption, with most users opting to stay on iOS 18. Meanwhile, data from TelemetryDeck paints a different, more optimistic picture. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T17:50:42.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7892b27f865dade8",
-      "title": "The New York Times profiles Apple’s expected next CEO",
-      "link": "https://9to5mac.com/2026/01/08/the-new-york-times-profiles-apples-expected-next-ceo/",
-      "summary": "It has long been an open secret that John Ternus is a leading candidate to succeed Tim Cook as Apple CEO, following more than fourteen years at the helm. Bloomberg’s Mark Gurman has reinforced that expectation through years of reporting on Apple’s succession planning. Today, The New York Times adds…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T17:23:04.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ae1b3b8b4a316f69",
       "title": "Some quantum computers might need more power than supercomputers",
       "link": "https://www.newscientist.com/article/2509492-some-quantum-computers-might-need-more-power-than-supercomputers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -5901,70 +4621,6 @@
       "source": {
         "name": "New Scientist",
         "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6f6f140897f86a75",
-      "title": "Apple shuts down AliveCor antitrust claims after earlier Apple Watch patent win",
-      "link": "https://9to5mac.com/2026/01/08/apple-shuts-down-alivecor-antitrust-claims-after-earlier-apple-watch-patent-win/",
-      "summary": "AliveCor’s latest attempt to revive its Apple Watch antitrust case fell short this week, with a federal appeals court handing Apple another win. Today’s development follows the company’s earlier win in the International Trade Commission patent case last spring. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T16:59:48.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "486667910d50ed8a",
-      "title": "Deals: AirPods Pro 3 back at holiday lows, M5 iPad Pro $150 off, black/natural Milanese Loop, and more",
-      "link": "https://9to5mac.com/2026/01/08/deals-airpods-pro-3-m5-ipad-pro-milanese-loop/",
-      "summary": "Joining the ongoing $100 price drops on Apple Watch Series 11, today’s 9to5Toys Lunch Break is headlined by AirPods Pro 3. You’ll now find Apple’s latest and greatest in-ear listening experience sitting within $1 of the best Amazon price we have tracked to date, Black Friday and the holidays includ…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T16:41:59.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a3e1cedccc5b60f3",
-      "title": "Disney+ announces vertical video is coming to the app soon",
-      "link": "https://9to5mac.com/2026/01/08/disney-announces-vertical-video-is-coming-to-the-app-soon/",
-      "summary": "Disney+ will soon be home not just to the Disney, Hulu, and ESPN content libraries—vertical video is being added too. Here are the details from Disney’s announcement. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T16:12:18.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6f361b4a59ad1423",
-      "title": "iPhone Fold might be more like an iPad than an iPhone",
-      "link": "https://9to5mac.com/2026/01/08/iphone-fold-might-be-more-like-an-ipad-than-an-iphone/",
-      "summary": "The latest iPhone Fold leaks provoke interesting questions around whether the device will feel more like an iPhone or an iPad. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T15:39:46.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -6003,38 +4659,6 @@
       "region": "global"
     },
     {
-      "id": "ab000fdb8f1b6a36",
-      "title": "Apple TV unveils the return of one of its best-reviewed shows",
-      "link": "https://9to5mac.com/2026/01/08/apple-tv-unveils-the-return-of-one-of-its-best-reviewed-shows/",
-      "summary": "Apple TV has a stacked lineup of returning shows coming soon, including the just-unveiled season 2 of Drops of God, one of the streamer’s best reviewed shows ever. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T14:37:10.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "03acc4e9bd60b8ce",
-      "title": "The Smartlet dual watch band is the most ridiculous Apple Watch accessory yet",
-      "link": "https://9to5mac.com/2026/01/08/the-smartlet-dual-watch-band-is-the-most-ridiculous-apple-watch-accessory-yet/",
-      "summary": "Choosing between a conventional watch and an Apple Watch can be tricky, especially if you love mechanical watches but still want the features of its high-tech offspring. But the creators of what may be the most ridiculous Apple Watch accessory yet think you shouldn’t have to choose … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T13:07:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "80374e915e8edde0",
       "title": "Red tattoo ink causes man to lose all his hair and stop sweating",
       "link": "https://www.newscientist.com/article/2510374-red-tattoo-ink-causes-man-to-lose-all-his-hair-and-stop-sweating/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -6048,38 +4672,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1e4b2d0f623453f9",
-      "title": "Apple Watch blood sugar monitoring a step closer as new tech launches",
-      "link": "https://9to5mac.com/2026/01/08/apple-watch-blood-sugar-monitoring-a-step-closer-as-new-tech-launches/",
-      "summary": "Apple Watch blood sugar monitoring is something the company reportedly wanted to do right from the start. A report back in 2023 said that the very first Apple Watch was initially intended to launch with non-invasive glucose measurement as a headline feature. There have been numerous reports since t…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T12:32:48.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "43dc82a76ea561cd",
-      "title": "Apple Back to School deals are live in several countries",
-      "link": "https://9to5mac.com/2026/01/08/apple-back-to-school-deals-are-live-in-several-countries/",
-      "summary": "Apple’s Back to School deals in the US and Europe don’t launch until the summer, but they are live in several countries that get them much earlier in the year. In addition to the normal education discounts, you can choose from one of a number of free accessories when buying an iPad, MacBook, or iMa…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-08T11:57:06.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -6323,118 +4915,6 @@
       "region": "global"
     },
     {
-      "id": "1867769bf429db7f",
-      "title": "Apple confirms Chase takeover for Apple Card and reveals new details",
-      "link": "https://9to5mac.com/2026/01/07/apple-confirms-chase-takeover-for-apple-card-and-reveals-new-details/",
-      "summary": "Apple has confirmed that Chase will become the new issuer of Apple Card, taking over for Goldman Sachs. Apple says the transition will occur “in approximately 24 months.” “During this transition, Apple Card users can continue to use their card as they normally do,” Apple says. “Additional details r…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T23:04:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "debf52fde9b421e1",
-      "title": "Apple TV hit comedy lands the most acting award nominations of all TV shows",
-      "link": "https://9to5mac.com/2026/01/07/apple-tv-hit-comedy-lands-the-most-acting-award-nominations-of-all-tv-shows/",
-      "summary": "Apple TV’s recent strong awards season continues today, as hit comedy The Studio has just become the single most-nominated TV show at the 32nd Annual Actor Awards. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T21:50:56.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2f18c0f63df1ab19",
-      "title": "Here’s every iOS 26 setting I changed on my iPhone right away",
-      "link": "https://9to5mac.com/2026/01/07/heres-every-ios-26-setting-i-changed-on-my-iphone-right-away/",
-      "summary": "iOS 26 and its subsequent updates have brought a lot of new ways to customize your iPhone in the Settings app. Here are the new iOS 26 settings I changed on my iPhone right away. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T21:20:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ba6ed6f5fd988767",
-      "title": "Apple reportedly finds Apple Card partner to replace Goldman Sachs",
-      "link": "https://9to5mac.com/2026/01/07/apple-reportedly-finds-apple-card-partner-to-replace-goldman-sachs/",
-      "summary": "Apple has found an Apple Card partner replacement for Goldman Sachs, according to a new Wall Street Journal report. The latest development comes more than two years after Goldman Sachs and Apple were initially reported to part ways. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T20:49:20.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "3a2bdd7820ccf57f",
-      "title": "9to5Mac Daily: January 7, 2026 – iPhone camera rumors, more",
-      "link": "https://9to5mac.com/2026/01/07/daily-january-7-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by 9to5Mac Daily Plus: Get ad-free versions of every episod…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T20:11:58.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e4aafd20a1b15329",
-      "title": "iOS 27 and more: Here are the iPhone software updates coming this year",
-      "link": "https://9to5mac.com/2026/01/07/new-iphone-software-updates-ios-27-coming-this-year/",
-      "summary": "Apple is set to release a consistent stream of new iPhone software updates this year. There are major changes still to come with iOS 26, as well as iOS 27 coming at WWDC in June. Here’s the full timeline on when to expect these updates. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T19:59:19.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a85776e8864756d0",
-      "title": "Apple Health integration launches in new ‘ChatGPT Health’ feature",
-      "link": "https://9to5mac.com/2026/01/07/apple-health-integration-launches-in-new-chatgpt-health-feature/",
-      "summary": "Today OpenAI has launched ‘ChatGPT Health,’ a new feature powered by integration with Apple Health, MyFitnessPal, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T19:41:16.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "870a55b838060338",
       "title": "Git Rebase for the Terrified",
       "link": "https://www.brethorsting.com/blog/2026/01/git-rebase-for-the-terrified/",
@@ -6464,22 +4944,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1a085aa8e60f69f2",
-      "title": "Dell admits that PC buyers don’t actually care about AI",
-      "link": "https://9to5mac.com/2026/01/07/dell-admits-that-pc-buyers-dont-actually-care-about-ai/",
-      "summary": "AI has been a huge buzzword at Apple and other tech companies for years. But Dell just admitted that PC buyers don’t actually care about AI—at least not yet. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-07T18:45:32.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
