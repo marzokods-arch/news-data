@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-01-13T08:54:55.262Z",
-    "total": 208,
+    "generated_at": "2026-01-13T09:19:12.372Z",
+    "total": 207,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 73,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -19,19 +32,6 @@
         ],
         "taken": 0,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -48,6 +48,19 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "National Geographic — Science",
         "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
@@ -61,19 +74,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 74,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "CNBC — Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
@@ -83,19 +83,6 @@
           "general"
         ],
         "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -126,6 +113,19 @@
         "notModified": false
       },
       {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
@@ -152,16 +152,29 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 22,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -178,16 +191,16 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
+        "taken": 22,
+        "error": null,
         "notModified": false
       },
       {
@@ -217,16 +230,16 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -243,34 +256,165 @@
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "a5e3cc4e09aff6bd",
+      "title": "Raspberry Pi reports strong 2025 results, faces DRAM uncertainty",
+      "link": "https://www.investing.com/news/stock-market-news/raspberry-pi-reports-strong-2025-results-faces-dram-uncertainty-93CH-4443728",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC180BO_M.jpg",
+      "pubDate": "2026-01-13T09:05:45.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "9afc168c9a01f7f6",
+      "title": "Compass Point upgrades MasterCard stock rating to Buy with $735 price target",
+      "link": "https://www.investing.com/news/analyst-ratings/compass-point-upgrades-mastercard-stock-rating-to-buy-with-735-price-target-93CH-4443727",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2026-01-13T09:05:15.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f702f51d4bd7a32b",
+      "title": "THG shares surge as fourth quarter revenue beats expectations",
+      "link": "https://www.investing.com/news/earnings/thg-reports-record-h2-revenue-exceeding-guidance-4443580",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+      "pubDate": "2026-01-13T09:04:08.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6e87cbdf118588c3",
+      "title": "The Gym Group raises guidance, accelerates expansion, plans buyback",
+      "link": "https://www.investing.com/news/stock-market-news/the-gym-group-raises-guidance-accelerates-expansion-plans-buyback-93CH-4443717",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC0Q0MJ_M.jpg",
+      "pubDate": "2026-01-13T09:04:04.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "84cd62bed775da6e",
+      "title": "Lindt’s price hikes drive yearly sales beat",
+      "link": "https://www.investing.com/news/stock-market-news/lindts-yearly-sales-slightly-beat-expectations-4443518",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0C08C_L.jpg",
+      "pubDate": "2026-01-13T09:00:29.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5ea2038e32fb463b",
+      "title": "Are global equity factors diverging between the US and Europe?",
+      "link": "https://www.investing.com/news/stock-market-news/are-global-equity-factors-diverging-between-the-us-and-europe-4443688",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-13T08:56:53.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "cc12c06c73302913",
+      "title": "IntegraFin reports strong Q1 flows, boosting assets to £77.2bn",
+      "link": "https://www.investing.com/news/earnings/integrafin-reports-strong-q1-flows-boosting-assets-to-772bn-4443687",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
+      "pubDate": "2026-01-13T08:56:08.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f83928984e096fa6",
+      "title": "Futures lower, CPI ahead, JPMorgan to report - what’s moving markets",
+      "link": "https://www.investing.com/news/economy-news/futures-lower-cpi-ahead-jpmorgan-to-report--whats-moving-markets-4443683",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-13T08:51:49.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "324570100dd444ca",
+      "title": "Baytex Energy stock rating downgraded by RBC Capital on Eagle Ford sale",
+      "link": "https://www.investing.com/news/analyst-ratings/baytex-energy-stock-rating-downgraded-by-rbc-capital-on-eagle-ford-sale-93CH-4443682",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2026-01-13T08:51:27.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "baa6c9f6d1e4c811",
       "title": "Orsted jumps 5% after U.S. judge rules firm can resume wind project halted by Trump",
@@ -282,102 +426,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "994aa3727a8ffc48",
-      "title": "Barclays upgrades Zalando stock rating to Overweight on AI resilience",
-      "link": "https://www.investing.com/news/analyst-ratings/barclays-upgrades-zalando-stock-rating-to-overweight-on-ai-resilience-93CH-4443673",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-01-13T08:43:10.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a036e8a8f6ed921a",
-      "title": "Barclays reinstates Prada stock with Overweight rating following Versace acquisition",
-      "link": "https://www.investing.com/news/analyst-ratings/barclays-reinstates-prada-stock-with-overweight-rating-following-versace-acquisition-93CH-4443672",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2026-01-13T08:42:44.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0f15b145196e0715",
-      "title": "Bernstein downgrades Metropole Television stock on French TV ad concerns",
-      "link": "https://www.investing.com/news/analyst-ratings/bernstein-downgrades-metropole-television-stock-on-french-tv-ad-concerns-93CH-4443671",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2026-01-13T08:42:40.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5b5b1554c398cd9e",
-      "title": "FTSE 100 flat, pound steady ahead of BoE Bailey comments; Rentokil names new CEO",
-      "link": "https://www.investing.com/news/stock-market-news/ftse-100-flat-pound-steady-ahead-of-boe-bailey-comments-rentokil-names-new-ceo-4443670",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC4H0EL_M.jpg",
-      "pubDate": "2026-01-13T08:38:07.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "23843a7e9734c74b",
-      "title": "BBC seeks to have Trump’s $10 billion lawsuit dismissed",
-      "link": "https://www.investing.com/news/economy-news/bbc-seeks-to-have-trumps-10-billion-lawsuit-dismissed-4443669",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0C0D8_L.jpg",
-      "pubDate": "2026-01-13T08:36:26.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5153ca923413a78b",
-      "title": "Indonesia stocks lower at close of trade; IDX Composite Index down 0.27%",
-      "link": "https://www.investing.com/news/stock-market-news/indonesia-stocks-lower-at-close-of-trade-idx-composite-index-down-027-4443668",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC7N1OQ_M.jpg",
-      "pubDate": "2026-01-13T08:35:03.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -397,54 +445,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "878228d600d18332",
-      "title": "Japan’s bankruptcy cases hit 12-year high in 2025, survey shows",
-      "link": "https://www.investing.com/news/economy-news/japans-bankruptcy-cases-hit-12year-high-in-2025-survey-shows-4443667",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0C0D4_L.jpg",
-      "pubDate": "2026-01-13T08:31:43.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "509a4cf1a2b505ae",
-      "title": "Orsted shares rise 6% as US court reverses Trump’s block on offshore wind project",
-      "link": "https://www.investing.com/news/stock-market-news/orsted-shares-jump-as-us-court-reverses-trumps-block-on-offshore-wind-project-4443648",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0C0C7_L.jpg",
-      "pubDate": "2026-01-13T08:31:02.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "473a58d027f838c1",
-      "title": "Rentokil Initial names Mike Duffy as CEO, Andy Ransom to step down in March",
-      "link": "https://www.investing.com/news/stock-market-news/rentokil-initial-names-mike-duffy-as-ceo-andy-ransom-to-step-down-in-march-4443666",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC1R0G3_M.jpg",
-      "pubDate": "2026-01-13T08:30:16.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -592,6 +592,22 @@
       "region": "global"
     },
     {
+      "id": "925746d50791e91c",
+      "title": "مانشستر يونايتد يحسم خليفة أموريم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%8A%D8%AD%D8%B3%D9%85-%D8%AE%D9%84%D9%8A%D9%81%D8%A9-%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85/bltd38b05e748706945?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الجديد يبدأ مهمته في الديربي",
+      "body": "المدرب الجديد يبدأ مهمته في الديربي توصل نادي مانشستر يونايتد إلى اتفاق مبدئي بشأن تعيين مايكل كاريك مدرباً مؤقتاً للفريق حتى نهاية الموسم الحالي. ووفقاً لصحيفة \"ذا أتلتيك\" البريطانية، فإن الاتفاق يشمل أيضاً الطاقم المساعد المقترح من قبل كاريك، فيما يتوقف إتمام الصفقة على إنهاء التفاصيل النهائية للعقد، وسط توقعات بوجود إعلان رسمي وشيك. وأشارت إلى أن المباراة الأولى لكاريك في القيادة الفنية للشياطين الحمر ستكون أمام الغريم التقليدي مانشستر سيتي، يوم السبت المقبل على ملعب \"أولد ترافورد\". وكانت تقارير صحفية قد أشارت يوم الإثنين إلى أن كاريك أصبح المرشح الأبرز للمنصب، بعدما عقد هو وزميله السابق أولي جونار سولسكاير محادثات مباشرة مع مسؤولي النادي. وقاد عملية تعيين المدرب المؤقت كل من جيسون ويلكوكس، المدير الرياضي، وعمر برادة، الرئيس التنفيذي للنادي. وقد تطلب الأمر موافقة المالك الشريك السير جيم راتكليف وعائلة جليزر، حيث ستتجه الأنظار الآن نحو استقطاب خليفة دائم لروبن أموريم، الذي أُقيل في 5 يناير الماضي، وذلك بعد الاستقرار على من يشغل الدور المؤقت. وسبق لكاريك أن تولى مسؤولية تدريب يونايتد كمدرب مؤقت لثلاث مباريات عقب إقالة سولسكاير في خريف عام 2021، حيث حقق انتصارين وتعادلاً وحيداً. وغادر النادي بعد تعيين رالف رانجنيك مدرباً مؤقتاً حتى نهاية موسم 2021-2022، بعد أن كان جزءاً من الجهاز …",
+      "image": null,
+      "pubDate": "2026-01-13T07:15:53.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "079afc8bfaf56ecb",
       "title": "Connor Storrie Says He Was “Already Planning on Getting A New Job” Before ‘Heated Rivalry’ Blew Up on ’Late Night’ Debut",
       "link": "https://www.hollywoodreporter.com/tv/tv-news/heated-rivalry-star-connor-storrie-late-night-seth-meyers-1236472000/",
@@ -608,6 +624,22 @@
       "region": "global"
     },
     {
+      "id": "1b2ba3dab6197735",
+      "title": "إنريكي يتماسك أمام وقع الصدمة بعد الخروج المهين من كأس فرنسا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%95%D9%86%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%AA%D9%85%D8%A7%D8%B3%D9%83-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D8%B5%D8%AF%D9%85%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D9%85%D9%87%D9%8A%D9%86-%D9%85%D9%86-%D9%83%D8%A7%D9%94%D8%B3-%D9%81%D8%B1%D9%86%D8%B3%D8%A7/blt0d06bf6ed2c3c2ab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هزيمة صادمة، لكن خطاباً معاكساً للتيار السائد. فاجأ لويس إنريكي الجميع بعد خروج باريس سان جيرمان المبكر من كأس فرنسا.",
+      "body": "هزيمة صادمة، لكن خطاباً معاكساً للتيار السائد. فاجأ لويس إنريكي الجميع بعد خروج باريس سان جيرمان المبكر من كأس فرنسا. كان ملعب \"بارك دي برانس\" يتوقع أمسية هادئة. لكنه عاش أمسية مذهلة. بعد هزيمته أمام باريس إف سي (0-1)، خرج باريس سان جيرمان من كأس فرنسا، دون أي دراما واضحة في تصريحات مدربه. بعد أكثر من عام دون أي عقبات تقريبًا، تعثر باريس في مكان لم يتوقعه أحد. في دور الـ16 من كأس فرنسا، أمام جار جريء، خرج حامل اللقب من المنافسة مساء الاثنين. إقصاء مفاجئ وغير متوقع، لكنه لم يثر تساؤلات عميقة في ذهن لويس إنريكي. PSG يتوقف فجأة بعد سلسلة استثنائية منذ يناير 2025، بدا نادي العاصمة وكأنه لا يقهر. سبعة ألقاب في غضون اثني عشر شهراً، نهائي كأس العالم للأندية الذي أقيم الصيف الماضي، وإحساس بالسيطرة المستمرة. لكن الإقصاء على يد باريس إف سي قطع هذا المسار شبه المثالي. ومع ذلك، يرفض المدرب الإسباني أي قراءة متشائمة. في نظره، سيطر فريقه على المباراة من البداية إلى النهاية، دون أن يتمكن من ترجمة تفوقه إلى أهداف. لويس إنريكي يتحمل المسؤولية ويدافع عن فريقه في مؤتمر صحفي، لم يترك مدرب باريس أي مجال للشك في تحليله. \"أعتقد أنه من السهل جدًا التحدث عن هذه المباراة: كانت مباراة متكاملة، لعبنا جيدًا، قمنا بكل ما علينا، وسيطرنا على المباراة، لا أرى أي مشكلة في المباراة. لكن يجب أن نسجل الأهداف، ونحن لم…",
+      "image": "https://assets.kooora.com/images/v3/getty-2254673997/crop/MM5DIMBYHE5DEMZQGA5G433XMU5DAORSGEZQ====/GettyImages-2254673997.jpg",
+      "pubDate": "2026-01-13T07:06:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "b5d50581891438d6",
       "title": "VAR errors increase: Each of the 13 mistakes so far this season",
       "link": "https://www.bbc.com/sport/football/articles/cvgrx8ml7m0o?at_medium=RSS&at_campaign=rss",
@@ -622,6 +654,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "691602331400b59b",
+      "title": "بالفيديو.. احتفالات مبكرة للاعبي السنغال قبل مواجهة مصر!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%A8%D9%83%D8%B1%D8%A9-%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%85%D8%B5%D8%B1/blt8c4bbdb70859c524?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "حركات استفزازية داخل معسكر السنغال قبل نصف نهائي أمم أفريقيا",
+      "body": "حركات استفزازية داخل معسكر السنغال قبل نصف نهائي أمم أفريقيا يستعد منتخب السنغال لخوض المواجهة النارية أمام مصر في نصف نهائي كأس أمم إفريقيا، المقرر إقامتها غدا الأربعاء، على ملعب طنجة. وتأهل \"أسود التيرانجا\" بعد انتصار صعب وقوي 1-0 على مالي في ربع النهائي، فيما نجح الفراعنة في قلب تأخره والفوز على كوت ديفوار بنتيجة 3-2 في مباراة درامية. ونشرت الصفحة الرسمية لمنتخب السنغال، على موقع \"إكس\"، مقطعًا من الحصة التدريبية الأخيرة، أظهر خلاله اللاعبون تركيزًا كبيرًا ومعنويات مرتفعة جدًا. لكن ما لفت الأنظار بشكل خاص هو الإيماءة التي قام بها عدد من اللاعبين في ختام التدريب، حيث أشاروا بحركة \"الجيب\" الشهيرة التي تعني عادةً \"كله تحت السيطرة\" أو \"في الجيب\". هذه الحركة جاءت في سياق التفوق النسبي الذي حققه السنغال في آخر لقاءاته أمام مصر، مما زاد من حدة التعليقات على مواقع التواصل. &nbsp; In da pocket 🙌😂 pic.twitter.com/QiuuuKi9ec &mdash; Equipe du Sénégal (@GaindeYi) January 12, 2026",
+      "image": null,
+      "pubDate": "2026-01-13T07:00:53.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "975f810ae9323e71",
@@ -1680,54 +1728,6 @@
       "region": "mena"
     },
     {
-      "id": "e7c76fc8645d5007",
-      "title": "ليفربول يعبر حاجز بارنسلي نحو رابع أدوار كأس انجلترا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D8%B9%D8%A8%D8%B1-%D8%AD%D8%A7%D8%AC%D8%B2-%D8%A8%D8%A7%D8%B1%D9%86%D8%B3%D9%84%D9%8A-%D9%86%D8%AD%D9%88-%D8%B1%D8%A7%D8%A8%D8%B9-%D8%A7%D9%94%D8%AF%D9%88%D8%A7%D8%B1-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7/blt470fa48b98ee48a2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الريدز يسجل رباعية ليتأهل لملاقاة برايتون في الدور الرابع.",
-      "body": "الريدز يسجل رباعية ليتأهل لملاقاة برايتون في الدور الرابع. تأهل ليفربول إلى الدور الرابع من مسابقة كأس الاتحاد الإنجليزي، بعد فوزه على ضيفه بارنسلي بنتيجة (4-1)، في اللقاء الذي أقيم مساء الإثنين على ملعب أنفيلد ضمن منافسات الدور الثالث. &nbsp; وسجل أهداف ليفربول كل من دومينيك سوبوسلاي (9) وجيريمي فريمبونج (36) وفلوريان فيرتز (84) وهوجو إكيتيكي (90+4)، فيما أحرز آدم فيليبس هدف بارنسلي الوحيد (40). &nbsp; وضرب ليفربول موعدا في الدور الرابع، مع برايتون وفقا لما أسفرت عنه القرعة في وقت سابق الإثنين. تغييرات عديدة مدرب ليفربول آرني سلوت اختار التعامل مع المباراة بمنطق المداورة، فأجرى ستة تغييرات على التشكيلة التي تعادلت سلبيًا مع آرسنال في الدوري الإنجليزي الممتاز، في خطوة هدفت إلى إراحة بعض العناصر ومنح الفرصة لأسماء أخرى لإثبات جدارتها.&nbsp; &nbsp; وشهدت التشكيلة الأساسية مشاركة فيديريكو كييزا وريو نجوموها، إلى جانب استمرار فيرجيل فان دايك وأليكسيس ماك أليستر ودومينيك سوبوسلاي وكودي جاكبو، فيما تولى الحارس الجورجي جيورجي مامارداشفيلي حماية المرمى بدلًا من أليسون. &nbsp; صدمة مبكرة وإنذار واضح لم يحتج بارنسلي سوى ثوانٍ قليلة ليبعث رسالة واضحة إلى أصحاب الأرض، حين كاد أن يهز الشباك بعد مرور أقل من نصف دقيقة، إثر عرضية متقنة من الجهة اليمنى قابلها كيلور-دان برأسية قوية ارتطمت بالقائم ا…",
-      "image": "https://assets.kooora.com/images/v3/getty-2255442394/crop/MM5DKMBQGA5DEOBRGM5G433XMU5DAORSGYYA====/GettyImages-2255442394.jpg",
-      "pubDate": "2026-01-12T19:42:20.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "9849b9aab528d8b7",
-      "title": "أنجيلو: أعتذر لجماهير النصر.. ويمكننا العودة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%86%D8%AC%D9%8A%D9%84%D9%88-%D8%A7%D9%94%D8%B9%D8%AA%D8%B0%D8%B1-%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%88%D9%8A%D9%85%D9%83%D9%86%D9%86%D8%A7-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9/blt4f411db026cdf7ab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تصريحات حزينة من اللاعب البرازيلي عقب خسارة الديربي",
-      "body": "تصريحات حزينة من اللاعب البرازيلي عقب خسارة الديربي قدم البرازيلي أنجيلو، لاعب وسط النصر، اعتذاره لجماهير الفريق، عقب خسارة مباراة ديربي الرياض ضد الغريم التقليدي الهلال. وخسر النصر أمام الهلال بنتيجة 1-3، خلال المباراة التي جمعت بينهما، الإثنين، على ملعب المملكة أرينا، في الجولة الخامسة عشرة من منافسات دوري روشن. وقال أنجيلو في تصريحات لقناة \"ثمانية\" الناقلة للدوري السعودي، بعد المباراة: \"من الصعب التحدث في هذه اللحظة، لأننا بدأنا المباراة بشكل جيد، ثم فقدنا السيطرة عليها\". وأضاف: \"لا توجد كلمات يمكن قولها، ولكن أعتذر لجماهيرنا، لأننا كنا جيدين، ثم فقدنا السيطرة على المباراة\". وأتم: \"لا يزال هناك وقت للعودة بالتأكيد، الآن علينا العمل وإعادة التركيز والمحاولة، لأننا نعرف الإمكانيات التي نملكها، والآن حان وقت العمل، ومحاولة قلب الأمور\". يُذكر أن الخسارة هي الثالثة على التوالي لفريق النصر، والتعثر الرابع للفريق في دوري روشن، وهو ما أوقف رصيده عند 31 نقطة، يحتل بها المركز الثاني في جدول الترتيب، بفارق 7 نقاط خلف الهلال\". «من الصعب التحدث في هذه اللحظة .. لا توجد كلمات فقط أطلب السماح من جماهيرنا ..» أنجيلو، لاعب النصر، مع مراسل «ثمانية» @kh1900 🎤 #الهلال_النصر | #ديربي_العاصمة_على_ثمانية pic.twitter.com/gqYL0bHYB6 &mdash; رياضة ثمانية (@thmanyahsports) January 12, 2026",
-      "image": null,
-      "pubDate": "2026-01-12T19:41:40.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3d9c6b1ee60890ad",
-      "title": "يوفنتوس يفترس كريمونيزي بخماسية.. ويُقحم نفسه بصراع الكالتشيو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%8A%D9%88%D9%81%D9%86%D8%AA%D9%88%D8%B3-%D9%8A%D9%81%D8%AA%D8%B1%D8%B3-%D9%83%D8%B1%D9%8A%D9%85%D9%88%D9%86%D9%8A%D8%B2%D9%8A-%D8%A8%D8%AE%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D9%8A%D9%8F%D9%82%D8%AD%D9%85-%D9%86%D9%81%D8%B3%D9%87-%D8%A8%D8%B5%D8%B1%D8%A7%D8%B9-%D8%A7%D9%84%D9%83%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%88/blt6883d5c4a601c304?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "البيانكونيري يستعرض عضلاته على حساب كريمونيزي",
-      "body": "البيانكونيري يستعرض عضلاته على حساب كريمونيزي حقق يوفنتوس فوزا عريضا على حساب ضيفه كريمونيزي، بنتيجة (5-0)، في المباراة التي جمعتهما بمعقل اليوفي بأليانز ستاديوم، ضمن لقاءات الجولة 20 من الدوري الإيطالي. سجل خماسية اليوفي كل من جليسون بريمر (الدقيقة 12)، جوناثان ديفيد (ق15)، كينان يلدز (35)، فيليبو تيراتشيانو بالخطأ في مرماه (ق48) ووستون ماكيني (ق64). رفع البيانكونيري رصيده بهذا الانتصار إلى 39 نقطة بالمركز الثالث بالتساوي مع نابولي الذي لعب مباراة أقل، وبفارق 4 نقاط عن المتصدر إنتر الذي لعب مباراة أقل أيضا. في المقابل، تجمد رصيد كريمونيزي عند 22 نقطة بالمركز الثالث عشر. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! بداية نارية للسيدة العجوز &nbsp; لم يجد يوفنتوس فرصة أفضل من فرصة الدقيقة السادسة حتى يتقدم، بعد خطأ فادح من المدافع جونسن في التمرير بالخلف ليمررها بالخطأ إلى جوناثان ديفيد وينفرد بالمرمى ويراوغ الحارس، لكن تسديدته ضربت بالقائم الأيسر للضيوف. حاول ماكيني الاختراق من الناحية اليسرى وسدد كرة نحو المرمى، تمكن حارس كريمونيزي أوديرو، من التصدي لها بالدقيقة العاشرة. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! وتقدم اليوفي بأول الأهداف بعد 12 دقيقة، في لقطة كشفت عن ح…",
-      "image": "https://assets.kooora.com/images/v3/bltaed94e5ed17bbc56/Serie%20A%20Kooora.jpg",
-      "pubDate": "2026-01-12T19:41:23.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "c542ed01508ebe03",
       "title": "Germany Seals $9.6B TenneT Deal to Ease Power Grid Bottlenecks",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Seals-96B-TenneT-Deal-to-Ease-Power-Grid-Bottlenecks.html",
@@ -1997,22 +1997,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bf0b4d8e661d10f7",
-      "title": "'Of course' - Rooney would be willing to join favourite Carrick at Man Utd",
-      "link": "https://www.bbc.com/sport/football/articles/c1klvl922rjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wayne Rooney says it would be a \"no-brainer\" to rejoin Manchester United as a coach if Michael Carrick is appointed as a caretaker boss until the end of the season.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T17:20:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
