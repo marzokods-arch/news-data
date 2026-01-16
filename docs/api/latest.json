@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-01-16T14:31:02.514Z",
-    "total": 219,
+    "generated_at": "2026-01-16T14:51:34.272Z",
+    "total": 229,
     "processed_feeds": 21,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -22,29 +35,29 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Eater",
+        "url": "https://www.eater.com/rss/index.xml",
+        "homepage": "https://www.eater.com/rss/index.xml",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -71,19 +84,6 @@
         ],
         "taken": 10,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -139,16 +139,16 @@
         "notModified": false
       },
       {
-        "name": "Eater",
-        "url": "https://www.eater.com/rss/index.xml",
-        "homepage": "https://www.eater.com/rss/index.xml",
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main/rss",
+        "homepage": "https://www.thekitchn.com/main/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -162,19 +162,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main/rss",
-        "homepage": "https://www.thekitchn.com/main/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -217,19 +204,6 @@
         "notModified": false
       },
       {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Android Authority",
         "url": "https://www.androidauthority.com/feed/",
         "homepage": "https://www.androidauthority.com/feed/",
@@ -243,6 +217,19 @@
         "notModified": false
       },
       {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "NASA — Breaking News",
         "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
         "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
@@ -252,6 +239,19 @@
           "general"
         ],
         "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -333,6 +333,70 @@
       "region": "global"
     },
     {
+      "id": "22d8479c844682eb",
+      "title": "Man City agree £20m deal to sign Palace captain Guehi",
+      "link": "https://www.bbc.com/sport/football/articles/c99kmd7z5yxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City agree a deal in principle to sign Crystal Palace and England centre-back Marc Guehi in January for £20m.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-16T14:51:04.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "382995120a811f52",
+      "title": "Glasner to leave Palace at end of season",
+      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-16T14:39:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "382995120a811f52",
+      "title": "Glasner to leave Palace at end of season",
+      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-16T14:39:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "eedef3dd3e0096d6",
+      "title": "NASA’s Crawler Preps for Artemis II Rollout",
+      "link": "https://www.nasa.gov/image-article/nasas-crawler-preps-for-artemis-ii-rollout/",
+      "summary": "NASA’s Crawler-transporter 2 moves toward the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Friday, Jan. 9, 2026. The crawler will transport NASA’s SLS (Space Launch System) rocket with the Orion spacecraft to Launch Complex 39B ahead of the Artemis II launch which will jou…",
+      "body": "NASA/Ben Smegelsky NASA’s Crawler-transporter 2 moves toward the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Friday, Jan. 9, 2026. The crawler will transport NASA’s SLS (Space Launch System) rocket with the Orion spacecraft to Launch Complex 39B ahead of the Artemis II launch which will journey Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialist Christina Koch from NASA, and Mission Specialist Jeremy Hansen from the CSA (Canadian Space Agency), around the Moon and back to Earth no later than April 2026. The crawler-transporters have carried the load of taking rockets and spacecraft to the launch pad for more than 50 years at NASA’s Kennedy Space Center in Florida. Each the size of a baseball infield and powered by locomotive and large electrical power generator engines, the crawler-transporters stand ready to keep up the work for the next generation of launch vehicles to lift astronauts into space; Crawler-transporter 2 in particular is integral to the Artemis missions. Image credit: NASA/Ben Smegelsky",
+      "image": null,
+      "pubDate": "2026-01-16T14:37:26.000Z",
+      "source": {
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "c1a36ea272ec4caa",
       "title": "Tyrer set for Cardiff as transfer embargo lifted",
       "link": "https://www.bbc.com/sport/football/articles/cjw16jdz739o?at_medium=RSS&at_campaign=rss",
@@ -340,54 +404,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-01-16T14:29:05.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1d46b1a21e185def",
-      "title": "Man City agree deal to sign Palace captain Guehi",
-      "link": "https://www.bbc.com/sport/football/articles/c99kmd7z5yxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City agree a deal in principle to sign Crystal Palace and England centre-back Marc Guehi in January.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-16T14:25:28.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "382995120a811f52",
-      "title": "Glasner to leave Palace at end of season",
-      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-16T14:25:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "382995120a811f52",
-      "title": "Glasner to leave Palace at end of season",
-      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-16T14:25:04.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -717,6 +733,38 @@
       "region": "global"
     },
     {
+      "id": "7f5bf26e986af8b4",
+      "title": "بالفيديو.. تيباس: الليجا الأفضل عالميًا.. والسعودية ستجعل دوري روشن عظيمًا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AA%D9%8A%D8%A8%D8%A7%D8%B3-%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7-%D8%A7%D9%84%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%8B%D8%A7-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%B3%D8%AA%D8%AC%D8%B9%D9%84-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%B9%D8%B8%D9%8A%D9%85%D9%8B%D8%A7/bltff9985a65b94fcfb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الدوري الإسباني أكثر تنافسية من البريميرليج",
+      "body": "الدوري الإسباني أكثر تنافسية من البريميرليج &nbsp;عدد خافيير تيباس، رئيس رابطة الليجا، مزايا إقامة بطولة كأس السوبر الإسباني في السعودية، مشيدا أيضا بما تفعله المملكة لتطوير الدوري المحلي بها. وأجرى تيباس، مقابلة مع \"جول\"، تحدث فيها عن العديد من الأمور التي تخص السوبر الإسباني، والتعاون مع السعودية ودول شمال أفريقيا، ودوري روشن. &nbsp; إقامة مباريات رسمية خارج إسبانيا &nbsp;وقال تيباس، عن أهمية خوض فرق إسبانيا لمباريات خارج البلاد: \"تكمن الأهمية وقبل كل شيء في تقريب كرة القدم الإسبانية، والليجا وفرقها، إلى المشجعين الذين يحبون هذه الفرق في تلك الدول\". &nbsp;وتابع: \"قمنا بذلك في السعودية، وأعتقد أن هذا هو الأمر الأول والأهم، وثانيا، ذلك الأمر يساعدنا على ترسيخ مكان منافستنا، وأنديتنا في هذه الدول\". وتلقى تيباس سؤالا نصه: كيف تسهم استضافة السوبر الإسباني في الشرق الأوسط في تعزيز وتقوية فرق الليجا وتقريبها من الجماهير؟ ورد رئيس رابطة الليجا: \"حسنا أعتقد أننا نرى ذلك، المتابعة المرئية عبر التلفزيون وشبكات التواصل الاجتماعي، لكأس السوبر كبيرة جدا، وواسعة النطاق، وتصل إلى جميع أنحاء الشرق الأوسط، أليس كذلك؟\". وزدا: \"وثانيا الحضور الفعلي ليس فقط للأندية، بل للاعبين، وكل هذا يجعل أنديتنا أقرب للجماهير، وأعني جماهير السعودية في هذه الحالية، لكن عبر التلفزيون أيضا في جميع أنحاء الشرق الأوسط…",
+      "image": "https://assets.kooora.com/images/v3/getty-2255228303/crop/MM5DGMRZGE5DCOBVGE5G433XMU5DAORRG4YQ====/GettyImages-2255228303.jpg",
+      "pubDate": "2026-01-16T12:48:59.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2661cd0155a37251",
+      "title": "قرار مفاجئ من نجم مانشستر يونايتد يُربك تشيلسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%85%D9%86-%D9%86%D8%AC%D9%85-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%8A%D9%8F%D8%B1%D8%A8%D9%83-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A/blt4e0f6d5a2a07afe8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كاريك يعيد الثقة لنجم الشياطين الحمر",
+      "body": "كاريك يعيد الثقة لنجم الشياطين الحمر لم يعد رحيل لاعب خط وسط مانشستر يونايتد، كوبي ماينو، عن ملعب «أولد ترافورد» خلال فترة الانتقالات الشتوية المقبلة أمرًا مرجحًا، بعدما شهد موقف اللاعب تحولًا ملحوظًا في الأسابيع الأخيرة. ووفقًا لما ورد في تقرير حصري لصحيفة « Daily Briefing »، فإن التغيير الذي طرأ على الجهاز الفني داخل مانشستر يونايتد لعب دورًا حاسمًا في إقناع الدولي الإنجليزي الشاب بإعادة النظر في مستقبله، والميل نحو الاستمرار مع الفريق لفترة أطول. وكان ماينو قد فقد مكانه في التشكيلة الأساسية خلال الفترة الماضية، تحت قيادة المدرب السابق روبن أموريم، ما فتح باب التكهنات حول إمكانية رحيله بحثًا عن فرصة أكبر للمشاركة بانتظام. وخلال تلك المرحلة، أبدت عدة أندية اهتمامها بضم اللاعب، أبرزها تشيلسي ونابولي، حيث وضعاه ضمن أولوياتهما لتعزيز خط الوسط، إلا أن المعطيات تغيّرت مؤخرًا مع تولي مايكل كاريك مهمة القيادة الفنية المؤقتة للشياطين الحمر. وبحسب التقرير، فإن ماينو بات أقرب للبقاء في مانشستر يونايتد، خاصة بعد تلقيه تطمينات مباشرة من كاريك بشأن منحه دورًا أكثر أهمية خلال النصف الثاني من الموسم، وهو ما قلّص بشكل كبير احتمالات رحيله في يناير. ويمثل هذا التطور ضربة قوية لتشيلسي، الذي كان يأمل في استغلال وضعية اللاعب لدعم خط وسطه، في ظل المعاناة المستمرة بسبب الإصابات، وعلى رأسها إصابة روميو …",
+      "image": "https://assets.kooora.com/images/v3/getty-2254497520/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2254497520.jpg",
+      "pubDate": "2026-01-16T12:43:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "fb55d3d9e8e3d92d",
       "title": "\"كان سيئا للغاية\".. لاعب منتخب نيجيريا ينتقد حكم مباراة المغرب",
       "link": "https://www.masrawy.com/sports/sports-arab-international/details/2026/1/16/2926331/-%D9%83%D8%A7%D9%86-%D8%B3%D9%8A%D8%A6%D8%A7-%D9%84%D9%84%D8%BA%D8%A7%D9%8A%D8%A9-%D9%84%D8%A7%D8%B9%D8%A8-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%86%D9%8A%D8%AC%D9%8A%D8%B1%D9%8A%D8%A7-%D9%8A%D9%86%D8%AA%D9%82%D8%AF-%D8%AD%D9%83%D9%85-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
@@ -731,6 +779,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "d076b27bc2d5318c",
+      "title": "بالفيديو.. إبراهيم حسن لصحفي مغربي: انتظرتم 50 عاماً لحصد بطولة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%AD%D8%B3%D9%86-%D9%84%D8%B5%D8%AD%D9%81%D9%8A-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A7%D9%86%D8%AA%D8%B8%D8%B1%D8%AA%D9%85-50-%D8%B9%D8%A7%D9%85%D8%A7%D9%8B-%D9%84%D8%AD%D8%B5%D8%AF-%D8%A8%D8%B7%D9%88%D9%84%D8%A9/blt5606a97297d0145e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "<p style=\"direction: rtl;\">دخل إبراهيم حسن، مدير منتخب مصر، في حديث حاد مع أحد الصحفيين المغاربة خلال المؤتمر الصحفي قبل مباراة منتخبي مصر ونيجيريا لتحديد المركز الثالث ببطولة كأس الأمم الأفريقية المقامة في المغرب.</p><p style=\"direction: rtl;\">وانتشر مقطع فيديو لإبراهيم حسن وهو يتحدث مع أحد الصحفي…",
+      "body": "دخل إبراهيم حسن، مدير منتخب مصر، في حديث حاد مع أحد الصحفيين المغاربة خلال المؤتمر الصحفي قبل مباراة منتخبي مصر ونيجيريا لتحديد المركز الثالث ببطولة كأس الأمم الأفريقية المقامة في المغرب. وانتشر مقطع فيديو لإبراهيم حسن وهو يتحدث مع أحد الصحفيين المغاربة قائلاً: \"هل تحققون بطولات؟ انتظرتم 50 عاماً لحصد البطولة القارية\". &nbsp; ابراهيم حسن يهاجم الصحفيين والمغرب انتم خمسين سنة لم تاخدو البطولة وكلام اخر لم افهمه 🤡 pic.twitter.com/FxZh7wbbRg &mdash; sabah (@aya25102010) January 16, 2026 وتأهل منتخب المغرب لنهائي كأس الأمم الأفريقية الحالية لمواجهة السنغال التي تقام بعد غدٍ الأحد. وفاز أسود الأطلس بلقب كأس الأمم الأفريقية مرة وحيدة عام 1976. ويتطلع المنتخب المغربي لتحقيق اللقب الغائب منذ نصف قرن بقيادة المدرب وليد الركراكي. وكان منتخب مصر قد خسر تذكرة التأهل للدور النهائي بعد أن تلقى الهزيمة أمام السنغال بهدف نظيف.",
+      "image": null,
+      "pubDate": "2026-01-16T12:33:45.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "c9c5a75e7a4d4a4c",
@@ -1181,22 +1245,6 @@
       "region": "mena"
     },
     {
-      "id": "740828820eef98bb",
-      "title": "أضخم حدث جماهيري في تاريخ الملاكمة.. خطة جنونية لعودة تايسون فيوري",
-      "link": "https://www.kooora.com/%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83%D9%85%D8%A9/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D8%B6%D8%AE%D9%85-%D8%AD%D8%AF%D8%AB-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1%D9%8A-%D9%81%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83%D9%85%D8%A9-%D8%AE%D8%B7%D8%A9-%D8%AC%D9%86%D9%88%D9%86%D9%8A%D8%A9-%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D8%AA%D8%A7%D9%8A%D8%B3%D9%88%D9%86-%D9%81%D9%8A%D9%88%D8%B1%D9%8A/blt4b880d1d07af203c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "150 ألف متفرج في حلبة واحدة بلا حواجز من أجل عودة الملك!",
-      "body": "150 ألف متفرج في حلبة واحدة بلا حواجز من أجل عودة الملك! تتبلور خطط غير مسبوقة في عالم الملاكمة من أجل تحطيم الرقم القياسي العالمي للحضور الجماهيري، مع وضع اسم تايسون فيوري على رأس قائمة النجوم المطلوبين للمشاركة في الحدث التاريخي المرتقب. الرقم القياسي الحالي يعود إلى عام 1941، عندما شهدت حلبة يونيو بارك في مدينة ميلووكي حضور 135,132 متفرجًا خلال نزال فوز توني زايل على بيلي برايور، وهو رقم صمد لأكثر من 85 عامًا. إد بيريرا خلف المشروع الطموح وتقف شركة خلف هذا المشروع الطموح هي iVisit Boxing (IVB)، بقيادة مديرها التنفيذي إد بيريرا، الذي يمتلك خبرة واسعة في التسويق والتنظيم داخل الدوري الإنجليزي الممتاز، والرجبي، ثم عالم الملاكمة. وكان بيريرا أحد العقول المنظمة لبطاقة نزالات مايو 2025 في تايمز سكوير، عندما أُغلقت الساحة الشهيرة في نيويورك لاستضافة أسماء لامعة مثل رايان جارسيا وديفين هاني وتيوفيمو لوبيز. ويطمح بيريرا وفريقه، الآن، لجذب ما بين 150 ألفًا إلى 180 ألف متفرج يوم 11 يوليو/ تموز، عبر تحويل ساحة سيفيك سنتر بلازا في سان فرانسيسكو إلى حلبة ملاكمة مفتوحة في الهواء الطلق. وسيتم بث الحدث عبر يوتيوب، مع توزيع عدد من التذاكر مجانًا، في خطوة تهدف إلى تحطيم الرقم القياسي التاريخي. رقم يصنع التاريخ وقال بيريرا في تصريحات لصحيفة \"ذا صن\" الإنجليزية: \"حين تطلب من 150 ألف شخص الحضور، فإن …",
-      "image": "https://assets.kooora.com/images/v3/getty-2216747730/crop/MM5DIOJYGQ5DEOBQGQ5G433XMU5DAORSGU4Q====/GettyImages-2216747730.jpg",
-      "pubDate": "2026-01-16T10:23:51.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "b33b1ded1bbc5f37",
       "title": "Top-flight tie, Nygren & Leven in focus in Scottish Cup",
       "link": "https://www.bbc.com/sport/football/articles/ckgyjlke9lxo?at_medium=RSS&at_campaign=rss",
@@ -1213,22 +1261,6 @@
       "region": "global"
     },
     {
-      "id": "85f65c88236bf675",
-      "title": "تريزيجيه: نعتذر للجماهير المصرية.. وسنقاتل لحصد البرونزية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B1%D9%8A%D8%B2%D9%8A%D8%AC%D9%8A%D9%87-%D9%86%D8%B9%D8%AA%D8%B0%D8%B1-%D9%84%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%88%D8%B3%D9%86%D9%82%D8%A7%D8%AA%D9%84-%D9%84%D8%AD%D8%B5%D8%AF-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D9%86%D8%B2%D9%8A%D8%A9/blta9e885f75a2e68e4?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">قدم محمود حسن \"تريزيجيه\"، نجم منتخب مصر، اعتذاراً للجماهير المصرية عن ضياع حلم التتويج بلقب كأس الأمم الأفريقية المقامة في المغرب.</p><p style=\"direction: rtl;\">وخسر منتخب مصر مباراة نصف النهائي أمام السنغال بهدف دون رد مساء الأربعاء الماضي.</p><p style=\"direction: rtl;\">…",
-      "body": "قدم محمود حسن \"تريزيجيه\"، نجم منتخب مصر، اعتذاراً للجماهير المصرية عن ضياع حلم التتويج بلقب كأس الأمم الأفريقية المقامة في المغرب. وخسر منتخب مصر مباراة نصف النهائي أمام السنغال بهدف دون رد مساء الأربعاء الماضي. ويلعب الفراعنة ضد المنتخب النيجيري غداً السبت في مواجهة تحديد المركز الثالث. وقال تريزيجيه في المؤتمر الصحفي اليوم الجمعة: \"بذلنا قصارى جهدنا ولكن التوفيق لم يحالفنا، وهذه هي كرة القدم\". &nbsp; محمود تريزيجيه لاعب منتخب مصر: عملنا كل حاجه عشان نقدر نرجع بالكاس و لم يكن هناك اي تقصير #TotalEnergiesAFCON2025 #afcon2025 #قنوات_الكاس || #منصة_شووف pic.twitter.com/A5O91Yl5gl &mdash; قنوات الكاس (@AlkassTVSports) January 16, 2026 وأضاف: ⁠\"لعبنا لتحقيق اللقب وهو هدفنا من بداية البطولة، والجميع لم يقصر سواء اللاعبين أو الجهاز الفني بقيادة حسام حسن\". وأكد أن منتخب نيجيري منافس قوي ويضم لاعبين كبار ولكن الفراعنة سيقاتلون لحصد المركز الثالث والميدالية البرونزية. ونفى تريزيجيه حدوث أي توتر مع لاعبي منتخب السنغال خلال مباراة نصف النهائي. وأتم: \"بذلنا كل ما لدينا من طاقة ولكننا لم نستطع التأهل مع غياب التوفيق، وأشكر الجهاز الفني والإداري والطبي على المعسكر الطويل الذي خاضه المنتخب منذ التواجد في القاهرة وحتى ختام المشوار غداً السبت\".",
-      "image": null,
-      "pubDate": "2026-01-16T10:02:56.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "394f5ddbbcebe1da",
       "title": "Five things in the EFL: Dugout debuts and top tussles",
       "link": "https://www.bbc.com/sport/football/articles/cedwvle4j09o?at_medium=RSS&at_campaign=rss",
@@ -1243,22 +1275,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "af49ddf49cd61fd5",
-      "title": "ضربة لليفربول والبايرن.. السيتي يقترب من صفقة قوية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%B1%D8%A8%D8%A9-%D9%84%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%88%D8%A7%D9%84%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%B5%D9%81%D9%82%D8%A9-%D9%82%D9%88%D9%8A%D8%A9/blt01987cfd11ae483a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مانشستر سيتي يقترب من ضم مارك جويهي",
-      "body": "مانشستر سيتي يقترب من ضم مارك جويهي قرر نادي مانشستر سيتي التحرك بشكل مفاجئ من أجل إبرام صفقة شتوية من العيار الثقيل، عبر التعاقد مع مارك جويهي، مدافع كريستال بالاس. وبحسب فلوريان بليتينبيرج، الصحفي بشبكة \"سكاي سبورت ألمانيا\"، فإن المان سيتي بصدد التقدم بعرض رسمي لضم الدولي الإنجليزي. وأوضح الصحفي الألماني أن العرض ستبلغ قيمته حوالي 30 مليون جنيه إسترليني. وأضاف: \"لا يوجد أي مشكلة في بنود التعاقد الشخصي بين السيتي وجويهي، كما أن الاتفاق بين الناديين لا يبدو أنه سيكون معضلة\". وشدد على أن جويهي يبدو في طريقه للانتقال للسيتزنز، بعدما أبدى موافقته على هذه الخطوة. وأشار إلى ضياع هذه الصفقة على بايرن ميونخ بعد دخول السيتي على الخط، وذلك رغم الاتصالات التي جرت مع اللاعب مؤخرا. يذكر أن ليفربول حاول التعاقد مع جويهي الصيف الماضي، لكن الصفقة فشلت في اللحظات الأخيرة من فترة الانتقالات، بسبب اعترض المدرب أوليفر جلاسنر وتلويحه بالرحيل حال التخلي عن اللاعب بدون بديل مناسب.",
-      "image": null,
-      "pubDate": "2026-01-16T09:55:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "3595a56cce53dfce",
@@ -1293,11 +1309,11 @@
       "region": "global"
     },
     {
-      "id": "7d3866fd41ca31a2",
-      "title": "BTS’s Next Album Is Titled ‘Arirang’",
+      "id": "e6972b3536542212",
+      "title": "BTS’ Next Album Title — and Its Inspiration — Has Been Revealed",
       "link": "https://www.billboard.com/music/pop/bts-next-album-titled-arirang-1236156289/",
-      "summary": "The new album is said to be 14-tracks deep, “a deeply reflective body of work” that explores the K-pop superstars’ “identity and roots,” reads a statement.",
-      "body": "BTS ’s&nbsp;fifth full-length album will arrive on March 20 . That much we already knew. We now know the collection will be titled Arirang. “Arirang” is a traditional Korean folk song renowned, according to a statement from BigHit Music, which delivered an update on the album Friday, Jan. 16. “Transcending time and generations, the song has long been associated with emotions of connection, distance, and reunion,” the release continues. The collection is said to be 14-tracks deep, “a deeply reflective body of work” that explores the K-pop superstars’ “identity and roots,” the statement reads. The album&#8217;s red and white artwork can be seen at BigHit&#8217;s Instagram . View this post on Instagram Furthermore, the band will “draw on the emotional depth of ‘Arirang’ &#8212; its sense of yearning, longing, and the ebb and flow of life,” adds the message, the seven-piece ultimately choosing the title for its “strong resonance with their current journey.” The new album marks the group’s reunion following a nearly four-year hiatus, during which members RM, Jin, Suga, J-Hope, Jimin, V and Jungkook completed South Korea’s mandatory military service. BTS&#8217; big title reveal closely …",
+      "summary": "The new album is said to be 14-tracks and “a deeply reflective body of work.\"",
+      "body": "BTS &#8216; fifth full-length album will arrive on March 20 . That much ARMY already knew. The collection will be titled Arirang. “Arirang” is a traditional Korean folk song renowned around the world, according to a statement from BigHit Music, which delivered an update on the album Friday, Jan. 16. “Transcending time and generations, the song has long been associated with emotions of connection, distance, and reunion,” the press release notes. The collection is said to be 14-tracks deep and “a deeply reflective body of work” that explores the K-pop superstars’ “identity and roots,” the statement reads. The album&#8217;s red and white artwork can be seen on BigHit&#8217;s Instagram . View this post on Instagram Furthermore, the band will “draw on the emotional depth of ‘Arirang,&#8217; its sense of yearning, longing, and the ebb and flow of life,” added the release, noting the seven-piece group ultimately choosing the title for its “strong resonance with their current journey.” The new album marks the group’s reunion following a nearly four-year hiatus, during which members RM, Jin, Suga, J-Hope, Jimin, V and Jung Kook completed South Korea’s mandatory military service. BTS&#8217;…",
       "image": null,
       "pubDate": "2026-01-16T09:04:02.000Z",
       "source": {
@@ -1805,6 +1821,22 @@
       "region": "global"
     },
     {
+      "id": "28305ffcb0f8bf17",
+      "title": "The 38 Best London Restaurants, According to Eater’s Local Dining Expert",
+      "link": "https://www.eater.com/maps/best-london-restaurants-eater-38",
+      "summary": "The stunning dining room and bar at Goodbye Horses. | Goodbye Horses The story of the London food scene is one that includes dim sum, Sunday roasts, curries, pizza, sinasir, rarebits, banh mi, udon, pepper pot, sweetbread suya, and natural wine. Across cuisines, neighborhoods, and price points, all…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-15T14:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "ad753c6b2856033d",
       "title": "Hubble’s Album of Planet-Forming Disks",
       "link": "https://science.nasa.gov/missions/hubble/hubbles-album-of-planet-forming-disks/",
@@ -2010,22 +2042,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6070ac632a8ca412",
-      "title": "Coverage, Briefing Set for NASA’s Artemis II Moon Rocket Roll to Pad",
-      "link": "https://www.nasa.gov/news-release/coverage-briefing-set-for-nasas-artemis-ii-moon-rocket-roll-to-pad/",
-      "summary": "NASA’s integrated SLS (Space Launch System) rocket and Orion spacecraft for the Artemis II mission is inching closer to launch – literally. The agency is targeting no earlier than 7 a.m. EST, Saturday, Jan. 17, to begin the multi-hour trek from the Vehicle Assembly Building to Launch Pad 39B at NAS…",
-      "body": "NASA’s SLS (Space Launch System) rocket is seen inside High Bay 3 of the Vehicle Assembly Building as teams await the arrival of Artemis II crewmembers to board their Orion spacecraft on top of the rocket as part of the Artemis II countdown demonstration test, Saturday, Dec. 20, 2025, at NASA’s Kennedy Space Center in Florida. Credit: NASA/Joel Kowsky NASA’s integrated SLS (Space Launch System) rocket and Orion spacecraft for the Artemis II mission is inching closer to launch – literally. The agency is targeting no earlier than 7 a.m. EST, Saturday, Jan. 17, to begin the multi-hour trek from the Vehicle Assembly Building to Launch Pad 39B at NASA’s Kennedy Space Center in Florida. A pre rollout mission news conference, live feed of rollout, and a media gaggle will stream on NASA’s&nbsp; YouTube channel. Individual streams for each of these events will be available from that page. Learn how to&nbsp; stream NASA content &nbsp;through a variety of online platforms, including social media. The time of rollout is subject to change if additional time is needed for technical preparations or weather. All times are Eastern. Events are as follows: Friday, Jan. 16: 12 p.m.: Artemis II Rollou…",
-      "image": null,
-      "pubDate": "2026-01-14T22:26:49.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -2317,6 +2333,38 @@
       "region": "global"
     },
     {
+      "id": "833209a06b4ca5ea",
+      "title": "The 38 Best Restaurants in Montreal, According to a Local Expert",
+      "link": "https://www.eater.com/maps/best-restaurants-montreal-quebec-canada",
+      "summary": "A full spread at Pumpui. | Pumpui With its offbeat blend of poutine, pikliz, natural wine, and piri-piri, Montreal is a food city hors pair. You’ll find Italian, Jewish, Vietnamese, Lebanese, Haitian, and, of course, meaty French-leaning restaurants side by side. Add to that our public markets, roo…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-09T14:15:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5855fbdd1578fe8f",
+      "title": "Tapered Candles Are Bringing Serious Drip to Dining Rooms",
+      "link": "https://www.eater.com/shopping/933961/tapered-candles-in-restaurants",
+      "summary": "I’ve noticed something bright and comforting, even in the moodiest of dining rooms across the country: real candles, and lots of them. After a long reign of battery-powered faux candles for safety and convenience, some restaurants are back to scattering demure tea candles in votives across their ta…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-08T18:50:18.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "69bd2a6e85bfc81b",
       "title": "عمرها 773 ألف سنة.. اكتشاف أقدم أحافير بشرية في المغرب",
       "link": "https://www.skynewsarabia.com/technology/1844853-%D8%B9%D9%85%D8%B1%D9%87%D8%A7-773-%D8%A7%D9%94%D9%84%D9%81-%D8%B3%D9%86%D8%A9-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%A7%D9%94%D9%82%D8%AF%D9%85-%D8%A7%D9%94%D8%AD%D8%A7%D9%81%D9%8A%D8%B1-%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
@@ -2426,6 +2474,22 @@
       },
       "lang": "ar",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ed69ba16b56ae230",
+      "title": "Char Siu Pork and Other Cantonese Dishes Get an Update at This Hong Kong Restaurant",
+      "link": "https://www.eater.com/dining-out/933635/ho-lee-fook-hong-kong-archan-chan-cantonese-cuisine",
+      "summary": "Char siu pork made by chef ArChan Chan at Ho Lee Fook. | Eater Video Ho Lee Fook is redefining Cantonese food in Hong Kong, with chef ArChan Chan calling the spot — covered in mahjong tiles and beckoning gold cats — “a Chinese restaurant with a Hong Kong heart.” Chan’s modern renditions of classic …",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-05T20:47:53.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -2797,6 +2861,22 @@
       "region": "global"
     },
     {
+      "id": "37c4681ac023f160",
+      "title": "The 38 Best Restaurants in Honolulu, According to a Local Expert",
+      "link": "https://www.eater.com/maps/best-restaurants-honolulu-hawaii-38",
+      "summary": "Pork katsu at Tonkatsu Tamafuji Honolulu hangs onto its food and culture fiercely. It’s why decades-old mom-and-pop restaurants still dominate certain neighborhoods and why you see dishes that would have been familiar to some of the islands’ earliest settlers. While the world moves at its frenetic …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-29T14:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "bf1a283c42999c3f",
       "title": "أطعمة صحية تساعد على التعافي من \"الإنفلونزا الخارقة\"",
       "link": "https://www.skynewsarabia.com/technology/1843092-%D8%A7%D9%94%D8%B7%D8%B9%D9%85%D8%A9-%D8%B5%D8%AD%D9%8A%D8%A9-%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D9%81%D9%84%D9%88%D9%86%D8%B2%D8%A7-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82%D8%A9",
@@ -3037,6 +3117,38 @@
       "region": "global"
     },
     {
+      "id": "835a5cbde61124fa",
+      "title": "The 38 Best Restaurants in Lisbon, Portugal, According to a Local Expert",
+      "link": "https://www.eater.com/maps/best-lisbon-portugal-restaurants",
+      "summary": "Inside Restaurante Alma. | Nuno Correia A food-loving visitor will quickly learn that sardines, cod, and the iconic pastel de nata are great, but the Lisbon restaurant scene can offer much more. Portuguese cuisine draws on global flavors from the country’s centuries of trade, and Lisbon’s restaurat…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-23T18:45:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5d183dcc4be62e96",
+      "title": "The 38 Best Hong Kong Restaurants, According to a Local Expert",
+      "link": "https://www.eater.com/maps/best-restaurants-hong-kong",
+      "summary": "Hong Kong has always told its story through food, and the restaurant scene today reflects the city’s many chapters. A mere 180 years ago, Hong Kong was a cluster of tiny fishing villages scattered across an archipelago, and local Cantonese dishes still speak to that halieutic past. Hybrid diners of…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-23T14:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "64177a9741d3aa49",
       "title": "مرحلة ما قبل الأعراض.. دواء جديد يستهدف \"شرارة\" الزهايمر",
       "link": "https://www.skynewsarabia.com/technology/1841911-%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A7%D9%94%D8%B9%D8%B1%D8%A7%D8%B6-%D8%AF%D9%88%D8%A7%D8%A1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%B4%D8%B1%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D9%87%D8%A7%D9%8A%D9%85%D8%B1",
@@ -3085,6 +3197,22 @@
       "region": "global"
     },
     {
+      "id": "e6858bd4b3f23bf4",
+      "title": "The Best Condiments for Giving as Delicious Gifts",
+      "link": "https://www.eater.com/shopping/932629/best-condiments-that-make-great-gifts",
+      "summary": "There is no better and easier gift than a really great condiment. It doesn’t matter how picky a person is, or how specific their tastes are, or how well (or little) you know them, a high quality condiment is a meal-upgrading addition to anyone’s kitchen — even if they don’t cook. (Let’s be honest, …",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-22T21:32:49.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "563116b0cad8e5a2",
       "title": "10 طرق بسيطة وغير مألوفة لحرق المزيد من السعرات يوميا",
       "link": "https://www.skynewsarabia.com/technology/1841709-10-%D8%B7%D8%B1%D9%82-%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9-%D9%88%D8%BA%D9%8A%D8%B1-%D9%85%D8%A7%D9%94%D9%84%D9%88%D9%81%D8%A9-%D9%84%D8%AD%D8%B1%D9%82-%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D9%8A%D9%88%D9%85%D9%8A%D8%A7",
@@ -3098,6 +3226,22 @@
       },
       "lang": "ar",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7a2feea46fdcd9c6",
+      "title": "The 38 Best Restaurants in Mexico City, According to a Local Culinary Guide",
+      "link": "https://www.eater.com/maps/best-mexico-city-restaurants-38",
+      "summary": "Dining at Maizajo. | Maizajo The largest city in North America, Mexico City is a unique, elastic, ever-changing patchwork of food traditions. As a native of the city and a food writer covering the scene for the past 14 years, I’m still amazed by CDMX’s captivating energy and scale. Since Eater firs…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-22T15:30:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3321,6 +3465,22 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "60e314ad34f5a92b",
+      "title": "These 10 Food Gift Ideas Were Hand-Picked by the Eater Staff",
+      "link": "https://www.eater.com/gift-guides/931837/best-foodie-gifts-according-to-eater-staff",
+      "summary": "As 2025 comes to an end, the annual holiday gift mania begins to set in. No matter the mental notes and physical lists maintained throughout the year, we’re all stuck asking the same question as December quickly passes: “What should I get them?” Whether you’re shopping for your bestie, that one cra…",
+      "body": null,
+      "image": null,
+      "pubDate": "2025-12-19T11:00:00.000Z",
+      "source": {
+        "name": "Eater",
+        "homepage": "https://www.eater.com/rss/index.xml"
+      },
+      "lang": "en",
       "category": "technology",
       "region": "global"
     },
