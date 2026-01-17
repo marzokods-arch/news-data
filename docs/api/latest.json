@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-17T20:27:51.456Z",
+    "generated_at": "2026-01-17T20:42:45.940Z",
     "total": 467,
     "processed_feeds": 20,
     "discovered_feeds": 84,
@@ -8,6 +8,19 @@
     "shard_of": 5,
     "shard_index": 2,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 60,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "ESPN",
         "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/61e2d7b8-0e29-4a17-b952-85b01c3154d3",
@@ -31,19 +44,6 @@
           "technology"
         ],
         "taken": 44,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 60,
         "error": null,
         "notModified": false
       },
@@ -100,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Hacker News - Front",
-        "url": "https://news.ycombinator.com/rss",
-        "homepage": "https://news.ycombinator.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 30,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Ars Technica",
         "url": "https://arstechnica.com/feed/",
         "homepage": "https://arstechnica.com/feed/",
@@ -135,6 +109,32 @@
           "general"
         ],
         "taken": 18,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Hacker News - Front",
+        "url": "https://news.ycombinator.com/rss",
+        "homepage": "https://news.ycombinator.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 30,
         "error": null,
         "notModified": false
       },
@@ -165,19 +165,6 @@
         "notModified": false
       },
       {
-        "name": "Mayo Clinic News",
-        "url": "https://newsnetwork.mayoclinic.org/feed/",
-        "homepage": "https://newsnetwork.mayoclinic.org/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "المصري اليوم - ملاعب",
         "url": "https://sports.almasryalyoum.com/feed/",
         "homepage": "https://sports.almasryalyoum.com/feed/",
@@ -188,19 +175,6 @@
         ],
         "taken": 10,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - رياضة",
-        "url": "https://www.skynewsarabia.com/rss/sports.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -217,9 +191,9 @@
         "notModified": false
       },
       {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "name": "Sky News Arabia - رياضة",
+        "url": "https://www.skynewsarabia.com/rss/sports.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -230,22 +204,35 @@
         "notModified": false
       },
       {
-        "name": "WMO — News",
-        "url": "https://public.wmo.int/en/media/news/rss.xml",
-        "homepage": "https://public.wmo.int/en/media/news/rss.xml",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Mayo Clinic News",
+        "url": "https://newsnetwork.mayoclinic.org/feed/",
+        "homepage": "https://newsnetwork.mayoclinic.org/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
-        "name": "Met Office (UK) — News",
-        "url": "https://www.metoffice.gov.uk/rss/news",
-        "homepage": "https://www.metoffice.gov.uk/rss/news",
+        "name": "WMO — News",
+        "url": "https://public.wmo.int/en/media/news/rss.xml",
+        "homepage": "https://public.wmo.int/en/media/news/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -267,15 +254,44 @@
         "taken": 0,
         "error": "Error: Invalid character in entity name\nLine: 9\nColumn: 59\nChar:  ",
         "notModified": false
+      },
+      {
+        "name": "Met Office (UK) — News",
+        "url": "https://www.metoffice.gov.uk/rss/news",
+        "homepage": "https://www.metoffice.gov.uk/rss/news",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
     {
+      "id": "60a1640251a1eff3",
+      "title": "Indie App Spotlight: ‘Radiance’ is a fantastic, free wallpaper app for iPhone users",
+      "link": "https://9to5mac.com/2026/01/17/indie-app-spotlight-radiance-is-a-fantastic-free-wallpaper-app-for-iphone-users/",
+      "summary": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. If you’re looking for a fresh set of wallpapers for your iPhone or iPad, Radiance is a great app to check…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-17T20:30:00.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "01fa959759e27861",
       "title": "Arsenal stumble in draw against resilient Forest",
       "link": "https://www.bbc.com/sport/football/videos/cdexzpnzzlwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal missed the chance to extend their lead at the top of the table to nine points, having failed to win against a determined Nottingham Forest side that held the Gunners to a goalless draw.",
+      "summary": "Arsenal missed the chance to extend their lead at the top of the Premier League table to nine points, with a goalless draw against a determined Nottingham Forest.",
       "body": null,
       "image": null,
       "pubDate": "2026-01-17T20:13:30.000Z",
@@ -336,10 +352,10 @@
       "region": "global"
     },
     {
-      "id": "4e56389f6ce04cfe",
-      "title": "Brobbey goal earns Sunderland comeback over struggling Palace",
+      "id": "13206a1d4df0d5ec",
+      "title": "Brobbey goal earns Sunderland comeback win over struggling Palace",
       "link": "https://www.bbc.com/sport/football/videos/cwy8ejxve70o?at_medium=RSS&at_campaign=rss",
-      "summary": "Enzo Le fee and Brian Brobbey were on the scoresheet as Sunderland came from behind to beat Crystal Palace, who are without a win in 10 matches in all competitions.",
+      "summary": "Enzo Le Fee and Brian Brobbey were on the scoresheet as Sunderland came from behind to beat Crystal Palace, who are without a win in 10 matches in all competitions.",
       "body": null,
       "image": null,
       "pubDate": "2026-01-17T20:01:07.000Z",
@@ -384,10 +400,10 @@
       "region": "global"
     },
     {
-      "id": "ee1b3dbcdefac34a",
-      "title": "Super-sub Nmecha wins it for Leeds in injury time",
+      "id": "33715ef2b75332a9",
+      "title": "Super-sub Nmecha wins it for Leeds in stoppage time",
       "link": "https://www.bbc.com/sport/football/videos/czejy0r8we0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Lukas Nmecha came off the bench, scoring in injury time to give Leeds an important win against Fulham, and keep them eight points clear of the relegation zone.",
+      "summary": "Substitute Lukas Nmecha scores in stoppage time to give Leeds an important win against Fulham, and leave them eight points clear of the Premier League relegation zone.",
       "body": null,
       "image": null,
       "pubDate": "2026-01-17T20:00:35.000Z",
@@ -590,6 +606,70 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "026754c6100ea61f",
+      "title": "أرتيتا: نستحق ركلة جزاء أمام نوتنجهام.. وكنا بإمكاننا تقديم أداء أفضل",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D9%86%D8%B3%D8%AA%D8%AD%D9%82-%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A7%D8%A1-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%86%D9%88%D8%AA%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%88%D9%83%D9%86%D8%A7-%D8%A8%D8%A7%D9%95%D9%85%D9%83%D8%A7%D9%86%D9%86%D8%A7-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%94%D8%AF%D8%A7%D8%A1-%D8%A7%D9%94%D9%81%D8%B6%D9%84/blt93d6576e89571602?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أرتيتا يعتقد أن فريقه تعرض للظلم أمام نوتنجهام",
+      "body": "أرتيتا يعتقد أن فريقه تعرض للظلم أمام نوتنجهام أعرب الإسباني ميكيل أرتيتا، مدرب آرسنال، عن إحباطه بعد التعادل مع مضيفه نوتنجهام فورست في البريميرليج. واكتفى آرسنال بنقطة التعادل مع مضيفه نوتنجهام فورست، خلال اللقاء الذي انتهى بالتعادل السلبي 0-0، مساء السبت، على ملعب سيتي جراوند، ضمن لقاءات الجولة 22 من الدوري الإنجليزي الممتاز. وقال أرتيتا، في تصريحات لقناة \"بي بي سي\" عقب المباراة: \"بالتأكيد كنا نرغب بالفوز، وكنا نعلم أن المباراة ستكون صعبة للغاية ومتقاربة جدًا نظرًا لأسلوب لعبهم\". وأضاف: \"لقد صنعنا أربع فرص خطيرة للغاية، بالإضافة إلى ركلة جزاء واضحة لم تحتسب، لكننا لم نتمكن من حسم المباراة لصالحنا\". وتابع: \"لقد شاهدت الإعادة، وأعتقد أن هناك نية واضحة لإبعاد الكرة داخل منطقة الجزاء، وهي ركلة جزاء واضحة، لذا لا أفهم سبب عدم احتسابها\". وأكمل: \"كان بإمكاننا تقديم أداء أفضل، ولكن هذا يحدث في كل مباريات الدوري لجميع الفرق، علينا أن نتحسن ونقدم أداءً أفضل، خاصةً عندما نصنع أربع فرص خطيرة، يجب علينا استغلالها\". وواصل: \"يجب أن نخلق العديد من الفرص، لقد صنعنا عدد ليس بقليل اليوم، ولكن الفضل يعود إليهم (لاعبي نوتنجهام) أيضًا لأنهم منظمون للغاية ويعطلون زخمك بطرق ذكية طوال الوقت\". وختم: \"كنا نعلم ذلك، وحاولنا التسجيل حتى اللحظات الأخيرة، ولا أعتقد أننا استقبلنا أي تسديدة، لكن هذه هي الفروقا…",
+      "image": null,
+      "pubDate": "2026-01-17T18:37:30.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e2e2003ad0ec1d22",
+      "title": "رسميا.. الكاف يتسجيب لشكوى السنغال قبل مواجهة المغرب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D8%A7%D9%84%D9%83%D8%A7%D9%81-%D9%8A%D8%AA%D8%B3%D8%AC%D9%8A%D8%A8-%D9%84%D8%B4%D9%83%D9%88%D9%89-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blt2ee580badb9f2e0d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الاتحاد الأفريقي يشدد على التزامه الصارم بالعدالة في نهائي \"الكان\"",
+      "body": "الاتحاد الأفريقي يشدد على التزامه الصارم بالعدالة في نهائي \"الكان\" تفاعل الاتحاد الأفريقي لكرة القدم \"كاف\" مع شكوى منتخب السنغال قبل مباراة نهائي كأس الأمم الأفريقية 2025 المقررة ضد المغرب صاحب الأرض غدا الأحد. وكان الاتحاد السنغالي قد أصدر بيانا أمس اشتكي فيه من \"خلل تنظيمي\" رافق التحضير للمباراة النهائية، وحذر من المساس بمبادئ العدالة وتكافؤ الفرص. كما استنكر غياب التأمين اللازم لبعثة السنغال لدى وصولها إلى محطة قطار الرباط، استعدادا لمباراة النهائي، مشددا على أن ذلك عرض اللاعبين والجهاز الفني لمخاطر، في مشهد \"لا يتماشى مع معايير البطولات الكبرى\". &nbsp; التزام بالعدالة والشفافية ونشر الاتحاد الأفريقي لكرة القدم \"كاف\" بيانا عبر موقعه الرسمي مساء السبت، أكد فيه \"التزامه بمبادئ العدالة والشفافية والالتزام الصارم باللوائح\". وتابع: \"حرص (كاف) طوال منافسات كأس أمم أفريقيا 2025 في المغرب، بالتعاون مع لجنة التنظيم المحلية، على إخضاع جميع المنتخبات لنفس الظروف\". وكشف أنه علم \"بالتصريحات المنسوبة إلى الاتحاد السنغالي لكرة القدم والمتعلقة بالجوانب اللوجستية قبل نهائي كأس أمم أفريقيا المغرب 2025\". ملعب تدريبات بديل وأردف الكاف: \"مُنح الاتحاد السنغالي لكرة القدم فرصة اختيار الفندق الخاص بمنتخبه قبل النهائي، وتمت الاستجابة لهذا الطلب\". وأكد: \"بعدما عبّر منتخب السنغال عن عدم رضاه بخصوص ملعب ا…",
+      "image": null,
+      "pubDate": "2026-01-17T18:34:03.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f5198ad96d05b5ed",
+      "title": "مدرب الشباب: الحكم أهدى الفوز للنصر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%A7%D9%94%D9%87%D8%AF%D9%89-%D8%A7%D9%84%D9%81%D9%88%D8%B2-%D9%84%D9%84%D9%86%D8%B5%D8%B1/blt46332c9835f77caf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الإسباني ينفجر بعد الديربي",
+      "body": "المدرب الإسباني ينفجر بعد الديربي عبر الإسباني إيمانويل ألجواسيل، مدرب الشباب، عن غضبه الشديد بعد خسارة ديربي الرياض أمام النصر، بنتيجة (2-3)، ضمن منافسات الجولة 16 من دوري روشن السعودي للمحترفين. وتجمد رصيد الشباب عند 11 نقطة في المركز 14 بجدول ترتيب دوري روشن، فيما وصل النصر للنقطة 34 في وصافة ترتيب المسابقة. وعقب المباراة، قال ألجواسيل في المؤتمر الصحفي: \"مع احترامي للنصر وجميع لاعبيه، فالحكم هو من منحهم الانتصار في مباراة الليلة\". وأضاف: \"لا أريد أن أتحدث أكثر، أنتم جميعًا شاهدتم ما حدث في المباراة.. ما حدث اليوم ظلم، لأن المواجهة كانت متكافئة، لكن الحكم قرر طرد سيرو\". وأكمل: \"حالة الطرد غير صحيحة، وغدًا سنجتمع مع دائرة التحكيم، والنصر مُنح فترة راحة أكثر منا بواقع 48 ساعة تقريبًا، لكننا استطعنا أن نظهر شخصية قوية، خاصة بعد التأخر بهدفين\". وشدد: \"كانت لدينا ردة فعل وسجلنا، وعندما تسيدنا المباراة، رفض الحكم أن تُستكمل المواجهة بـ11 لاعبًا، وقرر منحنا بطاقة حمراء\". وعن المستوى الفني، قال ألجواسيل: \"أنا أول من اعترف أننا ارتكبنا أخطاء في بداية المباراة، وأنا أتحمل المسؤولية عمّا حدث في البداية، لكن بعد استقبال الهدفين تمكنا من تصحيح المسار، وكنا لفترات طويلة أفضل من النصر، ثم رأيتم ما حدث من الحكم\". واختتم: \"أنا لم أتحدث إلا عمّا شاهدته في الملعب، وما شاهده كل من كان في الملعب، ت…",
+      "image": null,
+      "pubDate": "2026-01-17T18:32:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "fd3a452fe0c3679c",
+      "title": "تتويج خاص لحارس الهلال قبل النهائي الأفريقي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AA%D9%88%D9%8A%D8%AC-%D8%AE%D8%A7%D8%B5-%D9%84%D8%AD%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A/blt235b62c581f4671f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ياسين بونو يحصل على جائزة استثنائية",
+      "body": "ياسين بونو يحصل على جائزة استثنائية &nbsp; توج المغربي ياسين بونو حارس مرمى الهلال السعودي بجائزة خاصة، وذلك في وقت يستعد فيه لخوض نهائي بطولة كأس الأمم الأفريقية مع منتخب بلاده ضد السنغال مساء الأحد. وفاز بونو بجائزة أفضل رياضي خلال مهرجان جوي أوورد، والتي تقام في الرياض مساء اليوم السبت. وبعد منافسة مع عدة أسماء من بينها زميله في الفريق سالم الدوسري قائد الهلال والمنتخب السعودي، نال بونو الجائزة كأفضل رياضي. وتسلم ممثلا عن اللاعب الجائزة، نظرا لكونه في المغرب حاليا يستعد لنهائي كأس الأمم الأفريقية. وكان بونو قد تألق وقدم مستويات مميزة في العام الماضي مع الهلال، ومن بين ذلك تألقه في بطولة كأس العالم للأندية رفقة الهلال، كما نجح في التألق بمشوار المغرب في تصفيات كأس العالم أيضا، وفي النسخة الحالية لبطولة أمم أفريقية.",
+      "image": null,
+      "pubDate": "2026-01-17T18:28:45.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "690c7b695e4317ad",
@@ -1088,54 +1168,6 @@
       "region": "mena"
     },
     {
-      "id": "ab0c31795868c4c7",
-      "title": "نوتنجهام يجبر آرسنال على الاكتفاء بنقطة التعادل",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%86%D9%88%D8%AA%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D8%AC%D8%A8%D8%B1-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%83%D8%AA%D9%81%D8%A7%D8%A1-%D8%A8%D9%86%D9%82%D8%B7%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%AF%D9%84/blt76a421c4194d08c3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الفريق اللندني يهدر فرصة توسيع فارق صدارته بعدما عجز عن فك شيفرة مرمى قورست.",
-      "body": "الفريق اللندني يهدر فرصة توسيع فارق صدارته بعدما عجز عن فك شيفرة مرمى قورست. اكتفى آرسنال بالتعادل مع مضيفه نوتنجهام فورست 0-0 مساء السبت، ضمن الجولة الثانية والعشرين من الدوري الإنجليزي الممتاز. وشدد نوتنجهام من دفاعاته بقيادة المدرب شون دايتش، ولم تفلح تبديلات آرسنال في إحداث الفارق المطلوب، ليكتفي الفريق اللندني بنقطة. وارتفع رصيد آرسنال بهذا التعادل إلى 50 نقطة، بفارق 7 نقاط امام مانشستر سيتي وأستون فيلا، فيما رفع نوتنجهام رصيده إلى 22 نقطة في المركز السابع عشر. ساكا على الدكة مجددا دخل آرسنال اللقاء بثلاثة تغييرات مقارنة بالتشكيلة التي فازت على تشيلسي 3-2 منتصف الأسبوع ضمن كأس الرابطة، أبرزها جلوس بوكايو ساكا على مقاعد البدلاء للمرة الثانية خلال ثلاث مباريات في الدوري، مع إشراك نوني مادويكي أساسيا. وعاد جابرييل مارتينيلي إلى التشكيل على الجناح المقابل، بينما تراجع لياندرو تروسار إلى الدكة. وشهدت حراسة المرمى عودة دافيد رايا بدلا من كيبا، في حين عاد كريستيان موسكيرا من الإصابة ليجلس على مقاعد البدلاء. في المقابل، أجرى نوتنجهام فورست تسعة تغييرات دفعة واحدة مقارنة بتشكيلته التي خسرت أمام ريكسهام في كأس الاتحاد الإنجليزي، ولم يحتفظ سوى ماتز سيلس وإيغور جيسوس بموقعيهما. أما على مستوى الدوري، فاكتفى فورست بتغيير وحيد عن الفريق الذي فاز على وست هام، حيث جلس أومري هاتشينسون على الدك…",
-      "image": "https://assets.kooora.com/images/v3/getty-2256163716/crop/MM5DGOJVGE5DEMRSGI5G433XMU5DAORSGA3A====/GettyImages-2256163716.jpg",
-      "pubDate": "2026-01-17T17:25:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7881e559e7748c31",
-      "title": "بالفيديو: أوناحي يمزح بشأن أزمة التذاكر.. ويكشف سر قوة المغرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%94%D9%88%D9%86%D8%A7%D8%AD%D9%8A-%D9%8A%D9%85%D8%B2%D8%AD-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%88%D9%8A%D9%83%D8%B4%D9%81-%D8%B3%D8%B1-%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blt4e26a31368055afb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أوناحي: الركراكي لن يشرك أي لاعب غير جاهز",
-      "body": "أوناحي: الركراكي لن يشرك أي لاعب غير جاهز يستعد المنتخب المغربي لمواجهة نظيره السنغالي، غدًا الأحد، في نهائي كأس الأمم الأفريقية 2025. ويحلم أسود الأطلس، باستعادة اللقب القاري، الغائب عن خزائن الفريق، منذ نسخة 1976. القوة الحقيقية للأسود وتحدث عز الدين أوناحي، لاعب المنتخب المغربي، العائد مؤخرًا للتدريبات الجماعية بعد تعافيه من الإصابة، عن النهائي المرتقب. وقال أوناحي في تصريحات خاصة لموقع &nbsp;Le360 Sport\"منتخب المغرب يمتلك لاعبين مميزين قادرين على تعويض الغيابات، وبالتالي لن يشارك أي لاعب غير جاهز\". وأضاف \"القوة الحقيقية للأسود تكمن في الروح القتالية التي بثها المدرب وليد الركراكي، الذي يشدد دائمًا على مفهوم العائلة\". وتابع \"سنخوض مباراة قوية أمام السنغال، 11 لاعبًا ضد 11 لاعبًا، دون النظر للحسابات المسبقة، وإن شاء الله سنتوج باللقب\". وبشأن تذاكر المباراة النهائية، مازح أوناحي بقوله \"نحن اللاعبون لم نعثر على تذاكر للمباراة لأفراد عائلاتنا\". View this post on Instagram",
-      "image": "https://assets.kooora.com/images/v3/getty-2252501236/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3A====/GettyImages-2252501236.jpg",
-      "pubDate": "2026-01-17T17:25:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3c7c37cfda21dcae",
-      "title": "جدول مباريات وترتيب النصر في دوري روشن السعودي 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/blt50fc377e5a07b0db?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن جدول مباريات النصر في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه...",
-      "body": "كل ما تريد معرفته عن جدول مباريات النصر في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه... يحمل النجم البرتغالي كريستيانو رونالدو، على عاتقه مهمة إعادة النصر إلى منصات التتويج مع بداية موسم 2025-2026، حيث يشارك الفريق في بطولة دوري روشن السعودي بهدف واحد وهو حصد اللقب. النصر أجرى صفقات قوية في صيف 2025، واستعان بخدمات المدرب البرتغالي المخضرم جورج جيسوس، في إطار سعيه لبناء فريق قادر على المنافسة محليًا وقاريًا، بعد موسم خرج فيه خالي الوفاض من البطولات. ولم يحقق النصر لقب دوري روشن السعودي منذ موسم 2018-2019، لذلك لن تتهاون جماهير العالمي مع فكرة التفريط في اللقب الغائب عن خزائن الفريق منذ 6 مواسم كاملة.. ويرصد كووورة في السطور التالية جدول مباريات النصر في دوري روشن السعودي ونتائج العالمي وترتيبه أيضًا بين فرق المسابقة، مع تحديث مباشر بشكل مستمر بعد نهاية كل جولة. جدول مباريات النصر في دوري روشن السعودي 2025-2026 &nbsp; الجولة المباراة الموعد النتيجة الملعب 1 التعاون - النصر الجمعة 29 أغسطس 2025 21:00 السعودية، 22:00 الإمارات 5-0 استاد مدينة الملك عبدالله الرياضية ببريدة 2 النصر - الخلود الأحد 14 سبتمبر 2025 21:00 السعودية، 22:00 الإمارات 0-2 الأول بارك 3 النصر - الرياض السبت 20 سبتمبر 2025 21:00 السعودية، 22:00 الإمارات 1-5 الأول بارك 4 الاتحاد - النصر الجمعة 26 سبتمبر 2025 21:00 …",
-      "image": null,
-      "pubDate": "2026-01-17T17:22:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "7fc3979a41094dd4",
       "title": "Elon Musk is looking for a $134 billion payout from OpenAI and Microsoft",
       "link": "https://www.engadget.com/big-tech/elon-musk-is-looking-for-a-134-billion-payout-from-openai-and-microsoft-171824945.html?src=rss",
@@ -1150,22 +1182,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "c2197622b449e283",
-      "title": "رودري: مانشستر يونايتد كان أفضل منا.. وسنقاتل حتى النهاية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%88%D8%AF%D8%B1%D9%8A-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%83%D8%A7%D9%86-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%85%D9%86%D8%A7-%D9%88%D8%B3%D9%86%D9%82%D8%A7%D8%AA%D9%84-%D8%AD%D8%AA%D9%89-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/blt5b204aa5b0c6c97b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رودري يعتقد أن المشوار لا زال طويلًا في المنافسة على لقب الدوري",
-      "body": "رودري يعتقد أن المشوار لا زال طويلًا في المنافسة على لقب الدوري علق الإسباني رودري هيرنانديز، نجم وسط مانشستر سيتي، على هزيمة فريقه في لقاء الديربي أمام مانشستر يونايتد. وسقط مانشستر سيتي، في فخ الهزيمة أمام جاره اللدود، بثنائية نظيفة، اليوم السبت، على ملعب أولد ترافورد، ضمن لقاءات الجولة 22 للبريميرليج. وقال رودري، في تصريحات عقب المباراة: \"مباراة اليوم كانت صعبة للغاية، لكننا بذلنا قصارى جهدنا، أحيانًا يكون الخصم أفضل، كانوا أكثر حيوية ونشاطًا\". وأضاف: \"كان لديهم رغبة أكبر في الفوز اليوم، لكننا لم نفقد شخصيتنا وحاولنا، لكن في النهاية فاجأونا بهجمات مرتدة وسجلوا هدفين\". وتابع: \"هذه هي كرة القدم، يجب أن تتعلم من الخسارة وتمضي قدمًا\". وواصل: \"خسرنا نقاطًا كثيرة في المباريات الأخيرة، لكننا ما زلنا في مراكز المنافسة، نحن في المقدمة وسنقاتل حتى النهاية\". وأردف: \"يقدم اللاعبون الشباب أداءً رائعًا، صحيح أنهم يفتقرون للخبرة أحيانًا لكننا بحاجة لمساعدتهم لأنهم سيكونوا لاعبين مهمين مستقبلًا\". واختتم: \"أنا جاهز تمامًا وسعيد جدًا بالتواجد على أرض الملعب، أشعر بتحسن كل يوم، لذا نعم أنا سعيد وأرغب في مساعدة الفريق بكل الطرق الممكنة\".",
-      "image": null,
-      "pubDate": "2026-01-17T17:15:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "c0f7e86392d44c7c",
@@ -6167,22 +6183,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-01-12T21:59:11.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3158eb1c89a570d3",
-      "title": "iOS 26’s Messages app adds five great new group chat features",
-      "link": "https://9to5mac.com/2026/01/12/ios-26s-messages-app-adds-five-great-new-group-chat-features/",
-      "summary": "iOS 26 is packed full of changes for iPhone users, including five great new group chat features in the Messages app. Here’s what’s new. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-12T21:31:13.000Z",
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
