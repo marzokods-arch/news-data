@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-01-22T20:49:40.595Z",
-    "total": 196,
+    "generated_at": "2026-01-22T20:59:57.644Z",
+    "total": 187,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,16 +9,18 @@
     "shard_index": 4,
     "results": [
       {
-        "name": "CDC — Newsroom",
-        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
-        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "name": "National Geographic",
+        "url": "https://www.nationalgeographic.com/animals/article/how-to-set-up-bird-feeders",
+        "homepage": "https://www.nationalgeographic.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "science",
+          "travel",
+          "culture"
         ],
         "taken": 0,
-        "error": null,
+        "error": "Error: No whitespace between attributes\nLine: 2\nColumn: 24\nChar: l",
         "notModified": false
       },
       {
@@ -35,15 +37,28 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "CDC — Newsroom",
+        "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
+        "homepage": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 0,
         "error": null,
         "notModified": false
       },
@@ -61,44 +76,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/article/how-to-set-up-bird-feeders",
-        "homepage": "https://www.nationalgeographic.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "science",
-          "travel",
-          "culture"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 8,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -115,35 +115,9 @@
         "notModified": false
       },
       {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -163,19 +137,6 @@
           "general"
         ],
         "taken": 48,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -206,16 +167,42 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -245,6 +232,19 @@
         "notModified": false
       },
       {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Al Bayan (UAE) - رياضة",
         "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
@@ -258,16 +258,16 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -287,80 +287,48 @@
   },
   "items": [
     {
-      "id": "47795bb6745ff55d",
-      "title": "US airlines issue travel waivers as winter storm threatens widespread disruptions",
-      "link": "https://www.investing.com/news/stock-market-news/us-airlines-issue-travel-waivers-as-winter-storm-fern-threatens-widespread-disruptions-4461170",
-      "summary": "",
+      "id": "3d6c4dc702495460",
+      "title": "Mickey Rourke and Money: The Story of a Troubled Relationship",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/mickey-rourke-and-money-story-of-a-troubled-relationship-1236481934/",
+      "summary": "The fallen star wasn’t ready for the closeup on his financial woes, but he’s been here before. And his embattled manager says hope — a much-needed payday— is on the horizon.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0L1A6_L.jpg",
-      "pubDate": "2026-01-22T20:43:05.000Z",
+      "image": null,
+      "pubDate": "2026-01-22T20:59:30.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f3ed60d0ca35c353",
-      "title": "WestJet seat U-turn exposes risks for airlines squeezing economy passengers",
-      "link": "https://www.investing.com/news/stock-market-news/analysiswestjet-seat-uturn-exposes-risks-for-airlines-squeezing-economy-passengers-4459786",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0L0LZ_L.jpg",
-      "pubDate": "2026-01-22T20:42:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "0c391cdcd03c1188",
-      "title": "ICE has detained four children from Minnesota school district, officials say",
-      "link": "https://www.investing.com/news/world-news/ice-detains-four-children-from-minnesota-school-district-school-officials-say-4460522",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0L0W4_L.jpg",
-      "pubDate": "2026-01-22T20:42:33.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f2f112282b90058a",
-      "title": "Lululemon’s \"Get Low\" leggings return with new buyer warnings",
-      "link": "https://www.investing.com/news/stock-market-news/lululemons-get-low-leggings-return-with-new-buyer-warnings-93CH-4461281",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-22T20:41:33.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
       "region": "global"
     },
     {
-      "id": "a67f9e8cee5dc3e6",
-      "title": "Earnings call transcript: Great Southern Bancorp beats Q4 2025 earnings expectations",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-great-southern-bancorp-beats-q4-2025-earnings-expectations-93CH-4461280",
-      "summary": "",
+      "id": "168113a531217ecd",
+      "title": "Greenland PM: Don't know details of Trump-NATO deal framework, but sovereignty is a 'red line'",
+      "link": "https://www.cnbc.com/2026/01/22/greenland-trump-nato-deal-nielsen.html",
+      "summary": "Nielsen criticized Trump's aggression toward Greenland, saying the rhetoric is \"unacceptable.\"",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-22T20:41:01.000Z",
+      "image": null,
+      "pubDate": "2026-01-22T20:53:48.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "7d64a0815804ab1f",
+      "title": "The Sims 4's most notorious sex mod gets launched 400,000 times a day, which is more people than I realized were even playing The Sims every day",
+      "link": "https://www.pcgamer.com/games/the-sims/the-sims-4s-most-notorious-sex-mod-gets-launched-400-000-times-a-day-which-is-more-people-than-i-realized-were-even-playing-the-sims-every-day/",
+      "summary": "One of The Sims 4's biggest mods is putting up numbers a triple-A game would be jealous of.",
+      "body": "Boldly I will log onto the internet today and admit I am boring. I've never installed Wicked Whims. The notorious adult content addon is one of the biggest Sims 4 mods out there, quickly updated after every official patch as fans lament they can't bear to play without it. It sure feels like everyone but me is Wicked-pilled, which may not be far from the truth: The mod's creator says that it gets launched an astonishing 400,000 times per day. German news site Taz (Die Tageszeitung) published an interview this week with Turbodriver, the modder behind Wicked Whims and its less naughty equivalent Wonderful Whims. It's a bit of a drive-by in which Turbodriver only briefly touches on topics like being compensated for modding, access to adult content online, and whether he finds his mods controversial. The details about himself he's willing to share (his identity not among them), mostly boil down to not seeing himself as an educator or an activist. Wicked Whims has contraception, explicit sex, and abortion, but that's in pursuit of the realism that players want more than making a statement, he claims. What was way more enlightening to me was the girthy daily player count that Turbodriver…",
+      "image": "https://cdn.mos.cms.futurecdn.net/UhxxRCAzCcLuGa9BpArXfL-1280-80.png",
+      "pubDate": "2026-01-22T20:52:40.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
       },
       "lang": "en",
       "category": "general",
@@ -399,22 +367,6 @@
       "region": "global"
     },
     {
-      "id": "f80b7b49dedaaca0",
-      "title": "Entegris SVP Haris sells $699k in shares",
-      "link": "https://www.investing.com/news/insider-trading-news/entegris-svp-haris-sells-699k-in-shares-93CH-4461279",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-22T20:40:02.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "e588ff251b6e3040",
       "title": "Lowe's bets on kids, creators and Gen Z as Americans delay homebuying",
       "link": "https://www.cnbc.com/2026/01/22/lowes-offers-kids-events-loyalty-program-as-americans-buy-homes-later.html",
@@ -447,22 +399,6 @@
       "region": "global"
     },
     {
-      "id": "908039332872ec39",
-      "title": "US third-quarter economic growth revised slightly higher",
-      "link": "https://www.investing.com/news/economic-indicators/us-thirdquarter-economic-growth-revised-slightly-higher-4460535",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0L0W2_L.jpg",
-      "pubDate": "2026-01-22T20:36:27.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "5a3c6031561c9b98",
       "title": "These 4 turnarounds are making headway – plus, updates on our 30 other stocks",
       "link": "https://www.cnbc.com/2026/01/22/these-4-turnarounds-are-progressing-plus-updates-on-30-other-stocks.html",
@@ -473,38 +409,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c9d91f78bdbf833c",
-      "title": "Form 8K SEALY INDUSTRIAL PARTNERS IV For: 22 January",
-      "link": "https://www.investing.com/news/filings/form-8k-sealy-industrial-partners-iv-for-22-january-93CH-4461277",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2026-01-22T20:30:42.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fc6b6df46cc15e5f",
-      "title": "Form 8K Sotherly Hotels Inc For: 22 January",
-      "link": "https://www.investing.com/news/filings/form-8k-sotherly-hotels-inc-for-22-january-93CH-4461276",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2026-01-22T20:30:34.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -665,22 +569,6 @@
       "source": {
         "name": "Hollywood Reporter",
         "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "168113a531217ecd",
-      "title": "Greenland PM: Don't know details of Trump-NATO deal framework, but sovereignty is a 'red line'",
-      "link": "https://www.cnbc.com/2026/01/22/greenland-trump-nato-deal-nielsen.html",
-      "summary": "Nielsen criticized Trump's aggression toward Greenland, saying the rhetoric is \"unacceptable.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-22T19:35:37.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "technology",
@@ -863,6 +751,70 @@
       "region": "global"
     },
     {
+      "id": "0f96f169d2882e8e",
+      "title": "إنزاجي: هجومنا بخير.. وإدارة الهلال تعرف طريق النجاح",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%86%D8%B2%D8%A7%D8%AC%D9%8A-%D9%87%D8%AC%D9%88%D9%85%D9%86%D8%A7-%D8%A8%D8%AE%D9%8A%D8%B1-%D9%88%D8%A7%D9%95%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD/blt0e3170f39342ba20?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مدرب الزعيم يطمئن الجماهير",
+      "body": "مدرب الزعيم يطمئن الجماهير أعرب الإيطالي سيموني إنزاجي، المدير الفني لفريق الهلال، عن رضاه عن أداء لاعبيه، عقب الفوز على الفيحاء بنتيجة 4-1، ضمن منافسات الجولة السابعة عشرة من دوري روشن السعودي للمحترفين، مؤكدًا أن فريقه قدم مباراة قوية رغم الغيابات. وقال إنزاجي في تصريحاته عقب اللقاء:\"كنا جيدين في المباراة وبدأنا بشكل جيد، وسعينا لأن نكون الفريق الأول في التهديف، ونجحنا في تسجيل الهدف الأول، وقدمنا مباراة قوية أمام فريق منظم رغم الغيابات\". وأضاف مدرب الهلال: \"بخصوص المهاجمين، أود أن أقول إنني مطمئن لأدائهم في المباراة، لقد قدموا عملًا رائعًا، ومالكوم، وليو، ونونيز حاولوا تقديم كل ما لديهم، واستحقوا تسجيل الأهداف، وبشكل عام أنا سعيد جدًا بمستواهم\". وتطرق إنزاجي إلى ملف الانتقالات، قائلًا: \"إدارة الهلال تعمل بشكل مستمر من أجل الأفضل على صعيد الانتقالات، وأيًا كانت رؤيتها بشأن تدعيم الفريق بلاعب وسط أو مهاجم، فأنا أثق في إدارة الهلال لجلب الأفضل للفريق\". واختتم تصريحاته بالحديث عن الأدوار الهجومية داخل الملعب، قائلًا: \"ليو مهاجم رقم 9، ونونيز كذلك، لكن مع غياب سالم الدوسري، تولّى نونيز تغطية عدة مراكز، ولعب في مركزي 7 و11، وأدى دور الجناح خلال المباراة بالشكل المطلوب\". وبهذا الانتصار، وسع الهلال الفارق مع النصر والأهلي مرة أخرى إلى 7 نقاط، حيث وصل للنقطة 44، فيما ياتي خلفه \"العالمي\"…",
+      "image": null,
+      "pubDate": "2026-01-22T18:54:22.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f930fe25ee5bbcf8",
+      "title": "رودجرز: واجهنا الاتحاد بشجاعة.. وأرفض الرد على كونسيساو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%88%D8%AF%D8%AC%D8%B1%D8%B2-%D9%88%D8%A7%D8%AC%D9%87%D9%86%D8%A7-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A8%D8%B4%D8%AC%D8%A7%D8%B9%D8%A9-%D9%88%D8%A7%D9%94%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D9%83%D9%88%D9%86%D8%B3%D9%8A%D8%B3%D8%A7%D9%88/blt6d29a08ce05719b1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الإيرلندي سُئل عن تصريحات نظيره البرتغالي بعد المباراة",
+      "body": "المدرب الإيرلندي سُئل عن تصريحات نظيره البرتغالي بعد المباراة أثنى الإيرلندي بريندان رودجرز، المدير الفني لفريق القادسية، على لاعبيه، عقب الفوز على الاتحاد في دوري روشن السعودي. وقاد رودجرز القادسية لتحقيق الانتصار السادس على التوالي في الدوري السعودي، وذلك من خلال الفوز على الاتحاد بنتيجة 2-1، الخميس، على ملعب الأمير محمد بن فهد بالدمام، في الجولة السابعة عشرة. وقال رودجرز في تصريحات بالمؤتمر الصحفي بعد المباراة، نقلتها صحيفة \"الشرق الأوسط\" السعودية: \"قبل المباراة، سُئلت عن الاستمرار على النهج الهجومي، وكانت إجابتي نعم، وهذا ما حدث اليوم\". وأضاف: \"لعبنا بشجاعة كبيرة (ضد الاتحاد)، وهاجمنا وقلبنا النتيجة، وكنّا قريبين من تسجيل أكثر من هدفين\". وأردف: \"مستوانا في تطور وتقدم، ولكن مع ذلك، أذكر اللاعبين أن علينا التطور والتركيز والتواضع أيضًا\". من ناحية أخرى، رفض رودجرز الرد على تصريحات البرتغالي سيرجيو كونسيساو، المدير الفني لفريق اتحاد جدة، والتي أكد فيها أن الخسارة أمام القادسية لم تكن عادلة. وقال المدرب الإيرلندي تعليقًا على هذا الأمر: \"لن أرد، ولكن نحن نستحق الفوز\"، متمًا: \"سنواصل نهجنا الناجح، ولن نُجري أي تغيير إلا عند الحاجة\". يُذكر أن القادسية نجح في القفز إلى المركز الرابع في جدول ترتيب الدوري السعودي، بعدما رفع رصيده إلى 36 نقطة، بفارق 8 نقاط خلف الهلال صاحب الصدارة، ونقطة و…",
+      "image": null,
+      "pubDate": "2026-01-22T18:53:59.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7841219b4219033f",
+      "title": "حرب الانتخابات تشتعل.. لابورتا في مأزق مع جماهير برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B4%D8%AA%D8%B9%D9%84-%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D9%81%D9%8A-%D9%85%D8%A7%D9%94%D8%B2%D9%82-%D9%85%D8%B9-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt7d7ff4e453494fe3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ما علاقة \"إشبيلية\" بحرب رئاسة النادي الكتالوني؟",
+      "body": "ما علاقة \"إشبيلية\" بحرب رئاسة النادي الكتالوني؟ انتقد فيكتور فونت، المرشح البارز لرئاسة نادي برشلونة، اختيار توقيت الانتخابات الرئاسية المقررة عام 2026، في ظل الصراع الدائر مع خوان لابورتا، الرئيس الحالي للنادي. واعتبر فونت -الذي خاض الانتخابات السابقة- أن اختيار الموعد يخدم مصالح الرئيس الحالي خوان لابورتا بشكل واضح، مشددا على أن إجراء الانتخابات في منتصف موسم كروي مكثف لا يُظهر اكتراثا كافيا بظروف المشاركة الجماهيرية. وقال فونت، في تصريحات نقلتها صحيفة \"سبورت\" الإسبانية: \"من المهم أن هذه الانتخابات تُجرى في التوقيت الذي يناسب لابورتا.. فهو لا يُبالي بإقامتها في خضم مباريات دوري أبطال أوروبا. لكننا كنا نتوقع ذلك، ولم يُفاجئنا الأمر\". ومن المقرر أن يواجه الفريق الكتالوني نظيره إشبيلية في الليجا يوم 15 مارس/ آذار المقبل، وهو ذات اليوم المقرر إقامة انتخابات النادي فيه. وأضاف فونت: \"نحن مستعدون تماما. إنها انتخابات حاسمة لمستقبل برشلونة، وقد حان الوقت لإعادة النادي إلى أعضائه الحقيقيين\". وفي سياق متصل، تقدم فونت باقتراح موجه إلى مجلس الإدارة الحالي يهدف إلى تعزيز مشاركة الأعضاء في العملية الانتخابية، خاصة في ظل تزامن الموعد المحدد مع مباراة الفريق أمام إشبيلية على ملعب كامب نو. ولفت فونت: \"أطالب بأن تُخصص هذه المباراة للأعضاء فقط، مع توفير التذاكر بأقل سعر ممكن، حيث إن تشجيع المشاركة…",
+      "image": null,
+      "pubDate": "2026-01-22T18:50:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7948853095074a83",
+      "title": "هالاند.. روبوت يعاني من خلل ويحتاج لإعادة ضبط",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D8%A7%D9%84%D8%A7%D9%86%D8%AF-%D8%B1%D9%88%D8%A8%D9%88%D8%AA-%D9%8A%D8%B9%D8%A7%D9%86%D9%8A-%D9%85%D9%86-%D8%AE%D9%84%D9%84-%D9%88%D9%8A%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D8%A7%D9%95%D8%B9%D8%A7%D8%AF%D8%A9-%D8%B6%D8%A8%D8%B7/blt25a2f6fc3827817f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قدم المهاجم النرويجي إيرلينج هالاند، بداية نارية خلال الموسم الحالي مع مانشستر سيتي، لكن هذا السيل التهديفي، تعرض لخلل مفاجئ.",
+      "body": "قدم المهاجم النرويجي إيرلينج هالاند، بداية نارية خلال الموسم الحالي مع مانشستر سيتي، لكن هذا السيل التهديفي، تعرض لخلل مفاجئ. فعلى الرغم من أن هالاند سجل رقمًا مذهلًا بلغ 39 هدفًا في 36 مباراة مع المان سيتي ومنتخب النرويج هذا الموسم، إلا أنه دخل في فترة تراجع، مكتفيًا بتسجيل هدف واحد فقط في آخر 8 مباريات. وتزامن ذلك مع تراجع فريق المدرب بيب جوارديولا، في سباق المنافسة على لقب الدوري الإنجليزي الممتاز، إضافة إلى تعرضه لصدمة مدوية، بالخسارة 1-3 أمام بودو جليمت في دوري أبطال أوروبا. وأشار جوارديولا إلى نقص الطاقة، خلال الخسارة في ديربي مانشستر أمام اليونايتد، السبت الماضي. لكن يبقى السؤال مطروحًا \"هل لعب هالاند (25 عامًا) عددًا مفرطًا من المباريات هذا الموسم؟ وهل كان على مدربه إبعاده قليلًا عن الضغوط؟\". واستعرضت شبكة BBC Sport، تقريرًا مفصلًا للإجابة على هذا السؤال المثير. هالاند يتحمل المسؤولية كاملة تجسدت معاناة هالاند الأخيرة أمام المرمى، خلال الرحلة الباردة والبائسة إلى الدائرة القطبية، الثلاثاء الماضي. وبعد التأخر المفاجئ 0-2، كان المان سيتي، بحاجة لشرارة تعيدهم إلى المباراة، وقبيل نهاية الشوط الأول سنحت لهالاند، فرصة ذهبية من مسافة قريبة، لكنه سدد الكرة من لمسة واحدة خارج المرمى. وكانت هذه الكرة، بلا شك، لتسكن الشباك في وقت سابق من الموسم، لكن المهاجم يجد نفسه الآن دون أي هدف م…",
+      "image": "https://assets.kooora.com/images/v3/kooora_1399267_1/crop/MM5DQMBQHI2DKMB2NZXXOZJ2GA5DIMQ=/20241229-afp_36rq4mq_afp.jpg",
+      "pubDate": "2026-01-22T18:50:13.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a29d72bb98b17cdf",
       "title": "You may soon be able to use a buy now, pay later plan for your rent—what to know",
       "link": "https://www.cnbc.com/2026/01/22/affirm-partnership-to-offer-buy-now-pay-later-plan-for-rent.html",
@@ -909,22 +861,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "2b4c0e7802f23ce1",
-      "title": "Oscar Noms Analysis: Six Takeaways From the ‘Sinners’ Surge, the International Show of Force and More",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/2026-oscar-nominations-analysis-sinners-surge-international-films-1236481382/",
-      "summary": "The Hollywood Reporter's executive editor of awards coverage dissects Thursday morning's announcement.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-22T18:44:19.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "d3a7b06512268085",
@@ -1119,8 +1055,24 @@
       "region": "global"
     },
     {
-      "id": "9d034c7e504e09a9",
-      "title": "بالفيديو.. قطار القادسية يدهس الاتحاد ويُبعده عن مربع الذهب",
+      "id": "4b5929ef1128ef53",
+      "title": "بالفيديو.. الهلال يسحق الفيحاء ويهرب بالقمة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D8%B3%D8%AD%D9%82-%D8%A7%D9%84%D9%81%D9%8A%D8%AD%D8%A7%D8%A1-%D9%88%D9%8A%D9%87%D8%B1%D8%A8-%D8%A8%D8%A7%D9%84%D9%82%D9%85%D8%A9/blt3a8d40ab21eeffe7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"الزعيم\" يواصل إسقاط منافسيه",
+      "body": "\"الزعيم\" يواصل إسقاط منافسيه واصل فريق الهلال الابتعاد بقمة ترتيب دوري روشن السعودي للمحترفين، وذلك بعدما حقق فوزُا كبيرًا على حساب نظيره الفيحاء، بنتيجة (4-1)، خلال المباراة التي جمعت الطرفين، مساء اليوم الخميس، ضمن منافسات الجولة 17 من عمر المسابقة. وبهذا الانتصار، وسع الهلال الفارق مع النصر والأهلي مرة أخرى إلى 7 نقاط، حيث وصل للنقطة 44، فيما ياتي خلفه \"العالمي\" و\"الراقي\"، بواقع 37 نقطة لكلٍ منهما، فيما تجمد رصيد الفيحاء عند 14 نقطة في المركز الثالث عشر، بجدول ترتيب الدوري السعودي. وسجل هدف الفيحاء، الزامبي فاشيون ساكالا (ق 14)، فيما أحرز رباعية الهلال كل من الصربي سيرجي ميلينكوفيتش سافيتش (ق 37)، أورلاندو موسكيرا (هدف عكسي) بالدقيقة 45، ومحمد كنو (ق 61، والبرازيلي ماركوس ليوناردو (ق 90). &nbsp; بداية مفاجئة فاجأ الفيحاء الجميع، ببداية نارية، عبر ضغط قوي بطول الملعب على الهلال، واستطاع أن يسجل هدفًا مبكرًا في الدقيقة السابعة عبر تسديدة صاروخية من ساكالا. لكن الحكم قرر إلغاء الهدف، حيث أثبتت تقنية الفيديو وقوع أحد اللاعبين في مصيدة التسلل من بداية اللعبة. ولم يكتف الفيحاء بذلك، بل واصل ضغطه الشديد، فيما عانى الهلال في عملية الخروج بالكرة. &nbsp; الفيحاء يسجل ولكن الهدف يُلغى بداعي التسلل ⚽️❌ #الهلال_الفيحاء | #دوري_روشن_السعودي pic.twitter.com/JO8Cz49iwi — رياضة ثمانية (@thmanya…",
+      "image": null,
+      "pubDate": "2026-01-22T17:35:41.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2dd32a33f11691a3",
+      "title": "بالفيديو: قطار القادسية يدهس الاتحاد.. ويُبعده عن مربع الذهب",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%82%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D9%8A%D8%AF%D9%87%D8%B3-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%88%D9%8A%D9%8F%D8%A8%D8%B9%D8%AF%D9%87-%D8%B9%D9%86-%D9%85%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8/blt9bb9bc050b75e312?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "الفريق الشرقي يعقد موقف \"النمور\" في دوري روشن",
       "body": "الفريق الشرقي يعقد موقف \"النمور\" في دوري روشن واصل فريق القادسية سلسلة انتصاراته في دوري روشن السعودي، بعدما حقق فوزًا جديدًا على الاتحاد. وفاز القادسية على الاتحاد بنتيجة 2-1، اليوم الخميس، على ملعب الأمير محمد بن فهد بالدمام، في ختام منافسات الجولة السابعة عشرة من دوري روشن السعودي. فوز سادس وتعثر ثالث وافتتح كريم بنزيما التسجيل لفريق الاتحاد من ركلة جزاء في الدقيقة 29، لكن المهاجم المكسيكي جوليان كينونيس سجل هدفين في الدقيقة 37 و59، ليقود فريقه للفوز. وبات هذا الانتصار هو السادس على التوالي لفريق القادسية في الموسم الحالي من دوري روشن، ليرفع رصيده إلى 36 نقطة، يحتل بها المركز الرابع في جدول الترتيب. في المقابل، تعثر الاتحاد للمباراة الثالثة على التوالي، ليتوقف رصيده عند 27 نقطة، يحتل بها المركز السادس في جدول الترتيب. عود ة عوار البرتغالي سيرجيو كونسيساو، المدير الفني لفريق اتحاد جدة، أعاد لاعب وسطه الجزائري حسام عوار للمشاركة بشكل أساسي، بعدما غاب عن المباريات السبعة الماضية في دوري روشن. ولعب عوار في المثلث الأمامي، بجوار الفرنسيين موسى ديابي وكريم بنزيما، فيما لعب الفرنسي نجولو كانتي والمالي مامادو دومبيا في وسط الملعب. كما شارك الحارس محمد العبسي بشكل أساسي، لتعويض غياب الصربي بريدراج رايكوفيتش، بسبب حصوله على بطاقة حمراء خلال الهزيمة من الاتفاق 0-1، في الجولة الماضية. وجاء…",
@@ -1149,22 +1101,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "0e7f9a3f76acaa20",
-      "title": "بالفيديو.. الهلال يقلب الطاولة على الفيحاء ويبتعد بقمة دوري روشن",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%81%D9%8A%D8%AD%D8%A7%D8%A1-%D9%88%D9%8A%D8%A8%D8%AA%D8%B9%D8%AF-%D8%A8%D9%82%D9%85%D8%A9-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/blt3a8d40ab21eeffe7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"الزعيم\" يواصل إسقاط منافسيه",
-      "body": "\"الزعيم\" يواصل إسقاط منافسيه واصل فريق الهلال الابتعاد بقمة ترتيب دوري روشن السعودي للمحترفين، وذلك، بعدما حقق فوزُا كبيرًا على حساب نظيره الفيحاء، بنتيجة (4-1)، خلال المباراة التي جمعت الطرفين، مساء اليوم الخميس، ضمن منافسات الجولة 17 من عمر المسابقة. وبهذا الانتصار، وسع الهلال الفارق مع النصر والأهلي مرة أخرى إلى 7 نقاط، حيث وصل للنقطة 44، فيما ياتي خلفه \"العالمي\" و\"الراقي\"، بواقع 37 نقطة لكلٍ منهما، فيما تجمد رصيد الفيحاء عند 14 نقطة في المركز الثالث عشر، بجدول ترتيب الدوري السعودي. وسجل هدف الفيحاء، الزامبي فاشيون ساكالا (ق 14)، فيما أحرز رباعية الهلال كل من الصربي سيرجي ميلينكوفيتش سافيتش (ق 37)، أورلاندو موسكيرا (هدف عكسي) بالدقيقة 45، ومحمد كنو (ق 61، والبرازيلي ماركوس ليوناردو (ق 90). &nbsp; بداية مفاجئة فاجأ الفيحاء الجميع، ببداية نارية، عبر ضغط قوي بطول الملعب على الهلال، واستطاع أن يسجل هدفًا مبكرًا في الدقيقة السابعة عبر تسديدة صاروخية من ساكالا. لكن الحكم قرر إلغاء الهدف، حيث أثبتت تقنية الفيديو وقوع أحد اللاعبين في مصيدة التسلل من بداية اللعبة. ولم يكتف الفيحاء بذلك، بل واصل ضغطه الشديد، فيما عانى الهلال في عملية الخروج بالكرة. &nbsp; الفيحاء يسجل ولكن الهدف يُلغى بداعي التسلل ⚽️❌ #الهلال_الفيحاء | #دوري_روشن_السعودي pic.twitter.com/JO8Cz49iwi — رياضة ثمانية (@thmany…",
-      "image": null,
-      "pubDate": "2026-01-22T17:30:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "76690b61158836fe",
@@ -1279,22 +1215,6 @@
       "region": "global"
     },
     {
-      "id": "3d8d0648be3fef60",
-      "title": "Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward",
-      "link": "https://www.cnbc.com/2026/01/22/spirit-airlines-deal-talks-castlelake.html",
-      "summary": "Spirit Airlines is in talks with investment firm Castlelake for a potential takeover of the discount airline, which is in bankruptcy, CNBC has learned.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-22T17:13:33.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ea2618487e1c08a2",
       "title": "بعد الهفوة القاتلة.. إنريكي يدافع عن ضحية باريس الجديدة",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D9%87%D9%81%D9%88%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D8%A7%D9%95%D9%86%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%AF%D8%A7%D9%81%D8%B9-%D8%B9%D9%86-%D8%B6%D8%AD%D9%8A%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/blt83a606594ff4a4ae?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1309,6 +1229,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "3d8d0648be3fef60",
+      "title": "Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward",
+      "link": "https://www.cnbc.com/2026/01/22/spirit-airlines-deal-talks-castlelake.html",
+      "summary": "Spirit Airlines is in talks with investment firm Castlelake for a potential takeover of the discount airline, which is in bankruptcy, CNBC has learned.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-22T17:13:33.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "287e4f6f2cacaa31",
@@ -1407,9 +1343,9 @@
       "region": "global"
     },
     {
-      "id": "e2fddbe36a079afe",
-      "title": "توتنهام يضع سعرا خياليا لمدافعه..فهل يكون الأغلى في العالم؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D9%8A%D8%B6%D8%B9-%D8%B3%D8%B9%D8%B1%D8%A7-%D8%AE%D9%8A%D8%A7%D9%84%D9%8A%D8%A7-%D9%84%D9%85%D8%AF%D8%A7%D9%81%D8%B9%D9%87-%D9%81%D9%87%D9%84-%D9%8A%D9%83%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D8%BA%D9%84%D9%89-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/blt659fafc8eaf33b41?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "7ab3f9782c079a89",
+      "title": "توتنهام يضع سعرًا خياليًا لمدافعه.. فهل يكون الأغلى في العالم؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D9%8A%D8%B6%D8%B9-%D8%B3%D8%B9%D8%B1%D9%8B%D8%A7-%D8%AE%D9%8A%D8%A7%D9%84%D9%8A%D9%8B%D8%A7-%D9%84%D9%85%D8%AF%D8%A7%D9%81%D8%B9%D9%87-%D9%81%D9%87%D9%84-%D9%8A%D9%83%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D8%BA%D9%84%D9%89-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/blt659fafc8eaf33b41?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "وضعت إدارة نادي توتنهام هوتسبير الإنجليزي سعراً قياسياً لمدافعها وسط اهتمام من أندية الدوري الإنجليزي الممتاز وأوروبا",
       "body": "وضعت إدارة نادي توتنهام هوتسبير الإنجليزي سعراً قياسياً لمدافعها وسط اهتمام من أندية الدوري الإنجليزي الممتاز وأوروبا المدافع الهولندي الهولندي ميكي فان دي فين، الذي يرتبط بعقد مع السبيرز حتى عام 2029، يُعتقد أنه يسعى للرحيل في الصيف المقبل للانضمام إلى نادٍ من الصفوة الأوروبية.&nbsp; ويعد ليفربول من أبرز المهتمين بخدماته، رغم أن النادي لا يُتوقع أن يكرر إنفاقه الكبير في سوق الانتقالات كما فعل الصيف الماضي.&nbsp; فان دي فين البالغ من العمر 24 عاماً انضم إلى توتنهام في 2023 قادماً من فولفسبورغ، وخاض منذ ذلك الحين 80 مباراة، كما ارتدى شارة القيادة في أكثر من مناسبة هذا الموسم، ما يعكس أهميته داخل الفريق.&nbsp;&nbsp; &nbsp; &nbsp; سعر قياسي توتنهام حدد سعرا قياسيا يبلغ 100 مليون جنيه استرليني، وفي حال بيع فان دي فين بالمبلغ المطلوب، سيصبح أغلى مدافع في تاريخ كرة القدم، متجاوزاً الرقم القياسي الذي يحمله هاري ماجواير منذ انتقاله إلى مانشستر يونايتد مقابل 80 مليون جنيه إسترليني عام 2019، وفقاً لتقارير talkSPORT.&nbsp; ورغم قيمته الفنية، يعيش اللاعب موسماً مضطرباً تحت قيادة المدرب الجديد توماس فرانك، حيث ظهرت خلافات علنية بعد مباراة تشيلسي في نوفمبر، قبل أن يعتذر لاحقاً. كما دخل في مشادة مع بعض جماهير الفريق عقب الخسارة أمام بورنموث.&nbsp; &nbsp; &nbsp; بين مانشستر سيتي وليفربول تراجع نت…",
       "image": "https://assets.kooora.com/images/v3/getty-2251052032/crop/MM5DGMZSGI5DGMZSGI5G433XMU5DQNJSHIYA====/GettyImages-2251052032.jpg",
@@ -1487,54 +1423,6 @@
       "region": "global"
     },
     {
-      "id": "cae08c9a3e8067f8",
-      "title": "فوز يد مصر والجزائر وتونس.. وخسارة المغرب ببطولة أفريقيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%8A%D8%AF/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%88%D8%B2-%D9%8A%D8%AF-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D9%8A%D9%94%D8%B1-%D9%88%D8%AA%D9%88%D9%86%D8%B3-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A8%D8%A8%D8%B7%D9%88%D9%84%D8%A9-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blt161c6a4db5d023ef?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p style=\"direction: rtl;\">حقق منتخب الجزائر فوزه الأول بالبطولة الأفريقية لكرة اليد بعد تغلبه على منتخب رواندا صاحب الضيافة بنتيجة 46-25 مساء اليوم الخميس في الجولة الثانية للمجموعة الأولى.</p><p style=\"direction: rtl;\">وأنعش منتخب الجزائر آماله في التأهل بعد خسارته في الجولة الأولى أمام منتخب نيج…",
-      "body": "حقق منتخب الجزائر فوزه الأول بالبطولة الأفريقية لكرة اليد بعد تغلبه على منتخب رواندا صاحب الضيافة بنتيجة 46-25 مساء اليوم الخميس في الجولة الثانية للمجموعة الأولى. وأنعش منتخب الجزائر آماله في التأهل بعد خسارته في الجولة الأولى أمام منتخب نيجيريا الذي فاز على زامبيا بنتيجة 36-18. وفي المجموعة الثانية، فاز منتخب مصر على حساب أنجولا بنتيجة 41-28 في الجولة الثانية مساء الخميس. وتصدر منتخب مصر بقيادة مدربه الإسباني خوسيه باسكوال ترتيب المجموعة الثانية برصيد 4 نقاط بينما فاز منتخب الجابون على حساب أوغندا بنتيجة 33-16. وتوج يحيى خالد لاعب منتخب مصر ونادي باريس سان جيرمان الفرنسي، بجائزة أفضل لاعب في مباراة مصر وأنجولا. وحصد منتخب تونس فوزه الثاني بتغلبه على غينيا بنتيجة 35-25 في المجموعة الثالثة بينما فاز منتخب الكاميرون على كينيا بنتيجة 28-24. وخسر منتخب المغرب أمام الرأس الأخضر بنتيجة 28-32 في المجموعة الرابعة بينما فاز منتخب الكونغو على بنين بنتيجة 26-22.",
-      "image": null,
-      "pubDate": "2026-01-22T16:51:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "bbf7cb8b5b6d491c",
-      "title": "الشارقة يتوج بكأس السوبر الإماراتي القطري",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9-%D9%8A%D8%AA%D9%88%D8%AC-%D8%A8%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A/blt423754ad7fe0befa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "توج نادي الشارقة، بكأس السوبر الإماراتي القطري، بعد فوزه على مضيفه الغرافة، بركلات الترجيح 5-4.",
-      "body": "توج نادي الشارقة، بكأس السوبر الإماراتي القطري، بعد فوزه على مضيفه الغرافة، بركلات الترجيح 5-4، بعد انتهاء الوقت الأصلي للمباراة، بالتعادل 1-1 مساء الخميس. وبذلك، ينجح الشارقة في حصد لقبه الثاني هذا الموسم، بعدما توج قبل أيام قليلة، بكأس سوبر إعمار، بعد فوزه 3-2 على شباب الأهلي. &nbsp; ركلات الترجيح تحسم اللقاء جاءت المباراة، حماسية ومثيرة من الطرفين، رغم انتهاء الشوط الأول، على إيقاع التعادل السلبي. وفي الشوط الثاني، نشط كل فريق لهز الشباك، وبالفعل تمكن فلورينيل كومان من تسجيل هدف التقدم للغرافة القطري، في الدقيقة 64. وضغط الشارقة بشكل كبير، حتى أدرك التعادل في الدقيقة 73 بهدف رائع بالكعب، من لاعبه لوان بيريرا. وانتهى الوقت الأصلي للمباراة بالتعادل 1-1، لتذهب المباراة إلى ركلات الترجيح التي ابتسمت لصالح الشارقة.",
-      "image": "https://assets.kooora.com/images/v3/blt244f4e0f10a92506/crop/MM5DCMRYGA5DOMRQHJXG653FHIYDUMJVGI======/G_SORMSWgAA4Vkl.jpeg",
-      "pubDate": "2026-01-22T16:51:40.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8630a2f230ee2857",
-      "title": "بالفيديو.. بنزيما يكسر لعنة الهاتريك بهدف معتاد في القادسية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7-%D9%8A%D9%83%D8%B3%D8%B1-%D9%84%D8%B9%D9%86%D8%A9-%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D8%B1%D9%8A%D9%83-%D8%A8%D9%87%D8%AF%D9%81-%D9%85%D8%B9%D8%AA%D8%A7%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9/blt2451502daade9105?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المهاجم الفرنسي يواصل تألقه ضد الفريق الشرقي",
-      "body": "المهاجم الفرنسي يواصل تألقه ضد الفريق الشرقي كسر الفرنسي كريم بنزيما، مهاجم الاتحاد، لعنة الهاتريك، بهدف معتاد في شباك منافسه القادسية، ضمن منافسات دوري روشن السعودي. وسجل بنزيما هدف الاتحاد الأول في شباك القادسية، الخميس، على ملعب الأمير محمد بن فهد بالدمام، في الجولة السابعة عشرة من منافسات دوري روشن. وعاد المهاجم الفرنسي للتسجيل بعد غياب استمر لمباراتين في دوري روشن السعودي، حيث فشل في التسجيل خلال التعادل مع ضمك 1-1، والخسارة من الاتفاق 0-1. وكانت المرة الأخيرة التي يسجل فيها بنزيما مع الاتحاد، يوم 9 يناير/كانون الثاني الجاري، عندما أحرز \"هاتريك\" في الفوز على الخلود 4-0، في الجولة الرابعة عشرة من الدوري السعودي. وبشكل عام، بات هذا الهدف هو الرابع الذي يسجله بنزيما في شباك القادسية، وذلك في المباراة الرابعة التي يلتقيان فيها، بمعدل هدف في كل مباراة. يُذكر أن هذا الهدف هو الثامن الذي يسجله مهاجم ريال مدريد السابق في الموسم الحالي من دوري روشن السعودي. هدف! ⚽️ كريم بنزيما يفتتح التسجيل في شباك القادسية من ركلة جزاء 🔥🥅 #القادسية_الاتحاد | #دوري_روشن_السعودي pic.twitter.com/dVy1kbBvAk &mdash; رياضة ثمانية (@thmanyahsports) January 22, 2026",
-      "image": null,
-      "pubDate": "2026-01-22T16:46:20.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "11c7113cd90917ed",
       "title": "Sutton's predictions v 'Roy Keane' - Saipan star Hardwicke",
       "link": "https://www.bbc.com/sport/football/articles/cn8j42l594mo?at_medium=RSS&at_campaign=rss",
@@ -1549,22 +1437,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "aa63fd9bc26a169e",
-      "title": "بالفيديو.. سافيتش يسطع في سماء الهلال على طريقة رونالدو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B3%D8%A7%D9%81%D9%8A%D8%AA%D8%B4-%D9%8A%D8%B3%D8%B7%D8%B9-%D9%81%D9%8A-%D8%B3%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/blt331cc0ecbf02d2a8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم الصربي يتوهج مع \"الزعيم\"",
-      "body": "النجم الصربي يتوهج مع \"الزعيم\" سطع الصربي سيرجي ميلينكوفيتش سافيتش، لاعب وسط الهلال، في سماء \"الزعيم\"، بعدما سجل هدفًا رائعًا في شباك الفيحاء، مساء اليوم الخميس، ضمن منافسات الجولة 17 من دوري روشن السعودي للمحترفين. ويحتل الهلال المركز الأول في جدول ترتيب دوري روشن، برصيد 41 نقطة، متفوقًا على النصر والأهلي، بفارق 4 نقاط، فيما يقبع الفيحاء بالمركز 13، بعدما جمع 13 نقطة. وشهدت الدقيقة 37 من الشوط الأول، نجاح سافيتش في تسجيل الهدف الأول لفريقه عبر ضربة مقصية مزدوجة، انتزع بها آهات الجماهير الهلالية. &nbsp; هكذا سجّل سافيتش ⚽️🔥 #الهلال_الفيحاء | #دوري_روشن_السعودي pic.twitter.com/C8VVIVdm0p &mdash; رياضة ثمانية (@thmanyahsports) January 22, 2026 هدف سافيتش الرائع يتشابه كثيرًا مع المقصية المذهلة التي سجلها البرتغالي كريستيانو رونالدو، قائد النصر خلال مواجهة الخليج التي جمعت الطرفين، ضمن منافسات الجولة التاسعة من دوري روشن. واعتاد النجم البرتغالي على التسجيل بهذه الطريقة منذ أن كان لاعبًا في صفوف ريال مدريد، حيث هز شباك يوفنتوس الإيطالي، بمقصية مذهلة في الدور ربع النهائي من بطولة دوري أبطال أوروبا 2017-2018. &nbsp;",
-      "image": null,
-      "pubDate": "2026-01-22T16:40:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "69470ffa192123ac",
@@ -3100,22 +2972,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c5502934e1beed8b",
-      "title": "My 5 favorite 'cozy' games that don't actually look like cozy games",
-      "link": "https://www.pcgamer.com/games/my-5-favorite-cozy-games-that-dont-actually-look-like-cozy-games/",
-      "summary": "Give your eyes a little break from aesthetically-mandated adorableness while still having chilled out experiences.",
-      "body": "I've made cozy gaming most of my personality in the past several years, but even I sometimes feel numb to the aesthetically-mandated cotton candy color palette. Sometimes I want to play a cozy game while giving my eyes a little rest from the pastel apocalypse. I also just like trying to slip in some chill games to my friend group's rotation without them noticing that I've put cauliflower into their mashed potatoes—it's good for their blood pressure! For this list of cozy games without cozy aesthetics I've banned pastel colors, chibi characters, and I've even managed to go completely pixel art free. That last part is maybe a little more hardcore than I needed to go (otherwise something like Graveyard Keeper would have been a nice fit) but I wanted to completely set aside the cozy goggles if at all possible. Promise Mascot Agency (Image credit: Kaizen Game Works) Cozy style: Management and exploration Steam Deck: ✅ Verified I need you to trust me when I say that this game about an exiled Yakuza tough and his severed pinkie mascot sidekick is a cozy game—the best one, according to our Game of the Year 2025 awards. It may start with a street fight, but the entire rest of Promise Masco…",
-      "image": "https://cdn.mos.cms.futurecdn.net/DTEY9ix3vQt6wWncZPbjeQ-1280-80.jpg",
-      "pubDate": "2026-01-21T20:41:30.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
