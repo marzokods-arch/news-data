@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T13:44:59.286Z",
-    "total": 191,
+    "generated_at": "2026-01-24T13:54:32.413Z",
+    "total": 177,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 53,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -35,29 +48,29 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 53,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -74,16 +87,68 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
+        ],
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 22,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -95,15 +160,15 @@
         "cats": [
           "general"
         ],
-        "taken": 7,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -126,54 +191,15 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 22,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -191,19 +217,6 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
@@ -214,19 +227,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
         "notModified": false
       },
       {
@@ -272,16 +272,16 @@
   },
   "items": [
     {
-      "id": "54f344e86ff6a242",
-      "title": "US to seek extradition of alleged leader of Ecuadorian drug trafficking gang from Spain, Ecuadorean official says",
-      "link": "https://www.investing.com/news/world-news/us-to-seek-extradition-of-alleged-leader-of-ecuadorian-drug-trafficking-gang-from-spain-ecuadorean-official-says-4464049",
-      "summary": "",
+      "id": "c2a6bc90c3723084",
+      "title": "Winter Storm Fern could cause significant power outages",
+      "link": "https://www.cnbc.com/2026/01/24/winter-storm-fern-could-cause-significant-power-outages.html",
+      "summary": "The electric grid in many parts of the U.S. is already under strain due to rising demand from data centers and the slow construction of new power generation.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_3_108x81.jpg",
-      "pubDate": "2026-01-24T13:30:11.000Z",
+      "image": null,
+      "pubDate": "2026-01-24T13:53:27.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "technology",
@@ -317,22 +317,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "03f46f3925c5ea1c",
-      "title": "US electric grid shows escalating stress amid cold blast",
-      "link": "https://www.investing.com/news/commodities-news/us-electric-grid-shows-escalating-stress-amid-cold-blast-4464048",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0N08K_L.jpg",
-      "pubDate": "2026-01-24T12:54:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -400,22 +384,6 @@
       "region": "global"
     },
     {
-      "id": "549f89db9a43c35b",
-      "title": "Exclusive-US presses Bolivia to expel suspected Iranian spies, harden approach to militant groups, sources say",
-      "link": "https://www.investing.com/news/world-news/exclusiveus-presses-bolivia-to-expel-suspected-iranian-spies-harden-approach-to-militant-groups-sources-say-4464044",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0N08F_L.jpg",
-      "pubDate": "2026-01-24T12:24:31.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "13b71ec4f393d466",
       "title": "GB's Brookes and Atkin claim X Games golds",
       "link": "https://www.bbc.com/sport/articles/cy05390d90ro?at_medium=RSS&at_campaign=rss",
@@ -480,8 +448,24 @@
       "region": "global"
     },
     {
-      "id": "6a22eeff8df8f128",
-      "title": "Ireland make Super Six despite Bangladesh defeat",
+      "id": "7b3a6d73ee5f6afd",
+      "title": "فينيسيوس يواجه فياريال تحت التهديد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D9%81%D9%8A%D8%A7%D8%B1%D9%8A%D8%A7%D9%84-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF/blt27476260ad0413c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم البرازيلي مهدد بالغياب أمام رايو فاليكانو",
+      "body": "النجم البرازيلي مهدد بالغياب أمام رايو فاليكانو يخوض البرازيلي فينيسيوس جونيور، نجم ريال مدريد، مباراة فريقه، اليوم السبت، ضد فياريال تحت تهديد الإيقاف. ويلتقي الفريقان على ملعب \"لا سيراميكا\" ضمن منافسات الجولة الـ21 من الدوري الإسباني. ووفقا لصحيفة \"آس\" الإسبانية، إذا تلقى فينيسيوس بطاقة صفراء الليلة ضد فياريال، سيغيب عن مباراة الأسبوع المقبل ضد رايو فاليكانو على ملعب سانتياجو برنابيو. ويحتل الميرنجي وصافة الليجا برصيد 48 نقطة، بفارق نقطة واحدة عن غريمه برشلونة المتصدر، بينما يأتي فياريال في المركز الثالث بـ41 نقطة، لكنه لعب مباراة أقل من الفريق الملكي. ولم يحقق ريال مدريد سوى انتصارين في آخر 10 زيارات له إلى ملعب \"لا سيراميكا\".. أما بقية المباريات فقد انتهت بـ6 تعادلات وفوزين على أرضه. ولم يخسر فريق المدرب مارسيلينو جارسيا تورال، سوى مباراة واحدة على أرضه في الليجا، وكانت أمام برشلونة بنتيجة 0-2 في 21 ديسمبر/ كانون الأول الماضي. وانتهت جميع مباريات فياريال الأخرى على أرضه بفوز كتيبة مارسيلينو، باستثناء التعادل 2-2 أمام ريال بيتيس في الجولة التاسعة بالليجا.",
+      "image": null,
+      "pubDate": "2026-01-24T11:46:38.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "80bb10425f3e6f37",
+      "title": "Ireland reach Super Six despite Bangladesh defeat",
       "link": "https://www.bbc.com/sport/cricket/articles/c3ve7nz9zyvo?at_medium=RSS&at_campaign=rss",
       "summary": "Ireland lose to Bangladesh by nine runs in their Women's T20 World Cup Qualifier group game, but qualify for the Super Six phase.",
       "body": null,
@@ -496,8 +480,8 @@
       "region": "global"
     },
     {
-      "id": "6a22eeff8df8f128",
-      "title": "Ireland make Super Six despite Bangladesh defeat",
+      "id": "80bb10425f3e6f37",
+      "title": "Ireland reach Super Six despite Bangladesh defeat",
       "link": "https://www.bbc.com/sport/cricket/articles/c3ve7nz9zyvo?at_medium=RSS&at_campaign=rss",
       "summary": "Ireland lose to Bangladesh by nine runs in their Women's T20 World Cup Qualifier group game, but qualify for the Super Six phase.",
       "body": null,
@@ -509,22 +493,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f0c1b24c037e6da9",
-      "title": "Delta cancels additional Atlanta, East Coast flights as winter storm threatens weekend travel",
-      "link": "https://www.investing.com/news/stock-market-news/delta-cancels-additional-atlanta-east-coast-flights-as-winter-storm-threatens-weekend-travel-4464046",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0N07O_L.jpg",
-      "pubDate": "2026-01-24T11:30:30.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -608,22 +576,6 @@
       "region": "global"
     },
     {
-      "id": "311fb5c065061ca8",
-      "title": "Explainer-Does Trump have a case against JPMorgan for closing his accounts?",
-      "link": "https://www.investing.com/news/stock-market-news/explainerdoes-trump-have-a-case-against-jpmorgan-for-closing-his-accounts-4464045",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0N070_L.jpg",
-      "pubDate": "2026-01-24T11:12:25.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "cf0b91483d450ef7",
       "title": "فليك: ما يمر به كوبارسي طبيعي.. وهذا موقف أراوخو",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D9%85%D8%A7-%D9%8A%D9%85%D8%B1-%D8%A8%D9%87-%D9%83%D9%88%D8%A8%D8%A7%D8%B1%D8%B3%D9%8A-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D9%88%D9%87%D8%B0%D8%A7-%D9%85%D9%88%D9%82%D9%81-%D8%A7%D9%94%D8%B1%D8%A7%D9%88%D8%AE%D9%88/blt7ebc2854cc714a98?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -638,22 +590,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "049831181ee9c4b7",
-      "title": "China investigating senior military officials Zhang Youxia, Liu Zhenli, says defence ministry",
-      "link": "https://www.investing.com/news/world-news/china-investigating-senior-military-officials-zhang-youxia-liu-zhenli-says-defence-ministry-4464043",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM0N06V_L.jpg",
-      "pubDate": "2026-01-24T11:07:10.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "e0b1562262414daa",
@@ -688,27 +624,11 @@
       "region": "mena"
     },
     {
-      "id": "037c3577a37d1e6f",
-      "title": "MakeMyTrip shares drop 46% as predicted by InvestingPro’s Fair Value model",
-      "link": "https://www.investing.com/news/investment-ideas/makemytrip-shares-drop-46-as-predicted-by-investingpros-fair-value-model-93CH-4464040",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-01-24T11:01:34.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "afe147e5bc8ef32a",
       "title": "رغم رفض عرض النصر.. الاتحاد يضحي بموسى ديابي من أجل نجم الشباب",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%BA%D9%85-%D8%B1%D9%81%D8%B6-%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%8A%D8%B6%D8%AD%D9%8A-%D8%A8%D9%85%D9%88%D8%B3%D9%89-%D8%AF%D9%8A%D8%A7%D8%A8%D9%8A-%D9%85%D9%86-%D8%A7%D9%94%D8%AC%D9%84-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8/bltbc11f0a6867f93a3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "صفقة تبادلية تلوح في الأفق في الدوري السعودي",
-      "body": "صفقة تبادلية تلوح في الأفق في الدوري السعودي كشفت تقارير صحفية عن كواليس صفقة تبادلية من العيار الثقيل في دوري روشن السعودي، خلال فترة الانتقالات الشتوية الحالية، سيكون بطلها هو الفرنسي موسى ديابي نجم الاتحاد. وقالت صحيفة \"الرياضية\" السعودية إن إدارتي ناديي الاتحاد والشباب تبحثان عقد صفقة تبادلية، ينتقل بموجبها موسى ديابي إلى النادي العاصمي، مقابل حصول \"النمور\" على الجناح البلجيكي يانيك كاراسكو. وأوضحت الصحيفة أن هذه المفاوضات التي تجري بين الإدارتين، تأتي بعد موافقة اللاعبين على إتمام الصفقة. وكان الاتحاد قد رفض عرضًا من النصر لضم موسى ديابي على سبيل الإعارة حتى نهاية الموسم الحالي، مقابل التخلي عن مدافعه عبدالإله العمري خلال نفس الفترة. ويقدم ديابي مستويات مميزة خلال الموسم الحالي مع الفريق الغربي، حيث سجل 3 أهداف وصنع 11 في 23 مباراة بمختلف المسابقات. لكن كاراسكو يبدو أكثر تألقًا، لا سيما في ظل تراجع مستوى فريق الشباب بشكل عام منذ بداية الموسم الحالي، حيث سجل 9 أهداف وصنع 3 في 17 مباراة فقط ببطولتي الدوري والكأس.",
+      "body": "صفقة تبادلية تلوح في الأفق في الدوري السعودي كشفت تقارير صحفية عن كواليس صفقة تبادلية من العيار الثقيل في دوري روشن السعودي، خلال فترة الانتقالات الشتوية الحالية، سيكون بطلها هو الفرنسي موسى ديابي نجم الاتحاد. وقالت صحيفة \"الرياضية\" السعودية إن إدارتي ناديي الاتحاد والشباب تبحثان عقد صفقة تبادلية، ينتقل بموجبها موسى ديابي إلى النادي العاصمي، مقابل حصول \"النمور\" على الجناح البلجيكي يانيك كاراسكو. وأوضحت الصحيفة أن هذه المفاوضات التي تجري بين الإدارتين، تنتظر موافقة اللاعبين على إتمام الصفقة. وكان الاتحاد قد رفض عرضًا من النصر لضم موسى ديابي على سبيل الإعارة حتى نهاية الموسم الحالي، مقابل التخلي عن مدافعه عبدالإله العمري خلال نفس الفترة. ويقدم ديابي مستويات مميزة خلال الموسم الحالي مع الفريق الغربي، حيث سجل 3 أهداف وصنع 11 في 23 مباراة بمختلف المسابقات. لكن كاراسكو يبدو أكثر تألقًا، لا سيما في ظل تراجع مستوى فريق الشباب بشكل عام منذ بداية الموسم الحالي، حيث سجل 9 أهداف وصنع 3 في 17 مباراة فقط ببطولتي الدوري والكأس.",
       "image": null,
       "pubDate": "2026-01-24T10:59:21.000Z",
       "source": {
@@ -960,22 +880,6 @@
       "region": "mena"
     },
     {
-      "id": "098e68a7622dd4ff",
-      "title": "ما القنوات الناقلة لمباراة الهلال والرياض في دوري روشن السعودي 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blta59f1937abe54602?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة الهلال والرياض في دوري روشن السعودي 2025-2026.. وكيف تشاهدها عبر الإنترنت",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة الهلال والرياض في دوري روشن السعودي 2025-2026.. وكيف تشاهدها عبر الإنترنت يستعد نادي الهلال لمواجهة نظيره الرياض غدًا الأحد على استاد الأمير فيصل بن فهد (الملز)، في إطار منافسات الجولة الثامنة عشرة من دوري روشن السعودي للمحترفين لموسم 2025-2026. ويتصدر الهلال حاليًا جدول ترتيب الدوري السعودي برصيد 44 نقطة، في حين يحتل فريق الرياض المركز الأخير برصيد 10 نقاط فقط.&nbsp; ويرصد \"كووورة\" في السطور التالية، القنوات الناقلة لمباراة الهلال والرياض في دوري روشن السعودي 2025-2026 وطرق المشاهدة عبر الإنترنت .. ما القنوات الناقلة لمباراة الهلال والرياض في دوري روشن السعودي 2025-2026؟&nbsp; يمكن مشاهدة مباراة الهلال والرياض في دوري روشن السعودي 2025-2026 عن طريق قنوات ثمانية. ما تردد قنوات ثمانية الناقلة لمباريات دوري روشن السعودي 2025-2026؟ &nbsp; القمر عرب سات التردد 11919 الاستقطاب أفقي (H) معدل الترميز 27500 معدل الخطأ 3/4 &nbsp; القمر نايل سات التردد 12360 الاستقطاب عمودي (V) معدل الترميز 27500 معدل الخطأ 3/4 &nbsp; كيف تشاهد مباراة الهلال والرياض في دوري روشن السعودي 2025-2026 عبر الإنترنت؟ أصدرت شبكة ثمانية تطبيقها الخاص الذي يمكن من خلاله مشاهدة مباراة الهلال والرياض في دوري روشن السعودي 2025-2026 عبر الإنترنت. لتحميل تطبيق ثمانية عبر Google…",
-      "image": null,
-      "pubDate": "2026-01-24T09:30:15.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "ac0266fa5b940463",
       "title": "How 'lucky' Sinner became biggest winner in near 40C Melbourne heat",
       "link": "https://www.bbc.com/sport/tennis/articles/c1ev96w4xv6o?at_medium=RSS&at_campaign=rss",
@@ -989,38 +893,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3d09ba6a53d486b7",
-      "title": "‘Leviticus’ Review: A Sad, Frightening Conversion-Therapy Horror From Australia",
-      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/leviticus-review-conversion-therapy-horror-1236480516/",
-      "summary": "This Sundance-bowing film about cursed teenagers takes a solemn, eerie look at homophobia and repression in a small town.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T08:45:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b5c75b6487cb4fa0",
-      "title": "‘The Moment’ Review: Charli xcx Comes to Bury ‘Brat,’ but Also to Praise It, in a Muddled Mockumentary That’s Mainly for the Fans",
-      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/the-moment-review-charli-xcx-brat-mockumentary-a24-1236483562/",
-      "summary": "Slated for a late January release by A24, Aidan Zamiri's satire of a cultural phenomenon also features Alexander Skarsgard, Rosanna Arquette, Kate Berlant and Hailey Benton Gates.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T08:20:05.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1248,22 +1120,6 @@
       "region": "global"
     },
     {
-      "id": "fded90881dbf27a6",
-      "title": "‘Extra Geography’ Review: English Prep School Girls Come of Age, in Mostly Familiar Fashion",
-      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/extra-geography-review-molly-manners-1236480556/",
-      "summary": "BAFTA-winning TV director Molly Manners’ debut feature stars Galaxie Clear and Marni Duggan as teenage BFFs who give themselves the assignment of falling in love.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T02:45:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "a27eba4e40fb1bab",
       "title": "It's hard to fault Highguard for giving the internet the silent treatment—wouldn't you?",
       "link": "https://www.pcgamer.com/games/fps/highguard-game-awards-marketing/",
@@ -1274,54 +1130,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cfd17722a863d4d9",
-      "title": "Bari Weiss Takes Hiatus From Podcast as Turmoil Mounts at CBS News",
-      "link": "https://www.hollywoodreporter.com/news/general-news/bari-weiss-honestly-hiatus-cbs-news-60-minutes-bloodbath-1236483339/",
-      "summary": "The network's new editor-in-chief is set to focus more on her new gig as a \"bloodbath\" reportedly looms over \"60 Minutes.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T01:44:07.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "1f3e2c65fd6614ff",
-      "title": "Yvonne Lime Fedderson, Actress in ‘I Was a Teenage Werewolf‘ and ‘The Rainmaker,’ Dies at 90",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/yvonne-lime-fedderson-dead-teenage-werewolf-rainmaker-1236483452/",
-      "summary": "She also starred in ‘Dragstrip Riot’ and ‘High School Hellcats’ before co-founding Childhelp, the nonprofit organization dedicated to helping abused, neglected and at-risk kids.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T01:38:09.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d88cf7f209d6b015",
-      "title": "Sundance Doc ‘All About the Money’ Takes on Wealth, Morality and Uneasy Truths",
-      "link": "https://www.hollywoodreporter.com/movies/movie-features/sundance-doc-all-about-the-money-director-interview-1236480592/",
-      "summary": "Irish director Sinéad O’Shea examines life inside the 1% in a documentary that probes wealth inequality, moral responsibility and a controversial subject pushing back: \"The rich cannot help but get richer, [and] that gap is getting more and more difficult to bridge.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T00:51:47.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -1341,22 +1149,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "053a4ab283c94dbb",
-      "title": "Bethenny Frankel Celebrates Launch of New Private Dating Platform The Core: “Everybody Wants Everyone Else to Win” (Exclusive)",
-      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/bethenny-frankel-the-core-private-dating-platform-interview-1236482986/",
-      "summary": "Frankel chats with The Hollywood Reporter about her new \"cream-of-the-crop\" dating platform, The Core, which hosted its first event Thursday night in Miami.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T00:39:55.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -1434,22 +1226,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "27b3f51972da27cf",
-      "title": "Shares of CSG, one of the world’s fastest-growing defense firms, jump 31% on debut",
-      "link": "https://www.cnbc.com/2026/01/23/csg-stock-debut-ipo-defense-amsterdam-czech.html",
-      "summary": "Shares of Czech-based defense firm Czechoslovak Group, or CSG, soared over 31% on its stock market debut on Friday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-23T23:14:49.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "general",
@@ -2160,22 +1936,6 @@
       "region": "global"
     },
     {
-      "id": "aebc37225dbc2c70",
-      "title": "Embark reveals Arc Raiders' next four major monthly updates, which it calls the 'Escalation' phase, teasing new matchmaking, machines, and more, but our second new map is months away",
-      "link": "https://www.pcgamer.com/games/third-person-shooter/embark-reveals-arc-raiders-next-four-major-monthly-updates-which-it-calls-the-escalation-phase-teasing-new-matchmaking-machines-and-our-first-new-map-in-months/",
-      "summary": "Say hello to new maps, Arcs, gear, and more.",
-      "body": "Arc Raiders has already come a long way in the roughly three months since launch, adding a new map, deadly machines, the festive Cold Snap event , and more. With the previous Arc Raiders roadmap running dry at the start of January, however, we've been eagerly anticipating what Embark has planned for 2026 , especially given how successful its extraction shooter has been. Enter Escalation, four themed monthly updates from January to April 2026, which will see everything from new map conditions, projects, and Expeditions , to a brand-new map, small and large Arcs, and an update to our dearest Scrappy. We'll also get new quests , events, items, and other additions throughout the year. You can see the new early 2026 Arc Raiders roadmap below: (Image credit: Embark Studios) January's Headwinds update might look on the slim side, but it kicks things off with a welcome addition: level 40+ matchmaking. This should help give new players an easier time as they get to grips with all the horrors Topside. Other than that, we'll get a new minor map condition and a fresh project to complete, likely requiring a bit of scavenging. February welcomes Shrouded Sky, which is much more substantial. The …",
-      "image": "https://cdn.mos.cms.futurecdn.net/d23Vadwp285bLVmY6VGSnF-1280-80.jpg",
-      "pubDate": "2026-01-23T17:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "0d831831fce64e3f",
       "title": "The Case Against Declaring Artificial General Intelligence",
       "link": "https://oilprice.com/Energy/Energy-General/The-Case-Against-Declaring-Artificial-General-Intelligence.html",
@@ -2189,6 +1949,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "aebc37225dbc2c70",
+      "title": "Embark reveals Arc Raiders' next four major monthly updates, which it calls the 'Escalation' phase, teasing new matchmaking, machines, and more, but our second new map is months away",
+      "link": "https://www.pcgamer.com/games/third-person-shooter/embark-reveals-arc-raiders-next-four-major-monthly-updates-which-it-calls-the-escalation-phase-teasing-new-matchmaking-machines-and-our-first-new-map-in-months/",
+      "summary": "Say hello to new maps, Arcs, gear, and more.",
+      "body": "Arc Raiders has already come a long way in the roughly three months since launch, adding a new map, deadly machines, the festive Cold Snap event , and more. With the previous Arc Raiders roadmap running dry at the start of January, however, we've been eagerly anticipating what Embark has planned for 2026 , especially given how successful its extraction shooter has been. Enter Escalation, four themed monthly updates from January to April 2026, which will see everything from new map conditions, projects, and Expeditions , to a brand-new map, small and large Arcs, and an update to our dearest Scrappy. We'll also get new quests , events, items, and other additions throughout the year. You can see the new early 2026 Arc Raiders roadmap below: (Image credit: Embark Studios) January's Headwinds update might look on the slim side, but it kicks things off with a welcome addition: level 40+ matchmaking. This should help give new players an easier time as they get to grips with all the horrors Topside. Other than that, we'll get a new minor map condition and a fresh project to complete, likely requiring a bit of scavenging. February welcomes Shrouded Sky, which is much more substantial. The …",
+      "image": "https://cdn.mos.cms.futurecdn.net/d23Vadwp285bLVmY6VGSnF-1280-80.jpg",
+      "pubDate": "2026-01-23T17:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
