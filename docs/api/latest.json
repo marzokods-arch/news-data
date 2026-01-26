@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T21:49:10.483Z",
-    "total": 202,
+    "generated_at": "2026-01-26T21:59:16.856Z",
+    "total": 192,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -31,6 +18,19 @@
           "general"
         ],
         "taken": 0,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
         "error": null,
         "notModified": false
       },
@@ -48,15 +48,15 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 7,
+        "taken": 65,
         "error": null,
         "notModified": false
       },
@@ -100,19 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Oilprice.com — Latest",
         "url": "https://oilprice.com/rss/main",
         "homepage": "https://oilprice.com/rss/main",
@@ -139,29 +126,16 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 21,
+        "error": null,
         "notModified": false
       },
       {
@@ -178,16 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 21,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -204,6 +178,19 @@
         "notModified": false
       },
       {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Bloomberg — Markets",
         "url": "https://www.bloomberg.com/markets/rss",
         "homepage": "https://www.bloomberg.com/markets/rss",
@@ -217,9 +204,35 @@
         "notModified": false
       },
       {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -243,19 +256,6 @@
         "notModified": false
       },
       {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Kooora - الدوريات العربية",
         "url": "https://www.kooora.com/?region=o&module=content&rss=1",
         "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
@@ -272,35 +272,35 @@
   },
   "items": [
     {
-      "id": "63f6687b40bbdb08",
-      "title": "NBT Bancorp earnings beat by $0.08, revenue topped estimates",
-      "link": "https://www.investing.com/news/earnings/nbt-bancorp-earnings-beat-by-008-revenue-topped-estimates-4466076",
-      "summary": "",
+      "id": "144f14f97b5717bd",
+      "title": "FirstFT: Yen leaps on speculation of joint US-Japan market intervention",
+      "link": "https://www.ft.com/content/ff87c253-7d99-4789-9a58-5dda25089805",
+      "summary": "Also in today’s newsletter: Trump sends border tsar to Minnesota and Keir Starmer prepares for China trip",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2026-01-26T21:47:37.000Z",
+      "image": null,
+      "pubDate": "2026-01-26T21:53:58.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
       },
       "lang": "en",
       "category": "general",
       "region": "global"
     },
     {
-      "id": "118f1de23ebb5370",
-      "title": "WR Berkley earnings matched, revenue topped estimates",
-      "link": "https://www.investing.com/news/earnings/wr-berkley-earnings-matched-revenue-topped-estimates-4466075",
-      "summary": "",
+      "id": "06fd7bbba3c872dd",
+      "title": "TikTok uninstalls are up 150% following U.S. joint venture",
+      "link": "https://www.cnbc.com/2026/01/26/tiktok-uninstalls-are-up-150percent-following-us-joint-venture.html",
+      "summary": "TikTok's daily average U.S. app uninstalls have increased nearly 150% over the past five days compared to the previous three months, Sensor Tower told CNBC.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-01-26T21:47:32.000Z",
+      "image": null,
+      "pubDate": "2026-01-26T21:49:26.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -314,134 +314,6 @@
       "source": {
         "name": "Hollywood Reporter",
         "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "768517f56db7bcce",
-      "title": "Integra meets 2025 gold production guidance at Florida Canyon mine",
-      "link": "https://www.investing.com/news/company-news/integra-meets-2025-gold-production-guidance-at-florida-canyon-mine-93CH-4466074",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-26T21:46:29.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "8e6cdffac69e97a5",
-      "title": "Form 144 Revolve Group For: 26 January",
-      "link": "https://www.investing.com/news/filings/form-144-revolve-group-for-26-january-93CH-4466072",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2026-01-26T21:45:52.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "220265b81782ea30",
-      "title": "Central Garden & Pet appoints Apur Patel as new chief legal officer",
-      "link": "https://www.investing.com/news/company-news/central-garden--pet-appoints-apur-patel-as-new-chief-legal-officer-93CH-4466071",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-26T21:45:48.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7616e935697a5833",
-      "title": "Streamex closes $35 million public offering at $3 per share",
-      "link": "https://www.investing.com/news/company-news/streamex-closes-35-million-public-offering-at-3-per-share-93CH-4466070",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-26T21:45:39.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1f4ead102fa20ef4",
-      "title": "HII names Daniel Marks as VP of contracts and pricing at Ingalls",
-      "link": "https://www.investing.com/news/company-news/hii-names-daniel-marks-as-vp-of-contracts-and-pricing-at-ingalls-93CH-4466069",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-26T21:45:21.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "31772b825fac33dd",
-      "title": "Form 144 COREWEAVE For: 26 January",
-      "link": "https://www.investing.com/news/filings/form-144-coreweave-for-26-january-93CH-4466068",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2026-01-26T21:45:13.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "14c60b32034552ef",
-      "title": "Customers Bank names Steve Wyremski as new chief operating officer",
-      "link": "https://www.investing.com/news/company-news/customers-bank-names-steve-wyremski-as-new-chief-operating-officer-93CH-4466067",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-26T21:45:10.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "eb72cf32c410a503",
-      "title": "Aptera Motors raises $9 million in public offering of shares",
-      "link": "https://www.investing.com/news/company-news/aptera-motors-raises-9-million-in-public-offering-of-shares-93CH-4466066",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-01-26T21:45:08.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "technology",
@@ -846,6 +718,22 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "3d3bffc4bad7506e",
+      "title": "\"أبطال ولكن\".. ضعف ميركاتو الاتحاد يُخرج كونسيساو عن صمته",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D9%88%D9%84%D9%83%D9%86-%D8%B6%D8%B9%D9%81-%D9%85%D9%8A%D8%B1%D9%83%D8%A7%D8%AA%D9%88-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%8A%D9%8F%D8%AE%D8%B1%D8%AC-%D9%83%D9%88%D9%86%D8%B3%D9%8A%D8%B3%D8%A7%D9%88-%D8%B9%D9%86-%D8%B5%D9%85%D8%AA%D9%87/blt2227becf4a38c7e6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب البرتغالي يتمنى تدعيم صفوفه",
+      "body": "المدرب البرتغالي يتمنى تدعيم صفوفه خرج البرتغالي سيرجيو كونسيساو، مدرب اتحاد جدة، عن صمته بسبب ضعف ميركاتو \"العميد\" خلال يناير/كانون ثان الجاري. وسبق وأن طلب كونسيساو ضم بعض الأسماء في مختلف المراكز، ولكن الإدارة لم تتحرك لتلبية طلباته، ما دفعه للحديث أمام الجميع بعد الانتصار على الأخدود، بهدفين مقابل هدف، ضمن الجولة 18 من دوري روشن. أشاد مدرب اتحاد جدة بالمردود الكبير الذي يقدمه لاعبوه داخل الملعب، مؤكدًا أن سعادته مرتبطة بما يقدمه الفريق من التزام وجهد، وليس فقط بنتيجة مباراة واحدة، خاصة في ظل ضغط المباريات وضيق فترات الراحة مقارنة بالمنافسين. وأوضح المدرب أن الفريق يعاني من إرهاق بدني واضح بسبب كثافة الجدول، مشيرًا إلى أن الاتحاد يمتلك يوم راحة أقل من بعض الفرق المنافسة، وهو ما يضاعف من صعوبة التحضير، لكنه في الوقت ذاته ثمّن الروح القتالية والانضباط العالي للاعبين، حيث قال: \"لاعبو الاتحاد أبطال بسبب تنفيذ التعليمات على مدار 90 دقيقة\". وأكد أن لاعبي الاتحاد يقدمون أقصى ما لديهم، ويعملون على تنفيذ تعليماته الفنية طوال 90 دقيقة، من خلال الانتشار في كل أرجاء الملعب وصناعة الفرص، كما حدث في المباراة الأخيرة وعدد من المواجهات السابقة. وفي سياق حديثه، ألمح مدرب الاتحاد إلى الحاجة لدعم الفريق بعناصر جديدة، مشددًا على أن الاستمرار في المنافسة على أعلى مستوى يتطلب حلولًا إضافية في بعض ال…",
+      "image": null,
+      "pubDate": "2026-01-26T19:49:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "da745224aba36db7",
@@ -1479,22 +1367,6 @@
       "body": "العالمي يواصل انطلاقته واصل النصر ملاحقة الهلال على قمة ترتيب دوري روشن السعودي للمحترفين، وذلك بعدما حقق فوزًا صعبًا على أرضه ووسط جماهيره أمام التعاون، بهدف دون رد، في إطار منافسات الجولة 18 من عمر المسابقة. وبهذا الانتصار، رفع \"العالمي\" رصيده للنقطة 40 في وصافة ترتيب دوري روشن، بالتساوي مع أهلي جدة، خلف الهلال المتصدر بفارق 5 نقاط أقل (45). وسجل محمد الدوسري، لاعب التعاون هدف المباراة الوحيد لصالح النصر، بالخطأ في مرماه عند الدقيقة 45 من الشوط الأول. &nbsp; عودة ساديو ماني شهدت المباراة عودة السنغالي ساديو ماني للمشاركة مع النصر، بعد الغياب في آخر 7 مباريات في بطولة دوري روشن، بسبب التواجد مع منتخب بلاده في بطولة كأس الأمم الأفريقية 2025. وشارك ماني مع النصر بعد غياب دام 64 يومًا منذ آخر ظهور له بالقميص الأصفر، حيث يعود الظهور المذكور إلى مواجهة الخليج التي حسمها فريقه، بنتيجة (4-1)، ضمن الجولة التاسعة من دوري روشن، يوم 23 نوفمبر/تشرين ثان 2025. &nbsp; ضغط وثنائية بيضاء بدأ النصر المباراة بضغط ليس له مثيل، حيث وضع التعاون في منطقة الجزاء بشكل واضح، وكاد أن يسجل رونالدو الهدف الأول في الدقيقة الثانية، بعد تسديدة صاروخية اصطدمت بالعارضة. &nbsp; تسديدة خطيرة من رونالدو تعترضها العارضة 🥅🚫 #النصر_التعاون | #دوري_روشن_السعودي pic.twitter.com/TPb0ABYBhZ — رياضة ثمانية (@thmanyahspor…",
       "image": "https://assets.kooora.com/images/v3/getty-2257806171/crop/MM5DINRVGE5DENRRGY5G433XMU5DAORSGQZA====/GettyImages-2257806171.jpg",
       "pubDate": "2026-01-26T17:27:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "caf79465a5947507",
-      "title": "جدول ترتيب دوري روشن السعودي 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/blt5a13c6c4143f7b94?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول ترتيب دوري روشن السعودي 2025-2026....",
-      "body": "تعرف على جدول ترتيب دوري روشن السعودي 2025-2026.... تعود عجلة دوري روشن السعودي للدوران مجددًا في موسم 2025-2026، حيث يستعد عشاق كرة القدم المحلية والعالمية لمتابعة نسخة استثنائية، بعدما أصبحت البطولة واحدة من أبرز الدوريات التي تخطف الأنظار في السنوات الأخيرة. الموسم الماضي شهد تتويج اتحاد جدة باللقب بقيادة الفرنسي كريم بنزيما، فيما نجح الأهلي في رفع الكأس الآسيوية، لتتواصل إنجازات الأندية السعودية على المستويين المحلي والقاري. الصيف الحالي لم يكن هادئًا، إذ تحركت معظم الأندية بقوة في سوق الانتقالات لجلب نجوم عالميين، ما يعزز من قوة المنافسة ويمنح الدوري بريقًا إضافيًا. هذه التعاقدات الكبيرة تمهد لصراع محتدم على اللقب ومراكز الصدارة. وبحسب إعلان رابطة الدوري السعودي للمحترفين، تنطلق المنافسات رسميًا يوم الخميس 28 أغسطس/آب 2025، على أن يسدل الستار على الموسم في 21 مايو/أيار 2026، وسط توقعات بأن يكون من أكثر المواسم إثارة في تاريخ البطولة. وفي هذا التقرير من كووورة نستعرض لكم جدول ترتيب دوري روشن السعودي 2025-2026. &nbsp;ترتيب دوري روشن السعودي 2025-2026: النصر يفوز بشق الأنفس على التعاون تجاوز الأهلي نظيره نيوم بثلاثية نظيفة. كما تعادل الهلال أمام الرياض بهدف لمثله ليكسر سلسلة الانتصارات. ونجح النصر في التغلب على التعاون ليقلص الفارق. &nbsp; المركز الفريق المباريات الأهداف النقاط …",
-      "image": null,
-      "pubDate": "2026-01-26T17:27:02.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -2362,22 +2234,6 @@
       "source": {
         "name": "Financial Times — Markets",
         "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "e9ce990615512dc0",
-      "title": "Another day another high: Gold surges past $5,100 as investors seek shelter from global risks",
-      "link": "https://www.cnbc.com/2026/01/26/gold-record-surges-past-new-5000-record.html",
-      "summary": "The surge comes as recent flashpoints from Greenland and Venezuela to the Middle East underscore higher geopolitical risk, while fiscal concerns also loom large.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-26T12:02:51.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "markets",
@@ -3357,22 +3213,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c9f2fb81b988663d",
-      "title": "Gold records best week since 2008 as Greenland crisis rattles dollar",
-      "link": "https://www.ft.com/content/6d7ab91c-fc2a-4766-8ebd-3108c5446946",
-      "summary": "Precious metal closes in on $5,000 and silver tops $100 as Trump’s shortlived tariffs threat sparks rush to safe havens",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-23T23:32:37.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
