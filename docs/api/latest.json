@@ -1,39 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T10:59:01.656Z",
-    "total": 420,
+    "generated_at": "2026-01-28T11:23:58.193Z",
+    "total": 340,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/0d7c1616-12ab-469b-b0d7-cc4784be30bc",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "Youm7 — منوعات",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
@@ -45,6 +19,19 @@
         ],
         "taken": 0,
         "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 65,
+        "error": null,
         "notModified": false
       },
       {
@@ -61,28 +48,28 @@
         "notModified": false
       },
       {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 72,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/0d7c1616-12ab-469b-b0d7-cc4784be30bc",
+        "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 65,
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "BBC Culture",
+        "url": "https://www.bbc.com/culture/feed.rss",
+        "homepage": "https://www.bbc.com/culture/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
         "error": null,
         "notModified": false
       },
@@ -100,32 +87,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Culture",
-        "url": "https://www.bbc.com/culture/feed.rss",
-        "homepage": "https://www.bbc.com/culture/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Youm7 - رياضة",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
@@ -139,16 +100,29 @@
         "notModified": false
       },
       {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 43,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -165,15 +139,15 @@
         "notModified": false
       },
       {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 43,
         "error": null,
         "notModified": false
       },
@@ -230,6 +204,19 @@
         "notModified": false
       },
       {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 134\nColumn: 68\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Masrawy — فن",
         "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
         "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
@@ -240,6 +227,58 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -269,45 +308,6 @@
         "notModified": false
       },
       {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 134\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Assabah Sports (MA)",
         "url": "https://www.assabah.ma/feed/",
         "homepage": "https://www.assabah.ma/feed/",
@@ -323,6 +323,118 @@
     ]
   },
   "items": [
+    {
+      "id": "f243567d9c30a25d",
+      "title": "خبير صيدلاني يكشف تفاصيل انخفاض أسعار بعض الأدوية",
+      "link": "https://assabah.ma/898543.html",
+      "summary": "قررت، أخيرا، وزارة الصحة والحماية الاجتماعية تخفيض أثمنة بيع عدد من الأدوية الأصلية والجنيسة، من بينها أدوية مخصصة لعلاج بعض الأورام السرطانية، وذلك وفق ثلاثة قرارات وزارية نشرت في آخر عدد بالجريدة الرسمية. وفي هذا الصدد، أوضح عبد المجيد بلعيش، محلل الأسواق الدوائية وخبير في اقتصاد الأدويةأكمل القر…",
+      "body": "قررت، أخيرا، وزارة الصحة والحماية الاجتماعية تخفيض أثمنة بيع عدد من الأدوية الأصلية والجنيسة، من بينها أدوية مخصصة لعلاج بعض الأورام السرطانية، وذلك وفق ثلاثة قرارات وزارية نشرت في آخر عدد بالجريدة الرسمية. وفي هذا الصدد، أوضح عبد المجيد بلعيش، محلل الأسواق الدوائية وخبير في اقتصاد الأدوية أكمل القراءة &raquo; المقالة خبير صيدلاني يكشف تفاصيل انخفاض أسعار بعض الأدوية fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-01-28T11:13:04.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "6eee83d15b545376",
+      "title": "'Are we animals in the zoo?' - Pegula and Swiatek call for privacy",
+      "link": "https://www.bbc.com/sport/tennis/videos/cvg1zypy8p9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jessica Pegula and Iga Swiatek echo Coco Gauff's concerns over the use of cameras away from the court at the Australian Open, insisting more privacy is needed for all players competing.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-28T11:06:49.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "fed90c85c7a9aa85",
+      "title": "Forest goalkeeper Victor ruled out for rest of season",
+      "link": "https://www.bbc.com/sport/football/articles/cgjwpq5e3dyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Nottingham Forest goalkeeper John Victor is ruled out for the rest of the season with a knee injury.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-28T11:01:23.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "aa08ec6f97f505cc",
+      "title": "'Lucky' Djokovic scrapes into semi-final against Sinner after Musetti injury",
+      "link": "https://www.bbc.com/sport/tennis/articles/c2k922e290jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Novak Djokovic's bid for more tennis history is still alive as he scrapes into the Australian Open semi-finals as Lorenzo Musetti retires injured at two sets up.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-28T11:01:01.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "81ce57da38bb35a8",
+      "title": "Why a gay BDSM 'romcom' is dividing opinion",
+      "link": "https://www.bbc.com/culture/article/20260127-why-gay-bdsm-romcom-pillion-is-dividing-opinion?ocid=global_culture_rss",
+      "summary": "Pillion stars Alexander Skarsgård as a \"dom\" in a sadomasochistic relationship",
+      "body": null,
+      "image": "https://ychef.files.bbci.co.uk/144x81/p0mxgmfk.jpg",
+      "pubDate": "2026-01-28T11:00:00.000Z",
+      "source": {
+        "name": "BBC Culture",
+        "homepage": "https://www.bbc.com/culture/feed.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "18f646fbac93e2e1",
+      "title": "A North Atlantic Right Whale Baby Boom Is On—but the Species Remains at Risk",
+      "link": "https://www.wired.com/story/a-north-atlantic-right-whale-baby-boom-is-on-but-the-species-remains-at-risk/",
+      "summary": "Researchers have documented the births of nearly two dozen North Atlantic right whale calves this season. It’s an encouraging sign for a species whose population is estimated to be below 400.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-28T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b564abd6207a379e",
+      "title": "Diagnostic dilemma: Liquid-nitrogen-infused cocktail popped a man's stomach like a balloon",
+      "link": "https://www.livescience.com/health/food-diet/diagnostic-dilemma-liquid-nitrogen-infused-cocktail-popped-a-mans-stomach-like-a-balloon",
+      "summary": "Liquid nitrogen can be used safely in food preparation — but one man's stomach burst after he threw back a cocktail that had been cooled with the substance.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/u6iYoHMYax5KaGypJm5xVa-1280-80.jpg",
+      "pubDate": "2026-01-28T11:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "1bb028b5fd3eb0dc",
       "title": "التحقيق في وفاة موقوف أثناء إخضاعه للحراسة النظرية ببني ملال",
@@ -340,8 +452,8 @@
       "region": "global"
     },
     {
-      "id": "8704228d88feb134",
-      "title": "West Ham's Ward-Prowse set for Burnley medical",
+      "id": "ccddf2993d5fb249",
+      "title": "Ward-Prowse set for West Ham departure after not playing under Nuno",
       "link": "https://www.bbc.com/sport/football/articles/cy592d27n1go?at_medium=RSS&at_campaign=rss",
       "summary": "West Ham midfielder James Ward-Prowse is expected to undergo a medical with Burnley on Wednesday as he closes in on a loan move.",
       "body": null,
@@ -420,6 +532,22 @@
       "region": "global"
     },
     {
+      "id": "d396d3d895c76816",
+      "title": "تفوق واضح.. السداسي الإنجليزي يفرض سيطرته على دوري أبطال أوروبا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%81%D9%88%D9%82-%D9%88%D8%A7%D8%B6%D8%AD-%D8%A7%D9%84%D8%B3%D8%AF%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D9%8A%D9%81%D8%B1%D8%B6-%D8%B3%D9%8A%D8%B7%D8%B1%D8%AA%D9%87-%D8%B9%D9%84%D9%89-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7/blt2abad12837470033?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأندية الإنجليزية الستة تبحث عن التأهل المباشر",
+      "body": "الأندية الإنجليزية الستة تبحث عن التأهل المباشر تملك الأندية الإنجليزية الستة، المشاركة في دوري أبطال أوروبا، فرصة التأهل المباشر إلى الدور ثمن النهائي من البطولة، بعد ختام الدور الأول مساء اليوم الأربعاء. &nbsp; وتُلعب جميع مباريات الجولة الثامنة والأخيرة من الدور الأول، في توقيت واحد، مساء اليوم، لتحديد الفرق المتأهلة مباشرة إلى دور الـ16، وكذلك المتأهلة لخوض الملحق. &nbsp; وتتأهل أول 8 أندية في الترتيب مباشرة إلى ثمن نهائي البطولة الأوروبية، فيما يخوض أصحاب المراكز من التاسع وحتى الرابع والعشرين ملحقًا (ذهاب وإياب)، بينما تودع الأندية من المركز الخامس والعشرين حتى السادس والثلاثين البطولة. &nbsp; وقبل انطلاق الجولة الأخيرة، تتواجد 5 أندية إنجليزية ضمن الثمانية الأوائل هي: آرسنال وليفربول وتوتنهام وتشيلسي ونيوكاسل، في حين يملك مانشستر سيتي فرصة قوية للتأهل المباشر أيضًا. &nbsp; يتصدر آرسنال جدول الترتيب بالعلامة الكاملة (21 نقطة) وضمن تأهله في الصدارة بشكل نظري، كما يتواجد ليفربول في المركز الرابع برصيد 15 نقطة، بفارق نقطة عن توتنهام صاحب المركز الخامس. &nbsp; فيما يتواجد نيوكاسل في المركز السابع برصيد 13 نقطة، وهو نفس رصيد تشيلسي صاحب المركز الثامن، ومانشستر سيتي صاحب المركز الحادي عشر. &nbsp; ويخوض آرسنال مواجهة سهلة على ملعبه ضد كيرات ألماتي لحسم الصدارة، بينما يلعب ليفربول ض…",
+      "image": null,
+      "pubDate": "2026-01-28T09:21:08.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "b9e00f06c16b93a0",
       "title": "GB pair Hewett & Reid to meet in quarter-finals",
       "link": "https://www.bbc.com/sport/tennis/articles/cdexpj11j59o?at_medium=RSS&at_campaign=rss",
@@ -434,6 +562,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "2b2ff62d3fd4f57e",
+      "title": "صراع لا يتوقف.. بونو يعود للاشتباك مع ميندي من جديد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%B1%D8%A7%D8%B9-%D9%84%D8%A7-%D9%8A%D8%AA%D9%88%D9%82%D9%81-%D8%A8%D9%88%D9%86%D9%88-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D9%85%D8%B9-%D9%85%D9%8A%D9%86%D8%AF%D9%8A-%D9%85%D9%86-%D8%AC%D8%AF%D9%8A%D8%AF/blt172cdc052b475d6c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأخطبوط المغربي يعود من جديد",
+      "body": "الأخطبوط المغربي يعود من جديد يستعد المغربي ياسين بونو، حارس مرمى الهلال، للعودة مرة أخرى، للمشاركة مع \"الزعيم\"، وذلك خلال مواجهة القادسية، المقرر إقامتها، غدًا الخميس، ضمن الجولة 19 من دوري روشن السعودي للمحترفين. وكان بونو قد غاب عن آخر 9 مباريات للهلال، بواقع 8 في الدوري ومباراة بنخبة آسيا، بداعي المشاركة مع المغرب في كأس أمم أفريقيا، قبل أن يعود مصابًا. وأعلن الهلال، أمس الثلاثاء، تعافي بونو من الإصابة ومشاركته في التدريبات الجماعية بصورة طبيعية، وهو ما سيمنح \"الزعيم\" دفعة قوية خلال المباريات القادمة. وتمثل عودة بونو دفعة قوية للزعيم في المنافسة على لقب الدوري، خاصة بعد خسارة نقطتين في الجولة الماضية، بالتعادل مع الرياض (1-1). ولكن بعيدًا عن دعم الهلال، فسيتجدد الصراع مرة أخرى بين بونو والسنغالي إدوارد ميندي، حارس مرمى أهلي جدة على الأفضلية في دوري روشن، بعد أيام قليلة من خسارة الحارس المغربي لقب أمم أفريقيا أمام السنغال، بهدف دون رد. وبالنظر للأرقام، فإن ميندي هو أقل حارس استقبالاً للأهداف في هذه النسخة من دوري روشن، بواقع 6 أهداف فقط، وخلفه بونو بفارق 3، حيث تلقى 9 أهداف. كذلك، يعد ميندي هو الحارس الأكثر حفاظًا على نظافة شباكه، بواقع 6 مرات، متفوقًا على كل من البلجيكي كوين كاستيلس (القادسية)، السلوفاكي ماريك رودراك (الاتفاق)، والبرازيلي مايلسون، بواقع 5 مباريات لكلٍ منهما. و…",
+      "image": null,
+      "pubDate": "2026-01-28T09:06:23.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "01ad2ecdd7b1c68f",
+      "title": "كاراجر: ليفربول أصبح نسخة من إيفرتون.. وتجديد صلاح فاشل",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%83%D8%A7%D8%B1%D8%A7%D8%AC%D8%B1-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%A7%D9%94%D8%B5%D8%A8%D8%AD-%D9%86%D8%B3%D8%AE%D8%A9-%D9%85%D9%86-%D8%A7%D9%95%D9%8A%D9%81%D8%B1%D8%AA%D9%88%D9%86-%D9%88%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%81%D8%A7%D8%B4%D9%84/bltec17b622ebeec2a6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "جوارديولا وراء أزمة الريدز هذا الموسم",
+      "body": "جوارديولا وراء أزمة الريدز هذا الموسم شن جيمي كاراجر، أسطورة ليفربول، هجوماً لاذعاً على التوجه الحالي للفريق تحت قيادة المدرب آرني سلوت، معتبراً أن الريدز فقد القوة والكثافة التي ميزته لسنوات. ووفقاً لما أوردته صحيفة \"ذا أتلتيك\" البريطانية، يعيش قطاع واسع من جماهير الريدز حالة من الإحباط بسبب غياب الكثافة في أداء الفريق بالدوري الإنجليزي، سواء في عملية الضغط أو في سرعة تحريك الكرة، ما حلله كاراجر بربطه بنوعية اللاعبين والنهج التكتيكي الجديد. تغيير الهوية أوضح كاراجر أن طبيعة اللاعبين تؤثر بشكل مباشر على ريتم الفريق، قائلاً: \"إذا فقدت لويس دياز (الذي بيع لبايرن ميونخ) وجلبت فلوريان فيرتز، فأنت أمام لاعبين مختلفين تماماً؛ دياز عداء بالفطرة، بينما يمتلك فيرتز قدرات مهارية مختلفة لكنك بذلك تحرك الفريق في اتجاه آخر. لا يمكن لأحد أن يجادل بأن داروين نونيز لاعب كرة قدم أفضل من هوجو ايكيتيكي، لكن نونيز كان يركض كالمجنون أحياناً، مما كان يمنح الفريق طاقة وقوة مفقودة الآن\". وانتقل كاراجر لتحليل فوارق اللياقة بين حقبتي كلوب وسلوت، مؤكداً: \"تحت قيادة يورجن، كان الفريق يتعرض لإصابات كثيرة، بينما لا يعاني سلوت من إصابات عضلية متكررة، ما أشاد به البعض الموسم الماضي، لكن الحقيقة أنه عندما تريد فريقاً بكثافة فريق كلوب، فلا بد أن تحدث تضحيات وإصابات\". خلل تكتيكي في الضغط على الجانب التكتيكي، انتقد …",
+      "image": "https://assets.kooora.com/images/v3/getty-2204012893/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2204012893.jpg",
+      "pubDate": "2026-01-28T08:57:54.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "f64af78e6c73ef34",
@@ -674,22 +834,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "b8b6dde8d1f9383a",
-      "title": "'I was on my way home' - Djokovic scrapes into semis after Musetti injury",
-      "link": "https://www.bbc.com/sport/tennis/articles/c2k922e290jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Novak Djokovic's bid for more tennis history is still alive as he scrapes into the Australian Open semi-finals as Lorenzo Musetti retires injured at two sets up.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-28T06:59:42.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "71e5a1a4529c3568",
@@ -1028,22 +1172,6 @@
       "region": "global"
     },
     {
-      "id": "d5010b0556f0b1e0",
-      "title": "خريبكة يحتج على التحكيم",
-      "link": "https://assabah.ma/898314.html",
-      "summary": "الفريق فقد الصدارة لصالح الخميسات احتج أولمبيك خريبكة على طاقم التحكيم الذي قاد مباراته الأخيرة، أمام الاتحاد الزموري للخميسات، الأحد الماضي، بملعب 18 نونبر، لحساب الدورة 14 من بطولة القسم الوطني هواة، والتي خسرها بهدف لصفر. وراسل أولمبيك خريبكة العصبة الوطنية لكرة القدم هواة، ومديرية التحكيم الوطن…",
-      "body": "الفريق فقد الصدارة لصالح الخميسات احتج أولمبيك خريبكة على طاقم التحكيم الذي قاد مباراته الأخيرة، أمام الاتحاد الزموري للخميسات، الأحد الماضي، بملعب 18 نونبر، لحساب الدورة 14 من بطولة القسم الوطني هواة، والتي خسرها بهدف لصفر. وراسل أولمبيك خريبكة العصبة الوطنية لكرة القدم هواة، ومديرية التحكيم الوطنية، أكمل القراءة &raquo; المقالة خريبكة يحتج على التحكيم fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-01-28T05:28:45.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "a77970bedb781f85",
       "title": "فليك يجهز \"القوة الضاربة\" لعبور كوبنهاجن بنتيجة عريضة",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%AC%D9%87%D8%B2-%D8%A7%D9%84%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%B6%D8%A7%D8%B1%D8%A8%D8%A9-%D9%84%D8%B9%D8%A8%D9%88%D8%B1-%D9%83%D9%88%D8%A8%D9%86%D9%87%D8%A7%D8%AC%D9%86-%D8%A8%D9%86%D8%AA%D9%8A%D8%AC%D8%A9-%D8%B9%D8%B1%D9%8A%D8%B6%D8%A9/blt3c88483a14694b0a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1121,38 +1249,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a2e684242f5e3f02",
-      "title": "How much exercise do you really need?",
-      "link": "https://www.nature.com/articles/d41586-026-00273-w",
-      "summary": "<p>Nature, Published online: 28 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00273-w\">doi:10.1038/d41586-026-00273-w</a></p>New data are revealing the benefits of exercising little and often.",
-      "body": "Nature, Published online: 28 January 2026; doi:10.1038/d41586-026-00273-w New data are revealing the benefits of exercising little and often.",
-      "image": null,
-      "pubDate": "2026-01-28T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4d32b11e73b74f23",
-      "title": "The surprisingly big health benefits of just a little exercise",
-      "link": "https://www.nature.com/articles/d41586-026-00237-0",
-      "summary": "<p>Nature, Published online: 28 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00237-0\">doi:10.1038/d41586-026-00237-0</a></p>‘Exercise snacks’ and other forms of everyday movement can greatly reduce the risk of heart disease and death.",
-      "body": "Nature, Published online: 28 January 2026; doi:10.1038/d41586-026-00237-0 ‘Exercise snacks’ and other forms of everyday movement can greatly reduce the risk of heart disease and death.",
-      "image": null,
-      "pubDate": "2026-01-28T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -1332,22 +1428,6 @@
       "region": "global"
     },
     {
-      "id": "a2d9a7affba83946",
-      "title": "اتفاق مبدئي.. إنتر يقنع نجمه السابق بالعودة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%85%D8%A8%D8%AF%D9%8A%D9%94%D9%8A-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%8A%D9%82%D9%86%D8%B9-%D9%86%D8%AC%D9%85%D9%87-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D8%A8%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9/bltd4401a65c28dc132?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تحرك مكثف بعد المهمة الأوروبية.. ورحيل محتمل لنجم من النيراتزوري",
-      "body": "تحرك مكثف بعد المهمة الأوروبية.. ورحيل محتمل لنجم من النيراتزوري كشفت تقارير إيطالية عن تطورات مثيرة بشأن تحركات إنتر ميلان في سوق الانتقالات الشتوية الجارية، مؤكدا وجود رغبة قوية لدى النيراتزوري لاستعادة أحد نجومه السابقين. وقال الصحفي الإيطالي لوكا ماركيتي عبر سكاي سبورت أن الكرواتي إيفان بيريسيتش مستعد للعودة إلى إنتر، بينما قد يغادر البرازيلي لويس هنريكي الفريق الأسود والأزرق بعد ستة أشهر فقط من انضمامه. وقال ماركيتي: \"يوجد اتفاق بين إنتر وبيريسيتش. اللاعب مستعد للعودة إلى ميلانو، لكن من الواضح أن أيندهوفن لا يتحدث مع إنتر في الوقت الحالي، ولا يفكر في أي مفاوضات في حال خروجه من دوري أبطال أوروبا، لكن محاولة ستبذل ابتداء من يوم الخميس المقبل فصاعدا\". يذكر أن بيريسيتش، الذي سبق له اللعب لإنتر بين عامي 2015 و2022 وحقق مع الفريق لقب الدوري الإيطالي في موسم 2020 -2021، يرتدي حاليا قميص أيندهوفن، حيث يقدم أداء جيدا في الدوري الهولندي ودوري أبطال أوروبا. هنريكي.. خيارات متعددة للرحيل وأضاف ماركيتي: \"إنتر قد يتعاقد على أي حال مع لاعب آخر على الجهة اليمنى. نحن نحاول فهم ما إذا كانت هناك خيارات مثيرة للاهتمام سيتم العمل عليها في الأسبوع الأخير. وذلك لأن لويس هنريكي لديه خيارات متعددة خاصة من جانب بشكتاش وبورنموث\". &nbsp; &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر وم…",
-      "image": "https://assets.kooora.com/images/v3/bltaed94e5ed17bbc56/Serie%20A%20Kooora.jpg",
-      "pubDate": "2026-01-27T21:17:50.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "47a5bb532fe3a691",
       "title": "'The dream has come true': Standard model of cosmology holds up in massive 6-year study of the universe — with one big caveat",
       "link": "https://www.livescience.com/physics-mathematics/dark-energy/the-dream-has-come-true-standard-model-of-cosmology-holds-up-in-massive-6-year-study-of-the-universe-with-one-big-caveat",
@@ -1362,38 +1442,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "77e41332ef5a8830",
-      "title": "درو يشعل نار الغضب في برشلونة بتصريح مفاجئ",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D8%B1%D9%88-%D9%8A%D8%B4%D8%B9%D9%84-%D9%86%D8%A7%D8%B1-%D8%A7%D9%84%D8%BA%D8%B6%D8%A8-%D9%81%D9%8A-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94/blt5c51ea10b4f7eb99?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اللاعب رفض الاستمرار في برشلونة",
-      "body": "اللاعب رفض الاستمرار في برشلونة أدلى بيدرو فرنانديز سارمينتو، المعروف باسم درو، بتصريحات مثيرة، اليوم الثلاثاء، أغضبت عشاق برشلونة. وقدّم باريس سان جيرمان، رسمياً اليوم الثلاثاء، لاعبه الجديد، درو، القادم من برشلونة. &nbsp;وقالت صحيفة \"موندو ديبورتيفو\"، أن اللاعب الشاب أدلى ببعض التصريحات التي يمكن تفسيرها على أنها انتقاد مبطن للنادي الكتالوني، أو على الأقل تصريحات قد لا تروق لإدارة برشلونة. وعندما سُئل درو عن أسباب انضمامه إلى باريس سان جيرمان، قال: \"أنا سعيد للغاية ومتحمس جداً. إنها لحظة فخر كبيرة لي ولعائلتي، وأتوق لبدء مسيرتي. إنها خطوة مهمة، ولكن القرار اتُخذ لمواصلة التطور كلاعب، ولا يوجد مكان أفضل من هنا لمواصلة التطور لأن المشروع مع اللاعبين الشباب هنا رائع، بفضل المدرب وكل من ساهم في إنجاحه، ولهذا السبب أنا هنا\". وعلقت الصحيفة الإسبانية: \"هذا الكلام قابل للنقاش، خاصةً وأن برشلونة يمنح اللاعبين الشباب الموهوبين فرصًا كثيرة للتطور. ففي حالة اللاعب، كان قد لعب في الدوري الإسباني ودوري أبطال أوروبا وهو في السابعة عشرة من عمره\". وتابعت: \"كما أن زميله السابق، لامين يامال ، كان قد شارك لأول مرة مع الفريق الأول وهو في الخامسة عشرة. ناهيك عن أن باو كوبارسي شارك لأول مرة وهو في السادسة عشرة فقط، ومارك بيرنال في السابعة عشرة\". وصف درو نفسه بأنه \"لاعب مبدع يجيد المراوغة، ويتخذ قرارات…",
-      "image": null,
-      "pubDate": "2026-01-27T20:52:26.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "9965933514190bee",
-      "title": "سكولز ينتقد آرسنال: سيكون أسوأ فريق يفوز بالبريميرليج",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%83%D9%88%D9%84%D8%B2-%D9%8A%D9%86%D8%AA%D9%82%D8%AF-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%B3%D9%8A%D9%83%D9%88%D9%86-%D8%A7%D9%94%D8%B3%D9%88%D8%A7%D9%94-%D9%81%D8%B1%D9%8A%D9%82-%D9%8A%D9%81%D9%88%D8%B2-%D8%A8%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/blt428bf67ba9d83525?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لن تجد أي لاعب هجومي من الجانرز في تشكيلة الموسم",
-      "body": "لن تجد أي لاعب هجومي من الجانرز في تشكيلة الموسم يرى بول سكولز أسطورة مانشستر يونايتد، أن آرسنال سيكون \"أسوأ فريق يفوز بالدوري\" إذا ما توّج بلقب الدوري الإنجليزي الممتاز هذا الموسم. &nbsp; ويتصدر آرسنال جدول الترتيب برصيد 50 نقطة، بفارق 4 نقاط عن أقرب منافسيه، بعد أن تقلص الفارق في نهاية الأسبوع عقب هزيمته أمام مانشستر يونايتد (3-2)، في حين فاز كل من مانشستر سيتي وأستون فيلا صاحبي المركزين الثاني والثالث على الترتيب. &nbsp; هذا يعني أن فريق ميكيل أرتيتا لم يحصد سوى نقطتين من أصل تسع نقاط متاحة، مسجلاً هدفين فقط خلال تلك الفترة، وكلاهما في مرمى يونايتد. &nbsp; وبينما يسعى آرسنال للفوز باللقب للمرة الأولى منذ عام 2004 بعد عامين من المنافسة الشديدة، وجه أسطورة مانشستر يونايتد انتقاداته لكتيبة الجانرز، مؤكدًا أنه لم يُعجب بما رآه هذا الموسم. &nbsp; وقال سكولز في تصريحات نقلتها صحيفة \"ديلي ميل\" البريطانية: \"إذا فاز آرسنال بالدوري، فقد يكون هذا أسوأ فريق يفوز به. إذا كنت تفكر في اختيار فريق الموسم واختيار أفضل أربعة مهاجمين، فلن تجد أي لاعب من آرسنال ضمن التشكيلة\". &nbsp; وأضاف: \"انظر إلى أبطال سابقين، مهاجمو ليفربول كانوا رائعين. ربما يكون ساكا هو الوحيد الرائع في آرسنال، ولا أعتقد أنه كان رائعًا إلى حد كبير. لم يُسجل الكثير من الأهداف أو يُمرر الكثير من التمريرات الحاسمة هذا الموسم\". …",
-      "image": null,
-      "pubDate": "2026-01-27T20:50:20.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "776259543c7441aa",
@@ -1684,38 +1732,6 @@
       "region": "global"
     },
     {
-      "id": "475cdc68845dfe3a",
-      "title": "The first human test of a rejuvenation method will begin “shortly”",
-      "link": "https://www.technologyreview.com/2026/01/27/1131796/the-first-human-test-of-a-rejuvenation-method-will-begin-shortly/",
-      "summary": "When Elon Musk was at Davos last week, an interviewer asked him if he thought aging could be reversed. Musk said he hasn’t put much time into the problem but suspects it is “very solvable” and that when scientists discover why we age, it’s going to be something “obvious.” Not long after, the Harvar…",
-      "body": "When Elon Musk was at Davos last week, an interviewer asked him if he thought aging could be reversed. Musk said he hasn’t put much time into the problem but suspects it is “very solvable” and that when scientists discover why we age, it’s going to be something “obvious.” Not long after, the Harvard professor and life-extension evangelist David Sinclair jumped into the conversation on X to strongly agree with the world’s richest man. “Aging has a relatively simple explanation and is apparently reversible,” wrote Sinclair. “Clinical Trials begin shortly.” “ER-100?” Musk asked. “Yes” replied Sinclair. ER-100 turns out to be the code name of a treatment created by Life Biosciences, a small Boston startup that Sinclair cofounded and which he confirmed today has won FDA approval to proceed with the first targeted attempt at age reversal in human volunteers.&nbsp; The company plans to try to treat eye disease with a radical rejuvenation concept called “reprogramming” that has recently attracted hundreds of millions in investment for Silicon Valley firms like Altos Labs, New Limit, and Retro Biosciences , backed by many of the biggest names in tech.&nbsp; The technique attempts to restor…",
-      "image": null,
-      "pubDate": "2026-01-27T18:08:19.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a83064ed7b499cd7",
-      "title": "OpenAI’s latest product lets you vibe code science",
-      "link": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
-      "summary": "OpenAI just revealed what its new in-house team, OpenAI for Science, has been up to. The firm has released a free LLM-powered tool for scientists called Prism, which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scien…",
-      "body": "OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists called Prism , which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scientists use to write up their work in much the same way that chatbots are now embedded into popular programming editors. It’s vibe coding , but for science. Kevin Weil, head of OpenAI for Science, pushes that analogy himself. “I think 2026 will be for AI and science what 2025 was for AI in software engineering,” he said at a press briefing yesterday. “We’re starting to see that same kind of inflection.” OpenAI claims that around 1.3 million scientists around the world submit more than 8 million queries a week to ChatGPT on advanced topics in science and math. “That tells us that AI is moving from curiosity to core workflow for scientists,” Weil said. Prism is a response to that user behavior. It can also be seen as a bid to lock in more scientists to OpenAI’s products in a marketplace full of rival chatbots. “I mostly use GPT-5 for writing code,” says Roland Dunbrack, a professor of biol…",
-      "image": null,
-      "pubDate": "2026-01-27T18:00:43.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "03f092f73aceac68",
       "title": "16 Handles Is Hopping On The Probiotic Trend With Its First-Ever Kefir Soft Serve",
       "link": "https://www.delish.com/food-news/a70157517/16-handles-strawberry-kefir-soft-serve/",
@@ -1940,22 +1956,6 @@
       "region": "global"
     },
     {
-      "id": "c1ad876de82d71f8",
-      "title": "Stratospheric internet could finally start taking off this year",
-      "link": "https://www.technologyreview.com/2026/01/27/1131780/stratospheric-internet-take-off/",
-      "summary": "Today, an estimated 2.2 billion people still have either limited or no access to the internet, largely because they live in remote places. But that number could drop this year, thanks to tests of stratospheric airships, uncrewed aircraft, and other high-altitude platforms for internet delivery. Eve…",
-      "body": "Today, an estimated 2.2 billion people still have either limited or no access to the internet, largely because they live in remote places. But that number could drop this year, thanks to tests of stratospheric airships, uncrewed aircraft, and other high-altitude platforms for internet delivery.&nbsp; Even with nearly 10,000 active Starlink satellites in orbit and the OneWeb constellation of 650 satellites, solid internet coverage is not a given across vast swathes of the planet.&nbsp; One of the most prominent efforts to plug the connectivity gap was Google X’s Loon project . Launched in 2011, it aimed to deliver access using high-altitude balloons stationed above predetermined spots on Earth. But the project faced literal headwinds—the Loons kept drifting away and new ones had to be released constantly, making the venture economically unfeasible.&nbsp; Although Google shuttered the high-profile Loon in 2021, work on other kinds of high-altitude platform stations (HAPS) has continued behind the scenes. Now, several companies claim they have solved Loon’s problems with different designs—in particular, steerable airships and fixed-wing UAVs (unmanned aerial vehicles)—and are getting…",
-      "image": null,
-      "pubDate": "2026-01-27T14:52:04.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9dcd000fdaba1a17",
       "title": "Alcaraz dominates De Minaur to reach last four",
       "link": "https://www.bbc.com/sport/tennis/videos/crkrp2k3022o?at_medium=RSS&at_campaign=rss",
@@ -2004,22 +2004,6 @@
       "region": "global"
     },
     {
-      "id": "18bb8d7c4bd7b8d6",
-      "title": "Alcaraz storms past De Minaur into semi-finals",
-      "link": "https://www.bbc.com/sport/tennis/articles/c8rm8jg5507o?at_medium=RSS&at_campaign=rss",
-      "summary": "Carlos Alcaraz continues his quest to become the youngest man to complete the career Grand Slam as he charges past Alex de Minaur in the quarter-finals.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-27T13:45:34.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "c08877c23d6060d9",
       "title": "Rock climbers in Italy accidentally discovered evidence of an 80 million-year-old sea turtle stampede",
       "link": "https://www.livescience.com/animals/extinct-species/rock-climbers-in-italy-accidentally-discovered-evidence-of-an-80-million-year-old-sea-turtle-stampede",
@@ -2065,22 +2049,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "9499ab98c4e3da0d",
-      "title": "The Download: OpenAI’s plans for science, and chatbot age verification",
-      "link": "https://www.technologyreview.com/2026/01/27/1131767/the-download-openais-plans-for-science-and-chatbot-age-verification/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside OpenAI’s big play for science —Will Douglas Heaven In the three years since ChatGPT’s explosive debut, OpenAI’s technology has upended a remarkable range …",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside OpenAI’s big play for science&nbsp; —Will Douglas Heaven In the three years since ChatGPT’s explosive debut, OpenAI’s technology has upended a remarkable range of everyday activities at home, at work, and in schools. Now OpenAI is making an explicit play for scientists. In October, the firm announced that it had launched a whole new team, called OpenAI for Science, dedicated to exploring how its large language models could help scientists and tweaking its tools to support them. So why now? How does a push into science fit with OpenAI’s wider mission? And what exactly is the firm hoping to achieve? I put these questions to Kevin Weil, a vice president at OpenAI who leads the new OpenAI for Science team, in an exclusive interview. Read the full story . Why chatbots are starting to check your age How do tech companies check if their users are kids? This question has taken on new urgency recently thanks to growing concern about the dangers that can arise when children talk to AI chatbots. For years Big Tech asked for birthdays (t…",
-      "image": null,
-      "pubDate": "2026-01-27T13:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2180,22 +2148,6 @@
       "region": "global"
     },
     {
-      "id": "5956e78ef92e3fc5",
-      "title": "The Smart Light Bulbs Worth Buying in 2026: Cync, Meross, Tapo",
-      "link": "https://www.wired.com/story/best-smart-light-bulbs/",
-      "summary": "If you’re new to smart home tech, light bulbs are an affordable, low-commitment place to start.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-27T12:01:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "72b7468dee3da257",
       "title": "Heinz Is Selling A 114-Ounce Keg Of Ketchup For The Super Bowl",
       "link": "https://www.delish.com/food-news/a70146114/heinz-kegchup-super-bowl/",
@@ -2209,6 +2161,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5956e78ef92e3fc5",
+      "title": "The Smart Light Bulbs Worth Buying in 2026: Cync, Meross, Tapo",
+      "link": "https://www.wired.com/story/best-smart-light-bulbs/",
+      "summary": "If you’re new to smart home tech, light bulbs are an affordable, low-commitment place to start.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-27T12:01:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2498,182 +2466,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "56de9a3c3dc3cebb",
-      "title": "Author Correction: Relatively warm deep-water formation persisted in the Last Glacial Maximum",
-      "link": "https://www.nature.com/articles/s41586-026-10186-3",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/s41586-026-10186-3\">doi:10.1038/s41586-026-10186-3</a></p>Author Correction: Relatively warm deep-water formation persisted in the Last Glacial Maximum",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/s41586-026-10186-3 Author Correction: Relatively warm deep-water formation persisted in the Last Glacial Maximum",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ef1402174d12fea8",
-      "title": "Author Correction: Nutrient-sensing nuclear receptors coordinate autophagy",
-      "link": "https://www.nature.com/articles/s41586-026-10119-0",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/s41586-026-10119-0\">doi:10.1038/s41586-026-10119-0</a></p>Author Correction: Nutrient-sensing nuclear receptors coordinate autophagy",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/s41586-026-10119-0 Author Correction: Nutrient-sensing nuclear receptors coordinate autophagy",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7c8f7dc76fad7d8e",
-      "title": "Volcanic personality: the man who recognized volcanoes as a planet-shaping force of nature",
-      "link": "https://www.nature.com/articles/d41586-026-00191-x",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00191-x\">doi:10.1038/d41586-026-00191-x</a></p>Remembering the life and work of the geologist George Poulett Scrope, and salmon stories in this week’s pick from the Nature archive.",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00191-x Remembering the life and work of the geologist George Poulett Scrope, and salmon stories in this week’s pick from the Nature archive.",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "51e861340690118e",
-      "title": "Social-media bans: why corporate fines could backfire",
-      "link": "https://www.nature.com/articles/d41586-026-00262-z",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00262-z\">doi:10.1038/d41586-026-00262-z</a></p>Social-media bans: why corporate fines could backfire",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00262-z Social-media bans: why corporate fines could backfire",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "214fad19c606452d",
-      "title": "Spotting viral invaders in koala family trees",
-      "link": "https://www.nature.com/articles/d41586-026-00225-4",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00225-4\">doi:10.1038/d41586-026-00225-4</a></p>Genetic analyses of koala pedigrees help to suss out virus-induced genome changes that affect cancer risk and reproductive success.",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00225-4 Genetic analyses of koala pedigrees help to suss out virus-induced genome changes that affect cancer risk and reproductive success.",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "af1c304556808f16",
-      "title": "African science needs to cut reliance on foreign donors",
-      "link": "https://www.nature.com/articles/d41586-026-00263-y",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00263-y\">doi:10.1038/d41586-026-00263-y</a></p>African science needs to cut reliance on foreign donors",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00263-y African science needs to cut reliance on foreign donors",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "8d3f2a7d2cbb8cd0",
-      "title": "What were the first animals? The fierce sponge–jelly battle that just won’t end",
-      "link": "https://www.nature.com/articles/d41586-026-00238-z",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00238-z\">doi:10.1038/d41586-026-00238-z</a></p>For almost two decades, scientists have debated whether sponges or comb jellies are the first animal lineage. Now some are calling for a more harmonious a…",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00238-z For almost two decades, scientists have debated whether sponges or comb jellies are the first animal lineage. Now some are calling for a more harmonious approach.",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "88920525941bf4cf",
-      "title": "How to eat well and within Earth’s limits",
-      "link": "https://www.nature.com/articles/d41586-026-00236-1",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00236-1\">doi:10.1038/d41586-026-00236-1</a></p>Dietary change, supported by bold policies, is essential for a sustainable planet.",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00236-1 Dietary change, supported by bold policies, is essential for a sustainable planet.",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "394f36dfd23052ef",
-      "title": "Sensors are transforming the world — work together to maximize their benefits",
-      "link": "https://www.nature.com/articles/d41586-026-00234-3",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00234-3\">doi:10.1038/d41586-026-00234-3</a></p>To get the most out of the sensing revolution, different disciplines need to be on the same wavelength. This is a priority for the Nature Portfolio’s newe…",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00234-3 To get the most out of the sensing revolution, different disciplines need to be on the same wavelength. This is a priority for the Nature Portfolio’s newest journal, Nature Sensors.",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a7bb96d69e2b6ad0",
-      "title": "Should professors be forced to retire?",
-      "link": "https://www.nature.com/articles/d41586-026-00055-4",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00055-4\">doi:10.1038/d41586-026-00055-4</a></p>Some universities are implementing a mandatory retirement age for academics. Will it help young researchers to get permanent positions?",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00055-4 Some universities are implementing a mandatory retirement age for academics. Will it help young researchers to get permanent positions?",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "7877b2def2f996d6",
-      "title": "Still working at 107: supercentenarian study probes genetics of extreme longevity",
-      "link": "https://www.nature.com/articles/d41586-026-00256-x",
-      "summary": "<p>Nature, Published online: 27 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00256-x\">doi:10.1038/d41586-026-00256-x</a></p>Scientists seek to understand the factors that have allowed people in Brazil to reach their 100th or even 110th birthdays despite facing adversities.",
-      "body": "Nature, Published online: 27 January 2026; doi:10.1038/d41586-026-00256-x Scientists seek to understand the factors that have allowed people in Brazil to reach their 100th or even 110th birthdays despite facing adversities.",
-      "image": null,
-      "pubDate": "2026-01-27T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "f79c9397c10cec0e",
@@ -3140,38 +2932,6 @@
       "region": "gulf"
     },
     {
-      "id": "6ee1e688f992d540",
-      "title": "Why chatbots are starting to check your age",
-      "link": "https://www.technologyreview.com/2026/01/26/1131726/why-chatbots-are-starting-to-check-your-age/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. How do tech companies check if their users are kids? This question has taken on new urgency recently thanks to growing concern about the dangers that can arise w…",
-      "body": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . How do tech companies check if their users are kids? This question has taken on new urgency recently thanks to growing concern about the dangers that can arise when children talk to AI chatbots. For years Big Tech asked for birthdays (that one could make up) to avoid violating child privacy laws, but they weren’t required to moderate content accordingly. Two developments over the last week show how quickly things are changing in the US and how this issue is becoming a new battleground, even among parents and child-safety advocates. In one corner is the Republican Party, which has supported laws passed in several states that require sites with adult content to verify users’ ages. Critics say this provides cover to block anything deemed “harmful to minors,” which could include sex education. Other states, like California, are coming after AI companies with laws to protect kids who talk to chatbots (by requiring them to verify who’s a kid). Meanwhile, President Trump is attempting to keep AI regulation a national issue rather than allowing states …",
-      "image": null,
-      "pubDate": "2026-01-26T17:05:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e7be380ea2fd9df4",
-      "title": "'Football doesn't need to take lives' - McQueen daughters on inquest",
-      "link": "https://www.bbc.com/sport/football/videos/c5y57vrly1qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Repeatedly heading footballs is \"likely\" to have contributed to the brain disease which was a factor in the death of former Scotland and Manchester United footballer Gordon McQueen, an inquest found. His daughters spoke after the verdict.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-26T17:00:17.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "fd4c8c104b9c7869",
       "title": "Microsoft says its newest AI chip Maia 200 is 3 times more powerful than Google's TPU and Amazon's Trainium processor",
       "link": "https://www.livescience.com/technology/artificial-intelligence/microsoft-says-its-newest-ai-chip-maia-200-is-3-times-more-powerful-than-googles-tpu-and-amazons-trainium-processor",
@@ -3252,22 +3012,6 @@
       "region": "global"
     },
     {
-      "id": "43ea2c55d9337638",
-      "title": "The power of sound in a virtual world",
-      "link": "https://www.technologyreview.com/2026/01/26/1124655/the-power-of-sound-in-a-virtual-world/",
-      "summary": "In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor. We obsess over lighting, camera angles, and virtual backgrounds, but how we sound can be just as critical to credibility, trust, and connection. That’s the insight drivin…",
-      "body": "In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor. We obsess over lighting, camera angles, and virtual backgrounds, but how we sound can be just as critical to credibility, trust, and connection. That’s the insight driving Erik Vaveris, vice president of product management and chief marketing officer at Shure, and Brian Scholl, director of the Perception &amp; Cognition Laboratory at Yale University. Both see audio as more than a technical layer: It’s a human factor shaping how people perceive intelligence, trustworthiness, and authority in virtual settings. &#8220;If you&#8217;re willing to take a little bit of time with your audio set up, you can really get across the full power of your message and the full power of who you are to your peers, to your employees, your boss, your suppliers, and of course, your customers,&#8221; says Vaveris. Scholl’s research shows that poor audio quality can make a speaker seem less persuasive, less hireable, and even less credible. &#8220;We know that [poor] sound doesn&#8217;t reflect the people themselves, but we really just can&#8217;t stop ourselves from having thos…",
-      "image": null,
-      "pubDate": "2026-01-26T14:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "7bb5397f953d6d23",
       "title": "Seahawks see off Rams in thriller to reach Super Bowl",
       "link": "https://www.bbc.com/sport/american-football/videos/c1je724j470o?at_medium=RSS&at_campaign=rss",
@@ -3281,22 +3025,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "7b79febb3e8bde25",
-      "title": "The Download: why LLMs are like aliens, and the future of head transplants",
-      "link": "https://www.technologyreview.com/2026/01/26/1131717/the-download-why-llms-are-like-aliens-and-the-future-of-head-transplants/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the new biologists treating LLMs like aliens How large is a large language model? We now coexist with machines so vast and so complicated that nobody quite …",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the new biologists treating LLMs like aliens&nbsp;&nbsp; How large is a large language model? We now coexist with machines so vast and so complicated that nobody quite understands what they are, how they work, or what they can really do—not even the people who build them. That’s a problem. Even though nobody fully understands how it works—and thus exactly what its limitations might be—hundreds of millions of people now use this technology every day.&nbsp; To help overcome our ignorance, researchers are studying LLMs as if they were doing biology or neuroscience on vast living creatures—city-size xenomorphs that have appeared in our midst. And they’re discovering that large language models are even weirder than they thought. Read the full story . —Will Douglas Heaven This is our latest story to be turned into a MIT Technology Review Narrated podcast, which we publish each week on Spotify and Apple Podcasts . Just navigate to MIT Technology Review Narrated on either platform, and follow us to get all our new content as it’s relea…",
-      "image": null,
-      "pubDate": "2026-01-26T13:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3410,134 +3138,6 @@
       "lang": "ar",
       "category": "science",
       "region": "gulf"
-    },
-    {
-      "id": "0b7208b7b47aa31e",
-      "title": "Scalable and multiplexed recorders of gene regulation dynamics across weeks",
-      "link": "https://www.nature.com/articles/s41586-026-10156-9",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/s41586-026-10156-9\">doi:10.1038/s41586-026-10156-9</a></p>Scalable and multiplexed recorders of gene regulation dynamics across weeks",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/s41586-026-10156-9 Scalable and multiplexed recorders of gene regulation dynamics across weeks",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6e2ad3d715e149c8",
-      "title": "Defending endangered trees against climate change and hungry goats",
-      "link": "https://www.nature.com/articles/d41586-026-00248-x",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00248-x\">doi:10.1038/d41586-026-00248-x</a></p>Mohammed Amar manages conservation of imperilled flora in Socotra, a Yemeni island known as the Galápagos of the Indian Ocean.",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00248-x Mohammed Amar manages conservation of imperilled flora in Socotra, a Yemeni island known as the Galápagos of the Indian Ocean.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2b925edff7a675a3",
-      "title": "Quantum spinning effect observed in a levitating magnet",
-      "link": "https://www.nature.com/articles/d41586-026-00208-5",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00208-5\">doi:10.1038/d41586-026-00208-5</a></p>A supercooled microscopic ferromagnet proves the existence of gyroscopic magnetic behaviour that has been long sought by physicists.",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00208-5 A supercooled microscopic ferromagnet proves the existence of gyroscopic magnetic behaviour that has been long sought by physicists.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b8aeb505354d42d1",
-      "title": "Audio long read: ‘I rarely get outside’ — scientists ditch fieldwork in the age of AI",
-      "link": "https://www.nature.com/articles/d41586-026-00255-y",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00255-y\">doi:10.1038/d41586-026-00255-y</a></p>In the wake of new computer-based methods, some ecologists fear their field is losing touch with nature.",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00255-y In the wake of new computer-based methods, some ecologists fear their field is losing touch with nature.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e0f744fa264246aa",
-      "title": "Why do women like me get diagnosed with ADHD late?",
-      "link": "https://www.nature.com/articles/d41586-026-00260-1",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00260-1\">doi:10.1038/d41586-026-00260-1</a></p>Emily Bates was diagnosed with ADHD at the age of 34. She explores how the condition presents in women and why so many are diagnosed later in life.",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00260-1 Emily Bates was diagnosed with ADHD at the age of 34. She explores how the condition presents in women and why so many are diagnosed later in life.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a888884eae92445e",
-      "title": "Technology is changing how we write — and how we think about writing",
-      "link": "https://www.nature.com/articles/d41586-026-00245-0",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00245-0\">doi:10.1038/d41586-026-00245-0</a></p>An exploration of how writing systems, from ancient Chinese characters to modern alphabets, shape language, and whether users of ChatGPT can be said to be…",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00245-0 An exploration of how writing systems, from ancient Chinese characters to modern alphabets, shape language, and whether users of ChatGPT can be said to be authors at all.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "85c33d0051871cbe",
-      "title": "Daily briefing: Blister beetles hoodwink bees with floral smells",
-      "link": "https://www.nature.com/articles/d41586-026-00271-y",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00271-y\">doi:10.1038/d41586-026-00271-y</a></p>Beetle larvae are the first animal known to imitate the scent of a flower. Plus, a proposal for a new north-star number for climate progress and why Green…",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00271-y Beetle larvae are the first animal known to imitate the scent of a flower. Plus, a proposal for a new north-star number for climate progress and why Greenland is a unique hotspot for research.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "89e98c4353172017",
-      "title": "As we breach 1.5 °C, we must replace temperature limits with clean-energy targets",
-      "link": "https://www.nature.com/articles/d41586-026-00246-z",
-      "summary": "<p>Nature, Published online: 26 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00246-z\">doi:10.1038/d41586-026-00246-z</a></p>Actionable goals are needed to guide the world towards what needs to happen most quickly: shifting economies to clean energy sources.",
-      "body": "Nature, Published online: 26 January 2026; doi:10.1038/d41586-026-00246-z Actionable goals are needed to guide the world towards what needs to happen most quickly: shifting economies to clean energy sources.",
-      "image": null,
-      "pubDate": "2026-01-26T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "c1612a53a686efa5",
@@ -3716,6 +3316,22 @@
       "region": "gulf"
     },
     {
+      "id": "79a19a65d0ce92cb",
+      "title": "Flying Soon? Subway's Offering $20 If You're Sitting In The Middle Seat",
+      "link": "https://www.delish.com/food-news/a70124443/subway-middle-seat-gift-card-deal-jan-27/",
+      "summary": "A little proof could land you your next footlong.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/26-sfaf-3474-southwest-middleseat-promo-fin-2-metadata-1200x630-2-1-697556b4c0bb1.jpg",
+      "pubDate": "2026-01-25T12:00:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "2da508eefdcdf029",
       "title": "Phonak Audeo Infinio Ultra Sphere Review: Premium Hearing Aids",
       "link": "https://www.wired.com/review/phonak-audeo-infinio-ultra-sphere/",
@@ -3745,22 +3361,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "79a19a65d0ce92cb",
-      "title": "Flying Soon? Subway's Offering $20 If You're Sitting In The Middle Seat",
-      "link": "https://www.delish.com/food-news/a70124443/subway-middle-seat-gift-card-deal-jan-27/",
-      "summary": "A little proof could land you your next footlong.",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/26-sfaf-3474-southwest-middleseat-promo-fin-2-metadata-1200x630-2-1-697556b4c0bb1.jpg",
-      "pubDate": "2026-01-25T12:00:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -4148,22 +3748,6 @@
       "region": "global"
     },
     {
-      "id": "de3ba3ebc55f3562",
-      "title": "Best Portable Blenders of 2026: Ninja, Nutribullet, Beast",
-      "link": "https://www.wired.com/story/best-portable-blenders/",
-      "summary": "Cordless portable blenders have come a long way since their introduction a decade back. Here's why the Ninja Blast Max smokes them all.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-24T11:37:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1b11cf82442bea33",
       "title": "Why the rise of humanoid robots could make us less comfortable with each other",
       "link": "https://www.livescience.com/technology/robotics/why-the-rise-of-humanoid-robots-could-make-us-less-comfortable-with-each-other",
@@ -4436,22 +4020,6 @@
       "region": "global"
     },
     {
-      "id": "d14b82f133743c18",
-      "title": "The Download: chatbots for health, and US fights over AI regulation",
-      "link": "https://www.technologyreview.com/2026/01/23/1131708/the-download-chatbots-for-health-and-us-fights-over-ai-regulation/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “Dr. Google” had its issues. Can ChatGPT Health do better? For the past two decades, there’s been a clear first step for anyone who starts experiencing new medic…",
-      "body": "This is today&#8217;s edition of&nbsp; The Download , &nbsp;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “Dr. Google” had its issues. Can ChatGPT Health do better? For the past two decades, there’s been a clear first step for anyone who starts experiencing new medical symptoms: Look them up online. The practice was so common that it gained the pejorative moniker “Dr. Google.” But times are changing, and many medical-information seekers are now using LLMs. According to OpenAI, 230 million people ask ChatGPT health-related queries each week.&nbsp;&nbsp; That’s the context around the launch of OpenAI’s new ChatGPT Health product, which debuted earlier this month. The big question is: can the obvious risks of using AI for health-related queries be mitigated enough for them to be a net benefit?&nbsp; Read the full story .&nbsp; —Grace Huckins America’s coming war over AI regulation In the final weeks of 2025, the battle over regulating artificial intelligence in the US reached boiling point. On December 11, after Congress failed twice to pass a law banning state AI laws, President Donald Trump signed a sweeping executive order s…",
-      "image": null,
-      "pubDate": "2026-01-23T13:07:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f5d4862ae05cfe7a",
       "title": "'Earthquake on a chip' uses 'phonon' lasers to make mobile devices more efficient",
       "link": "https://www.livescience.com/technology/electronics/earthquake-on-a-chip-could-speed-up-smartphones-thanks-to-phonon-laser-invention",
@@ -4580,102 +4148,6 @@
       "region": "gulf"
     },
     {
-      "id": "afa85eafa64567c6",
-      "title": "Marvellous microbes, memory and the multiverse: Books in brief",
-      "link": "https://www.nature.com/articles/d41586-026-00241-4",
-      "summary": "<p>Nature, Published online: 23 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00241-4\">doi:10.1038/d41586-026-00241-4</a></p>Andrew Robinson reviews five of the best science picks.",
-      "body": "Nature, Published online: 23 January 2026; doi:10.1038/d41586-026-00241-4 Andrew Robinson reviews five of the best science picks.",
-      "image": null,
-      "pubDate": "2026-01-23T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "ac4e2b9c7c007088",
-      "title": "Briefing Chat: The canny cow that can use tools, and how babies share their microbiomes",
-      "link": "https://www.nature.com/articles/d41586-026-00235-2",
-      "summary": "<p>Nature, Published online: 23 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00235-2\">doi:10.1038/d41586-026-00235-2</a></p>Nature staff discuss some of the week’s top science news.",
-      "body": "Nature, Published online: 23 January 2026; doi:10.1038/d41586-026-00235-2 Nature staff discuss some of the week’s top science news.",
-      "image": null,
-      "pubDate": "2026-01-23T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "b1c8d45b0d1bda06",
-      "title": "What a $1-billion pledge means for CERN’s ambitious supercollider plans",
-      "link": "https://www.nature.com/articles/d41586-026-00233-4",
-      "summary": "<p>Nature, Published online: 23 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00233-4\">doi:10.1038/d41586-026-00233-4</a></p>New director-general Mark Thomson discusses fundraising efforts and future priorities for Europe’s particle-physics laboratory.",
-      "body": "Nature, Published online: 23 January 2026; doi:10.1038/d41586-026-00233-4 New director-general Mark Thomson discusses fundraising efforts and future priorities for Europe’s particle-physics laboratory.",
-      "image": null,
-      "pubDate": "2026-01-23T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "25356105b9679d52",
-      "title": "Daily briefing: Why cancer might protect against Alzheimer’s disease",
-      "link": "https://www.nature.com/articles/d41586-026-00257-w",
-      "summary": "<p>Nature, Published online: 23 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00257-w\">doi:10.1038/d41586-026-00257-w</a></p>A protein made by cancer cells seems to break down the hallmark plaques of Alzheimer’s disease. Plus, our breath might reveal what’s going on in our gut a…",
-      "body": "Nature, Published online: 23 January 2026; doi:10.1038/d41586-026-00257-w A protein made by cancer cells seems to break down the hallmark plaques of Alzheimer’s disease. Plus, our breath might reveal what’s going on in our gut and the controversy surrounding a US-funded hepatitis B vaccine trial in Guinea-Bissau.",
-      "image": null,
-      "pubDate": "2026-01-23T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "343cd5cc37dca3f1",
-      "title": "Greenland is important for global research: what’s next for the island’s science?",
-      "link": "https://www.nature.com/articles/d41586-026-00067-0",
-      "summary": "<p>Nature, Published online: 23 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00067-0\">doi:10.1038/d41586-026-00067-0</a></p>Geopolitics made Greenland the unexpected focus of the world’s attention. But the territory has long been a unique region for science.",
-      "body": "Nature, Published online: 23 January 2026; doi:10.1038/d41586-026-00067-0 Geopolitics made Greenland the unexpected focus of the world’s attention. But the territory has long been a unique region for science.",
-      "image": null,
-      "pubDate": "2026-01-23T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "cca546432e13f1c1",
-      "title": "Guinea-Bissau suspends US-funded vaccine trial as African scientists question its motives",
-      "link": "https://www.nature.com/articles/d41586-026-00220-9",
-      "summary": "<p>Nature, Published online: 23 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00220-9\">doi:10.1038/d41586-026-00220-9</a></p>Officials at the US Department of Health and Human Services, which awarded funding for the controversial study, say it will proceed as planned.",
-      "body": "Nature, Published online: 23 January 2026; doi:10.1038/d41586-026-00220-9 Officials at the US Department of Health and Human Services, which awarded funding for the controversial study, say it will proceed as planned.",
-      "image": null,
-      "pubDate": "2026-01-23T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "1b9551a91a572748",
       "title": "'Pain sponge' derived from stem cells could soak up pain signals before they reach the brain",
       "link": "https://www.livescience.com/health/neuroscience/pain-sponge-derived-from-stem-cells-could-soak-up-pain-signals-before-they-reach-the-brain",
@@ -4788,12 +4260,12 @@
       "region": "global"
     },
     {
-      "id": "5ed9eae69b3dbea6",
-      "title": "Sega Toys Homestar Classic star projector review",
-      "link": "https://www.livescience.com/technology/sega-toys-homestar-classic-star-projector-review",
-      "summary": "Though it has fewer bells and whistles than its Sega Toys siblings, the Homestar Classic is still one of the best star projectors on the market.",
+      "id": "3ae696295b6b142d",
+      "title": "6 tips to kickstart your exercise routine and actually stick to it, according to science",
+      "link": "https://www.livescience.com/health/exercise/6-tips-to-kickstart-your-exercise-routine-and-actually-stick-to-it-according-to-science",
+      "summary": "Struggling with your New Year’s fitness resolutions? Do not give up just yet. Here are 6 expert tips on how to successfully form and maintain new habits.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/6WucvFLRfeAmDZJpxzTd93-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/SCtvwLxLy2ATxgYkMqwpLg-1280-80.jpg",
       "pubDate": "2026-01-22T12:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -4804,12 +4276,12 @@
       "region": "global"
     },
     {
-      "id": "3ae696295b6b142d",
-      "title": "6 tips to kickstart your exercise routine and actually stick to it, according to science",
-      "link": "https://www.livescience.com/health/exercise/6-tips-to-kickstart-your-exercise-routine-and-actually-stick-to-it-according-to-science",
-      "summary": "Struggling with your New Year’s fitness resolutions? Do not give up just yet. Here are 6 expert tips on how to successfully form and maintain new habits.",
+      "id": "5ed9eae69b3dbea6",
+      "title": "Sega Toys Homestar Classic star projector review",
+      "link": "https://www.livescience.com/technology/sega-toys-homestar-classic-star-projector-review",
+      "summary": "Though it has fewer bells and whistles than its Sega Toys siblings, the Homestar Classic is still one of the best star projectors on the market.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/SCtvwLxLy2ATxgYkMqwpLg-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/6WucvFLRfeAmDZJpxzTd93-1280-80.jpg",
       "pubDate": "2026-01-22T12:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -4884,166 +4356,6 @@
       "region": "gulf"
     },
     {
-      "id": "572247d0412b5751",
-      "title": "Cause of vision loss discovered in overlooked genes",
-      "link": "https://www.nature.com/articles/d41586-026-00207-6",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00207-6\">doi:10.1038/d41586-026-00207-6</a></p>Non-protein-coding genes have been linked to a hereditary condition, retinitis pigmentosa, that causes progressive blindness.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00207-6 Non-protein-coding genes have been linked to a hereditary condition, retinitis pigmentosa, that causes progressive blindness.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "01a4955f8e4f10f3",
-      "title": "Canny cattle: at least one cow knows how to use tools",
-      "link": "https://www.nature.com/articles/d41586-026-00206-7",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00206-7\">doi:10.1038/d41586-026-00206-7</a></p>An Austrian cow has shown that some bovines are intelligent enough to employ objects for their own ends.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00206-7 An Austrian cow has shown that some bovines are intelligent enough to employ objects for their own ends.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0533babd7c72ac48",
-      "title": "‘Bodies like ours aren’t considered in academia’",
-      "link": "https://www.nature.com/articles/d41586-026-00153-3",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00153-3\">doi:10.1038/d41586-026-00153-3</a></p>Two researchers describe how body size and having a disability can challenge perceptions of what a scientist should look like.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00153-3 Two researchers describe how body size and having a disability can challenge perceptions of what a scientist should look like.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "2788fb12e0f7478d",
-      "title": "When two years of academic work vanished with a single click",
-      "link": "https://www.nature.com/articles/d41586-025-04064-7",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-025-04064-7\">doi:10.1038/d41586-025-04064-7</a></p>After turning off ChatGPT’s ‘data consent’ option, Marcel Bucher lost the work behind grant applications, teaching materials and publication drafts. Here’…",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-025-04064-7 After turning off ChatGPT’s ‘data consent’ option, Marcel Bucher lost the work behind grant applications, teaching materials and publication drafts. Here’s what happened next.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5e1ee8afeb8cc5e0",
-      "title": "Have environmental microplastics levels been overestimated?",
-      "link": "https://www.nature.com/articles/d41586-026-00184-w",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00184-w\">doi:10.1038/d41586-026-00184-w</a></p>Microplastics are everywhere, but new research points to a need to standardize measurements of microparticles.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00184-w Microplastics are everywhere, but new research points to a need to standardize measurements of microparticles.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "1e7422a6cc3c0fa5",
-      "title": "Cancer might protect against Alzheimer’s — this protein helps explain why",
-      "link": "https://www.nature.com/articles/d41586-026-00222-7",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00222-7\">doi:10.1038/d41586-026-00222-7</a></p>A molecule produced by cancer cells can shield the brain from Alzheimer’s disease in mice.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00222-7 A molecule produced by cancer cells can shield the brain from Alzheimer’s disease in mice.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3cc0d2137b37aae3",
-      "title": "NIH ends support for most human fetal-tissue research – dismaying some scientists",
-      "link": "https://www.nature.com/articles/d41586-026-00251-2",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00251-2\">doi:10.1038/d41586-026-00251-2</a></p>The US biomedical funding agency also hints at future restrictions on research involving human embryonic stem cells.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00251-2 The US biomedical funding agency also hints at future restrictions on research involving human embryonic stem cells.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "ad1364ae77e2b925",
-      "title": "Exclusive: key NIH review panels due to lose all members by the end of 2026",
-      "link": "https://www.nature.com/articles/d41586-026-00183-x",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00183-x\">doi:10.1038/d41586-026-00183-x</a></p>Thirteen of the agency’s advisory councils, which must review grant applications before funding is awarded, are on track to have no voting members.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00183-x Thirteen of the agency’s advisory councils, which must review grant applications before funding is awarded, are on track to have no voting members.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b37bc9ff383286f9",
-      "title": "Daily briefing: Largest ever ‘superposition’ pushes quantum boundary",
-      "link": "https://www.nature.com/articles/d41586-026-00242-3",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00242-3\">doi:10.1038/d41586-026-00242-3</a></p>Physicists have shown that a quantum object can be at least as big as a cluster of 7,000 sodium atoms. Plus, the oldest-known cave art in the world and wh…",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00242-3 Physicists have shown that a quantum object can be at least as big as a cluster of 7,000 sodium atoms. Plus, the oldest-known cave art in the world and why girls are starting puberty earlier than ever.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "99be336eb6e1f128",
-      "title": "What your breath says about the bacteria in your gut",
-      "link": "https://www.nature.com/articles/d41586-026-00219-2",
-      "summary": "<p>Nature, Published online: 22 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00219-2\">doi:10.1038/d41586-026-00219-2</a></p>Metabolites in mouse and human breath correlate to gut-microbe populations and might be helpful in diagnosing disease.",
-      "body": "Nature, Published online: 22 January 2026; doi:10.1038/d41586-026-00219-2 Metabolites in mouse and human breath correlate to gut-microbe populations and might be helpful in diagnosing disease.",
-      "image": null,
-      "pubDate": "2026-01-22T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1783b9bea0453079",
       "title": "Lab mice that 'touch grass' are less anxious — and that highlights a big problem in rodent research",
       "link": "https://www.livescience.com/health/lab-mice-that-touch-grass-are-less-anxious-and-that-highlights-a-big-problem-in-rodent-research",
@@ -5092,22 +4404,6 @@
       "region": "global"
     },
     {
-      "id": "fc8970ec1426ec7c",
-      "title": "Stunning time-lapse video captured using 'artificial eclipse' shows 3 massive eruptions on the sun",
-      "link": "https://www.livescience.com/space/the-sun/stunning-time-lapse-video-captured-using-artificial-eclipse-shows-3-massive-eruptions-on-the-sun",
-      "summary": "ESA's Proba-3 mission, made up of twin spacecraft capable of aligning to create artificial eclipses, has captured \"rare\" footage of three solar prominences erupting from the sun's mysteriously hot atmosphere.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/SRf8dDyvtCSfJJkFHnK98b-1280-80.jpg",
-      "pubDate": "2026-01-21T17:18:35.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "90487a5c16aee462",
       "title": "The story behind cinema's greatest ever final shot",
       "link": "https://www.bbc.com/culture/article/20260120-the-story-behind-city-lights-and-cinemas-greatest-ever-final-shot?ocid=global_culture_rss",
@@ -5138,566 +4434,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "cd8bdc80878470ee",
-      "title": "Editorial Expression of Concern: The X-linked lymphoproliferative-disease gene product SAP regulates signals induced through the co-receptor SLAM",
-      "link": "https://www.nature.com/articles/s41586-026-10145-y",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-026-10145-y\">doi:10.1038/s41586-026-10145-y</a></p>Editorial Expression of Concern: The X-linked lymphoproliferative-disease gene product SAP regulates signals induced through the co-receptor SLAM",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-026-10145-y Editorial Expression of Concern: The X-linked lymphoproliferative-disease gene product SAP regulates signals induced through the co-receptor SLAM",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d98a30571b14b4af",
-      "title": "Publisher Correction: Multiple oestradiol functions inhibit ferroptosis and acute kidney injury",
-      "link": "https://www.nature.com/articles/s41586-026-10148-9",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-026-10148-9\">doi:10.1038/s41586-026-10148-9</a></p>Publisher Correction: Multiple oestradiol functions inhibit ferroptosis and acute kidney injury",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-026-10148-9 Publisher Correction: Multiple oestradiol functions inhibit ferroptosis and acute kidney injury",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "32f6b30de5c3c12c",
-      "title": "Publisher Correction: Polyamine-dependent metabolic shielding regulates alternative splicing",
-      "link": "https://www.nature.com/articles/s41586-026-10140-3",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-026-10140-3\">doi:10.1038/s41586-026-10140-3</a></p>Publisher Correction: Polyamine-dependent metabolic shielding regulates alternative splicing",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-026-10140-3 Publisher Correction: Polyamine-dependent metabolic shielding regulates alternative splicing",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "84af9a339399126c",
-      "title": "The biggest ‘Schrödinger’s cat’ yet — physicists put 7,000 atoms in superposition",
-      "link": "https://www.nature.com/articles/d41586-026-00227-2",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00227-2\">doi:10.1038/d41586-026-00227-2</a></p>Quantum superposition gets supersized — plus, US science after a year of Trump.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/d41586-026-00227-2 Quantum superposition gets supersized — plus, US science after a year of Trump.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "af0d6a398dc6bd5d",
-      "title": "ADHD is on the rise, but why?",
-      "link": "https://www.nature.com/articles/d41586-026-00093-y",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/d41586-026-00093-y\">doi:10.1038/d41586-026-00093-y</a></p>The more we learn, the less we seem to understand this condition.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/d41586-026-00093-y The more we learn, the less we seem to understand this condition.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f9413e77d9cfd98a",
-      "title": "Afar fossil shows broad distribution and versatility of <i>Paranthropus</i>",
-      "link": "https://www.nature.com/articles/s41586-025-09826-x",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09826-x\">doi:10.1038/s41586-025-09826-x</a></p>With its attribution to Paranthropus, a 2.6-million-year-old partial mandible expands the range of the genus into the Afar region of Ethiopia and adds to …",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09826-x With its attribution to Paranthropus, a 2.6-million-year-old partial mandible expands the range of the genus into the Afar region of Ethiopia and adds to our understanding of hominin evolution in eastern Africa.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "05c39d1578a8ea90",
-      "title": "Construction of complex and diverse DNA sequences using DNA three-way junctions",
-      "link": "https://www.nature.com/articles/s41586-025-10006-0",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10006-0\">doi:10.1038/s41586-025-10006-0</a></p>Sidewinder enables high-fidelity DNA assembly by separating the information that guides assembly from the final assembled sequence.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10006-0 Sidewinder enables high-fidelity DNA assembly by separating the information that guides assembly from the final assembled sequence.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "31d7a4b5163634c7",
-      "title": "Extreme barocaloric effect at dissolution",
-      "link": "https://www.nature.com/articles/s41586-025-10013-1",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10013-1\">doi:10.1038/s41586-025-10013-1</a></p>An extreme barocaloric effect in NH4SCN aqueous solutions is enabled by pressure-induced dissolution and precipitation, but without using a separate heat-…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10013-1 An extreme barocaloric effect in NH4SCN aqueous solutions is enabled by pressure-induced dissolution and precipitation, but without using a separate heat-transfer liquid.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a1103e02b6687aa2",
-      "title": "Temporal tissue dynamics from a spatial snapshot",
-      "link": "https://www.nature.com/articles/s41586-025-09876-1",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09876-1\">doi:10.1038/s41586-025-09876-1</a></p>One-shot tissue dynamics reconstruction can infer changes in tissue composition over time, from single-time-point spatial proteomics of human cancers.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09876-1 One-shot tissue dynamics reconstruction can infer changes in tissue composition over time, from single-time-point spatial proteomics of human cancers.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "938fca00c2f6fc95",
-      "title": "Symmetry, microscopy and spectroscopy signatures of altermagnetism",
-      "link": "https://www.nature.com/articles/s41586-025-09883-2",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09883-2\">doi:10.1038/s41586-025-09883-2</a></p>The symmetry, microscopy and spectroscopy signatures of altermagnetism are reviewed, and compared with traditional ferromagnetism and Néel antiferromagnet…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09883-2 The symmetry, microscopy and spectroscopy signatures of altermagnetism are reviewed, and compared with traditional ferromagnetism and Néel antiferromagnetism, and magnetic phases with symmetry-protected compensated non-collinear spin orders.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7dacdad29f1d3905",
-      "title": "Pyramidal neurons proportionately alter cortical interneuron subtypes",
-      "link": "https://www.nature.com/articles/s41586-025-09996-8",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09996-8\">doi:10.1038/s41586-025-09996-8</a></p>Pyramidal neuron-driven mechanisms actively promote the survival and terminal differentiation of their associated interneuron subtypes.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09996-8 Pyramidal neuron-driven mechanisms actively promote the survival and terminal differentiation of their associated interneuron subtypes.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "07d7ea8cc73bbf35",
-      "title": "Rock art from at least 67,800 years ago in Sulawesi",
-      "link": "https://www.nature.com/articles/s41586-025-09968-y",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09968-y\">doi:10.1038/s41586-025-09968-y</a></p>A hand stencil painted on a cave wall on a small island off the coast of Sulawesi more than 67,800 years ago suggests a very early occupation of Wallacea.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09968-y A hand stencil painted on a cave wall on a small island off the coast of Sulawesi more than 67,800 years ago suggests a very early occupation of Wallacea.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "47852f4ea7796555",
-      "title": "Core–envelope miscibility in sub-Neptunes and super-Earths",
-      "link": "https://www.nature.com/articles/s41586-025-09970-4",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09970-4\">doi:10.1038/s41586-025-09970-4</a></p>First-principles molecular dynamics driven by density functional theory is used to show that silicate and hydrogen are completely miscible over a wide ran…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09970-4 First-principles molecular dynamics driven by density functional theory is used to show that silicate and hydrogen are completely miscible over a wide range of plausible core–envelope pressure–temperature conditions.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "59c6c430b351d3cc",
-      "title": "Four camera-type eyes in the earliest vertebrates from the Cambrian Period",
-      "link": "https://www.nature.com/articles/s41586-025-09966-0",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09966-0\">doi:10.1038/s41586-025-09966-0</a></p>Early vertebrates, particularly myllokunmingids, possessed four camera-type eyes (a pair of lateral eyes and pineal and parapineal organs), which indicate…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09966-0 Early vertebrates, particularly myllokunmingids, possessed four camera-type eyes (a pair of lateral eyes and pineal and parapineal organs), which indicates that these structures functioned in image formation, in support of the hypothesis that the four camera-type eyes represent an ancestral vertebrate trait.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b45a6fa0849b0553",
-      "title": "Identification of an allosteric site on the E3 ligase adapter cereblon",
-      "link": "https://www.nature.com/articles/s41586-025-09994-w",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09994-w\">doi:10.1038/s41586-025-09994-w</a></p>An allosteric site on the E3 ligase adapter cereblon can be targeted to modulate the efficacy of cereblon in targeted protein degradation applications.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09994-w An allosteric site on the E3 ligase adapter cereblon can be targeted to modulate the efficacy of cereblon in targeted protein degradation applications.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0ad024cfd4eaa5f1",
-      "title": "Predatory aggression evolved through adaptations to noradrenergic circuits",
-      "link": "https://www.nature.com/articles/s41586-025-10009-x",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10009-x\">doi:10.1038/s41586-025-10009-x</a></p>Noradrenergic circuits support and balance aggressive behavioural states in predatory nematodes, distinguish predatory from non-predatory nematode species…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10009-x Noradrenergic circuits support and balance aggressive behavioural states in predatory nematodes, distinguish predatory from non-predatory nematode species and are associated with the evolution of complex behavioural traits.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c8e09d7abfd47466",
-      "title": "The potential for bridgmanite megacrysts to drive magma ocean segregation",
-      "link": "https://www.nature.com/articles/s41586-025-10063-5",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10063-5\">doi:10.1038/s41586-025-10063-5</a></p>Large-scale molecular dynamics simulations show that the crystal–melt interfacial energies of MgSiO3 bridgmanite increase substantially with pressure, pot…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10063-5 Large-scale molecular dynamics simulations show that the crystal–melt interfacial energies of MgSiO3 bridgmanite increase substantially with pressure, potentially forming unusually large bridgmanite crystals and suggesting a new physical mechanism driving magma ocean segregation.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8b9e1e1e5e90486b",
-      "title": "Ageing promotes microglial accumulation of slow-degrading synaptic proteins",
-      "link": "https://www.nature.com/articles/s41586-025-09987-9",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09987-9\">doi:10.1038/s41586-025-09987-9</a></p>Newly developed mouse models that enable cell-specific analyses of proteostasis dynamics across the lifespan of the mice reveal key aspects of neuronal pr…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09987-9 Newly developed mouse models that enable cell-specific analyses of proteostasis dynamics across the lifespan of the mice reveal key aspects of neuronal proteostasis with ageing.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "18cfd2307681eba7",
-      "title": "Oxygen-free metabolism in the bird inner retina supported by the pecten",
-      "link": "https://www.nature.com/articles/s41586-025-09978-w",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09978-w\">doi:10.1038/s41586-025-09978-w</a></p>While the photoreceptor outer segments in the bird outer retina have access to oxygen, the inner retina operates under chronic anoxia, supported by anaero…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09978-w While the photoreceptor outer segments in the bird outer retina have access to oxygen, the inner retina operates under chronic anoxia, supported by anaerobic glycolysis in the retinal neurons.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7c2b3542594eaa54",
-      "title": "Critical role for a high-plasticity cell state in lung cancer",
-      "link": "https://www.nature.com/articles/s41586-025-09985-x",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09985-x\">doi:10.1038/s41586-025-09985-x</a></p>The high-plasticity cell state (HPCS) is a critical hub that enables reciprocal transitions between cancer cell states, and targeting the HPCS may suppres…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09985-x The high-plasticity cell state (HPCS) is a critical hub that enables reciprocal transitions between cancer cell states, and targeting the HPCS may suppress cancer progression and eradicate treatment resistance.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cf41893dee8547c4",
-      "title": "Large-scale dynamos driven by shear-flow-induced jets",
-      "link": "https://www.nature.com/articles/s41586-025-09912-0",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09912-0\">doi:10.1038/s41586-025-09912-0</a></p>Aadvanced computer simulations of three-dimensional turbulence reveal that the ab initio generation of large-scale magnetic fields is driven by shear-flow…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09912-0 Aadvanced computer simulations of three-dimensional turbulence reveal that the ab initio generation of large-scale magnetic fields is driven by shear-flow-induced jets; an analytical model is derived which reproduces the essential features of the flow- and field-generation mechanisms.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f7640f6bf16b1dbc",
-      "title": "Common variation in meiosis genes shapes human recombination and aneuploidy",
-      "link": "https://www.nature.com/articles/s41586-025-09964-2",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09964-2\">doi:10.1038/s41586-025-09964-2</a></p>Analysis of data from pre-implantation genetic testing sheds light on the genetic basis of meiotic-origin aneuploidy, the leading cause of human pregnancy…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09964-2 Analysis of data from pre-implantation genetic testing sheds light on the genetic basis of meiotic-origin aneuploidy, the leading cause of human pregnancy loss, identifying common genetic variants associated with maternal meiotic errors.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b0081c77a59bf8d4",
-      "title": "Dissecting gene regulatory networks governing human cortical cell fate",
-      "link": "https://www.nature.com/articles/s41586-025-09997-7",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09997-7\">doi:10.1038/s41586-025-09997-7</a></p>Systematic screening of transcription factors reveals conserved mechanisms governing cortical radial glia lineage progression across primates and provides…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09997-7 Systematic screening of transcription factors reveals conserved mechanisms governing cortical radial glia lineage progression across primates and provides a framework for functional dissection of gene regulatory networks in human cortical neurogenesis.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e0e411e54ca45bb3",
-      "title": "Quantum spin resonance in engineered proteins for multimodal sensing",
-      "link": "https://www.nature.com/articles/s41586-025-09971-3",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09971-3\">doi:10.1038/s41586-025-09971-3</a></p>A recently developed class of magneto-sensitive fluorescent proteins are engineered to alter the properties of their response to magnetic fields and radio…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09971-3 A recently developed class of magneto-sensitive fluorescent proteins are engineered to alter the properties of their response to magnetic fields and radio frequencies, enabling multimodal sensing of biological systems.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9fdfef1151af8407",
-      "title": "LetA defines a structurally distinct transporter family",
-      "link": "https://www.nature.com/articles/s41586-025-09990-0",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09990-0\">doi:10.1038/s41586-025-09990-0</a></p>The distinct architecture of the Escherichia coli membrane transporter LetA mediates lipid trafficking across the bacterial envelope in partnership with t…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09990-0 The distinct architecture of the Escherichia coli membrane transporter LetA mediates lipid trafficking across the bacterial envelope in partnership with the tunnel-like complex LetB.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "7827dbd57437a201",
-      "title": "Probing quantum mechanics with nanoparticle matter-wave interferometry",
-      "link": "https://www.nature.com/articles/s41586-025-09917-9",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09917-9\">doi:10.1038/s41586-025-09917-9</a></p>Quantum interference of sodium nanoparticles, which can each contain more than 7,000 atoms at masses greater than 170,000 Da, is demonstrated.",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09917-9 Quantum interference of sodium nanoparticles, which can each contain more than 7,000 atoms at masses greater than 170,000 Da, is demonstrated.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e72bbfa534e4eff3",
-      "title": "Relatively warm deep-water formation persisted in the Last Glacial Maximum",
-      "link": "https://www.nature.com/articles/s41586-025-10012-2",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10012-2\">doi:10.1038/s41586-025-10012-2</a></p>During the Last Glacial Maximum, the deep Northwest Atlantic was only about 2 °C colder than today, suggesting sustained production of relatively warm Nor…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10012-2 During the Last Glacial Maximum, the deep Northwest Atlantic was only about 2 °C colder than today, suggesting sustained production of relatively warm North Atlantic Deep Water during the Last Glacial Maximum.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d9342b60028d6a1c",
-      "title": "Baby-to-baby strain transmission shapes the developing gut microbiome",
-      "link": "https://www.nature.com/articles/s41586-025-09983-z",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09983-z\">doi:10.1038/s41586-025-09983-z</a></p>A metagenomic survey of babies attending the first year of nursery detected extensive baby-to-baby microbial strain transmission, pointing to social inter…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09983-z A metagenomic survey of babies attending the first year of nursery detected extensive baby-to-baby microbial strain transmission, pointing to social interactions in infancy as crucial drivers of infant microbiome development.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fca9fbf0cc3da781",
-      "title": "Fibre integrated circuits by a multilayered spiral architecture",
-      "link": "https://www.nature.com/articles/s41586-025-09974-0",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09974-0\">doi:10.1038/s41586-025-09974-0</a></p>Fibre integrated circuits created by first preparing circuitry on extremely thin and flexible substrates and then mechanically rolling them up demonstrate…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09974-0 Fibre integrated circuits created by first preparing circuitry on extremely thin and flexible substrates and then mechanically rolling them up demonstrate microdevice density reaching 100,000 transistors per centimetre and excellent stability under harsh service conditions.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "71213e180495f741",
-      "title": "Fibroblastic reticular cells direct the&#xa0;initiation of T cell responses via CD44",
-      "link": "https://www.nature.com/articles/s41586-025-09988-8",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09988-8\">doi:10.1038/s41586-025-09988-8</a></p>CD44 expressed by fibroblastic reticular cells in secondary lymphoid organs regulates trafficking of dendritic cells, and thus has an essential role in th…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09988-8 CD44 expressed by fibroblastic reticular cells in secondary lymphoid organs regulates trafficking of dendritic cells, and thus has an essential role in the priming of T cells and the adaptive immune response.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f4e6a5c8791829fd",
-      "title": "Biological insights into schizophrenia from ancestrally diverse populations",
-      "link": "https://www.nature.com/articles/s41586-025-10000-6",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10000-6\">doi:10.1038/s41586-025-10000-6</a></p>Genome-wide association studies incorporating data for populations of African ancestry provide an expanded view of the genetic basis of schizophrenia, whi…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10000-6 Genome-wide association studies incorporating data for populations of African ancestry provide an expanded view of the genetic basis of schizophrenia, which has previously been studied mainly in European and East Asian cohorts.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2e3a0fe157718d07",
-      "title": "Accretion bursts&#xa0;crystallize silicates in a planet-forming disk",
-      "link": "https://www.nature.com/articles/s41586-025-09939-3",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09939-3\">doi:10.1038/s41586-025-09939-3</a></p>The detection of forsterite and enstatite emissions in EC 53 during accretion bursts marks one of the first pieces of direct evidence of in situ silicate …",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09939-3 The detection of forsterite and enstatite emissions in EC 53 during accretion bursts marks one of the first pieces of direct evidence of in situ silicate crystallization in young stars.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d92a833810746721",
-      "title": "Convergent evolution of scavenger cell development at brain borders",
-      "link": "https://www.nature.com/articles/s41586-025-10003-3",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-10003-3\">doi:10.1038/s41586-025-10003-3</a></p>Transcription factor osr2 is identified as a specific marker and regulator of mural lymphatic endothelial cell (muLEC) differentiation and maintenance, an…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10003-3 Transcription factor osr2 is identified as a specific marker and regulator of mural lymphatic endothelial cell (muLEC) differentiation and maintenance, and muLECs and border-associated macrophages share functional analogies but are not homologous, providing an example of convergent evolution.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "86fa965e07cf9cee",
-      "title": "Atmospheric microplastic emissions from land and ocean",
-      "link": "https://www.nature.com/articles/s41586-025-09998-6",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09998-6\">doi:10.1038/s41586-025-09998-6</a></p>A global atmospheric microplastics dataset is compiled, and comparison with size-aligned microplastic models in the literature indicate that fewer micropl…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09998-6 A global atmospheric microplastics dataset is compiled, and comparison with size-aligned microplastic models in the literature indicate that fewer microplastic particles are emitted into the atmosphere than previously thought.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "eb9da6a8f21cf306",
-      "title": "<b>The transition from monocyte to tissue-resident macrophage requires DHPS</b>",
-      "link": "https://www.nature.com/articles/s41586-025-09972-2",
-      "summary": "<p>Nature, Published online: 21 January 2026; <a href=\"https://www.nature.com/articles/s41586-025-09972-2\">doi:10.1038/s41586-025-09972-2</a></p>In mice, DHPS supports the maturation, maintenance and function of tissue-resident macrophages via the polyamine–hypusine axis, with implications for macr…",
-      "body": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-09972-2 In mice, DHPS supports the maturation, maintenance and function of tissue-resident macrophages via the polyamine–hypusine axis, with implications for macrophage-targeting therapies.",
-      "image": null,
-      "pubDate": "2026-01-21T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "387e363e112b9c11",
@@ -5986,22 +4722,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "95792886e643a0ea",
-      "title": "How the 1950s 'Red Scare' erased a US icon",
-      "link": "https://www.bbc.com/culture/article/20260115-how-the-1950s-red-scare-erased-a-us-icon?ocid=global_culture_rss",
-      "summary": "Why black superstar Paul Robeson was dramatically cancelled",
-      "body": null,
-      "image": "https://ychef.files.bbci.co.uk/144x81/p0mv5ldj.jpg",
-      "pubDate": "2026-01-16T11:00:00.000Z",
-      "source": {
-        "name": "BBC Culture",
-        "homepage": "https://www.bbc.com/culture/feed.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "baedee0e6056208c",
