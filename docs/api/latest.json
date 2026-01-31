@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T10:34:09.337Z",
-    "total": 202,
+    "generated_at": "2026-01-31T10:54:37.255Z",
+    "total": 193,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 74,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -48,16 +35,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "taken": 74,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
+        "error": null,
         "notModified": false
       },
       {
@@ -87,6 +87,19 @@
         "notModified": false
       },
       {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "National Geographic — Science",
         "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
@@ -97,6 +110,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -121,34 +147,8 @@
         "cats": [
           "general"
         ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -165,28 +165,41 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 45,
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -204,32 +217,6 @@
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
@@ -243,22 +230,9 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -266,6 +240,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -280,10 +267,71 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "2a80152d0667946b",
+      "title": "Boffey runs second fastest indoor 800m by Briton",
+      "link": "https://www.bbc.com/sport/athletics/articles/c4g4kezk592o?at_medium=RSS&at_campaign=rss",
+      "summary": "Isabelle Boffey runs the second fastest ever 800m indoors by a British woman, clocking one minute 57.43 seconds to win at the BU Terrier Classic in Boston.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-31T10:33:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b6735462a65b1182",
+      "title": "Snoop Dogg aiming to make Swansea a 'global name'",
+      "link": "https://www.bbc.com/sport/football/articles/c1je1edky89o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rapper Snoop Dogg says he wants to play his part in making Swansea City become a \"global name\".",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-31T10:32:59.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b6735462a65b1182",
+      "title": "Snoop Dogg aiming to make Swansea a 'global name'",
+      "link": "https://www.bbc.com/sport/football/articles/c1je1edky89o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rapper Snoop Dogg says he wants to play his part in making Swansea City become a \"global name\".",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-31T10:32:59.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "e893331e6d2c1868",
       "title": "Will metals lose their lustre?",
@@ -298,22 +346,6 @@
       },
       "lang": "en",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "388bb282502315e2",
-      "title": "Dragons captain O'Brien still chasing Wales dream",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/ceqze977nelo?at_medium=RSS&at_campaign=rss",
-      "summary": "In-form Dragons full-back Angus O'Brien still eyeing a Wales cap after narrowly missing out on the Six Nations squad.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T10:20:01.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -493,6 +525,38 @@
       "region": "global"
     },
     {
+      "id": "ad02007903c375d0",
+      "title": "GB's Skupski wins Australian Open doubles title",
+      "link": "https://www.bbc.com/sport/tennis/articles/ce3eqkz1nl0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Great Britain's Neal Skupski and American partner Christian Harrison win the Australian Open men's doubles title in their first Grand Slam together.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-01-31T08:47:26.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5e34e296a14a1608",
+      "title": "\"فشل بنسبة 80%\".. كارثة بنفيكا تهدد مستقبل ماستانتونو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%B4%D9%84-%D8%A8%D9%86%D8%B3%D8%A8%D8%A9-80-%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D8%A8%D9%86%D9%81%D9%8A%D9%83%D8%A7-%D8%AA%D9%87%D8%AF%D8%AF-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%85%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AA%D9%88%D9%86%D9%88/blt2794b57af705a2e6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ماستانتونو يدفع ثمن ليلة كارثية",
+      "body": "ماستانتونو يدفع ثمن ليلة كارثية سلطت صحيفة \"آس\" الإسبانية، الضوء على التداعيات الخطيرة للأداء الكارثي الذي قدمه فرانكو ماستانتونو أمام بنفيكا في لشبونة، مؤكدة أن اللاعب الأرجنتيني الشاب خرج من المباراة وقد فقد الزخم الذي كان قد بناه في الأسابيع الأخيرة. وبحسب الصحيفة، فإن ليلة ملعب دا لوز كانت بمثابة \"صدمة باردة\" لماستانتونو، الذي شارك أساسيًا لكنه فشل في ترك أي بصمة هجومية، حيث أنهى اللقاء من دون تسديدة واحدة على المرمى، ودون صناعة أي فرصة، مع نسبة نجاح في المراوغات لم تتجاوز 20%، قبل أن يتم استبداله في الدقيقة 55. وأشارت إلى أن ماستانتونو كان قد استعاد بريقه مؤخرًا بعد تألقه أمام ليفانتي وفياريال، ما جعل مواجهة بنفيكا تُصنف على أنها \"ليلة الحسم\"، إلا أنها تحولت إلى انهيار كامل أعاد الشكوك حول قدرته على الثبات الفني. كما ربط التقرير الأداء الباهت بذكريات فترة المعاناة من الآلام في منطقة العانة، التي أبعدته سابقًا عن مستواه الحقيقي، لكنه شدد على أن اللاعب الآن \"لا يملك أعذارًا\". واختتمت الصحيفة بالتأكيد على أن مكان ماستانتونو في التشكيل الأساسي أصبح مهددًا، في ظل ضغط كل من رودريجو وإبراهيم دياز، مشيرة إلى أن المدرب ألفارو أربيلوا لا يزال يثق باللاعب، لكن هامش الخطأ بات ضيقًا جدًا، وأن الطريق الوحيد للبقاء يمر عبر الاستمرارية.",
+      "image": null,
+      "pubDate": "2026-01-31T08:34:23.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "4b39058a8fc73a61",
       "title": "Lakers' Doncic hits triple double in 20 minutes",
       "link": "https://www.bbc.com/sport/basketball/articles/cwynr7vkv12o?at_medium=RSS&at_campaign=rss",
@@ -587,22 +651,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "ecbbd6674a7e6602",
-      "title": "A Syrian and a Somali-Austrian Director on Their Displacement Film Fund Shorts and Cinema as an Act of Survival: Rotterdam",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/syria-somalia-directors-displacement-film-fund-shorts-iffr-1236490328/",
-      "summary": "Mo Harawe and Hasan Kattan discuss ''Whispers of a Burning Scent' and 'Allies in Exile,' two of the first five shorts backed by the fund launched by Cate Blanchett and the IFFR’s Hubert Bals Fund.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T08:01:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "338f5919145a012a",
@@ -711,22 +759,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "981f3294c4f9c891",
-      "title": "‘Accept Our Sincere Apologies,’ Set in a Grand Hotel in Venice That Feels Like a Golden Cage, Investigates Loneliness and Identity",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/accept-our-sincere-apologies-film-iffr-2026-interview-1236456936/",
-      "summary": "The second feature from writer-director Juja Dobrachkous, who has two new films in the works, premieres at Rotterdam and features a cast of mostly non-professional actors.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T07:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -989,38 +1021,6 @@
       "region": "mena"
     },
     {
-      "id": "66e02edf7e462fde",
-      "title": "دوري جوي للنخبة.. كلاسيكو كبير وصغير و3 قمم ضمن أبرز مباريات الجولة 13",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D9%83%D8%A8%D9%8A%D8%B1-%D9%88%D8%B5%D8%BA%D9%8A%D8%B1-%D9%883-%D9%82%D9%85%D9%85-%D8%B6%D9%85%D9%86-%D8%A7%D9%94%D8%A8%D8%B1%D8%B2-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-13/blt2e9da761886b5ee5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مباريات نارية تنتظر الجماهير في الجولة 13 من الدوري السعودي تحت 21 عامًا",
-      "body": "مباريات نارية تنتظر الجماهير في الجولة 13 من الدوري السعودي تحت 21 عامًا تتواصل الإثارة في منافسات دوري جوي للنخبة (الدوري السعودي تحت 21 عامًا)، حيث تترقب الجماهير رؤية مباريات الجولة الثالثة عشرة، والتي ستشهد العديد من المواجهات المثيرة. على رأس تلك المباريات يبرز الكلاسيكو الكبير بين الهلال والاتحاد، وكلاسيكو آخر أصغر بين الأهلي والشباب، بالإضافة إلى 3 قمم من نار بين النصر والقادسية، الاتفاق مع التعاون، والأخدود ضد الوحدة. مباريات الجولة 13 وتبدأ الجولة، يوم الأحد 1 فبراير/شباط، عندما يستضيف النجمة نظيره نيوم، على ملعب إدارة التعليم بعنيزة، قبل أن يحل الاتفاق ضيفًا ثقيلًا على التعاون، على ملعب مدينة الملك عبدالله الرياضية ببريدة. بعد ذلك يستضيف البكيرية، على ملعبه، نظيره العدالة، ويحل العروبة ضيفًا على الرائد في بريدة، قبل أن يلتقي الأخدود، متصدر الترتيب، مع الوحدة، على ملعب مدينة الملك عبدالعزيز الرياضية بمكة المكرمة. مسك ختام مباريات اليوم الأول سيكون على ملعب نادي الهلال بالرياض، حين يستضيف \"الزعيم\" غريمه التقليدي الاتحاد، في كلاسيكو الجولة الثالثة عشرة. أما اليوم الثاني، الإثنين 2 فبراير/شباط، فيبدأ بمباراة يستضيف فيها الخليج، على ملعبه بسيهات، نادي الرياض، قبل مباراة نارية، يحل فيها النصر ضيفًا ثقيلًا على القادسية، على ملعب نادي النهضة بالدمام. بعد ذلك، يستضيف الفتح نظيره …",
-      "image": "https://assets.kooora.com/images/v3/blt435ab8f1128b32fc/Banner%20-%20Monthly%20Player%20Rankings%20Dark%20%20copy.jpg",
-      "pubDate": "2026-01-31T04:20:38.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a8bbb0f2c42967e5",
-      "title": "Critic’s Notebook: Darren Aronofsky’s ‘On This Day… 1776’ Demonstrates That High-End AI Slop Is Still AI Slop",
-      "link": "https://www.hollywoodreporter.com/tv/tv-reviews/critics-notebook-darren-aronofsky-ai-series-1236490220/",
-      "summary": "Produced using technology from Google's DeepMind, the YouTube short-form series does more to highlight the obvious limitations of AI filmmaking than its theoretical benefits.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T03:38:05.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ce878a54e04e98e1",
       "title": "Google's new AI 'world model' has seemingly spooked videogame investors, but it's hard to know what it will actually lead to",
       "link": "https://www.pcgamer.com/software/ai/google-project-genie-prototype-launch/",
@@ -1034,38 +1034,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6cae62bfae5449d4",
-      "title": "Critic’s Appreciation: How ‘Schitt’s Creek’ Helped Us Celebrate Catherine O’Hara’s Genius (That Was Always There)",
-      "link": "https://www.hollywoodreporter.com/tv/tv-reviews/catherine-ohara-critic-appreciation-schitts-creek-1236490257/",
-      "summary": "From 'SCTV' to Christopher Guest mockumentaries, O'Hara's comic legacy was already secure — but 'Schitt's Creek' allowed viewers to (re)discover a timeless talent.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T01:46:51.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d9b2b762cedf64ac",
-      "title": "2026 Oscars to Feature Live Performances From Only Two Best Original Song Nominees",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/2026-oscars-best-song-performances-golden-sinners-i-lied-1236490437/",
-      "summary": "\"Golden\" from 'KPop Demon Hunters' and \"I Lied to You\" from 'Sinners' will be included in the awards ceremony, with the other nominees introduced via custom-produced segments and receiving support across social media.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T01:39:28.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
@@ -1085,38 +1053,6 @@
       "region": "global"
     },
     {
-      "id": "53905a222e0f96e6",
-      "title": "Film Students Are Having Trouble Sitting Through Movies, Professors Say",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/film-students-are-having-trouble-sitting-through-movies-1236490359/",
-      "summary": "Watching a film for class used to be a dream assignment.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T00:56:19.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bb961d80f1488955",
-      "title": "Jordin Sparks Speaks Out After Viral Post Asking Halle Berry to Read Her Menopause Screenplay",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/jordin-sparks-halle-berry-menopause-screenplay-1236490314/",
-      "summary": "\"I wrote a screenplay about hormones and menopause and know you'd be the right person to talk to about it!\" Sparks posted in a public message to the Oscar winner.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T00:54:42.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "77614ef4620628d6",
       "title": "I watched Markiplier play Iron Lung for 45 minutes before watching Markiplier star in the Iron Lung movie for 2+ hours. Which was better?",
       "link": "https://www.pcgamer.com/movies-tv/i-watched-markiplier-play-iron-lung-for-45-minutes-before-watching-markiplier-star-in-the-iron-lung-movie-for-2-hours-which-was-better/",
@@ -1127,38 +1063,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bcb6d9d1671002d6",
-      "title": "Inside Grammy Gift Bags: From Nipple Covers and Shower Heads to Cosmetic Enhancements",
-      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/grammys-gift-bags-lounge-2026-lash-fary-distinctive-assets-1236488163/",
-      "summary": "L.A.-based entertainment marketing company Distinctive Assets, headed by Lash Fary, returns for a 26th year to handle swag for presenters and performers as a way of saying thank you for participating.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T00:24:16.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1c5f3dd4729ce255",
-      "title": "Jakops, the Producer Behind XG, on What’s Next for Pop Group After ‘The Core’",
-      "link": "https://www.hollywoodreporter.com/music/music-features/xgalx-ceo-jakops-xg-interview-1236489755/",
-      "summary": "The mogul, who's moving to the U.S., says \"I think now is finally our moment\" after the stars released their first full-length studio album.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T00:21:34.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -1204,22 +1108,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-01-30T23:47:22.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1a4deb0f00a7e475",
-      "title": "Littler comes back from brink in World Masters",
-      "link": "https://www.bbc.com/sport/darts/articles/cvgjx9xr3j4o?at_medium=RSS&at_campaign=rss",
-      "summary": "World number one Luke Littler comes through a \"tough\" night to win his first-round game after opponent Mike de Decker misses a match dart.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-30T23:39:46.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1626,22 +1514,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9c4c77fe73e6c3e7",
-      "title": "Hibs bank club-record fee as Bowie joins Verona",
-      "link": "https://www.bbc.com/sport/football/articles/cp80xkxpk8go?at_medium=RSS&at_campaign=rss",
-      "summary": "Kieron Bowie becomes Hibernian's club-record sale after the Scotland striker joins Serie A side Hellas Verona on a four-and-a-half year deal.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-30T19:07:13.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2250,22 +2122,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "39980a94a4fdb1d0",
-      "title": "Football's 'Picasso' Robertson honoured at funeral",
-      "link": "https://www.bbc.com/news/articles/cx2kmygjde6o?at_medium=RSS&at_campaign=rss",
-      "summary": "John Robertson was a key part of Brian Clough's Nottingham Forest teams that won the European Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-30T13:42:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3101,12 +2957,12 @@
       "region": "global"
     },
     {
-      "id": "a68affb666fdda32",
-      "title": "Nvidia GeForce Now is officially on Linux, and after testing it I'm equal parts impressed and optimistic for the future of non-Windows gaming",
-      "link": "https://www.pcgamer.com/software/linux/nvidia-geforce-now-is-officially-on-linux-and-after-testing-it-im-equal-parts-impressed-and-optimistic-for-the-future-of-non-windows-gaming/",
-      "summary": "For now only officially on Ubuntu.",
-      "body": "Linux has not traditionally been the home for gaming, but ever since SteamOS and Proton , it's drastically improved as a gaming platform. It still hasn't had quite the breadth of game support as Windows, though, and it's never had native client support for Nvidia GeForce Now (GFN) game streaming—until now, that is, as GFN has officially come to Linux. In beta, at least. Before now, you'd have to either access it via the limited browser version, or use third-party apps, such as GeForce Infinity, but a native Linux client will unlock higher resolutions up to 5K, and higher frame rates, too. I've been trying it out, and it works pretty flawlessly, provided you're on Ubuntu 24.04 LTS, have a GPU that supports Vulkan H.264 or H.264 decoding, and are using the correct driver. Unfortunately Ubuntu is the only officially supported distro for now, although Nvidia does want to bring it to further ones and is \"actively evaluating\" them. The company did note that GFN might also currently work on other distros that support Flatpak installation—such as the popular Bazzite distro—but it's only officially recommending Ubuntu for now. To install it, first ensure you have the correct drivers instal…",
-      "image": "https://cdn.mos.cms.futurecdn.net/2PSRu4DA5tvMNeLb8DAC6j-1280-80.jpg",
+      "id": "b76407f6e1b8485e",
+      "title": "Cairn review",
+      "link": "https://www.pcgamer.com/games/action/cairn-review/",
+      "summary": "Siphons the rage out of navigation puzzlers like Death Stranding and Baby Steps, resulting in prickly but approachable climbing.",
+      "body": "Need to know What is it? A limb-by-limb climbing sim that reaches dizzying heights Release date January 30, 2026 Expect to pay TBC Developer The Game Bakers Publisher The Game Bakers Reviewed on RTX 3060 (laptop), Ryzen 5 5600H, 16GB RAM Steam Deck Verified Link Steam Cairn can be loosely categorised with modern on-foot navigation games like Death Stranding and Baby Steps, but once it clicks, it's more fun to play than either of those. Protagonist Aava is a renown mountain climber with a formidable reputation and reclusive spirit. We meet her at the foot of Mount Kami: an impossibly lofty summit once home to a society of troglodytes with a preference for living vertically. It's her self-assigned mission to be the first to surmount it. What follows is a 15 hour odyssey, or a potentially endless one, about the excruciatingly careful placement of hands and feet on vertical surfaces. It feels grander in scope than anything I've played in recent memory, and it's among the best videogames I've played in years. The climbing feels unrefined at first, because I've never climbed like this in a game before. Moving one of Aava's limbs is as simple as pressing A, moving it with the analog stic…",
+      "image": "https://cdn.mos.cms.futurecdn.net/8gKLCiumhL2jLMrwfuyqmL-1280-80.jpg",
       "pubDate": "2026-01-29T14:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -3117,12 +2973,12 @@
       "region": "global"
     },
     {
-      "id": "b76407f6e1b8485e",
-      "title": "Cairn review",
-      "link": "https://www.pcgamer.com/games/action/cairn-review/",
-      "summary": "Siphons the rage out of navigation puzzlers like Death Stranding and Baby Steps, resulting in prickly but approachable climbing.",
-      "body": "Need to know What is it? A limb-by-limb climbing sim that reaches dizzying heights Release date January 30, 2026 Expect to pay TBC Developer The Game Bakers Publisher The Game Bakers Reviewed on RTX 3060 (laptop), Ryzen 5 5600H, 16GB RAM Steam Deck Verified Link Steam Cairn can be loosely categorised with modern on-foot navigation games like Death Stranding and Baby Steps, but once it clicks, it's more fun to play than either of those. Protagonist Aava is a renown mountain climber with a formidable reputation and reclusive spirit. We meet her at the foot of Mount Kami: an impossibly lofty summit once home to a society of troglodytes with a preference for living vertically. It's her self-assigned mission to be the first to surmount it. What follows is a 15 hour odyssey, or a potentially endless one, about the excruciatingly careful placement of hands and feet on vertical surfaces. It feels grander in scope than anything I've played in recent memory, and it's among the best videogames I've played in years. The climbing feels unrefined at first, because I've never climbed like this in a game before. Moving one of Aava's limbs is as simple as pressing A, moving it with the analog stic…",
-      "image": "https://cdn.mos.cms.futurecdn.net/8gKLCiumhL2jLMrwfuyqmL-1280-80.jpg",
+      "id": "a68affb666fdda32",
+      "title": "Nvidia GeForce Now is officially on Linux, and after testing it I'm equal parts impressed and optimistic for the future of non-Windows gaming",
+      "link": "https://www.pcgamer.com/software/linux/nvidia-geforce-now-is-officially-on-linux-and-after-testing-it-im-equal-parts-impressed-and-optimistic-for-the-future-of-non-windows-gaming/",
+      "summary": "For now only officially on Ubuntu.",
+      "body": "Linux has not traditionally been the home for gaming, but ever since SteamOS and Proton , it's drastically improved as a gaming platform. It still hasn't had quite the breadth of game support as Windows, though, and it's never had native client support for Nvidia GeForce Now (GFN) game streaming—until now, that is, as GFN has officially come to Linux. In beta, at least. Before now, you'd have to either access it via the limited browser version, or use third-party apps, such as GeForce Infinity, but a native Linux client will unlock higher resolutions up to 5K, and higher frame rates, too. I've been trying it out, and it works pretty flawlessly, provided you're on Ubuntu 24.04 LTS, have a GPU that supports Vulkan H.264 or H.264 decoding, and are using the correct driver. Unfortunately Ubuntu is the only officially supported distro for now, although Nvidia does want to bring it to further ones and is \"actively evaluating\" them. The company did note that GFN might also currently work on other distros that support Flatpak installation—such as the popular Bazzite distro—but it's only officially recommending Ubuntu for now. To install it, first ensure you have the correct drivers instal…",
+      "image": "https://cdn.mos.cms.futurecdn.net/2PSRu4DA5tvMNeLb8DAC6j-1280-80.jpg",
       "pubDate": "2026-01-29T14:00:00.000Z",
       "source": {
         "name": "PC Gamer",
