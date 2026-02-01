@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T15:53:13.522Z",
-    "total": 328,
+    "generated_at": "2026-02-01T16:13:47.790Z",
+    "total": 326,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,16 +9,42 @@
     "shard_index": 3,
     "results": [
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/530dc5a5-0925-43bb-ab88-d02e714a2e76",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 20,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 55,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -35,35 +61,48 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 57,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
         "lang": "ar",
-        "region": "egypt",
+        "region": "gulf",
         "cats": [
-          "sports"
+          "lifestyle"
         ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "taken": 100,
+        "error": null,
         "notModified": false
       },
       {
         "name": "Youm7 - رياضة",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 49,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -87,6 +126,19 @@
         "notModified": false
       },
       {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Live Science",
         "url": "https://www.livescience.com/feeds/all",
         "homepage": "https://www.livescience.com/feeds/all",
@@ -97,45 +149,6 @@
         ],
         "taken": 48,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/530dc5a5-0925-43bb-ab88-d02e714a2e76",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 49,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -152,48 +165,35 @@
         "notModified": false
       },
       {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "global",
+        "region": "egypt",
         "cats": [
-          "general"
+          "sports"
         ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -204,9 +204,22 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -230,9 +243,22 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -240,6 +266,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -269,45 +308,6 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "ArabiaWeather — مقالات",
         "url": "https://www.arabiaweather.com/en/rss",
         "homepage": "https://www.arabiaweather.com/en/rss",
@@ -323,6 +323,54 @@
     ]
   },
   "items": [
+    {
+      "id": "7841ae4b23ed6027",
+      "title": "Ice hockey venue will not be ready for start of Olympics",
+      "link": "https://www.bbc.com/sport/ice-hockey/articles/cq6vdpnelvzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Winter Olympics organisers admit the new ice hockey arena in Milan will not be finished in time for the first match of the Games – but it is \"absolutely certain\" all scheduled fixtures will be played there.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-01T16:07:49.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1dd51e821cdeeea5",
+      "title": "'It's similar to how Google can map your home without your consent': Why using aerial lasers to map an archaeology site should have Indigenous partnership",
+      "link": "https://www.livescience.com/archaeology/its-similar-to-how-google-can-map-your-home-without-your-consent-why-using-aerial-lasers-to-map-an-archaeology-site-should-have-indigenous-partnership",
+      "summary": "Aerial lidar is transforming how archaeologists map sites, but they should do it in tandem with Indigenous people.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/p8G9KZzgBfgAYERSb3Edsj-1280-80.png",
+      "pubDate": "2026-02-01T16:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "093b321fe7246623",
+      "title": "Clare outclass Antrim while Down fall to Wexford",
+      "link": "https://www.bbc.com/sport/articles/c1508vwjyjqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Clare made it two wins from two in hurling's Division 1B, powering to an impressive 2-30 to 1-19 win over Antrim in Cushendall, but Down's fightback against Wexford fell just short.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-01T15:53:51.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "4151403145cdda10",
       "title": "Late Mbappe penalty rescues Real Madrid against Vallecano",
@@ -372,8 +420,8 @@
       "region": "global"
     },
     {
-      "id": "e383cd00829e42b0",
-      "title": "Pakistan will not boycott T20 World Cup",
+      "id": "f98c90cc6b5a5d01",
+      "title": "Pakistan to play at T20 World Cup - but refuse to face India",
       "link": "https://www.bbc.com/sport/cricket/articles/c1klx44kjr2o?at_medium=RSS&at_campaign=rss",
       "summary": "Pakistan announce they will take part in this month's men's T20 World Cup but will not play their scheduled match against India.",
       "body": null,
@@ -385,22 +433,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6f045562e7e01827",
-      "title": "'Nose-in-a-dish' reveals why the common cold hits some people hard, while others recover easily",
-      "link": "https://www.livescience.com/health/viruses-infections-disease/nose-in-a-dish-reveals-why-the-common-cold-hits-some-people-hard-while-others-recover-easily",
-      "summary": "Using a laboratory model of the human nose, scientists have investigated why the severity of common-cold infections varies so widely between individuals.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/v5sKQZERRm5FJsmWVzrkrm-1280-80.jpg",
-      "pubDate": "2026-02-01T15:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -417,6 +449,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6f045562e7e01827",
+      "title": "'Nose-in-a-dish' reveals why the common cold hits some people hard, while others recover easily",
+      "link": "https://www.livescience.com/health/viruses-infections-disease/nose-in-a-dish-reveals-why-the-common-cold-hits-some-people-hard-while-others-recover-easily",
+      "summary": "Using a laboratory model of the human nose, scientists have investigated why the severity of common-cold infections varies so widely between individuals.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/v5sKQZERRm5FJsmWVzrkrm-1280-80.jpg",
+      "pubDate": "2026-02-01T15:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "health",
       "region": "global"
     },
     {
@@ -484,6 +532,22 @@
       "region": "global"
     },
     {
+      "id": "3ccab087ad23bffd",
+      "title": "بانتصار مجنون.. كاريك يواصل إشعال ثورة مانشستر يونايتد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D9%85%D8%AC%D9%86%D9%88%D9%86-%D9%83%D8%A7%D8%B1%D9%8A%D9%83-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%95%D8%B4%D8%B9%D8%A7%D9%84-%D8%AB%D9%88%D8%B1%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF/blt1e1fad087e91d1d8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ليلة الأعصاب في مسرح الأحلام",
+      "body": "ليلة الأعصاب في مسرح الأحلام واصل مانشستر يونايتد عروضه القوية ونتائجه اللافتة تحت قيادة مديره الفني المؤقت مايكل كاريك، بعدما حقق فوزًا مثيرًا على حساب فولهام بنتيجة (3-2)، في اللقاء الذي جمع الفريقين مساء اليوم الأحد على ملعب أولد ترافورد، ضمن منافسات الجولة الرابعة والعشرين من الدوري الإنجليزي الممتاز. ودخل الشياطين الحمر المواجهة بعزيمة واضحة لمواصلة سلسلة الانتصارات، وهو ما تُرجم مبكرًا بهدف التقدم الذي سجله كارلوس هنريكي كاسيميرو في الدقيقة 19، قبل أن يعزز ماتيوس كونيا التفوق بهدف ثانٍ في الدقيقة 56، ليضع أصحاب الأرض في موقف مريح نسبيًا. ورغم ذلك، رفض فولهام الاستسلام، ونجح في العودة إلى أجواء اللقاء عن طريق راؤول خيمينيز الذي سجل هدف تقليص الفارق من ركلة جزاء في الدقيقة 85، ثم أدرك كيفين سانتوس التعادل في الدقيقة الأولى من الوقت بدل الضائع (90+1)، ليشعل الدقائق الأخيرة من المباراة. وفي الوقت الذي كانت فيه المباراة تسير نحو التعادل، ظهر البديل بنيامين سيسكو ليمنح مانشستر يونايتد فوزًا قاتلًا، بتسجيله هدف الانتصار في الدقيقة الرابعة من الوقت بدل الضائع (90+4)، وسط فرحة عارمة في مدرجات أولد ترافورد. وبهذا الانتصار، يحقق مانشستر يونايتد فوزه الثالث على التوالي تحت قيادة مايكل كاريك، ليرفع رصيده إلى 41 نقطة، ويصعد إلى المركز الرابع في جدول ترتيب الدوري الإنجليزي الممتاز، بفارق ن…",
+      "image": null,
+      "pubDate": "2026-02-01T14:10:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "04e8d5724a1c9a40",
       "title": "Wolves accept Palace's reduced £48m offer for Strand Larsen",
       "link": "https://www.bbc.com/sport/football/articles/cy59zngnxd1o?at_medium=RSS&at_campaign=rss",
@@ -500,20 +564,68 @@
       "region": "global"
     },
     {
-      "id": "815fbd68e83d8776",
-      "title": "Building a Watch Collection on a Budget? Here’s Where to Start (2026)",
-      "link": "https://www.wired.com/gallery/want-to-build-a-watch-collection-on-a-budget-heres-where-to-start/",
-      "summary": "Yes, it is possible to scale horological heights without breaking the bank. It’s time to seek out the latest bargains.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T14:00:00.000Z",
+      "id": "3c4b6d411544f411",
+      "title": "رسميًا.. مصر تتحرك لاستضافة أمم أفريقيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D9%85%D8%B5%D8%B1-%D8%AA%D8%AA%D8%AD%D8%B1%D9%83-%D9%84%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9-%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blt4495299c39b1f8a5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مصر تطلب استضافة الكان في 2032 أو 2036",
+      "body": "مصر تطلب استضافة الكان في 2032 أو 2036 خاطب اتحاد الكرة المصري، برئاسة هاني أبو ريدة، وزارة الشباب والرياضة، بشأن التقدم باستضافة كأس الأمم الأفريقية لنسختي 2032 أو 2036. وذكر الاتحاد المصري في بيان، أنه طلب من وزارة الرياضة، مخاطبة الكاف، للتقدم باستضافة الكان. وكان المنتخب المصري قد أنهى مشواره في كأس الأمم الأفريقية 2025، باحتلال المركز الرابع، بعد الخسارة بركلات الترجيح أمام نيجيريا. قرارات جديدة للجبلاية أوضح بيان اتحاد الكرة، أنه جرى الموافقة على التعاقد على أحدث برامج تحليل الأداء الفني لجميع المنتخبات الوطنية، ولمتابعة اللاعبين المحترفين بالخارج، وتحليل أداء المنافسين، وعلى رأسها برنامج Tactic Scout. كما تم اعتماد البرنامج الفني لإعداد المنتخب الوطني الأول خلال أجندة شهر مارس، من خلال مباريات دولية بدولة قطر، مع السعودية وإسبانيا، وكذلك مباراة ودية مع البرازيل خلال أجندة شهر يونيو بولاية أوهايو الأمريكية، وذلك في إطار الاستعداد للمشاركة في كأس العالم 2026. ونوه البيان، إلى الموافقة على معسكر المنتخب المصري، المعتمد من قبل الاتحاد الدولي لكرة القدم (الفيفا) لإقامة الفريق خلال مباريات دور المجموعات. قرارات مهمة لمجلس إدارة الاتحاد المصري لكرة القدم اليوم🗒️🔴 pic.twitter.com/RIsAxErtQo — EFA.eg (@EFA) February 1, 2026",
+      "image": "https://assets.kooora.com/images/v3/kooora_1401474_1/hani%20aboureda1.jpg",
+      "pubDate": "2026-02-01T14:10:05.000Z",
       "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "811295f95726b202",
+      "title": "أول تحرك من الاتحاد بعد أزمة كريم بنزيما",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%88%D9%84-%D8%AA%D8%AD%D8%B1%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D9%83%D8%B1%D9%8A%D9%85-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7/blt1a7009f51511c9b5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم الفرنسي يشعل الأجواء",
+      "body": "النجم الفرنسي يشعل الأجواء كشفت تقارير صحفية، مساء اليوم الأحد، عن أول تحرك من إدارة نادي اتحاد جدة، من أجل حل أزمة الفرنسي كريم بنزيما، قائد الفريق. وأفاد التقارير أن كريم بنزيما يواجه طريقًا مسدودًا مع إدارة نادي الاتحاد، نتيجة الخلافات القائمة بشأن مستقبله التعاقدي، وعدم التوصل إلى اتفاق حول تمديد عقده أو تعديل بنوده، في ظل اختلاف وجهات النظر بين الطرفين حول المشروع الرياضي للفريق في الفترة المقبلة. وأوضحت المصادر نفسها أن إدارة الهلال تقدمت بعرض رسمي لضم بنزيما، مستغلة حالة عدم الاستقرار التي يعيشها اللاعب مع ناديه الحالي، ورغبتها في تعزيز خط الهجوم بلاعب يمتلك الخبرة والقيمة الفنية العالية، خاصة مع وجود استحقاقات مهمة محليًا وقاريًا في الأفق. فضلاً عن خروج عدة أنباء تشير إلى أن يوفنتوس يحاول التوقيع مع المهاجم الفرنسي، ولكن الأخير رفض ذلك بشكل قاطع، وفقًا لما ذكره موقع \"فوت ميركاتو\". وقال الموقع الفرنسي المختص في أخبار الانتقالات إن \"بنزيما فإن أولوية بنزيما في الوقت الحالي ليست في العودة إلى أوروبا، حيث رفض الانضمام لليوفي بشكل قاطع\". وأوضح أن \"إدارة الاتحاد تحركت من أجل الوصول إلى حل، حيث من المتوقع أن تجري اجتماعًا مع ممثلي بنزيما خلال الساعات القادمة\". وفي الوقت نفسه، أكد \"فوت ميركاتو\" أن صندوق الاستثمارات السعودي لم يعط الموافقة على انضمام بنزيما إلى الهلال، رغم أن اللاع…",
+      "image": null,
+      "pubDate": "2026-02-01T14:06:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "18cfe9045056e143",
+      "title": "خبير تحكيمي يدلي برأيه حول ركلة جزاء ريال مدريد أمام رايو فاليكانو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%A8%D9%8A%D8%B1-%D8%AA%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%8A%D8%AF%D9%84%D9%8A-%D8%A8%D8%B1%D8%A7%D9%94%D9%8A%D9%87-%D8%AD%D9%88%D9%84-%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A7%D8%A1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%B1%D8%A7%D9%8A%D9%88-%D9%81%D8%A7%D9%84%D9%8A%D9%83%D8%A7%D9%86%D9%88/bltc967440eedc2578b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "حصل عليها إبراهيم دياز",
+      "body": "حصل عليها إبراهيم دياز انتصر ريال مدريد، بشق الأنفس على رايو فاليكانو بنتيجة 2-1، لحساب الأسبوع 22 من الدوري الإسباني على ملعب سانتياجو برنابيو. ويدين الريال بالفضل في هذا الانتصار لنجميه فينيسيوس جونيور وكيليان مبابي، اللذين أحرزا هدفي الملكي في الدقيتين 15 و90+10 من ركلة جزاء. وكانت المباراة تتجه صوب التعادل 1/1، لكن في الوقت البديل أتى الفرج على يد المغربي إبراهيم دياز، الذي توغل وتعرض لعرقلة من ميندي، ليحصل الملكي على ركلة جزاء سددها مبابي في المرمى بنجاح في الدقيقة (90+10). وقال إيتورالدي جونزاليس، الخبير التحكيمي لصحيفة \"آس\" وإذاعة \"كادينا سير\"، إن القرار صحيح. وأكد: \"إنها ركلة جزاء، إنها ركلة جزاء\". بهذه النتيجة رفع ريال مدريد رصيده إلى النقطة 54 في المركز الثاني، فيما توقف رايو عند النقطة 22 في المركز 17. &nbsp;",
+      "image": null,
+      "pubDate": "2026-02-01T14:02:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0ea2554b544e7a01",
+      "title": "لتعويض بنزيما.. اتحاد جدة يرصد مبلغًا فلكيًا لخطف يامال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D8%AA%D8%B9%D9%88%D9%8A%D8%B6-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D9%8A%D8%B1%D8%B5%D8%AF-%D9%85%D8%A8%D9%84%D8%BA%D9%8B%D8%A7-%D9%81%D9%84%D9%83%D9%8A%D9%8B%D8%A7-%D9%84%D8%AE%D8%B7%D9%81-%D9%8A%D8%A7%D9%85%D8%A7%D9%84/blt0b3e918e9907eb97?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اتحاد جدة يضع خطته لضم لامين يامال",
+      "body": "اتحاد جدة يضع خطته لضم لامين يامال فتح نادي اتحاد جدة السعودي، باب المفاجآت مبكرًا، بعدما كشفت تقارير صحفية عن تحركه للتعاقد مع نجم برشلونة، لامين يامال. ويأتي هذا التوجه في إطار مساعي إدارة اتحاد جدة، لإعادة بناء قوتها الهجومية، في ظل الأزمة المستمرة التي يعيشها المهاجم الفرنسي كريم بنزيما، بسبب غياباته المتكررة وتعثر مفاوضات تجديد عقده. وتتزايد حاجة اتحاد جدة إلى التدعيم، خاصة مع وجود احتمالات قوية لرحيل الجناح الفرنسي موسى ديابي إلى إنتر ميلان، مما دفع الإدارة للبحث عن نجم شاب قادر على صناعة الفارق. اتحاد جدة يجهز 300 مليون يورو ذكر موقع YSscores، نقلًا عن صحيفة Fichajes الإسبانية، أن اتحاد جدة يُجهز عرضًا ماليًا ضخمًا قد يصل إلى 300 مليون يورو، لضم يامال. وترى إدارة اتحاد جدة، أن يامال يمتلك مهارات فنية استثنائية، إضافة إلى جاذبية جماهيرية كبيرة، ما يؤهله لقيادة مشروع الفريق السعودي، وتعزيز حضوره محليًا ودوليًا. في المقابل، لا تُبدي إدارة برشلونة، أي نية للتخلي عن اللاعب، معتبرة إياه عنصرًا أساسيًا في مشروع الفريق، وترفض فتح باب المفاوضات خلال الفترة الحالية. موقف يامال من ترك برشلونة لا يُظهر يامال، اهتمامًا بمغادرة الليجا، إذ يشعر بالاستقرار في صفوف برشلونة، خاصة بعد تألقه هذا الموسم. وسجل لامين يامال 12 هدفًا، وقدم 13 تمريرة حاسمة في 27 مباراة خاضها هذا الموسم مع برشلونة بك…",
+      "image": "https://assets.kooora.com/images/v3/getty-2238643797/crop/MM5DGMJXG45DCNZYG45G433XMU5DAORRGY2Q====/GettyImages-2238643797.jpg",
+      "pubDate": "2026-02-01T14:00:03.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "21e47e4c198d8cc0",
@@ -529,6 +641,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "815fbd68e83d8776",
+      "title": "Building a Watch Collection on a Budget? Here’s Where to Start (2026)",
+      "link": "https://www.wired.com/gallery/want-to-build-a-watch-collection-on-a-budget-heres-where-to-start/",
+      "summary": "Yes, it is possible to scale horological heights without breaking the bank. It’s time to seek out the latest bargains.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-01T14:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -836,38 +964,6 @@
       "region": "gulf"
     },
     {
-      "id": "26e792f6a4fe1bda",
-      "title": "على طريقة \"تشاكي\".. العلا يضم محترف الهلال السابق",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D9%84%D9%89-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%AA%D8%B4%D8%A7%D9%83%D9%8A-%D8%A7%D9%84%D8%B9%D9%84%D8%A7-%D9%8A%D8%B6%D9%85-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82/blt671e4eea637042f2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نجم برازيلي ينضم لصفوف العلا",
-      "body": "نجم برازيلي ينضم لصفوف العلا تمكن نادي العلا المشارك في دوري الدرجة الأولى \"يلو\"، من ضم أحد نجوم الهلال الأجانب السابقين خلال فترة الانتقالات الشتوية الجارية. ويتطلع العلا لبناء فريق قوي من أجل الصعود لدوري روشن ومقارعة الأندية الكبرى، مثلما فعل نيوم والقادسية من قبل. أعلن نادي العلا، عبر حسابه الرسمي على منصة \"إكس\" للتواصل الاجتماعي، تعاقده مع الجناح البرازيلي مشيل ديلجادو، قادمًا من نادي فلامنجو، وذلك من خلال مقطع فيديو تشويقي حمل عنوان: \"الزين هنا والشين هناك\". وخطف الفيديو، الذي أعدّه المركز الإعلامي لنادي العلا، الأنظار بشكل لافت، بعدما جاء بفكرة مبتكرة ولافتة للجماهير، حيث تضمن ظهور الدمية الشهيرة والشريرة \"تشاكي\" المعروفة من أفلام الرعب، في تشبيه رمزي للاعب ميشيل ديلجادو. &nbsp; الزيــن هنا .. والشــين هنــاك 😈 #وقت_العودة | #شتوية_العلا pic.twitter.com/iaWT2DzSDM &mdash; نادي العلا | AlUla Club (@AlUlaclub) February 1, 2026 ولاقى الإعلان تفاعلًا واسعًا من الجماهير على منصات التواصل الاجتماعي، في ظل الإبداع اللافت في طريقة تقديم الصفقة، بالتزامن مع ترحيب جماهيري بانضمام الجناح البرازيلي إلى صفوف الفريق، انتظارًا لما سيقدمه مع العلا خلال المرحلة المقبلة. وخلال تجربته مع الهلال، ساهم ميشيل في التتويج بـ6 ألقاب، بواقع لقبين في الدوري السعودي، ولقبين في كأس خادم الحرمين الشريف…",
-      "image": null,
-      "pubDate": "2026-02-01T13:04:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a4f64eeb52ef71f5",
-      "title": "الترجي يهدر فوزا دراميا أمام سيمبا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%8A-%D9%8A%D9%87%D8%AF%D8%B1-%D9%81%D9%88%D8%B2%D8%A7-%D8%AF%D8%B1%D8%A7%D9%85%D9%8A%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%B3%D9%8A%D9%85%D8%A8%D8%A7/blt591de5b0daf01492?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الفريق التونسي يعزز حظوظه في التأهل",
-      "body": "الفريق التونسي يعزز حظوظه في التأهل أهدر فريق الترجي فوزا دراميا أمام سيمبا مكتفيا بالتعادل بنتيجة 2-2، اليوم الأحد، على ملعب \"كا إم سي ستايديوم\" بدار السلام في إطار الجولة الرابعة من منافسات دور المجموعات لبطولة دوري أبطال أفريقيا وواصل الترجي النتائج الإيجابية التي ساهمت في تعزيز حظوظه في التأهل إلى الأدوار الإقصائية. وأحرز شوماري كابومبي هدف التقدم لصالح سيمبا في الدقيقة 39، وأضاف يوسف كاجوما الهدف الثاني في الدقيقة 45، بينما جاء هدفا الترجي عن طريق أبو بكر دياكاتيه في الدقيقة 64، وكوسيلة بوعليا في الدقيقة 79. وأهدر حمزة الجيلاصي ركلة جزاء لصالح الترجي في الوقت المحتسب بدل الضائع من الشوط الثاني. ودخل الترجي مباراة سيمبا بتشكيل مكون من: بشير بن سعيد - نضال العيفي - محمد أمين بن حميدة - حمزة الجلاصي - إبراهيم كيتا - عبد الرحمن كوناتي - أونوشي أوجبيلو - حسام تقا - جاك ديارا - أبو بكر دياكيتي - يان ساس. وارتفع رصيد الترجي عقب هذه النتيجة إلى النقطة السادسة في وصافة المجموعة، خلف استاد مالي صاحب الـ8 نقاط، بينما أضاف سيمبا أول نقطة إلى رصيده، لكنه ظل في الترتيب الأخير.",
-      "image": null,
-      "pubDate": "2026-02-01T13:00:56.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "100ff0c020cb2881",
       "title": "7 Best Prepaid Phone Plans (2026)",
       "link": "https://www.wired.com/gallery/best-prepaid-phone-plans/",
@@ -900,22 +996,6 @@
       "region": "global"
     },
     {
-      "id": "2e9dd6ef533521af",
-      "title": "هل يختم يوفنتوس الميركاتو بصفقة إيكاردي؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D8%AE%D8%AA%D9%85-%D9%8A%D9%88%D9%81%D9%86%D8%AA%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%83%D8%A7%D8%AA%D9%88-%D8%A8%D8%B5%D9%81%D9%82%D8%A9-%D8%A7%D9%95%D9%8A%D9%83%D8%A7%D8%B1%D8%AF%D9%8A/blte739e9641f7ff7ea?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تواصل نادي يوفنتوس مع جالطة سراي من أجل الحصول على خدمات المهاجم الأرجنتيني ماورو إيكاردي، في محاولة لإعادته للعمل مع المدرب لوتشيانو سباليتي، وذلك بعد إصابة خطيرة تعرض لها المهاجم الصربي دوشان فلاهوفيتش.",
-      "body": "تواصل نادي يوفنتوس مع جالطة سراي من أجل الحصول على خدمات المهاجم الأرجنتيني ماورو إيكاردي، في محاولة لإعادته للعمل مع المدرب لوتشيانو سباليتي، وذلك بعد إصابة خطيرة تعرض لها المهاجم الصربي دوشان فلاهوفيتش. وفقا لخبير الانتقالات ألفريدو بيدولا، استفسر مسؤولو \"السيدة العجوز\" من النادي التركي عن إمكانية ضم إيكاردي خلال فترة الانتقالات الشتوية الحالية. ويواجه يوفنتوس أزمة هجومية حادة عقب الإصابة الخطيرة التي تعرض لها فلاهوفيتش، في حين لم يتمكن المهاجمان جوناثان ديفيد ولويس أوبيندا من تسجيل الأهداف بكفاءة كافية حتى الآن. في الوقت نفسه، وصل اللاعب جيرمي بوجا صباح اليوم إلى تورينو لإجراء الفحص الطبي، إلا أن النادي لا يزال يسعى للتعاقد مع رأس حربة إضافي قبل إغلاق باب الانتقالات. إيكاردي وسباليتي سبق أن سباليتي مع إيكاردي في نادي إنتر ميلان، وكانت تلك الفترة هي آخر مرة لعب فيها المهاجم الأرجنتيني في الدوري الإيطالي قبل انتقاله إلى باريس سان جيرمان مقابل 50 مليون يورو في صيف 2020. ووصف سباليتي إيكاردي بأنه أحد أفضل المهاجمين الذين عمل معهم، وذلك في المؤتمر الصحفي الذي أعقب قرعة ملحق ثمن نهائي دوري أبطال أوروبا، حيث سيلعب جالطة سراي ضد يوفنتوس. وينتهي عقد إيكاردي \"33 عاما\" مع جالطة سراي في 30 يونيو المقبل، مما يجعله متاحا بسعر منخفض نسبيا في السوق. &nbsp; &nbsp;الدوري الإيطالي مجانًا على stc …",
-      "image": "https://assets.kooora.com/images/v3/bltaed94e5ed17bbc56/Serie%20A%20Kooora.jpg",
-      "pubDate": "2026-02-01T12:45:51.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "6fabdb70401af4bf",
       "title": "Alcaraz beats Djokovic to become youngest man to complete career Grand Slam",
       "link": "https://www.bbc.com/sport/tennis/articles/cz9vzxjykkxo?at_medium=RSS&at_campaign=rss",
@@ -946,38 +1026,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "df352a5bc39b1934",
-      "title": "مفاجأة.. يوفنتوس يحاول التوقيع مع بنزيما",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%8A%D9%88%D9%81%D9%86%D8%AA%D9%88%D8%B3-%D9%8A%D8%AD%D8%A7%D9%88%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D9%85%D8%B9-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7/blt555af242deb85aee?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "عودة إلى أوروبا من بوابة الكالتشيو",
-      "body": "عودة إلى أوروبا من بوابة الكالتشيو يحاول نادي يوفنتوس التوقيع مع الفرنسي كريم بنزيما، مهاجم اتحاد جدة، خلال الساعات الأخيرة من الميركاتو الشتوي الجاري. ووفقا لصحيفة \"ليكيب\" الفرنسية، استفسر مسؤولو يوفنتوس بالفعل عن إمكانية التوقيع مع بنزيما في الشتاء، لكن لا يوجد أي تقدم في المحادثات بين البيانكونيري واتحاد جدة حتى الآن. &nbsp; &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! &nbsp; وتتصاعد الأزمة داخل نادي اتحاد جدة مع استمرار الغموض حول مستقبل بنزيما في ظل توتر العلاقة مع الإدارة وتعثر مفاوضات تجديد عقده. وكشف الصحفي البريطاني بن جاكوبس عبر حسابه على منصة \"إكس\" أن بنزيما طلب مرة أخرى استبعاده من قائمة الاتحاد لمباراة النجمة يوم الأحد، رغم مشاركته في التدريبات الجماعية. وأوضح جاكوبس أن اللاعب أبلغ الإدارة بعدم جاهزيته للمشاركة، وسط توتر واضح داخل الفريق بسبب فشل مفاوضات التجديد، واقتراب نهاية عقود عدد من اللاعبين الآخرين الذين بدأوا ممارسة ضغوط للرحيل، ما وضع المدرب البرتغالي سيرجيو كونسيساو في موقف صعب وغير متوقع. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! وتشير المعلومات إلى أن الأزمة بدأت فعليًا بعد خروج بنزيما من قائمة الاتحاد في مواجهة الفتح التي انتهت بالتعادل (2-2) ض…",
-      "image": "https://assets.kooora.com/images/v3/bltaed94e5ed17bbc56/Serie%20A%20Kooora.jpg",
-      "pubDate": "2026-02-01T12:24:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "259f880d1e01c076",
-      "title": "جيرارد يحلل مستوى صلاح: شيء وحيد يعيد بريق ليفربول",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%8A%D8%B1%D8%A7%D8%B1%D8%AF-%D9%8A%D8%AD%D9%84%D9%84-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%B5%D9%84%D8%A7%D8%AD-%D8%B4%D9%8A%D8%A1-%D9%88%D8%AD%D9%8A%D8%AF-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%A8%D8%B1%D9%8A%D9%82-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/bltb30620586e1fdb01?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشف أسطورة ليفربول ستيفن جيرارد عن تقييمه لأداء النجم المصري محمد صلاح مع الريدز خلال الموسم الجاري.",
-      "body": "كشف أسطورة ليفربول ستيفن جيرارد عن تقييمه لأداء النجم المصري محمد صلاح مع الريدز خلال الموسم الجاري. وجاءت تصريحات جيرارد في تعليق عبر قناة تي إن تي على هامش مباراة ليفربول ضد نيوكاسل التي فاز بها الريدز أمس السبت 4-1 على ملعب أنفيلد، حيث أكد أن عودة صلاح إلى أفضل مستوياته ستكون مفتاحا لانتفاضة الفريق فيما تبقى من مباريات الموسم. وأشار جيرارد إلى أن التعاقدات الجديدة في ليفربول جاءت أغلبها لتعزيز الخط الأمامي، والتفسير الوحيد لذلك أنها أبرمت تحسبا لتراجع محتمل في أداء صلاح. وقال: \"لقد اشتروا إيزاك بمبلغ كبير كخيار إضافي لكسر التكتلات الدفاعية للخصوم، كما تعاقدوا مع فيرتز لخلخلة الدفاعات أيضا، لكنه استغرق وقتا للتأقلم، ووسط كل ذلك انخفض مستوى صلاح تهديفيا\". ولفت إلى الشيء الوحيد الذي قد يعيد بريق ليفربول، فقال: \"إذا استطاع سلوت دمجهم جميعا وخلق الانسجام بينهم للعمل معا، فإن هذا الفريق قادر على تحقيق سلسلة انتصارات كبيرة وحقيقية ليختموا الموسم بأحسن صورة ممكنة\". وأكد أن اللاعب الوحيد في ليفربول الذي لم يتغير مستواه هو \"هوجو إيكيتيكي\". &nbsp; &nbsp;",
-      "image": null,
-      "pubDate": "2026-02-01T12:24:17.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "d5e58a5b266f5611",
@@ -1028,22 +1076,6 @@
       "region": "global"
     },
     {
-      "id": "3e843812a3f2aff1",
-      "title": "Rare medieval seal discovered in UK is inscribed with 'Richard's secret' and bears a Roman-period gemstone",
-      "link": "https://www.livescience.com/archaeology/rare-medieval-seal-discovered-in-uk-is-inscribed-with-richards-secret-and-bears-a-roman-period-gemstone",
-      "summary": "The Gosfield seal is made of a medieval silver seal bezel surrounding an ancient Roman gemstone.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/Z737krx8ezSV5FnXMJ3TWA-1280-80.png",
-      "pubDate": "2026-02-01T12:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "a8855e42fbf632aa",
       "title": "Oneisall Pet Air Purifier (PP02) review: Great value pick for dog and cat lovers",
       "link": "https://www.livescience.com/health/oneisall-pet-air-purifier-review",
@@ -1057,6 +1089,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3e843812a3f2aff1",
+      "title": "Rare medieval seal discovered in UK is inscribed with 'Richard's secret' and bears a Roman-period gemstone",
+      "link": "https://www.livescience.com/archaeology/rare-medieval-seal-discovered-in-uk-is-inscribed-with-richards-secret-and-bears-a-roman-period-gemstone",
+      "summary": "The Gosfield seal is made of a medieval silver seal bezel surrounding an ancient Roman gemstone.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/Z737krx8ezSV5FnXMJ3TWA-1280-80.png",
+      "pubDate": "2026-02-01T12:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
       "region": "global"
     },
     {
@@ -1684,22 +1732,6 @@
       "region": "global"
     },
     {
-      "id": "546397f6d3d4c58c",
-      "title": "Ekitike double helps Liverpool cruise past Newcastle",
-      "link": "https://www.bbc.com/sport/football/videos/c0mk7nknk7xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Summer signing Huge Ekitike scores twice as Liverpool record their first league win of 2026, putting four goals past Newcastle United.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T22:33:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "59063c51ffc66aa2",
       "title": "Arsenal score four in superb win against Leeds",
       "link": "https://www.bbc.com/sport/football/videos/c041k9rp55xo?at_medium=RSS&at_campaign=rss",
@@ -1780,22 +1812,6 @@
       "region": "global"
     },
     {
-      "id": "82649b14b21ee807",
-      "title": "Teenager likened to Mbappe - Kroupi stars at Bournemouth",
-      "link": "https://www.bbc.com/sport/football/articles/c8rmnnyjyj5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Eli Junior Kroupi's stunning goal for Bournemouth against Wolves will help soften the blow of losing Antoine Semenyo to Manchester City.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T19:55:22.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "068b9d73c9b4db65",
       "title": "'A great headache' - can Madueke stake claim for Arsenal and England?",
       "link": "https://www.bbc.com/sport/football/articles/ckgjd8ej3ggo?at_medium=RSS&at_campaign=rss",
@@ -1841,38 +1857,6 @@
       },
       "lang": "en",
       "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "d37c7e9ff6b48992",
-      "title": "England level series with win against South Africa",
-      "link": "https://www.bbc.com/sport/netball/articles/ce9y75nyk73o?at_medium=RSS&at_campaign=rss",
-      "summary": "England level their three-game series with South Africa at 1-1 with a 61-49 win in front of a sellout crowd in Johannesburg.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T18:57:34.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "4d419be390794cb4",
-      "title": "Ice hockey venue unfinished days before Winter Olympics",
-      "link": "https://www.bbc.com/sport/ice-hockey/articles/cq6vdpnelvzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Olympic organisers face a race against time to finish the new ice hockey arena in Milan - five days before the venue is due to host its first match.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T17:34:27.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2084,22 +2068,6 @@
       "region": "global"
     },
     {
-      "id": "a7aa78b2c3bc8861",
-      "title": "Best Garmin smartwatches for runners 2026, tried and tested",
-      "link": "https://www.livescience.com/health/exercise/best-garmin-smartwatches-for-runners",
-      "summary": "These are the best Garmin running watches you can buy in every category, from Fenix 8 and Enduro 3 to Forerunner 55.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/LVc2iTn7Qb2Xie9sDoeRB5-1280-80.jpg",
-      "pubDate": "2026-01-31T12:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "544e8defda732df7",
       "title": "Science news this week: 'Cloud People' tomb found in Mexico, pancreatic cancer breakthrough, and the AI swarms poised to take over social media",
       "link": "https://www.livescience.com/technology/science-news-this-week-cloud-people-tomb-found-in-mexico-pancreatic-cancer-breakthrough-and-the-ai-swarms-poised-to-take-over-social-media",
@@ -2113,6 +2081,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a7aa78b2c3bc8861",
+      "title": "Best Garmin smartwatches for runners 2026, tried and tested",
+      "link": "https://www.livescience.com/health/exercise/best-garmin-smartwatches-for-runners",
+      "summary": "These are the best Garmin running watches you can buy in every category, from Fenix 8 and Enduro 3 to Forerunner 55.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/LVc2iTn7Qb2Xie9sDoeRB5-1280-80.jpg",
+      "pubDate": "2026-01-31T12:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "health",
       "region": "global"
     },
     {
@@ -2692,22 +2676,6 @@
       "region": "global"
     },
     {
-      "id": "2ed90696cf82a3b8",
-      "title": "Thousands of dams in the US are old, damaged and unable to cope with extreme weather. How bad is it?",
-      "link": "https://www.livescience.com/planet-earth/thousands-of-dams-in-the-us-are-old-damaged-and-unable-to-cope-with-extreme-weather-how-bad-is-it",
-      "summary": "Dams in the U.S. are showing signs of damage that are worsening with age and climate change. Could satellites help prioritize repairs amid budget and inspection constraints?",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/5BvNujZFeaMkEwueASLL99-1280-80.jpg",
-      "pubDate": "2026-01-30T17:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "67e42b912ed15790",
       "title": "These Elote Nachos Will Steal The Spotlight On Game Day",
       "link": "https://www.delish.com/food/a70194656/i-tried-elote-nachos/",
@@ -2721,6 +2689,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2ed90696cf82a3b8",
+      "title": "Thousands of dams in the US are old, damaged and unable to cope with extreme weather. How bad is it?",
+      "link": "https://www.livescience.com/planet-earth/thousands-of-dams-in-the-us-are-old-damaged-and-unable-to-cope-with-extreme-weather-how-bad-is-it",
+      "summary": "Dams in the U.S. are showing signs of damage that are worsening with age and climate change. Could satellites help prioritize repairs amid budget and inspection constraints?",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/5BvNujZFeaMkEwueASLL99-1280-80.jpg",
+      "pubDate": "2026-01-30T17:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3684,22 +3668,6 @@
       "region": "global"
     },
     {
-      "id": "c2fe7b643f7571ce",
-      "title": "Giving AI the ability to monitor its own thought process could help it think like humans",
-      "link": "https://www.livescience.com/technology/artificial-intelligence/giving-ai-the-ability-to-monitor-its-own-thought-process-could-help-it-think-like-humans",
-      "summary": "Today's best AI systems don't have a good grasp on their own thought process, but a new model might allow them to tap into metacognition",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/qWidx3zxtPBxTJkcNuifiA-1280-80.png",
-      "pubDate": "2026-01-28T19:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "55f4e7717364d375",
       "title": "High-Protein Raspberry Mug Cake",
       "link": "https://www.delish.com/cooking/recipe-ideas/a69852410/high-protein-raspberry-mug-cake-recipe/",
@@ -3713,6 +3681,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c2fe7b643f7571ce",
+      "title": "Giving AI the ability to monitor its own thought process could help it think like humans",
+      "link": "https://www.livescience.com/technology/artificial-intelligence/giving-ai-the-ability-to-monitor-its-own-thought-process-could-help-it-think-like-humans",
+      "summary": "Today's best AI systems don't have a good grasp on their own thought process, but a new model might allow them to tap into metacognition",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/qWidx3zxtPBxTJkcNuifiA-1280-80.png",
+      "pubDate": "2026-01-28T19:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3924,22 +3908,6 @@
       "region": "global"
     },
     {
-      "id": "c8f05c19e3182f9e",
-      "title": "Renpho Lynx smart ring review: Somewhat disappointing",
-      "link": "https://www.livescience.com/health/exercise/renpho-lynx-smart-ring-review",
-      "summary": "The first fitness tracker made by wellness giant Renpho has some strong points, but it is unlikely to make serious waves in the smart ring industry.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/9YcRGmDjPeD7u6wdUWoRUe-1280-80.jpg",
-      "pubDate": "2026-01-28T12:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "394659245c31860a",
       "title": "Shake Shack Just Launched Its New Valentine’s Day Shake—Here's How It Tastes",
       "link": "https://www.delish.com/food-news/a70161712/shake-shack-new-valentines-shake/",
@@ -3953,6 +3921,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c8f05c19e3182f9e",
+      "title": "Renpho Lynx smart ring review: Somewhat disappointing",
+      "link": "https://www.livescience.com/health/exercise/renpho-lynx-smart-ring-review",
+      "summary": "The first fitness tracker made by wellness giant Renpho has some strong points, but it is unlikely to make serious waves in the smart ring industry.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/9YcRGmDjPeD7u6wdUWoRUe-1280-80.jpg",
+      "pubDate": "2026-01-28T12:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "health",
       "region": "global"
     },
     {
@@ -4162,22 +4146,6 @@
       "lang": "ar",
       "category": "entertainment",
       "region": "gulf"
-    },
-    {
-      "id": "c08877c23d6060d9",
-      "title": "Rock climbers in Italy accidentally discovered evidence of an 80 million-year-old sea turtle stampede",
-      "link": "https://www.livescience.com/animals/extinct-species/rock-climbers-in-italy-accidentally-discovered-evidence-of-an-80-million-year-old-sea-turtle-stampede",
-      "summary": "Scientists say grooves on a rock face overlooking the Adriatic Sea may have been made by sea turtles fleeing an earthquake.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/DPeR8JSiuKfRQ5Keifynsb-1280-80.png",
-      "pubDate": "2026-01-27T13:38:11.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
     },
     {
       "id": "0408d1ba3d852db2",
