@@ -1,13 +1,39 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T20:34:48.513Z",
-    "total": 195,
+    "generated_at": "2026-02-01T20:54:37.749Z",
+    "total": 187,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/4eb3e901-c682-4a2e-8b18-866e84f229d7",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -22,15 +48,41 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 27,
         "error": null,
         "notModified": false
       },
@@ -48,84 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 27,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/694959b7-3e34-4a23-9e83-ccf67aa933f0",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
         "name": "Investing.com News (EN)",
         "url": "https://www.investing.com/rss/news.rss",
         "homepage": "https://www.investing.com/rss/news.rss",
@@ -135,19 +109,6 @@
           "general"
         ],
         "taken": 2,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
         "error": null,
         "notModified": false
       },
@@ -165,6 +126,32 @@
         "notModified": false
       },
       {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Food52",
         "url": "https://food52.com/blog.rss",
         "homepage": "https://food52.com/blog.rss",
@@ -175,19 +162,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
-        "error": null,
         "notModified": false
       },
       {
@@ -217,6 +191,19 @@
         "notModified": false
       },
       {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Bloomberg — Markets",
         "url": "https://www.bloomberg.com/markets/rss",
         "homepage": "https://www.bloomberg.com/markets/rss",
@@ -243,16 +230,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -280,26 +267,23 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
-    {
-      "id": "9a3ecc8461591c18",
-      "title": "Grammy Awards: Winners List (Updating Live)",
-      "link": "https://www.hollywoodreporter.com/music/music-news/2026-grammys-winners-list-1236484722/",
-      "summary": "Kendrick Lamar goes into Sunday's ceremony with a leading nine nominations, followed by Lady Gaga with seven.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T20:30:33.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
     {
       "id": "fb1eab0952151766",
       "title": "GB team sprinters win European silvers in Turkey",
@@ -333,22 +317,6 @@
       "region": "global"
     },
     {
-      "id": "f7e7fa65f6111b12",
-      "title": "Netflix’s New Releases Coming in February 2026",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/netflix-february-2026-new-releases-movies-tv-1236491432/",
-      "summary": "Take a look at the movies and TV shows that are hitting the streaming service this month.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T20:16:55.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9cbd25b80906dc92",
       "title": "Wrexham sign defender Vyner from Bristol City",
       "link": "https://www.bbc.com/sport/football/articles/c5y207glgl0o?at_medium=RSS&at_campaign=rss",
@@ -375,22 +343,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "60b3848348f97f1b",
-      "title": "Grammys: How to Watch the 2026 Non-Televised Premiere Ceremony",
-      "link": "https://www.hollywoodreporter.com/music/music-news/how-to-watch-grammys-premiere-ceremony-2026-livestream-online-1236489190/",
-      "summary": "First-time Grammy nominee Darren Criss is hosting the premiere ceremony on Sunday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T20:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -605,22 +557,6 @@
       "region": "global"
     },
     {
-      "id": "a96a3cd0722b934f",
-      "title": "‘One Battle After Another’ Wins Film of the Year at London Critics’ Circle Film Awards",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/one-battle-after-another-london-critics-circle-film-awards-1236491284/",
-      "summary": "Acting prizes at the London ceremony went to Sean Penn ('One Battle After Another'), Jessie Buckley ('Hamnet'), Timothée Chalamet ('Marty Supreme') and Amy Madigan ('Weapons').",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T19:15:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9510f923d3691394",
       "title": "Epstein files: Ro Khanna says DOJ's latest release is 'not good enough'",
       "link": "https://www.cnbc.com/2026/02/01/epstein-files-ro-khanna-says-dojs-release-is-not-good-enough.html",
@@ -653,20 +589,20 @@
       "region": "global"
     },
     {
-      "id": "4b48ae0cf03c223a",
-      "title": "When Redford and Hackman Hit the Slopes for ‘Downhill Racer’",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/redford-hackman-downhill-racer-1236487347/",
-      "summary": "The sports drama about an ambitious skier filmed on the trails of what would become Sundance.",
-      "body": null,
+      "id": "9d84ee82b67d7e3e",
+      "title": "ماذا أقول؟.. تعليق ساخر يهدد جوارديولا بالعقاب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D8%B0%D8%A7-%D8%A7%D9%94%D9%82%D9%88%D9%84-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%B3%D8%A7%D8%AE%D8%B1-%D9%8A%D9%87%D8%AF%D8%AF-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%A8/bltf222575f503862d2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الهدف المثير للجدل قد يكلف جوارديولا عقوبة جديدة",
+      "body": "الهدف المثير للجدل قد يكلف جوارديولا عقوبة جديدة أبدى بيب جوارديولا مدرب مانشستر سيتي غضبه الشديد، بعد احتساب الهدف الأول لدومينيك سولانكي مهاجم توتنهام، في المباراة المثيرة، اليوم الأحد، التي انتهت بالتعادل (2-2) في الجولة 24 من الدوري الإنجليزي الممتاز. &nbsp; وسيطر مانشستر سيتي على الشوط الأول طولًا وعرضًا وتقدم بهدفين نظيفين، لكن توتنهام عاد بقوة في الشوط الثاني وأدرك التعادل، وكان قريبًا من الفوز في بعض اللحظات. &nbsp; بدأ مانشستر سيتي بالتسجيل أولا عن طريق ريان شرقي في الدقيقة 11، ثم أضاف زميله أنطوان سيمينيو الهدف الثاني في الدقيقة 44 وفي الشوط الثاني، تمكن توتنهام من التعادل عن طريق ثنائية دومينيك سولانكي في الدقيقتين 53 و70. &nbsp; بهذا التعادل رفع مانشستر سيتي رصيده إلى 47 نقطة في المركز الثاني، بفارق 6 نقاط عن آرسنال المتصدر، بينما صار رصيد توتنهام 29 نقطة في المركز الرابع عشر. وذكرت صحيفة \"ميرور\" البريطانية، أن هدف توتنهام الأول كان مثيرًا للجدل، حيث بدا أن سولانكي قد ركل قدم مارك جويهي ليسجل هدفًا في مرمى جيانلويجي دوناروما. &nbsp; واحتسب الحكم روبرت جونز الهدف على أرض الملعب، وأقره حكم الفيديو المساعد جاريد جيلت، رغم احتجاجات مانشستر سيتي. وعبّر جوارديولا مؤخرًا عن رأيه بوضوح في تقنية الفيديو المساعد للحكم (VAR)، ولم يتمكن مجددًا من كبح جماحه بعد المباراة. وعندما سأل…",
       "image": null,
-      "pubDate": "2026-02-01T19:00:00.000Z",
+      "pubDate": "2026-02-01T18:53:23.000Z",
       "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
     },
     {
       "id": "b84ff648fdf2bd62",
@@ -685,11 +621,43 @@
       "region": "global"
     },
     {
+      "id": "15be9f08eeef0e61",
+      "title": "نبوءة فيدرر ونادال تتكرر.. ألكاراز يصنع المعجزة",
+      "link": "https://www.kooora.com/%D8%AA%D9%86%D8%B3/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%A8%D9%88%D8%A1%D8%A9-%D9%81%D9%8A%D8%AF%D8%B1%D8%B1-%D9%88%D9%86%D8%A7%D8%AF%D8%A7%D9%84-%D8%AA%D8%AA%D9%83%D8%B1%D8%B1-%D8%A7%D9%94%D9%84%D9%83%D8%A7%D8%B1%D8%A7%D8%B2-%D9%8A%D8%B5%D9%86%D8%B9-%D8%A7%D9%84%D9%85%D8%B9%D8%AC%D8%B2%D8%A9/blt48b110d5ce6cfd49?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كارلوس يكتب التاريخ في أستراليا المفتوحة",
+      "body": "كارلوس يكتب التاريخ في أستراليا المفتوحة في ليلة تاريخية لا تُنسى، توج كارلوس ألكاراز بطلًا لأستراليا المفتوحة، محققًا إنجازًا أسطوريًا في عالم التنس، وتغلب الإسباني على نوفاك ديوكوفيتش بنتيجة 2-6، 6-2، 6-3، 7-5، في مباراة امتدت 3 ساعات ودقيقتين، ليصبح أصغر لاعب في التاريخ يُتوَّج بجميع بطولات الجراند سلام الأربع، في سن 22 عامًا، وخلال مشاركته الخامسة وفي أول نهائي له في البطولة الأسترالية. وأشارت صحيفة\"موندو ديبورتيفو\" الإسبانية ، إلى أن بهذا الانتصار، تحقق نبوءة كبرى، تعيد إلى الأذهان بدايات عمالقة اللعبة: روجر فيدرر، رافا نادال، ويانيك سينر، حيث تتكرر الصدف الغريبة في تاريخ أستراليا المفتوحة: 2004: توج روجر فيدرر بطلاً في سن 22، خلال مشاركته الخامسة وفي أول نهائي له، بعد فوزه على مارات سافين بنتيجة 7-6، 6-4، 6-2. 2009: حقق رافا نادال أول ألقابه في أستراليا في نفس الظروف: سن 22، المشاركة الخامسة، وأول نهائي، بعد التغلب على فيدرر بنتيجة 7-5، 3-6، 7-6، 3-6، 6-2. 2024: كرر يانيك سينر المشهد، وفاز بأول ألقابه في أستراليا سن 22، المشاركة الخامسة، وأول نهائي، بعد التغلب على دانييل ميدفيديف بنتيجة 3-6، 3-6، 6-4، 6-4، 6-3. وبذلك، أصبح ألكاراز أحدث عضو في هذه المجموعة النادرة من اللاعبين الذين جمعوا بين الصغر والنجاح في أستراليا المفتوحة، متحديًا كل العقبات، بما فيها التشنجات التي كادت أ…",
+      "image": null,
+      "pubDate": "2026-02-01T18:36:49.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e1506bec31767e2e",
+      "title": "ضربة مؤلمة.. ريال مدريد يعلن تفاصيل إصابة بيلينجهام",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D9%88%D9%94%D9%84%D9%85%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%B9%D9%84%D9%86-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85/blt5722e2e3a359e02f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ريال مدريد يخسر بيلينجهام لمدة شهر",
+      "body": "ريال مدريد يخسر بيلينجهام لمدة شهر أعلن ريال مدريد، تفاصيل إصابة لاعبه الإنجليزي جود بيلينجهام، والتي تعرض لها خلال لقاء رايو فاليكانو، مساء الأحد، في الجولة 22 من عمر الليجا. وقال الميرنجي في بيان، عبر موقعه الرسمي \"بعد الفحوصات التي أُجريت لجود بيلينجهام من قبل الخدمات الطبية للريال، تبين أنه يعاني من إصابة في العضلة نصف الوترية في ساقه اليسرى\". ففي الدقيقة التاسعة، انطلق جود بيلينجهام بسرعة نحو خط المرمى، ليشعر حينها بوخز مفاجئ في عضلات الفخذ الخلفية. وأمسك اللاعب الإنجليزي بالجزء الخلفي من ساقه اليسرى، قبل أن يسقط مباشرة على أرضية الملعب، مما أثار أسوأ المخاوف.&nbsp; وبعدها بدقائق تم استبداله بالمغربي إبراهيم دياز، بينما غادر بيلينجهام، أرضية الملعب على قدميه، متأثرًا بشكل واضح ومغطّيًا وجهه بقميصه. فترة غياب بيلينجهام عن ريال مدريد ذكرت صحيفة \"ماركا\" أن اللاعب الإنجليزي جود بيلينجهام سيغيب عن ريال مدريد، لمدة شهر. وتعرض بيلينجهام للإصابة خلال مباراة رايو فاليكانو، والتي انتهت بفوز فريق المدرب أربيلوا بنتيجة 2-1.&nbsp; وتُعد هذه الإصابة هي الانتكاسة الثانية التي يتعرض لها جود بيلينجهام هذا الموسم.&nbsp; فبعد كأس العالم للأندية، خضع بيلينجهام لعملية جراحية بسبب إصابة في الكتف، مما أدى إلى غيابه عن بداية الموسم.&nbsp; ووفقًا للتوقعات الحالية، سيغيب اللاعب الإنجليزي عن مباراتي بن…",
+      "image": "https://assets.kooora.com/images/v3/getty-2259389257/crop/MM5DIOJVG45DENZYHA5G433XMU5DAORSGU4A====/GettyImages-2259389257.jpg",
+      "pubDate": "2026-02-01T18:36:46.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "f4630b93234c1295",
       "title": "كاريك يعادل إنجاز أموريم مع الشياطين الحمر",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%83%D8%A7%D8%B1%D9%8A%D9%83-%D9%8A%D8%B9%D8%A7%D8%AF%D9%84-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85-%D9%85%D8%B9-%D8%A7%D9%84%D8%B4%D9%8A%D8%A7%D8%B7%D9%8A%D9%86-%D8%A7%D9%84%D8%AD%D9%85%D8%B1/bltdad3adab91c1d13c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "قاد المدرب مايكل كاريك، ناديه مانشستر يونايتد، لتحقيق فوزه الثالث على التوالي في الدوري الإنجليزي الممتاز.",
-      "body": "قاد المدرب مايكل كاريك، ناديه مانشستر يونايتد، لتحقيق فوزه الثالث على التوالي في الدوري الإنجليزي الممتاز. وانتصر مانشستر يونايتد، على ضيفه فولهام، بنتيجة 3-2 في الجولة 24 من عمر البريميرليج. وكان المان يونايتد، قد فاز في الديربي 2-0 على جاره السيتي، ثم تغلب 3-2 على مضيفه آرسنال، قبل انتصار اليوم بنفس النتيجة (3-2) على فولهام. كاريك يعادل أطول سلسلة انتصارات لأموريم مع اليونايتد ذكرت حساب talkSPORT على موقع إكس، أن مايكل كاريك عادل أطول سلسلة انتصارات حققها روبن أموريم (3 مباريات) خلال 47 مباراة له كمدير فني لمانشستر يونايتد. وتابعت \"المثير أن مايكل كاريك نفسه لم يتول قيادة الشياطين الحمر سوى في 3 مباريات فقط\". وارتفع رصيد مانشستر يونايتد إلى 41 نقطة في المركز الرابع بجدول ترتيب البريميرليج.",
+      "body": "قاد المدرب مايكل كاريك، ناديه مانشستر يونايتد، لتحقيق فوزه الثالث على التوالي في الدوري الإنجليزي الممتاز. وانتصر مانشستر يونايتد، على ضيفه فولهام، بنتيجة 3-2 في الجولة 24 من عمر البريميرليج. وكان المان يونايتد، قد فاز في الديربي 2-0 على جاره السيتي، ثم تغلب 3-2 على مضيفه آرسنال، قبل انتصار اليوم بنفس النتيجة (3-2) على فولهام. كاريك يعادل سلسلة أموريم مع اليونايتد ذكرت حساب talkSPORT على موقع إكس، أن مايكل كاريك عادل أطول سلسلة انتصارات حققها روبن أموريم (3 مباريات) خلال 47 مباراة له كمدير فني لمانشستر يونايتد. وتابعت \"المثير أن مايكل كاريك نفسه لم يتول قيادة الشياطين الحمر سوى في 3 مباريات فقط\". وارتفع رصيد مانشستر يونايتد إلى 41 نقطة في المركز الرابع بجدول ترتيب البريميرليج. &nbsp; Michael Carrick has equalled Ruben Amorim's longest winning run (3 games) in his 47 matches as Man United manager... Carrick himself has only been in charge for 3 games. 😳🔥 pic.twitter.com/zh0ZeRAUUE — talkSPORT (@talkSPORT) February 1, 2026",
       "image": "https://assets.kooora.com/images/v3/bltbf6424469b707994/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-01T171947.973.png",
       "pubDate": "2026-02-01T18:29:59.000Z",
       "source": {
@@ -794,22 +762,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a505a84155c4631f",
-      "title": "Ski and Be Seen: What the Stars Are Wearing on the Slopes",
-      "link": "https://www.hollywoodreporter.com/lifestyle/style/ski-gear-must-have-fashion-1236487652/",
-      "summary": "The mountainsides are increasingly becoming snowy runways, where stars flash their latest ski and après-wear. THR showcases the must-haves for the industry elite.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T18:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -989,20 +941,52 @@
       "region": "global"
     },
     {
-      "id": "bfda18f539d4583f",
-      "title": "Box Office: ‘Melania’ Bests Jason Statham’s ‘Shelter’ to Place No. 3 With $7M, ‘Send Help’ Soars to $20M Win",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/melania-box-office-comes-in-third-1236491295/",
-      "summary": "Amazon MGM Studios paid $40 million for world rights to the Brett Ratner-directed film shadowing first lady Melania Trump in the 20 days before her husband's second inauguration, making it the most expensive documentary in history.",
-      "body": null,
+      "id": "caf79465a5947507",
+      "title": "جدول ترتيب دوري روشن السعودي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/blt5a13c6c4143f7b94?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على جدول ترتيب دوري روشن السعودي 2025-2026....",
+      "body": "تعرف على جدول ترتيب دوري روشن السعودي 2025-2026.... تعود عجلة دوري روشن السعودي للدوران مجددًا في موسم 2025-2026، حيث يستعد عشاق كرة القدم المحلية والعالمية لمتابعة نسخة استثنائية، بعدما أصبحت البطولة واحدة من أبرز الدوريات التي تخطف الأنظار في السنوات الأخيرة. الموسم الماضي شهد تتويج اتحاد جدة باللقب بقيادة الفرنسي كريم بنزيما، فيما نجح الأهلي في رفع الكأس الآسيوية، لتتواصل إنجازات الأندية السعودية على المستويين المحلي والقاري. الصيف الحالي لم يكن هادئًا، إذ تحركت معظم الأندية بقوة في سوق الانتقالات لجلب نجوم عالميين، ما يعزز من قوة المنافسة ويمنح الدوري بريقًا إضافيًا. هذه التعاقدات الكبيرة تمهد لصراع محتدم على اللقب ومراكز الصدارة. وبحسب إعلان رابطة الدوري السعودي للمحترفين، تنطلق المنافسات رسميًا يوم الخميس 28 أغسطس/آب 2025، على أن يسدل الستار على الموسم في 21 مايو/أيار 2026، وسط توقعات بأن يكون من أكثر المواسم إثارة في تاريخ البطولة. وفي هذا التقرير من كووورة نستعرض لكم جدول ترتيب دوري روشن السعودي 2025-2026. &nbsp;ترتيب دوري روشن السعودي 2025-2026:&nbsp; &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 الهلال 18 14 4 0 47 18 29 46 2 النصر 18 14 1 3 48 18 30 43 3 الأهلي 18 13 4 1 33 12 21 43 4 القادسية 18 12 4 2 43 18 25 40 5 التعاون 18 12 2 4 …",
       "image": null,
-      "pubDate": "2026-02-01T17:24:00.000Z",
+      "pubDate": "2026-02-01T17:27:02.000Z",
       "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f44e56e6784768fb",
+      "title": "جدول مباريات دوري روشن السعودي 2025-2026 .. القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt17c971b2cacda8b9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على جدول مباريات دوري روشن السعودي 2025-2026 .. القنوات الناقلة والترتيب",
+      "body": "تعرف على جدول مباريات دوري روشن السعودي 2025-2026 .. القنوات الناقلة والترتيب انطلق موسم جديد من دوري روشن السعودي 2025-2026، في ظل ترقب كبير على المستوى العربي والعالمي بعد التطور الكبير للمسابقة في السنوات الأخيرة. بوجود كوكبة من نجوم كرة القدم العالميين، حسم اتحاد جدة بقيادة النجم الفرنسي كريم بنزيما لقب دوري روشن الموسم الماضي، بينما توّج الأهلي باللقب الآسيوي. دعمت الكثير من أندية دوري روشن صفوفها بنجوم من الطراز العالمي، في سوق الانتقالات الصيفية الجارية، ما يمهد لموسم ناري بالمسابقة المحلية، التي تستقطب الأنظار بشدة. وأعلن مجلس إدارة رابطة الدوري السعودي للمحترفين موعد انطلاق دوري روشن السعودي للموسم الجديد 2025–2026، إذ بدأت المنافسات يوم الخميس 28 أغسطس/آب 2025. كما أكد نهاية منافسات دوري روشن السعودي لموسم 2025-2026 يوم 21 مايو/ آيار 2026. وفي هذا التقرير، يستعرض كووورة جدول مباريات الدوري السعودي 2025-2026، القنوات الناقلة والترتيب، وسجل الفائزين، وكل ما تريد معرفته: جدول ترتيب دوري روشن السعودي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 الهلال 18 14 4 0 47 18 29 46 2 النصر 18 14 1 3 48 18 30 43 3 الأهلي 18 13 4 1 33 12 21 43 4 القادسية 18 12 4 2 43 18 25 40 5 التعاون 18 12 2 4 36 20 16 38 6 الاتحاد 19 10 4 5 34 23 11 34 7 الاتفا…",
+      "image": null,
+      "pubDate": "2026-02-01T17:26:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0865ae98ea778bf6",
+      "title": "جدول مباريات وترتيب الاتحاد في دوري روشن السعودي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/bltc1ce89f123ab6027?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن جدول مباريات الاتحاد في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه...",
+      "body": "كل ما تريد معرفته عن جدول مباريات الاتحاد في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه... يدخل الاتحاد منافسات دوري روشن السعودي 2025-2026، بشعار الحفاظ على اللقب الغالي الذي حققه في الموسم الماضي بعد مسيرة ذهبية، تحت قيادة مدربه الفرنسي لوران بلان. الاتحاد نجح في الموسم الماضي بالسيطرة على البطولات المحلية، حيث توج بدوري روشن السعودي وكأس خادم الحرمين الشريفين، ولديه طموحات كبرى في حصد بطولة قارية بعد حجز مقعده في دوري أبطال آسيا للنخبة. ويستهدف الاتحاد تحقيق لقب دوري روشن للموسم الثاني على التوالي معتمدًا على كتيبة من المحترفين بقيادة النجم الفرنسي كريم بنزيما، ومواطنه نجولو كانتي والبرازيلي فابينيو. ويرصد كووورة في السطور التالية جدول مباريات الاتحاد في دوري روشن السعودي ونتائج العميد وترتيبه أيضًا بين فرق المسابقة، مع تحديث مباشر بشكل مستمر بعد نهاية كل جولة. جدول مباريات الاتحاد في دوري روشن السعودي 2025-2026 الجولة المباراة الموعد النتيجة الملعب 1 الأخدود - الاتحاد السبت 30 أغسطس 2025، 21:00 السعودية، 22:00 الإمارات 5-2 مدينة الأمير هذلول بن عبد العزيز الرياضية 2 الاتحاد - الفتح الجمعة 12 سبتمبر 2025، 21:00 السعودية، 22:00 الإمارات 2-4 الإنماء 3 النجمة - الاتحاد السبت 20 سبتمبر 2025، 18:40 السعودية، 19:40 الإمارات 1-0 مدينة الملك عبد الله الرياضية 4 الاتحاد - النصر الجمعة …",
+      "image": null,
+      "pubDate": "2026-02-01T17:20:14.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "67b041eaea6fa3de",
@@ -1021,20 +1005,20 @@
       "region": "global"
     },
     {
-      "id": "f773859e2277f991",
-      "title": "Art Garfunkel, Olivia Dean, Huntrix Highlight 2026 Clive Davis Gala",
-      "link": "https://www.hollywoodreporter.com/music/music-news/art-garfunkel-olivia-dean-2026-clive-davis-gala-1236491233/",
-      "summary": "Garfunkel played a moving rendition of \"Bridge Over Troubled Water,\" while other acts of the evening included Clipse, Alex Warren, MGK and Jelly Roll.",
-      "body": null,
+      "id": "208b0a4fceb7b102",
+      "title": "جدول ترتيب هدافي دوري روشن السعودي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%87%D8%AF%D8%A7%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/blt0c28e6e876d279a0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على هدافي دوري روشن السعودي 2025-2026",
+      "body": "تعرف على هدافي دوري روشن السعودي 2025-2026 أصبح دوري روشن السعودي هو الوجهة الأولى لعشاق كرة القدم العربية بل وتعدت شهرته حدود الشرق الأوسط ليصبح متابعًا عبر العالم. كل جولة تحمل معها مفاجآت وتقلبات، وسط تنافس محتدم بين الكبار الهلال والنصر والاتحاد والأهلي إلى جانب فرق طموحة تسعى لكسر الهيمنة التقليدية. ونجح الاتحاد في التتويج بلقب دوري روشن السعودي لموسم 2024–2025، لكن ذلك لم يمنع كريستيانو رونالدو من خطف الأضواء على المستوى الفردي، بعدما نجح في حسم صراع هداف دور روشن في الموسم المنصرم رغم تواجد النصر في المركز الثالث. ومن المتوقع استمرار المنافسة الشرسة على لقب الهدافين في دوري روشن السعودي مع انضمام ريتيجي للقادسية ونونيز للهلال ولاكازيت لنيوم بجانب وجود نجوم أمثال كريستيانو رونالدو وكريم بنزيما والبقية. وفي الأسطر التالية من كووورة نتعرف سويًا على ترتيب هدافي دوري روشن السعودي موسم 2025-2026. هدافي دوري روشن السعودي &nbsp;2025-2026: كريستيانو يعود للتسجيل &nbsp; الترتيب اللاعب الفريق عدد الأهداف 1 إيفان توني الأهلي 18 =2 كريستيانو رونالدو النصر 17 =2 خوليان كينيونيس القادسية 17 4 روجر مارتينيز التعاون 14 =5 جواو فيليكس النصر 13 =5 جوشوا كينج الخليج 13 7 ماتيو ريتيجي القادسية 11 =8 جيورجيوس ماسوراس الخليج 10 =8 راميرو إنريكي الخلود 10 =10 ماركوس ليوناردو الهلال 9 =10 جورجينيو …",
       "image": null,
-      "pubDate": "2026-02-01T17:12:58.000Z",
+      "pubDate": "2026-02-01T17:12:23.000Z",
       "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d631a4f9bcd870c7",
@@ -1060,22 +1044,6 @@
       "body": "يونايتد يُقصي الوحدة من كأس رئيس الإمارات واصل المدرب الإيطالي أندريا بيرلو، تفوقه أمام كبار الإمارات، في بطولة كأس رئيس الدولة. ونجح بيرلو في قيادة ناديه يونايتد، إلى نصف نهائي كأس رئيس الإمارات، بعد فوزه المثير بنتيجة 4-2 على الوحدة، في المباراة التي أقيمت على ستاد هزاع بن زايد. وانتهى الوقت الأصلي للمباراة بالتعادل الإيجابي 2-2، لتذهب المواجهة إلى الوقت الإضافي. واستمر التعادل 2-2 حتى الدقيقة 110 والتي شهدت تسجيل الهدف الثالث لليونايتد عن طريق لاعبه عثمان جمال الدين، قبل نجاح صامويل لوبيس في إحراز الهدف الرابع في الدقيقة 120. وكان يونايتد مع بيرلو، قد أطاح بالشارقة خارج كأس رئيس الإمارات، بعد الفوز عليه بركلات الترجيح 5-4 في لقاء ثمن النهائي. ومن المقرر سحب قرعة نصف نهائي كأس رئيس الإمارات، غدا الإثنين، على ستاد آل نهيان. فعلها بيرلو وفاز على الوحدة 4-2 أقصى الشارقة ✔️ أقصى الوحدة ✔️ وبلغ نصف نهائي أغلى الكؤوس 🏆 شاهد أهداف المباراة #الوحدة_يونايتد #كأس_رئيس_الدولة pic.twitter.com/7jnyhlH17b &mdash; ADSportsTV (@ADSportsTV) February 1, 2026",
       "image": null,
       "pubDate": "2026-02-01T17:10:10.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "c8815bfd812e32c8",
-      "title": "فيديو: بهدف أكروباتي وآخر مثير للجدل.. سولانكي بطل موقعة مانشستر سيتي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D9%87%D8%AF%D9%81-%D8%A7%D9%94%D9%83%D8%B1%D9%88%D8%A8%D8%A7%D8%AA%D9%8A-%D9%88%D8%A7%D9%93%D8%AE%D8%B1-%D9%85%D8%AB%D9%8A%D8%B1-%D9%84%D9%84%D8%AC%D8%AF%D9%84-%D8%B3%D9%88%D9%84%D8%A7%D9%86%D9%83%D9%8A-%D8%A8%D8%B7%D9%84-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/bltb19d498190e01011?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المهاجم الإنجليزي يعيد السبيرز في القمة",
-      "body": "المهاجم الإنجليزي يعيد السبيرز في القمة نصب الإنجليزي دومينيك سولانكي مهاجم توتنهام، نفسه بطلًا لمباراة فريقه أمام مانشستر سيتي، التي انتهت بالتعادل (2-2)، مساء اليوم الأحد، في قمة الجولة 24 من الدوري الإنجليزي الممتاز. &nbsp; وسيطر مانشستر سيتي على الشوط الأول طولًا وعرضًا وتقدم بهدفين نظيفين، لكن توتنهام عاد بقوة في الشوط الثاني وأدرك التعادل، وكان قريبًا من الفوز في بعض اللحظات. &nbsp; بدأ مانشستر سيتي يالتسجيل أولا عن طريق ريان شرقي في الدقيقة 11، ثم أضاف زميله أنطوان سيمينيو الهدف الثاني في الدقيقة 44. &nbsp; وفي الشوط الثاني، تمكن توتنهام من التعادل عن طريق ثنائية دومينيك سولانكي في الدقيقتين 53 و70. &nbsp; بهذا التعادل رفع مانشستر سيتي رصيده إلى 47 نقطة في المركز الثاني، بفارق 6 نقاط عن آرسنال المتصدر، بينما صار رصيد توتنهام 29 نقطة في المركز الرابع عشر. &nbsp; ويعتبر هدف سولانكي الثاني من أجمل أهداف الموسم الحالي في البريميرليج، بعدما استغل عرضية زميله كونور جالاجير، ليضربها بطريقة أكروباتية بالكعب ساقطة في شباك الحارس جيانلويجي دوناروما في الدقيقة 70. &nbsp; &nbsp; دومينيك سولانكي يضع بصمة تاريخية في مرمى السيتي بهدف &quot;ماركة مسجلة&quot;. برأيكم، هل حسم سولانكي جائزة هدف الموسم من الآن؟ 🏅 #الدوري_الإنجليزي_الممتاز #توتنهام_مانشستر_سيتي pic.twitter.com/N2z5H1V2sn &mdas…",
-      "image": null,
-      "pubDate": "2026-02-01T17:09:51.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -1133,22 +1101,6 @@
       "region": "global"
     },
     {
-      "id": "39e49b1ded6a8144",
-      "title": "الهلال يغري سعود عبد الحميد.. ورد صادم من روما",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D8%BA%D8%B1%D9%8A-%D8%B3%D8%B9%D9%88%D8%AF-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF-%D9%88%D8%B1%D8%AF-%D8%B5%D8%A7%D8%AF%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D9%85%D8%A7/bltebc4b33a2e6a03e0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الاتصال المفقود!",
-      "body": "الاتصال المفقود! فتحت إدارة نادي الهلال مفاوضات مع اللاعب سعود عبد الحميد، لاعب فريق لانس الفرنسي، للتعاقد معه بنظام الإعارة خلال فترة الانتقالات الشتوية، وفقًا لما أفادت به صحيفة «الرياضية» السعودية . ويعد سعود عبد الحميد، لاعب نادي روما الإيطالي المعار حاليًا إلى لانس، هدفًا رئيسيًا للهلال في هذه الفترة، ويقدم صاحب الـ26 عاما مستويات مميزة مع فريقه الفرنسي، ويشارك بصفة أساسية خلال المباريات الأخيرة. وذكرت صحيفة « الرياضية » اليوم الأحد: \"الهلال يعرض على سعود عبد الحميد راتبًا سنويًا يبلغ 40 مليون ريال، واللاعب أبدى موافقته المبدئية على العودة إلى ناديه السابق، فيما لا تزال المفاوضات مستمرة، ولم يتم حسم الصفقة بعد\". من جانبه، قال فريدريك ماسارا المدير الرياضي لنادي روما في تصريحات خاصة للصحيفة: \"لم نتلق أي اتصال رسمي من الهلال بأي وسيلة لطلب شراء عقد لاعبنا سعود عبد الحميد، ربما يحصلون على موافقة اللاعب أولًا ثم يتواصلون معنا\". يذكر أن سعود انتقل من الهلال إلى روما صيف العام قبل الماضي، وشارك مع الفريق الإيطالي في 8 مباريات فقط، أحرز خلالها هدفًا وصنع هدفًا آخر، قبل أن يتم إعارتُه إلى لانس في بداية الموسم الحالي، حيث شارك في 15 مباراة، أحرز خلالها هدفًا وصنع 2.",
-      "image": null,
-      "pubDate": "2026-02-01T16:57:36.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "3e853d5a78796446",
       "title": "Wolves accept Palace's £48m offer for Strand Larsen",
       "link": "https://www.bbc.com/sport/football/articles/cy59zngnxd1o?at_medium=RSS&at_campaign=rss",
@@ -1181,38 +1133,6 @@
       "region": "global"
     },
     {
-      "id": "5c188feec13910cc",
-      "title": "كلاكيت ثاني مرة.. مراد خضري يشعل دوري جوي بهاتريك جديد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%84%D8%A7%D9%83%D9%8A%D8%AA-%D8%AB%D8%A7%D9%86%D9%8A-%D9%85%D8%B1%D8%A9-%D9%85%D8%B1%D8%A7%D8%AF-%D8%AE%D8%B6%D8%B1%D9%8A-%D9%8A%D8%B4%D8%B9%D9%84-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D8%A8%D9%87%D8%A7%D8%AA%D8%B1%D9%8A%D9%83-%D8%AC%D8%AF%D9%8A%D8%AF/blt60e9ea5ae26e17e1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "توهج مستمر من النجم الشاب",
-      "body": "توهج مستمر من النجم الشاب واصل مراد خضري، مهاجم الوحدة، تألقه للجولة الثانية على التوالي، بعدما سجل هاتريك قاد به فريقه للانتصار على الأخدود، بنتيجة (3-1)، مساء اليوم الأحد، ضمن الجولة 13 من دوري جوي للنخبة. وبهذا الانتصار، تقدم الوحدة للمركز الثامن في جدول ترتيب دوري جوي، برصيد 22 نقطة، متساويًا مع نيوم التاسع، ولكنه يتفوق بفارق الأهداف. الهداف الشاب لم ينتظر سوى دقيقة واحدة من الشوط الأول، ليسجل الهدف الأول في المباراة، قبل أن يضيف الثاني بالدقيقة 46 من الشوط الثاني. شاهد دوري جوّي السعودي عبر stc tv سجل الآن! وتمكن من تسجيل الهدف الثالث له ولفريقه في الدقيقة الأخيرة، ليبصم على الهاتريك الثاني على التوالي. وكان مراد خضري قد نجح في تسجيل هاتريك في ليلة الفوز على البكيرية في الجولة 12، ليواصل تقديم نفسه كأحد أهم نجوم المسابقة. &nbsp;",
-      "image": "https://assets.kooora.com/images/v3/blt435ab8f1128b32fc/Banner%20-%20Monthly%20Player%20Rankings%20Dark%20%20copy.jpg",
-      "pubDate": "2026-02-01T16:39:05.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "36d0533a9ecf8ad1",
-      "title": "فيديو: شوط بشوط.. توتنهام يجبر مانشستر سيتي على تعادل مثير",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B4%D9%88%D8%B7-%D8%A8%D8%B4%D9%88%D8%B7-%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D9%8A%D8%AC%D8%A8%D8%B1-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D8%B9%D9%84%D9%89-%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D9%85%D8%AB%D9%8A%D8%B1/bltc6bf00820c358e10?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الإثارة حاضرة في قمة جولة البريميرليج",
-      "body": "الإثارة حاضرة في قمة جولة البريميرليج حسم التعادل (2-2) نتيجة مباراة توتنهام وضيفه مانشستر سيتي، مساء اليوم الأحد، على ملعب \"توتنهام هوتسبير\"، في قمة الجولة 24 من الدوري الإنجليزي الممتاز. &nbsp; وسيطر مانشستر سيتي على الشوط الأول طولًا وعرضًا وتقدم بهدفين نظيفين، لكن توتنهام عاد بقوة في الشوط الثاني وأدرك التعادل، وكان قريبًا من الفوز في بعض اللحظات. &nbsp; بدأ مانشستر سيتي يالتسجيل أولا عن طريق ريان شرقي في الدقيقة 11، ثم أضاف زميله أنطوان سيمينيو الهدف الثاني في الدقيقة 44. &nbsp; وفي الشوط الثاني، تمكن توتنهام من التعادل عن طريق ثنائية دومينيك سولانكي في الدقيقتين 53 و70. &nbsp; بهذا التعادل رفع مانشستر سيتي رصيده إلى 47 نقطة في المركز الثاني، بفارق 6 نقاط عن آرسنال المتصدر، بينما صار رصيد توتنهام 29 نقطة في المركز الرابع عشر. &nbsp; &nbsp; سيطرة سماوية وهدف مبكر سيطر مانشستر سيتي على أحداث الشوط الأول بالكامل، وسط اختفاء تام من لاعبي توتنهام الذين لم يخلقوا فرصًا حقيقية على مرمى الحارس جيانلويجي دوناروما. &nbsp; بدأ مان سيتي اللقاء ضاغطًا بقوة، وسنحت فرصة لأنطوان سيمينيو، إذ سدد كرة من داخل منطقة الجزاء، تصدى لها الحارس فيكاريو في الدقيقة الثالثة. &nbsp; ولم يستمر التعادل السلبي طويلًا، حتى نجح ريان شرقي في الدقيقة 11، في تسجيل الهدف الأول للسيتي، مستغلًا تمريرة إيرلينج هالان…",
-      "image": "https://assets.kooora.com/images/v3/getty-2259416059/crop/MM5DINRYHE5DGNBWGI5G433XMU5DAORQ/GettyImages-2259416059.jpg",
-      "pubDate": "2026-02-01T16:36:56.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "246ddd3f0cf73889",
       "title": "Saint-Maximin leaves club over racist abuse of his children",
       "link": "https://www.bbc.com/sport/football/articles/c20gl91pwy1o?at_medium=RSS&at_campaign=rss",
@@ -1243,38 +1163,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "6fa3e7414bfdc0d9",
-      "title": "جدول ترتيب الدوري الإنجليزي 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026/blt32989d7601f1774a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026",
-      "body": "تعرف على ترتيب جدول الدوري الإنجليزي 2025-2026 تتابع جماهير كرة القدم حول العالم منافسات الدوري الإنجليزي الممتاز لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات مثيرة بين كبار القوم على لقب البطولة الأغلى في إنجلترا. ويخوض ليفربول الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين حصد اللقب العشرين في تاريخه معادلًا رقم مانشستر يونايتد، ومُنهيًا سلسلة هيمنة مانشستر سيتي الذي توج بالبطولة أربع مرات متتالية. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب بمواجهة افتتاحية قوية تجمع ليفربول وبورنموث على ملعب أنفيلد، فيما تتوزع باقي المباريات على مدار عطلة نهاية الأسبوع، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من \"كووورة\"، نستعرض جدول ترتيب الدوري الإنجليزي 2025-2026. جدول ترتيب الدوري الإنجليزي 2025-2026: مانشستر سيتي يتعثر أمام توتنهام نجح آرسنال في الفوز على ليدز يونايتد ليعزز صدارته. كما كسر ليفربول سلسلة عدم الفوز بالانتصار على نيوكاسل برباعية وتعادل توتنهام مع مانشستر سيتي بهدفين لكل فريق. المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 24 16 5 3 46 17 29 53 2 مانشستر سيتي 24 14 5 5 49 23 26 47 3 أستون فيلا 24 14 4 6 35 26 9 46 4 مانشستر يونايتد 24 11 8 5 44 36 8 41 5 تشيلسي 24 11 7 6 42…",
-      "image": null,
-      "pubDate": "2026-02-01T16:29:47.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "1772f8a5742fea9e",
-      "title": "جدول مباريات مانشستر سيتي في الدوري الإنجليزي 2025-2026.. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt2ac7bc99daceffc5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن مباريات مانشستر سيتي في الدوري الإنجليزي 2025-2026",
-      "body": "كل ما تريد معرفته عن مباريات مانشستر سيتي في الدوري الإنجليزي 2025-2026 يحرص نادي مانشستر سيتي على تعزيز حضوره العالمي، مستثمرًا في مكانته الجماهيرية، لا سيما في منطقة الشرق الأوسط، حيث يحظى بشعبية جارفة بفضل الأداء المبهر الذي قدمه الفريق لسنوات مع بيب جوارديولا. وفي الموسم السابق، عانى مانشستر سيتي بعد سيل من الإصابات، لكن بعد التعاقد مع عمر مرموش في يناير/كانون ثاني بجانب عدد من الصفقات، نجح السيتزنز في خطف المركز الثالث والتأهل لدوري ابطال أوروبا. ومع انطلاق موسم جديد من البطولة التي تُعد من أكثر المسابقات تنافسية وإثارة على مستوى العالم، تتجدد طموحات الفرق الـ20 المشاركة، والتي تخوض مباريات الذهاب والإياب طوال الموسم في سباق محموم نحو التتويج. يحظى المركز الأول بلقب الدوري، بينما تتأهل الفرق التي تحتل المراكز من الثاني إلى الرابع إلى دوري أبطال أوروبا، ويُمنح المركز الخامس بطاقة المشاركة في الدوري الأوروبي، في حين تهبط الفرق الثلاثة المتذيلة إلى دوري الدرجة الأولى \"التشامبيونشيب\". وسوف يفتتح مانشستر سيتي موسم 2025-2026 يوم السبت 16 أغسطس/آب بمواجهة ضد وولفرهامبتون في ملعب مولينيو، على أن يختتم المنافسات يوم الأحد 24 مايو/أيار 2026 بمواجهة ضد أستون فيلا في ملعب اتحاد. وفيما يلي يقدم لكم موقع \"كووورة\" جدول مباريات مانشستر سيتي في موسم 2025-2026 من الدوري الإنجليزي الممتاز، بالإ…",
-      "image": null,
-      "pubDate": "2026-02-01T16:29:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "dd75447b9495f675",
@@ -1323,22 +1211,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "1dd596282c63f50c",
-      "title": "جدول مباريات الدوري الإنجليزي 2025-2026، القنوات الناقلة والترتيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt28b7c412b9304dab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات الدوري الإنجليزي 2025-2026..",
-      "body": "تعرف على مباريات الدوري الإنجليزي 2025-2026.. نجح ليفربول في حصد لقب الدوري الإنجليزي 2024-2025 للمرة العشرين في تاريخه ليعادل مانشستر يونايتد كأكثر فريق إنجليزي تتويجًا باللقب. وقاد محمد صلاح فريقه للقب آخر في البريمييرليج بعد موسم 2019-2020 ليؤكد تفوق الريدز على باقي الخصوم بعد حسم اللقب قبل أربع جولات كاملة من النهاية. وأوقف الريدز سلسلة مانشستر سيتي الذي فاز بالدوري الإنجليزي 4 مرات على التوالي، ليخرج بموسم إيجابي رغم الخروج المبكر من دوري أبطال أوروبا وخسارة نهائي كأس الرابطة. وتنطلق النسخة الجديدة من البريميرليج بمواجهة ليفربول وبورنموث يوم الجمعة الموافق 15 أغسطس/آب على ملعب أنفيلد. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإنجليزي 2025-2026، والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإنجليزي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 24 16 5 3 46 17 29 53 2 مانشستر سيتي 24 14 5 5 49 23 26 47 3 أستون فيلا 24 14 4 6 35 26 9 46 4 مانشستر يونايتد 24 11 8 5 44 36 8 41 5 تشيلسي 24 11 7 6 42 27 15 40 6 ليفربول 24 11 6 7 39 33 6 39 7 برينتفورد 24 11 3 10 36 32 4 36 8 فولهام 24 10 4 10 34 35 -1 34 9 إيفرتون 24 9 7 8 26 27 -1 34 10 نيوكاسل يونايتد 24 9 6 9 33 33 0 33 11 سندرلاند 23 8 9 6…",
-      "image": null,
-      "pubDate": "2026-02-01T16:27:08.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "7841ae4b23ed6027",
@@ -2173,22 +2045,6 @@
       "region": "global"
     },
     {
-      "id": "30546666c8d6f432",
-      "title": "A mega-mod is kicking GTA 5 into 2026 thanks to one hobbyist creator and roughly 20,000 aggressively placed trees and street props",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/a-mega-mod-is-kicking-gta-5-into-2026-thanks-to-one-hobbyist-creator-and-roughly-20-000-aggressively-placed-trees-and-street-props/",
-      "summary": "Modder Pluma_1980 definitely deserves their props.",
-      "body": "How does that song by the Welsh rock back Stereophonics go, again? It only takes one tree to make a thousand matches; it only takes one match to burn a thousand trees. Lest I murder this shoehorned comparison any more than necessary, it seems as though Pluma_1980's bid to drag GTA 5 into the modern era requires just one hobbyist modder and 20,000 trees. Named GTA5 V4EVER , Pluma's project strives to \"update the atmosphere of the entire map\" by stuffing Los Santos with more environmental detail than any game from 2013 probably deserves. Far from a simple reshade or texture swap, this pretty massive undertaking adds 20,000 new world objects—from trees to plants, shrubs, fences, poles, signs, street clutter, roadside scenery and more. Moreover, outdated props such as phone booths have been whipped out entirely; while neighbourhoods have been given a fresh lick of paint or a new coat of grime depending on their economic standing—with Pluma's end game being to craft a world that feels \"alive and renewed, without losing the original spirit.\" The outcome is indeed a re-densified Los Santos and Blaine County, whose main thoroughfares feel refreshed and its peripheries reinvigorated. Pluma…",
-      "image": "https://cdn.mos.cms.futurecdn.net/jaLitJwG3QwtwwkN8vkNbn-1280-80.jpg",
-      "pubDate": "2026-01-31T18:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "715c695eaf4b0636",
       "title": "Africa’s Solar Boom Draws New Investment",
       "link": "https://oilprice.com/Alternative-Energy/Solar-Energy/Africas-Solar-Boom-Draws-New-Investment.html",
@@ -2202,6 +2058,22 @@
       },
       "lang": "en",
       "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "30546666c8d6f432",
+      "title": "A mega-mod is kicking GTA 5 into 2026 thanks to one hobbyist creator and roughly 20,000 aggressively placed trees and street props",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/a-mega-mod-is-kicking-gta-5-into-2026-thanks-to-one-hobbyist-creator-and-roughly-20-000-aggressively-placed-trees-and-street-props/",
+      "summary": "Modder Pluma_1980 definitely deserves their props.",
+      "body": "How does that song by the Welsh rock back Stereophonics go, again? It only takes one tree to make a thousand matches; it only takes one match to burn a thousand trees. Lest I murder this shoehorned comparison any more than necessary, it seems as though Pluma_1980's bid to drag GTA 5 into the modern era requires just one hobbyist modder and 20,000 trees. Named GTA5 V4EVER , Pluma's project strives to \"update the atmosphere of the entire map\" by stuffing Los Santos with more environmental detail than any game from 2013 probably deserves. Far from a simple reshade or texture swap, this pretty massive undertaking adds 20,000 new world objects—from trees to plants, shrubs, fences, poles, signs, street clutter, roadside scenery and more. Moreover, outdated props such as phone booths have been whipped out entirely; while neighbourhoods have been given a fresh lick of paint or a new coat of grime depending on their economic standing—with Pluma's end game being to craft a world that feels \"alive and renewed, without losing the original spirit.\" The outcome is indeed a re-densified Los Santos and Blaine County, whose main thoroughfares feel refreshed and its peripheries reinvigorated. Pluma…",
+      "image": "https://cdn.mos.cms.futurecdn.net/jaLitJwG3QwtwwkN8vkNbn-1280-80.jpg",
+      "pubDate": "2026-01-31T18:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
