@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T08:25:02.663Z",
-    "total": 213,
+    "generated_at": "2026-02-04T09:05:31.408Z",
+    "total": 215,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,15 +9,41 @@
     "shard_index": 0,
     "results": [
       {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 9,
+        "taken": 59,
         "error": null,
         "notModified": false
       },
@@ -30,7 +56,7 @@
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -48,15 +74,28 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "technology"
         ],
-        "taken": 58,
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
         "error": null,
         "notModified": false
       },
@@ -100,58 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Masrawy — لايف ستايل",
         "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
@@ -165,23 +152,10 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -204,6 +178,32 @@
         "notModified": false
       },
       {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 100\nColumn: 68\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "AnandTech",
         "url": "https://www.anandtech.com/rss/",
         "homepage": "https://www.anandtech.com/rss/",
@@ -213,12 +213,156 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
+        "error": "Error: Unable to parse XML.",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "73705871467ee88c",
+      "title": "مباراة الزمالك وكهرباء الإسماعيلية في الدوري.. الموعد والقناة الناقلة",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/540478/%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%88%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d9%88%d8%b9%d8%af-%d9%88%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%a7%d9%82%d9%84%d8%a9",
+      "summary": "يستعد الزمالك لمواصلة مشواره في النسخة الحالية من الدوري المصري الممتاز، حين يلتقي مع كهرباء الإسماعيلية.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T09:01:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f2e16e487bc8510e",
+      "title": "حيرة في مركز محمد إسماعيل.. تشكيل الزمالك المتوقع لمواجهة كهرباء الإسماعيلية",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/540476/%d8%ad%d9%8a%d8%b1%d8%a9-%d9%81%d9%8a-%d9%85%d8%b1%d9%83%d8%b2-%d9%85%d8%ad%d9%85%d8%af-%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d9%82%d8%b9-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a%d8%a9",
+      "summary": "استقر معتمد جمال المدير الفني لنادي الزمالك، على التشكيل الذي سيخوض به مواجهة كهرباء الإسماعيلية في بطولة الدوري المصري.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:54:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e31ec12e927e0849",
+      "title": "Quiz: Name every sport at the 2026 Winter Olympics",
+      "link": "https://www.bbc.com/sport/articles/crle6g5l8deo?at_medium=RSS&at_campaign=rss",
+      "summary": "The 25th Winter Olympics is taking place in Milan and Cortina in Italy - can you name the 16 sports involved?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:47:48.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "07d8863b2e781aec",
+      "title": "Charlotte Glynn Takes on the Loss of Identity in ‘The Gymnast’ — and Finds Parallels to Today’s ‘Fascism’ in the U.S.",
+      "link": "https://variety.com/2026/film/global/charlotte-glynn-iffr-identity-the-gymnast-fascism-us-1236650605/",
+      "summary": "Set in Pittsburgh in the early 1990s, “The Gymnast” follows a young athlete who, after a life-changing accident, loses her identity — much like her city. But director Charlotte Glynn, who also grew up there, found contemporary parallels in the story. “Mass amounts of people were leaving Pittsburgh …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/MixCollage-02-Feb-2026-05-13-PM-5877.jpg",
+      "pubDate": "2026-02-04T08:46:28.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "905410689b42a4a1",
+      "title": "'Text me a proof of life!' - Chris Hughes' bobsleigh run with Team GB",
+      "link": "https://www.bbc.com/sport/videos/cx2k6p6xg4do?at_medium=RSS&at_campaign=rss",
+      "summary": "TV personality Chris Hughes meets GB's bobsleigh team, but will he go down the mountain against the 5G of force in a two man sled?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:45:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8def46f84ef25d66",
+      "title": "Harden to join Cavaliers in pursuit of first title",
+      "link": "https://www.bbc.com/sport/basketball/articles/cgm40reelzpo?at_medium=RSS&at_campaign=rss",
+      "summary": "James Harden is set to join the Cleveland Cavaliers from the Los Angeles Clippers, with Darius Garland moving in the opposite direction.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:44:55.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "89d3b77257e93258",
+      "title": "Why time is running out for Milan's iconic San Siro",
+      "link": "https://www.bbc.com/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport visits the San Siro in Milan, the venue for the Winter Olympics opening ceremony, to find out why this could be the last global event held at the iconic stadium, and what comes next.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:43:06.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "ad4fef31c231a6b7",
+      "title": "Who won the WSL transfer window? Rate each club's deals",
+      "link": "https://www.bbc.com/sport/football/articles/cgjw9889vwpo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport pundits Steph Houghton, Ellen White, Karen Bardsley and Jen Beattie rate each WSL club's transfer window - and you can too.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:38:36.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0374170ed16e579d",
+      "title": "Six new faces to watch in Six Nations",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c62wyw4zg60o?at_medium=RSS&at_campaign=rss",
+      "summary": "The world's oldest rugby tournament is the stage for a clutch of young stars to make their name.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:15:27.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "e1cd8643cb89c305",
       "title": "كهرباء الإسماعيلية يحتج على حكم مباراة الزمالك",
@@ -230,6 +374,22 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d7357348a2710522",
+      "title": "France's Dupont 'a serious threat' - Gibson-Park",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c78v0gevpp0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ireland scrum-half Jamison Gibson-Park says that France captain Antoine Dupont can \"do stuff that not many others are capable of\" ahead of Thursday's opening Six Nations game in Paris (20:10 GMT).",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T08:05:10.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -284,6 +444,22 @@
       "region": "global"
     },
     {
+      "id": "dcaf8ab272cbe25d",
+      "title": "How France are shaping up for Six Nations defence",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c5y5ve3g4epo?at_medium=RSS&at_campaign=rss",
+      "summary": "With excitement rising for this year's Stade de France curtain-raiser against Ireland, BBC Sport NI looks at how France are shaping up for their Six Nations title defence.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-04T07:57:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "d4b2295141f34141",
       "title": "Samsung releases new Galaxy S26 series teasers highlighting camera upgrades",
       "link": "https://www.gsmarena.com/samsung_releases_new_galaxy_s26_series_teasers_highlighting_camera_upgrades-news-71393.php",
@@ -316,8 +492,8 @@
       "region": "global"
     },
     {
-      "id": "8e3445cb97f4a8de",
-      "title": "Hope for Olympic skater in Minions music dispute",
+      "id": "4d9025b4f9697f7d",
+      "title": "Minions routine set for Olympics as skater gets new hope",
       "link": "https://www.bbc.com/sport/articles/clyekllygjzo?at_medium=RSS&at_campaign=rss",
       "summary": "Figure skater Tomas-Llorence Guarino Sabate is optimistic he can perform to music from the Minions films at the Winter Olympics after receiving copyright clearance.",
       "body": null,
@@ -330,6 +506,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "18297b744312a955",
+      "title": "زميل رونالدو السابق يحدد وجهتين لرحيله بعد أزمة النصر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B2%D9%85%D9%8A%D9%84-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%8A%D8%AD%D8%AF%D8%AF-%D9%88%D8%AC%D9%87%D8%AA%D9%8A%D9%86-%D9%84%D8%B1%D8%AD%D9%8A%D9%84%D9%87-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1/blt788c91b38317cf6c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "حلم المونديال الأخير يحسم كل شيء",
+      "body": "حلم المونديال الأخير يحسم كل شيء مع تصاعد الجدل حول مستقبل النجم البرتغالي كريستيانو رونالدو بعد إضرابه عن اللعب في النصر السعودي، أثار الوضع تساؤلات حول إمكانية عودته للمرة الثالثة إلى مانشستر يونايتد. ورفض رونالدو، الذي سيبلغ عامه الـ 41 يوم الخميس المقبل المشاركة مع النصر في فوزهم 1-0 على أرض الرياض يوم الاثنين الماضي احتجاجا على قرار صندوق الاستثمارات العامة بالسماح لمنافسهم اللدود الهلال بضم كريم بنزيما من الاتحاد في يوم إغلاق باب الانتقالات. انتقل بنزيما، الذي لعب إلى جانب رونالدو في ريال مدريد، إلى الهلال مجانا بعد إنهاء عقده مع الاتحاد، في صفقة عززت آمال الزعيم في المنافسة على اللقب، حيث يتصدر الدوري السعودي للمحترفين بفارق نقطة واحدة عن النصر. ورغم أن الثلاثة أندية مملوكة لصندوق الاستثمارات العامة، إلا أن رونالدو يرى أن هذه الصفقة أعطت الهلال دفعة غير عادلة بضم المهاجم الفرنسي، وفق ما نشرته صحيفة ميرور. وأثار الوضع تكهنات حول ما إذا كان رونالدو سيستمر لاستكمال الـ 18 شهرا المتبقية من عقده مع النصر الذي يتقاضى بموجبه 488 ألف جنيه إسترليني يوميا. الإجابة: لا فهل يمكن أن يعود الفائز بخمس كرات ذهبية لفترة ثالثة مذهلة مع مانشستر يونايتد؟ الإجابة لا، بحسب زميله السابق في الشياطين الحمر ويس براون. ونقلت ميرور تصريحات براون إذ قال: \"رونالدو غير سعيد، لكن هل سيعود إلى مانشستر يونا…",
+      "image": null,
+      "pubDate": "2026-02-04T06:56:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "4cb4afbfe4cf0ef1",
@@ -348,10 +540,58 @@
       "region": "global"
     },
     {
-      "id": "1c9a107b21ee0060",
-      "title": "'No bigger game' - Rees-Zammit on England v Wales",
+      "id": "59ec0e2e700bc6eb",
+      "title": "مفاجأة.. تدخل أردوغان وراء حل أزمة صفقة كانتي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D8%AA%D8%AF%D8%AE%D9%84-%D8%A7%D9%94%D8%B1%D8%AF%D9%88%D8%BA%D8%A7%D9%86-%D9%88%D8%B1%D8%A7%D8%A1-%D8%AD%D9%84-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%B5%D9%81%D9%82%D8%A9-%D9%83%D8%A7%D9%86%D8%AA%D9%8A/bltfd058ba5c98dbcbf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الصفقة كانت في طريقها للفشل بسبب خطأ إداري لولا تدخل الرئيس التركي",
+      "body": "الصفقة كانت في طريقها للفشل بسبب خطأ إداري لولا تدخل الرئيس التركي كشف فنربخشة التركي أن تدخل الرئيس رجب طيب أردوغان وراء حل أزمة صفقة انضمام نجولو كانتي من اتحاد جدة، التي أثارت جدلًا واسعًا في السعودية وتركيا. وأصدر صادت الدين ساران، رئيس فنربخشة، بيانًا رسميًا شكر فيه أردوغان، بعد تدخله الحاسم لإتمام الصفقة، بعد أن كانت في طريقها للفشل، بسبب خطأ في إجراءات التسجيل. وقال ساران، في بيانه، \"أنهى نادينا بنجاح إجراءات التعاقد مع أحد أبرز نجوم كرة القدم العالمية، نجولو كانتي. أتقدم، باسمي وباسم نادي فنربخشة، بخالص الشكر إلى رئيس جمهوريتنا السيد رجب طيب أردوغان، على الدعم الكبير الذي قدّمه من أجل الوصول إلى نهاية إيجابية لهذه العملية، بما يسهم في تطور فنربخشة وكرة القدم التركية على حد سواء\". وأضاف \"يجب التأكيد على أن إيمان جماهير فنربخشة العظيمة بناديها، والدعم القوي الذي أظهرته، والثقة التي شعرنا بها إلى جانبنا طوال هذه الفترة، كانت أكبر مصدر للدافع والقوة بالنسبة لنا. الآن حان وقت نقل هذه القوة إلى أرض الملعب، والوقوف إلى جانب فريقنا\". ما تفاصيل الأزمة؟ وكان فنربخشة قد أعلن، ظهر أمس، عدم اكتمال صفقة انتقال كانتي قادمًا من اتحاد جدة بسبب تأخر إدارة العميد في إرسال مستندات اللاعب عبر نظام TMS، كما أشار لاحقًا إلى أن الطلب الذي قدمه إلى الاتحاد الدولي لكرة القدم \"فيفا\" لم يتم قبوله. وت…",
+      "image": null,
+      "pubDate": "2026-02-04T06:44:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ab57caef29877c4f",
+      "title": "عكس ألونسو.. مبابي وفينيسيوس ثنائية غير قابلة للتبديل مع أربيلوا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B9%D9%83%D8%B3-%D8%A7%D9%94%D9%84%D9%88%D9%86%D8%B3%D9%88-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AA%D8%A8%D8%AF%D9%8A%D9%84-%D9%85%D8%B9-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7/blt3a54dc55b1246907?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مبابي وفينيسيوس يلعبان كل الدقائق مع الريال",
+      "body": "مبابي وفينيسيوس يلعبان كل الدقائق مع الريال أصبح كيليان مبابي وفينيسيوس جونيور ثنائيًا هجوميًا لا يُقهر في ريال مدريد بالنسبة للمدرب ألفارو أربيلوا، الذي منحهما كل دقيقة ممكنة منذ وصوله. &nbsp; في المباريات الست الرسمية التي أدارها مع الفريق الأول في الدوري الإسباني ودوري أبطال أوروبا وكأس ملك إسبانيا، أجرى أربيلوا تغييرات وتعديلات وتجارب مختلفة، لكنه لم يفكر أبدًا في تغيير مهاجميه الرئيسيين. &nbsp; وذكرت صحيفة \"موندو ديبورتيفو\" أن الفرنسي والبرازيلي لعبا كل دقيقة، وهو أمر لم يحدث خلال فترة تشابي ألونسو القصيرة على مقاعد بدلاء ريال مدريد. بداية عهد أربيلوا بدأ أربيلوا مسيرته مع الريال في 14 يناير/كانون الثاني الماضي، حيث مُني بهزيمة مُذلة على ملعب كارلوس بيلمونتي (3-2) في دور الـ16 من كأس ملك إسبانيا أمام ألباسيتي. &nbsp; في ذلك اليوم، لم يسافر مبابي إلى ألباسيتي بسبب آلام في ركبته اليسرى، بينما سافر فينيسيوس، وبناءً على طلبه، لعب المباراة كاملة بعد الهزيمة المؤلمة 3-2 في نهائي كأس السوبر الإسباني أمام برشلونة في السعودية. &nbsp; منذ تلك المباراة المصيرية لريال مدريد في لامانشا، لم يغب الفرنسي عن الملعب دقيقة واحدة، تمامًا مثل البرازيلي، شريكه الهجومي الذي لا ينفصل عنه الآن. &nbsp; أكمل كلاهما مباريات الدوري ضد ليفانتي وفياريال ورايو فاليكانو، ومباراتي دوري أبطال أوروبا ضد موناكو …",
+      "image": "https://assets.kooora.com/images/v3/getty-2259557514/crop/MM5DKMBVHA5DEOBUGU5G433XMU5DAORSGI4A====/GettyImages-2259557514.jpg",
+      "pubDate": "2026-02-04T06:43:06.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "228adb9b0191cbf5",
+      "title": "حفل ماريا كاري في أبو ظبي ضمن فعاليات ليالي السعديات 2026: الموعد وأسعار التذاكر وكيفية الحجز",
+      "link": "https://www.kooora.com/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A7%D8%AA-%D8%A7%D9%94%D8%AE%D8%B1%D9%89/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%81%D9%84-%D9%85%D8%A7%D8%B1%D9%8A%D8%A7-%D9%83%D8%A7%D8%B1%D9%8A-%D9%81%D9%8A-%D8%A7%D9%94%D8%A8%D9%88-%D8%B8%D8%A8%D9%8A-%D8%B6%D9%85%D9%86-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A%D8%A7%D8%AA-2026-%D8%A7%D9%84%D9%85%D9%88%D8%B9%D8%AF-%D9%88%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC%D8%B2/blt0b0054d831879635?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "دليلك الشامل لحجز تذاكر حفل ماريا كاري في أبوظبي 2026",
+      "body": "دليلك الشامل لحجز تذاكر حفل ماريا كاري في أبوظبي 2026 تستعد العاصمة الإماراتية لاستقبال ليلة من الطراز الرفيع، حيث تعود \"ملكة الأناقة والصوت\" ماريا كاري لتسحر جمهورها في النسخة الثالثة من فعاليات \"ليالي السعديات\". في يوم السبت 7 فبراير 2026، سيكون عشاق الفخامة على موعد مع عرض حي واستثنائي تقدمه أيقونة البوب الأسطورية على المسرح المفتوح بجزيرة السعديات، في مزيج ساحر بين عذوبة الصوت وإطلالاتها التي تخطف الأنظار. تأتي هذه العودة المرتقبة بعد النجاح الباهر الذي حققته ماريا في ظهورها الأخير بالإمارات عام 2024، واستكمالاً لسلسلة نجاحات جولتها العالمية \"Celebration of Mimi\". ويتطلع محبو الفن الراقي في الشرق الأوسط لمشاهدة النجمة التي تتربع على عرش قائمة Billboard بـ 19 أغنية حققت المركز الأول، وذلك في أجواء احتفالية \"حميمية\" تليق بنجوم الصف الأول. دع كووورة يرسم لك الخطة الكاملة لتأمين مكانك في هذه الموقعة الغنائية الكبرى. من تحليل دقيق لكافة فئات المدرجات والمقاعد المتاحة، وصولاً إلى أفضل خيارات \"سوق الانتقالات\" عبر منصات إعادة البيع الموثوقة؛ نحن هنا لنزودك بكافة المعلومات والتحليلات التي تضمن لك الانضمام إلى احتفالية \"Mimi\" الأسطورية في قلب أبوظبي. أسعار تذاكر حفل ماريا كاري في أبو ظبي تبدأ من 405 درهم اشترِ تذكرتك الآن! متى حفل ماريا كاري في أبوظبي 2026 ضمن فعاليات ليالي السعديات؟ ال…",
+      "image": null,
+      "pubDate": "2026-02-04T06:34:19.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "815156bae747ad00",
+      "title": "'No bigger game' - Rees-Zammit on England v Wales rivalry",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cy8pzd5z4l9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Two years since his last Six Nations appearance, Louis Rees-Zammit is back and says \"there's no bigger game'\" than England against Wales.",
+      "summary": "Two years since his last Six Nations appearance, Louis Rees-Zammit is eying his first taste of famous rivalry at Twickenham.",
       "body": null,
       "image": null,
       "pubDate": "2026-02-04T06:26:49.000Z",
@@ -364,10 +604,10 @@
       "region": "global"
     },
     {
-      "id": "1c9a107b21ee0060",
-      "title": "'No bigger game' - Rees-Zammit on England v Wales",
+      "id": "815156bae747ad00",
+      "title": "'No bigger game' - Rees-Zammit on England v Wales rivalry",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cy8pzd5z4l9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Two years since his last Six Nations appearance, Louis Rees-Zammit is back and says \"there's no bigger game'\" than England against Wales.",
+      "summary": "Two years since his last Six Nations appearance, Louis Rees-Zammit is eying his first taste of famous rivalry at Twickenham.",
       "body": null,
       "image": null,
       "pubDate": "2026-02-04T06:26:49.000Z",
@@ -681,6 +921,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f9b4a7791babe61f",
+      "title": "'Years in the making' - are Arsenal ready to shed 'nearly-men' tag?",
+      "link": "https://www.bbc.com/sport/football/articles/ckgv072m7pro?at_medium=RSS&at_campaign=rss",
+      "summary": "Arsenal have moved a step closer to winning their first major silverware since 2020 by beating Chelsea 4-2 on aggregate in the Carabao Cup semi-final.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-03T23:29:45.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -1244,22 +1500,6 @@
       "region": "mena"
     },
     {
-      "id": "31bcfc8941c76849",
-      "title": "رسميًا.. اتحاد جدة يعلن رحيل كانتي والتعاقد مع النصيري",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D9%8A%D8%B9%D9%84%D9%86-%D8%B1%D8%AD%D9%8A%D9%84-%D9%83%D8%A7%D9%86%D8%AA%D9%8A-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D9%85%D8%B9-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%B1%D9%8A/blt359ef619e1fd9a24?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النادي السعودي يضم المهاجم المغربي ويودع نجمه الفرنسي",
-      "body": "النادي السعودي يضم المهاجم المغربي ويودع نجمه الفرنسي أعلن نادي اتحاد جدة رحيل لاعب وسطه الفرنسي نجولو كانتي إلى فنربخشه التركي، والتعاقد مع مهاجمه المغربي يوسف النصيري. ونشر نادي الاتحاد عبر حسابه الرسمي على موقع \"إكس\" بيانًا، أعلن فيه موافقته على بيع المدة المتبقية من عقد كانتي، متمنيًا له التوفيق في مسيرته خلال الفترة المقبلة. 📝| النادي يوافق على بيع المدة المتبقية من عقد اللاعب نغولو كانتي #شكرا_كانتي pic.twitter.com/dSQmFiKCWM &mdash; نادي الاتحاد السعودي (@ittihad) February 3, 2026 وانضم كانتي إلى الاتحاد في صيف 2023، ليقدم مستويات مميزة، أسهم من خلالها في تتويج الفريق ببطولتي الدوري السعودي وكأس خادم الحرمين الشريفين في الموسم الماضي. وبعد دقائق من إعلان رحيل كانتي، نشر \"العميد\" مقطع فيديو، أعلن من خلاله التعاقد مع المهاجم المغربي يوسف النصيري، قادمًا من فنربخشه. وسيكون النصيري هو المهاجم الجديد للنادي الغربي في النصف الثاني من الموسم الحالي، بعد انتقال المهاجم الفرنسي كريم بنزيما إلى الغريم التقليدي الهلال خلال فترة الانتقالات الشتوية الماضية. جـاء ومعـاه ابن فـاس 😉 هاهو السـبع! 🥷🇲🇦 #شتوية_العميد pic.twitter.com/GoXZ147GUM &mdash; نادي الاتحاد السعودي (@ittihad) February 3, 2026 وبحسب الصحفي سانتي أونا، فإن النصيري فسخ عقده مع فنربخشه، من أجل التمكن من الانتقال إلى نا…",
-      "image": null,
-      "pubDate": "2026-02-03T20:12:01.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "92421d99fced6bc4",
       "title": "موعد مباراة الأهلي المقبلة بعد التعادل مع البنك الأهلي",
       "link": "https://www.yallakora.com/african-champions-league/2965/news/540447/%d9%85%d9%88%d8%b9%d8%af-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d9%82%d8%a8%d9%84%d8%a9-%d8%a8%d8%b9%d8%af-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d8%af%d9%84-%d9%85%d8%b9-%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a",
@@ -1290,22 +1530,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "fdc5eab40c09be35",
-      "title": "جدول مباريات برشلونة في كأس ملك إسبانيا 2025-2026 والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D9%85%D9%84%D9%83-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blta68b1d85a3cf7d44?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول ومواعيد مباريات برشلونة في كأس ملك إسبانيا 2025-2026 والقنوات الناقلة ..",
-      "body": "تعرف على جدول ومواعيد مباريات برشلونة في كأس ملك إسبانيا 2025-2026 والقنوات الناقلة .. تُعد بطولة كأس ملك إسبانيا البطولة المفضلة تاريخياً لنادي برشلونة، أو كما يُلقب بـ \"ملك الكأس\"، حيث يتربع \"البلوجرانا\" على عرش الأكثر تتويجاً باللقب برصيد 32 بطولة، متفوقاً بفارق مريح على أقرب ملاحقيه أتلتيك بيلباو (24 لقباً) وريال مدريد (20 لقباً). ويدخل النادي الكتالوني منافسات هذا الموسم بذكريات استثنائية من النسخة الماضية، التي شهدت تتويجه باللقب في ليلة درامية على ملعب \"لا كارتوخا\"، حين حسم \"الكلاسيكو\" المثير أمام غريمه التقليدي ريال مدريد بنتيجة (3-2) بعد التمديد، بفضل هدف قاتل من المدافع الفرنسي جول كوندي. في السطور التالية، يستعرض كووورة جدول مباريات برشلونة في كأس ملك إسبانيا 2025-2026 ومواعيد المباريات، وكيف يمكنك متابعة رحلة الفريق في الدفاع عن لقبه المحبب. &nbsp; ما القنوات الناقلة لمباريات برشلونة في كأس ملك إسبانيا 2025-2026؟ تمتلك منصة شاهد حقوق نقل مباريات كأس ملك إسبانيا 2025-2026،&nbsp; &nbsp; البطولة القنوات الناقلة كأس ملك إسبانيا 2025-2026 شاهد &nbsp; جدول مباريات برشلونة في كأس ملك إسبانيا 2025-2026 - ربع النهائي &nbsp; المباراة الموعد النتيجة الملعب ألباسيتي - برشلونة الثلاثاء 3 فبراير 2026 23:00 السعودية، 00:00 الإمارات 2-1 كارلوس بيلمونت &nbsp; جدول مباريات برشلونة في كأ…",
-      "image": null,
-      "pubDate": "2026-02-03T20:06:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "1f6e3ab1a221de2c",
@@ -1372,22 +1596,6 @@
       "region": "global"
     },
     {
-      "id": "54b50c720f144909",
-      "title": "جدول ونتائج مباريات كأس ملك إسبانيا 2025-2026 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%88%D9%86%D8%AA%D8%A7%D9%8A%D9%94%D8%AC-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%83%D8%A7%D9%94%D8%B3-%D9%85%D9%84%D9%83-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt3b1d7e4734c7023b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "جدول مباريات كأس ملك إسبانيا 2025-2026، القنوات الناقلة ونتائج كل الأدوار",
-      "body": "جدول مباريات كأس ملك إسبانيا 2025-2026، القنوات الناقلة ونتائج كل الأدوار يترقب عشاق الكرة العالمية، سباقًا شرسًا من أمتاره الأولى بين الأندية الإسبانية على لقب كأس ملك إسبانيا 2025-2026. وتمثل النسخة الماضية من كأس الملك، حافزًا كبيرًا لجميع الفرق المشاركة في البطولة للمضي قدمًا نحو المباراة النهائية وحسم اللقب، حيث توج برشلونة بكأس ملك إسبانيا، بعد فوزه القاتل على غريمه ريال مدريد، بنتيجة 3-2، في المباراة النهائية التي امتدت إلى وقت إضافي، والتي أقيمت على ملعب لا كارتوخا. ثلاثية البارسا حملت توقيع بيدري وفيران توريس وجوليس كوندي في الدقائق 28 و84 و116، بينما سجل للميرنجي، مبابي وتشواميني في الدقيقتين 70 و77. وحصد برشلونة، لقب كأس ملك إسبانيا، للمرة 32 في تاريخه، وهو اللقب الثاني هذا الموسم على حساب الغريم التقليدي ريال مدريد، عقب الفوز عليه بنتيجة 5-2 في نهائي كأس السوبر الإسباني. وستكون كأس ملك إسبانيا بمثابة طموح مشروع أيضًا لعدد من الفرق الكبيرة، وأبرزها أتلتيكو مدريد صاحب الـ10 ألقاب، وفالنسيا صاحب الـ8 ألقاب، وجيرونا الذي لم يحقق اللقب من قبل ويطمح للفوز بأول ألقابه. ويرصد كووورة في السطور التالية، جدول مباريات ونتائج مباريات كأس ملك إسبانيا.. والقنوات الناقلة، وكل ما تريد معرفته عن البطولة. ما القنوات الناقلة لبطولة كأس ملك إسبانيا 2025-2026؟ تمتلك منصة شاهد حقوق بث مباريا…",
-      "image": null,
-      "pubDate": "2026-02-03T20:00:41.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "693b19321b6decd6",
       "title": "Microsoft says it’s building an app store for AI content licensing",
       "link": "https://www.theverge.com/news/873296/microsoft-publisher-content-marketplace-ai-licensing",
@@ -1434,22 +1642,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "846cce7f3a18275a",
-      "title": "لوكمان يتصدر.. أغلى صفقات الميركاتو الشتوي في الدوري الإيطالي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D9%88%D9%83%D9%85%D8%A7%D9%86-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1-%D8%A7%D9%94%D8%BA%D9%84%D9%89-%D8%B5%D9%81%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%83%D8%A7%D8%AA%D9%88-%D8%A7%D9%84%D8%B4%D8%AA%D9%88%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A/blt60e9fa4c6f6d2d3a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لورينزو لوكا حالة مثيرة للاهتمام",
-      "body": "لورينزو لوكا حالة مثيرة للاهتمام أغلقت فترة الانتقالات الشتوية في الدوري الإيطالي أبوابها أمس الاثنين مسجلة عدة تعاقدات بارزة، شهدت خروج نجوم بمبالغ كبيرة، مع تصدر المهاجم النيجيري أديمولا لوكمان قائمة أغلى الصفقات. وكان أديمولا لوكمان أغلى صفقة بيع لنادٍ من الدوري الإيطالي خلال نافذة يناير 2026، لكن نابولي قد يعادل نفس القيمة إذا تحولت إعارة لورينزو لوكا إلى نوتنجهام فورست إلى انتقال دائم. أغلى صفقات الميركاتو الشتوي في الدوري الإيطالي.. يناير 2026 وإليكم تذكيرا بأبرز صفقات البيع الدائمة الأغلى ثمنا التي أبرمتها فرق الدوري الإيطالي في فترة الانتقالات الشتوية، إلى جانب أهم الإعارات التي تشمل خيار الشراء. أغلى صفقات البيع الدائمة في فترة يناير 2026 بالدوري الإيطالي، وفقا لموقع فوتبول إيطاليا: 1- أديمولا لوكمان من أتالانتا إلى أتلتيكو مدريد مقابل 35 مليون يورو: كان هذا الانتقال ثاني أغلى صفقة في اليوم النهائي للميركاتو الشتوي عالميا (دون احتساب المكافآت). 2- ثاني كاستيلانوس من لاتسيو إلى وست هام يونايتد مقابل 29 مليون يورو. 3- ماتيو جيندوزي من لاتسيو إلى فنربخشة مقابل 28 مليون يورو. 4- لورينزو لوكا من أودينيزي إلى نابولي مقابل 26 مليون يورو. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! 5- تامي أبراهام من روما إلى بشكتاش مقابل 15…",
-      "image": "https://assets.kooora.com/images/v3/bltaed94e5ed17bbc56/Serie%20A%20Kooora.jpg",
-      "pubDate": "2026-02-03T19:47:47.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "db5cd122be208ffe",
@@ -1670,22 +1862,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b25d1f5373d5aa9e",
-      "title": "Stockdale 'back to what he's good at' - Farrell",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cddg8zz3y93o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ireland head coach Andy Farrell says Jacob Stockdale \"deserves\" to start against France in the Six Nations opener in Paris on Thursday night.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T17:35:37.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -2076,22 +2252,6 @@
       "region": "global"
     },
     {
-      "id": "b7b43632955b3250",
-      "title": "Mateta faces uncertain future for club and country",
-      "link": "https://www.bbc.com/sport/football/articles/ce3exjk7x89o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport looks at what next for Jean-Philippe Mateta after his dream move to AC Milan broke down over issues with his medical",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T14:19:33.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "41d4cd55d474bca7",
       "title": "مدرب مالي: الأهلي من الأندية الكبرى في العالم.. ولا أعرف مستقبل ديانج",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/540386/%d9%85%d8%af%d8%b1%d8%a8-%d9%85%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%a3%d9%86%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85-%d9%88%d9%84%d8%a7-%d8%a3%d8%b9%d8%b1%d9%81-%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%af%d9%8a%d8%a7%d9%86%d8%ac",
@@ -2233,22 +2393,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e8660b4ed07a88b5",
-      "title": "Fenerbahce blame Al-Ittihad for Kante move collapse",
-      "link": "https://www.bbc.com/sport/football/articles/ce8grzn4p4ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Fenerbahce claim Al-Ittihad are to blame for their signing of France midfielder N'Golo Kante falling through.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T13:17:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2524,22 +2668,6 @@
       "region": "global"
     },
     {
-      "id": "d6abd8d40d3c305e",
-      "title": "MCC changes Laws of Cricket to permit previously 'illegal' bats",
-      "link": "https://www.bbc.com/sport/cricket/articles/cyv5zv30418o?at_medium=RSS&at_campaign=rss",
-      "summary": "Changes are to be made to the Laws of Cricket to permit bats previously deemed illegal in an effort to make the game affordable for amateur players.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T10:11:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "9fd5339013fdb9d3",
       "title": "ترتيب هدافي الدوري المصري قبل الجولة 17.. لاعبا الأهلي والزمالك يطاردان الصدارة",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/540362/%d8%aa%d8%b1%d8%aa%d9%8a%d8%a8-%d9%87%d8%af%d8%a7%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%ac%d9%88%d9%84%d8%a9-17-%d9%84%d8%a7%d8%b9%d8%a8%d8%a7-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%8a%d8%b7%d8%a7%d8%b1%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%b5%d8%af%d8%a7%d8%b1%d8%a9",
@@ -2617,38 +2745,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "70dd20e074fd0ae6",
-      "title": "ترتيب الدوري المصري قبل الجولة 17.. سيراميكا يتصدر",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/540356/%d8%aa%d8%b1%d8%aa%d9%8a%d8%a8-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%ac%d9%88%d9%84%d8%a9-17-%d8%b3%d9%8a%d8%b1%d8%a7%d9%85%d9%8a%d9%83%d8%a7-%d9%8a%d8%aa%d8%b5%d8%af%d8%b1",
-      "summary": "تستمر منافسات نسخة الموسم الحالي من الدوري المصري الممتاز (2025-2026)، بإقامة الجولة 17 من المسابقة.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T08:47:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b5e91830a186f7ee",
-      "title": "تغييرات منتظرة وظهور أول.. تشكيل الأهلي المتوقع ضد البنك الأهلي بالدوري",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/540355/-%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1%d8%a7%d8%aa-%d9%85%d9%86%d8%aa%d8%b8%d8%b1%d8%a9-%d9%88%d8%b8%d9%87%d9%88%d8%b1-%d8%a3%d9%88%d9%84-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d9%82%d8%b9-%d8%b6%d8%af-%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a8%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a",
-      "summary": "استقر الدنماركي ييس توروب المدير الفني للنادي الأهلي على إجراء عدة تغييرات في التشكيل الذي سيخوض به مواجهة البنك الأهلي، مساء اليوم الثلاثاء، بمسابقة الدوري المصري الممتاز.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T08:25:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2748,22 +2844,6 @@
       "region": "global"
     },
     {
-      "id": "392eb5437ebcc262",
-      "title": "'Don't be afraid of being different, it's your superpower'",
-      "link": "https://www.bbc.com/sport/articles/ce8ee3yx9ljo?at_medium=RSS&at_campaign=rss",
-      "summary": "As he begins his bid for Winter Olympic gold, curler Bruce Mouat writes a letter to his 10-year-old self for BBC Sport.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T06:33:58.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "8230019a9a17beb4",
       "title": "iPhone Fold design details revealed in new leak",
       "link": "https://www.gsmarena.com/iphone_fold_design_details_revealed_in_new_leak-news-71377.php",
@@ -2835,22 +2915,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-02T22:54:11.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "7e7d8dd2bfea6abd",
-      "title": "Le Bris calms Europe talk as '40 points the target'",
-      "link": "https://www.bbc.com/sport/football/videos/ckgnqwzx1j1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Sunderland manager Regis Le Bris says he is primarily focused on achieving Premier League safety, despite a 3-0 win over Burnley propelling his side to eighth in the table.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T22:45:08.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2953,22 +3017,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a406d7a3b99a8437",
-      "title": "Six Nations fixtures and how to follow on the BBC",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/clynz242pgxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Fixtures, how to follow on the BBC and venues as the Six Nations returns on Thursday, 5 February with defending champions France taking on Ireland.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T18:54:02.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3299,22 +3347,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-02T08:44:32.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "834be797edc43c5b",
-      "title": "Will Man Utd miss Casemiro?",
-      "link": "https://www.bbc.com/sport/football/videos/cpdy09p0592o?at_medium=RSS&at_campaign=rss",
-      "summary": "Match of the Day pundits Danny Murphy and Troy Deeney discuss whether Manchester United will miss the departing Casemiro's intelligence and calmness, after he inspired the Red Devils' to a 3-2 win over Fulham.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T23:56:42.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
