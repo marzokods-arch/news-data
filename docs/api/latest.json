@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T04:17:05.962Z",
-    "total": 515,
+    "generated_at": "2026-02-06T05:32:23.980Z",
+    "total": 398,
     "processed_feeds": 19,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,15 +9,15 @@
     "shard_index": 2,
     "results": [
       {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/feed/",
-        "homepage": "https://techcrunch.com",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 18,
+        "taken": 73,
         "error": null,
         "notModified": false
       },
@@ -35,71 +35,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 73,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — اقتصاد",
-        "url": "https://www.skynewsarabia.com/rss/business.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "9to5Mac",
-        "url": "https://9to5mac.com/feed/",
-        "homepage": "https://9to5mac.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 98,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/feed/",
-        "homepage": "https://arstechnica.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -113,15 +48,41 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "homepage": "https://techcrunch.com",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Hacker News - Front",
+        "url": "https://news.ycombinator.com/rss",
+        "homepage": "https://news.ycombinator.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 28,
         "error": null,
         "notModified": false
       },
@@ -139,41 +100,15 @@
         "notModified": false
       },
       {
-        "name": "Hacker News - Front",
-        "url": "https://news.ycombinator.com/rss",
-        "homepage": "https://news.ycombinator.com/rss",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/feed/",
+        "homepage": "https://arstechnica.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 29,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - رياضة",
-        "url": "https://www.skynewsarabia.com/rss/sports.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "المصري اليوم - ملاعب",
-        "url": "https://sports.almasryalyoum.com/feed/",
-        "homepage": "https://sports.almasryalyoum.com/feed/",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
+        "taken": 18,
         "error": null,
         "notModified": false
       },
@@ -204,16 +139,29 @@
         "notModified": false
       },
       {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
-        "lang": "ar",
+        "name": "9to5Mac",
+        "url": "https://9to5mac.com/feed/",
+        "homepage": "https://9to5mac.com/feed/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "المصري اليوم - ملاعب",
+        "url": "https://sports.almasryalyoum.com/feed/",
+        "homepage": "https://sports.almasryalyoum.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
         "notModified": false
       },
       {
@@ -227,6 +175,45 @@
         ],
         "taken": 10,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia — اقتصاد",
+        "url": "https://www.skynewsarabia.com/rss/business.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - رياضة",
+        "url": "https://www.skynewsarabia.com/rss/sports.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -254,10 +241,71 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "334ea50930719c8a",
+      "title": "Systems Thinking",
+      "link": "http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-06T05:24:36.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2829ed0e5975d415",
+      "title": "ارتفاع صافي الاحتياطي الأجنبي في مصر إلى 52.59 مليار دولار",
+      "link": "https://www.skynewsarabia.com/business/1851227-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B5%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%AC%D9%86%D8%A8%D9%8A-%D9%85%D8%B5%D8%B1-5259-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+      "summary": "أعلن البنك المركزي المصري الخميس ارتفاع صافي الاحتياطي الأجنبي ليصل إلى 52.59 مليار دولار بنهاية شهر يناير 2026، مقارنة بـ 51.452 مليار دولار بنهاية ديسمبر 2025، بزيادة قدرها 1.14 مليار دولار خلال شهر واحد.",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v1/2025/09/05/1818365/95/53/1-1818365.jpg",
+      "pubDate": "2026-02-06T04:59:04.000Z",
+      "source": {
+        "name": "Sky News Arabia — اقتصاد",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
+      },
+      "lang": "ar",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a44a65cc15857baf",
+      "title": "أمازون تسجل أرباحا أقل من التوقعات في الربع الأخير",
+      "link": "https://www.skynewsarabia.com/business/1851226-%D8%A7%D9%94%D9%85%D8%A7%D8%B2%D9%88%D9%86-%D8%AA%D8%B3%D8%AC%D9%84-%D8%A7%D9%94%D8%B1%D8%A8%D8%A7%D8%AD%D8%A7-%D8%A7%D9%94%D9%82%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1",
+      "summary": "سجلت شركة أمازون أرباحا للربع الأخير أقل قليلا من تقديرات وول ستريت، حتى في ظل قفزة في المبيعات وتسجيل أسرع نمو في أعمالها البارزة للحوسبة السحابية منذ 13 ربعا سنويا.",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v2/2025/08/01/1811693/95/53/1-1811693.JPG",
+      "pubDate": "2026-02-06T04:45:36.000Z",
+      "source": {
+        "name": "Sky News Arabia — اقتصاد",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
+      },
+      "lang": "ar",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "3b71655a05c58735",
       "title": "\"أنثروبيك\" المنافسة لــ\"أوبن إيه آي\" تستهدف مجالات جديدة",
@@ -339,22 +387,6 @@
       "region": "global"
     },
     {
-      "id": "7731967b0b983c3a",
-      "title": "Designers teach AI models to generate better UI in new Apple study",
-      "link": "https://9to5mac.com/2026/02/05/designers-teach-ai-to-generate-better-ui-in-new-apple-study/",
-      "summary": "Apple continues to explore how generative AI can improve app development pipelines. Here’s what they’re looking at. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-06T02:41:45.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "fff90cae42c97363",
       "title": "Mariah Carey and more curling - Friday's Winter Olympics guide",
       "link": "https://www.bbc.com/sport/articles/c338y36kngzo?at_medium=RSS&at_campaign=rss",
@@ -384,54 +416,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b2a9bd03f748a303",
-      "title": "Sapiom raises $15M to help AI agents buy their own tech tools",
-      "link": "https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/",
-      "summary": "The startup -- with backing from Accel -- is building a financial layer that handles the authentication and micro-payments required for AI agents.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T23:53:42.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d27f0815c20727ba",
-      "title": "New iPhone launching this month with four key changes: report",
-      "link": "https://9to5mac.com/2026/02/05/new-iphone-launching-soon-with-four-new-features/",
-      "summary": "According to a new report today, Apple’s next iPhone is launching very soon. Macwelt reports that the iPhone 17e is set to launch on February 19 — one year to the day following the launch of the iPhone 16e. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T23:52:30.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e05467ec00bf88a9",
-      "title": "Apple reportedly scales back plans for AI-powered health coach",
-      "link": "https://9to5mac.com/2026/02/05/apple-reportedly-scales-back-plans-for-ai-powered-health-coach/",
-      "summary": "Bloomberg reports that Apple has recently scaled back its plans for the Project Mulberry initiative following a leadership shakeup at the company’s health organization. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T23:50:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -515,38 +499,6 @@
       "region": "global"
     },
     {
-      "id": "5d564c1fdf1a1bcb",
-      "title": "Reddit looks to AI search as its next big opportunity",
-      "link": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
-      "summary": "During the company's fourth-quarter earnings call on Thursday, it offered an update on its plans to merge traditional and AI search together and hinted that although search is not yet monetized, \"it's an enormous market and opportunity.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T23:20:27.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ce06eb048172af36",
-      "title": "AWS revenue continues to soar as cloud demand remains high",
-      "link": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
-      "summary": "AWS recorded its best quarter, in terms of revenue growth, in 13 quarters in Q4 2025 as AI drives AWS adoption.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T23:11:37.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c4482333e22fe729",
       "title": "Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka",
       "link": "https://github.com/calf-ai/calfkit-sdk",
@@ -554,22 +506,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-05T23:10:12.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c4fbd5c756aae2c1",
-      "title": "India's female workers watching hours of abusive content to train AI",
-      "link": "https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T22:55:11.000Z",
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
@@ -595,22 +531,6 @@
       "region": "global"
     },
     {
-      "id": "11d0230c2a97bfa8",
-      "title": "Apple rolls out watchOS 11.6.2 with cellular network bug fixes",
-      "link": "https://9to5mac.com/2026/02/05/apple-rolls-out-watchos-11-6-2-with-cellular-network-bug-fixes/",
-      "summary": "Apple is rolling out a system update for Apple Watches that haven’t upgraded to watchOS 26, but may be experiencing a very specific connectivity issue. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T22:48:26.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "de745883539bc7f1",
       "title": "AI companies want you to stop chatting with bots and start managing them",
       "link": "https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/",
@@ -621,22 +541,6 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "08d314b5c308ea10",
-      "title": "Amazon and Google are winning the AI capex race — but what’s the prize?",
-      "link": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/",
-      "summary": "In 2026, Amazon plans to spend $200 billion in capex. Google is just behind at $175 billion to $185 billion. It's a lot of money!",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T22:43:11.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -755,22 +659,6 @@
       "region": "global"
     },
     {
-      "id": "964bcf19ae98e6ab",
-      "title": "How to use macOS ‘High Performance screen sharing’ for lower latency and better color [Video]",
-      "link": "https://9to5mac.com/2026/02/05/how-to-use-macos-high-performance-screen-sharing-for-lower-latency-and-better-color-video/",
-      "summary": "With the release of macOS Sonoma back in 2023, Apple introduced a new High Performance screen sharing feature for the Mac’s native Screen Sharing application. This mode dramatically increases the usefulness of screen sharing. Responsiveness is improved, stereo sound output from the native Mac is en…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T21:52:57.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "4a8a1ee130e298a3",
       "title": "What if writing tests was a joyful experience? (2023)",
       "link": "https://blog.janestreet.com/the-joy-of-expect-tests/",
@@ -851,38 +739,6 @@
       "region": "global"
     },
     {
-      "id": "4ff09040fb31b651",
-      "title": "The Washington Post is retreating from Silicon Valley when it matters most",
-      "link": "https://techcrunch.com/2026/02/05/the-washington-post-is-retreating-from-silicon-valley-when-it-matters-most/",
-      "summary": "The Bezos-owned newspaper gutted its San Francisco bureau and coverage of tech — including journalists reporting on Amazon and Blue Origin.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T21:36:21.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "63eca0774791c874",
-      "title": "Rumor Replay: New iPhone Fold specs, Mac launches, and more",
-      "link": "https://9to5mac.com/2026/02/05/rumor-replay-new-iphone-fold-specs-mac-launches-and-more/",
-      "summary": "This is Rumor Replay, a weekly column at 9to5Mac offering a quick rundown of the most recent Apple product rumors, with analysis and commentary. Today: new iPhone Fold specs, rumored Mac launches, and more. Here are this week’s Apple rumors. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T21:34:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "d427cb3b13e83e74",
       "title": "Team GB retain 100% record after Czech fright",
       "link": "https://www.bbc.com/sport/articles/cn40el3e72xo?at_medium=RSS&at_campaign=rss",
@@ -896,38 +752,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2dd5e58a36c2b6f7",
-      "title": "a16z VC wants founders to stop stressing over insane ARR numbers",
-      "link": "https://techcrunch.com/2026/02/05/a16z-vc-wants-founders-to-stop-stressing-over-insane-arr-numbers/",
-      "summary": "Andreessen Horowitz VC Jennifer Li⁠, who oversees some of the firm's fastest-growing AI companies, warns founders not to believe every ARR claim made on X.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T21:28:46.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "65344fe4fdc51b2b",
-      "title": "Apple TV acquires global rights to ‘The Last First: Winter K2’",
-      "link": "https://9to5mac.com/2026/02/05/apple-tv-acquires-global-rights-to-the-last-first-winter-k2/",
-      "summary": "Fresh off its Apple TV press day announcements, the company just confirmed the acquisition of the global rights to “The Last First: Winter K2,“ a Sundance Film Festival selection documentary. Here’s what to expect. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T21:26:22.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1027,22 +851,6 @@
       "region": "mena"
     },
     {
-      "id": "4bb4be48124215cd",
-      "title": "Tim Cook teases new product categories and services enabled by AI",
-      "link": "https://9to5mac.com/2026/02/05/tim-cook-teases-new-product-categories-and-services-enabled-by-ai/",
-      "summary": "Tim Cook held an all-hands meeting with Apple staff earlier today, and as reported by Bloomberg’s Mark Gurman, the CEO hinted at “new categories of products and services” coming that would be enabled by AI. Here’s what he said. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T20:51:24.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "484bbebcf3880194",
       "title": "بالفيديو.. زميل رونالدو يسطع في دوري جوي ضمن قائمة خاصة",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B2%D9%85%D9%8A%D9%84-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%8A%D8%B3%D8%B7%D8%B9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D8%B6%D9%85%D9%86-%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9-%D8%AE%D8%A7%D8%B5%D8%A9/blt0f6a91113ab2baef?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1057,22 +865,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "8429b6b63b9d7e6b",
-      "title": "Tim Cook talks succession, executive departures during all-hands meeting",
-      "link": "https://9to5mac.com/2026/02/05/tim-cook-talks-succession-executive-departures-during-all-hands-meeting/",
-      "summary": "Apple CEO Tim Cook held an all-hands meeting today, during which he fielded questions from Apple employees and touched on key topics including immigration in the United States. As reported by Mark Gurman at Bloomberg, succession is another topic that came up during the meeting. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T20:47:44.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "86d0ef30787955d5",
@@ -1219,22 +1011,6 @@
       "region": "mena"
     },
     {
-      "id": "1013415f0b12807a",
-      "title": "iFixIt tears down new AirTag, finds 50% louder speaker still 100% easy to disable",
-      "link": "https://9to5mac.com/2026/02/05/ifixit-tears-down-new-airtag-finds-50-louder-speaker-still-100-easy-to-disable/",
-      "summary": "As is tradition with any new Apple product, iFixit has published a teardown of the new AirTag, released last week. Here’s what they found. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T20:30:33.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "7f33e0ba436eb1c5",
       "title": "بالفيديو.. خبير قانوني: يحق لأجانب الهلال فسخ عقودهم!",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A-%D9%8A%D8%AD%D9%82-%D9%84%D8%A7%D9%94%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%81%D8%B3%D8%AE-%D8%B9%D9%82%D9%88%D8%AF%D9%87%D9%85/blt8605ef75b6eb2414?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1281,22 +1057,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "6d998da9b66863f5",
-      "title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
-      "link": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
-      "summary": "The new model is built to accelerate the capabilities of Codex, the agentic coding tool OpenAI launched earlier this week.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T20:01:39.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "de083eda1c703cf5",
@@ -1363,22 +1123,6 @@
       "region": "mena"
     },
     {
-      "id": "ba4749efedb793d6",
-      "title": "A ‘deeply distraught’ Tim Cook pledges to lobby Washington on immigration: report",
-      "link": "https://9to5mac.com/2026/02/05/a-deeply-distraught-tim-cook-pledges-to-lobby-washington-on-immigration-report/",
-      "summary": "Bloomberg reports that Tim Cook held an all-hands meeting with Apple employees today to address fears about immigration and deportation. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T19:43:51.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ad1dfecda8590ae2",
       "title": "Draper cruises to Davis Cup win on return from injury",
       "link": "https://www.bbc.com/sport/tennis/videos/clyn7pd5jg7o?at_medium=RSS&at_campaign=rss",
@@ -1392,22 +1136,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1bcca4c66f513417",
-      "title": "iPhone 17 leads Apple earnings record, new MacBooks near, and a mysterious $2B acquisition",
-      "link": "https://9to5mac.com/2026/02/05/happy-hour-576/",
-      "summary": "Benjamin and Chance speculate on Apple’s mysterious acquisition of Q.ai, the company’s second biggest acquisition ever. The iPhone 17 is a veritable smash hit, leading to an all-time quarterly earnings record. And Apple redesigns the order flow for buying a new Mac, with new MacBooks just around th…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T19:37:08.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1523,38 +1251,6 @@
       "region": "global"
     },
     {
-      "id": "fb64998d5a2edb2f",
-      "title": "Gift endless memories this Valentine’s Day with over 50% off pCloud Lifetime storage",
-      "link": "https://9to5mac.com/2026/02/05/gift-endless-memories-valentines-day-with-over-50-off-pcloud-lifetime-storage/",
-      "summary": "In the digital age, memories are the most valuable thing we save and share. This year, pCloud is offering a way to secure those moments forever with a massive Valentine’s Day promotion for their Lifetime Cloud Storage plans. From February 5 through February 17, 2026, 9to5Mac readers can save over 5…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T19:21:31.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "877a16321f619a63",
-      "title": "Apple TV users get $2/month Peacock, including Super Bowl and Olympics",
-      "link": "https://9to5mac.com/2026/02/05/apple-tv-users-get-2-month-peacock-including-super-bowl-and-olympics/",
-      "summary": "Peacock is about to air two of the biggest TV events of the year: the Super Bowl and the Olympics. And if you’re an Apple TV subscriber, you can add on Peacock for only $2/month. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T19:17:14.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d899e60c28d8d6d8",
       "title": "نجم ريال مدريد يوجه رسالة مشتركة لكريستيانو ونيمار",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D9%88%D8%AC%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%84%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D9%88%D9%86%D9%8A%D9%85%D8%A7%D8%B1/blt1ba65e43909cbe0e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1645,38 +1341,6 @@
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3e6063120d5f0e42",
-      "title": "Flock CEO calls Deflock a “terrorist organization” (2025) [video]",
-      "link": "https://www.youtube.com/watch?v=l-kZGrDz7PU",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T19:04:37.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5228ae50073bc002",
-      "title": "Anthropic reveals new Opus 4.6 model with more autonomy and better focus",
-      "link": "https://9to5mac.com/2026/02/05/anthropic-reveals-new-opus-4-6-model-with-more-autonomy-and-better-focus/",
-      "summary": "Anthropic has announced its latest AI model with Claude Opus 4.6. The new version arrives just two months after the previous model upgrade. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T19:03:06.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -1795,38 +1459,6 @@
       "region": "global"
     },
     {
-      "id": "eb7371a3c1873134",
-      "title": "Elon Musk is getting serious about orbital data centers",
-      "link": "https://techcrunch.com/2026/02/05/elon-musk-is-getting-serious-about-orbital-data-centers/",
-      "summary": "We’re starting to see the idea of Musk-owned orbital AI data clusters cohere into an actual plan.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T18:50:49.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "79509cc37c7731da",
-      "title": "Apple was once ‘carpet bombing’ Tesla with recruiting calls, per Elon Musk",
-      "link": "https://9to5mac.com/2026/02/05/apple-was-once-carpet-bombing-tesla-with-recruiting-calls-per-elon-musk/",
-      "summary": "Apple once had ambitions of building an electric car, and during that period, per a new interview with Elon Musk, the company was “relentlessly” trying to poach Tesla employees. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T18:47:33.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "d25f89393c27a173",
       "title": "How penis injections became a Winter Olympic talking point",
       "link": "https://www.bbc.com/sport/articles/czej70jyg4eo?at_medium=RSS&at_campaign=rss",
@@ -1872,54 +1504,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "4bcf138b14121543",
-      "title": "9to5Mac Daily: February 5, 2026 – The latest iPhone Fold specs and rumors",
-      "link": "https://9to5mac.com/2026/02/05/daily-february-5-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Stuff: Stuff helps you get everything out of your head a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T18:30:12.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "81b3346d217781f1",
-      "title": "NASA astronauts can now bring their phones with them on their mission to the moon",
-      "link": "https://techcrunch.com/2026/02/05/nasa-astronauts-can-now-bring-their-phones-with-them-on-their-mission-to-the-moon/",
-      "summary": "Get ready for some selfies that are out of this world. Crew-12 is expected to head to the International Space Station next week, while the highly anticipated Artemis II mission -- which will bring humans around the moon for the first time since the 1960s -- was delayed until March.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T18:29:48.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "047eaf03c23f1fc7",
-      "title": "OpenAI launches a way for enterprises to build and manage AI agents",
-      "link": "https://techcrunch.com/2026/02/05/openai-launches-a-way-for-enterprises-to-build-and-manage-ai-agents/",
-      "summary": "OpenAI launched Frontier, a new platform designed for enterprises to build and deploy agents while treating them like human employees.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T18:09:50.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2019,22 +1603,6 @@
       "region": "global"
     },
     {
-      "id": "c34bbddc1aa172f0",
-      "title": "Apple gets win from EU over Apple Maps and Ads services",
-      "link": "https://9to5mac.com/2026/02/05/apple-gets-win-from-eu-over-apple-maps-and-ads-services/",
-      "summary": "Apple has been forced to make a lot of region-specific changes to the iPhone and iOS in the EU due to the Digital Markets Act (DMA). But the company just received good news from the EU commission regarding the DMA’s impact on two key services: Apple Maps and Ads. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:59:07.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9f03f6188c6a398a",
       "title": "Mandhana stars as RCB beat Capitals to win WPL",
       "link": "https://www.bbc.com/sport/cricket/articles/cgl8r55je02o?at_medium=RSS&at_campaign=rss",
@@ -2048,22 +1616,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "91f98e9de2186391",
-      "title": "Anthropic releases Opus 4.6 with new ‘agent teams’",
-      "link": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
-      "summary": "The newest version of Anthropic's model is designed to broaden its capabilities and appeal, allowing for a greater variety of uses and customers.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:51:13.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2163,22 +1715,6 @@
       "region": "global"
     },
     {
-      "id": "b74229eb17d1b24f",
-      "title": "Secondary sales shift from founder windfalls to employee-retention tools",
-      "link": "https://techcrunch.com/2026/02/05/secondary-sales-shift-from-founder-windfalls-to-employee-retention-tools/",
-      "summary": "AI startups like Clay and ElevenLabs are using early liquidity to keep their best talent.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:30:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "348d564d55b35c91",
       "title": "GB's Richardson wins keirin for second European title",
       "link": "https://www.bbc.com/sport/cycling/articles/c5yd16veypko?at_medium=RSS&at_campaign=rss",
@@ -2192,54 +1728,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "50204bd9b3d153f7",
-      "title": "Meta tests a stand-alone app for its AI-generated ‘Vibes’ videos",
-      "link": "https://techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos/",
-      "summary": "Launched last September, Vibes lets you create and share short-form AI-generated videos and access a dedicated feed that displays AI videos from others.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:19:01.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c7e552297e3ce7d5",
-      "title": "Apple’s new ‘HomePad’ is my most wanted product that’s coming soon",
-      "link": "https://9to5mac.com/2026/02/05/apples-new-homepad-is-my-most-wanted-product-thats-coming-soon/",
-      "summary": "Apple has a brand new Home product—potentially called ‘HomePad’ or ‘HomePod Touch’—that’s reportedly launching this spring. And out of the many products Apple has coming in the next few months, HomePad is easily the one I want most. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:17:22.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "88625147491e0192",
-      "title": "What Apple’s subscription model tells us about its future",
-      "link": "https://9to5mac.com/2026/02/05/what-apples-subscription-model-tells-us-about-its-future/",
-      "summary": "You might have noticed that over the last several years, more and more companies have shifted to a subscription model for their products and services, and Apple has slowly begun to follow suit. As Apple hardware continues to improve, customers are keeping their devices for longer. Meaning that Appl…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:13:02.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2285,22 +1773,6 @@
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6198e9d6217aaa14",
-      "title": "Pacific Fusion finds a cheaper way to make its fusion reactor work",
-      "link": "https://techcrunch.com/2026/02/05/pacific-fusion-finds-a-cheaper-way-to-make-its-fusion-reactor-work/",
-      "summary": "The fusion power startup recently completed some experiments at Sandia National Laboratories and shared the results exclusively with TechCrunch.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T17:00:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2403,22 +1875,6 @@
       "region": "global"
     },
     {
-      "id": "d02c8e7cbaaeb61c",
-      "title": "Deals: iPad mini $100 off, M5 iPad Pro $230 off, Powerbeats Pro 2, Apple Watch bands $15, more",
-      "link": "https://9to5mac.com/2026/02/05/deals-ipad-mini-m5-ipad-pro-powerbeats-pro-2/",
-      "summary": "Alongside the ongoing $100 price drops on all Apple Watch Series 11 models, today we are turning our attention to iPad. The most affordable iPad mini is $100 off in all four colors while we also spotted a chance to land the least pricey M5 iPad Pro you can buy at $230 off the list price. Those deal…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T16:41:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "6989db9bd8459411",
       "title": "Final Fantasy 7 Rebirth comes to Switch 2 on June 3",
       "link": "https://www.engadget.com/gaming/nintendo/final-fantasy-7-rebirth-comes-to-switch-2-on-june-3-163009481.html?src=rss",
@@ -2493,38 +1949,6 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "da301decac07eee3",
-      "title": "iOS 26.4 is coming: Here are the rumored new features",
-      "link": "https://9to5mac.com/2026/02/05/ios-26-4-is-coming-here-are-the-rumored-new-features/",
-      "summary": "The iOS 26.3 RC debuted yesterday, which means the first iOS 26.4 beta will be dropping soon too. Here is every rumored new feature that iOS 26.4 is expected to bring. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T15:56:09.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0ab251f41115ffff",
-      "title": "Trump’s critical mineral reserve is an admission that the future is electric",
-      "link": "https://techcrunch.com/2026/02/05/trumps-critical-mineral-reserve-is-an-admission-that-the-future-is-electric/",
-      "summary": "The administration's $12 billion stockpile of critical minerals is aimed at blunting China's influence. But it also revels the direction of the global economy.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T15:48:44.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2643,38 +2067,6 @@
       "region": "global"
     },
     {
-      "id": "89cd376770064795",
-      "title": "Fundamental raises $255M Series A with a new take on big data analysis",
-      "link": "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
-      "summary": "Fundamental has built a new foundation model to solve an old problem: how to draw insights from the huge quantities of structured data produced by enterprises.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T15:00:02.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "404e274cd6c061cc",
-      "title": "Substack confirms data breach affects users’ email addresses and phone numbers",
-      "link": "https://techcrunch.com/2026/02/05/substack-confirms-data-breach-affecting-email-addresses-and-phone-numbers/",
-      "summary": "Substack said that customer data was accessed in October 2025 but wasn't discovered until early February.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T14:55:02.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f1df93fd5859c08e",
       "title": "Wales coach suffers 'freak' injury on eve of Six Nations",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cly3k3npplmo?at_medium=RSS&at_campaign=rss",
@@ -2688,22 +2080,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b620e2793daaf779",
-      "title": "ElevenLabs CEO: Voice is the next interface for AI",
-      "link": "https://techcrunch.com/2026/02/05/elevenlabs-ceo-voice-is-the-next-interface-for-ai/",
-      "summary": "ElevenLabs CEO argued at Web Summit Qatar that voice is the next interface for AI, as OpenAI, Google, and Apple push conversational systems into wearables, new hardware, and everyday interactions.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T14:41:12.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2787,22 +2163,6 @@
       "region": "global"
     },
     {
-      "id": "260b9809721bf8ee",
-      "title": "Apple Arcade just got Civilization VII and three more new games",
-      "link": "https://9to5mac.com/2026/02/05/apple-arcade-just-got-civilization-vii-and-three-more-new-games/",
-      "summary": "Apple has just launched the latest new games for Apple Arcade, and there’s a big AAA title among them: Sid Meier’s Civilization VII. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T14:07:04.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "26096499f400fd70",
       "title": "The Sony WH-1000XM6 headphones drop to a record-low price",
       "link": "https://www.engadget.com/deals/the-sony-wh-1000xm6-headphones-drop-to-a-record-low-price-175038542.html?src=rss",
@@ -2813,22 +2173,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fa8f26e9b60f4849",
-      "title": "IKEA acknowledges connectivity problems with budget Matter-over-Thread devices",
-      "link": "https://9to5mac.com/2026/02/05/ikea-acknowledges-connectivity-problems-with-budget-matter-over-thread-devices/",
-      "summary": "Swedish self-assembly furniture giant IKEA has made an additional name for itself through its growing range of budget-priced smart home devices. But if you were thinking of picking up some of its new Matter-over-Thread products, you may want to wait a little while. There have been a number of frust…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T14:00:10.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -2867,6 +2211,22 @@
       "region": "global"
     },
     {
+      "id": "d95b9be36afe3070",
+      "title": "The New Collabora Office for Desktop",
+      "link": "https://www.collaboraonline.com/collabora-office/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-05T13:47:59.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "5ce277b280bc864a",
       "title": "Valve pushes back Steam Machine launch due to storage and memory shortage",
       "link": "https://www.engadget.com/gaming/pc/valve-pushes-back-steam-machine-launch-due-to-storage-and-memory-shortage-133000103.html?src=rss",
@@ -2896,22 +2256,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "5368d5c0184bf851",
-      "title": "Here’s how Apple may protect the display of the iPhone Fold",
-      "link": "https://9to5mac.com/2026/02/05/heres-how-apple-may-protect-the-display-of-the-iphone-fold/",
-      "summary": "Apple appears to be working hard to ensure it doesn’t repeat Samsung’s mistakes when it launches the iPhone Fold. A new report says the company is considering the use of a new built-in screen protector with exceptional surface hardness and scratch resistance. It follows an earlier report on another…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T13:27:55.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3075,22 +2419,6 @@
       "region": "global"
     },
     {
-      "id": "23ca79bb3a85c488",
-      "title": "Spotify is about to start selling physical books for some reason",
-      "link": "https://9to5mac.com/2026/02/05/spotify-is-about-to-start-selling-physical-books-for-some-reason/",
-      "summary": "Spotify is about to allow premium subscribers in the US and UK to buy physical books through the app, in a move the company expects to drive revenue for both itself and indie bookstores. It’s an expansion of the company’s partnership with bookshop.org on audiobooks, but it’s hard to see how the mov…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T12:30:28.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c2c32c2a7f1ef75a",
       "title": "Surfshark VPN deal: Get up to 87 percent off two-year plans",
       "link": "https://www.engadget.com/deals/surfshark-vpn-deal-get-up-to-87-percent-off-two-year-plans-123000066.html?src=rss",
@@ -3120,22 +2448,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d0b1a70bb9be1143",
-      "title": "Three ways Apple achieved the best iPhone sales in history in China",
-      "link": "https://9to5mac.com/2026/02/05/three-ways-apple-achieved-the-best-iphone-sales-in-history-in-china/",
-      "summary": "Apple reported record-breaking earnings in the final quarter of last year, and CEO Tim Cook highlighted growth in iPhone sales in China as a key reason for this. This was a dramatic reversal after 18 months of declining sales in the country, and analysts say there are three reasons for this … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T12:04:36.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3344,6 +2656,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d1084fd5d0445992",
+      "title": "Nanobot: Ultra-Lightweight Alternative to OpenClaw",
+      "link": "https://github.com/HKUDS/nanobot",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-05T09:39:11.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3619,6 +2947,22 @@
       "region": "global"
     },
     {
+      "id": "799a530dffb39961",
+      "title": "Don't rent the cloud, own instead",
+      "link": "https://blog.comma.ai/datacenter/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-05T05:50:01.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "f4b25728d5eef49c",
       "title": "للمرة الأولى.. ألفابت تسجل إيرادات تتجاوز 400 مليار دولار",
       "link": "https://www.skynewsarabia.com/business/1850996-%D9%84%D9%84%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84%D9%89-%D8%A7%D9%94%D9%84%D9%81%D8%A7%D8%A8%D8%AA-%D8%AA%D8%B3%D8%AC%D9%84-%D8%A7%D9%95%D9%8A%D8%B1%D8%A7%D8%AF%D8%A7%D8%AA-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-400-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
@@ -3779,54 +3123,6 @@
       "region": "global"
     },
     {
-      "id": "8fdf8811749d040e",
-      "title": "Latest macOS 26.3 beta adds to signs that new M5 MacBook Pros are imminent",
-      "link": "https://9to5mac.com/2026/02/04/latest-macos-26-3-beta-adds-to-signs-that-new-m5-macbook-pros-are-imminent/",
-      "summary": "If you’re among the growing number of users hoping to see updated MacBook Pro versions with new M5 chips sooner rather than later, today’s macOS 26.3 RC brings some great news. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T02:51:10.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e355d791d746aa1a",
-      "title": "iPad shipments jump in Q4 2025, but memory constraints loom for 2026: report",
-      "link": "https://9to5mac.com/2026/02/04/ipad-shipments-jump-in-q4-2025-memory-constraints-loom-for-2026-report/",
-      "summary": "Research firm Omdia has released a new report on worldwide tablet shipments for the last quarter of 2025, as well as a roundup for the full year. Here’s how the iPad did. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T01:37:24.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "059829b50a6450b9",
-      "title": "The future of apps is voice",
-      "link": "https://9to5mac.com/2026/02/04/the-future-of-apps-is-voice/",
-      "summary": "Like it or not, there’s no turning back: apps and operating systems will steadily gravitate toward voice-first interactions. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T00:41:54.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "a31a785b716c9c21",
       "title": "More questions than answers in challenging Newcastle season",
       "link": "https://www.bbc.com/sport/football/articles/c17zkkjnqpno?at_medium=RSS&at_campaign=rss",
@@ -3840,22 +3136,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3ca5776e8b727280",
-      "title": "Google execs suggest Gemini-powered Siri will, in fact, run on Google’s own servers",
-      "link": "https://9to5mac.com/2026/02/04/google-execs-suggest-gemini-powered-siri-will-in-fact-run-on-googles-own-servers/",
-      "summary": "During Alphabet’s Q4 2025 earnings call, CEO Sundar Pichai added to the confusion regarding where, exactly, the upcoming Gemini-powered Siri will run. Here’s what he said. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T00:04:40.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3891,22 +3171,6 @@
       "region": "global"
     },
     {
-      "id": "89fac2f0a190e7d1",
-      "title": "Eddy Cue and Formula 1 CEO tease ‘F1: The Movie’ sequel at Apple TV press day event",
-      "link": "https://9to5mac.com/2026/02/04/eddy-cue-and-formula-1-ceo-tease-f1-the-movie-sequel-at-apple-tv-press-day-event/",
-      "summary": "Act surprised, but it is looking increasingly likely that Apple TV’s most successful movie to date might get a sequel. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T22:05:06.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "00a814fbb2be24cb",
       "title": "Dodds stars as GB curlers start Winter Olympics with win",
       "link": "https://www.bbc.com/sport/videos/cwyw0pxj471o?at_medium=RSS&at_campaign=rss",
@@ -3920,54 +3184,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "8e033036db32fab1",
-      "title": "watchOS 26 added a new Apple Watch trick that I’ve been loving",
-      "link": "https://9to5mac.com/2026/02/04/watchos-26-added-a-new-apple-watch-trick-that-ive-been-loving/",
-      "summary": "watchOS 26 brought a variety of big and small updates to the Apple Watch, but one I’ve been increasingly loving is the new wrist flick gesture. Here’s how it works and what I’ve been using it for. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T21:58:15.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e815a424c8cd6119",
-      "title": "9to5Mac Daily: February 4, 2026 – Apple Music Replay, Xcode upgrade",
-      "link": "https://9to5mac.com/2026/02/04/daily-february-4-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Stuff: Stuff helps you get everything out of your head a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T21:29:49.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7106f2ff0218f603",
-      "title": "Apple boosts Indian manufacturing investment with new supplier Education Hub",
-      "link": "https://9to5mac.com/2026/02/04/apple-boosts-indian-manufacturing-investment-with-education-hub/",
-      "summary": "As part of its broader manufacturing push in India, Apple is expanding supplier training to include Swift coding, robotics, automation technology, and smart manufacturing. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T21:21:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4003,70 +3219,6 @@
       "region": "global"
     },
     {
-      "id": "4eb0626cbbe94b8e",
-      "title": "CarPlay connection issues? This might explain why",
-      "link": "https://9to5mac.com/2026/02/04/carplay-connection-issues/",
-      "summary": "If your Apple CarPlay connection randomly drops out while driving, the cause might not be your iPhone, cable, or car. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T21:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2e0ac52298f3c820",
-      "title": "BenQ’s latest MoonHalo monitor combines 120Hz refresh rate with 3:2 aspect ratio for cozy comfort",
-      "link": "https://9to5mac.com/2026/02/04/benqs-latest-moonhalo-monitor-combines-120hz-refresh-rate-with-32-aspect-ratio-for-cozy-comfort/",
-      "summary": "Last year, I spent some time BenQ RD280UG shine. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T20:55:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d129d3ecf4973f22",
-      "title": "Lockdown Mode prevented FBI from getting into reporter’s iPhone",
-      "link": "https://9to5mac.com/2026/02/04/lockdown-mode-prevented-fbi-from-getting-into-reporter-iphone/",
-      "summary": "After the FBI raided a Washington Post reporter’s home and seized multiple devices, Lockdown Mode prevented them from accessing her iPhone. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T20:50:20.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a3ca0154ef7c3691",
-      "title": "Tim Cook revealed standout AI feature for users, and it’s rumored to get even better",
-      "link": "https://9to5mac.com/2026/02/04/tim-cook-revealed-standout-ai-feature-for-users-and-its-rumored-to-get-even-better/",
-      "summary": "Tim Cook recently called out one specific AI feature—visual intelligence—as being among the most popular Apple Intelligence capabilities so far. And rumors indicate that later this year, it could get a lot more powerful. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T20:37:47.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f5b79766c8dabcb0",
       "title": "Judge gives Musk bad news, says Trump hasn't intervened to block SEC lawsuit",
       "link": "https://arstechnica.com/tech-policy/2026/02/trump-ghosts-musk-wont-back-claims-sec-lawsuit-was-political-harassment/",
@@ -4083,22 +3235,6 @@
       "region": "global"
     },
     {
-      "id": "68e575b736f9b860",
-      "title": "Apple counts down to Super Bowl LX in Apple Music, Invites, and more",
-      "link": "https://9to5mac.com/2026/02/04/apple-counts-down-to-super-bowl-lx-in-apple-music-invites-and-more/",
-      "summary": "In celebration of Super Bowl LX this weekend, Apple is counting down to the Apple Music Halftime Show with Bad Bunny. The company has shared exclusive content featuring Bad Bunny on Shazam, Apple Music, and more. Plus, Apple Invites has added an “exclusive visual” featuring Bad Bunny. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T20:12:36.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "7ab8c0b5e27689aa",
       "title": "The best digital frames for 2026",
       "link": "https://www.engadget.com/home/smart-home/best-digital-frame-120046051.html?src=rss",
@@ -4109,22 +3245,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d26ab695d4e450f4",
-      "title": "Apple confirms ongoing Xcode Cloud disruption affecting all developers [U: Solved]",
-      "link": "https://9to5mac.com/2026/02/04/apple-confirms-ongoing-xcode-cloud-disruption-affecting-all-developers/",
-      "summary": "Update, 4:22 p.m. ET: Apple says the issue has now been resolved. The original post follows below. Apple Developer’s System Status page reports that Xcode Cloud has been experiencing issues since yesterday. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T19:53:01.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -4179,86 +3299,6 @@
       "region": "global"
     },
     {
-      "id": "ecdf9b349abf59b8",
-      "title": "Apple debuts RC for tvOS 26.3, watchOS 26.3, and more",
-      "link": "https://9to5mac.com/2026/02/04/apple-debuts-rc-for-tvos-26-3-watchos-26-3-and-more/",
-      "summary": "Apple has just shipped the RC (release candidate) versions of its forthcoming 26.3 software updates, including tvOS 26.3, watchOS 26.3, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T19:14:27.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d2d22dde96d60e58",
-      "title": "macOS Tahoe 26.3 RC rolling out now for developers [U: Public beta]",
-      "link": "https://9to5mac.com/2026/02/04/macos-tahoe-26-3-rc-rolling-out-now-for-developers/",
-      "summary": "After three beta releases, Apple is moving macOS Tahoe 26.3 to the Release Candidate stage, ahead of the upcoming official release in the coming days. Here’s what to expect from the update. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T19:10:19.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "af277a7e5b938c29",
-      "title": "Apple releases iOS 26.3 RC for iPhone",
-      "link": "https://9to5mac.com/2026/02/04/apple-releases-ios-26-3-rc-for-iphone/",
-      "summary": "Apple has released the iOS 26.3 Release Candidate for iPhone. iOS 26.3 introduces an easier way to switch between Android and iPhone, tweaks to the Astronomy and Weather wallpaper gallery, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T19:09:46.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "weather",
-      "region": "global"
-    },
-    {
-      "id": "146cceaee5fb284e",
-      "title": "iPadOS 26.3 RC available now ahead of public launch",
-      "link": "https://9to5mac.com/2026/02/04/ipados-26-3-rc-available-now-ahead-of-public-launch/",
-      "summary": "Apple’s beta cycle for its 26.3 updates is officially wrapping up, as the iPadOS 26.3 RC (release candidate) is now available for testing. Here’s what that means. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T19:09:21.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2db625e9318d2e16",
-      "title": "You can now access F1 TV with your Apple TV account, here’s how to set it up",
-      "link": "https://9to5mac.com/2026/02/04/f1-tv-free-with-apple-tv-link-subscription/",
-      "summary": "About a month ahead of first Grand Prix of the season, Formula 1 fans can now link their Apple TV account with F1.TV, in order to start enjoying the F1.TV platform at the Premium tier at no extra charge; Premium used to cost $129 per year. This rollout is part of Apple’s exclusive streaming partner…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T19:01:42.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "cb1b6d9cc682487c",
       "title": "Nasal spray could prevent infections from any flu strain",
       "link": "https://www.newscientist.com/article/2514199-nasal-spray-could-prevent-infections-from-any-flu-strain/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -4288,22 +3328,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "4df94f059a85b1c0",
-      "title": "Will the Studio Display 2 have this key upgrade?",
-      "link": "https://9to5mac.com/2026/02/04/will-the-studio-display-2-have-this-key-upgrade/",
-      "summary": "Apple is expected to release a new version of the Studio Display sometime in the first half of the year. This will mark its first update since originally debuting alongside the Mac Studio in 2022. However, a new rumor suggests the Studio Display 2 might not have a most-wanted feature after all… mor…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T18:40:25.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -4483,22 +3507,6 @@
       "region": "global"
     },
     {
-      "id": "1205bf992c11b21a",
-      "title": "Deals: Apple Pencil Pro up to 45% off, Apple Watch Ultra 3 up to $104 off, Crossbody Strap, more",
-      "link": "https://9to5mac.com/2026/02/04/deals-pencil-pro-apple-watch-ultra-3-crossbody-strap/",
-      "summary": "Alongside the ongoing $100 price drops on Apple Watch Series 11 models from $299, as well as the$300 discounts on M5 MacBook Pro configurations configs, today’s 9to5Toys Lunch Break is featuring a series of notable Apple accessory deals. We have Apple Pencil Pro from $70 (up o 45% off), the Terra C…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T16:44:26.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "f4e20401d066ecf5",
       "title": "iPhone Fold rumors: Everything we know so far, including the leaked foldable design",
       "link": "https://www.engadget.com/mobile/smartphones/iphone-fold-rumors-everything-we-know-so-far-including-the-leaked-foldable-design-130000349.html?src=rss",
@@ -4509,22 +3517,6 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4f08dcaab38ddc73",
-      "title": "Apple now sells iPhone 16 Pro and Pro Max refurbished with discounts",
-      "link": "https://9to5mac.com/2026/02/04/apple-now-sells-iphone-16-pro-and-pro-max-refurbished-with-discounts/",
-      "summary": "Apple has updated its online refurbished products store with some big additions: iPhone 16, iPhone 16 Pro, and iPhone 16 Pro Max are now available refurbished with discounts. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T16:36:04.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -4544,22 +3536,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b85da9a1c6c896b6",
-      "title": "Apple has rare updates coming soon for these three products",
-      "link": "https://9to5mac.com/2026/02/04/apple-has-rare-updates-coming-soon-for-these-three-products/",
-      "summary": "Apple launched its first product of the year last week: AirTag 2, which arrived five years after the original model. Here are three more new Apple products coming soon that have years-old prior models. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T16:03:19.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4595,54 +3571,6 @@
       "region": "global"
     },
     {
-      "id": "799dffe827818a22",
-      "title": "CarPlay could make a splash in an unexpected vehicle",
-      "link": "https://9to5mac.com/2026/02/04/carplay-could-make-a-splash-in-an-unexpected-vehicle/",
-      "summary": "While Tesla may be the last automaker anyone expected to consider CarPlay, there’s an even more unlikely vehicle maker that could adopt Apple’s infotainment feature in the future. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T15:59:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7beb33ce6ec8885e",
-      "title": "Hands-on: this tiny SSD is the most iPhone-friendly external drive yet",
-      "link": "https://9to5mac.com/2026/02/04/hands-on-this-tiny-ssd-is-the-most-iphone-friendly-external-drive-yet/",
-      "summary": "Storage on Apple devices has always been a sensitive subject. Whether it’s for an iPhone, iPad, or Mac, you always pay the highest premium when upgrading the internal storage. An iPhone 17 Pro Max can go from $1199 for its 256GB entry-level model to $2000 for the 2TB model. That’s an additional $80…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T15:49:10.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a7efabdb57d43dee",
-      "title": "Spotify upgrades lyrics support with three new features",
-      "link": "https://9to5mac.com/2026/02/04/spotify-upgrades-lyrics-support-with-three-new-features/",
-      "summary": "Spotify has announced three big updates rolling out to its lyrics feature. The company says that lyric translations are now available worldwide. It’s also rolling out support for offline lyrics, plus an updated design for previewing lyrics right on the Now Playing view in the Spotify app. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T14:57:22.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b477fb3693332b49",
       "title": "A social network for AI looks disturbing, but it's not what you think",
       "link": "https://www.newscientist.com/article/2514240-a-social-network-for-ai-looks-disturbing-but-its-not-what-you-think/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -4653,22 +3581,6 @@
       "source": {
         "name": "New Scientist",
         "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "504c3703e56073bc",
-      "title": "Alexa+ launches for all US users, here’s how to upgrade (or skip it for now)",
-      "link": "https://9to5mac.com/2026/02/04/alexa-launches-for-all-us-users-heres-how-to-upgrade-or-skip-it-for-now/",
-      "summary": "Alexa+ is Amazon’s new AI-infused version of its popular assistant. Following a slow initial rollout, Amazon has just made Alexa+ available to all users in the US. Here’s how to upgrade to Alexa+, or skip it for now. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T14:32:51.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -4691,22 +3603,6 @@
       "region": "global"
     },
     {
-      "id": "f58cbfb98f64fe8b",
-      "title": "iPhone 17 Pro Max has the best battery life of 35 smartphones tested",
-      "link": "https://9to5mac.com/2026/02/04/iphone-17-pro-max-has-the-best-battery-life-of-35-smartphones-tested/",
-      "summary": "Battery life tests carried out by CNET reveal that the iPhone 17 Pro Max has the best battery life of any of the smartphones tested, and that Apple heads the brand rankings across its models. Apple’s flagship model took first place, ahead of several models with substantially higher battery capacity…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T14:07:42.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "a158aea6e10565b2",
       "title": "Forever chemical TFA has tripled due to ozone-preserving refrigerants",
       "link": "https://www.newscientist.com/article/2514278-forever-chemical-tfa-has-tripled-due-to-ozone-preserving-refrigerants/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -4723,54 +3619,6 @@
       "region": "global"
     },
     {
-      "id": "fcc9d0afd0b8a01d",
-      "title": "Anthropic pokes fun at ads in ChatGPT with Superbowl ad [Video]",
-      "link": "https://9to5mac.com/2026/02/04/anthropic-pokes-fun-at-ads-in-chatgpt-with-superbowl-ad-video/",
-      "summary": "OpenAI recently revealed that we will soon see ads in ChatGPT conversations, and Anthropic is having some fun with this. It will reportedly run an ad during Sunday’s Super Bowl (below) in which ChatGPT isn’t named but is very clearly the target … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T13:41:30.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "195318470c20bbf5",
-      "title": "Apple Sports for iPhone updated with PGA, LPGA, and more",
-      "link": "https://9to5mac.com/2026/02/04/apple-sports-for-iphone-updated-with-pga-lpga-and-more/",
-      "summary": "Apple is rolling out another update to its Apple Sports app for iPhone. This update adds support for Men’s and Women’s golf, as well as expanded support for soccer and tennis matches. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T12:58:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "eefff81e101c38bd",
-      "title": "iOS 26.2.1 causing crashes, freezes, and severe battery drain for some",
-      "link": "https://9to5mac.com/2026/02/04/ios-26-2-1-causing-crashes-freezes-and-severe-battery-drain-for-some/",
-      "summary": "iOS 26.2.1 was released last week, adding support for AirTag 2, alongside bug fixes. However, a small minority of users are reporting that it has introduced bugs rather than removed them. Among the problems being reported are apps crashing, freezing, or lagging; connectivity failures; and severe ba…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T12:29:29.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "40e08bf233621371",
       "title": "More than the Score",
       "link": "https://www.bbc.co.uk/sounds/play/p0mz06dc?at_medium=RSS&at_campaign=rss",
@@ -4784,22 +3632,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "7ebc966c9827cb1e",
-      "title": "PSA: Check your Apple Home is up to date in the next few days",
-      "link": "https://9to5mac.com/2026/02/04/psa-check-your-apple-home-is-up-to-date-in-the-next-few-days/",
-      "summary": "It’s well over three years since the launch of a new Apple Home architecture to make HomeKit more reliable and to support the Matter standard. Still, not everyone has yet updated, and if you’re among them, you now have less than a week to do so before your smart home stops working … more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T12:07:12.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -5283,166 +4115,6 @@
       "region": "global"
     },
     {
-      "id": "d1c076d05485d866",
-      "title": "Apple’s search deal with Google could face renewed scrutiny as DOJ appeals antitrust ruling",
-      "link": "https://9to5mac.com/2026/02/03/apple-search-deal-with-google-could-face-renewed-scrutiny-as-doj-appeals-antitrust-ruling/",
-      "summary": "Last year, a federal judge ruled that Google had illegally maintained a search monopoly, but allowed the company to keep paying to be the default search engine on Apple devices (with very few caveats). Now, the Department of Justice and a group of states are appealing the overall decision. ￼Here ar…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-04T00:37:45.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ddf5a1f7b86e1cd6",
-      "title": "xAI accused of destroying evidence in antitrust case against Apple and OpenAI",
-      "link": "https://9to5mac.com/2026/02/03/xai-accused-of-destroying-evidence-in-antitrust-case-against-apple-and-openai/",
-      "summary": "As OpenAI accused xAI of systematically destroying internal communications, the court also shut down xAI’s bid to add a high-ranking former OpenAI researcher to discovery. Here’s the latest on this increasingly messy lawsuit. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T21:00:32.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f7d74e0dd5e2bf8c",
-      "title": "ChatGPT is down for many users in major OpenAI outage [U: Fixed]",
-      "link": "https://9to5mac.com/2026/02/03/chatgpt-is-down-for-many-users-in-major-outage/",
-      "summary": "It’s not just you: ChatGPT is down for many users right now. Here’s the latest on OpenAI’s outage. Update: the problem was resolved with all elements of the service back online by February 4. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T20:37:06.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "0c193b48e7fda719",
-      "title": "9to5Mac Daily: February 3, 2026 – iPhone 18 rumors and pricing",
-      "link": "https://9to5mac.com/2026/02/03/daily-february-3-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Stuff: Stuff helps you get everything out of your head a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T20:25:53.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "94c0b4ba0c1b73f7",
-      "title": "Apple TV unveils Anya Taylor-Joy’s first big series since The Queen’s Gambit",
-      "link": "https://9to5mac.com/2026/02/03/apple-tv-unveils-anya-taylor-joys-first-big-series-since-the-queens-gambit/",
-      "summary": "Apple TV is hosting a major media event today, and it just unveiled the highly-anticipated series Lucky, which stars Anya Taylor-Joy in her first big show since The Queen’s Gambit. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T20:21:05.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d3f434adef872bb8",
-      "title": "A deep dive into Genstore.ai, a powerful tool for e-commerce entrepreneurs",
-      "link": "https://9to5mac.com/2026/02/03/genstore-ai-top-product-hunt-platform-tailored-mac-based-e-commerce-entrepreneurs/",
-      "summary": "Anyone looking to launch an online shop runs into the same questions: Do I need to code? How do I choose the right products? And what about inventory, suppliers, and customer support? Even with traditional online shop platforms and site-building tools, you still need to do most, if not all, of the …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T20:10:10.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e2085df091ab398b",
-      "title": "Apple hosted Apple TV media event, here’s everything it announced",
-      "link": "https://9to5mac.com/2026/02/03/apple-hosts-apple-tv-media-event-heres-everything-thats-been-announced/",
-      "summary": "Apple hosted a special media event on Tuesday called the ‘2026 Apple TV Press Day.’ Here’s everything that was announced at the event. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T20:01:03.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1882824308d79a93",
-      "title": "Apple to update minimum SDK requirements for all App Store submissions",
-      "link": "https://9to5mac.com/2026/02/03/apple-to-update-minimum-sdk-requirements-for-all-app-store-submissions/",
-      "summary": "Apple informed developers today of an upcoming update to the minimum Software Development Kit (SDK) requirements for iOS, iPadOS, tvOS, visionOS, and watchOS apps. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T19:57:26.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8d889db77dbc18f7",
-      "title": "Apple TV has hit sci-fi series returning soon, new trailer here",
-      "link": "https://9to5mac.com/2026/02/03/apple-tv-has-hit-sci-fi-series-returning-soon-new-trailer-here/",
-      "summary": "Apple TV’s biggest premiere in February is the return of Monarch: Legacy of Monsters, a sci-fi epic featuring monsters like Godzilla and Kong. Here’s the new trailer. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T19:42:01.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "31cb8bf577f0e683",
-      "title": "Apple TV has new comedy coming soon starring Keanu Reeves",
-      "link": "https://9to5mac.com/2026/02/03/apple-tv-has-new-comedy-coming-soon-starring-keanu-reeves/",
-      "summary": "Apple TV is holding a major press event today, offering a sneak peek at what’s coming next to the streamer. After unveiling a highly-anticipated series earlier today, Apple TV has just announced a new dark comedy—Outcome—that’s premiering soon with star Keanu Reeves. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T19:05:15.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "4a6dff68e5e6a0b8",
       "title": "Dutch air force reads pilots' brainwaves to make training harder",
       "link": "https://www.newscientist.com/article/2510975-dutch-air-force-reads-pilots-brainwaves-to-make-training-harder/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -5475,22 +4147,6 @@
       "region": "global"
     },
     {
-      "id": "b43019d124a3f1d8",
-      "title": "Apple announces agentic coding in Xcode with Claude Agent and Codex integration",
-      "link": "https://9to5mac.com/2026/02/03/apple-announces-agentic-coding-in-xcode-with-claude-agent-and-codex-integration/",
-      "summary": "Apple has announced a major upgrade for Xcode: support for agentic coding. Apple says that developers can now build apps with coding agents such as Anthropic’s Claude Agent and OpenAI’s Codex directly inside Xcode. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T18:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "191de6a7c8099b8e",
       "title": "لماذا يصعب كسر قبضة الصين على المعادن النادرة؟",
       "link": "https://www.skynewsarabia.com/business/1850656-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%B5%D8%B9%D8%A8-%D9%83%D8%B3%D8%B1-%D9%82%D8%A8%D8%B6%D8%A9-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%86-%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D8%B1%D8%A9%D8%9F",
@@ -5504,38 +4160,6 @@
       },
       "lang": "ar",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ac68b6a417d16112",
-      "title": "Apple TV has new thriller from Steven Spielberg, Martin Scorsese coming soon",
-      "link": "https://9to5mac.com/2026/02/03/apple-tv-has-new-thriller-from-steven-spielberg-martin-scorsese-coming-soon/",
-      "summary": "Apple TV has announced a release date for Cape Fear, a new psychological thriller series coming from the producing powerhouse duo of Steven Spielberg and Martin Scorsese. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T17:11:16.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "eda5016ba81f5539",
-      "title": "Apple Music Replay 2026 now live, here’s how to find it",
-      "link": "https://9to5mac.com/2026/02/03/apple-music-replay-2026-now-live-heres-how-to-find-it/",
-      "summary": "Apple Music Replay 2026 is now available, breaking down your top songs and artists of the year so far. Here’s how to find it and what data it includes. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T17:05:22.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5555,22 +4179,6 @@
       "region": "global"
     },
     {
-      "id": "deedb460a1440e8a",
-      "title": "Deals: AirPods Pro 3, M5 MacBook Pro $300 off, M5 iPad Pro up to $340 off, Milanese Loop, more",
-      "link": "https://9to5mac.com/2026/02/03/deals-airpods-pro-3-m5-macbook-pro-m5-ipad-pro/",
-      "summary": "Tuesday’s 9to5Toys Lunch Break awaits below starting with a chance to land AirPods Pro 3 at the lowest price we have tracked to date. We also spotted some particularly notable deals on M5 MacBook Pro configurations with 24GB and 32GB models sitting down at the lowest prices we have tracked at $300 …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T16:43:32.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9abc427a82983e05",
       "title": "صادرات السلع الصينية تربك اقتصادات أميركا اللاتينية",
       "link": "https://www.skynewsarabia.com/business/1850644-%D8%B5%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%84%D8%B9-%D8%A7%D9%84%D8%B5%D9%8A%D9%86%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A8%D9%83-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%94%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D9%8A%D8%A9",
@@ -5583,22 +4191,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/business.xml"
       },
       "lang": "ar",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "dd27e9ebdcb65449",
-      "title": "iOS 26’s Passwords app has a new feature that can save you a headache",
-      "link": "https://9to5mac.com/2026/02/03/ios-26s-passwords-app-has-a-new-feature-that-can-save-you-a-headache/",
-      "summary": "Apple’s Passwords app has become my full-time password manager thanks to several iOS 26 changes. And there’s one welcome new feature I recently discovered that can prevent the headache of a forgotten password loop. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T16:28:31.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
       "category": "general",
       "region": "global"
     },
@@ -5635,22 +4227,6 @@
       "region": "global"
     },
     {
-      "id": "5328c33806620130",
-      "title": "New ‘Humans of Apple TV’ video debuts, watch it here",
-      "link": "https://9to5mac.com/2026/02/03/new-humans-of-apple-tv-video-debuts-watch-it-here/",
-      "summary": "Apple just released a video highlighting the “Humans of Apple TV.” It features a series of behind-the-scenes stills from a variety of beloved Apple TV shows and movies. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T15:46:08.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "69224cbfe31b07fb",
       "title": "موانئ أبوظبي توقّع اتفاقية تمويل لمحطة سفاجا في مصر",
       "link": "https://www.skynewsarabia.com/business/1850630-%D9%85%D9%88%D8%A7%D9%86%D9%8A%D9%94-%D8%A7%D9%94%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AA%D9%88%D9%82%D9%91%D8%B9-%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D9%84%D9%85%D8%AD%D8%B7%D8%A9-%D8%B3%D9%81%D8%A7%D8%AC%D8%A7-%D9%85%D8%B5%D8%B1",
@@ -5683,38 +4259,6 @@
       "region": "global"
     },
     {
-      "id": "ad731038f36af22e",
-      "title": "‘Reddit for bots’ Moltbook (probably) isn’t being used to plot an AI uprising",
-      "link": "https://9to5mac.com/2026/02/03/reddit-for-bots-moltbook-probably-isnt-being-used-to-plot-an-ai-uprising/",
-      "summary": "Moltbot, a personal AI assistant being run on batches of Mac minis, got a lot of attention when creator Matt Schlicht effectively partnered with his own assistant to develop a social media platform for the bots. Known as Moltbook, it’s been colloquially referred to as Reddit for AI bots. Schlicht s…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T15:21:01.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4aca8c1cbf04e6ce",
-      "title": "Fitbit creators launch ‘Luffu,’ a new app for family health sharing",
-      "link": "https://9to5mac.com/2026/02/03/fitbit-creators-launch-luffu-a-new-app-for-family-health-sharing/",
-      "summary": "Fitbit co-founders James Park and Eric Friedman today announced the launch of Luffu (“loo-foo”), a new health app for families that will eventually expand to hardware devices too. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T15:15:44.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "eeb26d7f7966004d",
       "title": "إعادة تشكيل الإنسان.. القرقاوي يحدد 4 قوى رئيسية",
       "link": "https://www.skynewsarabia.com/business/1850615-%D8%A7%D9%95%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%B3%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%82%D8%A7%D9%88%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AF-4-%D9%82%D9%88%D9%89-%D8%B1%D9%8A%D9%94%D9%8A%D8%B3%D9%8A%D8%A9",
@@ -5728,22 +4272,6 @@
       },
       "lang": "ar",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "511e90003825e7a5",
-      "title": "iOS 26.2 expands AirPods Pro’s powerful new feature, here’s how to use it",
-      "link": "https://9to5mac.com/2026/02/03/ios-26-2-expands-airpods-pros-powerful-new-feature-heres-how-to-use-it/",
-      "summary": "iOS 26.2 is the latest major iPhone update, and among its many new features, AirPods Live Translation expanded to a lot more users. Here’s how to use AirPods’ powerful recent addition. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T14:16:19.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5763,35 +4291,19 @@
       "region": "global"
     },
     {
-      "id": "456bf3310032288a",
-      "title": "All-new MacBook Pro design reportedly set to launch in final quarter this year",
-      "link": "https://9to5mac.com/2026/02/03/all-new-macbook-pro-design-reportedly-set-to-launch-in-final-quarter-this-year/",
-      "summary": "We’re expecting to see two MacBook Pro launches this year. The first, expected sometime this month, is an M5 Pro and M5 Max version of the current design. But the far more exciting prospect is an all-new MacBook Pro design later in the year. A new supply chain report says that Samsung is gearing up…",
+      "id": "35335382708d2121",
+      "title": "The browser catches homograph attacks, the terminal doesn't",
+      "link": "https://github.com/sheeki03/tirith",
+      "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-02-03T13:42:31.000Z",
+      "pubDate": "2026-02-03T13:06:19.000Z",
       "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "41d511d6e80a4232",
-      "title": "The latest iPhone Fold report is credible for one key reason",
-      "link": "https://9to5mac.com/2026/02/03/the-latest-iphone-fold-report-is-credible-for-one-key-reason/",
-      "summary": "Yesterday saw a couple of claimed leaks about the iPhone Fold, one of them unremarkable, the other somewhat more surprising. The first of them is almost certainly true, coming from a leaker with a good track record and in line with existing expectations. The second is a bit more of a wild card, but…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T13:03:35.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
+      "category": "general",
       "region": "global"
     },
     {
@@ -5808,22 +4320,6 @@
       },
       "lang": "ar",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f7d407a492e32214",
-      "title": "Lawsuit claims WhatsApp encryption is a lie; cryptography professor weighs in",
-      "link": "https://9to5mac.com/2026/02/03/lawsuit-claims-whatsapp-encryption-is-a-lie-cryptography-professor-weighs-in/",
-      "summary": "Both the founders of WhatsApp and current owner Meta state that the app uses end-to-end encryption, meaning that nobody outside the chat can access the content. A lawsuit claims that this isn’t true and that anyone inside Meta can get full access to all of the messages sent or received by any Whats…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T12:13:35.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5856,22 +4352,6 @@
       },
       "lang": "ar",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "30b9637ffbdf5eb2",
-      "title": "Apple @ Work Podcast: The reality of macOS malware in the enterprise",
-      "link": "https://9to5mac.com/2026/02/03/the-reality-of-macos-malware-in-the-enterprise/",
-      "summary": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage & protect Apple devices at work. Over 45,000 organiza…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T11:00:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -6243,214 +4723,6 @@
       "region": "global"
     },
     {
-      "id": "4ba9d5cfa36f6f97",
-      "title": "You can no longer downgrade to iOS 26.2",
-      "link": "https://9to5mac.com/2026/02/02/you-can-no-longer-downgrade-to-ios-26-2/",
-      "summary": "Following last week’s release of iOS 26.2.1, Apple has now stopped signing iOS 26.2. Here’s what that means. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T02:26:41.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5da0b4c1176e5f6d",
-      "title": "Apple Maps gets a ‘Drops of God’ wine guide curated by actor Tomohisa Yamashita",
-      "link": "https://9to5mac.com/2026/02/02/apple-maps-gets-a-drops-of-god-wine-guide-curated-by-actor-tomohisa-yamashita/",
-      "summary": "To help promote the second season of Apple TV’s Drops of God, the company has released an Apple Maps guide with some of actor Tomohisa Yamashita’s favorite wineries in Europe and the US. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T01:59:11.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9769cc76913015d8",
-      "title": "New Apple study shows how grouping similar sounds can speed up AI speech generation",
-      "link": "https://9to5mac.com/2026/02/02/new-apple-study-shows-how-grouping-similar-sounds-can-speed-up-ai-speech-generation/",
-      "summary": "A group of Apple and Tel-Aviv University researchers figured out a way to speed up AI-based text-to-speech generation without sacrificing intelligibility. Here’s how they did it. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-03T00:04:53.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "af856dc94bf0e57a",
-      "title": "MagSafe Monday: LISEN’s new desk charger brings 25-watt MagSafe charging with a built-in cooling fan",
-      "link": "https://9to5mac.com/2026/02/02/magsafe-monday-lisens-new-desk-charger-brings-25-watt-wireless-charging-with-a-built-in-cooling-fan/",
-      "summary": "One of the most significant limitations of MagSafe charging is heat management. As induction coils transfer energy, they generate waste heat, which causes your iPhone to throttle its charging speeds if it gets too hot to protect the battery. You especially see this in the outdoors during the summer…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T21:56:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "9aa19f624ea196cc",
-      "title": "9to5Mac Daily: February 2, 2026 – iPhone Flip and CarPlay rumors",
-      "link": "https://9to5mac.com/2026/02/02/daily-february-2-2026/",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Stuff: Stuff helps you get everything out of your head a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T21:55:49.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2793244d15cf06ea",
-      "title": "This Kickstarter project wants to turn your iPhone into a modular, vintage-style camera",
-      "link": "https://9to5mac.com/2026/02/02/this-kickstarter-project-wants-to-turn-your-iphone-into-a-modular-vintage-style-camera/",
-      "summary": "The RetroVa Vintage Image Kit features a slide-on camera grip with real buttons, modular telephoto optics, film filter presets, and support for external storage. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T21:11:42.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4e6670294660a83b",
-      "title": "iTunes might be more popular than you think, per report",
-      "link": "https://9to5mac.com/2026/02/02/itunes-might-be-more-popular-than-you-think-per-report/",
-      "summary": "iTunes is an ancient relic of an old music era, right? Not so fast, says a new report highlighting iTunes’ resilience despite stiff streaming competition, as evidenced by new statistics from Apple. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T20:32:13.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bc196626f48100b1",
-      "title": "F1: The Movie scores Grammy for Best Country Solo Performance",
-      "link": "https://9to5mac.com/2026/02/02/f1-the-movie-scores-grammy-for-best-country-solo-performance/",
-      "summary": "Apple TV walked away with one win out of four Grammy nominations at last night’s ceremony. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T20:02:48.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f4787c6a86b3b374",
-      "title": "Apple just released new updates for old versions of iOS, macOS, watchOS, more",
-      "link": "https://9to5mac.com/2026/02/02/apple-just-released-new-updates-for-old-versions-of-ios-macos-watchos-more/",
-      "summary": "Apple has just released a variety of new software updates for its devices, but they’re all for older versions of iOS, macOS, watchOS, and iPadOS. Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T19:07:01.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "173eb733e7c92692",
-      "title": "Security Bite Podcast: It’s all about infostealers",
-      "link": "https://9to5mac.com/2026/02/02/security-bite-podcast-its-all-about-infostealers/",
-      "summary": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform. Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-the-art Apple-specific security solutions for fully automated…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T18:34:53.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "51c77939befe1daa",
-      "title": "Hands-on: Anker’s new 25W MagSafe 3-in-1 adds active cooling to a travel-sized design",
-      "link": "https://9to5mac.com/2026/02/02/anker-portable-25w-magsafe-3-in-1-qi2-hands-on/",
-      "summary": "At CES 2026 last month, Anker unveiled a few interesting new accessories for Apple users, including its Nano Desktop dock and new 45W Nano charger with smart display. It also unveiled a new 25W MagSafe 3-in-1 with a couple of highly appealing features, and it’s now available for purchase. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T18:30:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6b1739a0d71c045d",
-      "title": "OpenAI launches Codex app for macOS, here are the details",
-      "link": "https://9to5mac.com/2026/02/02/openai-launches-codex-app-for-macos-here-are-the-details/",
-      "summary": "OpenAI has just launched a brand new Mac app: Codex, which it says is “the best way to build with agents.” Here are the details. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T18:27:42.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e57ed54be42b351d",
-      "title": "Apple pulls select iOS updates due to connectivity issues [Updated]",
-      "link": "https://9to5mac.com/2026/02/02/apple-pulls-select-ios-updates-due-to-connectivity-issues/",
-      "summary": "Update 2, February 2, 2026 10:10am PT: Apple has released iOS 16.7.14. Update 1, January 28, 3pm PT: As noted by Aaron Perris, Apple has started signing iOS 12.5.8, iOS 15.8.6, and iOS 18.7.4 again. iOS 16.7.13, however, remains unavailable. Original story (published January 28, 4:19am PT below): A…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T18:11:02.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f108015169e87fab",
       "title": "\"XRG\" توقّع صفقة الاستحواذ على حصة في شركة ممر الغاز الجنوبي",
       "link": "https://www.skynewsarabia.com/business/1850364-xrg-%D8%AA%D9%88%D9%82%D9%91%D8%B9-%D8%B5%D9%81%D9%82%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%AD%D8%B5%D8%A9-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D9%85%D8%B1-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A",
@@ -6467,22 +4739,6 @@
       "region": "global"
     },
     {
-      "id": "5c19c168f67d5410",
-      "title": "Deals: All Apple Watch Series 11 models $100 off, M5 MacBook Pro $300 off, iPad mini/Air, more",
-      "link": "https://9to5mac.com/2026/02/02/deals-apple-watch-series-11-m5-macbook-pro-ipad-mini/",
-      "summary": "Your first 9to5Toys Lunch Break of the month is jam packed with new Apple deals. Alongside up to 33% off AirPods 4, we are also now tracking $100 price drops across the Apple Watch Series 11 lineup with prices starting from $299 Amazon lows. Those offers join the best price yet on Apple’s Light Blu…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T16:40:37.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "30b517da2bd266f3",
       "title": "A huge cloud of dark matter may be lurking near our solar system",
       "link": "https://www.newscientist.com/article/2513924-a-huge-cloud-of-dark-matter-may-be-lurking-near-our-solar-system/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -6496,22 +4752,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "29fe5f696ab130a2",
-      "title": "Apple TV unveils return of one of last year’s biggest hit series",
-      "link": "https://9to5mac.com/2026/02/02/apple-tv-unveils-your-friends-neighbors-season-2-return/",
-      "summary": "Your Friends & Neighbors season 2 is coming soon, and Apple TV has just released the first trailer for the returning series—plus confirmed that season 3 is in the works. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T16:16:46.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -6541,22 +4781,6 @@
       "source": {
         "name": "New Scientist",
         "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "86be47eee875cd74",
-      "title": "New iPhone Fold specs revealed, including design, cameras, more",
-      "link": "https://9to5mac.com/2026/02/02/new-iphone-fold-specs-revealed-including-design-cameras-more/",
-      "summary": "It’s been a busy day for iPhone Fold leaks. After one reputable leaker reported that Apple’s foldable will have the biggest battery yet in an iPhone, new details have been shared by another leaker on several aspects of the iPhone Fold’s design, cameras, and more. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-02T15:50:39.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -6915,51 +5139,19 @@
       "region": "global"
     },
     {
-      "id": "04915b04c632a553",
-      "title": "مبيعات BYD الصينية تتراجع 30% في يناير وسط هدوء الطلب الصيني",
-      "link": "https://www.skynewsarabia.com/business/1850152-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-byd-%D8%A7%D9%84%D8%B5%D9%8A%D9%86%D9%8A%D8%A9-%D8%AA%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-30-%D9%8A%D9%86%D8%A7%D9%8A%D8%B1-%D9%88%D8%B3%D8%B7-%D9%87%D8%AF%D9%88%D8%A1-%D8%A7%D9%84%D8%B7%D9%84%D8%A8-%D8%A7%D9%84%D8%B5%D9%8A%D9%86%D9%8A",
-      "summary": "أعلنت شركة \"بي واي دي\" الصينية أن مبيعاتها تراجعت بنسبة 30 بالمئة خلال يناير، ما يبرز التحديات التي تواجه جهود شركة صناعة السيارات الكهربائية لتعزيز المبيعات، في وقت يؤثر فيه تقليص الدعم الحكومي على معدل الطلب في الصين، حسبما ذكرت وكالة بلومبرغ نيوز السبت.",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v1/2024/01/03/1682340/95/53/1-1682340.jpg",
-      "pubDate": "2026-02-02T05:16:00.000Z",
-      "source": {
-        "name": "Sky News Arabia — اقتصاد",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
-      },
-      "lang": "ar",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f84fb65998a93604",
-      "title": "تجارة الإمارات غير النفطية تتجاوز تريليون دولار لأول مرة",
-      "link": "https://www.skynewsarabia.com/business/1850138-%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%81%D8%B7%D9%8A%D8%A9-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%AA%D8%B1%D9%8A%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%84%D8%A7%D9%94%D9%88%D9%84-%D9%85%D8%B1%D8%A9",
-      "summary": "أكد الشيخ محمد بن راشد آل مكتوم نائب رئيس دولة الإمارات رئيس مجلس الوزراء حاكم دبي، اكتمال البيئة الاستثمارية لدولة الإمارات.. وتضاعف الشراكة الدولية لها، وتعزيز الشراكة مع القطاع الخاص.. وترسيخ ثقة العالم بدولة الإمارات العربية المتحدة.",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v1/2026/01/13/1845863/95/53/1-1845863.jpg",
-      "pubDate": "2026-02-02T04:39:23.000Z",
-      "source": {
-        "name": "Sky News Arabia — اقتصاد",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
-      },
-      "lang": "ar",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "533d696c6ccfab93",
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "link": "https://www.btboces.org/Downloads/7_There%20Will%20Come%20Soft%20Rains%20by%20Ray%20Bradbury.pdf",
+      "id": "c1c689720429997a",
+      "title": "Same Radio, Different Citizens",
+      "link": "https://blog.cosmos-institute.org/p/same-radio-different-citizens",
       "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-02-01T16:31:16.000Z",
+      "pubDate": "2026-02-01T18:21:33.000Z",
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "general",
       "region": "global"
     },
     {
@@ -6979,38 +5171,6 @@
       "region": "global"
     },
     {
-      "id": "6201081bf7bee50d",
-      "title": "Launching My Side Project as a Solo Dev: The Walkthrough",
-      "link": "https://alt-romes.github.io/posts/2026-01-30-from-side-project-to-kickstarter-a-walkthrough.html",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T11:58:12.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "56c4a7b1b84d0c85",
-      "title": "Pong Cam – My ESP32S3 Thinks It's a WebCam",
-      "link": "https://www.atomic14.com/2026/02/01/pong-cam",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T10:36:56.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "91d02e300b816e45",
       "title": "The best new popular science books of February 2026",
       "link": "https://www.newscientist.com/article/2513864-the-best-new-popular-science-books-of-february-2026/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -7024,38 +5184,6 @@
       },
       "lang": "en",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "e06838a00724db35",
-      "title": "Why we need to know about CORS (2020)",
-      "link": "https://evan-moon.github.io/2020/05/21/about-cors/en/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-01T07:57:52.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b98ab24d39179636",
-      "title": "What's wrong with bunny hands on dinosaurs? (2018)",
-      "link": "https://paleoaerie.org/2018/06/13/whats-wrong-with-bunny-hands-on-dinosaurs/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-01-31T23:44:15.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
