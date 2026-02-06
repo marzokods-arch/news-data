@@ -1,13 +1,91 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T21:18:18.006Z",
-    "total": 413,
+    "generated_at": "2026-02-06T21:48:45.418Z",
+    "total": 345,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 67,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "BBC Culture",
+        "url": "https://www.bbc.com/culture/feed.rss",
+        "homepage": "https://www.bbc.com/culture/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "ESPN",
         "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/f146762c-fd44-4536-b8ef-a4fccc3256b4",
@@ -35,97 +113,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 63,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 73,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "BBC Culture",
-        "url": "https://www.bbc.com/culture/feed.rss",
-        "homepage": "https://www.bbc.com/culture/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
         "name": "Youm7 - رياضة",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
@@ -147,7 +134,7 @@
         "cats": [
           "general"
         ],
-        "taken": 46,
+        "taken": 47,
         "error": null,
         "notModified": false
       },
@@ -165,16 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 48,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -188,6 +175,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 48,
+        "error": null,
         "notModified": false
       },
       {
@@ -207,6 +207,19 @@
         "name": "Gulf News — Lifestyle",
         "url": "https://gulfnews.com/lifestyle/rss",
         "homepage": "https://gulfnews.com/lifestyle/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -243,9 +256,9 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -260,19 +273,6 @@
         "url": "https://www.arabiaweather.com/en/rss",
         "homepage": "https://www.arabiaweather.com/en/rss",
         "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -323,6 +323,38 @@
     ]
   },
   "items": [
+    {
+      "id": "dac3633009f09f50",
+      "title": "Saudi to offload Ronaldo for £43m - Saturday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/cx2p2kr7npno?at_medium=RSS&at_campaign=rss",
+      "summary": "Saudi Pro League is ready to offload Cristiano Ronaldo for £43m, Chelsea set to rival Tottenham for Dusan Vlahovic, while Sergio Ramos offers his services to Marseille, plus more.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-06T21:38:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d7d235c27cc0a3c2",
+      "title": "Martha Stewart Reveals Her Current Snack Obsession &amp; Honestly, We’re Not Surprised",
+      "link": "https://www.delish.com/food-news/a70271431/martha-stewart-pepsi-super-bowl/",
+      "summary": "She calls it the \"poor man's potato chip,\" but there's nothing poor about it.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/martha-stewart-at-the-pre-grammy-gala-on-january-31-2026-in-news-photo-1770404611.pjpeg",
+      "pubDate": "2026-02-06T21:30:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "d1c9aefa6b3038fb",
       "title": "RFK Jr. Has Packed an Autism Panel With Cranks and Conspiracy Theorists",
@@ -436,6 +468,22 @@
       "region": "global"
     },
     {
+      "id": "3922cd4d2182e059",
+      "title": "لا يعرف الرحمة.. النصر \"وحش مفترس\" بدون رونالدو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7-%D9%8A%D8%B9%D8%B1%D9%81-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%88%D8%AD%D8%B4-%D9%85%D9%81%D8%AA%D8%B1%D8%B3-%D8%A8%D8%AF%D9%88%D9%86-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/bltd4e6275f61a5cb1b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "العالمي يواصل نتائجه الرائعة",
+      "body": "العالمي يواصل نتائجه الرائعة يواصل النصر تألقه ونتائجه المثالية في دوري روشن السعودي، حتى في غياب نجمه البرتغالي كريستيانو رونالدو، ليؤكد أن الفريق يمتلك قوة هجومية وتنظيمًا تكتيكيًا قادرين على فرض السيطرة وتحقيق الانتصارات دون الاعتماد على أي لاعب بمفرده. وحقق النصر فوزًا ثمينًا على حساب نظيره اتحاد جدة، بهدفين دون رد، خلال المباراة التي جرت أحداثها، مساء الجمعة، ضمن الجولة 21 من دوري روشن السعودي. وتعد هذه هي المباراة الثامنة التي يلعب فيها النصر بدون رونالدو هذا الموسم، ولكن رغم ذلك واصل انتصاراته، محققًا نسبة نجاح بلغت 100%. رونالدو غاب النصر في أول 5 مباريات من بطولة دوري أبطال آسيا 2، وتمكن \"العالمي\" من الفوز على كل من استقلال دوشنبه الطاجيكي (5-0)، الزوراء العراقي (2-0)، ثم التفوق على جوا الهندي مباراتين متتاليتين (2-1) و(4-0). وعاد الفريق النصراوي، ليكرر الانتصار على استقلال دوشنبه، برباعية دون رد، وذلك خلال المباراة الخامسة التي غاب عنها \"الدون\" في البطولة الآسيوية. وعلى المستوى المحلي، غاب رونالدو في 3 مباريات، بواقع مباراة ضد جدة في الدور الأول من كأس الملك، ومباراتين أمام الرياض والاتحاد في الجولتين 20 و21 من دوري روشن. وفي مباراة جدة، فاز النصر برباعية نظيفة، فيما تمكن \"العالمي\" من التفوق على الرياض، بهدف دون رد، بالإضافة إلى التفوق الاتحاد (2-0). وسجل الفريق النصراوي…",
+      "image": null,
+      "pubDate": "2026-02-06T19:44:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "6f0979839ccebd47",
       "title": "My Favorite TV to Watch the Winter Olympics Is on Sale",
       "link": "https://www.wired.com/story/samsung-s90f-qd-oled-tv-deal-226/",
@@ -450,6 +498,38 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "4529d523c77b6f1d",
+      "title": "جيوكيريس يتفوق على جابرييل ومارتينيلي في صراع خاص",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%8A%D9%88%D9%83%D9%8A%D8%B1%D9%8A%D8%B3-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%89-%D8%AC%D8%A7%D8%A8%D8%B1%D9%8A%D9%8A%D9%84-%D9%88%D9%85%D8%A7%D8%B1%D8%AA%D9%8A%D9%86%D9%8A%D9%84%D9%8A-%D9%81%D9%8A-%D8%B5%D8%B1%D8%A7%D8%B9-%D8%AE%D8%A7%D8%B5/bltef84633881fe3afa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المهاجم السويدي يخطف اهتمام جماهير الجانرز",
+      "body": "المهاجم السويدي يخطف اهتمام جماهير الجانرز فاز فيكتور جيوكيريس، مهاجم آرسنال، بجائزة أفضل لاعب في الفريق شهر يناير/ كانون الثاني الماضي، بعد تألقه في المباريات التي خاضها مع الجانرز. وأعلن موقع آرسنال أنه بعد شهر حافل بالأهداف، تم اختيار فيكتور جيوكيريس من قبل مشجعي الفريق كأفضل لاعب لشهر يناير/ كانون الثاني &nbsp;الماضي. وأضاف الموقع: \"حصل اللاعب على أعلى نسبة في الاستطلاع بنسبة 48% من الأصوات، متفوقا على منافسيه جابرييل جيسوس ومارتينيلي ومارتن زوبيميندي ليحصد الجائزة لأول مرة منذ وصوله في الصيف\". وكان اللاعب السويدي قد سجل 4 أهداف في آخر 6 مباريات له في الشهر الماضي مع فريق آرسنال. وبدأ اللاعب تألقه بتسجيل هدف في مرمى تشيلسي في ذهاب نصف نهائي كأس كاراباو، في مباراة صنع فيها أيضًا هدفًا لمارتن زوبيميندي على ملعب ستامفورد بريدج. وبعد أسبوع، أحرز اللاعب هدفا رائعا في سان سيرو ليختتم فوز فريق المدفعجية بنتيجة 3-1 على إنتر ميلان. وسجل اللاعب هدفا مبكرا ضد كيرات ألماتي، كما قدم تمريرة حاسمة أخرى في تلك المباراة، قبل أن ينهي الشهر بالتألق في مباراة ليدز يونايتد، حيث يستمتع بأفضل سلسلة أهداف له بقميص الجانرز.",
+      "image": null,
+      "pubDate": "2026-02-06T19:39:05.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "5062f3d30dca6804",
+      "title": "ريال مدريد يبحث عن قائد جديد في مانشستر سيتي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%B9%D9%86-%D9%82%D8%A7%D9%8A%D9%94%D8%AF-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/blt3591d3f8a73b9766?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الفريق الملكي يبدو مقبلًا على تغييرات جذرية",
+      "body": "الفريق الملكي يبدو مقبلًا على تغييرات جذرية يستعد ريال مدريد للتحرك بجدية من أجل التعاقد مع لاعب وسط مانشستر سيتي، رودري، في ظل خطة لإعادة بناء الفريق، مع التركيز على استعادة عناصر القيادة داخل غرفة الملابس، بحسب تقرير صحفي. فقد ذكر موقع \"teamtalk\"، اليوم الجمعة، أن إدارة النادي الملكي تشعر بقلق متزايد، بسبب تراجع الحضور القيادي في الفريق، بعد رحيل أسماء بارزة مثل سيرجيو راموس وكاسيميرو وتوني كروس ولوكا مودريتش، ما دفعها للبحث عن لاعب يتمتع بالخبرة، والشخصية القادرة على فرض الاستقرار، خاصةً مع احتمالية وصول مدرب جديد في الصيف المقبل. ويُنظر إلى نجم السيتي بوصفه القائد المثالي داخل الملعب، والقادر على ضبط إيقاع الوسط وقيادة غرفة الملابس، كما فعلت أساطير النادي الملكي سابقًا. في المقابل، سبق أن أبدى الدولي الإسباني استعداده للتفكير في الانتقال إلى ريال مدريد، في مرحلة ما من مسيرته، بينما يتبقى أقل من 18 شهرًا على نهاية عقده الحالي مع مانشستر سيتي. وفي حال رفض رودري تمديد عقده، فقد يضطر السيتي إلى دراسة بيعه الصيف المقبل، بدلًا من خسارته لاحقًا مجانًا، خصوصًا في ظل حالة الغموض المرتبطة بمستقبل المدرب بيب جوارديولا، الذي تشير معطيات إلى أنه مرشح بقوة للرحيل، بعد انتهاء الموسم الجاري، رغم استمرار عقده حتى 2027.",
+      "image": null,
+      "pubDate": "2026-02-06T19:33:50.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "2cd8c748c100db08",
@@ -482,6 +562,54 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "92d1b39ec1bfe493",
+      "title": "المولودية يذيق الهلال مرارة الهزيمة الأولى وينعش آماله في التأهل بأبطال أفريقيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF%D9%8A%D8%A9-%D9%8A%D8%B0%D9%8A%D9%82-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%85%D8%B1%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D8%B2%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84%D9%89-%D9%88%D9%8A%D9%86%D8%B9%D8%B4-%D8%A7%D9%93%D9%85%D8%A7%D9%84%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D8%A8%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blt21f065e7d52b8acc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الصراع اشتعل بالمجموعة",
+      "body": "الصراع اشتعل بالمجموعة أشعل مولودية الجزائر، صراع التأهل بالمجموعة الثالثة بدوري أبطال أفريقيا، عقب الفوز على ضيفه الهلال السوداني (2-1) اليوم الجمعة، ضمن المرحلة الخامسة (قبل الأخيرة) من مرحلة دور المجموعات. افتتح مولودية الجزائر، النتيجة مبكرًا، بعد هفوة من سفيان فريد حارس الهلال، استغلها زين الدين فرحات ليراوغه ويمنح الكرة لزميله مسلم أناتوف، أمام المرمى الخالي ليسكنها الشباك في الدقيقة (15). وقبل نهاية الشوط وسع زين الدين فرحات، النتيجة لمولودية الجزائر (ق 44) بعد تسديدة صاروخية من خارج منطقة الجزاء. وقلص أحمد سالم الفارق لنادي الهلال السوداني، بعدما انفرد بالحارس أليكسيس قندوز، وسدد الكرة في المرمى ( 77). &nbsp;ولم يكن هدف سالم كافيًا لإنقاذ الهلال من تلقي هزيمته الأولى هذا الموسم، في دور المجموعات، من بطولة دوري أبطال أفريقيا. وبقي الهلال على صدارته بـ8 نقاط مؤقتًا، فيما ارتقى المولودية للمرتبة الثانية بـ7 نقاط، مقابل 5 نقاط لصن داونز الجنوب أفريقي الذي يحل ضيفًا على سانت إيلوا لوبوبو الكونغولي الأخير (4 نقاط).",
+      "image": null,
+      "pubDate": "2026-02-06T19:20:08.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7cbe294ffee2f5e8",
+      "title": "فيديو: خبير قانوني يجيب.. هل يخسر النصر نقاط الكلاسيكو بسبب الحمدان؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A-%D9%8A%D8%AC%D9%8A%D8%A8-%D9%87%D9%84-%D9%8A%D8%AE%D8%B3%D8%B1-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%86%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D8%A7%D9%86/blt1513de7f44f7b3c8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رأي حاسم حول صحة مشاركة المهاجم السعودي في مباراة الاتحاد",
+      "body": "رأي حاسم حول صحة مشاركة المهاجم السعودي في مباراة الاتحاد كشف خبير قانوني عن حقيقة إمكانية خسارة النصر لنقاط مباراة الكلاسيكو ضد الغريم التقليدي الاتحاد، بعد الفوز بها، بسبب لاعبه الجديد عبدالله الحمدان. وشارك الحمدان بديلًا في الفوز الذي حققه النصر على الاتحاد بنتيجة 2-0، الجمعة، على ملعب الأول بارك، في الجولة الحادية والعشرين من دوري روشن. وقالت صحيفة \"الرياضية\" السعودية إن نادي الاتحاد تقدم باحتجاج على نظامية مشاركة عبدالله الحمدان في المباراة، بعدما تعاقد معه النصر خلال فترة الانتقالات الشتوية الماضية. وقال الخبير القانوني يعقوب المطيري، في تصريحات لبرنامج \"دورينا غير\"، تعليقًا على هذا الأمر: \"أعتقد من وجهة نظري القانونية أن مشاركة (عبدالله الحمدان) صحيحة ونظامية\". وأوضح: \"(الحمدان) لديه عقد مع نادي النصر، وتم تسجيله خلال فترة التسجيل، كما أرسل اللاعب إشعارًا إلى ناديه السابق الهلال، بإنهاء عقده من طرف واحد، عبر البريد الإلكتروني\". وأضاف: \"طالما أن اللاعب فسخ عقده من طرف واحد، وأرسل إشعارًا إلى ناديه الأصلي بذلك، وتم قيده في فترة التسجيل، فإن تسجيله يكون صحيحًا، ولكن عليه أن يتحمل تبعات فسخ العقد\". وأردف: \"هذه التبعات تختلف وفق ظروف عقد كل لاعب مع ناديه الأصلي، فإذا كان في الفترة المحمية قد يكون هناك تعويض وعقوبات رياضية، أما إذا كان خارجها، فسيكون هناك تعويض حسب الفترة المتبق…",
+      "image": null,
+      "pubDate": "2026-02-06T19:18:59.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7c7ef88edb2dc5a0",
+      "title": "برشلونة يحصن كامب نو بسلسلة إجراءات جديدة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%AD%D8%B5%D9%86-%D9%83%D8%A7%D9%85%D8%A8-%D9%86%D9%88-%D8%A8%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%95%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/blt447f8320c98e16a3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "البلوجرانا يعلن الطوارئ",
+      "body": "البلوجرانا يعلن الطوارئ أعلن نادي برشلونة بدء تطبيق حزمة من الإجراءات الأمنية الجديدة والمكثفة في ملعب سبوتيفاي كامب نو، لمنع حوادث خطيرة شهدتها المباريات السابقة مع جماهير فرق الضيوف، بهدف تعزيز سلامة الجماهير والحفاظ على سلامة المنشآت. وأوضحت صحيفة \"موندو ديبورتيفو\" الإسبانية أن الإجراءات الجديدة تشمل فحص دقيق وتدعيم نقاط تثبيت الحواجز الواقية في المناطق الحساسة. وأضافت: \"تشمل الإجراءات أيضا استبدال ألواح الميتاكريلات (الأكريليك الشفاف) الموجودة في الحواجز بأخرى أكثر سماكة تصل إلى 18 ملم، لزيادة مقاومتها للصدمات، فضلا عن إزالة الصف الأول من مقاعد الجمهور الواقع مباشرة خلف الحواجز الواقية، لإنشاء منطقة عازلة إضافية\". وتابعت الصحيفة: \"إجراءات البلوجرانا تشمل إعداد تقرير مخبري معتمد يثبت مقاومة الحواجز للكسر والقوى الخارجية، وتركيب شبكات حماية إضافية بارتفاع يصل إلى 14 مترًا في المناطق المعرضة للخطر\". وأفادت بأن: \"تدخل جميع هذه التدابير حيز التنفيذ الكامل بدءًا من مباراة الفريق أمام مايوركا في الدوري الإسباني، باستثناء شبكات الحماية العالية التي سيتم استكمال تركيبها قبل مواجهة ليفانتي المقررة يوم 22 فبراير/ شباط الجاري، والتي تشهد زيادة متوقعة في سعة الملعب إلى نحو 62 ألف متفرج مع اكتمال المرحلة 1C من أعمال التطوير\". ويأتي هذا التعزيز الأمني في إطار جهود النادي المستمرة لضمان بيئة …",
+      "image": null,
+      "pubDate": "2026-02-06T19:17:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "037abb94374a95c8",
@@ -820,102 +948,6 @@
       "region": "global"
     },
     {
-      "id": "0865ae98ea778bf6",
-      "title": "جدول مباريات وترتيب الاتحاد في دوري روشن السعودي 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/bltc1ce89f123ab6027?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن جدول مباريات الاتحاد في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه...",
-      "body": "كل ما تريد معرفته عن جدول مباريات الاتحاد في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه... يدخل الاتحاد منافسات دوري روشن السعودي 2025-2026، بشعار الحفاظ على اللقب الغالي الذي حققه في الموسم الماضي بعد مسيرة ذهبية، تحت قيادة مدربه الفرنسي لوران بلان. الاتحاد نجح في الموسم الماضي بالسيطرة على البطولات المحلية، حيث توج بدوري روشن السعودي وكأس خادم الحرمين الشريفين، ولديه طموحات كبرى في حصد بطولة قارية بعد حجز مقعده في دوري أبطال آسيا للنخبة. ويستهدف الاتحاد تحقيق لقب دوري روشن للموسم الثاني على التوالي معتمدًا على كتيبة من المحترفين بقيادة النجم الفرنسي كريم بنزيما، ومواطنه نجولو كانتي والبرازيلي فابينيو. ويرصد كووورة في السطور التالية جدول مباريات الاتحاد في دوري روشن السعودي ونتائج العميد وترتيبه أيضًا بين فرق المسابقة، مع تحديث مباشر بشكل مستمر بعد نهاية كل جولة. جدول مباريات الاتحاد في دوري روشن السعودي 2025-2026 الجولة المباراة الموعد النتيجة الملعب 1 الأخدود - الاتحاد السبت 30 أغسطس 2025، 21:00 السعودية، 22:00 الإمارات 5-2 مدينة الأمير هذلول بن عبد العزيز الرياضية 2 الاتحاد - الفتح الجمعة 12 سبتمبر 2025، 21:00 السعودية، 22:00 الإمارات 2-4 الإنماء 3 النجمة - الاتحاد السبت 20 سبتمبر 2025، 18:40 السعودية، 19:40 الإمارات 1-0 مدينة الملك عبد الله الرياضية 4 الاتحاد - النصر الجمعة …",
-      "image": null,
-      "pubDate": "2026-02-06T17:54:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "cf455c58aad68f11",
-      "title": "لمنحه دقائق أكثر.. فليك يضع شرطين أمام لاعب برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%85%D9%86%D8%AD%D9%87-%D8%AF%D9%82%D8%A7%D9%8A%D9%94%D9%82-%D8%A7%D9%94%D9%83%D8%AB%D8%B1-%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%B6%D8%B9-%D8%B4%D8%B1%D8%B7%D9%8A%D9%86-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt022e6d5a7954a208?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بيرنال أظهر تحسنًا في الفترة الأخيرة",
-      "body": "بيرنال أظهر تحسنًا في الفترة الأخيرة كشف تقرير صحفي إسباني عن الشروط التي وضعها هانز فليك، مدرب برشلونة، أمام لاعب الوسط الشاب مارك بيرنال، من أجل منحه دقائق لعب أكثر خلال الفترة المقبلة. وذكرت صحيفة \"سبورت\" الكتالونية، اليوم الجمعة، أن المدرب الألماني يرى امتلاك بيرنال موهبة واضحة، لكنه يحتاج إلى مزيد من الاستمرارية، عبر تحسين جانبين أساسيين: أولهما رفع الجاهزية البدنية، حتى يتمكن من مجاراة إيقاع المباريات الكبيرة، لا سيما بعد عودته من الإصابة. أما الجانب الثاني فيتعلق بسرعة اللعب، حيث يطالب فليك لاعبه بتمرير الكرة بوتيرة أسرع، وتجنب الاحتفاظ الزائد بها أو المبالغة في التقدم، مع الاعتماد على لمسة أسرع، وقرارات أبسط داخل الملعب. وأشارت الصحيفة إلى أن بيرنال أظهر تحسنًا ملحوظًا، في الفترة الأخيرة، وترك تأثيرًا واضحًا خلال مواجهة كوبنهاجن في دوري أبطال أوروبا، إلا أن الجهاز الفني يواصل التعامل بحذر معه، عبر إدارة دقائقه تدريجيًا.",
-      "image": null,
-      "pubDate": "2026-02-06T17:53:05.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3c7c37cfda21dcae",
-      "title": "جدول مباريات وترتيب النصر في دوري روشن السعودي 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/blt50fc377e5a07b0db?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن جدول مباريات النصر في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه...",
-      "body": "كل ما تريد معرفته عن جدول مباريات النصر في دوري روشن السعودي 2025-2026 ونتائجه وترتيبه... يحمل النجم البرتغالي كريستيانو رونالدو، على عاتقه مهمة إعادة النصر إلى منصات التتويج مع بداية موسم 2025-2026، حيث يشارك الفريق في بطولة دوري روشن السعودي بهدف واحد وهو حصد اللقب. النصر أجرى صفقات قوية في صيف 2025، واستعان بخدمات المدرب البرتغالي المخضرم جورج جيسوس، في إطار سعيه لبناء فريق قادر على المنافسة محليًا وقاريًا، بعد موسم خرج فيه خالي الوفاض من البطولات. ولم يحقق النصر لقب دوري روشن السعودي منذ موسم 2018-2019، لذلك لن تتهاون جماهير العالمي مع فكرة التفريط في اللقب الغائب عن خزائن الفريق منذ 6 مواسم كاملة.. ويرصد كووورة في السطور التالية جدول مباريات النصر في دوري روشن السعودي ونتائج العالمي وترتيبه أيضًا بين فرق المسابقة، مع تحديث مباشر بشكل مستمر بعد نهاية كل جولة. جدول مباريات النصر في دوري روشن السعودي 2025-2026 &nbsp; الجولة المباراة الموعد النتيجة الملعب 1 التعاون - النصر الجمعة 29 أغسطس 2025 21:00 السعودية، 22:00 الإمارات 5-0 استاد مدينة الملك عبدالله الرياضية ببريدة 2 النصر - الخلود الأحد 14 سبتمبر 2025 21:00 السعودية، 22:00 الإمارات 0-2 الأول بارك 3 النصر - الرياض السبت 20 سبتمبر 2025 21:00 السعودية، 22:00 الإمارات 1-5 الأول بارك 4 الاتحاد - النصر الجمعة 26 سبتمبر 2025 21:00 …",
-      "image": null,
-      "pubDate": "2026-02-06T17:52:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "2e353dc96e9c3e68",
-      "title": "فيديو.. بطل غير مستحق يقود النصر لهزيمة الاتحاد بالضربة القاضية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B7%D9%84-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%AA%D8%AD%D9%82-%D9%8A%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%84%D9%87%D8%B2%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%B6%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D8%B6%D9%8A%D8%A9/blt7d6a0130491ea508?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ساديو ماني قاد فريقه لانتصار مهم في دوري روشن",
-      "body": "ساديو ماني قاد فريقه لانتصار مهم في دوري روشن منح بطل غير مستحق فريق النصر الفوز بمباراة الكلاسيكو، على حساب الغريم التقليدي الاتحاد، في دوري روشن السعودي. وفاز النصر على الاتحاد بنتيجة 2-0، اليوم الجمعة، على ملعب الأول بارك، في الجولة الحادية والعشرين من منافسات دوري روشن. وسجل السنغالي ساديو ماني هدف النصر الأول في الدقيقة 84 من ركلة جزاء، قبل أن يضاعف البرازيلي أنجيلو النتيجة في الدقيقة السادسة من الوقت بدل الضائع. تغييرات مفاجئة شهدت تشكيلتا الفريقين تغييرات مفاجئة، وأشكالًا تكتيكية بدت غير مفهومة قبل بداية المباراة، قبل أن تتضح خلالها. البرتغالي جورجي جيسوس، مدرب النصر، بدأ بـ3 مدافعين في التشكيلة الأساسية، وهم الفرنسي محمد سيماكان، الإسباني إينيجو مارتينيز، بالإضافة إلى السعودي عبدالإله العمري. وظن البعض أن جيسوس سيلعب بثلاثي في قلب الدفاع، مع اللعب بالبرازيلي أنجيلو كظهير أيسر، غير أنه لعب بالثنائي سيماكان والعمري في قلب الدفاع، فيما ذهب إينيجو يسارًا، وأمامه أنجيلو كجناح. الأمر نفسه فعله البرتغالي الآخر سيرجيو كونسيساو، مدرب اتحاد جدة، حيث دفع بظهيري الجبهة اليمنى أحمد الجليدان ومهند الشنقيطي بشكل أساسي، ليظن البعض أن أحدهما سيلعب كمدافع ثالث. لكن ما فعله كونسيساو هو أنه لعب بالشنقيطي كجناح أيمن أمام الجليدان، مع الاحتفاظ بالثنائي دانيلو بيريرا وحسن كادش كقلبي دفاع. معركة …",
-      "image": null,
-      "pubDate": "2026-02-06T17:50:49.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "f44e56e6784768fb",
-      "title": "جدول مباريات دوري روشن السعودي 2025-2026 .. القنوات الناقلة والترتيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt17c971b2cacda8b9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول مباريات دوري روشن السعودي 2025-2026 .. القنوات الناقلة والترتيب",
-      "body": "تعرف على جدول مباريات دوري روشن السعودي 2025-2026 .. القنوات الناقلة والترتيب انطلق موسم جديد من دوري روشن السعودي 2025-2026، في ظل ترقب كبير على المستوى العربي والعالمي بعد التطور الكبير للمسابقة في السنوات الأخيرة. بوجود كوكبة من نجوم كرة القدم العالميين، حسم اتحاد جدة بقيادة النجم الفرنسي كريم بنزيما لقب دوري روشن الموسم الماضي، بينما توّج الأهلي باللقب الآسيوي. دعمت الكثير من أندية دوري روشن صفوفها بنجوم من الطراز العالمي، في سوق الانتقالات الصيفية الجارية، ما يمهد لموسم ناري بالمسابقة المحلية، التي تستقطب الأنظار بشدة. وأعلن مجلس إدارة رابطة الدوري السعودي للمحترفين موعد انطلاق دوري روشن السعودي للموسم الجديد 2025–2026، إذ بدأت المنافسات يوم الخميس 28 أغسطس/آب 2025. كما أكد نهاية منافسات دوري روشن السعودي لموسم 2025-2026 يوم 21 مايو/ آيار 2026. وفي هذا التقرير، يستعرض كووورة جدول مباريات الدوري السعودي 2025-2026، القنوات الناقلة والترتيب، وسجل الفائزين، وكل ما تريد معرفته: جدول ترتيب دوري روشن السعودي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 الهلال 20 15 5 0 53 18 35 50 2 النصر 20 16 1 3 51 18 33 49 3 الأهلي 20 14 5 1 35 12 23 47 4 القادسية 19 13 4 2 44 18 26 43 5 التعاون 19 12 2 5 36 21 15 38 6 الاتفاق 20 10 5 5 30 30 0 35 7 الاتحاد…",
-      "image": null,
-      "pubDate": "2026-02-06T17:50:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "caf79465a5947507",
-      "title": "جدول ترتيب دوري روشن السعودي 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2025-2026/blt5a13c6c4143f7b94?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول ترتيب دوري روشن السعودي 2025-2026....",
-      "body": "تعرف على جدول ترتيب دوري روشن السعودي 2025-2026.... تعود عجلة دوري روشن السعودي للدوران مجددًا في موسم 2025-2026، حيث يستعد عشاق كرة القدم المحلية والعالمية لمتابعة نسخة استثنائية، بعدما أصبحت البطولة واحدة من أبرز الدوريات التي تخطف الأنظار في السنوات الأخيرة. الموسم الماضي شهد تتويج اتحاد جدة باللقب بقيادة الفرنسي كريم بنزيما، فيما نجح الأهلي في رفع الكأس الآسيوية، لتتواصل إنجازات الأندية السعودية على المستويين المحلي والقاري. الصيف الحالي لم يكن هادئًا، إذ تحركت معظم الأندية بقوة في سوق الانتقالات لجلب نجوم عالميين، ما يعزز من قوة المنافسة ويمنح الدوري بريقًا إضافيًا. هذه التعاقدات الكبيرة تمهد لصراع محتدم على اللقب ومراكز الصدارة. وبحسب إعلان رابطة الدوري السعودي للمحترفين، تنطلق المنافسات رسميًا يوم الخميس 28 أغسطس/آب 2025، على أن يسدل الستار على الموسم في 21 مايو/أيار 2026، وسط توقعات بأن يكون من أكثر المواسم إثارة في تاريخ البطولة. وفي هذا التقرير من كووورة نستعرض لكم جدول ترتيب دوري روشن السعودي 2025-2026. &nbsp;ترتيب دوري روشن السعودي 2025-2026: النصر يرجع للوصافة بثنائية في الاتحاد المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 الهلال 20 15 5 0 53 18 35 50 2 النصر 20 16 1 3 51 18 33 49 3 الأهلي 20 14 5 1 35 12 23 47 4 القادسية 19 13 4 2 44 18 2…",
-      "image": null,
-      "pubDate": "2026-02-06T17:48:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "0c7e600998b441bd",
       "title": "No punishment for Kenworthy's graphic ICE message",
       "link": "https://www.bbc.com/sport/articles/cew8wk7ygwno?at_medium=RSS&at_campaign=rss",
@@ -1156,12 +1188,12 @@
       "region": "global"
     },
     {
-      "id": "3ba59fe9cbe84c44",
-      "title": "Psychedelics may rewire the brain to treat PTSD. Scientists are finally beginning to understand how.",
-      "link": "https://www.livescience.com/health/mind/psychedelics-may-rewire-the-brain-to-treat-ptsd-scientists-are-finally-beginning-to-understand-how",
-      "summary": "New research shows MDMA and psilocybin may restore neural flexibility in people with PTSD, thereby helping the brain unlearn fear and relearn safety.",
+      "id": "a8823efee4f63f3f",
+      "title": "Psychedelic drug ayahuasca could treat PTSD, early studies hint. But exactly how it works isn't clear.",
+      "link": "https://www.livescience.com/health/psychedelic-drug-ayahuasca-could-treat-ptsd-early-studies-hint-but-exactly-how-it-works-isnt-clear",
+      "summary": "Using methods such as brain scans and symptom tracking, scientists are beginning to study whether a complex psychedelic brew known as ayahuasca can help rewire the brain's response to trauma.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/Drv6f5DudkXN23vEc7LEsa-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/QzHiBSt8e2Cu3TdagitEaU-1280-80.png",
       "pubDate": "2026-02-06T16:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -1172,12 +1204,12 @@
       "region": "global"
     },
     {
-      "id": "a8823efee4f63f3f",
-      "title": "Psychedelic drug ayahuasca could treat PTSD, early studies hint. But exactly how it works isn't clear.",
-      "link": "https://www.livescience.com/health/psychedelic-drug-ayahuasca-could-treat-ptsd-early-studies-hint-but-exactly-how-it-works-isnt-clear",
-      "summary": "Using methods such as brain scans and symptom tracking, scientists are beginning to study whether a complex psychedelic brew known as ayahuasca can help rewire the brain's response to trauma.",
+      "id": "3ba59fe9cbe84c44",
+      "title": "Psychedelics may rewire the brain to treat PTSD. Scientists are finally beginning to understand how.",
+      "link": "https://www.livescience.com/health/mind/psychedelics-may-rewire-the-brain-to-treat-ptsd-scientists-are-finally-beginning-to-understand-how",
+      "summary": "New research shows MDMA and psilocybin may restore neural flexibility in people with PTSD, thereby helping the brain unlearn fear and relearn safety.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/QzHiBSt8e2Cu3TdagitEaU-1280-80.png",
+      "image": "https://cdn.mos.cms.futurecdn.net/Drv6f5DudkXN23vEc7LEsa-1280-80.jpg",
       "pubDate": "2026-02-06T16:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -1201,6 +1233,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b02dd3fc0403a8b8",
+      "title": "Knee injury could scupper Mateta's World Cup 'dream'",
+      "link": "https://www.bbc.com/sport/football/articles/c62v2e5ryr0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crystal Palace manager Oliver Glasner indicates the injury that scuppered Jean-Philippe Mateta's move to AC Milan could also thwart the striker's \"dream\" of playing for France at the World Cup, if surgery is needed.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-06T15:34:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -1371,6 +1419,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-06T13:56:29.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "fbd5d0b1ce358bfe",
+      "title": "Lancashire sign ex-Australia captain Lanning for T20 Blast",
+      "link": "https://www.bbc.com/sport/cricket/articles/c98p83pn0p4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Meg Lanning, the former Australia captain, will get her first taste of county cricket when she plays for Lancashire in the T20 Blast.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-06T13:53:15.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1972,6 +2036,22 @@
       "region": "global"
     },
     {
+      "id": "ffa8c61caf4a47dc",
+      "title": "'Scrutiny and pressure on Irish has reached new level'",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cpwn4lz7qneo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ireland face one of the most difficult periods of soul-searching under Andy Farrell after falling to a vastly superior France in Thursday's Six Nations opener.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-06T08:32:45.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "6ae197fed1f62c36",
       "title": "مسؤول في عهد تحتمس.. قصة تمثال منهوب أعادته هولندا إلى مصر",
       "link": "https://www.skynewsarabia.com/varieties/1851255-%D9%85%D8%B3%D9%88%D9%94%D9%88%D9%84-%D8%B9%D9%87%D8%AF-%D8%AA%D8%AD%D8%AA%D9%85%D8%B3-%D9%82%D8%B5%D8%A9-%D8%AA%D9%85%D8%AB%D8%A7%D9%84-%D9%85%D9%86%D9%87%D9%88%D8%A8-%D8%A7%D9%94%D8%B9%D8%A7%D8%AF%D8%AA%D9%87-%D9%87%D9%88%D9%84%D9%86%D8%AF%D8%A7-%D9%85%D8%B5%D8%B1",
@@ -2161,150 +2241,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c3872b45df3a6e49",
-      "title": "Author Correction: Environmentally driven immune imprinting protects against allergy",
-      "link": "https://www.nature.com/articles/s41586-026-10236-w",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10236-w\">doi:10.1038/s41586-026-10236-w</a></p>Author Correction: Environmentally driven immune imprinting protects against allergy",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/s41586-026-10236-w Author Correction: Environmentally driven immune imprinting protects against allergy",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4f66262a165c2693",
-      "title": "Super-sniffer aeroplane finds oil fields’ hidden emissions",
-      "link": "https://www.nature.com/articles/d41586-026-00335-z",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00335-z\">doi:10.1038/d41586-026-00335-z</a></p>Airborne sensor shows that methane emissions from oil- and gas-producing areas can be five times higher than reported.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00335-z Airborne sensor shows that methane emissions from oil- and gas-producing areas can be five times higher than reported.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "48f248dc2dbbae63",
-      "title": "Briefing Chat: 'External lungs' keep man alive for 48 hours until transplant",
-      "link": "https://www.nature.com/articles/d41586-026-00397-z",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00397-z\">doi:10.1038/d41586-026-00397-z</a></p>Nature staff discuss some of the week’s top science news.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00397-z Nature staff discuss some of the week’s top science news.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "46d41ab5881ee0fa",
-      "title": "OpenClaw AI chatbots are running amok — these scientists are listening in",
-      "link": "https://www.nature.com/articles/d41586-026-00370-w",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00370-w\">doi:10.1038/d41586-026-00370-w</a></p>Artificial-intelligence agents have their own social-media platform and are publishing AI-generated research papers on their own preprint server.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00370-w Artificial-intelligence agents have their own social-media platform and are publishing AI-generated research papers on their own preprint server.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "dffa0abdf0a04efc",
-      "title": "Cheap AI chatbots transform medical diagnoses in places with limited care",
-      "link": "https://www.nature.com/articles/d41586-026-00345-x",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00345-x\">doi:10.1038/d41586-026-00345-x</a></p>Studies in Rwanda and Pakistan reveal real-world utility of chatbots in underfunded clinics, and not just in benchmark tests.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00345-x Studies in Rwanda and Pakistan reveal real-world utility of chatbots in underfunded clinics, and not just in benchmark tests.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b383a9f4420a5a7d",
-      "title": "Epstein files reveal deeper ties to scientists than previously known",
-      "link": "https://www.nature.com/articles/d41586-026-00388-0",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00388-0\">doi:10.1038/d41586-026-00388-0</a></p>Latest batch of documents show researchers consulting the financier and sex offender on publications, visas and more.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00388-0 Latest batch of documents show researchers consulting the financier and sex offender on publications, visas and more.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "f6e98b2db1f04117",
-      "title": "US grant applicants surge at prestigious European research agency",
-      "link": "https://www.nature.com/articles/d41586-026-00362-w",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00362-w\">doi:10.1038/d41586-026-00362-w</a></p>Rush for funds to relocate laboratories to Europe is latest hint of a US brain drain.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00362-w Rush for funds to relocate laboratories to Europe is latest hint of a US brain drain.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "bd921d84ba8356d1",
-      "title": "‘We need to dismantle the stigma of alcohol dependence in academia’",
-      "link": "https://www.nature.com/articles/d41586-026-00155-1",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00155-1\">doi:10.1038/d41586-026-00155-1</a></p>The academic workplace is getting better at supporting colleagues with anxiety and depression. Why does alcohol remain a taboo topic?",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00155-1 The academic workplace is getting better at supporting colleagues with anxiety and depression. Why does alcohol remain a taboo topic?",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f22312485c739ea5",
-      "title": "Measles is raging worldwide: are you at risk?",
-      "link": "https://www.nature.com/articles/d41586-026-00367-5",
-      "summary": "<p>Nature, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00367-5\">doi:10.1038/d41586-026-00367-5</a></p>Cases in fully vaccinated people are rare and usually mild, but are likely to become more common as exposure to the virus rises.",
-      "body": "Nature, Published online: 06 February 2026; doi:10.1038/d41586-026-00367-5 Cases in fully vaccinated people are rare and usually mild, but are likely to become more common as exposure to the virus rises.",
-      "image": null,
-      "pubDate": "2026-02-06T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3252,150 +3188,6 @@
       "region": "global"
     },
     {
-      "id": "f65ce310c3e34c5f",
-      "title": "Publisher Correction: Colibactin-driven colon cancer requires adhesin-mediated epithelial binding",
-      "link": "https://www.nature.com/articles/s41586-026-10213-3",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10213-3\">doi:10.1038/s41586-026-10213-3</a></p>Publisher Correction: Colibactin-driven colon cancer requires adhesin-mediated epithelial binding",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/s41586-026-10213-3 Publisher Correction: Colibactin-driven colon cancer requires adhesin-mediated epithelial binding",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b277cb1f3334d43b",
-      "title": "Author Correction: PHGDH heterogeneity potentiates cancer cell dissemination and metastasis",
-      "link": "https://www.nature.com/articles/s41586-026-10202-6",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10202-6\">doi:10.1038/s41586-026-10202-6</a></p>Author Correction: PHGDH heterogeneity potentiates cancer cell dissemination and metastasis",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/s41586-026-10202-6 Author Correction: PHGDH heterogeneity potentiates cancer cell dissemination and metastasis",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "97f87759eb9927c6",
-      "title": "Not just a chip off the old block: nanoparticles reveal odd traits",
-      "link": "https://www.nature.com/articles/d41586-026-00323-3",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00323-3\">doi:10.1038/d41586-026-00323-3</a></p>Melting point of nanoscale sodium particles differs to that of bulk sodium.",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00323-3 Melting point of nanoscale sodium particles differs to that of bulk sodium.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2aa05c4680feed4d",
-      "title": "These mysterious ridges could be the secret to younger skin",
-      "link": "https://www.nature.com/articles/d41586-026-00364-8",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00364-8\">doi:10.1038/d41586-026-00364-8</a></p>Rete ridges could hold the secrets to revitalising skin.",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00364-8 Rete ridges could hold the secrets to revitalising skin.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fe6dca1d1f721370",
-      "title": "Beetle is locked in to an eternal dance ― with an ant",
-      "link": "https://www.nature.com/articles/d41586-026-00334-0",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00334-0\">doi:10.1038/d41586-026-00334-0</a></p>Evolution has trapped a species of beetle in an inescapable symbiosis with the aggressive velvety tree ant.",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00334-0 Evolution has trapped a species of beetle in an inescapable symbiosis with the aggressive velvety tree ant.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "19c14f10f7da9854",
-      "title": "Daily briefing: Tumours use neurons as hotline to the brain",
-      "link": "https://www.nature.com/articles/d41586-026-00400-7",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00400-7\">doi:10.1038/d41586-026-00400-7</a></p>Tumours hijack nerve cells to send signals to the brain that disarm nearby immune cells. Plus, China has awarded its first ‘practical PhDs’ and how remot…",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00400-7 Tumours hijack nerve cells to send signals to the brain that disarm nearby immune cells. Plus, China has awarded its first ‘practical PhDs’ and how remote sensors are giving researchers new ways to study cities.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "eba6ad657bff3ca2",
-      "title": "First ‘practical PhDs’ awarded in China — for products rather than papers",
-      "link": "https://www.nature.com/articles/d41586-026-00356-8",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00356-8\">doi:10.1038/d41586-026-00356-8</a></p>The programme is designed to train more elite engineers who can help to boost the country’s innovation.",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00356-8 The programme is designed to train more elite engineers who can help to boost the country’s innovation.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e60468ddb30094d9",
-      "title": "NASA’s latest telescope is a feat of early-career leadership",
-      "link": "https://www.nature.com/articles/d41586-026-00253-0",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00253-0\">doi:10.1038/d41586-026-00253-0</a></p>The Pandora satellite provides career training grounds while observing exoplanets.",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00253-0 The Pandora satellite provides career training grounds while observing exoplanets.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d4c72a6002f6aa15",
-      "title": "Is UK science in jeopardy? Huge funding reforms spark chaos and anxiety",
-      "link": "https://www.nature.com/articles/d41586-026-00346-w",
-      "summary": "<p>Nature, Published online: 05 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00346-w\">doi:10.1038/d41586-026-00346-w</a></p>Major reforms to the United Kingdom’s national research funding agency are aimed at boosting the nation’s economy.",
-      "body": "Nature, Published online: 05 February 2026; doi:10.1038/d41586-026-00346-w Major reforms to the United Kingdom’s national research funding agency are aimed at boosting the nation’s economy.",
-      "image": null,
-      "pubDate": "2026-02-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "48939c19e157df34",
       "title": "The Best Super Bowl TV Deals (2026)",
       "link": "https://www.wired.com/gallery/super-bowl-tv-deals-2026/",
@@ -3969,886 +3761,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "b82b3a8209aecd6e",
-      "title": "Author Correction: Cotranslational assembly of protein complexes in eukaryotes revealed by ribosome profiling",
-      "link": "https://www.nature.com/articles/s41586-026-10200-8",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10200-8\">doi:10.1038/s41586-026-10200-8</a></p>Author Correction: Cotranslational assembly of protein complexes in eukaryotes revealed by ribosome profiling",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-026-10200-8 Author Correction: Cotranslational assembly of protein complexes in eukaryotes revealed by ribosome profiling",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3b5963044be02264",
-      "title": "These mysterious ridges could help skin regenerate",
-      "link": "https://www.nature.com/articles/d41586-026-00363-9",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00363-9\">doi:10.1038/d41586-026-00363-9</a></p>Research identifies how stem-cell filled structures known as rete ridges form — plus, the open-source AI tool that performs literature reviews.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00363-9 Research identifies how stem-cell filled structures known as rete ridges form — plus, the open-source AI tool that performs literature reviews.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "be65e72631726ff5",
-      "title": "A universal concept for melting in mantle upwellings",
-      "link": "https://www.nature.com/articles/s41586-025-10065-3",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10065-3\">doi:10.1038/s41586-025-10065-3</a></p>The first melts generated in any solid-state mantle upwelling are kimberlitic CO2-rich silicate melts that form at about 250 km depth through oxidation o…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10065-3 The first melts generated in any solid-state mantle upwelling are kimberlitic CO2-rich silicate melts that form at about 250 km depth through oxidation of elemental carbon to CO2.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a33483f1145f5fbf",
-      "title": "Atlas-guided discovery of transcription factors for T cell programming",
-      "link": "https://www.nature.com/articles/s41586-025-09989-7",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-09989-7\">doi:10.1038/s41586-025-09989-7</a></p>A comprehensive atlas platform integrating transcriptional and epigenetic data enables more precise engineering of T cell states, accelerating the ration…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-09989-7 A comprehensive atlas platform integrating transcriptional and epigenetic data enables more precise engineering of T cell states, accelerating the rational design of more effective cellular immunotherapies.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "249ab4c35da27e42",
-      "title": "Regulatory grammar in human promoters uncovered by MPRA-based deep learning",
-      "link": "https://www.nature.com/articles/s41586-025-10093-z",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10093-z\">doi:10.1038/s41586-025-10093-z</a></p>PARM is a deep-learning model trained on data from massively parallel reporter assays to help predict promoter activity in different human cell types, de…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10093-z PARM is a deep-learning model trained on data from massively parallel reporter assays to help predict promoter activity in different human cell types, design synthetic promoters and identify key features of regulatory promoter grammar.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f7b8237e21cc80a4",
-      "title": "Biofluid biomarkers in Alzheimer’s disease&#xa0;and other neurodegenerative dementias",
-      "link": "https://www.nature.com/articles/s41586-025-10018-w",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10018-w\">doi:10.1038/s41586-025-10018-w</a></p>Improved technologies facilitate the detection of molecules linked to neurodegenerative brain changes at very low concentrations in the blood, complement…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10018-w Improved technologies facilitate the detection of molecules linked to neurodegenerative brain changes at very low concentrations in the blood, complementing the clinical evaluation of suspected neurodegenerative disease.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "52afe74a67d8a7f3",
-      "title": "PtdIns(3,5)P<sub>2</sub> is an endogenous ligand of STING in innate immune signalling",
-      "link": "https://www.nature.com/articles/s41586-025-10084-0",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10084-0\">doi:10.1038/s41586-025-10084-0</a></p>Phosphatidylinositol 3,5-bisphosphate is a ligand of STING and, together with cGAMP, induces STING activation and innate immune responses.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10084-0 Phosphatidylinositol 3,5-bisphosphate is a ligand of STING and, together with cGAMP, induces STING activation and innate immune responses.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "eacd6f356beaa467",
-      "title": "Atmospheric H<sub>2</sub> variability over the past 1,100 years",
-      "link": "https://www.nature.com/articles/s41586-026-10099-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10099-1\">doi:10.1038/s41586-026-10099-1</a></p>Analysis of the atmospheric H2 variability over the past millennium suggests that the sensitivity of H2 to climate change should be considered in estimat…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-026-10099-1 Analysis of the atmospheric H2 variability over the past millennium suggests that the sensitivity of H2 to climate change should be considered in estimates of the radiative consequences of rising anthropogenic H2 emissions.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c32735f87398b34c",
-      "title": "Large-scale analogue quantum simulation using atom dot arrays",
-      "link": "https://www.nature.com/articles/s41586-025-10053-7",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10053-7\">doi:10.1038/s41586-025-10053-7</a></p>A new platform comprising large-scale 2D arrays of quantum dots patterned with sub-nanometre precision, with each quantum dot defined by tens of phosphor…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10053-7 A new platform comprising large-scale 2D arrays of quantum dots patterned with sub-nanometre precision, with each quantum dot defined by tens of phosphorus atoms doped into silicon, allows for analogue simulation of quantum materials on arbitrary lattices.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "def361428ddbc82f",
-      "title": "Synthesizing scientific literature with retrieval-augmented language models",
-      "link": "https://www.nature.com/articles/s41586-025-10072-4",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10072-4\">doi:10.1038/s41586-025-10072-4</a></p>A specialized, open-source, retrieval-augmented language model is introduced for answering scientific queries and synthesizing literature, the responses …",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10072-4 A specialized, open-source, retrieval-augmented language model is introduced for answering scientific queries and synthesizing literature, the responses of which are shown to be preferred by human evaluations over expert-written answers.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "60c25531c0a4e443",
-      "title": "Discovery Learning predicts battery cycle life from minimal experiments",
-      "link": "https://www.nature.com/articles/s41586-025-09951-7",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-09951-7\">doi:10.1038/s41586-025-09951-7</a></p>Discovery Learning, a machine learning approach integrating active learning, physics-guided learning and zero-shot learning into a human-like reasoning l…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-09951-7 Discovery Learning, a machine learning approach integrating active learning, physics-guided learning and zero-shot learning into a human-like reasoning loop, is described for predicting the battery cycle life of new designs from minimal experiments, reducing prototyping requirements.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3191a1fb6a3ef108",
-      "title": "Bacterial immune activation via supramolecular assembly with phage triggers",
-      "link": "https://www.nature.com/articles/s41586-025-10060-8",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10060-8\">doi:10.1038/s41586-025-10060-8</a></p>An antiphage defence system has an activation mechanism that relies on the sensing of phage-encoded proteins that enforce geometry crucial to activation …",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10060-8 An antiphage defence system has an activation mechanism that relies on the sensing of phage-encoded proteins that enforce geometry crucial to activation and are not typically present in non-infected cells.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e397a3540f64ea72",
-      "title": "Signatures of fractional charges via anyon–trions in twisted MoTe<sub>2</sub>",
-      "link": "https://www.nature.com/articles/s41586-026-10101-w",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10101-w\">doi:10.1038/s41586-026-10101-w</a></p>Fractionally charged excitations at zero magnetic field in twisted MoTe2 bilayers, a recently discovered fractional quantum anomalous Hall system, are ob…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-026-10101-w Fractionally charged excitations at zero magnetic field in twisted MoTe2 bilayers, a recently discovered fractional quantum anomalous Hall system, are observed via anyon-trions, excitonic complexes formed by binding a trion to a fractional charge.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1853e1163632076f",
-      "title": "A pore-forming antiphage defence is activated by oligomeric phage proteins",
-      "link": "https://www.nature.com/articles/s41586-025-10075-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10075-1\">doi:10.1038/s41586-025-10075-1</a></p>Bacteria use diverse defence systems against phages, including a 164-residue prophage-encoded protein, Rip1, which senses conserved phage assembly rings …",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10075-1 Bacteria use diverse defence systems against phages, including a 164-residue prophage-encoded protein, Rip1, which senses conserved phage assembly rings to form membrane pores that block virion maturation and trigger premature host cell death.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "54f2d3641ac50be3",
-      "title": "Imaging a terahertz superfluid plasmon in a two-dimensional superconductor",
-      "link": "https://www.nature.com/articles/s41586-025-10082-2",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10082-2\">doi:10.1038/s41586-025-10082-2</a></p>Terahertz microspectroscopic imaging at subgap millielectronvolt energies of a two-dimensional superfluid plasmon in few-layer Bi2Sr2CaCu2O8+x is demonst…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10082-2 Terahertz microspectroscopic imaging at subgap millielectronvolt energies of a two-dimensional superfluid plasmon in few-layer Bi2Sr2CaCu2O8+x is demonstrated, allowing the spatial resolution of its deeply subdiffractive terahertz electrodynamics.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0e23a8821521f9dd",
-      "title": "Parkinson’s disease as a somato-cognitive action network disorder",
-      "link": "https://www.nature.com/articles/s41586-025-10059-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10059-1\">doi:10.1038/s41586-025-10059-1</a></p>The substantia nigra and all Parkinson’s disease deep-brain stimulation targets are selectively connected to the somato-cognitive action network rather t…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10059-1 The substantia nigra and all Parkinson’s disease deep-brain stimulation targets are selectively connected to the somato-cognitive action network rather than to effector-specific motor regions.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e968674950674364",
-      "title": "Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes",
-      "link": "https://www.nature.com/articles/s41586-025-10087-x",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10087-x\">doi:10.1038/s41586-025-10087-x</a></p>A multiancestry phenome-wide analysis of copy number variants in the UK Biobank genomes increases power to detect genetic associations with complex trait…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10087-x A multiancestry phenome-wide analysis of copy number variants in the UK Biobank genomes increases power to detect genetic associations with complex traits across human populations.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1069d15e2e889f3c",
-      "title": "Tumour–brain crosstalk restrains cancer immunity via a sensory–sympathetic axis",
-      "link": "https://www.nature.com/articles/s41586-025-10028-8",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10028-8\">doi:10.1038/s41586-025-10028-8</a></p>Mouse models demonstrate that vagal sensory neurons transmit signals from lung adenocarcinoma to the brain, increasing sympathetic efferent activity in t…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10028-8 Mouse models demonstrate that vagal sensory neurons transmit signals from lung adenocarcinoma to the brain, increasing sympathetic efferent activity in the tumour microenvironment and thereby creating a immunologically permissive environment for tumour growth.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fefa3ecfd2af9338",
-      "title": "Contemporaneous mobile- and stagnant-lid tectonics on the Hadean Earth",
-      "link": "https://www.nature.com/articles/s41586-025-10066-2",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10066-2\">doi:10.1038/s41586-025-10066-2</a></p>Geochemical data from zircons show that subduction-like processes were operating contemporaneously with stagnant-lid-like processes at different location…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10066-2 Geochemical data from zircons show that subduction-like processes were operating contemporaneously with stagnant-lid-like processes at different locations as early as 4.4 billion years ago on the Hadean Earth.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cb36bc62e4abddb7",
-      "title": "Single-molecule dynamics of the TRiC chaperonin system in vivo",
-      "link": "https://www.nature.com/articles/s41586-025-10073-3",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10073-3\">doi:10.1038/s41586-025-10073-3</a></p>Single-particle tracking experiments in intact cells reveal dynamic co- and post-translational interactions of the TRiC–PFD chaperonin complex with clien…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10073-3 Single-particle tracking experiments in intact cells reveal dynamic co- and post-translational interactions of the TRiC–PFD chaperonin complex with client proteins during in vivo protein folding.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a69138f5c11a0761",
-      "title": "ZFTA–RELA ependymomas make itaconate to epigenetically drive fusion expression",
-      "link": "https://www.nature.com/articles/s41586-025-10005-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10005-1\">doi:10.1038/s41586-025-10005-1</a></p>The ZFTA–RELA fusion, an oncogene for ependymomas, promotes the production of itaconate, and its dependence on this metabolite represents a new therapeut…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10005-1 The ZFTA–RELA fusion, an oncogene for ependymomas, promotes the production of itaconate, and its dependence on this metabolite represents a new therapeutic target for this cancer.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "65963242f7d06a20",
-      "title": "Spin-wave band-pass filters for 6G communication",
-      "link": "https://www.nature.com/articles/s41586-025-10057-3",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10057-3\">doi:10.1038/s41586-025-10057-3</a></p>A spin-wave ladder architecture based on single-crystal yttrium iron garnet requiring only one external magnetic bias for manufacturing tunable compact f…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10057-3 A spin-wave ladder architecture based on single-crystal yttrium iron garnet requiring only one external magnetic bias for manufacturing tunable compact filters using modern micromachining fabrication methods is described, demonstrating applications in future communications systems.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f67b8d759304bf7c",
-      "title": "Imaging the sub-moiré potential using an atomic single&#xa0;electron transistor",
-      "link": "https://www.nature.com/articles/s41586-025-10085-z",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10085-z\">doi:10.1038/s41586-025-10085-z</a></p>An atomic single electron transistor, which utilizes a single atomic defect in a van der Waals material as an ultrasensitive, high-resolution potential s…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10085-z An atomic single electron transistor, which utilizes a single atomic defect in a van der Waals material as an ultrasensitive, high-resolution potential sensor, is used to image the electrostatic potential within a moiré unit cell.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "04e8d006d99da055",
-      "title": "Regulation of STING activation by phosphoinositide and cholesterol",
-      "link": "https://www.nature.com/articles/s41586-025-10076-0",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10076-0\">doi:10.1038/s41586-025-10076-0</a></p>Phosphatidylinositol phosphates together with cholesterol bind at the interface between STING dimers, directly promoting high-order oligomerization.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10076-0 Phosphatidylinositol phosphates together with cholesterol bind at the interface between STING dimers, directly promoting high-order oligomerization.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "244a87ab5acd9fe8",
-      "title": "Cleavage of mRNAs by a minority of pachytene piRNAs improves sperm fitness",
-      "link": "https://www.nature.com/articles/s41586-026-10102-9",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10102-9\">doi:10.1038/s41586-026-10102-9</a></p>Most pachytene PIWI-interacting RNAs (piRNAs) have no biological function; however, a small population enhances sperm fitness, which has led to their per…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-026-10102-9 Most pachytene PIWI-interacting RNAs (piRNAs) have no biological function; however, a small population enhances sperm fitness, which has led to their persistence in mammalian evolution.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "460335fb0a908e49",
-      "title": "Resolving intervalley gaps and many-body resonances in moiré superconductors",
-      "link": "https://www.nature.com/articles/s41586-025-10067-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10067-1\">doi:10.1038/s41586-025-10067-1</a></p>This study of magic-angle twisted trilayer graphene moiré superconductors using scanning tunnelling microscopy and spectroscopy identifies two energy gap…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10067-1 This study of magic-angle twisted trilayer graphene moiré superconductors using scanning tunnelling microscopy and spectroscopy identifies two energy gaps that develop from many-body resonance in this highly tunable class of materials.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "054372a170a11042",
-      "title": "Activated ATF6α is a hepatic tumour driver restricting immunosurveillance",
-      "link": "https://www.nature.com/articles/s41586-025-10036-8",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10036-8\">doi:10.1038/s41586-025-10036-8</a></p>ATF6α activation in human and preclinical models of hepatocellular carcinoma is significantly associated with an aggressive tumour phenotype characterize…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10036-8 ATF6α activation in human and preclinical models of hepatocellular carcinoma is significantly associated with an aggressive tumour phenotype characterized by reduced survival, glycolytic reprogramming and local immunosuppression.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "43541a6a4a617851",
-      "title": "Rete ridges form via evolutionarily distinct mechanisms in mammalian skin",
-      "link": "https://www.nature.com/articles/s41586-025-10055-5",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10055-5\">doi:10.1038/s41586-025-10055-5</a></p>A spatial and single-cell transcriptomics study across multiple mammalian species identifies epidermal BMP signalling as a functional requirement for ret…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10055-5 A spatial and single-cell transcriptomics study across multiple mammalian species identifies epidermal BMP signalling as a functional requirement for rete ridge formation, providing insight into mechanisms underlying hair density loss and wound healing.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5b52b3dfcbe8eecb",
-      "title": "Mosquito–capsid interactions contribute to flavivirus vector specificity",
-      "link": "https://www.nature.com/articles/s41586-026-10100-x",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10100-x\">doi:10.1038/s41586-026-10100-x</a></p>Systemic flavivirus dissemination in mosquitoes following initial infection requires protein–protein interactions within extracellular vesicles, which en…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-026-10100-x Systemic flavivirus dissemination in mosquitoes following initial infection requires protein–protein interactions within extracellular vesicles, which enable infectious particles to be transported through haemolymph and confer species specificity.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0eaadb35475748a1",
-      "title": "Integrated structural dynamics uncover a new B<sub>12</sub> photoreceptor activation mode",
-      "link": "https://www.nature.com/articles/s41586-025-10074-2",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10074-2\">doi:10.1038/s41586-025-10074-2</a></p>Spatiotemporal insight into photoactivation of the prototypical B12 photoreceptor CarH is revealed across nine orders of magnitude in time, identifying a…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10074-2 Spatiotemporal insight into photoactivation of the prototypical B12 photoreceptor CarH is revealed across nine orders of magnitude in time, identifying a transient adduct that distinguishes it from thermally activated B12 enzymes.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8faa177eaf5afbb5",
-      "title": "Efficient near-telomere-to-telomere assembly of nanopore simplex reads",
-      "link": "https://www.nature.com/articles/s41586-026-10105-6",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-026-10105-6\">doi:10.1038/s41586-026-10105-6</a></p>A genome assembly method called hifiasm (ONT) allows the assembly of chromosomes from telomere to telomere without the need for ultra-long reads, and out…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-026-10105-6 A genome assembly method called hifiasm (ONT) allows the assembly of chromosomes from telomere to telomere without the need for ultra-long reads, and outperforms conventional methods on most evaluation metrics.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d58c65845cc67f91",
-      "title": "Measuring spin correlation between quarks during QCD confinement",
-      "link": "https://www.nature.com/articles/s41586-025-09920-0",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-09920-0\">doi:10.1038/s41586-025-09920-0</a></p>The STAR experiment at the Relativistic Heavy Ion Collider at Brookhaven National Laboratory demonstrates evidence of spin correlations in $$\\Lambda \\bar…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-09920-0 The STAR experiment at the Relativistic Heavy Ion Collider at Brookhaven National Laboratory demonstrates evidence of spin correlations in $$\\Lambda \\bar{\\Lambda }$$ Λ Λ ¯ hyperon pairs inherited from virtual spin-correlated strange quark–antiquark pairs during QCD confinement.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9c411573e76d414a",
-      "title": "Chemical capture of diazo metabolites reveals biosynthetic hydrazone oxidation",
-      "link": "https://www.nature.com/articles/s41586-025-10079-x",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/s41586-025-10079-x\">doi:10.1038/s41586-025-10079-x</a></p>An approach to discover reactive diazo-based metabolites by capture based on their reactivity coupled to mass spectrometry revealed two previously unknow…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/s41586-025-10079-x An approach to discover reactive diazo-based metabolites by capture based on their reactivity coupled to mass spectrometry revealed two previously unknown diazo-containing compounds produced by the human lung pathogen Nocardia ninae using novel biosynthetic chemistry.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "30aa6deb5e2aeb79",
-      "title": "AI research deluge: why one conference is asking authors to rank their own papers",
-      "link": "https://www.nature.com/articles/d41586-026-00059-0",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00059-0\">doi:10.1038/d41586-026-00059-0</a></p>As submissions soar, could authors’ rankings work together with peer review to help identify high-impact research?",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00059-0 As submissions soar, could authors’ rankings work together with peer review to help identify high-impact research?",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ff2ba80e5e1089d2",
-      "title": "The smart sensors improving the world’s biggest cities",
-      "link": "https://www.nature.com/articles/d41586-026-00306-4",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00306-4\">doi:10.1038/d41586-026-00306-4</a></p>From up in the air to deep beneath the ground, here is the new technology helping to enhance the way we live.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00306-4 From up in the air to deep beneath the ground, here is the new technology helping to enhance the way we live.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "79e27621c1747a5b",
-      "title": "Innovative CAR-T therapy destroys cancer cells without dangerous side effects",
-      "link": "https://www.nature.com/articles/d41586-026-00358-6",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00358-6\">doi:10.1038/d41586-026-00358-6</a></p>In mice, the treatment selectively targets tumour cells without suppressing the immune system.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00358-6 In mice, the treatment selectively targets tumour cells without suppressing the immune system.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fb7145e6eae85335",
-      "title": "Biodiversity conservation has an evidence problem — it’s time to fix it",
-      "link": "https://www.nature.com/articles/d41586-026-00309-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00309-1\">doi:10.1038/d41586-026-00309-1</a></p>Globally, more than one million species are threatened with extinction, but often interventions intended to protect biodiversity are not rooted in robust…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00309-1 Globally, more than one million species are threatened with extinction, but often interventions intended to protect biodiversity are not rooted in robust research. The field has an opportunity to change that.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "826437e41419f26c",
-      "title": "NIH rolls back red tape on some experiments — spurring excitement and concern",
-      "link": "https://www.nature.com/articles/d41586-026-00337-x",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00337-x\">doi:10.1038/d41586-026-00337-x</a></p>Some human research will no longer be classified as a clinical trial, easing the paperwork burden, but not everyone agrees with the approach.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00337-x Some human research will no longer be classified as a clinical trial, easing the paperwork burden, but not everyone agrees with the approach.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "f04cbb2e972ddac7",
-      "title": "‘It means I can sleep at night’: how sensors are helping to solve scientists’ problems",
-      "link": "https://www.nature.com/articles/d41586-026-00212-9",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00212-9\">doi:10.1038/d41586-026-00212-9</a></p>Continual automated data collection was once possible only for the world’s richest labs. Now, sensor systems are commonplace and can be accessed from an …",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00212-9 Continual automated data collection was once possible only for the world’s richest labs. Now, sensor systems are commonplace and can be accessed from an app.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d2473998555f7cbe",
-      "title": "Machine learning slashes the testing needed to work out battery lifetimes",
-      "link": "https://www.nature.com/articles/d41586-026-00168-w",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00168-w\">doi:10.1038/d41586-026-00168-w</a></p>A machine-learning method that reasons and adapts has been developed to solve one of the most time-consuming bottlenecks in battery development.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00168-w A machine-learning method that reasons and adapts has been developed to solve one of the most time-consuming bottlenecks in battery development.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e548692593d50beb",
-      "title": "What my cave stay taught me about sensors",
-      "link": "https://www.nature.com/articles/d41586-026-00203-w",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00203-w\">doi:10.1038/d41586-026-00203-w</a></p>Five days isolated in complete darkness retunes the senses. Scientist Kiana Aran explains how sensors help to share the sensations with others.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00203-w Five days isolated in complete darkness retunes the senses. Scientist Kiana Aran explains how sensors help to share the sensations with others.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5c75c4fb586ed7c4",
-      "title": "A tumour-to-brain pathway hinders anticancer defences",
-      "link": "https://www.nature.com/articles/d41586-026-00170-2",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00170-2\">doi:10.1038/d41586-026-00170-2</a></p>Sensory neurons detect internal and external cues in organs and send this information to the brain. Lung cancer exploits this pathway to lessen immune re…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00170-2 Sensory neurons detect internal and external cues in organs and send this information to the brain. Lung cancer exploits this pathway to lessen immune responses.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "aada2e6e81808bce",
-      "title": "Common genetic variants affect risk of a major cause of pregnancy loss",
-      "link": "https://www.nature.com/articles/d41586-026-00024-x",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00024-x\">doi:10.1038/d41586-026-00024-x</a></p>Genetic data from 139,416 human embryos were used to characterize chromosomal abnormalities, called aneuploidies, that underlie many cases of pregnancy l…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00024-x Genetic data from 139,416 human embryos were used to characterize chromosomal abnormalities, called aneuploidies, that underlie many cases of pregnancy loss. This approach revealed a relationship between aneuploidy and the exchange of DNA between chromosomes during female meiosis and egg formation, and identified common maternal genetic variants associated with meiotic errors.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "89fe54624a4920e9",
-      "title": "Open-source AI tool beats giant LLMs in literature reviews — and gets citations right",
-      "link": "https://www.nature.com/articles/d41586-026-00347-9",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00347-9\">doi:10.1038/d41586-026-00347-9</a></p>Researchers can deploy the cheap and transparent model on their own computer system.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00347-9 Researchers can deploy the cheap and transparent model on their own computer system.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a8347cba5146f1b8",
-      "title": "Particle collisions cast light on how matter forms from seemingly empty space",
-      "link": "https://www.nature.com/articles/d41586-026-00036-7",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00036-7\">doi:10.1038/d41586-026-00036-7</a></p>Fundamental particles called quarks can be created in quantum-correlated pairs. These correlations can be passed on to larger particles that form from th…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00036-7 Fundamental particles called quarks can be created in quantum-correlated pairs. These correlations can be passed on to larger particles that form from the quarks.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "228d9753571022f1",
-      "title": "How tumours trick the brain into shutting down cancer-fighting cells",
-      "link": "https://www.nature.com/articles/d41586-026-00338-w",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00338-w\">doi:10.1038/d41586-026-00338-w</a></p>Lung cancer in mice hijacks neurons to send a signal that subdues the immune system, study finds.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00338-w Lung cancer in mice hijacks neurons to send a signal that subdues the immune system, study finds.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8fc3e2e861f61c0f",
-      "title": "Eviction notice",
-      "link": "https://www.nature.com/articles/d41586-026-00138-2",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00138-2\">doi:10.1038/d41586-026-00138-2</a></p>Universal agreement.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00138-2 Universal agreement.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1ab6226bb8f4e3e5",
-      "title": "Atlantic ocean currents defied the ice age",
-      "link": "https://www.nature.com/articles/d41586-026-00324-2",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00324-2\">doi:10.1038/d41586-026-00324-2</a></p>The state of the North Atlantic Ocean during the last ice age remains debated. A pair of independent geochemical measures shows that a cold, salty and de…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00324-2 The state of the North Atlantic Ocean during the last ice age remains debated. A pair of independent geochemical measures shows that a cold, salty and dense deep-ocean current, known as the North Atlantic Deep Water, continued to form and remained relatively warm, instead of being close to freezing as was assumed previously.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7d16180bb089fbb8",
-      "title": "Quantum computers will finally be useful: what’s behind the revolution",
-      "link": "https://www.nature.com/articles/d41586-026-00312-6",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00312-6\">doi:10.1038/d41586-026-00312-6</a></p>A string of surprising advances suggests usable quantum computers could be here in a decade.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00312-6 A string of surprising advances suggests usable quantum computers could be here in a decade.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1b140e365a8ed28f",
-      "title": "Evolutionary insights into a skin fold",
-      "link": "https://www.nature.com/articles/d41586-026-00171-1",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00171-1\">doi:10.1038/d41586-026-00171-1</a></p>The formation of a skin fold named a rete ridge reveals how simple architectural changes reshape tissue mechanics and signalling routes to make a differe…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00171-1 The formation of a skin fold named a rete ridge reveals how simple architectural changes reshape tissue mechanics and signalling routes to make a different type of skin structure.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "13307d0bc059eaf2",
-      "title": "Immune cells from the gut drive development of Parkinson’s disease in the brain",
-      "link": "https://www.nature.com/articles/d41586-026-00284-7",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00284-7\">doi:10.1038/d41586-026-00284-7</a></p>In ‘body-first’ Parkinson’s disease, misfolded proteins propagate from the gut’s nervous system to the brain. Immune-cell activity seems to play a key pa…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00284-7 In ‘body-first’ Parkinson’s disease, misfolded proteins propagate from the gut’s nervous system to the brain. Immune-cell activity seems to play a key part in this spread.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "112ba2cfb0ba2f5c",
-      "title": "Daily briefing: More than one-third of cancer cases are preventable",
-      "link": "https://www.nature.com/articles/d41586-026-00371-9",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00371-9\">doi:10.1038/d41586-026-00371-9</a></p>Nearly 40% of new cancer cases worldwide are linked to things we can change, such as smoking. Plus, the NIH is rolling back red tape on some types of hum…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00371-9 Nearly 40% of new cancer cases worldwide are linked to things we can change, such as smoking. Plus, the NIH is rolling back red tape on some types of human research and the unexpected success of ice skates.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "75668923ad7a7ce8",
-      "title": "A way to gauge the equity of ocean-related initiatives",
-      "link": "https://www.nature.com/articles/d41586-026-00032-x",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00032-x\">doi:10.1038/d41586-026-00032-x</a></p>Inequity is undermining the ocean’s contributions to people. The Ocean Equity Index is a tool to guide the development of more equitable ocean governance…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00032-x Inequity is undermining the ocean’s contributions to people. The Ocean Equity Index is a tool to guide the development of more equitable ocean governance and management. The index can be used to assess and advance equity in ocean initiatives, projects and policies, thereby ensuring better outcomes for people and ecosystems.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b8a85fe0e76deeab",
-      "title": "How a protein repurposes vitamin B12 as a light sensor",
-      "link": "https://www.nature.com/articles/d41586-026-00169-9",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00169-9\">doi:10.1038/d41586-026-00169-9</a></p>Intense, ultrashort X-ray pulses have been used to probe the extraordinary reactions that occur in a light-sensing receptor, resolving a biochemical conu…",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00169-9 Intense, ultrashort X-ray pulses have been used to probe the extraordinary reactions that occur in a light-sensing receptor, resolving a biochemical conundrum.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ac04d8634c57bad9",
-      "title": "AI could transform research assessment — and some academics are worried",
-      "link": "https://www.nature.com/articles/d41586-026-00124-8",
-      "summary": "<p>Nature, Published online: 04 February 2026; <a href=\"https://www.nature.com/articles/d41586-026-00124-8\">doi:10.1038/d41586-026-00124-8</a></p>Resistance to using the technology, despite its labour-saving potential, is particularly prevalent in research-intensive universities.",
-      "body": "Nature, Published online: 04 February 2026; doi:10.1038/d41586-026-00124-8 Resistance to using the technology, despite its labour-saving potential, is particularly prevalent in research-intensive universities.",
-      "image": null,
-      "pubDate": "2026-02-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
