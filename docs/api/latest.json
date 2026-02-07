@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-07T20:49:36.176Z",
-    "total": 203,
+    "generated_at": "2026-02-07T21:04:14.367Z",
+    "total": 194,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,29 +9,16 @@
     "shard_index": 4,
     "results": [
       {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/edaa4ae5-3e2f-4d94-b759-6a280b1fa298",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 66,
-        "error": null,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -48,55 +35,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/edaa4ae5-3e2f-4d94-b759-6a280b1fa298",
+        "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
-        ],
-        "taken": 26,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
         "notModified": false
       },
       {
@@ -113,6 +61,45 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 66,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 26,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Investing.com News (EN)",
         "url": "https://www.investing.com/rss/news.rss",
         "homepage": "https://www.investing.com/rss/news.rss",
@@ -122,6 +109,32 @@
           "general"
         ],
         "taken": 6,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
         "error": null,
         "notModified": false
       },
@@ -139,19 +152,6 @@
         "notModified": false
       },
       {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Food52",
         "url": "https://food52.com/blog.rss",
         "homepage": "https://food52.com/blog.rss",
@@ -162,6 +162,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -178,6 +191,19 @@
         "notModified": false
       },
       {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
@@ -191,16 +217,16 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -217,9 +243,9 @@
         "notModified": false
       },
       {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -254,32 +280,6 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
       }
     ]
   },
@@ -291,7 +291,7 @@
       "summary": "Hims & Hers on Saturday announced it would stop offering its copycat of the weight-loss pill Wegovy after threats of legal action.",
       "body": null,
       "image": null,
-      "pubDate": "2026-02-07T20:46:37.000Z",
+      "pubDate": "2026-02-07T20:57:08.000Z",
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
@@ -330,22 +330,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e4aaf32a3070961b",
-      "title": "Camilla Carr, Actress in ‘Keep My Grave Open’ and ‘Designing Women,’ Dies at 83",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/camilla-carr-dead-keep-my-grave-open-designing-women-1236497946/",
-      "summary": "The Texas native appeared in three films for exploitation director S.F. Brownrigg, including ‘Don’t Look in the Basement’ and ‘Poor White Trash Part II.’",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T20:11:28.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -589,6 +573,38 @@
       "region": "global"
     },
     {
+      "id": "9a8ee6ca25fe87e9",
+      "title": "جدول مباريات اليوم الأحد 8 فبراير 2026 .. القنوات الناقلة والمعلقين",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%AD%D8%AF-8-%D9%81%D8%A8%D8%B1%D8%A7%D9%8A%D8%B1-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blt801b4481ffedae0b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين",
+      "body": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين يترقّب عشّاق كرة القدم حول العالم، اليوم الأحد الموافق 8 فبراير/شباط 2026، يومًا استثنائيًا حافلًا بالمواجهات الكروية القوية، التي تجمع بين الإثارة والندية، وتعد بوجبة دسمة لعشّاق المستديرة في مختلف القارات. على ملعب أنفيلد، تتجه الأنظار إلى قمة نارية تجمع بين ليفربول ومانشستر سيتي، ضمن منافسات الجولة الخامسة والعشرين من الدوري الإنجليزي الممتاز لموسم 2025-2026. وفي إسبانيا، يحتضن ملعب ميستايا مواجهة مرتقبة تجمع بين فالنسيا وريال مدريد، ضمن منافسات الجولة الثالثة والعشرين من الدوري الإسباني لموسم 2025-2026. أما في الدوري الألماني، فيخوض بايرن ميونخ مواجهة مهمة أمام هوفنهايم، في لقاء يسعى من خلاله العملاق البافاري لتعزيز موقعه في جدول الترتيب، ومواصلة عروضه القوية محليًا. وفي فرنسا، سيكون مارسيليا ضيفًا ثقيلًا على باريس سان جيرمان، في قمة كلاسيكية تحمل دائمًا طابع الإثارة والندية، ضمن منافسات الدوري الفرنسي، في مواجهة لا تخلو من الحسابات المعقدة والطموحات الكبيرة للطرفين. وعلى الصعيد القاري الأفريقي، تُقام ثلاث مواجهات قوية في دوري أبطال أفريقيا، حيث يستضيف سانت إيلوا لوبوبو نظيره ماميلودي صن داونز، بينما يحل بيراميدز ضيفًا ثقيلًا على ريفرز يونايتد، في حين يطير الترجي التونسي لمواجهة الملعب المالي في لقاء لا يقل أهمية. كما يشهد…",
+      "image": "https://assets.kooora.com/images/v3/blt435ab8f1128b32fc/Banner%20-%20Monthly%20Player%20Rankings%20Dark%20%20copy.jpg",
+      "pubDate": "2026-02-07T19:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "68c7401660a65ba4",
+      "title": "أرتيتا يكشف عن خطته بشأن موقعة السيتي وليفربول",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D9%8A%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%AE%D8%B7%D8%AA%D9%87-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D9%88%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/blt0a794053b7d821dc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"...هذا أمر آخر\"",
+      "body": "\"...هذا أمر آخر\" كشف ميكيل أرتيتا مدرب آرسنال عن خطته بشأن المباراة المقبلة بين مانشستر سيتي وليفربول المقررة غدا الأحد ضمن الجولة الخامسة والعشرين من الدوري الإنجليزي الممتاز. وأظهر مدرب الجانرز لمحات من الثقة والتفاؤل بعد فوزه 3-0 اليوم السبت على سندرلاند حيث بقي في الصدارة برصيد 56 بفارق 9 نقاط أمام ملاحقه السيتي. ويأمل أرتيتا أن يخدمه ليفربول غدا ليثبت هذا الفارق بينهما من أجل تعزيز طموحه في إنهاء الحرمان الطويل من لقب البريميرليج المستمر منذ نهاية موسم 2003-2004. &nbsp; فارق التسع نقاط وخلال المؤتمر الصحفي بعد الفوز على سندرلاند اليوم، أكد أرتيتا أنه سيتابع مباراة مانشستر سيتي أمام ليفربول. ورغم ذلك، شدد على أن تقدم فريقه بفارق 9 نقاط في الصدارة \"لا يعني شيئا\" في الوقت الحالي. وقال: \"نعم، سأتناول عشاء جميلا الليلة، وغدا أبدأ التحضير للقاء برينتفورد لأنها ستكون مباراة صعبة جدا\". وعاد ليؤكد ما قاله عن لقاء السيتي وليفربول فقال: \"بالتأكيد سأشاهد مباراة كبيرة جدا\". وبغض النظر عن نتيجة أنفيلد غدا، أوضح أرتيتا: \"لا يزال أمامنا الكثير من المباريات لنفوز بها حتى نحقق ما نريده، لذا لا تركيز على ذلك، فهذا أمر آخر\". واسترسل: \"لقد أنجزنا مهمتنا الآن، هذا ما أقيمه وأحاول تحسينه، التركيز الكامل على لقاء برينتفورد\". وسوف تضيف النتيجة بين السيتي وليفربول المزيد من الإثارة على مشهد الصدارة وس…",
+      "image": null,
+      "pubDate": "2026-02-07T18:56:28.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "443dbfbb772bba41",
       "title": "Yamal scores as Barcelona beat Mallorca to extend lead at top",
       "link": "https://www.bbc.com/sport/football/videos/cj4l4jjy9qko?at_medium=RSS&at_campaign=rss",
@@ -605,11 +621,27 @@
       "region": "global"
     },
     {
+      "id": "59bc71cc75f7c48f",
+      "title": "قرار الخيانة يهدر الملايين على برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%86%D8%A9-%D9%8A%D9%87%D8%AF%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt18fc20a2983a8a8e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أعلن نادي برشلونة، انسحابه بشكل رسمي من مشروع السوبر ليج، الذي يتزعمه غريمه التقليدي ريال مدريد.",
+      "body": "أعلن نادي برشلونة، انسحابه بشكل رسمي من مشروع السوبر ليج، الذي يتزعمه ريال مدريد. وأكدت صحيفة موندو ديبورتيفو، أن برشلونة لن يضطر إلى دفع رسوم خروج من مشروع السوبر ليج، عكس ما كان متداولًا في السابق. لكن العملاق الكتالوني برئاسة خوان لابورتا، سيخسر قرابة 5 ملايين يورو بعد مغادرة السوبر ليج. وكان برشلونة من أحد الأعضاء المؤسسين للسوبر ليج في 2021. لكن بعد 5 سنوات، خان برشلونة، غريمه ريال مدريد، وخرج من السوبر ليج، حسبما وصفت شبكة ديفينسا سنترال. ثمن خروج برشلونة من السوبر ليج ذكرت شبكة \"ديفينسا سنترال\" أن انسحاب برشلونة سيكلفه خسارة قدرها 4.6 ملايين يورو، بحسب ما كشفه الصحفي مارثال لورينتي. وقال لورينتي، عبر حسابه على إكس \"سيخسر برشلونة 4.6 ملايين يورو، بواقع مليوني يورو تمثل القيمة الأسمية لمساهمة النادي في شركةSuper League Company S.L.، و2.6 مليون يورو دفعها في إطار قرض تشاركي لهذه الشركة\". وشدد \"لا توجد غرامة خروج لأن 70% من الأندية المؤسسة قد انسحبت\". وبذلك نفى الصحفي مارثال لورينتي، أن يكون خوان لابورتا قد توصل إلى أي اتفاق خاص لتجنب الدفع. Al Barça le supone perder 4,6 millones de euros. 2 M que es el valor nominal de la participación social del club en la sociedad Super League Company S.L. y 2,6 M que abonó en un préstamo participativo de esta sociedad. No hay penalización d…",
+      "image": "https://assets.kooora.com/images/v3/getty-2227222386/crop/MM5DINBXGM5DENJRGY5G433XMU5DAORSGMZQ====/GettyImages-2227222386.jpg",
+      "pubDate": "2026-02-07T18:53:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "8be5a34cff5c1029",
       "title": "بعد مساعداته لبرشلونة.. لماذا انقلب لابورتا على بيريز في هذه اللحظة بالذات؟",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%B9%D8%AF-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA%D9%87-%D9%84%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%A7%D9%86%D9%82%D9%84%D8%A8-%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D8%B9%D9%84%D9%89-%D8%A8%D9%8A%D8%B1%D9%8A%D8%B2-%D9%81%D9%8A-%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D9%84%D8%AD%D8%B8%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D8%A7%D8%AA/bltf685316a98680e13?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "رئيس البارسا اتخذ قرارًا حاسمًا بشأن الشراكة مع ريال مدريد",
-      "body": "رئيس البارسا اتخذ قرارًا حاسمًا بشأن الشراكة مع ريال مدريد جاء انسحاب برشلونة الرسمي، اليوم السبت، من مشروع السوبر ليج الأوروبي، ليعكس تحوّلًا واضحًا في موقف الإدارة الكتالونية، وعلاقتها بالمبادرة التي يقودها رئيس ريال مدريد، فلورنتينو بيريز، بحسب صحيفة \"El Confidencial\" الإسبانية. قرار نهائي واتخذ البارسا قراره النهائي، بعد فترة من الجدل بشأن مستقبل المشروع، خاصةً في ظل تصريحات سابقة لبيريز، أكد خلالها ضرورة تعاون قطبي الليجا معًا، لكن ردّ رئيس برشلونة، خوان لابورتا، جاء عمليًا عبر تجاهل تلك الدعوات، والانسحاب من المشروع، مع التأكيد على التقارب مع الاتحاد الأوروبي لكرة القدم \"يويفا\"، والالتزام بمنظومته. علاقة جدلية بين لابورتا وبيريز وكانت العلاقة بين لابورتا وبيريز محل نقاش متكرر، في الأشهر الأخيرة، لا سيما أن رئيس ريال مدريد سبق أن قدّم دعمًا للبلوجرانا في ملفات مختلفة، من بينها المساعدة في الضمانات المالية المرتبطة بوصول لابورتا إلى رئاسة النادي الكتالوني، إضافة إلى دوره في صفقة الاستثمار مع شركة Sixth Street. وكانت الشركة المذكورة قد استحوذت، في عام 2022، على 25% من حقوق البث التلفزيوني لمباريات برشلونة في الدوري الإسباني، لمدة 25 عامًا. وساعدت هذه الصفقة، التي قُدرت قيمتها بأكثر من 500 مليون يورو، النادي الكتالوني في تعزيز وضعه المالي، وتسجيل صفقات جديدة. تشكيك فونت وكان فيك…",
+      "body": "رئيس البارسا اتخذ قرارًا حاسمًا بشأن الشراكة مع ريال مدريد جاء انسحاب برشلونة الرسمي، اليوم السبت، من مشروع السوبر ليج الأوروبي، ليعكس تحوّلًا واضحًا في موقف الإدارة الكتالونية، وعلاقتها بالمبادرة التي يقودها رئيس ريال مدريد، فلورنتينو بيريز، بحسب صحيفة \"El Confidencial\" الإسبانية. قرار نهائي واتخذ البارسا قراره النهائي، بعد فترة من الجدل بشأن مستقبل المشروع، خاصةً في ظل تصريحات سابقة لبيريز، أكد خلالها ضرورة تعاون قطبي الليجا معًا. لكن ردّ رئيس برشلونة، خوان لابورتا، جاء عمليًا عبر تجاهل تلك الدعوات، والانسحاب من المشروع، مع التأكيد على التقارب مع الاتحاد الأوروبي لكرة القدم \"يويفا\"، والالتزام بمنظومته. علاقة جدلية بين لابورتا وبيريز وكانت العلاقة بين لابورتا وبيريز محل نقاش متكرر، في الأشهر الأخيرة، لا سيما أن رئيس ريال مدريد سبق أن قدّم دعمًا للبلوجرانا في ملفات مختلفة، من بينها المساعدة في الضمانات المالية المرتبطة بوصول لابورتا إلى رئاسة النادي الكتالوني، إضافة إلى دوره في صفقة الاستثمار مع شركة Sixth Street. وكانت الشركة المذكورة قد استحوذت، في عام 2022، على 25% من حقوق البث التلفزيوني لمباريات برشلونة في الدوري الإسباني، لمدة 25 عامًا. وساعدت هذه الصفقة، التي قُدرت قيمتها بأكثر من 500 مليون يورو، النادي الكتالوني في تعزيز وضعه المالي، وتسجيل صفقات جديدة. تشكيك فونت وكان فيك…",
       "image": "https://assets.kooora.com/images/v3/getty-2260392507/crop/MM5DEMZZGQ5DEMZZGQ5G433XMU5DKMZWHIYA====/GettyImages-2260392507.jpg",
       "pubDate": "2026-02-07T18:44:18.000Z",
       "source": {
@@ -765,22 +797,6 @@
       "region": "mena"
     },
     {
-      "id": "c3a4d75343b95529",
-      "title": "Trump Says “Very Strong” Clues Found in Nancy Guthrie Case, Answers May Come “Fairly Soon”",
-      "link": "https://www.hollywoodreporter.com/news/general-news/trump-says-clues-found-nancy-guthrie-case-answers-soon-1236497901/",
-      "summary": "The mother of 'Today' show co-host Savannah Guthrie was reported missing last weekend, and investigators have said she was likely taken against her will in a “possible kidnapping or abduction.”",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T18:01:09.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b257a694c1bc5f6f",
       "title": "Blitzball is alive and well in Final Fantasy 14, and I spoke to the community of passionate fans who built an entire 140-page D&D-like system to play it: 'Once you start playing, you just can't stop'",
       "link": "https://www.pcgamer.com/games/mmo/blitzball-is-alive-and-well-in-final-fantasy-14-and-i-spoke-to-the-community-of-passionate-fans-who-built-an-entire-140-page-d-and-d-like-system-to-play-it-once-you-start-playing-you-just-cant-stop/",
@@ -791,22 +807,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "85cbbb28865e323c",
-      "title": "How Boulder Can Breathe New Life Into Sundance",
-      "link": "https://www.hollywoodreporter.com/movies/movie-features/how-boulder-can-breathe-new-life-into-sundance-1236497692/",
-      "summary": "The low-key goodbye to Utah was saddled with nostalgia. It's finally time to look toward the future.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T18:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -1309,22 +1309,6 @@
       "region": "global"
     },
     {
-      "id": "0498c4f7da49ac97",
-      "title": "‘Survivor’: All 47 Winners Who Outwitted, Outplayed and Outlasted Their Competition",
-      "link": "https://www.hollywoodreporter.com/lists/survivor-all-winners-list/",
-      "summary": "A 48th Sole Survivor will soon be named — but before that, The Hollywood Reporter has gathered together the full slate of former castaways who have won the show.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T16:15:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "2ed2294fc054bb83",
       "title": "In economic speeches, Trump claims inflation victory nearly 20 times even as prices bite",
       "link": "https://www.investing.com/news/economy-news/in-economic-speeches-trump-claims-inflation-victory-nearly-20-times-even-as-prices-bite-4492331",
@@ -1348,54 +1332,6 @@
       "body": "حقق تشيلسي، فوزا ثمينا أمام مضيفه وولفرهامبتون، بنتيجة 1-3 في الجولة 25 من عمر الدوري الإنجليزي الممتاز. وارتفع رصيد تشيلسي مع مدربه ليام روسينيور، إلى 43 نقطة في المركز الخامس. فيما تجمد رصيد وولفرهامبتون عند 8 نقاط في ذيل الترتيب. وذكرت شبكة \"سكواكا\" أن روسينيور أصبح ثاني مدرب إنجليزي فقط في تاريخ البريميرليج، ينتصر في أول 4 مباريات له كمدرب في البطولة، بعد كريج شيكسبير مع ليستر في 2017. ونجح تشيلسي في الفوز بآخر 4 مباريات بالبريميرليج منذ قدوم روسينيور، بالانتصار على برينتفورد وكريستال بالاس ووست هام ووولفرهامبتون. يذكر أن المدرب مايكل كاريك حقق 4 انتصارات متتالية بالدوري الإنجليزي الممتاز منذ توليه تدريب مانشستر يونايتد، لكنه تعادل في أول مباراة له كمدرب في البريميرليج، ضد تشيلسي عام 2021، بحسب \"سكواكا\". Liam Rosenior is just the second English manager in Premier League history to win his first four games in charge after Craig Shakespeare for Leicester in 2017. 👏 pic.twitter.com/yhUQzPUHiD &mdash; Squawka Dugout (@SquawkaDugout) February 7, 2026",
       "image": null,
       "pubDate": "2026-02-07T16:12:16.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "fec9f3f24e5b95f9",
-      "title": "مهارات يامال تعجز مبابي ونجم مانشستر سيتي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D8%AA%D8%B9%D8%AC%D8%B2-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%86%D8%AC%D9%85-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/bltd0ed603b8ef113df?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "موهوب برشلونة يتفوق بوضوح على هداف ريال مدريد",
-      "body": "موهوب برشلونة يتفوق بوضوح على هداف ريال مدريد انتصر برشلونة على ريال مايوركا بنتيجة 3-0، في المباراة التي جمعت الفريقين ضمن منافسات الجولة 23 من الدوري الإسباني، اليوم السبت. ودخل لامين يامال نجم البارسا، وهو يواصل تقديم مستويات لافتة مع برشلونة هذا الموسم، بعدما بات أهم مفاتيح اللعب الهجومي للفريق بفضل سرعته ومهارته وقدرته على صناعة الفارق. ووصل يامال، الذي سجل الهدف الثاني في لقطء الليلة، إلى المراوغة رقم 100 في الدوريات الخمس الكبرى هذا الموسم، ليحتل المركز الأول في قائمة أكثر اللاعبين نجاحًا في المراوغات، متفوقا بفارق واسع على أقرب منافسيه البلجيكي جيريمي دوكو نجم مانشستر سيتي، الذي سجل 62 مراوغة فقط. بينما جاء الفرنسي كيليان مبابي نجم ريال مدريد في المركز الثالث برصيد 60 مراوغة. ويعكس هذا الرقم حجم التطور الكبير في أداء النجم الشاب، الذي بات يمثل مصدر إزعاج دائم لدفاعات المنافسين، ويمنح برشلونة حلولا هجومية متنوعة. وبهذا الفوز، رفع برشلونة رصيده إلى 58 نقطة في صدارة جدول ترتيب الدوري الإسباني، بينما تجمد رصيد مايوركا عند 24 نقطة في المركز الخامس عشر.",
-      "image": null,
-      "pubDate": "2026-02-07T16:08:22.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "399864e9914a974c",
-      "title": "بعد توني.. نجم القادسية يصعق رونالدو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%AA%D9%88%D9%86%D9%8A-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D9%8A%D8%B5%D8%B9%D9%82-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/blta8eb87ec0f6aa1e6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الأزمات تواصل محاصرة الدون",
-      "body": "الأزمات تواصل محاصرة الدون واصل المحترف المكسيكي جوليان كينونيس، مهاجم القادسية، توهجه هذا الموسم، بعدما سجل هدفًا في شباك الفتح، مساء اليوم السبت، ضمن الجولة 21 من دوري روشن السعودي للمحترفين. ويحتل القادسية المركز الرابع في جدول ترتيب دوري روشن، برصيد 43 نقطة، خلف الأهلي الثالث (47)، النصر الوصيف (49)، والهلال المتصدر (50). وتمكن كينونيس من هز شباك الفتح في الدقيقة 13، عبر لمسة رائعة، حيث استغل تمريرة وضعته وجهًا لوجه بحارس الخصم. &nbsp; من كل الزوايا 🎥🔥 هدف القادسبة الأول في مرمى الفتح عن طريق كينونيس ⚽️ ⁧ #القادسية_الفتح ⁩ | ⁧ #دوري_روشن_السعودي pic.twitter.com/4fADJSlN01 &mdash; رياضة ثمانية (@thmanyahsports) February 7, 2026 وبهذا الهدف، رفع كينونيس رصيده إلى 18 هدفًا في وصافة ترتيب هدافي دوري روشن، ليفض شراكة المركز الثاني مع النجم البرتغالي كريستيانو رونالدو، قائد النصر (17). وبات كينونيس على بعد هدف واحد فقط من التساوي مع الإنجليزي إيفان توني، مهاجم أهلي جدة، والذي يعتلي القمة برصيد 19 هدفًا. وكان رونالدو قد خسر القمة قبل أيام قليلة، قبل أن يتراجع للمركز الثالث في قائمة الهدافين، وذلك نتيجة لغيابه عن آخر مباراتين ضد الرياض والاتحاد، اعتراضًا على آلية دعم صندوق الاستثمار السعودي.",
-      "image": null,
-      "pubDate": "2026-02-07T16:06:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0e8e5f43e60e2cc0",
-      "title": "قبل موقعة أنفيلد.. آرسنال يضغط على السيتي بذكرى موسم \"اللا هزيمة\"",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%A8%D9%84-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%94%D9%86%D9%81%D9%8A%D9%84%D8%AF-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%8A%D8%B6%D8%BA%D8%B7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A8%D8%B0%D9%83%D8%B1%D9%89-%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D8%A7-%D9%87%D8%B2%D9%8A%D9%85%D8%A9/blt60b2247edff5ab56?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "فريق المدرب أرتيتا يسير بثبات نحو اللقب الغائب",
-      "body": "فريق المدرب أرتيتا يسير بثبات نحو اللقب الغائب يواصل فريق آرسنال انتصاراته سيرا في الطريق الصحيح لتثبيت صدارته والاقتراب خطوة جديدة نحو تحقيق لقب الدوري الإنجليزي الممتاز الذي ينتظره منذ 2004. وتغلب فريق المدير الفني ميكيل أرتيتا 3-0 على سندرلاند مساء اليوم السبت ضمن الجولة الخامسة والعشرين من البريميرليج. ويعتلي الجانرز صدارة جدول ترتيب المسابقة برصيد 56 نقطة، بفارق 9 نقاط عن ملاحقه مانشستر سيتي الذي يستعد لمواجهة ليفربول غدا الأحد ضمن الجولة نفسها. ووفقا لشبكة أوبتا المختصة في إحصائيات كرة القدم: \"ينهي آرسنال اليوم في الصدارة بفارق 9 أو أكثر لأول مرة منذ اليوم الأخير لموسم 2003-2004\". وكان ذلك موسم \"اللا هزيمة\" الشهير الذي توج فيه آرسنال بآخر لقب في الدوري تحت قيادة الأسطورة آرسين فينجر. &nbsp; 9 - Arsenal will end the day 9+ points clear at the top of the Premier League for the first time since the final day of their 2003-04 title winning campaign (11). Focused. pic.twitter.com/KEMcI1OvKB &mdash; OptaJoe (@OptaJoe) February 7, 2026 وبفوز اليوم يضغط آرسنال بقوة على مانشستر سيتي منتظرا هدية من ليفربول غدا علي ملعب أنفيلد لتعزيز فرصه في اقتناص اللقب الغائب.",
-      "image": null,
-      "pubDate": "2026-02-07T16:04:18.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -1949,22 +1885,6 @@
       "region": "global"
     },
     {
-      "id": "ec1dd25e80ebc53a",
-      "title": "SCL Awards: Ludwig Göransson and ‘Sinners’ Win Two, “Golden” Takes Outstanding Original Song for Comedy or Musical",
-      "link": "https://www.hollywoodreporter.com/music/film-tv-music-news/scl-awards-2026-winnners-list-1236497756/",
-      "summary": "Bryce Dessner and 'Train Dreams' won for outstanding score for an independent film.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T06:30:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "54ca3656f04f0a48",
       "title": "Some 'dark days and nights' at Arsenal, happiness at Sunderland",
       "link": "https://www.bbc.com/sport/football/articles/c801z394lr1o?at_medium=RSS&at_campaign=rss",
@@ -1978,22 +1898,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "910c40daadf9967c",
-      "title": "‘The ’Burbs’ Review: Keke Palmer Brightens Peacock’s Mixed Bag of a Dark Comedy Reboot",
-      "link": "https://www.hollywoodreporter.com/tv/tv-reviews/the-burbs-review-keke-palmer-peacock-1236496276/",
-      "summary": "Inspired by the 1989 film starring Tom Hanks, the series centers on a new mom who begins to suspect something sinister is afoot in her idyllic neighborhood.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T05:19:17.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2042,38 +1946,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "79c3d59a3901efb8",
-      "title": "How to Get Tickets to Harry Styles’ Sold-Out Tour",
-      "link": "https://www.hollywoodreporter.com/lifestyle/shopping/buy-harry-styles-tour-tickets-together-together-2026-deals-1236483025/",
-      "summary": "The 50-show Together, Together tour — supporting his fourth studio album 'Kiss All the Time. Disco, Occasionally.' — includes a 30-night residency at New York City's Madison Square Garden.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T00:50:50.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
-      "region": "global"
-    },
-    {
-      "id": "34b05be2156a262e",
-      "title": "Best Coast Frontwoman Demands Casey Wasserman’s Removal From Namesake Company Over Epstein Emails",
-      "link": "https://www.hollywoodreporter.com/news/general-news/casey-wasserman-ghislaine-maxwell-epstein-2028-olympics-1236497549/",
-      "summary": "The sports marketing power player, who was selected to lead L.A.'s 2028 Olympics Committee, is facing major backlash after tawdry emails with Ghislaine Maxwell from 2003 emerged.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T00:19:07.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2138,22 +2010,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c1585df6e7327cb5",
-      "title": "Bad Bunny Tops Grammys Fashion Power Rankings",
-      "link": "https://www.hollywoodreporter.com/lifestyle/style/grammys-power-rankings-bad-bunny-earns-big-schiaparelli-1236496788/",
-      "summary": "The superstar accepted three trophies, including album of the year, in a velvet Schiaparelli tuxedo that also set social media ablaze, while Sabrina Carpenter captured high-wattage attention in Valentino.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-06T23:09:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -3309,6 +3165,22 @@
       "region": "global"
     },
     {
+      "id": "a419df71781229f6",
+      "title": "How to find and beat the Bloodedge Demon in Nioh 3",
+      "link": "https://www.pcgamer.com/games/action/nioh-3-bloodedge-demon/",
+      "summary": "The Bloodedge Demon feeds on your bloodlust.",
+      "body": "The Bloodedge Demon is the most unique boss in Nioh 3, since this yokai scales based on how many revenants you've killed—those red spirits of other players that you can summon for a duel. If you've been very liberal with your friendly summons (the blue ones), then you've likely had to kill a lot of angry revenants to recoup your Ochoko Cups. Because of this, the Bloodedge Demon can be a terror. But before you can even fight the Bloodedge Demon, you need to know where to find it. You've no doubt prayed at a shrine and been told that the \"Bloodedge Demon has appeared\", but you're not given any clues as to where it is—or even what it is. So, here's what you need to know. Where to find the Bloodedge Demon in Nioh 3 Team Ninja Team Ninja Team Ninja The Bloodedge Demon spawns periodically throughout your journey, and you'll need to interact with its bloody grave to summon it. This is a large sword surrounded by a purple glow that'll spawn in a random location on the map. You'll know when the Bloodedge Demon is active if you interact with a shrine and are told it's appeared, or if you slay a revenant and it leaves a red trail behind. On that note, to find the Bloodedge Demon's bloody gra…",
+      "image": "https://cdn.mos.cms.futurecdn.net/8NgN8jxeWjzmh9nVgyNBfM-1280-80.jpg",
+      "pubDate": "2026-02-05T23:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "eee623d0d3b4e23e",
       "title": "How to unlock parry in Nioh 3",
       "link": "https://www.pcgamer.com/games/action/nioh-3-parry-unlock/",
@@ -3322,22 +3194,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "dcb4621e1ccf037f",
-      "title": "How to beat Jakotsu-baba in Nioh 3",
-      "link": "https://www.pcgamer.com/games/action/nioh-3-jakotsu-baba-boss-guide/",
-      "summary": "Raid the Hamamatsu Castle Crucible and put an end to Jakotsu-baba.",
-      "body": "Jakotsu-baba is the first major boss in Nioh 3, not including the prologue's Yamagata Masakage. As is typical for the first real boss in any soulslike, Jakotsu-baba is no walk in the park, as I'm sure you've figured out by now. Not only is Jakotsu-baba a real pain by himself, but he's also inside the Crucible—basically a nightmare realm, where any damage you take also decreases your maximum health. What's already a hard fight is now a true test of skill, as every hit you take sets you even further back. But don't worry, after banging my head against Jakotsu-baba, I figured out a few things that make this fight easier. How to beat Jakotsu-baba in Nioh 3 Jakotsu-baba is a mandatory boss at the end of the Hamamatsu Castle Crucible, so you need to beat them to continue the story and progress into later zones. Here's what I recommend you do, from preparation to make the fight easier, to how to counter Jakotsu-baba's attacks. Preparing for Jakotsu-baba The Supreme Parry skill location. Team Ninja You can buy the Enduring Destruction skill from a Sudama. Team Ninja You can fight Mezuki, an optional boss, in the temple in Tokaido. Team Ninja Before even fighting Jakotsu-baba, there are a …",
-      "image": "https://cdn.mos.cms.futurecdn.net/mRmtqhwfqLwJmqWTsKkyAe-1280-80.jpg",
-      "pubDate": "2026-02-05T23:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
