@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-08T22:51:17.507Z",
+    "generated_at": "2026-02-08T23:16:55.010Z",
     "total": 204,
     "processed_feeds": 21,
-    "discovered_feeds": 83,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
@@ -22,16 +22,29 @@
         "notModified": false
       },
       {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "WHO — News (EN)",
+        "url": "https://www.who.int/rss-feeds/news-english.xml",
+        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 8,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -48,16 +61,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "taken": 8,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,22 +87,9 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "WHO — News (EN)",
-        "url": "https://www.who.int/rss-feeds/news-english.xml",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
+        "name": "Eater",
+        "url": "https://www.eater.com/rss/index.xml",
+        "homepage": "https://www.eater.com/rss/index.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -113,16 +113,42 @@
         "notModified": false
       },
       {
-        "name": "Eater",
-        "url": "https://www.eater.com/rss/index.xml",
-        "homepage": "https://www.eater.com/rss/index.xml",
-        "lang": "en",
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -142,6 +168,32 @@
         "name": "The Kitchn",
         "url": "https://www.thekitchn.com/main/rss",
         "homepage": "https://www.thekitchn.com/main/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -178,32 +230,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Android Authority",
         "url": "https://www.androidauthority.com/feed/",
         "homepage": "https://www.androidauthority.com/feed/",
@@ -230,32 +256,6 @@
         "notModified": false
       },
       {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Asharq Al-Awsat - رياضة",
         "url": "https://aawsat.com/feeds/section/sport.xml",
         "homepage": "https://aawsat.com/feeds/section/sport.xml",
@@ -278,7 +278,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Invalid character in entity name\nLine: 2\nColumn: 199\nChar: ]",
         "notModified": false
       }
     ]
@@ -425,6 +425,22 @@
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
       },
       "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "32e506dc272af6e2",
+      "title": "Rugby Union Weekly",
+      "link": "https://www.bbc.co.uk/sounds/play/p0mzxblk?at_medium=RSS&at_campaign=rss",
+      "summary": "Ugo Monye, Chris Ashton and John Barclay react to all the big stories from week one",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-08T22:42:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
       "category": "sports",
       "region": "global"
     },
@@ -605,6 +621,22 @@
       "region": "global"
     },
     {
+      "id": "2d2012b49ede333a",
+      "title": "معركة شرسة بين باريس وآرسنال على موهبة واعدة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B4%D8%B1%D8%B3%D8%A9-%D8%A8%D9%8A%D9%86-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%88%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D9%87%D8%A8%D8%A9-%D9%88%D8%A7%D8%B9%D8%AF%D8%A9/bltdce3569050bdf1c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يتنافس باريس سان جيرمان، مع نظيره آرسنال، للحصول على موهبة واعدة من البريميرليج.",
+      "body": "يتنافس باريس سان جيرمان، مع نظيره آرسنال، للحصول على موهبة واعدة من البريميرليج. وذكر موقع Fichajes أن إيلي جونيور كروبي نجم بورنموث، يحظى باهتمام متزايد من جانب باريس وآرسنال، للحصول على خدماته. ويبلغ الفرنسي كروبي من العمر 19 عامًا، ويرتبط بعقد مع بورنموث حتى صيف 2030. ووفقًا لما أورده موقع MediaFoot، فإن آرسنال تواصل مع ممثلي اللاعب، من أجل التقدم بخطوة في سباق التعاقد معه.&nbsp; وفي الوقت الراهن، يحافظ بورنموث على هدوئه بخصوص مستقبل جوهرته الفرنسية.",
+      "image": null,
+      "pubDate": "2026-02-08T21:06:33.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "6321355b2c5f2cb5",
       "title": "'I know who I am' - Bompastor defiant after tough week",
       "link": "https://www.bbc.com/sport/football/articles/cjwz3nw5xz2o?at_medium=RSS&at_campaign=rss",
@@ -635,6 +667,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "2eee8a6948f0ce39",
+      "title": "صفقة مغربية على أبواب الدوري البرازيلي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%81%D9%82%D8%A9-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%94%D8%A8%D9%88%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A/blt8c09a62d326f4c13?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كشف أوسمار ستابيلي، رئيس نادي كورينثيانز البرازيلي، تقدم المفاوضات للحصول على خدمات لاعب الوسط المغربي زكريا لبيض، في صفقة انتقال حر.",
+      "body": "كشف أوسمار ستابيلي، رئيس نادي كورينثيانز البرازيلي، تقدم المفاوضات للحصول على خدمات لاعب الوسط المغربي زكريا لبيض، في صفقة انتقال حر. وقال ستابيلي، في تصريحات نشرتها شبكة Globo أن النادي البرازيلي على وشك الاتفاق مع لبيض، لتعزيز صفوف كورينثيانز حتى نهاية 2026. وأضاف \"قدوم اللاعب المغربي، أمر شبه محسوم\". ولا تزال بعض التفاصيل الإدارية فقط تفصل قدوم زكريا لبيض إلى البرازيل، وتوقيعه العقد ليتم الإعلان عنه رسميًا كخامس صفقات كورينثيانز هذا الموسم. وبدأ لبيض، مسيرته في الفئات السنية لنادي آيندهوفن، ومر بأندية سبورتينج لشبونة البرتغالي، وأوتريخت وأياكس الهولنديين، قبل انتقاله إلى داليان يينجبو الصيني، الذي مثله في آخر موسمين.",
+      "image": null,
+      "pubDate": "2026-02-08T20:52:24.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "383de48eee19f358",
+      "title": "فيديو.. مدافع ريال مدريد يحقق ما عجز عنه الآخرون",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D8%AF%D8%A7%D9%81%D8%B9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AD%D9%82%D9%82-%D9%85%D8%A7-%D8%B9%D8%AC%D8%B2-%D8%B9%D9%86%D9%87-%D8%A7%D9%84%D8%A7%D9%93%D8%AE%D8%B1%D9%88%D9%86/blta5d8f365889737c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كاريراس يُذهل فالنسيا",
+      "body": "كاريراس يُذهل فالنسيا حقق ألفارو كاريراس، الظهير الأيسر لنادي ريال مدريد، رقمًا مميزًا خلال مواجهة فريقه أمام فالنسيا، التي أُقيمت مساء اليوم الأحد، ضمن منافسات الجولة الثالثة والعشرين من الدوري الإسباني. وشهدت الدقيقة 65 من عمر اللقاء لحظة حاسمة، حين تسلّم ألفارو كاريراس الكرة على الجهة اليسرى، مستغلًا المساحة المتاحة، قبل أن يتوغل بمهارة داخل منطقة الجزاء، مراوغًا أكثر من مدافع، ثم أطلق تسديدة ناجحة سكنت الشباك، مُعلنًا عن تسجيل الهدف الأول لصالح الفريق الملكي. وذكر حساب \" مستر شيب \"، المتخصص في إحصائيات كرة القدم الإسبانية، أن كاريراس سجل هدفين بقميص ريال مدريد هذا الموسم، وكلا الهدفين جاءا في شباك فريق فالنسيا. وأضاف الحساب أن ألفارو كاريراس أصبح أول مدافع في تاريخ ريال مدريد ينجح في التسجيل أمام فالنسيا في مباراتين متتاليتين خلال نفس الموسم من الدوري الإسباني. &nbsp; كاريراس يضع ريال مدريد في المقدّمة #الدوري_الإسباني #LaLiga pic.twitter.com/ByfEaEBHrP &mdash; beIN SPORTS (@beINSPORTS) February 8, 2026 وأشار كذلك إلى أن آخر مدافع حقق هذا الإنجاز أمام فالنسيا، خلال موسم واحد من الليجا، كان أندوني إيراولا، الذي سجل هدفين (كلاهما من ركلات جزاء) بقميص أتلتيك بيلباو في موسم 2004-2005، وذلك قبل أن يُعيد كاريراس كتابة التاريخ من جديد. وانتهت المباراة بفوز ريال مدريد على مضيفه فالنسي…",
+      "image": null,
+      "pubDate": "2026-02-08T20:51:41.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "3692ef07a99a745c",
@@ -765,22 +829,6 @@
       "region": "mena"
     },
     {
-      "id": "383de48eee19f358",
-      "title": "فيديو.. مدافع ريال مدريد يحقق ما عجز عنه الآخرون",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D8%AF%D8%A7%D9%81%D8%B9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AD%D9%82%D9%82-%D9%85%D8%A7-%D8%B9%D8%AC%D8%B2-%D8%B9%D9%86%D9%87-%D8%A7%D9%84%D8%A7%D9%93%D8%AE%D8%B1%D9%88%D9%86/blta5d8f365889737c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كاريراس يُذهل فالنسيا",
-      "body": "كاريراس يُذهل فالنسيا حقق ألفارو كاريراس، الظهير الأيسر لنادي ريال مدريد، رقمًا مميزًا خلال مواجهة فريقه أمام فالنسيا، التي أُقيمت مساء اليوم الأحد، ضمن منافسات الجولة الثالثة والعشرين من الدوري الإسباني. وشهدت الدقيقة 65 من عمر اللقاء لحظة حاسمة، حين تسلّم ألفارو كاريراس الكرة على الجهة اليسرى، مستغلًا المساحة المتاحة، قبل أن يتوغل بمهارة داخل منطقة الجزاء، مراوغًا أكثر من مدافع، ثم أطلق تسديدة ناجحة سكنت الشباك، مُعلنًا عن تسجيل الهدف الأول لصالح الفريق الملكي. وذكر حساب \" مستر شيب \"، المتخصص في إحصائيات كرة القدم الإسبانية، أن كاريراس سجل هدفين بقميص ريال مدريد هذا الموسم، وكلا الهدفين جاءا في شباك فريق فالنسيا. وأضاف الحساب أن ألفارو كاريراس أصبح أول مدافع في تاريخ ريال مدريد ينجح في التسجيل أمام فالنسيا في مباراتين متتاليتين خلال نفس الموسم من الدوري الإسباني. &nbsp; كاريراس يضع ريال مدريد في المقدّمة #الدوري_الإسباني #LaLiga pic.twitter.com/ByfEaEBHrP &mdash; beIN SPORTS (@beINSPORTS) February 8, 2026 وأشار كذلك إلى أن آخر مدافع حقق هذا الإنجاز أمام فالنسيا، خلال موسم واحد من الليجا، كان أندوني إيراولا، الذي سجل هدفين (كلاهما من ركلات جزاء) بقميص أتلتيك بيلباو في موسم 2004-2005، وذلك قبل أن يُعيد كاريراس كتابة التاريخ من جديد. وانتهت المباراة بفوز ريال مدريد على مضيفه فالنسي…",
-      "image": null,
-      "pubDate": "2026-02-08T20:19:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "6609360147ca3c8b",
       "title": "Morgan Wallen, Garth Brooks, Taylor Swift & More Artists With Most Weeks at No. 1 on Top Country Albums Chart: Full List",
       "link": "https://www.billboard.com/lists/top-country-albums-number-ones-biggest/",
@@ -897,7 +945,7 @@
       "title": "Don Toliver Scores First No. 1 Album on Billboard 200 With ‘OCTANE’",
       "link": "https://www.billboard.com/music/chart-beat/don-toliver-octane-number-one-billboard-200-albums-chart-1236175846/",
       "summary": "Plus, Bad Bunny flies 9-2 after the Grammys, while Noah Kahan’s back in the top 10.",
-      "body": "Don Toliver lands his first No. 1 album on the Billboard 200 chart as OCTANE starts atop the list dated Feb. 14. The set launches with 162,000 equivalent album units earned (his best week ever) in the United States in the week ending Feb. 5, according to Luminate. Plus, Bad Bunny ’s DeBÍ TiRAR MáS FOToS jumps 9-2 after its album of the year win at the Grammy Awards on Feb. 1, while Noah Kahan ’s Stick Season returns to the top 10 (rising 13-7) after the release of the lead single from his forthcoming album and the announcement of his tour. The Billboard 200 chart ranks the most popular albums of the week in the U.S. based on multi-metric consumption as measured in equivalent album units, compiled by Luminate. Units comprise album sales, track equivalent albums (TEA) and streaming equivalent albums (SEA). Each unit equals one album sale, or 10 individual tracks sold from an album, or 2,500 ad-supported or 1,000 paid/subscription on-demand official audio and video streams generated by songs from an album. The new Feb. 14, 2026-dated chart will be posted in full on Billboard &#8216;s website on Feb. 10. For all chart news, follow @billboard and @billboardcharts on both X and Instagra…",
+      "body": "Don Toliver lands his first No. 1 album on the Billboard 200 chart as OCTANE starts atop the list dated Feb. 14. The set launches with 162,000 equivalent album units earned (his best week ever) in the United States in the week ending Feb. 5, according to Luminate. Plus, Bad Bunny ’s DeBÍ TiRAR MáS FOToS jumps 9-2 after its album of the year win at the Grammy Awards on Feb. 1, while Noah Kahan ’s Stick Season returns to the top 10 (rising 13-7) after the release of the lead single from his forthcoming album and the announcement of his tour. The Billboard 200 chart ranks the most popular albums of the week in the U.S. based on multi-metric consumption as measured in equivalent album units, compiled by Luminate. Units comprise album sales, track equivalent albums (TEA) and streaming equivalent albums (SEA). Each unit equals one album sale, or 10 individual tracks sold from an album, or 2,500 ad-supported or 1,000 paid/subscription on-demand official audio and video streams generated by songs from an album. The new Feb. 14, 2026-dated chart will be posted in full on&nbsp; Billboard &#8216;s website on Feb. 10. For all chart news, follow @billboard and @billboardcharts on both X and In…",
       "image": null,
       "pubDate": "2026-02-08T20:00:08.000Z",
       "source": {
@@ -1021,22 +1069,6 @@
       "region": "mena"
     },
     {
-      "id": "6161e04acfb9e219",
-      "title": "بسبب أيام كلوب.. تصرفات مساعد جوارديولا تفجر غضب جماهير ليفربول",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A7%D9%94%D9%8A%D8%A7%D9%85-%D9%83%D9%84%D9%88%D8%A8-%D8%AA%D8%B5%D8%B1%D9%81%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D8%AA%D9%81%D8%AC%D8%B1-%D8%BA%D8%B6%D8%A8-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/blt6ba34c917122bd23?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "انتقادات لاذعة لبيب ليندرز من جماهير الريدز",
-      "body": "انتقادات لاذعة لبيب ليندرز من جماهير الريدز تعرض بيب ليندرز مساعد مدرب مانشستر سيتي بيب جوارديولا، لانتقادات لاذعة بسبب تصرفاته على أرض الملعب، بعد خسارة ليفربول أمام مانشستر سيتي. &nbsp; وقلب مانشستر سيتي الطاولة على ليفربول، وحقق انتصارًا مثيرًا في الوقت القاتل (2-1)، على ملعب أنفيلد، مساء اليوم الأحد، في ختام الجولة 25 من الدوري الإنجليزي الممتاز. &nbsp; أحرز دومينيك سوبوسلاي هدف التقدم للريدز في الدقيقة 74 عبر تسديدة صاروخية من ركلة حرة مباشرة، وتعادل برناردو سيلفا للسيتزنز في الدقيقة 84. &nbsp; وسجّل إيرلينج هالاند هدف الفوز لصالح مان سيتي في الدقيقة 90+3 من ركلة جزاء. &nbsp; ورفع مانشستر سيتي بعد هذا الفوز المثير رصيده إلى 50 نقطة في المركز الثاني، ويواصل مطاردة آرسنال المتصدر (56 نقطة)، فيما تجمد رصيد ليفربول عند 39 نقطة في المركز السادس. &nbsp; وذكر موقع ليفربول الرسمي أن المدرب المساعد لجوارديولا، الذي سبق له العمل كمساعد ليورجن كلوب مدرب الريدز السابق، احتفل بشكل واضح على أرض الملعب، مما زاد من حدة التوتر في ملعب أنفيلد. &nbsp; وأضاف أن ليندرز تعرض لانتقادات بسبب سلوكه بعد المباراة، حيث وصف البعض تصرفه بأنه غير ضروري، وحثوه على مغادرة الملعب والاحتفال على انفراد في غرفة الملابس بدلاً من الاحتفال على أرض الملعب بعد صافرة النهاية. &nbsp; وتابع: \"لطالما بدا أن الهولندي سيبق…",
-      "image": null,
-      "pubDate": "2026-02-08T19:37:37.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "a0d2780311a689e3",
       "title": "'Experience told' in World Cup defeat - Stirling",
       "link": "https://www.bbc.com/sport/cricket/articles/ckgl2ymp1kko?at_medium=RSS&at_campaign=rss",
@@ -1051,22 +1083,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "b20ab1a34592f944",
-      "title": "هالاند: جوارديولا مهووس بهذا الأمر.. ودوناروما لا يُصدَّق",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D8%A7%D9%84%D8%A7%D9%86%D8%AF-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D9%85%D9%87%D9%88%D9%88%D8%B3-%D8%A8%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1-%D9%88%D8%AF%D9%88%D9%86%D8%A7%D8%B1%D9%88%D9%85%D8%A7-%D9%84%D8%A7-%D9%8A%D9%8F%D8%B5%D8%AF%D9%8E%D9%91%D9%82/bltba4f6dace4b32747?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النرويجي يثني على دوناروما ويتحدث عن واقعة سوبوسلاي",
-      "body": "النرويجي يثني على دوناروما ويتحدث عن واقعة سوبوسلاي أبدى النرويجي إيرلينج هالاند، مهاجم مانشستر سيتي، سعادته الكبيرة بعودته إلى هزّ الشباك في الدوري الإنجليزي الممتاز، بعد صيام تهديفي استمر 3 مباريات متتالية، وذلك بعدما سجّل هدف الفوز القاتل في شباك ليفربول، مساء الأحد، ضمن منافسات الجولة الـ25 من البريميرليج. ووقّع هالاند على هدف الانتصار للسيتزنز بنتيجة (2-1)، من ركلة جزاء في الدقيقة الثالثة من الوقت بدل الضائع (90+3)، ليمنح فريقه ثلاث نقاط ثمينة في صراع المنافسة المحتدم على لقب الدوري الإنجليزي. ويكتسب هذا الهدف أهمية تاريخية بالنسبة للنجم النرويجي، إذ يُعد أول أهدافه على ملعب \"أنفيلد\" بقميص مانشستر سيتي، منذ انضمامه إلى صفوف النادي الإنجليزي في صيف عام 2022. وبهذا الفوز المثير، رفع مانشستر سيتي رصيده إلى 50 نقطة في المركز الثاني بجدول ترتيب الدوري، مواصلًا مطاردة آرسنال المتصدر برصيد 56 نقطة، فيما تجمد رصيد ليفربول عند 39 نقطة في المركز السادس. ورغم تصدره قائمة هدافي الدوري الإنجليزي برصيد 21 هدفًا، فإن هالاند كان قد ابتعد نسبيًا عن التسجيل في الفترة الأخيرة، مكتفيًا بإحراز هدفين فقط خلال آخر 8 مباريات خاضها السيتي في البريميرليج. لم نستسلم.. وكل شيء وارد وعقب نهاية اللقاء، عبّر هالاند عن فخره بروح فريقه، قائلًا: \"لم نستسلم، وهذا أكثر ما أحبه. بدأنا بالاعتماد على الكرات العرضي…",
-      "image": "https://assets.kooora.com/images/v3/getty-2249043490/crop/MM5DGNBXGY5DCOJVGU5G433XMU5DAORRHAYQ====/GettyImages-2249043490.jpg",
-      "pubDate": "2026-02-08T19:31:39.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "dc36d1ef74e5b5c9",
@@ -1892,22 +1908,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-06T08:17:21.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c7e7e3765d95819e",
-      "title": "ICC Men's T20 World Cup - everything you need to know",
-      "link": "https://www.bbc.com/sport/cricket/articles/cvgj5ngm0mdo?at_medium=RSS&at_campaign=rss",
-      "summary": "A guide to the 2026 ICC Men's T20 World Cup in India and Sri Lanka, which begins on 7 February and runs until 8 March.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-06T08:08:07.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
