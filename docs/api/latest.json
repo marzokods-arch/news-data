@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-09T07:19:35.627Z",
-    "total": 201,
+    "generated_at": "2026-02-09T08:04:47.636Z",
+    "total": 195,
     "processed_feeds": 20,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,29 +9,16 @@
     "shard_index": 4,
     "results": [
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -45,6 +32,32 @@
         ],
         "taken": 0,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 63,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -69,7 +82,7 @@
         "cats": [
           "general"
         ],
-        "taken": 25,
+        "taken": 23,
         "error": null,
         "notModified": false
       },
@@ -82,46 +95,7 @@
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 42,
+        "taken": 8,
         "error": null,
         "notModified": false
       },
@@ -139,16 +113,29 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
+        "taken": 42,
+        "error": null,
         "notModified": false
       },
       {
@@ -165,10 +152,49 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Gulf News - Entertainment",
         "url": "https://gulfnews.com/entertainment/rss",
         "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -191,35 +217,9 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -272,13 +272,45 @@
   },
   "items": [
     {
-      "id": "ab1fa33430beb2b5",
-      "title": "Norway’s mainland economy grows 0.4% in fourth quarter",
-      "link": "https://www.investing.com/news/economic-indicators/norways-mainland-economy-grows-04-in-fourth-quarter-93CH-4492662",
+      "id": "2a0d15f642dd1e21",
+      "title": "In ‘Árru,’ a Reindeer Herder Must Choose Between Saving Ancestral Lands or Her Family (Exclusive Berlin Clip)",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/arru-film-clip-berlin-2026-elle-sofe-sara-sami-heritage-1236497177/",
+      "summary": "In her debut feature premiering in Berlin's Panorama section, Elle Sofe Sara takes us into the snowy landscapes of the Arctic region of Sápmi, where the indigenous Sámi live.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-09T07:59:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c043eae3fed42302",
+      "title": "BSF Enterprise to hold annual general meeting on March 3",
+      "link": "https://www.investing.com/news/company-news/bsf-enterprise-to-hold-annual-general-meeting-on-march-3-93CH-4492694",
       "summary": "",
       "body": null,
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-02-09T07:16:40.000Z",
+      "pubDate": "2026-02-09T07:55:27.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5fc733c87fa0596f",
+      "title": "Phoenix Copper suspends executive chairman and CFO amid investigation",
+      "link": "https://www.investing.com/news/stock-market-news/phoenix-copper-suspends-executive-chairman-and-cfo-amid-investigation-4492690",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/fa8a2f803ea2ddf92359d55091dcde0a_M.jpg",
+      "pubDate": "2026-02-09T07:50:47.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -288,13 +320,13 @@
       "region": "global"
     },
     {
-      "id": "1aa6b69ecc7d73d5",
-      "title": "Reaction to Hong Kong tycoon Jimmy Lai’s 20-year sentence in security trial",
-      "link": "https://www.investing.com/news/world-news/reaction-to-hong-kong-tycoon-jimmy-lais-20-year-sentence-in-security-trial-4492559",
+      "id": "3f44659f7c7ae28a",
+      "title": "China critic Jimmy Lai sentenced to 20 years in jail after landmark Hong Kong trial",
+      "link": "https://www.investing.com/news/world-news/after-yearslong-legal-battle-hong-kong-media-tycoon-jimmy-lai-arrives-at-day-of-sentencing-4492519",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM1804V_L.jpg",
-      "pubDate": "2026-02-09T07:12:54.000Z",
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM170HG_L.jpg",
+      "pubDate": "2026-02-09T07:49:27.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -304,13 +336,61 @@
       "region": "global"
     },
     {
-      "id": "5cee77d18a7cd086",
-      "title": "Japan stocks soar, super-long bonds steady in nod to Takaichi’s ’responsible’ stimulus",
-      "link": "https://www.investing.com/news/stock-market-news/japan-stocks-surge-to-record-bonds-slide-with-yen-on-takaichis-landslide-election-win-4492552",
+      "id": "74ae7c33f14e1dbc",
+      "title": "China overturns Canadian’s death sentence after Carney visit, lawyer says",
+      "link": "https://www.investing.com/news/world-news/china-overturns-canadians-death-sentence-after-carney-visit-lawyer-says-4492565",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM1803N_L.jpg",
-      "pubDate": "2026-02-09T07:12:41.000Z",
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM1806C_L.jpg",
+      "pubDate": "2026-02-09T07:49:09.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "4a80c9686c43e88f",
+      "title": "Germany’s carnival season to generate nearly 2 billion euros in revenue, says institute",
+      "link": "https://www.investing.com/news/economic-indicators/germanys-carnival-season-to-generate-nearly-2-billion-euros-in-revenue-says-institute-4492689",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM180DN_L.jpg",
+      "pubDate": "2026-02-09T07:48:47.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6c8174040fb52b01",
+      "title": "Novo Nordisk shares rise as Hims abandons $49 weight-loss pill",
+      "link": "https://www.investing.com/news/stock-market-news/novo-nordisk-shares-rise-as-hims-abandons-49-weightloss-pill-4492688",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM180DS_L.jpg",
+      "pubDate": "2026-02-09T07:48:33.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3d923c30155cb3fd",
+      "title": "Cora Gold raises £14.7 million for Mali gold project development",
+      "link": "https://www.investing.com/news/company-news/cora-gold-raises-147-million-for-mali-gold-project-development-93CH-4492687",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-02-09T07:48:04.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -320,13 +400,13 @@
       "region": "global"
     },
     {
-      "id": "82927f5f90cf2d46",
-      "title": "Machado ally is kidnapped in Venezuela hours after prison release, son says",
-      "link": "https://www.investing.com/news/world-news/venezuelan-politician-juan-pablo-guanipa-kidnapped-after-being-freed-in-prisoner-release-4492570",
+      "id": "0770ed22b03ab2dc",
+      "title": "Centrica sells non-core energy solutions businesses",
+      "link": "https://www.investing.com/news/stock-market-news/centrica-sells-noncore-energy-solutions-businesses-93CH-4492685",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEE6O03K_M.jpg",
-      "pubDate": "2026-02-09T07:12:28.000Z",
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPEBBT0BW_M.jpg",
+      "pubDate": "2026-02-09T07:45:57.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -336,83 +416,51 @@
       "region": "global"
     },
     {
-      "id": "03eab142c3df3104",
-      "title": "Arecor’s ultra-concentrated insulin advances with Sequel partnership",
-      "link": "https://www.investing.com/news/company-news/arecors-ultraconcentrated-insulin-advances-with-sequel-partnership-93CH-4492661",
-      "summary": "",
+      "id": "6adc82d90f152693",
+      "title": "Chinese chip designer Montage Technology soars over 50% in Hong Kong debut",
+      "link": "https://www.cnbc.com/2026/02/09/chinese-chipmaker-montage-technology-hong-kong-ipo-debut.html",
+      "summary": "Shares of Chinese chip designer Montage Technology surged 57% in its Hong Kong trading debut on Monday following an initial share sale that raised $902 million.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-02-09T07:10:21.000Z",
+      "image": null,
+      "pubDate": "2026-02-09T07:36:40.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
-      "category": "general",
+      "category": "technology",
       "region": "global"
     },
     {
-      "id": "61f6622fd917a6eb",
-      "title": "UniCredit hikes profit outlook after stakes in rivals, tax credits help 2025 income",
-      "link": "https://www.investing.com/news/stock-market-news/unicredit-hikes-profit-outlook-after-stakes-in-rivals-tax-credits-help-2025-income-4492660",
-      "summary": "",
+      "id": "38a2bced642c2bf0",
+      "title": "Can you name the players with most Premier League appearances?",
+      "link": "https://www.bbc.com/sport/football/articles/c5y2y4xeq87o?at_medium=RSS&at_campaign=rss",
+      "summary": "James Milner is poised to equal the record for most Premier League appearances.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM180B0_L.jpg",
-      "pubDate": "2026-02-09T07:06:48.000Z",
+      "image": null,
+      "pubDate": "2026-02-09T07:21:41.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
-      "id": "7fb980ed974dfa8f",
-      "title": "Japan stocks higher at close of trade; Nikkei 225 up 4.06%",
-      "link": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-406-4492659",
-      "summary": "",
+      "id": "e9ac753cc22cd7b4",
+      "title": "Gotterup wins play-off to claim Phoenix Open",
+      "link": "https://www.bbc.com/sport/golf/articles/c2d1g2yxze0o?at_medium=RSS&at_campaign=rss",
+      "summary": "American Chris Gotterup mounts a late charge before beating Japan's Hideki Matsuyama in a play-off.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/TOKYO-STOCK-EXCHANGE-IN-JAPAN-_2_M_1440048949.jpg",
-      "pubDate": "2026-02-09T07:05:04.000Z",
+      "image": null,
+      "pubDate": "2026-02-09T07:10:39.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2ca517ec79fd535c",
-      "title": "Orcadian Energy explores royalty-based funding with Albion Labs",
-      "link": "https://www.investing.com/news/company-news/orcadian-energy-explores-royaltybased-funding-with-albion-labs-93CH-4492658",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-02-09T07:03:08.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e7389aaa9c0fa629",
-      "title": "UK’s FCA plans to publish full share trading data to boost liquidity - report",
-      "link": "https://www.investing.com/news/stock-market-news/uks-fca-plans-to-publish-full-share-trading-data-to-boost-liquidity--report-4492657",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEB210AB_M.jpg",
-      "pubDate": "2026-02-09T07:01:51.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -426,22 +474,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "905f4c978a91e8a4",
-      "title": "Align Technology stock upgraded to Buy at HSBC on 3D printing potential",
-      "link": "https://www.investing.com/news/analyst-ratings/align-technology-stock-upgraded-to-buy-at-hsbc-on-3d-printing-potential-93CH-4492656",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-02-09T07:01:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "technology",
@@ -467,7 +499,7 @@
       "id": "af3f9a194cbf0102",
       "title": "Five years of Hollywood - Wrexham's transformation",
       "link": "https://www.bbc.com/sport/football/articles/cq84pyw2gv7o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport Wales looks at how Wrexham have evolved since being taken over by Ryan Reynolds and Rob Mac five years ago.",
+      "summary": "BBC Sport Wales looks at how Wrexham have evolved since being taken over by Ryan Reynolds and Rob McElhenney five years ago.",
       "body": null,
       "image": null,
       "pubDate": "2026-02-09T06:43:45.000Z",
@@ -528,6 +560,38 @@
       "region": "global"
     },
     {
+      "id": "f2ff3aea4e9d4ff0",
+      "title": "\"جئت كملك.. وأرحل كأسطورة\": لماذا كان إبراهيموفيتش فريدًا من نوعه؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D9%8A%D9%94%D8%AA-%D9%83%D9%85%D9%84%D9%83-%D9%88%D8%A7%D9%94%D8%B1%D8%AD%D9%84-%D9%83%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%83%D8%A7%D9%86-%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%D9%88%D9%81%D9%8A%D8%AA%D8%B4-%D9%81%D8%B1%D9%8A%D8%AF%D9%8B%D8%A7-%D9%85%D9%86-%D9%86%D9%88%D8%B9%D9%87/blta4866c3fb6966098?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "Rebel United يقدم لاعبين يفضلون السباحة عكس التيار. الجزء العاشر يتناول زلاتان إبراهيموفيتش - أيقونة لم تكتفِ بزعزعة النظام فحسب، بل قامت بترويضه.",
+      "body": "Rebel United يقدم لاعبين يفضلون السباحة عكس التيار. الجزء العاشر يتناول زلاتان إبراهيموفيتش - أيقونة لم تكتفِ بزعزعة النظام فحسب، بل قامت بترويضه. هناك لحظة معينة في يونيو 2023 لا تتناسب مع الصورة التي كونها عالم كرة القدم عن زلاتان إبراهيموفيتش على مدار عقدين من الزمن. إنه يقف في ملعب سان سيرو في ميلانو، والدموع تنهمر من عينيه، وصوته يرتجف. إنها نهاية حقبة. البداية في حي فقير إبراهيموفيتش لم يكن مجرد مهاجم. كان لاعباً منفرداً في نظام يقمع الفردية (كثيراً) في كثير من الأحيان. لفهمه، علينا العودة إلى روزنغارد، أحد الأحياء الفقيرة في مالمو بالسويد. هناك نشأ إبراهيموفيتش كابن لأب بوسني وأم كرواتية. هناك تشكلت شخصيته. هناك تعلم كيفية فرض نفسه بقوة. روزنغارد أرست الأساس للاعب لم يكن أبدًا تقليديًا. ولما سوّق لاحقًا باسم \"أسلوب زلاتان\". عندما تلقى إبراهيموفيتش البالغ من العمر 19 عامًا عرضًا من نادي أرسنال في صيف عام 2000، أصر المدرب أرسين فينجر على أن يشارك أولاً في مباراة تجريبية. \"زلاتان لا يخضع لاختبارات\"، أجاب. لم يرغب إبراهيموفيتش في أن يكون جزءًا من قائمة عشوائية من المتقدمين - أراد أن يكون المعيار الذي يُقاس عليه الآخرون. وقد ظل نهج \"أنا ضد بقية العالم\" هو الدافع وراءه. \"الفاتح\" زلاتان إبراهيموفيتش جاء ليحكم \"يمكنك إخراج الصبي من الغيتو، لكن لا يمكنك أبدًا إخراج الغيتو من الصبي\"،…",
+      "image": "https://assets.kooora.com/images/v3/bltcfc56f3716599c0a/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202025-07-21T091612.424.png",
+      "pubDate": "2026-02-09T06:00:01.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "4b3e53747218b7c3",
+      "title": "لابورتا: لم أستطع النوم عقب إقالة هذا المدرب.. واتخذت قرارا مؤلما ضد ميسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D9%84%D9%85-%D8%A7%D9%94%D8%B3%D8%AA%D8%B7%D8%B9-%D8%A7%D9%84%D9%86%D9%88%D9%85-%D8%B9%D9%82%D8%A8-%D8%A7%D9%95%D9%82%D8%A7%D9%84%D8%A9-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D9%85%D8%AF%D8%B1%D8%A8-%D9%88%D8%A7%D8%AA%D8%AE%D8%B0%D8%AA-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7-%D9%85%D9%88%D9%94%D9%84%D9%85%D8%A7-%D8%B6%D8%AF-%D9%85%D9%8A%D8%B3%D9%8A/blt8182deb0b5921eb0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رئيس برشلونة: ريال مدريد وراء الانسحاب من السوبرليج",
+      "body": "رئيس برشلونة: ريال مدريد وراء الانسحاب من السوبرليج كشف خوان لابورتا، رئيس برشلونة، عن كواليس انسحاب النادي الكتالوني رسمياً من مشروع السوبرليج. فليك حدد موعد الانتخابات قال لابورتا، في تصريحات أبرزتها صحيفة \"آس\" الإسبانية: \"لقد حددنا موعد الانتخابات بالتشاور مع ديكو وفليك. أبلغنا رابطة الليجا برغبتنا في إقامة مباراة إشبيلية يوم 15 مارس، والعائق الوحيد قد يكون دوري أبطال أوروبا؛ فإذا تقرر خوض مباراة الإياب يوم 18 مارس، سنعطي الأولوية للمصالح الرياضية، وهو أمر سيتفهمه الأعضاء بالتأكيد لأن غايتهم هي فوز الفريق. وفي كل الأحوال، ستكون هناك مقار انتخابية أخرى بجانب الكامب نو لتسهيل عملية التصويت\". وحول ترشحه لولاية جديدة، علق فليك: \"أواجه هذا التحدي بروح قوية ورغبة كبيرة في شرح مشروعنا، فنحن نريد استكمال ما بدأناه، وهو أمر مثير للغاية\". \"لن نعود إلى هذا الملعب\" أما بخصوص العودة لملعب \"مونتجويك\"، فقد نفى ذلك، قائلاً: \"لا نخطط للعودة إلى هناك، حيث نأمل في تنسيق فترة الأشهر الأربعة اللازمة لتركيب سقف الملعب الجديد مع الليجا والاتحاد الأوروبي\". وفي تقييمه لفترة ولايته، وصفها لابورتا بالجيدة، قائلاً: \"لقد عملنا على إعادة الأمل لجمهور برشلونة. نحن النادي المتعدد الرياضات الوحيد الذي يمتلك 48 كأساً أوروبية، ونعيش حالياً لحظة مميزة بفضل القرارات التي اتخذناها\". وتطرق لابورتا إلى التحديات الاقت…",
+      "image": "https://assets.kooora.com/images/v3/getty-2259766641/crop/MM5DIMBQGM5DEMRVGI5G433XMU5DOMBWHI2TE===/GettyImages-2259766641.jpg",
+      "pubDate": "2026-02-09T05:54:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "1a0d6c0e7666882b",
       "title": "Chris Pratt, Joel McHale, More React to Seattle Seahawks Super Bowl 2026 Win: “Go Hawks!”",
       "link": "https://www.hollywoodreporter.com/tv/tv-news/super-bowl-2026-celebrity-reactions-seattle-seahawks-win-1236497788/",
@@ -560,20 +624,36 @@
       "region": "global"
     },
     {
-      "id": "6adc82d90f152693",
-      "title": "Chinese chip designer Montage Technology soars over 50% in Hong Kong debut",
-      "link": "https://www.cnbc.com/2026/02/09/chinese-chipmaker-montage-technology-hong-kong-ipo-debut.html",
-      "summary": "Shares of Chinese chip designer Montage Technology surged 57% in its Hong Kong trading debut on Monday following an initial share sale that raised $902 million.",
-      "body": null,
+      "id": "b9b96462fcbe7aac",
+      "title": "الموت يفجع محمد صلاح",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%88%D8%AA-%D9%8A%D9%81%D8%AC%D8%B9-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD/blt18aebde65cd1be55?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ما حدث",
+      "body": "تعرف على ما حدث توفي صباح اليوم الإثنين أحمد عبدالعزيز البمبي، جد النجم الدولي المصري محمد صلاح، جناح ليفربول الإنجليزي، بحسب تقارير صحفية محلية. وأعلن الخبر عبد العزيز البمبي، نجل الفقيد وخال محمد صلاح ورئيس مجلس إدارة مركز شباب محمد صلاح، معربًا عن بالغ حزنه، ومطالبًا الجميع بالدعاء للفقيد بالرحمة والمغفرة. ومن المقرر تشييع صلاة الجنازة من مسجد موسى الكبير بقرية نجريج، وسط مشاركة من الأهالي وأبناء القرية، حيث يُوارى الجثمان الثرى عقب الصلاة مباشرة. ولم يتضح حتى الآن موقف محمد صلاح من حضور مراسم العزاء، خاصة بعد مشاركته مع فريقه ليفربول في مباراة مانشستر سيتي الأخيرة مساء أمس، ضمن منافسات الدوري الإنجليزي الممتاز.",
       "image": null,
-      "pubDate": "2026-02-09T05:25:40.000Z",
+      "pubDate": "2026-02-09T05:34:36.000Z",
       "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f49a470a43ee9b46",
+      "title": "أربيلوا: مبابي فضائي جديد.. ويستطيع تحطيم إرث رونالدو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%81%D8%B6%D8%A7%D9%8A%D9%94%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%88%D9%8A%D8%B3%D8%AA%D8%B7%D9%8A%D8%B9-%D8%AA%D8%AD%D8%B7%D9%8A%D9%85-%D8%A7%D9%95%D8%B1%D8%AB-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/blt7e963ab81899a790?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مدرب ريال مدريد يرفض المغامرة بهذا اللاعب",
+      "body": "مدرب ريال مدريد يرفض المغامرة بهذا اللاعب يرى ألفارو أربيلوا، مدرب ريال مدريد، أن الفرنسي كيليان مبابي يمتلك كل المقومات التي تجعله خليفة الأسطورة كريستيانو رونالدو. زيارة طبيب الأسنان قال أربيلوا، عقب الفوز على فالنسيا في المستيايا: \"دائمًا ما تكون زيارة ملعب فالنسيا أشبه بالذهاب إلى طبيب الأسنان. كنا ندرك صعوبة المباراة وحجم المتطلبات التي سيفرضها الخصم. لقد كانت مباراة جادة للغاية وشهدت التزامًا كبيرًا، أنا سعيد وعلينا مواصلة التحسن. وأضاف: \"المستايا دائمًا ما يكون صعبًا بسبب الأجواء والحماس الذي يظهره الخصم دائمًا ضد ريال مدريد. لكننا عرفنا كيف نحل الأمور وسيطرنا بشكل جيد، لدرجة أن كورتوا لم يقم بأي تصدٍ. العمل كان صلبًا للغاية من جانب اللاعبين واتسم بالالتزام\". \"نفذت كلماتي في وصف مبابي\" تابع أربيلوا: \"هدف كاريراس يثبت أنه يمتلك موهبة كبيرة في الهجوم، فقد سجل أيضًا هدفًا رائعًا ضد فالنسيا في مباراة الذهاب. أما بالنسبة لمبابي، فقد نفدت الكلمات لوصفه؛ كنا نظن أننا لن نرى شيئًا يشبه كريستيانو، لكنه في طريقه لتحقيق ذلك\". وواصل: \"مباراة معقدة؟ نعم.. كنا نعرف المكان الذي جئنا إليه. لقد حقق الفريق 3 انتصارات فقط هنا خلال 11 عامًا، وقد حالفني الحظ بزيارة المستايا كثيرًا كلاعب وأعرف مدى صعوبته. بالنسبة لهم، اللعب ضد ريال مدريد أمر هام، ومع اعتمادهم على خط دفاع مكون من 5 لاعبين، كان من…",
+      "image": "https://assets.kooora.com/images/v3/getty-2260588016/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2260588016.jpg",
+      "pubDate": "2026-02-09T05:23:49.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "9bbd64ad87943d0a",
@@ -637,22 +717,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8fdaee898d79c8c9",
-      "title": "Seahawks celebrations, Bad Bunny, Lady Gaga - Super Bowl 60 in pictures",
-      "link": "https://www.bbc.com/sport/american-football/articles/cdx4xdq001xo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Seattle Seahawks defence lead their team to a 29-13 victory over the New England Patriots in Super Bowl 60.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-09T04:33:44.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -736,22 +800,6 @@
       "region": "global"
     },
     {
-      "id": "253f02f40ad17fb7",
-      "title": "Bad Bunny piles on Puerto Rican patriotism at Super Bowl half-time show",
-      "link": "https://www.bbc.com/news/articles/c394g7nnzmzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Puerto Rican artist Bad Bunny made history with his entirely Spanish set on the sporting world's biggest stage.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-09T03:30:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "05cce09d0860e04a",
       "title": "Seattle Seahawks Defeat New England Patriots to Win Super Bowl LX",
       "link": "https://www.hollywoodreporter.com/news/general-news/super-bowl-2026-winner-team-1236500094/",
@@ -829,22 +877,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a25d4addee705ea3",
-      "title": "Sony Motion Picture Group CEO Calls Out “Despicable” Trump Video Depicting Obamas as Apes",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/sony-motion-picture-group-ceo-calls-out-trump-video-aafca-1236500035/",
-      "summary": "Tom Rothman addressed the post while accepting the Impact Award on behalf of Sony at the African American Film Critics Association Awards, where Ryan Coogler, Chase Infiniti, Delroy Lindo and Wunmi Mosaku were also honored.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-09T02:29:46.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1511,70 +1543,6 @@
       "body": "ليلة سوداء لمارسيليا لقّن باريس سان جيرمان غريمه التقليدي أولمبيك مارسيليا درسًا قاسيًا، بعدما أمطر شباكه بخمسة أهداف دون رد، في مواجهة الكلاسيكو التي جمعت الفريقين مساء الأحد على ملعب «بارك دي برانس»، ضمن منافسات الجولة الحادية والعشرين من الدوري الفرنسي. ودخل الفريق الباريسي اللقاء بقوة، وفرض سيطرته منذ الدقائق الأولى، حيث افتتح النجم عثمان ديمبيلي التسجيل مبكرًا في الدقيقة الثانية عشرة، بعد انطلاقة مميزة من الجهة اليسرى قادها البرتغالي نونو مينديز، الذي أرسل تمريرة دقيقة داخل منطقة الجزاء، تابعها ديمبيلي بتسديدة سهلة داخل الشباك. &nbsp; ديمبيلي يفتتح التسجيل لباريس سان جيرمان #الدوري_الفرنسي | #كلاسيكو #LeClassique | #Ligue1 pic.twitter.com/ExX9QLSkXC &mdash; beIN SPORTS (@beINSPORTS) February 8, 2026 وواصل ديمبيلي تألقه، مضيفًا الهدف الثاني لباريس سان جيرمان في الدقيقة السابعة والثلاثين، بعدما راوغ دفاع مارسيليا بمهارة من الجهة اليمنى، قبل أن يتوغل داخل منطقة الجزاء ويسدد كرة قوية سكنت شباك الحارس، مؤكّدًا تفوق فريقه التام في الشوط الأول. وفي الشوط الثاني، زادت معاناة الضيوف، حين سجل فاكوندو ميدينا هدفًا بالخطأ في مرمى فريقه عند الدقيقة الرابعة والستين، ليمنح باريس سان جيرمان الهدف الثالث وسط ارتباك واضح في صفوف دفاع مارسيليا. &nbsp; ديمبيلي يُسجل هدفه الشخصي الثاني في المبارا…",
       "image": null,
       "pubDate": "2026-02-08T19:56:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3ee36418455f7e7c",
-      "title": "جدول مباريات ريال مدريد في الدوري الإسباني 2025-2026 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt517447b27be553a3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن جدول مباريات ريال مدريد في الدوري الإسباني 2025-2026 والقنوات الناقلة",
-      "body": "كل ما تريد معرفته عن جدول مباريات ريال مدريد في الدوري الإسباني 2025-2026 والقنوات الناقلة يخوض نادي ريال مدريد غمار الدوري الإسباني لموسم 2025-2026 وسط تطلعات كبيرة لاستعادة لقب الليجا، بقيادة مدربه الجديد تشابي ألونسو، الذي تولى المهمة خلفًا لكارلو أنشيلوتي. وأجرى ريال مدريد صفقات مميزة خلال فترة الانتقالات الصيفية بقيادة فلورنتينو بيريز، أبرزها التعاقد مع الظهير الإنجليزي ترنت ألكساندر-أرنولد، ولاعب الوسط الأرجنتيني الشاب فرانكو ماتانتونو، ما يعكس رغبة النادي في بناء جيل جديد قادر على المنافسة محليًا وأوروبيًا. ويستهل ريال مدريد موسمه بمواجهة أوساسونا على ملعب سانتياجو برنابيو يوم 17 أغسطس/آب 2025، ويختتم مشواره بمواجهة أتلتيك بلباو في الجولة 38 على نفس الملعب يوم 24 مايو/آيار 2026. ويخوض الفريق الملكي مواجهات الكلاسيكو ضد برشلونة يوم 26 أكتوبر/تشرين أول 2025 على ملعب سانتياجو برنابيو في الجولة العاشرة، ويوم 10 مايو/آيار 2026 على ملعب سبوتيفاي كامب نو بالجولة 35 من المسابقة. ورغم امتلاك الفريق لتشكيلة مدججة بالنجوم مثل كيليان مبابي، فينيسيوس جونيور، بيلينجهام، كامافينجا، إلا أن التحدي الأكبر يكمن في الانسجام بين العناصر الجديدة والقديمة، خاصة مع ضغط المنافسة من برشلونة وأتلتيكو مدريد. كما يشارك ريال مدريد هذا الموسم في دوري أبطال أوروبا وكأس ملك إسبانيا وكأس السوبر الإسباني، ما…",
-      "image": null,
-      "pubDate": "2026-02-08T19:55:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e5ceacd17f7debf8",
-      "title": "جدول ترتيب الدوري الإسباني 2025-2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026/bltecb2c26fb57f825b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على ترتيب جدول الدوري الإسباني 2025-2026",
-      "body": "تعرف على ترتيب جدول الدوري الإسباني 2025-2026 انطلقت منافسات الدوري الإسباني لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات نارية بين كبار الليجا على لقب البطولة الأكثر شهرة في إسبانيا. ويخوض برشلونة الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين توّج باللقب المحلي إلى جانب كأس الملك وكأس السوبر الإسباني، محققًا رباعية تاريخية على حساب غريمه ريال مدريد، الذي يدخل الموسم بقيادة جديدة للمدرب تشابي ألونسو خلفًا لكارلو أنشيلوتي أملًا في استعادة هيبة الملكي. ولا يبدو أتلتيكو مدريد بعيدا عن الصورة حيث يدخل بقوة في قائمة الترشيحات للمنافسة على لقب الليجا، مع مزاحمة من فرق الوسط القوية مثل أتلتيك بيلباو وجيرونا وفياريال وغيرها. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب 2025، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من كووورة، نستعرض جدول ترتيب الدوري الإسباني 2025-2026. جدول ترتيب الدوري الإسباني 2025-2026: &nbsp;ريال مدريد يفوز على فالنسيا ويضيق الخناق على برشلونة انتصر برشلونة على مايوركا ليوسع الفارق مع ريال مدريد إلى أربع نقاط. لكن سرعان ما نجح الملكي في الفوز على فالنسيا وأعاد الفارق إلى نقطة. &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 برشلونة 23 19 1 3 63 23 40 58 2 ريال مدريد …",
-      "image": null,
-      "pubDate": "2026-02-08T19:46:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0a9b4262610b8380",
-      "title": "جدول مباريات الدوري الإيطالي 2025-2026... القنوات الناقلة والترتيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt0678458aa1d78dbc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات وترتيب جدول الدوري الإيطالي 2025-2026",
-      "body": "تعرف على مباريات وترتيب جدول الدوري الإيطالي 2025-2026 تترقب جماهير كرة القدم حول العالم منافسات الدوري الإيطالي لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات مثيرة بين كبار القوم في جنة كرة القدم. ويخوض نابولي الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين حصد لقبًا جديدًا مع أنطونيو كونتي بعد منافسة شرسة مع إنتر. ويسعى النيراتزوري لتجاوز أحزان الموسم الماضي والفوز باللقب، بينما يترقب ميلان الموقف للمنافسة بقوة بدوره، فيما يبحث يوفنتوس عن العودة لأمجاد الماضي والتتويج بالبطولة. النسخة الحالية انطلقت يوم السبت 23 أغسطس/آب فيما تتوزع باقي المباريات على مدار عطلة نهاية الأسبوع، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من \"كووورة\"، نستعرض جدول ترتيب الدوري الإيطالي 2025-2026. ما القنوات الناقلة لمباريات الدوري الإيطالي 2025-2026؟ يمتلك تطبيق stc tv ، حقوق بث مباريات الدوري الإيطالي 2025-2026، ويمكن الاشتراك مقابل 15 ريال سعودي فقط ومتابعة جميع المباريات. كما أنّ الدوري الإيطالي متاح مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5. البطولة منقولة بتعليق عربي لأفضل المعلقين في العالم العربي وهو ما يضمن الإثارة والمتعة في كل جولة. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4…",
-      "image": "https://assets.kooora.com/images/v3/bltaed94e5ed17bbc56/Serie%20A%20Kooora.jpg",
-      "pubDate": "2026-02-08T19:39:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "46baadb6116bdb25",
-      "title": "جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt642666b88ab760ff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
-      "body": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب يحظى الدوري الإسباني بمتابعة استثنائية على مستوى العالم، كونه أحد أكثر المسابقات إثارة وقوة، بفضل المنافسة الشرسة بين العملاقين ريال مدريد وبرشلونة. وتمكن برشلونة من التتويج بلقب الدوري الإسباني 2024-2025، بعدما خسر اللقب في الموسم السابق لصالح غريمه الأزلي ريال مدريد. حصد البارسا، تحت قيادة المدرب هانز فليك، الثلاثية المحلية في الموسم الماضي (الدوري والكأس والسوبر)، وفاز على ريال مدريد في جميع المواجهات، ما دفع النادي الملكي لتعزيز صفوفه بأكثر من لاعب، إلى جانب التوقيع مع تشابي ألونسو ليقود الفريق خلفًأ لكارلو أنشيلوتي، ما يمهد لصراع هائل في الموسم المقبل. ويترقب الجميع حول العالم موعد انطلاق الموسم المقبل من الدوري الإسباني 2025-2026، والذي سيكون مشتعلًا بكل تأكيد، كما كان الموسم الماضي. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإسباني 2025-2026 والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإسباني 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 برشلونة 23 19 1 3 63 23 40 58 2 ريال مدريد 23 18 3 2 49 18 31 57 3 أتلتيكو مدريد 23 13 6 4 38 18 20 45 4 فياريال 21 13 3 5 39 23 16 42 5 ريال بيتيس 23 10 8 5 37 28 9 38 6 إسبانيول 22 1…",
-      "image": null,
-      "pubDate": "2026-02-08T19:39:00.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -2672,22 +2640,6 @@
       "region": "global"
     },
     {
-      "id": "cb8436b3285cc4bc",
-      "title": "Incomes would need to rise nearly $50,000 for median-priced homes to be as affordable as they were in 2019",
-      "link": "https://www.cnbc.com/2026/02/07/housing-affordability-income-changes.html",
-      "summary": "Rising home prices and s higher mortgage rates have pushed the income needed to afford a median-priced home up by nearly $50,000 since 2019.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T14:00:01.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ed2f8f9f1fd5419e",
       "title": "Rust player says goodbye to his server neighbours by constructing a giant, illuminated middle finger: 'Making one of these is often how I like to end a successful wipe'",
       "link": "https://www.pcgamer.com/games/survival-crafting/rust-player-says-goodbye-to-his-server-neighbours-by-constructing-a-giant-illuminated-middle-finger-making-one-of-these-is-often-how-i-like-to-end-a-successful-wipe/",
@@ -2704,22 +2656,6 @@
       "region": "global"
     },
     {
-      "id": "3ddb1fafa8cc8273",
-      "title": "Gen Z is nostalgic for 2016 amid economic unease. Mall brands like Abercrombie & Fitch may see a revival",
-      "link": "https://www.cnbc.com/2026/02/07/gen-z-2016-ambercrombie-fitch.html",
-      "summary": "Economic anxiety is pushing Gen Z toward familiar mid-2010s aesthetics, a shift that could translate into renewed demand for legacy mall retailers.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T13:58:22.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d64d749f74d3642b",
       "title": "The Trump administration equity portfolio is growing. These are the investments so far",
       "link": "https://www.cnbc.com/2026/02/07/trump-administration-equity-portfolio-grows-these-are-investments-so-far.html",
@@ -2733,22 +2669,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "15d39097c044ec92",
-      "title": "First gold of Games 'like a movie' for Von Allmen",
-      "link": "https://www.bbc.com/sport/articles/c7010vn8v4qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Swiss Alpine skier Franjo von Allmen becomes the first champion of the 2026 Winter Olympics in the downhill.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-07T13:01:30.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3319,22 +3239,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-06T08:17:21.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f608b6deacc41cf4",
-      "title": "The 'incredible story' of the British coach at the Super Bowl",
-      "link": "https://www.bbc.com/sport/american-football/articles/c5yv15e8y0jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Aden Durde's journey to Sunday's Super Bowl is not just unusual, it's unique. The Briton's love of the NFL began with a 1986 video cassette - now he is coaching in sport's biggest game.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-05T12:08:05.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
