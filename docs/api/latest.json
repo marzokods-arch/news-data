@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-02-09T23:58:51.878Z",
-    "total": 357,
-    "processed_feeds": 23,
-    "discovered_feeds": 83,
+    "generated_at": "2026-02-10T02:08:14.730Z",
+    "total": 346,
+    "processed_feeds": 24,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/4c869dcf-dc24-46bf-9d82-1da0c8da7337",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
       {
         "name": "Youm7 — منوعات",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
@@ -22,16 +35,29 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 67,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -45,6 +71,32 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 66,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Delish",
         "url": "https://www.delish.com/rss/all.xml/",
         "homepage": "https://www.delish.com/rss/all.xml/",
@@ -113,19 +152,6 @@
         "notModified": false
       },
       {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
         "name": "Live Science",
         "url": "https://www.livescience.com/feeds/all",
         "homepage": "https://www.livescience.com/feeds/all",
@@ -139,16 +165,16 @@
         "notModified": false
       },
       {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -178,9 +204,9 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -191,9 +217,9 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -217,36 +243,23 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
-        "lang": "en",
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -269,6 +282,19 @@
         "notModified": false
       },
       {
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Khaleej Times - Lifestyle",
         "url": "https://www.khaleejtimes.com/rss/lifestyle",
         "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
@@ -278,7 +304,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Invalid character in entity name\nLine: 86\nColumn: 26\nChar:  ",
         "notModified": false
       },
       {
@@ -292,19 +318,6 @@
         ],
         "taken": 10,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "TypeError: fetch failed",
         "notModified": false
       }
     ]
@@ -327,10 +340,10 @@
       "region": "gulf"
     },
     {
-      "id": "517f3ed89451bcf0",
-      "title": "Meta Goes to Trial in a New Mexico Child Safety Case. Here's What's at Stake",
+      "id": "699fd3f671d5fed7",
+      "title": "Meta Goes to Trial in a New Mexico Child Safety Case. Here’s What’s at Stake",
       "link": "https://www.wired.com/story/meta-child-safety-trial-new-mexico-attorney-general/",
-      "summary": "Attorney General Raúl Torrez is accusing the tech giant of failing to protect minors on Facebook and Instagram.",
+      "summary": "Attorney general Raúl Torrez is accusing the tech giant of failing to protect minors on Facebook and Instagram.",
       "body": null,
       "image": null,
       "pubDate": "2026-02-09T23:54:47.000Z",
@@ -375,8 +388,8 @@
       "region": "global"
     },
     {
-      "id": "84c99dc7a08cfa31",
-      "title": "'I tried, I dreamt, I jumped' - why Vonn has 'no regrets' about Olympics crash",
+      "id": "7d5fa5ecf314ebfd",
+      "title": "'No regrets... I tried, I dreamt, I jumped' - Vonn sustains 'complex tibia fracture'",
       "link": "https://www.bbc.com/sport/articles/cm2r47pj51zo?at_medium=RSS&at_campaign=rss",
       "summary": "American skier Lindsey Vonn says she has \"no regrets\" after a crash in the women's downhill competition at the Winter Olympics resulted in a \"complex tibia fracture\".",
       "body": null,
@@ -1271,22 +1284,6 @@
       "region": "global"
     },
     {
-      "id": "a0435f31d9de38d7",
-      "title": "Why the Moltbook frenzy was like Pokémon",
-      "link": "https://www.technologyreview.com/2026/02/09/1132537/a-lesson-from-pokemon/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Lots of influential people in tech last week were describing Moltbook, an online hangout populated by AI agents interacting with one another, as a glimpse into t…",
-      "body": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Lots of influential people in tech last week were describing Moltbook, an online hangout populated by AI agents interacting with one another, as a glimpse into the future. It appeared to show AI systems doing useful things for the humans that created them (one person used the platform to help him negotiate a deal on a new car ). Sure, it was flooded with crypto scams, and many of the posts were actually written by people , but something about it pointed to a future of helpful AI, right? The whole experiment reminded our senior editor for AI, Will Douglas Heaven, of something far less interesting: Pokémon. Back in 2014, someone set up a game of Pokémon in which the main character could be controlled by anyone on the internet via the streaming platform Twitch. Playing was as clunky as it sounds, but it was incredibly popular: at one point, a million people were playing the game at the same time. “It was yet another weird online social experiment that got picked up by the mainstream media: What did this mean for the future?” Will says. “Not …",
-      "image": null,
-      "pubDate": "2026-02-09T17:02:56.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "3a1e97d3f30dfe31",
       "title": "دوري أبطال إفريقيا.. نهضة بركان في اختبار صعب أمام ريفرز يونايتد",
       "link": "https://assabah.ma/901489.html",
@@ -1655,22 +1652,6 @@
       "region": "global"
     },
     {
-      "id": "9caf7789bc8d5cc9",
-      "title": "The Download: what Moltbook tells us about AI hype, and the rise and rise of AI therapy",
-      "link": "https://www.technologyreview.com/2026/02/09/1132498/the-download-what-moltbook-tells-us-about-ai-hype-and-the-rise-and-rise-of-ai-therapy/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Moltbook was peak AI theater For a few days recently, the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself …",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Moltbook was peak AI theater For a few days recently, the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28, Moltbook went viral in a matter of hours. It’s been designed as a place where instances of a free open-source LLM-powered agent known as OpenClaw (formerly known as ClawdBot, then Moltbot), could come together and do whatever they wanted. But is Moltbook really a glimpse of the future, as many have claimed? Or something else entirely? Read the full story . —Will Douglas Heaven The ascent of the AI therapist We’re in the midst of a global mental-­health crisis. More than a billion people worldwide suffer from a mental-health condition, according to the World Health Organization. The prevalence of anxiety and depression is growing in many demographics, particularly young people, and suicide is claiming hun…",
-      "image": null,
-      "pubDate": "2026-02-09T13:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "92a19766d9c18373",
       "title": "تطبيقات \"لتجاوز ضريبة الهاتف\" في مصر.. تعليق حكومي وتكنولوجي",
       "link": "https://www.skynewsarabia.com/varieties/1851852-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D9%84%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%B6%D8%B1%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81-%D9%85%D8%B5%D8%B1-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%AD%D9%83%D9%88%D9%85%D9%8A-%D9%88%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A",
@@ -1767,22 +1748,6 @@
       "region": "global"
     },
     {
-      "id": "32e1afd6c1466044",
-      "title": "Dramatic or distracting? Olympic drone footage catches the eye",
-      "link": "https://www.bbc.com/sport/articles/c0rjwee0g45o?at_medium=RSS&at_campaign=rss",
-      "summary": "If you were watching the downhill skiing or luge at Milan-Cortina 2026 over the weekend, you will have noticed the dramatic new camera angles being provided at these Games.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-09T11:59:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "c60bf18c4913153c",
       "title": "Madsen dislocates shoulder in Italy's World Cup bow",
       "link": "https://www.bbc.com/sport/cricket/articles/cg5n8337759o?at_medium=RSS&at_campaign=rss",
@@ -1825,22 +1790,6 @@
       "source": {
         "name": "Wired",
         "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "97bac1128228e2c1",
-      "title": "Making AI Work, MIT Technology Review’s new AI newsletter, is here",
-      "link": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
-      "summary": "For years, our newsroom has explored AI’s limitations and potential dangers, as well as its growing energy needs. And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments. But how is AI actually being used in fields lik…",
-      "body": "For years, our newsroom has explored AI’s limitations and potential dangers, as well as its growing energy needs . And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments .&nbsp; But how is AI actually being used in fields like health care, climate tech, education, and finance? How are small businesses using it? And what should you keep in mind if you use AI tools at work?&nbsp;These questions guided the creation of Making AI Work, a new AI mini-course newsletter. Sign up for Making AI Work to see weekly case studies exploring tools and tips for AI implementation. The limited-run newsletter will deliver practical, industry-specific guidance on how generative AI is being used and deployed across sectors and what professionals need to know to apply it in their everyday work. The goal is to help working professionals more clearly see how AI is actually being used today, and what that looks like in practice —including new challenges it presents. You can sign up at any time and you’ll receive seven editions, delivered once per week, until you complete the series.&nbsp; Each newsletter begins with a case st…",
-      "image": null,
-      "pubDate": "2026-02-09T11:30:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -3719,22 +3668,6 @@
       "region": "global"
     },
     {
-      "id": "9e83e9aa63cb3723",
-      "title": "Moltbook was peak AI theater",
-      "link": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
-      "summary": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on Janua…",
-      "body": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook , which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28 by Matt Schlicht, a US tech entrepreneur, Moltbook went viral in a matter of hours. Schlicht’s idea was to make a place where instances of a free open-source LLM-powered agent known as OpenClaw (formerly known as ClawdBot, then Moltbot), released in November by the Austrian software engineer Peter Steinberger, could come together and do whatever they wanted. More than 1.7 million agents now have accounts. Between them they have published more than 250,000 posts and left more than 8.5 million comments (according to Moltbook). Those numbers are climbing by the minute. Moltbook soon filled up with clichéd screeds on machine consciousness and pleas for bot welfare. One agent appeared to invent a religion called Crustafarianism. Another complained : “The humans are screenshotting us.” The site was also flooded with spam and crypto scams. The bots were unstoppable. OpenClaw is a kind of…",
-      "image": null,
-      "pubDate": "2026-02-06T16:38:11.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "36a4f7f293d7abda",
       "title": "Scientist accidentally stumbles across bizarre ancient ‘wrinkle structures’ in Morocco that shouldn't be there",
       "link": "https://www.livescience.com/planet-earth/geology/scientist-accidentally-stumbles-across-bizarre-ancient-wrinkle-structures-in-morocco-that-shouldnt-be-there",
@@ -3927,22 +3860,6 @@
       "region": "global"
     },
     {
-      "id": "027d0cf846405fc0",
-      "title": "The Download: helping cancer survivors to give birth, and cleaning up Bangladesh’s garment industry",
-      "link": "https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have babies after they’ve had treatment f…",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have babies after they’ve had treatment for bowel or rectal cancer. Radiation and chemo can have pretty damaging side effects that mess up the uterus and ovaries. Surgeons are pioneering a potential solution: simply stitch those organs out of the way during cancer treatment. Once the treatment has finished, they can put the uterus—along with the ovaries and fallopian tubes—back into place. It seems to work! Last week, a team in Switzerland shared news that a baby boy had been born after his mother had the procedure. Baby Lucien was the fifth baby to be born after the surgery and the first in Europe, and since then at least three others have been born. Read the full story . —Jessica Hamzelou This article first appeared in The Checkup, MIT Technology Review ’s weekly biotech newsletter. To receive it in your inbox every Thursday, and read articles like this first, sign up here . Bangladesh’s garment-making industry i…",
-      "image": null,
-      "pubDate": "2026-02-06T13:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d6513db122ab64b8",
       "title": "NordProtect (2026) Review: A Bundle of ID-Protecting Services",
       "link": "https://www.wired.com/review/nordprotect/",
@@ -4116,22 +4033,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "8258670b548797d2",
-      "title": "An experimental surgery is helping cancer survivors give birth",
-      "link": "https://www.technologyreview.com/2026/02/06/1132319/experimental-surgery-colorectal-cancer-survivors-pregnant-birth/",
-      "summary": "This week I want to tell you about an experimental surgical procedure that’s helping people have babies. Specifically, it’s helping people who have had treatment for bowel or rectal cancer. Radiation and chemo can have pretty damaging side effects that mess up the uterus and ovaries. Surgeons are p…",
-      "body": "This week I want to tell you about an experimental surgical procedure that’s helping people have babies. Specifically, it’s helping people who have had treatment for bowel or rectal cancer. Radiation and chemo can have pretty damaging side effects that mess up the uterus and ovaries. Surgeons are pioneering a potential solution: simply stitch those organs out of the way during cancer treatment. Once the treatment has finished, they can put the uterus—along with the ovaries and fallopian tubes—back into place. It seems to work!&nbsp; Last week , a team in Switzerland shared news that a baby boy had been born after his mother had the procedure. Baby Lucien was the fifth baby to be born after the surgery and the first in Europe, says Daniela Huber, the gyno-oncologist who performed the operation. Since then, at least three others have been born, adds Reitan Ribeiro, the surgeon who pioneered the procedure. They told me the details. Huber’s patient was 28 years old when a four-centimeter tumor was discovered in her rectum. Doctors at Sion Hospital in Switzerland, where Huber works, recommended a course of treatment that included multiple medications and radiotherapy—the use of beams o…",
-      "image": null,
-      "pubDate": "2026-02-06T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4327,22 +4228,6 @@
       "region": "global"
     },
     {
-      "id": "1775e5f704ada1ca",
-      "title": "Consolidating systems for AI with iPaaS",
-      "link": "https://www.technologyreview.com/2026/02/05/1132200/consolidating-systems-for-ai-with-ipaas/",
-      "summary": "For decades, enterprises reacted to shifting business pressures with stopgap technology solutions. To rein in rising infrastructure costs, they adopted cloud services that could scale on demand. When customers shifted their lives onto smartphones, companies rolled out mobile apps to keep pace. And …",
-      "body": "For decades, enterprises reacted to shifting business pressures with stopgap technology solutions. To rein in rising infrastructure costs, they adopted cloud services that could scale on demand. When customers shifted their lives onto smartphones, companies rolled out mobile apps to keep pace. And when businesses began needing real-time visibility into factories and stockrooms, they layered on IoT systems to supply those insights. Each new plug-in or platform promised better, more efficient operations. And individually, many delivered. But as more and more solutions stacked up, IT teams had to string together a tangled web to connect them—less an IT ecosystem and more of a make-do collection of ad-hoc workarounds. DOWNLOAD THE REPORT That reality has led to bottlenecks and maintenance burdens, and the impact is showing up in performance. Today, fewer than half of CIOs (48%) say their current digital initiatives are meeting or exceeding business outcome targets. Another 2025 survey found that operations leaders point to integration complexity and data quality issues as top culprits for why investments haven’t delivered as expected. Achim Kraiss, chief product officer of SAP Integra…",
-      "image": null,
-      "pubDate": "2026-02-05T15:20:37.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "ff063b05ccb6c481",
       "title": "How well can AI and humans work together? Scientists are turning to Dungeons & Dragons to find out",
       "link": "https://www.livescience.com/technology/artificial-intelligence/how-well-can-ai-and-humans-work-together-scientists-are-turning-to-dungeons-and-dragons-to-find-out",
@@ -4353,22 +4238,6 @@
       "source": {
         "name": "Live Science",
         "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "0b9838a0c0cb3788",
-      "title": "The Download: attempting to track AI, and the next generation of nuclear power",
-      "link": "https://www.technologyreview.com/2026/02/05/1132270/the-download-attempting-to-track-ai-and-the-next-generation-of-nuclear-power/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This is the most misunderstood graph in AI Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. …",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This is the most misunderstood graph in AI Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It doesn’t exhale until METR, an AI research nonprofit whose name stands for “Model Evaluation &amp; Threat Research,” updates a now-iconic graph that has played a major role in the AI discourse since it was first released in March of last year.&nbsp; The graph suggests that certain AI capabilities are developing at an exponential rate, and more recent model releases have outperformed that already impressive trend. That was certainly the case for Claude Opus 4.5, the latest version of Anthropic’s most powerful model, which was released in late November. In December, METR announced that Opus 4.5 appeared to be capable of independently completing a task that would have taken a human about five hours—a vast improvement over what even the exponential trend would have predicted. But the truth is more complicated than those dramatic responses would suggest. Read the full story . —…",
-      "image": null,
-      "pubDate": "2026-02-05T13:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -4423,22 +4292,6 @@
       "region": "global"
     },
     {
-      "id": "290ca56f9b3fcb66",
-      "title": "Three questions about next-generation nuclear power, answered",
-      "link": "https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/",
-      "summary": "Nuclear power continues to be one of the hottest topics in energy today, and in our recent online Roundtables discussion about next-generation nuclear power, hyperscale AI data centers, and the grid, we got dozens of great audience questions. These ran the gamut, and while we answered quite a few (…",
-      "body": "Nuclear power continues to be one of the hottest topics in energy today, and in our recent online Roundtables discussion about next-generation nuclear power , hyperscale AI data centers , and the grid, we got dozens of great audience questions. These ran the gamut, and while we answered quite a few (and I’m keeping some in mind for future reporting), there were a bunch we couldn’t get to, at least not in the depth I would have liked. So let’s answer a few of your questions about advanced nuclear power. I’ve combined similar ones and edited them for clarity. How are the fuel needs for next-generation nuclear reactors different, and how are companies addressing the supply chain? Many next-generation reactors don’t use the low-enriched uranium used in conventional reactors. It’s worth looking at high-assay low-enriched uranium, or HALEU, specifically. This fuel is enriched to higher concentrations of fissile uranium than conventional nuclear fuel, with a proportion of the isotope U-235 that falls between 5% and 20%. (In conventional fuel, it’s below 5%.) HALEU can be produced with the same technology as low-enriched uranium, but the geopolitics are complicated. Today, Russia basicall…",
-      "image": null,
-      "pubDate": "2026-02-05T11:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "0e1116f3b2801013",
       "title": "Saltwater crocodiles crossed the Indian Ocean to reach the Seychelles — before humans arrived and wiped them out",
       "link": "https://www.livescience.com/animals/alligators-crocodiles/saltwater-crocodiles-crossed-the-indian-ocean-to-reach-the-seychelles-before-humans-arrived-and-wiped-them-out",
@@ -4468,22 +4321,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "ad4c290de42f0f0a",
-      "title": "This is the most misunderstood graph in AI",
-      "link": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It…",
-      "body": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here . Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It doesn’t exhale until METR, an AI research nonprofit whose name stands for “Model Evaluation &amp; Threat Research,” updates a now-iconic graph that has played a major role in the AI discourse since it was first released in March of last year. The graph suggests that certain AI capabilities are developing at an exponential rate, and more recent model releases have outperformed that already impressive trend. That was certainly the case for Claude Opus 4.5, the latest version of Anthropic’s most powerful model, which was released in late November. In December, METR announced that Opus 4.5 appeared to be capable of independently completing a task that would have taken a human about five hours—a vast improvement over what even the exponential trend would have predicted. One Anthropic safety researcher tweeted that he would change the direction of his research in light of those results; anot…",
-      "image": null,
-      "pubDate": "2026-02-05T10:00:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -4679,12 +4516,12 @@
       "region": "gulf"
     },
     {
-      "id": "cb790b118acb596f",
-      "title": "Grim photo captures polar bear mom and cubs resting in mud in summer heat",
-      "link": "https://www.livescience.com/animals/polar-bears/grim-photo-captures-polar-bear-mom-and-cubs-resting-in-mud-in-summer-heat",
-      "summary": "An image of polar bears napping along the Hudson Bay coast in Canada has been shortlisted for the Wildlife Photographer of the Year Nuveen People's Choice Award 2026.",
+      "id": "156f92da7bfb0d82",
+      "title": "A deer carrying the rotting head of its vanquished foe and a playful lynx shortlisted for Wildlife Photographer of the Year Nuveen People's Choice Award",
+      "link": "https://www.livescience.com/animals/a-deer-carrying-the-rotting-head-of-its-vanquished-foe-and-a-playful-lynx-shortlisted-for-wildlife-photographer-of-the-year-nuveen-peoples-choice-award",
+      "summary": "Here are the 24 images shortlisted for the Wildlife Photographer of the Year Nuveen People's Choice Award 2026.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/4QKkqmGcY7z4CyfPKPpXd6-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/BnM2q26kJDjdYcNXBny2y3-1280-80.png",
       "pubDate": "2026-02-04T00:01:00.000Z",
       "source": {
         "name": "Live Science",
@@ -4695,12 +4532,12 @@
       "region": "global"
     },
     {
-      "id": "156f92da7bfb0d82",
-      "title": "A deer carrying the rotting head of its vanquished foe and a playful lynx shortlisted for Wildlife Photographer of the Year Nuveen People's Choice Award",
-      "link": "https://www.livescience.com/animals/a-deer-carrying-the-rotting-head-of-its-vanquished-foe-and-a-playful-lynx-shortlisted-for-wildlife-photographer-of-the-year-nuveen-peoples-choice-award",
-      "summary": "Here are the 24 images shortlisted for the Wildlife Photographer of the Year Nuveen People's Choice Award 2026.",
+      "id": "cb790b118acb596f",
+      "title": "Grim photo captures polar bear mom and cubs resting in mud in summer heat",
+      "link": "https://www.livescience.com/animals/polar-bears/grim-photo-captures-polar-bear-mom-and-cubs-resting-in-mud-in-summer-heat",
+      "summary": "An image of polar bears napping along the Hudson Bay coast in Canada has been shortlisted for the Wildlife Photographer of the Year Nuveen People's Choice Award 2026.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/BnM2q26kJDjdYcNXBny2y3-1280-80.png",
+      "image": "https://cdn.mos.cms.futurecdn.net/4QKkqmGcY7z4CyfPKPpXd6-1280-80.jpg",
       "pubDate": "2026-02-04T00:01:00.000Z",
       "source": {
         "name": "Live Science",
