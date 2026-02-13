@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-13T09:00:17.314Z",
-    "total": 213,
+    "generated_at": "2026-02-13T09:50:16.838Z",
+    "total": 212,
     "processed_feeds": 16,
-    "discovered_feeds": 84,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -22,16 +22,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -43,7 +43,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 64,
+        "taken": 63,
         "error": null,
         "notModified": false
       },
@@ -61,29 +61,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -100,23 +87,10 @@
         "notModified": false
       },
       {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -139,29 +113,16 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Unable to parse XML.",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -178,16 +139,16 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -204,6 +165,45 @@
         "notModified": false
       },
       {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Khaleej Times — Entertainment",
         "url": "https://www.khaleejtimes.com/rss/entertainment",
         "homepage": "https://www.khaleejtimes.com/rss/entertainment",
@@ -213,12 +213,76 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "458f010f82694499",
+      "title": "Brilliant Muzarabani helps Zimbabwe stun Australia",
+      "link": "https://www.bbc.com/sport/cricket/articles/cy4wp31nz19o?at_medium=RSS&at_campaign=rss",
+      "summary": "Blessing Muzarabani claims a superb 4-17 as Zimbabwe held their nerve to stun Australia with a thrilling 23-run win in the T20 World Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T09:32:15.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "fa26abe1679c3403",
+      "title": "Berlin Title ‘Our Secret’ Launches Trailer, as Director Grace Passô Talks Desire to ‘Introduce New Dimension of Black Brazilian Lives on Screen’ (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/global/our-secret-trailer-grace-passo-berlin-festival-1236658281/",
+      "summary": "Grace Passô is a creative fueled by exploring the malleability of form. The actor, director and playwright adapted her own play into her feature debut “Our Secret,” premiering in Berlin seven years after her medium-length film “Dazed Flesh” — also adapted from the stage — played at the same festiva…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/VARIETY-SIZING-44.png",
+      "pubDate": "2026-02-13T09:25:15.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "551d87e0a3c25b76",
+      "title": "Can you name all FA Cup finalists since 2008 that weren't the 'big six'?",
+      "link": "https://www.bbc.com/sport/football/articles/c24d53y74lno?at_medium=RSS&at_campaign=rss",
+      "summary": "With the FA Cup returning this weekend, test your knowledge of the previous finalists from outside the Premier League's 'big six'.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T09:15:56.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "6c779d720d8637e2",
+      "title": "Tecno Pova Curve 2 debuts with 8,000mAh battery, 6.78\" curved display",
+      "link": "https://www.gsmarena.com/tecno_pova_curve_2_debuts_with_8000mah_battery_678inch_144hz_curved_display-news-71544.php",
+      "summary": "The Tecno Pova Curve 2 has been launched in India. It comes with a curved display and is claimed to be the slimmest phone with an 8,000mAh battery. It also gets a refreshed design over the original Pova Curve. At the front, the Pova Curve 2 gets a 6.78-inch curved AMOLED display that offers a 1.5K …",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T09:14:02.000Z",
+      "source": {
+        "name": "GSMArena",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "7471dcd5433197bb",
       "title": "Black Mandala, Red Owl Set Eight Genre Titles for EFM (EXCLUSIVE)",
@@ -243,6 +307,38 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-13T08:51:53.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "dc91b065c0275cce",
+      "title": "Hull's 'complete nobody' out to stun Chelsea on Rosenior return",
+      "link": "https://www.bbc.com/sport/football/articles/cx2x32gxyd3o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport looks at Hull City boss Sergej Jakirovic and how the unheralded appointment has them challenging for promotion to the Premier League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T08:37:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "41aacacf6633f12b",
+      "title": "New faces, chasers and strugglers - what to look out for in the EFL",
+      "link": "https://www.bbc.com/sport/football/articles/cgjz7np1x7xo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport highlights five things to look out for in Saturday's EFL schedule.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T08:23:55.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -300,10 +396,10 @@
       "region": "global"
     },
     {
-      "id": "1240970d27e7d3c3",
-      "title": "Prada Foundation Unveils First Supported Films Including New Works From Apichatpong Weerasethakul, Corneliu Porumboiu, Tatiana Huenzo",
+      "id": "95fe4f07fee2c8c4",
+      "title": "Prada Foundation Unveils First Supported Films Including New Works From Apichatpong Weerasethakul, Corneliu Porumboiu, Tatiana Huezo",
       "link": "https://variety.com/2026/film/global/prada-foundation-supported-films-apichatpong-weerasethakul-1236661008/",
-      "summary": "New works from name auteurs including “Tropical Malady” helmer Apichatpong Weerasethakul, Romania’s Corneliu Porumboiu, and Mexico’s Tatiana Huenzo are among the 14-title first batch of features selected to benefit from the newly launched Fondazione Prada Film Fund. The Prada Foundation film fund, …",
+      "summary": "New works from name auteurs including “Tropical Malady” helmer Apichatpong Weerasethakul, Romania’s Corneliu Porumboiu, and Mexico’s Tatiana Huezo are among the 14-title first batch of features selected to benefit from the newly launched Fondazione Prada Film Fund. The Prada Foundation film fund, w…",
       "body": null,
       "image": "https://variety.com/wp-content/uploads/2026/02/Prada-Foundation-1.jpg",
       "pubDate": "2026-02-13T08:00:01.000Z",
@@ -330,6 +426,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "42cc896d3a04fcd6",
+      "title": "حكيمي يبلغ الريال بعودته المستقبلية.. ومبابي مفتاح الصفقة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%8A%D8%A8%D9%84%D8%BA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A8%D8%B9%D9%88%D8%AF%D8%AA%D9%87-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%8A%D8%A9-%D9%88%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%85%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%B5%D9%81%D9%82%D8%A9/bltce5c35b085d4a52d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تتزايد الاحتمالات بشأن عودة أشرف حكيمي ظهير باريس سان جيرمان، إلى صفوف ريال مدريد، في المستقبل القريب.",
+      "body": "تتزايد الاحتمالات بشأن عودة أشرف حكيمي ظهير باريس سان جيرمان، إلى صفوف ريال مدريد، في المستقبل القريب. ويبلغ حكيمي من العمر 27 عامًا، ويمتد عقده مع باريس سان جيرمان حتى صيف 2029. وتخرج حكيمي من أكاديمية ريال مدريد، قبل أن يغادر إلى إنتر ميلان، بعد فترة إعارة ناجحة في بوروسيا دورتموند. وذكرت شبكة \"ديفينسا سنترال\" أن تكهنات عودة حكيمي إلى ريال مدريد، تزداد بشكل كبير وسط الشائعات حول مستقبل داني كارفاخال. التخلي عن مشروع السوبر ليج يخدم حكيمي يرغب حكيمي في العودة إلى ريال مدريد، ويبدو أن عودته المحتملة إلى سانتياجو برنابيو، تتناسب أكثر من أي وقت مضى مع السياق الحالي، حيث مستقبل كارفاخال لا زال غامضًا، فيما لم يظهر أرنولد مستواه الحقيقي مع الميرنجي. وتصالح فلورنتينو بيريز رئيس ريال مدريد، مؤخرًا مع رئيس باريس سان جيرمان، ناصر الخليفي، بعد التخلي عن مشروع السوبر ليج. وتشير صحيفة The Touchline إلى أن وجود كيليان مبابي، قد يكون مفتاحًا في عودة أشرف حكيمي إلى البرنابيو. ☎️❗️ 𝐄𝐗𝐂𝐋𝐔𝐒𝐈𝐕𝐄: Real Madrid have not really entered the market vigorously for a right-back in the past transfer markets because of the Hakimi factor. The player has already informed those at the club that he would return to 'where it all started' one day. Kylian Mbappé… pic.twitter.com/xHx9AHbVxd — The Touchline |…",
+      "image": "https://assets.kooora.com/images/v3/getty-2223698863/crop/MM5DENZQGQ5DCNJSGE5G433XMU5DCMB2GA======/GettyImages-2223698863.jpg",
+      "pubDate": "2026-02-13T07:44:56.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d4f0da05527a07a0",
@@ -412,6 +524,54 @@
       "region": "global"
     },
     {
+      "id": "e16b960546aa02ce",
+      "title": "قرار خلف الكواليس يهز الشباب قبل القمة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AE%D9%84%D9%81-%D8%A7%D9%84%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3-%D9%8A%D9%87%D8%B2-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%82%D9%85%D8%A9/bltd8b904457c865ba0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نهاية ألجواسيل وبداية عهد جديد",
+      "body": "نهاية ألجواسيل وبداية عهد جديد اتخذ نادي الشباب قرارًا حاسمًا قبل مواجهته المرتقبة أمام الأهلي، مساء اليوم الجمعة، على ملعب \"إس إتش جي أرينا\"، ضمن منافسات الجولة الثانية والعشرين من دوري روشن السعودي لموسم 2025-2026، في مباراة تحمل أبعادًا فنية وإدارية مهمة داخل أسوار \"الليوث\". ويدخل الأهلي اللقاء بقيادة مدربه الألماني ماتياس يايسله، وهو يحتل المركز الثالث في جدول ترتيب دوري روشن برصيد 47 نقطة، واضعًا نصب عينيه تحقيق الفوز لتقليص الفارق مع فرق الصدارة، وتعزيز حظوظه في سباق المنافسة على اللقب، في واحدة من أكثر مواجهات الجولة إثارة وندية. في المقابل، يخوض الشباب المباراة بطموح الخروج بنتيجة إيجابية، خاصة بعد التعادل مع الأهلي في مباراة الدور الأول على ملعب الإنماء بهدف لمثله، ويعيش الفريق مرحلة صعبة هذا الموسم في ظل تذبذب نتائجه، إذ يحتل المركز الثالث عشر برصيد 19 نقطة. فرمان إداري في الشباب كشفت صحيفة \" عكاظ \" السعودية أن إدارة نادي الشباب اتخذت قرارًا بإقالة مدرب الفريق الإسباني إيمانويل ألجواسيل، على أن تكون مواجهة الأهلي هي الأخيرة له مع الفريق. وأوضحت عبر حسابها الرسمي على منصة \"إكس\"، أن إدارة النادي بدأت بالفعل تجهيز ملف المدرب البديل، تمهيدًا للتوقيع معه خلال اليومين المقبلين، في خطوة تهدف إلى تصحيح المسار وإنقاذ ما يمكن إنقاذه في الموسم الحالي. ويأتي هذا القرار على خلفية الن…",
+      "image": "https://assets.kooora.com/images/v3/getty-2245097870/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2245097870.jpg",
+      "pubDate": "2026-02-13T07:26:06.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c49eb8b1f2198df2",
+      "title": "حكم إسباني سابق: البيان الرسمي بشأن هدف كوبارسي \"كذبة حقيقية\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%83%D9%85-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%B3%D8%A7%D8%A8%D9%82-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D9%87%D8%AF%D9%81-%D9%83%D9%88%D8%A8%D8%A7%D8%B1%D8%B3%D9%8A-%D9%83%D8%B0%D8%A8%D8%A9-%D8%AD%D9%82%D9%8A%D9%82%D9%8A%D8%A9/blt7b69dbce0a2cea96?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"إلغاء هدف كوبارسي أكبر كارثة في تاريخ تقنية الفيديو\"",
+      "body": "\"إلغاء هدف كوبارسي أكبر كارثة في تاريخ تقنية الفيديو\" شن الحكم الإسباني السابق والمحلل التحكيمي الحالي، خافيير استرادا فيرنانديز، هجومًا لاذعًا على لجنة الحكام الإسبانية (CTA) وطاقم الـ VAR، واصفًا إلغاء هدف مدافع برشلونة باو كوبارسي أمام أتلتيكو مدريد، بأنه \"أكبر كارثة\" في تاريخ تطبيق تقنية الفيديو في إسبانيا. ولم يتردد فيرنانديز في تكذيب البيان الرسمي الذي أصدرته لجنة الحكام بشأن العطل التقني في تكنولوجيا التسلل شبه الآلي، مؤكدًا أن ما حدث هو \"كذبة حقيقية\" اختلقها الحكام لتبرير الوقت الطويل الذي استغرقوه في المراجعة، والذي امتد لسبع دقائق كاملة. وقال فيرنانديز، عبر فيديو تحليلي من خلال حسابه الرسمي على موقع إنستجرام: \"هم لا يصدقون أنفسهم، لقد لجأوا للأعذار لأنهم أدركوا فداحة الموقف\". &nbsp; View this post on Instagram وانتقد الحكم السابق الصورة التي عُرضت لتوضيح حالة التسلل، مشيرًا إلى أنها تفتقر لأدنى معايير الدقة الرياضية، حيث لا يمكن لأي مشاهد تحديد لحظة خروج الكرة بدقة أو مكان اصطدامها باللاعب. واختتم فيرنانديز حديثه الغاضب بالتأكيد على أن منظومة التحكيم في إسبانيا تفقد مصداقيتها يومًا بعد يوم، واصفًا قرار إلغاء الهدف بأنه \"أمر غير قابل للتصديق\" في كرة القدم الاحترافية. يذكر أن أتلتيكو مدريد أنهى مواجهة الذهاب في نصف نهائي كأس ملك إسبانيا، بفوز تاريخي على برشلونة برباعية نظي…",
+      "image": null,
+      "pubDate": "2026-02-13T07:24:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "09ea98443cda5053",
+      "title": "ارتباك فليك وشرود ذهني.. 5 أسباب وراء سقوط برشلونة بالأربعة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D9%83-%D9%81%D9%84%D9%8A%D9%83-%D9%88%D8%B4%D8%B1%D9%88%D8%AF-%D8%B0%D9%87%D9%86%D9%8A-5-%D8%A7%D9%94%D8%B3%D8%A8%D8%A7%D8%A8-%D9%88%D8%B1%D8%A7%D8%A1-%D8%B3%D9%82%D9%88%D8%B7-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%A8%D8%B9%D8%A9/blt6db99593bd1cc029?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أخطاء لاعبي البارسا مع الغيابات المؤثرة أدت إلى انهيار الفريق أمام أتلتيكو مدريد",
+      "body": "أخطاء لاعبي البارسا مع الغيابات المؤثرة أدت إلى انهيار الفريق أمام أتلتيكو مدريد تلقى برشلونة خسارة موجعة أمام أتلتيكو مدريد في ذهاب نصف نهائي كأس الملك لموسم 2025-2026، بعد أن قدم واحدة من أسوأ مبارياته تحت قيادة مدربه الألماني هانز فليك، فما هي أسباب هذه الخسارة؟ وتعرض برشلونة لهزيمة كبيرة برباعية دون رد على يد مضيفه أتلتيكو مدريد مساء أمس الخميس في ذهاب الدور نصف النهائي من كأس ملك إسبانيا، على أن تقام مباراة الإياب يوم 3 مارس المقبل. وتوقفت سلسلة انتصارات برشلونة عند 6 مباريات، وسيكون عليه استعادة قواه سريعًا إذ تنتظره مباراة أخرى ضد جيرونا يوم الإثنين في الدوري الإسباني، الذي يتصدر ترتيبه. لكن ماذا حدث لبرشلونة في ملعب \"طيران الرياض ميتروبوليتانو\"؟ صحيفة \"سبورت\" الكتالونية قدمت تحليلًا للهزيمة، حيث قالت إن البارسا وقع في 5 أخطاء رئيسية. بداية باهتة كما نشيد بقدرة برشلونة الكبيرة على قلب النتائج (حقق ريمونتادا 9 مرات هذا الموسم)، فإن هذه الإحصائية تكشف أيضًا أن الفريق كثيرًا ما يبدأ المباريات متأخرًا في النتيجة. ففي عام 2026 تحديدًا، أنهى برشلونة الشوط الأول متقدمًا في 3 مباريات فقط من أصل 12 (25%). بعيدًا عن الأرقام، لم يكن دخول لاعبي برشلونة أمام أتلتيكو على مستوى نصف نهائي كأس من حيث القوة. تفوق رجال سيميوني في أغلب الالتحامات، وكانوا أفضل فنيًا وذهنيًا. وتصريح إريك جارسيا …",
+      "image": "https://assets.kooora.com/images/v3/getty-2261317898/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2261317898.jpg",
+      "pubDate": "2026-02-13T07:23:56.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "151cad5da9692711",
       "title": "Google Pixel 10a leaks in dozens of official-looking images",
       "link": "https://www.gsmarena.com/google_pixel_10a_leaks_in_dozens_of_officiallooking_images-news-71541.php",
@@ -426,6 +586,54 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "ba392ace9a591e40",
+      "title": "بالفيديو.. النصر الأكثر استفادة من ركلات الجزاء الخاطئة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D9%83%D8%AB%D8%B1-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D8%A9-%D9%85%D9%86-%D8%B1%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B7%D9%8A%D9%94%D8%A9/blta586ebf1c2f4d22a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قال الخبير التحكيمي فهد المرداسي، إن النصر هو أكثر الأندية التي استفادت من ركلات جزاء غير صحيحة في دوري روشن السعودي هذا الموسم.",
+      "body": "قال الخبير التحكيمي فهد المرداسي، إن النصر هو أكثر الأندية التي استفادت من ركلات جزاء غير صحيحة في دوري روشن السعودي هذا الموسم. وأضاف المرداسي في تصريحات لبرنامج \"نادينا\" على فضائية MBC \"أكثر فريق احتسبت له ركلات جزاء غير صحيحة هو النصر\". وتابع \"النصر تحصل على ركلتي جزاء غير صحيحتين، وذلك حتى الجولة 21 من دوري روشن السعودي\". ولفت \"النصر حصل على ركلة جزاء غير صحيحة أمام الفيحاء في الدقائق الأخيرة، ونفس الحال تكرر خلال لقاء نيوم\". وأوضح فهد المرداسي \"جرى احتساب 8 ركلات جزاء غير صحيحة في دوري روشن السعودي، حتى الجولة 21، وهذا معدل سلبي كبير\". الخبير التحكيمي - فهد المرداسي: أكثر نادي احتسبت له ركلات جزاء غير صحيحة هو: نادي #النصر ( ركلتين جزاء غير صحيحة ) إلى الجولة 21 من دوري روشن مجاناً على MBC شاهد برنامج #نادينا يوميا الساعة 11مساءً بتوقيت السعودية على MBC1 لمتابعة البث المباشر https://t.co/vmfLh5oo4x pic.twitter.com/tbComZ2xS1 &mdash; نادينا (@NadeenaShow) February 11, 2026",
+      "image": null,
+      "pubDate": "2026-02-13T07:14:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "dba0a99e036cbd56",
+      "title": "رسالة مشفرة من البرازيل.. هل وجه نيمار تعليقه الناري إلى أتلتيكو مدريد؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D8%B4%D9%81%D8%B1%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84-%D9%87%D9%84-%D9%88%D8%AC%D9%87-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D9%87-%D8%A7%D9%84%D9%86%D8%A7%D8%B1%D9%8A-%D8%A7%D9%95%D9%84%D9%89-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt1372d445d2d78b0f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نيمار يكسر صمته خلال سقوط برشلونة",
+      "body": "نيمار يكسر صمته خلال سقوط برشلونة بينما كان برشلونة يتجرع مرارة هزيمة قاسية وتاريخية برباعية نظيفة أمام أتلتيكو مدريد في ذهاب نصف نهائي كأس ملك إسبانيا، لم يكن النجم البرازيلي نيمار جونيور بعيدًا عن المشهد. وفجر نجم برشلونة السابق تفاعلًا واسعًا عبر منصات التواصل الاجتماعي بتعليقٍ لخص مأساة الفريق الكتالوني فوق عشب ملعب \"طيران الرياض ميتروبوليتانو\". صدمة البداية وكارثة \"خوان جارسيا\" لم تكن خسارة برشلونة مجرد تراجع فني، بل بدأت فصولها بمشهد \"سريالي\" في الدقائق الأولى، حين حاول إريك جارسيا إعادة الكرة إلى الحارس خوان جارسيا، لكن الكرة سلكت مسارًا غريبًا وغير متوقع، لتمر من تحت قدم الحارس وتسكن الشباك معلنة عن الهدف الأول. وأظهرت الإعادة التلفزيونية بوضوح كيف ارتدت الكرة بشكل عشوائي نتيجة السوء الكارثي لأرضية الملعب، وهو الأمر الذي تكرر طوال المباراة بحالات انزلاق مستمرة للاعبي الفريقين، مما أفقد كتيبة هانزي فليك أي قدرة على بناء اللعب. نيمار يخرج عن صمته بكلمات قاطعة في ذروة هذا التخبط، خرج نيمار جونيور عبر حسابه الرسمي في منصة \"X\" بمنشور أثار جدلاً واسعًا، حيث كتب قائلاً: \"لعب كرة القدم على هذه الأرضية أمر مستحيل تقريباً\". وأوضحت صحيفة \"سبورت\" الكتالونية، أنه رغم متابعة نيمار في تلك اللحظات مباراة فريقه السابق سانتوس أمام أتلتيكو باراناينسي في الدوري البرازيلي (التي أقيمت على ملعب …",
+      "image": "https://assets.kooora.com/images/v3/getty-2260798549/crop/MM5DENZSG45DCNJTGQ5G433XMU5DMMJVHIYA====/GettyImages-2260798549.jpg",
+      "pubDate": "2026-02-13T07:05:53.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "d27dfccd2769849b",
+      "title": "حسم موقف ياسين بونو من موقعة الاتفاق",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AD%D8%B3%D9%85-%D9%85%D9%88%D9%82%D9%81-%D9%8A%D8%A7%D8%B3%D9%8A%D9%86-%D8%A8%D9%88%D9%86%D9%88-%D9%85%D9%86-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D9%81%D8%A7%D9%82/bltd8648295f82c78ec?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "دفعة مغربية وصداع فرنسي",
+      "body": "دفعة مغربية وصداع فرنسي يحتضن ملعب المملكة أرينا مواجهة مرتقبة تجمع بين الهلال والاتفاق، مساء اليوم الجمعة، ضمن منافسات الجولة الثانية والعشرين من دوري روشن السعودي لموسم 2025-2026. يدخل الهلال اللقاء بمعنويات مرتفعة بعدما انتفض في الجولة الماضية عقب سلسلة من التعادلات، وحقق فوزًا كاسحًا على الأخدود بسداسية نظيفة، في مباراة شهدت تألقًا لافتًا للنجم الفرنسي كريم بنزيما الذي دوّن أول \"هاتريك\" له بقميص الزعيم، مؤكدًا استعادته لحاسته التهديفية في توقيت مثالي. أما الاتفاق، فرغم تحسن نتائجه وأدائه مع تقدم الموسم، فإنه لا يملك ذكريات إيجابية أمام الهلال في الفترة الأخيرة، إذ فشل في تحقيق أي انتصار خلال آخر خمس مواجهات بين الفريقين، وكان قد خسر مباراة الدور الأول بخماسية نظيفة، ما يزيد من صعوبة مهمته في مواجهة المتصدر. ويتطلع \"الزعيم\" إلى مواصلة انتصاراته وتعزيز صدارته لجدول ترتيب دوري روشن، حيث يتربع على القمة برصيد 50 نقطة، متفوقًا بفارق نقطة واحدة فقط عن النصر صاحب المركز الثاني (49 نقطة)، ما يمنح اللقاء أهمية مضاعفة في سباق اللقب. جاهزية بونو والحربي تلقى الجهاز الفني للهلال بقيادة الإيطالي سيموني إنزاجي دفعة معنوية مهمة قبل المواجهة، بعدما أظهر المغربي ياسين بونو، حارس مرمى الفريق، ومتعب الحربي، الظهير الأيسر، جاهزية كاملة خلال الحصة التدريبية التي أُقيمت أمس الخميس. وذكرت صحيفة «الر…",
+      "image": "https://assets.kooora.com/images/v3/getty-2231953764/crop/MM5DGMZTGY5DGMZTGY5G433XMU5DQMZUHIYA====/GettyImages-2231953764.jpg",
+      "pubDate": "2026-02-13T07:03:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d6da1d76ee06ff22",
@@ -652,22 +860,6 @@
       "region": "global"
     },
     {
-      "id": "151ef45e8edfdedf",
-      "title": "Oscilloscope Buys Italian Director Virgilio Villoresi’s Venice Drama ‘Orfeo’ From True Colours at EFM (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/global/oscilloscope-villoresi-venice-orfeo-true-colours-efm-1236660896/",
-      "summary": "Oscilloscope Laboratories has acquired U.S. rights to Italian director Virgilio Villoresi’s directorial debut, “Orfeo,” a dreamlike drama that premiered out of competition at the 2025 Venice Film Festival. The U.S. deal for “Orfeo” was inked by Oscilloscope’s head of acquisitions, Aaron Katz, and I…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/ORPHEO.jpg",
-      "pubDate": "2026-02-13T06:15:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "2c654800a8e7d826",
       "title": "استياء وشكوى.. تحرك عاجل من برشلونة بعد أحداث مباراة أتلتيكو",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%B3%D8%AA%D9%8A%D8%A7%D8%A1-%D9%88%D8%B4%D9%83%D9%88%D9%89-%D8%AA%D8%AD%D8%B1%D9%83-%D8%B9%D8%A7%D8%AC%D9%84-%D9%85%D9%86-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D8%AD%D8%AF%D8%A7%D8%AB-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88/blt784bf8a3f7686758?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -682,6 +874,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "895fbb4a89445b3e",
+      "title": "Welsh rugby in turmoil as tens of thousands of Six Nations tickets still not sold",
+      "link": "https://www.bbc.com/news/articles/c78x5878dzgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of tickets remain unsold, with one club chairman saying the matches are not worth it.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T06:05:34.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
     },
     {
       "id": "3fe17dd87d6ad2f3",
@@ -988,9 +1196,9 @@
       "region": "global"
     },
     {
-      "id": "9baa2ed321ecbd51",
-      "title": "مصدر ليلا كورة: نجم الزمالك يقترب من الغياب عن لقاء كايزر تشيفز",
-      "link": "https://www.yallakora.com/african-confederation-cup/3000/news/541493/%d9%85%d8%b5%d8%af%d8%b1-%d9%84%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d9%86%d8%ac%d9%85-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%8a%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%a7%d9%84%d8%ba%d9%8a%d8%a7%d8%a8-%d8%b9%d9%86-%d9%84%d9%82%d8%a7%d8%a1-%d9%83%d8%a7%d9%8a%d8%b2%d8%b1-%d8%aa%d8%b4%d9%8a%d9%81%d8%b2",
+      "id": "bef95fa0e6698602",
+      "title": "مصدر ليلا كورة: الجهاز الفني للزمالك يرفض المخاطرة بثنائي الفريق أمام كايزر تشيفز",
+      "link": "https://www.yallakora.com/african-confederation-cup/3000/news/541493/%d9%85%d8%b5%d8%af%d8%b1-%d9%84%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d8%a7%d9%84%d8%ac%d9%87%d8%a7%d8%b2-%d8%a7%d9%84%d9%81%d9%86%d9%8a-%d9%84%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%8a%d8%b1%d9%81%d8%b6-%d8%a7%d9%84%d9%85%d8%ae%d8%a7%d8%b7%d8%b1%d8%a9-%d8%a8%d8%ab%d9%86%d8%a7%d8%a6%d9%8a-%d8%a7%d9%84%d9%81%d8%b1%d9%8a%d9%82-%d8%a3%d9%85%d8%a7%d9%85-%d9%83%d8%a7%d9%8a%d8%b2%d8%b1-%d8%aa%d8%b4%d9%8a%d9%81%d8%b2",
       "summary": "اقترب أحمد فتوح، لاعب الفريق الأول بنادي الزمالك، من الغياب عن لقاء الفريق الأبيض المقبل، ضد نادي كايزر تشيفز الجنوب إفريقي، المقرر إقامته يوم السبت المقبل، ضمن منافسات الجولة السادسة والأخيرة من عمر دور المجموعات، في بطولة كأس الكونفدرالية الأفريقية.",
       "body": null,
       "image": null,
@@ -1180,22 +1388,6 @@
       "region": "global"
     },
     {
-      "id": "75378df049b9c4bc",
-      "title": "Tuchel extended England stay for 'amazing players'",
-      "link": "https://www.bbc.com/sport/football/articles/cgjz7qln875o?at_medium=RSS&at_campaign=rss",
-      "summary": "Thomas Tuchel says he extended his contract as England manager through to Euro 2028 because of the \"amazing group of players\" at his disposal.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T21:23:30.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "ef3924df4c0acd37",
       "title": "\"دمر كبرياء برشلونة خلال 68 دقيقة\".. جريزمان ينفجر في وجه كتيبة فليك",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%85%D8%B1-%D9%83%D8%A8%D8%B1%D9%8A%D8%A7%D8%A1-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-68-%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D8%AC%D8%B1%D9%8A%D8%B2%D9%85%D8%A7%D9%86-%D9%8A%D9%86%D9%81%D8%AC%D8%B1-%D9%81%D9%8A-%D9%88%D8%AC%D9%87-%D9%83%D8%AA%D9%8A%D8%A8%D8%A9-%D9%81%D9%84%D9%8A%D9%83/blt74f40a432ced675a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1324,38 +1516,6 @@
       "region": "global"
     },
     {
-      "id": "a9d2a5ae890fe48d",
-      "title": "ناقوس خطر.. الأرقام تفضح معاناة برشلونة ضد الفرق الكبرى",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%A7%D9%82%D9%88%D8%B3-%D8%AE%D8%B7%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85-%D8%AA%D9%81%D8%B6%D8%AD-%D9%85%D8%B9%D8%A7%D9%86%D8%A7%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89/blt7a53e42b2e5e60f8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الفريق الكتالوني لم يقنع في معظم المباريات الصعبة هذا الموسم",
-      "body": "الفريق الكتالوني لم يقنع في معظم المباريات الصعبة هذا الموسم تعرض برشلونة لهزيمة ثقيلة بنتيجة (0-4) أمام مضيفه أتلتيكو مدريد، في مباراة ذهاب نصف نهائي كأس ملك إسبانيا، التي أقيمت مساء اليوم الخميس، على ملعب رياض إير ميتروبوليتانو. وسجل أتلتيكو الأهداف الأربعة في الشوط الأول، بينما لم يتمكن برشلونة من تقليص النتيجة في الشوط الثاني، خاصةً بعد طرد إيريك جارسيا في الدقيقة 85. وجاءت هذه الهزيمة الثقيلة، لتعزز الشكوك حول مدى قدرة البارسا على مواجهة الكبار، هذا الموسم (2025-2026)، حيث خاض الفريق الكتالوني 6 مباريات من العيار الثقيل، حتى الآن، وحقق الفوز مرتين فقط مقابل 4 هزائم. وجاءت البداية بالخسارة أمام باريس سان جيرمان (1-2 في دوري أبطال أوروبا، 1 أكتوبر 2025)، ثم الهزيمة على يد الغريم ريال مدريد (1-2 في الدوري الإسباني، 26 أكتوبر 2025).&nbsp; وتكبد البلوجرانا الهزيمة الثالثة أمام تشيلسي (0-3 في دوري أبطال أوروبا، 25 نوفمبر 2025)، قبل أن يحقق أول انتصار على أحد الفرق الكبرى، خلال الموسم الجاري، بالتغلب على أتلتيكو مدريد (3-1) في الليجا، يوم 2 ديسمبر/كانون أول الماضي. واقتنص برشلونة بعدها لقب السوبر الإسباني، بفوز ثأري على ريال مدريد (3-2) في النهائي، الذي أقيم يوم 11 يناير/كانون ثان الماضي، قبل أن يتكبد هزيمة مزلزلة على يد الروخي بلانكوس (4-0).",
-      "image": null,
-      "pubDate": "2026-02-12T20:50:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3e4c096a8f590e05",
-      "title": "فليك بعد السقوط برباعية: أتلتيكو لم يحسم التأهل.. ولا أتفق مع قرار الحكم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B3%D9%82%D9%88%D8%B7-%D8%A8%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A%D8%A9-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%84%D9%85-%D9%8A%D8%AD%D8%B3%D9%85-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%88%D9%84%D8%A7-%D8%A7%D9%94%D8%AA%D9%81%D9%82-%D9%85%D8%B9-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AD%D9%83%D9%85/blt7582170c62a2a2d4?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب الألماني ينتقد إلغاء هدف برشلونة في ميتروبوليتانو",
-      "body": "المدرب الألماني ينتقد إلغاء هدف برشلونة في ميتروبوليتانو سقط برشلونة في فخ أتلتيكو مدريد، خلال المواجهة التي أقيمت بينهما على ملعب ضمن طيران الرياض ميتروبوليتانو، منافسات ذهاب نصف نهائي كأس ملك إسبانيا. وخسر البارسا تحت قيادة هانز فليك، أمام الروخيبلانكوس بنتيجة 0-4، لتتراجع فرص الفريق الكتالوني من بلوغ النهائي. وقال فليك، خلال تصريحات صحفية بعد الخسارة أمام أتلتيكو: \"لم تُحسم بعد.. أمامنا 90 دقيقة في كامب نو.. نحتاج كل مشجع في ملعبنا، وسنقاتل من أجل الوصول إلى النهائي\". وأوضح المدرب الألماني: \"في الشوط الأول، ومن دون أعذار، لعبنا بشكل سيئ جدا، لم نلعب كفريق كما نريد أن نرى أنفسنا، وكما يريد جمهورنا أن يرانا\". واستكمل: \"الشوط الثاني كان أفضل، نعم، لكن نتيجة 4-0 قاسية جدا. ومع ذلك، الأمر لم ينتهِ بعد. لم ينتهِ بعد، أمامنا فرصة\". وأمضى: \"لم نلعب بشكلٍ جيد، علينا الذهاب إلى مباراة الإياب، ستكون صعبة جدًا لكننا سنقاتل\". وأكد: \"تحدثنا بين الشوطين عن مختلف الحالات، وعن أنه كان يجب أن نقدّم أداءً أفضل، لم أرَ الفريق الذي أريد رؤيته في الشوط الأول\". واختتم مدرب برشلونة: \"أتساءل لماذا تُحتسب حالة تسلل.. لا أعرف ماذا قرروا، علينا أن نتقبّل ذلك لكنني لا أتفق مع القرار\". &nbsp; فرحة لم تكتمل..الحكم يلغي هدف برشلونة الأول بعد الرجوع للفار بداعي التسلل #كأس_ملك_أسبانيا #MBCMASR2 pic.twitter.com…",
-      "image": null,
-      "pubDate": "2026-02-12T20:50:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "e4a3932f16af0c48",
       "title": "Statement win over Sweden franks golden claim of GB curlers",
       "link": "https://www.bbc.com/sport/articles/cjen0nqyw33o?at_medium=RSS&at_campaign=rss",
@@ -1370,54 +1530,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "0f9a5f842ce0e3d8",
-      "title": "بيان عاجل من لجنة الحكام الإسبانية بشأن إلغاء هدف كوبارسي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D9%8A%D8%A7%D9%86-%D8%B9%D8%A7%D8%AC%D9%84-%D9%85%D9%86-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%AD%D9%83%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%95%D9%84%D8%BA%D8%A7%D8%A1-%D9%87%D8%AF%D9%81-%D9%83%D9%88%D8%A8%D8%A7%D8%B1%D8%B3%D9%8A/blt839d576fb37ea27a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "إعلان يزيد غضب المعسكر الكتالوني",
-      "body": "إعلان يزيد غضب المعسكر الكتالوني أثار قرار إلغاء هدف برشلونة أمام أتلتيكو مدريد، في ذهاب نصف نهائي كأس ملك إسبانيا، موجة واسعة من الجدل في الأوساط التحكيمية والإعلامية، بعدما استغرق حكم اللقاء خوان مارتينيز مونويرا نحو 5 دقائق لمراجعة اللقطة عبر تقنية الفيديو، قبل اتخاذ قراره النهائي بداعي وجود تسلل على روبرت ليفاندوفسكي. وأصدرت لجنة الحكام الإسبانية توضيحا بشأن الواقعة، في ظل الغضب الجماهيري والانتقادات التي طالت أداء حكام الفيديو خلال المباراة التي أقيمت على ملعب طيران الرياض ميتروبوليتانو، وانتهت بانتصار أصحاب الأرض 4-0. &nbsp; موجة غضب كتالونية وكان كوبارسي قد سجل هدف برشلونة الأول في الدقيقة 52 مع بداية الشوط الثاني، بعد شوط أول كارثي أنهاه الفريق الكتالوني متأخرًا بنتيجة 0-4 أمام أتلتيكو مدريد، وسط سيطرة واضحة من فريق دييجو سيميوني وأخطاء دفاعية جسيمة من لاعبي برشلونة. وتوقفت المباراة قرابة خمس دقائق لمراجعة الهدف، قبل أن يعود الحكم مونويرا من غرفة الفار ويعلن إلغاءه رسميًا بداعي وجود تسلل على ليفاندوفسكي، في قرار فجّر موجة غضب كبيرة بين جماهير برشلونة وأعاد الجدل حول جاهزية تقنية التسلل شبه الآلي في المباريات الحاسمة. &nbsp; فرحة لم تكتمل..الحكم يلغي هدف برشلونة الأول بعد الرجوع للفار بداعي التسلل #كأس_ملك_أسبانيا #MBCMASR2 pic.twitter.com/4Ryu4u4Hvq — MBC MASR 2 (@mbcmasr2…",
-      "image": null,
-      "pubDate": "2026-02-12T20:44:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7f97546c28c3fa0b",
-      "title": "بالفيديو.. برينتفورد يقدم هدية للسيتي بتعطيل آرسنال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B1%D9%8A%D9%86%D8%AA%D9%81%D9%88%D8%B1%D8%AF-%D9%8A%D9%82%D8%AF%D9%85-%D9%87%D8%AF%D9%8A%D8%A9-%D9%84%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A8%D8%AA%D8%B9%D8%B7%D9%8A%D9%84-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84/blt130279690f872470?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أهدر آرسنال، نقطتين ثمينتين، بالتعادل مع مضيفه برينتفورد، بنتيجة 1-1 مساء الخميس، في الجولة 26 من الدوري الإنجليزي الممتاز.",
-      "body": "أهدر آرسنال، نقطتين ثمينتين، بالتعادل مع مضيفه برينتفورد، بنتيجة 1-1 مساء الخميس، في إطار الجولة 26 من عمر الدوري الإنجليزي الممتاز، على ملعب جي تك كوميونيتي ستاديوم. وانتهى الشوط الأول، على إيقاع التعادل السلبي بين الفريقين. وفي الشوط الثاني، وتحديدا في الدقيقة 61، تمكن نوني مادويكي من وضع آرسنال في المقدمة. لكن برينتفورد نجح في إدراك التعادل سريعا في الدقيقة 71 بفضل هدف كين لويس بوتر. وارتفع رصيد آرسنال إلى 57 نقطة في صدارة البريميرليج، بفارق 4 نقاط عن أقرب ملاحقيه مانشستر سيتي. فيما ارتفع رصيد برينتفورد إلى 40 نقطة في المركز السابع. نوني مادويكي يفتتح التسجيل #الدوري_الإنجليزي_الممتاز #PremierLeague pic.twitter.com/g6PBntckk8 &mdash; beIN SPORTS (@beINSPORTS) February 12, 2026 &nbsp; برينتفورد يدرك التعادل #الدوري_الإنجليزي_الممتاز #PremierLeague pic.twitter.com/qgfNVGUIJV &mdash; beIN SPORTS (@beINSPORTS) February 12, 2026 إحصائية سلبية لآرسنال ذكرت شبكة سكواكا، أن آرسنال فشل في الفوز على برينتفورد في ملعب جي تك كوميونيتي ستاديوم، للمرة الأولى منذ أغسطس/آب 2021. وقتها خسر فريق آرسنال، بهدفين دون رد، أمام مضيفه برينتفورد. الرأسيات.. سلاح فتاك في آرسنال ذكرت شبكة \"سكواكا\" أن آرسنال يعد أكثر فريق سجل أكبر عدد من الأهداف من خلال \"الرأسيات\" في البريميرليج هذا الموسم برصيد 11 هدفا. …",
-      "image": "https://assets.kooora.com/images/v3/getty-2261314533/crop/MM5DGNJVGY5DEMBQGA5G433XMU5DAORRHA3A====/GettyImages-2261314533.jpg",
-      "pubDate": "2026-02-12T20:44:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "30a3a2511bf12ad4",
-      "title": "فيديو: هييرو يجيب.. هل كان رونالدو يتدخل في عمله مع النصر؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%87%D9%8A%D9%8A%D8%B1%D9%88-%D9%8A%D8%AC%D9%8A%D8%A8-%D9%87%D9%84-%D9%83%D8%A7%D9%86-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%8A%D8%AA%D8%AF%D8%AE%D9%84-%D9%81%D9%8A-%D8%B9%D9%85%D9%84%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1/blt0b1386528e1c103f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدير الرياضي السابق يتحدث عن دور النجم البرتغالي مع \"العالمي\"",
-      "body": "المدير الرياضي السابق يتحدث عن دور النجم البرتغالي مع \"العالمي\" كشف الإسباني فيرناندو هييرو، المدير الرياضي السابق لنادي النصر، عن حقيقة تدخل البرتغالي كريستيانو رونالدو، قائد الفريق، في عمله، خلال فترة وجوده في النادي. وتولى هييرو منصب المدير الرياضي في نادي النصر خلال الموسم الماضي، قبل أن تتم إقالته من منصبه عقب نهاية الموسم، ليحل البرتغالي سيماو كوتينيو بدلًا منه. اللاعب الإسباني السابق سُئل عن حقيقة تدخل رونالدو في عمله خلال فترة وجوده، فأجاب في تصريحات لبرنامج \"في المرمى\" على قناة \"العربية\": \"لا، لقد كان داعمًا كبيرًا لنا\". فرناندو هييرو المدير الرياضي السابق لـ #النصر لـ #في_المرمى : كريستيانو لم يكن يتدخل في عملنا وكان داعم كبير لنا.. وعلاقتي به ممتازة.. كان يعطيني أفكاره ولديه ارتباط قوي بالنادي وكان يتحدث معي عن تجهيز منشآت للفئات السنية 📺 شاهدوا الحلقة الكاملة من هنا: https://t.co/sBxjeUCmBk pic.twitter.com/sq3InRz4at &mdash; العربية - في المرمى (@FilMarma) February 12, 2026 وأوضح: \"علاقتي به كانت ممتازة، في بعض الأوقات كانت لديه بعض الأسئلة والأفكار حول القائمة، وهذه لم تكن مشكلة، فهو يرتبط كثيرًا بالنادي، ويجعل الأولوية له دائمًا، لأنه يبحث عن تحقيق الإنجازات\". وأضاف: \"كنا نتحدث عن ملاعب جديدة للناشئين وللفريق الأول، وكنا نتناقش ونتبادل الأفكار حول ما فيه مصلحة الفري…",
-      "image": null,
-      "pubDate": "2026-02-12T20:32:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "169cc51b08e4ebc9",
@@ -1436,22 +1548,6 @@
       "region": "global"
     },
     {
-      "id": "6bf6e3652ed72233",
-      "title": "بالفيديو.. ماذا قال عمر السومة بعد هدفه المذهل في دوري روشن؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%A7%D9%84-%D8%B9%D9%85%D8%B1-%D8%A7%D9%84%D8%B3%D9%88%D9%85%D8%A9-%D8%A8%D8%B9%D8%AF-%D9%87%D8%AF%D9%81%D9%87-%D8%A7%D9%84%D9%85%D8%B0%D9%87%D9%84-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/blt1b93545cf9005bda?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أول تعليق من العقيد",
-      "body": "أول تعليق من العقيد عبر النجم السوري عمر السومة، مهاجم الحزم، عن سعادته الكبيرة، بعد تحقيق الانتصار الصعب على الأخدود، مساء الخميس، بهدفين مقابل هدف، ضمن منافسات الجولة 22 من دوري روشن السعودي. وسجل عمر السومة هدف فوز فريقه من تسديدة يسارية مذهلة عند الدقيقة 83 من الشوط الثاني، حيث استغل عرضية من الجهة اليسرى حولها في الشباك ببراعة شديدة. قال السومة في تصريحات بعد المباراة: \"حققنا ثلاث نقاط مهمة ضد خصم قريب منا في ترتيب الدوري\". وأضاف: \"قدّمنا أداءً رائعًا، خاصة في الشوط الثاني، ونعِد جماهيرنا بأن نواصل تقديم الأفضل في المباريات المقبلة\". وتعهّد الهداف بمواصلة التسجيل بأسلوب جديد قائلاً: \"سأستمر في التسجيل بطريقة لم أسجل بها من قبل\". جدير بالذكر أن عمر السومة، رفع رصيده إلى 159 هدفًا، معززًا تصدره لجدول ترتيب هدافي دوري روشن عبر التاريخ. &nbsp; «ثلاث نقاط مهمة ضد خصم قريب منا في الترتيب، وبإذن الله راح أسجل بالطريقة اللي باقي ما سجلت فيها، وهي مب هدف مهاجم.» عمر السومة، لاعب الحزم، مع مراسل «ثمانية» @mohammd_alswena 🎤 #الحزم_الأخدود | #دوري_روشن_السعودي pic.twitter.com/VcP3ajlnff &mdash; رياضة ثمانية (@thmanyahsports) February 12, 2026",
-      "image": null,
-      "pubDate": "2026-02-12T20:19:36.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "bf4b71fdd849fd13",
       "title": "تقارير: مباراة الأهلي تحسم مستقبل مدرب الجيش الملكي",
       "link": "https://www.yallakora.com/african-champions-league/2965/news/541477/%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%aa%d8%ad%d8%b3%d9%85-%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d9%85%d8%af%d8%b1%d8%a8-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a",
@@ -1466,22 +1562,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "12325504b885a3eb",
-      "title": "المصائب تتوالى على برشلونة أمام أتلتيكو مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%8A%D9%94%D8%A8-%D8%AA%D8%AA%D9%88%D8%A7%D9%84%D9%89-%D8%B9%D9%84%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt7649874e407c1550?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "انهالت المصائب على برشلونة، بعد سقوطه الصادم أمام مضيفه أتلتيكو مدريد، مساء الخميس.",
-      "body": "انهالت المصائب على برشلونة، بعد سقوطه الصادم أمام مضيفه أتلتيكو مدريد، مساء الخميس. وخسر برشلونة برباعية مذلة أمام أتلتيكو مدريد، في ذهاب نصف نهائي كأس ملك إسبانيا. وازدادت معاناة برشلونة، بعدما ألغى حكم الساحة، هدفًا سجله كوبارسي، لصالح البارسا، في الدقيقة 52، بداعي وجود تسلل على روبرت ليفاندوفسكي. وتوالت المصائب بتعرض لاعب برشلونة، إريك جارسيا، للطرد في الدقيقة 86، ليكمل الفريق الكتالوني، اللقاء، بـ 10 لاعبين. وسيغيب جارسيا عن لقاء الإياب بين الفريقين، والذي سيقام في الثالث من مارس/آذار المقبل.",
-      "image": "https://assets.kooora.com/images/v3/getty-2261318242/crop/MM5DKMBQGU5DGMZTGY5G433XMU5DAORQ/GettyImages-2261318242.jpg",
-      "pubDate": "2026-02-12T20:17:16.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "8b42a248de412566",
@@ -1574,22 +1654,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ec3c8b91d7221370",
-      "title": "Injured Bellingham a doubt for England friendlies",
-      "link": "https://www.bbc.com/sport/football/articles/cy4wn9wzvdlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jude Bellingham is a doubt for England's March friendlies amid fears from Real Madrid his hamstring injury is worse than first thought.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T19:10:15.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -1782,22 +1846,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a31291106b0f849e",
-      "title": "England to face Spain and Croatia in Nations League",
-      "link": "https://www.bbc.com/sport/football/articles/c0j582gg12do?at_medium=RSS&at_campaign=rss",
-      "summary": "England will face Spain, Croatia and the Czech Republic in the 2026-27 Uefa Nations League group stage, while Wales are drawn with holders Portugal.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T18:09:20.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -2348,22 +2396,6 @@
       "region": "global"
     },
     {
-      "id": "18591711c0054115",
-      "title": "Did Dyche deserve the sack at Nottingham Forest?",
-      "link": "https://www.bbc.com/sport/articles/c77e4elpgpro?at_medium=RSS&at_campaign=rss",
-      "summary": "After Sean Dyche's reign lasts just 114 days, Nottingham Forest are on the hunt for a fourth head coach of the season - but was he hard done by?",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T12:58:10.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "62f448d1cfc3e9ac",
       "title": "Anthropic promises to pay for electricity price increases due to it's AI data centers — firm to pay 100% of its grid infrastructure costs, produce new power sources as sector predicted to hit 50 GW in coming years",
       "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-promises-to-pay-for-electricity-price-increases-due-to-its-ai-data-centers-firm-to-pay-100-percent-of-its-grid-infrastructure-costs-produce-new-power-sources-as-sector-predicted-to-hit-50-gw-in-coming-years",
@@ -2697,22 +2729,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6b50378f7ca8941d",
-      "title": "Affordable Lava Yuva Star 3 arrives with a 6.75\" screen, a 5,000 mAh battery, and an IP64 rating",
-      "link": "https://www.gsmarena.com/lava_yuva_star_3_features_price_sale_date-news-71522.php",
-      "summary": "Lava launched its Yuva Star series for first-time buyers in August 2024, and today, it expanded the lineup with the introduction of the Lava Yuva Star 3. The Lava Yuva Star 3 is powered by the Unisoc SC9863A SoC, runs bloatware-free Android 15 Go, and has 4GB of RAM and 64GB of storage, expandable …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T10:12:02.000Z",
-      "source": {
-        "name": "GSMArena",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3116,22 +3132,6 @@
       "region": "global"
     },
     {
-      "id": "86434e8f87b07842",
-      "title": "England too 'careful' in defeat by Windies - Brook",
-      "link": "https://www.bbc.com/sport/cricket/articles/cjd9lex32m7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Captain Harry Brook says England's batters were \"too careful\" in their 30-run defeat by West Indies at the T20 World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-11T18:41:51.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "6a3d25e10efbdbef",
       "title": "توروب يتحدث عن الفوز على الإسماعيلي.. ما يحتاجه كامويش.. وشائعات بلعمري",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/541346/-%d8%aa%d9%88%d8%b1%d9%88%d8%a8-%d9%8a%d8%aa%d8%ad%d8%af%d8%ab-%d8%b9%d9%86-%d8%a7%d9%84%d9%81%d9%88%d8%b2-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a-%d9%85%d8%a7-%d9%8a%d8%ad%d8%aa%d8%a7%d8%ac%d9%87-%d9%83%d8%a7%d9%85%d9%88%d9%8a%d8%b4-%d9%88%d8%b4%d8%a7%d8%a6%d8%b9%d8%a7%d8%aa-%d8%a8%d9%84%d8%b9%d9%85%d8%b1%d9%8a",
@@ -3209,22 +3209,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4d1fba995e49cd94",
-      "title": "Tucker not giving up on T20 World Cup progress",
-      "link": "https://www.bbc.com/sport/cricket/articles/c77e44n8yylo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ireland wicketkeeper Lorcan Tucker says they team have not given up hope of making the Super 8s at the T20 World Cup despite losing their opening two group games.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-11T15:37:26.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3340,22 +3324,6 @@
       "region": "global"
     },
     {
-      "id": "32643b7d51169ff3",
-      "title": "Microsoft turns to superconductors for distributing power to its AI data centers — zero-resistance cables could reduce power losses and produce zero heat",
-      "link": "https://www.tomshardware.com/desktops/servers/microsoft-turns-to-superconductors-for-distributing-power-to-its-ai-data-centers-zero-resistance-cables-could-reduce-power-losses-and-produce-zero-heat",
-      "summary": "Microsoft wants to use superconducting cables to transport electricity with zero losses, allowing it to save space and build more data centers without putting more strain on the grid.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/bNebuWGAQz2tbQ5mXsntcH-1280-80.jpg",
-      "pubDate": "2026-02-11T11:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "613b8776e614bf60",
       "title": "A monitor light bar is the most underrated upgrade you can make to your setup  — but not all of them are born equal, so here’s how to choose one that fits you",
       "link": "https://www.tomshardware.com/peripherals/a-monitor-light-bar-is-the-most-underrated-upgrade-you-can-make-to-your-setup-but-not-all-of-them-are-born-equal-so-heres-how-to-choose-one-that-fits-you",
@@ -3369,6 +3337,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "32643b7d51169ff3",
+      "title": "Microsoft turns to superconductors for distributing power to its AI data centers — zero-resistance cables could reduce power losses and produce zero heat",
+      "link": "https://www.tomshardware.com/desktops/servers/microsoft-turns-to-superconductors-for-distributing-power-to-its-ai-data-centers-zero-resistance-cables-could-reduce-power-losses-and-produce-zero-heat",
+      "summary": "Microsoft wants to use superconducting cables to transport electricity with zero losses, allowing it to save space and build more data centers without putting more strain on the grid.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/bNebuWGAQz2tbQ5mXsntcH-1280-80.jpg",
+      "pubDate": "2026-02-11T11:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
