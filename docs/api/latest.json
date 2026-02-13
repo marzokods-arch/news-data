@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-13T05:45:06.340Z",
-    "total": 215,
+    "generated_at": "2026-02-13T06:41:00.511Z",
+    "total": 207,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -9,15 +9,28 @@
     "shard_index": 0,
     "results": [
       {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 9,
+        "taken": 65,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -48,19 +61,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Variety (Entertainment)",
         "url": "https://variety.com/feed/",
         "homepage": "https://variety.com/feed/",
@@ -69,8 +69,21 @@
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 10,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -87,6 +100,19 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -97,19 +123,6 @@
         ],
         "taken": 42,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -126,32 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -165,9 +152,9 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -175,19 +162,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -215,10 +189,212 @@
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 314\nColumn: 16\nChar: s",
         "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "064b7dd78c90b388",
+      "title": "Hull will always have a special place in my heart - Rosenior",
+      "link": "https://www.bbc.com/sport/football/videos/ckg20388kmno?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea manager Liam Rosenior sits down with BBC Sport before Friday night's FA Cup fourth-round clash with Hull City - a team he used to both play for and manage.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T06:33:39.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4b1888bce5e0f0a0",
+      "title": "Guehi and Glasner 'had big disagreement' during defeat by Macclesfield",
+      "link": "https://www.bbc.com/sport/football/videos/ce3gyp9g9q0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Macclesfield assistant manager Francis Jeffers tells The Wayne Rooney Show Oliver Glasner and Marc Guehi had a \"big disagreement\" at half-time in Crystal Palace's FA Cup third-round defeat by the non-league side.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T06:29:41.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "6801c6822cc2b4c8",
+      "title": "Infinix Note 60 Ultra runs Geekbench too, here's the chipset at the helm",
+      "link": "https://www.gsmarena.com/infinix_note_60_ultra_runs_geekbench_too_heres_the_chipset_at_the_helm-news-71539.php",
+      "summary": "The Infinix Note 60 was already spotted in the Geekbench online database, and today the Note 60 Ultra ran the benchmark too, with the model number X6877. As you can see, it managed a single-core score of 1,609 and a multi-core score of 6,762 in Geekbench 6.6. The Note 60 Ultra is powered by the Med…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T06:15:02.000Z",
+      "source": {
+        "name": "GSMArena",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "151ef45e8edfdedf",
+      "title": "Oscilloscope Buys Italian Director Virgilio Villoresi’s Venice Drama ‘Orfeo’ From True Colours at EFM (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/global/oscilloscope-villoresi-venice-orfeo-true-colours-efm-1236660896/",
+      "summary": "Oscilloscope Laboratories has acquired U.S. rights to Italian director Virgilio Villoresi’s directorial debut, “Orfeo,” a dreamlike drama that premiered out of competition at the 2025 Venice Film Festival. The U.S. deal for “Orfeo” was inked by Oscilloscope’s head of acquisitions, Aaron Katz, and I…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/ORPHEO.jpg",
+      "pubDate": "2026-02-13T06:15:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "9893e637eadd2c15",
+      "title": "African Filmmaking Talent Thrives on a Global Stage as Market Stumbles and Business Resets With New Models, Challenges",
+      "link": "https://variety.com/2026/film/global/african-filmmaking-talent-market-stumbles-1236658271/",
+      "summary": "It’s a strange but perhaps fitting paradox of these uncertain times that while African cinema is enjoying greater visibility than ever before, the market for that output could very well be shrinking. For the continent’s industry professionals taking part in this year’s European Film Market, the hop…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/MixCollage-10-Feb-2026-06-02-PM-3708.jpg",
+      "pubDate": "2026-02-13T06:05:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "05631b317f50ef50",
+      "title": "Wrexham duo plot downfall of former club Ipswich",
+      "link": "https://www.bbc.com/sport/football/articles/czj17dmmmndo?at_medium=RSS&at_campaign=rss",
+      "summary": "Nathan Broadhead and Kieffer Moore both helped Ipswich Town in their rise up the football pyramid but are now bidding to knock their former club out of the FA Cup with Wrexham.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T06:01:01.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8d276187f03433da",
+      "title": "‘Barry & Me,’ About St. Bernard Puppy, Closes Deals Ahead of Market Premiere in Berlin (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/global/barry-and-me-berlin-1236660100/",
+      "summary": "The Playmaker has closed several significant distribution deals on Swiss box office hit “Barry & Me” ahead of its market premiere in Berlin. The film, directed by German helmer Markus Welter, has sold to Estinfilm for the Baltics, Media Squad for Eastern Europe, Grand Entertainment for Motion Pictu…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/10/Barry-Me.jpg",
+      "pubDate": "2026-02-13T06:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "23255e30480d0272",
+      "title": "Blue Fox Takes North American Rights to Family Adventure ‘Momo,’ Starring Martin Freeman and Claes Bang (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/global/blue-fox-momo-martin-freeman-claes-bang-1236660776/",
+      "summary": "Sales company Epsilon Film has closed a raft of distribution deals on live-action family adventure “Momo,” starring Martin Freeman and Claes Bang. “Momo” follows orphan Momo as she battles the mysterious Men in Gray, who steal everyone’s time, and stealthily take over her city. “Momo” is based on t…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/Momo.jpg",
+      "pubDate": "2026-02-13T06:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ce381155470addd2",
+      "title": "Euthanasia Drama ‘Good Death’ Begins Taiwan Production (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/markets-festivals/euthanasia-drama-good-death-taiwan-production-efm-1236659399/",
+      "summary": "Principal photography has commenced in Taiwan for “Good Death,” a tri-national co-production bringing together creative talent from Japan, Taiwan and Poland. The near-future drama, which explores the legalization of euthanasia, has additional lensing planned for Japan and Poland later in the year. …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/Good-Death.jpg",
+      "pubDate": "2026-02-13T05:45:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5e363a98b3c6fe65",
+      "title": "Filmax Boards AI-Driven 3D ‘DinoGames’ for EFM",
+      "link": "https://variety.com/2026/film/global/filmax-dinogames-carlos-f-de-vigo-european-film-market-1236660806/",
+      "summary": "Filmax has taken international sales rights to “DinoGames,” a 3D-animated feature directed by Goya winners Carlos F. de Vigo and Lorena Ares, with the Barcelona-based company set to present first images to buyers at Berlin’s European Film Market. Produced by Spain’s Dr. Platypus & Ms. Wombat alongs…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/DinoGames.jpg",
+      "pubDate": "2026-02-13T05:45:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "039d6567b863451c",
+      "title": "‘The Amazing Maurice — Waters of Life’ Assembles Voice Cast, Led by Hugh Laurie, Emilia Clarke, Himesh Patel, Gemma Arterton (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/global/the-amazing-maurice-waters-of-life-voice-cast-1236660823/",
+      "summary": "CGI animated film “The Amazing Maurice — Waters of Life” has revealed its star-studded voice cast, which includes Hugh Laurie, Emilia Clarke, Himesh Patel, Gemma Arterton, Adjoa Andoh and David Tennant. The film is the sequel to the hit “The Amazing Maurice,” which grossed more than $24 million wor…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/Maurice.jpg",
+      "pubDate": "2026-02-13T05:45:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "95e27f95866acfd0",
       "title": "Minerva Boards ‘The Well’ Helmer Federico Zampaglione’s New Horror Film ‘The Nameless Ballad’ (EXCLUSIVE)",
@@ -268,22 +444,6 @@
       "region": "global"
     },
     {
-      "id": "473050fe02cd2128",
-      "title": "‘Torment’ Sells to Korea, Germany, U.K. (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/global/torment-filmsharks-korea-entermode-capelight-germany-1236660011/",
-      "summary": "Buenos Aires-based FilmSharks has closed theatrical and remake rights to “Torment” (“Tormento”), the morgue-set horror thriller by “Gimme the Power” director Olallo Rubio. South Korea’s Entermode snapped up theatrical rights while Capelight nabbed all rights for Germany, Austria, Switzerland and th…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/Torment.jpeg",
-      "pubDate": "2026-02-13T05:25:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b1509a9c695243d7",
       "title": "Poco X8 Pro Max gets certified ahead of its release",
       "link": "https://www.gsmarena.com/poco_x8_pro_max_gets_certified_ahead_of_its_release-news-71534.php",
@@ -297,86 +457,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c60f20a148d37675",
-      "title": "Horror-Comedy ‘Hold the Fort’ Sells to North America, U.K., Germany, France, Spain, Portugal for Blue Finch (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/markets-festivals/horror-comedy-hold-the-fort-sales-blue-finch-efm-1236659333/",
-      "summary": "U.K. sales and distribution company Blue Finch Films has closed a raft of international sales for horror-comedy “Hold the Fort,” with Sunrise Films picking up North American rights to the William Bagley-directed feature. Sunrise Films, whose recent slate includes Toronto Film Festival selection “Sa…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/Hold-the-Fort.jpg",
-      "pubDate": "2026-02-13T05:15:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4b26cc524b1c68cb",
-      "title": "Animated Film ‘Guardian Rabbits’ Joins Sola Media Slate at the European Film Market (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/global/guardian-rabbits-sola-media-european-film-market-1236660678/",
-      "summary": "Sales company Sola Media has added CGI animated film “Guardian Rabbits — the Secret of the Golden Egg” to its lineup at the European Film Market and has released the first image from the film. “Guardian Rabbits” is the third installment in the “Rabbit” universe, following “Rabbit School” and “Rabbi…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/Guardian-Rabbits.jpg",
-      "pubDate": "2026-02-13T05:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "ed071688fc4574a9",
-      "title": "‘The Pushover’ Closes North America with MHZ Networks (EXCLUSIVE)",
-      "link": "https://variety.com/2026/tv/global/the-pushover-mhz-networks-reinvent-yellow-1236660788/",
-      "summary": "Brooding Nordic noir crime thriller “The Pushover” has been bought for North America by MHZ Networks, in a deal negotiated with international distributor Reinvent Yellow Sales. In an upbeat rollout, “The Pushover,” the second adaptation of a Lone Theils crime novel after hit “Fatal Crossing,” has a…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/03/The-Pushover-courtesy-Reinvent-.jpg",
-      "pubDate": "2026-02-13T05:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "54c490bad25b72a1",
-      "title": "Reese Witherspoon and Jennifer Garner Pay Tribute to James Van Der Beek: ‘Such a Generous Person’",
-      "link": "https://variety.com/2026/tv/news/reese-witherspoon-jennifer-garner-tribute-james-van-der-beek-1236661876/",
-      "summary": "On the red carpet for AppleTV+ series “The Last Thing He Told Me” Thursday evening, Reese Witherspoon and Jennifer Garner both had memories of James Van Der Beek to share. Van Der Beek, who died Wednesday at 48, had one of his final roles in the “Legally Blonde” prequel series “Elle,” which Withers…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/P1043DO2.jpg",
-      "pubDate": "2026-02-13T04:59:30.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0508b465f93eda4e",
-      "title": "‘One Battle After Another,’ ‘Wicked: For Good’ and ‘Frankenstein’ Lead Costume Designers Guild Award Winners",
-      "link": "https://variety.com/2026/artisans/news/costume-designers-guild-awards-winners-2025-full-list-2-1236661498/",
-      "summary": "Colleen Atwood (“One Battle After Another”), Paul Tazewell (“Wicked: For Good)” and Kate Hawley (“Frankenstein”) were the big winners of the 28th Costume Designers Guild Awards on Thursday evening. On the TV side, Kameron Lennox took home the award for her work on “The Studio,” while Michael Wilkin…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/03/One-Battle-After-Another.jpg",
-      "pubDate": "2026-02-13T04:19:09.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -524,22 +604,6 @@
       "region": "global"
     },
     {
-      "id": "0b4a94100c8588ee",
-      "title": "Ring cancels its partnership with Flock Safety after surveillance backlash",
-      "link": "https://www.theverge.com/news/878447/ring-flock-partnership-canceled",
-      "summary": "Following intense backlash to its partnership with Flock Safety, a surveillance technology company that works with law enforcement agencies, Ring has announced it is canceling the integration. In a statement published on Ring's blog and provided to The Verge ahead of publication, the company said: …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T23:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "6934c8a3906917c4",
       "title": "Arsenal miss chance to restore six-point lead in Brentford draw",
       "link": "https://www.bbc.com/sport/football/videos/c78x99lzj88o?at_medium=RSS&at_campaign=rss",
@@ -652,22 +716,6 @@
       "region": "global"
     },
     {
-      "id": "8d3c8f29dfe97d56",
-      "title": "Price picks up title in Premier League's Belgian debut",
-      "link": "https://www.bbc.com/sport/darts/articles/clygd0404d2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Gerwyn Price beats Michael van Gerwen to win night two of the Premier League as the tournament makes its debut in Belgium.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T22:23:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "d60c01c063aba7fa",
       "title": "GB's Pinnington Jones continues dream run in Dallas",
       "link": "https://www.bbc.com/sport/tennis/articles/cly8v5dye29o?at_medium=RSS&at_campaign=rss",
@@ -729,22 +777,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "40d2eac60b750332",
-      "title": "PlayStation State of Play February 2026: all the news and trailers",
-      "link": "https://www.theverge.com/games/877875/playstation-state-of-play-february-2026-ps5-news-trailers",
-      "summary": "Strap in, because the next PlayStation event is going to be a long one. Sony’s latest State of Play — a showcase event for upcoming PS5 games — kicks off on February 12th at 5PM ET and it’ll last more than an hour. We don’t know what exactly will be shown. Sony says that the event will include “new…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T21:45:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1292,22 +1324,6 @@
       "region": "global"
     },
     {
-      "id": "b517ffff24e219cf",
-      "title": "In one swoop, Trump kills US greenhouse gas regulations",
-      "link": "https://www.theverge.com/science/877371/trump-carbon-pollution-endangerment-finding-repeal-climate-change",
-      "summary": "Exhaust billows out of a car tailpipe on January 2nd, 2008, in San Francisco. | Photo: Getty Images The Trump administration just eliminated the landmark finding that has underpinned federal regulations on planet-heating pollution since 2009. For nearly the past two decades, the \"endangerment findi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T19:35:41.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "0d60dae21aac26a8",
       "title": "Sony WF-1000XM6 review",
       "link": "https://www.gsmarena.com/sony_wf1000xm6_review_-news-71510.php",
@@ -1388,22 +1404,6 @@
       "region": "global"
     },
     {
-      "id": "9d638e83b41b068c",
-      "title": "Two powerful, OLED-equipped gaming laptops are hundreds off",
-      "link": "https://www.theverge.com/gadgets/878209/asus-acer-oled-rtx-5070ti-gaming-laptop-deal-sale",
-      "summary": "Whether you’re considering a 16-inch gaming laptop, or a more compact 14-inch model, there’s a deal with your name on it happening right now at Best Buy. The 2025 models of Acer’s Predator Helios Neo 16S and the Asus ROG Zephyrus G14 are hundreds off, although it’s the model with the bigger screen …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T19:10:12.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "713f1a66352a0bf9",
       "title": "صمد 18 عاما.. فخ تجنبه الأهلي قد يعيده الجيش الملكي في دوري الأبطال",
       "link": "https://www.yallakora.com/african-champions-league/2965/news/541466/%d8%b5%d9%85%d8%af-18-%d8%b9%d8%a7%d9%85%d8%a7-%d9%81%d8%ae-%d8%aa%d8%ac%d9%86%d8%a8%d9%87-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%82%d8%af-%d9%8a%d8%b9%d9%8a%d8%af%d9%87-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a-%d9%81%d9%8a-%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%a3%d8%a8%d8%b7%d8%a7%d9%84",
@@ -1414,22 +1414,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "9568043ec8e6402d",
-      "title": "Eufy’s midrange X10 Pro Omni robovac has fallen to its best-ever price",
-      "link": "https://www.theverge.com/gadgets/877673/eufy-x10-pro-omni-nothing-phone-3-deal-sale",
-      "summary": "Spring doesn’t officially kick off until March 20th, but there’s something to be said about getting a head start on your spring cleaning. Lucky for you, Eufy’s X10 Pro Omni is currently on sale at Amazon, Walmart, and directly from Eufy (with promo code WS7DV2D5LF9F) for $449.99 ($450 off), matchin…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T18:59:21.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
       },
       "lang": "en",
       "category": "sports",
@@ -1481,22 +1465,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f04fb03a466a14a5",
-      "title": "Jeffrey Epstein might not have created /pol/, but he helped carry out its mission",
-      "link": "https://www.theverge.com/tech/877903/jeffrey-epstein-4chan-pol-moot",
-      "summary": "The Epstein files have revealed more about the pedophile’s relationship to 4Chan. | Image: Cath Virginia / The Verge, Getty Images On October 24th, 2011, Jeffrey Epstein was emailing back and forth with Boris Nikolic, a biotech venture capitalist who would later be named as a backup executor of Eps…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T18:30:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1628,38 +1596,6 @@
       "region": "global"
     },
     {
-      "id": "6f4bd6ce10347a47",
-      "title": "Good Luck, Have Fun, Don’t Die is a rollicking parable about this moment in tech",
-      "link": "https://www.theverge.com/entertainment/877244/good-luck-have-fun-dont-die-review",
-      "summary": "We are all guilty of pulling out our phones and doomscrolling through stressful headlines or mindnumbing videos when we should be doing anything else. We know it's bad, but we still do it because it's hard to resist when much of our time is spent living and working on our devices. And even though w…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T17:45:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "02ea9e8f5a1e2b50",
-      "title": "Top DOJ antitrust enforcer is out weeks before Live Nation trial",
-      "link": "https://www.theverge.com/policy/878163/doj-antitrust-chief-gail-slater-departs",
-      "summary": "Gail Slater, the top antitrust enforcer at the Justice Department, announced Thursday that she has left her post, just weeks before the agency's next major tech monopoly trial against entertainment giant Live Nation is set to begin. \"It is with great sadness and abiding hope that I leave my role as…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T17:38:22.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "c8afa7e2654d88c2",
       "title": "فعله مرتين خلال 20 عاما.. هل يكرر الجيش الملكي نفس السيناريو أمام الأهلي؟",
       "link": "https://www.yallakora.com/african-champions-league/2965/news/541458/%d9%81%d8%b9%d9%84%d9%87-%d9%85%d8%b1%d8%aa%d9%8a%d9%86-%d8%ae%d9%84%d8%a7%d9%84-20-%d8%b9%d8%a7%d9%85%d8%a7-%d9%87%d9%84-%d9%8a%d9%83%d8%b1%d8%b1-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a-%d9%86%d9%81%d8%b3-%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-",
@@ -1769,22 +1705,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ba603ffb88a253dd",
-      "title": "El Paso airspace closure was reportedly triggered by the CBP’s use of an anti-drone laser",
-      "link": "https://www.theverge.com/policy/878108/el-paso-airspace-closure-cbp-anti-drone-laser",
-      "summary": "The hours-long closure of El Paso airspace stemmed from the use of an anti-drone laser deployed by Customs and Border Protection, according to reports from The New York Times and the Associated Press. Sources tell The Times that CBP officials didn't give the Federal Aviation Administration \"enough …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T17:02:08.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2073,22 +1993,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9dc7818b29e9b124",
-      "title": "'Incredible' - India's Kishan hits four sixes in a row",
-      "link": "https://www.bbc.com/sport/cricket/videos/cvg5w0z3v52o?at_medium=RSS&at_campaign=rss",
-      "summary": "Watch India's Ishan Kishan hit four sixes back-to-back against Namibia.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T14:39:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2700,22 +2604,6 @@
       "region": "global"
     },
     {
-      "id": "e3f54fb490748dbe",
-      "title": "More Xiaomi 18 specs surface online, may offer a 6.4-inch screen",
-      "link": "https://www.gsmarena.com/new_xiaomi_18_specs_surface_online_may_offer_a_64inch_screen-news-71519.php",
-      "summary": "More details about the Xiaomi 18 have surfaced online. A tipster recently suggested that the upcoming phone will be powered by the next-generation Snapdragon 8 Elite Gen 6 chipset. Now, the same tipster has shared additional information about the phone. According to a post on Weibo by tipster Digit…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T07:15:02.000Z",
-      "source": {
-        "name": "GSMArena",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "3f840f92e70f2d9b",
       "title": "Three terrifying cases challenge a lifelong sceptic",
       "link": "https://www.bbc.co.uk/iplayer/episode/m000h3g7/ghost-stories?at_mid=0UAdfnRKb2&at_campaign=Ghost_Stories&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m000h3g7&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=Ghost_Stories&at_bbc_team=BBC",
@@ -2739,22 +2627,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-12T00:32:51.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "018712aa460370b3",
-      "title": "How 'terrific' Wirtz shone for Liverpool",
-      "link": "https://www.bbc.com/sport/football/videos/clyx2gr1vlno?at_medium=RSS&at_campaign=rss",
-      "summary": "Match of the Day pundit Danny Murphy says Florian Wirtz was \"pulling the strings\" for Liverpool in their 1-0 against Sunderland.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-12T00:00:42.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
