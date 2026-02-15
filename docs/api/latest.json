@@ -1,13 +1,52 @@
 {
   "meta": {
-    "generated_at": "2026-02-14T23:51:41.594Z",
-    "total": 206,
+    "generated_at": "2026-02-15T00:01:17.378Z",
+    "total": 197,
     "processed_feeds": 22,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/4b9b495e-2d2a-431c-b941-fb0ebb0ead1e",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia — تكنولوجيا",
+        "url": "https://www.skynewsarabia.com/rss/technology.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -35,58 +74,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/4b9b495e-2d2a-431c-b941-fb0ebb0ead1e",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy - رياضة",
-        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "WHO — News (EN)",
         "url": "https://www.who.int/rss-feeds/news-english.xml",
         "homepage": "https://www.who.int/rss-feeds/news-english.xml",
@@ -97,58 +84,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "url": "https://www.skynewsarabia.com/rss/technology.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -178,22 +113,9 @@
         "notModified": false
       },
       {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — اقتصاد",
-        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -201,6 +123,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -217,9 +165,87 @@
         "notModified": false
       },
       {
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — اقتصاد",
+        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "9to5Google",
         "url": "https://9to5google.com/feed/",
         "homepage": "https://9to5google.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy - رياضة",
+        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -240,32 +266,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -358,6 +358,22 @@
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
       },
       "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a805e84a134bc862",
+      "title": "Salah shines as Liverpool comfortably beat Brighton",
+      "link": "https://www.bbc.com/sport/football/videos/c5yg5x9yx3jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Goals from Curtis Jones, Dominik Szoboszlai and Mohamed Salah give Liverpool a comfortable 3-0 win over Brighton in the fourth round of the FA Cup at Anfield.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T23:54:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
       "category": "sports",
       "region": "global"
     },
@@ -904,22 +920,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "9509d94a44aa355e",
-      "title": "Digne should have been sent off for 'dangerous tackle' - Shearer",
-      "link": "https://www.bbc.com/sport/football/videos/clyvxygkxndo?at_medium=RSS&at_campaign=rss",
-      "summary": "Alan Shearer, Wayne Rooney and Dion Dublin discuss if Aston Villa's Lucas Digne should have Aston Villa for a high challenge on Jacob Murphy.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-14T19:43:09.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "f4a7d4aaa696de0c",
@@ -1770,22 +1770,6 @@
       "region": "global"
     },
     {
-      "id": "21773688206ae6f2",
-      "title": "Crew-12 Launches",
-      "link": "https://www.nasa.gov/image-article/crew-12-launches/",
-      "summary": "A SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft is launched on NASA’s SpaceX Crew-12 mission to the International Space Station with NASA astronauts Jessica Meir, Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev onboard, Fr…",
-      "body": "NASA/Aubrey Gemignani A SpaceX Falcon 9 rocket carrying the company&#8217;s Dragon spacecraft is launched on NASA’s SpaceX Crew-12 mission to the International Space Station with NASA astronauts Jessica Meir, Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev onboard, Friday, Feb. 13, 2026, from Cape Canaveral Space Force Station in Florida. NASA’s SpaceX Crew-12 mission is the twelfth crew rotation mission of the SpaceX Dragon spacecraft and Falcon 9 rocket to the International Space Station as part of the agency’s Commercial Crew Program . Meir, Hathaway, Adenot, and Fedyaev launched at 5:15 a.m. EST from Space Launch Complex 40 at the Cape Canaveral Space Force Station to begin a mission aboard the orbital outpost. After NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev arrive at the space station, they will conduct various experiments and technology demonstrations to benefit life on Earth and in orbit, furthering our journey back to the Moon, to Mars, and beyond.",
-      "image": null,
-      "pubDate": "2026-02-13T15:39:10.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "b349413f40d62e9b",
       "title": "7 أطعمة يومية \"تسمم\" جسمك بالبلاستيك دون أن تشعر",
       "link": "https://www.skynewsarabia.com/technology/1852807-7-%D8%A7%D9%94%D8%B7%D8%B9%D9%85%D8%A9-%D9%8A%D9%88%D9%85%D9%8A%D8%A9-%D8%AA%D8%B3%D9%85%D9%85-%D8%AC%D8%B3%D9%85%D9%83-%D8%A8%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83-%D8%AF%D9%88%D9%86-%D8%AA%D8%B4%D8%B9%D8%B1",
@@ -1799,22 +1783,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c64701da3f601b2f",
-      "title": "NASA’s SpaceX Crew-12 Launches to International Space Station",
-      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-launches-to-international-space-station/",
-      "summary": "Four crew members of NASA’s SpaceX Crew-12 mission launched at 5:15 a.m. EST Friday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. A SpaceX Falcon 9 rocket propelled a Dragon spacecraft into orbit carryi…",
-      "body": "A SpaceX Falcon 9 rocket with a Dragon spacecraft atop carrying NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev lifts off at 5:15 a.m. EST, Feb. 13, 2026, from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida to the International Space Station. NASA’s SpaceX Crew-12 is the 12th crew rotation mission of the SpaceX Dragon spacecraft and Falcon 9 rocket to the space station as part of NASA’s Commercial Crew Program. Credit: NASA Four crew members of NASA’s SpaceX Crew-12 mission launched at 5:15 a.m. EST Friday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. A SpaceX Falcon 9 rocket propelled a Dragon spacecraft into orbit carrying NASA astronauts Jessica Meir and Jack Hathaway , ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev. The spacecraft will dock autonomously to the space-facing port of the station’s Harmony module at approximately 3:15 p.m. Saturday, Feb. 14. “With Crew-12 safely on orbit, America and our international partner…",
-      "image": null,
-      "pubDate": "2026-02-13T12:19:37.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -1866,22 +1834,6 @@
       "region": "global"
     },
     {
-      "id": "d1aaf23edc5c3a8d",
-      "title": "Stonebreen’s Beating Heart",
-      "link": "https://science.nasa.gov/earth/earth-observatory/stonebreens-beating-heart/",
-      "summary": "The glacier in southeastern Svalbard pulses with the changing seasons, speeding up and slowing its flow toward the sea.",
-      "body": "Earth Observatory Science Earth Observatory Stonebreen’s Beating Heart Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &#038; Radiation Life on Earth Human Dimensions Natural Events Oceans Remote Sensing Technology Snow &#038; Ice Water More Content Collections Global Maps World of Change Articles Notes from the Field Blog Earth Matters Blog Blue Marble: Next Generation EO Kids Mission: Biomes About About Us Subscribe 🛜 RSS Contact Us Search 2014–2022 Edgeøya, an island in the southeastern part of the Svalbard archipelago, is defined by stark Arctic expanses and rugged terrain. Still, even here—halfway between mainland Norway and the North Pole—life persists, from mosses to polar bears. The southern lobe of Stonebreen, a glacier that flows from the Edgeøyjøkulen ice cap into the Barents Sea, gives the landscape a different kind of life. Its ice pulses like a heart. The apparent heartbeat comes from the ice speeding up and slowing down with the seasons. This animation, based on satellite data collected between 2014 and 2022, shows how fast the glacier’s surface ice moves on average during each month. In winter and spring, the ice flows r…",
-      "image": null,
-      "pubDate": "2026-02-13T05:00:00.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "f8b56738063af136",
       "title": "\"أوبن إيه آي\" تحذر المشرعين الأميركيين من تحايل \"ديب سيك\"",
       "link": "https://www.skynewsarabia.com/technology/1852659-%D8%A7%D9%94%D9%88%D8%A8%D9%86-%D8%A7%D9%95%D9%8A%D9%87-%D8%A7%D9%93%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D9%8A%D9%86-%D8%AA%D8%AD%D8%A7%D9%8A%D9%84-%D8%AF%D9%8A%D8%A8-%D8%B3%D9%8A%D9%83",
@@ -1914,38 +1866,6 @@
       "region": "global"
     },
     {
-      "id": "49bb0032fb1f5f89",
-      "title": "NASA Selects Vast for Sixth Private Mission to Space Station",
-      "link": "https://www.nasa.gov/news-release/nasa-selects-vast-for-sixth-private-mission-to-space-station/",
-      "summary": "NASA and Vast have signed an order for the sixth private astronaut mission to the International Space Station, targeted to launch no earlier than summer 2027 from Florida. This private astronaut mission marks the company’s first selection to the orbiting laboratory, underscoring NASA’s ongoing inve…",
-      "body": "Credit: NASA NASA and Vast have signed an order for the sixth private astronaut mission to the International Space Station, targeted to launch no earlier than summer 2027 from Florida. This private astronaut mission marks the company&#8217;s first selection to the orbiting laboratory, underscoring NASA’s ongoing investment in fostering a commercial space economy and expanding opportunities for private industry in low Earth orbit. “Private astronaut missions represent more than access to the International Space Station — they create opportunities for new ideas, companies, and capabilities that further enhance American leadership in low Earth orbit and open doors for what’s next,” said NASA Administrator Jared Isaacman. “We’re proud to welcome Vast to this growing community of commercial partners. Each new entrant brings unique strengths that fuel a dynamic, innovative marketplace as we advance research and technology and prepare for missions to the Moon, Mars, and beyond.” The mission is expected to spend up to 14 days aboard the space station. A specific launch date will depend on overall spacecraft traffic at the orbital outpost and other planning considerations. “The Internation…",
-      "image": null,
-      "pubDate": "2026-02-12T21:11:19.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "53e2769b68cbd2bf",
-      "title": "NASA Moon Mission Spacesuit Nears Milestone",
-      "link": "https://www.nasa.gov/humans-in-space/nasa-moon-mission-spacesuit-nears-milestone/",
-      "summary": "The next-generation spacesuit for NASA’s Artemis III mission continues to advance by passing a contractor-led technical review, as the agency prepares to send humans to the Moon’s South Pole for the first time. Testing is also underway for the new suits, built by Axiom Space, with NASA astronauts a…",
-      "body": "4 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) A NASA crew member practices using lunar tools to collect geology samples at NASA’s Johnson Space Center during an elevated suit pressure test where teams evaluate how well crew perform tasks in different suit pressure levels while wearing the Artemis III lunar spacesuit developed by Axiom Space called the AxEMU (Axiom Extravehicular Mobility Unit). NASA/Bill Stafford The next-generation spacesuit for NASA’s Artemis III mission continues to advance by passing a contractor-led technical review, as the agency prepares to send humans to the Moon’s South Pole for the first time. Testing is also underway for the new suits, built by Axiom Space, with NASA astronauts and spacesuit engineers recently simulating surface operations and tasks underwater to demonstrate safety and mobility. The AxEMU (Axiom Extravehicular Mobility Unit), is designed to give astronauts increased flexibility and improved mobility for moonwalking, including bending down to collect geology samples and perform a variety of scientific tasks. The suit features increased sizing options and adjustability to fit a wider range of crew members…",
-      "image": null,
-      "pubDate": "2026-02-12T18:11:14.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b943a188e3d7f6fe",
       "title": "تصاعد التوتر بين \"أبل\" وإدارة ترامب.. ما السبب؟",
       "link": "https://www.skynewsarabia.com/technology/1852616-%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D8%AA%D8%B1-%D8%A7%D9%94%D8%A8%D9%84-%D9%88%D8%A7%D9%95%D8%AF%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8%D8%9F",
@@ -1975,22 +1895,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "0263b903a26d2fbe",
-      "title": "Shimmering Light in Egg Nebula",
-      "link": "https://www.nasa.gov/image-article/shimmering-light-in-egg-nebula/",
-      "summary": "This image from NASA’s Hubble Space Telescope released on Feb. 10, 2026, reveals a dramatic interplay of light and shadow in the Egg Nebula, sculpted by freshly ejected stardust. Located approximately 1,000 light-years away in the constellation Cygnus, the Egg Nebula features a central star obscure…",
-      "body": "NASA’s Hubble Space Telescope reveals the clearest view yet of the Egg Nebula. This structure of gas and dust was created by a dying, Sun-like star. These newest observations were taken with Hubble’s Wide Field Camera 3. NASA, ESA, Bruce Balick (UWashington) This image from NASA’s&nbsp; Hubble Space Telescope &nbsp;released on Feb. 10, 2026, reveals a dramatic interplay of light and shadow in the Egg Nebula, sculpted by freshly ejected stardust. Located approximately 1,000 light-years away in the constellation Cygnus, the Egg Nebula features a central star obscured by a dense cloud of dust — like a “yolk” nestled within a dark, opaque “egg white.” It is the first, youngest, and closest pre-planetary nebula ever discovered. (A pre-planetary nebula is a precursor stage of a planetary nebula, which is a structure of gas and dust formed from the ejected layers of a dying, Sun-like star. The term is a misnomer, as planetary nebulae are not related to planets.)&nbsp; Read more about the Egg Nebula. Image credit: NASA, ESA, Bruce Balick (UWashington)",
-      "image": null,
-      "pubDate": "2026-02-12T16:07:23.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -2090,22 +1994,6 @@
       "region": "global"
     },
     {
-      "id": "a2ae5eb344a0c2b5",
-      "title": "Reaching Top Speed in the Dolomites",
-      "link": "https://science.nasa.gov/earth/earth-observatory/reaching-top-speed-in-the-dolomites/",
-      "summary": "Cortina d’Ampezzo, flanked by steep-sided mountain peaks, is the site of several skiing and sliding events in the 2026 Winter Olympics and Paralympics.",
-      "body": "Earth Observatory Science Earth Observatory Reaching Top Speed in the… Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &#038; Radiation Life on Earth Human Dimensions Natural Events Oceans Remote Sensing Technology Snow &#038; Ice Water More Content Collections Global Maps World of Change Articles Notes from the Field Blog Earth Matters Blog Blue Marble: Next Generation EO Kids Mission: Biomes About About Us Subscribe 🛜 RSS Contact Us Search Nestled among high snowy peaks in northern Italy, Cortina d’Ampezzo is hosting athletes in the 2026 Winter Olympics and Paralympics who are skiing, sliding, and curling toward a spot on the podium. The scenic mountain town is the co-host, along with Milan , of the international sporting extravaganza. Cortina sits within the Dolomites , a mountain range in the northern Italian Alps known for its sheer cliffs, rock pinnacles, tall peaks, and deep, narrow valleys. In this three-dimensional oblique map, several peaks over 3,000 meters (10,000 feet) tall rise above the town. To create the map, an image acquired with the OLI (Operational Land Imager) on Landsat 8 on January 27, 2026, was overlaid on a dig…",
-      "image": null,
-      "pubDate": "2026-02-12T05:01:00.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "3b90b173e9b60e57",
       "title": "الإمارات ترسخ مكانتها كأحد أبرز قادة الذكاء الاصطناعي عالميا",
       "link": "https://www.skynewsarabia.com/technology/1852435-%D8%A7%D9%84%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B1%D8%B3%D8%AE-%D9%85%D9%83%D8%A7%D9%86%D8%AA%D9%87%D8%A7-%D9%83%D8%A7%D9%94%D8%AD%D8%AF-%D8%A7%D9%94%D8%A8%D8%B1%D8%B2-%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A7",
@@ -2134,22 +2022,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8df901018eb7bb7b",
-      "title": "NASA Completes First Flight of Laminar Flow Scaled Wing Design",
-      "link": "https://www.nasa.gov/image-article/nasa-completes-first-flight-of-laminar-flow-scaled-wing-design/",
-      "summary": "NASA completed the first flight test of a scale-model wing designed to improve laminar flow, reducing drag and lowering fuel costs for future commercial aircraft. The flight took place Jan. 29 at NASA’s Armstrong Flight Research Center in Edwards, California, using one of the agency’s F-15B researc…",
-      "body": "3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) NASA’s Crossflow Attenuated Natural Laminar Flow (CATNLF) scale-model wing flies for the first time on a NASA F-15 research jet during a test flight from NASA’s Armstrong Flight Research Center in Edwards, California. The 75-minute flight confirmed the aircraft could maneuver safely with the approximately 3-foot-tall test article mounted beneath it. NASA will continue flight tests to collect data that validates the CATNLF design and its potential to improve laminar flow, reducing drag and lowering fuel costs for future commercial aircraft. NASA/Carla Thomas NASA completed the first flight&nbsp;test&nbsp;of&nbsp;a scale-model wing&nbsp;designed to improve laminar flow, reducing drag&nbsp;and&nbsp;lowering&nbsp;fuel&nbsp;costs for&nbsp;future commercial&nbsp;aircraft.&nbsp; The flight took place Jan. 29 at NASA’s Armstrong Flight Research Center in Edwards, California, using&nbsp;one of the agency’s&nbsp;F-15B research&nbsp;jets.&nbsp;The&nbsp;NASA-designed,&nbsp;40-inch&nbsp;Crossflow Attenuated Natural Laminar Flow (CATNLF) wing&nbsp;model&nbsp;was attached to the aircraft’s underside vertically, like …",
-      "image": null,
-      "pubDate": "2026-02-11T23:35:59.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
       "category": "technology",
       "region": "global"
     },
@@ -2183,22 +2055,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "114c14e669ccf9c9",
-      "title": "I Am Artemis: Jesse Berdis",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/i-am-artemis-jesse-berdis/",
-      "summary": "Jesse Berdis’s dream of becoming a structural engineer began with visions of skyscrapers rising above the Dallas and Oklahoma skyline. Today, that dream has soared beyond city limits, reaching towering heights at the agency’s Kennedy Space Center in Florida.",
-      "body": "3 Min Read I Am Artemis: Jesse Berdis Listen to this audio excerpt from Jesse Berdis, Artemis II mobile launcher 1 deputy project manager: 0:00 / 0:00 Your browser does not support the audio element. Jesse Berdis’s dream of becoming a structural engineer began with visions of skyscrapers rising above the Dallas and Oklahoma skyline. Today, that dream has soared beyond city limits, reaching towering heights at the agency’s Kennedy Space Center in Florida. Berdis, the deputy project manager for mobile launcher 1 for the agency’s Artemis II mission, had a path to NASA which was anything but planned. While attending an engineering leadership conference in Orlando, he left a copy of his resume with NASA recruiters. Four weeks later, that simple gesture turned into a life-changing opportunity: a role at Kennedy as a launch infrastructure engineer with the Exploration Ground Systems Program , working on Artemis I, the uncrewed test flight of SLS and Orion. Anyone I talk to, that’s what’s on my mind, getting ready for the Artemis campaign. It can go from technical issues we’re solving to the passion we have for launching the crew and taking the next step in humanity of going back to the M…",
-      "image": null,
-      "pubDate": "2026-02-11T17:01:22.000Z",
-      "source": {
-        "name": "NASA — Breaking News",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
