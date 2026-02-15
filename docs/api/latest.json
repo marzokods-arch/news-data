@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-02-15T08:17:56.650Z",
-    "total": 401,
+    "generated_at": "2026-02-15T08:52:35.877Z",
+    "total": 421,
     "processed_feeds": 19,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 2,
     "results": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "homepage": "https://techcrunch.com",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 18,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
@@ -18,71 +31,6 @@
           "sports"
         ],
         "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/feed/",
-        "homepage": "https://techcrunch.com",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/feed/",
-        "homepage": "https://arstechnica.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "New Scientist",
-        "url": "https://www.newscientist.com/feed/home",
-        "homepage": "https://www.newscientist.com/feed/home",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 96,
         "error": null,
         "notModified": false
       },
@@ -100,16 +48,29 @@
         "notModified": false
       },
       {
-        "name": "Mayo Clinic News",
-        "url": "https://newsnetwork.mayoclinic.org/feed/",
-        "homepage": "https://newsnetwork.mayoclinic.org/feed/",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
+        ],
+        "taken": 68,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -126,29 +87,29 @@
         "notModified": false
       },
       {
-        "name": "المصري اليوم - ملاعب",
-        "url": "https://sports.almasryalyoum.com/feed/",
-        "homepage": "https://sports.almasryalyoum.com/feed/",
-        "lang": "ar",
+        "name": "New Scientist",
+        "url": "https://www.newscientist.com/feed/home",
+        "homepage": "https://www.newscientist.com/feed/home",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
+        "taken": 97,
         "error": null,
         "notModified": false
       },
       {
-        "name": "9to5Mac",
-        "url": "https://9to5mac.com/feed/",
-        "homepage": "https://9to5mac.com/feed/",
+        "name": "Mayo Clinic News",
+        "url": "https://newsnetwork.mayoclinic.org/feed/",
+        "homepage": "https://newsnetwork.mayoclinic.org/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -165,9 +126,100 @@
         "notModified": false
       },
       {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/feed/",
+        "homepage": "https://arstechnica.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "NIH News",
         "url": "https://www.nih.gov/news-events/news-releases/all.xml",
         "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "9to5Mac",
+        "url": "https://9to5mac.com/feed/",
+        "homepage": "https://9to5mac.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "المصري اليوم - ملاعب",
+        "url": "https://sports.almasryalyoum.com/feed/",
+        "homepage": "https://sports.almasryalyoum.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - رياضة",
+        "url": "https://www.skynewsarabia.com/rss/sports.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Met Office (UK) — News",
+        "url": "https://www.metoffice.gov.uk/rss/news",
+        "homepage": "https://www.metoffice.gov.uk/rss/news",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -191,61 +243,9 @@
         "notModified": false
       },
       {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - رياضة",
-        "url": "https://www.skynewsarabia.com/rss/sports.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 67,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "WMO — News",
         "url": "https://public.wmo.int/en/media/news/rss.xml",
         "homepage": "https://public.wmo.int/en/media/news/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Met Office (UK) — News",
-        "url": "https://www.metoffice.gov.uk/rss/news",
-        "homepage": "https://www.metoffice.gov.uk/rss/news",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -258,6 +258,86 @@
     ]
   },
   "items": [
+    {
+      "id": "ddf77c465d8a0087",
+      "title": "Izuchukwu put off surgery before Six Nations debut",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/czd84dn8nnro?at_medium=RSS&at_campaign=rss",
+      "summary": "Cormac Izuchukwu says his Six Nations debut in the 20-13 win over Italy was \"unbelievable\" amidst an injury-hit season for the Ulster lock.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T08:43:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d658a3b00550f773",
+      "title": "The great computer science exodus (and where students are going instead)",
+      "link": "https://techcrunch.com/2026/02/15/the-great-computer-science-exodus-and-where-students-are-going-instead/",
+      "summary": "Students are losing some interest in computer science broadly but gaining interest in AI-specific majors and courses.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T08:40:27.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b9b3b58ba1d4b769",
+      "title": "Seeing Theory",
+      "link": "https://seeing-theory.brown.edu/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T08:40:12.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5924083c0a846987",
+      "title": "Oat – Ultra-lightweight, semantic, zero-dependency HTML UI component library",
+      "link": "https://oat.ink/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T08:17:05.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5262c55b9c015c3f",
+      "title": "FA Cup winners' medal, Odegaard's armband and Pictionary with Arteta",
+      "link": "https://www.bbc.com/sport/football/articles/c87r285p1x7o?at_medium=RSS&at_campaign=rss",
+      "summary": "As his team prepare to face his old club Arsenal, Wigan midfielder Matt Smith tells BBC Sport about his FA Cup final winners' medal and the advice Mikel Arteta gave him before he left.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T08:16:19.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "aca8cbb714efe8a9",
       "title": "'Older, more mature, better' - how Banton built breakthrough knock",
@@ -323,6 +403,22 @@
       "region": "global"
     },
     {
+      "id": "d82f94a823b4badb",
+      "title": "مدرب برايتون مستاء من ركلة جزاء صلاح",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%A8%D8%B1%D8%A7%D9%8A%D8%AA%D9%88%D9%86-%D9%85%D8%B3%D8%AA%D8%A7%D8%A1-%D9%85%D9%86-%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A7%D8%A1-%D8%B5%D9%84%D8%A7%D8%AD/blt70a4800f6f7a3bf3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اعتراف صريح بجودة الريدز",
+      "body": "اعتراف صريح بجودة الريدز عبر فابيان هورزلر المدير الفني لفريق برايتون عن استيائه من قرار حكم مباراة فريقه ضد ليفربول في دور 32 من كأس إنجلترا، الذي تسبب في الهدف الثالث للريدز. وحقق ليفربول الفوز بنتيجة 3-0 على برايتون، السبت، على ملعب أنفيلد، حيث سجل كل من كورتيز جونز، ودومينيك سوبوسلاي، ومحمد صلاح (ركلة جزاء)، ليقودوا الريدز للدور التالي. واستمر تراجع مستوى برايتون، حيث لم يحققوا سوى فوزين في آخر 15 مباراة في جميع المسابقات. وأقرّ هورزلر بأن ليفربول كان حاسما عندما سنحت له الفرص. وقال مدرب برايتون: \"أعتقد أن بعض اللحظات حسمت المباراة، وللأسف في الاتجاه الخاطئ. بدأنا بشكل جيد، وسيطرنا. لقد اتبعنا العديد من الخطط الجيدة\". وتابع: \"أعتقد أن هدف ليفربول (الأول) جاء فجأة. أتيحت لنا فرصتان ذهبيتان للتسجيل. أعتقد أن الأمر تكرر في الشوط الثاني، حيث سنحت فرصة ذهبية للويس، وبعد دقيقتين أو ثلاث، سجل ليفربول هدفا رائعا\". وأردف: \"هذه اللحظات هي التي حسمت المباراة. أعتقد أن هذا كان الفارق اليوم. لقد امتلكوا الجودة اللازمة لاستغلال فرصهم. لم نتمكن من أن نكون بنفس الفعالية، ولذلك كانت النتيجة مخيبة للآمال\". وعند سؤاله عن ركلة الجزاء التي احتُسبت ضد لاعبه باسكال جروس لصالح محمد صلاح الذي نفذها لاحقا بنجاح، أضاف هورزلر: \"قرار خاطئ. من الصعب التحدث )مع الحكام( لأنهم جميعا مقتنعون بقرارهم، لكنني أعت…",
+      "image": null,
+      "pubDate": "2026-02-15T06:32:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a83df6207e99c540",
       "title": "How is Zubimendi helping Arsenal's title push?",
       "link": "https://www.bbc.com/sport/football/videos/c626j1vp9qgo?at_medium=RSS&at_campaign=rss",
@@ -337,6 +433,54 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "0c0cb478ac83a374",
+      "title": "التعلم من الخصم.. أسلوب ليفاندوفسكي يقفز بريال مدريد إلى صدارة الليجا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%85-%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D8%B5%D9%85-%D8%A7%D9%94%D8%B3%D9%84%D9%88%D8%A8-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AF%D9%88%D9%81%D8%B3%D9%83%D9%8A-%D9%8A%D9%82%D9%81%D8%B2-%D8%A8%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%95%D9%84%D9%89-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7/blt0da7de2af5fae49d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "لعب النجم البرازيلي، فينيسيوس جونيور، دورًا كبيرًا في الانتصار الكاسح لريال مدريد، أمس السبت، على ضيفه ريال سوسيداد بنتيجة (4-1)، ضمن منافسات الجولة 24 من الدوري الإسباني، على ملعب سانتياجو برنابيو.",
+      "body": "لعب النجم البرازيلي، فينيسيوس جونيور، دورًا كبيرًا في الانتصار الكاسح لريال مدريد، أمس السبت، على ضيفه ريال سوسيداد بنتيجة (4-1)، ضمن منافسات الجولة 24 من الدوري الإسباني، على ملعب سانتياجو برنابيو. فقد تولّى فينيسيوس مسؤولية تنفيذ ركلتي جزاء، سجل منهما هدفين بإتقان كبير، في ظل غياب زميله كيليان مبابي بسبب عدم الجاهزية. وفي هذا الصدد، أبرزت صحيفة \"ماركا\" الإسبانية أن فينيسيوس اعتمد في تنفيذ الركلتين على أسلوب روبرت ليفاندوفسكي، نجم برشلونة، بالقفز قليلًا قبل لمس الكرة، وهي طريقة أثبتت فعاليتها.&nbsp; وسدد نجم السيليساو الكرة الأولى على يسار الحارس، قبل أن يصوب الثانية على يمينه. وأضافت الصحيفة أن فينيسيوس قدم مباراة رائعة للغاية، في غياب مبابي، حيث تمكن من قيادة الهجمات وتسجيل هدفين، أكدا انتصار الميرينجي على منافس صعب. وبهذا الفوز، رفع الميرينجي رصيده إلى 60 نقطة ليحتل صدارة الليجا مؤقتًا، بفارق نقطتين أمام برشلونة الوصيف، الذي سيلعب على أرض جيرونا، غدًا الاثنين، ضمن نفس الجولة.",
+      "image": null,
+      "pubDate": "2026-02-15T06:31:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e5f8f30e6c46e35e",
+      "title": "رافينيا ألكانتارا: نجم برشلونة أفضل من يامال.. ومبابي سفاح",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D8%A7-%D8%A7%D9%94%D9%84%D9%83%D8%A7%D9%86%D8%AA%D8%A7%D8%B1%D8%A7-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%85%D9%86-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%88%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%B3%D9%81%D8%A7%D8%AD/bltcdcd92a9cab50c35?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "لاعب البارسا السابق يتغنى بشخصية ريال مدريد في دوري الأبطال",
+      "body": "لاعب البارسا السابق يتغنى بشخصية ريال مدريد في دوري الأبطال أكد البرازيلي رافينيا ألكانتارا، لاعب برشلونة السابق والمحلل الحالي بشبكة DAZN، أن الفريق الكتالوني يمتلك في الوقت الراهن العناصر التي تؤهله للفوز بلقب دوري أبطال أوروبا. حلم دوري الأبطال قال رافينيا، في تصريحات أبرزتها صحيفة \"آس\" الإسبانية: \"أعتقد أن البارسا يمكنه الفوز بدوري الأبطال، لديهم الفريق المناسب لذلك، وطموحهم هو المنافسة والفوز بكل الألقاب، وفي هذا العام مع التشكيلة الحالية هناك فرص حقيقية، لقد حان الوقت لذلك\". وعن تقييمه لمستوى الفريق تحت قيادة هانز فليك، علق رافينيا: \"أرى الفريق جيداً جداً، الموسم يشبه لعبة الأفعوانية (في الصعود والهبوط) بسبب الإصابات، لكن برشلونة عرف كيف يسيطر على الأمور. فليك يستمر بنفس الكثافة المعتادة، واللاعبون يقدمون أداءً مذهلاً، هم يتصدرون الليجا وفي الأبطال كلفهم الأمر بعض النقاط المهمة لكنهم يسيرون بشكل جيد\". وأضاف حول دور المدرب الألماني: \"الحفاظ على هذا المستوى من التنافسية مع تشكيلة شابة هو أمر صعب للغاية، السنة الأولى قد تكون أسهل لكن مع مرور الوقت تبدأ الفرق في معرفة أسلوبك، الحفاظ على خط دفاع متقدم قد يكون خطيراً لكنهم يفعلون ذلك بشكل جيد والنتائج تثبت ذلك\". جودة لاماسيا أشاد رافينيا بدور خريجي أكاديمية البارسا، قائلاً: \"لاعبو لاماسيا مهمون للغاية، هم لاعبون رائعون وربما الأهم…",
+      "image": "https://assets.kooora.com/images/v3/blt1b68547eb86fc32c/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-10T122815.983.png",
+      "pubDate": "2026-02-15T06:28:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "586a8b288431c797",
+      "title": "زميل كارفاخال ينقذه من مصير مظلم أمام سوسيداد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B2%D9%85%D9%8A%D9%84-%D9%83%D8%A7%D8%B1%D9%81%D8%A7%D8%AE%D8%A7%D9%84-%D9%8A%D9%86%D9%82%D8%B0%D9%87-%D9%85%D9%86-%D9%85%D8%B5%D9%8A%D8%B1-%D9%85%D8%B8%D9%84%D9%85-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%B3%D9%88%D8%B3%D9%8A%D8%AF%D8%A7%D8%AF/bltb897e44229f53e2b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هفوة كبيرة للمدافع المخضرم ضد الفريق الباسكي",
+      "body": "هفوة كبيرة للمدافع المخضرم ضد الفريق الباسكي قدم ريال مدريد أداء مميزا في مواجهته ضد ريال سوسيداد على ملعب سانتياجو برنابيو، ضمن منافسات الجولة 24 من الدوري الإسباني. وقفز الملكي إلى صدارة جدول ترتيب الليجا مؤقتا، بفوزه الكاسح على ضيفه أمس السبت، بعدما رفع رصيده إلى &nbsp;60 نقطة، متقدما بفارق نقطتين عن غريمه التقليدي برشلونة، صاحب المركز الثاني، الذي سيحل ضيفا على جيرونا في ديربي كتالونيا ضمن نفس الجولة، الاثنين المقبل. على الجهة الأخرى، تجمد رصيد ريال سوسيداد عند 31 نقطة، في المركز الثامن بالدوري الإسباني. وتقدم جونزالو جارسيا سريعا للنادي الملكي، في الدقيقة 5، مستغلا عرضية متقنة من الظهير الإنجليزي ترينت ألكسندر أرنولد. إلا أن مدافع الأبيض دين هويسن عكر صفو الأجواء في ملعب سانتياجو برنابيو بتدخل متهور احتسب الحكم على إثره ركلة جزاء للضيوف، ترجمها ميكيل أويارزابال إلى هدف في شباك تيبو كورتوا بالدقيقة 21. وحان الدور على فينيسيوس جونيور ليلعب دور البطولة، بعدما توغل داخل المنطقة من اليسار، ليتعرض للعرقلة، ويحصل على ركلة جزاء. وفي غياب الجالس على دكة البدلاء كيليان مبابي، استعاد الجناح البرازيلي مكانته كمنفذ أول لركلات الجزاء في الفريق الملكي، التي فقدها لحساب زميله الفرنسي بعد قدومه من باريس سان جيرمان. وانبرى فينيسيوس للركلة، وترجمها بطريقة فنية إلى هدف في شباك الضيوف في الدقيقة …",
+      "image": null,
+      "pubDate": "2026-02-15T06:26:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "1f17983301529ecb",
@@ -385,6 +529,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "c749efdcadef14c4",
+      "title": "Discord Distances Itself from Peter Thiel's Palantir Age Verification Firm",
+      "link": "https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T06:00:42.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "b8707b6561d15be6",
@@ -595,6 +755,22 @@
       "region": "global"
     },
     {
+      "id": "acba87c5639c73e6",
+      "title": "Windies cruise to nine-wicket win over Nepal - Men's T20 World Cup scorecard",
+      "link": "https://www.bbc.co.uk/sport/cricket/scorecard/e-233431?at_medium=RSS&at_campaign=rss",
+      "summary": "Latest scorecard from the Men's T20 World Cup match between West Indies and Nepal in Mumbai.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-15T00:00:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "a805e84a134bc862",
       "title": "Salah shines as Liverpool comfortably beat Brighton",
       "link": "https://www.bbc.com/sport/football/videos/c5yg5x9yx3jo?at_medium=RSS&at_campaign=rss",
@@ -627,22 +803,6 @@
       "region": "mena"
     },
     {
-      "id": "b5bdf27da4b4070b",
-      "title": "Show HN: Off Grid – Run AI text, image gen, vision offline on your phone",
-      "link": "https://github.com/alichherawalla/off-grid-mobile",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-14T22:39:24.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "cbc3cb123d29870c",
       "title": "العريني وجرموش على رأس 5 نجوم تستحق المشاهدة في الجولة 15 من دوري جوي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%B9%D8%B1%D9%8A%D9%86%D9%8A-%D9%88%D8%AC%D8%B1%D9%85%D9%88%D8%B4-%D8%B9%D9%84%D9%89-%D8%B1%D8%A7%D9%94%D8%B3-5-%D9%86%D8%AC%D9%88%D9%85-%D8%AA%D8%B3%D8%AA%D8%AD%D9%82-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-15-%D9%85%D9%86-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A/blte9ea32cabb10dd2f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -672,6 +832,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c0c4dbb9224a5fe0",
+      "title": "Homeland Security reportedly sent hundreds of subpoenas seeking to unmask anti-ICE accounts",
+      "link": "https://techcrunch.com/2026/02/14/homeland-security-reportedly-sent-hundreds-of-subpoenas-seeking-to-unmask-anti-ice-accounts/",
+      "summary": "The Department of Homeland Security has been increasing pressure on tech companies to identify the owners of accounts that criticize ICE.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T22:30:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -753,22 +929,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "b1aa874344f4e21a",
-      "title": "Colored Petri Nets, LLMs, and distributed applications",
-      "link": "https://blog.sao.dev/cpns-llms-distributed-apps/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-14T21:08:08.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "06b84acef103bda3",
@@ -947,52 +1107,20 @@
       "region": "global"
     },
     {
-      "id": "7e4db3244d7f7799",
-      "title": "خدع الحكم.. \"الغطس\" يضع فينيسيوس في قفص الاتهام",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%AF%D8%B9-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%BA%D8%B7%D8%B3-%D9%8A%D8%B6%D8%B9-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%81%D9%8A-%D9%82%D9%81%D8%B5-%D8%A7%D9%84%D8%A7%D8%AA%D9%87%D8%A7%D9%85/bltea656121142311a7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تألق البرازيلي فينيسيوس جونيور، في لقاء فريقه ريال مدريد أمام ريال سوسييداد، مساء السبت، في الجولة 24 من عمر الليجا.",
-      "body": "تألق البرازيلي فينيسيوس جونيور، في لقاء فريقه ريال مدريد أمام ريال سوسييداد، مساء السبت، في الجولة 24 من عمر الليجا. وسجل فينيسيوس، هدفين، من ركلتي جزاء، في فوز ريال مدريد بنتيجة 4-1 على ملعب سانتياجو برنابيو. وأثيرت الشكوك حول صحة ركلة الجزاء الثانية، التي حصل عليها فينيسيوس ونفذها بنفسه في الدقيقة 48. وأكد حساب \"أرشيفو فار\"، على منصة \"إكس\"، والمختص بالحالات التحكيمية الجدلية، أن ركلة الجزاء، التي احتسبت لصالح فينيسيوس، جاءت بالتحايل. وأضاف \"تقنية الفيديو واصلت احتساب حالات السقوط التحايلي في سانتياجو برنابيو\". وتابع \"فينيسيوس سقط أرضًا قبل حدوث الاحتكاك مع الحارس جون أرامبورو، والذي وقع في اللقطة الأخيرة فقط\". وشدد حساب \"أرشيفو فار\" أن هذه اللقطة ليست ركلة جزاء، لكن حكم الساحة انخدع باللقطة، وتقنية الفيديو لم تتدخل مجددًا. 🖥️💥 El VAR continúa validando los piscinazos en el Santiago Bernabéu. 👉🏻 Vinicius se deja caer mucho antes del contacto con Aramburu, que se produce en el último frame. ❌ 𝗡𝗢 𝗘𝗦 𝗣𝗘𝗡𝗔𝗟𝗧𝗜. ▪️ Hernández Maeso picó en el engaño y el VAR volvió a pasar de intervenir. pic.twitter.com/jGUAjOWZ5b &mdash; Archivo VAR (@ArchivoVAR) February 14, 2026",
+      "id": "23e17429db0556ea",
+      "title": "In a changed VC landscape, this exec is doubling down on overlooked founders",
+      "link": "https://techcrunch.com/2026/02/14/stacy-brown-philpot-cherryrock-capital-vc/",
+      "summary": "As much of Silicon Valley chases mega-rounds and buzzy AI deals, Stacy Brown-Philpot is running Cherryrock Capital like a throwback to venture capital's earlier days",
+      "body": null,
       "image": null,
-      "pubDate": "2026-02-14T20:42:31.000Z",
+      "pubDate": "2026-02-14T20:37:42.000Z",
       "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "dac16b357e558757",
-      "title": "فينيسيوس يجدد رقما عمره 75 عاما.. ويورط لاعب سوسيداد في فخ ألفيس",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%8A%D8%AC%D8%AF%D8%AF-%D8%B1%D9%82%D9%85%D8%A7-%D8%B9%D9%85%D8%B1%D9%87-75-%D8%B9%D8%A7%D9%85%D8%A7-%D9%88%D9%8A%D9%88%D8%B1%D8%B7-%D9%84%D8%A7%D8%B9%D8%A8-%D8%B3%D9%88%D8%B3%D9%8A%D8%AF%D8%A7%D8%AF-%D9%81%D9%8A-%D9%81%D8%AE-%D8%A7%D9%94%D9%84%D9%81%D9%8A%D8%B3/bltf3f743610b37dcfd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم البرازيلي يواصل التألق",
-      "body": "النجم البرازيلي يواصل التألق وقع النجم البرازيلي فينيسيوس جونيور على عدة أرقام مذهلة في فوز ريال مدريد على ريال سوسيداد 1-4 مساء اليوم السبت ضمن الجولة الرابعة والعشرين من الدوري الإسباني، على ملعب سانتياجو بيرنابيو. وسجل فينيسيوس هدفين من ركلتي جزاء بينما أضاف باقي الأهداف جونزالو جارسيا وفيديريكو فالفيردي، في حين أحرز ميكيل أويارزابال هدف سوسيداد الوحيد من ركلة جزاء أيضا. ووفقا لإحصائيات حساب مستر شيب المختص في الكرة الإسبانية عبر موقع إكس، بات \"فينيسيوس أول لاعب في ريال مدريد يحصل على ركلتي جزاء، ويسدد كلتيهما ويسجلهما، في نفس المباراة بالدوري الإسباني، منذ أن فعلها لويس مولوني نجم الريال السابق ضد فالنسيا، في 14 أكتوبر 1951، أي منذ 75 سنة\". ومن جهة أخرى، انضم جون أرامبورو لاعب ريال سوسيداد لقائمة سلبية، بتوقيعه على حدث لم يشهده الدوري الإسباني منذ عام 2021. ووفقا للمصدر نفسه، يعد أرامبورو رابع لاعب منذ 2012 تحتسب ضده ركلتي جزاء في مباراة واحدة ضد نفس اللاعب المنافس. وكانت البداية عند داني ألفيس ضد داني بينيتيز في 2012، ياجو هيرين ضد خورخي مولينا في 2018، تشاكلا ضد بورخا إجليسياس في 2021، أرامبورو على فينيسيوس في 2026.",
-      "image": null,
-      "pubDate": "2026-02-14T20:37:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8944407ad217bae1",
-      "title": "الخسارة مضمونة!.. الكشف عن العامل المشترك في جميع هزائم برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D9%85%D8%B6%D9%85%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D9%81%D9%8A-%D8%AC%D9%85%D9%8A%D8%B9-%D9%87%D8%B2%D8%A7%D9%8A%D9%94%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt5020aa2852f8b95d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الفريق الكتالوني تكبد هزيمة قاسية في ملعب رياض إير ميتروبوليتانو",
-      "body": "الفريق الكتالوني تكبد هزيمة قاسية في ملعب رياض إير ميتروبوليتانو كشف تقرير صحفي عن عامل مشترك، في جميع الهزائم الـ6 التي تلقاها برشلونة، هذا الموسم حتى الآن، وذلك بعد الخسارة الثقيلة أمام مضيفه أتلتيكو مدريد بنتيجة (4-0)، الخميس الماضي، في ذهاب نصف نهائي كأس ملك إسبانيا. فبحسب صحيفة \"سبورت\" الكتالونية، خسر البلوجرانا أمام باريس سان جيرمان (2-1)، وإشبيلية (4-1)، وريال مدريد (2-1)، وتشيلسي (3-0)، وريال سوسيداد (2-1)، قبل السقوط الأخير على يد أتلتيكو. وأشار التقرير إلى قاسمٍ مشتركٍ في جميع هذه النتائج السلبية، وهو غياب الجناح البرازيلي، رافينيا، عن التشكيل الأساسي، بينما شارك فقط أمام تشيلسي بديلًا في الشوط الثاني، بعد أن كانت المباراة قد اتجهت عمليًا نحو الحسم. ويعد الإنجليزي ماركوس راشفورد البديل الأبرز لرافينيا في صفوف البارسا، هذا الموسم، إلا أنه لم يظهر بذات المستوى الذي يقدمه البرازيلي، كما غاب أيضًا عن مباراة الروخي بلانكوس بسبب الإصابة.",
-      "image": null,
-      "pubDate": "2026-02-14T20:31:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "c5e7faee8726c3d3",
@@ -1025,22 +1153,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "a43b86368b925433",
-      "title": "صلاح يكرر إنجازه المذهل في ليلة تأهل ليفربول",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D9%83%D8%B1%D8%B1-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2%D9%87-%D8%A7%D9%84%D9%85%D8%B0%D9%87%D9%84-%D9%81%D9%8A-%D9%84%D9%8A%D9%84%D8%A9-%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/blt23f3d2b4fc3d782a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بلغ ليفربول، ثمن نهائي كأس الاتحاد الإنجليزي، بعد فوزه بثلاثية دون رد، على ضيفه برايتون، على ملعب أنفيلد، مساء السبت.",
-      "body": "بلغ ليفربول، ثمن نهائي كأس الاتحاد الإنجليزي، بعد فوزه بثلاثية دون رد، على ضيفه برايتون، على ملعب أنفيلد، مساء السبت. وظل التعادل السلبي، قائما حتى الدقيقة 42، عندما تمكن كورتيس جونز من تسجيل الهدف الأول لصالح ليفربول. وسجل المجري دومينيك سوبوسلاي، الهدف الثاني للريدز في الدقيقة 56. واختتم المصري محمد صلاح، ثلاثية ليفربول، من ركلة جزاء نفذها بنجاح في الدقيقة 68. وذكرت شبكة \"سكواكا\" أن صلاح سجل هدفا، وقدم تمريرة حاسمة، وحصل على ركلة جزاء في مباراة واحدة، للمرة الثالثة فقط بقميص ليفربول. &nbsp; Mohamed Salah scored, provided an assist and won a penalty in a single game for just the third time for Liverpool. 👏 pic.twitter.com/u0sD2xdrr2 &mdash; Squawka (@Squawka) February 14, 2026",
-      "image": null,
-      "pubDate": "2026-02-14T20:14:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "e7e5f741a2d12011",
@@ -1120,6 +1232,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "75b5114cd8f7fd16",
+      "title": "‘Clueless’ -inspired app Alta partners with brand Public School to start integrating styling tools into websites",
+      "link": "https://techcrunch.com/2026/02/14/clueless-inspired-app-alta-partners-with-brand-public-school-to-start-integrating-styling-tools-into-websites/",
+      "summary": "This week, Alta unveiled its first integration collaboration, teaming up with Public School, a storied New York City brand.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T19:00:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1213,6 +1341,22 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3837341cb084e6ef",
+      "title": "Hollywood isn’t happy about the new Seedance 2.0 video generator",
+      "link": "https://techcrunch.com/2026/02/14/hollywood-isnt-happy-about-the-new-seedance-2-0-video-generator/",
+      "summary": "Hollywood organizations are pushing back against a new AI video model called Seedance 2.0, which they say has quickly become a tool for “blatant” copyright infringement.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T18:26:52.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -1379,19 +1523,19 @@
       "region": "global"
     },
     {
-      "id": "48b255e172b674ff",
-      "title": "A header-only C vector database library",
-      "link": "https://github.com/abdimoallim/vdb",
-      "summary": "Comments",
+      "id": "b15d1eb320669f50",
+      "title": "Designer Kate Barton teams up with IBM and Fiducia AI for a NYFW presentation",
+      "link": "https://techcrunch.com/2026/02/14/designer-kate-barton-teams-up-with-ibm-and-fiducia-ai-for-a-nyfw-presentation/",
+      "summary": "Designer Kate Barton teams up with Fiducia AI and IBM for a NYFW presentation.",
       "body": null,
       "image": null,
-      "pubDate": "2026-02-14T17:45:09.000Z",
+      "pubDate": "2026-02-14T17:43:46.000Z",
       "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
-      "category": "general",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1571,24 +1715,24 @@
       "region": "global"
     },
     {
-      "id": "bcb294405f2532f7",
-      "title": "Ireland survive scare from superb Italy in Dublin",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cj0drg3383eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ireland survive a major scare from Italy to claim their first win in this year's Six Nations and deny the Azzurri a first championship victory in Dublin.",
+      "id": "d6b22fd46c2635f0",
+      "title": "India doubles down on state-backed venture capital, approving $1.1B fund",
+      "link": "https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/",
+      "summary": "India’s $1.1B fund-of-funds will invest through private VCs to support deep-tech and manufacturing startups.",
       "body": null,
       "image": null,
-      "pubDate": "2026-02-14T16:11:03.000Z",
+      "pubDate": "2026-02-14T16:23:22.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "technology",
       "region": "global"
     },
     {
-      "id": "0f78a198fbccab17",
-      "title": "Ireland survive scare from superb Italy to claim first Six Nations win",
+      "id": "bcb294405f2532f7",
+      "title": "Ireland survive scare from superb Italy in Dublin",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cj0drg3383eo?at_medium=RSS&at_campaign=rss",
       "summary": "Ireland survive a major scare from Italy to claim their first win in this year's Six Nations and deny the Azzurri a first championship victory in Dublin.",
       "body": null,
@@ -2003,6 +2147,22 @@
       "region": "global"
     },
     {
+      "id": "fdc1bb7d927f1679",
+      "title": "Nothing opens its first retail store in India",
+      "link": "https://techcrunch.com/2026/02/13/nothing-opens-its-first-retail-store-in-india/",
+      "summary": "The two-story location will sell products from Nothing and the more affordable, mass-market brand CMF.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T06:30:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "9b111b27b9134b0e",
       "title": "A 'very special' FA Cup win and why managing Ronaldo is 'easy'",
       "link": "https://www.bbc.com/sport/football/articles/c98gy904nggo?at_medium=RSS&at_campaign=rss",
@@ -2016,6 +2176,38 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "be0288b3d69dd891",
+      "title": "Indian pharmacy chain giant exposed customer data and internal systems",
+      "link": "https://techcrunch.com/2026/02/13/indias-major-pharmacy-chain-exposed-customer-data-and-internal-systems/",
+      "summary": "A backend flaw in web admin dashboards used by one of India's largest pharmacy chains, exposed thousands of online pharmacy orders.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T03:30:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "2494c4e960b3c8fe",
+      "title": "Airbnb plans to bake in AI features for search, discovery and support",
+      "link": "https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/",
+      "summary": "Airbnb CEO Brian Chesky said the company wants to increase its use of large language models for customer discovery, support and engineering.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-14T02:40:42.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2083,6 +2275,22 @@
       "region": "global"
     },
     {
+      "id": "ef8697b8b93fcf3b",
+      "title": "Airbnb says a third of its customer support is now handled by AI in the US and Canada",
+      "link": "https://techcrunch.com/2026/02/13/airbnb-says-a-third-of-its-customer-support-is-now-handled-by-ai-in-the-u-s-and-canada/",
+      "summary": "Airbnb was poised to introduce an app that doesn't just search for you, but one that \"knows you.\" CEO Brian Chesky said, \"It will help guests plan their entire trip, help hosts better run their businesses, and help the company operate more efficiently at scale.\"",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T22:12:26.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "8ac75926fb23be3b",
       "title": "Ring cancels Flock deal after dystopian Super Bowl ad prompts mass outrage",
       "link": "https://arstechnica.com/tech-policy/2026/02/after-creepy-super-bowl-ad-sparks-outrage-ring-abandons-flock-deal/",
@@ -2115,6 +2323,22 @@
       "region": "global"
     },
     {
+      "id": "ed8d9a9469457550",
+      "title": "Fintech lending giant Figure confirms data breach",
+      "link": "https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/",
+      "summary": "The company said hackers downloaded “a limited number of files” after breaking into an employee’s account. The hacking group ShinyHunters took responsibility for the breach.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T21:02:46.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "ba09f492c752c068",
       "title": "How Weston handled pressure to win Olympic gold and GB's first medal",
       "link": "https://www.bbc.com/sport/articles/cgml91gx27go?at_medium=RSS&at_campaign=rss",
@@ -2141,6 +2365,22 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0b8d8bce84dfe19f",
+      "title": "Sex toys maker Tenga says hacker stole customer information",
+      "link": "https://techcrunch.com/2026/02/13/sex-toys-maker-tenga-says-hacker-stole-customer-information/",
+      "summary": "The Japanese sex toy maker said a hacker broke into an employee's inbox and stole customer names, email addresses, and correspondence, including order details and customer service inquiries.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T20:19:05.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2259,6 +2499,22 @@
       "region": "global"
     },
     {
+      "id": "7bd7fd3bd2dea038",
+      "title": "OpenAI removes access to sycophancy-prone GPT-4o model",
+      "link": "https://techcrunch.com/2026/02/13/openai-removes-access-to-sycophancy-prone-gpt-4o-model/",
+      "summary": "The model is known for its overly sycophantic nature and its role in several lawsuits involving users' unhealthy relationships with the chatbot.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T18:10:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "63ce7263e9df6dea",
       "title": "Apple's Magic Mouse is down to $68 right now",
       "link": "https://www.engadget.com/deals/apples-magic-mouse-is-down-to-68-right-now-152708925.html?src=rss",
@@ -2285,6 +2541,38 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "695fe6abc487dcfa",
+      "title": "The SEC closed its investigation into Fisker",
+      "link": "https://techcrunch.com/2026/02/13/the-sec-closed-its-investigation-into-fisker/",
+      "summary": "The financial regulator revealed in a response to a TechCrunch records request that the probe was closed in September 2025.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T17:48:43.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "3068345c3c14dcac",
+      "title": "India partners with Alibaba.com for export push despite past China tech bans",
+      "link": "https://techcrunch.com/2026/02/13/india-partners-with-alibaba-com-for-export-push-despite-past-china-tech-bans/",
+      "summary": "India turns to Alibaba.com's B2B network of 50 million buyers in 200 countries to help businesses scale global exports.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T17:32:59.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2323,6 +2611,22 @@
       "region": "global"
     },
     {
+      "id": "2a25052c442092ef",
+      "title": "Anthropic’s Super Bowl ads mocking AI with ads helped push Claude’s app into the top 10",
+      "link": "https://techcrunch.com/2026/02/13/anthropics-super-bowl-ads-mocking-ai-with-ads-helped-push-claudes-app-into-the-top-10/",
+      "summary": "The numbers suggest that Anthropic's Super Bowl commercials, combined with Anthropic's recent release of its new Opus 4.6 model, worked to drive attention to Claude's app and its key differentiator from ChatGPT.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T17:16:27.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "25af5c2420377e9b",
       "title": "The best power banks and portable chargers for every device in 2026",
       "link": "https://www.engadget.com/computing/accessories/best-power-bank-143048526.html?src=rss",
@@ -2355,22 +2659,6 @@
       "region": "global"
     },
     {
-      "id": "fddcbce01380cdce",
-      "title": "Tens of thousands of Six Nations tickets still unsold amid Welsh rugby turmoil",
-      "link": "https://www.bbc.com/news/articles/c78x5878dzgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Matches at the 74,000-seat Principality Stadium usually sell out or reach high capacity during the Six Nations.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-13T16:49:18.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "3004ef08cf7ad466",
       "title": "ExpressVPN deal: Two-year plans are up to 81 percent off right now",
       "link": "https://www.engadget.com/deals/expressvpn-deal-two-year-plans-are-up-to-81-percent-off-right-now-180602064.html?src=rss",
@@ -2400,6 +2688,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "961bdf4e3341ed8f",
+      "title": "Roku to launch streaming bundles as part of its efforts to continue growing its profitability",
+      "link": "https://techcrunch.com/2026/02/13/roku-to-launch-streaming-bundles-as-part-of-its-efforts-to-continue-growing-its-profitability/",
+      "summary": "Roku delivered an impressive Q4, posting net income of $80.5 million. The company also outlined plans for streaming bundles.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-13T16:39:27.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3443,6 +3747,22 @@
       "region": "global"
     },
     {
+      "id": "8453759f77b83598",
+      "title": "Why adding cross training into your exercise routine is the way to go",
+      "link": "https://www.newscientist.com/article/mg26935821-000-why-adding-cross-training-into-your-exercise-routine-is-the-way-to-go/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "summary": "There are huge benefits to ringing the changes when it comes to exercise, finds committed runner Grace Wade when she analyses the science",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-11T18:00:00.000Z",
+      "source": {
+        "name": "New Scientist",
+        "homepage": "https://www.newscientist.com/feed/home"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "edc85c0d7a3836e2",
       "title": "Exploring sci-fi treats from George Saunders and Matthew Kressel",
       "link": "https://www.newscientist.com/article/mg26935820-600-exploring-sci-fi-treats-from-george-saunders-and-matthew-kressel/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -3530,6 +3850,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-11T17:31:48.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "db11a7de2cb72191",
+      "title": "A Visual Source for Shakespeare's 'Tempest'",
+      "link": "https://profadamroberts.substack.com/p/a-visual-source-for-shakespeares",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-11T17:31:43.000Z",
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
@@ -3773,22 +4109,6 @@
       "source": {
         "name": "New Scientist",
         "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4089068931273fe8",
-      "title": "Frost Bros, Rope Makers and Yarn Spinners",
-      "link": "https://spitalfieldslife.com/2026/02/09/frost-bros-rope-makers-yarn-spinners-x/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-10T16:22:51.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
       "category": "general",
