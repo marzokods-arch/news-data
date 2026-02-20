@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-20T11:50:53.264Z",
-    "total": 218,
+    "generated_at": "2026-02-20T12:25:52.719Z",
+    "total": 228,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
@@ -22,16 +22,16 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 72,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -48,28 +48,28 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 72,
         "error": null,
         "notModified": false
       },
@@ -87,45 +87,6 @@
         "notModified": false
       },
       {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 49,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Sky News Arabia - صحة",
         "url": "https://www.skynewsarabia.com/rss/health.xml",
         "homepage": "https://www.skynewsarabia.com/rss/health.xml",
@@ -136,6 +97,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -152,16 +126,29 @@
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 49,
+        "error": null,
         "notModified": false
       },
       {
@@ -204,6 +191,19 @@
         "notModified": false
       },
       {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "AnandTech",
         "url": "https://www.anandtech.com/rss/",
         "homepage": "https://www.anandtech.com/rss/",
@@ -219,6 +219,102 @@
     ]
   },
   "items": [
+    {
+      "id": "7734b725c0a0452b",
+      "title": "This iBuyPower gaming PC with a 7800X3D and RTX 5070 Ti is an absolute steal for just $1,999 right now — huge $450 saving on this 4K-capable rig with 32GB of DDR5 RAM and a 1TB SSD",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/this-ibuypower-gaming-pc-with-a-7800x3d-and-rtx-5070-ti-is-an-absolute-steal-for-just-usd1-999-right-now-huge-usd450-saving-on-this-4k-capable-rig-with-32gb-of-ddr5-ram-and-a-1tb-ssd",
+      "summary": "Just $1,999.99 right now can you score you this iBuyPower gaming PC withan epic set of specs, including an AMD Ryzen 7 7800X3D CPU, Nvidia GeForce RTX 5070 Ti GPU with 16GB VRAM, 32GB of DDR5 RAM, and a 1TB SSD.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/vJtEmmziPAawvKSmNbuQkD-1280-80.jpg",
+      "pubDate": "2026-02-20T12:09:47.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ff557152ae45c55f",
+      "title": "Team GB's Gus Kenworthy qualifies for freeski halfpipe final",
+      "link": "https://www.bbc.com/sport/videos/cvgvnqz74nro?at_medium=RSS&at_campaign=rss",
+      "summary": "Sochi silver medallist Gus Kenworthy provides hope for another Team GB medal as he qualifies for the men's freeski halfpipe final.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-20T12:03:47.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "54a8f697af3527be",
+      "title": "Gemma Chan on the ‘Small Miracle’ of Making ‘Josephine’ and Why She Connected to the Film Emotionally: ‘It Really Hit a Raw Nerve’",
+      "link": "https://variety.com/2026/film/festivals/gemma-chan-josephine-emotional-connection-1236667195/",
+      "summary": "For Gemma Chan, making “Josephine” was deeply personal. The British actress, best known for her work in “Crazy Rich Asians” and “Eternals,” stars in Beth de Araújo’s buzzy drama as Claire, a mother attempting to help her 8-year-old daughter Josephine (played by newcomer Mason Reeves) after she witn…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/gemma-chan.jpg",
+      "pubDate": "2026-02-20T12:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "1800bbaea00636e7",
+      "title": "Corsair's new \"Vault\" series FRAME 4000D cases have color-shifting paintjobs — Priced at $140, these limited-edition towers also feature upgraded front panel I/O",
+      "link": "https://www.tomshardware.com/pc-components/pc-cases/corsairs-new-vault-series-frame-4000d-cases-have-color-shifting-paintjobs-priced-at-usd140-these-limited-edition-towers-also-feature-upgraded-front-panel-i-o",
+      "summary": "The FRAME 4000D from Corsair was already a great case and if you couldn't justify the $400 LCD version, the company has another looker on the market now. Dubbed the \"Vault\" series, these new limited-edition FRAME 4000D towers feature two color-shifting paintjobs, revised front I/O and corner to cor…",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/DgSkczAL87Au5J9DFkXvdW-1280-80.jpg",
+      "pubDate": "2026-02-20T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0354984fc941a1fb",
+      "title": "WhatsApp introduces new Group Message History feature",
+      "link": "https://www.gsmarena.com/whatsapp_introduces_new_group_message_history_feature-news-71641.php",
+      "summary": "Ever joined a WhatsApp group only to realise you’ve missed all the earlier messages? WhatsApp has now introduced a new Group Message History feature designed to put an end to that fear of missing out. The new feature allows group admins and members to share recent messages with newly added particip…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-20T11:53:02.000Z",
+      "source": {
+        "name": "GSMArena",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d3595757e0ff6d0c",
+      "title": "\"فريق كامل\".. سيراميكا يتسلح بأبناء الأهلي وبيراميدز في موقعة الحفاظ على الصدارة بالدوري المصري",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/542271/-%d9%81%d8%b1%d9%8a%d9%82-%d9%83%d8%a7%d9%85%d9%84-%d8%b3%d9%8a%d8%b1%d8%a7%d9%85%d9%8a%d9%83%d8%a7-%d9%8a%d8%aa%d8%b3%d9%84%d8%ad-%d8%a8%d8%a3%d8%a8%d9%86%d8%a7%d8%a1-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a8%d9%8a%d8%b1%d8%a7%d9%85%d9%8a%d8%af%d8%b2-%d9%81%d9%8a-%d9%85%d9%88%d9%82%d8%b9%d8%a9-%d8%a7%d9%84%d8%ad%d9%81%d8%a7%d8%b8-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a8%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a",
+      "summary": "يبحث نادي سيراميكا كليوباترا عن مواصلة مفاجآته المدوية هذا الموسم، في بطولة الدوري المصري الممتاز، بعدما تربع على صدارة جدول الترتيب خلال الفترة الماضية، حينما يواجه بيراميدز مساء اليوم، في قمة لقاءات الجولة 18 من البطولة المحلية.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-20T11:53:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "2f1ad2144a870657",
       "title": "30 years later, the iconic 'Bliss' green hill from Windows XP is still thriving — lucky passerby captures the hill looking almost identical to the 1996 photograph in 'super rare' event",
@@ -412,6 +508,118 @@
       "region": "global"
     },
     {
+      "id": "61ac9c3708bf69d3",
+      "title": "Underdog status should be irrelevant - Farrell",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cgqgvq12g0xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Head coach Andy Farrell calls on Ireland to \"put our stamp\" and insists their underdog status should have no bearing on Saturday's must-win Six Nations game against England (14:10 GMT).",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-02-20T10:42:01.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "030a7897fb427d0f",
+      "title": "David Harewood on Landing First Lead in 40-Year Career in ‘Pierre’ – and Finally Being Number One on the Call Sheet: ‘Exciting Place to Be’ (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/global/david-harewood-lead-pierre-channel-4-1236667479/",
+      "summary": "Veteran actor David Harewood, known for “Homeland,” “Sherwood” and “Supergirl,” is finally leading a show with “Pierre.” “It’s my first lead character in a 40-year career, which is quite extraordinary, and the first time I’ve been number one on the call sheet. It’s an exciting place to be.” “I’m ve…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/MixCollage-19-Feb-2026-04-58-PM-5205.jpg",
+      "pubDate": "2026-02-20T10:35:39.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "95bed39d40195518",
+      "title": "‘I’m Still Here’ Star Selton Mello to Follow Hollywood Bow in ‘Anaconda’ With João Paulo Miranda Maria’s ‘I Don’t Even Know Who I Was’ for Les Valseurs (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/global/selton-mello-joao-paulo-miranda-maria-les-valseurs-1236667550/",
+      "summary": "“I’m Still Here” star Selton Mello will follow up his big studio turn in Tom Gormican’s “Anaconda” with João Paulo Miranda Maria’s “I Don’t Even Know Who I Was.” The film is produced by the recent Un Certain Regard-winning label Les Valseurs (“The Mysterious Gaze of the Flamingo”) and is currently …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/VARIETY-SIZING-49.png",
+      "pubDate": "2026-02-20T10:16:38.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "11565199e2554fc7",
+      "title": "بعد الغضب السنغالي.. صحيفة مغربية: أحكام المشجعيين ليست قاسية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%BA%D8%B6%D8%A8-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84%D9%8A-%D8%B5%D8%AD%D9%8A%D9%81%D8%A9-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%94%D8%AD%D9%83%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%B4%D8%AC%D8%B9%D9%8A%D9%8A%D9%86-%D9%84%D9%8A%D8%B3%D8%AA-%D9%82%D8%A7%D8%B3%D9%8A%D8%A9/blt80f8bc641246eabf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "حقائق قضائية تثبت انسجام أحكام \"نهائي الكان\" مع السوابق المغربية",
+      "body": "حقائق قضائية تثبت انسجام أحكام \"نهائي الكان\" مع السوابق المغربية أوردت تقارير صحفية مغربية قراءة قانونية للأحكام القضائية الصادرة مؤخرًا بحق 18 مشجعًا من السنغال وآخر يحمل الجنسيتين الفرنسية والجزائرية، مؤكدة أن العقوبات التي قضت بالحبس النافذ لمدد تتراوح بين 3 أشهر وسنة كاملة، لا تشكل خروجًا عن المألوف القضائي في البلاد. وأوضحت صحيفة \"يا بلادي\"، أن موجة الاعتراضات التي اجتاحت منصات التواصل الاجتماعي في السنغال، والتي وصفت الأحكام بـ \"القاسية\" أو \"المبالغ فيها\"، تغفل طبيعة التعامل الصارم للقضاء المغربي مع ملفات شغب الملاعب. وأشارت إلى أن الوقائع المرتبطة بنهائي كأس الأمم الإفريقية، من أعمال تخريب واعتداء على النظام العام، تم تكييفها قانونيًا وفق ذات المعايير الجنائية التي تُطبق على المشجعين المحليين. وللتأكيد على أن الأحكام لم تكن استهدافًا لمشجعين أجانب، استعرضت الصحيفة عدة نماذج لأحكام سابقة طالت مشجعين مغاربة وكانت في كثير من الأحيان أكثر شدة. وقالت إن واقعة الدار البيضاء في عام 2013، شهدت إصدار أحكام قاسية بالسجن النافذ وصلت إلى 3 سنوات بحق مشجعين محليين عقب مواجهات بين الرجاء والجيش الملكي. كما شهدت أحداث الرباط في 2022، إدانة 8 مشجعين مغاربة بعقوبات حبس نافذة بلغت سنة واحدة بسبب أعمال عنف رافقت لقاء الجيش الملكي والمغرب الفاسي. وخلصت قراءة الصحيفة إلى أن المنطق القضائي المغر…",
+      "image": null,
+      "pubDate": "2026-02-20T10:13:24.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2b50cce432f6ada2",
+      "title": "محاولة لاستعطاف أنشيلوتي؟.. نيمار يفجر مفاجأة حول مستقبله",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%B7%D8%A7%D9%81-%D8%A7%D9%94%D9%86%D8%B4%D9%8A%D9%84%D9%88%D8%AA%D9%8A-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%8A%D9%81%D8%AC%D8%B1-%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D8%AD%D9%88%D9%84-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%87/bltac21d19ab7438cac?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم البرازيلي يحلم بالمشاركة مع السيليساو في كأس العالم 2026",
+      "body": "النجم البرازيلي يحلم بالمشاركة مع السيليساو في كأس العالم 2026 فجر نيمار دا سيلفا، نجم سانتوس البرازيلي، مفاجأة بشأن مستقبله في الملاعب، قبل نحو 4 أشهر من كأس العالم 2026، البطولة التي يسعى جناح الهلال السعودي السابق للمشاركة فيها. ومر نيمار بفترة صعبة خلال الفترة الماضية، بسبب كثرة إصاباته، وتراجع مستواه الفني. وأجبرت الإصابات النجم البرازيلي على إنهاء مشواره مع الهلال يناير 2025، والعودة إلى ناديه القديم سانتوس. لكنه لم يسلم هناك من الإصابات، إذ تعرض لإصابة في الركبة أبعدته عن الملاعب لفترة طويلة، قبل أن يعود ليخوض أول 45 دقيقة في الموسم الجاري، ضد فيلو يوم الإثنين الماضي. شروط صارمة من أنشيلوتي ويبدو أن حلم نيمار، صاحب الـ34 عامًا، في خوض كأس العالم 2026، لن يتحقق بسهولة، مع وجود الإيطالي كارلو أنشيلوتي على رأس القيادة الفنية للسيليساو، علمًا بأنها قد تكون النسخة الأخيرة في مسيرة اللاعب. وذكرت تقارير إعلامية برازيلية أن أنشيلوتي حدد معايير واضحة لاستدعاء نيمار، ووفقًا للتقارير، لن يمنح المدرب فرصة المشاركة إلا للاعب الذي يصل إلى مستوى بدني وفني كامل، قادر على تقديم الأداء المطلوب طوال المباراة دون تراجع. المدرب الإيطالي، المعروف بتشدده التكتيكي واهتمامه بالالتزام أكثر من الشهرة، يشترط أن يكون نيمار مستعدًا للعمل الجماعي، والقيام بالواجبات الدفاعية، والانضباط التكتيكي لمدة 90 دق…",
+      "image": null,
+      "pubDate": "2026-02-20T10:01:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c76c419781089611",
+      "title": "برشلونة يتلقى نبأ سارًا جديدًا بعد مرارة الهزائم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%AA%D9%84%D9%82%D9%89-%D9%86%D8%A8%D8%A7%D9%94-%D8%B3%D8%A7%D8%B1%D9%8B%D8%A7-%D8%AC%D8%AF%D9%8A%D8%AF%D9%8B%D8%A7-%D8%A8%D8%B9%D8%AF-%D9%85%D8%B1%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D8%B2%D8%A7%D9%8A%D9%94%D9%85/bltff4ba522ae713501?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تلقى نادي برشلونة، نبأ سارًا جديدًا، رغم تأثر الفريق الكتالوني معنويًا بالخسارة في آخر مباراتين.",
+      "body": "تلقى نادي برشلونة، نبأ سارًا جديدًا، رغم تأثر الفريق الكتالوني معنويًا بالخسارة في آخر مباراتين. وخسر برشلونة أمام أتلتيكو مدريد برباعية دون رد، في ذهاب نصف نهائي كأس ملك إسبانيا، قبل هزيمته بنتيجة 1-2 أمام جيرونا في الليجا. وفقد برشلونة، صدارة الليجا، لصالح غريمه التقليدي ريال مدريد، حيث تراجع العملاق الكتالوني للوصافة، بفارق نقطتين عن الملكي. جافي يعود للمران الجماعي وذكرت صحيفة \"سبورت\" أن اللاعب جافي عاد للمشاركة في جزء من الحصة التدريبية مع الفريق الكتالوني، بعد غياب طويل نتيجة خضوعه لعملية جراحية في الركبة. ويُعد جافي من العناصر المهمة في تشكيلة برشلونة، لما يتمتع به من حماس وتأثير على زملائه.&nbsp; ويتمتع جافي باتصال جيد مع اللاعبين الشباب في الفريق، وكذلك تناغم قوي مع ليفاندوفسكي، ورافينيا ورونالد أراوخو.&nbsp; وتأتي عودة جافي، بعد يوم واحد من تعافي بيدري وماركوس راشفورد، وعودتهما للتدريبات الجماعية. عودة جافي قد تكون في مارس يواصل جافي، تعافيه، ويحرص المدرب الألماني هانز فليك، على إعادته تدريجيًا دون استعجال. ولا توجد مواعيد محددة للعودة الكاملة لجافي بعد، ويُراقب الفريق، حالة اللاعب باستمرار مع الالتزام بتوصيات الأطباء وفريق التأهيل.&nbsp; وتفيد كل المؤشرات بأن عودة جافي قد تكون في مارس/آذار المقبل، وفق ما هو متوقع.",
+      "image": "https://assets.kooora.com/images/v3/blte347f51b6cf15e3e/Gavi%20Barcelona%202025.jpg",
+      "pubDate": "2026-02-20T09:58:35.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7d0b3274cad74cf3",
+      "title": "بالفيديو.. لاعب النصر السابق: رونالدو صام يومين في رمضان",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%B5%D8%A7%D9%85-%D9%8A%D9%88%D9%85%D9%8A%D9%86-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/blt47bf5a28a99dfd2e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مفاجأة حول النجم البرتغالي",
+      "body": "مفاجأة حول النجم البرتغالي أكد شايع شراحيلي، نجم النصر السعودي السابق، أن الأسطورة البرتغالي كريستيانو رونالدو، قائد العالمي، قام بتجربة الصيام خلال شهر رمضان الماضي. وقال شراحيلي في تصريحات عبر منصة \"ثمانية: \"اللعب في رمضان ليس أمرًا سهلاً، ولكن هناك بعض اللاعبين الذين يجيدون ذلك وأنا كنت واحدًا منهم\". وأضاف: \"الأمر يبدو أكثر صعوبة على اللاعبين الأجانب، نظرًا لأنهم لم يعتادوا على الأمر من قبل، بالإضافة لصعوبة التزامهم بالبرنامج اليومي الخاص بهم، والمتعلق بالطعام والنوم وغيرها من الأمور\". واختتم: \"كريستيانو رونالدو قرر تجربة الصيام في رمضان الماضي، لمدة يومين، ولكنه تأكد أن الأمر ليس سهلاً\". وسبق وأن خرج العديد من نجوم النصر، وأكدوا أن رونالدو يحثهم بشكل دائم على الالتزام بالصلاة وغيرها من الأمور الدينية. &nbsp; «كريستيانو جرّب الصيام مع اللاعبين» 🌙 حديث شايع شراحيلي عن تأثير رمضان على الأداء ⚽️ تابع #استديو_الجماهير على تطبيق «ثمانية» 📲 ⁧ #الأهلي_النجمة ⁩ | ⁧ #دوري_روشن_السعودي pic.twitter.com/rY9tXH39Zi &mdash; رياضة ثمانية (@thmanyahsports) February 20, 2026",
+      "image": null,
+      "pubDate": "2026-02-20T09:57:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "964f1930b70dbd5c",
       "title": "Realme P4 Lite arrives with a 90Hz display and a 6,300 mAh battery for about $100",
       "link": "https://www.gsmarena.com/realme_p4_lite_features_price_sale_date-news-71643.php",
@@ -476,6 +684,22 @@
       "region": "mena"
     },
     {
+      "id": "102ec7f269dcc24e",
+      "title": "Rani Mukerji Says Success of Mumbai Supercop Film ‘Mardaani 3’ Is a Call to Protect Women: ‘Even If One Girl Is Affected, It Is the Failure of Our Society’ (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/news/rani-mukerji-mardaani-3-success-1236668094/",
+      "summary": "Bollywood star Rani Mukerji is thrilled with the success of “Mardaani 3,” but the actor says the commercial milestone is secondary to the conversation the films have sparked around crimes against women. The franchise, which follows Mumbai supercop Shivani Shivaji Roy as she confronts predators targ…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/Mardaani-3.jpg",
+      "pubDate": "2026-02-20T09:30:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "9f0a5211897b9ab7",
       "title": "بالفيديو.. الغنام: أتعلم من سالم الدوسري.. وهذا سر احتفالي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%BA%D9%86%D8%A7%D9%85-%D8%A7%D9%94%D8%AA%D8%B9%D9%84%D9%85-%D9%85%D9%86-%D8%B3%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B3%D8%B1%D9%8A-%D9%88%D9%87%D8%B0%D8%A7-%D8%B3%D8%B1-%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84%D9%8A/blt9c8b6b61888b11b2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -534,6 +758,22 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d07a0c13182e4fe8",
+      "title": "‘Maxima’ Franchise Expands with First Spin-Off, ‘The Other Royals – A Maxima Story’: ‘There Was So Much More to Tell’ (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/global/maxima-spin-off-the-other-royals-maxima-story-announced-1236667300/",
+      "summary": "The “Maxima” franchise, inspired by the life of Queen Máxima of the Netherlands and starring Delfina Chaves, is getting its first spin-off: “The Other Royals – A Maxima Story.” In the meantime, Season 2 of “Maxima” will premiere locally on March 14, followed by an international rollout. “In the sec…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/MixCollage-19-Feb-2026-03-13-PM-5027.jpg",
+      "pubDate": "2026-02-20T08:49:04.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -716,22 +956,6 @@
       "region": "mena"
     },
     {
-      "id": "1aaa39d91f2b3b96",
-      "title": "Lions tour 'no excuse' for loss of form - Furlong",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c1kgjreeglzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ireland tight-head prop Tadhg Furlong feels it is \"much of an excuse\" for players to use last summer's the British and Irish Lions tour to Australia as a reason for any dip in form.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-20T08:05:22.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "9fdc23f4920762a2",
       "title": "vivo T5 Pro surfaces",
       "link": "https://www.gsmarena.com/vivo_t5_pro_surfaces-news-71636.php",
@@ -742,6 +966,38 @@
       "source": {
         "name": "GSMArena",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ebba8db8960a490e",
+      "title": "Netflix Animated Comedy ‘Strip Law’ Is a Joke-Dense Love Letter to Las Vegas Lunacy: TV Review",
+      "link": "https://variety.com/2026/tv/reviews/strip-law-review-netflix-las-vegas-1236667759/",
+      "summary": "Animation suits Las Vegas. From “CSI” to “Hacks,” Sin City has no shortage of representations on television. But the Netflix comedy “Strip Law” — created by Cullen Crawford, an alum of the satirical site ClickHole as well as “The Late Show With Stephen Colbert” — has an advantage in capturing the s…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/Strip_Law_n_S1_E1_00_20_08_23.jpg",
+      "pubDate": "2026-02-20T08:01:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "14909d99a394612e",
+      "title": "Stop-Motion ‘Hidari,’ Indonesian Dramas Join Hong Kong Market Through Japan, Jakarta Sections",
+      "link": "https://variety.com/2026/film/markets-festivals/hong-kong-film-market-japan-indonesia-projects-1236668088/",
+      "summary": "The Hong Kong International Film Festival Society will present four projects selected through new partnerships with Jakarta Film Week, JAFF Market and the Japan Creator Support Fund at the upcoming HKIFF Industry Project Market. The development-stage titles – Loeloe Hendra Komara’s “A Life Full of …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/JFW.jpg",
+      "pubDate": "2026-02-20T07:59:32.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -778,6 +1034,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "80ec7b3fbaaf49ec",
+      "title": "‘Grey’s Anatomy’ Cast Honor Eric Dane After His Death: He ‘Was a Light’",
+      "link": "https://variety.com/2026/tv/news/greys-anatomy-cast-eric-dane-tribute-death-1236667985/",
+      "summary": "The cast of “Grey’s Anatomy” is speaking out following the death of Eric Dane. The actor, who appeared as Dr. Mark Sloane for 145 episodes of the ABC medical drama, died on Feb. 19 after a battle with ALS. “Eric was a light. You’d see it effortlessly shine from him on the set of Grey’s […]",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/TCDGRAN_EC309.jpg",
+      "pubDate": "2026-02-20T07:51:18.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
     },
     {
       "id": "381965eba8c90845",
@@ -876,6 +1148,22 @@
       "region": "mena"
     },
     {
+      "id": "ae6d9090ee07a5ef",
+      "title": "Yash’s ‘Toxic’ Teaser Unveils Gritty Cinematic Universe",
+      "link": "https://variety.com/2026/film/news/yash-toxic-teaser-1236668082/",
+      "summary": "A teaser for Yash’s “Toxic: A Fairytale for Grown-Ups” has been released, offering the first comprehensive look at the scale and tone of one of 2026’s most anticipated Indian productions. Following the birthday reveal of Yash’s character Raya and character posters for Nayanthara’s Ganga, Kiara Adva…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/Toxic-Yash.jpg",
+      "pubDate": "2026-02-20T07:08:32.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "fc0ecbdcb7df562c",
       "title": "عرض سعودي يتجاوز 40 مليونًا لإغراء برشلونة",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B9%D8%B1%D8%B6-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-40-%D9%85%D9%84%D9%8A%D9%88%D9%86%D9%8B%D8%A7-%D9%84%D8%A7%D9%95%D8%BA%D8%B1%D8%A7%D8%A1-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt1c588740fa2e7eac?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -905,6 +1193,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "3f0920dce2a001e7",
+      "title": "‘The Traitors’ Reaches 40-Territory Milestone as All3Media International Sets New Partners in Asia and Europe",
+      "link": "https://variety.com/2026/tv/news/the-traitors-40-territories-asia-europe-1236667586/",
+      "summary": "All3Media International has revealed that IDTV’s global format hit “The Traitors” has now been commissioned in 40 territories, with Indonesia becoming the latest market to adapt the psychological reality competition. The Indonesian version will be produced by Falcon, the leading local film producti…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/01/NUP_204735_02112.jpg",
+      "pubDate": "2026-02-20T07:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -938,70 +1242,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "1b51cb56e4adee34",
-      "title": "توني يضم النجمة إلى ضحاياه برقم مذهل",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%88%D9%86%D9%8A-%D9%8A%D8%B6%D9%85-%D8%A7%D9%84%D9%86%D8%AC%D9%85%D8%A9-%D8%A7%D9%95%D9%84%D9%89-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7%D9%87-%D8%A8%D8%B1%D9%82%D9%85-%D9%85%D8%B0%D9%87%D9%84/bltd862b44293f13b2c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم الإنجليزي يسطع في سماء روشن",
-      "body": "النجم الإنجليزي يسطع في سماء روشن واصل النجم الإنجليزي إيفان توني، مهاجم أهلي جدة، عروضه المثيرة هذا الموسم، وذلك بعدما سجل هاتريك رائع، قاد به \"الراقي\" للانتصار على النجمة، بنتيجة (4-1)، أمس الخميس، ضمن الجولة 23 من دوري روشن للمحترفين. وبهذه الثلاثية، ابتعد توني بصدارة ترتيب هدافي دوري روشن السعودي للمحترفين، برصيد 23 هدفًا، متفوقًا على البرتغالي كريستيانو رونالدو، قائد النصر، والمكسيكي جوليان كينونيس، نجم القادسية، بفارق 4 أهداف. وبحسب شبكة \"أوبتا\" لإحصائيات كرة القدم، فإن توني رفع رصيده إلى 10 أهداف في 11 مباراة ضد الأندية الصاعدة في دوري روشن، وذلك بعد ثلاثيته في شباك النجمة. وأوضحت أن \"النجمة كان الفريق الصاعد الوحيد الذي لم تهتز شباكه أمام توني، قبل أن ينفجر بثلاثية مذهلة\". ويعد ذلك هو الهاتريك الخامس لتوني مع الأهلي والرابع هذا الموسم، ليؤكد على براعته التهديفية ورغبته في تحقيق جائزة الحذاء الذهبي.",
-      "image": null,
-      "pubDate": "2026-02-20T06:39:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "cb30a16d6d80048f",
-      "title": "\"هدوء علني وثورة داخلية\".. سر انتفاضة ريال مدريد مع أربيلوا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D8%AF%D9%88%D8%A1-%D8%B9%D9%84%D9%86%D9%8A-%D9%88%D8%AB%D9%88%D8%B1%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B3%D8%B1-%D8%A7%D9%86%D8%AA%D9%81%D8%A7%D8%B6%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%85%D8%B9-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7/bltb120fc4798bffbd8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "وصفة الوحدة تعيد التوازن للملكي",
-      "body": "وصفة الوحدة تعيد التوازن للملكي بعد شهر واحد فقط من توليه المسؤولية، بدأ ألفارو أربيلوا في ترك بصمته على ملامح ريال مدريد، ليس فقط على مستوى النتائج، بل – وربما بصورة أكبر – على مستوى الروح الجماعية داخل غرفة الملابس. وذكرت صحيفة \" موندو ديبورتيفو \" الكتالونية: \"صحيح أن الأرقام لا تُظهر ثورة كاملة؛ فالفريق ودّع بطولة كأس ملك إسبانيا مبكرًا بعد الخروج أمام ألباسيتي، كما يخوض ملحق دور الـ16 أمام بنفيكا في دوري أبطال أوروبا، وهي مباراة لم يكن يتوقعها أنصار النادي في هذا التوقيت من الموسم\". ومع ذلك، فإن الصورة العامة تبدو مختلفة. في الدوري الإسباني تحديدًا، لم يتذوق المدرب الجديد طعم الهزيمة حتى الآن، واستعاد الفريق تدريجيًا توازنه عبر انتصارات مقنعة – وإن لم تكن استعراضية – أمام فرق مثل رايو فاليكانو وفالنسيا وريال سوسيداد، قبل أن ينتزع صدارة الترتيب في الجولة الماضية. فلسفة \"معًا في السراء والضراء\" اللافت أن خطاب أربيلوا بدا تقليديًا للوهلة الأولى: \"أن نكون معًا.. أن نقاتل كفريق واحد\"، \"أن نحمي بعضنا البعض في اللحظات الصعبة\". لكن هذا الطرح، رغم بساطته، وجد صداه سريعًا داخل غرفة الملابس، التي عاشت توترًا واضحًا في الفترة السابقة. الفارق الحقيقي بينه وبين المدرب السابق تشابي ألونسو لم يكن تكتيكيًا بقدر ما كان نفسيًا وإداريًا. فبينما اصطدم ألونسو ببعض \"المسلمات\" داخل الفريق منذ البداية…",
-      "image": "https://assets.kooora.com/images/v3/getty-2259397566/crop/MM5DGMZTGY5DGMZTGY5G433XMU5DQMZUHIYA====/GettyImages-2259397566.jpg",
-      "pubDate": "2026-02-20T06:35:44.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "b5c2d577cca6df98",
-      "title": "أولمو: لست هشًا.. ولن نحدث كارثة بسبب مباراتين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D9%88%D9%84%D9%85%D9%88-%D9%84%D8%B3%D8%AA-%D9%87%D8%B4%D9%8B%D8%A7-%D9%88%D9%84%D9%86-%D9%86%D8%AD%D8%AF%D8%AB-%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D8%A8%D8%B3%D8%A8%D8%A8-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D9%86/bltfb48d1e4ba45250d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لم يتهرب داني أولمو نجم برشلونة، من النقد الذاتي بعد النتائج الأخيرة للفريق الكتالوني، بالخسارة أمام أتلتيكو مدريد وجيرونا.",
-      "body": "لم يتهرب داني أولمو نجم برشلونة، من النقد الذاتي بعد النتائج الأخيرة للفريق الكتالوني، بالخسارة أمام أتلتيكو مدريد وجيرونا. وخسر برشلونة أمام أتلتيكو مدريد برباعية دون رد، في ذهاب نصف نهائي كأس ملك إسبانيا، قبل هزيمته بنتيجة 1-2 أمام جيرونا في الليجا. ورغم تلميحه إلى أن بعض القرارات التحكيمية لم تساعد برشلونة، شدد أولمو على أن هامش التطور، يكمن في فعالية الفريق وثبات مستواه. لن نغير أسلوبنا مع فليك ونشرت صحيفة \"موندو ديبورتيفو\" تصريحات أولمو، حيث أكد ضرورة تحسين الأداء الجماعي، إذا أراد برشلونة بلوغ أعلى مستوى قاري.&nbsp; وأضاف \"نحن برشلونة ويجب أن ننافس على كل شيء، فالطموح جزء من هوية النادي\". واعترف أولمو، بأن برشلونة لم يكن راضيًا عن مباراته الأخيرة أمام جيرونا في الليجا. وبخصوص الانتقادات الخارجية، دافع عن الفكرة الفنية للمدرب هانز فليك، وطالب بنظرة أوسع. وأوضح \"أسلوبنا كما هو، ولن نغيره. لن نُحدث كارثة بسبب مباراتين\".&nbsp; كما ذكّر بأن الفريق سبق أن حقق ألقابًا بهذه الفلسفة، وأن المجموعة، رغم صغر سنها، \"تعرف ما يجب عليها فعله\". الثقة في التعويض أمام أتلتيكو مدريد وأبدى أولمو، ثقته في إمكانية التعويض على ملعب كامب نو أمام أتلتيكو مدريد في كأس ملك إسبانيا. وتابع \"نعود إلى ملعبنا ومع جماهيرنا، ويجب أن نستعيد طريق الانتصارات\". وبشأن ثمن نهائي أبطال أوروبا، والذي يُتوقع أن يكون أ…",
-      "image": "https://assets.kooora.com/images/v3/getty-2259764363/crop/MM5DIOBXHE5DENZUGQ5G433XMU5DAORTGM4Q====/GettyImages-2259764363.jpg",
-      "pubDate": "2026-02-20T06:33:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6eaa07ebf51cd33e",
-      "title": "بالفيديو.. المطلق: توني يُشبه أسطورة النصر",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D9%85%D8%B7%D9%84%D9%82-%D8%AA%D9%88%D9%86%D9%8A-%D9%8A%D9%8F%D8%B4%D8%A8%D9%87-%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1/blt885c8635254127c0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم الإنجليزي يسرق العقول",
-      "body": "النجم الإنجليزي يسرق العقول يرى صالح المطلق، نجم الكرة السعودية السابق، أن المهاجم الإنجليزي إيفان توني، نجم أهلي جدة، يُشبه أحد أساطير نادي النصر، بفضل المستوى المذهل الذي يقدمه خلال الموسم الجاري. ونجح توني في تسجيل هاتريك قاد به الأهلي للفوز على النجمة، بنتيجة (4-1)، أمس الخميس، ضمن منافسات الجولة 23 من بطولة دوري روشن السعودي للمحترفين. وفي هذا الصدد، قال المطلق في تصريحات عبر برنامج \"في المرمى\": \"إيفان توني من أنجح المهاجمين الذين انضموا لكتيبة نجوم دوري روشن، فهو يمتلك إمكانيات تهديفية رائعة، ولكن سر وصوله لهذا المستوى الكبير، يعود إلى التناغم مع ويندرسون جالينو ورياض محرز\". وأضاف: \"من وجهة نظري، توني سيكون له حظوظ كبيرة في المنافسة على الحذاء الذهبي في دوري روشن، وأعتقد أنه يُشبه ماجد عبدالله (أسطورة النصر)، لأنه يتمتع بقدرات ذهنية كبيرة، تمكنه من التفوق على منافسيه، وخاصة أمام حراس المرمى\". &nbsp; صالح المطلق لـ #في_المرمى : #توني يشبه #ماجد_عبدالله .. ولديه حظوظ كبيرة في لقب هداف الدوري 📺 شاهدوا الحلقة الكاملة من هنا: https://t.co/sBxjeUCmBk pic.twitter.com/i709WX5y3F &mdash; العربية - في المرمى (@FilMarma) February 19, 2026 وعن توهج الأهلي هذا الموسم، قال المطلق: \"هناك فارق كبير في المستوى الفني بين الأهلي والنجمة، ولكن الراقي يقدم مستويات رائعة منذ بداية الموسم الجاري،…",
-      "image": null,
-      "pubDate": "2026-02-20T06:32:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "2abef0e81a47add7",
@@ -2652,22 +2892,6 @@
       "region": "global"
     },
     {
-      "id": "c47fa9c64bfbf248",
-      "title": "Thermalright Wonder Vision 360 UB ARGB Black review: Detachable 6.7-inch screen makes for unique possibilities",
-      "link": "https://www.tomshardware.com/pc-components/liquid-cooling/thermalright-wonder-vision-360-ub-argb-black-review",
-      "summary": "Thermalright’s Wonder Vision 360 UB ARGB features a unique ultrawide display with hundreds of customization options. We tested it with AMD’s Ryzen 9 9950X CPU and included noise-normalized benchmarks.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/ZbmrpzBdwTfz7bexG3EyUG-1280-80.jpg",
-      "pubDate": "2026-02-19T13:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "4f7716dd82a2550f",
       "title": "Quantum teleportation demonstrated over existing fiber networks — Deutsche Telekom’s T‑Labs used commercially available Qunnect hardware for the demo, claims 90% average accuracy",
       "link": "https://www.tomshardware.com/networking/quantum-teleportation-demonstrated-over-existing-fiber-networks-deutsche-telekoms-t-labs-used-commercially-available-qunnect-hardware-for-the-demo-claims-90-percent-average-accuracy",
@@ -2681,6 +2905,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c47fa9c64bfbf248",
+      "title": "Thermalright Wonder Vision 360 UB ARGB Black review: Detachable 6.7-inch screen makes for unique possibilities",
+      "link": "https://www.tomshardware.com/pc-components/liquid-cooling/thermalright-wonder-vision-360-ub-argb-black-review",
+      "summary": "Thermalright’s Wonder Vision 360 UB ARGB features a unique ultrawide display with hundreds of customization options. We tested it with AMD’s Ryzen 9 9950X CPU and included noise-normalized benchmarks.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/ZbmrpzBdwTfz7bexG3EyUG-1280-80.jpg",
+      "pubDate": "2026-02-19T13:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2777,22 +3017,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "48afc05da5017b8f",
-      "title": "West Indies remain unbeaten after victory over Italy",
-      "link": "https://www.bbc.com/sport/cricket/videos/c93jgxywd0xo?at_medium=RSS&at_campaign=rss",
-      "summary": "West Indies maintain their perfect T20 World Cup record in Kolkata, as they beat Italy by 42 runs to end the group stage undefeated.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-19T12:09:31.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2905,22 +3129,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "035cbe61948941db",
-      "title": "vivo V70 Elite arrives with SD 8s Gen 3, telephoto lens and 6,500 mAh Si-C battery",
-      "link": "https://www.gsmarena.com/vivo_v70_elite_arrives_with_sd_8s_gen_3_telephoto_lens_and_6500_mah_sic_battery_-news-71625.php",
-      "summary": "The V70 Elite is vivo’s top-tier midrange offering and it’s shaping up to be one of the biggest upgrades in the V-series. Armed with Qualcomm’s Snapdragon 8s Gen 3 chip paired with up to 12GB LPDDR5X RAM and 512GB UFS 4.1 storage, the V70 Elite is offering flagship-level performance. V70 Elite gets…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-19T10:07:02.000Z",
-      "source": {
-        "name": "GSMArena",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3091,22 +3299,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-18T22:17:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "90f9f0440e5e8e7a",
-      "title": "ظهور هادي رياض.. قائمة الأهلي لمواجهة الجونة في الدوري",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/542141/%d8%b8%d9%87%d9%88%d8%b1-%d9%87%d8%a7%d8%af%d9%8a-%d8%b1%d9%8a%d8%a7%d8%b6-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a7%d9%84%d8%ac%d9%88%d9%86%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a",
-      "summary": "كشف الجهاز الفني للنادي الأهلي، بقيادة المدرب الدنماركي ييس توروب، قائمة الفريق لمواجهة الجونة، في المباراة التي ستجري لحساب منافسات بطولة الدوري المصري الممتاز.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-18T22:00:00.000Z",
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
@@ -3577,38 +3769,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a274fa560703d19f",
-      "title": "Turtle Beach's rotating button Stealth Pivot wireless controller falls to just $99.99 — this hall effect gamepad hits its lowest ever price",
-      "link": "https://www.tomshardware.com/peripherals/controllers-gamepads/turtle-beachs-rotating-button-stealth-pivot-wireless-controller-falls-to-just-usd99-99-this-hall-effect-gamepad-hits-its-lowest-ever-price",
-      "summary": "The Turtle Beach Stealth Pivot HE gamepad falls to the all-time low price of $99.99. Rotating button modules give you multi-controller customizability.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/K9ExZ5htqH2VM4mtXSuM3f-1280-80.jpg",
-      "pubDate": "2026-02-17T11:08:40.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "241d900ed0d8c22d",
-      "title": "$50 junk second-hand motherboard turns into a SSD treasure trove worth $1,500 — 12 terabytes of blazing-fast storage finds a new owner amid crushing shortages",
-      "link": "https://www.tomshardware.com/pc-components/ssds/usd50-junk-second-hand-motherboard-turns-into-a-ssd-treasure-trove-worth-usd1-500-12-terabytes-of-blazing-fast-storage-finds-a-new-owner-amid-crushing-shortages",
-      "summary": "A Redditor buys a damaged Z690 motherboard for $50 but discovers up to $1,500 worth of SSDs beneath the heatsinks.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/VsNpKoc6kQr5GxhDxNpzej-1280-80.jpg",
-      "pubDate": "2026-02-17T11:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
