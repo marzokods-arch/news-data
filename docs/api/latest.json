@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T17:59:40.623Z",
-    "total": 180,
-    "processed_feeds": 20,
-    "discovered_feeds": 83,
+    "generated_at": "2026-03-02T18:54:09.427Z",
+    "total": 178,
+    "processed_feeds": 21,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
@@ -22,16 +22,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/7cf75c12-0a7e-49cd-bd71-0a07be5a0bba",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 15,
+        "error": null,
         "notModified": false
       },
       {
@@ -61,6 +74,19 @@
         "notModified": false
       },
       {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 6,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -71,58 +97,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Science",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 15,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 9,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 4,
-        "error": null,
         "notModified": false
       },
       {
@@ -139,48 +113,9 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 11,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "National Geographic — Science",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -204,6 +139,58 @@
         "notModified": false
       },
       {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 5,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 11,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Bloomberg — Markets",
         "url": "https://www.bloomberg.com/markets/rss",
         "homepage": "https://www.bloomberg.com/markets/rss",
@@ -217,19 +204,6 @@
         "notModified": false
       },
       {
-        "name": "Al Jazirah (KSA) - رياضة",
-        "url": "https://www.al-jazirah.com/rss/rss09.xml",
-        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "The Information - Tech",
         "url": "https://www.theinformation.com/rss",
         "homepage": "https://www.theinformation.com/rss",
@@ -240,6 +214,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Al Jazirah (KSA) - رياضة",
+        "url": "https://www.al-jazirah.com/rss/rss09.xml",
+        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -267,6 +267,19 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
       }
     ]
   },
@@ -286,6 +299,246 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "d305b67a3184dcb0",
+      "title": "Europe Won’t Kill the Paramount-Warner Bros. Deal — But It Could Make David Ellison Wait",
+      "link": "https://www.hollywoodreporter.com/business/business-news/eu-antitrust-review-may-delay-paramount-warner-merger-1236518201/",
+      "summary": "After the mogul's European charm offensive, Brussels prepares for a complex antitrust review of the $110 billion studio tie-up — one more likely to slow the deal than stop it.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:52:44.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0ae9c6bd43f544df",
+      "title": "Nvidia to invest $4 billion into photonics companies Coherent and Lumentum",
+      "link": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html",
+      "summary": "Coherent and Lumentum will both receive $2 billion each from the chip giant as part of the strategic investment.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:48:31.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "8a26ab3884eb3230",
+      "title": "Berkshire Hathaway shares drop 5% after poor fourth-quarter results, no bold moves by new CEO Abel",
+      "link": "https://www.cnbc.com/2026/03/02/berkshire-hathaway-shares-drop-4percent-after-poor-fourth-quarter-results.html",
+      "summary": "Some had hoped for more aggressive signals on capital deployment given the company's swelling cash balance.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:43:27.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "becc3031afc038c8",
+      "title": "More Than a Quarter of HBO Max Subscribers in the U.S. Already Have Paramount+",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/hbo-max-paramount-plus-combination-how-many-subscribers-1236519619/",
+      "summary": "Let's do the math.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:42:19.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "1758f8fa87f22ba0",
+      "title": "US manufacturing activity steady, factory gate inflation surges",
+      "link": "https://www.investing.com/news/economic-indicators/us-manufacturing-grows-steadily-in-february-input-prices-surge-4535331",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM2110B_L.jpg",
+      "pubDate": "2026-03-02T18:27:38.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2d7e49aac517ed0e",
+      "title": "PulteGroup at Raymond James: Strategic Land Management Insights",
+      "link": "https://www.investing.com/news/transcripts/pultegroup-at-raymond-james-strategic-land-management-insights-93CH-4535736",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-03-02T18:26:51.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ba9489750bde440a",
+      "title": "Parke Bancorp CEO Pantilione acquired $17,100 in PKBK stock",
+      "link": "https://www.investing.com/news/insider-trading-news/parke-bancorp-ceo-pantilione-acquired-17100-in-pkbk-stock-93CH-4535734",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+      "pubDate": "2026-03-02T18:25:40.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b73e805fee2aef0f",
+      "title": "US tariff lawsuits returned to trade court to determine next steps",
+      "link": "https://www.investing.com/news/stock-market-news/us-tariff-lawsuits-returned-to-trade-court-to-determine-next-steps-4535733",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM2118P_L.jpg",
+      "pubDate": "2026-03-02T18:25:12.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3ec4b7d87bed3b08",
+      "title": "Form 144 HUNTINGTON INGALLS INDUSTRIES For: 2 March",
+      "link": "https://www.investing.com/news/filings/form-144-huntington-ingalls-industries-for-2-march-93CH-4535731",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2026-03-02T18:24:14.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f8c8ab011d6ca94f",
+      "title": "Form 144 Gulfport Energy Corporation For: 2 March",
+      "link": "https://www.investing.com/news/filings/form-144-gulfport-energy-corporation-for-2-march-93CH-4535730",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2026-03-02T18:24:11.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "63a9b5f4260adb6e",
+      "title": "How That Jim Carrey Clone Conspiracy Theory Spiraled Out of Control",
+      "link": "https://www.hollywoodreporter.com/news/general-news/jim-carrey-clone-1236519514/",
+      "summary": "How some viral footage, a decades-old talk show clip and false claim by a drag artist resulted in the weekend's weirdest rumor.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:22:32.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "84d906b2b3bc87a4",
+      "title": "Mayweather to fight kickboxer before Pacquiao rematch",
+      "link": "https://www.bbc.com/sport/boxing/articles/cy8lyq7943eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Floyd Mayweather will fight veteran Greek kickboxer Mike Zambidis in an exhibition in June before his rematch with Manny Pacquiao.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:14:22.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2f2aa76f24eb7e6a",
+      "title": "China’s Rare Earth Dominance and the Strategic Failure of the West",
+      "link": "https://oilprice.com/Energy/Energy-General/Chinas-Rare-Earth-Dominance-and-the-Strategic-Failure-of-the-West.html",
+      "summary": "REalloys (NASDAQ: ALOY) and a small number of other North American companies are doing what the rest of the Western world failed to do for three decades: They are breaking China’s \"kill switch\" on the U.S. defense supply chain. While the U.S. defense sector has long been reliant on international pr…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T18:12:48.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d01dd0084af2d055",
+      "title": "Hope Davis Boards NBC’s ‘Protection’ Drama",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/hope-davis-nbc-drama-pilot-protection-1236519586/",
+      "summary": "She’ll star opposite Peter Krause in the pilot about a law enforcement family.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T17:59:45.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6295137b38c35c49",
+      "title": "Mbappe set for tests on knee but no surgery planned",
+      "link": "https://www.bbc.com/sport/football/articles/cj32vx1p2r3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Real Madrid striker Kylian Mbappe is set to have further assessments on a knee problem but will not have surgery at this stage.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-02T17:57:25.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
     },
     {
       "id": "32450e8fb5742574",
@@ -352,147 +605,19 @@
       "region": "global"
     },
     {
-      "id": "d0120c9d5548b5af",
-      "title": "Tesla regains some market share around Europe in February, a sign of stabilising sales",
-      "link": "https://www.investing.com/news/stock-market-news/tesla-gains-market-in-france-norway-in-february-4533917",
-      "summary": "",
+      "id": "be7bbb6ffc6a6b1f",
+      "title": "Sutton's predictions v singer-songwriter & Chelsea fan Noah Kahan",
+      "link": "https://www.bbc.com/sport/football/articles/cx2rvnz402lo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport football expert Chris Sutton takes on singer-songwriter Noah Kahan plus the BBC readers and AI with his predictions for this week's midweek Premier League fixtures on Tuesday, Wednesday and Thursday.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM210JQ_L.jpg",
-      "pubDate": "2026-03-02T17:38:09.000Z",
+      "image": null,
+      "pubDate": "2026-03-02T17:40:11.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "758e22ee1e43b9ef",
-      "title": "Analysis-Trump’s SEC gave companies more power over investors. Lawsuits pushed them back",
-      "link": "https://www.investing.com/news/stock-market-news/analysistrumps-sec-gave-companies-more-power-over-investors-lawsuits-pushed-them-back-4534054",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM210MU_L.jpg",
-      "pubDate": "2026-03-02T17:37:54.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1f6de90bca0e510e",
-      "title": "Ming Shing appoints new CFO following executive departures",
-      "link": "https://www.investing.com/news/company-news/ming-shing-appoints-new-cfo-following-executive-departures-93CH-4535663",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-03-02T17:37:29.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d0a926e3c9936449",
-      "title": "Form 144 Snowflake Inc. For: 2 March",
-      "link": "https://www.investing.com/news/filings/form-144-snowflake-inc-for-2-march-93CH-4535662",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2026-03-02T17:36:28.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "01bc25d5587b9e37",
-      "title": "EastGroup at Citi’s Miami Conference: Strategic Growth in Smile States",
-      "link": "https://www.investing.com/news/transcripts/eastgroup-at-citis-miami-conference-strategic-growth-in-smile-states-93CH-4535661",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-03-02T17:36:23.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "611637e1f5b21bc0",
-      "title": "ACNB to redeem $15 million in subordinated notes on March 31",
-      "link": "https://www.investing.com/news/sec-filings/acnb-to-redeem-15-million-in-subordinated-notes-on-march-31-93CH-4535659",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-03-02T17:32:52.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a909982c1e3d5b74",
-      "title": "Guggenheim raises Sionna Therapeutics stock price target to $50",
-      "link": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-sionna-therapeutics-stock-price-target-to-50-93CH-4535658",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-03-02T17:32:46.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8a8e60705a49d4f0",
-      "title": "Hovnanian at J.P. Morgan Conference: Navigating Market Challenges",
-      "link": "https://www.investing.com/news/transcripts/hovnanian-at-jp-morgan-conference-navigating-market-challenges-93CH-4535657",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-03-02T17:32:08.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "42bdfa6b49d7862c",
-      "title": "Form 8K Regency Centers Corp For: 2 March",
-      "link": "https://www.investing.com/news/filings/form-8k-regency-centers-corp-for-2-march-93CH-4535655",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
-      "pubDate": "2026-03-02T17:31:09.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -592,22 +717,6 @@
       "region": "global"
     },
     {
-      "id": "b7ccc53879d2a719",
-      "title": "Does That ‘SNL’ Sketch Expose a U.S.-U.K. Gap on Tourette’s Education?",
-      "link": "https://www.hollywoodreporter.com/news/general-news/snl-sketch-tourettes-education-john-davidson-1236519470/",
-      "summary": "After the cast of 'Saturday Night Live' appeared to mock the disability, CEO of British charity Tourette's Action Emma McNally was quick to assert to those across the Atlantic: \"It is not a joke.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-02T17:04:22.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ae5ec1004995f86a",
       "title": "Anthropic's Claude sees 'elevated errors' as it tops Apple's free apps after Pentagon clash",
       "link": "https://www.cnbc.com/2026/03/02/anthropic-claude-ai-outage-apple-pentagon.html",
@@ -653,22 +762,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9da2a19c43e37758",
-      "title": "‘Hoppers’ Review: Pixar Returns to Form With a Giddy Action Comedy That Makes a Winning Case for Respecting the Balance of Nature",
-      "link": "https://www.hollywoodreporter.com/movies/movie-reviews/hoppers-review-pixar-disney-comedy-1236518225/",
-      "summary": "Piper Curda leads the voice cast as an animal lover with a fight on her hands, alongside friends and foes played by Bobby Moynihan, Jon Hamm, Kathy Najimy, Dave Franco and Meryl Streep.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-02T17:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -752,22 +845,6 @@
       "region": "global"
     },
     {
-      "id": "44572682dc32a35b",
-      "title": "TV Premiere Dates 2026: The Complete Guide",
-      "link": "https://www.hollywoodreporter.com/lists/2026-tv-premiere-dates-calendar/",
-      "summary": "A comprehensive, frequently updated list of start dates for series and specials on streaming, broadcast and cable.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-02T16:37:23.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "925e7ac74dba1009",
       "title": "Farke 'will never jog again' after red card",
       "link": "https://www.bbc.com/sport/football/articles/cvg1jp944yko?at_medium=RSS&at_campaign=rss",
@@ -784,8 +861,8 @@
       "region": "global"
     },
     {
-      "id": "6d3a2e37c65144cc",
-      "title": "O'Connell happy to see Irish plans come to fruition",
+      "id": "ef3af8aa49dca98c",
+      "title": "O'Connell happy to see Irish plans coming to fruition",
       "link": "https://www.bbc.com/sport/rugby-union/articles/cvg359z1zdpo?at_medium=RSS&at_campaign=rss",
       "summary": "Ireland forwards coach Paul O'Connell says it is pleasing to see pre-match plans come to fruition as Ireland aim to build on their Six Nations win over England when they play Wales on Friday.",
       "body": null,
@@ -909,22 +986,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "97f5c90d689810ab",
-      "title": "Why Novo Nordisk's Ireland expansion is key to fighting off Eli Lilly",
-      "link": "https://www.cnbc.com/2026/03/02/novo-nordisk-stock-eli-lilly-wegovy-ireland-supply-news.html",
-      "summary": "Novo Nordisk is investing in a facility in Ireland as it expands its production capacities of the newly launched Wegovy pill, the Danish drugmaker said Monday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-02T15:57:15.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1117,38 +1178,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "5d7f14e9282d6ea3",
-      "title": "Blackpink’s Jisoo Shares Love for Album ‘Deadline,’ Talks New Netflix K-Drama: “Blinks Will Love It”",
-      "link": "https://www.hollywoodreporter.com/music/music-news/blackpink-jisoo-deadline-boyfriend-on-demand-1236518917/",
-      "summary": "The K-pop star is returning to the small screen with a new K-drama ‘Boyfriend on Demand.’",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-02T15:10:39.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "320618bbfd428498",
-      "title": "Nvidia to invest $4 billion in two photonics companies",
-      "link": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html",
-      "summary": "Coherent and Lumentum will both receive $2 billion each from the chip giant as part of the strategic investment.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-02T14:44:02.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1749,7 +1778,7 @@
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%84%D9%8A%D9%83-%D9%84%D9%86-%D9%86%D8%B3%D8%AA%D8%B3%D9%84%D9%85-%D9%88%D8%B3%D9%86%D8%AC%D8%B9%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84-%D9%85%D9%85%D9%83%D9%86%D9%8B%D8%A7/blt9ae18717c3fe6540?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "رفع هانز فليك مدرب برشلونة، راية التحدي، قبل إياب نصف نهائي كأس ملك إسبانيا، ضد أتلتيكو مدريد، غدا الثلاثاء.",
       "body": "رفع هانز فليك مدرب برشلونة، راية التحدي، قبل إياب نصف نهائي كأس ملك إسبانيا، ضد أتلتيكو مدريد، غدا الثلاثاء. وتعرض برشلونة لخسارة قاسية في لقاء الذهاب، أمام مضيفه أتلتيكو مدريد، برباعية دون رد. ونشرت صحيفة \"موندو ديبورتيفو، تصريحات فليك في المؤتمر الصحفي، حيث رفض الاستسلام، وتمسك بحظوظ البارسا في التأهل. وقال فليك \"عليك دائماً أن تؤمن بالقدرة على النجاح، هذا أمر بديهي. دعم المشجعين في الملعب، سيمنحنا دفعة هائلة\". وتابع \"لدينا مثال جيد وهو مباراتنا ضد دورتموند؛ خطتنا هي تسجيل هدفين في كل شوط. نعلم أن المهمة صعبة لأن الخصم رائع وألحق بنا ضرراً كبيراً في المباراة الماضية، لكني أؤمن أننا قادرون على فعلها\". ندرك حجم التحدي أمام أتلتيكو مدريد وشدد فليك \"الجميع يدرك حجم التحدي الذي ينتظرنا غداً. نحن متأخرون بأربعة أهداف وعلينا أن نجعل المستحيل ممكناً. هذا هو هدفنا\". وأوضح \"نعلم أن الأمر ليس سهلاً، لكننا لن نستسلم. من الضروري الحفاظ على نظافة شباكنا، ويجب أن نؤمن بقدرتنا على تحقيق ذلك\". وعن إدارة حالة بيدري، علق \"علينا إدارة مشاركته بحذر. تنتظرنا مباريات كثيرة أخرى بعد هذا اللقاء، وسنرى غداً عدد الدقائق التي يمكنه خوضها فعليا\". اقرأ أيضًا بالفيديو.. بيدري: نستطيع تحقيق \"المعجزة\" والانتقام من أتلتيكو",
-      "image": null,
+      "image": "https://assets.kooora.com/images/v3/bltd84d38e7ef77f115/2.jpg",
       "pubDate": "2026-03-02T10:20:34.000Z",
       "source": {
         "name": "Kooora",
@@ -2080,22 +2109,6 @@
       "region": "global"
     },
     {
-      "id": "6d57a3b7c2e050d0",
-      "title": "Chelsea could rival Newcastle for Nunez - Monday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/c5yj93y4pk3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea could join the race for Al-Hilal striker Darwin Nunez, Manchester City looking to make a big move for Newcastle United defender Tino Livramento, Crystal Palace determined to hold on to keeper Dean Henderson, plus more.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-01T22:37:27.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "d1ec95833641821a",
       "title": "One of my favorite Next Fest demos turned out to be this speedrunner's delight modeled after 3D Sonic games, which just added ranked multiplayer races",
       "link": "https://www.pcgamer.com/games/action/one-of-my-favorite-next-fest-demos-turned-out-to-be-this-speedrunners-delight-modeled-after-3d-sonic-games-which-just-added-ranked-multiplayer-races/",
@@ -2183,22 +2196,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-01T21:06:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "39cf2d1610b62ada",
-      "title": "Prestianni's Benfica career 'over' if racist abuse proven",
-      "link": "https://www.bbc.com/sport/football/articles/c99j75gzv43o?at_medium=RSS&at_campaign=rss",
-      "summary": "Benfica boss Jose Mourinho says Gianluca Prestianni's career under him will be \"over\" if it is found he racially abused Vinicius Jr.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-01T20:48:35.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -3015,22 +3012,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-28T12:07:46.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "8020071da563f524",
-      "title": "So much for three-year plan - what is the secret to manager longevity?",
-      "link": "https://www.bbc.com/sport/football/articles/ckg1lzwegpgo?at_medium=RSS&at_campaign=rss",
-      "summary": "In his BBC Sport column, ex-Premier League boss Tony Pulis explains why it is so hard for football managers to keep their jobs in the modern game.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-27T09:48:45.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
