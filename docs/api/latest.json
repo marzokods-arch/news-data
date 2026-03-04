@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-04T19:45:44.757Z",
-    "total": 214,
+    "generated_at": "2026-03-04T20:05:10.435Z",
+    "total": 215,
     "processed_feeds": 17,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -22,16 +22,42 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 20,
+        "taken": 66,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -44,33 +70,7 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -84,19 +84,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 66,
-        "error": null,
         "notModified": false
       },
       {
@@ -139,16 +126,29 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "egypt",
+        "region": "mena",
         "cats": [
           "sports"
         ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
         "notModified": false
       },
       {
@@ -165,19 +165,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
         "name": "Sky News Arabia - صحة",
         "url": "https://www.skynewsarabia.com/rss/health.xml",
         "homepage": "https://www.skynewsarabia.com/rss/health.xml",
@@ -191,16 +178,29 @@
         "notModified": false
       },
       {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
+        "taken": 18,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -217,21 +217,53 @@
         "notModified": false
       },
       {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 18,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "f72899d135b26cc7",
+      "title": "French Box Office Jumps 20% as ‘Marsupilami,’ ‘Guru’ and Other Local Hits Power Early 2026 Rebound",
+      "link": "https://variety.com/2026/film/global/french-box-office-marsupilami-guru-2026-rebound-1236679095/",
+      "summary": "After a lackluster year that saw the French box office drop by nearly 15% and become dominated by Hollywood blockbusters, 2026 is kicking off with a quartet of ambitious French films driving a 20% jump in theatrical admissions. The rebound is being fueled by an unusually diverse slate of local prod…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/media.webp",
+      "pubDate": "2026-03-04T20:01:39.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6028af4d1daae31d",
+      "title": "‘The Bride!’ Review: Jessie Buckley and Christian Bale Are Magnetic Monsters in Maggie Gyllenhaal’s Lumbering Punk Horror Trip",
+      "link": "https://variety.com/2026/film/reviews/the-bride-review-jessie-buckley-christian-bale-1236677964/",
+      "summary": "Is it a horror movie? Not quite. It’s a scrappy punk feminist tragicomedy of l’amour fou, a renegade take-off on the \"Frankenstein\" mythology. And while the movie doesn’t entirely work — it lumbers along and blows fuses; it has plenty of flesh and blood but not enough storytelling spine — there’s a…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/01/MCDBRID_WB001-e1767540584214.jpg",
+      "pubDate": "2026-03-04T20:00:28.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "5e25899ddffd6799",
       "title": "TCL unveils Tab A1 Plus (and NxtPaper) as NxtPaper 70 Pro makes it to Europe",
@@ -441,6 +473,38 @@
       "region": "global"
     },
     {
+      "id": "d48454b0d34a21ff",
+      "title": "حصاد الجولة 17 من دوري جوي: الهلال يبتعد بالقمة.. وسقوط الكبار عرض مستمر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AD%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-17-%D9%85%D9%86-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D8%A8%D8%AA%D8%B9%D8%AF-%D8%A8%D8%A7%D9%84%D9%82%D9%85%D8%A9-%D9%88%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D9%83%D8%A8%D8%A7%D8%B1-%D8%B9%D8%B1%D8%B6-%D9%85%D8%B3%D8%AA%D9%85%D8%B1/blt9cbafed7f7d1a601?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الزعيم يواصل سطوته",
+      "body": "الزعيم يواصل سطوته فرضت الجولة الـ17 من منافسات دوري جوي إيقاعًا مختلفًا على مشهد الصدارة والصراع في القاع، بعدما حملت في طياتها رسائل واضحة لكل أطراف المنافسة؛ عنوانها الأبرز أن القمة باتت تميل أكثر نحو الأزرق، بينما لا يزال بعض الكبار يبحثون عن توازن مفقود. وواصل الهلال تعزيز قبضته على الصدارة، مستفيدًا من ثبات فني واضح وقدرة على حسم المواجهات في توقيت حاسم من الموسم، ليبتعد خطوة إضافية في سباق يبدو أنه يحتاج إلى نفس طويل وحسابات دقيقة. &nbsp;في المقابل، تكرر مشهد تعثر بعض الفرق الكبيرة، لتتحول خسائرها ونزيف نقاطها إلى ظاهرة لافتة لم تعد مجرد كبوة عابرة. الجولة لم تكن مجرد نتائج تُضاف إلى جدول الترتيب، بل أعادت رسم ملامح المنافسة، وفتحت الباب أمام تساؤلات جديدة حول هوية الفرق القادرة على الصمود حتى خط النهاية، ومن سيظل عالقًا في دوامة المفاجآت. &nbsp; &nbsp; الهلال يبتعد بالقمة واصل فريق الهلال، بقيادة مدربه الشاب محمد الشلهوب، تقديم عروضه القوية ونتائجه اللافتة هذا الموسم، بعدما حقق انتصارًا عريضًا على حساب الأخدود بأربعة أهداف دون رد، في مواجهة أكد خلالها \"الأزرق\" تفوقه الفني والذهني، ووجّه رسالة جديدة لمنافسيه في سباق الصدارة. الفوز لم يكن مجرد ثلاث نقاط تُضاف إلى الرصيد، بل عكس شخصية فريق يعرف ماذا يريد، ويجيد فرض أسلوبه داخل المستطيل الأخضر، سواء من حيث الاستحواذ وبناء اللع…",
+      "image": "https://assets.kooora.com/images/v3/blt435ab8f1128b32fc/Banner%20-%20Monthly%20Player%20Rankings%20Dark%20%20copy.jpg",
+      "pubDate": "2026-03-04T18:02:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "9d3a582ee885acff",
+      "title": "كونسيساو يمتدح الأهلي قبل ديربي جدة.. ويؤكد: جماهيرنا هزمت الهلال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%88%D9%86%D8%B3%D9%8A%D8%B3%D8%A7%D9%88-%D9%8A%D9%85%D8%AA%D8%AF%D8%AD-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%82%D8%A8%D9%84-%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D8%AC%D8%AF%D8%A9-%D9%88%D9%8A%D9%88%D9%94%D9%83%D8%AF-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1%D9%86%D8%A7-%D9%87%D8%B2%D9%85%D8%AA-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blt1399180901d215dd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب البرتغالي يتحدث عن مباراتي الديربي والكلاسيكو",
+      "body": "المدرب البرتغالي يتحدث عن مباراتي الديربي والكلاسيكو امتدح البرتغالي سيرجيو كونسيساو، المدير الفني لفريق الاتحاد، الجار والغريم التقليدي الأهلي، قبل مباراتهما المرتقبة في ديربي جدة. ويلتقي الأهلي مع الاتحاد، بعد غدٍ الجمعة، على ملعب الإنماء بجدة، في قمة مباريات الجولة الخامسة والعشرين من دوري روشن. وقال كونسيساو في المؤتمر الصحفي قبل المباراة: \"الأهلي فريق خطير في العديد من النواحي، درسنا الفريق الخصم، ونعرف ما يجب علينا فعله\". وأضاف: \"الكرات الثابتة أحد الأسلحة المهمة، وسنواجه فريقًا قويًا في الكرات الثابتة، وسنعمل دفاعيا وهجوميا على ذلك\". وأردف: \"النظام يسمح باختيار 8 أجانب فقط، وسنختار الأفضل للمواجهة، نريد اللعب كوحدة واحدة، وأن نفعل ما علينا في المواجهة\". كما تحدث المدرب البرتغالي عن الحالة المميزة التي يعيشها لاعب وسطه المالي مامادو دومبيا خلال الفترة الماضية، حيث قال: \"دومبيا لاعب رائع ويتطور، وما زال أمامه الكثير من العمل، والأهم أن يلعب لصالح المجموعة\". وبخصوص تأجيل مباريات دوري أبطال آسيا للنخبة بسبب الضربات الإيرانية، أوضح: \"كنا نريد لعب مواجهة الأبطال، وأن نحسم التأهل لنعرف مستقبلنا، ولكن نتمنى أن تنتهي الأوضاع الراهنة بخير\". كونسيساو أثنى أيضًا على جماهير الاتحاد، مؤكدًا أنها تفوقت على جماهير الهلال خلال الكلاسيكو الذي جمع بينهما مؤخرًا، رغم تفوق جماهير \"الزعيم\" عدديً…",
+      "image": null,
+      "pubDate": "2026-03-04T18:00:13.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a175155084dd4f9c",
       "title": "بعد رحيله عن الإسماعيلي.. طارق العشري يعود لتدريب فاركو رسميًا",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/543425/%d8%a8%d8%b9%d8%af-%d8%b1%d8%ad%d9%8a%d9%84%d9%87-%d8%b9%d9%86-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a-%d8%b7%d8%a7%d8%b1%d9%82-%d8%a7%d9%84%d8%b9%d8%b4%d8%b1%d9%8a-%d9%8a%d8%b9%d9%88%d8%af-%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d9%81%d8%a7%d8%b1%d9%83%d9%88-%d8%b1%d8%b3%d9%85%d9%8a-%d8%a7",
@@ -455,6 +519,22 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "9095148206255a24",
+      "title": "أسطورة ليفربول: محمد صلاح خذل آرني سلوت",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D8%AE%D8%B0%D9%84-%D8%A7%D9%93%D8%B1%D9%86%D9%8A-%D8%B3%D9%84%D9%88%D8%AA/blt6901b20da5d15763?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هل بات الفرعون أحد أسباب المعاناة في الريدز؟",
+      "body": "هل بات الفرعون أحد أسباب المعاناة في الريدز؟ يشهد نادي ليفربول تراجعًا ملحوظًا في الأداء العام خلال الموسم الحالي، رغم التعاقدات المهمة التي أُبرمت سابقًا، إلا أن النتائج لم تلبِ التطلعات، مع خروج مبكر من المنافسة القوية على لقب الدوري الإنجليزي الممتاز. وفي خضم هذا الوضع، أثار داني ميرفي، أسطورة ليفربول السابق، نقاشًا حادًا حول دور محمد صلاح في هذا الانخفاض، رافضًا تحميل آرني سلوت مدرب الريدز، المسؤولية الكاملة، بل مشيرًا إلى أن بعض اللاعبين – وعلى رأسهم صلاح – خذلوا المدرب الهولندي بسبب تراجع مستواهم ونقص الشخصية المطلوبة في نادٍ بحجم ليفربول. وأكد ميرفي، في تصريحاته عبر برنامج \"talkSPORT\"، أن أداء محمد صلاح شهد انخفاضًا واضحًا هذا الموسم، رغم تسجيله هدفًا في المباراة الأخيرة. وأوضح ميرفي: \"الأداء الشامل للنجم المصري، بما في ذلك المساهمة الدفاعية والإبداع الهجومي، لم يعد على نفس المستوى السابق، ما يُعد أحد العوامل الرئيسية في معاناة الفريق\". وأضاف: \"هناك مشكلات أخرى في التشكيلة، مثل تراجع مستوى فريمبونج وكيركيز في الأطراف الدفاعية، حيث لا يصلان إلى مستوى ترينت ألكسندر-أرنولد وأندي روبرتسون سابقًا، بالإضافة إلى ابتعاد ألكسندر إيزاك عن أفضل حالاته سواء بدنيًا أو ذهنيًا، وتراجع كبير في إبداع وقوة كودي جاكبو مقارنة بالموسم الماضي. ومع ذلك، أشار إلى استثناءات إيجابية مثل هوجو إيكتيكي…",
+      "image": null,
+      "pubDate": "2026-03-04T17:47:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "31fac81b4fa596b5",
@@ -535,22 +615,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "8d36b92cb5a9d247",
-      "title": "A+E Global Media Launches Storyground, a New Studio to Help Advertisers Create Content",
-      "link": "https://variety.com/2026/tv/news/ae-global-media-launches-storyground-creative-studio-1236678236/",
-      "summary": "A+E Global Media wants to ramp up the work it does to help advertisers create bespoke content for its media properties. The company, jointly controlled by Disney and Hearst, is launching Storyground, a studio that aims to help advertisers create bespoke content for A+E outlets that could include Hi…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2022/03/Paul-Buccieri.jpg",
-      "pubDate": "2026-03-04T17:30:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "87a2eb1294145f1c",
@@ -953,6 +1017,22 @@
       "region": "global"
     },
     {
+      "id": "4ab99f3c9eae7d24",
+      "title": "ما القنوات الناقلة لمباراة نابولي وتورينو في الدوري الإيطالي 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%86%D8%A7%D8%A8%D9%88%D9%84%D9%8A-%D9%88%D8%AA%D9%88%D8%B1%D9%8A%D9%86%D9%88-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt503255a896d214d4?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة نابولي وتورينو في الدوري الإيطالي 2025-2026 .. وكيف تشاهدها عبر الإنترنت",
+      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة نابولي وتورينو في الدوري الإيطالي 2025-2026 .. وكيف تشاهدها عبر الإنترنت يستضيف نابولي نظيره تورينو، الجمعة على ملعب \"دييجو أرماندو مارادونا\"، ضمن منافسات الجولة 28 من الدوري الإيطالي 2025-2026. نابولي الثالث برصيد 53 نقطة، يدخل اللقاء بحثًا عن الفوز ولا بديل عنه من أجل الاستمرار في مطاردة ميلان الوصيف بفارق 4 نقاط وإنتر المتصدر بفارق 10 نقاط. في المقابل، تورينو يحتل المركز الرابع عشر بجدول ترتيب الدوري الإيطالي برصيد 30 نقطة ويطمح في الفوز من أجل التقدم إلى مراكز الوسط. ويرصد كووورة في السطور التالية، القنوات الناقلة لمباراة نابولي وتورينو في الدوري الإيطالي 2025-2026، وطريقة مشاهدتها عبر الإنترنت.. ما القنوات الناقلة لمباراة نابولي وتورينو في الدوري الإيطالي 2025-2026؟ يمتلك تطبيق stc tv ، حقوق بث مباريات الدوري الإيطالي 2025-2026، ومن المنتظر أن يقوم بإذاعة مباراة نابولي وتورينو في الدوري الإيطالي عبر شاشته، بتعليق عربي. stc tv اشترك الآن &nbsp; كيف تشاهد مباراة&nbsp;نابولي وتورينو في الدوري الإيطالي 2025-2026&nbsp;عبر الإنترنت؟ لهواة البث عبر الإنترنت، يمكنهم مشاهدة مباراة نابولي وتورينو في الدوري الإيطالي 2025-2026 عبر تطبيق stc . ويمكن الاشتراك الآن في التطبيق ومتابعة قمم الدوري الإيطالي. &nbsp;الدوري الإيطالي مجانًا على stc tv لع…",
+      "image": "https://assets.kooora.com/images/v3/blt0b4fb401854a0cdd/Seria-A---Website-Banners-Koora-(2).png",
+      "pubDate": "2026-03-04T15:48:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a9452578efe7e2ff",
       "title": "Here’s where you can preorder Apple’s budget-friendly MacBook Neo",
       "link": "https://www.theverge.com/gadgets/888285/macbook-neo-preorder-how-to-buy-price-release-date",
@@ -1113,22 +1193,6 @@
       "region": "mena"
     },
     {
-      "id": "ea753208280be6ed",
-      "title": "اتفاق مكتوب.. الركراكي والاتحاد المغربي يوقعان وثيقة حسم المصير",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%85%D9%83%D8%AA%D9%88%D8%A8-%D8%A7%D9%84%D8%B1%D9%83%D8%B1%D8%A7%D9%83%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%8A%D9%88%D9%82%D8%B9%D8%A7%D9%86-%D9%88%D8%AB%D9%8A%D9%82%D8%A9-%D8%AD%D8%B3%D9%85-%D8%A7%D9%84%D9%85%D8%B5%D9%8A%D8%B1/blte2bdd03eced31bd3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "حسم مصير المدرب بعد جدل طويل",
-      "body": "حسم مصير المدرب بعد جدل طويل لا يزال مصير وليد الركراكي المدير الفني لمنتخب المغرب، هو الحدث الأبرز على الساحة الرياضية المغربية، في ظل الغموض السائد في هذا الملف، منذ نهائي كأس أمم أفريقيا الماضية. نفي متكرر.. لكن أين الحقيقة؟ نفى الاتحاد المغربي 3 مرات&nbsp; في بيانات رسمية، فكرة رحيل الركراكي، مؤكدًا استمراره حتى مونديال 2026. ويشارك منتخب المغرب في المونديال المقرر إقامته الصيف المقبل، بالولايات المتحدة الأمريكية وكندا والمكسيك، في المجموعة الثالثة، رفقة منتخبات البرازيل وإسكتلندا وهايتي. وكان آخر بيان قد أصدره الاتحاد المغربي يخص هذه القضية يوم الخميس الماضي، إذ قال فيه: \"تنفي الجامعة الملكية المغربية لكرة القدم الأخبار التي يتم تداولها، بشأن تعيين مدرب جديد للمنتخب الوطني\". وأضاف البيان: \"تؤكد الجامعة الملكية أنها ستبلغ الرأي العام - كما قامت به سابقا - بكل المستجدات المرتبطة بالمنتخب الوطني في وقتها المناسب\". تم توقيع الأوراق إلا أن صحيفة ليكيب الفرنسية، ذائعة الصيت، أفادت اليوم، في نبأ قاطع، بأن الاتحاد المغربي والركراكي، أنهيا الارتباط بينهما، وتم توقيع العقود التي تخص ذلك، وبالتالي لم يعد الركراكي مدربا لأسود الأطلس. من البديل؟ في الوقت الراهن، يبرز اسم المدرب محمد وهبي، 49 عامًا، كمرشح أول لخلافة الركراكي. ويستند هذا الترشيح إلى السجل المميز لوهبي، لا سيما بعد قيادته ال…",
-      "image": null,
-      "pubDate": "2026-03-04T15:06:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "b726a6f5b6069ab6",
       "title": "البدري ليلا كورة: حققنا إنجازًا تاريخيًا مع أهلي طرابلس.. وأشعر بالسعادة والفخر",
       "link": "https://www.yallakora.com/friendly-matches-club/2541/news/543417/%d8%a7%d9%84%d8%a8%d8%af%d8%b1%d9%8a-%d9%84%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d8%ad%d9%82%d9%82%d9%86%d8%a7-%d8%a5%d9%86%d8%ac%d8%a7%d8%b2-%d8%a7-%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae%d9%8a-%d8%a7-%d9%85%d8%b9-%d8%a3%d9%87%d9%84%d9%8a-%d8%b7%d8%b1%d8%a7%d8%a8%d9%84%d8%b3-%d9%88%d8%a3%d8%b4%d8%b9%d8%b1-%d8%a8%d8%a7%d9%84%d8%b3%d8%b9%d8%a7%d8%af%d8%a9-%d9%88%d8%a7%d9%84%d9%81%d8%ae%d8%b1",
@@ -1159,38 +1223,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "5042c2f71048053e",
-      "title": "الحكم بحبس هاري ماجواير 15 شهرا في قضية الاعتداء والرشوة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%A8%D8%AD%D8%A8%D8%B3-%D9%87%D8%A7%D8%B1%D9%8A-%D9%85%D8%A7%D8%AC%D9%88%D8%A7%D9%8A%D8%B1-15-%D8%B4%D9%87%D8%B1%D8%A7-%D9%81%D9%8A-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%A9/blte4e1e4446411e1d7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "فريق الدفاع يقرر الاستئناف",
-      "body": "فريق الدفاع يقرر الاستئناف في ظلال قضية امتدت لسنوات، وتحملت تأجيلات متكررة وإجراءات قانونية معقدة، أصدر حكما قضائيا ضد المدافع الإنجليزي هاري ماجواير، قائد مانشستر يونايتد. وأفادت شبكة \"سكاي سبورتس\" بأن محكمة يونانية أصدرت حكما جديدا يتعلق بحادثة وقعت قبل أكثر من خمس سنوات في جزيرة ميكونوس، كان بطلها ماجواير. وأوضحت الشبكة أن المحكمة قضت بحبس المدافع الإنجليزي هاري ماجواير لمدة 15 شهرا مع إيقاف التنفيذ، بعد إعادة محاكمة شملت اتهامات بالاعتداء غير الخطير، ومقاومة الاعتقال، ومحاولة الرشوة. يُشار إلى أن الحكم الأولي صدر عام 2020، وكان أشد قسوة (21 شهرا مع إيقاف التنفيذ أيضا)، لكنه خُفّض في هذه الجلسة مع الإبقاء على صفة الإيقاف عن التنفيذ، ما يعني عدم دخول السجن فعليا طالما لم تحدث مخالفات جديدة. وينفي ماجواير جملة وتفصيلاً التهم الموجهة إليه، وقد أكد فريقه القانوني عزمه على الاستئناف أمام محكمة أعلى في اليونان، وهو إجراء يُلغي – وفقا للقانون اليوناني – تنفيذ الحكم الحالي لحين البت في الاستئناف. وتعود جذور الواقعة إلى أغسطس/ آب 2020، حين وقع شجار تورطت فيه عائلة اللاعب أمام أحد الحانات، أدى إلى تدخل الشرطة واعتقاله لفترة قصيرة. ورغم مرور وقت طويل والتأجيلات المتعددة (أربع مرات سابقة بين 2023 و2025)، إلا أن الجلسة الأخيرة في مارس/ آذار 2026 أنهت مرحلة من التقاضي بإصدار هذا الحكم المخف…",
-      "image": null,
-      "pubDate": "2026-03-04T14:57:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "cd58d478a386889b",
-      "title": "\"ريال مدريد يفشل في إنقاذه\".. إعلان عقوبة ماستانتونو بعد طرده أمام خيتافي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D9%81%D8%B4%D9%84-%D9%81%D9%8A-%D8%A7%D9%95%D9%86%D9%82%D8%A7%D8%B0%D9%87-%D8%A7%D9%95%D8%B9%D9%84%D8%A7%D9%86-%D8%B9%D9%82%D9%88%D8%A8%D8%A9-%D9%85%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AA%D9%88%D9%86%D9%88-%D8%A8%D8%B9%D8%AF-%D8%B7%D8%B1%D8%AF%D9%87-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%AE%D9%8A%D8%AA%D8%A7%D9%81%D9%8A/blt834f24e2a9e624c1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تم تثبيت إنذار تشواميني",
-      "body": "تم تثبيت إنذار تشواميني أعلنت لجنة الانضباط بالاتحاد الإسباني، عقوبة فرانكو ماستانتونو، لاعب ريال مدريد، بعد طرده بالبطاقة الحمراء المباشرة في مباراة خيتافي.&nbsp; وشهدت مباراة ريال مدريد وخيتافي، ضمن منافسات الجولة 26 من الدوري الإسباني، توترا متصاعدا في الوقت بدل الضائع. ومني ريال مدريد بهزيمة مفاجئة أمام خيتافي 0-1، في المباراة التي أقيمت على ملعب \"سانتياجو برنابيو\"، معقل الميرينجي. وتلقى الشاب الأرجنتيني فرانكو ماستانتونو لاعب ريال مدريد، الذي حل بديلاً في الشوط الثاني مكان أردا جولر، بطاقة حمراء مباشرة في الدقائق الأخيرة. وجاء ذلك بعدما دخل ماستانتونو في مشادة كلامية مع الحكم أليخاندرو مونيز رويز، بعد تبادل كلمات حادة أثناء تنفيذ رمية تماس. ووفقًا لتقرير الحكم، قال ماستانتونو: \"يا للعار، يا للعار اللعين\". وقالت صحيفة \"موندو ديبورتيفو\"، فقد قررت اللجنة إيقاف ماستانتونو، لمباراتين بسبب \"سلوكه غير المحترم أو المهين تجاه الحكام أو المسؤولين أو السلطات الرياضية، مع غرامة إضافية وفقًا للمادة 52 من قانون الانضباط (المادة 124)\".&nbsp; استأنف ريال مدريد قرار طرد ماستانتونو، لكن اللجنة التأديبية رفضت حجج النادي وأيدت الإيقاف لمباراتين.&nbsp; وسيغيب ماستانتونو، عن ريال مدريد، في مواجهتي سيلتا فيجو وإلتشي بالليجا، على أن يكون متاحا لمباراة الديربي أمام أتلتيكو مدريد، يوم 22 مارس/أذار الج…",
-      "image": null,
-      "pubDate": "2026-03-04T14:57:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "273424a3027de0f6",
@@ -1415,22 +1447,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "ff072152a25eb5d5",
-      "title": "نحو زميله السابق.. ما حقيقة رحيل مالكوم عن الهلال؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AD%D9%88-%D8%B2%D9%85%D9%8A%D9%84%D9%87-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%85%D8%A7-%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D8%B1%D8%AD%D9%8A%D9%84-%D9%85%D8%A7%D9%84%D9%83%D9%88%D9%85-%D8%B9%D9%86-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blt5bc1da5af37e3b6f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم البرازيلي يرتبط اسمه بالانتقال إلى الدوري البرازيلي",
-      "body": "النجم البرازيلي يرتبط اسمه بالانتقال إلى الدوري البرازيلي كشفت تقارير صحفية عن حقيقة رحيل البرازيلي مالكوم، نجم الهلال، عن صفوف الفريق، خلال فترة الانتقالات الصيفية المقبلة، من أجل مجاورة زميله السابق في \"الزعيم\". ونقلت صحيفة \"اليوم\" السعودية تقارير صحفية برازيلية، تفند صحة الأنباء التي ربطت بين بعض الأندية البرازيلية ومالكوم خلال الفترة الأخيرة، وفي مقدمتها نادي كورينثيانز. وقالت التقارير إنه لا توجد أي تحركات رسمية أو غير رسمية في الوقت الحالي، سواءً من كورينثيانز أو الأندية البرازيلية الأخرى، للتعاقد مع نجم الهلال في الميركاتو الصيفي المقبل. ويرتبط كورينثيانز بعلاقة جيدة مع الهلال، حيث استعار منه نجمه البرازيلي كايو سيزار خلال فترة الانتقالات الشتوية الماضية، حتى نهاية الموسم الحالي. وتزامل مالكوم مع مواطنه كايو سيزار لمدة موسم في صفوف الهلال، وتحديدًا منذ انتقال الأخير إلى \"الزعيم\" خلال فترة الانتقالات الشتوية لعام 2025. ويُقدم مالكوم مستويات جيدة مع الهلال منذ بداية الموسم الحالي، حيث شارك في 28 مباراة، نجح خلالها في تسجيل 8 أهداف، كما قدم 10 تمريرات حاسمة.",
-      "image": null,
-      "pubDate": "2026-03-04T13:50:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "56bc3af357bf6b69",
