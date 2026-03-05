@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T21:53:51.402Z",
-    "total": 415,
+    "generated_at": "2026-03-05T22:18:27.841Z",
+    "total": 343,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -19,19 +19,6 @@
         ],
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 72,
-        "error": null,
         "notModified": false
       },
       {
@@ -61,6 +48,19 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "Sky News Arabia Varieties",
         "url": "https://www.skynewsarabia.com/rss/varieties.xml",
         "homepage": "https://www.skynewsarabia.com/varieties",
@@ -87,32 +87,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
         "name": "Delish",
         "url": "https://www.delish.com/rss/all.xml/",
         "homepage": "https://www.delish.com/rss/all.xml/",
@@ -129,6 +103,58 @@
         "name": "Youm7 — منوعات",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -178,9 +204,9 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -191,9 +217,9 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -214,32 +240,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
         "notModified": false
       },
       {
@@ -324,6 +324,86 @@
   },
   "items": [
     {
+      "id": "0ddd94ee21e70749",
+      "title": "Wakefield deservedly beat struggling Hull FC",
+      "link": "https://www.bbc.com/sport/rugby-league/articles/cx2jy16z59zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wakefield Trinity battle to a hard-fought Super League win over injury-hit Hull FC.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-05T22:17:31.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5fd7ffaa239de308",
+      "title": "We May Be Losing An Hour Of Sleep, But These Easy Breakfasts Will Get You Out Of Bed",
+      "link": "https://www.delish.com/cooking/recipe-ideas/g70626241/breakfast-recipes-for-daylight-saving-time/",
+      "summary": "Don't let springing forward set you back.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/scallion-pancake-breakfast-wraps-index-web-012-lp-del029926-698f93dc75c7d.jpg",
+      "pubDate": "2026-03-05T22:17:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "07ab1006f6b15d11",
+      "title": "How relegation could cost Spurs more than £250m",
+      "link": "https://www.bbc.com/sport/football/articles/cvg11ypd7gko?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport explores the potential financial impact should Spurs be relegated to the Championship.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-05T22:06:49.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "31cd309883ce1f0e",
+      "title": "McCullum wants to stay as England coach – will he get the chance?",
+      "link": "https://www.bbc.com/sport/cricket/articles/crk814exkn8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Brendon McCullum wants to stay as England coach but it is still up for debate whether he will get that chance, writes Matthew Henry.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-05T22:02:32.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f8ab05d8b6d6c045",
+      "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
+      "link": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/",
+      "summary": "Sources allege the Defense Department experimented with Microsoft’s version of OpenAI technology before the ChatGPT-maker lifted its prohibition on military applications.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-05T22:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "f3deb6a852ec24d0",
       "title": "إلغاء رحلات الخطوط الملكية من وإلى الدوحة",
       "link": "https://assabah.ma/906973.html",
@@ -388,8 +468,8 @@
       "region": "global"
     },
     {
-      "id": "693daa907fd3a188",
-      "title": "It’s Peak Season for Birdwatchers to Spot Migratory Hummingbirds, and Our Favorite Feeder Is on Sale",
+      "id": "e8decb218785c653",
+      "title": "It’s Peak Season for Bird-Watchers to Spot Migratory Hummingbirds, and Our Favorite Feeder Is on Sale",
       "link": "https://www.wired.com/story/its-time-to-put-out-your-hummingbird-feeders-2026/",
       "summary": "Early March is the best time to see rare migratory species in your own backyard, and a smart feeder can help you ID them.",
       "body": null,
@@ -452,6 +532,70 @@
       "region": "global"
     },
     {
+      "id": "1dd596282c63f50c",
+      "title": "جدول مباريات الدوري الإنجليزي 2025-2026، القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt28b7c412b9304dab?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات الدوري الإنجليزي 2025-2026..",
+      "body": "تعرف على مباريات الدوري الإنجليزي 2025-2026.. نجح ليفربول في حصد لقب الدوري الإنجليزي 2024-2025 للمرة العشرين في تاريخه ليعادل مانشستر يونايتد كأكثر فريق إنجليزي تتويجًا باللقب. وقاد محمد صلاح فريقه للقب آخر في البريمييرليج بعد موسم 2019-2020 ليؤكد تفوق الريدز على باقي الخصوم بعد حسم اللقب قبل أربع جولات كاملة من النهاية. وأوقف الريدز سلسلة مانشستر سيتي الذي فاز بالدوري الإنجليزي 4 مرات على التوالي، ليخرج بموسم إيجابي رغم الخروج المبكر من دوري أبطال أوروبا وخسارة نهائي كأس الرابطة. وتنطلق النسخة الجديدة من البريميرليج بمواجهة ليفربول وبورنموث يوم الجمعة الموافق 15 أغسطس/آب على ملعب أنفيلد. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإنجليزي 2025-2026، والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإنجليزي 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 30 20 7 3 59 22 37 67 2 مانشستر سيتي 29 18 6 5 59 27 32 60 3 مانشستر يونايتد 29 14 9 6 51 40 11 51 4 أستون فيلا 29 15 6 8 39 34 5 51 5 تشيلسي 29 13 9 7 53 34 19 48 6 ليفربول 29 14 6 9 48 39 9 48 7 برينتفورد 29 13 5 11 44 40 4 44 8 إيفرتون 29 12 7 10 34 33 1 43 9 بورنموث 29 9 13 7 44 46 -2 40 10 فولهام 29 12 4 13 40 43 -3 40 11 سندرلاند 29 10 10 9 3…",
+      "image": null,
+      "pubDate": "2026-03-05T20:15:44.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "298b2bca34dc2de6",
+      "title": "سايس: لم أصدق \"بانينكا\" دياز.. وحكيمي وزياش لم يفعلوا مثله",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A7%D9%8A%D8%B3-%D9%84%D9%85-%D8%A7%D9%94%D8%B5%D8%AF%D9%82-%D8%A8%D8%A7%D9%86%D9%8A%D9%86%D9%83%D8%A7-%D8%AF%D9%8A%D8%A7%D8%B2-%D9%88%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%88%D8%B2%D9%8A%D8%A7%D8%B4-%D9%84%D9%85-%D9%8A%D9%81%D8%B9%D9%84%D9%88%D8%A7-%D9%85%D8%AB%D9%84%D9%87/bltfb28f87b545e80ff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "سايس يروي لحظات الصدمة",
+      "body": "سايس يروي لحظات الصدمة تحدث المدافع الدولي المغربي، رومان سايس، بكثير من الشجن عن كواليس اللحظات الأخيرة من نهائي كأس الأمم الإفريقية 2025 أمام السنغال، الذي خسره المغرب (1-0) في الوقت الإضافي.&nbsp; ووصف سايس ركلة الجزاء، التي نفذها زميله إبراهيم دياز، بـ\"اللحظة الصعبة\" التي وضعت الجميع تحت ضغط هائل. اقرأ أيضًا في عمر عامين.. نبوءة قديمة رسمت المجد لإبراهيم دياز لأول مرة منذ كارثة الكان.. دياز يكسر الجليد مع جماهير المغرب ووفقًا لصحيفة \"البطولة\" المغربية (نقلًا عن بودكاست Colinterview)، عبّر سايس عن ذهوله من طريقة تنفيذ الركلة، قائلًا: \"عندما رأيت إبراهيم يسدد على طريقة (بانينكا)، وضعت يدي على رأسي، ولم أصدق اختياره في ذلك التوقيت الحاسم\".&nbsp; وأضاف سايس أن القول بتعمد إضاعة الركلة هو \"مجرد ترهات\"، مشيرًا إلى أن دياز أراد أن يصبح \"بطلًا خارقًا\" بطريقة تنفيذه للكرة، لكنه لم يوفق \"وهو درس سيجعله أقوى في المستقبل\". وأوضح أنه كان يتمنى لو سُددت الكرة بقوة في وسط المرمى، لضمان حسم اللقب الإفريقي، مذكرًا بأن كبار النجوم مثل حكيمي وزياش أضاعوا ركلات من قبل، لكن \"بانينكا\" في النهائي كانت مخاطرة كبيرة. ووصف حالته بعد صافرة النهاية، قائلًا: \"شعرت بفراغ كبير وصدمة، كأنني أعيش كابوسًا، لم أمتلك حتى القدرة على البكاء أو الغضب\". &nbsp;",
+      "image": null,
+      "pubDate": "2026-03-05T20:15:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "4dbe44e2b0843bde",
+      "title": "فيديو: لقطة طريفة.. هدف يعالج لاعبًا من الإصابة في دوري روشن",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%82%D8%B7%D8%A9-%D8%B7%D8%B1%D9%8A%D9%81%D8%A9-%D9%87%D8%AF%D9%81-%D9%8A%D8%B9%D8%A7%D9%84%D8%AC-%D9%84%D8%A7%D8%B9%D8%A8%D9%8B%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/bltd7137ead23270e48?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الدوري السعودي شهد لقطة طريفة في مباراة ضمك والرياض",
+      "body": "الدوري السعودي شهد لقطة طريفة في مباراة ضمك والرياض شهدت مباراة في دوري روشن السعودي لقطة طريفة، بعدما تعافى لاعب من إصابته سريعًا بعد تسجيل هدف. وفاز ضمك على الرياض بنتيجة 3-0 ، الخميس، على ملعب مدينة الأمير سلطان بن عبدالعزيز الرياضية في أبها، في افتتاح مباريات الجولة الخامسة والعشرين من دوري روشن. وفي الدقيقة 53 من عمر المباراة، سجل الأرجنتيني فالنتين فادا، لاعب ضمك، الهدف الثاني للفريق، بعدما انفرد بمرمى الحارس الكندي ميلان بوريان. وقبل أن تُكمل الكرة طريقها إلى الشباك، سقط فادا داخل منطقة الجزاء، وأخذ يتألم من الإصابة، حيث كان يطالب بالحصول على ركلة جزاء، بداعي تعرضه للإعاقة. وبعد ثوانٍ معدودة، أدرك اللاعب الأرجنتيني أن الكرة سكنت الشباك، وأن الحكم قد احتسب الهدف لصالحه، لينهض سريعًا ويركض احتفالًا بالهدف، وكأنه لم يكن مُصابًا قبل لحظات. وبفضل هذا الهدف، حصل فالنتين فادا على جائزة أفضل لاعب في المباراة عقب نهايتها، ليواصل تألقه مع ضمك خلال الموسم الحالي. لقطة طريفة للاعب ضمك فادا. #دورينا_غير pic.twitter.com/qVpKs1mbAa &mdash; #دورينا_غير (@SBA_sport) March 5, 2026",
+      "image": null,
+      "pubDate": "2026-03-05T20:04:45.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f5f41e486615a0b0",
+      "title": "الأحزان تتوالى على برشلونة بصدمة جديدة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D8%B3%D9%84%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%94%D8%AD%D8%B2%D8%A7%D9%86-%D8%AA%D8%AA%D9%88%D8%A7%D9%84%D9%89-%D8%B9%D9%84%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D8%B5%D8%AF%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/bltd7c49f5ea640e30c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تتوالى الأحزان على نادي برشلونة، بصدمة جديدة، على مستوى كرة السلة، بعد توديع فريق كرة القدم، منافسات كأس ملك إسبانيا.",
+      "body": "تتوالى الأحزان على نادي برشلونة، بصدمة جديدة، على مستوى كرة السلة، بعد توديع فريق كرة القدم، منافسات كأس ملك إسبانيا. وكان برشلونة قد ودع كأس ملك إسبانيا، من نصف النهائي، بعد خسارته ذهابا 0-4 أمام أتلتيكو مدريد، وفوزه إيابًا بنتيجة 3-0. وخسر برشلونة أمام أرماني ميلانو بنتيجة 84-87 في الدوري الأوروبي لكرة السلة، اليوم الخميس. وذكرت صحيفة \"سبورت\" أن برشلونة تعرض للخسارة الثالثة على التوالي في الدوري الأوروبي. ورغم انتفاضة برشلونة في الربع الأخير، لكن ذلك لم يكن كافيًا لتجنب الهزيمة أمام أرماني ميلانو. وبات الفريق الكتالوني في موقف صعب لتأمين التأهل إلى الأدوار الإقصائية، إذا لم يتحسن الأداء سريعًا. اقرأ أيضًا لابورتا: لن نبرم صفقات مجنونة.. وسنحافظ على \"الكنز\"",
+      "image": null,
+      "pubDate": "2026-03-05T20:03:45.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "75d62fb0820cb6f1",
       "title": "UFC champion Aspinall signs for Hearn's new talent agency",
       "link": "https://www.bbc.com/sport/mixed-martial-arts/articles/ckglenvd8zmo?at_medium=RSS&at_campaign=rss",
@@ -500,6 +644,22 @@
       "region": "global"
     },
     {
+      "id": "074215d6f9a14ade",
+      "title": "فيتينيا عن الانتقال إلى ريال مريد: ستكون حماقة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AA%D9%8A%D9%86%D9%8A%D8%A7-%D8%B9%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A7%D9%95%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%B1%D9%8A%D8%AF-%D8%B3%D8%AA%D9%83%D9%88%D9%86-%D8%AD%D9%85%D8%A7%D9%82%D8%A9/bltd46a2c134334ed5d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اللاعب البرتغالي يصف نجم برشلونة بـ \"الساحر\"",
+      "body": "اللاعب البرتغالي يصف نجم برشلونة بـ \"الساحر\" في تصريحات حملت نبرة حاسمة ومفاجئة، وجه لاعب وسط باريس سان جيرمان رسالة واضحة قد تغلق بابًا كان يُعتقد أنه مفتوح على مصراعيه أمام الانتقال إلى ريال مدريد. وأكد البرتغالي فيتينيا (26 عامًا)، في مقابلة قناة الاتحاد البرتغالي لكرة القدم نقلتها إذاعة كوبي الإسبانية، أن الانتقال المحتمل إلى ريال مدريد لن يكون \"الخيار الأمثل\" لمسيرته في الوقت الراهن، مشددًا على أن مغادرة باريس سان جيرمان حاليًا ستكون \"حماقة\" بحسب تعبيره. وقال فيتينيا صراحة: \"أعتقد أن الانتقال إلى ريال مدريد ليس الخيار الأفضل بالنسبة لي الآن. أشعر براحة كبيرة في باريس سان جيرمان، الناس هنا يحبونني كثيرًا، وقد بذلت الكثير لأكسب هذا الحب والتقدير. أحب التواجد هنا، والرحيل سيكون غباءً\". ويأتي هذا الموقف بعد موسم استثنائي للاعب الذي ساهم بشكل حاسم في تتويج باريس سان جيرمان بدوري أبطال أوروبا، إلى جانب فوز المنتخب البرتغالي بدوري الأمم الأوروبية، ما جعله يحتل المركز الثالث في سباق الكرة الذهبية الأخيرة خلف لامين يامال (برشلونة) وعثمان ديمبيلي (زميله في باريس). ورفض فيتينيا، رغم إقراره بأنه \"من بين الأفضل\" في مركزه، فكرة أنه أفضل لاعب وسط في العالم حاليًا، مشيرًا إلى وجود منافسة قوية تضم مواطنيه جواو نيفيس (باريس سان جيرمان) وبرونو فرنانديز (مانشستر يونايتد)، فضلاً عن الإسباني بيدري…",
+      "image": null,
+      "pubDate": "2026-03-05T19:53:43.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "2ea19b1d5f91baeb",
       "title": "A Serious Mislabeling Issue Is Behind This New Frito-Lay Recall",
       "link": "https://www.delish.com/food-news/a70622040/frito-lay-miss-vickies-chips-milk-recall/",
@@ -535,7 +695,7 @@
       "id": "e98cfa240fb9c375",
       "title": "The Controversies Finally Caught Up to Kristi Noem",
       "link": "https://www.wired.com/story/the-controversies-finally-caught-up-to-kristi-noem/",
-      "summary": "Donald Trump said he would replace the secretary of the Department of Homeland Security. Noem’s tenure was marked by aggressive anti-immigration tactics and ICE’s killing of two US protesters.",
+      "summary": "Donald Trump said he would replace the secretary of the Department of Homeland Security. Noem’s tenure was marked by aggressive anti-immigration tactics and ICE and CBP’s killing of two US protesters.",
       "body": null,
       "image": null,
       "pubDate": "2026-03-05T19:43:46.000Z",
@@ -548,22 +708,6 @@
       "region": "global"
     },
     {
-      "id": "a84501aa2fc67ee3",
-      "title": "McCullum would 'love' to remain England head coach",
-      "link": "https://www.bbc.com/sport/cricket/articles/cjwz838ew5lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Brendon McCullum reiterates his desire to remain as England head coach after an agonising defeat in the T20 World Cup semi-finals ended a bruising winter.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-05T19:39:45.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "1db6e86e8da781c3",
       "title": "تواضع مبابي يثير الجدل في باريس",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%88%D8%A7%D8%B6%D8%B9-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D9%81%D9%8A-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3/blt8f730db9942a229d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -571,6 +715,22 @@
       "body": "شوهد كيليان مبابي نجم ريال مدريد، وهو يقود سيارة متواضعة يبلغ سعرها 35 ألف جنيه إسترليني، خلال وجوده في باريس، رغم راتبه السنوي الضخم الذي يصل إلى 12.8 مليون إسترليني. وبحسب صحيفة \"الديلي ميل\"، فإن مبابي يملك مجموعة من السيارات الفاخرة تُقدر قيمتها بحوالي مليوني جنيه إسترليني. لكن اللاعب الفرنسي ترك مجموعة السيارات الفاخرة، وفضل قيادة سيارة ميني كوبر المكشوفة، أثناء تنقله في باريس. وكان مبابي قد عاد إلى باريس، للحصول على رأي طبي ثان، بشأن إصابة في الركبة قد تُبعده عن مواجهة فريقه المرتقبة أمام مانشستر سيتي في ثمن نهائي دوري أبطال أوروبا. وبحسب التقارير، شوهد مبابي، وهو يقود السيارة بعد فترة قصيرة من حصوله على رخصة القيادة مؤخرا، بعدما استغل فترة ابتعاده بسبب الإصابة، لاجتياز اختبار القيادة. ورغم امتلاكه سيارات فارهة مثل فيراري SF90، والتي تصل قيمتها إلى 400 ألف إسترليني، وBMW i7 التي تقدر بحوالي 140 ألف إسترليني، فقد فضّل هذه المرة، سيارة أصغر وأقل تكلفة أثناء إقامته في باريس.",
       "image": null,
       "pubDate": "2026-03-05T19:38:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "381fb669492ff7d3",
+      "title": "جدول ترتيب هدافي الدوري الإنجليزي 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%87%D8%AF%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026/blt4c9a67df4503f089?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على هدافي الدوري الإنجليزي 2025-2026",
+      "body": "تعرف على هدافي الدوري الإنجليزي 2025-2026 حينما يتعلق الأمر بالدوري الإنجليزي، فكل مباراة تعد بالإثارة والجنون والحماسة والتقلبات المختلفة في النتائج والمستويات. ليفربول حقق الدوري الإنجليزي الممتاز الموسم الماضي وتصدر محمد صلاح الهدافين متفوقًا على ألكسندر إيساك وإيرلينج هالاند. وعلى المستوى الفردي، تألق أكثر من لاعب وسجل العديد من الأهداف مثل كول بالمير وكريس وود وكذلك بريان مبيومو، الذي انضم الموسم الحالي إلى مانشستر يونايتد. ومع انطلاق موسم جديد، يتطلع الجمهور لمنافسة شرسة على لقب الهداف بنفس قدر شراسة البحث عن الألقاب للفرق. وفي الأسطر التالية من كووورة نتعرف سويًا على ترتيب هدافي الدوري الإنجليزي موسم 2025-2026. هدافي الدوري الإنجليزي 2025-2026: محمد صلاح يكسر صيامه التهديفي في البريميرليج &nbsp; &nbsp; الترتيب اللاعب الفريق عدد الأهداف 1 إيرلينج هالاند مانشستر سيتي 22 2 إيجور تياجو برينتفورد 18 3 أنطوان سيمنيو بورنموث/مانشستر سيتي 15 4 جواو بيدرو&nbsp; تشيلسي 14 =4 هوجو ايكتيكي ليفربول 11 =6 فيكتور جيوكيرس آرسنال 10 =6 دومينيك كالفيرت ليوين ليدز يونايتد 10 =6 داني ويلبيك برايتون 10 =9 كول بالمر تشيلسي 9 =9 بريان مبويمو مانشستر يونايتد 9 =9 برونو جيمارايش نيوكاسل يونايتد 9 =9 هاري ويلسون فولهام 9 =13 إنزو فيرنانديز تشيلسي 8 =13 بنجامين سيسكو مانشستر يونايتد 8 =13 ريتشارليسون…",
+      "image": null,
+      "pubDate": "2026-03-05T19:35:28.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -852,22 +1012,6 @@
       "region": "global"
     },
     {
-      "id": "44b58588506c5fcf",
-      "title": "بيل يصدم زيدان.. ويتجاهل بنزيما ورونالدو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D9%8A%D9%84-%D9%8A%D8%B5%D8%AF%D9%85-%D8%B2%D9%8A%D8%AF%D8%A7%D9%86-%D9%88%D9%8A%D8%AA%D8%AC%D8%A7%D9%87%D9%84-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7-%D9%88%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/bltf99abe1c9ddc1a49?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "زيدان لم يكن يقوم بالكثير من العمل التكتيكي",
-      "body": "زيدان لم يكن يقوم بالكثير من العمل التكتيكي تحدث جاريث بيل، أسطورة منتخب ويلز، عن المدربين اللذين عملا معه في ريال مدريد، وهما كارلو أنشيلوتي وزين الدين زيدان. ونشرت صحيفة آس، تصريحات بيل، خلال ظهوره في بودكاست \"ستيك تو فوتبول ماجازين\". وقال بيل \"زيدان حظي باحترام كبير بسبب مسيرته كلاعب. أما أنشيلوتي فكان الأفضل في إدارة الفريق\". وأضاف \"حتى لو لم تلعب، أنشيلوتي يجعلك تشعر كأنك أفضل أصدقائه. لديه قدرة مذهلة على إبقاء الجميع سعداء ومستعدين لتقديم كل شيء\". هازارد كان الأسوأ في التدريبات وأوضح بيل \"زيدان لم يكن يقوم بالكثير من العمل التكتيكي؛ كنا نتدرب على الاستحواذ والتسديد، وربما 15 دقيقة من التنظيم الدفاعي فقط. لكنه كسب احترام الجميع بفضل مسيرته كلاعب\". أما أفضل مدرب عمل معه، بحسب جاريث بيل، فهو كارلو أنشيلوتي. وكشف اللاعب الويلزي، أن أفضل اللاعبين في التدريبات، هما لوكا مودريتش وتوني كروس، متجاهلًا اختيار كريستيانو رونالدو وكريم بنزيما، اللذين شكلا معه ثلاثية BBC الهجومية. ولفت \"إيسكو كان قريباً من مستوى زيدان في المهارة، خصوصاً في المباريات المصغرة. بينما هازارد كان الأسوأ في التدريبات بسبب الإصابات التي تعرض لها في الكاحل\". اقرأ أيضًا نجم ريال مدريد السابق يمتدح كارفاخال: مثل \"الكلب\"",
-      "image": null,
-      "pubDate": "2026-03-05T18:04:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "a2e410923ab1bc21",
       "title": "Caf postpones Wafcon 2026 just 12 days before kick-off",
       "link": "https://www.bbc.com/sport/football/articles/c24dg1m1v27o?at_medium=RSS&at_campaign=rss",
@@ -884,38 +1028,6 @@
       "region": "global"
     },
     {
-      "id": "db3df5f7c18f294c",
-      "title": "الاتحاد الأفريقي يعاقب الجيش الملكي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%8A%D8%B9%D8%A7%D9%82%D8%A8-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A/blta118cd74a6988c2e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "عاقب الاتحاد الأفريقي لكرة القدم، نادي الجيش الملكي المغربي، بعد الأحداث التي وقعت خلال لقاء الأهلي المصري.",
-      "body": "عاقب الاتحاد الأفريقي لكرة القدم، نادي الجيش الملكي المغربي، بعد الأحداث التي وقعت خلال لقاء الأهلي المصري. وحل الجيش الملكي، ضيفًا على الأهلي، في ختام دور المجموعات لدوري أبطال أفريقيا، على ستاد القاهرة الدولي. وفرض الكاف، غرامة مالية قدرها 20 ألف دولار، على الجيش الملكي، بسبب تصرفات جماهيره في اللقاء، الذي انتهى بالتعادل السلبي. وكان الاتحاد الأفريقي قد عاقب الأهلي المصري، بمنع حضور جماهيره لمدة مباراتين، على أن تكون الثانية مع إيقاف التنفيذ. كما فرض الكاف، غرامة مالية على الأهلي، قدرها 60 ألف دولار. يذكر أن الأهلي سيواجه الترجي التونسي في ربع نهائي دوري أبطال أفريقيا، أما الجيش الملكي، فسيلتقي بيراميدز حامل اللقب. اقرأ أيضًا بالفيديو.. لعنة \"بانينكا\" تواصل ضرب المغاربة",
-      "image": null,
-      "pubDate": "2026-03-05T18:01:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8566f719c5bc8fb2",
-      "title": "هل تشارك إيران في المونديال؟.. رئيس الاتحاد يدلي بتصريح متشائم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D8%A7%D9%95%D9%8A%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%8A%D8%AF%D9%84%D9%8A-%D8%A8%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD-%D9%85%D8%AA%D8%B4%D8%A7%D9%8A%D9%94%D9%85/blt95c60fe644e4331f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الحرب أثرت سلبًا على المنتخب الإيراني",
-      "body": "الحرب أثرت سلبًا على المنتخب الإيراني خرج مهدي تاج، رئيس الاتحاد الإيراني لكرة القدم، بتصريحات مثيرة للجدل اليوم الخميس، ألقى فيها بظلال من الشك حول مشاركة منتخب بلاده في نهائيات كأس العالم 2026، المقررة في الولايات المتحدة وكندا والمكسيك.&nbsp; وأشار تاج إلى أن الحرب الحالية والتوترات السياسية مع الولايات المتحدة \"تجعل الرؤية ضبابية وغير واضحة\"، بحسب شبكة \"بارسينه\" الإيرانية. اقرأ أيضًا نقل مباراتي إسبانيا مع مصر والأرجنتين إلى قارة أخرى تحول مفاجئ في موقف لاعبات إيران من النشيد الوطني وأضاف أنه لا يملك في الوقت الحالي \"رؤية متفائلة\" تجاه التواجد في المونديال، موضحًا أن كبار المسؤولين في الحكومة الإيرانية سيقيمون الوضع العام، قبل اتخاذ قرار نهائي.&nbsp; واعتبر رئيس الاتحاد الإيراني أن \"الظروف الأمنية والسياسية أثرت بالفعل على استعدادات المنتخب، حيث تم إلغاء مباريات شهر مارس الودية\". وكانت قرعة المونديال قد أوقعت المنتخب الإيراني في المجموعة السابعة، التي تضم إلى جانبه منتخبات مصر، بلجيكا، ونيوزيلندا.",
-      "image": null,
-      "pubDate": "2026-03-05T17:54:12.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "cd7093618ee4cb33",
       "title": "India beat England in epic semi-final despite Bethell ton",
       "link": "https://www.bbc.com/sport/cricket/articles/c1w55vgn22zo?at_medium=RSS&at_campaign=rss",
@@ -930,54 +1042,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "cd7093618ee4cb33",
-      "title": "India beat England in epic semi-final despite Bethell ton",
-      "link": "https://www.bbc.com/sport/cricket/articles/c1w55vgn22zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jacob Bethell's thrilling century is not enough as India pip England by just seven runs to seal a spot in the T20 World Cup final.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-05T17:48:29.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "dbe2de29844c4a8e",
-      "title": "تحول مفاجئ في موقف لاعبات إيران من النشيد الوطني",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AD%D9%88%D9%84-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%81%D9%8A-%D9%85%D9%88%D9%82%D9%81-%D9%84%D8%A7%D8%B9%D8%A8%D8%A7%D8%AA-%D8%A7%D9%95%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D8%B4%D9%8A%D8%AF-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A/blte1da285962e0519b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المنتخب الإيراني تلقى الهزيمة الثانية في بطولة آسيا",
-      "body": "المنتخب الإيراني تلقى الهزيمة الثانية في بطولة آسيا تلقى المنتخب الإيراني لكرة القدم للسيدات خسارة ثقيلة أمام نظيره الأسترالي (4-0)، في المباراة التي جمعتهما اليوم الخميس بمدينة \"جولد كوست\" الأسترالية، ضمن منافسات المجموعة الأولى لكأس آسيا. واتجهت الأنظار صوب اللاعبات الإيرانيات، أثناء مراسم عزف النشيد الوطني قبل انطلاق صافرة البداية، حيث شهدت المباراة تحولًا لافتًا، بعدما رددت اللاعبات النشيد الوطني لبلادهن، في خطوة مغايرة لموقفهن في المباراة الأولى أمام كوريا الجنوبية، الاثنين الماضي، حين التزمن الصمت التام. اقرأ أيضًا موقف غير متوقع.. الاتحاد الأمريكي يرد على تهديدات إيران بالانسحاب من المونديال فيديو: آزادي تحت القصف.. تدمير أكبر ملعب في إيران وفُسر موقف اللاعبات حينها كرمز للحداد، أو تحدي النظام الإيراني، في ظل استمرار الحرب والتوترات. وكانت المهاجمة الإيرانية، سارة ديدار، قد أثارت التعاطف خلال المؤتمر الصحفي الذي سبق اللقاء، حين غلبتها الدموع وهي تعبر عن القلق الشديد، الذي يساور اللاعبات والجهاز الفني على عائلاتهم وأحبائهم في الداخل الإيراني.&nbsp;",
-      "image": null,
-      "pubDate": "2026-03-05T17:38:06.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a2bb22c6e02821a0",
-      "title": "دوري جوي للنخبة.. جيسوس يدعم النصر بلاعب جديد قبل جولات الحسم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9-%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D9%8A%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A8%D9%84%D8%A7%D8%B9%D8%A8-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%AC%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B3%D9%85/bltaeab1e9bf328c60c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تدعيم قوي لـ\"العالمي\" في الدوري السعودي تحت 21 عامًا",
-      "body": "تدعيم قوي لـ\"العالمي\" في الدوري السعودي تحت 21 عامًا قرر البرتغالي جورجي جيسوس، المدير الفني للفريق الأول في نادي النصر، تدعيم فريق تحت 21 عامًا، بلاعب جديد، قبل جولات الحسم في بطولة دوري جوي للنخبة (الدوري السعودي تحت 21 عامًا). ويستعد فريق النصر تحت 21 عامًا لخوض آخر 3 جولات في دوري جوي للنخبة، حيث يلاقي النجمة والتعاون، يومي 9 و15 مارس/آذار الجاري، قبل مواجهة الهلال في ديربي الرياض يوم 6 أبريل/نيسان المقبل. شاهد دوري جوّي السعودي عبر stc tv سجل الآن! وقالت صحيفة \"الرياضية\" السعودية إن جيسوس قرر تحويل لاعب الوسط سامي النجعي إلى فريق تحت 21 عامًا، بعد تعافيه من الإصابة التي تعرض لها في الرباط الصليبي خلال الفترة الماضية. ويغيب النجعي عن النصر منذ نحو عام ونصف، وتحديدًا منذ مواجهة الرائد في الجولة الأولى من الموسم الماضي، يوم 22 أغسطس/آب 2024، والتي تعرض فيها للإصابة في الرباط الصليبي. وعاد لاعب الوسط المخضرم إلى تدريبات النصر، في منتصف فبراير/شباط الماضي ، لكن المدرب البرتغالي قرر تحويله إلى فريق تحت 21 عامًا، من أجل استعادة حساسية الكرة قبل العودة للفريق الأول. وبحسب الصحيفة، فإن النجعي سيبدأ أساسيًا مع فريق النصر تحت 21 عامًا، عندما يواجه النجمة، يوم الإثنين المقبل، في الجولة الثامنة عشرة من دوري جوي للنخبة، على أن يعود للفريق الأول بعد عيد الفطر المبارك. يُذكر أن النصر يحتل ال…",
-      "image": "https://assets.kooora.com/images/v3/blt435ab8f1128b32fc/Banner%20-%20Monthly%20Player%20Rankings%20Dark%20%20copy.jpg",
-      "pubDate": "2026-03-05T17:35:55.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "578b52c9f0ec4a1b",
@@ -1026,22 +1090,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "3edba5607cf6837c",
-      "title": "بعد أرقامه القوية.. محترف مغربي يشعل صراعًا في أوروبا والسعودية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85%D9%87-%D8%A7%D9%84%D9%82%D9%88%D9%8A%D8%A9-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%8A%D8%B4%D8%B9%D9%84-%D8%B5%D8%B1%D8%A7%D8%B9%D9%8B%D8%A7-%D9%81%D9%8A-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/blt6c28e7b813718337?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بشكتاش وفنربخشة يدخلان على الخط",
-      "body": "بشكتاش وفنربخشة يدخلان على الخط اقتحم أحد أبرز المحترفين المغاربة في الدوري الهولندي دائرة اهتمامات بشكتاش التركي، الذي يسعى بقوة لتعزيز مركز الظهير الأيسر، خلال فترة الانتقالات الصيفية المقبلة.&nbsp; وفي هذا الصدد ذكرت صحيفة \"البطولة\" المغربية، اليوم الخميس، نقلًا عن تقارير تركية، أن إدارة بشكتاش تتابع عن قرب وضعية اللاعب المغربي، سفيان الكرواني، خاصةً أن عقده مع ناديه الحالي، أوتريخت، يقترب من نهايته، مما قد يسهل عملية ضمه في صفقة انتقال حر.&nbsp; اقرأ أيضًا \"يفضل مشروعًا آخر\".. الركراكي يدير ظهره لجميع العروض العربية بخطوة إسبانية.. الفيفا يحاول تفادي مفاجآت مونديال 2030 ويضع النادي \"الأسود والأبيض\" الكرواني ضمن أولوياته القصوى للجهة اليسرى، رغم المنافسة الشرسة من أندية كبرى، مثل أولمبيك مارسيليا، بنفيكا، بورتو، والقادسية السعودي، وفنربخشة التركي. وجاء هذا الاهتمام المتزايد باللاعب المغربي، بعد مساهمته الفعالة هذا الموسم، بتسجيل 3 أهداف وتقديم 16 تمريرة حاسمة، خلال 39 مباراة خاضها مع أوتريخت في مختلف المسابقات.",
-      "image": null,
-      "pubDate": "2026-03-05T17:19:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "2229f83d3feecae8",
@@ -1329,22 +1377,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "07ab1006f6b15d11",
-      "title": "How relegation could cost Spurs more than £250m",
-      "link": "https://www.bbc.com/sport/football/articles/cvg11ypd7gko?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport explores the potential financial impact should Spurs be relegated to the Championship.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-05T13:28:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2017,166 +2049,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "07e9811c8d1d7b5a",
-      "title": "Author Correction: Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
-      "link": "https://www.nature.com/articles/s41586-026-10305-0",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10305-0\">doi:10.1038/s41586-026-10305-0</a></p>Author Correction: Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/s41586-026-10305-0 Author Correction: Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2fe0beeb0118e0d1",
-      "title": "The first ‘AI societies’ are taking shape: how human-like are they?",
-      "link": "https://www.nature.com/articles/d41586-026-00070-5",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00070-5\">doi:10.1038/d41586-026-00070-5</a></p>Scientists are studying forms of ‘social’ interactions between artificial-intelligence agents. Will they find a fresh form of sociology, or merely a sophist…",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00070-5 Scientists are studying forms of ‘social’ interactions between artificial-intelligence agents. Will they find a fresh form of sociology, or merely a sophisticated mime act?",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "82c659523c4c00b5",
-      "title": "These brain cells clear proteins that contribute to Alzheimer’s",
-      "link": "https://www.nature.com/articles/d41586-026-00747-x",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00747-x\">doi:10.1038/d41586-026-00747-x</a></p>When specialized cells called tanycytes stop working, disease-causing tau proteins build up in the brain.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00747-x When specialized cells called tanycytes stop working, disease-causing tau proteins build up in the brain.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8f2b28af75e3fc80",
-      "title": "The Epstein scandal is a wake-up call — new rules are needed on links with rich donors",
-      "link": "https://www.nature.com/articles/d41586-026-00698-3",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00698-3\">doi:10.1038/d41586-026-00698-3</a></p>A systemic failure of oversight allowed the sex offender Jeffrey Epstein to curry favour with academia. Stronger governance is urgently needed.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00698-3 A systemic failure of oversight allowed the sex offender Jeffrey Epstein to curry favour with academia. Stronger governance is urgently needed.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6a5188c30e464164",
-      "title": "Identical twins on trial: can DNA testing tell them apart?",
-      "link": "https://www.nature.com/articles/d41586-026-00521-z",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00521-z\">doi:10.1038/d41586-026-00521-z</a></p>In a French criminal trial, conventional DNA analysis couldn’t distinguish between twin brothers, but emerging scientific methods could help in such cases.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00521-z In a French criminal trial, conventional DNA analysis couldn’t distinguish between twin brothers, but emerging scientific methods could help in such cases.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f28aefeb59479156",
-      "title": "Inside Mexico’s stem-cell industry",
-      "link": "https://www.nature.com/articles/d41586-026-00533-9",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00533-9\">doi:10.1038/d41586-026-00533-9</a></p>Researchers in the country are calling for stronger regulation of treatments that many people make long journeys to receive.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00533-9 Researchers in the country are calling for stronger regulation of treatments that many people make long journeys to receive.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "6e005230a64e6f38",
-      "title": "First ‘half Möbius’ carbon chain wows chemists",
-      "link": "https://www.nature.com/articles/d41586-026-00682-x",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00682-x\">doi:10.1038/d41586-026-00682-x</a></p>The looped molecule’s unusual shape could unlock strange physical properties",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00682-x The looped molecule’s unusual shape could unlock strange physical properties",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2caeb983d721f52c",
-      "title": "High-rise transistors can be used to build space-saving circuits",
-      "link": "https://www.nature.com/articles/d41586-026-00249-w",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00249-w\">doi:10.1038/d41586-026-00249-w</a></p>Logical circuits have been built from nanosheet stacks of various transistors, which could make electronic devices faster and more compact.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00249-w Logical circuits have been built from nanosheet stacks of various transistors, which could make electronic devices faster and more compact.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "a1eaa6744366d212",
-      "title": "How these koalas bounced back from the brink of extinction",
-      "link": "https://www.nature.com/articles/d41586-026-00746-y",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00746-y\">doi:10.1038/d41586-026-00746-y</a></p>Tracking DNA recombination offers hope for other species that have lost genetic diversity.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00746-y Tracking DNA recombination offers hope for other species that have lost genetic diversity.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "114cf3775734089b",
-      "title": "Women in science are not a ‘problem to be fixed’",
-      "link": "https://www.nature.com/articles/d41586-026-00546-4",
-      "summary": "<p>Nature, Published online: 05 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00546-4\">doi:10.1038/d41586-026-00546-4</a></p>Cordelia Fine wrote Patriarchy Inc to challenge two false visions of gender equality at work and offer a fairer future for the female workforce.",
-      "body": "Nature, Published online: 05 March 2026; doi:10.1038/d41586-026-00546-4 Cordelia Fine wrote Patriarchy Inc to challenge two false visions of gender equality at work and offer a fairer future for the female workforce.",
-      "image": null,
-      "pubDate": "2026-03-05T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3060,678 +2932,6 @@
       "region": "global"
     },
     {
-      "id": "98a8fa092b62010f",
-      "title": "Shared neural substrates of prosocial and parenting behaviours",
-      "link": "https://www.nature.com/articles/s41586-026-10327-8",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10327-8\">doi:10.1038/s41586-026-10327-8</a></p>Shared neural substrates of prosocial and parenting behaviours",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10327-8 Shared neural substrates of prosocial and parenting behaviours",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ecc3601fbe1964a1",
-      "title": "Heart surgery with quick-setting magnetic fluid could prevent strokes",
-      "link": "https://www.nature.com/articles/d41586-026-00742-2",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00742-2\">doi:10.1038/d41586-026-00742-2</a></p>Injectable fluid safely fills area in which blood clots can form, in animal trials — plus, strong evidence that an elusive form of diamond has been made in …",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00742-2 Injectable fluid safely fills area in which blood clots can form, in animal trials — plus, strong evidence that an elusive form of diamond has been made in the lab.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "70968842e3e1481d",
-      "title": "Magnetic gel injected into the heart could stop strokes",
-      "link": "https://www.nature.com/articles/d41586-026-00740-4",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00740-4\">doi:10.1038/d41586-026-00740-4</a></p>The hydrogel-based plug blocks a part of the heart to cut stroke risk and was shown to be effective in rats and a pig.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00740-4 The hydrogel-based plug blocks a part of the heart to cut stroke risk and was shown to be effective in rats and a pig.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "dff42766275bcea8",
-      "title": "Genome modelling and design across all domains of life with Evo 2",
-      "link": "https://www.nature.com/articles/s41586-026-10176-5",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10176-5\">doi:10.1038/s41586-026-10176-5</a></p>Evo 2 is an artificial intelligence-based biological foundation model trained on 9 trillion DNA base pairs spanning all domains of life that predicts functi…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10176-5 Evo 2 is an artificial intelligence-based biological foundation model trained on 9 trillion DNA base pairs spanning all domains of life that predicts functional properties from genomic sequences and provides a rich generative model for researchers in biology.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5f4d9c8b498130c9",
-      "title": "DICER cleavage fidelity is governed by 5′-end binding pockets",
-      "link": "https://www.nature.com/articles/s41586-026-10211-5",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10211-5\">doi:10.1038/s41586-026-10211-5</a></p>Cryo-electron microscopy and massively parallel assays shed light on the mechanism by which DICER, a key enzyme in the RNase III family, cleaves RNA at prec…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10211-5 Cryo-electron microscopy and massively parallel assays shed light on the mechanism by which DICER, a key enzyme in the RNase III family, cleaves RNA at precise locations to produce small RNAs.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e9f96f6a254da1ed",
-      "title": "Limited thermal tolerance in tropical insects and its genomic signature",
-      "link": "https://www.nature.com/articles/s41586-026-10155-w",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10155-w\">doi:10.1038/s41586-026-10155-w</a></p>A survey of tropical insect populations and thermal tolerance limits indicates that species from lowland areas have low capacity to survive increased temper…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10155-w A survey of tropical insect populations and thermal tolerance limits indicates that species from lowland areas have low capacity to survive increased temperatures, and that thermal tolerance is limited by fundamental properties of protein architecture.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c79a9740db863e12",
-      "title": "A metabolic alarmin from keratinocytes potentiates systemic humoral immunity",
-      "link": "https://www.nature.com/articles/s41586-026-10167-6",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10167-6\">doi:10.1038/s41586-026-10167-6</a></p>Farnesyl pyrophosphate—a mevalonate pathway metabolic intermediate—is an endogenous alarmin that enhances IgG antibody responses through keratinocyte-derive…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10167-6 Farnesyl pyrophosphate—a mevalonate pathway metabolic intermediate—is an endogenous alarmin that enhances IgG antibody responses through keratinocyte-derived IL-6 and CCL20.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6dd0ed005242ee7f",
-      "title": "Long-term thrombus-free left atrial appendage occlusion via magnetofluids",
-      "link": "https://www.nature.com/articles/s41586-025-10091-1",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-025-10091-1\">doi:10.1038/s41586-025-10091-1</a></p>In the presence of a sufficient magnetic field, magnetofluids can resist high-speed blood flow, offering a personalized and complete strategy for left atria…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-025-10091-1 In the presence of a sufficient magnetic field, magnetofluids can resist high-speed blood flow, offering a personalized and complete strategy for left atrial appendage occlusion.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "29c3778f51ac89eb",
-      "title": "Lipid metabolism drives dietary effects on T cell ferroptosis and immunity",
-      "link": "https://www.nature.com/articles/s41586-026-10193-4",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10193-4\">doi:10.1038/s41586-026-10193-4</a></p>The susceptibility of mouse and human T cells to ferroptosis is determined by the balance of systemic polyunsaturated and monounsaturated fatty acids, highl…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10193-4 The susceptibility of mouse and human T cells to ferroptosis is determined by the balance of systemic polyunsaturated and monounsaturated fatty acids, highlighting a key role for lipid metabolism and dietary composition in regulating T cell function.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3f4aaee7138d397f",
-      "title": "Merlin: a computed tomography vision–language foundation model and dataset",
-      "link": "https://www.nature.com/articles/s41586-026-10181-8",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10181-8\">doi:10.1038/s41586-026-10181-8</a></p>Merlin, a vision–language foundation model trained on a large dataset of paired CT scans, patient record data and radiology reports, demonstrates strong per…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10181-8 Merlin, a vision–language foundation model trained on a large dataset of paired CT scans, patient record data and radiology reports, demonstrates strong performance across model architectures, diagnostic and prognostic tasks, and external sites.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "360b8fa198b8994e",
-      "title": "Microbiota-mediated induction of beige adipocytes in response to dietary cues",
-      "link": "https://www.nature.com/articles/s41586-026-10205-3",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10205-3\">doi:10.1038/s41586-026-10205-3</a></p>In mice, a low-protein diet leads to a gut-microbiota-driven remodelling of adipose tissue towards brown fat, showing that gut microorganisms have a role in…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10205-3 In mice, a low-protein diet leads to a gut-microbiota-driven remodelling of adipose tissue towards brown fat, showing that gut microorganisms have a role in detecting and responding to a lack of protein.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d98c9b91d1be3960",
-      "title": "Mechanism of co-transcriptional cap snatching by influenza polymerase",
-      "link": "https://www.nature.com/articles/s41586-026-10189-0",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10189-0\">doi:10.1038/s41586-026-10189-0</a></p>Structural and biochemical studies of influenza virus RNA-dependent RNA polymerase (FluPol) in complex with transcribing host RNA polymerase II reveal the m…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10189-0 Structural and biochemical studies of influenza virus RNA-dependent RNA polymerase (FluPol) in complex with transcribing host RNA polymerase II reveal the molecular mechanisms of RNA cap snatching by FluPol.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "dbc7b89f5f8e8930",
-      "title": "Cell-free chromatin state tracing reveals disease origin and therapy responses",
-      "link": "https://www.nature.com/articles/s41586-026-10224-0",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10224-0\">doi:10.1038/s41586-026-10224-0</a></p>cf-EpiTracing enables automated profiling of histone modifications in cell-free DNA from human plasma, allowing identification of the cells of origin and di…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10224-0 cf-EpiTracing enables automated profiling of histone modifications in cell-free DNA from human plasma, allowing identification of the cells of origin and disease diagnosis.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7fec1f37f4ec008c",
-      "title": "The oldest articulated bony fish from the early Silurian period",
-      "link": "https://www.nature.com/articles/s41586-026-10125-2",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10125-2\">doi:10.1038/s41586-026-10125-2</a></p>A tiny, articulated, near-complete osteichthyan from the early Silurian Chongqing Lagerstätte, represents the oldest osteichthyan occurrence including micro…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10125-2 A tiny, articulated, near-complete osteichthyan from the early Silurian Chongqing Lagerstätte, represents the oldest osteichthyan occurrence including microfossils, and the earliest articulated remains of any bony fish in the fossil record.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0ec61f5c6157651d",
-      "title": "Bulk hexagonal diamond",
-      "link": "https://www.nature.com/articles/s41586-026-10212-4",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10212-4\">doi:10.1038/s41586-026-10212-4</a></p>The synthesis of millimetre-sized phase-pure hexagonal diamond, a polymorph of cubic diamond, by compressing highly oriented pyrolytic graphite under high p…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10212-4 The synthesis of millimetre-sized phase-pure hexagonal diamond, a polymorph of cubic diamond, by compressing highly oriented pyrolytic graphite under high pressures and temperatures is reported, providing new insight into the graphite-to-diamond transformation pathway.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e40ec6b9f72ce15b",
-      "title": "Sea level much higher than assumed in most coastal hazard assessments",
-      "link": "https://www.nature.com/articles/s41586-026-10196-1",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10196-1\">doi:10.1038/s41586-026-10196-1</a></p>Meta-analyses on a global scale show that the measured coastal mean sea level is higher than assumed in most coastal hazard assessments.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10196-1 Meta-analyses on a global scale show that the measured coastal mean sea level is higher than assumed in most coastal hazard assessments.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ec83dd910491b9a8",
-      "title": "A glucocorticoid–FAS axis controls immune evasion during metastatic seeding",
-      "link": "https://www.nature.com/articles/s41586-026-10222-2",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10222-2\">doi:10.1038/s41586-026-10222-2</a></p>Glucocorticoid receptor activation is a key driver of resistance of triple-negative breast cancer to both CD8+ T cells and natural killer cells during initi…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10222-2 Glucocorticoid receptor activation is a key driver of resistance of triple-negative breast cancer to both CD8+ T cells and natural killer cells during initial metastatic seeding.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6c2510a7fc5bf459",
-      "title": "The molecular basis of force selectivity by PIEZO2",
-      "link": "https://www.nature.com/articles/s41586-026-10182-7",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10182-7\">doi:10.1038/s41586-026-10182-7</a></p>PIEZO2 is intrinsically more rigid than PIEZO1, and disparate mechanical stimuli paradoxically evoke opposite conformational and gating responses in each ch…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10182-7 PIEZO2 is intrinsically more rigid than PIEZO1, and disparate mechanical stimuli paradoxically evoke opposite conformational and gating responses in each channel.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "fc1652ea9ec3a620",
-      "title": "Advancing operational global aerosol forecasting with machine learning",
-      "link": "https://www.nature.com/articles/s41586-026-10234-y",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10234-y\">doi:10.1038/s41586-026-10234-y</a></p>Reliable 5-day, 3-hourly forecasts of aerosol optical components and surface concentrations are obtained in 1 minute using a machine-learning-driven forecas…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10234-y Reliable 5-day, 3-hourly forecasts of aerosol optical components and surface concentrations are obtained in 1 minute using a machine-learning-driven forecasting system.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c2c4fa4a8665897d",
-      "title": "Wind shear enhances soil moisture influence on rapid thunderstorm growth",
-      "link": "https://www.nature.com/articles/s41586-025-10045-7",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-025-10045-7\">doi:10.1038/s41586-025-10045-7</a></p>Analysis of millions of events over sub-Saharan Africa shows that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunders…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-025-10045-7 Analysis of millions of events over sub-Saharan Africa shows that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunderstorms.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "85ef2b8574a24a1f",
-      "title": "Structural basis of RNA-guided transcription by a dCas12f–σ<sup>E</sup>–RNAP complex",
-      "link": "https://www.nature.com/articles/s41586-026-10178-3",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10178-3\">doi:10.1038/s41586-026-10178-3</a></p>Cryogenic electron microscopy reveals how dCas12f with σE recruits RNAP to targeted DNA, initiating transcription at a fixed downstream distance, bypassing …",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10178-3 Cryogenic electron microscopy reveals how dCas12f with σE recruits RNAP to targeted DNA, initiating transcription at a fixed downstream distance, bypassing canonical −35 recognition and stabilizing the −10 element in an unusual manner.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "56e2aa3b31b418dd",
-      "title": "Homologous recombination deficiency and hemizygosity&#xa0;drive resistance in breast cancer",
-      "link": "https://www.nature.com/articles/s41586-026-10197-0",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10197-0\">doi:10.1038/s41586-026-10197-0</a></p>Germline and somatic interactions define actionable genomic patterns driving acquired therapy resistance in breast cancer.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10197-0 Germline and somatic interactions define actionable genomic patterns driving acquired therapy resistance in breast cancer.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0f723c70c2ec804c",
-      "title": "Wide-swath altimetry maps bank shapes and storage changes in global rivers",
-      "link": "https://www.nature.com/articles/s41586-026-10218-y",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10218-y\">doi:10.1038/s41586-026-10218-y</a></p>Observations of river channel geometry and monthly water storage changes for 126,674 river reaches worldwide are derived from the first water year of the Su…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10218-y Observations of river channel geometry and monthly water storage changes for 126,674 river reaches worldwide are derived from the first water year of the Surface Water and Ocean Topography satellite mission.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "699c4eea31a22aa6",
-      "title": "Largest Silurian fish illuminates the origin of osteichthyan characters",
-      "link": "https://www.nature.com/articles/s41586-025-10008-y",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-025-10008-y\">doi:10.1038/s41586-025-10008-y</a></p>New findings from articulated head and trunk material of Megamastax amblyodus yield previously unseen morphological details of a Silurian stem osteichthyan.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-025-10008-y New findings from articulated head and trunk material of Megamastax amblyodus yield previously unseen morphological details of a Silurian stem osteichthyan.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "de859e9d4387819f",
-      "title": "Precancerous niche remodelling dictates nascent tumour persistence",
-      "link": "https://www.nature.com/articles/s41586-026-10157-8",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10157-8\">doi:10.1038/s41586-026-10157-8</a></p>A study investigating the emergence of squamous tumours in the upper gastrointestinal tract of the mouse shows that an initial tumour stress response trigge…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/s41586-026-10157-8 A study investigating the emergence of squamous tumours in the upper gastrointestinal tract of the mouse shows that an initial tumour stress response triggers fibroblasts to remodel the underlying stroma, creating a fibronectin-rich precancerous niche that supports tumour survival.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "952c1367f29278a6",
-      "title": "Rising temperatures pose a threat to tropical insects",
-      "link": "https://www.nature.com/articles/d41586-026-00377-3",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00377-3\">doi:10.1038/d41586-026-00377-3</a></p>An assessment of sensitivity to increasing temperature for thousands of insect species in mountainous terrain reveals a risk of insect biodiversity loss in …",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00377-3 An assessment of sensitivity to increasing temperature for thousands of insect species in mountainous terrain reveals a risk of insect biodiversity loss in tropical lowlands.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "100d93099f712c31",
-      "title": "Fresh claim of making elusive ‘hexagonal’ diamond is the strongest yet",
-      "link": "https://www.nature.com/articles/d41586-026-00711-9",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00711-9\">doi:10.1038/d41586-026-00711-9</a></p>After decades of debate, researchers say that they have found the clearest evidence yet for this rare form of carbon.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00711-9 After decades of debate, researchers say that they have found the clearest evidence yet for this rare form of carbon.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5c6b6538d7a7177c",
-      "title": "Stress-hormone signalling protects spreading cancer cells from immune system",
-      "link": "https://www.nature.com/articles/d41586-026-00650-5",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00650-5\">doi:10.1038/d41586-026-00650-5</a></p>Metastasis occurs when cancer cells spread to other organs and escape elimination by the immune system. Analysis reveals that these cells resist killing by …",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00650-5 Metastasis occurs when cancer cells spread to other organs and escape elimination by the immune system. Analysis reveals that these cells resist killing by immune cells by harnessing stress-hormone signalling through the glucocorticoid receptor, suggesting a potential therapeutic target for preventing metastasis.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ac5cd0aeb33ccfd6",
-      "title": "AI can write genomes — how long until it creates synthetic life?",
-      "link": "https://www.nature.com/articles/d41586-026-00681-y",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00681-y\">doi:10.1038/d41586-026-00681-y</a></p>The Evo2 genomic language model can generate short genome sequences, but scientists say further advances are needed to write genomes that will work inside l…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00681-y The Evo2 genomic language model can generate short genome sequences, but scientists say further advances are needed to write genomes that will work inside living cells.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "adfd809d9c87e2fa",
-      "title": "Magnetic fluid offers better seal in heart-plugging medical procedure",
-      "link": "https://www.nature.com/articles/d41586-026-00375-5",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00375-5\">doi:10.1038/d41586-026-00375-5</a></p>An injectable fluid has been used to close off part of the heart in animals — a potentially improved take on a procedure that prevents stroke in people with…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00375-5 An injectable fluid has been used to close off part of the heart in animals — a potentially improved take on a procedure that prevents stroke in people with irregular heartbeats.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "78b45bbe719e98c4",
-      "title": "Funding from individual donors: lessons from the Epstein case",
-      "link": "https://www.nature.com/articles/d41586-026-00658-x",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00658-x\">doi:10.1038/d41586-026-00658-x</a></p>Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00658-x Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "81420c9310191434",
-      "title": "A genetic switch turns off parental behaviour and drives infanticide in male striped mice",
-      "link": "https://www.nature.com/articles/d41586-026-00656-z",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00656-z\">doi:10.1038/d41586-026-00656-z</a></p>Male parenting in mammals is highly variable, ranging from caring to neglectful and abusive. The brain and behaviour of the African striped mouse reveal tha…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00656-z Male parenting in mammals is highly variable, ranging from caring to neglectful and abusive. The brain and behaviour of the African striped mouse reveal that, in males, the social environment and expression level of the Agouti gene affect whether the animals will be hostile or caring towards pups.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fde7751bf26d72f5",
-      "title": "Do wet or dry soils trigger thunderstorms? It depends on how the wind blows",
-      "link": "https://www.nature.com/articles/d41586-026-00376-4",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00376-4\">doi:10.1038/d41586-026-00376-4</a></p>Satellite data show that wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00376-4 Satellite data show that wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "b3dbc89ccd7ba148",
-      "title": "Climate change and geopolitics threaten water supplies — but disaster is not inevitable",
-      "link": "https://www.nature.com/articles/d41586-026-00659-w",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00659-w\">doi:10.1038/d41586-026-00659-w</a></p>The Indus Waters Treaty withstood several armed conflicts and a huge loss of glaciers. It should serve as a blueprint for others.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00659-w The Indus Waters Treaty withstood several armed conflicts and a huge loss of glaciers. It should serve as a blueprint for others.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2872531f9353bf6a",
-      "title": "Cancer blood tests are everywhere. Do they really work?",
-      "link": "https://www.nature.com/articles/d41586-026-00661-2",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00661-2\">doi:10.1038/d41586-026-00661-2</a></p>Their makers claim they can detect dozens of cancer types — but some scientists say they could be missing many cancers or delivering the wrong diagnosis.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00661-2 Their makers claim they can detect dozens of cancer types — but some scientists say they could be missing many cancers or delivering the wrong diagnosis.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4f15d5d7d7cb75f4",
-      "title": "Skin cells boost distant antibody responses",
-      "link": "https://www.nature.com/articles/d41586-026-00379-1",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00379-1\">doi:10.1038/d41586-026-00379-1</a></p>How the skin enables immune defences is not fully clear. Now a pathway has been found in skin cells that boosts the production of antibodies to protect the …",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00379-1 How the skin enables immune defences is not fully clear. Now a pathway has been found in skin cells that boosts the production of antibodies to protect the whole body.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c8c20093f8f30d17",
-      "title": "How a mathematician is cracking open Mexico’s powerful drug cartels",
-      "link": "https://www.nature.com/articles/d41586-026-00299-0",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00299-0\">doi:10.1038/d41586-026-00299-0</a></p>Rafael Prieto-Curiel explains how his models of organized crime could improve public safety in his home country.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00299-0 Rafael Prieto-Curiel explains how his models of organized crime could improve public safety in his home country.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "327fb79561cda1f3",
-      "title": "Under pressure: the reality of Mexico’s research system",
-      "link": "https://www.nature.com/articles/d41586-026-00442-x",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00442-x\">doi:10.1038/d41586-026-00442-x</a></p>Researcher Oscar Xavier Guerrero Gutiérrez speaks out about the unstable conditions that Mexican scientists face — and what can be done to help.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00442-x Researcher Oscar Xavier Guerrero Gutiérrez speaks out about the unstable conditions that Mexican scientists face — and what can be done to help.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "bf44bc7bc3ad55be",
-      "title": "Radiology AI makes consistent diagnoses using 3D images from different health centres",
-      "link": "https://www.nature.com/articles/d41586-026-00645-2",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00645-2\">doi:10.1038/d41586-026-00645-2</a></p>To meet the growing demand for radiology artificial-intelligence tools, a 3D vision–language model called Merlin was trained on abdominal computed-tomograph…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00645-2 To meet the growing demand for radiology artificial-intelligence tools, a 3D vision–language model called Merlin was trained on abdominal computed-tomography scans, radiology reports and electronic health records. Merlin demonstrated stronger off-the-shelf performance than did other vision–language models across three hospital sites distinct from the initial training centre, highlighting its potential for broader clinical adoption.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3231bafa17e78a52",
-      "title": "Daily briefing: The return of the snail — the month’s best science images",
-      "link": "https://www.nature.com/articles/d41586-026-00751-1",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00751-1\">doi:10.1038/d41586-026-00751-1</a></p>The most jaw-dropping science images from February. Plus, whether cancer blood tests actually work and what we lose when we can’t see the stars.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00751-1 The most jaw-dropping science images from February. Plus, whether cancer blood tests actually work and what we lose when we can’t see the stars.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "9200a9990c2075a4",
-      "title": "Hunt for reactive metabolites uncovers unusual chemistry in a human pathogen",
-      "link": "https://www.nature.com/articles/d41586-026-00652-3",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00652-3\">doi:10.1038/d41586-026-00652-3</a></p>A workflow was developed to selectively capture bacterially produced compounds containing a reactive diazo chemical group. This enabled the discovery of two…",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00652-3 A workflow was developed to selectively capture bacterially produced compounds containing a reactive diazo chemical group. This enabled the discovery of two diazo-containing molecules from a bacterium that causes lung disease. Investigation of the bacterial synthesis of these molecules revealed an enzyme that constructs the diazo group, with broad synthetic applications.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "812c2fd6135164dc",
-      "title": "All the world is staged",
-      "link": "https://www.nature.com/articles/d41586-026-00131-9",
-      "summary": "<p>Nature, Published online: 04 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00131-9\">doi:10.1038/d41586-026-00131-9</a></p>Exits and entrances.",
-      "body": "Nature, Published online: 04 March 2026; doi:10.1038/d41586-026-00131-9 Exits and entrances.",
-      "image": null,
-      "pubDate": "2026-03-04T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "d52293f969fbefa5",
       "title": "SkinnyPop Removes Brand-New Popcorn Flavor From Stores Due To Packaging Blunder",
       "link": "https://www.delish.com/food-news/a70595501/skinnypop-white-cheddar-popcorn-recall/",
@@ -4052,22 +3252,6 @@
       "region": "global"
     },
     {
-      "id": "a167bcc3f01d00f0",
-      "title": "Best Pajamas for Women (2026), WIRED Tested and Reviewed",
-      "link": "https://www.wired.com/story/the-best-pajamas-brands-for-women/",
-      "summary": "After testing 100-plus sets, these are the sleepwear brands that earned permanent spots in my closet and my bed.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-03T10:30:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "lifestyle",
-      "region": "global"
-    },
-    {
       "id": "03468c44482cbf52",
       "title": "3 rivers merge into striking half-and-half waterway in Guyana — Earth from space",
       "link": "https://www.livescience.com/planet-earth/rivers-oceans/3-rivers-merge-into-striking-half-and-half-waterway-in-guyana-earth-from-space",
@@ -4114,278 +3298,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "abf865362ed3951f",
-      "title": "Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia",
-      "link": "https://www.nature.com/articles/s41586-026-10332-x",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10332-x\">doi:10.1038/s41586-026-10332-x</a></p>Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/s41586-026-10332-x Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "bbbb12ae61238e62",
-      "title": "Genetically encoded assembly recorder temporally resolves cellular history",
-      "link": "https://www.nature.com/articles/s41586-026-10323-y",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10323-y\">doi:10.1038/s41586-026-10323-y</a></p>Genetically encoded assembly recorder temporally resolves cellular history",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/s41586-026-10323-y Genetically encoded assembly recorder temporally resolves cellular history",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "58aefbfc4043f9ac",
-      "title": "Jam-packed star system is most compact of its kind ever found",
-      "link": "https://www.nature.com/articles/d41586-026-00667-w",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00667-w\">doi:10.1038/d41586-026-00667-w</a></p>All four Sun-like stars would fit inside the area of Jupiter’s orbit.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00667-w All four Sun-like stars would fit inside the area of Jupiter’s orbit.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1de1b6f68fd80120",
-      "title": "Releasing open-weight AI in steps would alleviate risks",
-      "link": "https://www.nature.com/articles/d41586-026-00679-6",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00679-6\">doi:10.1038/d41586-026-00679-6</a></p>Releasing open-weight AI in steps would alleviate risks",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00679-6 Releasing open-weight AI in steps would alleviate risks",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "59d20d8e5711cdc7",
-      "title": "From the first telephone to videoconferencing in 100 years",
-      "link": "https://www.nature.com/articles/d41586-026-00641-6",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00641-6\">doi:10.1038/d41586-026-00641-6</a></p>Scientists of the 1970s look to the past and future of telecommunications, and a rainbow against a blue sky dazzles a reader, in this week’s peek at Nature’…",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00641-6 Scientists of the 1970s look to the past and future of telecommunications, and a rainbow against a blue sky dazzles a reader, in this week’s peek at Nature’s archive.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "edcb708e80f60573",
-      "title": "South Korea’s AI framework act focuses on rights and safety",
-      "link": "https://www.nature.com/articles/d41586-026-00678-7",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00678-7\">doi:10.1038/d41586-026-00678-7</a></p>South Korea’s AI framework act focuses on rights and safety",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00678-7 South Korea’s AI framework act focuses on rights and safety",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "593abaadce35a9dc",
-      "title": "Climate research is global — risks and responsibilities should also be distributed",
-      "link": "https://www.nature.com/articles/d41586-026-00680-z",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00680-z\">doi:10.1038/d41586-026-00680-z</a></p>Climate research is global — risks and responsibilities should also be distributed",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00680-z Climate research is global — risks and responsibilities should also be distributed",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "a6be9f6f5a69737b",
-      "title": "Why ‘quantum proteins’ could be the next big thing in biology",
-      "link": "https://www.nature.com/articles/d41586-026-00662-1",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00662-1\">doi:10.1038/d41586-026-00662-1</a></p>Fluorescent proteins with a quantum upgrade could offer unprecedented views inside cells.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00662-1 Fluorescent proteins with a quantum upgrade could offer unprecedented views inside cells.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ccf624a95e2075e9",
-      "title": "US climate actions must continue, despite setbacks",
-      "link": "https://www.nature.com/articles/d41586-026-00660-3",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00660-3\">doi:10.1038/d41586-026-00660-3</a></p>The United States has slammed the brakes on legal routes to limit greenhouse gases. But cities, states and businesses can keep pushing for a cleaner environ…",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00660-3 The United States has slammed the brakes on legal routes to limit greenhouse gases. But cities, states and businesses can keep pushing for a cleaner environment.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7bd0e4eb4016622e",
-      "title": "My relationship with my PhD supervisor has become toxic — what do I do?",
-      "link": "https://www.nature.com/articles/d41586-025-04126-w",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-025-04126-w\">doi:10.1038/d41586-025-04126-w</a></p>A graduate student in China has become seriously depressed after facing frequent verbal abuse.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-025-04126-w A graduate student in China has become seriously depressed after facing frequent verbal abuse.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4b5cd80045a0e970",
-      "title": "How infighting led the Maya civilization to catastrophic collapse",
-      "link": "https://www.nature.com/articles/d41586-026-00663-0",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00663-0\">doi:10.1038/d41586-026-00663-0</a></p>Fresh archaeological evidence hints at what caused the disappearance of this thriving ancient Mesoamerican culture.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00663-0 Fresh archaeological evidence hints at what caused the disappearance of this thriving ancient Mesoamerican culture.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "49514e8b11a8ecf5",
-      "title": "See raining iguanas and coral from the inside out — February’s best science images",
-      "link": "https://www.nature.com/articles/d41586-026-00597-7",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00597-7\">doi:10.1038/d41586-026-00597-7</a></p>The month’s sharpest science shots, selected by Nature’s photo team.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00597-7 The month’s sharpest science shots, selected by Nature’s photo team.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b0bd92df8cfd751c",
-      "title": "Climate shocks, not just warming, threaten malaria control efforts in Africa",
-      "link": "https://www.nature.com/articles/d41586-026-00491-2",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00491-2\">doi:10.1038/d41586-026-00491-2</a></p>Climate change is expected to affect mosquito and parasite survival, reshaping malaria risk. But extreme weather could be a more immediate danger to disease…",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00491-2 Climate change is expected to affect mosquito and parasite survival, reshaping malaria risk. But extreme weather could be a more immediate danger to disease control.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "weather",
-      "region": "global"
-    },
-    {
-      "id": "6a58c8df8a0c3916",
-      "title": "Daily briefing: Galileo’s notes discovered in the margins of an ancient book",
-      "link": "https://www.nature.com/articles/d41586-026-00739-x",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00739-x\">doi:10.1038/d41586-026-00739-x</a></p>Historians have discovered some recognizable jottings in a 400-year-old copy of Ptolemy’s The Almagest. Plus, tectonic plates might’ve started moving earlie…",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00739-x Historians have discovered some recognizable jottings in a 400-year-old copy of Ptolemy’s The Almagest. Plus, tectonic plates might’ve started moving earlier than we thought and how fluorescent-protein labels can be used as quantum sensors.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e011a15a373ec899",
-      "title": "Hey ChatGPT, write me a fictional paper: these LLMs are willing to commit academic fraud",
-      "link": "https://www.nature.com/articles/d41586-026-00595-9",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00595-9\">doi:10.1038/d41586-026-00595-9</a></p>Mainstream chatbots presented varying levels of resistance to deliberate requests for fabrication, study finds.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00595-9 Mainstream chatbots presented varying levels of resistance to deliberate requests for fabrication, study finds.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cb937d0ff081f5d8",
-      "title": "How can fast-evolving DNA retain a fundamental function in cell division?",
-      "link": "https://www.nature.com/articles/d41586-026-00629-2",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00629-2\">doi:10.1038/d41586-026-00629-2</a></p>In a dividing cell, chromosome pairs are pulled apart thanks to attachment sites called centromeres. Yeast genomes reveal key steps in how centromeres have …",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00629-2 In a dividing cell, chromosome pairs are pulled apart thanks to attachment sites called centromeres. Yeast genomes reveal key steps in how centromeres have evolved.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e1d049b3b6f0a81e",
-      "title": "Going ‘beyond GDP’ should not mean sidelining the SDGs",
-      "link": "https://www.nature.com/articles/d41586-026-00657-y",
-      "summary": "<p>Nature, Published online: 03 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00657-y\">doi:10.1038/d41586-026-00657-y</a></p>The UN Sustainable Development Goals represent a carefully-crafted road map for future human and planetary prosperity.",
-      "body": "Nature, Published online: 03 March 2026; doi:10.1038/d41586-026-00657-y The UN Sustainable Development Goals represent a carefully-crafted road map for future human and planetary prosperity.",
-      "image": null,
-      "pubDate": "2026-03-03T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "d19eef7e02ed07e7",
@@ -4593,54 +3505,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "cf5de02b7a5f3ff5",
-      "title": "Author Correction: Root microbiota drive direct integration of phosphate stress and immunity",
-      "link": "https://www.nature.com/articles/s41586-026-10320-1",
-      "summary": "<p>Nature, Published online: 02 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10320-1\">doi:10.1038/s41586-026-10320-1</a></p>Author Correction: Root microbiota drive direct integration of phosphate stress and immunity",
-      "body": "Nature, Published online: 02 March 2026; doi:10.1038/s41586-026-10320-1 Author Correction: Root microbiota drive direct integration of phosphate stress and immunity",
-      "image": null,
-      "pubDate": "2026-03-02T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "85a5431a69ed36cc",
-      "title": "BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments",
-      "link": "https://www.nature.com/articles/s41586-026-10314-z",
-      "summary": "<p>Nature, Published online: 02 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10314-z\">doi:10.1038/s41586-026-10314-z</a></p>BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments",
-      "body": "Nature, Published online: 02 March 2026; doi:10.1038/s41586-026-10314-z BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments",
-      "image": null,
-      "pubDate": "2026-03-02T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c971cc28644aa7e8",
-      "title": "The squeal of peeling tape, explained",
-      "link": "https://www.nature.com/articles/d41586-026-00516-w",
-      "summary": "<p>Nature, Published online: 02 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00516-w\">doi:10.1038/d41586-026-00516-w</a></p>Weak shock waves triggered by micro-cracks in the adhesive layer of tape cause it to screech when being unspooled from its roll.",
-      "body": "Nature, Published online: 02 March 2026; doi:10.1038/d41586-026-00516-w Weak shock waves triggered by micro-cracks in the adhesive layer of tape cause it to screech when being unspooled from its roll.",
-      "image": null,
-      "pubDate": "2026-03-02T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5121,22 +3985,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fcbfa9301c973d6c",
-      "title": "Irish Coffee",
-      "link": "https://www.delish.com/cooking/recipe-ideas/a58347/easy-irish-coffee-recipe/",
-      "summary": "",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/irish-coffee-index-69a20510a7490.jpeg",
-      "pubDate": "2026-02-27T20:59:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
