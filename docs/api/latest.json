@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-07T19:00:10.982Z",
-    "total": 198,
+    "generated_at": "2026-03-07T19:25:05.005Z",
+    "total": 199,
     "processed_feeds": 17,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -17,21 +17,21 @@
         "cats": [
           "sports"
         ],
-        "taken": 53,
+        "taken": 54,
         "error": null,
         "notModified": false
       },
       {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/2d713a36-3061-4ef7-a949-da28382d89b5",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -44,7 +44,20 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,16 +87,29 @@
         "notModified": false
       },
       {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/2d713a36-3061-4ef7-a949-da28382d89b5",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -97,45 +123,6 @@
         ],
         "taken": 50,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -165,6 +152,45 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
         "name": "GSMArena",
         "url": "https://www.gsmarena.com/rss-news-reviews.php3",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
@@ -175,19 +201,6 @@
         ],
         "taken": 19,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -204,23 +217,10 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -233,13 +233,141 @@
   },
   "items": [
     {
-      "id": "50173bc54e411104",
-      "title": "Winter Paralympics daily guide: 10 golds to be decided on Sunday",
+      "id": "1f5c9f2a83c65e81",
+      "title": "Alan Trustman, ‘The Thomas Crown Affair’ and ‘Bullitt’ Screenwriter, Dies at 95",
+      "link": "https://variety.com/2026/film/obituaries-people-news/alan-trustman-dead-bullitt-screenwriter-1236681581/",
+      "summary": "Alan Trustman, the Harvard-educated lawyer who pivoted to Hollywood and wrote the screenplays for the 1968 films “Bullitt” and “The Thomas Crown Affair,” has died. He was 95. Trustman died Feb. 5 at a nursing home in Miami, his son John told the New York Times. Before entering the film industry, Tr…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/MixCollage-07-Mar-2026-11-16-AM-4788.jpg",
+      "pubDate": "2026-03-07T19:24:41.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f92de4b631612893",
+      "title": "الدوري المصري.. كهرباء الإسماعيلية يواجه إنبي.. وغزل المحلة يستضيف فاركو",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/543757/%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84%d9%8a%d8%a9-%d9%8a%d9%88%d8%a7%d8%ac%d9%87-%d8%a5%d9%86%d8%a8%d9%8a-%d9%88%d8%ba%d8%b2%d9%84-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d8%a9-%d9%8a%d8%b3%d8%aa%d8%b6%d9%8a%d9%81-%d9%81%d8%a7%d8%b1%d9%83%d9%88",
+      "summary": "تختتم منافسات الجولة الـ21 من الدوري المصري الممتاز، مساء اليوم السبت، بإقامة مواجهتين مرتقبتين تجمعان بين كهرباء الإسماعيلية وإنبي، إلى جانب لقاء غزل المحلة أمام فاركو.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T19:23:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "3e335ff88ee1d9df",
+      "title": "مفاجأة الغزل وبصمة الشيبي والعارضة تعاند ثنائي الأهلي والزمالك في الدوري (أرقام)",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/543755/%d9%85%d9%81%d8%a7%d8%ac%d8%a3%d8%a9-%d8%a7%d9%84%d8%ba%d8%b2%d9%84-%d9%88%d8%a8%d8%b5%d9%85%d8%a9-%d8%a7%d9%84%d8%b4%d9%8a%d8%a8%d9%8a-%d9%88%d8%a7%d9%84%d8%b9%d8%a7%d8%b1%d8%b6%d8%a9-%d8%aa%d8%b9%d8%a7%d9%86%d8%af-%d8%ab%d9%86%d8%a7%d8%a6%d9%8a-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a3%d8%b1%d9%82%d8%a7%d9%85-",
+      "summary": "شهدت منافسات الموسم الحالي 2025-2026 من الدوري المصري، تألق العديد من اللاعبين على الصعيد الفردي، قبل نهاية الدور الأول من المسابقة.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T19:12:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "17836a1b681752f3",
+      "title": "‘Heel’ Review: Why Did Stephen Graham and Andrea Riseborough Sign on for This Contrived Debacle?",
+      "link": "https://variety.com/2026/film/reviews/heel-review-stephen-graham-and-andrea-riseborough-1236681329/",
+      "summary": "\"Heel\" is like \"A Clockwork Orange\" remade as the year’s worst Sundance movie.",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/Copy-of-goodboy_stills_d8_093-PR6-lg.webp",
+      "pubDate": "2026-03-07T19:07:32.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "97ca58ffdb1eb6f6",
+      "title": "Stephen Hibbert, TV Comedy Writer and Actor Who Played the Gimp in ‘Pulp Fiction,’ Dies at 68",
+      "link": "https://variety.com/2026/film/obituaries-people-news/stephen-hibbert-dead-writer-actor-pulp-fiction-1236681568/",
+      "summary": "Stephen Hibbert, a writer and actor who went from the Groundlings to writing for “Late Night With David Letterman” and “Mad TV” to a cult role as the Gimp in “Pulp Fiction,” died March 2 in Denver, Colorado. He was 68. Family members confirmed the death to Rolling Stone and Fox News Digital and sai…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/GettyImages-1093234138_fc59fa-e1772902109743.jpg",
+      "pubDate": "2026-03-07T19:07:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f523305cb7d35e49",
+      "title": "سموحة يواجه مودرن سبورت في الدوري.. بعد قليل",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/543754/%d8%b3%d9%85%d9%88%d8%ad%d8%a9-%d9%8a%d9%88%d8%a7%d8%ac%d9%87-%d9%85%d9%88%d8%af%d8%b1%d9%86-%d8%b3%d8%a8%d9%88%d8%b1%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a8%d8%b9%d8%af-%d9%82%d9%84%d9%8a%d9%84",
+      "summary": "زوار موقع يلا كورة نقدم لكم خدمة متابعة حية ومباشرة لأبرز أحداث مباراة سموحة أمام مودرن سبورت، المُقرر إقامتها على ملعب الجيش ببرج العرب، في الإسكندرية، لحساب منافسات الجولة 21 من الدوري الممتاز",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T19:07:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "9285484835c9d35a",
+      "title": "UFC 326 Livestream: How to Watch Max Holloway vs. Charles Oliveira 2 Title Fight Live Online",
+      "link": "https://variety.com/2026/shopping/news/how-to-watch-ufc-326-holloway-vs-oliveira-2-live-online-free-1236678592/",
+      "summary": "With the Winter Olympics 2026 finished, the sports world turns its attention to the Ultimate Fighting Championship, as the promotion company goes back home to “Sin City” for UFC 326. The main event features American Max Holloway (27-8-0) defending his “BMF” title against Brazilian fighter Charles O…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/UFC-Max-Holloway-vs.-Charles-Oliveira-2-Getty-VR-Featured.jpg",
+      "pubDate": "2026-03-07T19:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "cc8c7f272ca79774",
+      "title": "Winter Paralympics daily guide: 10 golds on offer on Sunday",
       "link": "https://www.bbc.com/sport/articles/czr0643d8gmo?at_medium=RSS&at_campaign=rss",
       "summary": "Your guide to what's happening and when and who to look out for at the 2026 Winter Paralympics in Milan-Cortina.",
       "body": null,
       "image": null,
       "pubDate": "2026-03-07T18:58:05.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "180e01f419c369f0",
+      "title": "Wigan overpower Toulouse to maintain 100% start",
+      "link": "https://www.bbc.com/sport/rugby-league/articles/c4gj58mlgn9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Wigan Warriors run in four tries in 14 minutes as they overpower Toulouse Olympique to maintain their 100% winning start to their Super League season.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T18:56:00.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -503,6 +631,54 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "c67b093cc2e3cd45",
+      "title": "صورة.. الأهلي يسخر من الاتحاد بعد ليلة الديربي المثيرة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%8A%D8%B3%D8%AE%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A8%D8%B9%D8%AF-%D9%84%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%AB%D9%8A%D8%B1%D8%A9/blte7f8f845778ffb86?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الراقي يشعل الأحداث",
+      "body": "الراقي يشعل الأحداث لم يكتف النادي الأهلي بحسم ديربي جدة على حساب جاره اللدود الاتحاد، بنتيجة (3-1) ، خلال المباراة التي جرت أحداثها، أمس الجمعة، ضمن منافسات الجولة 25 من دوري روشن للمحترفين. وتربع \"الراقي\" على قمة ترتيب دوري روشن بشكل مؤقت، بعدما جمع 62 نقطة، متفوقًا على النصر والهلال بفارق نقطة واحدة فقط. ونشر الحساب الرسمي للنادي الأهلي عبر منصة \"إكس\" للتواصل الاجتماعي، صورة يظهر فيها يرتدي قميص الراقي وتحت قدميه شخص بقميص الاتحاد، مع كلمة \"السيطرة\". &nbsp; Now You Can Tap 😂 #AlAhli | #RoshnSaudiLeague pic.twitter.com/vFezrz5IC7 &mdash; Al-Ahli Saudi Club (@ALAHLI_FCEN) March 6, 2026 ولم تكن هذه اللقطة الأولى التي تحمل هذا المعنى، إذ سبق لجماهير الأهلي أن رفعت \"تيفو\" في مدرجات الملعب قبل انطلاق المباراة حمل الكلمة ذاتها، في رسالة تعكس ثقتها بقدرة فريقها على فرض هيمنته في المواجهة، وهو ما تحقق بالفعل داخل أرضية الملعب مع صافرة النهاية. كما نشر الأهلي تصميمًا عبر حساباته الرسمية، ظهر خلاله الثنائي الأجنبي إيفان توني وروجيه إيبانيز وهما يحملان فأسين ويحطمان تمثالين يجسدان ثنائي الاتحاد، المتمثل في فابينيو ودانيلو بيريرا، في لقطة أثارت تفاعلًا واسعًا بين جماهير الناديين عقب الديربي. وعلق على هذه الصورة قائلاً: \"في كل \"ديربي\" نعطي دروس.. إحنا كبار جدة العروس\". &nbsp; في كل &quot;دي…",
+      "image": null,
+      "pubDate": "2026-03-07T17:19:32.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e9d519aff156bc5c",
+      "title": "أتلتيكو يمحو الشكوك حول جريزمان",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%8A%D9%85%D8%AD%D9%88-%D8%A7%D9%84%D8%B4%D9%83%D9%88%D9%83-%D8%AD%D9%88%D9%84-%D8%AC%D8%B1%D9%8A%D8%B2%D9%85%D8%A7%D9%86/bltf70aefcbbe636789?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كلمات حاسمة تبين موقف النجم الفرنسي",
+      "body": "كلمات حاسمة تبين موقف النجم الفرنسي كشف ماتيو أليماني، المدير الرياضي لأتلتيكو مدريد، حقيقة موقف نجم الفريق أنطوان جريزمان من العرض المقدم من نادي أورلاندو سيتي الأمريكي. وجاءت تصريحات أليماني قبل مباراة اليوم السبت ضد ريال سوسيداد في الجولة السابعة والعشرين من الدوري الإسباني. وارتبط جريزمان بالرحيل عن أتلتيكو مدريد قبل نهاية الموسم الجاري، وهو ما دفع أليماني لكشف حقيقة الأمر. وقال أليماني في تصريحاته لشبكة \"موفيستار +\" قبل المباراة: \"أنطوان لديه عقد هذا الموسم وموسمين إضافيين معنا، لا جديد في الأمر. إنه في حالة بدنية استثنائية، يقدم مباريات رائعة، وباعتباره أسطورة ونظرًا لمستواه الحالي، سيُصفق له الجميع كالمعتاد\".&nbsp; وأضاف ألماني مؤكدًا: \"أنطوان لديه عقد معنا وسيبقى معنا. إنه يقدم الكثير للفريق، وسيبقى معنا وسيستمر معنا\". وبدأ جريزمان مباراة السبت أمام سوسيداد على دكة البدلاء، لكنه يُعدّ عنصرًا أساسيًا في خطط المدرب دييجو سيميوني خلال المرحلة الحاسمة من الموسم الجاري. اقرأ أيضا: برشلونة يجبر جريزمان على قرار حاسم! ويحتل أتلتيكو مدريد المركز الثالث في ترتيب الدوري الإسباني، بينما يستعد لمواجهة توتنهام في دور الـ16 في دوري أبطال أوروبا. كما تأهل الفريق المدريدي إلى نهائي كأس الملك الذي سيقام في ملعب لا كارتوخا يوم 18 أبريل المقبل، ضد سوسيداد.",
+      "image": null,
+      "pubDate": "2026-03-07T17:18:53.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "765163850f63da9f",
+      "title": "تعديلات اضطرارية.. مفاجآت في تشكيل برشلونة أمام بيلباو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%93%D8%AA-%D9%81%D9%8A-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A8%D9%8A%D9%84%D8%A8%D8%A7%D9%88/blt287e667c22fc4c12?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أعلن هانز فليك، مدرب برشلونة، تشكيل فريقه لمواجهة أتلتيك بيلباو، على ملعب سان ماميس، في الجولة 27 من عمر الليجا.",
+      "body": "أعلن هانز فليك، مدرب برشلونة، تشكيل فريقه لمواجهة أتلتيك بيلباو، على ملعب سان ماميس، في الجولة 27 من عمر الليجا. وأجرى فليك، بعض التغييرات على تشكيل برشلونة، بسبب الإصابات، وكذلك بسبب تحضيره لمواجهة نيوكاسل في دوري أبطال أوروبا، الثلاثاء المقبل. وقرر المدرب الألماني، وضع بيدري ورافينيا على دكة البدلاء. وجاء تشكيل برشلونة كالتالي: حراسة المرمى: خوان جارسيا الدفاع: كانسيلو، كوبارسي، إريك جارسيا، جيرارد مارتن الوسط: كاسادو، مارك بيرنال، داني أولمو الهجوم: لامين يامال، راشفورد، فيران توريس فليك يضطر لإجراء تعديلات ذكرت صحيفة \"موندو ديبورتيفو\" أن فليك اضطر لإجراء تعديلات في خط الظهير، بسبب غياب كوندي وبالدي للإصابة. كما جلس بيدري على مقاعد البدلاء، بعد التحميل الزائد عليه في مباراة كأس ملك إسبانيا أمام أتلتيكو مدريد. وشمل التدوير أيضًا رافينيا، الذي حل محله راشفورد على الجهة اليسرى. وفي الدفاع، أعاد فليك، كانسيلو إلى مركز الظهير الأيمن، وأبقى على إريك جارسيا في محور الدفاع بعد غيابه بسبب الإيقاف أمام أتلتيكو، بينما يلعب جيرارد مارتن على الجهة اليسرى. وتستمر الثقة في ثنائية كوبارسي وإريك جارسيا، لمتانة وجودة الأداء. وفي الوسط، ومع غياب دي يونج للإصابة، أصبح بيرنال، القطعة الأساسية، بينما اختار فليك، كاسادو للعب في سان ماميس.&nbsp; وفي الهجوم، يغطي الأطراف، يامال بشكل ممتاز، وداني أولمو …",
+      "image": "https://assets.kooora.com/images/v3/getty-2238203815/crop/MM5DEMZSGA5DCMZQGU5G433XMU5DCNBZHI2DI===/GettyImages-2238203815.jpg",
+      "pubDate": "2026-03-07T17:10:01.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "40c390bb27a693ae",
@@ -1305,54 +1481,6 @@
       "region": "mena"
     },
     {
-      "id": "b39b0056a7b729a1",
-      "title": "ما القنوات الناقلة لمباراة جنوى وروما في الدوري الإيطالي 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%AC%D9%86%D9%88%D9%89-%D9%88%D8%B1%D9%88%D9%85%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/bltba709e32b32d40bc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة جنوى وروما في الدوري الإيطالي 2025-2026 .. وكيف تشاهدها عبر الإنترنت",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة جنوى وروما في الدوري الإيطالي 2025-2026 .. وكيف تشاهدها عبر الإنترنت يستضيف جنوى نظيره روما، مساء غدٍ الأحد على ملعب \"لويجي فيراريس\"، ضمن منافسات الجولة 28 من الدوري الإيطالي 2025-2026. يدخل روما اللقاء وهو في المركز الرابع برصيد 51 نقطة، ولديه طموح كبير في الفوز للتقدم أكثر في المربع الذهبي والمنافسة مع ميلان ونابولي. في المقابل، يأتي جنوى في المركز الخامس عشر برصيد 27 نقطة، ويتطلع لاستغلال سلاحي الأرض والجمهور لخطف النقاط لصالحه والهروب من دائرة المهددين بالهبوط. ويرصد كووورة في السطور التالية، القنوات الناقلة لمباراة جنوى وروما في الدوري الإيطالي 2025-2026، وطريقة مشاهدتها عبر الإنترنت.. ما القنوات الناقلة لمباراة جنوى وروما في الدوري الإيطالي 2025-2026؟ يمتلك تطبيق stc tv ، حقوق بث مباريات الدوري الإيطالي 2025-2026، ومن المنتظر أن يقوم بإذاعة مباراة جنوى وروما في الدوري الإيطالي عبر شاشته، بتعليق عربي. stc tv اشترك الآن &nbsp; كيف تشاهد مباراة&nbsp;جنوى وروما في الدوري الإيطالي 2025-2026&nbsp;عبر الإنترنت؟ لهواة البث عبر الإنترنت، يمكنهم مشاهدة مباراة جنوى وروما في الدوري الإيطالي 2025-2026 عبر تطبيق stc . ويمكن الاشتراك الآن في التطبيق ومتابعة قمم الدوري الإيطالي. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفو…",
-      "image": "https://assets.kooora.com/images/v3/blt0b4fb401854a0cdd/Seria-A---Website-Banners-Koora-(2).png",
-      "pubDate": "2026-03-07T12:32:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "73443bfaa7813aa9",
-      "title": "مبابي في قلب العاصفة..  صور رومانسية مع ممثلة إسبانية بباريس تشعل غضب مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%81%D9%8A-%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%81%D8%A9-%D8%B5%D9%88%D8%B1-%D8%B1%D9%88%D9%85%D8%A7%D9%86%D8%B3%D9%8A%D8%A9-%D9%85%D8%B9-%D9%85%D9%85%D8%AB%D9%84%D8%A9-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%AA%D8%B4%D8%B9%D9%84-%D8%BA%D8%B6%D8%A8-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt4c4d9b2f340922ae?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ما القصة؟",
-      "body": "ما القصة؟ يجد النجم الفرنسي كيليان مبابي، نفسه أمام \"موجة ارتدادية\" عنيفة من الانتقادات، تجاوزت المستطيل الأخضر لتطال حياته الشخصية والتزامه المهني، في وقت يمر فيه نادي ريال مدريد بمنعطف حرج تحت قيادة المدرب ألفارو أربيلوا. إصابة في مدريد.. و\"علاقة رمانسية\" في باريس بينما كان من المفترض أن ينصب تركيز صاحب رقم 10 على التعافي من التواء معقد في الركبة، وهي الإصابة التي لم يحدد النادي الملكي سقفًا زمنياً لشفائها، فجرت الصحف الإسبانية مفاجأة من العيار الثقيل. فقد رُصد مبابي في العاصمة الفرنسية رفقة الممثلة الإسبانية الشهيرة وبطلة مسلسل &nbsp;\"Elite\"، إستر إكسبوزيتو، في وضع عكس تقاربًا عاطفيًا كبيرًا. وتشير التقارير المسربة إلى أن هذا اللقاء ليس الأول من نوعه؛ حيث شوهد الثنائي سابقًا في فبراير/شباط الماضي بمدريد، وتحديدًا في فندق \"بولمان\"، في ليلة تبادلا فيها القبلات علنًا. اقرأ أيضًا: تطور مفاجئ في موقف مبابي وبيلينجهام من موقعة مانشستر سيتي وتزامنت زيارة إكسبوزيتو الحالية لباريس مع دعوتها لحفل عشاء فاخر ضمن أسبوع الموضة، وهي الفرصة التي استغلها النجم الفرنسي لقضاء وقت طويل معها، موثقًا بلقطات في مطعم يطل على برج إيفل. غضب جماهيري تأتي هذه الأنباء في أسوأ توقيت ممكن للمهاجم الفرنسي؛ فبينما كان فريقه يتجرع مرارة الخسارة الصادمة أمام خيتافي في \"سانتياجو برنابيو\"، كشفت صحيفة \"ليكيب\" أن مب…",
-      "image": null,
-      "pubDate": "2026-03-07T12:21:15.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "bef4f3bed657a91c",
-      "title": "أليجري: ميلان يفتقد 3 لاعبين في الديربي.. ولن أدخل الحرب ضد نجم إنتر",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D9%84%D9%8A%D8%AC%D8%B1%D9%8A-%D9%85%D9%8A%D9%84%D8%A7%D9%86-%D9%8A%D9%81%D8%AA%D9%82%D8%AF-3-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D9%88%D9%84%D9%86-%D8%A7%D9%94%D8%AF%D8%AE%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%B6%D8%AF-%D9%86%D8%AC%D9%85-%D8%A7%D9%95%D9%86%D8%AA%D8%B1/blt2f7c1de8e4f3e945?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مدرب الروسونيري لا يرى فريقه في سباق اللقب",
-      "body": "مدرب الروسونيري لا يرى فريقه في سباق اللقب أكد ماسيميليانو أليجري، مدرب ميلان، أن الهدف الوحيد لفريقه هذا الموسم هو إنهاء المسابقة في المراكز المؤهلة لدوري أبطال أوروبا، وليس الصراع على لقب الدوري الإيطالي مع الغريم التقليدي إنتر. ويستعد ميلان، صاحب المركز الثاني في الدوري الإيطالي بعد مرور 27 جولة، لمواجهة المتصدر إنتر على ملعب \"سان سيرو\" مساء الأحد، في مباراة \"ديربي ديلا مادونينا\" المرتقبة. وفي حال فوز \"النيرازوري\"، سيتسع الفارق في الصدارة إلى 13 نقطة مع تبقي 10 جولات على نهاية الموسم، أما في حال فوز ميلان، سيتقلص الفارق إلى 7 نقاط، وهو الهامش الذي سبق للميلان تعويضه واقتناص اللقب في موسم 1998-1999 أمام لاتسيو. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! العودة إلى دوري الأبطال تحدث أليجري، في مؤتمره الصحفي، يوم السبت للحديث عن مواجهة الغد المرتقبة، قائلا: \"الديربي دائماً مباراة خاصة جداً، ومن الرائع لعبها وعيش أجوائها، وبالتأكيد ستكون أمسية رياضية رائعة، لكن النقاط الثلاث في الديربي تساوي تماماً النقاط الثلاث في يوم الأحد التالي\". وأضاف المدرب: \"من المهم حصد النقاط غداً، ولن يكون الأمر سهلاً أمام فريق قوي، نحن نعرف أهمية المباراة وسنحاول تحقيق نتيجة إيجابية، الشيء الوحيد المتبقي لنا هو خوض اللقاء، ثم سنرى كيف سينتهي، وبعد …",
-      "image": "https://assets.kooora.com/images/v3/blt0b4fb401854a0cdd/Seria-A---Website-Banners-Koora-(2).png",
-      "pubDate": "2026-03-07T12:20:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "0b0042122aacf8bc",
       "title": "Nvidia CEO Huang declares ‘I love constraints’ amid ongoing component shortage — claims lack of options forces AI clients to only choose the very best",
       "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-ceo-huang-declares-i-love-constraints-amid-ongoing-component-shortage-claims-lack-of-options-forces-ai-clients-to-only-choose-the-very-best",
@@ -1641,38 +1769,6 @@
       "region": "global"
     },
     {
-      "id": "94bb772e188202c4",
-      "title": "Berger extends lead as McIlroy rallies at Bay Hill",
-      "link": "https://www.bbc.com/sport/golf/articles/ckg3xpx83lpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Daniel Berger extends his lead to five shots at the Arnold Palmer Invitational as Rory McIlroy rallies in the second round.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-07T08:21:36.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d6e1ed6d7a2eb311",
-      "title": "Ranveer Singh Returns in ‘Dhurandhar: The Revenge’ Trailer as Jio Studios Unveils Aditya Dhar’s Spy-Action Sequel",
-      "link": "https://variety.com/2026/film/news/ranveer-singh-dhurandhar-the-revenge-trailer-1236681518/",
-      "summary": "Following the box office success of “Dhurandhar,” which emerged as the highest-grossing Hindi-language film in India, Jio Studios and B62 Studios have unveiled the trailer for “Dhurandhar: The Revenge,” promising an even grander scale for the spy-action thriller sequel. The trailer features Ranveer…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/Dhurandhar-2-poster.jpg",
-      "pubDate": "2026-03-07T08:10:49.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5c09c9e3df25ef4c",
       "title": "'Huge potential' in Aston Martin, says Alonso",
       "link": "https://www.bbc.com/sport/formula1/articles/cy9g175lp0eo?at_medium=RSS&at_campaign=rss",
@@ -1721,22 +1817,6 @@
       "region": "global"
     },
     {
-      "id": "69ab669af603674e",
-      "title": "WGA Members Approve Bargaining Agenda Focused on Health Care, Pay, AI",
-      "link": "https://variety.com/2026/film/news/wga-members-bargaining-agenda-pattern-demands-1236681478/",
-      "summary": "The members of the Writers Guild of America have voted to approve an agenda for bargaining with the studios, which is set to begin on March 16. With 97.4% voting in favor, the union approved a “pattern of demands” that focuses on health care, compensation, and artificial intelligence, among other i…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2023/09/BUC_2323-1.jpg",
-      "pubDate": "2026-03-07T03:01:02.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "2396467338d63e28",
       "title": "Samsung Galaxy Watch Ultra 2 to use a new chipset",
       "link": "https://www.gsmarena.com/samsung_galaxy_watch_ultra_2_to_use_a_new_chipset-news-71855.php",
@@ -1750,38 +1830,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f470629a8593bec6",
-      "title": "‘Monsters Inc. 3’ in the Works at Pixar; New Originals Include ‘Ono Ghost Market’ and the Studio’s First Musical",
-      "link": "https://variety.com/2026/film/news/monsters-inc-3-pixar-ono-ghost-market-first-musical-1236681473/",
-      "summary": "Boo! Pixar is developing a third movie in the popular “Monsters Inc.” franchise. The project was revealed in a lengthy Wall Street Journal profile that examined the inner workings at Pixar, as the animation studio debuts its latest release, “Hoppers.” The franchise’s first movie, 2001’s “Monsters, …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2023/10/Monsters-Inc.jpg",
-      "pubDate": "2026-03-07T02:13:49.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "123a4a9a778884ff",
-      "title": "‘Outlander’ Final Season Begins: Caitriona Balfe and Sam Heughan on That First Death and More Season 8 Premiere Revelations",
-      "link": "https://variety.com/2026/tv/news/outlander-season-8-caitriona-balfe-sam-heughan-final-season-premiere-1236680771/",
-      "summary": "SPOILER ALERT: This post contains spoilers from “Soul of a Rebel,” the Season 8 premiere of “Outlander,” now streaming on Starz. There’s a first last time for everything, and “Outlander” wastes no time checking a few off its list. Less than five minutes into the eighth and final season of Starz’s g…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/Outlander-MAIN.1.jpg",
-      "pubDate": "2026-03-07T02:05:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2185,6 +2233,22 @@
       "region": "global"
     },
     {
+      "id": "ba1a05f4f6890972",
+      "title": "Thunder focus on 'fun' in win against Mavericks",
+      "link": "https://www.bbc.com/sport/netball/articles/cy8l1lljq5qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Eleanor Cardwell says Manchester Thunder \"concentrated on having fun\" as they comfortably beat London Mavericks 69-59 in round two of the Netball Super League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T21:44:28.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "05301530352e39a4",
       "title": "بث مباشر بالفيديو.. تحليل فوز الزمالك على الاتحاد السكندري بالدوري المصري",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/543663/%d8%a8%d8%ab-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-%d8%a8%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d9%81%d9%88%d8%b2-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%b3%d9%83%d9%86%d8%af%d8%b1%d9%8a-%d8%a8%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a",
@@ -2438,54 +2502,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d2d1ff3db87658b0",
-      "title": "التوقف الدولي واختيار حسام حسن.. يلا كورة يكشف متى ينتهي التدوير بين الشناوي وشوبير؟",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/543636/%d8%a7%d9%84%d8%aa%d9%88%d9%82%d9%81-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a-%d9%88%d8%a7%d8%ae%d8%aa%d9%8a%d8%a7%d8%b1-%d8%ad%d8%b3%d8%a7%d9%85-%d8%ad%d8%b3%d9%86-%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d9%8a%d9%83%d8%b4%d9%81-%d9%85%d8%aa%d9%89-%d9%8a%d9%86%d8%aa%d9%87%d9%8a-%d8%a7%d9%84%d8%aa%d8%af%d9%88%d9%8a%d8%b1-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d8%b4%d9%86%d8%a7%d9%88%d9%8a-%d9%88%d8%b4%d9%88%d8%a8%d9%8a%d8%b1-",
-      "summary": "يعود محمد الشناوي إلى حراسة مرمى الفريق الأول لكرة القدم بالنادي الأهلي، في المباراة المقبلة ضد نظيره فريق طلائع الجيش، ضمن منافسات بطولة الدوري المصري الممتاز، للموسم الحالي 2025-26.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-06T18:41:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "27f0c95ae9734500",
-      "title": "تشكيل الزمالك أمام الاتحاد السكندري.. شيكو بانزا أساسيًا وكايد بديلًا",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/543635/%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%b3%d9%83%d9%86%d8%af%d8%b1%d9%8a-%d8%b4%d9%8a%d9%83%d9%88-%d8%a8%d8%a7%d9%86%d8%b2%d8%a7-%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a-%d8%a7-%d9%88%d9%83%d8%a7%d9%8a%d8%af-%d8%a8%d8%af%d9%8a%d9%84-%d8%a7-",
-      "summary": "أعلن الجهاز الفني للفريق الأول لكرة القدم بنادي الزمالك بقيادة معتمد جمال، عن التشكيل الذي سيخوض به الفريق الأبيض مباراة الاتحاد السكندري المقرر لها في التاسعة والنصف مساء اليوم الجمعة، على ستاد القاهرة الدولي، في الجولة الحادية والعشرين لمسابقة الدوري المصري الممتاز.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-06T18:40:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "95efeb8d89a86f17",
-      "title": "تقارير: ميلان يتلقى دفعة معنوية قبل ديربي الغضب أمام إنتر",
-      "link": "https://www.yallakora.com/serie-a/2981/news/543634/%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%85%d9%8a%d9%84%d8%a7%d9%86-%d9%8a%d8%aa%d9%84%d9%82%d9%89-%d8%af%d9%81%d8%b9%d8%a9-%d9%85%d8%b9%d9%86%d9%88%d9%8a%d8%a9-%d9%82%d8%a8%d9%84-%d8%af%d9%8a%d8%b1%d8%a8%d9%8a-%d8%a7%d9%84%d8%ba%d8%b6%d8%a8-%d8%a3%d9%85%d8%a7%d9%85-%d8%a5%d9%86%d8%aa%d8%b1",
-      "summary": "تلقى نادي إيه سي ميلان دفعة معنوية مهمة قبل مواجهة الديربي المرتقبة أمام غريمه إنتر ميلان، ضمن منافسات الدوري الإيطالي، بعد عودة الظهير الأيسر الشاب دافيدي بارتيساجي إلى التدريبات الجماعية للفريق.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-06T18:34:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
