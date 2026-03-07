@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-07T20:27:12.664Z",
-    "total": 471,
+    "generated_at": "2026-03-07T20:47:19.306Z",
+    "total": 485,
     "processed_feeds": 20,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,15 +9,41 @@
     "shard_index": 2,
     "results": [
       {
-        "name": "Engadget",
-        "url": "https://www.engadget.com/rss.xml",
-        "homepage": "https://www.engadget.com/",
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "homepage": "https://techcrunch.com",
         "lang": "en",
         "region": "global",
         "cats": [
           "technology"
         ],
-        "taken": 40,
+        "taken": 15,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/8f86fafe-03e0-45bd-8bb8-48cec71a580d",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -35,6 +61,19 @@
         "notModified": false
       },
       {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 53,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -45,45 +84,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/feed/",
-        "homepage": "https://techcrunch.com",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/8f86fafe-03e0-45bd-8bb8-48cec71a580d",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 54,
-        "error": null,
         "notModified": false
       },
       {
@@ -100,15 +100,41 @@
         "notModified": false
       },
       {
-        "name": "New Scientist",
-        "url": "https://www.newscientist.com/feed/home",
-        "homepage": "https://www.newscientist.com/feed/home",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/feed/",
+        "homepage": "https://arstechnica.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 94,
+        "taken": 16,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/rss.xml",
+        "homepage": "https://www.engadget.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 40,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia — اقتصاد",
+        "url": "https://www.skynewsarabia.com/rss/business.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -126,29 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/feed/",
-        "homepage": "https://arstechnica.com/feed/",
+        "name": "New Scientist",
+        "url": "https://www.newscientist.com/feed/home",
+        "homepage": "https://www.newscientist.com/feed/home",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 16,
+        "taken": 94,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Quds Al Arabi - رياضة",
-        "url": "https://www.alquds.co.uk/feed/?cat=10",
-        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -161,32 +174,6 @@
           "general"
         ],
         "taken": 29,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — اقتصاد",
-        "url": "https://www.skynewsarabia.com/rss/business.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -227,6 +214,19 @@
         ],
         "taken": 10,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Quds Al Arabi - رياضة",
+        "url": "https://www.alquds.co.uk/feed/?cat=10",
+        "homepage": "https://www.alquds.co.uk/feed/?cat=10",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -271,6 +271,70 @@
     ]
   },
   "items": [
+    {
+      "id": "41a0eb9bcf971621",
+      "title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal",
+      "link": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "summary": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she’s resigned from her role leading the company's robotics team.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T20:44:25.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "975c60ed26493c2a",
+      "title": "CasNum",
+      "link": "https://github.com/0x0mer/CasNum",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T20:43:51.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ccda33d8f73feadc",
+      "title": "How bid to impress wife's dad led Warburton to Paralympics",
+      "link": "https://www.bbc.com/sport/articles/cqlg7lyv7vzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fred Warburton took up ski racing in a bid to impress his Italian father-in-law - now he is competing for Great Britain at the Winter Paralympics.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T20:34:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7190d7a5e8e8825c",
+      "title": "Indie App Spotlight: ‘Weather mini’ packs trip forecasts and more in a beautiful design",
+      "link": "https://9to5mac.com/2026/03/07/indie-app-spotlight-weather-mini-packs-trip-forecasts-and-more-in-a-beautiful-design/",
+      "summary": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. Weather mini is a nicely designed weather app for the entire Apple ecosystem that adds a couple key featu…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T20:30:36.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "4a2389f8dfb331ee",
       "title": "'Fantastic French made to look ordinary as Scotland come of age'",
@@ -446,6 +510,54 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "22a95420d9414eb1",
+      "title": "ميلان وإنتر.. ألف رهان في ديربي الغضب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%8A%D9%84%D8%A7%D9%86-%D9%88%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D8%A7%D9%94%D9%84%D9%81-%D8%B1%D9%87%D8%A7%D9%86-%D9%81%D9%8A-%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D8%BA%D8%B6%D8%A8/bltd069035ada6ba83e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الروسونيري يعلق آمالا كبيرة على موقعة سان سيرو",
+      "body": "الروسونيري يعلق آمالا كبيرة على موقعة سان سيرو يأمل فريق ميلان في تحقيق الفوز على غريمه إنتر عندما يلتقيان غدا الأحد على ملعب سان سيرو، لتحقيق مكاسب عدة مالية ومعنوية وفنية أيضا. ويلتقي الغريمان التقليديان في مواجهة تتجاوز حدود المنافسة المحلية، حيث يحمل الصراع أبعادا رياضية واستراتيجية كبيرة. ويدخل إنتر \"ديربي الغضب\" في الصدارة برصيد 67 نقطة، مقابل 57 نقطة لغريمه ميلان، وسيكون فوز الروسونيري نقطة انطلاق جديدة في مشهد المنافسة على اللقب، إذا تقلص الفارق في المراحل الحاسمة من البطولة. إيرادات قياسية وفقا لموقع فوت ميركاتو \"من المتوقع أن يشهد الملعب حضورا جماهيريا كاملا يتجاوز 75 ألف متفرج، ما قد يحقق إيرادات تذاكر تقارب 9 ملايين يورو، وهو رقم قياسي تاريخي لمباراة في الدوري الإيطالي\". ويعكس هذا الحماس الشعبي أهمية اللقاء، الذي لم يعد مجرد رمز لهوية ميلانو فحسب، بل أصبح مقياسا حقيقيا لمجريات الموسم بأكمله. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! وقد يعيد فوز ميلان إحياء الصراع على اللقب جزئيا ويمنح الفريق دفعة معنوية هائلة، فيما قد يُنهي انتصار إنتر تقريبا المنافسة على القمة ويرسخ التفوق النيراتزوري. هذا السيناريو يذكّر بالمواجهات التاريخية التي تحول فيها الديربي إلى نهائي مبكر على لقب الدوري. اقرأ أيضا: كيفو يكشف عن إصابة ج…",
+      "image": "https://assets.kooora.com/images/v3/blt0b4fb401854a0cdd/Seria-A---Website-Banners-Koora-(2).png",
+      "pubDate": "2026-03-07T18:45:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e57fc154356b59f2",
+      "title": "PopSockets founder David Barnett talks about building a viral business",
+      "link": "https://techcrunch.com/2026/03/07/popsockets-founder-david-barnett-talks-about-building-a-viral-business/",
+      "summary": "David Barnett, founder of PopSocket, stops by Equity to talk about scaling the business and what he's learned as a leader.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T18:40:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "4a1670115b1310ce",
+      "title": "رغم البند المثير.. فالنسيا يجدد التفاوض مع نجم الأهلي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%BA%D9%85-%D8%A7%D9%84%D8%A8%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%AB%D9%8A%D8%B1-%D9%81%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%A7-%D9%8A%D8%AC%D8%AF%D8%AF-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D9%88%D8%B6-%D9%85%D8%B9-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A/bltc755af127f064f6b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يتفاوض فالنسيا الإسباني، مع نجم الأهلي المصري، للحصول على خدماته بالمجان في صيف 2026.",
+      "body": "يتفاوض فالنسيا الإسباني، مع نجم الأهلي المصري، للحصول على خدماته بالمجان في صيف 2026. ويتعلق الأمر باللاعب المالي أليو ديانج، الذي ينتهي تعاقده مع الأهلي، في الصيف المقبل. وأشارت تقارير إلى أن فالنسيا أوقف مفاوضاته مع ديانج، بسبب عدم التوصل لاتفاق بين الطرفين. لكن مصدر مقرب من اللاعب، أكد لموقع يالا كورة، أن عرض فالنسيا لضم أليو ديانج، لا زال قائمًا. وأضاف المصدر \"مفاوضات فالنسيا مع ديانج، لم تتوقف بشكل كامل حتى الآن\". وتابع \"نقطة الخلاف بين الطرفين، تدور حول وجود بند ينص على خفض راتب ديانج بنسبة 50% حال هبوط الخفافيش\". ويحتل فالنسيا، المركز 15 بجدول ترتيب الدوري الإسباني برصيد 29 نقطة. اقرأ أيضًا \"النملة\" تحت منظار برشلونة لخلافة ليفاندوفسكي",
+      "image": null,
+      "pubDate": "2026-03-07T18:34:47.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "3021a59d5287a5d9",
@@ -736,22 +848,6 @@
       "region": "global"
     },
     {
-      "id": "6d56b0977e531466",
-      "title": "The Banality of Surveillance",
-      "link": "https://benn.substack.com/p/the-banality-of-surveillance",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-07T16:56:53.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "84a0787dc2236d3a",
       "title": "A Decade of Docker Containers",
       "link": "https://cacm.acm.org/research/a-decade-of-docker-containers/",
@@ -976,22 +1072,6 @@
       "region": "mena"
     },
     {
-      "id": "ee9c34f542b401c0",
-      "title": "رسميًا.. ليفربول يعلن تجديد عقد نجمه",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D8%B9%D9%84%D9%86-%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B9%D9%82%D8%AF-%D9%86%D8%AC%D9%85%D9%87/blt133eafaf5463d12a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النادي الإنجليزي أمن مستقبل أحد الركائز الأساسية",
-      "body": "النادي الإنجليزي أمن مستقبل أحد الركائز الأساسية أعلن ليفربول، حامل لقب الدوري الإنجليزي الممتاز، اليوم السبت، عن تمديد عقد أحد نجومه، نظرًا لمساهمته الفعالة مع الفريق. ويتعلق الأمر باللاعب الهولندي الدولي، صاحب الـ 23 عامًا، ريان جرافنبيرش، الذي قدم مستوى مميزًا منذ انضمامه لصفوف \"الريدز\"، قادمًا من بايرن ميونخ في عام 2023. اقرأ أيضًا ماذا قدم ميسي لترامب في زيارته التاريخية للبيت الأبيض؟ الكواليس تظهر.. لاعبات إيران أُجبرن على ترديد النشيد الوطني أمام أستراليا قلة الخبرة تحرم ريال مدريد من ركلة جزاء واضحة وجاء في البيان الرسمي لنادي ليفربول: \"مدد جرافنبيرش تعاقده ليستمر مع النادي لعدة مواسم\".&nbsp; وبينما كان عقده السابق سينتهي في 2028، كشفت شبكة \"سكاي سبورتس\" أن التمديد الجديد سيبقي النجم الهولندي في \"آنفيلد\" حتى عام 2032.&nbsp; وخلال مسيرته مع الفريق الإنجليزي، سجل جرافنبيرش 8 أهداف وصنع 12، في 123 مباراة خاضها في جميع المسابقات.",
-      "image": null,
-      "pubDate": "2026-03-07T15:36:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "a7af1dbb26e361ef",
       "title": "Steyn intercepts Dupont pass as Scotland extend lead over France",
       "link": "https://www.bbc.com/sport/rugby-union/videos/cy0329npl3no?at_medium=RSS&at_campaign=rss",
@@ -1022,38 +1102,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "ccda33d8f73feadc",
-      "title": "How bid to impress wife's dad led Warburton to Paralympics",
-      "link": "https://www.bbc.com/sport/articles/cqlg7lyv7vzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Fred Warburton took up ski racing in a bid to impress his Italian father-in-law - now he is competing for Great Britain at the Winter Paralympics.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-07T15:32:22.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "48c8408a4d954e07",
-      "title": "أمر \"ممل\" يغضب أرتيتا بعد فوز آرسنال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D9%85%D8%B1-%D9%85%D9%85%D9%84-%D9%8A%D8%BA%D8%B6%D8%A8-%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D8%A8%D8%B9%D8%AF-%D9%81%D9%88%D8%B2-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84/blt9ca806cb4021c902?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "قطع آرسنال، تذكرة العبور إلى ربع نهائي كأس الاتحاد الإنجليزي، بعد فوزه 2-1 على مضيفه مانسفيلد، اليوم السبت.",
-      "body": "قطع آرسنال، تذكرة العبور إلى ربع نهائي كأس الاتحاد الإنجليزي، بعد فوزه 2-1 على مضيفه مانسفيلد، اليوم السبت. وظل التعادل السلبي، قائمًا بين الفريقين حتى الدقيقة 41 عندما تمكن نوني مادويكي من تسجيل الهدف الأول لآرسنال. ونجح مانسفيلد في إدراك التعادل، عن طريق ويل إيفانز في الدقيقة 50. وتمكن آرسنال، من استعادة تقدمه مجددا في الدقيقة 66 من توقيع إيبيريتشي إيزي. وقال ميكيل أرتيتا مدرب آرسنال \"عدد الأهداف التي سجلها لاعبو فريقي، ترد على سهام النقد بشأن أسلوب لعب الفريق\". ورفع آرسنال رصيده إلى 101 هدف في جميع المسابقات حتى الآن. وخلال الموسم، اشتكى بعض مشجعي الفرق المنافسة، من اعتماد آرسنال بشكل كبير على الأهداف الناتجة عن الكرات الثابتة، إذ جاء 36 هدفاً بهذه الطريقة. وأضاف أرتيتا في تصريحات نشرتها شبكة talkSPORT \"استعراض الأرقام للتقليل من آرسنال، بات أمرًا مملًا\". وتابع \"أعتقد أننا سجلنا أهدافاً أكثر من أي فريق آخر، أظن أن العدد تجاوز 100 هدف\". اقرأ أيضًا نجم ريال مدريد السابق يمتدح كارفاخال: مثل \"الكلب\"",
-      "image": null,
-      "pubDate": "2026-03-07T15:20:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "29f54c1fe659fc43",
@@ -1312,22 +1360,6 @@
       "region": "global"
     },
     {
-      "id": "554c3e689e27eeb9",
-      "title": "Slay the Spire 2, Scott Pilgrim EX and other new indie games worth checking out",
-      "link": "https://www.engadget.com/gaming/slay-the-spire-2-scott-pilgrim-ex-and-other-new-indie-games-worth-checking-out-120000884.html?src=rss",
-      "summary": "Welcome to our latest roundup of what's going on in the indie game space. We've got a lot of new and upcoming games to highlight this week, and those are on top of all of our coverage of the Nintendo Indie World stream the other day. Nintendo packed a lot of news into that 18-minute stream, includi…",
-      "body": null,
-      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fscott_pilgrim_4414.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=8de5ad41b998f5381c9ceb2d7446c2e0ab7186f7",
-      "pubDate": "2026-03-07T12:00:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b96a95fac48ab21b",
       "title": "This week’s top stories: MacBook Neo, iPhone 17e, and much more",
       "link": "https://9to5mac.com/2026/03/07/this-weeks-top-stories-macbook-neo-iphone-17e-and-much-more/",
@@ -1341,6 +1373,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "554c3e689e27eeb9",
+      "title": "Slay the Spire 2, Scott Pilgrim EX and other new indie games worth checking out",
+      "link": "https://www.engadget.com/gaming/slay-the-spire-2-scott-pilgrim-ex-and-other-new-indie-games-worth-checking-out-120000884.html?src=rss",
+      "summary": "Welcome to our latest roundup of what's going on in the indie game space. We've got a lot of new and upcoming games to highlight this week, and those are on top of all of our coverage of the Nintendo Indie World stream the other day. Nintendo packed a lot of news into that 18-minute stream, includi…",
+      "body": null,
+      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fscott_pilgrim_4414.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=8de5ad41b998f5381c9ceb2d7446c2e0ab7186f7",
+      "pubDate": "2026-03-07T12:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1584,6 +1632,22 @@
       "region": "global"
     },
     {
+      "id": "8ad4c54d536e3173",
+      "title": "Robinhood’s startup fund stumbles in NYSE debut",
+      "link": "https://techcrunch.com/2026/03/06/robinhoods-startup-fund-stumbles-in-nyse-debut/",
+      "summary": "The fund currently offers retail investors exposure to eight startups, including Mercor, Ramp, and Stripe, with plans to expand its portfolio.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T02:04:43.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "6cef3335d136c5c3",
       "title": "UUID package coming to Go standard library",
       "link": "https://github.com/golang/go/issues/62026",
@@ -1591,22 +1655,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-07T02:03:21.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7a18b8b6564d8ab1",
-      "title": "LLMs work best when the user defines their acceptance criteria first",
-      "link": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-07T01:17:57.000Z",
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
@@ -1776,6 +1824,22 @@
       "region": "global"
     },
     {
+      "id": "236d451f242360a8",
+      "title": "X is testing a new ad format that connects posts with products",
+      "link": "https://techcrunch.com/2026/03/06/x-is-testing-a-new-ad-format-that-connects-posts-with-products/",
+      "summary": "An ad test on X promotes Musk's Starlink beneath original content.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T22:41:26.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "8f4ef3e5e754231d",
       "title": "Apple adds Steve Lemay and Molly Anderson to its leadership page",
       "link": "https://9to5mac.com/2026/03/06/apple-adds-steve-lemay-and-molly-anderson-to-its-leadership-page/",
@@ -1904,6 +1968,22 @@
       "region": "global"
     },
     {
+      "id": "7f60912275a0fc30",
+      "title": "Life EV officially owns Rad Power Bikes now",
+      "link": "https://techcrunch.com/2026/03/06/life-ev-officially-owns-rad-power-bikes-now/",
+      "summary": "The Rad Power brand is expected to live on.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T21:56:35.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "74bc79c3b6449f36",
       "title": "this css proves me human",
       "link": "https://will-keleher.com/posts/this-css-makes-me-human/",
@@ -2000,6 +2080,22 @@
       "region": "global"
     },
     {
+      "id": "fb9e43b4714b1f6f",
+      "title": "OSHA probing fatality at Rivian warehouse",
+      "link": "https://techcrunch.com/2026/03/06/osha-probing-fatality-at-rivian-warehouse/",
+      "summary": "A 61-year-old worker died on Thursday after reportedly getting stuck between a tractor trailer and a loading dock.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T20:23:08.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "c62309bd2578785e",
       "title": "Google's new command-line tool can plug OpenClaw into your Workspace data",
       "link": "https://arstechnica.com/ai/2026/03/googles-new-command-line-tool-can-plug-openclaw-into-your-workspace-data/",
@@ -2010,6 +2106,22 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "627bb36bec998643",
+      "title": "Bill Gates’ TerraPower gets approval to build new nuclear reactor",
+      "link": "https://techcrunch.com/2026/03/06/bill-gates-terrapower-gets-approval-to-build-new-nuclear-reactor/",
+      "summary": "It's the first permit to be issued by the Nuclear Regulatory Commission in nearly a decade.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T19:47:40.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2074,6 +2186,22 @@
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "caab612780a7eee8",
+      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
+      "link": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "summary": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as \"high-severity.\"",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T19:00:22.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2224,6 +2352,22 @@
       "region": "global"
     },
     {
+      "id": "8197dc5aa21982ae",
+      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+      "link": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+      "summary": "Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T17:56:07.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "ae02bab014cdb4fc",
       "title": "Silo gets exciting update ahead of season 3’s release",
       "link": "https://9to5mac.com/2026/03/06/silo-gets-exciting-update-ahead-of-season-3s-release/",
@@ -2237,6 +2381,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "9bb30addfe847ba4",
+      "title": "India PC shipments surpass pandemic peak as first-time users upgrade",
+      "link": "https://techcrunch.com/2026/03/06/india-pc-shipments-surpass-pandemic-peak-as-first-time-users-upgrade/",
+      "summary": "Pandemic-driven lockdowns exposed many people in India to PCs for the first time, expanding the country's PC userbase and creating demand for upgrades as those devices age.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T17:51:49.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2394,6 +2554,22 @@
       "source": {
         "name": "Engadget",
         "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "9ddb7e4ac8f9ca59",
+      "title": "These are the countries moving to ban social media for children",
+      "link": "https://techcrunch.com/2026/03/06/social-media-ban-children-countries-list/",
+      "summary": "Australia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T16:00:56.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2576,6 +2752,22 @@
       "region": "global"
     },
     {
+      "id": "c0ef40a6c4c915e1",
+      "title": "TriZetto confirms 3.4M people’s health and personal data was stolen during breach",
+      "link": "https://techcrunch.com/2026/03/06/trizetto-confirms-3-4m-peoples-health-and-personal-data-was-stolen-during-breach/",
+      "summary": "Health tech giant TriZetto has confirmed that more than 3.4 million people had personal and health information stolen in a 2024 cyberattack, which the company failed to detect for almost a year.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T14:28:31.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "c88103097b7a81b4",
       "title": "Why are vertebrate eyes so different from those of other animals?",
       "link": "https://arstechnica.com/science/2026/03/the-vertebrate-eye-may-have-begun-as-a-cyclops/",
@@ -2586,6 +2778,22 @@
       "source": {
         "name": "Ars Technica",
         "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "88c792d6a1c1efa7",
+      "title": "Indonesia outlines plan to limit under-16s’ access to social media",
+      "link": "https://techcrunch.com/2026/03/06/indonesia-outlines-plan-to-limit-under-16s-access-to-social-media/",
+      "summary": "Indonesia has outlined new regulations that would restrict users under 16 from accessing digital platforms.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T14:18:16.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
       },
       "lang": "en",
       "category": "technology",
@@ -2624,6 +2832,22 @@
       "region": "global"
     },
     {
+      "id": "b8ae1fa215a41734",
+      "title": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A",
+      "link": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
+      "summary": "City Detect, a company that helps local governments prevent urban decay, is in at least 17 cities so far, including Dallas and Miami.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T14:00:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "34b208bae58b87f4",
       "title": "Apple has announced 7 new products this week",
       "link": "https://9to5mac.com/2026/03/06/apple-has-announced-7-new-products-this-week/",
@@ -2637,6 +2861,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "473ee6a41bc29b2e",
+      "title": "Quantum scale-up Pasqal plans $2B SPAC listing, promises to ‘remain French’",
+      "link": "https://techcrunch.com/2026/03/06/quantum-scale-up-pasqal-plans-2b-spac-listing-promises-to-remain-french/",
+      "summary": "A SPAC deal that is set to take French quantum company Pasqal public on the Nasdaq values the company at $2 billion pre-money.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-06T13:44:18.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3053,22 +3293,6 @@
       },
       "lang": "ar",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "248bf61d3d30a776",
-      "title": "Enhanced Games: A Sporting Revolution or Dangerous Doping?",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m002rkmw?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport investigates the Enhanced Games, one of sport's most controversial concepts.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-06T06:00:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -4128,8 +4352,8 @@
       "region": "global"
     },
     {
-      "id": "d9694eb005ada519",
-      "title": "Bourdieu's theory of taste: a grumbling abrégé",
+      "id": "6b1cbb45d09e5725",
+      "title": "Bourdieu's theory of taste: a grumbling abrégé (2023)",
       "link": "https://dynomight.net/bourdieu/",
       "summary": "Comments",
       "body": null,
@@ -5136,6 +5360,22 @@
       "region": "global"
     },
     {
+      "id": "1aff4c7effac2644",
+      "title": "In 1985 Maxell built a bunch of life-size robots for its bad floppy ad",
+      "link": "https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-04T14:16:31.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "01444e0ef1455a57",
       "title": "Apple’s new iPhone 17e is now available for pre-order",
       "link": "https://9to5mac.com/2026/03/04/apples-new-iphone-17e-is-now-available-for-pre-order/",
@@ -5751,22 +5991,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-03T19:04:54.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cde760800849a846",
-      "title": "Your Mac might not support the Studio Display XDR’s best feature",
-      "link": "https://9to5mac.com/2026/03/03/heres-which-macs-support-the-new-studio-display-xdr-at-120hz/",
-      "summary": "Apple announced the all-new Studio Display XDR today, and it has several key upgrades over the basic Studio Display, including a 120Hz refresh rate. However, you’ll need a newer Mac to take advantage of that higher refresh rate. Here’s everything you need to know. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-03T18:59:53.000Z",
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
