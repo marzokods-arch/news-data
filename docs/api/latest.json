@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-08T21:59:08.302Z",
-    "total": 170,
+    "generated_at": "2026-03-08T22:24:25.133Z",
+    "total": 180,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,15 +9,15 @@
     "shard_index": 4,
     "results": [
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
           "sports"
         ],
-        "taken": 62,
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -35,21 +35,34 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "taken": 62,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
         "notModified": false
       },
       {
         "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/a68bd348-55df-4646-a3ac-e68ab139551a",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/94e3feb9-f565-430b-a995-fe341acce07b",
         "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
@@ -57,7 +70,20 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 18,
+        "error": null,
         "notModified": false
       },
       {
@@ -87,19 +113,6 @@
         "notModified": false
       },
       {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Investing.com News (EN)",
         "url": "https://www.investing.com/rss/news.rss",
         "homepage": "https://www.investing.com/rss/news.rss",
@@ -109,32 +122,6 @@
           "general"
         ],
         "taken": 4,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
         "error": null,
         "notModified": false
       },
@@ -152,6 +139,19 @@
         "notModified": false
       },
       {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
@@ -162,6 +162,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -191,23 +204,10 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Al Jazirah (KSA) - رياضة",
-        "url": "https://www.al-jazirah.com/rss/rss09.xml",
-        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
-        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -217,10 +217,10 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
-        "lang": "en",
+        "name": "Al Jazirah (KSA) - رياضة",
+        "url": "https://www.al-jazirah.com/rss/rss09.xml",
+        "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -269,26 +269,58 @@
         "notModified": false
       },
       {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
+        "taken": 8,
+        "error": null,
         "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "c38a46249ce6c0ae",
-      "title": "If anyone is letting Borthwick down, it's us - Earl",
+      "id": "3160db1e49ec0677",
+      "title": "Dyne Therapeutics launches phase 3 trial for DM1 treatment",
+      "link": "https://www.investing.com/news/company-news/dyne-therapeutics-launches-phase-3-trial-for-dm1-treatment-93CH-4548643",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-03-08T22:05:34.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "98988571f58fdfcf",
+      "title": "Writers Guild Awards: Winners List (Updating Live)",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/2026-writers-guild-awards-winners-list-1236524518/",
+      "summary": "Trophies are being handed out at a Roy Wood Jr.-hosted ceremony in New York after the L.A. ceremony was canceled amid a WGA West staff strike.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T21:20:37.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0c78912fa8a8d383",
+      "title": "'I thought we played pretty well' - Earl defends Borthwick",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c4g07men837o?at_medium=RSS&at_campaign=rss",
-      "summary": "England's Ben Earl defends Steve Borthwick's record as head coach following their defeat by Italy and claims that \"large parts of their performance were brilliant\".",
+      "summary": "England's Ben Earl defends Steve Borthwick's record as head coach following their defeat by Italy and claims that \"large parts of the performance were brilliant\".",
       "body": null,
       "image": null,
       "pubDate": "2026-03-08T21:14:42.000Z",
@@ -298,6 +330,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d1e9569424dc1947",
+      "title": "Michelle Randolph Is Having a Moment: ‘Scream 7,’ ‘Landman’ — And What’s Next",
+      "link": "https://www.hollywoodreporter.com/movies/movie-features/michelle-randolph-landman-season-3-scream-7-scene-interview-1236524555/",
+      "summary": "The actress is unpacking her big opening scene in the slasher film, performing her own stunts, what’s ahead for the third season of Taylor Sheridan’s hit show and her upcoming Christmas movie with Christopher Briney.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T21:09:22.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -365,6 +413,86 @@
       "region": "global"
     },
     {
+      "id": "d2b0a5f02fde0eff",
+      "title": "فيديو| \"هل نحن في هاري بوتر؟\" نجم برشلونة يندهش من فندق الفريق قبل مواجهة نيوكاسل",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%87%D9%84-%D9%86%D8%AD%D9%86-%D9%81%D9%8A-%D9%87%D8%A7%D8%B1%D9%8A-%D8%A8%D9%88%D8%AA%D8%B1-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D9%86%D8%AF%D9%87%D8%B4-%D9%85%D9%86-%D9%81%D9%86%D8%AF%D9%82-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%86%D9%8A%D9%88%D9%83%D8%A7%D8%B3%D9%84/blta3e8951d3268e2d5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "إقامة فاخرة",
+      "body": "إقامة فاخرة وصل فريق برشلونة إلى مدينة نيوكاسل استعدادًا لمواجهة الفريق الإنجليزي على ملعب سانت جيمس بارك يوم الثلاثاء المقبل، ضمن ذهاب دور الـ16 من دوري أبطال أوروبا. ويخوض نيوكاسل هذا الدور للمرة الأولى في تاريخه، بعد أن نجح في تخطي فريق كاراباج في الملحق الإقصائي بنتيجة إجمالية كبيرة بلغت 9-3، عقب إنهائه مرحلة الدوري في المركز الثاني عشر. في المقابل، أنهى برشلونة مرحلة الدوري في المركز الخامس، ليضمن التأهل إلى دور ثمن النهائي للمرة العشرين في تاريخه، مواصلًا حضوره المعتاد في الأدوار الإقصائية للبطولة القارية. (اقرأ أيضًا)&nbsp; مدرب نيوكاسل: مباراة برشلونة الأهم في تاريخنا وتعد مواجهة نيوكاسل وبرشلونة فرصة لتكرار المواجهة بين الفريقين خلال الموسم الحالي، بعد أن تمكن الفريق الكتالوني من الفوز بنتيجة (2-1) في المباراة التي جمعتهما ضمن الجولة الأولى من مرحلة الدوري. وعند وصول فريق برشلونة إلى فندق مافتن هول للجولف والمنتجع الصحي، الواقع على بعد نحو 30 كيلومترًا من نيوكاسل، أعرب اللاعب جافي عن إعجابه بالمرافق الفاخرة، قائلاً مازحًا: \"إنه مثل هوجورتس! هل هو هاري بوتر أم ماذا؟ إنه رائع حقًا\". وسيقيم برشلونة في هذا الفندق بعيدًا عن صخب المدينة، حيث يمكن للاعبين والجهاز الفني الاستمتاع بأفضل المرافق والخدمات، بما يتيح لهم التركيز التام على مواجهة الفريق الإنجليزي. (اقرأ أيضًا)&nbsp; كو…",
+      "image": null,
+      "pubDate": "2026-03-08T20:19:03.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "9bcc0a93739fc298",
+      "title": "زلزال في لندن.. أرسنال يستعد للمذبحة لسداد \"فاتورة الحلم\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D9%81%D9%8A-%D9%84%D9%86%D8%AF%D9%86-%D8%A7%D9%94%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D9%84%D9%85%D8%B0%D8%A8%D8%AD%D8%A9-%D9%84%D8%B3%D8%AF%D8%A7%D8%AF-%D9%81%D8%A7%D8%AA%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%85/blta9a2404116a3fe30?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فاتورة تحقيق اللقب",
+      "body": "فاتورة تحقيق اللقب يجد أرسنال الإنجليزي، نفسه أمام حتمية التخلي عن لاعب واحد على الأقل من ركائز فريقه الأول خلال سوق الانتقالات الصيفية المقبلة، في خطوة إستراتيجية تهدف إلى موازنة الحسابات المالية بعد الإنفاق الضخم الذي شهده العام الماضي، وهو الإنفاق الذي وضع كتيبة المدرب ميكيل أرتيتا على قمة ترتيب الدوري الإنجليزي الممتاز مع بقاء 8 جولات على الحسم. وتشير التقارير، بحسب صحيفة \"تليجراف\"، من داخل \"استاد الإمارات\" إلى وجود مناقشات رفيعة المستوى لتحديد الأسماء التي قد تدرّ الربح الأعلى للنادي، وما إذا كان حجم الإنفاق البالغ 268 مليون جنيه إسترليني في السنة المالية الأخيرة سيتطلب رحيل أكثر من لاعب لتجنب خرق قواعد اللعب المالي النظيف. مواهب الأكاديمية وتبرز أسماء خريجي الأكاديمية، إيثان نوانيري (18 عامًا)، ومايلز لويس سكيلي (19 عاماً)، كمرشحين محتملين للمغادرة. نوانيري الذي يقضي فترة إعارة حاليًا في صفوف مارسيليا الفرنسي، ولويس سكيلي الذي تراجع ترتيبه كخيار ثالث في مركز الظهير الأيسر، يمثلان \"ربحًا صافيًا\" في الميزانية، رغم ما يحمله رحيلهما من مخاطر فنية وتاريخية بفقدان مواهب محلية واعدة. معضلة القائد وفي خطوة قد تبدو صادمة للجماهير، دخل اسم القائد مارتن أوديجارد دائرة الحسابات المالية؛ فالدولي النرويجي الذي يمثل الرئة النابضة لفكر أرتيتا، سيصل إلى السنتين الأخيرتين من عقده بحلول الصيف.…",
+      "image": "https://assets.kooora.com/images/v3/getty-2260391445/crop/MM5DGMJWHA5DGMJWHA5G433XMU5DONJUHIYA====/GettyImages-2260391445.jpg",
+      "pubDate": "2026-03-08T20:18:49.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7c656a662b3a7497",
+      "title": "تقلبات واضحة تربك برشلونة خلال 6 أيام",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%82%D9%84%D8%A8%D8%A7%D8%AA-%D9%88%D8%A7%D8%B6%D8%AD%D8%A9-%D8%AA%D8%B1%D8%A8%D9%83-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-6-%D8%A7%D9%94%D9%8A%D8%A7%D9%85/blt4971d1d1b3733c36?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أكدت هيئة الأرصاد في كتالونيا، أن مدينة برشلونة تستعد لفترة من الأمطار المتواصلة لمدة 6 أيام.",
+      "body": "أكدت هيئة الأرصاد في كتالونيا، أن مدينة برشلونة تستعد لفترة من الأمطار المتواصلة لمدة 6 أيام. وأشارت صحيفة \"موندو ديبورتيفو\" إلى أن الأمطار ستلعب الدور الرئيسي في الطقس خلال الأيام المقبلة، مما يعني أن برشلونة قد تعيش سلسلة من الأيام الممطرة المتتالية. وخلال الأشهر الماضية، شهد الطقس تقلبات واضحة، فقد جاء شهر يناير/كانون ثان مصحوبًا بالبرد والأمطار الغزيرة وحتى تساقط الثلوج في مناطق منخفضة. بينما شهد فبراير/شباط ارتفاعًا في درجات الحرارة مع رياح قوية، أما شهر مارس/آذار فبدأ بطقس معتدل نسبيًا، لكنه عاد ليحمل معه هطول الأمطار بشكل شبه يومي. وينصح الخبراء، سكان برشلونة، بمتابعة تحديثات الطقس باستمرار، خاصة مع احتمال استمرار الاضطرابات الجوية خلال هذه الفترة. اقرأ أيضًا \"النملة\" تحت منظار برشلونة لخلافة ليفاندوفسكي",
+      "image": null,
+      "pubDate": "2026-03-08T20:05:19.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "46baadb6116bdb25",
+      "title": "جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt642666b88ab760ff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب",
+      "body": "تعرف على جدول مباريات الدوري الإسباني 2025-2026، القنوات الناقلة والترتيب يحظى الدوري الإسباني بمتابعة استثنائية على مستوى العالم، كونه أحد أكثر المسابقات إثارة وقوة، بفضل المنافسة الشرسة بين العملاقين ريال مدريد وبرشلونة. وتمكن برشلونة من التتويج بلقب الدوري الإسباني 2024-2025، بعدما خسر اللقب في الموسم السابق لصالح غريمه الأزلي ريال مدريد. حصد البارسا، تحت قيادة المدرب هانز فليك، الثلاثية المحلية في الموسم الماضي (الدوري والكأس والسوبر)، وفاز على ريال مدريد في جميع المواجهات، ما دفع النادي الملكي لتعزيز صفوفه بأكثر من لاعب، إلى جانب التوقيع مع تشابي ألونسو ليقود الفريق خلفًأ لكارلو أنشيلوتي، ما يمهد لصراع هائل في الموسم المقبل. ويترقب الجميع حول العالم موعد انطلاق الموسم المقبل من الدوري الإسباني 2025-2026، والذي سيكون مشتعلًا بكل تأكيد، كما كان الموسم الماضي. ويستعرض كووورة، في هذا التقرير، جدول مباريات الدوري الإسباني 2025-2026 والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته: جدول ترتيب الدوري الإسباني 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 برشلونة 27 22 1 4 72 26 46 67 2 ريال مدريد 27 20 3 4 56 23 33 63 3 أتلتيكو مدريد 27 16 6 5 46 25 21 54 4 فياريال 27 17 3 7 50 32 18 54 5 ريال بيتيس 27 11 10 6 42 34 8 43 6 سيلتا فيجو 2…",
+      "image": null,
+      "pubDate": "2026-03-08T20:03:43.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e5ceacd17f7debf8",
+      "title": "جدول ترتيب الدوري الإسباني 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026/bltecb2c26fb57f825b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب جدول الدوري الإسباني 2025-2026",
+      "body": "تعرف على ترتيب جدول الدوري الإسباني 2025-2026 انطلقت منافسات الدوري الإسباني لموسم 2025-2026، في نسخة واعدة ينتظر أن تشهد صراعات نارية بين كبار الليجا على لقب البطولة الأكثر شهرة في إسبانيا. ويخوض برشلونة الموسم الجديد منتشيًا بإنجازه في النسخة الماضية 2024-2025، حين توّج باللقب المحلي إلى جانب كأس الملك وكأس السوبر الإسباني، محققًا رباعية تاريخية على حساب غريمه ريال مدريد، الذي يدخل الموسم بقيادة جديدة للمدرب تشابي ألونسو خلفًا لكارلو أنشيلوتي أملًا في استعادة هيبة الملكي. ولا يبدو أتلتيكو مدريد بعيدا عن الصورة حيث يدخل بقوة في قائمة الترشيحات للمنافسة على لقب الليجا، مع مزاحمة من فرق الوسط القوية مثل أتلتيك بيلباو وجيرونا وفياريال وغيرها. النسخة الحالية انطلقت يوم الجمعة 15 أغسطس/آب 2025، وسط توقعات بمنافسة محتدمة على مراكز الصدارة وبطاقات التأهل الأوروبية. وفي هذا التقرير من كووورة، نستعرض جدول ترتيب الدوري الإسباني 2025-2026. جدول ترتيب الدوري الإسباني 2025-2026: برشلونة يستعيد فارق النقاط انتصر برشلونة بصعوبة على أتلتيك بيلباو ليستعيد فارق النقاط +4 في الصدارة &nbsp; المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 برشلونة 27 22 1 4 72 26 46 67 2 ريال مدريد 27 20 3 4 56 23 33 63 3 أتلتيكو مدريد 27 16 6 5 46 25 21 54 4 فياريال 27 17 3 7 50 32 18 54 5 ر…",
+      "image": null,
+      "pubDate": "2026-03-08T20:03:37.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "cbc33b9806a2f395",
       "title": "'Shameful' pitch invasion by Celtic and Rangers fans condemned by police",
       "link": "https://www.bbc.com/news/articles/cy4w22znlyvo?at_medium=RSS&at_campaign=rss",
@@ -395,6 +523,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "c2a8e1ad3ebeee80",
+      "title": "بالفيديو.. ميلان يلدغ إنتر ويشعل سباق الكالتشيو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D9%8A%D9%84%D8%A7%D9%86-%D9%8A%D9%84%D8%AF%D8%BA-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%88%D9%8A%D8%B4%D8%B9%D9%84-%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D9%83%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%88/bltd9c17d14e4326dd3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تغلب ميلان على غريمه التقليدي إنتر ميلان بهدف دون رد، مساء اليوم الأحد، في ديربي مدينة ميلانو الذي أقيم على ملعب سان سيرو، ضمن منافسات الجولة الثامنة والعشرين من الدوري الإيطالي.",
+      "body": "تغلب ميلان على غريمه التقليدي إنتر بهدف دون رد، مساء اليوم الأحد، في ديربي مدينة ميلانو الذي أقيم على ملعب سان سيرو، ضمن منافسات الجولة الثامنة والعشرين من الدوري الإيطالي. &nbsp; &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! وسجل الهدف الوحيد في المباراة اللاعب بيرفس إستوبينان في الدقيقة 35، مانحًا فريقه التقدم وحاسماً نتيجة اللقاء لصالح الروسونيري. (اقرأ أيضًا) يوفنتوس يسبق برشلونة بخطوة في صراع فلاهوفيتش (اقرأ أيضًا) ديربي الغضب يحقق إيرادات قياسية غير مسبوقة وبهذا الفوز، أعاد ميلان إحياء آماله في التتويج بلقب الدوري الإيطالي، حيث رفع رصيده إلى 60 نقطة، وقلّص الفارق إلى 7 نقاط مع إنتر المتصدر الذي يمتلك 67 نقطة. &nbsp; &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! &nbsp; ويذكر أن ميلان كان قد حسم مواجهة الدور الأول لصالحه أيضًا، بعدما تغلب على إنتر بهدف دون رد على ملعب جوزيبي مياتزا، ليؤكد تفوقه في مواجهات الفريقين هذا الموسم. (اقرأ أيضًا) يوفنتوس ينافس العمالقة على صفقة مجانية من العيار الثقيل الروسونيري يتقدم في الديربي 🔥 إستوبينان يخترق دفاعات إنتر ويقص شريط الأهداف لصالح ميلان من تسديدة قوية ⚽️✨ تابعوا المباراة وباقي مواجهات #الكالتشيو_على_شاشا ✨🇮🇹 اشترك الآن 📺 ht…",
+      "image": "https://assets.kooora.com/images/v3/blt0b4fb401854a0cdd/Seria-A---Website-Banners-Koora-(2).png",
+      "pubDate": "2026-03-08T19:59:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "f5d784e15caa8c0a",
@@ -493,6 +637,22 @@
       "region": "mena"
     },
     {
+      "id": "3064b041bc151fce",
+      "title": "جدول ترتيب هدافي الدوري الإسباني 2025-2026",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%87%D8%AF%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026/blteb0ffb69885eb795?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على هدافي الدوري الإسباني 2025-2026",
+      "body": "تعرف على هدافي الدوري الإسباني 2025-2026 لا يقل الدوري الإسباني إثارة عن نظيره الإنجليزي، بل يتميز بطابعه الفني وسحره الخاص الذي يجذب عشاق الكرة حول العالم. كل جولة تحمل معها مفاجآت وتقلبات، وسط تنافس محتدم بين كبار القارة: برشلونة، ريال مدريد، وأتلتيكو مدريد، إلى جانب فرق طموحة تسعى لكسر الهيمنة التقليدية. نجح نادي برشلونة في التتويج بلقب الدوري الإسباني لموسم 2024–2025، تحت قيادة المدرب الألماني هانز فليك، والفضل يعود لنجومه روبرت ليفاندوفسكي، لامين يامال، ورافينيا. لكن ذلك لم يمنع النجم الفرنسي كيليان مبابي من خطف الأضواء على المستوى الفردي، بعدما نجح في حسم صراع هداف الليجا في الموسم المنصرم رغم حلول فريقه وصيفًا لبرشلونة. المنافسة على لقب الهداف تبدو هذا الموسم أكثر شراسة، مع وجود أسماء بارزة مثل روبرت ليفاندوفسكي، فينيسيوس جونيور، كيليان مبابي وأنطوان جريزمان. كما يشهد الموسم انضمام ماركوس راشفورد إلى برشلونة على سبيل الإعارة من مانشستر يونايتد، في صفقة أثارت الكثير من الجدل والتوقعات. وفي الأسطر التالية من كووورة نتعرف سويًا على ترتيب هدافي الدوري الإسباني موسم 2025-2026. هدافي الدوري الإسباني 2025-2026: لامين مستمر في التسجيل، وموريكي يهدد مبابي &nbsp; &nbsp; الترتيب اللاعب الفريق عدد الأهداف 1 كيليان مبابي ريال مدريد 23 2 فيدات موريكي مايوركا 18 3 لامين يامال برشلونة 14 4…",
+      "image": null,
+      "pubDate": "2026-03-08T19:42:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a6fc67e825874d20",
       "title": "Kansas City International Airport reopens after brief closure due to unspecified threat",
       "link": "https://www.investing.com/news/world-news/kansas-city-international-airport-reopens-after-brief-closure-due-to-unspecified-threat-4548634",
@@ -523,22 +683,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "8ff0b82486978d95",
-      "title": "KKR eyes multibillion-dollar sale of CoolIT Systems, FT reports",
-      "link": "https://www.investing.com/news/stock-market-news/kkr-eyes-multibilliondollar-sale-of-data-center-cooling-company-ft-reports-4548581",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM27067_L.jpg",
-      "pubDate": "2026-03-08T19:36:30.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "aa15ba99443f6c1d",
@@ -733,22 +877,6 @@
       "region": "mena"
     },
     {
-      "id": "13584218215ddee6",
-      "title": "الفرنسي رفض النصيحة الملكية.. حسم موقف مبابي من مواجهة مانشستر سيتي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A%D8%A9-%D8%AD%D8%B3%D9%85-%D9%85%D9%88%D9%82%D9%81-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%85%D9%86-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/blt4043151dc7e18e0f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "عقب رحلة علاجية في باريس",
-      "body": "عقب رحلة علاجية في باريس عاد الفرنسي كيليان مبابي، نجم ريال مدريد، اليوم الأحد إلى العاصمة الإسبانية مدريد بعد أن قضى عدة أيام في فرنسا لتلقي العلاج من التواء في الركبة اليسرى. ويواصل مبابي برنامجه التأهيلي تحت إشراف فريق طبي متخصص، حيث رافقه خلال رحلته إلى باريس أخصائي العلاج الطبيعي ومدرب اللياقة البدنية التابع لناديه. &nbsp; 📸 IMAGEN @elchiringuitotv 📸 🛬🐢 Así ha llegado Mbappé a Madrid tras pasar unos días en París. pic.twitter.com/6HKvVSJaM1 &mdash; El Chiringuito TV (@elchiringuitotv) March 8, 2026 وخضع اللاعب خلال إقامته لفحوصات دقيقة لتقييم حالة الركبة وقياس مدى تحسنها، في خطوة تهدف إلى ضمان عودته للملاعب بأمان. (اقرأ أيضًا) جوارديولا يتلقى نبأ إيقافه قبل مواجهة ريال مدريد حظيت إقامة مبابي في فرنسا باهتمام واسع على مواقع التواصل الاجتماعي، حيث حرص مساء الجمعة على متابعة مباراة ريال مدريد ضد سيلتا فيجو التي انتهت بفوز الفريق الملكي 2-1، من غرفة خاصة في الفندق، وهو ما أكدته الصور المنشورة على حساباته الرسمية. &nbsp; 📸🐢 IMAGEN @elchiringuitotv | MBAPPÉ YA ESTÁ EN MADRID. 👉 El francés, de vuelta a la capital tras unos días en París. pic.twitter.com/CucAXED49G &mdash; El Chiringuito TV (@elchiringuitotv) March 8, 2026 وكان ألفارو أربيلوا مدرب ريال مدريد، قد أعرب عن ارتياح…",
-      "image": null,
-      "pubDate": "2026-03-08T18:58:42.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "9128f726e9cd00a3",
       "title": "Permutations as France, Scotland & Ireland eye title",
       "link": "https://www.bbc.com/sport/articles/cyv99dgl7e4o?at_medium=RSS&at_campaign=rss",
@@ -781,22 +909,6 @@
       "region": "global"
     },
     {
-      "id": "fc356506a436f2ff",
-      "title": "مدرب نيوكاسل: مباراة برشلونة الأهم في تاريخنا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D9%86%D9%8A%D9%88%D9%83%D8%A7%D8%B3%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%85-%D9%81%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%86%D8%A7/blt696e074c2ca42578?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "إيدي هاو ينتظر دور جماهير الفريق الإنجليزي",
-      "body": "إيدي هاو ينتظر دور جماهير الفريق الإنجليزي صعّد إيدي هاو، مدرب نيوكاسل يونايتد، من حدة التوتر قبل مباراة فريقه الأوروبية المرتقبة ضد برشلونة، واصفًا مباراة الذهاب في دور الـ16 من دوري أبطال أوروبا بأنها \"أهم مباراة في تاريخ النادي الإنجليزي\". &nbsp; وستُقام مباراة الذهاب بين نيوكاسل وبرشلونة، يوم الثلاثاء المقبل على ملعب سانت جيمس بارك. &nbsp; جاءت هذه التصريحات من المدرب الإنجليزي عقب خروج فريقه مؤخرًا من كأس الاتحاد الإنجليزي، أمام مانشستر سيتي ليُحوّل تركيزه مباشرةً إلى التحدي الأوروبي أمام العملاق الكتالوني. &nbsp; وقال هاو في تصريحات نقلتها صحيفة \"سبورت\" الكتالونية: \"لدينا أهم مباراة في تاريخ النادي قريبًا جدًا\"، وحث لاعبيه على تجاوز هذه المرحلة سريعًا والوصول إلى أعلى مستويات الأداء في مواجهة برشلونة. &nbsp; اقرأ أيضًا: مشاكل بالجملة.. نقاط ضعف نيوكاسل تغري نجوم برشلونة &nbsp; يخوض الفريق الإنجليزي هذه المباراة بعد أن أنهى المرحلة الأولى في المركز الثاني عشر، محققًا فوزًا ساحقًا على كاراباج في الملحق بنتيجة إجمالية 9-3، هذه النتيجة مهدت الطريق لمواجهة برشلونة بقيادة هانز فليك. أعاد هاو، الذي يقود نيوكاسل منذ ما يقارب خمس سنوات، النادي إلى مصاف النخبة الأوروبية، وفي الموسم الماضي أنهى غيابًا دام 56 عامًا عن منصات التتويج بفوزه بكأس كاراباو على حساب ليفربول في ملعب ويمبلي. ومع…",
-      "image": null,
-      "pubDate": "2026-03-08T18:41:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "f14638d30f6ff3fb",
       "title": "Watch Celtic beat Rangers on penalties to reach Scottish Cup semis",
       "link": "https://www.bbc.com/sport/football/videos/clyxp54e97xo?at_medium=RSS&at_campaign=rss",
@@ -811,86 +923,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "5530a6452f9b18d9",
-      "title": "مفاجأة.. ليفربول يستهدف محترف الاتحاد لتعويض رحيل صلاح المحتمل",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%84%D8%AA%D8%B9%D9%88%D9%8A%D8%B6-%D8%B1%D8%AD%D9%8A%D9%84-%D8%B5%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%85%D9%84/bltb43a93d6b5df0501?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نجم العميد على رادار الريدز",
-      "body": "نجم العميد على رادار الريدز كشفت تقارير صحفية بريطانية، مساء اليوم الأحد، عن وجود رغبة قوية لدى نادي ليفربول الإنجليزي، في التعاقد مع أحد نجوم اتحاد جدة الأجانب، خلال فترة الانتقالات الصيفية المقبلة. ويتطلع \"الريدز\" لتدعيم بعض المراكز بداية من الموسم المقبل، والتي يأتي على رأسها مركز الجناح الأيمن، بعد المستوى الباهت الذي قدمه صلاح هذا الموسم، وارتباط اسمه مرارًا وتكرارًا بالرحيل. اقرأ أيضًا.. ساحر روشن.. رقم صامد يزين تألق ديابي مع الاتحاد صلاح سبق وأن ارتبط بالانتقال إلى أحد أندية دوري روشن للمحترفين، وعلى رأسها الهلال والاتحاد، ولكنه أصر على الاستمرار مع ليفربول، قبل أن تعود الشكوك لتحاصر مستقبل النجم المصري، بعد موسم متراجع بقعلة \"أنفيلد\". وبحسب موقع \" TEAMtalk \" البريطاني، فإن ليفربول يستهدف التعاقد مع الجناح الفرنسي موسى ديابي خلال الصيف المقبل، وذلك لتعويض رحيل صلاح المحتمل. وأوضح المصدر أن الريدز لا يمانع خروج صلاح، حال تلقى النادي عرضًا جيدًا من أجل توفير سيولة مالية لضم لاعب أصغر سنًا لتعويض رحيل \"مو\". واتجهت الأنظار نحو ديابي الذي يتطلع للرحيل عن \"العميد\"، بعد أن كان قاب قوسين أو أدنى من الانضمام إلى إنتر ميلان في يناير/كانون ثان الماضي. وانضم ديابي لصفوف الاتحاد في صيف 2024، قادمًا من أستون فيلا، ونجح في أن يكون أحد أفضل نجوم \"العميد\"، وقاد فريقه نحو ثنائية الدوري وكأس…",
-      "image": null,
-      "pubDate": "2026-03-08T18:35:42.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "122f1573413489f3",
-      "title": "أتلتيكو مدريد يتحرك لإبرام صفقة جزائرية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AA%D8%AD%D8%B1%D9%83-%D9%84%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%85-%D8%B5%D9%81%D9%82%D8%A9-%D8%AC%D8%B2%D8%A7%D9%8A%D9%94%D8%B1%D9%8A%D8%A9/blt1ae95fd33c33fe80?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تحرك نادي أتلتيكو مدريد، لتعزيز صفوفه بصفقة جزائرية، خلال فترة الانتقالات الصيفية المقبلة.",
-      "body": "تحرك نادي أتلتيكو مدريد، لتعزيز صفوفه بصفقة جزائرية، خلال فترة الانتقالات الصيفية المقبلة. وذكر موقع Fichajes أن أتلتيكو مدريد يستهدف التعاقد مع الجزائري إبراهيم مازا، نجم باير ليفركوزن، البالغ من العمر 20 عامًا. ومن المتوقع أن تصل قيمة انتقال اللاعب الجزائري في صيف 2026 إلى 35 مليون يورو. ويرتبط إبراهيم مازا، بعقد مع ليفركوزن حتى صيف 2030، علمًا بأنه انضم للفريق الألماني في يوليو/تموز 2025 قادمًا من هيرتا برلين، مقابل 12 مليون يورو. أتلتيكو مدريد يستعد لتقديم عرض أولي يُقدر موقع ترانسفير ماركت، القيمة السوقية لإبراهيم مازا، بنحو 25 مليون يورو.&nbsp; كما أفادت التقارير أن عدة أندية تتابع اللاعب الجزائري، بينما يستعد أتلتيكو مدريد لتقديم عرض أولي، من أجل التحرك قبل الأندية المنافسة. وعلى الصعيد الدولي، خاض إبراهيم مازا 13 مباراة دولية مع منتخب الجزائر، وسجل هدفين. أما في الموسم الحالي من الدوري الألماني، فقد شارك في 19 مباراة، سجل خلالها هدفين وقدم 3 تمريرات حاسمة.",
-      "image": "https://assets.kooora.com/images/v3/getty-2252757449/crop/MM5DEMZZGE5DCMZUGU5G433XMU5DAORRGI2Q====/GettyImages-2252757449.jpg",
-      "pubDate": "2026-03-08T18:35:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "c02245cbeff4dae7",
-      "title": "بالفيديو: \"يستوجب السجن\".. تحطم كاحل لاعب بعد تدخل وحشي بالإكوادور",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%8A%D8%B3%D8%AA%D9%88%D8%AC%D8%A8-%D8%A7%D9%84%D8%B3%D8%AC%D9%86-%D8%AA%D8%AD%D8%B7%D9%85-%D9%83%D8%A7%D8%AD%D9%84-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%AF%D8%AE%D9%84-%D9%88%D8%AD%D8%B4%D9%8A-%D8%A8%D8%A7%D9%84%D8%A7%D9%95%D9%83%D9%88%D8%A7%D8%AF%D9%88%D8%B1/bltb00e1c464884c5ca?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا حدث؟",
-      "body": "ماذا حدث؟ تحولت مباراة إنديبندينتي ديل بايي وموشوك رونا من تنافس كروي إلى \"مشهد مأساوي\" اهتزت له الأوساط الرياضية، بعدما شهدت الملاعب الإكوادورية واحدة من أعنف الإصابات في الآونة الأخيرة، بطلها الأرجنتيني برايان نيجرو، وضحيتها اللاعب جان بيير أرويو. لحظة الانفجار في الشوط الثاني، وتحديداً عند الدقيقة (62)، اندفع أرويو نحو الكرة بطموح الشباب، لكنه قوبل بـ\"اندفاع وحشي\" من نيجرو. التوقيت الخاطئ والتهور حوّلا الانزلاق إلى اصطدام كارثي؛ حيث لم يتحمل كاحل أرويو الأيسر قوة الارتطام، ليسقط الأخير وسط صرخات دوّت في أرجاء الملعب، معلنةً عن إصابة \"تقشعر لها الأبدان\". من ملعب كرة إلى ساحة معركة لم تتوقف المأساة عند الكسر المروع؛ فبمجرد إشهار الحكم للبطاقة الحمراء في وجه نيغرو، اشتعل فتيل الغضب بين اللاعبين. وتحول المستطيل الأخضر إلى ساحة عراك جماعي، مما أجبر غرفة الفار على التدخل لضبط الفوضى، وأسفرت المشاجرة عن طرد إضافي لكل من جوردي ألسيفار ، وكريستوفر أنغولو. Terrible imagen en Chillo Jijón 🤯 Pronta recuperación @IDV_EC pic.twitter.com/nOnUH5gZfS &mdash; Zapping Ecuador (@zapping_ecu) March 7, 2026 فاتورة الإصابة بينما كان الشجار محتدماً، كانت سيارة الإسعاف تنقل أرويو على عجل إلى المستشفى وسط حالة من الذهول. لاحقًا، قطع ناديه الشك باليقين ببيان طبي صادم، أكد فيه إصابة اللاعب بـ \"كسر مفتوح …",
-      "image": null,
-      "pubDate": "2026-03-08T18:21:49.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "60acd512706d6675",
-      "title": "بتصريح رسمي.. رينارد يعلن عن الاختيار الأول قبل بروفة كأس العالم 2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD-%D8%B1%D8%B3%D9%85%D9%8A-%D8%B1%D9%8A%D9%86%D8%A7%D8%B1%D8%AF-%D9%8A%D8%B9%D9%84%D9%86-%D8%B9%D9%86-%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84-%D9%82%D8%A8%D9%84-%D8%A8%D8%B1%D9%88%D9%81%D8%A9-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026/blt1ef2cd2164af7a11?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب الفرنسي يكافئ نجم دوري روشن",
-      "body": "المدرب الفرنسي يكافئ نجم دوري روشن أعلن الفرنسي هيرفي رينارد، مدرب المنتخب السعودي عن أول المنضمين لمعسكر الأخضر القادم، استعدادًا لخوض البروفة قبل الأخيرة من كأس العالم 2026. ومن المقرر أن يبدأ المنتخب السعودي معسكره التدريبي بنهاية هذا الشهر، استعدادًا للاستحقاقات المقبلة، حيث سيخوض خلاله مباراتين وديتين مهمتين أمام منتخبي مصر وصربيا. اقرأ أيضًا.. بعد رينارد وخليلوزيتش.. الركراكي أحدث ضحايا تناقضات الاتحاد المغربي ويهدف هذا المعسكر إلى منح الجهاز الفني الفرصة لتقييم جميع اللاعبين واختبار جاهزيتهم على أرض الواقع، واختيار أفضل العناصر التي ستشارك في كأس العالم المرتقب بعد شهرين فقط. &nbsp;كما يتيح المعسكر العمل على تطبيق الخطط التكتيكية وتجهيز الفريق لمواجهة تحديات البطولة، وضمان تماسك اللاعبين وتجانسهم قبل الدخول إلى أهم محفل كروي عالمي يمثل المملكة على أعلى مستوى. صدمة كأس العرب استهل هيرفي رينارد حواره، بالحديث عن كأس العرب الأخيرة، بقوله: \"كنا نأمل أن نظهر بالشكل المطلوب في كأس العرب، ولكن هناك بعض الأخطاء في الجوانب الفنية والبدنية التي تحتاج إلى التصحيح ونعمل عليها بالفعل\". وأضاف: \"رأينا قصور بدني لدى بعض اللاعبين بسبب قلة المشاركة مع الأندية، لذا خصصنا فريقًا يتابع حالات جميع اللاعبين من أجل معرفة وضعهم بالشكل المطلوب\". وتابع: \"المعسكر القادم سأقوم باستدعاء مجموعتين بواقع ا…",
-      "image": "https://assets.kooora.com/images/v3/getty-2250156088/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2250156088.jpg",
-      "pubDate": "2026-03-08T18:18:44.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e677af892f8ee614",
-      "title": "ضحية راشفورد.. 7 رصاصات تبشر برشلونة بقتل نيوكاسل",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%AD%D9%8A%D8%A9-%D8%B1%D8%A7%D8%B4%D9%81%D9%88%D8%B1%D8%AF-7-%D8%B1%D8%B5%D8%A7%D8%B5%D8%A7%D8%AA-%D8%AA%D8%A8%D8%B4%D8%B1-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D9%82%D8%AA%D9%84-%D9%86%D9%8A%D9%88%D9%83%D8%A7%D8%B3%D9%84/blt392ed2c22a1d85dc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "برشلونة يتسلح بسجل راشفورد أمام نيوكاسل",
-      "body": "برشلونة يتسلح بسجل راشفورد أمام نيوكاسل يراهن برشلونة، على سجل لاعبه الإنجليزي ماركوس راشفورد، من أجل عبور عقبة نيوكاسل يونايتد، في دوري أبطال أوروبا. ويحل برشلونة، ضيفا على نيوكاسل، بعد غد الثلاثاء، في ذهاب ثمن نهائي دوري أبطال أوروبا، على ملعب سانت جيمس بارك. وكان راشفورد قد سجل ثنائية برشلونة، خلال الفوز على نيوكاسل، بنتيجة 2-1 في دور المجموعات للبطولة القارية هذا الموسم. وذكرت صحيفة \"ماركا\" أن نيوكاسل يُعتبر من الفرق التي يحقق راشفورد أمامها أفضل النتائج في مسيرته. وسجل ماركوس راشفورد 7 أهداف، على مدار 16 مباراة ضد نيوكاسل يونايتد، الذي يعد من أبرز ضحايا اللاعب الإنجليزي. ويقضى راشفورد، فترة مميزة مع برشلونة، بعدما كان يشعر بعدم الراحة في الفترة الأخيرة مع ناديه الأصلي، مانشستر يونايتد.&nbsp; ويشعر اللاعب الإنجليزي بأهميته وتقدير قيمته في النادي الكتالوني، حيث سجل 10 أهداف وصنع 13 تمريرة حاسمة في 37 مباراة شارك فيها.&nbsp; اقرأ أيضًا \"النملة\" تحت منظار برشلونة لخلافة ليفاندوفسكي",
-      "image": null,
-      "pubDate": "2026-03-08T18:16:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "d2d2219b54a22d62",
@@ -1181,6 +1213,22 @@
       "region": "global"
     },
     {
+      "id": "12b3869ab5a386f2",
+      "title": "Box Office: ‘Hoppers’ Redeems Pixar in Bounding to Seminal $46M U.S. Win, ‘The Bride!’ Bombs With $7.3M",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/hoppers-win-box-office-the-bride-bombs-1236524365/",
+      "summary": "For once, Pixar didn't have to go on the defense as its new movie scored the biggest opening in nearly a decade for an original animated pic. Warner Bros.' Michael De Luca and Pamela Abdy were in the opposite position as Maggie Gyllenhaal's Frankenstein film collapsed at the altar after their yearl…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T15:30:50.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "84b8e6309d8a096f",
       "title": "Neesham takes three wickets in an over as NZ halt India charge",
       "link": "https://www.bbc.com/sport/cricket/videos/ckg1ppn5zk8o?at_medium=RSS&at_campaign=rss",
@@ -1213,6 +1261,22 @@
       "region": "global"
     },
     {
+      "id": "a2f64942e9a98bda",
+      "title": "This bizarre CRPG features claymation graphics, beat 'em up combat and the option to send defeated enemies to a prison colony, and it just left early access after a massive final update",
+      "link": "https://www.pcgamer.com/games/rpg/this-bizarre-crpg-features-claymation-graphics-beat-em-up-combat-and-the-option-to-send-defeated-enemies-to-a-prison-colony-and-it-just-left-early-access-after-a-massive-final-update/",
+      "summary": "Banquet for Fools is bursting with strange ideas.",
+      "body": "We're in a golden era for the CRPG. Disco Elysium set a new standard for narrative driven roleplaying in 2019, while Baldur's Gate 3 did the same with pretty much everything in 2023. Even the 'B-tier'of modern CRPGs like Rogue Trader and Solasta: Crown of the Magister offer rock-solid roleplaying adventures of dizzying depth. The hits keep coming, too. This week saw the launch of Esoteric Ebb , which blends Disco Elysium and Dungeons & Dragons with scintillating results. Personally, though, I'm more intrigued by Banquet for Fools , a CRPG that leans closer to Planescape: Torment in its darkly weird vibes. Developed by a two-person team, Banquet for Fools takes place on an island recently colonised by your race—the Vollings—after being forsaken by their own gods and adopting paganism. All seems to be going well in your newly, uh, acquired home, until the inhabitants of one particular farmhold vanish without a trace. You play as a group of island guards dispatched to investigate the disappearance. At a glance, Banquet for Fools looks like any of the CRPGs from the Baldur's Gate era. Look closer, though, and you'll notice that the characters are all built and animated with claymation…",
+      "image": "https://cdn.mos.cms.futurecdn.net/QUafUTsGVrFZvNrNf2pE5X-1280-80.jpg",
+      "pubDate": "2026-03-08T15:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "be086d6694071a03",
       "title": "Solar and Storage Could Reshape Rural Electricity Markets",
       "link": "https://oilprice.com/Energy/Energy-General/Solar-and-Storage-Could-Reshape-Rural-Electricity-Markets.html",
@@ -1242,22 +1306,6 @@
       },
       "lang": "en",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "a2f64942e9a98bda",
-      "title": "This bizarre CRPG features claymation graphics, beat 'em up combat and the option to send defeated enemies to a prison colony, and it just left early access after a massive final update",
-      "link": "https://www.pcgamer.com/games/rpg/this-bizarre-crpg-features-claymation-graphics-beat-em-up-combat-and-the-option-to-send-defeated-enemies-to-a-prison-colony-and-it-just-left-early-access-after-a-massive-final-update/",
-      "summary": "Banquet for Fools is bursting with strange ideas.",
-      "body": "We're in a golden era for the CRPG. Disco Elysium set a new standard for narrative driven roleplaying in 2019, while Baldur's Gate 3 did the same with pretty much everything in 2023. Even the 'B-tier'of modern CRPGs like Rogue Trader and Solasta: Crown of the Magister offer rock-solid roleplaying adventures of dizzying depth. The hits keep coming, too. This week saw the launch of Esoteric Ebb , which blends Disco Elysium and Dungeons & Dragons with scintillating results. Personally, though, I'm more intrigued by Banquet for Fools , a CRPG that leans closer to Planescape: Torment in its darkly weird vibes. Developed by a two-person team, Banquet for Fools takes place on an island recently colonised by your race—the Vollings—after being forsaken by their own gods and adopting paganism. All seems to be going well in your newly, uh, acquired home, until the inhabitants of one particular farmhold vanish without a trace. You play as a group of island guards dispatched to investigate the disappearance. At a glance, Banquet for Fools looks like any of the CRPGs from the Baldur's Gate era. Look closer, though, and you'll notice that the characters are all built and animated with claymation…",
-      "image": "https://cdn.mos.cms.futurecdn.net/QUafUTsGVrFZvNrNf2pE5X-1280-80.jpg",
-      "pubDate": "2026-03-08T15:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1773,6 +1821,86 @@
       "region": "global"
     },
     {
+      "id": "97e4209141795b10",
+      "title": "Cinema Audio Society Awards: ‘F1,’ ‘KPop Demon Hunters’ and ‘Becoming Led Zeppelin’ Among Film Winners",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/2026-cinema-audio-society-winners-1236524483/",
+      "summary": "The 61st annual commemoration of excellence in sound mixing was held Saturday night at the Beverly Hilton.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T06:53:51.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "fce216d0578f5c62",
+      "title": "Harry Styles Crashes Ryan Gosling’s ‘Saturday Night Live’ Monologue, One Week Before He’s Set to Host",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/harry-styles-ryan-gosling-surprise-snl-watch-1236524485/",
+      "summary": "The 'Project Hail Mary' actor hosted the March 7 episode, where he was joined by musical guest Gorillaz.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T04:51:59.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "22cb7cf5f3601303",
+      "title": "Pete Docter Says Pixar Cut ‘Elio’ LGBTQ Themes Because “We’re Making a Movie, Not Hundreds of Millions of Dollars of Therapy”",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/pete-docter-pixar-elio-cut-lgbtq-themes-1236524502/",
+      "summary": "The animation company's chief creative officer said they did not want their film to force parents to have conversations they weren't ready to discuss with their children.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T03:40:03.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ba62f7c4e2d3fe55",
+      "title": "Rosanna Arquette Says Quentin Tarantino Has Been Given “Hall Pass” to Use N-Word in Films: “It’s Not Art, It’s Just Racist and Creepy”",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/rosanna-arquette-quentin-tarantino-n-word-racist-creepy-1236524533/",
+      "summary": "Arquette, who appeared in 'Pulp Fiction,' said the movie was \"iconic\" and \"great,\" continuing to criticize the director's use of the word in his work.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T03:23:43.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e1030b1a5e2daba9",
+      "title": "‘One Battle After Another’ Takes Camera Operators Prize",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/one-battle-after-another-camera-operators-award-1236524497/",
+      "summary": "'The Studio' does the same on the television side.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T03:00:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "cbd83fb9ff68f217",
       "title": "Resident Evil Requiem delivered on the multiple-protagonist promise I've always wanted from Silent Hill",
       "link": "https://www.pcgamer.com/games/resident-evil/resident-evil-requiem-delivered-on-the-multiple-protagonist-promise-ive-always-wanted-from-silent-hill/",
@@ -1805,6 +1933,22 @@
       "region": "global"
     },
     {
+      "id": "f4e0f1e5c84c2810",
+      "title": "Paramount Eyes Changes to Historic Studio Lot Following Warner Bros. Merger",
+      "link": "https://www.hollywoodreporter.com/business/business-news/paramount-studio-lot-changes-warner-bros-merger-1236524430/",
+      "summary": "The lot has hosted productions for films such as 'The Godfather,' 'Titanic' and the 'Mission: Impossible' franchise.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T00:30:07.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "7cbc85bf980a3826",
       "title": "Marmoush double fires Man City past Newcastle",
       "link": "https://www.bbc.com/sport/football/videos/cx281k72pkzo?at_medium=RSS&at_campaign=rss",
@@ -1818,6 +1962,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5c9700babb15a08c",
+      "title": "Corey Parker, ‘Will & Grace’ Actor, Dies at 60",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/corey-parker-dead-will-grace-actor-1236524470/",
+      "summary": "He died Thursday in Memphis, Tennessee, following a cancer battle, his family told TMZ.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T23:58:36.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1997,22 +2157,6 @@
       "region": "global"
     },
     {
-      "id": "81798b2df7f5f353",
-      "title": "Virtual Power Plants Are Key to Unlocking America's Energy Transition",
-      "link": "https://oilprice.com/Energy/Energy-General/Virtual-Power-Plants-Are-Key-to-Unlocking-Americas-Energy-Transition.html",
-      "summary": "Interest in Virtual Power Plants (VPPs) is increasing across the United States. A VPP relies on the combined power of various renewable energy projects, such as home or small-scale solar and wind power projects. Solar panels and home batteries have significantly increased in popularity in recent ye…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-07T18:00:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
       "id": "d0ab2b468e70fc24",
       "title": "A decade before Stalker, this obscure Ukrainian Quake clone was quietly breaking new ground for first-person shooters",
       "link": "https://www.pcgamer.com/games/fps/a-decade-before-stalker-this-obscure-ukrainian-quake-clone-was-quietly-breaking-new-ground-for-first-person-shooters/",
@@ -2026,6 +2170,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "81798b2df7f5f353",
+      "title": "Virtual Power Plants Are Key to Unlocking America's Energy Transition",
+      "link": "https://oilprice.com/Energy/Energy-General/Virtual-Power-Plants-Are-Key-to-Unlocking-Americas-Energy-Transition.html",
+      "summary": "Interest in Virtual Power Plants (VPPs) is increasing across the United States. A VPP relies on the combined power of various renewable energy projects, such as home or small-scale solar and wind power projects. Solar panels and home batteries have significantly increased in popularity in recent ye…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T18:00:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -2077,22 +2237,6 @@
       "region": "global"
     },
     {
-      "id": "ce1cc5e3c671638e",
-      "title": "U.S. Brokers Major Gold Deal With Venezuela's State Mining Company",
-      "link": "https://oilprice.com/Metals/Gold/US-Brokers-Major-Gold-Deal-With-Venezuelas-State-Mining-Company.html",
-      "summary": "As things continue to pop off in the Middle East, the United States is still focused on Venezuela - and has brokered a multimillion-dollar gold deal. The agreement, first reported by Axios, involves the sale of between 650 and 1,000 kilograms of gold doré bars - which are semi-refined with approxim…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-07T16:00:00.000Z",
-      "source": {
-        "name": "Oilprice.com — Latest",
-        "homepage": "https://oilprice.com/rss/main"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
       "id": "ad76bd35ea8c5d14",
       "title": "Tabletop gaming saved videogame RPGs",
       "link": "https://www.pcgamer.com/games/rpg/tabletop-gaming-saved-videogame-rpgs/",
@@ -2106,6 +2250,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ce1cc5e3c671638e",
+      "title": "U.S. Brokers Major Gold Deal With Venezuela's State Mining Company",
+      "link": "https://oilprice.com/Metals/Gold/US-Brokers-Major-Gold-Deal-With-Venezuelas-State-Mining-Company.html",
+      "summary": "As things continue to pop off in the Middle East, the United States is still focused on Venezuela - and has brokered a multimillion-dollar gold deal. The agreement, first reported by Axios, involves the sale of between 650 and 1,000 kilograms of gold doré bars - which are semi-refined with approxim…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-07T16:00:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -2221,12 +2381,12 @@
       "region": "global"
     },
     {
-      "id": "67510d5d27990d2f",
-      "title": "American McGee has come out of retirement to make an Alice spiritual successor based on his plushie empire",
-      "link": "https://www.pcgamer.com/games/action/american-mcgee-has-come-out-of-retirement-to-make-an-alice-spiritual-successor-based-on-his-plushie-empire/",
-      "summary": "\"There's a kind of obvious overlap, but not one that gets us in trouble with the lawyers.\"",
-      "body": "American McGee, the Quake alumnus famed for his eponymous action-adventure series based on Alice in Wonderland, is returning to game development with a spiritual successor inspired by his line of plushies . McGee retired from game development in 2023 after a pitch for a third Alice game was rejected by EA. But nearly three years since hanging up his keyboard forever, McGee has apparently changed his mind. Speaking to GamesRadar , McGee revealed that his return to game development was sparked by a confluence of inspiration. The first is his company Plushie Dreadfuls, which McGee and his wife Yeni Zhang started in 2015 while trying to support their pitch for that third Alice game (titled Alice: Asylum). The line proved immensely successful, to the point where McGee paid back an ancient loan to id Software cofounder John Carmack. \"It's like a rocket that took off without us knowing there was even a rocket,\" McGee told GamesRadar. But it was tending a Plushie Dreadfuls pop-up shop in Tokyo that really brought McGee's mind back to gaming, as Japanese fans expressed their love of the Alice games. \"[I] realis[ed] that I still have these stories to tell,\" McGee explained. \"I can't just si…",
-      "image": "https://cdn.mos.cms.futurecdn.net/2d9iW2B3bYWd4mGXkfkjhR-1280-80.jpg",
+      "id": "53e42e6c2abc8704",
+      "title": "I'm a Linux bore now, so I used my new powers to resurrect a ten year-old laptop forgotten by Windows",
+      "link": "https://www.pcgamer.com/hardware/gaming-laptops/im-a-linux-bore-now-so-i-used-my-new-powers-to-resurrect-a-ten-year-old-laptop-forgotten-by-windows/",
+      "summary": "It was all going so well...",
+      "body": "Dave James, EIC Hardware (Image credit: Future) This month I've been... on the terminal tip. With Linux finally playing nice with gaming laptops, and sweet-talking our IT team to give me access to my work accounts, the move away from Windows has been a joy. I'm a computer nerd and learning how a new computer works is always a pleasure. Well... mostly. I am surprised at just how damned grotty this thing is. I pulled the old XPS laptop out of my wardrobe because I've started wearing cardigans and have therefore become a bit of a Linux bore. I was keen to see whether I could resurrect an old system—whose end times had come regarding shifting to Windows 11—with a lightweight Linux distro. But I was not prepared for either how grubby this old machine had got in the worryingly cold and damp darkest recesses of my built-in wardrobe, nor how lightweight the specs of this actual system really were. It's sticky. And, I think, kinda moldy. And I'm not certain how that can happen to a laptop and it still turn on. Seriously, there really is something odd about the material Dell used around the keyboard of this ol' thing, and it hasn't dealt well with the intervening years in solitary isolation…",
+      "image": "https://cdn.mos.cms.futurecdn.net/r7kH7a3UqjhfFT7a798xhm-1280-80.jpg",
       "pubDate": "2026-03-07T12:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2237,12 +2397,12 @@
       "region": "global"
     },
     {
-      "id": "53e42e6c2abc8704",
-      "title": "I'm a Linux bore now, so I used my new powers to resurrect a ten year-old laptop forgotten by Windows",
-      "link": "https://www.pcgamer.com/hardware/gaming-laptops/im-a-linux-bore-now-so-i-used-my-new-powers-to-resurrect-a-ten-year-old-laptop-forgotten-by-windows/",
-      "summary": "It was all going so well...",
-      "body": "Dave James, EIC Hardware (Image credit: Future) This month I've been... on the terminal tip. With Linux finally playing nice with gaming laptops, and sweet-talking our IT team to give me access to my work accounts, the move away from Windows has been a joy. I'm a computer nerd and learning how a new computer works is always a pleasure. Well... mostly. I am surprised at just how damned grotty this thing is. I pulled the old XPS laptop out of my wardrobe because I've started wearing cardigans and have therefore become a bit of a Linux bore. I was keen to see whether I could resurrect an old system—whose end times had come regarding shifting to Windows 11—with a lightweight Linux distro. But I was not prepared for either how grubby this old machine had got in the worryingly cold and damp darkest recesses of my built-in wardrobe, nor how lightweight the specs of this actual system really were. It's sticky. And, I think, kinda moldy. And I'm not certain how that can happen to a laptop and it still turn on. Seriously, there really is something odd about the material Dell used around the keyboard of this ol' thing, and it hasn't dealt well with the intervening years in solitary isolation…",
-      "image": "https://cdn.mos.cms.futurecdn.net/r7kH7a3UqjhfFT7a798xhm-1280-80.jpg",
+      "id": "67510d5d27990d2f",
+      "title": "American McGee has come out of retirement to make an Alice spiritual successor based on his plushie empire",
+      "link": "https://www.pcgamer.com/games/action/american-mcgee-has-come-out-of-retirement-to-make-an-alice-spiritual-successor-based-on-his-plushie-empire/",
+      "summary": "\"There's a kind of obvious overlap, but not one that gets us in trouble with the lawyers.\"",
+      "body": "American McGee, the Quake alumnus famed for his eponymous action-adventure series based on Alice in Wonderland, is returning to game development with a spiritual successor inspired by his line of plushies . McGee retired from game development in 2023 after a pitch for a third Alice game was rejected by EA. But nearly three years since hanging up his keyboard forever, McGee has apparently changed his mind. Speaking to GamesRadar , McGee revealed that his return to game development was sparked by a confluence of inspiration. The first is his company Plushie Dreadfuls, which McGee and his wife Yeni Zhang started in 2015 while trying to support their pitch for that third Alice game (titled Alice: Asylum). The line proved immensely successful, to the point where McGee paid back an ancient loan to id Software cofounder John Carmack. \"It's like a rocket that took off without us knowing there was even a rocket,\" McGee told GamesRadar. But it was tending a Plushie Dreadfuls pop-up shop in Tokyo that really brought McGee's mind back to gaming, as Japanese fans expressed their love of the Alice games. \"[I] realis[ed] that I still have these stories to tell,\" McGee explained. \"I can't just si…",
+      "image": "https://cdn.mos.cms.futurecdn.net/2d9iW2B3bYWd4mGXkfkjhR-1280-80.jpg",
       "pubDate": "2026-03-07T12:00:00.000Z",
       "source": {
         "name": "PC Gamer",
