@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-03-08T07:40:38.605Z",
-    "total": 204,
+    "generated_at": "2026-03-08T07:55:56.764Z",
+    "total": 196,
     "processed_feeds": 16,
     "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -31,19 +18,6 @@
           "sports"
         ],
         "taken": 62,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
         "error": null,
         "notModified": false
       },
@@ -68,6 +42,19 @@
         "region": "global",
         "cats": [
           "technology"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
@@ -100,32 +87,6 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -136,19 +97,6 @@
         ],
         "taken": 0,
         "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -165,9 +113,35 @@
         "notModified": false
       },
       {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -187,20 +161,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
+        "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
         "notModified": false
       },
       {
@@ -215,10 +176,65 @@
         "taken": 18,
         "error": null,
         "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "d23b4db5f4afa683",
+      "title": "Weekly poll: will you buy the Apple iPhone 17e?",
+      "link": "https://www.gsmarena.com/weekly_poll_will_you_buy_the_apple_iphone_17e-news-71827.php",
+      "summary": "Apple can be quite frustrating – at first glance, the iPhone 17e barely seems to upgrade anything at all. But the more you look at its spec sheet, the more you start to think “this might actually be worth it.” Do you agree? First, let’s go over the upgrades – this will be short. The new phone featu…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-08T07:44:02.000Z",
+      "source": {
+        "name": "GSMArena",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "7fbcd32d32d80590",
       "title": "'When you're with me, you're not bored' - Malard bringing sunshine to Man Utd",
@@ -268,22 +284,6 @@
       "region": "global"
     },
     {
-      "id": "454b3e12885b54dc",
-      "title": "‘F1,’ ‘KPop Demon Hunters’ and ‘The Studio’ Among Cinema Audio Society Award Winners",
-      "link": "https://variety.com/2026/artisans/news/cinema-audio-society-awards-2026-winners-1236680402/",
-      "summary": "The sound mixing teams behind “F1″ and “KPop Demon Hunters” won awards in the categories of live action feature and animated feature, respectively, at the 62nd Cinema Audio Society Awards for sound mixing, held Saturday at the Beverly Hilton. On the TV side, CAS Award winners included wins for the …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/06/f1_22e031.jpg",
-      "pubDate": "2026-03-08T06:40:05.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "5434e588f72a18c2",
       "title": "Infinix Note 60 Ultra in for review",
       "link": "https://www.gsmarena.com/infinix_note_60_ultra_in_for_review-news-71832.php",
@@ -300,38 +300,6 @@
       "region": "global"
     },
     {
-      "id": "a41277d8163e0e98",
-      "title": "‘SNL’ Weekend Update Tackles Timothée Chalamet’s Ballet and Opera Flap, Trump, RFK Jr. and Kristi Noem",
-      "link": "https://variety.com/2026/tv/news/snl-timothee-chalamet-opera-ballet-trump-noem-rfk-jr-1236681771/",
-      "summary": "Timothée Chalamet’s comment on the contemporary state of opera and ballet in a CNN/Variety town hall last month was among the targets of “Saturday Night Live’s” “Weekend Update” segment. Chalamet’s remarks came at the Feb. 21 “CNN and Variety Town Hall Event” with Matthew McConaughey as the pair ta…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/MixCollage-07-Mar-2026-10-28-AM-2743.jpg",
-      "pubDate": "2026-03-08T05:42:07.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a57f82f0ed9657ff",
-      "title": "Harry Styles Crashes Ryan Gosling’s Alien-Filled ‘Saturday Night Live’ Opening Monologue",
-      "link": "https://variety.com/2026/tv/news/harry-styles-ryan-gosling-snl-opening-monologue-1236681747/",
-      "summary": "Ryan Gosling became a “Saturday Night Live” four-timer on Saturday, joining the show as host ahead of the release of his upcoming sci-fi movie “Project Hail Mary.” But just as his monologue was getting off the ground, Gosling was surprised by audience member sitting up front — a casually dressed an…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/Harry.jpeg",
-      "pubDate": "2026-03-08T04:59:03.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "2ce632a4d120581e",
       "title": "Griffiths shines as Wales get a glimpse of future",
       "link": "https://www.bbc.com/sport/football/articles/c5ykrg5rr3eo?at_medium=RSS&at_campaign=rss",
@@ -345,70 +313,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c6f0f67010e115b8",
-      "title": "How to Watch Ryan Gosling Hosting ‘Saturday Night Live’ Online for Free",
-      "link": "https://variety.com/2026/shopping/news/watch-ryan-gosling-saturday-night-live-stream-online-free-1236681740/",
-      "summary": "Ryan Gosling is “live from New York” tonight as the actor hosts this week’s episode of “Saturday Night Live.” The Oscar-nominated actor will promote his upcoming movie “Project Hail Mary,” which bows in theaters on March 20 and he’ll be joined by musical guests Gorillaz. The virtual band, led by Da…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/watch-ryan-gosling-snl.jpg",
-      "pubDate": "2026-03-08T03:04:31.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a2f21f0a9879bb9f",
-      "title": "‘Dorohedoro’ Season 2 Trailer Drops, Cross-Eyes Voice Cast Revealed",
-      "link": "https://variety.com/2026/tv/news/dorohedoro-season-2-trailer-cross-eyes-cast-1236681572/",
-      "summary": "Toho Co., Ltd. has unveiled the first major announcements for the upcoming return of “Dorohedoro,” releasing a new season trailer alongside the full voice cast for the Cross-Eyes faction and confirming that music group (K)now_Name will return to handle the soundtrack. The new trailer offers the fir…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/Dorohedoro.jpg",
-      "pubDate": "2026-03-08T03:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "34b8fbad562a438b",
-      "title": "‘One Battle After Another’ and ‘The Studio’ Top Society of Camera Operators Awards",
-      "link": "https://variety.com/2026/artisans/awards/society-of-camera-operators-awards-winners-2026-1236681717/",
-      "summary": "“One Battle After Another’s” Colin Anderson, SOC took home top honors at the The Society of Camera Operators (SOC) awards. “The Studio’s” Mark Goellnicht, SOC, ACO took home the television award for “The Oner” episode. The awards were handed out on Saturday night with watch parties held in Los Ange…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/03/MCDONBA_WB034-1.jpg",
-      "pubDate": "2026-03-08T03:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "29df7afb88459097",
-      "title": "Top French and American Producers Unpack Financing Divide Between French and U.S. Indie Films",
-      "link": "https://variety.com/2026/film/global/unifrance-producers-french-us-financing-differences-1236681713/",
-      "summary": "Top French and American film producers discussed the differences between France’s public funding system and the U.S.’s private investment model and how it helps decide the films that reach the marketplace during a panel session held Saturday as part of the Unifrance Rendez-Vous event in New York. T…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/05/little-sister-1.jpg",
-      "pubDate": "2026-03-08T01:08:56.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -518,22 +422,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d702d240a51a1819",
-      "title": "Latest Kennedy Center Exit: Director of National Symphony Orchestra Quits, Will Head to L.A. to Become CEO of the Wallis",
-      "link": "https://variety.com/2026/music/news/kennedy-center-resign-national-symphony-orchestra-wallis-1236681703/",
-      "summary": "As some institutions and individuals have headed for the exit door at the beleaguered Kennedy Center, the National Symphony Orchestra has thus far stayed put, after a 55-year association. But the NSO’s director, Jean Davidson, is moving on, having resigned to get some distance from the toxic situat…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/649138417_1440217344228353_1475443781125734944_n-e1772922928444.jpg",
-      "pubDate": "2026-03-07T23:35:18.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -2889,22 +2777,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cab98b0630d95bdf",
-      "title": "itel launches the Zeno 100 with military-grade toughness",
-      "link": "https://www.gsmarena.com/itel_launches_the_zeno_100_with_militarygrade_toughness-news-71843.php",
-      "summary": "itel just launched the Zeno 100 in India, billed as \"Rugged. Refined. Ready\". The phone comes with MIL-STD-810H certification for ruggedness (including drop resistance), a rare feat for this price point. The Zeno 100 sports a 6.67-inch 720x1612 LCD screen with 90Hz refresh rate, 180Hz touch samplin…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-06T13:53:02.000Z",
-      "source": {
-        "name": "GSMArena",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
