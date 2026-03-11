@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-03-11T20:25:08.276Z",
-    "total": 223,
+    "generated_at": "2026-03-11T20:55:16.860Z",
+    "total": 221,
     "processed_feeds": 16,
-    "discovered_feeds": 83,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -22,19 +22,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 68,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
         "homepage": "https://www.kooora.com/",
@@ -48,6 +35,32 @@
         "notModified": false
       },
       {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 68,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Variety (Entertainment)",
         "url": "https://variety.com/feed/",
         "homepage": "https://variety.com/feed/",
@@ -56,8 +69,21 @@
         "cats": [
           "general"
         ],
-        "taken": 9,
+        "taken": 7,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
         "notModified": false
       },
       {
@@ -87,29 +113,16 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 103\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -126,19 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Science — News",
         "url": "https://www.science.org/content/topic/latest/rss.xml",
         "homepage": "https://www.science.org/content/topic/latest/rss.xml",
@@ -149,6 +149,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -178,16 +191,16 @@
         "notModified": false
       },
       {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -202,23 +215,58 @@
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
         "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "5abf9243dd6ffb61",
+      "title": "Netflix Could Pay as Much as $600 Million for Ben Affleck’s AI Film Start-Up: Report",
+      "link": "https://variety.com/2026/digital/news/netflix-600-million-ben-affleck-ai-film-startup-interpositive-1236685038/",
+      "summary": "Netflix, in one of its biggest-ever acquisitions, reportedly will pay up to $600 million for InterPositive, the AI filmmaking tools start-up founded by Ben Affleck. Affleck and InterPositive’s investors will earn as much as $600 million from the Netflix deal if the company meets “certain performanc…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/Ben-Affleck.jpg",
+      "pubDate": "2026-03-11T20:47:04.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ce479fa1be41cf30",
+      "title": "Tommy Lee Jones Joins Ethan Hawke’s ‘The Lowdown’ Season 2",
+      "link": "https://variety.com/2026/tv/news/tommy-lee-jones-the-lowdown-season-2-1236684818/",
+      "summary": "Tommy Lee Jones has joined the cast of “The Lowdown” Season 2. He’ll star opposite Ethan Hawke in the Western-noir from “Reservation Dogs” creator Sterlin Harjo. The season, which also stars series newcomer Betty Gilpin, begins production this spring in Tulsa, Okla. The show follows citizen journal…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/Tommy-Lee-Jones-photo-credit-Dawn-Jones.jpg",
+      "pubDate": "2026-03-11T20:40:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "98cd3b31adf4d2b2",
+      "title": "كالوشا يواصل سلسلة إهدار ركلات الجزاء أمام الكبار",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/544116/%d9%83%d8%a7%d9%84%d9%88%d8%b4%d8%a7-%d9%8a%d9%88%d8%a7%d8%b5%d9%84-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-%d8%a5%d9%87%d8%af%d8%a7%d8%b1-%d8%b1%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a1-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d9%83%d8%a8%d8%a7%d8%b1",
+      "summary": "أهدر أحمد كالوشا، لاعب إنبي، ركلة جزاء خلال مواجهة فريقه أمام الزمالك، في المباراة المقامة على استاد استاد المقاولون العرب، ضمن اللقاء المؤجل من الجولة الخامسة عشرة لبطولة الدوري المصري الممتاز لموسم 2025-2026.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-11T20:32:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "ae0c273cecc23cac",
       "title": "Audacy’s ‘Campus Files’ Podcast Returns For Season 2, Unpacking College Controversies Including Yale’s Naked Freshman Photo Scandal",
@@ -444,6 +492,38 @@
       "region": "global"
     },
     {
+      "id": "97f36e87caeba7e9",
+      "title": "كينسكي يكسر صمته بعد كابوس مباراة توتنهام وأتلتيكو مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%8A%D9%86%D8%B3%D9%83%D9%8A-%D9%8A%D9%83%D8%B3%D8%B1-%D8%B5%D9%85%D8%AA%D9%87-%D8%A8%D8%B9%D8%AF-%D9%83%D8%A7%D8%A8%D9%88%D8%B3-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D9%88%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/bltb64061e6b1333642?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أول رسالة بعد الأزمة",
+      "body": "أول رسالة بعد الأزمة &nbsp; &nbsp; كسر حارس مرمى توتنهام، أنتونين كينسكي، صمته بعد الكابوس المرير الذي عاشه خلال مباراة فريقه أمام أتلتيكو مدريد، أمس الثلاثاء، في ذهاب ثمن نهائي دوري أبطال أوروبا. وبعد ربع ساعة تقريبا من بداية المباراة، تم استبدال الحارس، وذلك بعد ارتكابه خطأين كارثيين أمام أتلتيكو مدريد. &nbsp;وأُتيحت الفرصة لحارس مرمى توتنهام الشاب الاحتياطي للعب أساسيًا، لكن التجربة لم تكن لتسير على نحو أسوأ.. ففي المراحل الأولى من المباراة، ارتكب خطأين فادحين بقدميه، مُهديًا أتلتيكو مدريد هدفين. وخسر توتنهام، في دوري أبطال أوروبا أمام أتلتيكو مدريد (5-2)، أمس الثلاثاء، في ذهاب ثمن نهائي البطولة. وعلى مواقع التواصل الاجتماعي، كسر حارس المرمى التشيكي البالغ من العمر 22 عامًا صمته وشكر الجميع على رسائل الدعم. وقال كينسكي : \"شكرًا لكم على رسائلكم.. من حلم إلى كابوس، ثم إلى حلم جديد.. إلى اللقاء\". &nbsp; &nbsp;",
+      "image": null,
+      "pubDate": "2026-03-11T18:48:44.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "828d6c756999f5f7",
+      "title": "بالفيديو: كورتوا يصنع.. وفالفيردي يصعق السيتي بهاتريك",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D9%88%D8%B1%D8%AA%D9%88%D8%A7-%D9%8A%D8%B5%D9%86%D8%B9-%D9%88%D9%81%D8%A7%D9%84%D9%81%D9%8A%D8%B1%D8%AF%D9%8A-%D9%8A%D8%B5%D8%B9%D9%82-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A8%D9%87%D8%A7%D8%AA%D8%B1%D9%8A%D9%83/bltfd69915e7b0d32d3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نجم أوروجواي يقرب الملكي من العبور",
+      "body": "نجم أوروجواي يقرب الملكي من العبور تقدم ريال مدريد بثلاثية نظيفة في الشوط الأول من مباراته المرتقبة ضد مانشستر سيتي على ملعب سانتياجو برنابيو، في ذهاب ثمن نهائي دوري أبطال أوروبا. تقدم النادي الملكي في الدقيقة 20 بفضل تمريرة طولية متقنة من الحارس تيبو كورتوا، انطلق على إثرها القائد فيديريكو فالفيردي من اليمين لينفرد ويتجاوز الحارس الإيطالي جيانلويجي دوناروما ويسجل في الشباك الخالية. فالفيردي يمنح التقدم لريال مدريد #دوري_أبطال_أوروبا #UCL | #beINUCL pic.twitter.com/V48ZO4Perv — beIN SPORTS (@beINSPORTS) March 11, 2026 وعاد النجم الآوروجواياني ليسجل الهدف الثاني في الدقيقة 28، بعدما استفاد من تمريرة فينيسيوس جونيور ليسدد بيسراه بقوة في مرمى دوناروما. فالفيردي يواصل التألق ويضيف الهدف الثاني للميرينغي #دوري_أبطال_أوروبا #UCL | #beINUCL pic.twitter.com/MHImj7vry9 — beIN SPORTS (@beINSPORTS) March 11, 2026 وأكمل فالفيردي الثلاثية بعد صناعة من زميله المغربي إبراهيم دياز في الدقيقة 42. فالفيردي لا يهدأ! 🔥 الأوروغواياني يبصم على الثالث في شباك مانشستر سيتي #دوري_أبطال_أوروبا #UCL | #beINUCL pic.twitter.com/ihXYwnrwHr — beIN SPORTS (@beINSPORTS) March 11, 2026",
+      "image": null,
+      "pubDate": "2026-03-11T18:47:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "129bae94077f388a",
       "title": "بث مباشر بالفيديو.. قراءة في تشكيل الزمالك لمواجهة إنبي في الدوري",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/544107/%d8%a8%d8%ab-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-%d8%a8%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d9%82%d8%b1%d8%a7%d8%a1%d8%a9-%d9%81%d9%8a-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a5%d9%86%d8%a8%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a",
@@ -476,20 +556,20 @@
       "region": "global"
     },
     {
-      "id": "26fa3670e1d28dff",
-      "title": "Netflix’s Diego Ávalos Pitches Accessibility and Flexibility to Emerging Spanish Talent at Málaga",
-      "link": "https://variety.com/2026/film/markets-festivals/netflix-diego-avalos-malaga-film-festival-spain-strategy-1236684725/",
-      "summary": "Netflix’s Diego Ávalos used a Málaga Talent appearance on Tuesday not only to explain how the streamer sources, develops and finances projects in Spain, but also to send a broader message to the local business: Netflix wants to be seen as accessible, flexible and closely connected to the creative c…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/20260310_165955-3.jpg",
-      "pubDate": "2026-03-11T18:42:20.000Z",
+      "id": "a88234037750d191",
+      "title": "منعطف حاسم في قضية المشجعين السنغاليين بالمغرب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D8%B9%D8%B7%D9%81-%D8%AD%D8%A7%D8%B3%D9%85-%D9%81%D9%8A-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%AC%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blt8fc8aea407bc8f5a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأحكام الابتدائية أثارت انتقادات في السنغال",
+      "body": "الأحكام الابتدائية أثارت انتقادات في السنغال تبدو قضية المشجعين السنغاليين المسجونين بالمغرب مقبلةً على تطور جديد، خلال الأيام القليلة المقبلة، حيث تقترب من العودة إلى ساحات القضاء. وتستعد محكمة الاستئناف بالعاصمة المغربية الرباط لعقد جلسة، يوم 16 مارس الجاري، لاستئناف محاكمة 18 مشجعًا سنغاليًا، أدينوا سابقًا على خلفية أحداث شغب، شهدها نهائي كأس الأمم الإفريقية 2025 بالمغرب، الذي فاز به أسود التيرانجا على أصحاب الأرض (1-0). ويأتي ذلك بعدما تقدم دفاعهم بطعن في الأحكام الابتدائية، وفق ما أوردته شبكة \"فرانس 24\". وكانت المحكمة الابتدائية بالرباط قد قضت، في 19 فبراير/شباط الماضي، بأحكام حبس للمشجعين تتراوح بين 3 أشهر وسنة واحدة، بعد توجيه تهم تتعلق بالشغب، وتشمل الاعتداء على عناصر الأمن، وتخريب منشآت الاستاد، ورمي المقذوفات، ومحاولة دخول الملعب دون تصريح. وأثارت تلك الأحكام انتقادات في السنغال، حيث وصفها الاتحاد المحلي لكرة القدم بأنها \"قاسية بشكل غير مفهوم\"، و\"غير متناسبة\" مع الأفعال المنسوبة للمشجعين، مع المطالبة بضرورة مراجعة القرار.",
+      "image": null,
+      "pubDate": "2026-03-11T18:41:34.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "ca17e882f39b366d",
@@ -524,6 +604,22 @@
       "region": "global"
     },
     {
+      "id": "40d6fdd53752cb08",
+      "title": "ما هي نتائج اجتماع عودة دوري أبطال آسيا للنخبة؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D9%87%D9%8A-%D9%86%D8%AA%D8%A7%D9%8A%D9%94%D8%AC-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%B9%D9%88%D8%AF%D8%A9-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9/blt9e7a1ab183dcf158?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أندية الغرب اجتمعت مع الاتحاد الآسيوي لكرة القدم اليوم الأربعاء",
+      "body": "أندية الغرب اجتمعت مع الاتحاد الآسيوي لكرة القدم اليوم الأربعاء كشفت تقارير صحفية عن نتائج الاجتماع الذي أقيم، اليوم الأربعاء، من أجل مناقشة عودة بطولة دوري أبطال آسيا للنخبة في الموسم الحالي 2025-2026. وكان من المُقرر أن تُقام مباريات ثمن نهائي دوري أبطال آسيا للنخبة أيام 2 و3 مارس/آذار ذهابًا، و9 و10 من نفس الشهر إيابًا، قبل أن يتم التأجيل في منطقة الغرب، بسبب الضربات الإيرانية على بعض الدول العربية. وقالت صحيفة \"الرياضية\" السعودية إن الاتحاد الآسيوي لكرة القدم عقد، اليوم الأربعاء، اجتماعًا مع ممثلي اتحادات أندية غرب آسيا التي تأهلت للدور ثمن النهائي، من أجل مناقشة عودة البطولة. غير أن الاجتماع انتهى دون تحديد موعد لإقامة مباريات ثمن نهائي نخبة آسيا، حيث لم يقدم الاتحاد الآسيوي حلولًا مناسبة لإعادة جدولة مباريات البطولة بحسب الصحيفة. ونقلت الصحيفة تصريحات لداتو ويندسور، الأمين العام للاتحاد الآسيوي لكرة القدم، قال فيها: \"سنعلن كافة النتائج لحظة توصلنا لقرار من خلال اللجنة المنظمة لمسابقات الاتحاد الآسيوي\". من جهتها، قالت صحيفة \"الشرق الأوسط\" السعودية إن الاتحاد الآسيوي لكرة القدم اقترح إقامة ثمن نهائي دوري أبطال آسيا للنخبة من مباراة واحدة، بدلًا من نظام الذهاب والإياب. وأبدت الأندية رفضها لفكرة تحمل نفقات السفر والإقامة لخوض تلك المباريات، في الوقت الذي لن يتحمل فيه اتحاد الدول…",
+      "image": null,
+      "pubDate": "2026-03-11T18:30:32.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "0f9f21566fa8dcba",
       "title": "\"لا يحتاج لجراحة\".. الأهلي يكشف مستجدات حالة كريم فؤاد",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/544104/-%d9%84%d8%a7-%d9%8a%d8%ad%d8%aa%d8%a7%d8%ac-%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%8a%d9%83%d8%b4%d9%81-%d9%85%d8%b3%d8%aa%d8%ac%d8%af%d8%a7%d8%aa-%d8%ad%d8%a7%d9%84%d8%a9-%d9%83%d8%b1%d9%8a%d9%85-%d9%81%d8%a4%d8%a7%d8%af",
@@ -538,6 +634,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "47137b58513b371f",
+      "title": "جماهير ريال مدريد تمارس تقليدها المعتاد مع جواردويلا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%AA%D9%85%D8%A7%D8%B1%D8%B3-%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D8%A7%D8%AF-%D9%85%D8%B9-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%88%D9%8A%D9%84%D8%A7/bltf436320b6ff1a577?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مدرجات الملكي تشتعل في مواجهة مانشستر سيتي",
+      "body": "مدرجات الملكي تشتعل في مواجهة مانشستر سيتي في أجواء مشحونة تسبق كل مواجهة أوروبية كبرى على ملعب سانتياجو برنابيو، يظل اسم بيب جوارديولا يثير ردود فعل متباينة بين الجماهير، تجمع بين الاحترام المهني والتوتر التاريخي. خلال مباراة ذهاب دور الـ16 من دوري أبطال أوروبا بين ريال مدريد ومانشستر سيتي، لم يخلُ اللقاء من أحد تقاليده المعتادة، والتي تتمثل في صيحات الاستهجان التي يوجهها جمهور النادي الملكي لمدرب السيتي. في كل زيارة يقوم بها جوارديولا إلى البرنابيو، بحسب صحيفة \"موندو ديبورتيفو\" الإسبانية يتعرض لصيحات استهجان متكررة من الجماهير، ولم تشكل هذه المباراة استثناءً. وكان جوارديولا الشخصية الأبرز تعرضا لهذه الانتقادات من جانب الجماهير، مقارنة بلاعبين آخرين مثل: رودريجو أو إيرلينج هالاند، اللذين ترددت شائعات قوية حول إمكانية انضمامهما إلى صفوف ريال مدريد في المستقبل القريب. ومن جانبه، أصدر نادي ريال مدريد تعليمات واضحة لجماهيره قبل المباراة، تحثهم على تجنب توجيه الإهانات أو الهتافات المسيئة لجوارديولا. يأتي ذلك في ظل التهديد بعقوبة محتملة من الاتحاد الأوروبي (UEFA)، تشمل إغلاقا جزئيا للملعب، بسبب مخاطر هتافات معادية للمثلية الجنسية، بعد حوادث سابقة أدت إلى غرامات وإجراءات تأديبية معلقة. كما شهدت المدرجات وجود أعلام إسبانية رغم التعليمات السابقة التي حظرت رفعها، واقتصار الأمر على أعلام ري…",
+      "image": null,
+      "pubDate": "2026-03-11T18:25:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "131382a61eb11b91",
@@ -636,38 +748,6 @@
       "region": "global"
     },
     {
-      "id": "c8235e7d426f96af",
-      "title": "Gina Rodriguez to Guest on ‘Matlock’ Season 2 Finale, Reuniting With Her ‘Jane the Virgin’ Showrunner",
-      "link": "https://variety.com/2026/tv/news/gina-rodriguez-matlock-season-2-finale-guest-star-1236684800/",
-      "summary": "“Matlock” is throwing its own mini “Jane the Virgin” reunion for its Season 2 finale. Gina Rodriguez is set to guest star on that episode, reuniting her with “Matlock” showrunner Jennie Snyder Urman. Urman was also the showrunner on “Jane the Virgin,” which ran for five seasons on The CW and starre…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/Gina-Rodriguez-Headshot-e1773249679659.jpg",
-      "pubDate": "2026-03-11T18:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "92d494617e446b9f",
-      "title": "Billie Eilish in Talks to Make Movie Acting Debut in ‘The Bell Jar’ From ‘Women Talking’ Director Sarah Polley",
-      "link": "https://variety.com/2026/film/news/billie-eilish-bell-jar-movie-acting-debut-sarah-polley-1236684813/",
-      "summary": "Billie Eilish is set to make her film acting debut in Sarah Polley’s film adaptation of Sylvia Plath’s “The Bell Jar.” Academy Award winner Polley is set to adapt the screenplay and direct the film, her first movie since winning the best adapted screenplay Oscar for “Women Talking” in 2023. Eilish …",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/P103YR0L.jpg",
-      "pubDate": "2026-03-11T17:49:33.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c04581d1fb4ca122",
       "title": "بالفيديو.. ركلة جزاء قاتلة تنقذ آرسنال من فخ ليفركوزن",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A7%D8%A1-%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D8%AA%D9%86%D9%82%D8%B0-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%85%D9%86-%D9%81%D8%AE-%D9%84%D9%8A%D9%81%D8%B1%D9%83%D9%88%D8%B2%D9%86/blt5c86dd59c4b282c2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -726,22 +806,6 @@
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f1cbf24d44a5326a",
-      "title": "Spain’s Animation Sector Presses for Bigger IP Ambitions, Faster Rules and a Stronger Global Drive",
-      "link": "https://variety.com/2026/global/global/spain-animation-sector-ip-rules-global-positioning-1236684388/",
-      "summary": "Spain’s animation industry used the Málaga Festival to make a pointed case for itself: the talent is there, the export reach is proven and the global appetite is real, but unless the country gets better at financing, protecting and scaling its own intellectual property, it will continue creating va…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/20260310_105952.jpg",
-      "pubDate": "2026-03-11T17:40:25.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -812,9 +876,9 @@
       "region": "global"
     },
     {
-      "id": "3788f11f4a9f6b1a",
-      "title": "بالفيديو: ليفركوزن ينفذ تحذيره لآرسنال.. ويضربه بسلاحه المعتاد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%8A%D9%81%D8%B1%D9%83%D9%88%D8%B2%D9%86-%D9%8A%D9%86%D9%81%D8%B0-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D9%87-%D9%84%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%88%D9%8A%D8%B6%D8%B1%D8%A8%D9%87-%D8%A8%D8%B3%D9%84%D8%A7%D8%AD%D9%87-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D8%A7%D8%AF/blt25f15cd4bb7841fa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "1607a8f6d6a36d73",
+      "title": "بالفيديو: ليفركوزن ينفذ تحذيره.. ويضرب آرسنال بسلاحه المعتاد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%8A%D9%81%D8%B1%D9%83%D9%88%D8%B2%D9%86-%D9%8A%D9%86%D9%81%D8%B0-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D9%87-%D9%88%D9%8A%D8%B6%D8%B1%D8%A8-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%A8%D8%B3%D9%84%D8%A7%D8%AD%D9%87-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D8%A7%D8%AF/blt25f15cd4bb7841fa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "سحر المدفعجية ينقلب ضدهم",
       "body": "سحر المدفعجية ينقلب ضدهم نجح باير ليفركوزن في خطف التقدم على آرسنال بهدف نظيف، ضمن ذهاب الدور ثمن النهائي (دور الـ16) من دوري أبطال أوروبا. واستغل الفريق الألماني سلاح الركلات الركنية الذي يُعد من أقوى أسلحة \"المدفعجية\" هذا الموسم، ليحرز هدف التقدم، على ملعب \"باي أرينا\". وجاء الهدف في الدقيقة 46، مباشرة مع بداية الشوط الثاني، عن طريق اللاعب الألماني روبرت أندريش، الذي ارتقى برأسية قوية ومتقنة بعد تنفيذ ركلة ركنية نفذها الإسباني أليخاندرو جريمالدو بدقة عالية، ليخدع الحارس ديفيد رايا ويسكن الشباك، معلنا تقدم أصحاب الأرض بهدف نظيف. &nbsp; Worth a try 😅 pic.twitter.com/0YO7Qg8ERt &mdash; Bayer 04 Leverkusen (@bayer04_en) March 11, 2026 وفجّر ليفركوزن موجة من التفاعلات على منصات التواصل بعد أن نشر عبر حسابه الرسمي على موقع \"إكس\" صورة ساخرة لتحذير لاعبي آرسنال من الحصول على ركلات الركنية. وقبل ساعات قليلة من المواجهة التي تنطلق في الساعة 20.45 بتوقيت مكة المكرمة، نشر الحساب الرسمي لنادي باير ليفركوزن على منصة \"إكس\" صورة مثيرة في إحدى زوايا الملعب تضمنت إشارة \"ممنوع\" مع عبارة \"غير مسيموح الحصول على ركلات ركنية\"، للتلميح على استعداد الفريق على أحسن وجه للمباراة.&nbsp; وانتهى الشوط الأول بالتعادل السلبي 0-0، رغم محاولات آرسنال&nbsp; السيطرة على مجريات اللعب وامتلاك الكرة لفترات طويلة، فيم…",
       "image": null,
@@ -1132,22 +1196,6 @@
       "region": "global"
     },
     {
-      "id": "013c7931d379db52",
-      "title": "بالأرقام.. خسائر مالية مدوية لمجموعة سيتي لكرة القدم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85-%D8%AE%D8%B3%D8%A7%D9%8A%D9%94%D8%B1-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D8%AF%D9%88%D9%8A%D8%A9-%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85/blt7ad19294e39953db?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المجموعة تمتلك الكثير من الأندية",
-      "body": "المجموعة تمتلك الكثير من الأندية &nbsp; &nbsp; أنهت مجموعة سيتي لكرة القدم، الشركة القابضة التي تسيطر على العديد من الأندية حول العالم، بما فيها مانشستر سيتي ، سنتها المالية المنتهية في 30 يونيو/حزيران 2025، بخسائر مالية ضخمة. ونشر موقع \"فوت ميركاتو\"، تقريرا تضمن تفاصيل الخسائر المدوية للمجموعة المالكة لمانشستر سيتي. وبلغت الخسائر الصافية في العام المالي الأخير 291.1 مليون جنيه إسترليني، أو ما يقارب 335 مليون يورو. ويمثل هذا العجز ارتفاعًا عن 91.9 مليون جنيه إسترليني في الموسم السابق، ليصل إجمالي خسائر المجموعة إلى ما يقارب 1.8 مليار جنيه إسترليني. &nbsp;ويُعزى جزء صغير جدًا من هذه النتيجة السلبية إلى النادي الإنجليزي، الذي أنهى العام بعجز قدره 9.9 مليون جنيه إسترليني. وتمتلك المجموعة أيضًا العديد من الأندية الأخرى، منها باليرمو ، وجيرونا ، ونيويورك سيتي، وملبورن سيتي، ومونتيفيديو سيتي تورك، وإيستاك ، ولوميل، وباهيا. &nbsp;وانخفضت إيرادات المجموعة إلى 888 مليون جنيه إسترليني مقارنة بـ 933 مليون جنيه إسترليني في العام السابق. بلغت الإيرادات، بما في ذلك مكاسب رأس المال من انتقالات اللاعبين، 1.005 مليار جنيه إسترليني لموسم 2024-2025، مقارنةً بـ 1.144 مليار جنيه إسترليني في العام السابق. وجاءت غالبية الإيرادات من مانشستر سيتي، الذي حقق وحده 790 مليون جنيه إسترليني، وانخفضت إيرادات حقو…",
-      "image": null,
-      "pubDate": "2026-03-11T15:24:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "634dedc40f285ca8",
       "title": "Apple iPhone 17e in for review",
       "link": "https://www.gsmarena.com/apple_iphone_17e_in_for_review-news-71910.php",
@@ -1178,22 +1226,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "b5bc243af066e8c5",
-      "title": "رسميا.. جراحة عاجلة لنجم المغرب قبل المونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9-%D8%B9%D8%A7%D8%AC%D9%84%D8%A9-%D9%84%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt19998312b99f4313?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ضربة قوية.. وترقب قبل مهمة كأس العالم",
-      "body": "ضربة قوية.. وترقب قبل مهمة كأس العالم تلقى منتخب المغرب ضربة مقلقة قبل أشهر من الاستحقاقات الدولية المقبلة، وفي مقدمتها كأس العالم المقرر الصيف المقبل في الولايات المتحدة وكندا والمكسيك. وتأكد خضوع أحد أبرز ركائز أسود الأطلس الدفاعية لعملية جراحية ستبعده مؤقتًا عن الملاعب، في توقيت حساس من الموسم. ويتعلق الأمر بالمدافع الدولي المغربي نايف أكرد، أحد الأعمدة الأساسية في دفاع منتخب المغرب، والذي أعلن نادي أولمبيك مارسيليا الفرنسي خضوعه لعملية جراحية لعلاج إصابة في منطقة العانة. وذكرت تقارير إعلامية فرنسية، بينها شبكة آر إم سي سبورت، أن اللاعب يعاني منذ فترة من إصابة الفتق الرياضي، وهي مشكلة بدنية شائعة بين لاعبي كرة القدم نتيجة الضغط البدني والحركات المتكررة خلال المباريات والتدريبات. وأكد مارسيليا في بيان طبي أن العملية \"ستُجرى غدا الخميس، وسيغيب قلب الدفاع المغربي عن الملاعب لعدة أسابيع نتيجة لذلك\". وتابع: \"تُعد هذه ضربة قوية للنادي والمدرب حبيب باي مع اقترابهم من المراحل الأخيرة من الموسم\". وكشف أن الجهاز الطبي في أولمبيك مارسيليا حاول في البداية التعامل مع الإصابة ببرنامج علاجي وتحفظي، إلا أن الآلام استمرت في الظهور خلال الأسابيع الماضية، ما دفع الطاقم الطبي إلى التوصية بإجراء عملية جراحية لإنهاء المشكلة بشكل نهائي. اقرأ أيضا: يلعب لمنتخبات إسبانيا.. المغرب يرفض الاستسلام في سباق…",
-      "image": null,
-      "pubDate": "2026-03-11T15:01:37.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "bdc33e6f107b8372",
@@ -1388,38 +1420,6 @@
       "region": "global"
     },
     {
-      "id": "06d9c749e06a1037",
-      "title": "حارس توتنهام يحسم مستقبله بعد كابوس لقاء أتلتيكو مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%A7%D8%B1%D8%B3-%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D9%8A%D8%AD%D8%B3%D9%85-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%87-%D8%A8%D8%B9%D8%AF-%D9%83%D8%A7%D8%A8%D9%88%D8%B3-%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blte480efdd2974aa4b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "عاش ليلة صعبة في دوري الأبطال",
-      "body": "عاش ليلة صعبة في دوري الأبطال &nbsp; كشف تقرير صحفي، عن موقف حارس مرمى توتنهام، أنتونين كينسكي، بعد الكابوس المرير الذي عاشه خلال مباراة فريقه أمام أتلتيكو مدريد، أمس الثلاثاء، في ذهاب ثمن نهائي دوري أبطال أوروبا. وبعد ربع ساعة تقريبا من بداية المباراة، تم استبدال الحارس، وذلك بعد ارتكابه خطأين كارثيين أمام أتلتيكو مدريد. &nbsp;وأُتيحت الفرصة لحارس مرمى توتنهام الشاب الاحتياطي للعب أساسيًا، لكن التجربة لم تكن لتسير على نحو أسوأ.. ففي المراحل الأولى من المباراة، ارتكب خطأين فادحين بقدميه، مُهديًا أتلتيكو مدريد هدفين. بعد تلك الليلة المرعبة، من المتوقع حدوث تغيير كبير في مسيرة اللاعب الصيف المقبل. ووفقًا لصحيفة&nbsp; \"تيلجراف\"، من المتوقع أن يُعار كينسكي خلال الموسم القادم. كان حارس المرمى قد سعى بالفعل للانتقال على سبيل الإعارة خلال فترتي الانتقالات الأخيرتين إلى نادٍ يضمن له المشاركة بانتظام، لكن توتنهام حال دون رحيله. &nbsp;لكن هذه المرة، يأمل كينسكي ألا يقف توتنهام عائقاً في طريقه، خاصة بعد واقعة الأمس، التي أثارت جدلا كبيرا، ووضعت اللاعب في موقف صعب. &nbsp;(اقرأ أيضا).. فيديو: أخطاء كارثية لحارس توتنهام تلقيه خارج مباراة أتلتيكو مدريد مبكرا &nbsp; &nbsp;",
-      "image": null,
-      "pubDate": "2026-03-11T13:51:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "addc38ad277529fe",
-      "title": "كابوس أمريكا 2026.. لماذا يترنح كأس العالم على حافة الإلغاء أو التأجيل؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%83%D8%A7%D8%A8%D9%88%D8%B3-%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D8%A7-2026-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%AA%D8%B1%D9%86%D8%AD-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%A7%D9%95%D9%84%D8%BA%D8%A7%D8%A1-%D8%A7%D9%94%D9%88-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D8%AC%D9%8A%D9%84/blt44bc057f1ef58db1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كأس العالم في مهب الريح..",
-      "body": "كأس العالم في مهب الريح.. بينما تترقب القارة الأمريكية استضافة النسخة الأكثر ضخامة وتوسعًا في تاريخ كرة القدم، يجد العالم نفسه اليوم أمام \"كابوس تنظيمي\" لم يكن في الحسبان؛ حيث تحولت ملاعب المونديال التي كان من المفترض أن تكون رمزًا للوحدة، إلى مرآة تعكس أشد الانقسامات الجيوسياسية حدة في العصر الحديث. ولم يعد الحديث اليوم في أروقة الاتحاد الدولي لكرة القدم \"فيفا\"، مقتصرًا على جاهزية العشب أو خطط بيع التذاكر، بل انتقل إلى غرف إدارة الأزمات والدهاليز السياسية المغلقة، وسط مخاوف حقيقية من أن تتبخر أحلام ملايين المشجعين تحت وطأة الصراعات المشتعلة في الشرق الأوسط، وإغلاق المجالات الجوية، وانهيار لغة الدبلوماسية الرياضية. وجعلت هذه التعقيدات الأخيرة، مصير مونديال 2026 يترنح بين الوعود الرسمية وبين واقع ميداني ينذر بالانفجار في أي لحظة، مما وضع البطولة برمتها في مهب ريح مجهولة المصير. هل نرى إيران في أمريكا؟ تعد مشاركة المنتخب الإيراني اللغز الأكبر في هذه الأزمة؛ ففي الوقت الذي التقى فيه رئيس الفيفا جياني إنفانتينو بالرئيس الأمريكي دونالد ترامب، مؤكدًا أن المنتخب الإيراني \"مرحب به\" على الأراضي الأمريكية، جاء الرد الصادم من طهران. وزير الرياضة الإيراني، أحمد دنيامالي، أطلق تصريحًا ناريًا أكد فيه استحالة المشاركة، قائلاً: \"من غير الوارد أن نشارك في ظروف استشهد فيها آلاف من مواطنينا.. المشار…",
-      "image": "https://assets.kooora.com/images/v3/blt3e31e648fe4c0809/Taremi%20Iran.jpg",
-      "pubDate": "2026-03-11T13:51:50.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "3fdd40060e8f561d",
       "title": "Dempsey's rise from Wallabies cast-off to Scotland powerhouse",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c77egl1443jo?at_medium=RSS&at_campaign=rss",
@@ -1450,22 +1450,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "64fb0cdc01131783",
-      "title": "حققه ديفيد فيا.. يامال يكرر إنجازا غائبا عن برشلونة منذ 15 عاما",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%82%D9%82%D9%87-%D8%AF%D9%8A%D9%81%D9%8A%D8%AF-%D9%81%D9%8A%D8%A7-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%8A%D9%83%D8%B1%D8%B1-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2%D8%A7-%D8%BA%D8%A7%D9%8A%D9%94%D8%A8%D8%A7-%D8%B9%D9%86-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%85%D9%86%D8%B0-15-%D8%B9%D8%A7%D9%85%D8%A7/blt72ae16d29ad094f1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أنقذ فريقه من الهزيمة أمام نيوكاسل",
-      "body": "أنقذ فريقه من الهزيمة أمام نيوكاسل &nbsp; &nbsp; أنقذ لامين يامال، نجم برشلونة، فريقه من هزيمة مريرة أمام مضيفه نيوكاسل، أمس الثلاثاء، في ذهاب ثمن نهائي دوري أبطال أوروبا. وأفلت برشلونة من الهزيمة أمام الماكبايس في ذهاب ثمن نهائي دوري أبطال أوروبا على ملعب سانت جيميس بارك، أمس الثلاثاء، حيث تعادل 1-1 بفضل هدف متأخر من علامة الجزاء سجله لامين يامال، في الدقيقة السادسة من الوقت بدل الضائع. &nbsp; وحمل هذا الهدف رقم 20، ليامال هذا الموسم في كل البطولات، وذلك خلال 37 مباراة. وقالت شبكة \" ESPN\"، إن لامين يامال، أصبح أول لاعب دولي إسباني يسجل 20 هدفًا أو أكثر في موسم واحد مع برشلونة منذ ديفيد فيا في موسم 2010-2011 (23 هدفًا). وأشارت إلى أن لامين، حقق هذا الإنجاز وهو في الثامنة عشرة من عمره. (اقرأ أيضا).. فيديو: احتفال يامال يجدد الجدل.. هل يقلد هذه الشخصية الشهيرة؟ &nbsp; &nbsp;",
-      "image": null,
-      "pubDate": "2026-03-11T13:30:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "ea9a85955f55d91d",
@@ -3286,22 +3270,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a0af8b0ff8721d12",
-      "title": "مباريات اليوم.. مواجهة واحدة في الدوري المصري.. وجالاتا سراي أمام ليفربول",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/543957/%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d9%88%d8%a7%d8%ad%d8%af%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%88%d8%ac%d8%a7%d9%84%d8%a7%d8%aa%d8%a7-%d8%b3%d8%b1%d8%a7%d9%8a-%d8%a3%d9%85%d8%a7%d9%85-%d9%84%d9%8a%d9%81%d8%b1%d8%a8%d9%88%d9%84",
-      "summary": "يستعد عشاق كرة القدم حول العالم لمتابعة عدة مباريات قوية، مساء اليوم، الثلاثاء، في مختلف المسابقات، المحلية، أو الأوروبية",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-10T07:52:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
       },
       "lang": "en",
       "category": "sports",
