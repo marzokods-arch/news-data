@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-03-11T22:43:50.095Z",
-    "total": 341,
+    "generated_at": "2026-03-11T22:58:57.682Z",
+    "total": 409,
     "processed_feeds": 23,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
@@ -32,6 +19,45 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 70,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 68,
+        "error": null,
         "notModified": false
       },
       {
@@ -48,15 +74,15 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
         "cats": [
-          "sports"
+          "lifestyle"
         ],
-        "taken": 70,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -87,19 +113,6 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
         "name": "Al Arabiya — تكنولوجيا",
         "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
@@ -110,45 +123,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 45,
-        "error": null,
         "notModified": false
       },
       {
@@ -165,9 +139,22 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 45,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -175,6 +162,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -191,9 +191,9 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -217,49 +217,10 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
         "name": "ArabiaWeather — مقالات",
         "url": "https://www.arabiaweather.com/en/rss",
         "homepage": "https://www.arabiaweather.com/en/rss",
         "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -282,6 +243,45 @@
         "notModified": false
       },
       {
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Khaleej Times - Lifestyle",
         "url": "https://www.khaleejtimes.com/rss/lifestyle",
         "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
@@ -291,7 +291,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Invalid character in entity name\nLine: 89\nColumn: 26\nChar:  ",
         "notModified": false
       },
       {
@@ -310,6 +310,54 @@
     ]
   },
   "items": [
+    {
+      "id": "afc4bb7c181fad9e",
+      "title": "Chelsea crumble late on as PSG score five to take control of tie",
+      "link": "https://www.bbc.com/sport/football/videos/cn0e76xrw3eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Khvicha Kvaratskhelia scores two late goals as defending champions Paris Saint-Germain beat Chelsea 5-2 in France, to take control of the first leg of their Champions League last-16 tie.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-11T22:46:49.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "99c08ea361fe07f8",
+      "title": "أنشطة اجتماعية متعددة لفائدة نزيلات السجن المحلي بتطوان",
+      "link": "https://assabah.ma/908307.html",
+      "summary": "نظم مركز المصاحبة وإعادة الإدماج بطنجة، التابع لمؤسسة محمد السادس لإعادة إدماج السجناء، الثلاثاء، سلسلة من الأنشطة الاجتماعية والإنسانية لفائدة النزيلات بالسجن المحلي بتطوان. وتندرج هذه المبادرة، المنظمة بشراكة مع إدارة السجن المحلي بتطوان والمجلس العلمي المحلي والمديرية الإقليمية للوكالة الوطنية ل…",
+      "body": "نظم مركز المصاحبة وإعادة الإدماج بطنجة، التابع لمؤسسة محمد السادس لإعادة إدماج السجناء، الثلاثاء، سلسلة من الأنشطة الاجتماعية والإنسانية لفائدة النزيلات بالسجن المحلي بتطوان. وتندرج هذه المبادرة، المنظمة بشراكة مع إدارة السجن المحلي بتطوان والمجلس العلمي المحلي والمديرية الإقليمية للوكالة الوطنية لإنعاش التشغيل والكفاءات بتطوان، في إطار أكمل القراءة &raquo; المقالة أنشطة اجتماعية متعددة لفائدة نزيلات السجن المحلي بتطوان fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-03-11T22:45:41.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "3136970f99600170",
+      "title": "Bodo/Glimt extend winning run as they ease past Sporting",
+      "link": "https://www.bbc.com/sport/football/videos/cwyxkd12757o?at_medium=RSS&at_campaign=rss",
+      "summary": "Bodo/Glimt made it five European wins in a row as they thrashed Sporting 3-0 in the first leg of their last 16 tie in the Champions League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-11T22:43:24.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "8bafa50d2e8cf748",
       "title": "24 Buttermilk Recipes Perfect For That Leftover Carton In The Fridge",
@@ -647,6 +695,54 @@
       "region": "global"
     },
     {
+      "id": "bb1b77cf69c378a3",
+      "title": "ريال مدريد يصعق جوارديولا على طريقة برشلونة وليفربول",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%B5%D8%B9%D9%82-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D8%B9%D9%84%D9%89-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/blt55e6c1b8d9e7adda?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "عاش ليلة صعبة في سانتياجو برنابيو",
+      "body": "عاش ليلة صعبة في سانتياجو برنابيو &nbsp; &nbsp; عاش المدرب الإسباني، بيب جوارديولا، ليلة صعبة في سانتياجو برنابيو، معقل ريال مدريد، بعدما خرج بخسارة وضعت فريقه مانشستر سيتي، على أعتاب الخروج من دوري أبطال أوروبا. ووضع ريال مدريد قدما في ربع نهائي دوري أبطال أوروبا، بانتصاره العريض على ضيفه مانشستر سيتي بثلاثية نظيفة، في ذهاب ثمن النهائي. ويدين الريال بالفضل في هذا الانتصار لنجمه فيدي فالفيردي الذي وقع على الهاتريك بطريقة رائعة. وقالت شبكة \"أوبتا\" للإحصائيات، إن بيب جوارديولا، تلقى أثقل هزيمة له في مباراة الذهاب من الأدوار الإقصائية لدوري أبطال أوروبا، بالتساوي مع هزيمتين بنتيجة 3-0 أمام برشلونة في نصف نهائي موسم 2014-2015 (مع بايرن ميونخ)، وليفربول في ربع نهائي موسم 2017-2018. وأضافت الشبكة، أن هذه هي المرة الأولى التي يخسر فيها ناديان إنجليزيان بأكثر من 3 أهداف في نفس اليوم في تاريخ كأس أوروبا/ دوري أبطال أوروبا: فاز باريس سان جيرمان 5-2 على تشيلسي، وريال مدريد 3-0 على مانشستر سيتي. &nbsp; &nbsp;",
+      "image": null,
+      "pubDate": "2026-03-11T20:53:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "d800b6e26adcd607",
+      "title": "جوارديولا: مباراة الريال لم تكن سيئة.. تخيلوا الوضع مع أربعة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%84%D9%85-%D8%AA%D9%83%D9%86-%D8%B3%D9%8A%D9%8A%D9%94%D8%A9-%D8%AA%D8%AE%D9%8A%D9%84%D9%88%D8%A7-%D8%A7%D9%84%D9%88%D8%B6%D8%B9-%D9%85%D8%B9-%D8%A7%D9%94%D8%B1%D8%A8%D8%B9%D8%A9/blt7682913b4c0eeb16?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الإسباني يحافظ على النظرة الإيجابية",
+      "body": "المدرب الإسباني يحافظ على النظرة الإيجابية في صدمة كبيرة على ملعب سانتياجو برنابيو، سقط مانشستر سيتي أمام ريال مدريد بنتيجة 0-3 في ذهاب دور الـ16 من دوري أبطال أوروبا. وسجل فيديريكو فالفيردي هاتريك مذهل لصالح الميرينجي في الشوط الأول، ليضع السيتيزينز أمام مهمة شبه مستحيلة قبل مباراة الإياب في الاتحاد. ورغم النتيجة القاسية، حاول بيب جوارديولا مدرب السيتي، الحفاظ على نظرة إيجابية نسبية في تصريحاته بعد المباراة، مؤكدًا أن الأداء لم يكن كارثيًا كما توحي النتيجة. وقال جوارديولا، في تصريحات بعد المباراة نقلتها قناة \"موفيستار+\": \"النتيجة كبيرة ولكن ما زال أمامنا 90 دقيقة، لديّ شعور بأن المباراة لم تكن سيئة للغاية\". وأضاف: \"أتيحت لهم ثلاث فرص في الشوط الأول وسجلوا ثلاثة أهداف، يبدو أنهم دائمًا في حالة تحول هجومي، لكننا وصلنا إلى خط المرمى مرات عديدة\". وتابع: \"حتى في الشوط الثاني، لقد افتقرنا إلى التمريرة الحاسمة؛ لقد دافعوا بشكل جيد ومتماسك للغاية، بدأنا المباراة بشكل جيد، أما الآن حان فقد حان وقت العشاء والراحة، وسنستعيد توازننا\". اقرأ أيضا: جماهير ريال مدريد تمارس تقليدها المعتاد مع جوارديولا ما الذي كان ينقصنا؟ أجاب جوارديولا: \"عندما تصل إلى خط المرمى ويكون لديك أربعة أو خمسة لاعبين داخل منطقة الجزاء، فإن الأمر كله يتعلق بالتمريرة الجيدة\". واستكمل: \"أتيحت لنا فرصا إذا سجلنا منها فسيكون…",
+      "image": null,
+      "pubDate": "2026-03-11T20:51:16.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ca76eaae8e264633",
+      "title": "رهان أربيلوا وانفجار فالفيردي.. كيف دفن ريال مدريد السيتي في سانتياجو برنابيو؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B1%D9%87%D8%A7%D9%86-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%88%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D9%81%D8%A7%D9%84%D9%81%D9%8A%D8%B1%D8%AF%D9%8A-%D9%83%D9%8A%D9%81-%D8%AF%D9%81%D9%86-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%B3%D8%A7%D9%86%D8%AA%D9%8A%D8%A7%D8%AC%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D8%A8%D9%8A%D9%88/blt3577372a52e647cb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رهان مدرب الريال أثبت نجاحه",
+      "body": "رهان مدرب الريال أثبت نجاحه ربما لم يكن أشد المتشائمين يتوقع السقوط المدوي لمانشستر سيتي أمام مضيفه ريال مدريد بنتيجة ثقيلة، اليوم الأربعاء، في ذهاب ثمن نهائي دوري أبطال أوروبا، لكن الفريق الإنجليزي تلقى ثلاثية صاعقة من النجم الأوروجواياني فيدي فالفيردي (3-0)، لتصبح آمال تأهله في مهب الريح. بداية قوية لمانشستر سيتي كما لم تكن انطلاقة السيتي في المباراة توحي بإمكانية خروجه بهذه النتيجة، حيث نجح فريق المدرب بيب جوارديولا في السيطرة على الميدان بشكل كبير، وتمكن من صناعة عدة فرص خطيرة، لا سيما عبر انطلاقات الجناح الخطير جيريمي دوكو على الجبهة اليسرى لفريقه. في المقابل، عانى الظهير الأيمن للريال، ألكسندر أرنولد، بشدة في مواجهة البلجيكي، وهو ما كان يراهن عليه جوارديولا فيما يبدو. فالفيردي بثوب مبابي لكن فالفيردي انفجر فجأة مثل اللغم في سانتياجو برنابيو، بينما كان السيتي في أوج تفوقه الهجومي. وبمجهود فردي رائع إثر تمريرة طولية من كورتوا، تمكن الأوروجواياني من تجاوز الظهير الأيسر الشاب، نيكو أوريلي، الذي لم يتحل بالتركيز وخانته الخبرة أمام نجم ريال مدريد. وأكمل فالفيردي طريقه نحو مرمى الضيوف، مراوغًا الحارس جيانلويجي دوناروما، وواضعًا الكرة في الشباك. اقرأ أيضًا فينيسيوس يعتذر لجماهير ريال مدريد أمام مانشستر سيتي تصريح جريزمان يثير اتهامات بالتلاعب قبل مواجهة برشلونة أربيلوا غاضب من نجم ر…",
+      "image": "https://assets.kooora.com/images/v3/blt35fe8b6a63a7b731/Goal%20HIC%20-%20Instagram%20(35).jpg",
+      "pubDate": "2026-03-11T20:49:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "191e9cc3af65b53f",
       "title": "Spurs keeper Kinsky thankful for support after 'nightmare'",
       "link": "https://www.bbc.com/sport/football/articles/c77egk8ykxxo?at_medium=RSS&at_campaign=rss",
@@ -763,7 +859,7 @@
       "title": "فينيسيوس يعتذر لجماهير ريال مدريد أمام مانشستر سيتي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%8A%D8%B9%D8%AA%D8%B0%D8%B1-%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/blt6b093b302dd4f938?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "البرازيلي أخفق أمام الإيطالي",
-      "body": "البرازيلي أخفق أمام الإيطالي أهدر فينيسيوس جونيور، نجم ريال مدريد، فرصة إطلاق رصاصة الرحمة على الضيف مانشستر سيتي، اليوم الأربعاء، على ملعب سانتياجو برنابيو، في ذهاب ثمن نهائي دوري أبطال أوروبا. ففي الدقيقة 57 حصل الدولي البرازيلي على ركلة جزاء، بعدما عرقله حارس السيتي، الإيطالي جيانلويجي دوناروما. لكن فينيسيوس فشل في ترجمة ضربة الجزاء إلى هدف، حيث لم يسددها بالقوة الكافية، ما سمح لدوناروما بإنقاذ مرماه من الهدف الرابع، الذي كان كفيلًا بحسم المواجهة بشكل شبه تام لصالح الميرينجي. وبعد هذا الإخفاق، توجه فينيسيوس بإشارات اعتذار لجماهير الريال، معبرًا عن ندمه على إهدار فرصة مهمة للغاية. وسيلتقي الفريقان على ملعب الاتحاد، معقل السيتي، الثلاثاء المقبل في مباراة الإياب، بعد انتهاء لقاء الذهاب بانتصار الميرينجي (3-0).",
+      "body": "البرازيلي أخفق أمام الإيطالي أهدر فينيسيوس جونيور، نجم ريال مدريد، فرصة إطلاق رصاصة الرحمة على الضيف مانشستر سيتي، اليوم الأربعاء، على ملعب سانتياجو برنابيو، في ذهاب ثمن نهائي دوري أبطال أوروبا. ففي الدقيقة 57 حصل الدولي البرازيلي على ركلة جزاء، بعدما عرقله حارس السيتي، الإيطالي جيانلويجي دوناروما. اقرأ أيضًا تصريح جريزمان يثير اتهامات بالتلاعب قبل مواجهة برشلونة أربيلوا غاضب من نجم ريال مدريد.. ويدرس استبعاده رهان أربيلوا وانفجار فالفيردي.. كيف دفن ريال مدريد السيتي في سانتياجو برنابيو؟ لكن فينيسيوس فشل في ترجمة ضربة الجزاء إلى هدف، حيث لم يسددها بالقوة الكافية، ما سمح لدوناروما بإنقاذ مرماه من الهدف الرابع، الذي كان كفيلًا بحسم المواجهة بشكل شبه تام لصالح الميرينجي. وبعد هذا الإخفاق، توجه فينيسيوس بإشارات اعتذار لجماهير الريال، معبرًا عن ندمه على إهدار فرصة مهمة للغاية. وسيلتقي الفريقان على ملعب الاتحاد، معقل السيتي، الثلاثاء المقبل في مباراة الإياب، بعد انتهاء لقاء الذهاب بانتصار الميرينجي (3-0).",
       "image": null,
       "pubDate": "2026-03-11T20:01:24.000Z",
       "source": {
@@ -869,6 +965,22 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
+    },
+    {
+      "id": "b8da2ca061b9dfcb",
+      "title": "أخنوش يترأس اجتماعا لتتبع إصلاح التعليم العالي",
+      "link": "https://assabah.ma/908301.html",
+      "summary": "ترأس رئيس الحكومة، عزيز أخنوش، اليوم الأربعاء بالرباط، اجتماعا خصص لتتبع تنزيل إصلاح منظومة التعليم العالي والبحث العلمي والابتكار، والوقوف على مستوى تقدم عدد من المشاريع المرتبطة بتطوير الجامعة المغربية وتعزيز دورها في تكوين الرأسمال البشري ومواكبة متطلبات التنمية. وذكر بلاغ لرئاسة الحكومة أن هذا …",
+      "body": "ترأس رئيس الحكومة، عزيز أخنوش، اليوم الأربعاء بالرباط، اجتماعا خصص لتتبع تنزيل إصلاح منظومة التعليم العالي والبحث العلمي والابتكار، والوقوف على مستوى تقدم عدد من المشاريع المرتبطة بتطوير الجامعة المغربية وتعزيز دورها في تكوين الرأسمال البشري ومواكبة متطلبات التنمية. وذكر بلاغ لرئاسة الحكومة أن هذا الاجتماع شكل أكمل القراءة &raquo; المقالة أخنوش يترأس اجتماعا لتتبع إصلاح التعليم العالي fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-03-11T19:40:27.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
     },
     {
       "id": "034769ee4b914e68",
@@ -1031,38 +1143,6 @@
       "region": "mena"
     },
     {
-      "id": "40d6fdd53752cb08",
-      "title": "ما هي نتائج اجتماع عودة دوري أبطال آسيا للنخبة؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D9%87%D9%8A-%D9%86%D8%AA%D8%A7%D9%8A%D9%94%D8%AC-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%B9%D9%88%D8%AF%D8%A9-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9/blt9e7a1ab183dcf158?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أندية الغرب اجتمعت مع الاتحاد الآسيوي لكرة القدم اليوم الأربعاء",
-      "body": "أندية الغرب اجتمعت مع الاتحاد الآسيوي لكرة القدم اليوم الأربعاء كشفت تقارير صحفية عن نتائج الاجتماع الذي أقيم، اليوم الأربعاء، من أجل مناقشة عودة بطولة دوري أبطال آسيا للنخبة في الموسم الحالي 2025-2026. وكان من المُقرر أن تُقام مباريات ثمن نهائي دوري أبطال آسيا للنخبة أيام 2 و3 مارس/آذار ذهابًا، و9 و10 من نفس الشهر إيابًا، قبل أن يتم التأجيل في منطقة الغرب، بسبب الضربات الإيرانية على بعض الدول العربية. وقالت صحيفة \"الرياضية\" السعودية إن الاتحاد الآسيوي لكرة القدم عقد، اليوم الأربعاء، اجتماعًا مع ممثلي اتحادات أندية غرب آسيا التي تأهلت للدور ثمن النهائي، من أجل مناقشة عودة البطولة. غير أن الاجتماع انتهى دون تحديد موعد لإقامة مباريات ثمن نهائي نخبة آسيا، حيث لم يقدم الاتحاد الآسيوي حلولًا مناسبة لإعادة جدولة مباريات البطولة بحسب الصحيفة. ونقلت الصحيفة تصريحات لداتو ويندسور، الأمين العام للاتحاد الآسيوي لكرة القدم، قال فيها: \"سنعلن كافة النتائج لحظة توصلنا لقرار من خلال اللجنة المنظمة لمسابقات الاتحاد الآسيوي\". من جهتها، قالت صحيفة \"الشرق الأوسط\" السعودية إن الاتحاد الآسيوي لكرة القدم اقترح إقامة ثمن نهائي دوري أبطال آسيا للنخبة من مباراة واحدة، بدلًا من نظام الذهاب والإياب. وأبدت الأندية رفضها لفكرة تحمل نفقات السفر والإقامة لخوض تلك المباريات، في الوقت الذي لن يتحمل فيه اتحاد الدول…",
-      "image": null,
-      "pubDate": "2026-03-11T18:30:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "f81c9fa805ef180e",
-      "title": "جماهير ريال مدريد تمارس تقليدها المعتاد مع جوارديولا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%AA%D9%85%D8%A7%D8%B1%D8%B3-%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D8%A7%D8%AF-%D9%85%D8%B9-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7/bltf436320b6ff1a577?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مدرجات الملكي تشتعل في مواجهة مانشستر سيتي",
-      "body": "مدرجات الملكي تشتعل في مواجهة مانشستر سيتي في أجواء مشحونة تسبق كل مواجهة أوروبية كبرى على ملعب سانتياجو برنابيو، يظل اسم بيب جوارديولا يثير ردود فعل متباينة بين الجماهير، تجمع بين الاحترام المهني والتوتر التاريخي. خلال مباراة ذهاب دور الـ16 من دوري أبطال أوروبا بين ريال مدريد ومانشستر سيتي، لم يخلُ اللقاء من أحد تقاليده المعتادة، والتي تتمثل في صيحات الاستهجان التي يوجهها جمهور النادي الملكي لمدرب السيتي. في كل زيارة يقوم بها جوارديولا إلى البرنابيو، بحسب صحيفة \"موندو ديبورتيفو\" الإسبانية يتعرض لصيحات استهجان متكررة من الجماهير، ولم تشكل هذه المباراة استثناءً. وكان جوارديولا الشخصية الأبرز تعرضا لهذه الانتقادات من جانب الجماهير، مقارنة بلاعبين آخرين مثل: رودريجو أو إيرلينج هالاند، اللذين ترددت شائعات قوية حول إمكانية انضمامهما إلى صفوف ريال مدريد في المستقبل القريب. ومن جانبه، أصدر نادي ريال مدريد تعليمات واضحة لجماهيره قبل المباراة، تحثهم على تجنب توجيه الإهانات أو الهتافات المسيئة لجوارديولا. يأتي ذلك في ظل التهديد بعقوبة محتملة من الاتحاد الأوروبي (UEFA)، تشمل إغلاقا جزئيا للملعب، بسبب مخاطر هتافات معادية للمثلية الجنسية، بعد حوادث سابقة أدت إلى غرامات وإجراءات تأديبية معلقة. كما شهدت المدرجات وجود أعلام إسبانية رغم التعليمات السابقة التي حظرت رفعها، واقتصار الأمر على أعلام ري…",
-      "image": null,
-      "pubDate": "2026-03-11T18:25:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "6f8f9eafd5c555fd",
       "title": "The world is being held hostage by its reliance on oil. How can we break free from the fossil fuel?",
       "link": "https://www.livescience.com/planet-earth/fossil-fuels/the-world-is-being-held-hostage-by-its-reliance-on-oil-how-can-we-break-free-from-the-fossil-fuel",
@@ -1093,22 +1173,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "ced211e318f1e952",
-      "title": "فيديو: استقبال عدائي من جماهير ريال مدريد لحافلة مانشستر سيتي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D8%B9%D8%AF%D8%A7%D9%8A%D9%94%D9%8A-%D9%85%D9%86-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%84%D8%AD%D8%A7%D9%81%D9%84%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/blt60d3254e7195d12e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "استقبلت جماهير ريال مدريد، حافلة مانشستر سيتي، قبل مواجهة الفريقين الليلة، في ذهاب ثمن نهائي دوري أبطال أوروبا، بطريقة سيئة.",
-      "body": "&nbsp; استقبلت جماهير ريال مدريد، حافلة مانشستر سيتي، قبل مواجهة الفريقين الليلة، في ذهاب ثمن نهائي دوري أبطال أوروبا، بطريقة سيئة. وتحمل المباراة فصلاً جديدًا من الصراع المستمر بين الفريقين في البطولة القارية، إذ يلتقيان في الأدوار الإقصائية للموسم الخامس على التوالي، مع أفضلية نسبية للفريق الإسباني الذي حسم آخر مواجهتين إقصائيتين بينهما. ونشر برنامج \"الشيرنجيتو\" الإسباني، مقطع فيديو لوصول حافلة مانشستر سيتي إلى ملعب سانتياجو برنابيو، يظهر إطلاق جماهير ريال مدريد ، لصيحات الاستهجان ضد الفريق الإنجليزي. يذكر أن لقاء الإياب سيقام في إنجلترا، يوم الثلاثاء المقبل، لحسم المتأهل من مانشستر سيتي وريال مدريد، إلى ربع النهائي. 🫣¡Gran pitada a la llegada del Manchester City al Bernabéu! #UCL 📹 @JLSanchez78 pic.twitter.com/82U1LpzdJX — El Chiringuito TV (@elchiringuitotv) March 11, 2026 &nbsp;",
-      "image": null,
-      "pubDate": "2026-03-11T18:07:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "e76889f72a9f606a",
@@ -1655,22 +1719,6 @@
       "region": "global"
     },
     {
-      "id": "bc335f1f230f5f2b",
-      "title": "الشغب الرياضي يوقع بستة أشخاص بمولاي رشيد",
-      "link": "https://assabah.ma/908112.html",
-      "summary": "تمكنت عناصر الشرطة بمنطقة أمن مولاي رشيد بمدينة الدار البيضاء، في الساعات الأولى من فجر اليوم الأربعاء 11 مارس الجاري، من توقيف ستة أشخاص يشتبه في تورطهم في قضية تتعلق بالعنف المرتبط بالشغب الرياضي والحاق خسائر مادية بممتلكات خاصة. وكانت مصالح الشرطة بالدار البيضاء قد توصلتأكمل القراءة » المقالة ال…",
-      "body": "&nbsp; تمكنت عناصر الشرطة بمنطقة أمن مولاي رشيد بمدينة الدار البيضاء، في الساعات الأولى من فجر اليوم الأربعاء 11 مارس الجاري، من توقيف ستة أشخاص يشتبه في تورطهم في قضية تتعلق بالعنف المرتبط بالشغب الرياضي والحاق خسائر مادية بممتلكات خاصة. وكانت مصالح الشرطة بالدار البيضاء قد توصلت أكمل القراءة &raquo; المقالة الشغب الرياضي يوقع بستة أشخاص بمولاي رشيد fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-03-11T11:52:22.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f91e689cc2730d7b",
       "title": "Best Indoor Garden Systems: We’ve Been Testing All Year (2026)",
       "link": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
@@ -1716,22 +1764,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "46564cc170290c52",
-      "title": "17,791 لاجئا وطالب لجوء من أزيد من 60 دولة بالمغرب خلال 2024",
-      "link": "https://assabah.ma/908098.html",
-      "summary": "سجل المجلس الوطني لحقوق الإنسان بأن عدد اللاجئين وطالبي اللجوء المسجلين لدى المفوضية السامية للأمم المتحدة لشؤون اللاجئين بالمغرب شهد ارتفاعا خلال سنة 2024، إذ بلغ مجموعهم 17 ألفا و791 شخصا ينحدرون من أكثر من ستين دولة. وأوضح التقرير السنوي للمجلس أن هؤلاء يتوزعون على نحو ثمانينأكمل القراءة » المقا…",
-      "body": "سجل المجلس الوطني لحقوق الإنسان بأن عدد اللاجئين وطالبي اللجوء المسجلين لدى المفوضية السامية للأمم المتحدة لشؤون اللاجئين بالمغرب شهد ارتفاعا خلال سنة 2024، إذ بلغ مجموعهم 17 ألفا و791 شخصا ينحدرون من أكثر من ستين دولة. وأوضح التقرير السنوي للمجلس أن هؤلاء يتوزعون على نحو ثمانين أكمل القراءة &raquo; المقالة 17,791 لاجئا وطالب لجوء من أزيد من 60 دولة بالمغرب خلال 2024 fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-03-11T11:13:42.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2084,6 +2116,662 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2e68d7d40bf4fd5e",
+      "title": "Author Correction: Gut stem cell necroptosis by genome instability triggers bowel inflammation",
+      "link": "https://www.nature.com/articles/s41586-026-10302-3",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10302-3\">doi:10.1038/s41586-026-10302-3</a></p>Author Correction: Gut stem cell necroptosis by genome instability triggers bowel inflammation",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10302-3 Author Correction: Gut stem cell necroptosis by genome instability triggers bowel inflammation",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c6660356d73726b0",
+      "title": "This supernova is too bright – now astronomers might know why",
+      "link": "https://www.nature.com/articles/d41586-026-00801-8",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00801-8\">doi:10.1038/d41586-026-00801-8</a></p>Wobbling signal could explain some extremely bright supernovae",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00801-8 Wobbling signal could explain some extremely bright supernovae",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0fd2bd8b7cdfeeca",
+      "title": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+      "link": "https://www.nature.com/articles/d41586-026-00798-0",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00798-0\">doi:10.1038/d41586-026-00798-0</a></p>A study reveals how the asexual Amazon molly defies evolutionary expectations — plus, evidence of what might be powering superluminous supernovae.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00798-0 A study reveals how the asexual Amazon molly defies evolutionary expectations — plus, evidence of what might be powering superluminous supernovae.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ddef87aa5e925c57",
+      "title": "The dynamic basis of G-protein recognition and activation by a GPCR",
+      "link": "https://www.nature.com/articles/s41586-026-10228-w",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10228-w\">doi:10.1038/s41586-026-10228-w</a></p>Conventional and time-resolved cryo-electron microscopy reveal how NTSR1 dynamically engages and releases different G proteins, capturing over 20 intermedia…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10228-w Conventional and time-resolved cryo-electron microscopy reveal how NTSR1 dynamically engages and releases different G proteins, capturing over 20 intermediates and uncovering key mechanistic steps in GDP- and GTP-driven activation, subtype selectivity and distinct dissociation pathways.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "642f8d9328801fa3",
+      "title": "A large-scale coherent 4D imaging sensor",
+      "link": "https://www.nature.com/articles/s41586-026-10183-6",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10183-6\">doi:10.1038/s41586-026-10183-6</a></p>A 4D imaging architecture using a large-scale, coherent LiDAR focal plane array comprising more than 0.6 million photonic components and associated electron…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10183-6 A 4D imaging architecture using a large-scale, coherent LiDAR focal plane array comprising more than 0.6 million photonic components and associated electronics integrated on-chip can obtain coherent images at high frame rates over useful distances.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6c17b21bcfd46d68",
+      "title": "Capturing dynamic phage–pathogen coevolution by clinical surveillance",
+      "link": "https://www.nature.com/articles/s41586-026-10136-z",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10136-z\">doi:10.1038/s41586-026-10136-z</a></p>The acquisition of a parasitic anti-phage mobile genetic element, PLE11, showing potent anti-phage activity against cocirculating ICP1, and the subsequent e…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10136-z The acquisition of a parasitic anti-phage mobile genetic element, PLE11, showing potent anti-phage activity against cocirculating ICP1, and the subsequent evolution of ICP1 to escape this defense, are captured, revealing the molecular basis of the natural selection of a globally notable pathogen and its virus.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "949b1d8225d5f419",
+      "title": "Multidimensional profiling of heterogeneity in supratentorial ependymomas",
+      "link": "https://www.nature.com/articles/s41586-026-10214-2",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10214-2\">doi:10.1038/s41586-026-10214-2</a></p>Individual supratentorial ependymoma tumour subgroups have two distinct progenitor-like cell states—neuroepithelial-like and embryonic-like—that are reminis…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10214-2 Individual supratentorial ependymoma tumour subgroups have two distinct progenitor-like cell states—neuroepithelial-like and embryonic-like—that are reminiscent of early human brain development and diverge in the extent of their neuronal or ependymal differentiation.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8fd8270d99b341f8",
+      "title": "Structures of Marburgvirus glycoprotein and its complex with NPC1 receptor",
+      "link": "https://www.nature.com/articles/s41586-026-10240-0",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10240-0\">doi:10.1038/s41586-026-10240-0</a></p>Marburgvirus glycoprotein binds to the endosomal receptor NPC1 in a distinct orientation with higher affinity compared with Ebola virus glycoprotein, accomp…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10240-0 Marburgvirus glycoprotein binds to the endosomal receptor NPC1 in a distinct orientation with higher affinity compared with Ebola virus glycoprotein, accompanied by fusion-relevant rearrangements, enabling more efficient viral entry.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d1bbdb3488c52bb4",
+      "title": "Multimodal electron microscopy of halide perovskite interfacial dynamics",
+      "link": "https://www.nature.com/articles/s41586-026-10238-8",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10238-8\">doi:10.1038/s41586-026-10238-8</a></p>A multimodal in situ electron microscopy approach enables direct visualization of structural and chemical evolution in a working halide perovskite light-emi…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10238-8 A multimodal in situ electron microscopy approach enables direct visualization of structural and chemical evolution in a working halide perovskite light-emitting diode with nanometre precision.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "dc6fff3655cd1f64",
+      "title": "Lense–Thirring precessing magnetar engine drives a superluminous supernova",
+      "link": "https://www.nature.com/articles/s41586-026-10151-0",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10151-0\">doi:10.1038/s41586-026-10151-0</a></p>Observations of a nearby type I superluminous supernova showing oscillating light-curve bumps provide evidence of a centrally located magnetar in the wake o…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10151-0 Observations of a nearby type I superluminous supernova showing oscillating light-curve bumps provide evidence of a centrally located magnetar in the wake of the explosion, surrounded by an infalling accretion disk undergoing Lense–Thirring precession.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "678354a44e8b051d",
+      "title": "Facile induction of immune tolerance by an interleukin-2–TGFβ surrogate agonist",
+      "link": "https://www.nature.com/articles/s41586-026-10208-0",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10208-0\">doi:10.1038/s41586-026-10208-0</a></p>A fusion protein designed to comprise IL-2 and a helminth-derived TGFβ mimic activates IL-2 and TGFβ signalling pathways in IL-2 receptor-expressing T cells…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10208-0 A fusion protein designed to comprise IL-2 and a helminth-derived TGFβ mimic activates IL-2 and TGFβ signalling pathways in IL-2 receptor-expressing T cells and induces stable antigen-specific regulatory T cells in peripheral lymphoid organs.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a0b2aee294db59f0",
+      "title": "Snapshots of the dynamic basis of NTSR1 G protein subtype promiscuity",
+      "link": "https://www.nature.com/articles/s41586-026-10120-7",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10120-7\">doi:10.1038/s41586-026-10120-7</a></p>Time-resolved cryo-electron microscopy during activation of Gαi1βγ and Gα11βγ heterotrimers bound to NTSR1 enables isolation of multiple transient complexes…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10120-7 Time-resolved cryo-electron microscopy during activation of Gαi1βγ and Gα11βγ heterotrimers bound to NTSR1 enables isolation of multiple transient complexes along the activation pathway and reveals structural motifs that stabilize these intermediates.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "33e06d870835cfbe",
+      "title": "Intestinal interoceptive dysfunction drives age-associated cognitive decline",
+      "link": "https://www.nature.com/articles/s41586-026-10191-6",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10191-6\">doi:10.1038/s41586-026-10191-6</a></p>Age-related microbiome changes increase medium-chain fatty acid-producing bacteria, driving GPR84-mediated myeloid inflammation, impaired vagal signalling a…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10191-6 Age-related microbiome changes increase medium-chain fatty acid-producing bacteria, driving GPR84-mediated myeloid inflammation, impaired vagal signalling and hippocampal dysfunction; targeting this gut–brain pathway restores memory in aged mice.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6ef134c2aef58d68",
+      "title": "Assembly of helper NLR resistosome clusters upon activation of a coiled-coil NLR",
+      "link": "https://www.nature.com/articles/s41586-026-10215-1",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10215-1\">doi:10.1038/s41586-026-10215-1</a></p>SUMM2, a coiled-coil NLR, promotes the assembly of higher-order resistosome clusters to initiate cell death in plants.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10215-1 SUMM2, a coiled-coil NLR, promotes the assembly of higher-order resistosome clusters to initiate cell death in plants.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "ac4fd47bf46dc932",
+      "title": "A sorghum pangenome reference improves global crop trait discovery",
+      "link": "https://www.nature.com/articles/s41586-026-10229-9",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10229-9\">doi:10.1038/s41586-026-10229-9</a></p>A pangenome reference for the phenotypically diverse crop sorghum aims to help accelerate future efforts to breed crops that are better adapted to changing …",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10229-9 A pangenome reference for the phenotypically diverse crop sorghum aims to help accelerate future efforts to breed crops that are better adapted to changing environments.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "aec5d0b07be39ed7",
+      "title": "B cell imprinting in children impairs antibodies to the haemagglutinin stalk",
+      "link": "https://www.nature.com/articles/s41586-026-10248-6",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10248-6\">doi:10.1038/s41586-026-10248-6</a></p>Imprinting by influenza viruses can cause a deleterious shift of nearly the entire memory recall response against key, conserved epitopes.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10248-6 Imprinting by influenza viruses can cause a deleterious shift of nearly the entire memory recall response against key, conserved epitopes.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a8847d11454d9403",
+      "title": "Nanophotonic waveguide chip-to-world beam scanning",
+      "link": "https://www.nature.com/articles/s41586-025-10038-6",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-025-10038-6\">doi:10.1038/s41586-025-10038-6</a></p>A monolithically integrated photonic ski-jump enables scalable, diffraction-limited 2D beam scanning from photonic chips, achieving ultrahigh spot rates, co…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-025-10038-6 A monolithically integrated photonic ski-jump enables scalable, diffraction-limited 2D beam scanning from photonic chips, achieving ultrahigh spot rates, compact footprints and applications spanning displays, sensing and quantum photonics.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0fe65ac8a85c37b0",
+      "title": "A big-push community intervention reduced rates of child marriage by 80%",
+      "link": "https://www.nature.com/articles/s41586-026-10206-2",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10206-2\">doi:10.1038/s41586-026-10206-2</a></p>A community-wide intervention in northern Nigeria reduced rates of child marriage from 79% to 14%, showing that bundled, big-push approaches can dramaticall…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10206-2 A community-wide intervention in northern Nigeria reduced rates of child marriage from 79% to 14%, showing that bundled, big-push approaches can dramatically shift entrenched behaviours.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e125b69420d03c48",
+      "title": "Immune evasive DNA donors and recombinases license kilobase-scale writing",
+      "link": "https://www.nature.com/articles/s41586-026-10241-z",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10241-z\">doi:10.1038/s41586-026-10241-z</a></p>INSTALL overcomes fundamental challenges for DNA delivery and integration methods by synergizing immune-stealth nucleic acids with recombinases to enable ki…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10241-z INSTALL overcomes fundamental challenges for DNA delivery and integration methods by synergizing immune-stealth nucleic acids with recombinases to enable kilobase-scale integration strategies without viral vectors.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c662e5fa2a928556",
+      "title": "Natural maternal immunity protects neonates from <i>Escherichia coli</i> sepsis",
+      "link": "https://www.nature.com/articles/s41586-026-10225-z",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10225-z\">doi:10.1038/s41586-026-10225-z</a></p>Neonatal sepsis caused by Escherichia coli is associated with reduced transfer of pathogen-specific maternal antibodies and, in a mouse model, can be preven…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10225-z Neonatal sepsis caused by Escherichia coli is associated with reduced transfer of pathogen-specific maternal antibodies and, in a mouse model, can be prevented by maternal preconceptual colonization with probiotic E. coli.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e21c89676302564e",
+      "title": "Ageing promotes metastasis via activation of the integrated stress response",
+      "link": "https://www.nature.com/articles/s41586-026-10216-0",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10216-0\">doi:10.1038/s41586-026-10216-0</a></p>Ageing reprograms the evolutionary trajectory of KRAS-driven lung adenocarcinoma, limiting primary tumour growth while promoting metastatic dissemination th…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10216-0 Ageing reprograms the evolutionary trajectory of KRAS-driven lung adenocarcinoma, limiting primary tumour growth while promoting metastatic dissemination through epigenetic activation of the integrated stress response, and a therapeutic opportunity in older patients is revealed.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3f97a2c9429c04b8",
+      "title": "Risk-adaptive therapy guided by dynamic ctDNA in nasopharyngeal carcinoma",
+      "link": "https://www.nature.com/articles/s41586-026-10244-w",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10244-w\">doi:10.1038/s41586-026-10244-w</a></p>A clinical trial testing whether monitoring ctDNA clearance during treatment for nasopharyngeal cancer could be used to inform decisions about an individual…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10244-w A clinical trial testing whether monitoring ctDNA clearance during treatment for nasopharyngeal cancer could be used to inform decisions about an individual’s subsequent therapeutic programme shows promising results.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "15e55614757900eb",
+      "title": "Gene conversion empowers natural selection in a clonal fish species",
+      "link": "https://www.nature.com/articles/s41586-026-10180-9",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10180-9\">doi:10.1038/s41586-026-10180-9</a></p>Analysis of the asexually reproducing Amazon molly Poecilia formosa and its sexually reproducing progenitors Poecilia mexicana and Poecilia latipinna reveal…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10180-9 Analysis of the asexually reproducing Amazon molly Poecilia formosa and its sexually reproducing progenitors Poecilia mexicana and Poecilia latipinna reveals that it maintains a divergent mutational landscape and has evaded functional mutational decay via gene conversion.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8b1d4a86a71cb1fd",
+      "title": "A mechanism to initiate emergency type 2 myelopoiesis",
+      "link": "https://www.nature.com/articles/s41586-026-10256-6",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10256-6\">doi:10.1038/s41586-026-10256-6</a></p>Myelopoiesis in response to a parasitic worm infection and the mechanism selective to this form of parasite are revealed.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10256-6 Myelopoiesis in response to a parasitic worm infection and the mechanism selective to this form of parasite are revealed.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "417460758832d55f",
+      "title": "Memory loss is fuelled by gut microbes in ageing mice",
+      "link": "https://www.nature.com/articles/d41586-026-00768-6",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00768-6\">doi:10.1038/d41586-026-00768-6</a></p>If confirmed in people, the finding might lead to gut-targeted therapies that could reverse cognitive decline.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00768-6 If confirmed in people, the finding might lead to gut-targeted therapies that could reverse cognitive decline.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3cc642c4fe4ff3c3",
+      "title": "What is the science behind ‘science-backed’ supplements?",
+      "link": "https://www.nature.com/articles/d41586-026-00707-5",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00707-5\">doi:10.1038/d41586-026-00707-5</a></p>The task of decoding the research underlying the nutritional claims of health supplements is rarely straightforward.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00707-5 The task of decoding the research underlying the nutritional claims of health supplements is rarely straightforward.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "1a35d93d69771cf1",
+      "title": "Ultra-bright supernova wobbles like a spinning top",
+      "link": "https://www.nature.com/articles/d41586-026-00490-3",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00490-3\">doi:10.1038/d41586-026-00490-3</a></p>Oscillations in the brightness of a ‘superluminous’ supernova reveal it to be powered by a magnetized neutron star that distorts the orbit of surrounding ga…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00490-3 Oscillations in the brightness of a ‘superluminous’ supernova reveal it to be powered by a magnetized neutron star that distorts the orbit of surrounding gas.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3d375910bbcf37b3",
+      "title": "First bot, singular",
+      "link": "https://www.nature.com/articles/d41586-026-00610-z",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00610-z\">doi:10.1038/d41586-026-00610-z</a></p>Fresh connections.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00610-z Fresh connections.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ae24f03c7e03fe94",
+      "title": "Quantum entanglement as a tool to image distant astronomical objects",
+      "link": "https://www.nature.com/articles/d41586-026-00724-4",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00724-4\">doi:10.1038/d41586-026-00724-4</a></p>Particles entangled over long distances can, in theory, improve the sensitivity of long-baseline interferometers that are observing weak thermal light sourc…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00724-4 Particles entangled over long distances can, in theory, improve the sensitivity of long-baseline interferometers that are observing weak thermal light sources. A proof-of-concept experiment now demonstrates entanglement-assisted interferometry, paving the way for entanglement-enhanced non‑local sensing techniques.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3b840e9a66c4442c",
+      "title": "Using mosquitoes to vaccinate bats could curb the spread of deadly diseases",
+      "link": "https://www.nature.com/articles/d41586-026-00795-3",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00795-3\">doi:10.1038/d41586-026-00795-3</a></p>But scientists say there are practical and ethical challenges to overcome before the strategy could be deployed in real-world settings.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00795-3 But scientists say there are practical and ethical challenges to overcome before the strategy could be deployed in real-world settings.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6b76dd7ea2739b4a",
+      "title": "Photonic ‘ski jump’ steers light beam from silicon chip",
+      "link": "https://www.nature.com/articles/d41586-026-00489-w",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00489-w\">doi:10.1038/d41586-026-00489-w</a></p>Chip-based beam scanners use tiny electrically controlled cantilevers instead of moving mirrors to control the direction of light projected into free space.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00489-w Chip-based beam scanners use tiny electrically controlled cantilevers instead of moving mirrors to control the direction of light projected into free space.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e2f3198b98324bb3",
+      "title": "A silicon chip that enables the creation of 4D cameras",
+      "link": "https://www.nature.com/articles/d41586-026-00727-1",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00727-1\">doi:10.1038/d41586-026-00727-1</a></p>The development of an affordable, low-power and scalable sensor to map the position and velocity of 3D objects in a dynamically evolving scene has so far pr…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00727-1 The development of an affordable, low-power and scalable sensor to map the position and velocity of 3D objects in a dynamically evolving scene has so far proved difficult. An imaging system formed using integrated silicon photonic circuits has now been developed as an equivalent to a camera, but for 4D imaging.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "8e3185aba9d35a0a",
+      "title": "Dynamics of circulating tumour DNA can guide treatment decisions for improved outcomes",
+      "link": "https://www.nature.com/articles/d41586-026-00715-5",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00715-5\">doi:10.1038/d41586-026-00715-5</a></p>A phase II trial shows that the risk of cancer recurrence as reflected by circulating tumour DNA can guide a risk-adaptive treatment strategy that improves …",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00715-5 A phase II trial shows that the risk of cancer recurrence as reflected by circulating tumour DNA can guide a risk-adaptive treatment strategy that improves participants’ survival compared with the current standard of care. Our biological insights can be translated into clinical decision-making — challenging the conventional fixed-course, therapeutic approach.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5b25115ff0b19310",
+      "title": "National statistics are in crisis around the world — and the impacts will be severe",
+      "link": "https://www.nature.com/articles/d41586-026-00699-2",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00699-2\">doi:10.1038/d41586-026-00699-2</a></p>Some researchers are sounding the alarm over the official data sets that track crucial aspects of life in the United States, Argentina, the United Kingdom a…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00699-2 Some researchers are sounding the alarm over the official data sets that track crucial aspects of life in the United States, Argentina, the United Kingdom and India.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "991dd4b61e78b1fe",
+      "title": "Universities have become property businesses. What does that mean for research?",
+      "link": "https://www.nature.com/articles/d41586-025-04167-1",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-025-04167-1\">doi:10.1038/d41586-025-04167-1</a></p>In the United States, United Kingdom, Australia and Singapore, universities are operating as developers and landlords. Where does science fit in?",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-025-04167-1 In the United States, United Kingdom, Australia and Singapore, universities are operating as developers and landlords. Where does science fit in?",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "47454536049e288e",
+      "title": "AI can 'same-ify' human expression — can some brains resist its pull?",
+      "link": "https://www.nature.com/articles/d41586-026-00781-9",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00781-9\">doi:10.1038/d41586-026-00781-9</a></p>Emerging evidence suggests that LLM outputs can shape the text and thoughts of human users.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00781-9 Emerging evidence suggests that LLM outputs can shape the text and thoughts of human users.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a027afce441529a6",
+      "title": "A fellowship of the rings in plant defence",
+      "link": "https://www.nature.com/articles/d41586-026-00494-z",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00494-z\">doi:10.1038/d41586-026-00494-z</a></p>Infected plants assemble immune-protein complexes on cell membranes to induce defence responses and cell death. Some such complexes can form large ring-like…",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00494-z Infected plants assemble immune-protein complexes on cell membranes to induce defence responses and cell death. Some such complexes can form large ring-like clusters.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8480ae5265e64519",
+      "title": "Child marriages plunged when girls stayed in school in Nigeria",
+      "link": "https://www.nature.com/articles/d41586-026-00796-2",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00796-2\">doi:10.1038/d41586-026-00796-2</a></p>Collaboration between researchers and religious leaders led to a cut in the likelihood of early marriage by 80%.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00796-2 Collaboration between researchers and religious leaders led to a cut in the likelihood of early marriage by 80%.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "879b547bc4468e17",
+      "title": "Gut microbes affect cognition during ageing",
+      "link": "https://www.nature.com/articles/d41586-026-00492-1",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00492-1\">doi:10.1038/d41586-026-00492-1</a></p>As mice age, changes in the microorganisms in their guts contribute to cognitive decline by altering signalling between the gut and brain.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00492-1 As mice age, changes in the microorganisms in their guts contribute to cognitive decline by altering signalling between the gut and brain.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "4d54ddc05e1417cd",
+      "title": "Marriage of adolescent girls in Nigeria reduced by 80% by ‘big push’ intervention",
+      "link": "https://www.nature.com/articles/d41586-026-00720-8",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00720-8\">doi:10.1038/d41586-026-00720-8</a></p>A locally tailored, big-push intervention to educate unmarried adolescent girls in 18 communities in northern Nigeria reduced rates of marriage from 86% to …",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00720-8 A locally tailored, big-push intervention to educate unmarried adolescent girls in 18 communities in northern Nigeria reduced rates of marriage from 86% to just 21%. Interventions that address complex, entrenched social problems from various angles simultaneously might be considerably more effective than smaller-scale, cheaper alternatives are.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "855b2f18c59d81ea",
+      "title": "Scientists revive activity in frozen mouse brains for the first time",
+      "link": "https://www.nature.com/articles/d41586-026-00756-w",
+      "summary": "<p>Nature, Published online: 11 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00756-w\">doi:10.1038/d41586-026-00756-w</a></p>‘Cryosleep’ remains the preserve of science fiction, but researchers are getting closer to restoring brain function after deep freezing.",
+      "body": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00756-w ‘Cryosleep’ remains the preserve of science fiction, but researchers are getting closer to restoring brain function after deep freezing.",
+      "image": null,
+      "pubDate": "2026-03-11T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2871,6 +3559,230 @@
       "region": "global"
     },
     {
+      "id": "c36e64b08f35aa13",
+      "title": "Maximizing carrier extraction in hybrid back-contact silicon solar cells",
+      "link": "https://www.nature.com/articles/s41586-026-10351-8",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10351-8\">doi:10.1038/s41586-026-10351-8</a></p>Maximizing carrier extraction in hybrid back-contact silicon solar cells",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/s41586-026-10351-8 Maximizing carrier extraction in hybrid back-contact silicon solar cells",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "66adecd6c05d2b2d",
+      "title": "Alcohol group migration by proximity-enhanced H atom abstraction",
+      "link": "https://www.nature.com/articles/s41586-026-10347-4",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/s41586-026-10347-4\">doi:10.1038/s41586-026-10347-4</a></p>Alcohol group migration by proximity-enhanced H atom abstraction",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/s41586-026-10347-4 Alcohol group migration by proximity-enhanced H atom abstraction",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ba2855da099bf428",
+      "title": "Artificial general intelligence must be assessed in its scientific and societal context",
+      "link": "https://www.nature.com/articles/d41586-026-00775-7",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00775-7\">doi:10.1038/d41586-026-00775-7</a></p>Artificial general intelligence must be assessed in its scientific and societal context",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00775-7 Artificial general intelligence must be assessed in its scientific and societal context",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "880539c97abb9fc1",
+      "title": "Prevent pandemics through One Health commitments",
+      "link": "https://www.nature.com/articles/d41586-026-00778-4",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00778-4\">doi:10.1038/d41586-026-00778-4</a></p>Prevent pandemics through One Health commitments",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00778-4 Prevent pandemics through One Health commitments",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "e0ef7f925083de81",
+      "title": "How ‘Pele’s hair’ sprouts from erupting lava",
+      "link": "https://www.nature.com/articles/d41586-026-00766-8",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00766-8\">doi:10.1038/d41586-026-00766-8</a></p>Experiments with simulated magma show it can be pulled into long strands similar to those seen in lava tubes.",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00766-8 Experiments with simulated magma show it can be pulled into long strands similar to those seen in lava tubes.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b6b8358c747a2970",
+      "title": "The ethical risks of open-access agreements being used for authorship leverage",
+      "link": "https://www.nature.com/articles/d41586-026-00776-6",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00776-6\">doi:10.1038/d41586-026-00776-6</a></p>The ethical risks of open-access agreements being used for authorship leverage",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00776-6 The ethical risks of open-access agreements being used for authorship leverage",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "27e9d3de5da3e274",
+      "title": "Could flies sniff out contraband chemicals?",
+      "link": "https://www.nature.com/articles/d41586-026-00642-5",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00642-5\">doi:10.1038/d41586-026-00642-5</a></p>A suggestion that mutant insects could detect narcotics or explosive substances, and how ash seeds feature a screw propeller, in this week’s pick from the N…",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00642-5 A suggestion that mutant insects could detect narcotics or explosive substances, and how ash seeds feature a screw propeller, in this week’s pick from the Nature archive.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6cb09f56608e2b3e",
+      "title": "Privilege, power and vulnerability in science: precarious funding can prompt unethical ties",
+      "link": "https://www.nature.com/articles/d41586-026-00777-5",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00777-5\">doi:10.1038/d41586-026-00777-5</a></p>Privilege, power and vulnerability in science: precarious funding can prompt unethical ties",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00777-5 Privilege, power and vulnerability in science: precarious funding can prompt unethical ties",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "9cedde25c85cb31c",
+      "title": "Live parrots were carried across the Andes before the Incas’ rise",
+      "link": "https://www.nature.com/articles/d41586-026-00765-9",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00765-9\">doi:10.1038/d41586-026-00765-9</a></p>Ancient DNA and other clues from feathers found in modern Peru hint that the ancient Ychsma culture imported birds from the distant Amazon.",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00765-9 Ancient DNA and other clues from feathers found in modern Peru hint that the ancient Ychsma culture imported birds from the distant Amazon.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "79d05136c29bc152",
+      "title": "Keep calm and be transparent: advice from scientists who retracted their papers",
+      "link": "https://www.nature.com/articles/d41586-026-00763-x",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00763-x\">doi:10.1038/d41586-026-00763-x</a></p>Retractions correct the scientific record, but they have stigma attached to them. Some in the research community want that to change.",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00763-x Retractions correct the scientific record, but they have stigma attached to them. Some in the research community want that to change.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "82dbaa882911454f",
+      "title": "Daily briefing: A daily multivitamin slows the signs of biological ageing",
+      "link": "https://www.nature.com/articles/d41586-026-00792-6",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00792-6\">doi:10.1038/d41586-026-00792-6</a></p>The daily supplement slows markers of ageing on two epigenetic ‘clocks’. Plus, the real science of skincare and the domino effect of fictional case studies …",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00792-6 The daily supplement slows markers of ageing on two epigenetic ‘clocks’. Plus, the real science of skincare and the domino effect of fictional case studies involving opioids in breastmilk.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "7535c418e1131402",
+      "title": "Forget SkinTok: the real science of skincare and why it matters for your health",
+      "link": "https://www.nature.com/articles/d41586-026-00700-y",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00700-y\">doi:10.1038/d41586-026-00700-y</a></p>Skip the complicated regimens and expensive products seen on social media. The science of skin is deep but the recommendations are simple.",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00700-y Skip the complicated regimens and expensive products seen on social media. The science of skin is deep but the recommendations are simple.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "b7bd668e786a066c",
+      "title": "‘Virtual cell’ captures most-basic process of life: bacterial division",
+      "link": "https://www.nature.com/articles/d41586-026-00786-4",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00786-4\">doi:10.1038/d41586-026-00786-4</a></p>Researchers simulated nearly every molecule in a bacterial cell — and then watched the cell grow and reproduce.",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00786-4 Researchers simulated nearly every molecule in a bacterial cell — and then watched the cell grow and reproduce.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "1356c6ddffd3006f",
+      "title": "From cancer to Alzheimer’s: could a renewed focus on energy transform biomedicine?",
+      "link": "https://www.nature.com/articles/d41586-026-00701-x",
+      "summary": "<p>Nature, Published online: 10 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00701-x\">doi:10.1038/d41586-026-00701-x</a></p>Including energy dynamics in research could improve our understanding of diseases and of the healing processes that sustain health.",
+      "body": "Nature, Published online: 10 March 2026; doi:10.1038/d41586-026-00701-x Including energy dynamics in research could improve our understanding of diseases and of the healing processes that sustain health.",
+      "image": null,
+      "pubDate": "2026-03-10T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "a88dbe689453ee58",
       "title": "Ouattara's Panenka saved as Brentford lose to West Ham in penalty shootout",
       "link": "https://www.bbc.com/sport/football/videos/cgk26znn7klo?at_medium=RSS&at_campaign=rss",
@@ -3287,6 +4199,118 @@
       "region": "gulf"
     },
     {
+      "id": "616a988194327af6",
+      "title": "The world’s salt lakes are drying up, but solutions are hard to come by",
+      "link": "https://www.nature.com/articles/d41586-026-00702-w",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00702-w\">doi:10.1038/d41586-026-00702-w</a></p>An eclectic book asks how humans have shaped these ‘queer’ landscapes and how they can be restored.",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-026-00702-w An eclectic book asks how humans have shaped these ‘queer’ landscapes and how they can be restored.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "07bb3454d4ae3a6f",
+      "title": "Eight common errors I see in PhD applications and interviews, and how to avoid them",
+      "link": "https://www.nature.com/articles/d41586-025-04128-8",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-025-04128-8\">doi:10.1038/d41586-025-04128-8</a></p>Convince a supervisor that you’re a great fit for their laboratory by preparing questions, honing your personal statement and showcasing strong team-player …",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-025-04128-8 Convince a supervisor that you’re a great fit for their laboratory by preparing questions, honing your personal statement and showcasing strong team-player instincts.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "64640556382bbf53",
+      "title": "How pollutants and poo paint a picture of past civilizations",
+      "link": "https://www.nature.com/articles/d41586-026-00705-7",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00705-7\">doi:10.1038/d41586-026-00705-7</a></p>A blend of chemistry and molecular-biology techniques are enabling archaeologists to mine ancient sediments for clues about the people who once lived there.",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-026-00705-7 A blend of chemistry and molecular-biology techniques are enabling archaeologists to mine ancient sediments for clues about the people who once lived there.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ef0a9eaade172e46",
+      "title": "Daily briefing: Protein folding caught in real time",
+      "link": "https://www.nature.com/articles/d41586-026-00783-7",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00783-7\">doi:10.1038/d41586-026-00783-7</a></p>Scientists say they have made some of the first direct measurements of how long it takes an individual protein to fold. Plus, how AI is being used in warfar…",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-026-00783-7 Scientists say they have made some of the first direct measurements of how long it takes an individual protein to fold. Plus, how AI is being used in warfare and how to avoid common mistakes when applying for a PhD.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a2f1c8fedd0c2845",
+      "title": "How fast does a protein fold? Real-time technique captures the moment",
+      "link": "https://www.nature.com/articles/d41586-026-00755-x",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00755-x\">doi:10.1038/d41586-026-00755-x</a></p>Proteins assume complex 3D shapes even faster than does DNA, which is a simpler molecule.",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-026-00755-x Proteins assume complex 3D shapes even faster than does DNA, which is a simpler molecule.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "960006e1832149ea",
+      "title": "Daily multivitamin slows signs of biological ageing",
+      "link": "https://www.nature.com/articles/d41586-026-00741-3",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00741-3\">doi:10.1038/d41586-026-00741-3</a></p>The supplement’s anti-ageing effect was greater in people who were already biologically older than their years.",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-026-00741-3 The supplement’s anti-ageing effect was greater in people who were already biologically older than their years.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "04837bf70a4d7b5f",
+      "title": "My PhD student is stuck. How do I teach them perseverance and problem solving?",
+      "link": "https://www.nature.com/articles/d41586-026-00706-6",
+      "summary": "<p>Nature, Published online: 09 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00706-6\">doi:10.1038/d41586-026-00706-6</a></p>A new principal investigator wants to help PhD students to develop resilience and creativity in the laboratory without hovering or doing the work for them.",
+      "body": "Nature, Published online: 09 March 2026; doi:10.1038/d41586-026-00706-6 A new principal investigator wants to help PhD students to develop resilience and creativity in the laboratory without hovering or doing the work for them.",
+      "image": null,
+      "pubDate": "2026-03-09T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "9c37f6948f5b17e0",
       "title": "'Wrong reason, right decision' - Why referee blew whistle to deny Fulham goal",
       "link": "https://www.bbc.com/sport/football/videos/c99jlzz11eno?at_medium=RSS&at_campaign=rss",
@@ -3310,38 +4334,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-08T23:26:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f14638d30f6ff3fb",
-      "title": "Watch Celtic beat Rangers on penalties to reach Scottish Cup semis",
-      "link": "https://www.bbc.com/sport/football/videos/clyxp54e97xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Watch highlights as Celtic beat Rangers on penalties at Ibrox to reach the Scottish Cup semi-finals.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-08T18:36:58.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "97c0c114d60d0018",
-      "title": "India outclass New Zealand to retain T20 World Cup",
-      "link": "https://www.bbc.com/sport/cricket/videos/cwy82ezn421o?at_medium=RSS&at_campaign=rss",
-      "summary": "India put on a show with bat and ball on their way to a dominant 96-run win over New Zealand, as the host nation retain their ICC Men's T20 World Cup title at the Narendra Modi Stadium in Ahmedabad.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-08T18:06:39.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -3508,6 +4500,22 @@
       },
       "lang": "en",
       "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "2d4714ad3752b942",
+      "title": "Monthly HIV-drug injections offer potent alternative to daily tablets",
+      "link": "https://www.nature.com/articles/d41586-026-00669-8",
+      "summary": "<p>Nature, Published online: 08 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00669-8\">doi:10.1038/d41586-026-00669-8</a></p>Long-lasting treatment suppresses HIV in people with mental illness and other conditions that make it challenging to adhere to standard treatments.",
+      "body": "Nature, Published online: 08 March 2026; doi:10.1038/d41586-026-00669-8 Long-lasting treatment suppresses HIV in people with mental illness and other conditions that make it challenging to adhere to standard treatments.",
+      "image": null,
+      "pubDate": "2026-03-08T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3911,22 +4919,6 @@
       "region": "global"
     },
     {
-      "id": "05f55ebf79be4b91",
-      "title": "What to buy as a yoga beginner: Must-haves vs non-essentials",
-      "link": "https://www.livescience.com/products/health-fitness/what-to-buy-as-a-yoga-beginner-must-haves-vs-non-essentials",
-      "summary": "Here are our recommendations for the must-haves you need when you start yoga.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/TSK6rFNKu3KgecoUrPWg4Y-1280-80.jpg",
-      "pubDate": "2026-03-06T12:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "21aea2c5f0ae5bbc",
       "title": "China puts a sodium-ion battery into an EV for the first time — it can drive 248 miles on a single charge",
       "link": "https://www.livescience.com/technology/electric-vehicles/china-puts-a-sodium-ion-battery-into-an-ev-for-the-first-time-it-can-drive-248-miles-on-a-single-charge",
@@ -3943,6 +4935,22 @@
       "region": "global"
     },
     {
+      "id": "05f55ebf79be4b91",
+      "title": "What to buy as a yoga beginner: Must-haves vs non-essentials",
+      "link": "https://www.livescience.com/products/health-fitness/what-to-buy-as-a-yoga-beginner-must-haves-vs-non-essentials",
+      "summary": "Here are our recommendations for the must-haves you need when you start yoga.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/TSK6rFNKu3KgecoUrPWg4Y-1280-80.jpg",
+      "pubDate": "2026-03-06T12:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
       "id": "a3cbc770a0d025ee",
       "title": "Older women are winning more Oscars – here's why",
       "link": "https://www.bbc.com/culture/article/20260305-why-the-oscars-are-finally-giving-older-women-their-due?ocid=global_culture_rss",
@@ -3956,6 +4964,86 @@
       },
       "lang": "en",
       "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "dbdc88caf147a15e",
+      "title": "Briefing chat: What Galileo’s scribbled margin notes reveal about his scientific journey",
+      "link": "https://www.nature.com/articles/d41586-026-00759-7",
+      "summary": "<p>Nature, Published online: 06 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00759-7\">doi:10.1038/d41586-026-00759-7</a></p>Nature staff discuss some of the week’s top science news.",
+      "body": "Nature, Published online: 06 March 2026; doi:10.1038/d41586-026-00759-7 Nature staff discuss some of the week’s top science news.",
+      "image": null,
+      "pubDate": "2026-03-06T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "4ea5bcce7f93eea9",
+      "title": "Electric-vehicle batteries toughen up to beat the heat",
+      "link": "https://www.nature.com/articles/d41586-026-00670-1",
+      "summary": "<p>Nature, Published online: 06 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00670-1\">doi:10.1038/d41586-026-00670-1</a></p>Rising temperatures shorten battery life, but devices are improving fast enough to resist the ravages of climate change.",
+      "body": "Nature, Published online: 06 March 2026; doi:10.1038/d41586-026-00670-1 Rising temperatures shorten battery life, but devices are improving fast enough to resist the ravages of climate change.",
+      "image": null,
+      "pubDate": "2026-03-06T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b2fc47a17f8de935",
+      "title": "Peanut-processing microbes ward off dangerous allergic shock",
+      "link": "https://www.nature.com/articles/d41586-026-00668-9",
+      "summary": "<p>Nature, Published online: 06 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00668-9\">doi:10.1038/d41586-026-00668-9</a></p>Scientists identify bacteria that digest allergy-triggering compounds in peanuts, which can be life-threatening to those with allergies.",
+      "body": "Nature, Published online: 06 March 2026; doi:10.1038/d41586-026-00668-9 Scientists identify bacteria that digest allergy-triggering compounds in peanuts, which can be life-threatening to those with allergies.",
+      "image": null,
+      "pubDate": "2026-03-06T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0355e576565c32d4",
+      "title": "Modelling the cosmos and imagining a future without meat: Books in brief",
+      "link": "https://www.nature.com/articles/d41586-026-00758-8",
+      "summary": "<p>Nature, Published online: 06 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00758-8\">doi:10.1038/d41586-026-00758-8</a></p>Andrew Robinson reviews five of the best science picks.",
+      "body": "Nature, Published online: 06 March 2026; doi:10.1038/d41586-026-00758-8 Andrew Robinson reviews five of the best science picks.",
+      "image": null,
+      "pubDate": "2026-03-06T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "df50f6eb12c13656",
+      "title": "The missing pieces of menopause science",
+      "link": "https://www.nature.com/articles/d41586-026-00692-9",
+      "summary": "<p>Nature, Published online: 06 March 2026; <a href=\"https://www.nature.com/articles/d41586-026-00692-9\">doi:10.1038/d41586-026-00692-9</a></p>Hormone therapy is back after decades in the shadows. But evidence gaps remain for treating perimenopause — often the most disruptive part of the menopause …",
+      "body": "Nature, Published online: 06 March 2026; doi:10.1038/d41586-026-00692-9 Hormone therapy is back after decades in the shadows. But evidence gaps remain for treating perimenopause — often the most disruptive part of the menopause transition.",
+      "image": null,
+      "pubDate": "2026-03-06T00:00:00.000Z",
+      "source": {
+        "name": "Nature — Latest",
+        "homepage": "https://www.nature.com/nature.rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
