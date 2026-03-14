@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-14T16:49:53.740Z",
-    "total": 179,
+    "generated_at": "2026-03-14T17:14:33.284Z",
+    "total": 180,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -10,7 +10,7 @@
     "results": [
       {
         "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/b2b00c50-d87e-46ec-8278-dc3760f669e7",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/2ea7640e-9849-4381-ad54-ae44fec2e3e5",
         "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
@@ -19,6 +19,32 @@
         ],
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 61,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -43,7 +69,20 @@
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -58,19 +97,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 63,
-        "error": null,
         "notModified": false
       },
       {
@@ -100,6 +126,19 @@
         "notModified": false
       },
       {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 5,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Investing.com News (EN)",
         "url": "https://www.investing.com/rss/news.rss",
         "homepage": "https://www.investing.com/rss/news.rss",
@@ -109,45 +148,6 @@
           "general"
         ],
         "taken": 2,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 15,
         "error": null,
         "notModified": false
       },
@@ -165,19 +165,6 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 4,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Food52",
         "url": "https://food52.com/blog.rss",
         "homepage": "https://food52.com/blog.rss",
@@ -191,29 +178,42 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
+        "taken": 15,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
+        "name": "Gulf News - Entertainment",
+        "url": "https://gulfnews.com/entertainment/rss",
+        "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -243,9 +243,9 @@
         "notModified": false
       },
       {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -256,22 +256,22 @@
         "notModified": false
       },
       {
-        "name": "Gulf News - Entertainment",
-        "url": "https://gulfnews.com/entertainment/rss",
-        "homepage": "https://gulfnews.com/entertainment/rss",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -284,6 +284,118 @@
     ]
   },
   "items": [
+    {
+      "id": "a036e8076a09b584",
+      "title": "Get Me to the Dolby! How Stars Arrive at the Oscars on Time and in One Piece",
+      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/stars-arrivals-oscars-cars-1236524116/",
+      "summary": "For luxury transport supplier EmpireCLS, driving celebs safely to the red carpet requires military-level planning.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T17:00:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "57c33e8ef6f7978d",
+      "title": "F1 Chinese Grand Prix Livestream: When and Where to Watch the 2026 Race Online",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-f1-china-2026-chinese-grand-prix-free-stream-1236529132/",
+      "summary": "Here's how to catch the Heineken Chinese GP live in the U.S.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T17:00:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "22cd1738077b1c61",
+      "title": "Zimbabwe’s Surprise Lithium Ban Scrambles Global Battery Supply Chains",
+      "link": "https://oilprice.com/Energy/Energy-General/Zimbabwes-Surprise-Lithium-Ban-Scrambles-Global-Battery-Supply-Chains.html",
+      "summary": "This week, Zimbabwe took a historic step to protect its own value chains from external exploitation by fast-tracking a ban on raw lithium exports, effective until further notice – and the impacts have been widespread both domestically and abroad. The February 25 ban was immediate and unexpected, as…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T17:00:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "cec63213a092d4b2",
+      "title": "Question time: How many of you actually care about going fast in an MMO dungeon?",
+      "link": "https://www.pcgamer.com/games/mmo/question-time-how-many-of-you-actually-care-about-going-fast-in-an-mmo-dungeon/",
+      "summary": "Gogogogog.",
+      "body": "Terminally Online (Image credit: Future) This is Terminally Online : PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice. I've been playing quite a lot of World of Warcraft , recently, to check out the new expansion, Midnight . In my journeys, taking a brief sabbatical from the nicely structured two-pull into a wall safety of Final Fantasy 14, I've been reminded that there are in fact videogames that've figured out how to make dungeons that aren't basically just corridors. This has a trade-off, though, when it mills up against WoW player's tendency to relentlessly optimise the fun out of everything. Now to be fair, part of this is encouraged by Blizzard. Mythic+, WoW's endgame dungeon progression system, is entirely designed around speedrunning—but good lord do people move fast. Which is fine. When I want to smell the roses, I can pop into a follower dungeon, and as an Outlaw Rogue I'm more than happy to be popping blade flurry and watching the numbers fly on a ma…",
+      "image": "https://cdn.mos.cms.futurecdn.net/a2aiYih2NeJqfh7k4GcMan-1280-80.png",
+      "pubDate": "2026-03-14T17:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ad2467b87a217a0a",
+      "title": "Winter Paralympics daily guide: 10 golds to be decided on final day",
+      "link": "https://www.bbc.com/sport/articles/czr0643d8gmo?at_medium=RSS&at_campaign=rss",
+      "summary": "Your guide to what's happening and when and who to look out for at the 2026 Winter Paralympics in Milan-Cortina.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T16:59:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f1f9c6cdd214fc6a",
+      "title": "'Even though I threw out my back from overworking, I'm feeling high in spirits': Slay the Spire 2 sold 3 million copies in its first week",
+      "link": "https://www.pcgamer.com/games/card-games/even-though-i-threw-out-my-back-from-overworking-im-feeling-high-in-spirits-slay-the-spire-2-sold-3-million-copies-in-its-first-week/",
+      "summary": "Players have attempted over 25 million runs.",
+      "body": "It can be tricky to pull off a sequel, especially when you're talking about a sequel to one of the most celebrated deckbuilding roguelikes around. Slay the Spire 2 might be the result of a coin flip , but it sure seems to be resonating— a Steam community blog post from developer Mega Crit has served up some details about how it's doing. Perhaps the most impressive of these details is that Slay the Spire 2 sold 3 million copies just a week after launch, with 25 million runs already done and dusted. A note in the post states that the second figure is missing \"at least a few million,\" so it seems safe to conclude that the game isn't just going straight into everyone's backlogs. \"The response to Early Access has been incredible,\" said Mega Crit co-founder Casey Yano. \"Even though I threw out my back from overworking, I'm feeling high in spirits. Thank you to the team for dealing with my constant shenanigans and working extra during this busy rush!\" The sales figure is good news for a good game, but not exactly surprising given that Slay the Spire overtook Marathon and Resident Evil Requiem as the #1 seller on Steam right after its release. It might be quite similar to its predecessor …",
+      "image": "https://cdn.mos.cms.futurecdn.net/vXv9qaZ6QTmNhetAnEWLHj-1280-80.jpg",
+      "pubDate": "2026-03-14T16:57:54.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "9b3a655a6201a915",
+      "title": "ByteDance puts video AI launch on hold after copyright disputes – The Information",
+      "link": "https://www.investing.com/news/company-news/bytedance-puts-video-ai-launch-on-hold-after-copyright-disputes--the-information-4561496",
+      "summary": "",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T16:52:06.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "82133bd42df60020",
       "title": "Impressive Ireland beat Scotland to win Triple Crown",
@@ -308,6 +420,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-14T16:11:56.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "76c9934fa8b18433",
+      "title": "Ireland beat Scotland to keep title hopes alive",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cwyk7gz64d1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ireland outlast Scotland in a pulsating Six Nations Triple Crown decider to keep their championship hopes alive and deny the Scots in Dublin.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T16:04:16.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -506,22 +634,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2710a0a17960db97",
-      "title": "Musk says Tesla’s mega AI chip fab project to launch in seven days",
-      "link": "https://www.investing.com/news/stock-market-news/musk-says-teslas-gigantic-chip-fab-project-to-launch-in-seven-days-4561485",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM2D08X_1200_L.jpg",
-      "pubDate": "2026-03-14T14:36:27.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1821,22 +1933,6 @@
       "region": "global"
     },
     {
-      "id": "2d76d864ea4ac552",
-      "title": "Why 2026 was Cheltenham's year of the outsider",
-      "link": "https://www.bbc.com/sport/horse-racing/articles/ckg1w02385vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The average starting price of the 28 winners hit a 10-year high as 2026 marked a difficult year for punters at the Cheltenham Festival.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T19:27:53.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "2eaf2cfc331d1865",
       "title": "As rumors about new a Witcher 3 expansion continue to swirl, CD Projekt pointedly says it has 'no plans for additional DLCs or expansions'—for Cyberpunk 2077",
       "link": "https://www.pcgamer.com/games/rpg/as-rumors-about-new-a-witcher-3-expansion-continue-to-swirl-cd-projekt-pointedly-says-it-has-no-plans-for-additional-dlcs-or-expansions-for-cyberpunk-2077/",
@@ -2016,7 +2112,7 @@
       "id": "6391e7f185f74e5a",
       "title": "Six Nations title permutations after Ireland beat Scotland",
       "link": "https://www.bbc.com/sport/articles/cyv99dgl7e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The 2026 Six Nations is set for a thrilling final day next Saturday with France, Scotland and Ireland all competing to win the championship.",
+      "summary": "The 2026 Six Nations will be won by either Ireland or France, with England's match in Paris later on Saturday deciding who claims the title.",
       "body": null,
       "image": null,
       "pubDate": "2026-03-13T17:16:47.000Z",
@@ -2154,22 +2250,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "07e07ceacacd6ef4",
-      "title": "Winter Paralympics daily guide: Six golds to be decided on Saturday",
-      "link": "https://www.bbc.com/sport/articles/czr0643d8gmo?at_medium=RSS&at_campaign=rss",
-      "summary": "Your guide to what's happening and when and who to look out for at the 2026 Winter Paralympics in Milan-Cortina.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T16:31:16.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2845,38 +2925,6 @@
       "region": "global"
     },
     {
-      "id": "1488960874ad95c6",
-      "title": "Turing Award winner Tony Hoare, computing pioneer who invented the Quicksort algorithm for a sixpence bet, dies at the age of 92",
-      "link": "https://www.pcgamer.com/gaming-industry/turing-award-winner-tony-hoare-computing-pioneer-who-invented-the-quicksort-algorithm-for-a-sixpence-bet-dies-at-the-age-of-92/",
-      "summary": "\"You know, you shouldn't trust us intelligent programmers.\"",
-      "body": "Professor Charles Anthony Richard Hoare, known as Tony to friends, has died at the age of 92. One of the greatest programmers in the early history of computing, he invented the Quicksort algorithm after a bet with his boss, later devised Hoare logic (a system for rigorously assessing the correctness of a program), and was the co-designer of ALGOL W, a programming language that would become the basis for Pascal. Hoare was also a deeply funny, philosophical, and self-deprecating man who had a hundred other achievements to his name. On winning the Turing Award in 1980 , he delivered a lecture called The Emperor's Old Clothes in which he gave a wry look back at his career's successes and failures, and used them to bemoan overly complex software and bloated systems, urging programmers to focus on simplicity and security instead. \"You know, you shouldn't trust us intelligent programmers,\" said Hoare in the lecture . \"We can think up such good arguments for convincing ourselves and each other of the utterly absurd. Especially don't believe us when we promise to repeat an earlier success, only bigger and better next time.\" Hoare invented the Quicksort algorithm at Elliott Computers after …",
-      "image": "https://cdn.mos.cms.futurecdn.net/CwZWtN38M6NYBj6ZVtqcYA-1280-80.png",
-      "pubDate": "2026-03-12T21:13:49.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e11b820ba3bb8e90",
-      "title": "Marathon got deadlier overnight, and some think yesterday's sound change is the culprit",
-      "link": "https://www.pcgamer.com/games/fps/marathon-got-deadlier-overnight-and-some-think-yesterdays-sound-change-is-the-culprit/",
-      "summary": "\"Can't shoot a single bullet without free kitted Assassins third-partying me in succession.\"",
-      "body": "Did anyone else just have an off night in Marathon? Mine was a bloodbath: nonstop fights, third-party ambushes, and sneaky Assassin solos sending me back to the menu. While I'm happy to chalk that up to the random nature of competitive FPSes, matchmaking working itself out, and generally not being good at Marathon, I hadn't considered that the uptick in intensity could be related to this week's patch. If you missed it, yesterday's Marathon update made a grip of changes to sponsored kit ammo, thermal scope effectiveness, and UESC bot health. That was the stuff I was focused on, but the Marathon community has honed in on a particular bullet point that I totally missed: Increased the range gunfire and explosions can be heard from That would explain a lot . It seems like every time I dare to make noise now, be it a scrap with a bot grunt or shooting down a loot drone, another player shows up immediately after. The same kept happening on a larger scale in trios: two teams start a fight and before you know it another squad jumps in. Sound changes are a hot topic on the Marathon subreddit today, which doesn't mean the adjustment is universally negative, but detectable enough that many th…",
-      "image": "https://cdn.mos.cms.futurecdn.net/Ng5nX9VE8NDEFjw2XSceR9-1280-80.jpg",
-      "pubDate": "2026-03-12T20:38:58.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c930ee62281d4f31",
       "title": "From best in league to bench - Foden's mysterious loss of form",
       "link": "https://www.bbc.com/sport/football/articles/cpv8wvz7m4po?at_medium=RSS&at_campaign=rss",
@@ -2989,22 +3037,6 @@
       "region": "global"
     },
     {
-      "id": "534c4ce3f917f045",
-      "title": "Weekly sports quiz: An early substitution and a bucket-list race",
-      "link": "https://www.bbc.com/sport/articles/c8egnx7ex1ko?at_medium=RSS&at_campaign=rss",
-      "summary": "How much attention have you paid to what's happened in the world of sport over the past seven days?",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-12T08:08:16.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f97eaa869bb1aaa5",
       "title": "'I've learned a lot' - Rutter on Brighton boss Hurzeler",
       "link": "https://www.bbc.com/sport/football/videos/c8jxnrzk8e4o?at_medium=RSS&at_campaign=rss",
@@ -3012,22 +3044,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-12T06:32:12.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "e95013c67fad757a",
-      "title": "The 24 hours that damaged the Premier League's best-in-the-world reputation",
-      "link": "https://www.bbc.com/sport/football/articles/cvg1x3lrmzko?at_medium=RSS&at_campaign=rss",
-      "summary": "Phil McNulty examines the state of the Premier League after none of its six Champions League entrants won this week.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-12T00:20:35.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
