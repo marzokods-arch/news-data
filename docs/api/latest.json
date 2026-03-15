@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-03-14T23:56:19.033Z",
-    "total": 220,
-    "processed_feeds": 21,
-    "discovered_feeds": 83,
+    "generated_at": "2026-03-15T01:26:33.386Z",
+    "total": 218,
+    "processed_feeds": 22,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
       {
         "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/c53bf12e-c997-4afa-8ce8-873c7583af1a",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/c76f42d1-2307-4444-a83a-23b81f796dd5",
         "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
@@ -19,32 +19,6 @@
         ],
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 72,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
         "notModified": false
       },
       {
@@ -57,7 +31,20 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -74,28 +61,15 @@
         "notModified": false
       },
       {
-        "name": "Masrawy - رياضة",
-        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "lang": "ar",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "url": "https://www.skynewsarabia.com/rss/technology.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
+        "taken": 73,
         "error": null,
         "notModified": false
       },
@@ -113,29 +87,16 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "name": "Sky News Arabia — تكنولوجيا",
+        "url": "https://www.skynewsarabia.com/rss/technology.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 100,
+        "error": null,
         "notModified": false
       },
       {
@@ -152,6 +113,45 @@
         "notModified": false
       },
       {
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Eater",
         "url": "https://www.eater.com/rss/index.xml",
         "homepage": "https://www.eater.com/rss/index.xml",
@@ -162,6 +162,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "9to5Google",
+        "url": "https://9to5google.com/feed/",
+        "homepage": "https://9to5google.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — اقتصاد",
+        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -191,55 +217,16 @@
         "notModified": false
       },
       {
-        "name": "9to5Google",
-        "url": "https://9to5google.com/feed/",
-        "homepage": "https://9to5google.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — اقتصاد",
-        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "name": "Masrawy - رياضة",
+        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 10,
+        "error": null,
         "notModified": false
       },
       {
@@ -256,16 +243,29 @@
         "notModified": false
       },
       {
-        "name": "AI الملتقى (AITnews)",
-        "url": "https://aitnews.com/feed/",
-        "homepage": "https://aitnews.com/feed/",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -280,10 +280,39 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "AI الملتقى (AITnews)",
+        "url": "https://aitnews.com/feed/",
+        "homepage": "https://aitnews.com/feed/",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "f0135ad67944f2ce",
+      "title": "على غير المعتاد.. لماذا أجري أربيلوا 6 تبديلات أمام إلتشي؟",
+      "link": "https://www.masrawy.com/sports/sports-arab-international/details/2026/3/15/2957598/%D8%B9%D9%84%D9%89-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D8%A7%D8%AF-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%A3%D8%AC%D8%B1%D9%8A-%D8%A3%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-6-%D8%AA%D8%A8%D8%AF%D9%8A%D9%84%D8%A7%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A5%D9%84%D8%AA%D8%B4%D9%8A-",
+      "summary": "ألفارو أربيلوا يجري 6 تبديلات في فوز ريال مدريد 4-1 على إلتشي بالدوري الإسباني بعد إصابة بوبا سانغاري بارتجاج، وفق لوائح الفيفا للتبديلات الإضافية.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T01:58:57.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "63d6c02475e2e343",
       "title": "جوارديولا يعترف بصعوبة موقف مانشستر سيتي هذا الموسم",
@@ -317,6 +346,22 @@
       "region": "global"
     },
     {
+      "id": "1c69bcf0abdcbd6e",
+      "title": "Unbalanced Man City cling to faint title hopes as Haaland struggles",
+      "link": "https://www.bbc.com/sport/football/articles/c62dyng3vrro?at_medium=RSS&at_campaign=rss",
+      "summary": "Saturday evening, when Arsenal earned a dramatic late win over Everton before Man City were held at West Ham, felt as if it could be pivotal in the Premier League title race.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T00:56:07.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "0ec96b067716aed6",
       "title": "نجم الزمالك السابق: التعادل أمام أوتوهو أفضل نتيجة ممكنة رغم الإرهاق البدني",
       "link": "https://www.masrawy.com/sports/sports_news/details/2026/3/15/2957570/%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D8%A3%D9%85%D8%A7%D9%85-%D8%A3%D9%88%D8%AA%D9%88%D9%87%D9%88-%D8%A3%D9%81%D8%B6%D9%84-%D9%86%D8%AA%D9%8A%D8%AC%D8%A9-%D9%85%D9%85%D9%83%D9%86%D8%A9-%D8%B1%D8%BA%D9%85-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D9%82-%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A",
@@ -329,6 +374,38 @@
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
       },
       "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4b3b622f06aaac82",
+      "title": "A finale worthy of the greatest Six Nations ever",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cjd9m3p55y7o?at_medium=RSS&at_campaign=rss",
+      "summary": "History, records, upsets, high-scoring classics - and a thrilling finale. The 2026 Six Nations is likely to go down as the best edition in the tournament's history.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T00:40:19.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f7be5c96b583411c",
+      "title": "France take title after winning high-scoring thriller against England",
+      "link": "https://www.bbc.com/sport/rugby-union/videos/c5yq4pxvx1yo?at_medium=RSS&at_campaign=rss",
+      "summary": "France edge out England with the last kick of the game in a sensational 13-try decider, to secure back-to-back Six Nations titles at the Stade de France.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T00:34:32.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
       "category": "sports",
       "region": "global"
     },
@@ -365,6 +442,38 @@
       "region": "global"
     },
     {
+      "id": "3df1de065a5c3679",
+      "title": "Junior H Talks Embracing Vulnerability, Disney Obsession at SXSW: ‘You Could Say I’m the Godfather of Sad Kids’",
+      "link": "https://www.billboard.com/music/latin/junior-h-sad-boy-interview-panel-billboard-house-sxsw-1236199334/",
+      "summary": "The Mexican artist sat down with Billboard for a Q&A ahead of his performance at THE STAGE @ South by Southwest.",
+      "body": "After making waves with his most recent album, DEPR&lt;/3$$ED MFKZ , his fifth release to reach No. 1 on the Regional Mexican Albums chart, Junior H joined the Billboard House @ SXSW on Saturday (March 14) to talk about vulnerability, his chart success and his future ambitions. The event — held at Mohawk Austin as part of the South by Southwest festival, where he sat down with Billboard &#8216;s co-chief content officer Leila Cobo — served as a prelude to his headlining concert at the Moody Amphitheater for THE STAGE x SXSW, presented by Billboard . Related Junior H Is Taking Corridos Tumbados to Stadiums — and Standing Up for Mexicans: &#8216;I&#8217;m an Immigrant&nbsp;Too&#8217; Junior kept things laid-back, donning a striped, red-and-white long sleeve shirt paired with white sneakers, exuding his signature “sad boy” charm. “A ‘$ad Boy’ is practically the meaning behind all the music we’ve shared,” he explained. “It doesn’t mean I’m sad all the time, but that’s how my fans identified me… That’s how they made me, how they labeled me. You could say I’m the godfather of sad kids.” That melancholic but honest identity has captivated fans across borders, making Junior H a voice for …",
+      "image": null,
+      "pubDate": "2026-03-15T00:32:10.000Z",
+      "source": {
+        "name": "Billboard",
+        "homepage": "https://www.billboard.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "7223314ac285427e",
+      "title": "Medvedev stuns Alcaraz to set up Sinner final",
+      "link": "https://www.bbc.com/sport/tennis/articles/cqlgn0vz4y1o?at_medium=RSS&at_campaign=rss",
+      "summary": "World number two Jannik Sinner puts on a masterclass to beat Alexander Zverev 6-2 6-4 and reach his first final at Indian Wells, while Daniil Medvedev ends Carlos Alcaraz's winning run.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T00:32:02.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "eb685187384c8a0f",
       "title": "المصري البورسعيدي يتعادل إيجابيًا مع شباب بلوزداد بالكونفدرالية",
       "link": "https://www.masrawy.com/sports/sports-arab-international/details/2026/3/15/2957563/%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF%D9%8A-%D9%8A%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A-%D8%A7-%D9%85%D8%B9-%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A8%D9%84%D9%88%D8%B2%D8%AF%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D9%83%D9%88%D9%86%D9%81%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9",
@@ -377,6 +486,38 @@
         "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
       },
       "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "48bd23ce443c6f74",
+      "title": "How Newcastle took advantage of James playing in midfield",
+      "link": "https://www.bbc.com/sport/football/videos/c89kz0z7lkgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Match of the Day pundit Joe Hart explains how Newcastle were able to take advantage of Chelsea playing Reece James in midfield instead of his usual right-back position.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T00:19:40.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b3297b41c129b7db",
+      "title": "Borthwick 'bitterly disappointed' with England losses",
+      "link": "https://www.bbc.com/sport/rugby-union/videos/cze04r9gkndo?at_medium=RSS&at_campaign=rss",
+      "summary": "England head coach Steve Borthwick says his side is \"bitterly disappointed\" in the last few weeks of the Six Nations with his side winning only one out of five games.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-15T00:15:23.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
       "category": "sports",
       "region": "global"
     },
@@ -429,6 +570,38 @@
       "region": "global"
     },
     {
+      "id": "d700c8556d871882",
+      "title": "We've got a special player on our hands with Dowman - Hart",
+      "link": "https://www.bbc.com/sport/football/videos/ckgl549lv13o?at_medium=RSS&at_campaign=rss",
+      "summary": "Match of the Day pundits Joe Hart and Ashley Williams praise Max Dowman after the 16-year old became the youngest goalscorer in the Premier League in Arsenal's 2-0 win over Everton.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T23:42:43.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "20f9d09904a1581e",
+      "title": "'I'm as confused as Cole Palmer' - huddle incident baffles MOTD pundits",
+      "link": "https://www.bbc.com/sport/football/videos/c3wlvn7ewgdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Match of the Day pundits Ashley Williams and Joe Hart question why referee Paul Tierney protected the match ball on the centre spot, by getting in the middle of the Chelsea players' pre-match huddle before their Premier League game against Newcastle.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-14T23:42:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "dcb71fe6b477d888",
       "title": "West Ham were 'heroic' to earn point against Man City - Nuno",
       "link": "https://www.bbc.com/sport/football/videos/cn8znxlv2wyo?at_medium=RSS&at_campaign=rss",
@@ -441,22 +614,6 @@
         "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "79df315c2bf95560",
-      "title": "أول تعليق من عبدالله أقطاي بعد أزمته مع جماهير الزمالك",
-      "link": "https://www.masrawy.com/sports/sports_news/details/2026/3/14/2957547/%D8%A3%D9%88%D9%84-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D9%85%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87-%D8%A3%D9%82%D8%B7%D8%A7%D9%8A-%D8%A8%D8%B9%D8%AF-%D8%A3%D8%B2%D9%85%D8%AA%D9%87-%D9%85%D8%B9-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83",
-      "summary": "عبدالله أقطاي لاعب إنبي يعتذر لجماهير الزمالك بعد أزمته في مباراة الفريقين، ويؤكد أن ما حدث كان سوء تفاهم وأن احتفاله على طريقة كهربا تسبب في استفزاز الجماهير.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-14T23:32:27.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
       "category": "sports",
       "region": "global"
     },
@@ -493,8 +650,8 @@
       "region": "global"
     },
     {
-      "id": "148f837bd659bf6c",
-      "title": "Aberg takes three-shot lead into Players final round",
+      "id": "cc5ca21c350ff6e4",
+      "title": "'Nervous' Aberg takes three-shot lead into Players final round",
       "link": "https://www.bbc.com/sport/golf/articles/c1jk35ren24o?at_medium=RSS&at_campaign=rss",
       "summary": "Sweden's Ludvig Aberg serenely plots his way around TPC Sawgrass to extend his lead to three shots heading into Sunday's Players Championship finale.",
       "body": null,
@@ -548,22 +705,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-14T23:00:21.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c234d8717083ab10",
-      "title": "Sinner beats Zverev to reach maiden Indian Wells final",
-      "link": "https://www.bbc.com/sport/tennis/articles/cqlgn0vz4y1o?at_medium=RSS&at_campaign=rss",
-      "summary": "World number two Jannik Sinner puts on a masterclass to beat Alexander Zverev 6-2 6-4 and reach his first final at Indian Wells.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-14T22:36:47.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -717,6 +858,54 @@
       "region": "global"
     },
     {
+      "id": "0a18a3b3ca0e191a",
+      "title": "\"شعرت بالارتباك\".. كيف علق سيميوني على واقعة عبقار؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B4%D8%B9%D8%B1%D8%AA-%D8%A8%D8%A7%D9%84%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D9%83-%D9%83%D9%8A%D9%81-%D8%B9%D9%84%D9%82-%D8%B3%D9%8A%D9%85%D9%8A%D9%88%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D8%B9%D8%A8%D9%82%D8%A7%D8%B1/blte88b2d390bc44e43?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الأرجنتيني تلقى \"معلومات متناقضة\" في البداية",
+      "body": "المدرب الأرجنتيني تلقى \"معلومات متناقضة\" في البداية أشاد دييجو سيميوني، مدرب أتلتيكو مدريد، بخصمه خيتافي عقب الفوز عليه (1-0)، اليوم السبت، ضمن منافسات الجولة 28 من الليجا. وقال سيميوني، خلال تصريحات صحفية عقب اللقاء، إن مواجهة خيتافي \"تتطلب دائماً صبراً ومجهوداً مضاعفاً، نظراً للروح التنافسية العالية التي يزرعها المدرب خوسيه بوردالاس في فريقه\". اقرأ أيضًا لابورتا يخسر أصوات بعض لاعبي برشلونة عبقار: أقسم أنني لم أقصد لمس سورلوث في هذه المنطقة! مدرب خيتافي: عبقار لم يلمس مهاجم أتلتيكو في منطقة حساسة وشهدت المباراة واقعة مثيرة للجدل في الدقيقة 55، عندما أشهر الحكم البطاقة الحمراء المباشرة في وجه مدافع خيتافي، المغربي عبد الكبير عبقار، بعد العودة لتقنية الفيديو (VAR)، التي أظهرت قيام اللاعب بلمس منطقة حساسة للمهاجم النرويجي ألكسندر سورلوث. ومن جانبه، نفى عبقار - كما نفى مدربه بوردالاس - أي تعمد للواقعة، حيث أكد اللاعب المغربي أنه لم يكن ينظر إلى سورلوث حينها، ولم يقصد أبدًا لمس تلك المنطقة. وعلق سيميوني على حالة الطرد، قائلًا إنه عاش حالة من الارتباك في البداية، بسبب معلومات متناقضة تلقاها من الحكم الرابع، نظرًا لأنه لم يشاهد الواقعة بنفسه لحظة حدوثها، كما أنه فضل ترك الأمر لتقدير تقنية الفيديو، التي حسمت القرار النهائي.",
+      "image": null,
+      "pubDate": "2026-03-14T22:15:41.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "72e03a6fd7f37278",
+      "title": "تنبؤ إسباني بحصول نجم برشلونة على الكرة الذهبية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%86%D8%A8%D9%88%D9%94-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%A8%D8%AD%D8%B5%D9%88%D9%84-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blt6d25837ad3dc473b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أشاد الصحفي الإسباني جوليو مالدونادو، المعروف باسم \"مالديني\"، بقدرات بيدري نجم وسط برشلونة.",
+      "body": "أشاد الصحفي الإسباني جوليو مالدونادو، المعروف باسم \"مالديني\"، بقدرات بيدري نجم وسط برشلونة. ولم يغب أداء بيدري المتميز هذا الموسم عن الأنظار، ولا يزال يتلقى الإشادات على مستواه الرائع. واستعرضت صحيفة \"موندو ديبورتيفو\"، ما قاله مالدونادو، عبر قناته على يوتيوب، بشأن بيدري. وقال مالدونادو \"هناك حظوظ كبيرة لفوز بيدري بالكرة الذهبية. لا أعلم إن كان سيكون هذا العام أو في المستقبل، لأنه يعتمد أيضًا على النتائج\". وتابع \"لكن أعتقد أن بيدري سينهي الأمر بالفوز بالكرة الذهبية.. سيكون غريبًا لو لم يفعل، فهو لاعب يمتلك كل شيء\". وأضاف \"في كثير من مناطق الملعب، هو لاعب حاسم، يلعب في فريق سيحقق الألقاب، وبالطبع برشلونة سيفوز بالألقاب، وهو الآن أكثر لاعبي خط الوسط اكتمالًا. بموهبته، إن لم يكن هذا العام، فسيأتي اليوم الذي سيفوز فيه بالكرة الذهبية\". وكان بيدري قد احتل المركز 11 في تصويت الكرة الذهبية لعام 2025، وهو ترتيب اعتبره الكثيرون، غير عادل، بعد موسم رائع لنجم البارسا. اقرأ أيضًا \"النملة\" تحت منظار برشلونة لخلافة ليفاندوفسكي",
+      "image": null,
+      "pubDate": "2026-03-14T22:13:59.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "90aaad7178462b80",
+      "title": "\"ندفع ولا نأخذ حقوقنا\".. الهلال يفتح النار على لجنة الحكام رغم إسقاط الفتح",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AF%D9%81%D8%B9-%D9%88%D9%84%D8%A7-%D9%86%D8%A7%D9%94%D8%AE%D8%B0-%D8%AD%D9%82%D9%88%D9%82%D9%86%D8%A7-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%AD%D9%83%D8%A7%D9%85-%D8%B1%D8%BA%D9%85-%D8%A7%D9%95%D8%B3%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D9%81%D8%AA%D8%AD/blt3220edd107109759?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الزعيم ينفجر بعد مواجهة النموذجي",
+      "body": "الزعيم ينفجر بعد مواجهة النموذجي فتح نادي الهلال النار على لجنة الحكام في الاتحاد السعودي لكرة القدم، رغم تحقيق الفوز على الفتح، بهدف دون رد، ضمن الجولة 26 من دوري روشن. وشهدت المباراة عدة حالات جدلية، أبرزها عدم احتساب ركلة جزاء للهلال في الدقيقة 42، ونفس الحال لدى الفتح بالدقيقة 5 من الوقت بدل الضائع. واشتكى الإيطالي سيموني إنزاجي من الحكم عقب المباراة، حيث أكد أنه أخطأ في تقدير بعض الأمور. أصدر الهلال بيانًا عبر موقعه الرسمي أعرب فيه عن استغرابه من آلية اختيار الطواقم التحكيمية الأجنبية في مباريات دوري روشن السعودي، مشيرًا إلى تكرار الاستعانة بطواقم وصفها بالمتواضعة، رغم التكاليف المالية المرتفعة التي تتحملها الأندية لاستقدام الحكام الأجانب. وأوضح النادي أن استمرار التعاقد مع طواقم تحكيمية بهذا المستوى يثير العديد من التساؤلات حول آلية الاختيار، مطالبًا بضرورة الارتقاء بجودة الحكام الذين يديرون مباريات الدوري، خاصة مع اقتراب المراحل الحاسمة من المنافسة. كما شددت شركة الهلال في بيانها على صعوبة الاستعانة بالحكام المحليين في مباريات الفريق خلال الفترة الحالية، في ظل تكرار بعض الحالات التحكيمية المؤثرة في المباريات التنافسية مؤخرًا، وهو ما يستدعي بحسب البيان العمل على تحسين منظومة التحكيم بما يضمن العدالة بين جميع الأندية. ويأتي بيان الهلال، بعد الهجوم الناري من رئيس نادي الفتح وا…",
+      "image": null,
+      "pubDate": "2026-03-14T22:11:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "268076a725d09ff9",
       "title": "Rosenior says referee should focus on job, not Chelsea huddle",
       "link": "https://www.bbc.com/sport/articles/c309eq98q5do?at_medium=RSS&at_campaign=rss",
@@ -733,6 +922,22 @@
       "region": "global"
     },
     {
+      "id": "87770000ab8a4174",
+      "title": "بصمة فريدة.. حارس آرسنال يتفوق على كبار أوروبا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B5%D9%85%D8%A9-%D9%81%D8%B1%D9%8A%D8%AF%D8%A9-%D8%AD%D8%A7%D8%B1%D8%B3-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%89-%D9%83%D8%A8%D8%A7%D8%B1-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7/bltc235bdfbe7cd903a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مكاسب بالجملة للجانرز أمام إيفرتون",
+      "body": "مكاسب بالجملة للجانرز أمام إيفرتون خرج فريق آرسنال بمكاسب عدة من مباراته القوية ضد إيفرتون، مساء السبت، ضمن الجولة 30 من الدوري الإنجليزي الممتاز، لم تقتصر فقط على النقاط الثلاث. وكسر الجانرز شفرة إيفرتون في اللحظات الأخيرة من المباراة، وسجل هدفي الفوز 2-0 عبر جيوكيريس واللاعب الشاب ماكس داومان، الذي بات أصغر من يهز الشباك في تاريخ البريميرليج . ورفع آرسنال رصيده إلى 70 نقطة في الصدارة، حيث استغل تعثر ملاحقه مانشستر سيتي (61 نقطة) الذي تعادل بهدف لمثله أمام وست هام. وذكرت شبكة سكواوكا للإحصاءات أن ديفيد رايا حارس آرسنال وصل إلى رقم مذهل مقارنة بأقرانه في كل الدوريات الكبرى. وأكدت: \"ديفيد رايا هو أول حارس مرمى في الدوريات الخمسة الكبرى في أوروبا يحافظ على نظافة شباكه في 20 مباراة في جميع المسابقات هذا الموسم\". ولفتت إلى أن هذا الرقم تحقق في 39 مباراة إجمالا، \"15 منها في الدوري الإنجليزي الممتاز\".",
+      "image": null,
+      "pubDate": "2026-03-14T22:07:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "deb42902a12f07c9",
       "title": "Chelsea win a confidence boost for Barcelona tie - Howe",
       "link": "https://www.bbc.com/sport/football/videos/c14m1p8rv5lo?at_medium=RSS&at_campaign=rss",
@@ -747,6 +952,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "41d9c506343ced60",
+      "title": "إبراهيم دياز: حققت حلمي مع الريال.. وهذا تعليقي على هدف جولر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%AF%D9%8A%D8%A7%D8%B2-%D8%AD%D9%82%D9%82%D8%AA-%D8%AD%D9%84%D9%85%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%88%D9%87%D8%B0%D8%A7-%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D9%8A-%D8%B9%D9%84%D9%89-%D9%87%D8%AF%D9%81-%D8%AC%D9%88%D9%84%D8%B1/blt8c454d1a4008b3c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم المغربي يمر بفترة سعيدة",
+      "body": "النجم المغربي يمر بفترة سعيدة أكد إبراهيم دياز نجم ريال مدريد أن زميله التركي أردا جولر اعتاد محاولة التسجيل بتلك الطريقة المميزة، بعدما أحرز هدفًا استثنائيًا خلال مواجهة إلتشي في الدوري الإسباني. وحقق ريال مدريد فوزًا كبيرًا على إلتشي بنتيجة (4-1) في المباراة التي أقيمت على ملعب سانتياجو برنابيو ضمن منافسات الجولة 28، ليواصل الفريق ملاحقة المتصدر برشلونة في سباق اللقب. &nbsp; &nbsp; إشادة بجولر وقال دياز في تصريحات لقناة ريال مدريد: \"ربما كان هناك هدف مشابه من قبل، أظن ذلك، فقد أصاب العارضة مرة أمام أوساسونا، واليوم سجل هذا الهدف الرائع.. إنه يحاول تنفيذ هذه التسديدة المميزة كثيرًا\". وأضاف: \"كان من المهم اليوم أن نواصل جمع النقاط وتحقيق الفوز وإسعاد الجماهير. أنا سعيد للغاية بالانتصار وبالتزام الفريق كله، وأشكر اللاعبين على الأداء الرائع والجهد الكبير الذي يقدمونه لمساعدة الفريق\". وتسلم اللاعب البديل الكرة في منتصف الملعب، ورفع رأسه ليلاحظ تقدم الحارس باولو ديتورو عن مرماه ، ليتخذ قراره فورًا ويسدد كرة مذهلة من مسافة تقارب 60 ياردة استقرت في الشباك. حلم تحقق وكشف دياز عن تعليمات المدرب ألفارو أربيلوا له داخل الملعب، قائلاً: \"يطلب مني أن أساعد في بناء اللعب للحفاظ على الاستحواذ، وأن أتحرك كثيرًا وأكون حاضرًا بين الخطوط في الهجوم والدفاع، والأمور تسير بشكل جيد جدًا\". وتطرق اللاعب إ…",
+      "image": null,
+      "pubDate": "2026-03-14T21:59:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "337f3a60b487816c",
+      "title": "من أجل المغرب.. مدرب الوداد السابق يرفض إغراءات هولندا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86-%D8%A7%D9%94%D8%AC%D9%84-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A7%D9%95%D8%BA%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%87%D9%88%D9%84%D9%86%D8%AF%D8%A7/blt16d7da554c0f8c53?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رفض عادل رمزي، مدرب الوداد البيضاوي السابق، الإغراءات التي قدمها له الاتحاد الهولندي لكرة القدم.",
+      "body": "رفض عادل رمزي، مدرب الوداد البيضاوي السابق، الإغراءات التي قدمها له الاتحاد الهولندي لكرة القدم. وبحسب \"راديو مارس\"، فإن الاتحاد الهولندي عرض على رمزي، تولي تدريب منتخب تحت 23 عامًا. وتابع \"الاتحاد الهولندي عرض أيضًا على مدرب الوداد السابق، العمل كمساعد لرونالد كومان في المنتخب الأول\". وشددت إذاعة \"راديو مارس\" على أن عادل رمزي، رفض عروض الاتحاد الهولندي، وأبلغ المسئولين، باتفاقه مع الاتحاد المغربي. وسيكون عادل رمزي وجواو ساكرامينتو، مساعدين لمحمد وهبي، مدرب المنتخب المغربي. وكان عادل رمزي قد تولى تدريب الوداد البيضاوي، لفترة قصيرة لم تتجاوز 5 أشهر خلال عام 2023. اقرأ أيضًا بفضل وهبي ولقجع.. جوهرة فرنسية توافق على تمثيل المغرب",
+      "image": null,
+      "pubDate": "2026-03-14T21:59:54.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "211370d70d8e08e5",
@@ -1101,38 +1338,6 @@
       "region": "global"
     },
     {
-      "id": "d45d0af40e263dd5",
-      "title": "بالفيديو.. حدث تاريخي في البريميرليج",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AD%D8%AF%D8%AB-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/bltc3a5df068d6f7eff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "موهوب آرسنال يصنع الحدث",
-      "body": "موهوب آرسنال يصنع الحدث حافظ آرسنال على صدارة الدوري الإنجليزي الممتاز، بعدما حقق فوزًا ثمينًا على ضيفه إيفرتون بنتيجة (2-0) ، مساء السبت على ملعب ملعب الإمارات، ضمن منافسات الجولة 30. لكن الانتصار لم يكن عاديًا، إذ شهدت الدقائق الأخيرة لحظة تاريخية بطلها الموهبة الصاعدة ماكس داومان، الذي دوّن اسمه في سجلات البريميرليج. فقد أصبح داومان أصغر لاعب يسجل هدفًا في تاريخ الدوري الإنجليزي الممتاز، بعمر 16 عامًا و73 يومًا، بعدما أحرز الهدف الثاني لفريقه في الوقت بدل الضائع، مستغلا تقدم الحارس جوردان بيكفورد في ركلة ركنية، بحثا عن التعادل. وظلت المباراة متعادلة سلبيًا حتى الدقيقة 89، عندما افتتح المهاجم السويدي فيكتور جيوكيريس التسجيل لآرسنال، قبل أن يظهر داومان في الدقيقة (90+7) ليقتل اللقاء بهدف ثانٍ ويحسم النقاط الثلاث. وبهذا الانتصار رفع آرسنال رصيده إلى 70 نقطة في صدارة جدول الترتيب، بينما تجمد رصيد إيفرتون عند 43 نقطة في المركز الثامن. شاهد ماكس داومان يسجل هدفًا في الثواني الأخيرة من المباراة. #الدوري_الإنجليزي_الممتاز #ارسنال_ايفرتون pic.twitter.com/c0IyTxuZWD — beIN SPORTS (@beINSPORTS) March 14, 2026",
-      "image": null,
-      "pubDate": "2026-03-14T20:37:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "4e099b37d9c0493d",
-      "title": "لابورتا يخسر أصوات بعض لاعبي برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D9%8A%D8%AE%D8%B3%D8%B1-%D8%A7%D9%94%D8%B5%D9%88%D8%A7%D8%AA-%D8%A8%D8%B9%D8%B6-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt4cfeaa82181724f3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الانتخابات تأتي بعد صراع لفظي محتدم بين فونت ولابورتا",
-      "body": "الانتخابات تأتي بعد صراع لفظي محتدم بين فونت ولابورتا قبل ساعات من انطلاق ماراثون انتخابات برشلونة، المقررة غدًا الأحد، كشفت تقارير صحفية عن موقف لاعبي الفريق الأول من العملية التصويتية، والمرشحين المتقدمين لقيادة النادي الكتالوني. وأفاد الصحفي في برنامج \"El Chiringuito\" الإسباني، خوسيه ألفاريز، بأن لاعبي برشلونة سيشاركون في عملية التصويت، عقب نهاية مباراتهم أمام إشبيلية، في إطار الجولة 28 من الليجا. اقرأ أيضًا المغرب يغري بيتارش بعرض أقوى من إسبانيا هجوم كتالوني واسع على حكم مباراة إشبيلية عبقار: أقسم أنني لم أقصد لمس سورلوث في هذه المنطقة! وأضاف ألفاريز أن \"لابورتا يحظى بدعم كامل من غرفة الملابس\"، لكن هناك عائقًا قانونيًا سيمنع بعض لاعبي البلوجرانا من الإدلاء بأصواتهم، نظرًا لأنهم أعضاء جدد، لم يمر على عضويتهم أكثر من عام، وهو شرط أساسي تفرضه لوائح النادي لاكتساب حق التصويت في الجمعية العمومية. وسيخوض الرئيس السابق لبرشلونة (المستقيل مؤخرًا من أجل خوض الانتخابات) خوان لابورتا صراعًا مرتقبًا مع منافسه فيكتور فونت، بعد حملة انتخابية ساخنة شهدت هجمات لفظية مستمرة، واتهامات من الطرفين.",
-      "image": null,
-      "pubDate": "2026-03-14T20:30:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "6b46d59266b2f5ef",
       "title": "'Shot at history passes Scotland by amid Irish ferocity'",
       "link": "https://www.bbc.com/sport/rugby-union/articles/czj1x43y0p3o?at_medium=RSS&at_campaign=rss",
@@ -1163,70 +1368,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "6b53e267220618df",
-      "title": "مهمة سهلة تفصل النصر عن رقم تاريخي في دوري روشن",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%87%D9%85%D8%A9-%D8%B3%D9%87%D9%84%D8%A9-%D8%AA%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%B9%D9%86-%D8%B1%D9%82%D9%85-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/blt4e163a99d432212c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"العالمي\" يعيش أفضل أيامه في الدوري السعودي",
-      "body": "\"العالمي\" يعيش أفضل أيامه في الدوري السعودي اقترب نادي النصر من تحقيق رقم تاريخي في دوري روشن السعودي، بعد الفوز الكبير الذي حققه على نظيره الخليج. وفاز النصر على الخليج بنتيجة 5-0 ، خلال المباراة التي جمعت بينهما، السبت، على ملعب الأمير محمد بن فهد بالدمام، في الجولة السادسة والعشرين من دوري روشن. وبات هذا الانتصار هو رقم 12 على التوالي الذي يحققه \"العالمي\" في الموسم الحالي من دوري روشن السعودي. وبدأت تلك السلسلة يوم 17 يناير/كانون الثاني الماضي، عندما فاز النصر على الشباب بنتيجة 3-2، على ملعب الأول بارك، في الجولة السادسة عشرة من دوري روشن. وواصل \"العالمي\" انتصاراته، حيث هزم كلًا من ضمك، التعاون، الخلود، الرياض، الاتحاد، الفتح، الحزم، النجمة، الفيحاء، نيوم، قبل أن يختمها بخماسية الخليج. وبحسب صحيفة \"الرياضية\" السعودية، فإن النصر يمتلك الفرصة لمعادلة أطول سلسلة انتصارات له في تاريخ مشاركاته بدوري روشن السعودي، والتي حققها في موسم 2013-2014، عندما فاز بـ13 مباراة متتالية. ولن تكون مهمة النصر صعبة لتحقيق هذا الإنجاز، إذ ستكون مباراته المقبلة ضد النجمة، متذيل جدول ترتيب الدوري السعودي برصيد 8 نقاط فقط. وستُقام المباراة يوم 3 أبريل/نيسان المقبل، على ملعب الأول بارك، بعد نهاية فترة التوقف الدولي المقبلة، بنهاية شهر مارس/آذار الجاري. يُذكر أن النصر يحتل صدارة الدوري السعودي برصيد 67 نق…",
-      "image": null,
-      "pubDate": "2026-03-14T20:26:55.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8684f300dbefd0a9",
-      "title": "خطأ كارثي يشوه تقييم حكم لقاء الريال وإلتشي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%B7%D8%A7%D9%94-%D9%83%D8%A7%D8%B1%D8%AB%D9%8A-%D9%8A%D8%B4%D9%88%D9%87-%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%AD%D9%83%D9%85-%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%88%D8%A7%D9%95%D9%84%D8%AA%D8%B4%D9%8A/bltcce9269ae711879a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "سحق ريال مدريد، ضيفه إلتشي، بنتيجة 4-1 على ملعب سانتياجو برنابيو، في الجولة 28 من عمر الليجا.",
-      "body": "سحق ريال مدريد، ضيفه إلتشي، بنتيجة 4-1 على ملعب سانتياجو برنابيو، في الجولة 28 من عمر الليجا. وارتفع رصيد ريال مدريد إلى 66 نقطة في الوصافة، فيما تجمد رصيد إلتشي عند 26 نقطة في المركز 17. ومنح موقع \"أرشيفو فار\" المختص بالحالات التحكيمية، تقييمًا ضعيفًا للحكم جيل مانزانو (4 درجات من 10) بعد إدارة لقاء الريال وإلتشي. وأوضح \"أرشيفو فار\" أن القرارات التي اضطر جيل مانزانو لاتخاذها، لم تكن الأفضل، وجاءت غريبة بعض الشيء، رغم أنها لم تؤثر بشكل كبير على مجرى اللعب. وتابع \"الحدث المثير الوحيد، جاء في الشوط الأول، عندما كان تشواميني وجهًا لوجه أمام الحارس، ووضع فيديريكو ريدوندو لاعب إلتشي، قدمه أمام تسديدة اللاعب الفرنسي\". ونوه \"ريدوندو لمس الكرة قليلًا بعد أن ارتكب المخالفة بالفعل. إنها ركلة جزاء واضحة، لكن بسبب تعليمات لجنة التحكيم، التي تتعارض مع المنطق التحكيمي، لم يتم احتسابها\". اقرأ أيضًا بالصور: هل حُرم ريال مدريد من ركلة جزاء أمام إلتشي؟",
-      "image": null,
-      "pubDate": "2026-03-14T20:23:35.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "36ee86cdafa104b0",
-      "title": "مدرب الفتح: هدف الهلال غير صحيح.. والحكم ظلمنا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%BA%D9%8A%D8%B1-%D8%B5%D8%AD%D9%8A%D8%AD-%D9%88%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%B8%D9%84%D9%85%D9%86%D8%A7/blt95ef6a1a647b1810?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب البرتغالي ينفجر غقب اللقاء",
-      "body": "المدرب البرتغالي ينفجر غقب اللقاء عبر البرتغالي جوزيه جوميز، مدرب الفتح، عن غضبه الشديد، بعد الخسارة أمام الهلال، بهدف دون رد، خلال المباراة التي جمعت الطرفين، مساء السبت، ضمن الجولة 26 من دوري روشن. وشهدت المباراة عدة حالات جدلية، أبرزها تراجع الحكم عن احتساب ركلة جزاء للفتح في الدقيقة 5 من الوقت المحتسب بدل الضائع. وعن هذا الأمر، قال جوميز في تصريحات بالمؤتمر الصحفي بعد المباراة: \"جاء هدف الهلال الوحيد بعد لقطة مثيرة للجدل، إذ كانت البداية من ركلة ركنية لكنها لم تكن صحيحة في الأساس، وفي الثواني الأخيرة من المباراة تعرض مراد باتنا للاعتراض من قبل كوليبالي، مما استدعى مطالبة لاعبي الهلال بركلة جزاء، وبعد ضغط كبير من لاعبي الفريق الأزرق لجأ الحكم إلى تقنية الفيديو VAR لمراجعة اللقطة واتخاذ القرار المناسب\". وأضاف: \"اقترَبت من الحكم وخرقت القواعد لحظة مراجعته لتقنية الفيديو المساعد وقلت إنها ركلة جزاء واضحة، وتحدثت قبل المباراة عن هذه النقطة، متسائلًا لماذا نستمر في استقطاب الحكام الأجانب، بينما يمكن للحكم السعودي أن يكون أفضل، خاصة أنه بعد المباراة سيتحمل تبعات قراره لأنه سيظل هنا\". اقرأ التفاصيل.. فيديو: خبير تحكيمي يحسم الجدل حول ركلة جزاء الفتح ضد الهلال وتابع: \"الهلال قدم مباراة ممتازة في كل شيء، لكن إلغاء ضربة الجزاء التي حصلنا عليها كان أمرًا غير عادي، ولم يكن بإمكاني التأثير …",
-      "image": null,
-      "pubDate": "2026-03-14T20:20:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "06a9c474c210765a",
-      "title": "جيسوس يكشف موعد عودة رونالدو وماني.. ويلمز الهلال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D9%8A%D9%83%D8%B4%D9%81-%D9%85%D9%88%D8%B9%D8%AF-%D8%B9%D9%88%D8%AF%D8%A9-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%88%D9%85%D8%A7%D9%86%D9%8A-%D9%88%D9%8A%D9%84%D9%85%D8%B2-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blt1d8674061646e5d8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب البرتغالي أدلى بتصريحات مهمة بعد الفوز على الخليج",
-      "body": "المدرب البرتغالي أدلى بتصريحات مهمة بعد الفوز على الخليج كشف البرتغالي جورجي جيسوس، المدير الفني للنصر، موعد عودة مواطنه كريستيانو رونالدو، قائد الفريق، وزميله السنغالي ساديو ماني. وفاز النصر على الخليج بنتيجة 5-0، خلال المباراة التي جمعت بينهما، السبت، على ملعب الأمير محمد بن فهد بالدمام، في الجولة السادسة والعشرين من دوري روشن، رغم غياب رونالدو وماني. عودة رونالدو وماني وقال جيسوس في تصريحات بالمؤتمر الصحفي بعد نهاية المباراة، نقلتها صحيفة \"الشرق الأوسط\" السعودية: \"المُتوقع أن يعود رونالدو وماني بعد فترة التوقف\". وأوضح: \"الكل يعلم أنهما لاعبان كبيران، من المتوقع أن يغيبان لبعض الوقت، ماني شعر بالألم قبل أيام، وأبعدناه اليوم، وسيكون جاهزًا بعد التوقف\". وغاب رونالدو عن النصر للمباراة الثانية على التوالي، بعدما غاب في الجولة الماضية أمام نيوم أيضًا، فيما تعرض ماني لإصابة في مفصل القدم خلال تدريبات النصر التي أُقيمت مساء الخميس الماضي. المنافسة على الدوري وبخصوص المباراة، قال المدرب البرتغالي: \"فوز مهم وكبير على فريق جيد، كنّا نريد هذا الفوز لمواصلة الصدارة\". وأضاف: \"الآن تنتظرنا 8 نهائيات، علينا خوضها للتتويج بالدوري (السعودي)، من سوء حظنا أن الدوري سيتوقف في نشوة مستوياتنا ونتائجنا\". ويحتل النصر صدارة الدوري السعودي في الوقت الحالي برصيد 67 نقطة، بفارق 3 نقاط أمام الهلال صاحب المر…",
-      "image": "https://assets.kooora.com/images/v3/getty-2262995608/crop/MM5DEOJSGU5DCNRUGY5G433XMU5DAORYGY======/GettyImages-2262995608.jpg",
-      "pubDate": "2026-03-14T20:11:55.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "ee01cf8c5b1f5ee8",
@@ -1354,38 +1495,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2bbf73af9b163729",
-      "title": "Brighton showed great togetherness to win - Hurzeler",
-      "link": "https://www.bbc.com/sport/football/videos/cly2x64meeeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Brighton manager Fabian Hurzeler believes his side \"controlled the game\" in a \"deserved\" win as they beat Sunderland 1-0 at the Stadium of Light and move into the top half of the Premier League table.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-14T17:56:57.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d592108cf886332b",
-      "title": "منصة بُناة: جسر رقمي لربط الكفاءات التطوعية بالمؤسسات الحكومية في سوريَة",
-      "link": "https://aitnews.com/2026/03/14/%d9%85%d9%86%d8%b5%d8%a9-%d8%a8%d9%8f%d9%86%d8%a7%d8%a9-%d8%ac%d8%b3%d8%b1-%d8%b1%d9%82%d9%85%d9%8a-%d9%84%d8%b1%d8%a8%d8%b7-%d8%a7%d9%84%d9%83%d9%81%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b7/",
-      "summary": "في ظل المتغيرات المتسارعة التي يفرضها الاقتصاد الرقمي، تبرز أهمية المنصات الرسمية كأدوات فعالة لإدارة الموارد البشرية وتنظيم الجهود الجماعية. ومن هذا المنطلق، أطلقت وزارة التنمية الإدارية في سوريَة، حديثًا، المنصة الوطنية التطوعية التي تحمل اسم “بُناة”، تحت شعار “طاقات سورية نحو أثر مستدام”. ولا تع…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-14T17:53:04.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1533,22 +1642,6 @@
       "region": "global"
     },
     {
-      "id": "8ae731a7dbba2f48",
-      "title": "Sunderland need to stay hungry - director of football Ghisolfi",
-      "link": "https://www.bbc.com/sport/football/videos/c3v7qpq66nvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sunderland's director of football Florent Ghisolfi joins the Football Focus team at the Stadium of Light to talk about the club's objectives in the short and long term.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-14T15:54:18.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "5b5ec34ef8289361",
       "title": "Fitzpatrick focused on future after challenging Games",
       "link": "https://www.bbc.com/sport/articles/c5yknw6x1x2o?at_medium=RSS&at_campaign=rss",
@@ -1556,22 +1649,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-14T13:33:22.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "15bd9d19eca88aea",
-      "title": "Aberg sinks eagles in second-round surge",
-      "link": "https://www.bbc.com/sport/golf/videos/cvgkrxx6k4zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ludvig Aberg storms to the top of the Players Championship leaderboard with a score of 63 with the help of eagles on the second and ninth holes.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-14T12:24:37.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1741,22 +1818,6 @@
       "region": "global"
     },
     {
-      "id": "87c42ec58eca6bb3",
-      "title": "The All-American Rejects’ Tyson Ritter & Nick Wheeler Talk Backyard Tour, Independence & New Album at Billboard House @ SXSW",
-      "link": "https://www.billboard.com/music/rb-hip-hop/the-all-american-rejects-billboard-house-2026-sxsw-1236199167/",
-      "summary": "The band's Sandbox album, AAR's first since 2012, arrives on May 15.",
-      "body": "With The All-American Rejects &#8216; comeback continuing into 2026 with AAR&#8217;s first album since 2012, Sandbox , which arrives in May, band members Tyson Ritter and Nick Wheeler stopped by the Billboard House @ SXSW on Friday (March 13). In a conversation with&nbsp; Billboard &nbsp;co-chief content officer&nbsp; Jason Lipshutz, &nbsp;the band members discussed a range of topics, including shifting to an independent model in the current landscape after dominating the mainstream, their viral backyard tour, and making their first album nearly 14 years ago. Clips from performances on the backyard tour took over social media and packed on a heavy dose of nostalgia and brought the band closer together. &#8220;While we were in the belly of that beast, when we were a week in and it was popping off, it felt like we were holding the tail of the dragon, man,&#8221; Ritter raved. &#8220;Those shows were the greatest things I&#8217;ve ever been a part of, let alone been to, let alone performed in.&#8221; The idea for the backyard tour across America came from their manager, Meghan Kraemer. &#8220;That created something — especially being from Oklahoma — it felt like the shows we were pla…",
-      "image": null,
-      "pubDate": "2026-03-14T01:53:22.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "2ad42a4b44a42604",
       "title": "الإمارات.. تحذير من فيروسات تمسح البيانات وتعطل الأنظمة",
       "link": "https://www.skynewsarabia.com/technology/1858588-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D9%81%D9%8A%D8%B1%D9%88%D8%B3%D8%A7%D8%AA-%D8%AA%D9%85%D8%B3%D8%AD-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%AA%D8%B9%D8%B7%D9%84-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9",
@@ -1773,83 +1834,67 @@
       "region": "global"
     },
     {
-      "id": "a79c21d8e5fb9225",
-      "title": "Wakefield fight back to beat Leeds and reach Challenge Cup quarters",
-      "link": "https://www.bbc.com/sport/rugby-league/videos/c07jlr1e579o?at_medium=RSS&at_campaign=rss",
-      "summary": "Wakefield Trinity produce a dominant second-half display as they recover from 14-12 down at half-time to beat Leeds Rhinos 24-14 and reach the Challenge Cup quarter-finals for the second season in a row.",
-      "body": null,
+      "id": "03108ffab32e8c36",
+      "title": "Volunteers Find Oddly High Solar Flare Rates",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/volunteers-find-oddly-high-solar-flare-rates/",
+      "summary": "Patches of the Sun’s surface often show strong magnetic fields. These fields can emerge within a matter of hours, and can decay slowly or quickly, sometimes over days, weeks, or even months. Thanks to a new study about these long-lived active regions, we now know much more about the patches where t…",
+      "body": "2 min read Volunteers Find Oddly High Solar Flare Rates Patches of the Sun’s surface often show strong magnetic fields. These fields can emerge within a matter of hours, and can decay slowly or quickly, sometimes over days, weeks, or even months. Thanks to a new study about these long-lived active regions , we now know much more about the patches where these strong magnetic fields take at least a month to decay. This study relied on inputs from NASA’s Solar Active Region Spotter citizen science project, which asked volunteers to answer a series of questions about pairs of active region images from NASA’s Solar Dynamics Observatory. Project leads Emily Mason (Predictive Science Inc.) and Kara Kniezewski (Air Force Institute of Technology) looked at the data and the analysis done by volunteers. They found that the long-lived active regions produce disproportionately more flares than the shorter-lived regions and are 3-6 times more likely than other active regions to be the source of the most intense kinds of solar flares. These results are a strong indication that long-lived active regions are crucial for predicting space weather and could provide critical information on magnetic fi…",
       "image": null,
-      "pubDate": "2026-03-13T23:26:26.000Z",
+      "pubDate": "2026-03-13T22:07:28.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "science",
       "region": "global"
     },
     {
-      "id": "583d2640d2460b82",
-      "title": "أهم مزايا الذكاء الاصطناعي في هواتف سامسونج Galaxy S26",
-      "link": "https://aitnews.com/2026/03/14/%d8%a3%d9%87%d9%85-%d9%85%d8%b2%d8%a7%d9%8a%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%81%d9%8a-%d9%87%d9%88%d8%a7%d8%aa%d9%81-%d8%b3%d8%a7/",
-      "summary": "بدأت سامسونج إطلاق سلسلة هواتف Galaxy S26 عالميًا مع حزمة واسعة من مزايا الذكاء الاصطناعي التي توسّع قدرات منظومة الذكاء الاصطناعي الخاصة بها المعروفة باسم Galaxy AI، في خطوة تهدف إلى تحويل الهاتف من جهاز يستجيب للأوامر إلى مساعد رقمي يتوقع احتياجات المستخدم ويتعامل معها تلقائيًا. وتُعد السلسلة الج…",
-      "body": null,
+      "id": "dc1e705de651682b",
+      "title": "Extra Extra! Extra Data Stream Added to the Daily Minor Planet!",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/",
+      "summary": "The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a migh…",
+      "body": "2 min read Extra Extra! Extra Data Stream Added to the Daily Minor Planet! The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a mighty telescope run by the University of Arizona’s Steward Observatory that is used to survey for new near-Earth objects (NEOs) – asteroids that cross Earth’s orbit. Data from the Bok telescope peers deeper than the data from the Mt. Lemmon telescope–it reveals objects roughly two to three times as faint. Software often struggles with such faint objects, but humans shine at pattern recognition in this kind of data, making your contributions to this search more valuable than ever. Another important feature of the new data is that it mostly comes from the ecliptic, the band of sky where asteroids and comets preferentially travel. The project team expects this deeper, ecliptic-focused coverage to substantially increase the number of main-belt asteroids they can recover and confirm and bring fresh waves of near-Earth ast…",
       "image": null,
-      "pubDate": "2026-03-13T21:27:15.000Z",
+      "pubDate": "2026-03-13T21:42:20.000Z",
       "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2ae408fb687fbd25",
-      "title": "'Who's pulled the plug?' - Power cut interrupts Challenge Cup tie",
-      "link": "https://www.bbc.com/sport/rugby-league/videos/cev7wk1nkvwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wakefield Trinity's fourth-round match against Leeds Rhinos in the Challenge Cup is brought to an abrupt halt after a power cut causes the stadium to be plunged into darkness just six minutes into the match.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T20:44:38.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
       },
       "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6e2202f276a4808a",
-      "title": "حمّى OpenClaw تجتاح الصين.. وكيل ذكاء اصطناعي بوعود كبيرة وتجارب متباينة",
-      "link": "https://aitnews.com/2026/03/13/%d8%ad%d9%85%d9%91%d9%89-openclaw-%d8%aa%d8%ac%d8%aa%d8%a7%d8%ad-%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%88%d9%83%d9%8a%d9%84-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8/",
-      "summary": "يشهد برنامج الذكاء الاصطناعي OpenClaw موجة انتشار واسعة في الصين، بعدما جذب آلاف المستخدمين الذين يسعون إلى استخدامه في أتمتة الأعمال وتحليل البيانات وحتى إدارة الاستثمارات، لكن التجربة كشفت أن استخدام البرنامج ليس بالسهولة التي رُوّج لها، خاصةً للمستخدمين غير المتخصصين. ما هو OpenClaw أصلًا؟ OpenC…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T19:18:26.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
       "category": "technology",
       "region": "global"
     },
     {
-      "id": "ff81173d7b720239",
-      "title": "إنستاجرام تعلن إيقاف التشفير التام للرسائل الخاصة ابتداءً من مايو 2026",
-      "link": "https://aitnews.com/2026/03/13/%d8%a5%d9%86%d8%b3%d8%aa%d8%a7%d8%ac%d8%b1%d8%a7%d9%85-%d8%aa%d8%b9%d9%84%d9%86-%d8%a5%d9%8a%d9%82%d8%a7%d9%81-%d8%a7%d9%84%d8%aa%d8%b4%d9%81%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d8%a7%d9%85-%d9%84%d9%84/",
-      "summary": "أعلنت شركة ميتا أن منصة إنستاجرام ستتوقف عن دعم ميزة التشفير التام بين الطرفين (End-to-End Encryption) في الرسائل الخاصة، وذلك ابتداءً من 8 مايو 2026، في خطوة قد تثير جدلًا واسعًا بشأن خصوصية المستخدمين. وجاء الكشف عن التغيير عبر إعلان في مركز مساعدة إنستاجرام؛ إذ أوضحت الشركة أن الرسائل المشفّرة ب…",
-      "body": null,
+      "id": "aa2a6935560fb22e",
+      "title": "NASA Selects Finalists in Student Aircraft Maintenance Competition",
+      "link": "https://www.nasa.gov/aeronautics/nasa-selects-finalists-in-student-aircraft-maintenance-competition/",
+      "summary": "NASA has selected eight student teams as finalists in the 2026 Gateways to Blue Skies Competition, giving them the resources to help address a critical challenge for U.S. aviation: maintenance. Challenges facing the commercial aviation industry include a shortage of qualified maintenance workers an…",
+      "body": "Image Credit: National Institute of Aerospace NASA&nbsp;has&nbsp;selected&nbsp;eight&nbsp;student&nbsp;teams as finalists in the 2026 Gateways to Blue Skies&nbsp;Competition, giving them the resources to help address&nbsp;a critical challenge&nbsp;for&nbsp;U.S. aviation:&nbsp;maintenance.&nbsp; Challenges facing the commercial aviation industry include a shortage of qualified maintenance workers and increasing demands to keep complicated&nbsp;aircraft&nbsp;running for longer. With Gateways to Blue Skies,&nbsp;NASA&nbsp;taps into student innovation to address some of the biggest topics in aviation, and the current competition,&nbsp;RepAir: Advancing Aircraft Maintenance, is looking for solutions that can have immediate impact.&nbsp; “Through this competition, students will learn about&nbsp;aviation&nbsp;maintenance and be empowered to change its future,”&nbsp;said Steven&nbsp;Holz,&nbsp;associate&nbsp;project&nbsp;manager for NASA’s University Innovation Project and judging panel co-chair for Gateways to Blue Skies. “By grounding innovative ideas in real operational needs and presenting them to NASA and industry experts, these teams demonstrate the kind of critical thinking, collab…",
       "image": null,
-      "pubDate": "2026-03-13T17:51:48.000Z",
+      "pubDate": "2026-03-13T19:17:49.000Z",
       "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
       },
-      "lang": "ar",
+      "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d0b40a679b2adc8c",
+      "title": "NASA Volunteers Study Biofilm Adaptability in Space",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-volunteers-study-biofilm-adaptability-in-space/",
+      "summary": "Biofilms are communities of microorganisms that stick to one another and also adhere to a nearby surface. They are intricately associated with life on Earth, enabling functions essential to human and plant systems.",
+      "body": "2 min read NASA Volunteers Study Biofilm Adaptability in Space Biofilms are communities of microorganisms that stick to one another and also adhere to a nearby surface. They are intricately associated with life on Earth, enabling functions essential to human and plant systems. NASA’s Open Science Data Repository (OSDR) Analysis Working Groups study biofilms and many other biological phenomena in an environment that’s important to NASA: the environment of deep space. It’s not well understood how well biofilms react to the many stresses of spaceflight. Now, a new study , performed in part by NASA volunteers, describes how biofilms adapt to space environments, exploring how biofilms may benefit human and plant health in space. The volunteers, led by Dr. Katherine Baxter (University of Glasgow) and Dr. Nicholas Brereton (University College Dublin), are part of the Microbes Analysis Working Group. Their findings reframe biofilms from infection risks to essential structures supporting human gut health, immunity, and plant nutrient uptake. The group’s work synthesizes how spaceflight stressors alter biofilm architecture and host interaction. Interested in collaborating with others to hel…",
+      "image": null,
+      "pubDate": "2026-03-13T17:08:49.000Z",
+      "source": {
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+      },
+      "lang": "en",
+      "category": "science",
       "region": "global"
     },
     {
@@ -1863,38 +1908,6 @@
       "source": {
         "name": "Sky News Arabia — تكنولوجيا",
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cb7467211b8450e8",
-      "title": "منصة غياث الرقمية: كيف تعيد البيانات المناخية تشكيل إدارة الزراعة في سوريَة؟",
-      "link": "https://aitnews.com/2026/03/13/%d9%85%d9%86%d8%b5%d8%a9-%d8%ba%d9%8a%d8%a7%d8%ab-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9-%d9%83%d9%8a%d9%81-%d8%aa%d8%b9%d9%8a%d8%af-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84/",
-      "summary": "يشهد القطاع الزراعي في سوريَة اهتمامًا متزايدًا بتبني الأدوات الرقمية التي تساعد في تحسين إدارة الموارد الطبيعية وتعزيز القدرة على مواجهة التقلبات المناخية. وفي هذا المنحى، برز إطلاق المنصة الوطنية للهطولات المطرية “غياث” بوصفها خطوةً تقنيةً تهدف إلى إدخال البيانات المناخية الدقيقة في صميم عملية ال…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T16:58:28.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b04e9003dfa15831",
-      "title": "Perplexity تطلق “Personal Computer”.. وكيل ذكاء اصطناعي يعمل على مدار الساعة",
-      "link": "https://aitnews.com/2026/03/13/perplexity-%d8%aa%d8%b7%d9%84%d9%82-personal-computer-%d9%88%d9%83%d9%8a%d9%84-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%8a%d8%b9%d9%85%d9%84-%d8%b9%d9%84%d9%89/",
-      "summary": "كشفت شركة Perplexity عن أداة جديدة تحمل اسم “Personal Computer”، وهي وكيل ذكاء اصطناعي مصمم للعمل بنحو متواصل عبر جهاز حاسوب محلي، بهدف تنفيذ المهام اليومية للمستخدم مثل إدارة البريد الإلكتروني وإعداد العروض التقديمية والتحكم في التطبيقات. وتعتمد الأداة على تشغيل نظام الذكاء الاصطناعي عبر حاسوب مُخ…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T16:56:12.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
       },
       "lang": "ar",
       "category": "technology",
@@ -1917,51 +1930,35 @@
       "region": "global"
     },
     {
-      "id": "01835b38eeabdeb5",
-      "title": "Divisive, ruthless, brilliant - how Galthie helped France find their mojo",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c627j7dgmyno?at_medium=RSS&at_campaign=rss",
-      "summary": "Fabien Galthie has driven sky-high standards throughout his coaching career - but he has not always made friends on the way.",
-      "body": null,
+      "id": "3ef53b26050290bc",
+      "title": "Good Morning, Moon",
+      "link": "https://www.nasa.gov/image-article/good-morning-moon/",
+      "summary": "Early morning sunlight illuminates the western wall of this unnamed crater, leaving deep shadows on the ground and in the interior. The image was taken on August 30, 2023, by LROC (Lunar Reconnaissance Orbiter Camera). LROC is a system of three cameras and one of the seven instruments aboard NASA’s…",
+      "body": "NASA&#8217;s Goddard Space Flight Center/Intuitive Machines Early morning sunlight illuminates the western wall of this unnamed crater, leaving deep shadows on the ground and in the interior. The image was taken on August 30, 2023, by LROC (Lunar Reconnaissance Orbiter Camera). LROC is a system of three cameras and one of the seven instruments aboard NASA’s LRO (Lunar Reconnaissance Orbiter) mission, which launched in June 2009 and continues in orbit around the Moon. LRO’s primary mission was to make a 3D map of the lunar surface to help identify future landing sites and resources such as polar ice, to investigate the radiation environment, and to prove new technologies, all in anticipation of future robotic and human exploration. In 2011, LRO data led to production of the highest-resolution, near-topographical map of the Moon, and an interactive mosaic of the lunar North Pole was published in 2014. In addition, LRO has taken high-resolution photographs of myriad lunar landing sites from NASA’s Apollo missions and others. LRO also conducted the first demonstration of laser communication with a lunar satellite. This image is the NASA Science Image of the Month for March 2026 . Each…",
       "image": null,
-      "pubDate": "2026-03-13T16:06:17.000Z",
+      "pubDate": "2026-03-13T16:19:57.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
       },
       "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ada474646f36c809",
-      "title": "تيمز يصبح أكثر ذكاءً.. مايكروسوفت تكشف عن ميزتي كشف اللغة الفوري وتلخيص الاجتماعات بالفيديو",
-      "link": "https://aitnews.com/2026/03/13/%d8%aa%d9%8a%d9%85%d8%b2-%d9%8a%d8%b5%d8%a8%d8%ad-%d8%a3%d9%83%d8%ab%d8%b1-%d8%b0%d9%83%d8%a7%d8%a1%d9%8b-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9/",
-      "summary": "كشفت شركة مايكروسوفت عن ميزتين جديدتين مدعومتين بالذكاء الاصطناعي تعتزم توفيرهما في منصة الاجتماعات التابعة لها “تيمز Teams”، وهما اكتشاف لغة المتحدث تلقائيًا وإنشاء ملخصات فيديو للاجتماعات، وفقًا لما ذكرته الشركة عبر موقعها الرسمي. وتعتمد أول ميزة على الذكاء الاصطناعي لاكتشاف اللغة المنطوقة لكل مت…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T15:57:52.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
-      },
-      "lang": "ar",
       "category": "technology",
       "region": "global"
     },
     {
-      "id": "58808c010dff03ab",
-      "title": "كلود يقترب من توليد الصور.. أنثروبيك تعرض مخططات ورسومًا تفاعلية داخل المحادثات",
-      "link": "https://aitnews.com/2026/03/13/%d9%83%d9%84%d9%88%d8%af-%d9%8a%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%aa%d9%88%d9%84%d9%8a%d8%af-%d8%a7%d9%84%d8%b5%d9%88%d8%b1-%d8%a3%d9%86%d8%ab%d8%b1%d9%88%d8%a8%d9%8a%d9%83-%d8%aa%d8%b9%d8%b1/",
-      "summary": "أعلنت شركة أنثروبيك تحديثًا جديدًا لمساعدها الذكي “كلود Claude” يتيح له إنشاء الرسوم البيانية التفاعلية وواجهات المستخدم والمخططات المعمارية وعرضها مباشرةً داخل نافذة مخصصة بجوار سجل المحادثة، في خطوة تقرّبه من قدرات توليد الصور. وبموجب التحديث، فسوف يتعرّف Claude تلقائيًا الحالات التي قد يحتاج فيه…",
-      "body": null,
+      "id": "e3a3e53d89e5ebe5",
+      "title": "Agenda diaria de la misión a la Luna de Artemis II de la NASA",
+      "link": "https://www.nasa.gov/es/agenda-diaria-de-la-mision-a-la-luna-de-artemis-ii-de-la-nasa/",
+      "summary": "Read this web article in English here. Unos ocho minutos después del despegue de Artemis II, la nave espacial Orion y su tripulación —los astronautas de la NASA Reid Wiseman, Victor Glover y Christina Koch, junto con el astronauta de la CSA (Agencia Espacial Canadiense) Jeremy Hansen— llegarán al e…",
+      "body": "El emblema de la misión Artemis II se observa en el hombro derecho de los trajes sistema de supervivencia de la tripulación de Orion que llevarán los astronautas de la NASA Reid Wiseman, Victor Glover y Christina Koch, así como el astronauta de la CSA (Agencia Espacial Canadiense) Jeremy Hansen, durante el vuelo de prueba de Artemis II. La imagen fue tomada el 17 de enero de 2026 en la sala de equipamiento del Edificio de Operaciones y Preparación Neil A. Armstrong, en el Centro Espacial Kennedy de la NASA, en Florida. Crédito: NASA/Joel Kowsky Read this web article in English&nbsp; here . Unos ocho minutos después del despegue de Artemis&nbsp;II, la nave espacial Orion y su tripulación —los astronautas de la NASA Reid Wiseman, Victor Glover y Christina Koch, junto con el astronauta de la CSA (Agencia Espacial Canadiense) Jeremy Hansen— llegarán al espacio. Este vuelo de prueba de casi 10&nbsp;días de duración estará lleno de actividades a medida que los astronautas emprenden un viaje alrededor de la Luna y de regreso a la Tierra, mientras el personal de la misión comprueba los sistemas de Orion durante el recorrido. Aunque los equipos de control de la misión podrían refinar los d…",
       "image": null,
-      "pubDate": "2026-03-13T15:37:21.000Z",
+      "pubDate": "2026-03-13T15:40:17.000Z",
       "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
       },
-      "lang": "ar",
-      "category": "technology",
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1981,18 +1978,18 @@
       "region": "global"
     },
     {
-      "id": "fe0c4d1f523186d9",
-      "title": "ميتا تؤجّل إطلاق نموذجها الجديد للذكاء الاصطناعي بعد نتائج مخيبة في الاختبارات",
-      "link": "https://aitnews.com/2026/03/13/%d9%85%d9%8a%d8%aa%d8%a7-%d8%aa%d8%a4%d8%ac%d9%91%d9%84-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%86%d9%85%d9%88%d8%b0%d8%ac%d9%87%d8%a7-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d9%84%d9%84%d8%b0%d9%83%d8%a7/",
-      "summary": "أجّلت شركة ميتا إطلاق نموذجها الجديد للذكاء الاصطناعي، الذي يحمل الاسم الرمزي “أفوكادو Avocado”، بعدما كشفت اختبارات داخلية أنه لا يرقى إلى مستوى النماذج الرائدة لدى منافسين مثل جوجل و OpenAI وأنثروبيك. وكان من المقرر طرح النموذج في منتصف مارس 2026، لكن الموعد تأجل إلى مايو على الأقل، وفق تقرير نشر…",
-      "body": null,
+      "id": "39eda552321f673d",
+      "title": "NASA’s Artemis II Moon Mission Daily Agenda",
+      "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-ii-moon-mission-daily-agenda/",
+      "summary": "About eight minutes after Artemis II lifts off, the Orion spacecraft and its crew, NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, will be in space. The approximately 10-day test flight will be packed with activity as …",
+      "body": "The Artemis II mission patch is seen on the right shoulder of the Orion Crew Survival System suits that NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen will wear on the Artemis II test flight are seen, Jan. 17, 2026, in the suit-up room of the Neil A. Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida. Credit: NASA/Joel Kowsky About eight minutes after Artemis II lifts off, the Orion spacecraft and its crew, NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, will be in space. The approximately 10-day test flight will be packed with activity as the astronauts venture around the Moon and back, with teams checking out Orion’s systems along the way. While teams in mission control could refine the crew’s schedule each day based on operational activities during the test flight, ground teams and the crew have a general plan for each day of the mission. Launch Day/Flight Day 1: Once the SLS (Space Launch System) rocket’s main engines cutoff, Orion and the interim cryogenic propulsion stage (ICPS) separate f…",
       "image": null,
-      "pubDate": "2026-03-13T15:17:58.000Z",
+      "pubDate": "2026-03-13T15:21:40.000Z",
       "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
+        "name": "NASA — Breaking News",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
       },
-      "lang": "ar",
+      "lang": "en",
       "category": "technology",
       "region": "global"
     },
@@ -2055,22 +2052,6 @@
       "source": {
         "name": "Sky News Arabia — تكنولوجيا",
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "aaffbafa9b7864c9",
-      "title": "iPhone 17e.. أبرز المزايا في هاتف آبل الاقتصادي الجديد",
-      "link": "https://aitnews.com/2026/03/13/iphone-17e-%d8%a3%d8%a8%d8%b1%d8%b2-%d8%a7%d9%84%d9%85%d8%b2%d8%a7%d9%8a%d8%a7-%d9%81%d9%8a-%d9%87%d8%a7%d8%aa%d9%81-%d8%a2%d8%a8%d9%84-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d8%a7/",
-      "summary": "بدأت آبل طرح هاتف آيفون الاقتصادي الجديد iPhone 17e في الأسواق حول العالم بعد نجاح الإصدار السابق iPhone 16e الذي طرحته العام الماضي كبديل لسلسلة iPhone SE القديمة. ويأتي هاتف iPhone 17e الجديد بمجموعة من التحسينات التي تعزّز موقعه ضمن سلسلة آيفون؛ إذ يركّز على تقديم تجربة أقرب إلى هواتف آيفون الرا…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-13T02:30:14.000Z",
-      "source": {
-        "name": "AI الملتقى (AITnews)",
-        "homepage": "https://aitnews.com/feed/"
       },
       "lang": "ar",
       "category": "technology",
