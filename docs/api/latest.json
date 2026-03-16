@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-03-16T22:54:16.243Z",
+    "generated_at": "2026-03-16T23:19:17.900Z",
     "total": 178,
-    "processed_feeds": 20,
-    "discovered_feeds": 83,
+    "processed_feeds": 21,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 60,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -22,42 +35,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/8867ac4e-a0b2-4bb1-9987-11fe98ebd21e",
+        "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 60,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
         "notModified": false
       },
       {
@@ -82,7 +69,7 @@
         "cats": [
           "general"
         ],
-        "taken": 10,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
@@ -113,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 4,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "National Geographic — Science",
         "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
         "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/articles/science/_jcr_content/feed.rss",
@@ -149,6 +110,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -204,6 +178,32 @@
         "notModified": false
       },
       {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 4,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
@@ -256,21 +256,274 @@
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 9,
+        "error": null,
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "e8bcac68ca6250a3",
+      "title": "Will ’Elon Musk Unveiled – The Tesla Experiment’ Sell to the U.S.? Its Producer Is Still Working on It",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/elon-musk-unveiled-the-tesla-experiment-doc-cphdox-1236533109/",
+      "summary": "Director Andreas Pichler and producer Christian Beetz discussed the doc during a Q&A following a screening at CPH:DOX in Copenhagen.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-16T23:08:56.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "7871e69790afe5b8",
+      "title": "Raducanu withdraws from Miami Open because of illness",
+      "link": "https://www.bbc.com/sport/tennis/articles/c77e2r520yno?at_medium=RSS&at_campaign=rss",
+      "summary": "Emma Raducanu withdraws from this week's Miami Open as she continues to recover from a recent illness.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-16T23:08:41.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4bbe9b0f2ddb5028",
+      "title": "Thiago and Rayan receive first Brazil call-ups",
+      "link": "https://www.bbc.com/sport/football/articles/c8eg0y22w2ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Brentford striker Igor Thiago and Bournemouth winger Rayan receive first call-ups to the Brazil squad for their friendlies with France and Croatia later this month.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-16T23:07:17.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "efc78a584ca1e8c3",
+      "title": "Form 4 Axos Financial Inc For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-4-axos-financial-inc-for-16-march-93CH-4564299",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2026-03-16T23:06:30.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "91760a088d693b2a",
+      "title": "Form 144 Kratos Defense & Security Solutions For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-144-kratos-defense--security-solutions-for-16-march-93CH-4564298",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2026-03-16T23:06:12.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "38f9f0cfe06610b8",
+      "title": "Fedder, AerSale director, buys $6k in ASLE stock",
+      "link": "https://www.investing.com/news/insider-trading-news/fedder-aersale-director-buys-6k-in-asle-stock-93CH-4564297",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
+      "pubDate": "2026-03-16T23:04:30.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "1ae4f715057c59cd",
+      "title": "Form 4 Precision Optics Corporation Inc For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-4-precision-optics-corporation-inc-for-16-march-93CH-4564296",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2026-03-16T23:03:33.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "861e3331fb65f8d4",
+      "title": "Form 4 Methode Electronics Inc For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-4-methode-electronics-inc-for-16-march-93CH-4564295",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2026-03-16T23:03:17.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a83b2ce1a0393f8d",
+      "title": "Form 4 Veris Residential Inc For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-4-veris-residential-inc-for-16-march-93CH-4564294",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2026-03-16T23:03:13.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a30812e75f365ff7",
+      "title": "Form 4 CrowdStrike Holdings Inc For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-4-crowdstrike-holdings-inc-for-16-march-93CH-4564293",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
+      "pubDate": "2026-03-16T23:03:13.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f90c45b6b9c72434",
+      "title": "Equillium (EQ) SVP Zedelmayer sells $300k in shares",
+      "link": "https://www.investing.com/news/insider-trading-news/equillium-eq-svp-zedelmayer-sells-300k-in-shares-93CH-4564292",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2026-03-16T23:02:15.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3241dcdfd95e7241",
+      "title": "Cuba hit by nationwide blackout as energy grid collapses",
+      "link": "https://www.ft.com/content/ebc459c6-6cb5-46db-8fac-41b6a288977f",
+      "summary": "‘Disconnection’ leaves 11mn without power in largest outage since US energy blockade began earlier this year",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-16T23:01:30.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f0803f01ba52473d",
+      "title": "Form 4 Vera Therapeutics Inc For: 16 March",
+      "link": "https://www.investing.com/news/filings/form-4-vera-therapeutics-inc-for-16-march-93CH-4564290",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+      "pubDate": "2026-03-16T23:00:47.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "9ac81fc7ba5e5aad",
+      "title": "Custom Prenups, Liposuction and Luxury Vacations: What’s Inside “Everyone Wins” Nominee Gift Bags",
+      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/awards-season-gift-bags-distinctive-assets-2026-everyone-wins-1236535310/",
+      "summary": "Not everyone is a loser on Oscar night as swag expert Lash Fary distributes curated bags to nominees featuring items like body-sculpting liposuction, cannabis, smile makeover packages and luxe vacations.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-16T22:55:37.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "lifestyle",
+      "region": "global"
+    },
+    {
+      "id": "9874f207cc051a25",
+      "title": "Bayern battle Man Utd for Anderson - Tuesday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/c3rzg95qjego?at_medium=RSS&at_campaign=rss",
+      "summary": "Bayern Munich rival Manchester United for Nottingham Forest's Elliot Anderson, Morgan Rogers could leave Aston Villa if they fail to make Champions League, Arsenal trio face uncertain future at the club, plus more.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-16T22:50:18.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "580d68afae026db1",
       "title": "Jane Fonda Wishes She Delivered Robert Redford Oscars Tribute Instead of Barbra Streisand: “I Have More to Say”",
@@ -282,118 +535,6 @@
       "source": {
         "name": "Hollywood Reporter",
         "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f0f11d1c00ddb113",
-      "title": "Stifel reiterates Rhythm Pharmaceuticals stock rating at buy",
-      "link": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-rhythm-pharmaceuticals-stock-rating-at-buy-93CH-4564272",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
-      "pubDate": "2026-03-16T22:47:23.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6e04e71b6446c421",
-      "title": "Truist reiterates Okta stock rating on AI agent security demand",
-      "link": "https://www.investing.com/news/analyst-ratings/truist-reiterates-okta-stock-rating-on-ai-agent-security-demand-93CH-4564271",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-03-16T22:47:13.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e8a1d65bf70c090b",
-      "title": "Huntington Bancshares chief corp operations officer sells $157k in stock",
-      "link": "https://www.investing.com/news/insider-trading-news/huntington-bancshares-chief-corp-operations-officer-sells-157k-in-stock-93CH-4564270",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
-      "pubDate": "2026-03-16T22:46:14.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "e0fe6bedf8c10ecc",
-      "title": "Potter Leonard buys Versant Media Group (VSNT) shares worth $510475",
-      "link": "https://www.investing.com/news/insider-trading-news/potter-leonard-buys-versant-media-group-vsnt-shares-worth-510475-93CH-4564269",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-03-16T22:45:59.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "ba22729b4a87f06c",
-      "title": "Kleinman Scott D, Huntington Bancshares senior exec. V.P., sells $1m in stock",
-      "link": "https://www.investing.com/news/insider-trading-news/kleinman-scott-d-huntington-bancshares-senior-exec-vp-sells-1m-in-stock-93CH-4564268",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
-      "pubDate": "2026-03-16T22:45:58.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "38c0b090f25e5510",
-      "title": "Vinciarelli, Vicor Corp chairman and CEO, sells $8.5 million in stock",
-      "link": "https://www.investing.com/news/insider-trading-news/vinciarelli-vicor-corp-chairman-and-ceo-sells-85-million-in-stock-93CH-4564267",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-03-16T22:45:53.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "500c23856fdf57a9",
-      "title": "Form 4 Atlantic International Corp For: 16 March",
-      "link": "https://www.investing.com/news/filings/form-4-atlantic-international-corp-for-16-march-93CH-4564266",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_pile_108x81.jpg",
-      "pubDate": "2026-03-16T22:45:16.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "general",
@@ -416,38 +557,6 @@
       "region": "global"
     },
     {
-      "id": "392da7d49cf0b081",
-      "title": "Funko chief international officer Oddie sells $43,189 in stock",
-      "link": "https://www.investing.com/news/insider-trading-news/funko-chief-international-officer-oddie-sells-43189-in-stock-93CH-4564265",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
-      "pubDate": "2026-03-16T22:43:26.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "475a291ea4734479",
-      "title": "Form 4 Deckers Outdoor Corporation For: 16 March",
-      "link": "https://www.investing.com/news/filings/form-4-deckers-outdoor-corporation-for-16-march-93CH-4564264",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-03-16T22:42:35.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "a55c1c669914a8a0",
       "title": "Bill Gurley on AI bubble: A bunch of people got rich quick and a reset is coming",
       "link": "https://www.cnbc.com/2026/03/16/bill-gurley-ai-bubble-get-rich-quick.html",
@@ -461,22 +570,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ab6bb05de795e124",
-      "title": "WD-40 declares $1.02 quarterly dividend, sets earnings call",
-      "link": "https://www.investing.com/news/company-news/wd40-declares-102-quarterly-dividend-sets-earnings-call-93CH-4564263",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-03-16T22:41:00.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -656,8 +749,8 @@
       "region": "global"
     },
     {
-      "id": "ac764d6f0106ee29",
-      "title": "‘Scarpetta’ Boss Unpacks That Cyclic Finale Cliffhanger and What It Means for Season 2",
+      "id": "0069d577ed08541e",
+      "title": "‘Scarpetta’ Boss Unpacks That Cyclical Finale Cliffhanger and What It Means for Season 2",
       "link": "https://www.hollywoodreporter.com/tv/tv-features/scarpetta-finale-explained-dr-kay-cliffhanger-season-2-1236535077/",
       "summary": "Showrunner Liz Sarnoff dives into the psyche of her Dr. Kay Scarpetta (played by Nicole Kidman) at the end of the first season of her Prime Video adaptation of Patricia Cornwell’s bestselling crime novels.",
       "body": null,
@@ -704,6 +797,22 @@
       "region": "global"
     },
     {
+      "id": "ea5cc2ba66c03753",
+      "title": "صدام جديد مع الكاف.. الأهلي يشعل معركة قانونية قبل مواجهة الترجي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AF%D8%A7%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D8%A7%D9%81-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%8A%D8%B4%D8%B9%D9%84-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%8A/blt8814a9f10e16e6ff?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المارد الأحمر ينتفض",
+      "body": "المارد الأحمر ينتفض أعلن النادي الأهلي المصري تقدمه رسميًا باحتجاج إلى الاتحاد الإفريقي لكرة القدم (كاف)، اعتراضًا على قرار تأجيل النظر في الاستئناف الذي تقدم به النادي ضد عقوبة حرمانه من حضور جماهيره في مواجهة الترجي التونسي. (اقرأ أيضًا) إشارة الذبح تشعل غضب الترجي.. هل يعاقب الكاف نجم الأهلي؟ وأوضح الأهلي أن مسؤولي النادي تلقوا إخطارًا من الكاف يفيد بتحديد موعد جلسة الاستئناف في تمام الساعة الحادية عشرة صباح اليوم الثلاثاء، قبل أن يتم إبلاغهم لاحقًا بتأجيل الجلسة إلى الساعة الواحدة ظهرًا في اليوم نفسه. ولم تمضِ سوى ساعات قليلة حتى تلقى النادي إخطارًا جديدًا من الاتحاد الإفريقي يفيد بتأجيل جلسة نظر الاستئناف إلى أجل غير مسمى، وهو ما أثار استياء إدارة الأهلي، خاصة في ظل اقتراب موعد مباراة الإياب المرتقبة أمام الترجي. وقال الأهلي في بيان رسمي: \"أرسل النادي قبل قليل احتجاجًا رسميًا إلى الاتحاد الإفريقي لكرة القدم على قرار الكاف بتأجيل نظر استئناف الأهلي، الذي كان محددًا له غدًا، وذلك بخصوص عقوبة حرمان الفريق من جماهيره في مباراة العودة أمام الترجي التونسي في إياب دور الثمانية من بطولة دوري أبطال إفريقيا\". (اقرأ أيضًا)&nbsp; جماهير الترجي تستقبل الأهلي بالزجاجات.. وهتافات قوية ضد بن رمضان وأضاف البيان: \"جاء احتجاج الأهلي بشكل عاجل بعدما تلقى النادي إخطارًا من الكاف بأن جلسة الاستئنا…",
+      "image": null,
+      "pubDate": "2026-03-16T21:17:50.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "4b86a778088e4c25",
       "title": "Bungie is adding an 'experimental' duos mode to Marathon for a few weeks: 'Some things will be a bit jank'",
       "link": "https://www.pcgamer.com/games/fps/bungie-is-adding-an-experimental-duos-mode-to-marathon-for-a-few-weeks-some-things-will-be-a-bit-jank/",
@@ -720,36 +829,20 @@
       "region": "global"
     },
     {
-      "id": "4bbe9b0f2ddb5028",
-      "title": "Thiago and Rayan receive first Brazil call-ups",
-      "link": "https://www.bbc.com/sport/football/articles/c8eg0y22w2ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Brentford striker Igor Thiago and Bournemouth winger Rayan receive first call-ups to the Brazil squad for their friendlies with France and Croatia later this month.",
-      "body": null,
+      "id": "d1837f61dbbc1752",
+      "title": "دوامة لا تنتهي.. الفيفا يخطر الزمالك بالعقوبة رقم 12",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D8%A7%D9%85%D8%A9-%D9%84%D8%A7-%D8%AA%D9%86%D8%AA%D9%87%D9%8A-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%8A%D8%AE%D8%B7%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A9-%D8%B1%D9%82%D9%85-12/blt4f378d91977bcf30?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "شكوى جديدة تؤزم وضعية النادي الأبيض",
+      "body": "شكوى جديدة تؤزم وضعية النادي الأبيض في تطور جديد يعمق أزمة القلعة البيضاء، أعلن الاتحاد الدولي لكرة القدم (فيفا) اليوم الإثنين توقيع عقوبة إيقاف جديدة ضد نادي الزمالك. ووفقا للقرار سيتم إيقاف قيد الزمالك لمدة 3 فترات انتقالية متتالية، ليصل بذلك عدد قرارات إيقاف القيد ضد النادي الأبيض إلى 12 قضية منذ بداية الأزمات الأخيرة. وجاء القرار بعد تحديث موقع فيفا الرسمي، حيث لم يحدد الاتحاد الدولي في البداية هوية الطرف المتضرر، لكن مصادر داخل النادي كشفت لوكالة الأنباء الألمانية أن السبب الرئيسي هو مستحقات نادي سانت إتيان الفرنسي المتأخرة من صفقة انتقال اللاعب المغربي محمود بنتايك. وذكرت تقارير مصرية متطابقة أن هذه المستحقات تبلغ حوالي 500 ألف يورو. وحتى سداد المستحقات سوف يمنع الزمالك من ضم أي لاعبين جدد في الفترات الانتقالية القادمة، سواء الصيفية المقبلة، أو حتى الشتوية التالية. وتأتي هذه القضية الـ12 ضمن سلسلة طويلة من الإيقافات السابقة التي شملت قضايا متعددة، تخص المستحقات المتأخرة للاعبين ومدربين وأندية أخرى، وأبرزها مستحقات المدير الفني الأسبق للفريق، البرتغالي جوزيه جوميز ومساعديه، ومستحقات المدير الفني الأسبق السويسري كريستيان جروس، ومستحقات اللاعب التونسي فرجاني ساسي.",
       "image": null,
-      "pubDate": "2026-03-16T21:16:16.000Z",
+      "pubDate": "2026-03-16T21:16:32.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "fd50787b41f39e92",
-      "title": "Oscars: What You Didn’t See on TV",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/best-unseen-moments-2026-oscars-1236535056/",
-      "summary": "From hanging out in the lobby with Emma Stone and Jacob Elordi to the deafening sound of Michael B. Jordan's win, this is what couldn't be conveyed on television.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-16T21:14:18.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "region": "mena"
     },
     {
       "id": "e6d1b2d02acdc7d9",
@@ -782,6 +875,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "868fdd936082d071",
+      "title": "سكولز: سلوت جعل أنفيلد من أسهل ملاعب البريميرليج",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%83%D9%88%D9%84%D8%B2-%D8%B3%D9%84%D9%88%D8%AA-%D8%AC%D8%B9%D9%84-%D8%A7%D9%94%D9%86%D9%81%D9%8A%D9%84%D8%AF-%D9%85%D9%86-%D8%A7%D9%94%D8%B3%D9%87%D9%84-%D9%85%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/blt7a10ca97922cef11?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أسطورة مانشستر يونايتد يتذكر أيام كلوب مع الريدز",
+      "body": "أسطورة مانشستر يونايتد يتذكر أيام كلوب مع الريدز انتقد لاعب خط وسط مانشستر يونايتد السابق بول سكولز أسلوب لعب آرني سلوت في ليفربول، مشيرًا إلى أنه جعل ملعب أنفيلد أحد \"أسهل\" الأماكن للزيارة. يُعاني ليفربول من موسم كارثي، حيث يحتل حاليًا المركز الخامس في الدوري الإنجليزي الممتاز، ويبقى موقفه محفوفًا بالمخاطر في دوري أبطال أوروبا. انتهى مشوار ليفربول في الدفاع عن اللقب منذ فترة طويلة، وتعرض سلوت لانتقادات لاذعة في الأسابيع الأخيرة. لطالما افتخر ليفربول بأدائه القوي على أرضه، لكنه خسر ثلاث مباريات في ملعب أنفيلد في الدوري الإنجليزي الممتاز حتى الآن هذا الموسم وتعادل في أربع مباريات أخرى. في المباراة الماضية، أضاع ليفربول تقدمًا بنتيجة 1-0 أمام توتنهام المتعثر ، مما أثار المزيد من الانتقادات، ويرى سكولز أن أسلوب ليفربول - وعدم تأثير ملعب أنفيلد - قد ساهم في انهيارهم. قال سكولز في بودكاست \"الجيد والسيئ وكرة القدم\": \" لطالما كان ملعب أنفيلد أصعب مكان للذهاب إليه. وقد ذكر جيمي كاراجر ذلك مرات عديدة، حيث كان المشجعون واللاعبون يحيطون بك من كل جانب\". وأضاف حسبما نقلت صحيفة \"ديلي ميل\": \"لقد فقدوا تلك العزيمة على إيقاف الفريق الآخر. لم تعد موجودة. لقد أصبحوا فريقاً يعتمد على الاستحواذ بشكل كبير. فلوريان فيرتز لاعب كرة قدم رائع، لكنني أعتقد أنه جعلهم فريقاً يعتمد على الاستحواذ أكثر من أي شيء …",
+      "image": null,
+      "pubDate": "2026-03-16T21:00:20.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "ea39cd2e39d65061",
@@ -877,22 +986,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3241dcdfd95e7241",
-      "title": "Cuba hit by nationwide blackout as energy grid collapses",
-      "link": "https://www.ft.com/content/ebc459c6-6cb5-46db-8fac-41b6a288977f",
-      "summary": "‘Disconnection’ leaves 11mn without power in largest outage since US energy blockade began earlier this year",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-16T20:33:15.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1150,22 +1243,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "7871e69790afe5b8",
-      "title": "Raducanu withdraws from Miami Open because of illness",
-      "link": "https://www.bbc.com/sport/tennis/articles/c77e2r520yno?at_medium=RSS&at_campaign=rss",
-      "summary": "Emma Raducanu withdraws from this week's Miami Open as she continues to recover from a recent illness.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-16T19:44:47.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "75343aa05f974d31",
@@ -1440,22 +1517,6 @@
       "region": "global"
     },
     {
-      "id": "e2659e427ba44d6a",
-      "title": "أرتيتا يعلن غياب ثنائي آرسنال أمام ليفركوزن",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D9%8A%D8%B9%D9%84%D9%86-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%84%D9%8A%D9%81%D8%B1%D9%83%D9%88%D8%B2%D9%86/bltb4df74fc22b9fcc1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ضربتان لكتيبة الجانرز",
-      "body": "ضربتان لكتيبة الجانرز أكد الإسباني ميكيل أرتيتا مدرب آرسنال، استبعاد ثنائي الفريق اللندني من مواجهة باير ليفركوزن، مساء غدٍ الثلاثاء، على ملعب الإمارات، في إياب ثمن نهائي دوري أبطال أوروبا. وحسم التعادل الإيجابي (1-1) مواجهة الذهاب ليفركوزن وآرسنال، التي أقيمت الأسبوع الماضي، على ملعب باي أرينا. وأعلن أرتيتا غياب كل من مارتن أوديجارد ويورين تيمبر عن مباراة آرسنال الحاسمة في دوري أبطال أوروبا أمام باير ليفركوزن. في المقابل، عاد لياندرو تروسارد إلى التدريبات ومن المتوقع مشاركته في مباراة دور الـ16. خرج المدافع تيمبر مصابًا في الشوط الأول من فوز آرسنال المثير 2-0 على إيفرتون على أرضه يوم السبت. في الوقت نفسه، غاب القائد أوديجارد عن آخر خمس مباريات للمدفعجية بسبب إصابة في الركبة. وغاب الثنائي عن التدريبات قبل مباراة الإياب، بحسب ما ذكرت صحيفة \"ميرور\" الإنجليزية. وقال أرتيتا في مؤتمر صحفي قبل المباراة: \"نعم، كلاهما (تيمبر وأوديجارد) خارج التشكيلة\". وأضاف مدرب آرسنال بخصوص تروسارد، الذي شارك في التدريبات اليوم الإثنين: \"هو بخير، وشعر بأنه بحالة جيدة\". اقرأ أيضًا: البطل القذر الذي يكرهونه.. كيف تصالح أرسنال مع \"الحقيقة المرّة\" ليعتلي قمة إنجلترا؟",
-      "image": null,
-      "pubDate": "2026-03-16T17:34:33.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "686017c947b41c3b",
       "title": "How Chelsea signed a star team with hidden payments",
       "link": "https://www.bbc.com/sport/football/articles/cn48e171zlvo?at_medium=RSS&at_campaign=rss",
@@ -1472,22 +1533,6 @@
       "region": "global"
     },
     {
-      "id": "9f718db744b27754",
-      "title": "غياب نيمار وحضور ثلاثي \"روشن\".. أنشيلوتي يعلن قائمة البرازيل لبروفة المونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%BA%D9%8A%D8%A7%D8%A8-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%88%D8%AD%D8%B6%D9%88%D8%B1-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%94%D9%86%D8%B4%D9%8A%D9%84%D9%88%D8%AA%D9%8A-%D9%8A%D8%B9%D9%84%D9%86-%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84-%D9%84%D8%A8%D8%B1%D9%88%D9%81%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/bltc673841c6ca187ea?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "وجوه جديدة تدخل حسابات المدرب الإيطالي",
-      "body": "وجوه جديدة تدخل حسابات المدرب الإيطالي أعلن المدير الفني الإيطالي كارلو أنشيلوتي قائمة اللاعبين المستدعين للمنتخب البرازيلي استعدادا لخوض مباراتين وديتين أمام منتخبي فرنسا وكرواتيا، وذلك يومي 26 و31 مارس الجاري على، الأراضي الأمريكية. ووصفت الصحف البرازيلية هذه القائمة بأنها \"لأخيرة قبل حسم قائمة كأس العالم\" التي ستُعلن في 18 مايو المقبل. ووقع المنتخب البرازيلي في المجموعة الثالثة مع منتخبات المغرب وهايتي وإسكتلندا. وشهدت القائمة الحالية عدة تغييرات بارزة مقارنة بالقوائم السابقة التي اختارها أنشيلوتي في شهري أغسطس ونوفمبر 2025. وضمت القائمة عدة وجوه جديدة مثل جابرييل سارا (جالطة سراي) الذي استدعي للمرة الأولى، وإيجور تياجو (برينتفورد) ورايان (بورنموث) وليو بيريرا (فلامنجو). كما استدعى أنشيلوتي، إندريك لاعب ليون المعار من ريال مدريد، بجانب ثلاثي دوري \"روشن\" السعودي: روجر إيبانيز (الأهلي السعودي) والحارس بينتو (النصر)، وفابينيو (اتحاد جدة)&nbsp; وغاب نيمار عن القائمة كما هو متوقع، بالإضافة إلى رودريجو المصاب وريتشارليسون، مما يعكس توجه أنشيلوتي نحو اللاعبين الجاهزين، وتجاهل الأسماء الكبيرة غير المستقرة بدنيا. قائمة البرازيل لوديتي فرنسا وكرواتيا: حراس المرمى: أليسون – بينتو – إيدرسون. المدافعون: أليكس ساندرو – بريمر – دانيلو – دوجلاس سانتوس – جابرييل ماجالايس – إيبانيز – ليو بيريرا …",
-      "image": null,
-      "pubDate": "2026-03-16T17:29:12.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "4022a2ff8ece66b1",
       "title": "Apollo's John Zito questions private equity's software valuations: 'All the marks are wrong'",
       "link": "https://www.cnbc.com/2026/03/16/apollo-john-zito-private-equity-software-valuations.html",
@@ -1502,22 +1547,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "de0f2f09b2348d4c",
-      "title": "خطوة مفاجئة من النصر بعد قرار الاتحاد الآسيوي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%B7%D9%88%D8%A9-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A8%D8%B9%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%93%D8%B3%D9%8A%D9%88%D9%8A/blt977dba71a9fa5bf5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "العالمي يتحرك بشكل عاجل",
-      "body": "العالمي يتحرك بشكل عاجل أكدت تقارير صحفية، مساء الإثنين، أن النصر السعودي، تحرك بشكل عاجل لمخاطبة رابطة دوري روشن للمحترفين من أجل النظر في جدول مباريات الفريق، بعد قرار الاتحاد الآسيوي لكرة القدم، بشأن استئناف بطولة آسيا 2. وكان الاتحاد الآسيوي لكرة القدم، قد أكد رغبته في استئناف مباريات دوري أبطال آسيا 2، ولكن بنظام المباراة الواحدة بدلًا من الذهاب والإياب على أرض محايدة. اقرأ التفاصيل ومن المقرر أن تقام مباريات الدورين ربع ونصف النهائي خلال الفترة من 19 أبريل/نيسان الجاري حتى 22 من الشهر ذاته. وبحسب ما ذكره الإعلامي عبدالعزيز العصيمي، عبر حسابه الرسمي بمنصة \"إكس\" للتواصل الاجتماعي، فإن النصر خاطب رابطة دوري المحترفين السعودي بطلب تعديل موعد مباراته أمام الاتفاق ضمن منافسات الجولة الـ29، وذلك في حال اعتماد الموعد الجديد للأدوار المتقدمة من البطولات الآسيوية. ومن المقرر أن يواجه النصر نظيره الوصل الإماراتي في الدور ربع النهائي من البطولة القارية، في مواجهة مرتقبة يسعى خلالها الفريقان إلى حجز بطاقة التأهل إلى الدور التالي ومواصلة المشوار نحو اللقب.",
-      "image": null,
-      "pubDate": "2026-03-16T17:02:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "5f8fb83b55a8a89b",
@@ -1693,22 +1722,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "639b9a2ca48f7c1d",
-      "title": "Scotland to host World Rally Championship race",
-      "link": "https://www.bbc.com/sport/motorsport/articles/c20z51g97y7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The World Rally Championship will return to the UK for the first time in eight years when the north-east of Scotland hosts a round in 2027.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-16T15:45:21.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
