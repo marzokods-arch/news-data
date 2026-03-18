@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-18T23:25:19.500Z",
-    "total": 204,
+    "generated_at": "2026-03-18T23:45:59.434Z",
+    "total": 206,
     "processed_feeds": 17,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -35,15 +35,80 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 20,
+        "taken": 55,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 106\nColumn: 68\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Yallakora",
+        "url": "https://www.yallakora.com/feed/rssfeed",
+        "homepage": "https://www.yallakora.com/feed/rssfeed",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
         "error": null,
         "notModified": false
       },
@@ -61,120 +126,16 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 53,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 106\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Yallakora",
-        "url": "https://www.yallakora.com/feed/rssfeed",
-        "homepage": "https://www.yallakora.com/feed/rssfeed",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -191,16 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -228,10 +189,145 @@
         "taken": 0,
         "error": "Error: HTTP 403",
         "notModified": false
+      },
+      {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 7,
+        "error": null,
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "d86f07e4a39ffdbe",
+      "title": "Nippon TV’s ‘Tokyo Miko Ninja’ Shows What Human-AI Co-Creation Looks Like in Practice (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/news/tokyo-miko-ninja-nippon-ai-human-creativity-blend-1236692030/",
+      "summary": "When Nippon TV premiered “Tokyo Miko Ninja” in January, the Japanese broadcaster wasn’t testing the waters on AI-integrated drama production. It was, by its own account, making a declaration. Set in a stylized version of present-day Tokyo where the sensibility of the Edo period lingers, the series …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/Tokyo-Miko-Ninja.jpg",
+      "pubDate": "2026-03-18T23:45:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "284035f822a2b779",
+      "title": "Hong Kong’s First Multi-Sensory XR Film Announced at Filmart (EXCLUSIVE)",
+      "link": "https://variety.com/2026/digital/asia/hong-kong-multi-sensory-xr-film-1236692102/",
+      "summary": "Hong Kong cinema takes a bold leap into the immersive era as veteran director and cinematographer Kwok-man Keung unveils “Harbour Dreams: Hong Kong XR Adventure” at this year’s FilMart. Hailed as the city’s first 6D multi-sensory film, the 20-minute experience blends VR, AR, motion, and scent techn…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/mmexport1773128363224.jpg.jpeg",
+      "pubDate": "2026-03-18T23:40:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "38b07a0de554f564",
+      "title": "Tudor pleased with first win considering Spurs' injury list",
+      "link": "https://www.bbc.com/sport/football/videos/cvgjgzyplypo?at_medium=RSS&at_campaign=rss",
+      "summary": "Tottenham head coach Igor Tudor praises his side's 3-2 win against Atletico Madrid in the Champions League, as he outlined the club's severe injury crisis meaning he had a lack of options from the bench during the second leg of their last 16 tie at the Tottenham Hotspur stadium.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-18T23:30:20.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "be395b854dc7399f",
+      "title": "Barcelona seek second Rashford loan - Thursday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/clyzy62qp4no?at_medium=RSS&at_campaign=rss",
+      "summary": "Barcelona want a second Marcus Rashford loan, Manchester United eye Wilfred Ndidi, Dortmund try to resign Jadon Sancho, plus more.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-18T23:24:23.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "3d21c7fe76dbf1c0",
+      "title": "From hope to humiliation, so what now for Newcastle?",
+      "link": "https://www.bbc.com/sport/football/articles/cjene4jj8xwo?at_medium=RSS&at_campaign=rss",
+      "summary": "After a humbling Champions League last-16 defeat by Barcelona, what next for Eddie Howe's Newcastle?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-18T23:18:54.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1c3cf66ba0103dc8",
+      "title": "Four English teams out in 24 hours - what just happened and why?",
+      "link": "https://www.bbc.com/sport/football/articles/cqxd55dxrejo?at_medium=RSS&at_campaign=rss",
+      "summary": "With just two out of six Premier League teams progressing to the Champions League quarter-finals, what went wrong for the English sides?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-18T23:18:20.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "40e544aeaaa40cf7",
       "title": "بعد سلبه من السنغال.. موسيماني لـ ليلا كورة: منح المغرب لقب الكان قرارًا خاطئًا من الكاف",
@@ -240,6 +336,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-18T23:14:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a91da66b69eaff88",
+      "title": "موعد مباريات الأهلي والمصرية للإتصالات في نصف نهائي دوري السوبر للسلة",
+      "link": "https://www.yallakora.com/basketball/2825/news/544779/%d9%85%d9%88%d8%b9%d8%af-%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%a5%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d9%81%d9%8a-%d9%86%d8%b5%d9%81-%d9%86%d9%87%d8%a7%d8%a6%d9%8a-%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%a8%d8%b1-%d9%84%d9%84%d8%b3%d9%84%d8%a9",
+      "summary": "تأهل الفريق الأول لكرة السلة رجال بالنادي الأهلي إلى نصف نهائي دوري السوبر بعد عبور موقعة سبورتنج في ربع نهائي الدوري التي ذهبت إلى مباراة فاصلة.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-18T23:00:00.000Z",
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
@@ -259,22 +371,6 @@
       "source": {
         "name": "Variety (Entertainment)",
         "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a91da66b69eaff88",
-      "title": "موعد مباريات الأهلي والمصرية للإتصالات في نصف نهائي دوري السوبر للسلة",
-      "link": "https://www.yallakora.com/basketball/2825/news/544779/%d9%85%d9%88%d8%b9%d8%af-%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%a5%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d9%81%d9%8a-%d9%86%d8%b5%d9%81-%d9%86%d9%87%d8%a7%d8%a6%d9%8a-%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%a8%d8%b1-%d9%84%d9%84%d8%b3%d9%84%d8%a9",
-      "summary": "تأهل الفريق الأول لكرة السلة رجال بالنادي الأهلي إلى نصف نهائي دوري السوبر بعد عبور موقعة سبورتنج في ربع نهائي الدوري التي ذهبت إلى مباراة فاصلة.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-18T23:00:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
       },
       "lang": "en",
       "category": "sports",
@@ -441,8 +537,8 @@
       "region": "global"
     },
     {
-      "id": "2f09189cd700c019",
-      "title": "Kane reaches 50 Champions League goals with 'exceptional' strike against Atalanta",
+      "id": "fb66165abd8ea99b",
+      "title": "Kane scores 'exceptional' goal to reach 50 Champions League goals",
       "link": "https://www.bbc.com/sport/football/videos/cwy8y201zdjo?at_medium=RSS&at_campaign=rss",
       "summary": "Watch as Bayern Munich's Harry Kane scores his 50th goal in the Champions League with an \"exceptional\" strike against Atalanta as the German side win the second leg 4-1, and progress to the quarter-finals 10-2 on aggregate.",
       "body": null,
@@ -553,6 +649,38 @@
       "region": "global"
     },
     {
+      "id": "7fc3012fc3f6490f",
+      "title": "يايسله: كرة القدم ظالمة.. ولم نستغل أخطاء الهلال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%8A%D8%A7%D9%8A%D8%B3%D9%84%D9%87-%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85-%D8%B8%D8%A7%D9%84%D9%85%D8%A9-%D9%88%D9%84%D9%85-%D9%86%D8%B3%D8%AA%D8%BA%D9%84-%D8%A7%D9%94%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blta45cb24af06ef9ed?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تصريحات مثيرة من المدرب الألماني",
+      "body": "تصريحات مثيرة من المدرب الألماني أعرب الألماني ماتياس يايسله، مدرب أهلي جدة، عن حزنه الشديد، بعد وداع كأس خادم الحرمين الشريفين، وذلك نتيجة الخسارة أمام الهلال، بنتيجة (2-4) بركلات الترجيح، مساء الأربعاء. وأسدل الستار على المباراة بنتيجة التعادل (1-1)، ضمن منافسات الدور نصف النهائي، قبل أن يتجه الفريفان لركلات الترجيح، بسبب توهج المغربي ياسين بونو والذي تصدى لركلتين. وقال يايسله في تصريحات بالمؤتمر الصحفي عقب المباراة: \"نشعر بخيبة أمل كبير، فمثل هذه الليالي تشعرك بالحزن، لأننا صنعنا الكثير من الفرص التي كانت كفيلة لقتل المباراة، لذلك كرة القدم ظالمة\". اقرأ أيضًا.. تحليل: رعونة الأهلي تُنقذ إنزاجي من أنياب جماهير الهلال وتابع حديثه: \"أشعر بالفخر ولكنني حزين على إهدار الفرص، ولكننا يجب أن تعلم أن نتدارك مثل هذه الأمور في قادم المواعيد\". وعن تأخر التبديلات، قال يايسله: \"لقد نجحنا في السيطرة ووصلنا لمرمى الخصم في عدة مناسبات، لذا تأخرت في إشراك بعض اللاعبين\". واختتم تصريحاته بالتأكيد على أن الفريق يركز فقط على ما يمكنه التأثير عليه، مشيرًا إلى أن اللاعبين يدركون حجم المسؤولية رغم مرارة الخسارة، خاصة بعد فترة طويلة من الضغط.",
+      "image": null,
+      "pubDate": "2026-03-18T21:44:35.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "d0c23818522dba14",
+      "title": "بالفيديو.. كوليبالي: كأس أمم أفريقيا ستعود للسنغال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D9%88%D9%84%D9%8A%D8%A8%D8%A7%D9%84%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%B3%D8%AA%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84/blt768ef79895d14e73?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مدافع الهلال علق على قرار \"الكاف\" المثير للجدل",
+      "body": "مدافع الهلال علق على قرار \"الكاف\" المثير للجدل أكد السنغالي كاليدو كوليبالي، مدافع الهلال، أن بطولة كأس الأمم الأفريقية 2025 ستعود إلى منتخب بلاده، بعد سحبها منه لصالح منتخب المغرب. وأعلن الاتحاد الأفريقي لكرة القدم، في ساعة مبكرة من صباح الأربعاء، تتويج منتخب المغرب ببطولة كأس الأمم الأفريقية 2025، على حساب السنغال، بعد الأحداث التي شهدتها المباراة النهائية في يناير/كانون الثاني الماضي. ونقلت صحيفة \"اليوم\" السعودية تعليق كوليبالي على هذا القرار، بعدما قاد الهلال للفوز على الأهلي بركلات الترجيح، الأربعاء، في الدور نصف النهائي من بطولة كأس خادم الحرمين الشريفين. ونشرت الصحيفة، عبر حسابها الرسمي على موقع \"إكس\"، مقطع فيديو للمدافع السنغالي، خلال حديثه مع الإعلامي السعودي إبراهيم الفريان بعد المباراة، مشيرة إلى أنه قال: \"كأس أمم أفريقيا ستعود للسنغال\". يُذكر أن كوليبالي يمتلك زميلًا مغربيًا في نادي الهلال، وهو ياسين بونو الذي حصل على لقب أفضل حارس مرمى في بطولة كأس الأمم الأفريقية 2025.",
+      "image": null,
+      "pubDate": "2026-03-18T21:41:43.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "4047368af1562491",
       "title": "يعزز مصداقية كرة القدم الأفريقية.. أول تعليق من الاتحاد المغربي على قرار سحب لقب الكان من السنغال",
       "link": "https://www.yallakora.com/afcon/2958/news/544765/%d9%8a%d8%b9%d8%b2%d8%b2-%d9%85%d8%b5%d8%af%d8%a7%d9%82%d9%8a%d8%a9-%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d9%82%d8%af%d9%85-%d8%a7%d9%84%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a9-%d8%a3%d9%88%d9%84-%d8%aa%d8%b9%d9%84%d9%8a%d9%82-%d9%85%d9%86-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-%d8%b9%d9%84%d9%89-%d9%82%d8%b1%d8%a7%d8%b1-%d8%b3%d8%ad%d8%a8-%d9%84%d9%82%d8%a8-%d8%a7%d9%84%d9%83%d8%a7%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d9%86%d8%ba%d8%a7%d9%84",
@@ -601,20 +729,36 @@
       "region": "global"
     },
     {
-      "id": "f9ec71b0f8d2bea1",
-      "title": "Universal Music Chief Lucian Grainge Explains His Excitement for AI at Nvidia Conference: ‘I Love Disruption’",
-      "link": "https://variety.com/2026/music/news/lucian-grainge-ai-universal-nvidia-1236692793/",
-      "summary": "Lucian Grainge, chairman-CEO of Universal Music Group, doesn’t tend to shy away from new technologies, as he explained on Tuesday in a future-focused conversation with Nvidia entertainment exec Richard Kerris, in which he made apparent his enthusiasm for AI. “I love change. I love disruption. I lik…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/GettyImages-2266743006-e1773868978452.jpg",
-      "pubDate": "2026-03-18T21:27:55.000Z",
+      "id": "48299a0ddca23fb5",
+      "title": "أسطورة السنغال عن تتويج المغرب: ظننتها مزحة!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D8%B9%D9%86-%D8%AA%D8%AA%D9%88%D9%8A%D8%AC-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%B8%D9%86%D9%86%D8%AA%D9%87%D8%A7-%D9%85%D8%B2%D8%AD%D8%A9/blt182892d85d81f177?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "السنغال عارضت بشدة قرار الكاف",
+      "body": "السنغال عارضت بشدة قرار الكاف أعرب سليمان دياوارا، النجم السابق للمنتخب السنغالي، عن ذهوله الشديد وصدمته من قرار الاتحاد الإفريقي لكرة القدم (كاف)، القاضي بمنح لقب كأس الأمم الإفريقية 2025 للمنتخب المغربي، بعد سحبه من السنغال. وقال دياوارا، اليوم الأربعاء، في تصريحات عبر شبكة \"راديو مونت كارلو\" الفرنسية: \"بصراحة، ظننتها مزحة.. ما يزعجني هو مرور شهرين قبل اتخاذ القرار\". اقرأ أيضًا كواليس القرار التاريخي.. واقعة الوداد تمنح المغرب لقب إفريقيا كيف تلقى حكيمي وثنائي السنغال قرار الكاف؟ بعد التتويج الإفريقي.. مواجهة أوروبية مرتقبة للمغرب وأبدى لاعب مارسيليا السابق قلقه من تداعيات هذا القرار على سمعة القارة السمراء، قائلًا: \"سنزيد من تشويه صورة كرة القدم الإفريقية، وهي ليست بحاجة إلى ذلك\". وكانت المباراة النهائية لـ \"الكان\" قد شهدت مغادرة لاعبي منتخب السنغال أرض الملعب، لنحو 14 دقيقة، احتجاجًا على ركلة جزاء احتسبت للمغرب المضيف، في الدقائق الأخيرة. وذلك قبل أن يعود السنغاليون لاستكمال اللقاء، والفوز (1-0) في الوقت الإضافي، عقب إهدار إبراهيم دياز ركلة جزاء لأسود الأطلس. وقرر الكاف قبول استئناف الاتحاد المغربي، حيث اعتبر منتخب السنغال \"منسحبًا\" من المباراة النهائية، مع احتساب النتيجة لصالح المغرب اعتباريًا (3-0).",
+      "image": null,
+      "pubDate": "2026-03-18T21:29:31.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e87c4110a46c5d32",
+      "title": "بالفيديو.. رئيس الهلال: الحكم خرب الكلاسيكو.. ولا يمكنني تقييم إنزاجي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%AE%D8%B1%D8%A8-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D9%88%D9%84%D8%A7-%D9%8A%D9%85%D9%83%D9%86%D9%86%D9%8A-%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%A7%D9%95%D9%86%D8%B2%D8%A7%D8%AC%D9%8A/blt9e0cc368bf5d4c13?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأمير نواف بن سعد يدافع عن المدرب الإيطالي بعد الفوز على الأهلي",
+      "body": "الأمير نواف بن سعد يدافع عن المدرب الإيطالي بعد الفوز على الأهلي شن الأمير نواف بن سعد، رئيس نادي الهلال، هجومًا قويًا على حكم مباراة الكلاسيكو ضد الغريم التقليدي الأهلي، في كأس خادم الحرمين الشريفين. وفاز الهلال على الأهلي بركلات الترجيح بنتيجة 4-2، بعد نهاية الوقتين الأصلي والإضافي بالتعادل الإيجابي 1-1، خلال المباراة التي جمعت بينهما، الأربعاء، على ملعب الإنماء بجدة، في نصف نهائي كأس خادم الحرمين الشريفين. وقال الأمير نواف بن سعد في تصريحات نقلتها صحيفة \"اليوم\" السعودية: \"كانت مباراة كبيرة بين فريقين كبيرين، واحتاجت لمجهود بدني عالٍ، لا سيما وأنها امتدت لـ120 دقيقة، في ظل ارتفاع الرطوبة\". واستطرد: \"أشكر الجهازين الفني والإداري واللاعبين على هذه النتيجة، وعلى القتال في أرض الملعب\". واستدرك: \"ما خرب المباراة اليوم، هو الحكم الذي احتسب ركلة جزاء غير صحيحة للأهلي، لا أعرف رأي المحللين، ولكن في رأيي هذا القرار لم يكن صائبًا\". واحتسب الحكم ركلة جزاء لصالح الأهلي، في الدقيقة 78 من عمر المباراة، بعد العودة لتقنية الفيديو، بداعي تعرض البرازيلي روجر إيبانيز، مدافع \"الراقي\"، للإعاقة من قبل حسان تمبكتي مدافع \"الزعيم\". كما دافع رئيس الهلال عن الإيطالي سيموني إنزاجي، المدير الفني للفريق، معتبرًا أنه مدرب كبير ويصعب عليه تقييمه. وأوضح: \"سيموني إنزاجي مدرب كبير، ويمتلك تاريخًا كبيرًا، ومن الصع…",
+      "image": null,
+      "pubDate": "2026-03-18T21:26:49.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d038950e6a464a7a",
@@ -631,22 +775,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "21af43e73f08191c",
-      "title": "Variety Launches Inaugural ‘TV Week,’ a Curated Series of Invite-Only Emmy Season Events",
-      "link": "https://variety.com/2026/awards/news/variety-tv-week-invite-only-emmy-season-events-1236692776/",
-      "summary": "For the first time, Variety is introducing TV Week, a dynamic, invite-only slate of events designed exclusively for TV Academy voters and guild members during the height of Emmy season. Spanning four days from May 5-8, the inaugural slate of events will cut through the noise of the crowded FYC land…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/TV_WEEK_2026_EA_IMAGE_V1.jpg",
-      "pubDate": "2026-03-18T21:19:04.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "8707da4e5e508a62",
@@ -992,70 +1120,6 @@
       "body": "تعرف على جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2025-2026 والقنوات الناقلة والترتيب.. يستعد بايرن ميونخ لخوض نسخة جديدة من دوري أبطال أوروبا وطموحه تكرار إنجاز 2020 وحصد البطولة. بايرن ميونخ قدّم مستويات جيدة النسخة الماضية لكن خرج أمام إنتر في ربع نهائي البطولة. ونجحت كتيبة كومباني في جلب صفقات كبيرة خلال الصيف الجاري، وسوف يبذل الفريق جهدًا كبيرًا لإعادة ذات الأذنين إلى ألمانيا. ويستعرض كووورة جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2025-2026 وترتيبه العام في مرحلة الدوري.. ترتيب بايرن ميونخ في مرحلة الدوري من دوري أبطال أوروبا 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 8 8 0 0 23 4 19 24 2 بايرن ميونخ 8 7 0 1 22 8 14 21 3 ليفربول 8 6 0 2 20 8 12 18 4 توتنهام 8 5 2 1 17 7 10 17 5 برشلونة 8 5 1 2 22 14 8 16 6 تشيلسي 8 5 1 2 17 10 7 16 7 سبورتينج لشبونة 8 5 1 2 17 11 6 16 8 مانشستر سيتي 8 5 1 2 15 9 6 16 9 ريال مدريد 8 5 0 3 21 12 9 15 10 إنتر 8 5 0 3 15 7 8 15 11 باريس سان جيرمان 8 4 2 2 21 11 10 14 12 نيوكاسل يونايتد 8 4 2 2 17 7 10 14 13 يوفنتوس 8 3 4 1 14 10 4 13 14 أتلتيكو مدريد 8 4 1 3 17 15 2 13 15 أتالانتا 8 4 1 3 10 10 0 13 16 ليفركوزن 8 3 3 2 13 14 -1 12 17 دورتموند 8 3 2 3 19 17 2 11 18 أوليمبياكوس 8 3 2 3 10 …",
       "image": null,
       "pubDate": "2026-03-18T20:10:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "eb1ed5f357a36bda",
-      "title": "جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blte2bf0168cbc59d70?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 والقنوات الناقلة والترتيب..",
-      "body": "تعرف على جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 والقنوات الناقلة والترتيب.. يستعد ليفربول لخوض نسخة جديدة من دوري أبطال أوروبا وطموحه تكرار إنجاز 2019 وحصد البطولة. الريدز قدّم مستويات مميزة الموسم الماضي في دوري الأبطال وتصدر مرحلة الدوري، لكنّه ودّع المسابقة من ثمن النهائي أمام باريس سان جيرمان. ونجحت كتيبة أرني سلوت في جلب صفقات كبيرة خلال الصيف الجاري، كما بدأ ليفربول الموسم بنتائج إيجابية، لترتفع التطلعات بالفوز باللقب القاري في الموسم الحالي. ويستعرض كووورة جدول مباريات ليفربول في دوري أبطال أوروبا 2025-2026 وترتيبه العام في مرحلة الدوري.. ترتيب ليفربول في مرحلة الدوري من دوري أبطال أوروبا 2025-2026 المركز الفريق المباريات الأهداف النقاط لعب فاز تعادل خسر له عليه الفارق 1 آرسنال 8 8 0 0 23 4 19 24 2 بايرن ميونخ 8 7 0 1 22 8 14 21 3 ليفربول 8 6 0 2 20 8 12 18 4 توتنهام 8 5 2 1 17 7 10 17 5 برشلونة 8 5 1 2 22 14 8 16 6 تشيلسي 8 5 1 2 17 10 7 16 7 سبورتينج لشبونة 8 5 1 2 17 11 6 16 8 مانشستر سيتي 8 5 1 2 15 9 6 16 9 ريال مدريد 8 5 0 3 21 12 9 15 10 إنتر 8 5 0 3 15 7 8 15 11 باريس سان جيرمان 8 4 2 2 21 11 10 14 12 نيوكاسل يونايتد 8 4 2 2 17 7 10 14 13 يوفنتوس 8 3 4 1 14 10 4 13 14 أتلتيكو مدريد 8 4 1 3 17 15 2 13 15 أتالانتا 8 4 1 3 10 10 0 13 16 ليفركوزن 8 3 3 2 13…",
-      "image": null,
-      "pubDate": "2026-03-18T20:09:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "794bfb9c6ac04ee5",
-      "title": "جدول مباريات برشلونة في دوري أبطال أوروبا 2025-2026 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2025-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/bltcfd694f51735bf74?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول مباريات برشلونة في دوري أبطال أوروبا 2025-2026 والقنوات الناقلة والترتيب..",
-      "body": "تعرف على جدول مباريات برشلونة في دوري أبطال أوروبا 2025-2026 والقنوات الناقلة والترتيب.. يخوض العملاق الإسباني برشلونة منافسات دوري أبطال أوروبا 2025-2026، بطموحات كبرى من أجل العودة إلى منصات التتويج القارية بعد غياب دام 11 عامًا. برشلونة سيطر في الموسم الماضي 2024-2025، على جميع البطولات المحلية في إسبانيا وكان قاب قوسين أو أدنى من بلوغ نهائي دوري الأبطال، لكنه خرج بسيناريو مثير على يد إنتر الإيطالي. وتحت قيادة المدرب الألماني هانسي فليك، يخوض برشلونة نسخة هذا العام من دوري أبطال أوروبا بطموح وحيد وهو الفوز باللقب ولا بديل عنه، في ظل وجود كتيبة من النجوم يتقدمها لامين يامال، روبرت ليفاندوفسكي، رافينيا وبيدري. ويستعرض كووورة جدول مباريات برشلونة في دوري أبطال أوروبا 2025-2026 وترتيبه العام في مرحلة الدوري.. ما القنوات الناقلة لمباريات برشلونة في دوري أبطال أوروبا 2025-2026؟ تمتلك مجموعة قنوات بي إن سبورت القطرية، حقوق بث جميع مباريات دوري أبطال أوروبا في الشرق الأوسط حصريًا. ويمكن متابعة البث المباشر عبر الإنترنت عن طريق تطبيق TOD TV أو beIN connect. شاهد البث المباشر في أي مكان بالعالم باستخدام Nord VPN اشترك الآن جدول مباريات برشلونة في دوري أبطال أوروبا 2025-2026 - دور الـ 16 &nbsp; &nbsp; المباراة الموعد النتيجة المجموع&nbsp; الملعب نيوكاسل يونايتد - برشلونة الثلاثاء 10 مارس …",
-      "image": null,
-      "pubDate": "2026-03-18T20:08:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "bf5016682b4d83e4",
-      "title": "فيديو: بطل الكلاسيكو.. بونو يهزم ميندي ويقود الهلال لنهائي كأس الملك",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B7%D9%84-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D8%A8%D9%88%D9%86%D9%88-%D9%8A%D9%87%D8%B2%D9%85-%D9%85%D9%8A%D9%86%D8%AF%D9%8A-%D9%88%D9%8A%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D9%85%D9%84%D9%83/blt22ef8f9b420b6084?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الحارس المغربي نجح في التألق بركلات الترجيح",
-      "body": "الحارس المغربي نجح في التألق بركلات الترجيح لعب الحارس المغربي ياسين بونو دور البطولة، ليقود فريقه الهلال للتأهل إلى المباراة النهائية من بطولة كأس خادم الحرمين الشريفين، بعدما حقق فوزًا صعبًا في الكلاسيكو، على حساب غريمه التقليدي الأهلي. وفاز الهلال على الأهلي بركلات الترجيح بنتيجة 4-2، خلال المباراة التي جمعت بينهما، الأربعاء، على ملعب الإنماء بجدة، في الدور نصف النهائي من بطولة كأس خادم الحرمين الشريفين. وانتهى الوقت الأصلي بالتعادل الإيجابي 1-1، حيث افتتح الظهير الفرنسي ثيو هيرنانديز التسجيل لفريق الهلال في الدقيقة 39، لكن المهاجم الإنجليزي إيفان توني عدل النتيجة من ركلة جزاء في الدقيقة 81. وبعد نهاية الوقت الأصلي بالتعادل، انتقل الفريقان إلى الأشواط الإضافية، لتنتهي بنفس النتيجة، ومن ثم كان الحسم من ركلات الترجيح التي تألق فيها ياسين بونو. وسجل للأهلي كلٌ من فرانك كيسيه وزياد الجهني، بينما أهدر إيفان توني وجالينو بعدما تصدى الحارس المغربي لركلتيهما. أما الهلال، فقد سجل له كلٌ من روبين نيفيز وماركوس ليوناردو وسلطان مندش وثيو هيرنانديز، دون أي تصدٍ من الحارس السنغالي إدوارد ميندي. وبذلك يتأهل الهلال إلى المباراة النهائية من بطولة كأس خادم الحرمين الشريفين، ليضرب موعدًا مع الخلود الذي فجر مفاجأة كبرى بإقصاء الاتحاد من نصف النهائي. ركلات الترجيح كاملة في مواجهة #الأهلي_الهلال 🎯\ud83c…",
-      "image": null,
-      "pubDate": "2026-03-18T20:07:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8611475d5ea7ab8d",
-      "title": "فيديو.. لدغات \"العقارب\" تكشف هشاشة اتحاد جدة: الخلود في نهائي كأس الملك",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D8%AF%D8%BA%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D8%A8-%D8%AA%D9%83%D8%B4%D9%81-%D9%87%D8%B4%D8%A7%D8%B4%D8%A9-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D9%85%D9%84%D9%83/blt5960d9541d8a7e7b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "قتال حتى الرمق الأخير",
-      "body": "قتال حتى الرمق الأخير كتب نادي الخلود التاريخ بإقصاء الاتحاد حامل اللقب من كأس خادم الحرمين الشريفين، ليبلغ المباراة النهائية للبطولة، في إنجاز غير مسبوق للعقارب، في واحدة من أكثر المواجهات إثارة ودرامية. وتقلب سيناريو المباراة الذي أظهر من خلاله الخلود صلابة نفسية حقيقية، تمكن من خلالها من معادلة النتيجة مرتين، قبل أن يحسم بطاقة التأهل عبر ركلات الترجيح. وانتهى الوقتان الأصلي والإضافي للمباراة بالتعادل 2-2، قبل أن يحسم الخلود العبور التاريخي بركلات الترجيح بنتيجة 5-4، حيث نجح طوال دقائق المباراة في إظهار هشاشة الاتحاد وسهولة ضرب دفاعه وخطوطه، في غياب الروح القتالية والشراسة اللازمة عن الأصفر والأسود. وسيلتقي الخلود في المباراة النهائية فريق الهلال الذي نجح الليلة أيضا في إقصاء أهلي جدة في نصف النهائي الآخر بنتيجة 4-2 بركلات الترجيح، بعد التعادل في زمن المباراة والوقت الإضافي 1-1. &nbsp; ضغط اتحادي… وضربة دومبيا المؤلمة دخل الاتحاد اللقاء بنوايا هجومية مبكرة، وفرض إيقاعه منذ الدقائق الأولى، حيث كاد المغربي يوسف النصيري أن يفتتح التسجيل مبكرًا بعدما ارتطمت تسديدته بالقائم في الدقيقة 8، قبل أن يعود نفس اللاعب بمحاولتين خطيرتين لم تُكتب لهما النهاية السعيدة. استمر الضغط عبر محاولات متتالية، أبرزها تسديدة بيرجوين القريبة، ورأسية دانيلو بيريرا التي علت العارضة، وسط تراجع نسبي للخلود ال…",
-      "image": null,
-      "pubDate": "2026-03-18T20:03:59.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -2169,22 +2233,6 @@
       "region": "global"
     },
     {
-      "id": "63b222fe26f1481b",
-      "title": "Arsenal eye Bayern's Goretzka - Wednesday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/c20lq03g657o?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal face competition for Bayern Munich's Leon Goretzka, AC Milan look at Republic of Ireland international Troy Parrott, while Brighton look to secure German international Said el Mala, plus more.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-17T23:48:08.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "dc4e39e2eb7dc131",
       "title": "Will Champions League be Guardiola's Man City regret?",
       "link": "https://www.bbc.com/sport/football/articles/c875v4rw77jo?at_medium=RSS&at_campaign=rss",
@@ -2985,22 +3033,6 @@
       "region": "global"
     },
     {
-      "id": "41d2887fecf3fc0d",
-      "title": "Nvidia removes Rubin CPX accelerators from its roadmap — Groq 3 LPUs take center stage as CPX is removed",
-      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-removes-rubin-cpx-accelerators-from-its-roadmap-groq-3-lpus-take-center-stage-as-cpx-is-removed",
-      "summary": "Nvidia's slides at GTC lack any mentions of Rubin CPX, but praise Groq LPUs instead.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/JWFnEhyKXbzbL7o4STgct7-1280-80.jpg",
-      "pubDate": "2026-03-17T10:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "690ae4406a207d77",
       "title": "Seagate FireCuda X1070 2TB SSD review: Entry-level hardware meets premium support",
       "link": "https://www.tomshardware.com/pc-components/ssds/seagate-firecuda-x1070-2tb-ssd-review",
@@ -3014,6 +3046,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "41d2887fecf3fc0d",
+      "title": "Nvidia removes Rubin CPX accelerators from its roadmap — Groq 3 LPUs take center stage as CPX is removed",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-removes-rubin-cpx-accelerators-from-its-roadmap-groq-3-lpus-take-center-stage-as-cpx-is-removed",
+      "summary": "Nvidia's slides at GTC lack any mentions of Rubin CPX, but praise Groq LPUs instead.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/JWFnEhyKXbzbL7o4STgct7-1280-80.jpg",
+      "pubDate": "2026-03-17T10:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -3360,22 +3408,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-03-16T06:00:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "75cbd4ef45ebbec5",
-      "title": "Fernandes is a joy to watch - Rooney",
-      "link": "https://www.bbc.com/sport/football/videos/cp32g3p5xvno?at_medium=RSS&at_campaign=rss",
-      "summary": "Match of the Day pundit Wayne Rooney analyses Bruno Fernandes' crucial role in Manchester United's 3-1 win over Aston Villa at Old Trafford in the Premier League.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-15T23:49:43.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
