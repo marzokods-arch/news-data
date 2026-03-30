@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-29T23:43:12.848Z",
+    "generated_at": "2026-03-30T00:03:58.142Z",
     "total": 329,
     "processed_feeds": 23,
     "discovered_feeds": 84,
@@ -8,19 +8,6 @@
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
       {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
@@ -32,6 +19,19 @@
         ],
         "taken": 0,
         "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 63,
+        "error": null,
         "notModified": false
       },
       {
@@ -48,15 +48,28 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 63,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 44,
         "error": null,
         "notModified": false
       },
@@ -74,16 +87,29 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 43,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: Invalid character in entity name\nLine: 92\nColumn: 26\nChar:  ",
         "notModified": false
       },
       {
@@ -113,55 +139,16 @@
         "notModified": false
       },
       {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 44,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: Invalid character in entity name\nLine: 92\nColumn: 26\nChar:  ",
-        "notModified": false
-      },
-      {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 43,
-        "error": null,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -178,16 +165,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -204,9 +191,61 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -227,32 +266,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -292,19 +305,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
         "notModified": false
       }
     ]
@@ -2567,22 +2567,6 @@
       "region": "global"
     },
     {
-      "id": "321d4574d1196e87",
-      "title": "63 Ultra-Classic Southern Recipes For Drinks, Dinners & Desserts",
-      "link": "https://www.delish.com/cooking/recipe-ideas/g70861874/southern-recipes/",
-      "summary": "Get ready for the best hush puppies you've ever had.",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/crockpot-chicken-dumplings-socialindex-web-432-del099925-68efba855f781.jpg",
-      "pubDate": "2026-03-27T13:00:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "8d59bae469c5cd21",
       "title": "Porsche Cayenne Electric Review: A Phenomenally Capable SUV",
       "link": "https://www.wired.com/review/porsche-cayenne-electric-2026/",
@@ -2612,6 +2596,22 @@
       },
       "lang": "en",
       "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "321d4574d1196e87",
+      "title": "63 Ultra-Classic Southern Recipes For Drinks, Dinners & Desserts",
+      "link": "https://www.delish.com/cooking/recipe-ideas/g70861874/southern-recipes/",
+      "summary": "Get ready for the best hush puppies you've ever had.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/crockpot-chicken-dumplings-socialindex-web-432-del099925-68efba855f781.jpg",
+      "pubDate": "2026-03-27T13:00:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2695,22 +2695,6 @@
       "region": "global"
     },
     {
-      "id": "4b7b301f7bfef921",
-      "title": "12 of the best TV shows to watch this April",
-      "link": "https://www.bbc.com/culture/article/20260326-12-of-the-best-tv-shows-to-watch-this-april?ocid=global_culture_rss",
-      "summary": "From the return of Euphoria to the latest show from Baby Reindeer's creator",
-      "body": null,
-      "image": "https://ychef.files.bbci.co.uk/144x81/p0n8yvj1.jpg",
-      "pubDate": "2026-03-27T11:00:00.000Z",
-      "source": {
-        "name": "BBC Culture",
-        "homepage": "https://www.bbc.com/culture/feed.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "0e2483edcb773242",
       "title": "The Latest AI Documentary Asks: Just How Scared Should We Be?",
       "link": "https://www.wired.com/story/a-new-ai-documentary-puts-ceos-in-the-hot-seat-but-goes-too-easy-on-them/",
@@ -2740,6 +2724,22 @@
       },
       "lang": "en",
       "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "4b7b301f7bfef921",
+      "title": "12 of the best TV shows to watch this April",
+      "link": "https://www.bbc.com/culture/article/20260326-12-of-the-best-tv-shows-to-watch-this-april?ocid=global_culture_rss",
+      "summary": "From the return of Euphoria to the latest show from Baby Reindeer's creator",
+      "body": null,
+      "image": "https://ychef.files.bbci.co.uk/144x81/p0n8yvj1.jpg",
+      "pubDate": "2026-03-27T11:00:00.000Z",
+      "source": {
+        "name": "BBC Culture",
+        "homepage": "https://www.bbc.com/culture/feed.rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
