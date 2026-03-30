@@ -1,23 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-03-30T17:10:17.214Z",
+    "generated_at": "2026-03-30T18:05:04.926Z",
     "total": 219,
-    "processed_feeds": 16,
-    "discovered_feeds": 84,
+    "processed_feeds": 15,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
       {
-        "name": "Variety (Entertainment)",
-        "url": "https://variety.com/feed/",
-        "homepage": "https://variety.com/feed/",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 8,
+        "taken": 65,
         "error": null,
         "notModified": false
       },
@@ -35,29 +48,16 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "Khaleej Times — Entertainment",
+        "url": "https://www.khaleejtimes.com/rss/entertainment",
+        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -70,6 +70,19 @@
           "general"
         ],
         "taken": 50,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Variety (Entertainment)",
+        "url": "https://variety.com/feed/",
+        "homepage": "https://variety.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
         "error": null,
         "notModified": false
       },
@@ -87,29 +100,16 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times — Entertainment",
-        "url": "https://www.khaleejtimes.com/rss/entertainment",
-        "homepage": "https://www.khaleejtimes.com/rss/entertainment",
-        "lang": "en",
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 106\nColumn: 68\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -126,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -149,45 +136,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "MarketWatch — Metals",
-        "url": "https://www.marketwatch.com/feeds/marketpulse",
-        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -204,6 +152,32 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "AnandTech",
         "url": "https://www.anandtech.com/rss/",
         "homepage": "https://www.anandtech.com/rss/",
@@ -215,10 +189,231 @@
         "taken": 0,
         "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
         "notModified": false
+      },
+      {
+        "name": "MarketWatch — Metals",
+        "url": "https://www.marketwatch.com/feeds/marketpulse",
+        "homepage": "https://www.marketwatch.com/feeds/marketpulse",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "012c465095b70103",
+      "title": "‘Hannah Montana’ 20th-Anniversary Special Proves Miley Cyrus Survived Disney Channel Stardom — and Prevailed",
+      "link": "https://variety.com/2026/tv/columns/miley-cyrus-hannah-montana-anniversary-disney-child-star-1236702780/",
+      "summary": "Not many child stars escape the Magic Kingdom. Jodie Foster, who appeared in “Freaky Friday” early in her long career, is a role model — and an exception. For every Disney kid who makes it big, from Ryan Gosling, Justin Timberlake, and the rest of the “All-New Mickey Mouse Club” gang, there are man…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/P1052YQB.jpg",
+      "pubDate": "2026-03-30T18:04:54.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "346c735d7fe78a36",
+      "title": "Sydney Sweeney’s ‘Housemaid’s Secret’ Sets December 2027 Release",
+      "link": "https://variety.com/2026/film/news/housemaid-2-release-date-sydney-sweeney-december-2027-1236702723/",
+      "summary": "“The Housemaid’s Secret,” a sequel to last year’s box office smash, will land in theaters on Dec. 17, 2027. That’s exactly two years after the release of the original, “The Housemaid,” which became a commercial hit with nearly $400 million globally against a $35 million budget. That movie opened to…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/09/housemaid-unit-250131-00327rc3.jpg",
+      "pubDate": "2026-03-30T18:00:16.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "872870681e840c2c",
+      "title": "كأس رابطة الأندية.. المقاولون العرب 0-0 زد.. بداية المباراة",
+      "link": "https://www.yallakora.com/egyptian-league-cup/3012/news/545827/%d9%83%d8%a3%d8%b3-%d8%b1%d8%a7%d8%a8%d8%b7%d8%a9-%d8%a7%d9%84%d8%a3%d9%86%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%84%d9%88%d9%86-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-0-0-%d8%b2%d8%af-%d8%a8%d8%af%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9",
+      "summary": "يقدم موقع \"يلا كورة\" بث حي لمباراة المقاولون العرب أمام زد، المقامة ضمن منافسات بطولة كأس رابطة الأندية المصرية المحترفة.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T18:00:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e29ec7706224e63d",
+      "title": "Hodgson happy being retired but Bristol City hard to turn down",
+      "link": "https://www.bbc.com/sport/football/articles/c0le09jx59do?at_medium=RSS&at_campaign=rss",
+      "summary": "Roy Hodgson says there is a lot he misses about football after coming out of retirement to become caretaker manager of Bristol City.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:47:10.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e9452b29b8fa9458",
+      "title": "Quilty, AI Platform Designed to Change How Scripts Are Developed and Assessed, Launches (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/news/quilty-ai-platform-scripts-development-1236702538/",
+      "summary": "Quilty, a new artificial intelligence platform designed to help the entertainment industry make more informed financial and creative decisions, has launched. The technology includes creative analysis for scripts and projects, packaging suggestions, as well as market forecasting about how the film w…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/Screen-Shot-2026-03-30-at-1.28.04-PM.png",
+      "pubDate": "2026-03-30T17:43:54.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "022317c660adbbb0",
+      "title": "استعدادا لمواجهة المصري.. الزمالك يفوز على الشرقية للدخان وديا",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/545825/%d8%a7%d8%b3%d8%aa%d8%b9%d8%af%d8%a7%d8%af%d8%a7-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%8a%d9%81%d9%88%d8%b2-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b4%d8%b1%d9%82%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d8%a7%d9%86-%d9%88%d8%af%d9%8a%d8%a7",
+      "summary": "فاز الفريق الأول لكرة القدم بنادي الزمالك على نظيره الشرقية للدخان بالإسكندرية بخمسة أهداف دون مقابل، في المباراة الودية التي أقيمت على ستاد الكلية الحربية في إطار الاستعداد لمباراة المصري المقبلة في الجولة الأولى من المرحلة النهائية لحسم الدوري.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:43:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "97601999c29cfb50",
+      "title": "بيراميدز يكتسح ليفلز وديًا استعدادًا لمواجهة إنبي في الكأس",
+      "link": "https://www.yallakora.com/egypt-cup/3014/news/545824/%d8%a8%d9%8a%d8%b1%d8%a7%d9%85%d9%8a%d8%af%d8%b2-%d9%8a%d9%83%d8%aa%d8%b3%d8%ad-%d9%84%d9%8a%d9%81%d9%84%d8%b2-%d9%88%d8%af%d9%8a-%d8%a7-%d8%a7%d8%b3%d8%aa%d8%b9%d8%af%d8%a7%d8%af-%d8%a7-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a5%d9%86%d8%a8%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%83%d8%a3%d8%b3-",
+      "summary": "حسم فريق بيراميدز تفوقه على نظيره ليفلز النشط بدوري الدرجة الثالثة، في المباراة الودية التي جمعت بينهما ضمن استعداداتهما لقادم المنافسات في مختلف المسابقات.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:40:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5f43e8dc0e899c92",
+      "title": "Beats’ gym-friendly Powerbeats Fit are $30 off for Amazon’s Big Spring Sale",
+      "link": "https://www.theverge.com/gadgets/903373/beats-powerbeats-fit-pro-2-earbuds-amazon-big-spring-sale-2026-deal",
+      "summary": "Every color of the Beats Powerbeats Fit are discounted. | Image: Apple For iPhone owners, the AirPods Pro 3 are a fantastic all-around set of wireless earbuds, even for working out. Their value is especially tough to beat at $199.99; however, even with five sizes of silicone tips, they aren’t the b…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:38:08.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6c043a20c304dcd3",
+      "title": "Watch: Monday Night Club",
+      "link": "https://www.bbc.co.uk/iplayer/episode/l005830x?at_medium=RSS&at_campaign=rss",
+      "summary": "Monday Night Club",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:36:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "58a3e18279c47681",
+      "title": "A new RCS update could connect iPhone and Android video calls, someday",
+      "link": "https://www.theverge.com/tech/903509/apple-iphone-google-android-video-calls-rcs-universal-profile-4-0",
+      "summary": "iPhone and Android users might be able to make interoperable video calls through their messaging apps - eventually. Last week, the GSM Association (GSMA) announced that the finalized RCS Universal Profile 4.0 standard will let users turn 1-to-1 or group RCS chats into video calls thanks to a featur…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:19:31.000Z",
+      "source": {
+        "name": "The Verge",
+        "homepage": "https://www.theverge.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "71ec6fb07155af19",
+      "title": "رايا الحارس الأساسي أمام منتخب مصر.. عودة إلى حيث بدأ مشواره مع إسبانيا",
+      "link": "https://www.yallakora.com/friendly-matches-nations/2438/news/545822/%d8%b1%d8%a7%d9%8a%d8%a7-%d8%a7%d9%84%d8%ad%d8%a7%d8%b1%d8%b3-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a-%d8%a3%d9%85%d8%a7%d9%85-%d9%85%d9%86%d8%aa%d8%ae%d8%a8-%d9%85%d8%b5%d8%b1-%d8%b9%d9%88%d8%af%d8%a9-%d8%a5%d9%84%d9%89-%d8%ad%d9%8a%d8%ab-%d8%a8%d8%af%d8%a3-%d9%85%d8%b4%d9%88%d8%a7%d8%b1%d9%87-%d9%85%d8%b9-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7",
+      "summary": "أفادت تقارير صحفية إسبانية، أن ديفيد رايا سيكون الحارس الأساسي لمنتخب إسبانيا في المباراة الودية أمام منتخب مصر.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:15:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f993f81d306df1ed",
+      "title": "‘Euphoria’ Season 3 Trailer: Zendaya, Sydney Sweeney and Jacob Elordi Spiral Amid Weddings, Drug Busts and More in HBO Drama",
+      "link": "https://variety.com/2026/tv/news/euphoria-season-3-trailer-zendaya-sydney-sweeney-2-1236702377/",
+      "summary": "Welcome back to the world of “Euphoria.” Ahead of the long-awaited premiere of the HBO drama’s third season on April 12, a second trailer has been released. It starts out with Zendaya’s Rue being interrogated in Mexico after she’s shown working with drug dealers and swallowing a wad of unknown drug…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/Euphoria_2284ff.jpg",
+      "pubDate": "2026-03-30T17:11:48.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "06b2571e79b86442",
+      "title": "Fit-again McGinn was 'petrified' he would miss World Cup",
+      "link": "https://www.bbc.com/sport/football/articles/cy81q4n6v3yo?at_medium=RSS&at_campaign=rss",
+      "summary": "John McGinn has been a Scotland international for a decade now as he looks forward to the World Cup after a big injury scare.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-03-30T17:03:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "b31ac00454532cd4",
       "title": "‘Danny Go!’ Coming to Netflix",
@@ -236,10 +431,10 @@
       "region": "global"
     },
     {
-      "id": "12eaf73ddc1d58a1",
-      "title": "كأس رابطة الأندية.. المقاولون العرب 0-0 زد.. بداية المباراة",
-      "link": "https://www.yallakora.com/egyptian-league-cup/3012/news/545820/%d9%83%d8%a3%d8%b3-%d8%b1%d8%a7%d8%a8%d8%b7%d8%a9-%d8%a7%d9%84%d8%a3%d9%86%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%84%d9%88%d9%86-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-0-0-%d8%b2%d8%af-%d8%a8%d8%af%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9",
-      "summary": "ينقل \"يلا كورة\" بث حي لأحداث مباراة المقاولون العرب أمام زد، المقرر إقامتها ضمن منافسات كأس رابطة الأندية المصرية المحترفة.",
+      "id": "0385464fcece1c82",
+      "title": "مصدر ليلا كورة: اتحاد الكرة لم يُصدر قرارًا بخصوص شكاوى زيزو والزمالك",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/545820/%d9%85%d8%b5%d8%af%d8%b1-%d9%84%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d9%83%d8%b1%d8%a9-%d9%84%d9%85-%d9%8a-%d8%b5%d8%af%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1-%d8%a7-%d8%a8%d8%ae%d8%b5%d9%88%d8%b5-%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d8%b2%d9%8a%d8%b2%d9%88-%d9%88%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83",
+      "summary": "كشف مصدر مقرب من أحمد سيد زيزو، لاعب فريق النادي الأهلي الحالي، والزمالك السابق، حقيقة صدور حكم بشأن نزاعه مع الأبيض من جانب الاتحاد المصري لكرة القدم.",
       "body": null,
       "image": null,
       "pubDate": "2026-03-30T16:57:00.000Z",
@@ -248,7 +443,7 @@
         "homepage": "https://www.yallakora.com/feed/rssfeed"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "general",
       "region": "global"
     },
     {
@@ -332,8 +527,8 @@
       "region": "global"
     },
     {
-      "id": "7a8dc65038e9538d",
-      "title": "Dyson&#8217;s thin PencilVac Fluffycones is tougher to resist at $150 off",
+      "id": "1ed6dc7ce9422d8e",
+      "title": "Dyson&#8217;s ultra-thin PencilVac Fluffycones is tougher to resist at $150 off",
       "link": "https://www.theverge.com/gadgets/903416/dyson-pencilvac-fluffycones-amazon-big-spring-sale-deal-sale",
       "summary": "Dyson’s PencilVac Fluffycones is the cheapest it’s ever been. | Photo by Jennifer Pattison Tuohy / The Verge Robot vacuums are great for keeping floors clean on a regular basis, but they don’t catch everything. If you’re looking for a tool to handle the finer details your robovac might miss — room …",
       "body": null,
@@ -380,22 +575,6 @@
       "region": "global"
     },
     {
-      "id": "5385ff6795bf00cd",
-      "title": "Eli Roth’s The Horror Section and Nas’ Mass Appeal Forge Strategic Partnership to Collaborate on Film and TV (EXCLUSIVE)",
-      "link": "https://variety.com/2026/film/news/eli-roth-nas-partner-movies-tv-shows-1236702391/",
-      "summary": "Eli Roth’s The Horror Section and Mass Appeal, the entertainment company founded by Grammy-winning rapper Nas, have entered into a strategic partnership. Through the partnership, which includes an investment from Mass Appeal into The Horror Section, the two entities will collaborate across many asp…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/eli-roth-nas.jpg",
-      "pubDate": "2026-03-30T16:15:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "23fee5302ea2b99a",
       "title": "كرة سلة.. الأهلي يفوز على المصرية للاتصالات ويتأهل لنهائي دوري السوبر",
       "link": "https://www.yallakora.com/basketball/2825/news/545815/%d9%83%d8%b1%d8%a9-%d8%b3%d9%84%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%8a%d9%81%d9%88%d8%b2-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d9%88%d9%8a%d8%aa%d8%a3%d9%87%d9%84-%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a-%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%a8%d8%b1",
@@ -409,6 +588,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5385ff6795bf00cd",
+      "title": "Eli Roth’s The Horror Section and Nas’ Mass Appeal Forge Strategic Partnership to Collaborate on Film and TV (EXCLUSIVE)",
+      "link": "https://variety.com/2026/film/news/eli-roth-nas-partner-movies-tv-shows-1236702391/",
+      "summary": "Eli Roth’s The Horror Section and Mass Appeal, the entertainment company founded by Grammy-winning rapper Nas, have entered into a strategic partnership. Through the partnership, which includes an investment from Mass Appeal into The Horror Section, the two entities will collaborate across many asp…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/03/eli-roth-nas.jpg",
+      "pubDate": "2026-03-30T16:15:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -460,6 +655,22 @@
       "region": "global"
     },
     {
+      "id": "b6324c8afed435ec",
+      "title": "فيديو.. إعلامي سعودي: آسيا تهدد طفرة دوري روشن",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%95%D8%B9%D9%84%D8%A7%D9%85%D9%8A-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-%D8%AA%D9%87%D8%AF%D8%AF-%D8%B7%D9%81%D8%B1%D8%A9-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/blt8658e38c5434e291?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تصريحات مثيرة حول المنافسة الآسيوية",
+      "body": "تصريحات مثيرة حول المنافسة الآسيوية أدلى إعلامي سعودي بتصريحات مثيرة حول منافسة أندية دوري روشن السعودي في بطولتي دوري أبطال آسيا للنخبة ودوري أبطال آسيا 2 خلال الفترة المقبلة، مسلطًا الضوء على التحديات التي تواجه الأندية السعودية في الساحة الآسيوية، ومدى قدرتها على الاستمرار في المنافسة وتحقيق النتائج المرجوة. ومن المقرر أن تعود المنافسات الآسيوية لأندية الغرب بداية من منتصف الشهر المقبل، بعد قرار التأجيل الذي ضربها خلال الفترة الماضية، بسبب الحرب المشتعلة في الشرق الأوسط. وقال الإعلامي عبدالرحمن عامر خلال برنامج \"دورينا غير\": \"الأندية السعودية تواجه تحديًا صعبًا بسبب الضغط الشرس خلال المرحلة الأخيرة من الموسم\". اقرأ أيضًا.. ميتروفيتش يفجرها: دوري روشن يتطور والمنتخب يدفع الثمن! اقرأ أيضًا.. طبيب سعودي: لاعب الهلال \"كسول\" ومهدد بالاعتزال المُبكر! وأضاف: \"أندية روشن مطالبة بتحقيق بطولتي آسيا ودوري أبطال الخليج، وأي نتيجة عكس ذلك، ستكون بمثابة فشل ذريع للمشروع السعودي\". وأتم حديثه: \"أطالب جميع الأندية بالتركيز في هذه البطولات، لأن السقوط سيعني فشلًا كبيرًا لاستمرار المشروع بنفس القوة\". ويشارك الأهلي، الهلال، والاتحاد في النخبة، بينما يظهر النصر في آسيا 2، فيما يشارك الشباب بدوري أبطال الخليج. عبدالرحمن العامر: الفرق السعودية التي تمثل السعودية خارجيًا ستضر المشروع الرياضي إذا لم تح…",
+      "image": null,
+      "pubDate": "2026-03-30T15:53:12.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a0bcffa646c20817",
       "title": "The latest Pixel 11 leak shows slimmer bezels and an all-black camera bar",
       "link": "https://www.theverge.com/tech/903381/google-pixel-11-leak-bezels-camera-bar",
@@ -492,6 +703,22 @@
       "region": "global"
     },
     {
+      "id": "7f44a75d63e4a037",
+      "title": "هل تعوضه أندية السعودية؟.. صلاح يتنازل عن ثروة طائلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D9%84-%D8%AA%D8%B9%D9%88%D8%B6%D9%87-%D8%A7%D9%94%D9%86%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D8%AA%D9%86%D8%A7%D8%B2%D9%84-%D8%B9%D9%86-%D8%AB%D8%B1%D9%88%D8%A9-%D8%B7%D8%A7%D9%8A%D9%94%D9%84%D8%A9/blt0a5a58ac6d7ac6df?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "من كواليس اتفاق الرحيل",
+      "body": "من كواليس اتفاق الرحيل في كواليس التحركات الكبرى التي تشهدها سوق الانتقالات، تتكشف تفاصيل مالية لافتة تعكس حجم القرارات المصيرية التي يتخذها نجوم الصف الأول، في لحظات قد تعيد تشكيل مساراتهم المهنية بشكل كامل. وبإعلان رحيله في الصيف المقبل، سيتنازل النجم المصري محمد صلاح عن ثروة طائلة لناديه ليفربول، وذلك ضمن الاتفاق على فك الارتباط بينهما بالتراضي، ليرحل مجانا بحلول نهاية الموسم الجاري. &nbsp; &nbsp; مكافأة لليفربول.. البحث عن مشروع جديد سيترك رحيل صلاح فراغا فنيا فقط في صفوف الريدز، لكنه سيمنح النادي من جهة أخرى وفرة مالية معتبرة بالنظر إلى راتبه الضخم، وأيضا الأموال التي سيتنازل عنها، التي نص عليها عقده الذي كان يمتد حتى 2027. وبحسب ما أوردته صحيفة \"ذا صن\" البريطانية، فإنه خلال المفاوضات التي أفضت إلى تجديد عقد صلاح الصيف الماضي، طلب اللاعب المصري مكافأة ولاء بقيمة 20 مليون جنيه إسترليني (نحو 23 مليون يورو)، حيث كان العقد سيمتد حتى صيف 2027. وفي الاتفاق الجديد الذي توصل إليه الطرفان لإنهاء العقد، تخلى صلاح عن هذه المكافأة مقابل السماح له بالرحيل هذا الصيف، حيث يسعى وهو على مشارف سن الرابعة والثلاثين، إلى التوقيع على عقد متعدد السنوات يضمن له الاستمرار كلاعب محوري ضمن مشروع جديد. اقرأ أيضا: إعلامي سعودي يفجر مفاجأة بشأن النادي الأكثر احتياجا لصفقة صلاح اقرأ أيضا: عند الفجر.. كوال…",
+      "image": null,
+      "pubDate": "2026-03-30T15:48:26.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "0b8af1acffad1de6",
       "title": "بعد غياب.. عودة محمد عواد لحراسة مرمى الزمالك في ودية الشرقية للدخان بالإسكندرية",
       "link": "https://www.yallakora.com/egyptian-league/2977/news/545812/%d8%a8%d8%b9%d8%af-%d8%ba%d9%8a%d8%a7%d8%a8-%d8%b9%d9%88%d8%af%d8%a9-%d9%85%d8%ad%d9%85%d8%af-%d8%b9%d9%88%d8%a7%d8%af-%d9%84%d8%ad%d8%b1%d8%a7%d8%b3%d8%a9-%d9%85%d8%b1%d9%85%d9%89-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%81%d9%8a-%d9%88%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%82%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d8%a7%d9%86-%d8%a8%d8%a7%d9%84%d8%a5%d8%b3%d9%83%d9%86%d8%af%d8%b1%d9%8a%d8%a9",
@@ -506,6 +733,54 @@
       "lang": "en",
       "category": "entertainment",
       "region": "global"
+    },
+    {
+      "id": "ee17aae7cf298ab9",
+      "title": "صربيا تفتح للأخضر باب التاريخ رقم 126",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%B1%D8%A8%D9%8A%D8%A7-%D8%AA%D9%81%D8%AA%D8%AD-%D9%84%D9%84%D8%A7%D9%94%D8%AE%D8%B6%D8%B1-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%B1%D9%82%D9%85-126/blt2ffbd9c3768a5e52?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اختبار الثقة بعد صدمة مصر",
+      "body": "اختبار الثقة بعد صدمة مصر يخوض المنتخب السعودي اختبارًا وديًا مهمًا عندما يلتقي نظيره الصربي، مساء الثلاثاء، على ملعب \"تي إس سي أرينا\"، ضمن معسكره الإعدادي المقام في العاصمة بلغراد، وذلك في إطار المرحلة الأخيرة من التحضيرات قبل انطلاق نهائيات كأس العالم 2026. ويدخل الأخضر هذه المواجهة بطموحات كبيرة لاستعادة التوازن وتصحيح المسار، في ظل سعي المدير الفني الفرنسي هيرفي رينار إلى إعادة الثقة للاعبين، عقب الخسارة القاسية التي تعرض لها الفريق أمام المنتخب المصري برباعية نظيفة في اللقاء الودي الأخير الذي أُقيم في جدة. (اقرأ أيضًا)&nbsp; رينارد يواجه العد التنازلي.. وخطة طارئة تمهد لبديل مفاجئ (اقرأ أيضًا)&nbsp; زلزال في الاتحاد.. ديابي على أعتاب الرحيل وصفقة صلاح تشتعل وكشفت صحيفة \"الرياضية\" السعودية أن مواجهة صربيا تمثل محطة تاريخية جديدة، حيث ستصبح المنتخب رقم 126 الذي يواجهه المنتخب السعودي عبر تاريخه، في سجل حافل بالمواجهات الدولية المتنوعة. وأوضحت الصحيفة أن هذه المباراة تُعد الأولى من نوعها بين المنتخبين، سواء على المستوى الرسمي أو الودي، كما أنها تمثل الظهور الأول للأخضر على الأراضي الصربية، إذ لم يسبق له خوض أي مباراة هناك من قبل. وأضافت أن سجل مواجهات المنتخب السعودي يتضمن لقاءات متفاوتة مع 125 منتخبًا حول العالم، سواء في المنافسات الرسمية أو المباريات التجريبية، حيث يتصدر منتخب…",
+      "image": null,
+      "pubDate": "2026-03-30T15:41:43.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "a6e4f3645e90244e",
+      "title": "الطويلة يضاعف أزمات الإسماعيلي بشكوى جديدة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B7%D9%88%D9%8A%D9%84%D8%A9-%D9%8A%D8%B6%D8%A7%D8%B9%D9%81-%D8%A7%D9%94%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D8%A8%D8%B4%D9%83%D9%88%D9%89-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/blt961381750e928eea?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المصائب تتوالى على رأس الدراويش",
+      "body": "المصائب تتوالى على رأس الدراويش أقدم محمد الطويلة رئيس نادي النجوم على خطوة جديدة، تضر نادي الإسماعيلي، رغم أزماته العديدة في الفترة الأخيرة، وعلى رأسها إيقاف القيد، بجانب أنه مهدد بالهبوط للدرجة الأولى. وقرر الطويلة التقدم بشكوى ضد الإسماعيلي للاتحاد الأفريقي لكرة القدم \"كاف\" يطالب فيها بإلغاء ترخيص النادي وعدم مشاركته في الدوري وفقًا للوائح ترخيص الأندية، بل وأحرج الاتحاد المصري واختصمه أمام لجنة الانضباط بالاتحاد الأفريقي لتنفيذ رغبته بسحب ترخيص الإسماعيلي، طالبا اتخاذ تدبيرا مؤقتا بهذا الشأن. كان النجوم تقدم بشكوى في النزاع الممتد لمدة خمس سنوات، حيث أصدرت لجنة شئون اللاعبين بالاتحاد المصري قرارًا لصالح نادي النجوم ضد الإسماعيلي، ثم تم تأييد القرار من لجنة الاستئناف. ولاحقًا، تم الطعن أمام محكمة التحكيم الرياضية، والتي أصدرت حكمًا نهائيًا بتاريخ 21 فبراير 2020 لصالح نادي النجوم ورفضت جميع طلبات الإسماعيلي، وامتنع الإسماعيلي عن تنفيذ الحكم وفي 2025، تم فرض حظر قيد لاعبين من اتحاد الكرة على الدراويش. واستمرارا للإجراءات من نادي النجوم دون مراعاة ظروف الإسماعيلي طلب محمد الطويلة إلغاء ترخيص مشاركة الإسماعيلي فورًا أو إيقافه لحين الفصل في النزاع، وإلغاء ترخيص النادي ومنعه من المشاركة في أي مسابقات وإلغاء مشاركته الحالية وإلزام الاتحاد بعدم السماح للإسماعيلي بالمشاركة دون ترخيص وتع…",
+      "image": null,
+      "pubDate": "2026-03-30T15:37:47.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f063dae21f4ca6ac",
+      "title": "طبيب سعودي: لاعب الهلال \"كسول\" ومهدد بالاعتزال المُبكر!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B7%D8%A8%D9%8A%D8%A8-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%83%D8%B3%D9%88%D9%84-%D9%88%D9%85%D9%87%D8%AF%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%8F%D8%A8%D9%83%D8%B1/blt5dd9a9498805a85f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مدافع الزعيم يتحول إلى لاعب زجاجي",
+      "body": "مدافع الزعيم يتحول إلى لاعب زجاجي تزايدت المخاوف داخل أروقة نادي الهلال السعودي بشأن مستقبل أحد نجوم الفريق، في ظل تكرار الإصابات التي يواجهها مؤخرًا، إلى جانب معاناته في تطوير الجانب البدني، وهو ما يثير القلق حول قدرته على الاستمرار في الملاعب. وشهدت الأيام الأخيرة، تعرض العديد من نجوم الهلال للإصابة، والذين جاء على رأسهم سالم الدوسري والمدافع المميز حسان تمبكتي. وقال الطبيب السعودي راكان الوابل المتخصص في إصابات الملاعب خلال ظهوره عبر برنامج \"المنتصف\": \"تمبكتي لاعب موهوب، ولكنه يعاني من كثرة الإصابات، بسبب إهمال العمل البدني بالنسبة له\". وأضاف: \"شاهدنا العديد من اللاعبين أصحاب الأعمار الصغيرة وكانوا ببنية جسدية معينة، ولكن الوضع تغير تمامًا، بسبب العمل المستمر على هذا الجانب، والوصول إلى أفضل المستويات\". اقرأ أيضًا.. إعلامي سعودي بعد هجوم الفراج: انتقاد العقيدي غرضه تصفية الحسابات! وتابع حديثه قائلاً: \"حسان تمبكتي لم يسلك الطريق ذاته، إذ تراجعت بنيته الجسدية بشكل واضح، ما جعله عرضة للإصابات المتكررة، ليصبح أشبه بلاعب زجاجي\". وأتم: \"يمتلك تمبكتي كل المقومات التي تساعده على التطور، لكنه لم يعمل عليها بالشكل المطلوب، وهو ما أدى إلى تكرار إصاباته، وإذا استمر الوضع على هذا النحو، فقد يجد نفسه مضطرًا لاعتزال كرة القدم في سن مبكرة\".",
+      "image": null,
+      "pubDate": "2026-03-30T15:31:07.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "0ffe1abc3b6daa93",
@@ -524,20 +799,68 @@
       "region": "global"
     },
     {
-      "id": "c6c8beb3334aabbe",
-      "title": "‘The White Lotus’ Season 4 Adds Heather Graham, Rosie Perez and Four More to Cast",
-      "link": "https://variety.com/2026/tv/news/the-white-lotus-season-4-casts-heather-graham-rosie-perez-1236702552/",
-      "summary": "Six more actors are saying bonjour to “The White Lotus.” Joining the cast of the France-set season of Mike White’s HBO dramedy are Heather Graham (“They Will Kill You,” “Chosen Family”), Rosie Perez (“The Flight Attendant,” “Your Honor”), Ben Schnetzer (“The Madison,” “Y: The Last Man”), Tobias San…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/MixCollage-30-Mar-2026-11-10-AM-9778-e1774883500288.jpg",
-      "pubDate": "2026-03-30T15:15:12.000Z",
+      "id": "72461ce77e839974",
+      "title": "ما القنوات الناقلة لمباراة إسبانيا ومصر الودية استعدادًا لكأس العالم 2026؟ وكيف تشاهدها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%D9%8B%D8%A7-%D9%84%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blta101ccf19052f494?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على كيفية مشاهدة مباراة إسبانيا ومصر الودية استعدادًا لكأس العالم 2026 والبث عبر الإنترنت.",
+      "body": "تعرف على كيفية مشاهدة مباراة إسبانيا ومصر الودية استعدادًا لكأس العالم 2026 والبث عبر الإنترنت. يحتضن ملعب كورنيلا آل برات مواجهة ودية من العيار الثقيل، حين يستقبل المنتخب الإسباني نظيره المصري، ضمن أجندة التوقف الدولي لشهر مارس/آذار 2026، في اختبار يحمل الكثير من الدلالات الفنية قبل انطلاق نهائيات كأس العالم. وتأتي هذه المباراة في سياق الاستعدادات المكثفة التي تخوضها المنتخبات المشاركة، بحثًا عن الجاهزية الكاملة قبل النسخة المرتقبة من المونديال، والتي ستُقام بشكل مشترك في كندا والمكسيك والولايات المتحدة الأمريكية، في سابقة تاريخية تعكس اتساع رقعة البطولة وتنوع تحدياتها. ومن المنتظر أن تنطلق منافسات كأس العالم يوم 11 يونيو من ملعب مكسيكو سيتي، على أن يُسدل الستار على البطولة يوم 19 يوليو على ملعب نيويورك – نيوجيرسي، وسط توقعات بأن تكون نسخة استثنائية من حيث المستوى والإثارة. ويدخل المنتخب المصري هذه المواجهة بمعنويات مرتفعة، بعدما حقق فوزًا عريضًا على نظيره السعودي برباعية نظيفة على ملعب الإنماء، في مباراة عكست تطور الأداء الهجومي للفراعنة، وسعي الجهاز الفني لاستغلال هذه الحالة الفنية في مواجهة خصم بحجم المنتخب الإسباني. ويأمل منتخب مصر، بقيادة مديره الفني حسام حسن، في تحقيق أقصى استفادة ممكنة من هذا الاحتكاك القوي، سواء على المستوى التكتيكي أو الذهني، في ظل التحديات الكبيرة التي …",
+      "image": null,
+      "pubDate": "2026-03-30T15:27:53.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e80e015b3591d71e",
+      "title": "رغم قرار الكاف.. المغرب يرفض السير على خطى السنغال في ملف لقب الكان",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%BA%D9%85-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D8%A7%D9%81-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1-%D8%B9%D9%84%D9%89-%D8%AE%D8%B7%D9%89-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D9%81%D9%8A-%D9%85%D9%84%D9%81-%D9%84%D9%82%D8%A8-%D8%A7%D9%84%D9%83%D8%A7%D9%86/bltf853c53640d3704b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أسود الأطلس يختارون الصمت",
+      "body": "أسود الأطلس يختارون الصمت يواصل المنتخب المغربي استعداداته المكثفة خلال شهر مارس/ آذار الجاري، من خلال سلسلة من المباريات الودية، في إطار التحضير للمشاركة في نهائيات كأس العالم 2026 التي ستحتضنها الولايات المتحدة الأمريكية والمكسيك وكندا في شهر يونيو/ حزيران المقبل. وتشهد هذه الفترة تركيزا كبيرا من قبل الجهاز الفني واللاعبين على الجانب الفني والبدني، مع الحرص على تهيئة الأجواء المناسبة داخل المعسكر لتحقيق أفضل النتائج في الاستحقاقات المقبلة. وذكرت شبكة \"RMC\" الفرنسية أن أجواء مباراة المنتخب المغربي أمام باراجواي ستظل هادئة تماما، دون أي مظاهر احتفالية بمناسبة تتويجه بكأس أمم أفريقيا 2025، بعد قرار لجنة الاستئناف في الاتحاد الأفريقي لكرة القدم (كاف). اقرأ أيضا: تعليق جديد من بابي ثياو على تجريد السنغال من لقب الكان عضو تنفيذية \"كاف\": تجريد السنغال من لقب الكان أشبه بمطاردة السراب وأوضح التقرير أن المنتخب المغربي سيتحلى بالهدوء خلال هذه المواجهة، بخلاف ما قامت به السنغال من احتفال بكأس أمم أفريقيا التي تحتفظ بها حتى الآن، خلال وديتها أمام بيرو التي أقيمت في ملعب فرنسا بالعاصمة باريس. ويستضيف ملعب بوليرت ديليليس في مدينة لانس الفرنسية المباراة يوم الثلاثاء المقبل، بحضور متوقع يقارب 38 ألف مشجع، وسط أجواء خالية من أي استعراض يتعلق بفوز كأس الأمم الأفريقية. وشهد نهائي كأس الأمم الأفريق…",
+      "image": null,
+      "pubDate": "2026-03-30T15:21:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "63be2161db5cfa22",
+      "title": "ليفربول ينافس نيوكاسل على ضم لويس سواريز",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D9%86%D8%A7%D9%81%D8%B3-%D9%86%D9%8A%D9%88%D9%83%D8%A7%D8%B3%D9%84-%D8%B9%D9%84%D9%89-%D8%B6%D9%85-%D9%84%D9%88%D9%8A%D8%B3-%D8%B3%D9%88%D8%A7%D8%B1%D9%8A%D8%B2/blt34d87c722d0799f9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صراع إنجليزي على خدمات المهاجم",
+      "body": "صراع إنجليزي على خدمات المهاجم يسعى ليفربول للدخول في صراع مباشر مع نيوكاسل يونايتد من أجل التعاقد مع المهاجم لويس سواريز، في ظل رغبة الريدز في تعزيز خياراتهم الهجومية، رغم إنفاقهم قرابة 200 مليون جنيه إسترليني على المهاجمين خلال الصيف الماضي. ووفقًا للتقارير، فإن ليفربول أبدى اهتمامه بضم سواريز، مستعدا لخوض معركة انتقالات مع نيوكاسل للحصول على خدماته. وكان النادي قد أنفق ما يقارب نصف مليار جنيه إسترليني في الصيف الماضي، خصص منها نحو 200 مليون للتعاقد مع ألكسندر إيزاك في صفقة قياسية بريطانية، بالإضافة إلى هوجو إيكيتيكي، ورغم ذلك، يسعى ليفربول لتدعيم خط هجومه مجددًا. وعانى إيزاك من الغياب في النصف الثاني من الموسم بسبب تراجع لياقته وعدم جاهزيته في بداية الموسم، ما وضع ضغطا كبيرًا على إيكيتيكي لقيادة هجوم الفريق في موسمه الأول بالدوري الإنجليزي. ووفقا لما نشرته صحيفة ديلي ستار البريطانية في هذا السياق، يضع ليفربول نصب عينيه التعاقد مع مهاجم سبورتنج لشبونة، لويس سواريز (28 عاما)، الذي أثبت نفسه كبديل قوي لفيكتور جيوكيريس في الفريق البرتغالي. ويقدم سواريز موسما استثنائيا منذ انتقاله من ألميريا الصيف الماضي، حيث سجل 33 هدفا وصنع 7 أهداف في 42 مباراة، ليصبح أحد أبرز المهاجمين المطلوبين في أوروبا. وبحسب صحيفة \"Correio da Manha\" البرتغالية، فإن ليفربول ونيوكاسل يظهران اهتماما مكثفا بضم ال…",
+      "image": null,
+      "pubDate": "2026-03-30T15:18:29.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c67d6b93c8373bda",
+      "title": "رغم عودته.. مخاوف طبية تهدد مسيرة سلمان الفرج!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%BA%D9%85-%D8%B9%D9%88%D8%AF%D8%AA%D9%87-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D8%B7%D8%A8%D9%8A%D8%A9-%D8%AA%D9%87%D8%AF%D8%AF-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%B3%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%81%D8%B1%D8%AC/blt3369aa2e4f5f6e41?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صدمة مقلقة تباغت القائد السعودي",
+      "body": "صدمة مقلقة تباغت القائد السعودي يواجه سلمان الفرج، قائد المنتخب السعودي ولاعب وسط نيوم، حالة من الغموض بشأن مستقبله خلال الفترة المقبلة، في ظل عدم اكتمال جاهزيته البدنية، وهو ما يثير القلق حول قدرته على العودة للمشاركة بشكل طبيعي مع ناديه والمنتخب. وكان الفرج قد تعرض للإصابة بقطع في الرباط الصليبي خلال نوفمبر/تشرين ثان 2024، وغاب على إثرها لأكثر من سنة، قبل أن يعود مرة أخرى للمشاركة خلال الموسم الجاري. ولكن الغريب أن سلمان الفرج لم يعد كمان كان على المستويين الفني والبدني، رغم أنه حصل على فترة كافية من التعافي. اقرأ أيضًا.. رباعية مصر تكشف المستور.. سلمان الفرج يفاجئ الجميع في ليلة الصدمة وعن هذا الأمر، قال الطبيب السعودي راكان الوابل المتخصص في إصابات الملاعب عبر برنامج \"المنتصف\": \"سلمان الفرج لم يعد كما كان، فهو كان يحتاج للحصول على 9 أشهر من أجل العودة بشكل طبيعي، ولكنه تجاوز هذه المدة\". وأضاف: \"سلمان الفرج غاب لأكثر من 390 يومًا، ولكنه ظهر بصورة ضعيفة فنيًا وبدنيًا، والدليل أنه يخضع لتدريبات خاصة مع المنتخب السعودي، ما يدل على عدم جاهزيته\". وتابع: \"من وجهة نظري، إذا استمر الوضع على ما هو عليه، قد يتعرض سلمان الفرج لإصابة جديدة في الفترة المقبلة\". واختتم: \"مسيرة اللاعب باتت تقترب من نهايتها، إذ لم يظهر بالمستوى المطلوب، خاصة أن مركزه يتطلب جاهزية بدنية عالية وقوة مستمرة داخل ال…",
+      "image": null,
+      "pubDate": "2026-03-30T15:16:48.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "b11e9657b33e3b79",
@@ -569,22 +892,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "81bc54aa81079e3c",
-      "title": "Judge Halts Nexstar-Tegna Merger, Ruling That Deal Is ‘Presumed Likely to ‌Violate Antitrust Laws’",
-      "link": "https://variety.com/2026/tv/news/judge-halts-nexstar-tegna-merger-ruling-antitrust-laws-1236702536/",
-      "summary": "Nexstar Media’s $6.2 billion acquisition of rival TV station group owner Tegna is on hold after a federal judge ruled that the proposed merger “is presumed likely to ‌violate ⁠antitrust laws based on the combined firm market share alone.” The deal would augment Nexstar, already the biggest TV stati…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/08/Nexstar-Tegna.jpg",
-      "pubDate": "2026-03-30T15:12:24.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -652,41 +959,9 @@
       "region": "global"
     },
     {
-      "id": "99cc9f9fac093163",
-      "title": "Brandy Looks Back on Her Rise to Superstardom, Breaking Down Barriers and Being Crowned the ‘Vocal Bible’: ‘The Pressure of That Is a Lot’",
-      "link": "https://variety.com/2026/music/news/brandy-legacy-vocal-bible-walk-of-fame-1236702243/",
-      "summary": "At first, Brandy Norwood was a bit uncomfortable with being crowned the “Vocal Bible.” “The title disturbed me,” she says of the designation that both fans and generations of singers she inspired have given her. “The pressure of that is a lot. What does it mean?” But over the years, she explains, s…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/Brandy_Emma-McIntyre_Getty-Images-for-The-Recording-Academy.jpeg",
-      "pubDate": "2026-03-30T15:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f65df906068a91ab",
-      "title": "Wanda Sykes Sets Third Netflix Special ‘Legacy’ (EXCLUSIVE)",
-      "link": "https://variety.com/2026/tv/news/wanda-sykes-netflix-special-legacy-1236702316/",
-      "summary": "Wanda Sykes’ next stand-up comedy special will debut on Netflix on May 19. Titled “Legacy,” it marks Sykes’ third hour for the streamer. Per Netflix’s logline, “With the trademark wit and fearless insight that have earned her multiple Emmy wins and nominations, Sykes delivers an hour of bold, smart…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/03/image_d1d164.jpeg",
-      "pubDate": "2026-03-30T15:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "516e9ad92580b028",
-      "title": "هل ضاع حلم نيمار؟ أنشيلوتي: لقب المونديال لن يأتي إلا بهذه الطريقة.. ومودريتش لا مثيل له",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D9%84-%D8%B6%D8%A7%D8%B9-%D8%AD%D9%84%D9%85-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D8%A7%D9%94%D9%86%D8%B4%D9%8A%D9%84%D9%88%D8%AA%D9%8A-%D9%84%D9%82%D8%A8-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%84%D9%86-%D9%8A%D8%A7%D9%94%D8%AA%D9%8A-%D8%A7%D9%95%D9%84%D8%A7-%D8%A8%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%88%D9%85%D9%88%D8%AF%D8%B1%D9%8A%D8%AA%D8%B4-%D9%84%D8%A7-%D9%85%D8%AB%D9%8A%D9%84-%D9%84%D9%87/blt6f2978f9096b70a0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "id": "8992362898480ef6",
+      "title": "هل ضاع حلم نيمار؟.. أنشيلوتي: لقب المونديال لن يأتي إلا بهذه الطريقة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D9%84-%D8%B6%D8%A7%D8%B9-%D8%AD%D9%84%D9%85-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D8%A7%D9%94%D9%86%D8%B4%D9%8A%D9%84%D9%88%D8%AA%D9%8A-%D9%84%D9%82%D8%A8-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%84%D9%86-%D9%8A%D8%A7%D9%94%D8%AA%D9%8A-%D8%A7%D9%95%D9%84%D8%A7-%D8%A8%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9/blt6f2978f9096b70a0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "مدرب البرازيل يصدم عشاق الكرة الجميلة..",
       "body": "مدرب البرازيل يصدم عشاق الكرة الجميلة.. في أجواء مشحونة بالترقب قبل مواجهة كرواتيا، حرص كارلو أنشيلوتي، المدير الفني لمنتخب البرازيل، على رسم ملامح مشروعه الفني بوضوح، كاشفًا عن فلسفة مختلفة في التعامل مع إرث \"السامبا\"، دون أن يغفل عن ثوابت النجاح التي صنعت تاريخ المنتخب. وخاض منتخب السيليساو مباراة ودية الخميس الماضي ضمن معسكر مارس الجاري، فاز فيها الديوك بهدفين مقابل هدف واحد، بينما يستعد لمباراته الثانية، ضد كرواتيا تمهيدا لإعلان القائمة النهائية التي ستخوض المونديال، التي سيكشف عنها في مايو المقبل. &nbsp; &nbsp; الكرة الجميلة؟.. رد قاطع وخلال المؤتمر الصحفي قبل ودية كرواتيا المقررة فجر الأربعاء المقبل، قال أنشيلوتي اليوم الاثنين، عندما سئل عن الكرة الجميلة التي تعد بمثابة هوية ثابتة المنتخب البرازيلي على مر العصور. وقال: \"اللعب الجميل؟ آخر بطولتي كأس عالم فازت بهما البرازيل كانتا من خلال الجمع بين الموهبة والدفاع. مع فيليباو (سكولاري) وثلاثي الدفاع في 2002 على سبيل المثال، وفي 1994 وضع باريرا خطين من أربعة لاعبين للاستفادة من روماريو في المقدمة\". وتابع: \"لا توجد طريقة أخرى سوى الدفاع الجيد. كأس العالم يفوز به من يستقبل أهدافًا أقل وليس من يسجل أكثر. لا أحب أن يُطلق عليّ مدرب دفاعي، لكن هذا أمر مهم جدًا للفريق\". وشدد: \"وكما يُقال: من يفهم بالإشارة لا يحتاج إلى تصريح\". اقرأ أيضا…",
       "image": null,
@@ -1020,22 +1295,6 @@
       "region": "mena"
     },
     {
-      "id": "02c0da88adb7289a",
-      "title": "ما القنوات الناقلة لمباراة البوسنة وإيطاليا في نهائي الملحق المؤهل لكأس العالم 2026؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D8%B3%D9%86%D8%A9-%D9%88%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A7-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%82-%D8%A7%D9%84%D9%85%D9%88%D9%94%D9%87%D9%84-%D9%84%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt8ff72c349389bd7b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على كيفية مشاهدة مباراة البوسنة وإيطاليا في نهائي الملحق المؤهل لكأس العالم 2026 والبث عبر الإنترنت",
-      "body": "تعرف على كيفية مشاهدة مباراة البوسنة وإيطاليا في نهائي الملحق المؤهل لكأس العالم 2026 والبث عبر الإنترنت يستعد ملعب بيلينو بولي في زينيتشا لاستضافة مواجهة نارية بين منتخب البوسنة والهرسك ومنتخب إيطاليا، في نهائي الملحق الأوروبي المؤهل إلى كأس العالم 2026. تأهل المنتخب الإيطالي إلى نهائي المسار الأول بعد فوزه على منتخب إيرلندا الشمالية بهدفين دون رد، بينما انتزع منتخب البوسنة بطاقة التأهل على حساب منتخب ويلز بركلات الترجيح (4-2)، بعد تعادلهما في الوقتين الأصلي والإضافي بهدف لكل منهما. وسيتأهل الفائز من هذه المباراة إلى مونديال 2026 المقرر إقامته في \"الولايات المتحدة الأمريكية وكندا والمكسيك\" ضمن المجموعة الثانية التي تضم منتخبات قطر وسويسرا وكندا. ومنذ تتويجها بلقب كأس العالم 2006، عاشت إيطاليا سلسلة من الإخفاقات على الصعيد العالمي. فقد خرجت من دور المجموعات في مونديالي 2010 بجنوب أفريقيا و2014 بالبرازيل. وفشلت إيطاليا في التأهل إلى مونديال 2018 في روسيا بعد خسارتها أمام السويد في الملحق، وفي تصفيات كأس العالم 2022 تعرضت لضربة جديدة بخسارتها أمام مقدونيا الشمالية. وفي التقرير الآتي من \"كووورة\" نستعرض القنوات الناقلة لمباراة البوسنة وإيطاليا في نهائي الملحق المؤهل لكأس العالم 2026. ما القنوات الناقلة لمباراة البوسنة وإيطاليا في نهائي الملحق المؤهل لكأس العالم 202 6؟ تمتلك شبكة قنوات…",
-      "image": null,
-      "pubDate": "2026-03-30T13:32:44.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "a5b938d41e7676ab",
       "title": "AirDrop support for older Galaxy S devices is getting closer",
       "link": "https://www.gsmarena.com/airdrop_support_for_older_galaxy_s_devices_is_getting_closer-news-72161.php",
@@ -1082,22 +1341,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "caaf78ad486bbe22",
-      "title": "هل يتمرد ميليتاو على ريال مدريد بورقة الدوري السعودي؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D8%AA%D9%85%D8%B1%D8%AF-%D9%85%D9%8A%D9%84%D9%8A%D8%AA%D8%A7%D9%88-%D8%B9%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A8%D9%88%D8%B1%D9%82%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/blt569c4777168b9882?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اهتمام جاد من أندية روشن",
-      "body": "اهتمام جاد من أندية روشن يحظى البرازيلي إيدير ميليتاو، مدافع ريال مدريد، باهتمام جاد من أندية بدوري روشن خلال الميركاتو الصيفي المقبل. ووفقا لبرنامج \"الشيرنجيتو\" الإسباني، هناك أندية من السعودية استفسرت بالفعل عن وضع ميليتاو في ريال مدريد هذا الموسم. وأشار البرنامج الإسباني إلى أن ممثلي ميليتاو بدأوا استكشاف وضع العروض الخارجية للمدافع البرازيلي أثناء إصابته، لا سيما مع إدراكهم لاهتمام الدوري السعودي. وأوضح \"الشيرنجيتو\" أن اللاعب يعلم أن من الصعب تحسين راتبه مع ريال مدريد، وأن عقده الحالي سيكون الأخير رفقة الميرنجي الذي يحصل خلاله على أجر &nbsp;كبير. ويرتبط إيدير ميليتاو بعقد مع ريال مدريد حتى صيف 2028. وعانى المدافع البرازيلي هذا الموسم من إصابة بتمزق في العضلة ذات الرأسين الفخذية بالساق اليسرى مع تأثر الوتر القريب، مما أبعده عن الملاعب لفترة تقترب من 4 أشهر. ومن المتوقع أن يتواجد ميليتاو في قائمة الفريق لمواجهة مايوركا، السبت المقبل، كلاعب بديل، مع احتمالية مشاركته لاحقًا في الموقعة المرتقبة أمام بايرن ميونخ، يوم 7 أبريل/نيسان، في ذهاب ربع نهائي دوري أبطال أوروبا، على ملعب سانتياجو برنابيو. اقرأ أيضا: نجم ريال مدريد يقترب من العودة بعد 111 يومًا",
-      "image": null,
-      "pubDate": "2026-03-30T13:16:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "0330e42c700a6306",
@@ -1164,22 +1407,6 @@
       "region": "global"
     },
     {
-      "id": "4414ce536d3baeac",
-      "title": "Apple @ 50",
-      "link": "https://www.theverge.com/tech/899623/apple-50-anniversary",
-      "summary": "Fifty years ago, on April 1st, 1976, Apple Computer Company was founded. Today it’s one of the most valuable companies in the world, celebrated for producing ubiquitous products like the iPad and iPhone to now-nostalgia bait like the iPod Mini and PowerBook. Over the last five decades, the company …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-30T13:05:16.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "cb77c3b892edc0cb",
       "title": "Korir banned for five years over doping admission",
       "link": "https://www.bbc.com/sport/athletics/articles/c77mndp6erpo?at_medium=RSS&at_campaign=rss",
@@ -1193,22 +1420,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "89d422181db43cb8",
-      "title": "The origin story of Apple’s long-running relationship with Foxconn",
-      "link": "https://www.theverge.com/tech/898077/apple-in-china-patrick-mcgee-foxconn",
-      "summary": "In 2025, Patrick McGee published Apple in China: The Capture of the World's Greatest Company, a deeply-reported look at the tech giant's investment in - and growing reliance on - China. The following excerpt, pulled from Chapter 9 of Apple in China, examines the company's relationship with Foxconn,…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-30T13:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1228,54 +1439,6 @@
       "region": "global"
     },
     {
-      "id": "d709dce70f3b7724",
-      "title": "الشهري يوافق على تدريب السعودية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A-%D9%8A%D9%88%D8%A7%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/bltf15029d3b258d67f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بات سعد الشهري، مدرب الاتفاق، قريبًا من تولي تدريب المنتخب السعودي، خلفًا للفرنسي هيرفي رينارد.",
-      "body": "بات سعد الشهري، مدرب الاتفاق، قريبًا للغاية من تولي تدريب المنتخب السعودي، خلفًا للفرنسي هيرفي رينارد. وكانت صحيفة \"عكاظ\" قد كشفت أن الاتحاد السعودي تواصل مباشرة مع الشهري. وفي سياق متصل، قال صالح عمر الأحمد، عضو الاتحاد السعودي للإعلام الرياضي، إن الشهري وافق مبدئيًا على تدريب الأخضر. وأضاف الأحمد، عبر حسابه على موقع إكس \"سعد الشهري يمنح الاتحاد السعودي، موافقة مبدئية لقيادة المنتخب السعودي الأول في المرحلة المقبلة\". وتابع \"القرار الرسمي المنتظر سيكون بعد مواجهة الأخضر أمام صربيا غدًا الثلاثاء، مع ترقب حسم مصير المدرب الفرنسي هيرفي رينارد.. هل يستمر أم يرحل؟\". 🚨🚨🚨🚨 عااااااااااااااااااجل مدرب نادي #الاتفاق الوطني الكابتن سعد الشهري يمنح الاتحاد السعودي لكرة القدم موافقة مبدئية لقيادة المنتخب السعودي الأول في المرحلة المقبلة 🇸🇦 القرار الرسمي المنتظر سيكون بعد مواجهة الأخضر أمام صربيا غدًا الثلاثاء، مع ترقب حسم مصير المدرب الفرنسي… pic.twitter.com/QmmP6s6NSB &mdash; صالح عمر الأحمد (@Saleh_omar17) March 30, 2026 وتتزايد الضغوط على الاتحاد السعودي، من أجل الإطاحة بالفرنسي رينارد، بعد الخسارة القاسية 0-4 أمام مصر، يوم الجمعة الماضي. يذكر أن الشهري يتولى حاليًا تدريب الاتفاق، الذي يحتل المركز السابع بجدول ترتيب دوري روشن السعودي برصيد 39 نقطة. وتقع السعودية في المجموعة الثامنة لك…",
-      "image": null,
-      "pubDate": "2026-03-30T12:45:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "bc76a8d09029fc40",
-      "title": "\"الاجتماع الحاسم\".. نجم ريال مدريد يترقب \"خيار الصدمة\"",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%85-%D9%86%D8%AC%D9%85-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AA%D8%B1%D9%82%D8%A8-%D8%AE%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AF%D9%85%D8%A9/blta9e7ff7647671adf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يستعد فلورنتينو بيريز، رئيس ريال مدريد، لصيف جديد سيكون عنوانه الأبرز \"إعادة بناء الدفاع\".",
-      "body": "يستعد فلورنتينو بيريز، رئيس ريال مدريد، لصيف جديد سيكون عنوانه الأبرز \"إعادة بناء الدفاع\". وبينما يواصل النادي بحثه عن قلب دفاع جديد، يبرز ملف آخر لا يقل أهمية داخل أروقة \"سانتياجو برنابيو\" يتعلق بمستقبل الظهير الأيمن داني كارفاخال، الذي ينتهي عقده في 30 يونيو/حزيران المقبل دون أن يحسم قراره بشأن التجديد. اجتماع مرتقب لحسم الموقف بحسب مصادر قريبة من النادي، لا ينوي بيريز الانتظار حتى نهاية الموسم لاتخاذ القرار، إذ يخطط لعقد اجتماع مباشر مع كارفاخال خلال الأسابيع المقبلة لمعرفة نواياه بشكل واضح. الاجتماع سيكون حاسمًا لتحديد ما إذا كان اللاعب سيواصل مسيرته مع الفريق أم سيغادر بعد أكثر من عقد من الزمن في صفوف الميرينجي. هذه الخطوة ليست جديدة على رئيس ريال مدريد، الذي اعتاد عقد لقاءات مماثلة مع نجوم الفريق المخضرمين مثل لوكا مودريتش، وكريم بنزيمة، لمعرفة مدى استعدادهم للاستمرار وتجديد عقودهم عامًا بعد عام. اقرأ أيضًا: قرار مؤجل.. غموض حول مستقبل كارفاخال مع ريال مدريد كارفاخال يفقد مكانه الأساسي بدأ كارفاخال الموسم الحالي بالتناوب مع ترينت ألكسندر-أرنولد في مركز الظهير الأيمن، لكن منذ تولي ألفارو أربيلوا القيادة الفنية، أصبح اللاعب البريطاني الخيار الأول في هذا المركز، ما قلّص من دقائق مشاركة كارفاخال تدريجيًا. ورغم أنه استعاد بعض الحضور في المباريات الأخيرة، إلا أن دوره الجديد كلاعب …",
-      "image": null,
-      "pubDate": "2026-03-30T12:43:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "edf31ca202685b5f",
-      "title": "بسبب مشجع جزائري!.. تطور جديد في قضية المحتجزين السنغاليين بالمغرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B3%D8%A8%D8%A8-%D9%85%D8%B4%D8%AC%D8%B9-%D8%AC%D8%B2%D8%A7%D9%8A%D9%94%D8%B1%D9%8A-%D8%AA%D8%B7%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%AC%D8%B2%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blt079a2a3ea522388a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أكثر مباراة مثيرة للجدل في الكان",
-      "body": "أكثر مباراة مثيرة للجدل في الكان منذ صافرة نهاية نهائي كأس أمم إفريقيا 2025 في الرباط، لم تهدأ تداعيات واحدة من أكثر المباريات إثارة للجدل في تاريخ البطولة. فبينما احتفل المنتخب السنغالي بلقبه القاري بعد فوزه على المغرب بهدف دون رد، كانت فصول أزمة أخرى تتشكل خارج المستطيل الأخضر، بعدما تحولت فرحة الجماهير السنغالية إلى مأساة قانونية انتهت بسجن 18 مشجعًا بتهم تتعلق بـ\"أعمال الشغب\". من فرحة اللقب لقاعات المحاكم في 18 يناير/كانون الثاني الماضي، امتلأ ملعب الأمير مولاي عبد الله بالعاصمة المغربية بالجماهير التي جاءت لمتابعة النهائي المرتقب بين البلدين. وبعد فوز السنغال بهدف بابي جايي في الوقت الإضافي، اندلعت اشتباكات محدودة في المدرجات، سرعان ما تحولت إلى أحداث شغب دفعت السلطات المغربية إلى توقيف عدد من المشجعين السنغاليين. اقرأ أيضًا: كرة القدم السنغالية في حالة صدمة بعد مأساة مروعة وبعد أيام من التحقيقات، أصدرت المحكمة الابتدائية في الرباط أحكامًا بالسجن تراوحت بين 3أشهر وسنة بحق 18 مشجعًا، ما أثار موجة من الغضب في داكار، حيث اعتبرت السلطات السنغالية أن العقوبات قاسية وغير متناسبة مع الوقائع. دعم رسمي ومنذ ذلك الحين، تابعت الحكومة السنغالية الملف عن كثب، مؤكدة التزامها بالدفاع عن مواطنيها. وأعلنت وزارة التكامل الإفريقي والشؤون الخارجية والسنغاليين في الخارج أن فريقًا من المحامين يتول…",
-      "image": null,
-      "pubDate": "2026-03-30T12:41:50.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "b0051e8e425c0c1f",
       "title": "vivo X300 Ultra is official with near 1\" 35mm camera, new 200MP 85mm zoom",
       "link": "https://www.gsmarena.com/vivo_x300_ultra_is_official_with_near_1_35mm_camera_new_200mp_85mm_zoom_-news-72162.php",
@@ -1290,70 +1453,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "90d9fb90a00efd94",
-      "title": "تجربة فاشلة وتضارب.. لغز أمام أربيلوا يهدد موسم ريال مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%81%D8%A7%D8%B4%D9%84%D8%A9-%D9%88%D8%AA%D8%B6%D8%A7%D8%B1%D8%A8-%D9%84%D8%BA%D8%B2-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%8A%D9%87%D8%AF%D8%AF-%D9%85%D9%88%D8%B3%D9%85-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/bltc939fc7466f3d805?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كيف سيحل المدرب هذه المعضلة؟",
-      "body": "كيف سيحل المدرب هذه المعضلة؟ سلطت تقارير صحفية إسبانية، الضوء على التحدي الجديد الذي يواجهه مدرب ريال مدريد، ألفارو أربيلوا، في ظل عودة عدد من اللاعبين المصابين. منافسة محتدمة في كواليس ريال مدريد، حيث لا تهدأ المنافسة، يبرز اختبار صعب أمام ألفارو أربيلوا، مع عودة المصابين واشتداد الصراع على الأماكن الأساسية، في فريق مليء بالنجوم والخيارات المعقدة. هذا المشهد فتح باب التساؤلات حول كيفية إدارة الفريق، خاصة في ظل تكدس الأسماء في مراكز بعينها، وهو ما ركزت عليه صحيفة سبورت الكتالونية، التي رصدت ما وصفته بـ\"اللغز\" الذي يواجه المدرب. تداخل الصحيفة قالت في مفتتح تقريرها، إن إحدى مفاتيح الانطلاقة الجيدة للمدرب هي وضع كل لاعب في مركزه المناسب، لكن عودة جود بيلينجهام تسبب تداخلا مع الدور الذي يشغله التركي أردا جولر حاليا. وأشارت إلى أن أربيلوا نجح في إعادة الهدوء إلى غرفة ملابس ريال مدريد، ومنح كل لاعب دورا واضحا داخل الملعب، وكان من أبرز أسرار نجاحه وضع كل لاعب في مركزه الطبيعي، حيث يقدم أفضل ما لديه، مع تجنب الحلول المؤقتة أو تغيير مراكز اللاعبين لتعويض الغيابات بسبب الإصابات. اللغز الأكبر هذا النهج لاقى ترحيبًا من اللاعبين، الذين يشعرون براحة أكبر في مراكزهم الأصلية، وهو ما انعكس إيجابا على أداء الفريق. كما نجح المدرب في إيجاد بدائل للمصابين، حتى أنه لجأ إلى لاعبي الأكاديمية لسد النقص، ب…",
-      "image": null,
-      "pubDate": "2026-03-30T12:31:24.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "958341f7e59f6244",
-      "title": "توخيل يثير القلق في ريال مدريد بقرار جديد حول بيلينجهام",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%88%D8%AE%D9%8A%D9%84-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D9%82%D9%84%D9%82-%D9%81%D9%8A-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A8%D9%82%D8%B1%D8%A7%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AD%D9%88%D9%84-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85/blte136d865621816b2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل يغيب عن موقعة بايرن ميونخ؟",
-      "body": "هل يغيب عن موقعة بايرن ميونخ؟ أثار الألماني توماس توخيل، مدرب منتخب إنجلترا، القلق داخل ريال مدريد، بعد قراره الجديد بشأن اللاعب جود بيلينجهام. وعاد الإنجليزي جود بيلينجهام، نجم ريال مدريد للمشاركة مع فريقه، بعد غيابه عن 10 مباريات متتالية بسبب الإصابة، وذلك في ديربي مدريد أمام أتلتيكو الأسبوع الماضي. لكن لاعب الوسط الإنجليزي، لم يشارك في المباراة الودية لإنجلترا ضد أوروجواي يوم الجمعة الماضي، حيث استبعده توخيل من التشكيلة، خشية المخاطرة به. واليوم الإثنين، صرح توخيل، بأن بيلينجهام لن يشارك في مباراة الودية ضد اليابان، غدا الثلاثاء. وقال توخيل، في تصريحات لهيئة الإذاعة البريطانية \"بي بي سي\"، إنه في حالة الإصابة العضلية، لا يمكن التنبؤ بحالة اللاعب، لذا فهو \"لا يريد المخاطرة\" بلاعب ريال مدريد. يحمل هذا الخبر دلالة مزدوجة لريال مدريد. فمن جهة، سيعود اللاعب الإنجليزي إلى مدريد دون أن يلعب دقيقة واحدة في فترة التوقف الحالية. &nbsp;ومن جهة أخرى، سيحتاج الفريق إلى تحديد مدى خطورة الإصابة العضلية التي أبعدته عن مباراتي منتخب بلاده الوديتين فور وصوله إلى فالديبيباس. لذا، ستكون الخطوة التالية هي تحديد ما إذا كان إجهاد العضلات سيسمح له بالانضمام إلى تشكيلة أربيلوا لمباراة السبت ضد مايوركا. &nbsp;كما سيكون من المهم التأكد من جاهزيته التامة للمرحلة الحاسمة من الموسم، حيث يستضيف ريال مدريد باي…",
-      "image": null,
-      "pubDate": "2026-03-30T12:29:42.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5d9fe35593c8f4ea",
-      "title": "برشلونة يستعد لصيف مشتعل.. 7 صفقات على طاولة لابورتا!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%B5%D9%8A%D9%81-%D9%85%D8%B4%D8%AA%D8%B9%D9%84-7-%D8%B5%D9%81%D9%82%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7/blt99a48a2b207702e3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لابورتا يتحرك مبكرًا",
-      "body": "لابورتا يتحرك مبكرًا يواصل نادي برشلونة، مسيرته بثبات هذا الموسم تحت قيادة المدرب الألماني هانزي فليك، ساعيًا لتحقيق ثنائية الدوري الإسباني ودوري أبطال أوروبا. ورغم الغياب المؤثر للجناح البرازيلي رافينيا لمدة 5 أسابيع بسبب الإصابة، فإن الفريق الكتالوني يعيش واحدة من أفضل فتراته الفنية، بينما بدأت الإدارة بالفعل في التخطيط للموسم المقبل. أولويات الصيف بعد إعادة انتخاب خوان لابورتا رئيسًا للنادي، بدأ العمل مباشرة مع المدير الرياضي ديكو لتحديد احتياجات الفريق. ووفقا لصحيفة \"موندو ديبورتيفو\"، حددت الإدارة هدفين رئيسيين للميركاتو الصيفي المقبل: المهاجم الأرجنتيني جوليان ألفاريز والمدافع الإيطالي أليساندرو باستوني. اقرا أيضًا: يوفنتوس يضحي بـ5 لاعبين لضم ليفاندوفسكي.. والبولندي يرد ألفاريز، الذي يقدم موسمًا مميزًا مع أتلتيكو مدريد بتسجيله 8 أهداف وصناعته 4 في 29 مباراة بالدوري، يُنظر إليه كخليفة مثالي لروبرت ليفاندوفسكي المتوقع رحيله هذا الصيف. وتُقدّر قيمة الصفقة بين 80 و100 مليون يورو، وهو مبلغ ضخم بالنظر للوضع المالي للنادي. أما في خط الدفاع، فيرى فليك أن باستوني هو الخيار المثالي لتدعيم الجبهة اليسرى من قلب الدفاع، خاصة بعد اقتراب نيكو شلوتربيك من تجديد عقده مع بوروسيا دورتموند، ورغم التكلفة المرتفعة، فإن اللاعب الإيطالي يطابق تمامًا المواصفات التي طلبها المدرب الألماني. اقرأ أيضًا:…",
-      "image": null,
-      "pubDate": "2026-03-30T12:23:23.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "36c754d390dbbb19",
-      "title": "طريقك لمؤازرة \"الناريين\".. دليل حجز تذاكر مباريات منتخب كرواتيا في كأس العالم 2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B7%D8%B1%D9%8A%D9%82%D9%83-%D9%84%D9%85%D9%88%D9%94%D8%A7%D8%B2%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%B1%D9%8A%D9%8A%D9%86-%D8%AF%D9%84%D9%8A%D9%84-%D8%AD%D8%AC%D8%B2-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026/bltea568a955531aae9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "إليك كل ما تحتاج إلى معرفته لحجز مقعدك لمشاهدة منتخب كرواتيا خلال كأس العالم لكرة القدم 2026.",
-      "body": "إليك كل ما تحتاج إلى معرفته لحجز مقعدك لمشاهدة منتخب كرواتيا خلال كأس العالم لكرة القدم 2026. يستعد منتخب كرواتيا ، وصيف مونديال 2018 وصاحب المركز الثالث في 2022، لتسجيل حضور جديد في نهائيات كأس العالم 2026 التي تُقام في أمريكا الشمالية. \"الفاتريني\" بقيادة الأسطورة لوكا مودريتش يسعى لكتابة التاريخ مجدداً، والجماهير العربية والعالمية تترقب بشغف حجز مقاعدها في الملاعب التاريخية للولايات المتحدة، المكسيك، وكندا. إذا كنت تخطط لمرافقة رفاق مودريتش في رحلتهم المونديالية، يستعرض معكم \"كووورة\" الدليل الشامل لشراء التذاكر، جدول المباريات، وأفضل الأسعار المتاحة. تذاكر مباريات منتخب كرواتيا في كأس العالم&nbsp; اشترِ تذكرتك الآن! متى ينطلق كأس العالم 2026؟ ستقام النسخة التاريخية الأولى بمشاركة 48 منتخباً في الفترة من 11 يونيو إلى 19 يوليو 2026 . كرواتيا ستخوض غمار المنافسة في ملاعب عالمية، وستسبق البطولة بمواجهة ودية كبرى ضد البرازيل في 1 أبريل 2026 لضبط الأوتار قبل المعترك الرسمي. التاريخ المباراة (التوقيت المحلي) الملعب التذاكر 17 يونيو 2026 إنجلترا × كرواتيا (11 مساءً) ملعب AT&amp;T (دالاس، أمريكا) احجز الآن 24 يونيو 2026 بنما × كرواتيا (2 صباحاً) ملعب BMO (تورونتو، كندا) احجز الآن 28 يونيو 2026 كرواتيا × غانا (12 صباحاً) ملعب لينكولن فاينانشال (فيلادلفيا، أمريكا) احجز الآن كيفية شراء تذاك…",
-      "image": null,
-      "pubDate": "2026-03-30T12:20:05.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "cf336d1ab7ec8b12",
@@ -1772,38 +1871,6 @@
       "region": "global"
     },
     {
-      "id": "04c30c2c01b8877e",
-      "title": "Price v Pineiro & Wilder v Chisora - all you need to know",
-      "link": "https://www.bbc.com/sport/boxing/articles/cwy34x83pnko?at_medium=RSS&at_campaign=rss",
-      "summary": "All you need to know about an action-packed weekend of boxing, with Lauren Price's world title defence starting the action on Saturday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-30T08:01:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "9be45ab692813488",
-      "title": "Sivo hat-trick ends Warrington's 100% record",
-      "link": "https://www.bbc.com/sport/rugby-league/articles/ckge9ez4dx1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Super League top try-scorer Maika Sivo scores another hat-trick as Leeds Rhinos come from behind to end Warrington Wolves' 100 percent record.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-30T07:34:46.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "24a38cd764f48444",
       "title": "Realme Narzo 100 Lite details leak, said to launch soon",
       "link": "https://www.gsmarena.com/realme_narzo_100_lite_details_leak_said_to_launch_soon-news-72158.php",
@@ -2022,22 +2089,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "af11a2f7727db68b",
-      "title": "Bayern wary of Saudi interest in Kane - Monday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/cwykg07e994o?at_medium=RSS&at_campaign=rss",
-      "summary": "Bayern Munich wary of Saudi Pro League clubs targeting Harry Kane, Bernardo Silva set to leave Manchester City, Inter Miami start talks with Manchester United's Casemiro, plus more.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-29T21:22:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -2860,22 +2911,6 @@
       "region": "global"
     },
     {
-      "id": "3c6b5c3216fb09d6",
-      "title": "تقام في برشلونة.. نفاد تذاكر مباراة منتخب مصر وإسبانيا الودية",
-      "link": "https://www.yallakora.com/friendly-matches-nations/2438/news/545687/%d8%aa%d9%82%d8%a7%d9%85-%d9%81%d9%8a-%d8%a8%d8%b1%d8%b4%d9%84%d9%88%d9%86%d8%a9-%d9%86%d9%81%d8%a7%d8%af-%d8%aa%d8%b0%d8%a7%d9%83%d8%b1-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d9%85%d9%86%d8%aa%d8%ae%d8%a8-%d9%85%d8%b5%d8%b1-%d9%88%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-%d8%a7%d9%84%d9%88%d8%af%d9%8a%d8%a9",
-      "summary": "تشهد مباراة منتخب مصر أمام نظيره الإسباني، إقبالاً كبيراً من جانب الجماهير الإسبانية في مدينة برشلونة.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-29T09:52:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "35753774a88875a4",
       "title": "Samsung Galaxy A57/A37, OnePlus 15T official, Week 13 in review",
       "link": "https://www.gsmarena.com/galaxy_a57_a37_oneplus_15t_official_week_13_in_review-news-72149.php",
@@ -2889,38 +2924,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "58a57f69ea8726ec",
-      "title": "هدف لا يُنسى.. ودية منتخب مصر وإسبانيا تُعيد ذكريات إنجاز خوسيه رييس",
-      "link": "https://www.yallakora.com/friendly-matches-nations/2438/news/545683/%d9%87%d8%af%d9%81-%d9%84%d8%a7-%d9%8a-%d9%86%d8%b3%d9%89-%d9%88%d8%af%d9%8a%d8%a9-%d9%85%d9%86%d8%aa%d8%ae%d8%a8-%d9%85%d8%b5%d8%b1-%d9%88%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-%d8%aa-%d8%b9%d9%8a%d8%af-%d8%b0%d9%83%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a5%d9%86%d8%ac%d8%a7%d8%b2-%d8%ae%d9%88%d8%b3%d9%8a%d9%87-%d8%b1%d9%8a%d9%8a%d8%b3",
-      "summary": "في الأول من يونيو عام 2019، دخلت كرة القدم الإسبانية في حالة حداد وغمرتها الدموع، فقد أودى حادث سير مروّع بحياة أحد أكثر اللاعبين موهبة من مواليد العقدين الأخيرين من القرن العشرين.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-29T08:41:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c226861882f2642b",
-      "title": "مباريات اليوم الأحد.. إياب ربع نهائي كأس الرابطة.. ومواجهات الأهلي والزمالك بالسلة",
-      "link": "https://www.yallakora.com/egyptian-league-cup/3012/news/545680/%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ad%d8%af-%d8%a5%d9%8a%d8%a7%d8%a8-%d8%b1%d8%a8%d8%b9-%d9%86%d9%87%d8%a7%d8%a6%d9%8a-%d9%83%d8%a3%d8%b3-%d8%a7%d9%84%d8%b1%d8%a7%d8%a8%d8%b7%d8%a9-%d9%88%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d8%a8%d8%a7%d9%84%d8%b3%d9%84%d8%a9",
-      "summary": "يشهد اليوم الأحد 29 مارس، عدد من المباريات الودية بين المنتخبات في ظل الاستعداد لبطولة كأس العالم 2026.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-29T07:48:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2982,22 +2985,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ac35e3655eb4a4de",
-      "title": "ملف يلا كورة.. تغيير موعد مباراة الزمالك والمصري.. حقيقة مفاوضات الأهلي مع مورا.. وجاهزية مرعي",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/545678/%d9%85%d9%84%d9%81-%d9%8a%d9%84%d8%a7-%d9%83%d9%88%d8%b1%d8%a9-%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1-%d9%85%d9%88%d8%b9%d8%af-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%88%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d9%85%d9%81%d8%a7%d9%88%d8%b6%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%85%d8%b9-%d9%85%d9%88%d8%b1%d8%a7-%d9%88%d8%ac%d8%a7%d9%87%d8%b2%d9%8a%d8%a9-%d9%85%d8%b1%d8%b9%d9%8a-",
-      "summary": "نشر يلا كورة، العديد من الموضوعات الهامة، على مدار أمس السبت، والتي يأتي على رأسها، تعديل موعد مباراة الزمالك والمصري البورسعيدي في الدوري المصري.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-28T23:20:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
       },
       "lang": "en",
       "category": "sports",
@@ -3340,12 +3327,12 @@
       "region": "global"
     },
     {
-      "id": "14e76f581f8d91f0",
-      "title": "Asus ROG Swift PG34WCDN 34-inch QD-OLED 360 Hz gaming monitor review: New levels of speed and brightness",
-      "link": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg34wcdn-34-inch-qd-oled-360-hz-gaming-monitor-review",
-      "summary": "Asus embraces RGB Stripe OLED tech in its new ROG Swift PG34WCDN. It’s a 34-inch curved ultra-wide panel with 360 Hz, Adaptive-Sync, HDR500 and Quantum Dot color. It raises the bar for speed and brightness in the WQHD segment.",
+      "id": "065afba7fc9a89d4",
+      "title": "Meta to fund seven new natural gas power plants to fuel AI data centers — Entergy partnership to deliver 7 gigawatts of power for Louisiana AI facility",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-will-fund-seven-new-gas-plants-to-power-its-7gw-louisiana-data-center",
+      "summary": "Meta is paying for the construction of seven new natural gas plants to supply its largest data center, massively expanding the fossil fuel infrastructure underpinning its AI buildout.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/GZC4jxgpG9FSDbpnzuydUN-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/86kbFvvukFJM8wvw3xN4nS-1280-80.png",
       "pubDate": "2026-03-28T12:00:00.000Z",
       "source": {
         "name": "Tom's Hardware",
@@ -3356,12 +3343,12 @@
       "region": "global"
     },
     {
-      "id": "065afba7fc9a89d4",
-      "title": "Meta to fund seven new natural gas power plants to fuel AI data centers — Entergy partnership to deliver 7 gigawatts of power for Louisiana AI facility",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-will-fund-seven-new-gas-plants-to-power-its-7gw-louisiana-data-center",
-      "summary": "Meta is paying for the construction of seven new natural gas plants to supply its largest data center, massively expanding the fossil fuel infrastructure underpinning its AI buildout.",
+      "id": "14e76f581f8d91f0",
+      "title": "Asus ROG Swift PG34WCDN 34-inch QD-OLED 360 Hz gaming monitor review: New levels of speed and brightness",
+      "link": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg34wcdn-34-inch-qd-oled-360-hz-gaming-monitor-review",
+      "summary": "Asus embraces RGB Stripe OLED tech in its new ROG Swift PG34WCDN. It’s a 34-inch curved ultra-wide panel with 360 Hz, Adaptive-Sync, HDR500 and Quantum Dot color. It raises the bar for speed and brightness in the WQHD segment.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/86kbFvvukFJM8wvw3xN4nS-1280-80.png",
+      "image": "https://cdn.mos.cms.futurecdn.net/GZC4jxgpG9FSDbpnzuydUN-1280-80.jpg",
       "pubDate": "2026-03-28T12:00:00.000Z",
       "source": {
         "name": "Tom's Hardware",
@@ -3420,12 +3407,12 @@
       "region": "global"
     },
     {
-      "id": "6b8043b65b6891dc",
-      "title": "Ambitious modder bolts a 360mm server AIO onto an RTX 3080, slashes VRAM temps in half — enormous workstation cooler powers 54 degree drop, 9% performance uplift",
-      "link": "https://www.tomshardware.com/pc-components/overclocking/ambitious-modder-bolts-a-360mm-server-aio-onto-an-rtx-3080-slashes-vram-temps-in-half-enormous-workstation-cooler-powers-54-degree-drop-9-percent-performance-uplift",
-      "summary": "Trashbench decided to take an Arctic WS360 360mm server AIO cooler and strap it directly to a GeForce RTX 3080",
+      "id": "82cafb3ad7ae394a",
+      "title": "Minisforum AI X1 Pro 470 review: AMD's Gorgon Point in a sleek mini PC desktop",
+      "link": "https://www.tomshardware.com/desktops/mini-pcs/minisforum-ai-x1-pro-470-review",
+      "summary": "Minisforum’s AI X1 Pro 470 mini PC is just an incremental update to last year's well-regarded AI X1 Pro 370, but the barebones model isn't much more expensive.",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/L4vwQ9775WqR8qVFGquGva-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/cQzC9ubz438BxGQH9TmQed-1280-80.jpg",
       "pubDate": "2026-03-28T11:00:00.000Z",
       "source": {
         "name": "Tom's Hardware",
@@ -3452,12 +3439,12 @@
       "region": "global"
     },
     {
-      "id": "82cafb3ad7ae394a",
-      "title": "Minisforum AI X1 Pro 470 review: AMD's Gorgon Point in a sleek mini PC desktop",
-      "link": "https://www.tomshardware.com/desktops/mini-pcs/minisforum-ai-x1-pro-470-review",
-      "summary": "Minisforum’s AI X1 Pro 470 mini PC is just an incremental update to last year's well-regarded AI X1 Pro 370, but the barebones model isn't much more expensive.",
+      "id": "6b8043b65b6891dc",
+      "title": "Ambitious modder bolts a 360mm server AIO onto an RTX 3080, slashes VRAM temps in half — enormous workstation cooler powers 54 degree drop, 9% performance uplift",
+      "link": "https://www.tomshardware.com/pc-components/overclocking/ambitious-modder-bolts-a-360mm-server-aio-onto-an-rtx-3080-slashes-vram-temps-in-half-enormous-workstation-cooler-powers-54-degree-drop-9-percent-performance-uplift",
+      "summary": "Trashbench decided to take an Arctic WS360 360mm server AIO cooler and strap it directly to a GeForce RTX 3080",
       "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/cQzC9ubz438BxGQH9TmQed-1280-80.jpg",
+      "image": "https://cdn.mos.cms.futurecdn.net/L4vwQ9775WqR8qVFGquGva-1280-80.jpg",
       "pubDate": "2026-03-28T11:00:00.000Z",
       "source": {
         "name": "Tom's Hardware",
