@@ -1,24 +1,37 @@
 {
   "meta": {
-    "generated_at": "2026-04-04T01:25:12.431Z",
-    "total": 219,
-    "processed_feeds": 15,
-    "discovered_feeds": 82,
+    "generated_at": "2026-04-04T03:45:33.721Z",
+    "total": 210,
+    "processed_feeds": 16,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
     "results": [
       {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "homepage": "https://www.theverge.com/",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
-          "technology"
+          "sports"
         ],
-        "taken": 9,
+        "taken": 64,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/469089c4-158a-4347-8446-a9cb4c8a90a0",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
         "notModified": false
       },
       {
@@ -31,20 +44,7 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 64,
-        "error": null,
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -100,6 +100,19 @@
         "notModified": false
       },
       {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "homepage": "https://www.theverge.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "technology"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/feeds/all",
         "homepage": "https://www.tomshardware.com/feeds/all",
@@ -113,19 +126,6 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia - صحة",
-        "url": "https://www.skynewsarabia.com/rss/health.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Masrawy — لايف ستايل",
         "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
@@ -136,6 +136,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "Sky News Arabia - صحة",
+        "url": "https://www.skynewsarabia.com/rss/health.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -206,6 +219,22 @@
     ]
   },
   "items": [
+    {
+      "id": "314962ecabf6baef",
+      "title": "Netflix’s ‘Love on the Spectrum’ Renewed for Season 5, Fan Favorite Cast Member Connor Tomlinson Exits: ‘I’ve Chosen to Pass the Torch’ (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/awards/love-on-the-spectrum-renewed-season-5-connor-tomlinson-exits-1236705978/",
+      "summary": "Netflix is still in love with “Love on the Spectrum.” The streaming giant has renewed the U.S. version of “Love on the Spectrum” for a fifth season following the successful debut of its fourth season, Variety has learned exclusively. Season 3 of the dating show that follows young adults with autism…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/04/Love-on-the-spectrum.jpg",
+      "pubDate": "2026-04-04T03:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "d8a2978063c9c7c9",
       "title": "‘Spaceballs’ Sequel Set for April 2027 Release Date",
@@ -543,22 +572,6 @@
       "region": "global"
     },
     {
-      "id": "c8fdc1176a8122b2",
-      "title": "NASA did eventually solve Artemis II&#8217;s Outlook glitch",
-      "link": "https://www.theverge.com/science/906988/nasa-artemis-ii-microsoft-outlook-issue-fixed",
-      "summary": "NASA’s Artemis II rocket launched from the Kennedy Space Center on Wednesday. | Photo: Joe Raedle via Getty Images On Thursday, during Artemis II's journey to the Moon, commander Reid Wiseman ran into a tech issue some of us back on Earth can relate to: Microsoft Outlook wasn't working. In a conver…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T20:53:48.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "121601e8b27478e9",
       "title": "راكيتيتش: تفوق ريال مدريد الأوروبي له تفسير واضح",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%A7%D9%83%D9%8A%D8%AA%D9%8A%D8%AA%D8%B4-%D8%AA%D9%81%D9%88%D9%82-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%84%D9%87-%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%88%D8%A7%D8%B6%D8%AD/blt5f37bd6b96643aad?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -719,22 +732,6 @@
       "region": "mena"
     },
     {
-      "id": "d28fc3ef3433ebd3",
-      "title": "OpenAI’s AGI boss is taking a leave of absence",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
-      "summary": "OpenAI is undergoing another round of C-suite changes, according to an internal memo viewed by The Verge. Fidji Simo, OpenAI's CEO of AGI deployment - who was until recently the company's CEO of applications - says in the memo that she will be stepping away on medical leave \"for the next several we…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T20:22:59.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "33e96c2f227d10c2",
       "title": "\"حبيبي.. عندما تتوقف اتصل بي\".. الرسالة التي لم يقرأها جوتا أبدًا",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%A8%D9%8A%D8%A8%D9%8A-%D8%B9%D9%86%D8%AF%D9%85%D8%A7-%D8%AA%D8%AA%D9%88%D9%82%D9%81-%D8%A7%D8%AA%D8%B5%D9%84-%D8%A8%D9%8A-%D8%A7%D9%84%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D9%8A-%D9%84%D9%85-%D9%8A%D9%82%D8%B1%D8%A7%D9%94%D9%87%D8%A7-%D8%AC%D9%88%D8%AA%D8%A7-%D8%A7%D9%94%D8%A8%D8%AF%D9%8B%D8%A7/blt3b7cd0842d18c715?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -813,22 +810,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "17b7de443a2fb207",
-      "title": "Hulu Passes on La La Anthony, Kim Kardashian Pilot ‘Group Chat’; Pair to Produce Tracy Oliver Comedy at Streamer",
-      "link": "https://variety.com/2026/tv/news/hulu-la-la-anthony-kim-kardashian-group-chat-tracy-oliver-1236706426/",
-      "summary": "Hulu has opted not to pick up the comedy pilot “Group Chat,” Variety has learned. The show was inspired by La La Anthony’s book “The Love Playbook: Rules for Love, Sex, and Happiness” and hailed from writer Kenya Barris and executive producer Kim Kardashian. The project was first announced as being…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/04/Kim-kardashian-la-la-anthony-tracy-oliver.jpg",
-      "pubDate": "2026-04-03T20:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "b0d8ceb9b9563fee",
@@ -1007,22 +988,6 @@
       "region": "mena"
     },
     {
-      "id": "72ddd36954ab2e13",
-      "title": "Lenovo Legion Go 2 suddenly costs $650 more as RAMageddon lays waste to gaming hardware",
-      "link": "https://www.theverge.com/games/906752/lenovo-legion-go-2-suddenly-costs-650-more-as-ramageddon-lays-waste-to-gaming-hardware",
-      "summary": "The Legion Go 2’s mouse mode, unique among Windows handhelds. | Photo: Antonio G. Di Benedetto / The Verge Remember when we thought the Legion Go 2 was expensive at $1,099 and up? Those were the days - Best Buy is now listing Lenovo's handheld for $1,499 with a Ryzen Z2 or $1,999 with a Z2 Extreme.…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T19:19:14.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "63d32b30d1214496",
       "title": "جيسوس: رونالدو ليس أنانيًا.. وفضلت إراحته لهذا السبب",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%84%D9%8A%D8%B3-%D8%A7%D9%94%D9%86%D8%A7%D9%86%D9%8A%D9%8B%D8%A7-%D9%88%D9%81%D8%B6%D9%84%D8%AA-%D8%A7%D9%95%D8%B1%D8%A7%D8%AD%D8%AA%D9%87-%D9%84%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/bltf183426585940231?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -1177,22 +1142,6 @@
       "source": {
         "name": "Tom's Hardware",
         "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c38a35c096c11f89",
-      "title": "The best iPad deals you can get right now",
-      "link": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "The new iPad Air is already on sale. | Photo by Amelia Holowaty Krales / The Verge While the best iPad deals usually land during major sale events like Black Friday, many great iPad deals are available outside of those moments. The day-to-day discounts come and go like the changing winds, so there’…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T17:31:17.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
       },
       "lang": "en",
       "category": "technology",
@@ -1375,22 +1324,6 @@
       "region": "global"
     },
     {
-      "id": "bf12cab0fdeb126e",
-      "title": "Mercedes adds steer-by-wire — and a dang steering yoke — to the EQS",
-      "link": "https://www.theverge.com/transportation/906539/mercedes-steer-by-wire-steering-yoke-eqs",
-      "summary": "Steer-by-wire, in which a car can be steered electronically rather than through a physical connection between the steering wheel and steering rack, is coming to Mercedes-Benz. The German automaker says it will use the steering technology in its forthcoming refreshed EQS sedan, marking its first for…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T15:34:10.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "d2eaef35a98c43b0",
       "title": "منافس مصر.. نجم بلجيكا: علينا تحسين الكثير من الأمور قبل المونديال",
       "link": "https://www.yallakora.com/world-cup/2866/news/546199/%d9%85%d9%86%d8%a7%d9%81%d8%b3-%d9%85%d8%b5%d8%b1-%d9%86%d8%ac%d9%85-%d8%a8%d9%84%d8%ac%d9%8a%d9%83%d8%a7-%d8%b9%d9%84%d9%8a%d9%86%d8%a7-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d9%83%d8%ab%d9%8a%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%a3%d9%85%d9%88%d8%b1-%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84",
@@ -1420,22 +1353,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f72f492c9da21cf0",
-      "title": "Anker&#8217;s small, five-port travel adapter is down to its best price yet",
-      "link": "https://www.theverge.com/gadgets/906392/anker-nano-travel-adapter-samsung-galaxy-watch-ultra-deal-sale",
-      "summary": "Anker’s pocketable Nano Travel Adapter can power up to five devices and works in over 200 countries. | Image: The Verge Few things kill the vibe of your relaxing spring break abroad faster than realizing you forgot a way to keep things charged. Anker’s Nano Travel Adapter makes it easy to charge yo…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T15:10:31.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
@@ -1500,22 +1417,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3582f4b490045c5c",
-      "title": "I saved a doomed Windows laptop by embracing Linux",
-      "link": "https://www.theverge.com/tech/905946/windows-11-forced-obsolescence-linux-thinkpad",
-      "summary": "Two weeks ago I set aside my M4 MacBook Air and picked up a nine-year-old ThinkPad. It's one of an estimated 200 to 400 million Windows 10 PCs that don't meet Microsoft's requirements for Windows 11. When Microsoft officially ended support for Windows 10 in October, it became \"obsolete.\" The soluti…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T15:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1644,38 +1545,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "41ae2cbbd7c4a165",
-      "title": "Waiting for Trump Phone",
-      "link": "https://www.theverge.com/tech/905599/where-is-the-trump-phone-t1-april",
-      "summary": "Nothing moved the needle this week. | Image: The Verge / Shutterstock Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. Crickets. Despite recent signs of life, another week has come and gone without the…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T14:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6711fbf34c0fd3ea",
-      "title": "How the Apple Watch defined modern health tech",
-      "link": "https://www.theverge.com/column/906391/apple-watch-optimizer-apple-50-health-tech-wearables",
-      "summary": "In my humble opinion, the Series 4 was a watershed moment in wearable tech history. | Image: Cath Virginia / The Verge, Getty Images This is Optimizer, a weekly newsletter sent every Friday from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-03T14:00:00.000Z",
-      "source": {
-        "name": "The Verge",
-        "homepage": "https://www.theverge.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
