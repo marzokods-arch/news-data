@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-09T16:02:21.951Z",
+    "generated_at": "2026-04-09T17:17:29.800Z",
     "total": 500,
     "processed_feeds": 20,
     "discovered_feeds": 84,
@@ -8,6 +8,19 @@
     "shard_of": 5,
     "shard_index": 2,
     "results": [
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/4b2d798a-4456-4693-9896-4efe0e2962c6",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
       {
         "name": "TechCrunch",
         "url": "https://techcrunch.com/feed/",
@@ -22,16 +35,16 @@
         "notModified": false
       },
       {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/4b2d798a-4456-4693-9896-4efe0e2962c6",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -61,6 +74,19 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -87,41 +113,15 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia — اقتصاد",
-        "url": "https://www.skynewsarabia.com/rss/business.xml",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Hacker News - Front",
-        "url": "https://news.ycombinator.com/rss",
-        "homepage": "https://news.ycombinator.com/rss",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/feed/",
+        "homepage": "https://arstechnica.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 30,
+        "taken": 16,
         "error": null,
         "notModified": false
       },
@@ -139,19 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/feed/",
-        "homepage": "https://arstechnica.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 15,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Mayo Clinic News",
         "url": "https://newsnetwork.mayoclinic.org/feed/",
         "homepage": "https://newsnetwork.mayoclinic.org/feed/",
@@ -165,19 +152,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "المصري اليوم - ملاعب",
         "url": "https://sports.almasryalyoum.com/feed/",
         "homepage": "https://sports.almasryalyoum.com/feed/",
@@ -187,6 +161,32 @@
           "general"
         ],
         "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "NIH News",
+        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Hacker News - Front",
+        "url": "https://news.ycombinator.com/rss",
+        "homepage": "https://news.ycombinator.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 29,
         "error": null,
         "notModified": false
       },
@@ -217,6 +217,19 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia — اقتصاد",
+        "url": "https://www.skynewsarabia.com/rss/business.xml",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Sky News Arabia - رياضة",
         "url": "https://www.skynewsarabia.com/rss/sports.xml",
         "homepage": "https://www.skynewsarabia.com/rss/sports.xml",
@@ -243,19 +256,6 @@
         "notModified": false
       },
       {
-        "name": "NIH News",
-        "url": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "homepage": "https://www.nih.gov/news-events/news-releases/all.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Met Office (UK) — News",
         "url": "https://www.metoffice.gov.uk/rss/news",
         "homepage": "https://www.metoffice.gov.uk/rss/news",
@@ -271,6 +271,278 @@
     ]
   },
   "items": [
+    {
+      "id": "ecdc8d26c845396d",
+      "title": "Apple TV just added two exciting new series to future lineup",
+      "link": "https://9to5mac.com/2026/04/09/apple-tv-just-added-two-exciting-new-series-to-future-lineup/",
+      "summary": "Apple TV just brought back one of its biggest hit series, and has an acclaimed comedy debuting next week. But looking ahead to projects that are further out, there are two exciting Apple TV series coming that were just unveiled. Here are the details. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T17:09:23.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e74c77fc1e9fc826",
+      "title": "EFF Is Leaving X",
+      "link": "https://www.eff.org/deeplinks/2026/04/eff-leaving-x",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T17:08:04.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8c19fc02978376a6",
+      "title": "Volkswagen stops building ID.4s in the US, has inventory \"into 2027\"",
+      "link": "https://arstechnica.com/cars/2026/04/volkswagen-ends-id-4-production-in-tennessee-to-build-atlas-suv/",
+      "summary": "Yet another automaker cancels an EV for gasoline SUVs in America.",
+      "body": "Among the requirements of Volkswagen's Dieselgate settlement with the Department of Justice back in 2016 was to start building electric vehicles locally at the company's factory in Chattanooga, Tennessee. That was a reality by 2021, when we drove our first US-made VW ID.4 . Five years later, VW is moving on. After mid-April, no more ID.4s will roll down Chattanooga's assembly line, which instead will be reconfigured for the brand's newly revealed gasoline-powered Atlas SUV. The ID.4 was well-received when it debuted in 2021, and the model had a mostly strong 2025, selling 31 percent more than the year before. But sales of the electric VW collapsed after the Trump administration abolished the clean vehicle tax credit at the end of Q3 2025; the next three months saw ID.4 sales fall by 62 percent year over year. VW is gambling that Americans will instead want more gas-powered SUVs—probably a decision made before Trump started a war in the Middle East that has increased the price of gasoline by more than a dollar per gallon in the last few weeks. Snark aside, the Atlas is VW's second-best seller here, and VW wants the second-gen Atlas in dealerships by this fall. Read full article Com…",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/Original-16041-LIPMAN99479-1152x648.jpg",
+      "pubDate": "2026-04-09T17:04:18.000Z",
+      "source": {
+        "name": "Ars Technica",
+        "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "deb2d2df983d8327",
+      "title": "Indie game Neverway will launch this October, just in time for spooky season",
+      "link": "https://www.engadget.com/gaming/indie-game-neverway-will-launch-this-october-just-in-time-for-spooky-season-170000669.html?src=rss",
+      "summary": "Indie game studio Coldblood announced today that its debut project Neverway has been given a release window of October 2026. Billed as \"nightmarish life-sim RPG,\" this is going right to the top of my spooky season game queue. It has a cozy-sounding premise, with protagonist Fiona starting a new lif…",
+      "body": null,
+      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fneverway_9_0822.png&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=3ecad9c9fbdbdcf20b91f34143aff68cd8c59461",
+      "pubDate": "2026-04-09T17:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "28781186e138b36e",
+      "title": "EFF Logs Out of X",
+      "link": "https://twitter.com/EFF/status/2042278157609480566",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:57:36.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e1c6cc2b6fc519aa",
+      "title": "Sinner into last eight after 37-set record snapped",
+      "link": "https://www.bbc.com/sport/tennis/articles/c3r37peerpgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Jannik Sinner drops a set at an ATP Masters event for the first time in 186 days but he reaches the Monte Carlo quarter-finals.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:52:31.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c96fceb75df29a43",
+      "title": "\"دبي لصناعات الطيران\" و\"بلاكستون\" تطلقان برنامج \"إكواتور\"",
+      "link": "https://www.skynewsarabia.com/business/1863388-%D8%AF%D8%A8%D9%8A-%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D9%88-%D8%A8%D9%84%D8%A7%D9%83%D8%B3%D8%AA%D9%88%D9%86-%D8%AA%D8%B7%D9%84%D9%82%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A5%D9%83%D9%88%D8%A7%D8%AA%D9%88%D8%B1",
+      "summary": "أبرمت \"دبي لصناعات الطيران المحدودة\"، و\"بلاكستون للائتمان والتأمين\" الخميس، اتفاقية شراكة لإطلاق برنامج استثماري عالمي جديد طويل الأجل يحمل اسم \"إكواتور\" للاستثمار في الطائرات المؤجرة لشركات الطيران التجارية، باستثمارات مستهدفة تبلغ حوالي 1.6 مليار دولار سنوياً.",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v1/2026/04/09/1863387/95/53/1-1863387.jpg",
+      "pubDate": "2026-04-09T16:51:32.000Z",
+      "source": {
+        "name": "Sky News Arabia — اقتصاد",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
+      },
+      "lang": "ar",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "73d7fd4ab042db16",
+      "title": "Apple permanently closing three US stores, here’s why",
+      "link": "https://9to5mac.com/2026/04/09/apple-announces-permanent-closure-of-three-us-retail-stores/",
+      "summary": "Apple has announced that it is closing three retail stores in the United States, including locations in Connecticut, Maryland, and California. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:49:39.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3128bd35b61d0f38",
+      "title": "1000xResist devs reveal their wild-looking second game about convincing an AI it's not human",
+      "link": "https://www.engadget.com/gaming/1000xresist-devs-reveal-their-wild-looking-second-game-about-convincing-an-ai-its-not-human-170018986.html?src=rss",
+      "summary": "Developer Sunset Visitor just revealed its follow-up to the fantastic 1000xResist. It's called Prove You're Human and looks to wade in similar sci-fi waters as the team's first title. Just like 10000xResist, the new game is a narrative adventure set in the far future. Prove You're Human tasks playe…",
+      "body": null,
+      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F3ae35230-2f88-11f1-bdbf-383906b94467&resize=1400%2C900&client=19f2b5e49a271b2bde77&signature=d7c51f1c396b9e4b69c11c3728f69aad3a3a9555",
+      "pubDate": "2026-04-09T16:46:04.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "2e310c8eb83b2d7b",
+      "title": "Amazon's satellite internet service is scheduled for mid-2026 availability",
+      "link": "https://www.engadget.com/big-tech/amazons-satellite-internet-service-is-scheduled-for-mid-2026-availability-164046305.html?src=rss",
+      "summary": "Amazon Leo (formerly Project Kuiper) will launch mid-2026, according to Andy Jassy. On Wednesday, the Amazon CEO dropped the news in his annual letter to shareholders. The company says Leo will support download speeds up to 1 Gbps. By comparison, Starlink’s download speeds typically range between 4…",
+      "body": null,
+      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fleo_9395.jpg&resize=1400%2C786&client=19f2b5e49a271b2bde77&signature=3a27accec9a573a826edb6b03b84f7e8d71d474e",
+      "pubDate": "2026-04-09T16:40:46.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e50c0e13e0e0791c",
+      "title": "Anthropic scales up with enterprise features for Claude Cowork and Managed Agents",
+      "link": "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/",
+      "summary": "Claude Cowork, available on macOS, is losing the “research preview” label today as Anthropic introduces enterprise capabilities. Separately, Anthropic is reclaiming the AI agent narrative with Claude Managed Agents. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:34:58.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b2d8a39dcdcb48d2",
+      "title": "Elliott's Brighterdaysahead wins Aintree Hurdle",
+      "link": "https://www.bbc.com/sport/horse-racing/articles/cnv8215ql0zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Brighterdaysahead powers to victory in the Aintree Hurdle as Gordon Elliott and Jack Kennedy secure two wins on the first day of the Grand National meeting.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:31:07.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "ac6a10404df5a47c",
+      "title": "سلطان الجابر: بقوة صناعتنا نحوّل التحديات إلى قوة راسخة",
+      "link": "https://www.skynewsarabia.com/business/1863384-%D8%B3%D9%84%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%A7%D8%A8%D8%B1-%D8%A8%D9%82%D9%88%D8%A9-%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%86%D8%A7-%D9%86%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D9%82%D9%88%D8%A9-%D8%B1%D8%A7%D8%B3%D8%AE%D8%A9",
+      "summary": "عقدت وزارة الصناعة والتكنولوجيا المتقدمة في الإمارات، الخميس في أبوظبي، \"ملتقى المرونة الصناعة واستمرارية سلاسل الإمداد\"، بمشاركة رفيعة المستوى من الوزارات والجهات المعنية وقيادات وخبراء ورؤساء شركات في القطاع الصناعي، وذلك في إطار التحضيرات الجارية للدورة الخامسة من منصة \"اصنع في الإمارات\".",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v1/2026/04/09/1863383/95/53/1-1863383.jpeg",
+      "pubDate": "2026-04-09T16:17:04.000Z",
+      "source": {
+        "name": "Sky News Arabia — اقتصاد",
+        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
+      },
+      "lang": "ar",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f4ebd602d68cbbad",
+      "title": "New Zealand rider Watts banned for mid-race punch",
+      "link": "https://www.bbc.com/sport/cycling/articles/cvg0j1478z1o?at_medium=RSS&at_campaign=rss",
+      "summary": "New Zealander cyclist Kiaan Watts is banned for 25 days by cycling's global governing body after he punched a fellow rider in the head during a race last month.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:07:37.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0b22ec247dd69674",
+      "title": "Nick Rockett withdrawn from Grand National",
+      "link": "https://www.bbc.com/sport/horse-racing/articles/ckg0z8je2wdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Last year's winner Nick Rockett is withdrawn from this weekend's Grand National at Aintree.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:06:43.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "89796f1105be498c",
+      "title": "I built a Cargo-like build tool for C/C++",
+      "link": "https://github.com/randerson112/craft",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:04:54.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "14c9fcf443231970",
+      "title": "Grand National pinstickers' guide to runners",
+      "link": "https://www.bbc.com/sport/horse-racing/articles/cx2v5v04d4wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Runners, riders, trainers and form - all the key details you need to know for Saturday's big race at Aintree.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:03:53.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "330ff26b3a96f6e3",
       "title": "Rowland starts as much-changed England face Ireland",
@@ -291,7 +563,7 @@
       "id": "566ce5c5f5a44c2d",
       "title": "2025.. عام الصلابة المالية والإنجازات النوعية في الإمارات",
       "link": "https://www.skynewsarabia.com/business/1863381-2025-%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%88%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
-      "summary": "أصدر مصرف الإمارات العربية المتحدة المركزي اليوم تقريره السنوي لعام 2025، والذي يُبرز الإنجازات والمبادرات التحولية التي مثلت ركيزة أساسية لدفع نمو الاقتصاد الوطني وتعزيز متانة القطاعات المالية والمصرفية والتأمينية، بما ينسجم مع المستهدفات الاستراتيجية للدولة وتطلعاتها المستقبلية.",
+      "summary": "أصدر مصرف الإمارات العربية المتحدة المركزي، الخميس، تقريره السنوي لعام 2025، والذي يُبرز الإنجازات والمبادرات التحولية التي مثلت ركيزة أساسية لدفع نمو الاقتصاد الوطني وتعزيز متانة القطاعات المالية والمصرفية والتأمينية، بما ينسجم مع المستهدفات الاستراتيجية للدولة وتطلعاتها المستقبلية.",
       "body": null,
       "image": "https://images.skynewsarabia.com/images/v2/2023/05/16/1621290/95/53/1-1621290.jpg",
       "pubDate": "2026-04-09T16:00:54.000Z",
@@ -301,6 +573,22 @@
       },
       "lang": "ar",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "eb2325875098398f",
+      "title": "Bedford on 'full circle' moment in England career",
+      "link": "https://www.bbc.com/sport/football/articles/c8x7dgvwww1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Returning as head coach for England Women's under-23s felt like a \"full circle moment\" for Lydia Bedford.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T16:00:12.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -349,6 +637,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ea3bd83bfdf85ab5",
+      "title": "Emperor penguin and Antarctic fur seal now endangered",
+      "link": "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T15:55:09.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -432,24 +736,8 @@
       "region": "global"
     },
     {
-      "id": "b2d8a39dcdcb48d2",
-      "title": "Elliott's Brighterdaysahead wins Aintree Hurdle",
-      "link": "https://www.bbc.com/sport/horse-racing/articles/cnv8215ql0zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Brighterdaysahead powers to victory in the Aintree Hurdle as Gordon Elliott and Jack Kennedy secure two wins on the first day of the Grand National meeting.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-09T15:38:39.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d9b2fb44ec583966",
-      "title": "Arsenal's big summer: Arteta contract and Nwaneri and Lewis-Skelly futures",
+      "id": "50346f2bb84f7382",
+      "title": "Arsenal's big summer - Arteta contract, £100m for Nwaneri and Lewis-Skelly",
       "link": "https://www.bbc.com/sport/football/articles/cn78kdymmvpo?at_medium=RSS&at_campaign=rss",
       "summary": "Whatever happens this season, Arsenal are facing some big decisions in the summer over Mikel Arteta's contract and their transfer moves.",
       "body": null,
@@ -544,20 +832,68 @@
       "region": "global"
     },
     {
-      "id": "e1c6cc2b6fc519aa",
-      "title": "Sinner into last eight after 37-set record snapped",
-      "link": "https://www.bbc.com/sport/tennis/articles/c3r37peerpgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jannik Sinner drops a set at an ATP Masters event for the first time in 186 days but he reaches the Monte Carlo quarter-finals.",
-      "body": null,
+      "id": "2c51c14c72915a99",
+      "title": "التشكيل المثالي لدوري الأبطال: غياب تام لريال مدريد.. وبرشلونة يحضر بممثل وحيد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%AA%D8%A7%D9%85-%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%AD%D8%B6%D8%B1-%D8%A8%D9%85%D9%85%D8%AB%D9%84-%D9%88%D8%AD%D9%8A%D8%AF/bltc0b6569d36ebc98f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "البارسا والريال انهزما في إسبانيا",
+      "body": "البارسا والريال انهزما في إسبانيا أعلن الاتحاد الأوروبي لكرة القدم \"يويفا\"، اليوم الخميس، عن التشكيلة المثالية للأسبوع في دوري أبطال أوروبا، والذي شهد إقامة منافسات ذهاب ربع النهائي. وتغلب بايرن ميونخ على مضيفه ريال مدريد (2-1)، بينما انهزم برشلونة في عرينه أمام أتلتيكو مدريد (2-0)، وسقط أيضًا سبورتنج لشبونة على ملعبه (1-0) ضد آرسنال، فيما حقق باريس سان جيرمان فوزًا مهمًا على ليفربول (2-0) في حديقة الأمراء. ولم يشهد تشكيل \"يويفا\" تواجد أي لاعب من ريال مدريد، بينما حضر نجم واحد من برشلونة، وهو لامين يامال. اقرأ أيضًا لاعب أتلتيكو مدريد يتحول لحارس.. هل استحق برشلونة ركلة جزاء؟ بعد خلاف حاد.. أربيلوا يجبر نجم ريال مدريد على الاعتذار لزملائه جبهة جديدة.. ترامب يطالب باستبعاد المتحولين جنسيًا من المونديال مجموعة مصر.. إيران تكشف خطتها البديلة للمشاركة في المونديال وجاء التشكيل المثالي كالتالي: حراسة المرمى: مانويل نوير – بايرن ميونيخ خط الدفاع: ماكسيمليانو أراوخو – سبورتنج لشبونة روبن لو نورماند – أتلتيكو مدريد ماركينيوس – باريس سان جيرمان جوسيب ستانيسيتش – بايرن ميونيخ خط الوسط: جواو نيفيز – باريس سان جيرمان جوشوا كيميتش – بايرن ميونيخ كاي هافيرتز – آرسنال خط الهجوم: خفيتشا كفاراتسخيليا – باريس سان جيرمان جوليان ألفاريز – أتلتيكو مدريد لامين يامال – برشلونة",
       "image": null,
-      "pubDate": "2026-04-09T14:36:28.000Z",
+      "pubDate": "2026-04-09T15:14:33.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
+    },
+    {
+      "id": "3f28dfbb0228fd2e",
+      "title": "بعد الرحيل المفاجئ عن ليبيا.. أليو سيسيه يحصل على فرصة ذهبية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D8%B9%D9%86-%D9%84%D9%8A%D8%A8%D9%8A%D8%A7-%D8%A7%D9%94%D9%84%D9%8A%D9%88-%D8%B3%D9%8A%D8%B3%D9%8A%D9%87-%D9%8A%D8%AD%D8%B5%D9%84-%D8%B9%D9%84%D9%89-%D9%81%D8%B1%D8%B5%D8%A9-%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blt9e2e0de5d45a971b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الاتحاد الأنجولي يخطف المدرب السنغالي",
+      "body": "الاتحاد الأنجولي يخطف المدرب السنغالي في خطوة غامضة جاءت بعد أسابيع من الترقب والتكهنات، أعلن المدرب السنغالي أليو سيسيه رحيله المفاجئ عن تدريب المنتخب الليبي، رغم استمرار عقده حتى عام 2027. ونشر سيسيه رسالة وداع مؤثرة، عبر حسابه الرسمي على \"إنستجرام\"، أسدل بها الستار على تجربة استمرت أكثر من عام مع \"فرسان البحر الأبيض المتوسط\".&nbsp; وتولى المدرب السنغالي المهمة في مارس/ آذار 2025، وقاد المنتخب في ثماني مباريات رسمية حقق خلالها ثلاثة انتصارات وأربعة تعادلات مقابل هزيمة واحدة فقط، بدءًا بفوز تاريخي على أنجولا في سبتمبر/ أيلول 2025. ورغم النتائج الإيجابية نسبيًا، شهدت الفترة مواجهة مشكلات مالية متكررة، إذ تراكمت متأخرات راتبه لشهور طويلة، ولم يسددها الاتحاد الليبي لكرة القدم إلا جزئيًا. اقرأ أيضا: \"الشيطان الصغير\" في قبضة الأمن.. اعتقال أسطورة الإكوادور بتهمة السطو المسلح صفقة مثيرة.. هل يتزامل محمد صلاح وفان دايك في فريق جديد؟ وبعد أيام قليلة، أُعلن الاتحاد الأنجولي لكرة القدم رسميًا تعيين أليو سيسيه مدربًا جديدًا للمنتخب. وأوضح الاتحاد، في بيانه، يتمثل هدف أليو سيسيه الرئيسي في تأهيل أنجولا لكأس الأمم الأفريقية 2027، التي ستُقام في تنزانيا وكينيا وأوغندا. ويُعدّ هذا تحديًا كبيرًا بعد خروج أنغولا من دور المجموعات في النسخة الماضية، بتعادلين وهزيمة واحدة. وقد تمّ التوصل إلى اتفاق س…",
+      "image": null,
+      "pubDate": "2026-04-09T15:14:26.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2f7169f6049090ee",
+      "title": "بالفيديو: اسألوا أربيلوا.. نجم الريال يتهرب من سؤال مفخخ",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D8%B3%D8%A7%D9%94%D9%84%D9%88%D8%A7-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%8A%D8%AA%D9%87%D8%B1%D8%A8-%D9%85%D9%86-%D8%B3%D9%88%D9%94%D8%A7%D9%84-%D9%85%D9%81%D8%AE%D8%AE/blt8be2388402eeec34?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نجم ريال مدريد يتجنب الدخول في جدل علني مع أربيلوا",
+      "body": "نجم ريال مدريد يتجنب الدخول في جدل علني مع أربيلوا يستعد ريال مدريد لمواجهة جيرونا، غدا الجمعة، في الجولة 31 من عمر الدوري الإسباني. ويطمح الملكي لاستعادة نغمة الانتصارات، بعد خسارته المثيرة 1-2 أمام ريال مايوركا. ويحتل ريال مدريد، وصافة الليجا برصيد 69 نقطة، بفارق 7 نقاط عن المتصدر برشلونة. ولم يشارك راؤول أسينسيو مدافع الميرنجي، في آخر 3 مباريات بالليجا، وظل حبيسًا لدكة البدلاء. وذكرت صحيفة \"آس\" أن بعض مشجعي الريال أوقفوا أسينسيو، لتوقيع الأوتو جرافات والتقاط الصور معه، عند مدخل مدينة فالديبيباس الرياضية. وسأل بعض المشجعين، راؤول أسينسيو، عن سبب جلوسه على مقاعد البدلاء، وعدم مشاركته مؤخرًا. ورد المدافع الشاب بذكاء \"هذا يجب أن تسأله إلى أربيلوا\"، ليتجنب الدخول في جدل علني مع مدربه ألفارو أربيلوا. اقرأ أيضًا تيباس: المغرب مرشح لاحتضان بعض مباريات الليجا 😳 ASENCIO, sobre sus SUPLENCIAS en el MADRID: 🙄 &quot;Eso hay que preguntarle a Arbeloa...&quot; 📹 @carlosga_9 pic.twitter.com/B5j7GYbK8t &mdash; El Chiringuito TV (@elchiringuitotv) April 9, 2026",
+      "image": null,
+      "pubDate": "2026-04-09T14:59:37.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "9e6e44ba1af65de8",
+      "title": "صفقة مثيرة.. هل يتزامل محمد صلاح وفان دايك في فريق جديد؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%81%D9%82%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%87%D9%84-%D9%8A%D8%AA%D8%B2%D8%A7%D9%85%D9%84-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D9%81%D8%A7%D9%86-%D8%AF%D8%A7%D9%8A%D9%83-%D9%81%D9%8A-%D9%81%D8%B1%D9%8A%D9%82-%D8%AC%D8%AF%D9%8A%D8%AF/blt99c3aa209b278854?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "عملاق تركي يخطط لضم ثنائي ليفربول",
+      "body": "عملاق تركي يخطط لضم ثنائي ليفربول في واحدة من أكثر الصفقات طموحا في سوق الانتقالات الصيفي المقبل، يستعد جالطة سراي التركي لشن هجوم مزدوج على نجمين عالميين من ليفربول، في محاولة لإحداث ثورة حقيقية في مشروعه الكروي. وبحسب ما أوردته صحيفة \"A Spor\" التركية، جدد النادي اهتمامه القوي بحسم صفقة مزدوجة من العيار الثقيل، تتمثل في التعاقد مع الثنائي محمد صلاح وفيرجيل فان دايك خلال فترة الانتقالات الصيفية المقبلة. وكان محمد صلاح قد أعلن رسمياً رحيله عن ليفربول بنهاية الموسم الحالي، بعد تسعة مواسم استثنائية حافلة بالإنجازات الجماعية والفردية على ملعب أنفيلد. وأفادت الصيفة بأن النادي التركي يخطط للتحرك المبكر نحو الثنائي قبل فتح نافذة الانتقالات، مستغلا اقتراب انتهاء عقد صلاح، الذي يُتوقع أن يغادر الريدز كلاعب حر. أما فيرجيل فان دايك، فقد تعرض مؤخرا لانتقادات لاذعة، عقب الخسارة أمام باريس سان جيرمان (0-2) في ذهاب ربع نهائي دوري أبطال أوروبا، وهو ما يُعتقد أنه قد يفتح الباب أمام إمكانية رحيله. ويسعى النادي التركي إلى تعزيز صفوفه بصفقات قوية من الدوري الإنجليزي الممتاز، بهدف بناء فريق تنافسي على الساحة الأوروبية في الموسم المقبل، خاصة في دوري أبطال أوروبا. ويُنظر إلى فان دايك كحلم دفاعي بالنسبة لرئيس النادي دورسون أوزبك، الذي يطمح في تدعيم خط الدفاع باسم لامع. اقرأ أيضا: فلورنتينو بيريز يركض خلف…",
+      "image": null,
+      "pubDate": "2026-04-09T14:54:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "b2801167de355e8a",
@@ -574,6 +910,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "7306f159cb9c048e",
+      "title": "قرار فليك يُغضب نجم برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%82%D8%B1%D8%A7%D8%B1-%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D9%8F%D8%BA%D8%B6%D8%A8-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt6472bffa4654bad2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رغم الاحترام المتبادل.. فليك يخيب أمل ليفاندوفسكي",
+      "body": "رغم الاحترام المتبادل.. فليك يخيب أمل ليفاندوفسكي شعر روبرت ليفاندوفسكي، مهاجم برشلونة، بخيبة أمل، بعد استبداله مع نهاية الشوط الأول خلال مواجهة أتلتيكو مدريد، أمس الأربعاء. وسقط برشلونة على ملعبه سبوتيفاي كامب نو، بنتيجة 0-2 أمام أتلتيكو مدريد، في ذهاب ربع نهائي دوري أبطال أوروبا. وكان ليفاندوفسكي من المتضررين من طرد زميله باو كوبارسي، مما أجبر المدرب هانز فليك، على إجراء تغييرات تكتيكية، للحفاظ على حظوظ الفريق.&nbsp; وقام فليك باستبدال كل من ليفاندوفسكي وبيدري بين الشوطين، حيث خرج الأخير بسبب بعض الانزعاجات البدنية، بينما كان قرار إخراج ليفاندوفسكي، فنيًا، مع الاعتماد على ماركوس راشفورد كمهاجم صريح. قرار فليك لم يعجب ليفاندوفسكي ذكرت صحيفة \"سبورت\" أن قرار فليك لم يعجب ليفاندوفسكي، خاصة في مباراة كبيرة كان من الممكن أن يحتاج فيها الفريق الكتالوني، إلى مهاجم صريح في الشوط الثاني. وبدأ ليفاندوفسكي، المباراة أساسيًا في محاولة لربط قلبي الدفاع وفتح المساحات للأجنحة، ونجح في الفوز ببعض الكرات الهوائية، لكنه عانى من الرقابة الشديدة في مباراة اتسمت بالإيقاع العالي.&nbsp; ورغم بعض الهفوات في الضغط، والتي سبقت لقطة الطرد، إلا أن ليفاندوفسكي حصل على فرص للتسجيل. ورغم العلاقة الجيدة القائمة على الاحترام المتبادل بينه وبين فليك، فإن اللاعب البولندي يرى أنه كان قادرًا على مساعدة برشلونة في ال…",
+      "image": null,
+      "pubDate": "2026-04-09T14:28:06.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "1d107cde791ae1c7",
@@ -656,6 +1008,22 @@
       "region": "global"
     },
     {
+      "id": "c568fcad5e87db69",
+      "title": "فلورنتينو بيريز يركض خلف \"قاتل ريال مدريد\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%88%D8%B1%D9%86%D8%AA%D9%8A%D9%86%D9%88-%D8%A8%D9%8A%D8%B1%D9%8A%D8%B2-%D9%8A%D8%B1%D9%83%D8%B6-%D8%AE%D9%84%D9%81-%D9%82%D8%A7%D8%AA%D9%84-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blta3a5dfc42cf8ade0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مهمة مستحيلة للملكي للفوز بخدمات اللاعب",
+      "body": "مهمة مستحيلة للملكي للفوز بخدمات اللاعب في ظل المنافسة الشرسة على أبرز المواهب الأوروبية، يبرز اسم مايكل أوليسيه نجم بايرن ميونخ، كواحد من أكثر اللاعبين جاذبية في سوق الانتقالات الصيفي المقبل.&nbsp; وأصبح الجناح الفرنسي الشاب، الذي يُعدّ من أبرز نجوم بايرن ميونخ هذا الموسم، هدفا رئيسيا لعمالقة القارة الأوروبية. وكشفت تقارير صحفية أن إدارة نادي ريال مدريد يستعد لتكثيف مساعيه للتعاقد مع أوليسيه خلال فترة الانتقالات الصيفية المقبلة.&nbsp; ويأتي هذا الاهتمام بعد تألق اللاعب اللافت في مواجهة ذهاب دور الـ16 من دوري أبطال أوروبا، حيث ساهم بشكل بارز في فوز بايرن ميونخ (2-1) على ريال مدريد نفسه، على ملعب سانتياجو برنابيو، حيث صنع الهدف الثاني للفريق البافاري الذي سجله هاري كين. ووفقا للصحفي الألماني الشهير كريستيان فالك، فإن رئيس ريال مدريد فلورنتينو بيريز معجب جدا بأداء أوليسيه، ويخطط للتحرك بقوة لضمه هذا الصيف.&nbsp; ولفت إلى أن النادي الملكي يدرس تقديم عرض يتراوح بين 160 و165 مليون يورو، رغم صعوبة إقناع النادي البافاري بتخلّي عن خدماته. من جانبه، يبدو بايرن ميونخ حازما في موقفه، حيث أكد فالك أن النادي الألماني لن يوافق على بيع الجناح الفرنسي، حتى لو تلقى عرضا يصل إلى 200 مليون يورو، وأنه يفضل الاحتفاظ به وتجديد عقده بدلاً من مناقشة أي عروض مهما كانت مغرية.&nbsp; اقرأ أيضا: لاعب البايرن …",
+      "image": null,
+      "pubDate": "2026-04-09T14:07:20.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "dcf42d80f26fa217",
       "title": "Saints boosted by return of Smith and Mitchell",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c0le9n13lzpo?at_medium=RSS&at_campaign=rss",
@@ -707,29 +1075,13 @@
       "id": "a8c1ddca2810a9fa",
       "title": "Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket",
       "link": "https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/",
-      "summary": "Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m. PT. After that, prices for TechCrunch Disrupt 2026 go up again. Miss this, and you’ll be paying more for the same access to one of the most anticipated tech epicenters of the year. Register now to lock in these savings.",
+      "summary": "Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m. PT. After that, prices for TechCrunch Disrupt 2026 go up again. Miss this, and you’ll be paying more for the same access to one of the most anticipated tech events of the year. Register now to lock in these savings.",
       "body": null,
       "image": null,
       "pubDate": "2026-04-09T14:00:00.000Z",
       "source": {
         "name": "TechCrunch",
         "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "14c9fcf443231970",
-      "title": "Grand National pinstickers' guide to runners",
-      "link": "https://www.bbc.com/sport/horse-racing/articles/cx2v5v04d4wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Runners, riders, trainers and form - all the key details you need to know for Saturday's big race at Aintree.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-09T13:50:07.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
       "category": "sports",
@@ -766,22 +1118,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "0b22ec247dd69674",
-      "title": "Nick Rockett withdrawn from Grand National",
-      "link": "https://www.bbc.com/sport/horse-racing/articles/ckg0z8je2wdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Last year's winner Nick Rockett is withdrawn from this weekend's Grand National at Aintree.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-09T13:43:09.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "abbbbf8cc27a55f8",
@@ -944,8 +1280,40 @@
       "region": "mena"
     },
     {
-      "id": "2d8243b722186803",
-      "title": "This founder helped build SpaceX’s most powerful rocket engine. Now he’s building a ‘fighter jet for orbit’",
+      "id": "dce289b8e9b63f56",
+      "title": "Sci-fi show The Miniature Wife underwhelms - despite the big names",
+      "link": "https://www.newscientist.com/article/2522566-sci-fi-show-the-miniature-wife-underwhelms-despite-the-big-names/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "summary": "Elizabeth Banks stars as an author shrunk by her scientist husband Matthew Macfadyen in this major new series - but it fails to live up to its promise, finds Josh Bell",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T13:00:38.000Z",
+      "source": {
+        "name": "New Scientist",
+        "homepage": "https://www.newscientist.com/feed/home"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "9c4ef45326b9b31c",
+      "title": "Mysterious 'compound X' clears toxic Parkinson’s proteins from brain",
+      "link": "https://www.newscientist.com/article/2522314-mysterious-compound-x-clears-toxic-parkinsons-proteins-from-brain/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "summary": "A drug known only as compound X helped to remove the problematic proteins associated with Parkinson's disease from the brains of mice, and improved their balance and mobility",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-09T13:00:01.000Z",
+      "source": {
+        "name": "New Scientist",
+        "homepage": "https://www.newscientist.com/feed/home"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "082fd677f64ab225",
+      "title": "This founder helped build SpaceX’s most powerful rocket engine. Now he’s building a ‘fighter jet for orbit.’",
       "link": "https://techcrunch.com/2026/04/09/portal-raises-50-million-to-build-a-new-kind-of-high-power-rocket-engine/",
       "summary": "The company's novel rocket engine could be a game changer for the U.S. military.",
       "body": null,
@@ -963,7 +1331,7 @@
       "id": "8681ce33d17d1ccb",
       "title": "Collide Capital raises $95M fund to back fintech, future-of-work startups",
       "link": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/",
-      "summary": "Collide Capital, founded by Brian Hollins and Aaron Samuels, announced Thursday the close of a $95 million Fund II.",
+      "summary": "Collide Capital, founded by Brian Hollins and Aaron Samuels, announced the close of a $95 million Fund II.",
       "body": null,
       "image": null,
       "pubDate": "2026-04-09T13:00:00.000Z",
@@ -976,8 +1344,8 @@
       "region": "global"
     },
     {
-      "id": "eb883ea75c5aa9f4",
-      "title": "Radify’s sci-fi plasma reactors could break China’s dominance of rare earth elements",
+      "id": "56e899594d97d1f6",
+      "title": "Radify’s sci-fi plasma reactors could break China’s dominance of rare-earth elements",
       "link": "https://techcrunch.com/2026/04/09/radifys-sci-fi-plasma-reactors-could-break-chinas-dominance-of-rare-earth-elements/",
       "summary": "Radify Metals is developing a new way to process a variety of metals that promises to be pollution free.",
       "body": null,
@@ -995,7 +1363,7 @@
       "id": "a4a5d2b56f47f5a7",
       "title": "Waymo robotaxis are tracking potholes and sharing that data with Waze users",
       "link": "https://techcrunch.com/2026/04/09/waymo-robotaxis-are-tracking-potholes-and-sharing-that-data-with-waze-users/",
-      "summary": "Two Alphabet-owned businesses are teaming up to find potholes and share that information with cities.",
+      "summary": "Waymo and Waze announced a data-sharing pilot program that will funnel pothole data collected by robotaxis to a free Waze platform designed for cities.",
       "body": null,
       "image": null,
       "pubDate": "2026-04-09T13:00:00.000Z",
@@ -1102,22 +1470,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "d59dac0a0eaf2778",
-      "title": "Show HN: 41 years sea surface temperature anomalies",
-      "link": "https://ssta.willhelps.org/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-09T12:25:57.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "0c849fdad1657416",
@@ -1488,22 +1840,6 @@
       "region": "global"
     },
     {
-      "id": "31ccc846925d39e8",
-      "title": "بالفيديو.. خبير تحكيمي يتوقع عقوبة تاريخية لحكم مباراة الأهلي والفيحاء",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AE%D8%A8%D9%8A%D8%B1-%D8%AA%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%8A%D8%AA%D9%88%D9%82%D8%B9-%D8%B9%D9%82%D9%88%D8%A8%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9-%D9%84%D8%AD%D9%83%D9%85-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D9%81%D9%8A%D8%AD%D8%A7%D8%A1/bltec242cdf9f1a5388?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المباراة شهدت العديد من الحالات الجدلية",
-      "body": "المباراة شهدت العديد من الحالات الجدلية توقع خبير تحكيمي صدور عقوبة تاريخية ضد حكم مباراة الأهلي والفيحاء في دوري روشن السعودي، حال ثبوت الاتهامات الصادرة ضده من قبل لاعبي \"الراقي\" ومدربهم الألماني ماتياس يايسله. وتعادل الأهلي مع الفيحاء بنتيجة 1-1، خلال المباراة التي جمعت بينهما، الأربعاء، على ملعب مدينة المجمعة الرياضية، في الجولة التاسعة والعشرين من دوري روشن. وشهدت المباراة العديد من الحالات التحكيمية المثيرة للجدل، وهو ما دفع الأهلي لإصدار بيان ناري ينتقد فيه الحكم، ويطالب بسماع ما دار بينه وبين حكم تقنية الفيديو خلال تلك الحالات. وأكد الإنجليزي إيفان توني، مهاجم الأهلي، بعد المباراة أن الحكم الرابع أخبره بضرورة التركيز على بطولة دوري أبطال آسيا للنخبة فقط دون دوري روشن، وهو ما أكده مدربه الألماني ماتياس يايسله. اقرأ أيضًا: من مصر إلى السعودية.. هل أنهى التحكيم حلم الأهلي في الدوري؟ وقال الخبير التحكيمي عبدالله القحطاني، في تصريحات لبرنامج \"دورينا غير\": \"إذا كان الأهلي متأكدًا من هذا الأمر، فيجب إحالة الأمر إلى لجنة الانضباط، وأخذ شهادة الشهود\". وأتم: \"إذا ثبت أن الحكم الرابع قال هذا الكلام للطاقم الفني والإداري وللاعبي الأهلي، فبالنسبة لي، لن يبقى الحكم لثانية واحدة في التحكيم السعودي، لأنه ليس من حقه إخبارهم بالبطولة التي يركزون عليها\". المستشار التحكيمي عبدالله القحطاني: ل…",
-      "image": null,
-      "pubDate": "2026-04-09T11:12:47.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "faaea1e1e78bd104",
       "title": "iPhone Fold unboxing video is a fake, not the real thing",
       "link": "https://9to5mac.com/2026/04/09/iphone-fold-unboxing-video-is-a-fake-not-the-real-thing/",
@@ -1520,22 +1856,6 @@
       "region": "global"
     },
     {
-      "id": "1b032023950eaf1b",
-      "title": "\"أجمل هدية\".. موتسيبي يرد على مطالب الحكومة السنغالية بالتحقيق في فساد كاف",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%AC%D9%85%D9%84-%D9%87%D8%AF%D9%8A%D8%A9-%D9%85%D9%88%D8%AA%D8%B3%D9%8A%D8%A8%D9%8A-%D9%8A%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D9%81%D9%8A-%D9%81%D8%B3%D8%A7%D8%AF-%D9%83%D8%A7%D9%81/blt45d6ed394b78f54c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رئيس الاتحاد القاري يرحب بإجراء التحقيقات ويؤكد حياده التام بين المغرب والسنغال",
-      "body": "رئيس الاتحاد القاري يرحب بإجراء التحقيقات ويؤكد حياده التام بين المغرب والسنغال رد باتريس موتسيبي، رئيس الاتحاد الأفريقي لكرة القدم \"كاف\" على مطالب الحكومة السنغالية بفتح تحقيق دولي موسع للكشف عن الفساد داخل الاتحاد القاري. ففي أعقاب قرار لجنة الاستئناف بكاف بمنح لقب كأس أمم أفريقيا 2025 إلى المغرب رغم أن منتخب السنغال فاز داخل أرض الملعب، بداعي أن لاعبي أسود التيرانجا انسحبوا من الملعب، طالبت الحكومة السنغالية بتحقيق دولي في شبهات فساد المسؤولين داخل كاف. و قام موتسيبي أمس، الأربعاء، بزيارة رسمية إلى السنغال بهدف تهدئة الأوضاع هناك، والتأكيد على أن كاف لا يجامل طرف على حساب الآخر في قضية نهائي أفريقيا، التي ينتظر الحكم فيها من محكمة التحكيم الرياضي \"كاس\". اقرأ أيضًا: حكيمي: لست فخورًا بواقعة المنشفة.. ومحبط رغم الفوز على ليفربول أربيلوا عن شكاوى برشلونة من التحكيم: لن أغير رأيي أربيلوا: أحتاج لاعبين يريدون التألق كل يوم.. والصافرات ضد فينيسيوس طبيعية رأي تحكيمي يصدم أربيلوا.. هل استحق مدافع البايرن بطاقة حمراء بعد لقطة مبابي؟ وخلال زيارته، قال موتسيبي في مؤتمر صحفي \"سأرحب بأي تحقيق حول أي فساد محتمل داخل الاتحاد الأفريقي، سواء أُجري من قبل حكومة أو مؤسسة مستقلة. في الواقع، أشجّع على ذلك. سنتعاون بشكل كامل\". وأوضح موتسيبي ضرورة اتباع سياسة \"عدم التسامح مطلقًا\" مع الفساد، مشيرًا إل…",
-      "image": null,
-      "pubDate": "2026-04-09T11:02:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "2080a5a3328fe485",
       "title": "Maguire on his major lows and belief he is still one of world's best",
       "link": "https://www.bbc.com/sport/football/articles/cg4036peyq7o?at_medium=RSS&at_campaign=rss",
@@ -1550,22 +1870,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "f77bb7842d3e6930",
-      "title": "ما القنوات الناقلة لمباراة ريال مدريد وجيرونا في الدوري الإسباني 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D8%AC%D9%8A%D8%B1%D9%88%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt5e0ca51627199e36?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة ريال مدريد وجيرونا في الدوري الإسباني 2025-2026، وكيف تشاهدها عبر الإنترنت؟",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة ريال مدريد وجيرونا في الدوري الإسباني 2025-2026، وكيف تشاهدها عبر الإنترنت؟ يستضيف ملعب سانتياجو برنابيو مواجهة مرتقبة تجمع بين ريال مدريد وجيرونا، مساء غدٍ الجمعة، ضمن منافسات الجولة 31 من بطولة الدوري الإسباني لموسم 2025-2026. ويدخل ريال مدريد اللقاء وهو يحتل المركز الثاني في جدول ترتيب المسابقة برصيد 69 نقطة، إذ حقق 22 انتصارًا، وتعادل في 3 مواجهات، وخسر خمس مرات. وكان الملكي قد خسر مواجهة مايوركا في الجولة الماضية وترك برشلونة في الصدارة بفارق 7 نقاط كاملة، لذلك الفوز ضروريًا على أمل سقوط النادي الكتالوني في الديربي. على الجانب الآخر، يخوض جيرونا المباراة وهو في المركز الثاني عشر برصيد 37 نقطة، حصدها من 9 انتصارات و10 تعادلات، مقابل 11 خسارة. وكانت مباراة الدور الأول قد انتهت بالتعادل بهدف لمثله بين الفريقين على ملعب مونتيليفي. ويرصد \"كووورة\" في السطور التالية، القنوات الناقلة لمباراة ريال مدريد وجيرونا في الدوري الإسباني 2025-2026 وطرق المشاهدة عبر الإنترنت .. ما القنوات الناقلة لمباراة ريال مدريد وجيرونا في الدوري الإسباني 2025-2026؟&nbsp; يمكن مشاهدة مباراة ريال مدريد وجيرونا في الدوري الإسباني 2025-2026 عن طريق قنوات بي إن سبورتس. وخصصت الشبكة قناة beIN SPORTS 1 لبث المواجهة المرتقبة في الدوري الإسباني. كيف تشاهد مباراة ريال مدر…",
-      "image": null,
-      "pubDate": "2026-04-09T10:59:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "023203b90cfad3ba",
@@ -1600,38 +1904,6 @@
       "region": "global"
     },
     {
-      "id": "b6bb6e0dbcd24a1c",
-      "title": "سان جيرمان على وشك خسارة 3 مواهب مميزة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D9%88%D8%B4%D9%83-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-3-%D9%85%D9%88%D8%A7%D9%87%D8%A8-%D9%85%D9%85%D9%8A%D8%B2%D8%A9/bltf0e2e6e5e2706ebe?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "خسارة فادحة في الطريق لباريس",
-      "body": "خسارة فادحة في الطريق لباريس قال تقرير صحفي فرنسي، اليوم الخميس، إن باريس سان جيرمان، بات على وشك خسارة ثلاثة من أبرز مواهبه الشابة. ويعد سان جيرمان أحد أبرز الأندية في تطوير المواهب الشابة في أوروبا، ويتجلى ذلك بوضوح في السنوات الأخيرة، حيث أُتيحت الفرصة للعديد من خريجي الأكاديمية للعب مع الفريق الأول، بفضل الدعم الكبير الذي يقدمه المدرب لويس إنريكي. &nbsp;ويُعدّ كلٌّ من وارن زائير إيمري، وسيني مايولو، وكوينتين ندجانتاو، وإبراهيم مباي أمثلةً رائعةً على ذلك.&nbsp; لكن كما هو الحال مع أندية أخرى، مثل برشلونة الذي استقطب منه سان جيرمان، درو فرنانديز، يواجه باريس خطر الوقوع ضحية نجاحه. &nbsp;تراقب أندية أخرى في أوروبا عن كثب تطور اللاعبين الشباب من أكاديمية النادي الباريسي، والأهم من ذلك، أنها قادرة على منحهم دورًا بارزًا على المدى القريب ورواتب أعلى. بحسب ما ذكرته صحيفة \"ليكيب\"، هناك طلب كبير على العديد من اللاعبين الشباب من أكاديمية النادي، ومن المرجح أن يرحل ماتيس يانجيل ، الذي عرض عليه باريس سان جيرمان عقدًا احترافيًا، نظرًا للاهتمام الكبير الذي يحظى به من أندية ألمانية.&nbsp; يتمتع لاعب خط الوسط الهجومي البالغ من العمر 17 عامًا بمؤهلات مميزة، وقد شارك في مباراتين مع الفريق الأول هذا الموسم: الأولى في كأس فرنسا ضد فونتيني في ديسمبر الماضي، والثانية ضد أوكسير في الدوري الفرنسي في …",
-      "image": null,
-      "pubDate": "2026-04-09T10:28:19.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "c881acb71f542bbc",
-      "title": "فيديو: لقطة مدافع أتلتيكو تكررت سابقًا في دوري الأبطال.. شاهد ماذا فعل الحكم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%82%D8%B7%D8%A9-%D9%85%D8%AF%D8%A7%D9%81%D8%B9-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D8%AA%D9%83%D8%B1%D8%B1%D8%AA-%D8%B3%D8%A7%D8%A8%D9%82%D9%8B%D8%A7-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%B4%D8%A7%D9%87%D8%AF-%D9%85%D8%A7%D8%B0%D8%A7-%D9%81%D8%B9%D9%84-%D8%A7%D9%84%D8%AD%D9%83%D9%85/blt4cd8565bf80a5eed?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نفس السيناريو.. لكن الحكم كان له رأي آخر",
-      "body": "نفس السيناريو.. لكن الحكم كان له رأي آخر شهدت مباراة برشلونة وأتلتيكو مدريد، أمس الأربعاء في دوري أبطال أوروبا، لقطة جدلية، حظيت باهتمام جميع وسائل الإعلام العالمية، وفجرت ثورة النادي الكتالوني. وكان برشلونة قد خسر على ملعبه كامب نو (2-0) أمام أتلتيكو مدريد، في ذهاب ربع نهائي دوري أبطال أوروبا، لتتعقد مهمته في بلوغ نصف النهائي، علمًا بأن اللقاء شهد أيضًا طرد باو كوبارسي مدافع البارسا قبيل نهاية الشوط الأول. ومن المقرر أن تقام مباراة الإياب على ملعب ميتروبوليتانو، مساء الثلاثاء المقبل، لتحديد هوية المتأهل إلى نصف النهائي لمواجهة المنتصر من موقعة آرسنال وسبورتنج لشبونة. اقرأ أيضًا: سيميوني ضد برشلونة: أسد في دوري الأبطال.. ونعامة بالليجا وعرفت المباراة جدلًا تحكيميًا كبيرًا، بعدما مرر حارس الأتلتي خوان موسو كرة من ضربة مرمى إلى زميله المدافع مارك بوبيل، الذي كان يقف قريبًا منه في منطقة الست ياردات، قبل أن يثبتها الأخير بيده ويلعبها مرة أخرى، أمام دهشة المتابعين. وطالب لاعبو برشلونة ومدربهم هانز فليك باحتساب ركلة جزاء، بداعي لمس المدافع للكرة بيده داخل منطقة الجزاء، لكن الحكم الألماني ستيفان كوفاتش أمر باستمرار اللعب بصورة عادية. حدثت هذه الواقعة في الدقيقة 54 عندما كان أتلتيكو مدريد متقدمًا بهدف دون رد، علمًا بأن بوبيل كان يملك بطاقة صفراء. هذه اللقطة، أعادت إلى الأذهان، نفس ما حدث …",
-      "image": null,
-      "pubDate": "2026-04-09T10:20:56.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "ddc8eb7cdfc42acd",
       "title": "Google bakes NotebookLM, its research tool, into Gemini",
       "link": "https://www.engadget.com/ai/google-bakes-notebooklm-its-research-tool-into-gemini-101850634.html?src=rss",
@@ -1646,22 +1918,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "712c2a0337a72883",
-      "title": "الأهلي ليس الأول.. 8 أندية هاجمت التحكيم في روشن.. وموقف مفاجئ للنصر",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%84%D9%8A%D8%B3-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84-8-%D8%A7%D9%94%D9%86%D8%AF%D9%8A%D8%A9-%D9%87%D8%A7%D8%AC%D9%85%D8%AA-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85-%D9%81%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D9%88%D9%85%D9%88%D9%82%D9%81-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%84%D9%84%D9%86%D8%B5%D8%B1/blt9827fdc2a8e2dcd6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"الراقي\" اعترض على الأخطاء التحكيمية التي حدثت في مباراة الفيحاء",
-      "body": "\"الراقي\" اعترض على الأخطاء التحكيمية التي حدثت في مباراة الفيحاء لم يكن الأهلي أول المعترضين على مستوى التحكيم خلال الموسم الحالي من دوري روشن السعودي، حيث انضم إلى قائمة تضم 8 أندية. وأصدر الأهلي، أمس الأربعاء، بيانًا شديد اللهجة، انتقد فيه الأخطاء التحكيمية التي وقعت خلال التعادل مع الفيحاء بنتيجة 1-1، على ملعب مدينة المجمعة الرياضية، في الجولة التاسعة والعشرين من دوري روشن. وبحسب صحيفة \"الرياضية\" السعودية، فإن الأهلي أصبح ثامن نادٍ يُصدر بيانًا ينتقد فيه الأخطاء التحكيمية خلال الموسم الحالي من دوري روشن. وضمت القائمة أندية التعاون، الشباب، ضمك، الخليج، الاتفاق، بالإضافة إلى ناديي الاتحاد والهلال. اقرأ أيضًا: من مصر إلى السعودية.. هل أنهى التحكيم حلم الأهلي في الدوري؟ وبذلك، تكون الفرق الأربعة الكبرى في دوري روشن قد أبدت سخطها من القرارات التحكيمية خلال الموسم الحالي من دوري روشن، باستثناء النصر الذي يتصدر جدول الترتيب في الوقت الحالي. ويحتل النصر صدارة دوري روشن برصيد 70 نقطة، بفارق نقطتين أمام الهلال صاحب المركز الثاني، و4 نقاط أمام الأهلي الثالث، غير أن \"العالمي\" خاض مباراة أقل.",
-      "image": null,
-      "pubDate": "2026-04-09T10:10:59.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "33210a30cdd2fe45",
@@ -2400,22 +2656,6 @@
       "region": "global"
     },
     {
-      "id": "784d07ed2abe1960",
-      "title": "Dortmund weigh up third Sancho move - Thursday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/c20qeyevzd1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Borussia Dortmund weighing up third move Jadon Sancho, Tottenham pushing to sign goalkeeper James Trafford, Arsenal targeting defenders Victor Valdepena and Jacobo Ramon, plus more.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-08T21:37:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "255e33a4a7e792d0",
       "title": "Dominant PSG beat Liverpool in quarter-final first leg",
       "link": "https://www.bbc.com/sport/football/videos/c78l1jdep92o?at_medium=RSS&at_campaign=rss",
@@ -2669,22 +2909,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "536d1800d81798bc",
-      "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
-      "link": "https://werwolv.net/posts/usb_for_sw_devs/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-08T19:23:34.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2976,22 +3200,6 @@
       "region": "global"
     },
     {
-      "id": "b4b6d4d707e7db38",
-      "title": "Understanding the Kalman filter with a simple radar example",
-      "link": "https://kalmanfilter.net/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-08T17:11:46.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "f55cd94b99a8c3ae",
       "title": "وقف إطلاق النار في إيران.. تفاصيل ما حدث",
       "link": "https://attounisiyoun.com/%d9%88%d9%82%d9%81-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%86%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d9%85%d8%a7-%d8%ad%d8%af%d8%ab/",
@@ -3165,22 +3373,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "54f54fe540744570",
-      "title": "I ported Mac OS X to the Nintendo Wii",
-      "link": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-08T15:40:00.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3389,22 +3581,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8fbe9c6be2d60341",
-      "title": "Feather shortage prompts badminton shuttlecock trial",
-      "link": "https://www.bbc.com/sport/badminton/articles/czre12zel8vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Badminton's world governing body approves the use of synthetic shuttlecocks at some tournaments amid a shortage of feathers.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-08T13:36:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -5376,22 +5552,6 @@
       "region": "global"
     },
     {
-      "id": "b1df4ba8706ec2b6",
-      "title": "The Importance of Being Idle",
-      "link": "https://theamericanscholar.org/the-importance-of-being-idle/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-06T20:33:03.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "ac5b3bf5feee2340",
       "title": "iOS 26.4 adds four iPhone features that I’ve been loving",
       "link": "https://9to5mac.com/2026/04/06/ios-26-4-is-coming-here-are-my-four-favorite-new-features/",
@@ -5488,22 +5648,6 @@
       "region": "global"
     },
     {
-      "id": "957926a9308f2fc8",
-      "title": "NASA's Artemis II crew just flew farther away from Earth than anyone ever has before",
-      "link": "https://www.engadget.com/science/space/nasas-artemis-ii-crew-just-flew-farther-away-from-earth-than-anyone-ever-has-before-180259867.html?src=rss",
-      "summary": "NASA's Artemis II crew just set a new distance record in miles traveled away from Earth. The team of four astronauts are in the process of circling the Moon, reaching 5,000 miles beyond the natural satellite. That brings the total distance traveled away from our home to over 250,000 miles. Gene Rod…",
-      "body": null,
-      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fa43259e0-31de-11f1-bfff-89a2262d2946&resize=1400%2C960&client=19f2b5e49a271b2bde77&signature=9f14a70b14a5ee07e153dd006efdfe18990cada5",
-      "pubDate": "2026-04-06T18:03:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "46ab546bfcf90a5d",
       "title": "Apple prepping iOS 26.4.1 update for iPhone",
       "link": "https://9to5mac.com/2026/04/06/apple-prepping-ios-26-4-1-update-for-iphone/",
@@ -5552,22 +5696,6 @@
       "region": "global"
     },
     {
-      "id": "ed135da1c261a459",
-      "title": "You can now search through app reviews on the Google Play Store",
-      "link": "https://www.engadget.com/apps/you-can-now-search-through-app-reviews-on-the-google-play-store-170459063.html?src=rss",
-      "summary": "Finding the right app on the Google Play Store just got a lot easier. Google is rolling out a new search function for an app's reviews when navigating its Play Store, as first spotted by Android Authority. The new feature only currently searches for exact matches of at least two words, but it shoul…",
-      "body": null,
-      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fdf3d1280-31d6-11f1-b0ef-e5fa7985cd90&resize=1400%2C789&client=19f2b5e49a271b2bde77&signature=e55780930f4a28a40a5dcfeb62b9db8ecfb5a62c",
-      "pubDate": "2026-04-06T17:04:59.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f485a263a9f90980",
       "title": "‘Google AI Edge Eloquent’ is an offline, subscription-less voice dictation app",
       "link": "https://9to5google.com/2026/04/06/google-ai-edge-eloquent-app/",
@@ -5578,22 +5706,6 @@
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7883221ca81fc666",
-      "title": "Netflix just released a standalone gaming app for kids",
-      "link": "https://www.engadget.com/apps/netflix-just-released-a-standalone-gaming-app-for-kids-170030884.html?src=rss",
-      "summary": "Netflix just released a free app called Playground for smartphones and tablets. This is a gaming app for kids, aged eight and under. It's available to all Netflix members on any tier, and the company promises it doesn't have ads or in-app purchases. It also works without a mobile or Wi-Fi connectio…",
-      "body": null,
-      "image": "https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fe5b284c0-31cb-11f1-bfff-6d33520b4c14&resize=1400%2C842&client=19f2b5e49a271b2bde77&signature=ee4defb8f8179eb02247c9e73a4b2e88bd06ae65",
-      "pubDate": "2026-04-06T17:00:30.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
       },
       "lang": "en",
       "category": "technology",
@@ -5693,6 +5805,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "405d8d83a97f6b9e",
+      "title": "Doing Impressions: Monet's Early Caricatures (ca. late 1850s)",
+      "link": "https://publicdomainreview.org/collection/claude-monet-caricatures/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-06T15:11:45.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -6224,22 +6352,6 @@
       "region": "global"
     },
     {
-      "id": "efd9beb20b13740b",
-      "title": "Dr. Dobb's Developer Library DVD 6 (2010)",
-      "link": "https://archive.org/details/DDJDVD6",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-05T00:37:57.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "6ef630e23fb63c3b",
       "title": "Here’s why M5 MacBook Pro is worth buying now, even with an impending redesign",
       "link": "https://9to5mac.com/2026/04/04/m5-macbook-pro-still-worth-buying-despite-upcoming-redesign/",
@@ -6288,22 +6400,6 @@
       "region": "global"
     },
     {
-      "id": "d5651680e2a563d8",
-      "title": "Apple debuts 50th anniversary exhibit at Apple Park with iconic products and photography",
-      "link": "https://9to5mac.com/2026/04/04/apple-debuts-50th-anniversary-exhibit/",
-      "summary": "This story is part of 9to5Mac’s series celebrating Apple’s 50th anniversary. Apple often likes to say that it isn’t a nostalgic company, but they’ve gone all out to celebrate their 50th birthday. The company recently opened an exhibition on campus displaying some of their most iconic products from …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-04T18:02:35.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "fe0b108769e406d6",
       "title": "مع نظرة مستقبلية مستقرة.. الإمارات تحافظ على تصنيف Aa2",
       "link": "https://www.skynewsarabia.com/business/1862477-%D9%86%D8%B8%D8%B1%D8%A9-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D9%82%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%AD%D8%A7%D9%81%D8%B8-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-aa2",
@@ -6317,38 +6413,6 @@
       },
       "lang": "ar",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1da998a92587ff09",
-      "title": "Apple’s latest acquisition is telling sign of where the company is headed",
-      "link": "https://9to5mac.com/2026/04/04/new-apple-acquisition-telling-sign-of-company-software-direction-spending/",
-      "summary": "Last month, Apple acquired a popular Final Cut Pro plugin maker: MotionVFX. It isn’t clear what this acquisition will turn into, but based on the fact that it quickly followed the launch of Apple Creator Studio, it’s highly plausible that Apple will integrate its templates, effects, and other offer…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-04T16:43:02.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "48160fc0f85e80ca",
-      "title": "These are my favorite MacBook Neo accessories after one month",
-      "link": "https://9to5mac.com/2026/04/04/these-are-my-favorite-macbook-neo-accessories-after-one-month/",
-      "summary": "I’ve had the MacBook Neo for a month, and it’s been an absolute pleasure to use. The Neo has been one of the more exciting new Apple products in a while. It gives you insane value, amazing build quality, and great performance, especially for the price. But to get the price down to $599, Apple had t…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-04T14:30:00.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -6829,38 +6893,6 @@
       },
       "lang": "ar",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "46c210f02d961fa0",
-      "title": "تداعيات حرب إيران على الاقتصاد العالمي",
-      "link": "https://www.skynewsarabia.com/business/1862078-%D8%AA%D8%AF%D8%A7%D8%B9%D9%8A%D8%A7%D8%AA-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A",
-      "summary": "في ما يلي آخر التداعيات الاقتصادية للحرب في الشرق الأوسط:",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v1/2026/04/02/1862077/95/53/1-1862077.jpg",
-      "pubDate": "2026-04-02T11:09:29.000Z",
-      "source": {
-        "name": "Sky News Arabia — اقتصاد",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
-      },
-      "lang": "ar",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7fc2503aaaaeeb6c",
-      "title": "أدنوك تحصد 14 جائزة ضمن جوائز \"النفط والغاز في الشرق الأوسط\"",
-      "link": "https://www.skynewsarabia.com/business/1862074-%D8%A3%D8%AF%D9%86%D9%88%D9%83-%D8%AA%D8%AD%D8%B5%D8%AF-14-%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%AC%D9%88%D8%A7%D8%A6%D8%B2-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%88%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7",
-      "summary": "حصلت \"أدنوك\" على 14 جائزة ضمن جوائز \"النفط والغاز في الشرق الأوسط\" 2026، التي تقدمها منصة \"أويل آند غاز ميدل إيست\"، بما يؤكد موثوقية أعمالها ومرونتها وتميّز كوادرها وعملياتها التشغيلية.",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v1/2026/04/02/1862070/95/53/1-1862070.jpg",
-      "pubDate": "2026-04-02T10:49:54.000Z",
-      "source": {
-        "name": "Sky News Arabia — اقتصاد",
-        "homepage": "https://www.skynewsarabia.com/rss/business.xml"
-      },
-      "lang": "ar",
-      "category": "markets",
       "region": "global"
     },
     {
@@ -7920,22 +7952,6 @@
       "region": "global"
     },
     {
-      "id": "df875b4bf6a1fef8",
-      "title": "A negative attitude towards ageing is making you age faster",
-      "link": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "summary": "We know that a person’s outlook can have a huge effect on their health, and it’s no different when it comes to ageing. Columnist Graham Lawton looks at new evidence of just how powerful our attitude is – and how to use it to age better",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-20T09:00:58.000Z",
-      "source": {
-        "name": "New Scientist",
-        "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "2a67516401742db8",
       "title": "What to read this week: Katrina Manson's terrifying Project Maven",
       "link": "https://www.newscientist.com/article/mg26935871-700-what-to-read-this-week-katrina-mansons-terrifying-project-maven/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
@@ -7949,22 +7965,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d4a4761d43d0ed50",
-      "title": "New Scientist recommends Cirque du Soleil's insect-themed OVO show",
-      "link": "https://www.newscientist.com/article/mg26935871-600-new-scientist-recommends-cirque-du-soleils-insect-themed-ovo-show/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "summary": "The books, TV, games and more that New Scientist staff have enjoyed this week",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-18T18:00:00.000Z",
-      "source": {
-        "name": "New Scientist",
-        "homepage": "https://www.newscientist.com/feed/home"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
