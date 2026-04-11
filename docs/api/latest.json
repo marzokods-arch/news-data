@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-10T23:55:43.100Z",
-    "total": 214,
+    "generated_at": "2026-04-11T01:20:57.422Z",
+    "total": 216,
     "processed_feeds": 16,
-    "discovered_feeds": 83,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -22,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -30,20 +43,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 67,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
+        "taken": 69,
         "error": null,
         "notModified": false
       },
@@ -74,32 +74,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 43,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Yallakora",
         "url": "https://www.yallakora.com/feed/rssfeed",
         "homepage": "https://www.yallakora.com/feed/rssfeed",
@@ -113,8 +87,21 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/0fce37b1-813b-4889-8533-7f3b1aaf5070",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bgameblock/id/7ae48b7b-3528-4e3c-ba06-220672fa9eb3",
         "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
@@ -139,16 +126,29 @@
         "notModified": false
       },
       {
-        "name": "AnandTech",
-        "url": "https://www.anandtech.com/rss/",
-        "homepage": "https://www.anandtech.com/rss/",
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
+        "taken": 43,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -191,6 +191,19 @@
         "notModified": false
       },
       {
+        "name": "AnandTech",
+        "url": "https://www.anandtech.com/rss/",
+        "homepage": "https://www.anandtech.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
+        "notModified": false
+      },
+      {
         "name": "Emarat Al Youm - رياضة",
         "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
@@ -202,23 +215,42 @@
         "taken": 0,
         "error": "Error: HTTP 403",
         "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "22a5fc3e54e493f0",
+      "title": "Record-breaking McIlroy plans to keep 'foot on gas'",
+      "link": "https://www.bbc.com/sport/golf/articles/cje419nwl8jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Defending champion Rory McIlroy says he plans to keep \"my foot on the gas\" after building a record six-shot halfway lead with a devastating second-round 65 at the Masters.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-11T00:51:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e56528c161bb7dc9",
+      "title": "Magical 90 minutes tightens McIlroy's grip on Masters",
+      "link": "https://www.bbc.com/sport/golf/articles/cq8w4xjv5vyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Rory McIlroy opens up a six-shot lead at the Masters - a record after 36 holes - as he sharpens his focus on securing a rare back-to-back win.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-11T00:11:27.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "7128681471e515d5",
       "title": "Fleetwood & McIlroy feature in day two Masters best shots",
@@ -236,8 +268,8 @@
       "region": "global"
     },
     {
-      "id": "9549b1449bc080f6",
-      "title": "MacIntyre faces more wrath after Masters gnome picture",
+      "id": "3bb3e61a5dab3ade",
+      "title": "MacIntyre could face more Masters wrath after gnome picture",
       "link": "https://www.bbc.com/sport/golf/articles/crl1e35r3xyo?at_medium=RSS&at_campaign=rss",
       "summary": "Robert MacIntyre fails to deliver on the course at the Masters - but provides one of the best known moments from this year's tournament. Or rather, one of its best gnome moments.",
       "body": null,
@@ -2156,22 +2188,6 @@
       "region": "global"
     },
     {
-      "id": "5edf8b5ce213c424",
-      "title": "Cooler Master MWE Bronze V2 230V 650W power supply review: A competent entry-level choice",
-      "link": "https://www.tomshardware.com/pc-components/power-supplies/cooler-master-mwe-bronze-v2-230v-650w-power-supply-review",
-      "summary": "The Cooler Master MWE Bronze V2 230V 650W is a budget unit that punches above its class topologically, though compromised active components and an 85°C bulk capacitor keep it from being anything more than a competent entry-level choice.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/NoTSA2BxopTS7dyAVvJdCi-1280-80.jpg",
-      "pubDate": "2026-04-10T12:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "24bdf1594651e25c",
       "title": "30 years of Lexar: What a look inside its R&D labs and factory reveals about its plans for an AI-ready future",
       "link": "https://www.tomshardware.com/pc-components/storage/30-years-of-lexar-what-a-look-inside-its-r-and-d-labs-and-factory-reveals-about-its-plans-for-an-ai-ready-future",
@@ -2185,6 +2201,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5edf8b5ce213c424",
+      "title": "Cooler Master MWE Bronze V2 230V 650W power supply review: A competent entry-level choice",
+      "link": "https://www.tomshardware.com/pc-components/power-supplies/cooler-master-mwe-bronze-v2-230v-650w-power-supply-review",
+      "summary": "The Cooler Master MWE Bronze V2 230V 650W is a budget unit that punches above its class topologically, though compromised active components and an 85°C bulk capacitor keep it from being anything more than a competent entry-level choice.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/NoTSA2BxopTS7dyAVvJdCi-1280-80.jpg",
+      "pubDate": "2026-04-10T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
