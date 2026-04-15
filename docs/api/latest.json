@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-15T10:49:01.241Z",
+    "generated_at": "2026-04-15T11:43:43.339Z",
     "total": 431,
     "processed_feeds": 23,
     "discovered_feeds": 83,
@@ -9,15 +9,15 @@
     "shard_index": 3,
     "results": [
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
         "lang": "ar",
-        "region": "mena",
+        "region": "gulf",
         "cats": [
-          "sports"
+          "lifestyle"
         ],
-        "taken": 20,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -35,29 +35,16 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya Technology",
-        "url": "https://www.alarabiya.net/tools/mrss",
-        "homepage": "https://www.alarabiya.net/technology",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: Unquoted attribute value\nLine: 14\nColumn: 18\nChar: X",
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 69,
-        "error": null,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -74,16 +61,29 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -100,15 +100,28 @@
         "notModified": false
       },
       {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -126,22 +139,9 @@
         "notModified": false
       },
       {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -152,54 +152,28 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
         "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "lifestyle"
-        ],
-        "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 46,
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 69,
         "error": null,
         "notModified": false
       },
@@ -217,55 +191,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "ArabiaWeather — مقالات",
-        "url": "https://www.arabiaweather.com/en/rss",
-        "homepage": "https://www.arabiaweather.com/en/rss",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 46,
+        "error": null,
         "notModified": false
       },
       {
@@ -282,10 +217,75 @@
         "notModified": false
       },
       {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "NOAA Climate.gov — News",
         "url": "https://www.climate.gov/feeds/all/rss.xml",
         "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "ArabiaWeather — مقالات",
+        "url": "https://www.arabiaweather.com/en/rss",
+        "homepage": "https://www.arabiaweather.com/en/rss",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -311,6 +311,54 @@
   },
   "items": [
     {
+      "id": "a5a153b9cf694986",
+      "title": "Best GoPro Camera (2026): Compact, Budget, Accessories",
+      "link": "https://www.wired.com/gallery/best-gopro-hero-camera/",
+      "summary": "You’re an action hero, and you need a camera to match. We guide you through all the models, plus accessory recommendations and hidden software tricks to try.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-15T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7a3760261808e4df",
+      "title": "Best Wi-Fi Routers of 2026 for Working, Gaming, and Streaming",
+      "link": "https://www.wired.com/gallery/best-wifi-routers/",
+      "summary": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-15T11:30:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "24bcbeb1f64b096c",
+      "title": "Cyberscammers are bypassing banks’ security with illicit tools sold on Telegram",
+      "link": "https://www.technologyreview.com/2026/04/15/1135898/cyberscammers-bypassing-bank-telegram/",
+      "summary": "From inside a money-laundering center in Cambodia, an employee opens a popular Vietnamese banking app on his phone. The app asks him to upload a photo associated with the account, so he clicks on a picture of a 30-something Asian man. Next, the app requests to open the camera for a video “liveness”…",
+      "body": "From inside a money-laundering center in Cambodia, an employee opens a popular Vietnamese banking app on his phone. The app asks him to upload a photo associated with the account, so he clicks on a picture of a 30-something Asian man. Next, the app requests to open the camera for a video “liveness” check. The scammer holds up a static image of a woman bearing no resemblance to the man who owns the account. After a 90-second wait—as the app tells him to readjust the face inside the frame—he’s in.&nbsp; The exploit he’s demonstrating, in a video shared with me by a cyberscam researcher named Hieu Minh Ngo, is possible thanks to one of a growing range of illicit hacking services, readily available for purchase on Telegram, that are designed to break “Know Your Customer” (KYC) facial scans. These banking and crypto safeguards are supposed to confirm that an account belongs to a real person, and that the user’s face matches the identity documents that were provided to open the account . But scammers are bypassing them in order to open mule accounts and launder money. Rather than using a live phone camera feed for a liveness check, the hacks typically deploy a tool known as a virtual ca…",
+      "image": null,
+      "pubDate": "2026-04-15T11:26:12.000Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "homepage": "https://www.technologyreview.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "e403179524de1d5d",
       "title": "Has the new Devil Wears Prada lost its bite?",
       "link": "https://www.bbc.com/culture/article/20260414-why-the-new-devil-wears-prada-could-lose-its-bite?ocid=global_culture_rss",
@@ -327,10 +375,42 @@
       "region": "global"
     },
     {
+      "id": "ec62177cb8b7c79e",
+      "title": "The Caves That Could Help Us Find, or Become, Aliens",
+      "link": "https://www.wired.com/story/the-caves-that-could-help-us-find-or-become-aliens/",
+      "summary": "From lava tubes on Mars to ice pockets on Europa, subterranean environments may offer the best chance of finding life—and living safely—beyond our planet.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-15T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "34cbb5e9a8ef8f03",
+      "title": "AI Slop Is Making the Internet Fake-Happy",
+      "link": "https://www.wired.com/story/ai-slop-is-changing-the-internet-just-not-how-you-might-think/",
+      "summary": "A new study examines the impact of the rise of AI-generated websites on the internet—and found some surprising results.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-15T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "55d7d9b913a7dd2a",
       "title": "73 moon landings? NASA's 'Moon Base User's Guide' reveals the agency's 'most ambitious space project' will be fraught with challenges",
       "link": "https://www.livescience.com/space/space-exploration/73-moon-landings-nasas-moon-base-users-guide-reveals-the-agencys-most-ambitious-space-project-will-be-fraught-with-challenges",
-      "summary": "NASA has released a 'Moon Base User's Guide' to expand on its plans for a permanent lunar base and a trip to Mars. The guide reveals the major gaps that NASA and its partners must fill in to land and live on the moon.",
+      "summary": "NASA has released a 'Moon Base User's Guide' that reveals the major gaps the agency and its partners must fill in to land and live on the moon.",
       "body": null,
       "image": "https://cdn.mos.cms.futurecdn.net/gHFbuhasJT99xMSnMznYpf-1280-80.jpg",
       "pubDate": "2026-04-15T10:37:11.000Z",
@@ -439,6 +519,22 @@
       "region": "global"
     },
     {
+      "id": "4592b36b5c492cd9",
+      "title": "لغز المشاريع الناقصة: فليك.. بيكاسو بفرشاة مكسورة!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D8%BA%D8%B2-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D8%B5%D8%A9-%D9%81%D9%84%D9%8A%D9%83-%D8%A8%D9%8A%D9%83%D8%A7%D8%B3%D9%88-%D8%A8%D9%81%D8%B1%D8%B4%D8%A7%D8%A9-%D9%85%D9%83%D8%B3%D9%88%D8%B1%D8%A9/blt010958668d159d8e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "... عندما يكون استمرار النجاح عبئا ثقيلا!",
+      "body": "... عندما يكون استمرار النجاح عبئا ثقيلا! لم يكن خروج برشلونة من دوري أبطال أوروبا للمرة الثانية على التوالي تحت قيادة هانز فليك خبرًا عاديًا، بالنظر إلى طبيعة الأداء الذي قدمه الفريق الكتالوني، سواء أمس أمام أتلتيكو مدريد في إياب ربع النهائي، أو في الموسم الماضي ضد إنتر ميلان، أو إذا وضعنا ذلك في سياق مشروع تبدو ملامحه واعدة إلى حد كبير. فالمشهد هنا لا يتعلق بسقوط مفاجئ بقدر ما يكشف عن نمط واضح يتكرر في مسيرة فليك: مدرب يملك قدرة استثنائية على بناء فريق قوي في وقت قصير، واستخراج أقصى ما لدى لاعبيه، وتحويل مجموعة غير مكتملة إلى مشروع حقيقي للمنافسة وحصد الألقاب. لكن الأزمة تبدأ دائما عندما يصل هذا المشروع إلى المرحلة التي يحتاج فيها إلى بلوغ الكمال، وحينها تخونه الأدوات ولا يجد المدرب الألماني الدعم الكافي ليستمر بالزخم نفسه، وعندها يظهر التصدع، ليس لخلل تكتيكي جوهري، بل لأن المعجزة لا يمكن أن تستمر إلى الأبد بأدوات ناقصة. نموذج بايرن ميونخ: ملامسة الكمال! حين تولى فليك تدريب بايرن ميونخ في نوفمبر 2019، بصورة مؤقتة وعاجلة بعد إقالة نيكو كوفاتش، لم يكن كثيرون يتوقعون أن تتحول تلك المرحلة إلى واحدة من أكثر الفترات إشراقًا في تاريخ النادي الحديث. ففي أقل من عام، قاد الفريق إلى السداسية التاريخية، وكان الانتصار الكاسح 8-2 على برشلونة في لشبونة، في أغسطس 2020، التعبير الأوضح عن فريق بل…",
+      "image": null,
+      "pubDate": "2026-04-15T09:23:10.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "3b5489cf7184996e",
       "title": "السجن المحلي بسلا يحتضن اختتام الدورة 19 من برنامج “مصالحة” وإطلاق الدورة 20",
       "link": "https://assabah.ma/916323.html",
@@ -487,6 +583,22 @@
       "region": "global"
     },
     {
+      "id": "f47c722eab80fb17",
+      "title": "No one’s sure if synthetic mirror life will kill us all",
+      "link": "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/",
+      "summary": "For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a co…",
+      "body": "For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a compelling contender: making “mirror” bacteria. Should they come to be, the lab-created microbes would be structured and organized like ordinary bacteria, with one important exception: Key biological molecules like proteins, sugars, and lipids would be the mirror images of those found in nature. DNA, RNA, and many other components of living cells are chiral, which means they have a built-in rotational structure. Their mirrors would twist in the opposite direction.&nbsp; Researchers thrilled at the prospect. “Everybody—everybody—thought this was cool,” says John Glass, a synthetic biologist at the J. Craig Venter Institute in La Jolla, California, who attended the 2019 workshop and is a pioneer in developing synthetic cells. It was “an incredibly difficult project that would tell us potentially new things about how to design and build cells, or about the origin of life on Earth.” The group …",
+      "image": null,
+      "pubDate": "2026-04-15T09:00:00.000Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "homepage": "https://www.technologyreview.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "871be5b00ed4b820",
       "title": "كيفية شراء تذاكر الكلاسيكو 2026: تذاكر برشلونة ضد ريال مدريد ونهائي كأس السوبر الإسباني والمزيد",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%B4%D8%B1%D8%A7%D8%A1-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-2026-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%B6%D8%AF-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF/blt047a97e946b61150?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -503,20 +615,20 @@
       "region": "mena"
     },
     {
-      "id": "f47c722eab80fb17",
-      "title": "No one’s sure if synthetic mirror life will kill us all",
-      "link": "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/",
-      "summary": "For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a co…",
-      "body": "For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a compelling contender: making “mirror” bacteria. Should they come to be, the lab-created microbes would be structured and organized like ordinary bacteria, with one important exception: Key biological molecules like proteins, sugars, and lipids would be the mirror images of those found in nature. DNA, RNA, and many other components of living cells are chiral, which means they have a built-in rotational structure. Their mirrors would twist in the opposite direction.&nbsp; Researchers thrilled at the prospect. “Everybody—everybody—thought this was cool,” says John Glass, a synthetic biologist at the J. Craig Venter Institute in La Jolla, California, who attended the 2019 workshop and is a pioneer in developing synthetic cells. It was “an incredibly difficult project that would tell us potentially new things about how to design and build cells, or about the origin of life on Earth.” The group …",
+      "id": "b1a6bbe2b66ad6de",
+      "title": "وكيل بيدرو إيمانويل يعلق لكووورة على أنباء قيادة المنتخب السعودي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D9%83%D9%8A%D9%84-%D8%A8%D9%8A%D8%AF%D8%B1%D9%88-%D8%A7%D9%95%D9%8A%D9%85%D8%A7%D9%86%D9%88%D9%8A%D9%84-%D9%8A%D8%B9%D9%84%D9%82-%D9%84%D9%83%D9%88%D9%88%D9%88%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%94%D9%86%D8%A8%D8%A7%D8%A1-%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/blt2d6bdde7cf5faadc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب البرتغالي مرشح لخلافة رينارد قبل كأس العالم",
+      "body": "المدرب البرتغالي مرشح لخلافة رينارد قبل كأس العالم كشف وكيل البرتغالي بيدرو إيمانويل مدرب الفيحاء موقف المدرب من قيادة المنتخب السعودي في كأس العالم 2026، في ظل التكهنات المثارة حول الفرنسي هيرفي رينارد. ورغم تبقي أقل من شهرين على انطلاق كأس العالم، مازال منصب رينارد مع المنتخب السعودي مهددًا، إذ تتحدث تقارير محلية عن إمكانية الإطاحة به، وسط انتقادات إعلامية وجماهيرية شرسة، بسبب ضعف أداء الفريق في المباريات الأخيرة. و حسب صحيفة \"الشرق الأوسط\"، فإن الاتحاد السعودي لكرة القدم يفاضل بين 5 مدربين ، لاختيار أحدهم لتدريب الأخضر في المونديال. ووفقًا للمصدر ذاته، فإن قائمة المرشحين تضم 3 مدربين ينشطون حاليًا في دوري روشن للمحترفين، إلى جانب اثنين من خارج المملكة، لم يسبق لهما العمل في الكرة السعودية. من جانبه، ذكر برنامج \"دورينا غير\" أن الثلاثي المرشح من الدوري السعودي: بريكليس شاموسكا، مدرب التعاون، واليوناني جورجوس دونيس، مدرب الخليج، وبيدرو إيمانويل، مدرب الفيحاء. وقال سيرجيو ليتي، وكيل إيمانويل، في تصريحات لكووورة، اليوم الأربعاء، تعليقًا على هذه الأنباء، \"المدرب سينهي عقده (مع الفيحاء) بنهاية الموسم الجاري، ونحن ندرس جميع الخيارات المتاحة\". وعن إمكانية قيادة المنتخب السعودي، أوضح \"لقد قدم موسمًا رائعًا، وكانت مستوياته في السعودية مميزة مع عدة أندية. هو يحب السعودية وقد كوّن العديد من…",
       "image": null,
-      "pubDate": "2026-04-15T09:00:00.000Z",
+      "pubDate": "2026-04-15T08:49:59.000Z",
       "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "ff72c4f93410b1c9",
@@ -597,6 +709,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "fb25a106f2c367eb",
+      "title": "ما القنوات الناقلة لمباراة إنتر وكالياري في الدوري الإيطالي 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%88%D9%83%D8%A7%D9%84%D9%8A%D8%A7%D8%B1%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt82978af5010d6108?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة إنتر وكالياري في الدوري الإيطالي 2025-2026 .. وكيف تشاهدها عبر الإنترنت",
+      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة إنتر وكالياري في الدوري الإيطالي 2025-2026 .. وكيف تشاهدها عبر الإنترنت يخوض إنتر مواجهة صعبة وحاسمة أمام ضيفه كالياري، مساء الجمعة على ملعب \"جوزيبي مياتزا\"، ضمن منافسات الجولة 33 من الدوري الإيطالي 2025-2026. إنتر يدخل اللقاء بحثًا عن الفوز من أجل الحفاظ على صدارته للدوري الإيطالي، حيث يعتلي القمة برصيد 75 نقطة، متقدمًا بفارق 9 نقاط عن أقرب ملاحقيه، وذلك قبل 5 جولات فقط من نهاية السباق. في المقابل، كالياري أيضًا لديه طموح كبير في خطف الفوز لأنه يحتل المركز السادس عشر برصيد 33 نقطة، ويمني النفس بنتيجة إيجابية تبعده عن صراع الهبوط. ويرصد كووورة في السطور التالية، القنوات الناقلة لمباراة إنتر وكالياري في الدوري الإيطالي 2025-2026، وطريقة مشاهدتها عبر الإنترنت.. ما القنوات الناقلة لمباراة إنتر وكالياري في الدوري الإيطالي 2025-2026؟ يمتلك تطبيق stc tv ، حقوق بث مباريات الدوري الإيطالي 2025-2026، ومن المنتظر أن يقوم بإذاعة مباراة إنتر وكالياري في الدوري الإيطالي عبر شاشته، بتعليق عربي. stc tv اشترك الآن &nbsp; كيف تشاهد مباراة&nbsp;إنتر وكالياري في الدوري الإيطالي 2025-2026&nbsp;عبر الإنترنت؟ لهواة البث عبر الإنترنت، يمكنهم مشاهدة مباراة إنتر وكالياري في الدوري الإيطالي 2025-2026 عبر تطبيق stc . ويمكن الاشتراك الآن في التطبيق ومتابعة قمم الد…",
+      "image": "https://assets.kooora.com/images/v3/blt0b4fb401854a0cdd/Seria-A---Website-Banners-Koora-(2).png",
+      "pubDate": "2026-04-15T07:41:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "feae7ceba609742b",
@@ -980,6 +1108,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e269fa58c80291fd",
+      "title": "Ultra-marathon champion dies while running Cape Wrath trail",
+      "link": "https://www.bbc.com/news/articles/cly662zgjd1o?at_medium=RSS&at_campaign=rss",
+      "summary": "David Parrish was trying to beat the record for the fastest man to complete the 234 mile trail.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-15T05:12:23.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -1495,38 +1639,6 @@
       "region": "mena"
     },
     {
-      "id": "e0bf3e8fe65030fe",
-      "title": "فليك بنبرة حسرة: كنا نستحق التأهل.. وهذه الخطوة التالية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D8%A8%D9%86%D8%A8%D8%B1%D8%A9-%D8%AD%D8%B3%D8%B1%D8%A9-%D9%83%D9%86%D8%A7-%D9%86%D8%B3%D8%AA%D8%AD%D9%82-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%88%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9/blt2b64296ad0a16f01?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب الألماني يلوم الحظ ويرفض الحديث عن قرارات التحكيم",
-      "body": "المدرب الألماني يلوم الحظ ويرفض الحديث عن قرارات التحكيم أبدى هانز فليك، مدرب برشلونة، حسرته بعد الخروج من دوري أبطال أوروبا على يد أتلتيكو مدريد، مشيرًا إلى أن فريقه كان أحق بالتأهل. ورغم فوزه على أتلتيكو مدريد بنتيجة 2-1 مساء اليوم الثلاثاء على ملعب \"ميتروبوليتانو\" في إياب ربع النهائي، إلا أن ذلك لم يكن كافيًا للتأهل، لسابق خسارة البارسا 0-2 في مباراة الذهاب التي أقيمت الأسبوع الماضي. ولعب البارسا الدقائق الأخيرة من مباراة اليوم منقوصًا بعد طرد إريك جارسيا، علمًا بأنه لعب أيضًا بـ10 لاعبين في مباراة الذهاب، بعد طرد باو كوبارسي. وتواصلت عقدة برشلونة في دوري أبطال أوروبا، إذ لم يحصد الفريق الكتالوني اللقب منذ 2015. وقال فليك، في تصريحات لشبكة \"موفيستار\" الإسبانية، عقب المباراة، \"نشعر بخيبة أمل. صنعنا العديد من الفرص، خاصة في الشوط الأول. كانت لدينا فرصة لتسجيل الهدف الثالث، لكننا استقبلنا هدفًا في النهاية\". وعما إذا كان الهدف الملغي لفيران توريس حاسمًا في المباراة، علق \"قدمنا مباراة رائعة ولعبنا منقوصين عدديًا. أُقدّر ذلك كثيرًا. لم يكن الحظ إلى جانبنا. هذا ما حدث، وعلينا أن نتقبله\". وعما إذا كانت التفاصيل الصغيرة حسمت النتيجة، رد بقوله \"نعم، كرة القدم هكذا. علينا أن نقدم أداءً أفضل، لكن من ناحية الذهنية والروح، الفريق قدم كل ما لديه. لقد قاموا بعمل رائع، لكننا لم ننجح في النهاية\"…",
-      "image": null,
-      "pubDate": "2026-04-14T20:53:40.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "ba74b18a75e90ba1",
-      "title": "من ريمونتادا روما وليفربول إلى فضيحة بايرن.. الصلابة الدفاعية سلاح لا يعرفه برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%86-%D8%B1%D9%8A%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AF%D8%A7-%D8%B1%D9%88%D9%85%D8%A7-%D9%88%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%A7%D9%95%D9%84%D9%89-%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9%D9%8A%D8%A9-%D8%B3%D9%84%D8%A7%D8%AD-%D9%84%D8%A7-%D9%8A%D8%B9%D8%B1%D9%81%D9%87-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt98dd69e4e1c734e5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "11 عامًا من الإخفاقات المتتالية للبارسا في دوري أبطال أوروبا",
-      "body": "11 عامًا من الإخفاقات المتتالية للبارسا في دوري أبطال أوروبا منذ تتويج نادي برشلونة بلقب دوري أبطال أوروبا عام 2015، دخل الفريق الكتالوني مرحلة طويلة من التراجع على الساحة الأوروبية، رغم استمرار هيمنته المحلية في بعض الفترات، لكن في دوري أبطال أوروبا، بدأت الفجوة تتسع بينه وبين كبار القارة بشكل واضح ومؤلم لجماهيره. على مدار أكثر من 11 عامًا من المشاركات بعد آخر لقب، فشل برشلونة في الوصول إلى منصة التتويج مجددًا، وخرج في عدة مناسبات من أدوار متقدمة بطريقة درامية وغير متوقعة، وأصبحت بعض المباريات الأوروبية علامات فارقة في سلسلة الإخفاقات بدلًا من أن تكون امتدادًا لتاريخه الكبير. أحد أبرز أسباب هذا التراجع كان غياب الصلابة الدفاعية، حيث عانى الفريق من أخطاء فردية متكررة وانعدام الانسجام بين خطوط الدفاع، كما فقد الفريق القدرة على الحفاظ على التوازن الدفاعي في المباريات الحاسمة أمام المنافسين الكبار. هذا الضعف الدفاعي جعل برشلونة يدفع ثمن أي ضغط هجومي من الخصوم في اللحظات الحاسمة، خاصة في المباريات الإقصائية، ومع الوقت، تحولت الصلابة الدفاعية الغائبة إلى عنوان ثابت يرافق كل إخفاق أوروبي جديد بعد عام 2015. اقرأ أيضًا: \"وعد الجماهير وتحدى سيميوني\".. ماذا قدم يامال في معقل أتلتيكو مدريد؟ عقدة أتلتيكو مدريد مستمرة ودّع برشلونة دوري أبطال أوروبا في الموسم الحالي من ربع النهائي، اليوم الثلاث…",
-      "image": "https://assets.kooora.com/images/v3/getty-2270869492/crop/MM5DINJSGQ5DENJUGU5G433XMU5DAORTGA4A====/GettyImages-2270869492.jpg",
-      "pubDate": "2026-04-14T20:51:22.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "f51ab06628d50d2a",
       "title": "Man Utd watch Bournemouth pair - Wednesday's gossip",
       "link": "https://www.bbc.com/sport/football/articles/cx2660eyeedo?at_medium=RSS&at_campaign=rss",
@@ -1573,22 +1685,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "c5d6b37f7b5a1c37",
-      "title": "بعد إقصاء الوحدة.. دانيلو بيريرا يستعيد ذكريات باريس سان جيرمان",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%95%D9%82%D8%B5%D8%A7%D8%A1-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%AF%D8%A7%D9%86%D9%8A%D9%84%D9%88-%D8%A8%D9%8A%D8%B1%D9%8A%D8%B1%D8%A7-%D9%8A%D8%B3%D8%AA%D8%B9%D9%8A%D8%AF-%D8%B0%D9%83%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86/blt78ef6e86938fe2a5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدافع البرتغالي حصل على جائزة رجل المباراة",
-      "body": "المدافع البرتغالي حصل على جائزة رجل المباراة استعاد البرتغالي دانيلو بيريرا، مدافع اتحاد جدة، ذكرياته مع فريقه السابق باريس سان جيرمان، عقب إقصاء الوحدة الإماراتي من دوري أبطال آسيا للنخبة. وتأهل الاتحاد إلى الدور ربع النهائي من البطولة الآسيوية، عقب الفوز على الوحدة بهدف نظيف، بعد اللجوء للأشواط الإضافية، الثلاثاء، على ملعب الإنماء، في الدور ثمن النهائي. وقال بيريرا في تصريحات بعد نهاية المباراة نقلتها صحيفة \"الشرق الأوسط\" السعودية: \"سعيد بحصولي على جائزة نجم المباراة، والأهم هو الفريق، وأننا حققنا هدفنا بالتأهل\". وأضاف: \"لقد تحكمنا في المواجهة في بعض مراحل اللعب، وذلك ساعدنا في التحكم، لكن لم يساعدنا في التسجيل، والأهم أننا أحرزنا هدفًا في آخر دقيقة\". اقرأ أيضًا: بالفيديو.. خبير تحكيمي يحسم الجدل حول ركلة اتحاد جدة القاتلة أمام الوحدة كما علق بيريرا على اعتماد مديره الفني البرتغالي سيرجيو كونسيساو عليه في مركز وسط الملعب لأول مرة مع الاتحاد، حيث أكد أنه خاض هذا الدور في مراحل من مسيرته. وأوضح: \"معتاد على هذا الدور، وهذا أمر طبيعي، وليس من المهم إذا لعبت في الدفاع أو في وسط الميدان، فقد سبق أن لعبت أدوار مختلفة، ويجب أن نتكيف مع ما يريده المدرب، واللعب بذات الجودة في أي مركز\". وبحسب صحيفة \"الرياضية\" السعودية، فإن المرة الأخيرة التي لعب فيها دانيلو بيريرا في مركز لاعب الوسط كانت ر…",
-      "image": null,
-      "pubDate": "2026-04-14T20:38:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "d3fd3dd8d5cd3d19",
@@ -2167,22 +2263,6 @@
       "region": "global"
     },
     {
-      "id": "ff73da2f4f0eaf94",
-      "title": "These Are the 3 Power Tools You Need (2026)",
-      "link": "https://www.wired.com/story/three-power-tools-you-need/",
-      "summary": "New to DIY and home repair? These are the essential power tools that will make your life easier, no matter what you’re building and repairing.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-14T11:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "1f20ae2391d1eae8",
       "title": "Coming soon: 10 Things That Matter in AI Right Now",
       "link": "https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/",
@@ -2193,6 +2273,22 @@
       "source": {
         "name": "MIT Technology Review",
         "homepage": "https://www.technologyreview.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ff73da2f4f0eaf94",
+      "title": "These Are the 3 Power Tools You Need (2026)",
+      "link": "https://www.wired.com/story/three-power-tools-you-need/",
+      "summary": "New to DIY and home repair? These are the essential power tools that will make your life easier, no matter what you’re building and repairing.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-14T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "technology",
@@ -2295,22 +2391,6 @@
       "region": "global"
     },
     {
-      "id": "46a0442e18f5fc4d",
-      "title": "The Gamblers Behind One of the Weirdest Cheating Mysteries in Chess Have Been Unmasked",
-      "link": "https://www.wired.com/story/book-excerpt-lucky-devils-1993-chess-mystery-solved/",
-      "summary": "In July 1993, a disguised player entered the World Open chess tournament in Philadelphia using the name of a mathematician who died in 1957. His real identity remained unknown—until now.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-14T10:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "34049eb3d72d2b34",
       "title": "The problem with thinking you’re part Neanderthal",
       "link": "https://www.technologyreview.com/2026/04/14/1135169/problem-thinking-part-neanderthal-human-evolution/",
@@ -2321,6 +2401,22 @@
       "source": {
         "name": "MIT Technology Review",
         "homepage": "https://www.technologyreview.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "46a0442e18f5fc4d",
+      "title": "The Gamblers Behind One of the Weirdest Cheating Mysteries in Chess Have Been Unmasked",
+      "link": "https://www.wired.com/story/book-excerpt-lucky-devils-1993-chess-mystery-solved/",
+      "summary": "In July 1993, a disguised player entered the World Open chess tournament in Philadelphia using the name of a mathematician who died in 1957. His real identity remained unknown—until now.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-14T10:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "technology",
@@ -2372,22 +2468,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bef3c7eb2a150049",
-      "title": "Asher-Smith & Alfred set for Glasgow Commonwealths",
-      "link": "https://www.bbc.com/sport/articles/cwykkddy05eo?at_medium=RSS&at_campaign=rss",
-      "summary": "British record holder Dina Asher-Smith and Olympic 100m champion Julien Alfred are set to feature in the sprint programme at this summer's Commonwealth Games in Glasgow.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-14T09:04:52.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3367,38 +3447,6 @@
       "region": "global"
     },
     {
-      "id": "dee4e318b7db8f3d",
-      "title": "The Download: how humans make decisions, and Moderna’s “vaccine” word games",
-      "link": "https://www.technologyreview.com/2026/04/13/1135707/the-download-how-humans-make-decisions-and-modernas-vaccine-word-games/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. You have no choice in reading this article—maybe How do humans make decisions? The question has been on Uri Maoz’s mind since he read an article in his early twe…",
-      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. You have no choice in reading this article—maybe How do humans make decisions? The question has been on Uri Maoz’s mind since he read an article in his early twenties suggesting that… maybe they didn’t. &nbsp; &nbsp; Had he even had a choice about whether to read that article in the first place? How would he ever know if he was truly responsible for making any decisions? “After that, there was no turning back,” says Maoz, now a professor of computational neuroscience at Chapman University.&nbsp; &nbsp; Today, Maoz is a central figure in efforts to understand how desires and beliefs turn into actions. He’s also uncovered new wrinkles in the debate. Read the full story on his discoveries . —Sarah Scoles This article is from the next issue of our print magazine, packed with stories all about nature. Subscribe now to read the full thing when it lands on Wednesday, April 22. What’s in a name? Moderna’s “vaccine” vs. “therapy” dilemma&nbsp; Moderna, the covid-19 shot maker, is using its mRNA technology to destroy tumors through a very, ve…",
-      "image": null,
-      "pubDate": "2026-04-13T12:10:00.000Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "homepage": "https://www.technologyreview.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ac2094a608a867f0",
-      "title": "The 4 Best Water Filter Pitchers (2026): PFAS, Microplastics",
-      "link": "https://www.wired.com/story/best-water-filter-pitchers/",
-      "summary": "Water filters promise the moon—but only some back up their claims. Here are the best filtered-water pitchers for those who prefer their water free of heavy metals and forever chemicals.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-13T11:37:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "9625b0da8401e1d6",
       "title": "The 'bizarre' story of the world's first LSD trip",
       "link": "https://www.bbc.com/culture/article/20260410-the-bizarre-story-of-the-worlds-first-lsd-trip?ocid=global_culture_rss",
@@ -3409,22 +3457,6 @@
       "source": {
         "name": "BBC Culture",
         "homepage": "https://www.bbc.com/culture/feed.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "de3c5d7b0e149bc3",
-      "title": "The Internet's Most Powerful Archiving Tool Is in Peril",
-      "link": "https://www.wired.com/story/the-internets-most-powerful-archiving-tool-is-in-mortal-peril/",
-      "summary": "As major news outlets cut off the Wayback Machine, journalists and advocacy groups are rallying to protect the Internet Archive’s vast collection of web pages.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-13T11:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "general",
@@ -3447,22 +3479,6 @@
       "region": "global"
     },
     {
-      "id": "407f7192e6c128f8",
-      "title": "The Dumbest Hack of the Year Exposed a Very Real Problem",
-      "link": "https://www.wired.com/story/crosswalk-city-hack-cybersecurity-lessons/",
-      "summary": "Last April, a hacker hijacked crosswalk announcements to mimic Mark Zuckerberg and Elon Musk. Records obtained by WIRED reveal how unprepared local authorities were.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-13T10:30:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "cbf5b2641805e8ee",
       "title": "Another Sunday In Hell: The brutal race that thwarts the greats",
       "link": "https://www.bbc.com/sport/cycling/articles/cx2vld6yl3no?at_medium=RSS&at_campaign=rss",
@@ -3473,22 +3489,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3c4ff838303a6bca",
-      "title": "AI Agents Are Coming for Your Dating Life",
-      "link": "https://www.wired.com/story/ai-agents-are-coming-for-your-dating-life-next/",
-      "summary": "The developers of Pixel Societies are using AI agents to simulate social interactions. It's an attempt optimize the process of choosing new colleagues, friends, and even romantic partners.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-13T10:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "sports",
