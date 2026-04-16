@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T20:35:21.703Z",
-    "total": 228,
+    "generated_at": "2026-04-16T21:25:26.662Z",
+    "total": 232,
     "processed_feeds": 16,
-    "discovered_feeds": 84,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 0,
@@ -19,6 +19,19 @@
         ],
         "taken": 7,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -56,7 +69,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 72,
+        "taken": 76,
         "error": null,
         "notModified": false
       },
@@ -74,42 +87,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Science — News",
-        "url": "https://www.science.org/content/topic/latest/rss.xml",
-        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/feeds/all",
-        "homepage": "https://www.tomshardware.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 49,
-        "error": null,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -122,6 +109,19 @@
           "sports"
         ],
         "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/feeds/all",
+        "homepage": "https://www.tomshardware.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 49,
         "error": null,
         "notModified": false
       },
@@ -139,10 +139,23 @@
         "notModified": false
       },
       {
-        "name": "Emarat Al Youm - رياضة",
-        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
-        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "name": "Masrawy — لايف ستايل",
+        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
         "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 500",
+        "notModified": false
+      },
+      {
+        "name": "Science — News",
+        "url": "https://www.science.org/content/topic/latest/rss.xml",
+        "homepage": "https://www.science.org/content/topic/latest/rss.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -152,16 +165,16 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "GSMArena",
+        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -187,38 +200,265 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Attribute without value\nLine: 111\nColumn: 63\nChar: >",
         "notModified": false
       },
       {
-        "name": "GSMArena",
-        "url": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "homepage": "https://www.gsmarena.com/rss-news-reviews.php3",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy — لايف ستايل",
-        "url": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/5/%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88-%D8%A3%D8%B3%D8%B1%D8%A9",
+        "name": "Emarat Al Youm - رياضة",
+        "url": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
+        "homepage": "https://www.emaratalyoum.com/polopoly_fs/1.595/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 500",
+        "error": "Error: HTTP 403",
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "97354d1a30aeebc4",
+      "title": "Netflix Co-CEOs Ted Sarandos, Greg Peters See Pay Packages Drop in 2025",
+      "link": "https://variety.com/2026/tv/news/netflix-ceo-salary-ted-sarandos-greg-peters-1236724061/",
+      "summary": "Netflix co-CEOs Ted Sarandos and Greg Peters saw their compensation come in just above $53 million in 2025, which actually marked a decrease in the chiefs’ pay packages from 2024. The streamer announced the CEOs’ pay in an SEC filing Thursday, which came out just as the Netflix execs were fielding …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2025/12/Netflix-Ted-Sarandos-Greg-Peters.jpg",
+      "pubDate": "2026-04-16T21:17:51.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e5afffd89c15f71b",
+      "title": "Reese Witherspoon Doubles Down on Telling Women to Learn AI: Jobs We Hold Are ‘Three Times More Likely to Be Automated By AI’",
+      "link": "https://variety.com/2026/tv/news/reese-witherspoon-ai-jobs-women-1236723992/",
+      "summary": "Reese Witherspoon is again advising her followers that there’s no time like the present to start learning about and using artificial intelligence in their daily lives and workplaces. “The Morning Show” star posted on Instagram Wednesday doubling down on earlier remarks that women need to become fam…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/04/2261344581-e1776372560471.jpg",
+      "pubDate": "2026-04-16T21:15:37.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b6f1e05242f0e937",
+      "title": "GB's Ellard breaks S14 100m freestyle world record",
+      "link": "https://www.bbc.com/sport/swimming/articles/ce8jpwdypzgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Paralympic champion William Ellard sets a new world record time to take gold in the S14 mixed class 100m freestyle final at the Aquatics GB Swimming Championships in London.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T21:15:17.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "971f7e891836f22d",
+      "title": "Kildunne shifts to wing and Burton to play at lock as England ring changes",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/cdj7p8y3lpyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ellie Kildunne is named on the wing, rather than in her regular full-back role, as part of a much-changed England line-up to face Scotland in the Women's Six Nations on Saturday.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T21:13:57.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "368c0bee367a4bce",
+      "title": "Villa & Forest progress - relive eight iconic all-English European ties",
+      "link": "https://www.bbc.com/sport/football/articles/c8jkvmv2nr8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Here are eight of the most memorable all-English clashes in Europe as Aston Villa and Nottingham Forest set up a Europa League semi-final.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T21:05:07.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0f05371947b6b10b",
+      "title": "Ted Sarandos: Netflix Was ‘Willing to Put Emotion and Ego Aside’ and Walk Away from Warner Bros. Acquisition",
+      "link": "https://variety.com/2026/tv/news/ted-sarandos-netflix-emotion-ego-warner-bros-acquisition-1236724033/",
+      "summary": "Ted Sarandos, co-CEO of Netflix, acknowledged that it was disappointing for the streamer to not win the deal for Warner Bros. Discovery’s streaming and studios businesses. But he said the company “built its M&A muscle” through the experience — and tested its “investment discipline” to have the reso…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/P1040SE5.jpg",
+      "pubDate": "2026-04-16T21:02:49.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b82915e5929b397e",
+      "title": "Clayton beats Littler in Rotterdam to extend lead",
+      "link": "https://www.bbc.com/sport/darts/articles/c2k32z8qwxgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Jonny Clayton delights the Rotterdam crowd as he beats Luke Littler 6-4 to extend his lead at the top of the Premier League table.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T21:02:35.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b82915e5929b397e",
+      "title": "Clayton beats Littler in Rotterdam to extend lead",
+      "link": "https://www.bbc.com/sport/darts/articles/c2k32z8qwxgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Jonny Clayton delights the Rotterdam crowd as he beats Luke Littler 6-4 to extend his lead at the top of the Premier League table.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T21:02:35.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "dd21cfcd83ef7856",
+      "title": "Sag Harbor Cinema Names Mark Lubell Executive Director",
+      "link": "https://variety.com/2026/film/news/sag-harbor-cinema-mark-lubell-executive-director-1236723800/",
+      "summary": "Mark Lubell has been named executive director of the Sag Harbor Cinema Arts Center, the organization announced Thursday, following a national search led by PBR Executive Search. A Sag Harbor resident and native New Yorker, Lubell brings decades of experience across cultural institutions and media o…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/04/Mark-Lubell_Henry-Leutwyler-e1776364799766.jpg",
+      "pubDate": "2026-04-16T21:01:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "3bf37e4704594c92",
+      "title": "‘Grey’s Anatomy’ Hits 320 Weeks on the Nielsen Streaming Top 10, More Than Any Other Series",
+      "link": "https://variety.com/2026/tv/news/greys-anatomy-nielsen-ratings-record-1236723857/",
+      "summary": "“Grey’s Anatomy” has made 320 appearances on Nielsen’s weekly streaming rankings, more than any other series in the charts’ history. The long-running ABC medical drama beat and continues to reset a record previously held by “NCIS,” which is still in second place with 299 weeks on the charts. Of the…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/02/TCDGRAN_EC309.jpg",
+      "pubDate": "2026-04-16T21:00:24.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8bc4a66b54227fc9",
+      "title": "New Paramount Pictures Heads Dana Goldberg, Josh Greenstein Set Robust Film Agenda at CinemaCon",
+      "link": "https://variety.com/2026/film/news/paramount-josh-greenstein-dana-goldberg-cinemacon-1236723868/",
+      "summary": "Mike and Pam aren’t the only dynamic duo at CinemaCon anymore. Historically, film studios have been run by one monolithic figure, calling shots and running expansive teams of middle managers and underlings. Paramount Pictures heads Josh Greenstein and Dana Goldberg are now the second duo running a …",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/04/S041626A-0937.jpg",
+      "pubDate": "2026-04-16T21:00:08.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "9dbeca926a039e29",
+      "title": "Buchwald Signs Writer William Yu (EXCLUSIVE)",
+      "link": "https://variety.com/2026/tv/news/buchwald-william-yu-1236723900/",
+      "summary": "Screenwriter William Yu has signed with Buchwald for representation, Variety has learned exclusively. Yu continues to be repped by Bellevue and Jackoway Austen. Yu recently worked on the Peacock series adaptation of the movie “The Burbs,” to which he will return as executive story editor for the sh…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2026/04/2025-1206_Lucia_Test1506-e1776372428652.png",
+      "pubDate": "2026-04-16T21:00:00.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5ac0529b7b30c316",
+      "title": "The 24-year-old manager with a top-flight promotion and Real Madrid connection",
+      "link": "https://www.bbc.com/sport/football/articles/c4gl59wkdzpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Having worked with the Real Madrid Foundation as a teenager, Jordan Hadaway has now led financially-challenged Llandudno to Wales' top-flight.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T20:37:22.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "82ea7dfba9607242",
+      "title": "DGA Awards Sets 2027 Ceremony Date",
+      "link": "https://variety.com/2026/film/awards/dga-awards-ceremony-dates-2027-1236723946/",
+      "summary": "The Directors Guild of America has announced the 79th annual DGA Awards will take place Saturday, Jan. 30, 2027, honoring directorial achievements across film, television and documentaries. The upcoming ceremony will take place nine days after the announcement of the 99th Academy Awards nominations…",
+      "body": null,
+      "image": "https://variety.com/wp-content/uploads/2020/04/GettyImages-2260462007.jpg",
+      "pubDate": "2026-04-16T20:36:35.000Z",
+      "source": {
+        "name": "Variety (Entertainment)",
+        "homepage": "https://variety.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "36d0ae83446a3ace",
+      "title": "قبل موقعة بلوزداد.. الزمالك يسعى لإنهاء كابوس \"الإياب\" أمام الأندية الجزائرية",
+      "link": "https://www.yallakora.com/african-confederation-cup/3000/news/547600/%d9%82%d8%a8%d9%84-%d9%85%d9%88%d9%82%d8%b9%d8%a9-%d8%a8%d9%84%d9%88%d8%b2%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%8a%d8%b3%d8%b9%d9%89-%d9%84%d8%a5%d9%86%d9%87%d8%a7%d8%a1-%d9%83%d8%a7%d8%a8%d9%88%d8%b3-%d8%a7%d9%84%d8%a5%d9%8a%d8%a7%d8%a8-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%a3%d9%86%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a%d8%a9",
+      "summary": "يستعد نادي الزمالك لخوض مواجهة هامة وحاسمة ضد فريق شباب بلوزداد الجزائري، في بطولة كأس الكونفدرالية الأفريقية 2025-2026.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-16T20:35:00.000Z",
+      "source": {
+        "name": "Yallakora",
+        "homepage": "https://www.yallakora.com/feed/rssfeed"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "e8f7076694e3a7f6",
       "title": "Gucci-branded Google smart glasses are coming next year",
@@ -252,10 +492,10 @@
       "region": "global"
     },
     {
-      "id": "cd8ab0d46fd10468",
-      "title": "منافس مصر.. إصابة قوية لمهاجم منتخب نيوزيلندا مع فريقه في الدوري الأوروبي",
-      "link": "https://www.yallakora.com/world-cup/2866/news/547599/%d9%85%d9%86%d8%a7%d9%81%d8%b3-%d9%85%d8%b5%d8%b1-%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d9%82%d9%88%d9%8a%d8%a9-%d9%84%d9%85%d9%87%d8%a7%d8%ac%d9%85-%d9%85%d9%86%d8%aa%d8%ae%d8%a8-%d9%86%d9%8a%d9%88%d8%b2%d9%8a%d9%84%d9%86%d8%af%d8%a7-%d9%85%d8%b9-%d9%81%d8%b1%d9%8a%d9%82%d9%87-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a",
-      "summary": "تعرض كريس وود، مهاجم فريق نوتنجهام فورست ومنتخب نيوزيلندا، إلى إصابة قوية في المباراة التي يخوضها فريقه أمام بورتو في إطار مواجهات إياب دور ربع النهائي، في بطولة الدوري الأوروبي.",
+      "id": "ec2e34e90aab6b1c",
+      "title": "بعد شكوى سموحة.. وائل فرحان يدير مباراة بلدية المحلة وراية بدوري القسم الثاني",
+      "link": "https://www.yallakora.com/egyptian-league/2977/news/547599/%d8%a8%d8%b9%d8%af-%d8%b4%d9%83%d9%88%d9%89-%d8%b3%d9%85%d9%88%d8%ad%d8%a9-%d9%88%d8%a7%d8%a6%d9%84-%d9%81%d8%b1%d8%ad%d8%a7%d9%86-%d9%8a%d8%af%d9%8a%d8%b1-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a8%d9%84%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d8%a9-%d9%88%d8%b1%d8%a7%d9%8a%d8%a9-%d8%a8%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a",
+      "summary": "أعلنت رابطة الحكام في اتحاد الكرة عن حكام مباريات الجولة الثلاثين، في مسابقة دوري المحترفين، وأبرزها مباراة بلدية المحلة وراية.",
       "body": null,
       "image": null,
       "pubDate": "2026-04-16T20:22:00.000Z",
@@ -271,7 +511,7 @@
       "id": "d6c014b53a070505",
       "title": "Bryan Cranston Roasts Shia LaBeouf and Tells Him to ‘Get Some Help’ After Learning Frankie Muniz Turned Down ‘Holes’",
       "link": "https://variety.com/2026/film/news/bryan-cranston-shia-labeouf-get-help-1236723666/",
-      "summary": "Frankie Muniz revealed to his “Malcolm in the Middle” dad Bryan Cranston in a new Esquire video interview that he often wonders how his career would’ve been different had he not dropped out of “Holes.” Muniz was attached to play the lead role of Stanley Yelnats in Disney’s 2003 movie before he got …",
+      "summary": "Frankie Muniz revealed to his “Malcolm in the Middle” dad, Bryan Cranston, in a new Esquire video interview that he often wonders how his career would’ve been different had he not dropped out of “Holes.” Muniz was attached to play the lead role of Stanley Yelnats in Disney’s 2003 movie before he go…",
       "body": null,
       "image": "https://variety.com/wp-content/uploads/2026/04/Bryan-Cranston-Shia-LaBeouf.jpg",
       "pubDate": "2026-04-16T20:13:55.000Z",
@@ -300,22 +540,6 @@
       "region": "global"
     },
     {
-      "id": "10cc2ebd36de39d8",
-      "title": "‘Heated Rivalry,’ ‘South Park’ Among This Year’s Television Academy Honors Recipients",
-      "link": "https://variety.com/2026/tv/news/heated-rivalry-south-park-television-academy-honors-2026-1236723890/",
-      "summary": "“Heated Rivalry” isn’t eligible for an Emmy, but the Television Academy has still found a way to award the breakthrough Crave series — seen here in the U.S. on HBO Max. “Heated Rivalry” has been named one of six TV series set to be recognized at the 19th annual Television Academy Honors, which sing…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/12/heated-rivalry-shane-ilya-episode-4-1420x798-1.jpg",
-      "pubDate": "2026-04-16T20:03:16.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "104fc03d85f4c9b1",
       "title": "iPhone 18 Pro’s variable aperture cameras enter production phase",
       "link": "https://www.gsmarena.com/iphone_18_pros_variable_aperture_cameras_enter_production_phase-news-72406.php",
@@ -326,54 +550,6 @@
       "source": {
         "name": "GSMArena",
         "homepage": "https://www.gsmarena.com/rss-news-reviews.php3"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ac013c4296190f8e",
-      "title": "Netflix, With Warner Bros. Off the Table, Beats Q1 Expectations",
-      "link": "https://variety.com/2026/tv/news/netflix-earnings-q1-2026-1236723851/",
-      "summary": "Netflix reported its first-quarter 2026 earnings Thursday, revealing that during the January-March period it smashed analyst expectations in both revenue and earnings. Revenue reached $12.25 billion, up 16% from the comparable 2025 quarter. On these results, Netflix is reiterating its previous fore…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/02/BRIDGERTON_408_Unit_02674R.jpg",
-      "pubDate": "2026-04-16T20:01:56.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "42b60fc89b2f4a16",
-      "title": "‘Gilded Age’ Star Denée Benton Signs With Gersh (EXCLUSIVE)",
-      "link": "https://variety.com/2026/tv/news/gilded-age-denee-benton-agency-gersh-1236723722/",
-      "summary": "Denée Benton has signed with Gersh for representation in all areas, Variety has learned exclusively. Benton will continue to be repped by Perennial Entertainment and Schreck Rose. Benton currently stars in the hit HBO series “The Gilded Age.” She has played Peggy Scott in the series since it launch…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/04/Denee-Benton-e1776363151124.jpg",
-      "pubDate": "2026-04-16T20:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1ed48ee5ee585f56",
-      "title": "‘Law & Order: SVU’ Renewed for Season 28 at NBC",
-      "link": "https://variety.com/2026/tv/news/law-and-order-svu-renewed-season-28-nbc-1236723831/",
-      "summary": "“Law & Order: SVU” has been renewed for Season 28 at NBC, Variety has learned. As per usual, the renewal comes as little surprise, as the now flagship show in the “Law & Order” franchise continues to drive strong numbers for NBC even so late in its run. “Law & Order,” meanwhile, is still awaiting […",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/04/Law-and-Order-SVU.jpg",
-      "pubDate": "2026-04-16T20:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -396,20 +572,52 @@
       "region": "global"
     },
     {
-      "id": "4a4ab9712c169537",
-      "title": "‘Running Point’ Star Brenda Song Reveals Macaulay Culkin Easter Egg in Season 2",
-      "link": "https://variety.com/2026/tv/news/brenda-song-says-macaulay-culkin-snuck-his-way-into-running-point-season-2-1236723534/",
-      "summary": "SPOILER ALERT: This story includes details about Season 2 of “Running Point,” which will be available to stream on Netflix on April 23. Brenda Song first won over audiences as London Tipton on Disney Channel’s “The Suite Life of Zack & Cody,” while her fiancé Macaulay Culkin came up through his own…",
+      "id": "c4e1efaa41ea31f8",
+      "title": "Augustus aiming high in the hope of home advantage",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c8r44vl524vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ulster back row Juarno Augustus says it's important the Irish province keep building momentum in the hope of clinching home advantage in the knockout stages of the United Rugby Championship.",
       "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/04/PF1_9057_Eo8lPY33_c3f598.jpg",
-      "pubDate": "2026-04-16T19:42:15.000Z",
+      "image": null,
+      "pubDate": "2026-04-16T19:42:55.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "2be6e013df1b7f10",
+      "title": "بالفيديو.. لماذا لم يستحوذ الوليد بن طلال على نادي الهلال بالكامل؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D9%85-%D9%8A%D8%B3%D8%AA%D8%AD%D9%88%D8%B0-%D8%A7%D9%84%D9%88%D9%84%D9%8A%D8%AF-%D8%A8%D9%86-%D8%B7%D9%84%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84/blta05e32e569a7b457?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "خبير اقتصادي يكشف سبب الاستحواذ الجزئي للأمير السعودي على النادي العاصمي",
+      "body": "خبير اقتصادي يكشف سبب الاستحواذ الجزئي للأمير السعودي على النادي العاصمي كشف خبير اقتصادي عن سبب عدم استحواذ الأمير الوليد بن طلال على ملكية نادي الهلال بالكامل، والاستحواذ على 70% فقط منه. وأعلن صندوق الاستثمارات السعودي وشركة المملكة القابضة، المملوكة للأمير الوليد بن طلال، الخميس، توقيع اتفاقية بيع وشراء أسهم ملزمة، تستحوذ بموجبها شركة المملكة على 70% من إجمالي رأس مال شركة نادي الهلال، بناءً على قيمة منشأة كلية بلغت 1.4 مليار ريال سعودي لكامل رأس مال شركة النادي. مقبل بن جديع، خبير الاستثمار الرياضي، أكد أن هذا الاستحواذ الجزئي هو خطوة مبدئية في طريق الاستحواذ على نادي الهلال بشكل كامل، كاشفًا عن أسباب عدم الاستحواذ الكلي في الوقت الحالي. وقال بن جديع في تصريحات لبرنامج \"كورة\" على قناة \"روتانا خليجية\": \"أتوقع أن الاستحواذ على 70% من نادي الهلال هو مرحلة أولى في الطريق إلى الاستحواذ الكامل\". اقرأ أيضًا: بالصور.. الظهور الأول للوليد بن طلال في ملعب الهلال بعد الاستحواذ عليه وأضاف: \"صندوق الاستثمارات العامة وافق على بيع 70% فقط، بسبب وجود العديد من التفاصيل التي تتعلق بالجانب التنظيمي للشركة غير الربحية، والصندوق أراد ألا يكون المستثمر الجديد وحده في مواجهة كل التحديات\". وأتم: \"هذه الخطوة هي ذكاء من صندوق الاستثمارات العامة أيضًا، لأنه عانى في إدارة هذا النادي، وأنفق الكثير من ال…",
+      "image": null,
+      "pubDate": "2026-04-16T19:24:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "af8767ea4e20397b",
+      "title": "مبابي بعد السقوط الأوروبي: الفشل ليس خيارا.. وهذا وعدي لجماهير الريال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%A7%D9%84%D9%81%D8%B4%D9%84-%D9%84%D9%8A%D8%B3-%D8%AE%D9%8A%D8%A7%D8%B1%D8%A7-%D9%88%D9%87%D8%B0%D8%A7-%D9%88%D8%B9%D8%AF%D9%8A-%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84/bltf1c212d875bf196e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كيليان يوجه رسالة قوية",
+      "body": "كيليان يوجه رسالة قوية وجه النجم الفرنسي كيليان مبابي رسالة قوية لجماهير ريال مدريد، عقب خروج الفريق من دوري أبطال أوروبا، مؤكدا أن الفشل ليس خيارا لهذا النادي. وودع ريال مدريد البطولة بعد خسارته أمام بايرن ميونخ بنتيجة 4-3 على ملعب أليانز أرينا، ليغادر المسابقة بمجموع المباراتين 6-4. وقال مبابي في رسالته، التي نشرها على حسابه بموقع إنستجرام: \"حاولنا حتى اللحظة الأخيرة، لكن ذلك لم يكن كافيًا، من المخيب للآمال أن نقصى من بطولة بهذه الأهمية، لكن علينا أن ننظر إلى الأمام\". وأضاف: \"نحتاج إلى مراجعة أنفسنا بجدية لتجنب مثل هذا الإحباط مرة أخرى، لن نستسلم أبدا في مدريد، الفشل لم يكن خيارا ولن يكون أبدا\". وختم قائد منتخب فرنسا رسالته بالقول: \"أعدكم بشيء واحد، سنعود إلى الانتصارات قريبًا جدًا\". ويلعب بايرن ميونخ في نصف النهائي مع حامل اللقب باريس سان جيرمان، ويواجه المنتصر منهما، الفائز من مواجهة آرسنال وأتلتيكو مدريد، في المباراة النهائية. اقرأ أيضا: بتحريض مغربي.. ثورة مرتقبة في ريال مدريد &nbsp; &nbsp; &nbsp; &nbsp;",
+      "image": null,
+      "pubDate": "2026-04-16T19:23:10.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "76570711cdc01496",
@@ -492,6 +700,22 @@
       "region": "global"
     },
     {
+      "id": "7fd2bebbf3bcb701",
+      "title": "أسطورة بايرن ميونخ: ريال مدريد آخر من يحق له انتقاد التحكيم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%93%D8%AE%D8%B1-%D9%85%D9%86-%D9%8A%D8%AD%D9%82-%D9%84%D9%87-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85/blta04a4c740a8f9e32?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الفريق الملكي يرى أن طرد كامافينجا لم يكن مستحقًا",
+      "body": "الفريق الملكي يرى أن طرد كامافينجا لم يكن مستحقًا دخل ديتمار هامان، أسطورة كرة القدم الألمانية، على خط الجدل التحكيمي المثار عقب مواجهة بايرن ميونخ وريال مدريد، موجهًا انتقادات لاذعة للفريق الإسباني، ومشككًا في صحة بعض أهدافه خلال المباراة التي انتهت بفوز البافاري (4-3)، وتأهله لنصف نهائي دوري أبطال أوروبا، أمس الأربعاء على ملعب أليانز أرينا، في إياب ربع النهائي. وكان أبرز انتقاد وجهه معسكر الريال إلى التحكيم متعلقًا بطرد لاعب الوسط الفرنسي، إدواردو كامافينجا، بعد تلقيه إنذارًا ثانيًا بسبب محاولة إضاعة الوقت، في الدقيقة 86 من المباراة. وخلال تصريحات عبر شبكة \"سكاي سبورت - ألمانيا\" ، قال هامان: \"وجدت الطرد ضد كامافينجا قاسيًا، لكنه مبرر\". اقرأ أيضًا: تشكيل دوري الأبطال: هيمنة بافارية.. ولاعب من ريال مدريد وآخر كتالوني تجربة فرنسا تقول الكثير.. لماذا يشكل ديشامب خطرًا على ثورة ريال مدريد؟ توابع الزلزال.. ريال مدريد يقرر بيع أحد نجومه الكبار وتابع: \"مع ذلك، يجب أن نرى أيضًا أنه قبل الركلة الحرة، التي سجل منها ريال مدريد الهدف الثاني، لم يكن هناك خطأ (من جانب بايرن ميونخ).. وقبل الهدف الثالث للريال، تم ارتكاب خطأ ضد ستانيسيتش\". واستطرد نجم بايرن ميونخ وليفربول السابق: \"لذلك، إذا كان هناك من لا يحق له الشكوى من الحكم، فهو ريال مدريد\". وكان الميرينجي قد انهزم ذهابًا على ملعبه (سانتياجو …",
+      "image": null,
+      "pubDate": "2026-04-16T19:00:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "a8707bdfbea6b605",
       "title": "Ozlo’s comfy Sleepbuds are nearly 30 percent off in the run-up to Mother’s Day",
       "link": "https://www.theverge.com/gadgets/913352/ozlo-sleepbuds-mothers-day-deal-sale",
@@ -505,22 +729,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "30dcc156fc766e98",
-      "title": "Graham Norton Teases New Game Show ‘The Neighbourhood,’ Says Taylor Swift ‘Opalite’ Cameo Was a Dream Come True: ‘She Made It Happen for Me’",
-      "link": "https://variety.com/2026/tv/global/graham-norton-opalite-dream-come-true-neighbourhood-1236720217/",
-      "summary": "Graham Norton is the host of “The Graham Norton Show,” Eurovision commentator for the U.K. and recently had a scene-stealing cameo in Taylor Swift’s “Opalite” music video. Now he’s adding another string to his bow by hosting a brand new ITV gameshow “The Neighbourhood,” which launches April 24 on I…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/04/Graham-Norton-The-Neoughbourhood-Gnome.jpg",
-      "pubDate": "2026-04-16T19:00:00.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -572,6 +780,38 @@
       "region": "global"
     },
     {
+      "id": "bda981fc8b77b6a3",
+      "title": "فيديو: غموض وتضارب.. هل يقود دونيس المنتخب السعودي في كأس آسيا؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%BA%D9%85%D9%88%D8%B6-%D9%88%D8%AA%D8%B6%D8%A7%D8%B1%D8%A8-%D9%87%D9%84-%D9%8A%D9%82%D9%88%D8%AF-%D8%AF%D9%88%D9%86%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7/bltda897a9d11f1938a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب اليوناني سيقود الأخضر في كأس العالم.. فماذا بعده؟",
+      "body": "المدرب اليوناني سيقود الأخضر في كأس العالم.. فماذا بعده؟ سادت حالة من التضارب حول مستقبل اليوناني جورجوس دونيس، المدير الفني لنادي الخليج، بعد اقترابه من قيادة المنتخب السعودي خلال الفترة المقبلة، خلفًا للمدرب الفرنسي هيرفي رينارد. وكانت صحيفة \"اليوم\" السعودية قد أكدت أن الاتحاد السعودي لكرة القدم استقر على تعيين دونيس مديرًا فنيًا لـ\"الأخضر\" في كأس العالم 2026، خلفًا للمدرب الفرنسي هيرفي رينارد. اقرأ التفاصيل غير أن السؤال الأبرز بعد تلك الأنباء التي أكدتها العديد من المصادر، يأتي حول موقف المدرب اليوناني مع المنتخب السعودي بعد نهاية المونديال، وما إذا كان سيتولى تدريب \"الأخضر\" في كأس آسيا 2027 التي تستضيفها السعودية مطلع العام المقبل. وبحسب الإعلامي السعودي خالد الشنيف، مقدم برنامج \"دورينا غير\"، فإن نادي الخليج بدأ بالفعل في البحث عن مدرب جديد، لأن دونيس سيقود المنتخب السعودي بعقد يمتد لموسم أو موسمين، وسيبقى معه في كأس آسيا 2027. خالد الشنيف يكشف نسبة كبيرة لتولي دونيس قيادة المنتخب السعودي. @k_alshenaif #دورينا_غير pic.twitter.com/KrtYU8gDSh — #دورينا_غير (@SBA_sport) April 16, 2026 غير أن الإعلامي السعودي الآخر عبدالرحمن الحميدي، مقدم برنامج \"نادينا\"، أكد أنه بعد التواصل مع نادي الخليج، فإن المدرب اليوناني سيقود \"الأخضر\" في بطولة كأس العالم 2026 فقط. وستبقى تلك التضاربات قائم…",
+      "image": null,
+      "pubDate": "2026-04-16T18:54:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "871b597d204f0772",
+      "title": "برسالة مقتضبة.. كامافينجا يخرج عن صمته بعد الطرد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D9%82%D8%AA%D8%B6%D8%A8%D8%A9-%D9%83%D8%A7%D9%85%D8%A7%D9%81%D9%8A%D9%86%D8%AC%D8%A7-%D9%8A%D8%AE%D8%B1%D8%AC-%D8%B9%D9%86-%D8%B5%D9%85%D8%AA%D9%87-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B7%D8%B1%D8%AF/blt877f135e9fe1b203?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم الفرنسي يعتذر للجماهير",
+      "body": "النجم الفرنسي يعتذر للجماهير خرج إدواردو كامافينجا نجم ريال مدريد، عن صمته، بعد ما بدر منه خلال مباراة الإياب أمام بايرن ميونخ، في ربع نهائي دوري أبطال أوروبا. وخسر &nbsp;ريال مدريد في ملعب أليانز أرينا، أمس الأربعاء، 4-3، ليخرج من المسابقة &nbsp;بمجموع المباراتين 6-4. وتعرض كامافينجا للطرد بعدما دخل بديلا لزميله المغربي إبراهيم دياز، بعدما تلقى بطاقتين صفراوين بشكل سريع في اللقاء. وفجرت البطاقة الثانية جدلا تحكيميا كبيرا، حيث نالها الدولي الفرنسي بدعوى إضاعة الوقت، والنتيجة تشير إلى تقدم النادي الملكي بنتيجة 3-2، ليتمكن البايرن من استغلال النقص العددي وإنهاء المباراة بالانتصار 4-3. وعبر خاصية ستوري على موقع \"إنستجرام\"، نشر لاعب الوسط صورة له من المباراة وعلق عليها بكتابة: \"أتحمل كامل المسؤولية عما بدر مني\". وأضاف: \"أريد أن أعتذر لزملائي ولكل مشجعي ريال مدريد، شكرا على دعمكم، هلا مدريد دائما\". ويلعب بايرن ميونخ في نصف النهائي مع حامل اللقب باريس سان جيرمان، ويواجه المنتصر منهما، الفائز من مواجهة آرسنال وأتلتيكو مدريد، في المباراة النهائية. اقرأ أيضا: بتحريض مغربي.. ثورة مرتقبة في ريال مدريد &nbsp;",
+      "image": null,
+      "pubDate": "2026-04-16T18:45:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "80ab0a0b152efc2b",
       "title": "The only way to fight deepfakes is by making deepfakes",
       "link": "https://www.theverge.com/report/913445/deepfake-detection-reality-defender-pindrop-ai",
@@ -588,20 +828,36 @@
       "region": "global"
     },
     {
-      "id": "74603a5df1a20ced",
-      "title": "‘Children of Blood and Bone’ Trailer Debuts Epic African Fantasy at CinemaCon With Regina King, Chiwetel Ejiofor and More",
-      "link": "https://variety.com/2026/film/news/children-of-blood-and-bone-trailer-african-fantasy-1236712637/",
-      "summary": "Paramount debuted the first look at its upcoming fantasy film “Children of Blood and Bone” at CinemaCon, the annual convention for movie theater owners that’s underway in Las Vegas. The film is based on author Tomi Adeyemi’s 2018 novel of the same name, set in a fictional African kingdom full of ma…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2026/04/MixCollage-16-Apr-2026-11-36-AM-4165.jpg",
-      "pubDate": "2026-04-16T18:40:38.000Z",
+      "id": "26ae771e26d07dc2",
+      "title": "نجم أهلي جدة يعود للتشكيل الأساسي في الموقعة الآسيوية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D8%AC%D8%AF%D8%A9-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D8%A7%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%A7%D9%93%D8%B3%D9%8A%D9%88%D9%8A%D8%A9/blt543a2c2f99bfb6a0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اللاعب بات جاهزًا بشكل تام",
+      "body": "اللاعب بات جاهزًا بشكل تام استقر الألماني ماتياس يايسله، المدير الفني لأهلي جدة السعودي، على الزج بأحد اللاعبين الأجانب ضمن التشكيلة الأساسية، التي ستواجه جوهر دار التعظيم الماليزي في ربع نهائي دوري أبطال آسيا للنخبة، غدًا الجمعة، على ملعب الإنماء بمدينة الملك عبد الله الرياضية في جدة. فوفقًا لما نقلته صحيفة \"الرياضية\" السعودية، بات اللاعب الفرنسي فالنتين أتانجانا في أتم جاهزيته للعودة إلى الميدان، ومشاركة زملائه في القمة المرتقبة، بعد تخطيه الفحوصات والاختبارات البدنية بنجاح. اقرأ أيضًا: تشكيل دوري الأبطال: هيمنة بافارية.. ولاعب من ريال مدريد وآخر كتالوني تجربة فرنسا تقول الكثير.. لماذا يشكل ديشامب خطرًا على ثورة ريال مدريد؟ توابع الزلزال.. ريال مدريد يقرر بيع أحد نجومه الكبار وكان أتانجانا قد سجل عودته التدريجية للمشاركة مع \"الراقي\"، خلال الوقت الإضافي من مواجهة الدحيل، في دور الـ 16 بدوري أبطال آسيا للنخبة، الاثنين الماضي، بعد تعافيه من الإصابة. وأُصيب صاحب الـ 20 عاماً بعد احتكاك بزميل له، أثناء تدريبات المنتخب الفرنسي تحت 21 عاماً، وهو ما استدعى استبعاده من قائمة الديوك، وعودته حينها إلى جدة لاستكمال برنامجه العلاجي.",
+      "image": null,
+      "pubDate": "2026-04-16T18:42:42.000Z",
       "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2cf2ca0bac736d57",
+      "title": "نجم السنغال يستفز المغرب.. ويكشف موقفًا طريفًا مع مبابي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%81%D8%B2-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D9%8A%D9%83%D8%B4%D9%81-%D9%85%D9%88%D9%82%D9%81%D9%8B%D8%A7-%D8%B7%D8%B1%D9%8A%D9%81%D9%8B%D8%A7-%D9%85%D8%B9-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A/bltc422c637aa86f7c6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "العالم شاهد على تتويج السنغال.. والميداليات معنا",
+      "body": "العالم شاهد على تتويج السنغال.. والميداليات معنا استفز بابي جاي، نجم منتخب السنغال، المغاربة، بتصريح جديد حول تتويج أسود التيرانجا بلقب أمم أفريقيا 2025. وفاز المنتخب السنغالي بالمباراة النهائية لأمم أفريقيا، بهدف دون رد أمام المغرب، لكن الكاف سحب اللقب من أسود التيرانجا، ومنحه إلى أسود الأطلس، بعد أحداث الفوضى والانسحاب. وقال جاي، في حوار لصحيفة ليكيب \"هل نشعر أننا الأبطال؟ نعم، بالطبع، لأننا ببساطة أبطال أفريقيا. لقد فزنا بهذا النهائي على أرض الملعب، والعالم كله شاهد ذلك\". وتابع \"كانت هناك بعض اللقطات التحكيمية والتوقف، لكن المباراة استؤنفت. عندما تم احتساب ركلة الجزاء، لم يرغب أي لاعب مغربي في إيقاف المباراة، بل كانوا جميعًا يريدون تنفيذها. إذًا لماذا يتم الرجوع إلى النتيجة بعد ذلك؟ الميداليات لدينا\".&nbsp; اقرأ أيضًا صدمة قبل المونديال.. نهاية موسم نجم المغرب هذا ما قاله ساديو ماني بعد فوضى الانسحاب وأضاف بابي جاي \"العالم كله يعلم جيدًا أن الكأس فازت بها السنغال. لقد طلب منا ساديو ماني، العودة إلى أرض الملعب، وأن نلعب كرجال\". ولفت خلال حواره مع ليكيب \"ماني قال لنا إنه إذا خسرنا فذلك جزء من اللعبة. استمعنا إليه جميعًا، وتم التصدي لركلة الجزاء، ثم لعبنا الوقت الإضافي وسجلت الهدف\". وشدد \"كان هدفًا مهمًا جدًا بالنسبة لي وللمنتخب السنغالي. هذا النوع من اللحظات، يبقى محفورًا في الذا…",
+      "image": "https://assets.kooora.com/images/v3/getty-2256403944/crop/MM5DINRQHA5DENJZGI5G433XMU5DAORSGQYA====/GettyImages-2256403944.jpg",
+      "pubDate": "2026-04-16T18:37:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "784fd7e0b0dc6fbb",
@@ -614,22 +870,6 @@
       "source": {
         "name": "Yallakora",
         "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "8ad129353ac5ba19",
-      "title": "‘Law & Order: Organized Crime’ Canceled After Five Seasons",
-      "link": "https://variety.com/2026/tv/news/law-and-order-organized-crime-canceled-nbc-1236723780/",
-      "summary": "“Law & Order: Organized Crime” has been canceled after five seasons. The “Law & Order” spinoff premiered in 2021 and aired on NBC for its first four seasons, then moved to Peacock for Season 5, which concluded in June 2025. Christopher Meloni starred as detective Elliot Stabler, the character he or…",
-      "body": null,
-      "image": "https://variety.com/wp-content/uploads/2025/03/NUP_206404_00520.jpg",
-      "pubDate": "2026-04-16T18:34:15.000Z",
-      "source": {
-        "name": "Variety (Entertainment)",
-        "homepage": "https://variety.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -650,22 +890,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "971f7e891836f22d",
-      "title": "Kildunne shifts to wing and Burton to play at lock as England ring changes",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cdj7p8y3lpyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ellie Kildunne is named on the wing, rather than in her regular full-back role, as part of a much-changed England line-up to face Scotland in the Women's Six Nations on Saturday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-16T18:30:27.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
     },
     {
       "id": "ccd52ea3e3263f00",
@@ -832,7 +1056,7 @@
       "title": "\"لقد سحقونا\".. قصة 25 يومًا من الكوابيس التحكيمية لريال مدريد",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%82%D8%AF-%D8%B3%D8%AD%D9%82%D9%88%D9%86%D8%A7-%D9%82%D8%B5%D8%A9-25-%D9%8A%D9%88%D9%85%D9%8B%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D9%83%D9%88%D8%A7%D8%A8%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85%D9%8A%D8%A9-%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt5b9bc6406c68bab3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "الميرينجي انتقد التحكيم بشكل متكرر في الأسابيع الأخيرة",
-      "body": "الميرينجي انتقد التحكيم بشكل متكرر في الأسابيع الأخيرة \"لقد سحقونا\".. بهذه العبارة لخصت الأوساط المدريدية المشهد الختامي لموسم الفريق الملكي، فموقعة ميونخ لم تكن مجرد هزيمة عابرة، بل كانت القطرة التي أفاضت الكأس في ريال مدريد، بحسب مقال للصحفي البارز في صحيفة \"ماركا\" الإسبانية، خوسيه لويس كالديرون. وجاء الطرد المثير للجدل لإدواردو كامافينجا ضد بايرن ميونخ، خلال هزيمة الميرينجي (4-3) أمس الأربعاء في إياب ربع نهائي دوري أبطال أوروبا، ليتوج سلسلة من القرارات التحكيمية التي عاشها الفريق الأبيض خلال الشهر الأخير، والتي يعتبرها النادي المسؤول المباشر والحاسم عن توديع حلم الفوز بالليجا ودوري أبطال أوروبا. ووفقًا لذات المقال، أثار القرار المثير للجدل من الحكم سلافكو فينشيتش، في \"أليانز\" أرينا، حالة من الغضب في غرفة الملابس والنادي، لم تُرَ من قبل بهذا الشكل؛ والسبب يعود إلى أنهم لا يتذكرون سلسلة أخطاء بهذا الحجم الواضح، وبنتائج مدمرة إلى هذه الدرجة. غضب هائل فقد سافر الريال إلى ميونخ وهو يحمل بالفعل غضباً هائلاً، بسبب ركلة الجزاء غير المحتسبة على مبابي أمام جيرونا؛ وهو \"جرح\" تحكيمي ظهر واضحاً على وجه النجم الفرنسي، الذي خاض مباراة بايرن واضعاً لاصقة لحماية الجرح الذي سببه له مرفق فيتور ريس، والذي لم يعتبره الحكم ألبيرولا روخاس ركلة جزاء. وقبل مباراة جيرونا، كان الريال قد رفع صوته احتجاجاً…",
+      "body": "الميرينجي انتقد التحكيم بشكل متكرر في الأسابيع الأخيرة \"لقد سحقونا\".. بهذه العبارة لخصت الأوساط المدريدية المشهد الختامي لموسم الفريق الملكي، فموقعة ميونخ لم تكن مجرد هزيمة عابرة، بل كانت القطرة التي أفاضت الكأس في ريال مدريد، بحسب مقال للصحفي البارز في صحيفة \"ماركا\" الإسبانية، خوسيه لويس كالديرون. وجاء الطرد المثير للجدل لإدواردو كامافينجا ضد بايرن ميونخ، خلال هزيمة الميرينجي (4-3) أمس الأربعاء في إياب ربع نهائي دوري أبطال أوروبا، ليتوج سلسلة من القرارات التحكيمية التي عاشها الفريق الأبيض خلال الشهر الأخير، والتي يعتبرها النادي المسؤول المباشر والحاسم عن توديع حلم الفوز بالليجا ودوري أبطال أوروبا. ووفقًا لذات المقال، أثار القرار المثير للجدل من الحكم سلافكو فينشيتش، في \"أليانز\" أرينا، حالة من الغضب في غرفة الملابس والنادي، لم تُرَ من قبل بهذا الشكل؛ والسبب يعود إلى أنهم لا يتذكرون سلسلة أخطاء بهذا الحجم الواضح، وبنتائج مدمرة إلى هذه الدرجة. اقرأ أيضًا: تشكيل دوري الأبطال: هيمنة بافارية.. ولاعب من ريال مدريد وآخر كتالوني تجربة فرنسا تقول الكثير.. لماذا يشكل ديشامب خطرًا على ثورة ريال مدريد؟ توابع الزلزال.. ريال مدريد يقرر بيع أحد نجومه الكبار غضب هائل فقد سافر الريال إلى ميونخ وهو يحمل بالفعل غضباً هائلاً، بسبب ركلة الجزاء غير المحتسبة على مبابي أمام جيرونا؛ وهو \"جرح\" تحكيمي ظهر و…",
       "image": null,
       "pubDate": "2026-04-16T17:29:35.000Z",
       "source": {
@@ -1020,22 +1244,6 @@
       "region": "global"
     },
     {
-      "id": "6b277824be1c4f6a",
-      "title": "تجربة فرنسا تقول الكثير.. لماذا يشكل ديشامب خطرًا على ثورة ريال مدريد؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D9%82%D9%88%D9%84-%D8%A7%D9%84%D9%83%D8%AB%D9%8A%D8%B1-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%B4%D9%83%D9%84-%D8%AF%D9%8A%D8%B4%D8%A7%D9%85%D8%A8-%D8%AE%D8%B7%D8%B1%D9%8B%D8%A7-%D8%B9%D9%84%D9%89-%D8%AB%D9%88%D8%B1%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt097e6d958c96752d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب الفرنسي تعرض لانتقادات واسعة أيضًا مع الديوك",
-      "body": "المدرب الفرنسي تعرض لانتقادات واسعة أيضًا مع الديوك دخل مستقبل القيادة الفنية لريال مدريد مرحلة جديدة من الشك، عقب السقوط أمام بايرن ميونخ بنتيجة (4-3) أمس الأربعاء، والخروج من دوري أبطال أوروبا. وهي الهزيمة التي تزامنت مع اقتراب الغريم التقليدي، برشلونة، من حسم لقب \"الليجا\"، ما جعل موسم النادي الملكي يترنح على حافة الخروج الصفري. اقرأ أيضًا: تشكيل دوري الأبطال: هيمنة بافارية.. ولاعب من ريال مدريد وآخر كتالوني صحيفة أرجنتينية: تقارير رسمية تدعم تتويج المغرب باللقب الإفريقي توابع الزلزال.. ريال مدريد يقرر بيع أحد نجومه الكبار انتقادات مسبقة وفي خضم هذه الفوضى الفنية، التي عززت الشكوك حول مستقبل المدرب ألفارو أربيلوا، بزغ اسم ديدييه ديشامب، المدير الفني لمنتخب فرنسا، كمرشح فوق العادة لتولي المهمة بدءاً من موسم 2026/2027، بحسب تقارير صحفية فرنسية وإسبانية. ورغم السجل الأسطوري لـ \"قائد الديوك\" المتوج بمونديال 2018 كمدرب، إلا أن احتمالية قدومه للبرنابيو فجرت موجة من الانتقادات، حيث يُعتقد على نطاق واسع أن ديشامب من المدربين الذين يعمدون إلى مداهنة النجوم، والحفاظ على الوضع الراهن بدلاً من فرض مشروع تكتيكي صارم. وهي السياسة التي لا تبدو مناسبة لأوضاع الميرينجي الحالية، حيث يحتاج ثورة صيفية، بعد موسم عانى فيه الأمرين على الصعيدين المحلي والأوروبي. ولا تعد هذه الرؤية جديدة، فبعد إقالة تشا…",
-      "image": "https://assets.kooora.com/images/v3/getty-1245708719/crop/MM5DENBUHA5DENBUHA5G433XMU5DMMJSHIYA====/GettyImages-1245708719.jpg",
-      "pubDate": "2026-04-16T17:04:44.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "f8e1882d44dee1ac",
       "title": "Messi buys fifth-tier Spanish club Cornella",
       "link": "https://www.bbc.com/sport/football/articles/c2d82rn57jwo?at_medium=RSS&at_campaign=rss",
@@ -1100,22 +1308,6 @@
       "region": "global"
     },
     {
-      "id": "960943a061a17e02",
-      "title": "صورة.. نجم ليفربول يسخر من صلاح",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%88%D8%B1%D8%A9-%D9%86%D8%AC%D9%85-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D8%B3%D8%AE%D8%B1-%D9%85%D9%86-%D8%B5%D9%84%D8%A7%D8%AD/blt217a22bbea36a55f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "سخر المجري دومينيك سوبوسلاي، نجم ليفربول، من زميله المصري محمد صلاح.",
-      "body": "سخر المجري دومينيك سوبوسلاي، نجم ليفربول، من زميله المصري محمد صلاح. ويستعد صلاح لمغادرة جدران ليفربول في الصيف المقبل، بعد قضاء 9 سنوات مع الفريق الإنجليزي. وكان ليفربول قد ودع دوري أبطال أوروبا مؤخرًا، بعد خسارته ذهابا وإيابا أمام باريس سان جيرمان بنفس النتيجة (0-2). ونشر سوبوسلاي، عبر حسابه على موقع إنستجرام، صورة لسيارة فارهة بيضاء اللون، وأمامها دراجة ثلاثية للأطفال. وقام اللاعب المجري، بعمل إشارة إلى محمد صلاح، وكتب عبارة \"لقد ركنت سيارتك في المكان الخطأ\". ويحتل ليفربول، مع مدربه أرني سلوت، المركز الخامس بجدول ترتيب الدوري الإنجليزي الممتاز برصيد 52 نقطة، بعد خوض 32 جولة. اقرأ أيضًا بسبب برشلونة.. ميسي يستحوذ على ناد كتالوني",
-      "image": "https://assets.kooora.com/images/v3/blt120af46ad7c57580/225273c2-35f6-4dbd-8149-36b3536a56f5.webp",
-      "pubDate": "2026-04-16T16:34:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "1880abc2b87ea320",
       "title": "فقرات بدنية وجلسة تحفيزية.. الزمالك يختتم تدريباته استعدادًا لمباراة شباب بلوزداد",
       "link": "https://www.yallakora.com/african-confederation-cup/3000/news/547568/%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a8%d8%af%d9%86%d9%8a%d8%a9-%d9%88%d8%ac%d9%84%d8%b3%d8%a9-%d8%aa%d8%ad%d9%81%d9%8a%d8%b2%d9%8a%d8%a9-%d8%a7%d9%84%d8%b2%d9%85%d8%a7%d9%84%d9%83-%d9%8a%d8%ae%d8%aa%d8%aa%d9%85-%d8%aa%d8%af%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa%d9%87-%d8%a7%d8%b3%d8%aa%d8%b9%d8%af%d8%a7%d8%af-%d8%a7-%d9%84%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%b4%d8%a8%d8%a7%d8%a8-%d8%a8%d9%84%d9%88%d8%b2%d8%af%d8%a7%d8%af",
@@ -1130,38 +1322,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "35ca8415bc7a8230",
-      "title": "من دوري روشن.. الاتحاد السعودي يستقر على خليفة رينارد في المونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B3%D8%AA%D9%82%D8%B1-%D8%B9%D9%84%D9%89-%D8%AE%D9%84%D9%8A%D9%81%D8%A9-%D8%B1%D9%8A%D9%86%D8%A7%D8%B1%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt79c56c836f82bd23?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب الفرنسي يقترب من الرحيل عن المنتخب السعودي",
-      "body": "المدرب الفرنسي يقترب من الرحيل عن المنتخب السعودي كشفت تقارير صحفية عن المدير الفني الذي اختاره الاتحاد السعودي لكرة القدم لقيادة المنتخب في نهائيات كأس العالم 2026 في أمريكا وكندا والمكسيك، خلفًا للفرنسي هيرفي رينارد. وكانت تقارير صحفية قد أكدت إمكانية إقالة رينارد من منصبه كمدير فني للمنتخب السعودي، قبل بداية كأس العالم 2026، بسبب النتائج السلبية التي عانى منها \"الأخضر\" في الفترة الأخيرة. وقالت صحيفة \"اليوم\" السعودية إن اتحاد الكرة استقر على تعيين اليوناني جورجوس دونيس، المدير الفني لفريق الخليج، لقيادة المنتخب الأول في المونديال. اقرأ أيضًا: الخليج يرد.. هل يقود دونيس المنتخب السعودي في كأس العالم؟ وأوضحت الصحيفة أن الاتحاد السعودي لكرة القدم كان يفاضل بين 3 مدربين لشغل هذا المنصب خلال الفترة المقبلة، غير أن دونيس نجح في الحصول على أعلى تقييم، ليتم الاستقرار على تعيينه. وأكدت الصحيفة أن الاتحاد السعودي لكرة القدم سيعلن عن تعيين المدرب اليوناني لقيادة المنتخب السعودي خلفًا لرينارد خلال الأيام القليلة المقبلة. ويقدم المدرب اليوناني مستويات مميزة مع الخليج منذ بداية الموسم الحالي، وهو ما جعله يحتل المركز الحادي عشر في جدول الترتيب برصيد 31 نقطة، قبل 7 مباريات من نهاية المسابقة.",
-      "image": null,
-      "pubDate": "2026-04-16T16:30:01.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "ae6fa95286eb89c7",
-      "title": "بتحريض مغربي.. ثورة مرتقبة في ريال مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%AA%D8%AD%D8%B1%D9%8A%D8%B6-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%AB%D9%88%D8%B1%D8%A9-%D9%85%D8%B1%D8%AA%D9%82%D8%A8%D8%A9-%D9%81%D9%8A-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt6d027fa7806f5c09?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "<p>أفاد تقرير صحفي إسباني، باحتمالية إجراء تغييرات ثورية شاملة في أروقة ريال مدريد، في أعقاب الخروج القاسي من بطولة دوري أبطال أوروبا، على يد بايرن ميونخ.</p><p>وخسر<a href=\"https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D…",
-      "body": "أفاد تقرير صحفي إسباني، باحتمالية إجراء تغييرات ثورية شاملة في أروقة ريال مدريد، في أعقاب الخروج القاسي من بطولة دوري أبطال أوروبا، على يد بايرن ميونخ. وخسر &nbsp;ريال مدريد في ملعب أليانز أرينا، أمس الأربعاء، 4-3، ليخرج من ربع نهائي دوري أبطال أوروبا بمجموع المباراتين 6-4. ووفقا لما نشرته صحيفة إلموندو الإسبانية، فإن المغربي أنس الغراري ، الخبير المالي الذي يعد الذراع اليمنى لفلورنتينو بيريز، يحث رئيس ريال مدريد على إجراء ثورة شاملة في النادي على جميع المستويات. وأضافت الصحيفة أن وضع بعض الشخصيات المؤثرة في السنوات الأخيرة، مثل جوني كالافات (رئيس الكشافين)، أصبح معقدًا، فالتعاقدات مع هويسن وكاريراس وماستانتوانو لم ترفع مستوى الفريق كما كان متوقعًا، لذلك يدرس النادي وضعه وإمكانية إجراء تغييرات في هذا القسم. وتابعت: \"أما سانتياجو سولاري، الذي يشغل حاليًا منصب مدير كرة القدم لكن بنفوذ محدود، فقد يرحل هو الآخر\". وأكدت الصحيفة ما نشرته شبكة ذا أتلتيك الليلة الماضية بأن المدير الفني الإسباني ألفارو أربيلوا، لن يستمر في النادي الموسم المقبل. وختمت الصحيفة ذائعة الصيت تقريرها بتأكيد أنه على مستوى الإدارة العليا، ما تزال ثقة فلورنتينو بيريز في المدير العام خوسيه أنخيل سانشيز، كاملة، ولا توجد نية لتغييره. &nbsp; اقرأ أيضا: أربيلوا ينفجر: الحكم دمر المباراة.. والشعور بالظلم يؤلم اللاعبين &n…",
-      "image": null,
-      "pubDate": "2026-04-16T16:28:24.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "762e942291211905",
@@ -1180,22 +1340,6 @@
       "region": "global"
     },
     {
-      "id": "0abd9cbd80386f40",
-      "title": "وسط سحر الجماهير.. التدريب الأخير يكشف موقف بيرجوين والعبود من ربع نهائي النخبة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%B3%D8%B7-%D8%B3%D8%AD%D8%B1-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D9%85%D9%88%D9%82%D9%81-%D8%A8%D9%8A%D8%B1%D8%AC%D9%88%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%AF-%D9%85%D9%86-%D8%B1%D8%A8%D8%B9-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D9%86%D8%AE%D8%A8%D8%A9/blt3af2d96aa99594f0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "العميد يستعد لمواجهة حاسمة أمام ماتشيدا زيلفيا",
-      "body": "العميد يستعد لمواجهة حاسمة أمام ماتشيدا زيلفيا كشف التدريب الأخير لنادي اتحاد جدة، قبل خوض ربع نهائي دوري أبطال آسيا للنخبة، عن موقف الجناحين؛ الهولندي ستيفن بيرجوين وعبدالرحمن العبود، من المشاركة في المباراة. ويلتقي الاتحاد مع ماتشيدا زيلفيا الياباني، غدًا الجمعة، على ملعب مدينة الأمير عبدالله الفيصل الرياضية، في الدور ربع النهائي من البطولة الآسيوية. وشهد التدريب حضورًا استثنائيًا من جماهير نادي الاتحاد، حيث حرصت على دعم اللاعبين من خلال الهتافات واللافتات التي تم نشرها في ملعب التدريب، وكذلك في الممرات التي توجد خارجه. غير أن تدريب \"العميد\" شهد خبرًا سيئًا، وذلك بعد غياب الجناح الهولندي ستيفن بيرجوين عنه بسبب الإصابة التي تعرض لها خلال الفوز على الوحدة الإماراتي بهدف نظيف، يوم الثلاثاء الماضي، في الدور ثمن النهائي. وبذلك باتت فرص بيرجوين في المشاركة في المباراة صعبة للغاية، وهو ما يجعل البرتغالي سيرجيو كونسيساو، المدير الفني لفريق الاتحاد، مجبرًا على البحث عن لاعب جديد ليحل محله أمام الفريق الياباني. في المقابل، شارك عبدالرحمن العبود في التدريبات بشكل طبيعي، رغم الإصابة التي تعرض لها في مفصل القدم خلال المواجهة الماضية أمام الوحدة. ويسعى الاتحاد للتأهل للدور نصف النهائي، على أمل مواصلة مشواره نحو حصد اللقب الذي غاب عن خزائنه منذ أكثر من 20 عامًا، وتحديدًا منذ عام 2005 عندما حصل…",
-      "image": null,
-      "pubDate": "2026-04-16T16:20:01.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "30791a890428ea0c",
       "title": "Is this the beginning of the end for LIV Golf?",
       "link": "https://www.bbc.com/sport/golf/articles/cm2rpk19pd1o?at_medium=RSS&at_campaign=rss",
@@ -1212,22 +1356,6 @@
       "region": "global"
     },
     {
-      "id": "985f5d283f645f98",
-      "title": "مدافع أتلتيكو مدريد يعلق على لقطته المثيرة أمام برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%A7%D9%81%D8%B9-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%B9%D9%84%D9%82-%D8%B9%D9%84%D9%89-%D9%84%D9%82%D8%B7%D8%AA%D9%87-%D8%A7%D9%84%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt1e40932a925a6f2a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا فعل بوبيل أمام البلوجرانا؟",
-      "body": "ماذا فعل بوبيل أمام البلوجرانا؟ أغلق مارك بوبيل مدافع أتلتيكو مدريد، الباب أمام الجدل الذي أثاره طلب برشلونة بركلة جزاء خلال مباراة الذهاب من ربع نهائي دوري أبطال أوروبا. وكان بوبيل قد أمسك بالكرة بيديه لتنفيذ ركلة مرمى بعد تمريرة من حارس مرماه خوان موسو، في لقطة اعتبرها برشلونة مخالفة تستحق احتساب ركلة جزاء، الأمر الذي أثار جدلاً كبيرًا بعد المباراة. وقال بوبيل، قبل انطلاق الحصة التدريبية المسائية اليوم الخميس: \"لقد قدم الاتحاد الأوروبي لكرة القدم (يويفا) روايته بالفعل، لذلك لا داعي للتفصيل أكثر\".&nbsp; وأضاف مدافع أتلتيكو مدريد: \"رأيي واضح جدًا؛ لا يمكنك أبدًا احتساب مثل هذه اللقطة ركلة جزاء، ولذلك ليس لدي ما أضيفه\". وتطرق إلى مباراة الإياب الحاسمة التي أقيمت يوم الثلاثاء على ملعب واندا ميتروبوليتانو، والتي شهدت تأهل أتلتيكو مدريد إلى نصف نهائي البطولة على حساب برشلونة، واصفًا إياها بأنها \"ساحرة\". واختتم بوبيل تصريحاته بابتسامة واضحة: \"كان تحقيق التأهل أمام جماهيرنا أمرًا جميلاً للغاية، لا يُوصف\". اقرأ أيضا: هل حان وقت الثأر؟ سيميوني يتربص بحلم جديد في دوري الأبطال لإفساده عاجز على الهامش.. رسالة رافينيا المؤلمة بعد ضربة أتلتيكو يُذكر أن أتلتيكو مدريد يستعد الآن لمواجهة ريال سوسيداد يوم السبت في نهائي كأس ملك إسبانيا على ملعب لا كارتوخا بإشبيلية.",
-      "image": "https://assets.kooora.com/images/v3/blt1a1c7010fa088b2f/pubill.atletico.barcellona.2026.tocco.mano.16.9.jpg",
-      "pubDate": "2026-04-16T16:11:16.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "0ec4b69816d544c7",
       "title": "Oppo adds new AI features to ColorOS 16 on the Find X9 Ultra",
       "link": "https://www.gsmarena.com/oppo_adds_new_ai_features_to_coloros_16_on_the_find_x9_ultra-news-72401.php",
@@ -1242,38 +1370,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "1cad68914954f375",
-      "title": "FAW posts loss for 2025 despite record revenue",
-      "link": "https://www.bbc.com/sport/football/articles/ckgrp407vpko?at_medium=RSS&at_campaign=rss",
-      "summary": "The Football Association of Wales made a loss of £3.4m for the year ending June 2025 despite posting record turnover.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-16T16:02:18.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "cc5735e7ef5d5c48",
-      "title": "صدمة قبل المونديال.. نهاية موسم نجم المغرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AF%D9%85%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D9%85%D9%88%D8%B3%D9%85-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blt1ecdd84f424a099a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بعد معاناة لعدة أسابيع من آلام مزمنة في منطقة العانة، كان أحد نجوم المغرب، قد أعطى بعض الأمل، بإمكانية عودته قبل نهاية الموسم الجاري، لكن الوضع ازداد سوءًا.",
-      "body": "بعد معاناة لعدة أسابيع من آلام مزمنة في منطقة العانة، كان أحد نجوم المغرب، قد أعطى بعض الأمل، بإمكانية عودته قبل نهاية الموسم الجاري، لكن الوضع ازداد سوءًا. ويدور الأمر حول المدافع المغربي نايف أكرد، الذي لن يشارك مجددًا هذا الموسم مع ناديه مارسيليا الفرنسي. وبعد خضوعه لعملية جراحية في 12 مارس/آذار الماضي، لم يتعاف أكرد كما كان متوقعًا، وأكدت الفحوصات الإضافية، إصابته بكسر في عظم العانة. وذكر موقع \"فوت أفريكا\" أن انتهاء موسم أكرد، يمثل ضربة مؤلمة للنادي الفرنسي، بعدما أصبح اللاعب المغربي، أحد الركائز الأساسية في دفاع الفريق. كما تثير هذه الإصابة، تساؤلات مهمة حول إمكانية مشاركته مع منتخب المغرب في نهائيات كأس العالم 2026. ويعد نايف أكرد، من الأعمدة الرئيسية في دفاع المغرب، والتي يعول عليها المدرب محمد وهبي، لتعزيز صلابة أسود الأطلس. اقرأ أيضًا وهبي يفاجئ لاعبًا مغربيًا في البرتغال",
-      "image": null,
-      "pubDate": "2026-04-16T16:01:56.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "40706e33173ab177",
@@ -1417,22 +1513,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a5f8569915708992",
-      "title": "Antrim have work to do for glory days to return",
-      "link": "https://www.bbc.com/sport/articles/c8r442m56r8o?at_medium=RSS&at_campaign=rss",
-      "summary": "As Antrim prepare for their latest bid to end a long wait for an Ulster SFC win, former captain Paddy Cunningham discusses the challenges facing the county.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-16T14:52:02.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1852,22 +1932,6 @@
       "region": "global"
     },
     {
-      "id": "0ba10a9d827a2c8a",
-      "title": "Asus TUF Gaming A14 (2026) review: Big CPU power in a mispriced gaming laptop",
-      "link": "https://www.tomshardware.com/laptops/gaming-laptops/asus-tuf-gaming-a14-2026-review",
-      "summary": "An impressively powerful CPU makes the TUF Gaming A14 a strong productivity machine, but underwhelming gaming performance undermines its value as a gaming laptop.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/ZWSWCjMzDMxNF9Pc9MgTQn-1280-80.jpg",
-      "pubDate": "2026-04-16T12:00:00.000Z",
-      "source": {
-        "name": "Tom's Hardware",
-        "homepage": "https://www.tomshardware.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "82df9366dacf49a1",
       "title": "Broadcom to supply Meta with custom silicon through 2029 — Broadom CEO Hock Tan departs Meta's board",
       "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-to-supply-meta-with-custom-silicon-through-2029-broadom-ceo-hock-tan-departs-metas-board",
@@ -1881,6 +1945,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0ba10a9d827a2c8a",
+      "title": "Asus TUF Gaming A14 (2026) review: Big CPU power in a mispriced gaming laptop",
+      "link": "https://www.tomshardware.com/laptops/gaming-laptops/asus-tuf-gaming-a14-2026-review",
+      "summary": "An impressively powerful CPU makes the TUF Gaming A14 a strong productivity machine, but underwhelming gaming performance undermines its value as a gaming laptop.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/ZWSWCjMzDMxNF9Pc9MgTQn-1280-80.jpg",
+      "pubDate": "2026-04-16T12:00:00.000Z",
+      "source": {
+        "name": "Tom's Hardware",
+        "homepage": "https://www.tomshardware.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2073,22 +2153,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "31ef2b732d96c6d0",
-      "title": "LIV Golf to continue 'at full throttle' amid collapse rumours",
-      "link": "https://www.bbc.com/sport/golf/articles/cx2dd2jr0mgo?at_medium=RSS&at_campaign=rss",
-      "summary": "LIV Golf chief executive Scott O'Neil tells players that the 2026 season will continue uninterrupted amid rumours that the tour is on the verge of collapse.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-16T10:27:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2297,22 +2361,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5ac0529b7b30c316",
-      "title": "The 24-year-old manager with a top-flight promotion and Real Madrid connection",
-      "link": "https://www.bbc.com/sport/football/articles/c4gl59wkdzpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Having worked with the Real Madrid Foundation as a teenager, Jordan Hadaway has now led financially-challenged Llandudno to Wales' top-flight.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-16T07:03:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2793,6 +2841,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "63e27cc1cc440fe7",
+      "title": "GB's Cairess out of London Marathon with injury",
+      "link": "https://www.bbc.com/sport/athletics/articles/cn899d9x4j9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Emile Cairess is ruled out of this year's London Marathon - where he was expected to challenge Sir Mo Farah's British record - because of a calf issue.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-15T16:06:11.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -3372,22 +3436,6 @@
       "region": "global"
     },
     {
-      "id": "b1a361c4bdb39a10",
-      "title": "بإجراءات إدارية.. المنصورة يعلن عودته للدوري الممتاز بعد 17 عاما",
-      "link": "https://www.yallakora.com/egyptian-league/2977/news/547419/%d8%a8%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a5%d8%af%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%86%d8%b5%d9%88%d8%b1%d8%a9-%d9%8a%d8%b9%d9%84%d9%86-%d8%b9%d9%88%d8%af%d8%aa%d9%87-%d9%84%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d9%85%d8%aa%d8%a7%d8%b2-%d8%a8%d8%b9%d8%af-17-%d8%b9%d8%a7%d9%85%d8%a7",
-      "summary": "أعلن نادي المنصورة عودة فريقه الأول إلى الدوري المصري الممتاز، اعتبارًا من الموسم المقبل، وذلك عبر إجراءات إدارية، تم البدء فيها خلال الفترة الماضية",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-15T08:31:00.000Z",
-      "source": {
-        "name": "Yallakora",
-        "homepage": "https://www.yallakora.com/feed/rssfeed"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "8280dc4ddaf92399",
       "title": "When was Scotland's last three-way title race?",
       "link": "https://www.bbc.com/sport/football/articles/cp86eg25zlgo?at_medium=RSS&at_campaign=rss",
@@ -3411,6 +3459,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-04-15T05:07:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1416e8b29092a0a1",
+      "title": "The marketing manager trying to match father's world record",
+      "link": "https://www.bbc.com/sport/swimming/articles/c9qddw3rxrqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Adam Wilkie, a marketing manager and the son of Olympic swimming champion David, is chasing his father's world record time in his memory.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-14T23:01:09.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
