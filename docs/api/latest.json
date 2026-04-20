@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T12:08:18.084Z",
-    "total": 421,
+    "generated_at": "2026-04-20T14:08:29.637Z",
+    "total": 355,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
+      {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/b62c9ce8-5d14-4e2b-9107-eebe561354d0",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -17,20 +30,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 69,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 69,
+        "taken": 71,
         "error": null,
         "notModified": false
       },
@@ -61,32 +61,6 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya Technology",
-        "url": "https://www.alarabiya.net/tools/mrss",
-        "homepage": "https://www.alarabiya.net/technology",
-        "lang": "ar",
-        "region": "gulf",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: Unquoted attribute value\nLine: 14\nColumn: 18\nChar: X",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Khaleej Times - Lifestyle",
         "url": "https://www.khaleejtimes.com/rss/lifestyle",
         "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
@@ -96,7 +70,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
+        "error": "Error: Invalid character in entity name\nLine: 92\nColumn: 26\nChar:  ",
         "notModified": false
       },
       {
@@ -110,19 +84,6 @@
         ],
         "taken": 50,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -152,6 +113,32 @@
         "notModified": false
       },
       {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/feed/",
         "homepage": "https://www.technologyreview.com/feed/",
@@ -160,27 +147,27 @@
         "cats": [
           "general"
         ],
-        "taken": 8,
+        "taken": 9,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "lang": "ar",
-        "region": "gulf",
+        "region": "global",
         "cats": [
-          "lifestyle"
+          "general"
         ],
-        "taken": 100,
-        "error": null,
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -204,9 +191,9 @@
         "notModified": false
       },
       {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -243,6 +230,19 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Kooora",
         "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
         "homepage": "https://www.kooora.com/",
@@ -269,9 +269,9 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -282,9 +282,9 @@
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -324,6 +324,246 @@
   },
   "items": [
     {
+      "id": "f23a9fc6b8960a65",
+      "title": "مديرية الأرصاد تتوقع اضطرابات جوية ابتداء من يوم الجمعة",
+      "link": "https://assabah.ma/918102.html",
+      "summary": "أشار حسين يوعابد، رئيس مصلحة التواصل بالمديرية العامة للأرصاد الجوية، إلى أن التوقعات الجوية ببلادنا خلال الأيام المقبلة ستعرف تغيرات ملحوظة في الحالة الجوية، تتمثل في ارتفاع درجات الحرارة من جهة، وظهور سحب غير مستقرة ببعض المناطق من جهة أخرى. وأوضح، في تصريحه لـ”الصباح”، أن هذا الارتفاعأكمل القراء…",
+      "body": "أشار حسين يوعابد، رئيس مصلحة التواصل بالمديرية العامة للأرصاد الجوية، إلى أن التوقعات الجوية ببلادنا خلال الأيام المقبلة ستعرف تغيرات ملحوظة في الحالة الجوية، تتمثل في ارتفاع درجات الحرارة من جهة، وظهور سحب غير مستقرة ببعض المناطق من جهة أخرى. وأوضح، في تصريحه لـ&#8221;الصباح&#8221;، أن هذا الارتفاع أكمل القراءة &raquo; المقالة مديرية الأرصاد تتوقع اضطرابات جوية ابتداء من يوم الجمعة fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-04-20T13:40:09.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "8d12379fbbd43b92",
+      "title": "Redesigned ball could reduce heading impact - scientists",
+      "link": "https://www.bbc.com/sport/football/articles/c4g43yd416xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Scientists believe footballs could be designed to reduce the impact of heading after new research discovered the action caused a previously unreported pressure wave energy transfer to the brain.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T13:29:27.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d5ece830fd3abf75",
+      "title": "Once You See The Hidden Messages In These Food Logos, You Can’t Unsee Them",
+      "link": "https://www.delish.com/food/a71040308/food-logos-hidden-meanings/",
+      "summary": "Yes, you somehow missed all of them.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/10263958-3e48-4378-abc5-b4d918460fcb.png",
+      "pubDate": "2026-04-20T13:18:12.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5b1e94c362a21261",
+      "title": "Prego Has a Dinner-Conversation-Recording Device, Capisce?",
+      "link": "https://www.wired.com/story/prego-has-a-dinner-recording-device-capiche/",
+      "summary": "The pasta-sauce company has partnered with the nonprofit StoryCorps on a device designed to record family conversations around the table and save them for all time.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T13:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "7e8313f2ae0d2823",
+      "title": "زخات رعدية وطقس حار اليوم الاثنين (نشرة إنذارية)",
+      "link": "https://assabah.ma/918058.html",
+      "summary": "تتوقع المديرية العامة للأرصاد الجوية تسجيل زخات رعدية محليا قوية، مع احتمال تساقط البرد، إلى جانب طقس حار، اليوم (الاثنين)، بعدد من مناطق المملكة. وأفادت المديرية، في نشرة إنذارية من مستوى يقظة برتقالي، بأنه من المرتقب تسجيل زخات رعدية محليا قوية قد تتراوح ما بين 25 و35أكمل القراءة » المقالة زخات ر…",
+      "body": "تتوقع المديرية العامة للأرصاد الجوية تسجيل زخات رعدية محليا قوية، مع احتمال تساقط البرد، إلى جانب طقس حار، اليوم (الاثنين)، بعدد من مناطق المملكة. وأفادت المديرية، في نشرة إنذارية من مستوى يقظة برتقالي، بأنه من المرتقب تسجيل زخات رعدية محليا قوية قد تتراوح ما بين 25 و35 أكمل القراءة &raquo; المقالة زخات رعدية وطقس حار اليوم الاثنين (نشرة إنذارية) fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-04-20T12:36:03.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "cdef05cdc2ddf540",
+      "title": "Whipped Cottage Cheese 3 Ways",
+      "link": "https://www.delish.com/cooking/recipe-ideas/a71043346/whipped-cottage-cheese-3-ways-recipe/",
+      "summary": "",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/ebc58140-a4e7-42b0-812c-e8ab70263c28.jpg",
+      "pubDate": "2026-04-20T12:30:00.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "194949e2c7d3a828",
+      "title": "Reid wins silver for first European medal of career",
+      "link": "https://www.bbc.com/sport/judo/articles/cp3lrp2n2keo?at_medium=RSS&at_campaign=rss",
+      "summary": "British judoka Emma Reid wins silver to clinch the first European Championships medal of her career.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T12:25:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "926df7bbe2e38e1a",
+      "title": "تعيين نخلة الحاج رئيسا تنفيذيا للتحول المؤسسي في \"IMI\"",
+      "link": "https://www.skynewsarabia.com/varieties/1865216-%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%AC-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A7-%D9%84%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D9%8A-imi",
+      "summary": "أعلنت مجموعة IMI، المجموعة الإعلامية العالمية الخاصة التي تتخذ من دولة الإمارات مقراً لها، عن تعيين نخلة الحاج في منصب الرئيس التنفيذي للتحول المؤسسي.",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v1/2026/04/20/1865215/95/53/1-1865215.jpeg",
+      "pubDate": "2026-04-20T12:24:39.000Z",
+      "source": {
+        "name": "Sky News Arabia Varieties",
+        "homepage": "https://www.skynewsarabia.com/varieties"
+      },
+      "lang": "ar",
+      "category": "lifestyle",
+      "region": "gulf"
+    },
+    {
+      "id": "e21644fddcde95a6",
+      "title": "Moody, 19, surges ahead of 2024 champion Wilson",
+      "link": "https://www.bbc.com/sport/snooker/articles/cnv8npe25l0o?at_medium=RSS&at_campaign=rss",
+      "summary": "English teenager Stan Moody makes a hugely impressive Crucible debut as he takes a 6-3 lead in his World Championship opener against former winner Kyren Wilson.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T12:20:55.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c4a1261cf43ced20",
+      "title": "The 15 Best THC Drinks, According To Our Editors",
+      "link": "https://www.delish.com/food/g71050764/best-thc-drinks-alcohol-free/",
+      "summary": "We tasted our way through the buzzy category so you don’t have to guess.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/25-del-leadart-tastetest-thcdrinksaretakingoverherearethebrandsworthtrying-r1-4by3-688bd24b6c75f.jpg",
+      "pubDate": "2026-04-20T12:14:47.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6ac421b90adfa626",
+      "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
+      "link": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. No one’s sure if synthetic mirror life will kill us all In February 2019, a group of scientists proposed a high-risk, cutting-edge, irresistibly exciting idea th…",
+      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. No one’s sure if synthetic mirror life will kill us all In February 2019, a group of scientists proposed a high-risk, cutting-edge, irresistibly exciting idea that the National Science Foundation should fund: making “mirror” bacteria. These lab-created microbes would be organized like ordinary bacteria, but their proteins and sugars would be mirror images of those found in nature. Researchers believed they could reveal new insights into building cells, designing drugs, and even the origins of life. But now, many of them have reversed course. They’ve become convinced that mirror organisms could trigger a catastrophic event threatening every form of life on Earth. Find out why they’re ringing alarm bells . —Stephen Ornes This story is from the next issue of our print magazine, which is all about nature. Subscribe now to read it when it lands this Wednesday. Chinese tech workers are starting to train their AI doubles—and pushing back Earlier this month, a GitHub project called Colleague Skill struck a nerve by claiming to “distill” a w…",
+      "image": null,
+      "pubDate": "2026-04-20T12:10:00.000Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "homepage": "https://www.technologyreview.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "73ec7cf91585e172",
+      "title": "Should Gabriel have been sent off for Haaland clash?",
+      "link": "https://www.bbc.com/sport/football/articles/clyrxr66388o?at_medium=RSS&at_campaign=rss",
+      "summary": "Gabriel pushed his head towards Erling Haaland's face yet escaped with only a booking. Why did the VAR not intervene for a red card?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T12:09:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "742619103582d447",
+      "title": "F1 bosses to use 'scalpel rather than baseball bat' for changes",
+      "link": "https://www.bbc.com/sport/formula1/articles/c75kg9vrd3xo?at_medium=RSS&at_campaign=rss",
+      "summary": "F1 bosses will use \"a scalpel rather than a baseball bat\" in making changes to the sport's rules at a meeting on Monday, says Toto Wolff.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T12:09:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "045752c22fd795ce",
+      "title": "عقم تهديفي يضرب مهاجم المغرب قبل المونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D9%82%D9%85-%D8%AA%D9%87%D8%AF%D9%8A%D9%81%D9%8A-%D9%8A%D8%B6%D8%B1%D8%A8-%D9%85%D9%87%D8%A7%D8%AC%D9%85-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt9a0244e6046e5205?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يعاني المهاجم المغربي أيوب الكعبي، من عقم تهديفي مفاجئ، مع ناديه أولمبياكوس اليوناني.",
+      "body": "يعاني المهاجم المغربي أيوب الكعبي، من عقم تهديفي مفاجئ، مع ناديه أولمبياكوس اليوناني. ولم يعرف الكعبي، طريق الشباك مع أولمبياكوس، على مدار 3 مباريات متتالية، مما يثير قلق جماهير أسود الأطلس، قبل أقل من شهرين على انطلاق كأس العالم. ومنذ هدفيه في شباك كريتي بالدوري اليوناني، في 14 مارس/آذار الماضي، لازم النحس، أيوب الكعبي، على مدار 3 جولات. وتأثر أولمبياكوس، بتراجع مستوى أيوب الكعبي، خلال الفترة الحالية، حيث تعادل دون أهداف مع لاريسا، قبل الخسارة 0-1 أمام أيك أثينا، ثم الفوز 2-0 على باناثينايكوس. ويعد أيوب الكعبي من الأسلحة الهجومية التي سيعول عليها المدرب محمد وهبي، في كأس العالم 2026. وتألق الكعبي بشكل كبير مع منتخب المغرب في كأس الأمم الأفريقية 2025، وسجل 3 أهداف، كما خطف الأنظار، بفضل مقصيته الرائعة في شباك جزر القمر، وكرر نفس الأمر أمام زامبيا. اقرأ أيضًا صدمة في الطريق لأسد مغربي بالليجا",
+      "image": null,
+      "pubDate": "2026-04-20T11:57:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0fa5c20f2b6d094a",
+      "title": "خطأ فادح يفتح أبواب الرحيل.. هل ينتقل إيدرسون إلى الهلال؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%B7%D8%A7%D9%94-%D9%81%D8%A7%D8%AF%D8%AD-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%94%D8%A8%D9%88%D8%A7%D8%A8-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D9%87%D9%84-%D9%8A%D9%86%D8%AA%D9%82%D9%84-%D8%A7%D9%95%D9%8A%D8%AF%D8%B1%D8%B3%D9%88%D9%86-%D8%A7%D9%95%D9%84%D9%89-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blt02b77bffd6ba2203?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"الزعيم\" السعودي يبدي اهتماما جديا بضم الحارس البرازيلي",
+      "body": "\"الزعيم\" السعودي يبدي اهتماما جديا بضم الحارس البرازيلي في تطور مثير قد يُحدث زلزالاً في سوق الانتقالات الصيفية المقبلة، يبدو أن الحارس البرازيلي إيدرسون، حارس مرمى فنربخشة، قد يكون على أعتاب مغادرة النادي التركي بعد موجة انتقادات عنيفة أثارها خطأ كارثي ارتكبه مؤخرا. وبحسب تقارير نقلتها صحيفة \"اليوم\" السعودية، أبدى نادي الهلال اهتماما جديا بضم الحارس البرازيلي البالغ من العمر 32 عاما، ضمن خططه لتعزيز مركز حراسة المرمى استعدادا للاستحقاقات المقبلة. وتشير المعطيات إلى أن إدارة فنربخشة لا تمانع في رحيل إيدرسون، خاصة بعد تصاعد الغضب الجماهيري ضده، وقد حددت قيمة التخلي عن خدماته بين 15 و20 مليون يورو في حال وصول عرض رسمي مناسب. اقرأ أيضا: استبعاد ليفاندوفسكي ورفض ألفاريز.. برشلونة أمام خيار تكرار تجربة ريال مدريد ثورة تغيير تهدد الهلال وريال مدريد: الحرب على سيميوني تشتعل.. وكونتي جاهز للهرب وكان إيدرسون قد تعرض لهجوم لاذع من الجماهير والمحللين بعد الخطأ الفادح الذي ارتكبه خلال مباراة فريقه أمام تشايكور ريزيسبور، والتي انتهت بالتعادل 2-2 في الدوري التركي.&nbsp; وأدى هذا الخطأ إلى فقدان الفريق نقاطا ثمينة في سباق اللقب، وسط تراجع واضح في مستوى الحارس خلال الفترة الأخيرة.&nbsp; ومع تزايد الجدل حول مستقبله، أصبح ملف إيدرسون أحد أبرز الملفات الساخنة المنتظرة في سوق الانتقالات الصيفية، حيث …",
+      "image": null,
+      "pubDate": "2026-04-20T11:52:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "8fd8a119cab1ede2",
       "title": "Five-starboy Caluori, Saints day in the sun and a tunnel tussle - Prem talking points",
       "link": "https://www.bbc.com/sport/rugby-union/articles/c8ejnj8kk9jo?at_medium=RSS&at_campaign=rss",
@@ -338,6 +578,54 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "dd2b987a3c1c62c3",
+      "title": "في ظل إخفاقات الريال.. بيريز يفكر في خطوة غير معهودة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A-%D8%B8%D9%84-%D8%A7%D9%95%D8%AE%D9%81%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A8%D9%8A%D8%B1%D9%8A%D8%B2-%D9%8A%D9%81%D9%83%D8%B1-%D9%81%D9%8A-%D8%AE%D8%B7%D9%88%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B9%D9%87%D9%88%D8%AF%D8%A9/bltba9c5a82baa175b7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مكاشفة علنية من رئيس الملكي",
+      "body": "مكاشفة علنية من رئيس الملكي يفكر فلورنتينو بيريز رئيس ريال مدريد في خطوة غير معهودة، بعد الإخفاقات المتتالية لفريق الكرة بالنادي الملكي. ووفقا لشبكة ذا أتلتيك، فإن بيريز يدرس إلقاء خطاب علني حول وضعية النادي، قبل نهاية الموسم، وهو أمر غير معتاد لدى الرئيس المخضرم، إذ دائما ما يرتبط ظهوره بهذه الطريقة، بمناسبات رسمية أو جمعيات عمومية. وخسر ريال مدريد بطولة كأس السوبر الإسباني لحساب غريمه برشلونة، ما تسبب في الإطاحة بالمدرب تشابي ألونسو. وودع الريال بطولة كأس ملك إسبانيا على يد ألباسيتي فريق الدرجة الثانية، ثم خرج من دوري الأبطال أمام بايرن ميونخ الألماني. ويحتاج النادي الملكي لمعجزة من أجل الظفر باللقب الوحيد المتبقي وهو بطولة الليجا، إذ يتأخر بفارق 9 نقاط كاملة عن المتصدر برشلونة في الأمتار الأخيرة من المسابقة. ويحيط الغموض بموقف المدرب الحالي ألفارو أربيلوا، ولكن معظم التكهنات تشير إلى أن الريال يعتزم الإطاحة به عقب نهاية الموسم. وتتردد عديد الأسماء المهمة في وسائل الإعلام، للتعاقد مع أحدها لخلافة أربيلوا، ويأتي في مقدمتها الألماني يورجن كلوب، والبرتغالي جوزيه مورينيو، والفرنسي ديديه ديشامب، والأرجنتيني ماوريسيو بوكيتينو. اقرأ أيضا: ليفربول يقترب من توجيه لطمة لريال مدريد &nbsp;",
+      "image": null,
+      "pubDate": "2026-04-20T11:21:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1ff6b36c7483c197",
+      "title": "بنسبة 73%.. شبكة \"أوبتا\" تختار مرشحها للقب البريميرليج",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%86%D8%B3%D8%A8%D8%A9-73-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A7%D9%94%D9%88%D8%A8%D8%AA%D8%A7-%D8%AA%D8%AE%D8%AA%D8%A7%D8%B1-%D9%85%D8%B1%D8%B4%D8%AD%D9%87%D8%A7-%D9%84%D9%84%D9%82%D8%A8-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/bltdbcff3b95ee989b0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فوز السيتي أشعل السباق مع آرسنال",
+      "body": "فوز السيتي أشعل السباق مع آرسنال &nbsp;كشفت شبكة \"أوبتا\" للإحصائيات عن المرشح الأبرز لتحقيق لقب الدوري الإنجليزي، هذا الموسم، في ظل الصراع الناري بين آرسنال ومانشستر سيتي. وأشعل مانشستر سيتي سباق الدوري الإنجليزي الممتاز، بعدما حقق فوزًا ثمينًا على حساب آرسنال بنتيجة (2-1). ورفع مانشستر سيتي رصيده إلى 67 نقطة في المركز الثاني، مقلصًا الفارق إلى ثلاث نقاط فقط خلف آرسنال المتصدر برصيد 70 نقطة، مع أفضلية إضافية للفريق السماوي بامتلاكه مباراة مؤجلة، ما يزيد من حدة الصراع على اللقب في الجولات المقبلة. وربما خسر آرسنال المعركة في مانشستر أمس، لكن خبراء الإحصاء في \"أوبتا\" ما زالوا يعتقدون أن رجال ميكيل أرتيتا سيفوزون باللقب. على الرغم من الفوز، والاحتفالات التي أشارت إلى أن السيتي يعتقد أن الزخم قد تحول لصالحه، إلا أن الكمبيوتر العملاق في \"أوبتا\"، لا يزال يقول عكس ذلك. قبل انطلاق المباراة، كان آرسنال المرشح الأوفر حظاً للفوز باللقب بنسبة 85.2%، مقارنة بنسبة 14.8% لمانشستر سيتي. النتيجة تضيق الأمور، لكن أوبتا لا تزال تضع المدفعجية في المقدمة، مع فرصة بنسبة 73% للفوز بأول لقب لهم منذ 22 عامًا، بينما ارتفعت فرص السيتي إلى 27%. ويرجع ذلك إلى حد كبير إلى أنه على الرغم من أن لدى السيتي مباراة مؤجلة، إلا أن مبارياته المتبقية تعتبر أصعب من مباريات آرسنال. يخوض آرسنال مبارياته الخمس الأخيرة جميعه…",
+      "image": null,
+      "pubDate": "2026-04-20T11:19:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2ff1714858a9e4de",
+      "title": "فيجو يفتح النار على ريال مدريد.. ويمدح \"الثنائي الذهبي\" المرشح لخلافة أربيلوا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AC%D9%88-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D9%8A%D9%85%D8%AF%D8%AD-%D8%A7%D9%84%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%B4%D8%AD-%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A9-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7/bltaf6dd947ef8d3970?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نجم الريال السابق يفاضل بين مورينيو وديشامب",
+      "body": "نجم الريال السابق يفاضل بين مورينيو وديشامب دق لويس فيجو، أسطورة ريال مدريد وبرشلونة السابق، ناقوس الخطر داخل النادي الملكي، مؤكدا أن استمرار غياب الألقاب لموسمين متتاليين يُعد بداية للتدهور، بعد خروج الفريق من دوري أبطال أوروبا هذا الموسم. وقال فيجو، في مؤتمر صحفي عقد قبل حفل توزيع جوائز لوريوس 2026: \"عندما لا يفوز ريال مدريد بلقب لمدة عامين، تبدأ الأمور بالتدهور\".&nbsp; وأضاف النجم البرتغالي موضحاً الوضع الراهن لريال مدريد: \"نعلم جميعا ما مر به الفريق هذا العام، عندما يتغير المدرب، تصبح الأمور غير مستقرة، ويبحث الناس دائما عن كبش فداء، أنا لست في غرفة الملابس، لكنني أعرف أن ريال مدريد معتاد على الفوز، والفوز ليس مضمونا دائما\". وأشار فيجو إلى أن الضجيج الإعلامي المحيط بالنادي أصبح مبالغا فيه، قائلاً: \"سيكون الأمر برمته رتيبا للغاية، وهناك فرق لديها طموحات، لكن في ريال مدريد يكون الضجيج دائما أعلى، الآن سيتحدثون عن المدرب، ومن يتحمل اللوم، وهو أمر لا يُناقش في غرفة الملابس\". اقرأ المزيد: ثورة تغيير تهدد الهلال وريال مدريد: الحرب على سيميوني تشتعل.. وكونتي جاهز للهرب استبعاد ليفاندوفسكي ورفض ألفاريز.. برشلونة أمام خيار تكرار تجربة ريال مدريد كما علق اللاعب السابق على المدربين المرشحين لتولي تدريب الميرينجي خلفا للمدير الفني الحالي ألفارو أربيلوا، وهما جوزيه مورينيو وديدييه ديشامب؛ …",
+      "image": null,
+      "pubDate": "2026-04-20T11:17:28.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "36c4e039e80b70c3",
@@ -370,6 +658,22 @@
       "lang": "en",
       "category": "markets",
       "region": "global"
+    },
+    {
+      "id": "21eabaad28e2c72c",
+      "title": "هل يغيب عن موقعة البايرن؟.. بيان رسمي من باريس بشأن فيتينيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%B9%D9%86-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D8%A8%D9%8A%D8%A7%D9%86-%D8%B1%D8%B3%D9%85%D9%8A-%D9%85%D9%86-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D9%81%D9%8A%D8%AA%D9%8A%D9%86%D9%8A%D8%A7/bltdda0038441dc1bd6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فيتينيا أحد العناصر الأساسية في تشكيلة المدرب لويس إنريكي",
+      "body": "فيتينيا أحد العناصر الأساسية في تشكيلة المدرب لويس إنريكي أعلن نادي باريس سان جيرمان، ظهر اليوم الاثنين، أن لاعب خط الوسط البرتغالي&nbsp;فيتينيا&nbsp;يعاني من&nbsp;التهاب في كعب القدم اليمنى، وسيخضع لبرنامج علاجي خلال الأيام المقبلة، ما سيحرمه من المشاركة في مباراتي الفريق القادمتين أمام نانت وأنجيه في الدوري الفرنسي. كان فيتينيا قد اضطر لمغادرة أرض الملعب مبكرًا خلال مباراة باريس سان جيرمان أمام أولمبيك ليون، التي انتهت بخسارة الفريق الباريسي (1-2) مساء الأحد، بعد شعوره بآلام حادة في الكعب الأيمن. وأوضح النادي الباريسي، في بيان طبي رسمي، أن اللاعب سيخضع لتقييم جديد في نهاية الأسبوع لتحديد مدى تطور حالته، مشيرًا إلى أن الجهاز الطبي يتابع وضعه عن قرب لضمان تعافيه الكامل&nbsp;قبل العودة إلى المنافسات. اقرأ أيضًا: المواجهة اشتعلت.. بارتوميو: نيجريرا فضيحة؟.. انظروا إلى ما فعله الريال مع زوج مقيمة الحكام! وبحسب البيان، فإن اللاعب سيغيب&nbsp;عن مواجهة&nbsp;نانت&nbsp;المقررة مساء الثلاثاء، وكذلك عن لقاء&nbsp;أنجيه&nbsp;يوم السبت المقبل، في ظل استمرار خضوعه للعلاج. وتبقى مشاركة فيتينيا في مباراة&nbsp;بايرن ميونيخ&nbsp;المقررة 28 أبريل/نيسان، ضمن ذهاب نصف نهائي&nbsp;دوري أبطال أوروبا،&nbsp;موضع شك&nbsp;حتى صدور التقرير الطبي النهائي نهاية الأسبوع، في انتظار ما ستسفر عنه الفحوصات الجديدة. …",
+      "image": null,
+      "pubDate": "2026-04-20T11:09:28.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "e4fac810b6cfd2e9",
@@ -484,6 +788,38 @@
       "region": "global"
     },
     {
+      "id": "5bfb8de2a76d59db",
+      "title": "\"جِلد الدب\".. ريال مدريد يشعل الحرب النفسية ليحول إنجاز برشلونة إلى كابوس",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%90%D9%84%D8%AF-%D8%A7%D9%84%D8%AF%D8%A8-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9-%D9%84%D9%8A%D8%AD%D9%88%D9%84-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%95%D9%84%D9%89-%D9%83%D8%A7%D8%A8%D9%88%D8%B3/bltcbe11d3511edff2a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الملكي يلقي بورقته الأخيرة ليزيد الضغط على البلوجرانا في صراع الليجا",
+      "body": "الملكي يلقي بورقته الأخيرة ليزيد الضغط على البلوجرانا في صراع الليجا في أجواء مشحونة بالتوتر والأمل، يقترب الدوري الإسباني من لحظة حاسمة قد تحسم لقب البطل هذا الموسم.. برشلونة يتقدم بفارق تسع نقاط عن غريمه التقليدي ريال مدريد، ويبدو على أعتاب التتويج، لكن كرة القدم لا تعرف اليقين المبكر. الفارق الكبير، رغم أنه يمنح البارسا أفضلية واضحة، إلا أنه يضع على عاتقه ضغطاً نفسياً كبيراً، ويفتح الباب أمام أي مفاجأة قد تقلب الموازين في الجولات الأخيرة. في المقابل، يحاول ريال مدريد استغلال الضغط النفسي والجدول المقبل ليبقي على شعلة الأمل مشتعلة، فبينما يواجه برشلونة 3 مباريات صعبة أمام فرق تخوض معارك شرسة للتأهل الأوروبي، يبدو جدول الملكي أكثر يسراً نسبياً. هذه المواجهات الثلاثة ستكون بمثابة اختبار حقيقي لتركيز الفريق الكاتالوني وقدرته على الحفاظ على هدوئه تحت وطأة الاقتراب من اللقب.الآن، تدخل المنافسة مرحلة الإثارة القصوى، فهل ينجح برشلونة في تحويل تفوقه النقطي إلى تتويج رسمي، أم أن ريال مدريد سيستغل أي تعثر ليعيد المعركة إلى نقطة الصفر؟ من جهته، استعرض الكاتب الصحفي هيكتور كوكا، عبر صحيفة \"موندو ديبورتيفو\" الإسبانية، الحرب النفسية خلال الأمتار الأخيرة من \"الليجا\"، بعنوان \"جِلد الدب\"، وهو مصطلح يعني عدم الفرح المبكر أو عدم الاحتفال بالنجاح قبل أن يتحقق فعليًا. اقرأ أيضا: استبعاد ليفاندوفسكي …",
+      "image": null,
+      "pubDate": "2026-04-20T10:34:32.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "eebd9bb655bc4ac5",
+      "title": "ليفربول يقترب من توجيه لطمة لريال مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%AA%D9%88%D8%AC%D9%8A%D9%87-%D9%84%D8%B7%D9%85%D8%A9-%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blta865e8946b783e5d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم الفرنسي يختار تمديد البقاء مع الريدز",
+      "body": "النجم الفرنسي يختار تمديد البقاء مع الريدز يبدو أن نادي ليفربول بات على أعتاب توجيه ضربة قوية لخطط ريال مدريد في سوق الانتقالات. وانتشرت العديد من التقارير في الآونة الأخيرة، التي تفيد برغبة ريال مدريد في التعاقد مع الفرنسي إبراهيما كوناتي مدافع الريدز، في صفقة مجانية، الصيف المقبل. وكان كوناتي قد دخل الأشهر الأخيرة من عقده الحالي، ما فتح الباب أمام عدة أندية أوروبية كبرى لمحاولة ضمه، في مقدمتها النادي الملكي، الذي راقب وضع اللاعب عن كثب سعيًا لتعزيز خط دفاعه. لكن المدافع الفرنسي خرج ليؤكد بنفسه، في تصريحات نقلتها شبكة بي بي سي، أن الأمور تسير بشكل إيجابي مع إدارة ليفربول، مشيرًا إلى وجود تقدم واضح في مفاوضات التجديد، وأن استمراره داخل آنفيلد بات احتمالًا كبيرًا، وهو ما كان يتمناه منذ البداية. وجاءت تصريحات كوناتي عقب مشاركته في فوز فريقه المثير على إيفرتون بنتيجة 2-1، في ديربي الميرسيسايد ضمن منافسات الدوري الإنجليزي الممتاز، حيث شدد على أن تركيزه الحالي ينصب على إنهاء الموسم بأفضل شكل ممكن وضمان التأهل إلى دوري أبطال أوروبا. وأشار إلى أن الموسم لم يكن سهلًا عليه بسبب ظروف خاصة، مؤكدًا أنه قدم الكثير من التضحيات من أجل النادي، وأنه يشعر بانتماء كبير لليفربول الذي يعتبره جزءًا من عائلته، ما يعزز رغبته في الاستمرار وقيادة الفريق خلال المرحلة المقبلة. اقرأ أيضا: ريال مدريد شوكة في ح…",
+      "image": null,
+      "pubDate": "2026-04-20T10:34:22.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "3c5415df37d858a0",
       "title": "Quiz: Name all the clubs who have won Bundesliga title",
       "link": "https://www.bbc.com/sport/football/articles/c62l9l16ndno?at_medium=RSS&at_campaign=rss",
@@ -491,6 +827,86 @@
       "body": null,
       "image": null,
       "pubDate": "2026-04-20T10:34:16.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "6b8a6e7bec28b399",
+      "title": "تيباس يسخر من أربيلوا: يعيش \"نغمة المظلومية\".. وبرشلونة سيتعثر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%8A%D8%A8%D8%A7%D8%B3-%D9%8A%D8%B3%D8%AE%D8%B1-%D9%85%D9%86-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%8A%D8%B9%D9%8A%D8%B4-%D9%86%D8%BA%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B8%D9%84%D9%88%D9%85%D9%8A%D8%A9-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%B3%D9%8A%D8%AA%D8%B9%D8%AB%D8%B1/blt268d0171cdf3ddaa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هجوم ناري من تيباس",
+      "body": "هجوم ناري من تيباس في ظهور جديد اتسم بالصراحة والمواجهة، وجّه خافيير تيباس، رئيس رابطة الدوري الإسباني، انتقادات لاذعة لمدرب ريال مدريد ألفارو أربيلوا، ردًا على الهجوم الذي شنه الأخير ضد المنظومة التحكيمية. جاءت تصريحات تيباس خلال مشاركته في منتدى حول \"الجغرافيا السياسية والرياضة\"، لتعكس حجم الفجوة المتزايدة بين رئاسة الرابطة والبيت الأبيض. وشكك تيباس في اتساق الخطاب الإعلامي للمدرب المدريدي، معتبرًا أن تصريحاته تفتقر إلى الثبات والموضوعية.&nbsp; اقرأ أيضًا: صحفي إسباني: مدرب ريال مدريد القادم سيكون تحت حذاء فينيسيوس! وأكد رئيس الرابطة أن على ريال مدريد التركيز على المسار التنافسي بدلاً من الانشغال بالاحتجاجات، مشددًا على أن صراع اللقب لم يحسم بعد، مبديًا ثقته في أن الغريم التقليدي برشلونة سيواجه عثرات في مشواره نحو التتويج، مما يبقي باب المنافسة مفتوحًا على كل الاحتمالات. وفي سياق رده على الربط الذي أجراه أربيلوا بين التحكيم المحلي والقاري، سخر تيباس من تكرار \"نغمة المظلومية\" في تصريحات المدرب، مشيرًا إلى أن الأعذار التي سيقت عقب مواجهة جيرونا في الدوري هي ذاتها التي استُخدمت لتبرير التعثر أمام بايرن ميونخ. واعتبر تيباس أن تغيير مبررات الهجوم بناءً على هوية الحكم أو جنسيته يعكس ضعف الحجة الفنية في مواجهة تحديات الملعب. كان أربيلوا قد أثار جدلاً واسعًا بوصفه للأخطاء التحكيمية بـ\"ا…",
+      "image": null,
+      "pubDate": "2026-04-20T10:30:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "326f4f45485669a8",
+      "title": "ثالث الغيابات.. نجم برشلونة خارج لقاء سيلتا فيجو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D8%A7%D9%84%D8%AB-%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%A8%D8%A7%D8%AA-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AE%D8%A7%D8%B1%D8%AC-%D9%84%D9%82%D8%A7%D8%A1-%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88/blt1401a630dd0ea2bb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المباراة ضمن منافسات الدوري الإسباني",
+      "body": "المباراة ضمن منافسات الدوري الإسباني واصل برشلونة، استعداداته لمواجهة سيلتا فيجو، على ملعب كامب نو، المقررة يوم الأربعاء المقبل، ضمن منافسات الدوري الإسباني. ووفقا لصحيفة \"موندو ديبورتيفو\"، قاد هانز فليك الحصة التدريبية قبل الأخيرة في مدينة خوان جامبر الرياضية قبل المباراة. &nbsp;وكان جميع لاعبي الفريق الأول متاحين للمدرب، في مران اليوم، باستثناء المصابين رافينيا وأندرياس كريستنسن ومارك بيرنال. تأكد غياب الأول والثاني عن مباراة سيلتا فيجو، بينما يتعافى لاعب الوسط من التواء في كاحله الأيسر، لكنه غاب أيضاً عن التدريبات مع زملائه اليوم. &nbsp;لذا، من غير المرجح أن يكون بيرنال متاحاً لمواجهة الفريق المقبلة. أما فيرمين لوبيز، فقد تدرب وانضم إلى المجموعة أمس مرتدياً قناعا بسبب الإصابة القوية التي تعرض لها في وجهه خلال مباراة الإياب من ربع نهائي دوري أبطال أوروبا، أمام أتلتيكو مدريد. خلافاً لنهجه المعتاد، لم يضم فليك أي لاعب من برشلونة أتلتيك إلى التدريبات.. فالفريق الرديف ينافس على مركز مؤهل إلى الأدوار الإقصائية، وقد فضل مدرب الفريق الأول عدم استدعاء أي لاعبين شباب لهذه الحصة التدريبية. سيخوض برشلونة تدريبه الأخير غداً قبل المباراة ضد سيلتا فيجو، وسيظهر هانز فليك في تمام الساعة 13:00 بالتوقيت المحلي في مؤتمر صحفي لتحليل المباراة التي سيسعى فيها البلوجرانا إلى اتخاذ خطوة أخرى نحو الفوز …",
+      "image": null,
+      "pubDate": "2026-04-20T10:26:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "cdbaf5c080478588",
+      "title": "بالأرقام: فينيسيوس خلف مبابي في سباق خارج الملاعب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D8%AE%D9%84%D9%81-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%B9%D8%A8/bltd3620632ae0e6d95?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قامت منصة \"ترانسفير ماركت\"، بتحديث قائمة قيم لاعبي ريال مدريد، حيث يتصدر كيليان مبابي، القائمة، بقيمة 200 مليون يورو.",
+      "body": "قامت منصة \"ترانسفير ماركت\"، بتحديث قائمة قيم لاعبي ريال مدريد، حيث يتصدر كيليان مبابي، القائمة، بقيمة 200 مليون يورو. ويأتي خلف مبابي، فينيسيوس جونيور (150 مليون يورو)، وجود بيلينجهام (140 مليونا) وفيدي فالفيردي (120 مليونا). وبعد ذلك، يأتي اللاعب التركي أردا جولر، والذي تُقدّر قيمته بنحو 90 مليون يورو، وقد ارتفعت قيمته مؤخرًا.&nbsp; وذكرت شبكة \"ديفينسا سنترال\" أن مبابي كان لفترة، متأخرًا عن فينيسيوس، عند وصوله إلى ريال مدريد، لكن مع بداية تسجيله العديد من الأهداف وتراجع مستوى اللاعب البرازيلي، تمكن من التفوق عليه.&nbsp; اقرأ أيضًا لغز 170 مليونًا.. نيران الانتقادات تحرق ثلاثي ريال مدريد تراجع ألابا.. وفينيسيوس يتساوى مع بيدري ونوهت \"ديفينسا سنترال\" أن ديفيد ألابا واصل انخفاض سعره، حيث أن تراجع المستوى وقلة الدقائق، لعبت دورًا في وصول قيمته السوقية إلى 3.5 مليون يورو، وهو ثاني أقل سعر، خلف فران جونزاليس مباشرة.&nbsp; ومن المتوقع أن يرحل ألابا كلاعب حر في نهاية الموسم الجاري، وما زال غير واضح ما إذا كان سيعتزل بعد كأس العالم 2026 أو سيواصل اللعب في نادٍ آخر. أما هدف فينيسيوس، فهو استعادة أفضل مستوياته والمنافسة، ليُعترف به كواحد من أفضل لاعبي العالم.&nbsp; ويتساوى فينيسيوس حاليًا مع بيدري بقيمة 150 مليون يورو. ومع ذلك، فإن أداءً قويًا قد يعيده إلى 180 مليون يورو، أو حتى يصل إلى 200…",
+      "image": "https://assets.kooora.com/images/v3/kooora_1409848_1/crop/MM5DCOJSGA5DCMBYGA5G433XMU5DAORRGAYA====/2025-04-07-12016722_epa.jpg",
+      "pubDate": "2026-04-20T10:20:52.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "382d88cd0cb28cc3",
+      "title": "السعودية واليابان بالصدارة.. الاتحاد الآسيوي يعيد توزيع مقاعد \"النخبة\" وأبطال آسيا 2",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%93%D8%B3%D9%8A%D9%88%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D9%85%D9%82%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D9%86%D8%AE%D8%A8%D8%A9-%D9%88%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-2/blt2ad084d0f1a36708?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "القرار سيعيد رسم خريطة التمثيل القارّي",
+      "body": "القرار سيعيد رسم خريطة التمثيل القارّي يستعد الاتحاد الآسيوي لكرة القدم، لإصدار قرار رسمي سيعيد رسم خريطة التمثيل القارّي للأندية في القارة. وكشفت مصادر مطلعة، لصحيفة \"الشرق الأوسط\"، أن لجنة كرة القدم المحترفة في الاتحاد الآسيوي لكرة القدم تتجه لاعتماد التوزيع الجديد لمقاعد بطولتيْ دوري أبطال آسيا للنخبة ودوري أبطال آسيا 2. وأوضحت أن القرار سيمنح كلاً من السعودية واليابان الصدارة من حيث عدد المقاعد؛ بواقع ستة مقاعد لكل منهما. ووفقاً للمقترح، الذي جرى تداوله داخل أروقة الاتحاد الآسيوي، ستحصل السعودية واليابان على 3 مقاعد مباشرة في بطولة النخبة، إلى جانب مقعدين إضافيين عبر الملحق، مع تخصيص مقعد مباشر واحد لكل منهما في بطولة دوري أبطال آسيا 2، في تأكيد واضح لثقل المسابقات المحلية في البلدين وتأثيرها المتصاعد على مستوى القارة. وفي المرتبة التالية، تأتي الإمارات وكوريا الجنوبية بخمسة مقاعد لكل منهما، موزعة بين 3 مقاعد مباشرة في النخبة، ومقعد واحد عبر الملحق، إضافة إلى مقعد مباشر في دوري أبطال آسيا 2، وهو توزيع يعكس استقراراً تنافسياً مستمراً لهاتين الساحتين الكرويتين، خلال السنوات الأخيرة. أما قطر وتايلاند فستحصلان على 4 مقاعد لكل منهما، بواقع 3 مقاعد مباشرة في بطولة النخبة، إلى جانب مقعد مباشر في دوري أبطال آسيا 2، في حين تنال إيران والصين 3 مقاعد لكل منهما، تشمل مقعدين مباشرين في الن…",
+      "image": null,
+      "pubDate": "2026-04-20T10:09:36.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "325b5b2394b79d60",
+      "title": "West Indies legend Gayle invests in Glasgow T20 franchise",
+      "link": "https://www.bbc.com/sport/cricket/articles/c1eq1q32l1do?at_medium=RSS&at_campaign=rss",
+      "summary": "West Indies legend Chris Gayle is announced as the co-owner of a Glasgow-based franchise taking part in this summer's inaugural European T20 Premier League (ETPL).",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-20T10:05:06.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -724,70 +1140,6 @@
       "region": "mena"
     },
     {
-      "id": "181fd796d44051e0",
-      "title": "سابقة تاريخية للاتحاد الإسباني.. بطلان في مسابقة واحدة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%A8%D8%B7%D9%84%D8%A7%D9%86-%D9%81%D9%8A-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9/bltcad1e1a9d0c884b8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "قرار جديد في إسبانيا",
-      "body": "قرار جديد في إسبانيا قال تقرير صحفي، اليوم الإثنين، إن ختام الموسم الحالي بإسبانيا، سيشهد سابقة تاريخية تحدث للمرة الأولى. وأوضحت صحيفة \"آس\"، أنه للمرة الأولى، سيُتوّج بطلان، في مسابقة واحدة. &nbsp;وكشف الاتحاد الإسباني عن الكؤوس الجديدة التي سيرفعها الفائزون في بطولات الدوري الإسباني للدرجات الأولى والثانية والثالثة. صُممت هذه الكؤوس من قِبل الراعي الدائم لفعاليات مثل كأس ملك إسبانيا، وكأس السوبر الإسباني، وهي تحافظ على جوهر كأس الاتحاد الإسباني لكرة القدم الحالي، ولكن بتصميم أكثر انسيابية. &nbsp;تتميز هذه الكؤوس بخطوط معدنية عمودية ترمز إلى الطريق نحو اللقب والصعود، وإلى جانب جاذبيتها الجمالية، فهي تمثل خطوة إضافية نحو احترافية كرة القدم. يبلغ طول كأس دوري الدرجة الأولى 62 سنتيمترًا ووزنه 10 كيلوجرامات، بلمسة نهائية ساتانية غير لامعة وقاعدة مميزة.&nbsp; أما كأسا دوري الدرجة الثانية والثالثة، فيبلغ طولهما 56 و50 سنتيمترًا على التوالي، ويزن كل منهما 8 و6.5 كيلوجرامات. &nbsp;يأتي هذا الحجم الجديد قبيل انطلاق الأدوار الإقصائية، مع ازدهار مبيعات التذاكر وترقب الجماهير لفرص الصعود. &nbsp;وهكذا، في شهر يونيو المقبل، سيتشارك قائدا فريقين مختلفين المجد نفسه لأول مرة، حيث قرر الاتحاد الإسباني تتويج بطل كل مجموعة بدوري الدرجة الثالثة باللقب، بدلا من إقامة مباريات فاصلة لتحديد البطل. ويتكون…",
-      "image": null,
-      "pubDate": "2026-04-20T09:17:15.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "ae0b3a39f71a3f55",
-      "title": "مشروع تجاري ينعش خزينة برشلونة بالملايين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%8A%D9%86%D8%B9%D8%B4-%D8%AE%D8%B2%D9%8A%D9%86%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86/blt45b38ce401fd5815?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أعلن نادي برشلونة، إطلاق أول قناة رسمية له لإعادة بيع المنتجات (الجيل الثاني من المقتنيات والملابس الرياضية).",
-      "body": "أعلن نادي برشلونة، إطلاق أول قناة رسمية له لإعادة بيع المنتجات (الجيل الثاني من المقتنيات والملابس الرياضية) بعد إبرام اتفاق استراتيجي مع شركة Drelife، ومن خلال شركة برشلونة للتراخيص والتسويق (BLM).&nbsp; وذكرت صحيفة \"سبورت\" أن هذه المبادرة تستهدف تنظيم سوق تجاري، كان يعمل خارج سيطرة النادي الكتالوني، وبدون ضمانات. وبحسب بيان برشلونة، فإن إعادة بيع القمصان الزرقاء والحمراء، والتي تُعد \"ذاكرة جماعية بُنيت عبر أجيال\"، كانت تتم عبر قنوات غير رسمية، دون رقابة من النادي أو أي عائد اقتصادي له. ومع هذا المشروع الجديد، يسعى برشلونة إلى استعادة هذه القيمة، وتقديم إطار رسمي يضمن الأصالة والجودة وإمكانية التتبع. وتتم هذه العملية عبر Barça Innovation Hub، الذي قام بإضفاء الطابع الرسمي على دخوله كمستثمر شريك في شركة Drelife، وهي شركة ناشئة مقرها برشلونة متخصصة في حلول الاقتصاد الدائري، المطبقة على قطاع البيع بالتجزئة. ومع هذا الاستثمار، تصبح الشركة، جزءًا من النظام التكنولوجي للنادي، لتكون الشركة الخامسة عشرة ضمن محفظته الاستثمارية. اقرأ أيضًا سيناريو جوندوجان يُقرب برشلونة من صفقة مميزة",
-      "image": null,
-      "pubDate": "2026-04-20T09:15:01.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "b8c3b3ecb672b03b",
-      "title": "بين درس والده وغضب شريكته!.. هالاند يصب غضبه على جابرييل",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%8A%D9%86-%D8%AF%D8%B1%D8%B3-%D9%88%D8%A7%D9%84%D8%AF%D9%87-%D9%88%D8%BA%D8%B6%D8%A8-%D8%B4%D8%B1%D9%8A%D9%83%D8%AA%D9%87-%D9%87%D8%A7%D9%84%D8%A7%D9%86%D8%AF-%D9%8A%D8%B5%D8%A8-%D8%BA%D8%B6%D8%A8%D9%87-%D8%B9%D9%84%D9%89-%D8%AC%D8%A7%D8%A8%D8%B1%D9%8A%D9%8A%D9%84/blt006a433a62dfeac8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا حدث؟",
-      "body": "ماذا حدث؟ أعرب النجم النرويجي إيرلنج هالاند مهاجم مانشستر سيتي، عن استيائه من الالتحامات البدنية العنيفة التي يشهدها البريميرليج، مؤكدًا أن آثارها باتت واضحة على جسده، وهو ما أثار استياء شريكته بسبب كثرة الخدوش. جاءت تصريحات هالاند عقب فوز فريقه على أرسنال بهدفين مقابل هدف، في مواجهة قوية على ملعب \"الاتحاد\"، شهدت صدامات متكررة بينه ومدافع الفريق اللندني جابرييل، بلغت حد تمزق قميصه الداخلي أثناء اللقاء. وفي السياق ذاته، دعا المدير الفني الإسباني بيب جوارديولا الحكام إلى تشديد قراراتهم تجاه حالات الشد والالتحام التي يتعرض لها مهاجمه، غير أن هالاند أبدى تشككه في إمكانية حصوله على حماية أكبر مستقبلاً. اقرأ أيضًا: \"حكة أذن\" فجرت الجدل.. نيمار: اذهب إلى الجحيم أيها اللعين! وقال المهاجم النرويجي: \"تم شد قميصي بشكل واضح، لكنني لم أحصل على خطأ. هذه هي طبيعة المنافسة الآن؛ صراعات بدنية مستمرة وخدوش لا تتوقف. أحيانًا شريكتي لا تكون سعيدة بما تراه، لكنه واقع علينا التعامل معه\". ولم يُخفِ هالاند استياءه من تدخل جابرييل، معتبرًا أن مدافع أرسنال كان يستحق الطرد بعد احتكاك مباشر بالرأس خلال الشوط الثاني، مضيفًا: \"في رأيي هذه بطاقة حمراء واضحة. لو سقطت أرضًا لتم طرده، لكنني لن أفعل ذلك أبدًا. والدي علّمني أن أبقى واقفًا وألا أتحايل. ربما كان السقوط سيجعل الأمور أسهل، لكنني لم أفعل، وتلقيت بطاقة صف…",
-      "image": null,
-      "pubDate": "2026-04-20T09:12:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a6dfb970a07bcba1",
-      "title": "سيناريو جوندوجان يُقرب برشلونة من صفقة مميزة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%AC%D9%88%D9%86%D8%AF%D9%88%D8%AC%D8%A7%D9%86-%D9%8A%D9%8F%D9%82%D8%B1%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%85%D9%86-%D8%B5%D9%81%D9%82%D8%A9-%D9%85%D9%85%D9%8A%D8%B2%D8%A9/blt01d5cd995dd84aa5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بغض النظر عن التكهنات، هناك أمر مؤكد في مانشستر سيتي، وهو أن النجم البرتغالي برناردو سيلفا لن يستمر مع النادي الإنجليزي في الموسم المقبل.",
-      "body": "بغض النظر عن التكهنات، هناك أمر مؤكد في مانشستر سيتي، وهو أن النجم البرتغالي برناردو سيلفا لن يستمر مع النادي الإنجليزي في الموسم المقبل. وفي عمر 31 عامًا وبعد 9 مواسم في مانشستر سيتي، يريد برناردو سيلفا، خوض تحديات جديدة. ويرتبط برناردو سيلفا، بالانتقال إلى برشلونة كلاعب حر، لكن في الوقت نفسه، ظهر خيار العودة إلى بنفيكا، النادي الذي انتقل منه إلى موناكو، قبل أن ينتهي به المطاف في مانشستر سيتي.&nbsp; ويدرك الدولي البرتغالي، أنه لا يزال قادرًا على العطاء، كما أن ضعف مستوى الدوري البرتغالي، والسياق الحالي لنادي لشبونة، يدفعانه للتفكير في خيارات أخرى. اقرأ أيضًا أربيلوا: ريال مدريد لا يحتاج \"ثورة\".. وكامافينجا يتألم برناردو سيلفا يتمتع بذكاء تكتيكي كبير ذكرت صحيفة \"سبورت\" أن برناردو سيلفا يمتلك خيارات أخرى مثل يوفنتوس أو الدوري الأمريكي أو دوري روشن السعودي للمحترفين. وتابعت \"الذهاب إلى أي من هذه الوجهات، يعني الابتعاد عن المنافسة في القمة، وبالتالي فإن خيار برشلونة وتكرار تجربة زميله السابق إلكاي جوندوجان يزداد قوة\". وفقد برناردو سيلفا، جزءًا من سرعته البدنية، لكنه يتمتع بذكاء تكتيكي كبير، وانتقل من اللعب على الأطراف، إلى أدوار داخلية، رغم أنه لا يزال قادرًا على اللعب كجناح أيمن أحيانًا.&nbsp; ووأوضح الصحفي فرانسيسكو كارفاليو من صحيفة ريكورد \"أعتقد أن سيلفا فقد القدرة على اللعب على …",
-      "image": null,
-      "pubDate": "2026-04-20T09:05:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "5207b6dce0525385",
       "title": "There’s New Evidence for How Loneliness Affects Memory in Old Age",
       "link": "https://www.wired.com/story/theres-new-evidence-for-how-loneliness-affects-memory-in-old-age/",
@@ -836,70 +1188,6 @@
       "region": "global"
     },
     {
-      "id": "d0af69645509cd3f",
-      "title": "صحفي إسباني يفجرها: قدوم كلوب يعني بيع مبابي وفينيسيوس!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AD%D9%81%D9%8A-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D9%8A%D9%81%D8%AC%D8%B1%D9%87%D8%A7-%D9%82%D8%AF%D9%88%D9%85-%D9%83%D9%84%D9%88%D8%A8-%D9%8A%D8%B9%D9%86%D9%8A-%D8%A8%D9%8A%D8%B9-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3/bltde68da8035f31ae9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مع اقتراب الموسم من نهايته، بدأ ريال مدريد في رسم ملامح المرحلة المقبلة بعد موسم آخر خالٍ من الألقاب الكبرى، ما دفع إدارة النادي للتحرك",
-      "body": "مع اقتراب الموسم من نهايته، بدأ ريال مدريد في رسم ملامح المرحلة المقبلة بعد موسم آخر خالٍ من الألقاب الكبرى، ما دفع إدارة النادي للتحرك مبكرًا لإعادة بناء الفريق وتدعيم صفوفه استعدادًا للمنافسة على الدوري الإسباني ودوري أبطال أوروبا في الموسم المقبل. ورغم أن الفريق الملكي لا يزال نظريًا في سباق \"الليجا\"، إلا أن الفارق البالغ 9 نقاط عن برشلونة قبل 7 جولات من النهاية يجعل المهمة شبه مستحيلة، خاصة في ظل استقرار أداء الغريم التقليدي. هذا الواقع دفع الإدارة إلى التفكير في تغييرات جذرية على مستوى الجهاز الفني والتشكيلة الأساسية. اقرأ أيضًا: صحفي إسباني يفجرها: مدرب ريال مدريد القادم سيكون تحت حذاء فينيسيوس! جدل حول المدرب الجديد الملف الأبرز داخل أروقة \"سانتياجو برنابيو\" يتعلق بالمدرب القادم، فبينما يرى البعض ضرورة منح الفرصة لألفارو أربيلوا، الذي أظهر التزامًا كبيرًا في أصعب الفترات، يعتقد آخرون أنه يفتقر إلى الخبرة المطلوبة لقيادة الفريق الأول. وبرزت في المقابل أسماء ثقيلة مثل ماوريسيو بوكيتينو، ويورجن كلوب، الذي يُعد الخيار المفضل لدى شريحة واسعة من مسؤولي النادي. كلوب ومأزق فينيسيوس ومبابي الجدل حول إمكانية التعاقد مع كلوب كان محور نقاش في برنامج Carrusel Deportivo &nbsp;الإسباني، حيث أثار الصحفي برونو أليماني ضجة بتصريحاته التي قال فيها إن وصول المدرب الألماني سيجبر ريال مدريد على …",
-      "image": null,
-      "pubDate": "2026-04-20T08:52:17.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "aa2d0a80f924f6ff",
-      "title": "ريال مدريد شوكة في حلق جوارديولا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%B4%D9%88%D9%83%D8%A9-%D9%81%D9%8A-%D8%AD%D9%84%D9%82-%D8%AC%D9%88%D8%A7%D8%B1%D8%AF%D9%8A%D9%88%D9%84%D8%A7/blt3e0e91694b7ca706?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "القريق السماوي يعود إلى الطريق الصحيح",
-      "body": "القريق السماوي يعود إلى الطريق الصحيح بات مصير مانشستر سيتي بيديه في الدوري الإنجليزي الممتاز، بعدما حقق فوزا من ذهب على المتصدر آرسنال، أمس الأحد، بنتيجة 2-1، في الجولة 33 من البريميرليج. ورفع مانشستر سيتي رصيده إلى 67 نقطة في المركز الثاني، مقلصًا الفارق إلى ثلاث نقاط فقط خلف آرسنال ، مع أفضلية إضافية للفريق السماوي بامتلاكه مباراة مؤجلة، ما يزيد من حدة الصراع على اللقب في الجولات المقبلة. وبالنظر إلى آخر 18 مواجهة للسيتي، نجد أنه لم يخسر سوى مرتين فقط، ما يشير إلى أن الفريق بات قريا من استعادة أفضل مستوياته في المراحل الحاسمة من الموسم. وبالفعل جنى السيتيزنز ثمار هذه الإحصائية الجيدة، بحصد لقب كأس رابطة المحترفين بعد الفوز على آرسنال في المباراة النهائية، فضلا عن الصعود إلى نصف نهائي كأس إنجلترا، إثر سحق ليفربول برباعية نظيفة. إلا أن الهزيمتين المذكورتين كلفتا رجال جوارديولا وداع بطولة دوري أبطال أوروبا من ثمن النهائي، إذ كانتا أمام ريال مدريد. ففي المباراة الأولى، لم يستطع السيتيزنز إيقاف إبداع النجم الأوروجواياني فيدي فالفيردي، الذي سجل هاتريك ليؤمن للنادي الأبيض الفوز بنتيجة 3-0 على ملعب سانتياجو برنابيو. وفي الأسبوع التالي، انحنى السيتي مجددا أمام ريال مدريد في مانشستر، بفضل هدف متأخر من النجم البرازيلي فينيسيوس جونيور، انتهت المباراة على إثره بيضاء بنتيجة 2-1. اقرأ أيضا: \"…",
-      "image": null,
-      "pubDate": "2026-04-20T08:50:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "1ba367155f7e8933",
-      "title": "روني: هذا الفريق سيعطل مانشستر سيتي ويمنح اللقب لآرسنال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%88%D9%86%D9%8A-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D8%B3%D9%8A%D8%B9%D8%B7%D9%84-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%88%D9%8A%D9%85%D9%86%D8%AD-%D8%A7%D9%84%D9%84%D9%82%D8%A8-%D9%84%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84/blt7830b5e81fc11db9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "صراع ناري على لقب البريميرليج",
-      "body": "صراع ناري على لقب البريميرليج وضع واين روني، أسطورة مانشستر يونايتد، سيناريو حسم لقب الدوري الإنجليزي الممتاز، هذا الموسم، في ظل الصراع الناري على اللقب بين آرسنال ومانشستر سيتي. وأشعل مانشستر سيتي سباق الدوري الإنجليزي الممتاز، بعدما حقق فوزًا ثمينًا على حساب آرسنال بنتيجة (2-1). ورفع مانشستر سيتي رصيده إلى 67 نقطة في المركز الثاني، مقلصًا الفارق إلى ثلاث نقاط فقط خلف آرسنال المتصدر برصيد 70 نقطة، مع أفضلية إضافية للفريق السماوي بامتلاكه مباراة مؤجلة، ما يزيد من حدة الصراع على اللقب في الجولات المقبلة. ويعتقد واين روني، أن أحد أنديته السابقة سيقدم خدمة كبيرة لآرسنال في سبيل الفوز باللقب. يملك مانشستر سيتي فرصة تصدر الدوري الإنجليزي الممتاز بفارق الأهداف في حالة الفوز على بيرنلي يوم الأربعاء. سيتم تحديد مصير الكأس من خلال سلسلة من خمس مباريات حاسمة، حيث سيواجه السيتي جدول مباريات أصعب قليلاً على الورق. إحدى مهام فريق مانشستر سيتي هي رحلة إلى إيفرتون ، النادي السابق لروني، في الرابع من مايو المقبل. أسطورة إيفرتون ومانشستر يونايتد، قال لبرنامج \"مباراة اليوم\" على قناة \"بي بي سي\": \"لا أريد أن يفوز مانشستر سيتي بالدوري.. أعتقد أن المنافسة ستكون متقاربة\". وتابع: \"أعتقد أنها مباريات جيدة لآرسنال وسيفوزون بجميع مبارياتهم.. أعتقد أن مباريات السيتي أصعب قليلاً، وأعتقد أن إيفرتون قد يضيع علي…",
-      "image": null,
-      "pubDate": "2026-04-20T08:46:50.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "059f26d3555464ee",
-      "title": "لاعب جديد يدخل في صدام مع إدارة ليفربول",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%B9%D8%A8-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%AF%D8%AE%D9%84-%D9%81%D9%8A-%D8%B5%D8%AF%D8%A7%D9%85-%D9%85%D8%B9-%D8%A7%D9%95%D8%AF%D8%A7%D8%B1%D8%A9-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84/bltb797fd45bcb00232?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بعد صلاح وروبرتسون.. لاعب الريدز يشكك في استكمال مفاوضات التجديد",
-      "body": "بعد صلاح وروبرتسون.. لاعب الريدز يشكك في استكمال مفاوضات التجديد أثار لاعب وسط ليفربول حالة من الغموض حول مستقبله داخل قلعة \"الأنفيلد\"، بعدما كشف عن موقف مفاوضات تجديد عقده مع النادي الإنجليزي. وأكد النجم المجري دومينيك سوبوسلاي، لاعب وسط ليفربول، أن مفاوضات تجديد عقده مع النادي الإنجليزي لم تحرز تقدمًا ملموسًا حتى الآن، مشددًا على تركيزه الكامل على المنافسات المتبقية هذا الموسم. وينتهي عقد سوبوسلاي الحالي مع ليفربول في صيف عام 2028، بعد انضمامه إلى الريدز قادمًا من لايبزيج الألماني في صيف 2023. وقال سوبوسلاي، في تصريحات نقلتها صحيفة \"ذا أثلتيك\": \"لم نحرز أي تقدم يُذكر في المفاوضات، ولا أستطيع الإدلاء بأي جديد بخصوص وضع عقدي، لا يزال أمامنا الكثير من المباريات، وأنا أركز حاليًا على ذلك فقط\". وأضاف: \"ينتهي عقدي في 2028، لذا أنا مستعد للعب كل يوم وكل أسبوع، وبعد ذلك سنرى ما سيحدث، بالتأكيد أرى نفسي هنا على المدى الطويل، لكن الأمر لم يعد بيدي، أحب التواجد هنا، أحب الجماهير، وعائلتي سعيدة جدًا في المدينة\". اقرأ أيضا: خيار جديد أمام ليفاندوفسكي للخروج الآمن من برشلونة تحت أعين ريال مدريد.. ليفربول يتحرك نحو صفقة \"صعبة\" وتابع اللاعب البالغ من العمر 25 عامًا: \"أنا في غاية الاسترخاء، أمامنا خمس مباريات مهمة، وبعدها سأحصل على فترة راحة طويلة بعد انتهاء فترة التوقف الدولي، ثم سنرى ما سيحدث\"…",
-      "image": null,
-      "pubDate": "2026-04-20T08:42:20.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "080f4a7cbf7f1fc7",
       "title": "Lose 'no ball games' signs to get nation moving - MPs",
       "link": "https://www.bbc.com/sport/articles/cje4jnzp5lgo?at_medium=RSS&at_campaign=rss",
@@ -930,70 +1218,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "fcd160e80db4c955",
-      "title": "بارتوميو يُكذب لابورتا: لست مسؤولًا عن إفلاس برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%A7%D8%B1%D8%AA%D9%88%D9%85%D9%8A%D9%88-%D9%8A%D9%8F%D9%83%D8%B0%D8%A8-%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D9%84%D8%B3%D8%AA-%D9%85%D8%B3%D9%88%D9%94%D9%88%D9%84%D9%8B%D8%A7-%D8%B9%D9%86-%D8%A7%D9%95%D9%81%D9%84%D8%A7%D8%B3-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt34d9010a22183b5a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لن أفهم أبدًا رحيل ميسي عن برشلونة",
-      "body": "لن أفهم أبدًا رحيل ميسي عن برشلونة رد خوسيه ماريا بارتوميو، رئيس برشلونة السابق، على الانتقادات الموجهة لإدارته، بشأن ترك النادي الكتالوني في أزمة مالية. وكان بارتوميو، صارمًا في رفض اتهامات تسببه في معاناة برشلونة ماليًا، وحمل الأمر مباشرة إلى الرئيس الحالي خوان لابورتا: وقال بارتوميو في حواره مع صحيفة ABC \"سمعت ذلك كثيرًا، لكنه غير صحيح. هذا جزء من رواية مُتعمدة من الإدارة الحالية، يمكنني تقبّلها لمدة سنة أو سنتين، لكن مرّ أكثر من 5 سنوات ونصف، وما زالوا على نفس الشيء. لذلك أقول بشكل قاطع لا\". وأضاف \"برشلونة تضرر من جائحة كورونا مثل أغلب الأندية الكبيرة في أوروبا، وهذا أدى خلال 18 شهرًا إلى فقدان حوالي 500 مليون يورو من الإيرادات. هذه ضربة قوية، وأنا لا أقول ذلك من عندي، بل تقارير رابطة الليجا تقول ذلك\". وتابع \"نحن كنادٍ نعتمد قليلًا على حقوق التلفزيون، ربما 25% من دخلنا. والباقي يأتي من أنشطة أخرى مثل المتحف، مدارس كرة القدم، المتاجر، بيع التذاكر، وكل هذا انهار بشكل كبير بسبب كورونا\". اقرأ أيضًا برشلونة يستغل ضحية يامال لحسم صفقة باستوني ميسي كان مستعدًا للتضحية من أجل البقاء وبخصوص ارتفاع الرواتب بعد رحيل نيمار، علق \"وصلت إلينا معلومات بأن نادياً آخر كان يجهز 400 مليون لدفع الشرط الجزائي لضم ميسي، وبالتالي جلسنا مع ليونيل ووالده واقترحنا تجديد العقد مع رفع الشرط الجزائي إلى 70…",
-      "image": "https://assets.kooora.com/images/v3/getty-1228108900/crop/MM5DINZQGA5DENRUGQ5G433XMU5DAORSGQZA====/GettyImages-1228108900.jpg",
-      "pubDate": "2026-04-20T08:14:07.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "1b4bd3213a5135c6",
-      "title": "نجم بارز في سان جيرمان معروض على برشلونة.. وعائق وحيد يهدد الصفقة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%A8%D8%A7%D8%B1%D8%B2-%D9%81%D9%8A-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%85%D8%B9%D8%B1%D9%88%D8%B6-%D8%B9%D9%84%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D8%B9%D8%A7%D9%8A%D9%94%D9%82-%D9%88%D8%AD%D9%8A%D8%AF-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A7%D9%84%D8%B5%D9%81%D9%82%D8%A9/bltbae08938adf01b8a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ديكو يراه إضافة قيمة محتملة لبرشلونة",
-      "body": "ديكو يراه إضافة قيمة محتملة لبرشلونة قال تقرير صحفي إسباني، اليوم الإثنين، إن نجم باريس سان جيرمان، تم عرضه على برشلونة، لضمه خلال الصيف المقبل. ويستعد باريس سان جيرمان لنهاية مثيرة للموسم، وسيخوض رجال لويس إنريكي مباريات حاسمة في الأسابيع المقبلة في سباقهم للفوز بلقبي الدوري الفرنسي ودوري أبطال أوروبا. &nbsp;في الوقت نفسه، يعمل النادي الباريسي على فترة إعداد للموسم الجديد، والتي من المتوقع أن تكون هادئة نسبياً. ولا يزال هناك ملف تمديد بعض العقود، فبينما لا يُتوقع وجود أي مشاكل مع فابيان رويز، على سبيل المثال، فإن وضع برادلي باركولا أكثر تعقيدًا بعض الشيء، إذ ينتهي عقده في عام 2028.&nbsp; ورغم عدم وجود أي حديث حتى الآن عن رحيل خريج أكاديمية ليون، فقد كشفت الصحافة الإسبانية عن بعض المعلومات المفاجئة نوعًا ما. في الواقع، أفادت التقارير أن اللاعب الذي غير وكيل أعماله خورخي مينديز لينضم إلى وكيله موسى سيسوكو، قد عُرض على نادي برشلونة. &nbsp;هذا ما ذكرته صحيفة \"سبورت\"، موضحةً أن باركولا عُرض على البلوغرانا بالإضافة إلى أندية إنجليزية، وأن إدارة برشلونة تُكنّ تقديرًا كبيرًا للاعب الدولي الفرنسي، بل إن ديكو، المدير الرياضي، يراه إضافةً قيّمةً محتملةً لهجوم برشلونة في الموسم المقبل. هذا الخبر مفاجئ لسبب واضح: الجانب المالي، حيث يمرّ برشلونة بوضع مالي معقد يجعل صفقة انتقال بهذا الحجم، والت…",
-      "image": null,
-      "pubDate": "2026-04-20T08:04:49.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7a58aa84cd13f320",
-      "title": "إدارة اتحاد جدة تضع كونسيساو تحت التقييم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%AC%D8%AF%D8%A9-%D8%AA%D8%B6%D8%B9-%D9%83%D9%88%D9%86%D8%B3%D9%8A%D8%B3%D8%A7%D9%88-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D9%8A%D9%8A%D9%85/blt15bb182b986e3a6b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مدرب \"العميد\" مهدد بالطرد",
-      "body": "مدرب \"العميد\" مهدد بالطرد يواجه البرتغالي سيرجيو كونسيساو، المدير الفني لاتحاد جدة، تساؤلات جماهيرية متزايدة بشأن مصيره مع \"العميد\"، عقب الإقصاء من منافسات دوري أبطال آسيا للنخبة على يد ماتشيدا زيلفيا الياباني بهدف دون رد، في مباراة ربع النهائي التي أقيمت مؤخرًا. لم يكن سقوط الاتحاد مجرد هزيمة عابرة، بل هي بمثابة انتصار تاريخي لماتشيدا الذي يعد رابع فريق ياباني يتأهل للدور ربع النهائي خلال أول مشاركة له بالبطولة الآسيوية. كما أن الاتحاد أكمل كوارث الموسم، بالخروج بدون ألقاب، حيث كان دوري أبطال آسيا للنخبة بمثابة الفرصة الأخيرة لإنقاذ موسمه، بعد صدمة الدوري وكأس الملك والسوبر. وقال كونسيساو في تصريحات بالمؤتمر الصحفي بعد المباراة: \"الخطة كانت واضحة منذ البداية، ولدينا بعض الملاحظات، أنا عادة لا أتحدث عن الحكام، لكن عندما يكون لديك وقت راحة أقل ويقاتل اللاعبون بهذه الروح فهذا يُحترم، ومع ذلك في أكثر من لقطة كنا الأفضل لكن قرارات الحكم أوقفتنا في المباراة\". اقرأ أيضا: بالفيديو: سامي الجابر يطفئ فتنة الهلال التي أشعلها محمد الدعيع ونقلت صحيفة \"اليوم\" السعودية عن مصادر مقربة من النادي، أن كونسيساو سيستمر في منصبه حتى نهاية الموسم الحالي، على أن يخضع عمله لتقييم شامل خلال الفترة المقبلة، لاتخاذ القرار النهائي بشأن استمراره أو رحيله. وشهدت الساعات الماضية حالة من الغضب الواسع بين جماهير …",
-      "image": null,
-      "pubDate": "2026-04-20T07:59:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "b0952c5437099c3a",
-      "title": "هل تصب \"فوضى آسفي\" في مصلحة الزمالك!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D8%AA%D8%B5%D8%A8-%D9%81%D9%88%D8%B6%D9%89-%D8%A7%D9%93%D8%B3%D9%81%D9%8A-%D9%81%D9%8A-%D9%85%D8%B5%D9%84%D8%AD%D8%A9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83/bltecdfdafd34ccec47?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الزمالك يترقب قرار الكاف",
-      "body": "الزمالك يترقب قرار الكاف أعادت الأحداث التي رافقت مواجهة أولمبيك آسفي واتحاد العاصمة الجزائري، ضمن إياب نصف نهائي كأس الكونفيدرالية الإفريقية، الجدل مجدداً حول ملف الانضباط داخل المسابقات القارية، بعد أعمال الشغب التي اندلعت في مدرجات ملعب \"المسيرة الخضراء\" بمدينة آسفي، وتسببت في فوضى كبيرة قبل انطلاق اللقاء. ووفقًا لموقع \"البطولة\" المغربي، فإن الاتحاد الإفريقي لكرة القدم \"الكاف\" يواجه ضغوطًا متزايدة لاتخاذ قرارات حازمة بشأن الأحداث التي تورطت فيها جماهير اتحاد العاصمة، خاصة وأن لوائح الكاف تنص بوضوح على ضرورة فرض عقوبات تأديبية صارمة في حال وقوع تجاوزات جماهيرية تؤثر على سير المباريات.&nbsp; اقرأ أيضًا: فيديو: \"ليلة سوداء في المغرب\".. الصحف العالمية تتفاعل مع أحداث آسفي وتشير المعطيات الأولية إلى أن خيار إقامة المباراة النهائية للفريق الجزائري بدون جمهور يُعد السيناريو الأقرب، في انتظار صدور القرار&nbsp;الرسمي من لجنة الانضباط. ومن المنتظر أن يخوض اتحاد العاصمة مباراة ذهاب نهائي كأس الكونفيدرالية أمام الزمالك المصري يوم&nbsp; 9 مايو/أيار &nbsp;في الجزائر، على أن تُقام مباراة الإياب في&nbsp; القاهرة يوم 15 من الشهر نفسه ، وسط ترقب كبير لمدى صرامة الكاف في التعامل مع الملف قبل الموعد المرتقب. ويُنتظر أن يستند الاتحاد الإفريقي في قراره إلى التقارير الرسمية الصادرة عن مراقبي المباراة…",
-      "image": null,
-      "pubDate": "2026-04-20T07:58:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "acc5336944ca0cbe",
@@ -1092,38 +1316,6 @@
       "region": "global"
     },
     {
-      "id": "6d0c616047995d45",
-      "title": "ضبط 3 أطنان من المخدرات بالصويرة",
-      "link": "https://assabah.ma/917843.html",
-      "summary": "أحبطت مصالح الدرك الملكي التابعة للمركز الترابي تفتاشت بإقليم الصويرة، أخيرا، عملية تهريب ثلاثة أطنان من المخدرات. وذكرت مصادر متطابقة أن العملية تمت بالطريق الرابطة بين امرامر وتفتاشت بعد أن أثار انتباه عناصر الدرك الملكي سيارة كبيرة لنقل البضائع فتم إخضاعها للتفتيش قبل أن تكتشف أنها محملةأكمل الق…",
-      "body": "أحبطت مصالح الدرك الملكي التابعة للمركز الترابي تفتاشت بإقليم الصويرة، أخيرا، عملية تهريب ثلاثة أطنان من المخدرات. وذكرت مصادر متطابقة أن العملية تمت بالطريق الرابطة بين امرامر وتفتاشت بعد أن أثار انتباه عناصر الدرك الملكي سيارة كبيرة لنقل البضائع فتم إخضاعها للتفتيش قبل أن تكتشف أنها محملة أكمل القراءة &raquo; المقالة ضبط 3 أطنان من المخدرات بالصويرة fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-04-20T05:44:19.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "97b6e5fd37ed662b",
-      "title": "“سيام 18″… دورة السيادة الغذائية",
-      "link": "https://assabah.ma/917700.html",
-      "summary": "البرتغال ضيف شرف واستدامة الإنتاج الحيواني من أبرز اهتمامات الدورة اختارت الدورة الثامنة عشرة للمعرض الدولي للفلاحة بالمغرب التي ستنعقد خلال الفترة الممتدة من اليوم الاثنين إلى 28 أبريل الجاري بمكناس، شعار “استدامة الإنتاج الحيواني والسيادة الغذائية”. وأوضحت وزارة الفلاحة والصيد البحري والتنمية الق…",
-      "body": "البرتغال ضيف شرف واستدامة الإنتاج الحيواني من أبرز اهتمامات الدورة اختارت الدورة الثامنة عشرة للمعرض الدولي للفلاحة بالمغرب التي ستنعقد خلال الفترة الممتدة من اليوم الاثنين إلى 28 أبريل الجاري بمكناس، شعار &#8220;استدامة الإنتاج الحيواني والسيادة الغذائية&#8221;. وأوضحت وزارة الفلاحة والصيد البحري والتنمية القروية والمياه والغابات، في أكمل القراءة &raquo; المقالة “سيام 18″… دورة السيادة الغذائية fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-04-20T05:42:25.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "eca660b6adc57868",
       "title": "How 'dropouts' hangout' became snooker's ultimate stage",
       "link": "https://www.bbc.com/sport/snooker/articles/c3dll4mzpdjo?at_medium=RSS&at_campaign=rss",
@@ -1169,70 +1361,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ef51b2687fb12ba6",
-      "title": "Got bugs? Here’s how to catch the errors in your scientific software",
-      "link": "https://www.nature.com/articles/d41586-026-01261-w",
-      "summary": "<p>Nature, Published online: 20 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01261-w\">doi:10.1038/d41586-026-01261-w</a></p>Computer scientists share their advice for ensuring that your scientific software does what it’s supposed to do.",
-      "body": "Nature, Published online: 20 April 2026; doi:10.1038/d41586-026-01261-w Computer scientists share their advice for ensuring that your scientific software does what it’s supposed to do.",
-      "image": null,
-      "pubDate": "2026-04-20T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cd0c0e0ecb177746",
-      "title": "Thrilling, frivolous, a waste: not everyone’s happy about the Artemis II Moon mission",
-      "link": "https://www.nature.com/articles/d41586-026-01262-9",
-      "summary": "<p>Nature, Published online: 20 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01262-9\">doi:10.1038/d41586-026-01262-9</a></p>Thrilling, frivolous, a waste: not everyone’s happy about the Artemis II Moon mission",
-      "body": "Nature, Published online: 20 April 2026; doi:10.1038/d41586-026-01262-9 Thrilling, frivolous, a waste: not everyone’s happy about the Artemis II Moon mission",
-      "image": null,
-      "pubDate": "2026-04-20T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0ea233a6fde9393b",
-      "title": "What does the future hold for the thawing Arctic?",
-      "link": "https://www.nature.com/articles/d41586-026-01258-5",
-      "summary": "<p>Nature, Published online: 20 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01258-5\">doi:10.1038/d41586-026-01258-5</a></p>Two experts unpack how trends in climate and geopolitics might unfold to shape the far north.",
-      "body": "Nature, Published online: 20 April 2026; doi:10.1038/d41586-026-01258-5 Two experts unpack how trends in climate and geopolitics might unfold to shape the far north.",
-      "image": null,
-      "pubDate": "2026-04-20T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "1e280b0aaceb585b",
-      "title": "How hidden contributions power modern research",
-      "link": "https://www.nature.com/articles/d41586-026-01260-x",
-      "summary": "<p>Nature, Published online: 20 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01260-x\">doi:10.1038/d41586-026-01260-x</a></p>The people who work behind the scenes to keep research moving say that there should be more recognition for their roles.",
-      "body": "Nature, Published online: 20 April 2026; doi:10.1038/d41586-026-01260-x The people who work behind the scenes to keep research moving say that there should be more recognition for their roles.",
-      "image": null,
-      "pubDate": "2026-04-20T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -1556,22 +1684,6 @@
       "region": "global"
     },
     {
-      "id": "bcc14cff3d0248e7",
-      "title": "Cook haul helps set up Essex run chase at Warwicks",
-      "link": "https://www.bbc.com/sport/cricket/articles/c8x72wjk0y7o?at_medium=RSS&at_campaign=rss",
-      "summary": "A fascinating final day awaits in the County Championship at Edgbaston where Essex will resume on 11-0, chasing a target of 206 to beat Warwickshire.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-19T18:21:20.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "4f66ecf7f07d4fba",
       "title": "Watch: Celtic put six past St Mirren to reach final",
       "link": "https://www.bbc.com/sport/videos/c87wnp4dpl3o?at_medium=RSS&at_campaign=rss",
@@ -1604,22 +1716,6 @@
       "region": "gulf"
     },
     {
-      "id": "40e4b034926f9f9f",
-      "title": "Spurs condemn 'vile' racist abuse aimed at Danso",
-      "link": "https://www.bbc.com/sport/football/articles/c62jv527x85o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tottenham Hotspur have reported \"vile, dehumanising\" abuse towards defender Kevin Danso to the police.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-19T17:26:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "366880c7a29e8a3a",
       "title": "Why evergreen Forrest is Celtic's enduring influencer",
       "link": "https://www.bbc.com/sport/football/articles/c5yw6068l05o?at_medium=RSS&at_campaign=rss",
@@ -1627,22 +1723,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-04-19T17:23:53.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "55b23b49feaa23be",
-      "title": "Castleford stun Wigan to move off bottom of table",
-      "link": "https://www.bbc.com/sport/rugby-league/articles/cvg007667q4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Castleford lift themselves off the bottom of Super League in style as they put in one of the performances of the season to beat Wigan.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-19T17:12:01.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2084,22 +2164,6 @@
       "region": "global"
     },
     {
-      "id": "beaeb8872f451376",
-      "title": "First 'daylight' offside goal scored in Canada",
-      "link": "https://www.bbc.com/sport/football/articles/c04xk952zd4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The first goal allowed under the experimental \"daylight\" ​offside rule is scored in Canada",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-19T09:24:10.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "778fac38faa6bc40",
       "title": "The 10 Best Pet Cameras of 2026: Furbo, Petcube, and Enabot",
       "link": "https://www.wired.com/gallery/best-pet-cameras/",
@@ -2529,22 +2593,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "7a195ccebedbae47",
-      "title": "Magnetic muon measurements and gene-therapy advances win US$3 million Breakthrough prizes",
-      "link": "https://www.nature.com/articles/d41586-026-01014-9",
-      "summary": "<p>Nature, Published online: 18 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01014-9\">doi:10.1038/d41586-026-01014-9</a></p>This year’s winners include hundreds of physicists across more than 30 institutions.",
-      "body": "Nature, Published online: 18 April 2026; doi:10.1038/d41586-026-01014-9 This year’s winners include hundreds of physicists across more than 30 institutions.",
-      "image": null,
-      "pubDate": "2026-04-18T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3124,22 +3172,6 @@
       "region": "gulf"
     },
     {
-      "id": "f11514ee2b8990eb",
-      "title": "Nike Promo Codes and Deals: 30% Off",
-      "link": "https://www.wired.com/story/nike-promo-code/",
-      "summary": "Check out our deals for Nike this month, including 15% off select purchases.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-17T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "403f8f21aceb812a",
       "title": "Foreo Discount Codes and Deals: Up to 50% Off",
       "link": "https://www.wired.com/story/foreo-promo-code/",
@@ -3153,6 +3185,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "f11514ee2b8990eb",
+      "title": "Nike Promo Codes and Deals: 30% Off",
+      "link": "https://www.wired.com/story/nike-promo-code/",
+      "summary": "Check out our deals for Nike this month, including 15% off select purchases.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-17T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3249,86 +3297,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "90233773b81a64b2",
-      "title": "Briefing Chat: Penguins pick up PFAS pollution",
-      "link": "https://www.nature.com/articles/d41586-026-01263-8",
-      "summary": "<p>Nature, Published online: 17 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01263-8\">doi:10.1038/d41586-026-01263-8</a></p>Nature staff discuss some of the week's top science news.",
-      "body": "Nature, Published online: 17 April 2026; doi:10.1038/d41586-026-01263-8 Nature staff discuss some of the week's top science news.",
-      "image": null,
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "54b27147acf93752",
-      "title": "Immune cells have a surprising role in exercise endurance",
-      "link": "https://www.nature.com/articles/d41586-026-01245-w",
-      "summary": "<p>Nature, Published online: 17 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01245-w\">doi:10.1038/d41586-026-01245-w</a></p>Study in mice suggests that B cells help regulate muscle performance.",
-      "body": "Nature, Published online: 17 April 2026; doi:10.1038/d41586-026-01245-w Study in mice suggests that B cells help regulate muscle performance.",
-      "image": null,
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6f59983baf69d951",
-      "title": "Daily briefing: Is a nine-to-five PhD possible?",
-      "link": "https://www.nature.com/articles/d41586-026-01280-7",
-      "summary": "<p>Nature, Published online: 17 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01280-7\">doi:10.1038/d41586-026-01280-7</a></p>PhD students share how they make their doctorate fit into the hours of a standard working week. Plus, male and female brain cells differ in gene activity an…",
-      "body": "Nature, Published online: 17 April 2026; doi:10.1038/d41586-026-01280-7 PhD students share how they make their doctorate fit into the hours of a standard working week. Plus, male and female brain cells differ in gene activity and a whole new way to produce DNA.",
-      "image": null,
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6562bd2bc52991fd",
-      "title": "New year, old me",
-      "link": "https://www.nature.com/articles/d41586-026-01067-w",
-      "summary": "<p>Nature, Published online: 17 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01067-w\">doi:10.1038/d41586-026-01067-w</a></p>A welcome change.",
-      "body": "Nature, Published online: 17 April 2026; doi:10.1038/d41586-026-01067-w A welcome change.",
-      "image": null,
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3759abc65b03b7c4",
-      "title": "US lawmakers intensify scrutiny of scientific-publishing practices",
-      "link": "https://www.nature.com/articles/d41586-026-01251-y",
-      "summary": "<p>Nature, Published online: 17 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01251-y\">doi:10.1038/d41586-026-01251-y</a></p>A congressional hearing covered the rise of paper mills and the costs of open-access publishing — but there was little agreement on what reform would entail.",
-      "body": "Nature, Published online: 17 April 2026; doi:10.1038/d41586-026-01251-y A congressional hearing covered the rise of paper mills and the costs of open-access publishing — but there was little agreement on what reform would entail.",
-      "image": null,
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3668,22 +3636,6 @@
       "region": "global"
     },
     {
-      "id": "688b0956b84874a1",
-      "title": "The 10 Best MagSafe Phone Grips for Your Butter Fingers (2026)",
-      "link": "https://www.wired.com/gallery/best-magsafe-grips/",
-      "summary": "Keep your phone firmly in hand and add some personality with these comfortable, durable, and nifty smartphone grips.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-16T12:30:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "32506b7ddab79f3a",
       "title": "The Download: cyberscammers’ banking bypasses, and carbon removal troubles",
       "link": "https://www.technologyreview.com/2026/04/16/1136034/the-download-cyberscammers-banking-bypasses-microsoft-carbon-removal-troubles/",
@@ -3762,102 +3714,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "65baa2a80d11e14c",
-      "title": "Venus’s impenetrable haze could be made of cosmic dust",
-      "link": "https://www.nature.com/articles/d41586-026-01212-5",
-      "summary": "<p>Nature, Published online: 16 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01212-5\">doi:10.1038/d41586-026-01212-5</a></p>Modelling suggests that the layer beneath the planet’s acidic clouds is comprised of particles from outer space.",
-      "body": "Nature, Published online: 16 April 2026; doi:10.1038/d41586-026-01212-5 Modelling suggests that the layer beneath the planet’s acidic clouds is comprised of particles from outer space.",
-      "image": null,
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "10692dc107b46e48",
-      "title": "Graves reveal plague’s inequitable toll",
-      "link": "https://www.nature.com/articles/d41586-026-01210-7",
-      "summary": "<p>Nature, Published online: 16 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01210-7\">doi:10.1038/d41586-026-01210-7</a></p>Most of the individuals in a seventeenth-century-Switzerland burial site had performed strenuous manual labour and died before the age of 20.",
-      "body": "Nature, Published online: 16 April 2026; doi:10.1038/d41586-026-01210-7 Most of the individuals in a seventeenth-century-Switzerland burial site had performed strenuous manual labour and died before the age of 20.",
-      "image": null,
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7a5af6f3d0db8b62",
-      "title": "Ageing could prime women for autoimmune disorders",
-      "link": "https://www.nature.com/articles/d41586-026-01213-4",
-      "summary": "<p>Nature, Published online: 16 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01213-4\">doi:10.1038/d41586-026-01213-4</a></p>Study of gene expression also finds age-related increases in men’s vulnerability to certain cancers.",
-      "body": "Nature, Published online: 16 April 2026; doi:10.1038/d41586-026-01213-4 Study of gene expression also finds age-related increases in men’s vulnerability to certain cancers.",
-      "image": null,
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "db35e3230f16214d",
-      "title": "The nine-to-five PhD: mere myth or an achievable goal?",
-      "link": "https://www.nature.com/articles/d41586-026-00509-9",
-      "summary": "<p>Nature, Published online: 16 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00509-9\">doi:10.1038/d41586-026-00509-9</a></p>Can you squeeze your graduate programme into a 40-hour working week? These 13 current and former PhD candidates reveal their top time-management tips.",
-      "body": "Nature, Published online: 16 April 2026; doi:10.1038/d41586-026-00509-9 Can you squeeze your graduate programme into a 40-hour working week? These 13 current and former PhD candidates reveal their top time-management tips.",
-      "image": null,
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a04f39d28d2f9db3",
-      "title": "Revealed: how male and female brain cells differ in gene activity",
-      "link": "https://www.nature.com/articles/d41586-026-01227-y",
-      "summary": "<p>Nature, Published online: 16 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01227-y\">doi:10.1038/d41586-026-01227-y</a></p>Variations in gene expression could help to explain why brain-disease risks differ according to sex.",
-      "body": "Nature, Published online: 16 April 2026; doi:10.1038/d41586-026-01227-y Variations in gene expression could help to explain why brain-disease risks differ according to sex.",
-      "image": null,
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e54bd7be09dd39fe",
-      "title": "Daily briefing: AI systems can ‘teach’ biases to other models",
-      "link": "https://www.nature.com/articles/d41586-026-01265-6",
-      "summary": "<p>Nature, Published online: 16 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01265-6\">doi:10.1038/d41586-026-01265-6</a></p>Data generated by AI ‘teachers’ can subliminally pass on particular traits to ‘student’ models. Plus, sperm-whale communication is structured similarly to s…",
-      "body": "Nature, Published online: 16 April 2026; doi:10.1038/d41586-026-01265-6 Data generated by AI ‘teachers’ can subliminally pass on particular traits to ‘student’ models. Plus, sperm-whale communication is structured similarly to some human languages and the success of China’s ‘Great Green Wall’.",
-      "image": null,
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "9eb85fd7c46ded94",
@@ -4228,774 +4084,6 @@
       "region": "global"
     },
     {
-      "id": "d6a2dd5bf536cad4",
-      "title": "Cytoplasmic lattices are megadalton storage complexes in mammalian oocytes",
-      "link": "https://www.nature.com/articles/s41586-026-10513-8",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10513-8\">doi:10.1038/s41586-026-10513-8</a></p>Cytoplasmic lattices are megadalton storage complexes in mammalian oocytes",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10513-8 Cytoplasmic lattices are megadalton storage complexes in mammalian oocytes",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "24c084237ca562dc",
-      "title": "Retraction Note: The hidden fitness of the male zebra finch courtship song",
-      "link": "https://www.nature.com/articles/s41586-026-10483-x",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10483-x\">doi:10.1038/s41586-026-10483-x</a></p>Retraction Note: The hidden fitness of the male zebra finch courtship song",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10483-x Retraction Note: The hidden fitness of the male zebra finch courtship song",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "2e658492fc787e0c",
-      "title": "Editorial Expression of Concern: Creation of human tumour cells with defined genetic elements",
-      "link": "https://www.nature.com/articles/s41586-026-10504-9",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10504-9\">doi:10.1038/s41586-026-10504-9</a></p>Editorial Expression of Concern: Creation of human tumour cells with defined genetic elements",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10504-9 Editorial Expression of Concern: Creation of human tumour cells with defined genetic elements",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c6647f71e79859df",
-      "title": "Author Correction: HER2 expression identifies dynamic functional states within circulating breast cancer cells",
-      "link": "https://www.nature.com/articles/s41586-026-10519-2",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10519-2\">doi:10.1038/s41586-026-10519-2</a></p>Author Correction: HER2 expression identifies dynamic functional states within circulating breast cancer cells",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10519-2 Author Correction: HER2 expression identifies dynamic functional states within circulating breast cancer cells",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "748f992e354fa8cc",
-      "title": "Carbonyl swapping converts cyclic ketones to saturated heterocycles",
-      "link": "https://www.nature.com/articles/s41586-026-10508-5",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10508-5\">doi:10.1038/s41586-026-10508-5</a></p>Carbonyl swapping converts cyclic ketones to saturated heterocycles",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10508-5 Carbonyl swapping converts cyclic ketones to saturated heterocycles",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a1cf20e94017cb57",
-      "title": "Giant cancer study reveals effectiveness of ‘off label’ treatments",
-      "link": "https://www.nature.com/articles/d41586-026-01241-0",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01241-0\">doi:10.1038/d41586-026-01241-0</a></p>Genomics-guided trial could increase options for people undergoing cancer therapy — plus, a landmark ancient-genome study reveals natural selection in hundr…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01241-0 Genomics-guided trial could increase options for people undergoing cancer therapy — plus, a landmark ancient-genome study reveals natural selection in hundreds of human genes.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d0250369723af5b4",
-      "title": "Monolithic 3D integration of tantalum pentoxide nonlinear photonics",
-      "link": "https://www.nature.com/articles/s41586-026-10379-w",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10379-w\">doi:10.1038/s41586-026-10379-w</a></p>Monolithic three-dimensional (3D) integration of tantalum pentoxide on a lithium niobate substrate enables scalable, multifunctional photonic systems and th…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10379-w Monolithic three-dimensional (3D) integration of tantalum pentoxide on a lithium niobate substrate enables scalable, multifunctional photonic systems and the incorporation of nonlinear optics directly into existing and emerging photonics infrastructure.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a7c0ec83a587ba48",
-      "title": "Linear RAG scanning mediates editing of Igκ variable region repertoires",
-      "link": "https://www.nature.com/articles/s41586-026-10362-5",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10362-5\">doi:10.1038/s41586-026-10362-5</a></p>Studies explaining the secondary Igk recombination mechanism are described and Cer/Sis deletion and/or displacement is implicated as a developmental switch …",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10362-5 Studies explaining the secondary Igk recombination mechanism are described and Cer/Sis deletion and/or displacement is implicated as a developmental switch converting the rearrangement mechanisms from two-loop-based diffusional primary Igk into one-loop-based linear scanning secondary mechanisms.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "635917bc66a10294",
-      "title": "Identifying the topographic signature of early Martian oceans",
-      "link": "https://www.nature.com/articles/s41586-026-10381-2",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10381-2\">doi:10.1038/s41586-026-10381-2</a></p>Shelves rather than shorelines may be better topographic indicators of oceans on Earth and Mars.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10381-2 Shelves rather than shorelines may be better topographic indicators of oceans on Earth and Mars.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8fd9f909d81417cc",
-      "title": "Brainwide blood volume reflects opposing neural populations",
-      "link": "https://www.nature.com/articles/s41586-026-10350-9",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10350-9\">doi:10.1038/s41586-026-10350-9</a></p>Combined functional ultrasound imaging and Neuropixels recording of mouse brains identify two neuronal populations with opposing arousal-related activity an…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10350-9 Combined functional ultrasound imaging and Neuropixels recording of mouse brains identify two neuronal populations with opposing arousal-related activity and distinct haemodynamic response functions, that occur throughout the brain.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f888de4ed19e6ecb",
-      "title": "Ancient DNA reveals pervasive directional selection across West Eurasia",
-      "link": "https://www.nature.com/articles/s41586-026-10358-1",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10358-1\">doi:10.1038/s41586-026-10358-1</a></p>Analysis of 15,836 ancient West Eurasian genomes reveals hundreds of instances of directional selection, showing that sustained changes in allele frequency …",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10358-1 Analysis of 15,836 ancient West Eurasian genomes reveals hundreds of instances of directional selection, showing that sustained changes in allele frequency were widespread, rather than being rare over this period as previously assumed.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "18af7158bbbce121",
-      "title": "Tumour promotion through the lens of evolution",
-      "link": "https://www.nature.com/articles/s41586-026-10386-x",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10386-x\">doi:10.1038/s41586-026-10386-x</a></p>This Review revisits tumour initiation and promotion in light of clonal diversity and the presence of cancer driver mutations in normal tissues, aiming to u…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10386-x This Review revisits tumour initiation and promotion in light of clonal diversity and the presence of cancer driver mutations in normal tissues, aiming to understand mechanisms that enable environmental and endogenous factors to expand tumorigenic clones.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a15d1a7dab0aafd4",
-      "title": "mRNA vaccines engage unconventional pathways in CD8<sup>+</sup> T cell priming",
-      "link": "https://www.nature.com/articles/s41586-026-10353-6",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10353-6\">doi:10.1038/s41586-026-10353-6</a></p>mRNA–lipid-nanoparticle vaccines do not require type 1 conventional dendritic (cDC1) cells or the WDFY4-dependent cross-presentation pathway for CD8+ T cell…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10353-6 mRNA–lipid-nanoparticle vaccines do not require type 1 conventional dendritic (cDC1) cells or the WDFY4-dependent cross-presentation pathway for CD8+ T cell priming but, instead, engage both cDC1 and cDC2 cells redundantly.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a90a0813782f2381",
-      "title": "Cell-type-targeted mitochondrial transplantation rescues cell degeneration",
-      "link": "https://www.nature.com/articles/s41586-026-10391-0",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10391-0\">doi:10.1038/s41586-026-10391-0</a></p>MitoCatch is a cell-type-specific mitochondrion-targeting system that links mitochondria and the cell surface by protein binders and delivers mitochondria i…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10391-0 MitoCatch is a cell-type-specific mitochondrion-targeting system that links mitochondria and the cell surface by protein binders and delivers mitochondria into the target cell.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "624bf415bbd8ffd8",
-      "title": "A spatial atlas of the healthy human liver from live donors",
-      "link": "https://www.nature.com/articles/s41586-026-10377-y",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10377-y\">doi:10.1038/s41586-026-10377-y</a></p>A human spatial atlas of gene expression in liver based on live donors shows marked porto–central zonation of hepatocytes and non-parenchymal cells, and tra…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10377-y A human spatial atlas of gene expression in liver based on live donors shows marked porto–central zonation of hepatocytes and non-parenchymal cells, and transcriptomic changes in early steatosis.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "447ec397e2e8ddc6",
-      "title": "A mechanism for adaptive genome regulation in cancer",
-      "link": "https://www.nature.com/articles/s41586-026-10269-1",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10269-1\">doi:10.1038/s41586-026-10269-1</a></p>In this Perspective article, a theoretical framework for how the AP-1 family of transcription factors mediates cellular adaptation in cancer drug resistance…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10269-1 In this Perspective article, a theoretical framework for how the AP-1 family of transcription factors mediates cellular adaptation in cancer drug resistance is proposed.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "62582001aa138cbd",
-      "title": "Molecular basis for methylation-sensitive editing by Cas9",
-      "link": "https://www.nature.com/articles/s41586-026-10384-z",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10384-z\">doi:10.1038/s41586-026-10384-z</a></p>ThermoCas9, a genome-editing enzyme that is sensitive to the DNA methylation status of the target locus, is characterized and shows promise for targeting hy…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10384-z ThermoCas9, a genome-editing enzyme that is sensitive to the DNA methylation status of the target locus, is characterized and shows promise for targeting hypomethylated DNA regions in cancer cells.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8be98a55a0215dc2",
-      "title": "Emergence of oncofetal plasticity is ubiquitous in early colorectal cancers",
-      "link": "https://www.nature.com/articles/s41586-026-10344-7",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10344-7\">doi:10.1038/s41586-026-10344-7</a></p>Metastasis-associated oncofetal cell states emerge at the earliest stages of colorectal cancer and spatial profiling shows stereotypic patterning of fibrobl…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10344-7 Metastasis-associated oncofetal cell states emerge at the earliest stages of colorectal cancer and spatial profiling shows stereotypic patterning of fibroblast subtypes resembling normal tissue architecture, resulting in distinct regional microenvironments that dictate the timing and positioning of oncofetal plasticity.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6e4e8e9d7900ab19",
-      "title": "Template-driven scaffolding of SCF<sup>FBXO42</sup> regulates PP2A degradation",
-      "link": "https://www.nature.com/articles/s41586-026-10368-z",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10368-z\">doi:10.1038/s41586-026-10368-z</a></p>The E3 ligase SCFFBXO42 degrades holoenzyme-free PP2Ac in complex with the coiled-coil protein CCDC6 to maintain cancer cell fitness",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10368-z The E3 ligase SCFFBXO42 degrades holoenzyme-free PP2Ac in complex with the coiled-coil protein CCDC6 to maintain cancer cell fitness",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "32b8535730e84d05",
-      "title": "Continuously tunable coherent pulse generation in a semiconductor laser",
-      "link": "https://www.nature.com/articles/s41586-026-10387-w",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10387-w\">doi:10.1038/s41586-026-10387-w</a></p>A monolithic mode-locked semiconductor laser with a continuously and widely tunable repetition rate is achieved by using a microwave driving signal that ind…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10387-w A monolithic mode-locked semiconductor laser with a continuously and widely tunable repetition rate is achieved by using a microwave driving signal that induces a spatiotemporal gain modulation along the entire laser cavity.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "f57b397eb9681b1d",
-      "title": "The neural mechanisms supporting the rise and fall of maternal aggression",
-      "link": "https://www.nature.com/articles/s41586-026-10354-5",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10354-5\">doi:10.1038/s41586-026-10354-5</a></p>In mice, female aggression is governed by an amygdala–to–medial hypothalamus circuit that is strengthened during pregnancy and is dynamically amplified by o…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10354-5 In mice, female aggression is governed by an amygdala–to–medial hypothalamus circuit that is strengthened during pregnancy and is dynamically amplified by oxytocin during lactation.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "495c7577a4118220",
-      "title": "Language models transmit behavioural traits through hidden signals in data",
-      "link": "https://www.nature.com/articles/s41586-026-10319-8",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10319-8\">doi:10.1038/s41586-026-10319-8</a></p>During model distillation, large language models can subtly transmit traits unrelated to the training data.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10319-8 During model distillation, large language models can subtly transmit traits unrelated to the training data.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4b2cbe1b0213e259",
-      "title": "Pixelated quantum-dot superlattice LEDs",
-      "link": "https://www.nature.com/articles/s41586-026-10392-z",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10392-z\">doi:10.1038/s41586-026-10392-z</a></p>Scalable fabrication of ordered perovskite quantum dot superlattices enables high-efficiency, ultrahigh-resolution LEDs and active-matrix displays with grea…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10392-z Scalable fabrication of ordered perovskite quantum dot superlattices enables high-efficiency, ultrahigh-resolution LEDs and active-matrix displays with greatly improved brightness, stability and device lifetime.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4c75b513bc41c02f",
-      "title": "300-unit-per-second roll-to-roll manufacturing of visible metalenses",
-      "link": "https://www.nature.com/articles/s41586-026-10369-y",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10369-y\">doi:10.1038/s41586-026-10369-y</a></p>This work demonstrates industrial-scale roll-to-roll fabrication of high-efficiency visible metalenses using nanoimprinting and TiO2 coating, achieving low …",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10369-y This work demonstrates industrial-scale roll-to-roll fabrication of high-efficiency visible metalenses using nanoimprinting and TiO2 coating, achieving low cost, high throughput and uniform performance, enabling commercialization of metasurfaces.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3485a87eeea3ac5f",
-      "title": "Imaging interface-controlled bulk oxygen spillover",
-      "link": "https://www.nature.com/articles/s41586-026-10324-x",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10324-x\">doi:10.1038/s41586-026-10324-x</a></p>In situ microscopic single-particle imaging demonstrates the significance of rationally engineered metal–support interfaces for activating the oxygen in bul…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10324-x In situ microscopic single-particle imaging demonstrates the significance of rationally engineered metal–support interfaces for activating the oxygen in bulk catalyst, helping elucidate reaction pathways in catalytic conversions.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0371cd7360aa3fc4",
-      "title": "Mapping convergent regulators of melanoma drug resistance by PerturbFate",
-      "link": "https://www.nature.com/articles/s41586-026-10367-0",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10367-0\">doi:10.1038/s41586-026-10367-0</a></p>PerturbFate is a high-throughput, cost-effective, single-cell platform that systematically profiles CRISPR interference perturbations to reveal common regul…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10367-0 PerturbFate is a high-throughput, cost-effective, single-cell platform that systematically profiles CRISPR interference perturbations to reveal common regulatory nodes and convergent phenotypic states across diverse genetic alterations linked to vemurafenib resistance in melanoma cells.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "edfc3e5eeb498a23",
-      "title": "EBV strain interacts with host HLA to drive nasopharyngeal carcinoma risk",
-      "link": "https://www.nature.com/articles/s41586-026-10416-8",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10416-8\">doi:10.1038/s41586-026-10416-8</a></p>A genome-to-genome association study identifies host and viral risk factors that interact to drive nasopharyngeal carcinoma endemicity in southern China.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10416-8 A genome-to-genome association study identifies host and viral risk factors that interact to drive nasopharyngeal carcinoma endemicity in southern China.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "97cf6db7de3f422f",
-      "title": "Composable neural emulators accelerate thermoelectric generator design",
-      "link": "https://www.nature.com/articles/s41586-026-10223-1",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10223-1\">doi:10.1038/s41586-026-10223-1</a></p>A composable neural network emulator is described for speeding up thermoelectric generator design, demonstrating the ability to predict generator performanc…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/s41586-026-10223-1 A composable neural network emulator is described for speeding up thermoelectric generator design, demonstrating the ability to predict generator performance with >99% accuracy while taking only 0.01% of the time compared with commercial finite-element solvers.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f925b908acc45b31",
-      "title": "What China’s Great Green Wall can teach the world",
-      "link": "https://www.nature.com/articles/d41586-026-01195-3",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01195-3\">doi:10.1038/d41586-026-01195-3</a></p>Efforts to boost tree cover and restore degraded land globally need stable funding and time to learn from failure.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01195-3 Efforts to boost tree cover and restore degraded land globally need stable funding and time to learn from failure.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3f77d44a26470926",
-      "title": "Four rising stars shaping the future of cancer research",
-      "link": "https://www.nature.com/articles/d41586-026-00688-5",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00688-5\">doi:10.1038/d41586-026-00688-5</a></p>Meet the creative minds that aim to improve cancer detection and treatment.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00688-5 Meet the creative minds that aim to improve cancer detection and treatment.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e5a1032c9f723ad7",
-      "title": "AI speeds up design of devices that turn waste heat into electricity",
-      "link": "https://www.nature.com/articles/d41586-026-00907-z",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00907-z\">doi:10.1038/d41586-026-00907-z</a></p>An artificial-intelligence system bypasses complex equations to predict the performance of thermoelectric generators.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00907-z An artificial-intelligence system bypasses complex equations to predict the performance of thermoelectric generators.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3f60dc1c5db61015",
-      "title": "Here are the top locations for cancer research in the Nature Index",
-      "link": "https://www.nature.com/articles/d41586-026-00690-x",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00690-x\">doi:10.1038/d41586-026-00690-x</a></p>A breakdown of publications in the database also reveals the cancer types with the highest output.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00690-x A breakdown of publications in the database also reveals the cancer types with the highest output.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "6b0b12cf91dcb44b",
-      "title": "I was set to lead an undergraduate research trip abroad. Then my visa was denied",
-      "link": "https://www.nature.com/articles/d41586-026-00403-4",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00403-4\">doi:10.1038/d41586-026-00403-4</a></p>Through flexibility, problem-solving and the generosity of colleagues, I shepherded students through fieldwork remotely.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00403-4 Through flexibility, problem-solving and the generosity of colleagues, I shepherded students through fieldwork remotely.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "763ebded77511d11",
-      "title": "Molecular profiling of gene-edited cells reveals shared drug-resistance mechanisms",
-      "link": "https://www.nature.com/articles/d41586-026-01181-9",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01181-9\">doi:10.1038/d41586-026-01181-9</a></p>A platform for tracking the changes in gene expression and chromatin accessibility that follow interference with specific genes has been developed. The plat…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01181-9 A platform for tracking the changes in gene expression and chromatin accessibility that follow interference with specific genes has been developed. The platform, called PerturbFate, was applied to skin-cancer cells and showed that different genetic perturbations associated with tumour resistance push cells into a shared dedifferentiated state.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3541c4ea1a0d32c2",
-      "title": "Brain–machine interface reveals the origin of a widely used neural signal",
-      "link": "https://www.nature.com/articles/d41586-026-01189-1",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01189-1\">doi:10.1038/d41586-026-01189-1</a></p>A type of activity in the brain’s cortex, called high gamma, is widely used in studies of brain function, but its origin has long been debated. An experimen…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01189-1 A type of activity in the brain’s cortex, called high gamma, is widely used in studies of brain function, but its origin has long been debated. An experiment using a brain–machine interface now shows that high-gamma activity is generated mainly by synchronized neuronal inputs, rather than outputs, which has implications for the interpretation of neuroscientific studies.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d6eac2ed13e3d2c5",
-      "title": "AI models ‘subliminally’ transmit biases when training other systems",
-      "link": "https://www.nature.com/articles/d41586-026-01224-1",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01224-1\">doi:10.1038/d41586-026-01224-1</a></p>Using artificial-intelligence to teach other models can be cheaper and faster than building them from scratch, but this approach can introduce dangerous tra…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01224-1 Using artificial-intelligence to teach other models can be cheaper and faster than building them from scratch, but this approach can introduce dangerous traits.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4eff11ecdd9c7527",
-      "title": "Global cancer rates are rising. How are countries reacting?",
-      "link": "https://www.nature.com/articles/d41586-026-00689-4",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00689-4\">doi:10.1038/d41586-026-00689-4</a></p>Denmark and South Korea stand out for their strong cancer strategies while England seeks to get back on track.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00689-4 Denmark and South Korea stand out for their strong cancer strategies while England seeks to get back on track.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "05bfcd1faf940ca9",
-      "title": "A guide to the Nature Index",
-      "link": "https://www.nature.com/articles/d41586-026-00691-w",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00691-w\">doi:10.1038/d41586-026-00691-w</a></p>A description of the terminology and methodology used in this supplement, and a guide to the functionality that is available free online at natureindex.com.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00691-w A description of the terminology and methodology used in this supplement, and a guide to the functionality that is available free online at natureindex.com.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "639142bcdfc62fb2",
-      "title": "Therapeutic mitochondria transplants made more efficient with targeting tool",
-      "link": "https://www.nature.com/articles/d41586-026-00910-4",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00910-4\">doi:10.1038/d41586-026-00910-4</a></p>A system of protein binders directs energy-generating organelles to targeted cells, potentially improving ways to treat mitochondrial dysfunction.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00910-4 A system of protein binders directs energy-generating organelles to targeted cells, potentially improving ways to treat mitochondrial dysfunction.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "73e862891d49849b",
-      "title": "Daily briefing: Youthifying 'mirror' brings back more vivid childhood memories",
-      "link": "https://www.nature.com/articles/d41586-026-01248-7",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01248-7\">doi:10.1038/d41586-026-01248-7</a></p>Looking at a childlike version of your face might help you see childhood memories more clearly. Plus, some AI disease-prediction models are trained on suspe…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01248-7 Looking at a childlike version of your face might help you see childhood memories more clearly. Plus, some AI disease-prediction models are trained on suspect data and how thermal imaging can reveal night-flying birds.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "761ed4aaa8f582c5",
-      "title": "Bad influence: LLMs can transmit malicious traits using hidden signals",
-      "link": "https://www.nature.com/articles/d41586-026-00906-0",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00906-0\">doi:10.1038/d41586-026-00906-0</a></p>A large language model that is trained using AI outputs can inherit undesirable behaviours, even if they are not directly referenced in the training data.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00906-0 A large language model that is trained using AI outputs can inherit undesirable behaviours, even if they are not directly referenced in the training data.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "419e89e7c5e34b3e",
-      "title": "A picture of health: gene-expression maps of the human liver from living donors",
-      "link": "https://www.nature.com/articles/d41586-026-01187-3",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01187-3\">doi:10.1038/d41586-026-01187-3</a></p>A high-resolution atlas of the healthy human liver has been assembled using gene-expression profiling and spatial mapping of cells in samples from living do…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01187-3 A high-resolution atlas of the healthy human liver has been assembled using gene-expression profiling and spatial mapping of cells in samples from living donors. The atlas reveals human-specific patterns of gene expression in different zones and uncovers spatially resolved adaptations in liver cells from individuals with the disease steatosis.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "834805607cec2422",
-      "title": "Can China’s Great Green Wall shape efforts to keep the world’s deserts at bay?",
-      "link": "https://www.nature.com/articles/d41586-026-01102-w",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01102-w\">doi:10.1038/d41586-026-01102-w</a></p>Grand anti-desertification schemes often fail when trees die and funding dries up — yet one project has broken the mould.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01102-w Grand anti-desertification schemes often fail when trees die and funding dries up — yet one project has broken the mould.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c496a74cb4221eaa",
-      "title": "Early-onset cancer fuels calls for wider screening — but at what cost?",
-      "link": "https://www.nature.com/articles/d41586-026-00687-6",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00687-6\">doi:10.1038/d41586-026-00687-6</a></p>As some countries lower the screening age for breast, colorectal and other cancers, scientists warn that it could cause more harm than good.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00687-6 As some countries lower the screening age for breast, colorectal and other cancers, scientists warn that it could cause more harm than good.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c3a9bab22ff3546f",
-      "title": "How effective is the personalized off-label use of targeted cancer treatment?",
-      "link": "https://www.nature.com/articles/d41586-026-00911-3",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00911-3\">doi:10.1038/d41586-026-00911-3</a></p>If general cancer treatment fails, a tumour-type-specific therapy might be tried for other cancers with genetic changes in the targeted pathway. How well do…",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00911-3 If general cancer treatment fails, a tumour-type-specific therapy might be tried for other cancers with genetic changes in the targeted pathway. How well does this work?",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "614ee6b705e9663e",
-      "title": "Dozens of AI disease-prediction models were trained on dubious data",
-      "link": "https://www.nature.com/articles/d41586-026-00697-4",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-00697-4\">doi:10.1038/d41586-026-00697-4</a></p>The models are designed to predict someone’s risk of diabetes or stroke. A few might already have been used on patients.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-00697-4 The models are designed to predict someone’s risk of diabetes or stroke. A few might already have been used on patients.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3e9f39094928670b",
-      "title": "Ozymandias undead",
-      "link": "https://www.nature.com/articles/d41586-026-01065-y",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01065-y\">doi:10.1038/d41586-026-01065-y</a></p>Nothing beside remains.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01065-y Nothing beside remains.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1034d918c95e5567",
-      "title": "Landmark ancient-genome study shows surprise acceleration of human evolution",
-      "link": "https://www.nature.com/articles/d41586-026-01204-5",
-      "summary": "<p>Nature, Published online: 15 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01204-5\">doi:10.1038/d41586-026-01204-5</a></p>Data from more than 15,000 ancient people reveal natural selection of hundreds of genes linked to immunity, skin tone, behaviour and other traits.",
-      "body": "Nature, Published online: 15 April 2026; doi:10.1038/d41586-026-01204-5 Data from more than 15,000 ancient people reveal natural selection of hundreds of genes linked to immunity, skin tone, behaviour and other traits.",
-      "image": null,
-      "pubDate": "2026-04-15T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b1c99c7a727623ea",
       "title": "Triassic croc relative from Ghost Ranch, New Mexico finally identified after nearly 80 years in museum basement",
       "link": "https://www.livescience.com/animals/extinct-species/triassic-croc-relative-from-ghost-ranch-new-mexico-finally-identified-after-nearly-80-years-in-museum-basement",
@@ -5108,22 +4196,6 @@
       "region": "global"
     },
     {
-      "id": "d17aa8d017096bea",
-      "title": "25 Healthy Snacks For When You’re Too Busy To Think About Food",
-      "link": "https://www.delish.com/kitchen-tools/g4497/healthy-snacks-to-buy/",
-      "summary": "These are proof that better-for-you food can still be delicious.",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/455eec94-dc0a-4ba1-bace-9c1531446a75.jpg",
-      "pubDate": "2026-04-14T16:47:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "5d45a8ce3c63c8ea",
       "title": "مأساة بالزاوية الحمراء.. قتلى بحريق التهم مصنعا في مصر",
       "link": "https://www.skynewsarabia.com/varieties/1864185-%D9%85%D8%A3%D8%B3%D8%A7%D8%A9-%D8%A8%D8%A7%D9%84%D8%B2%D8%A7%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-%D9%82%D8%AA%D9%84%D9%89-%D8%A8%D8%AD%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D9%87%D9%85-%D9%85%D8%B5%D9%86%D8%B9%D8%A7-%D9%85%D8%B5%D8%B1",
@@ -5138,38 +4210,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "c8bf5e95423e79a8",
-      "title": "How To Make A Latte At Home",
-      "link": "https://www.delish.com/cooking/recipe-ideas/a71006863/how-to-make-a-latte-recipe/",
-      "summary": "You’ll like it a latte.",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/de0b5c35-a886-4783-b1e4-efc82642e4b0.jpg",
-      "pubDate": "2026-04-14T15:42:52.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "18c48b088cc479e2",
-      "title": "Creamy Chorizo Pasta",
-      "link": "https://www.delish.com/cooking/recipe-ideas/a45550933/chorizo-pasta-recipe/",
-      "summary": "",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/creamy-chorizo-pasta-index-652da603eb693.jpg",
-      "pubDate": "2026-04-14T15:17:00.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
     },
     {
       "id": "ddeb935e3dabefc3",
@@ -5298,86 +4338,6 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
-    },
-    {
-      "id": "31a5890312ebec65",
-      "title": "Polyclonal selection of immune checkpoint mutations in thyroid autoimmunity",
-      "link": "https://www.nature.com/articles/s41586-026-10493-9",
-      "summary": "<p>Nature, Published online: 14 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10493-9\">doi:10.1038/s41586-026-10493-9</a></p>Polyclonal selection of immune checkpoint mutations in thyroid autoimmunity",
-      "body": "Nature, Published online: 14 April 2026; doi:10.1038/s41586-026-10493-9 Polyclonal selection of immune checkpoint mutations in thyroid autoimmunity",
-      "image": null,
-      "pubDate": "2026-04-14T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "923b9f4a488aa054",
-      "title": "Autonomous closed-loop framework for reproducible perovskite solar cells",
-      "link": "https://www.nature.com/articles/s41586-026-10482-y",
-      "summary": "<p>Nature, Published online: 14 April 2026; <a href=\"https://www.nature.com/articles/s41586-026-10482-y\">doi:10.1038/s41586-026-10482-y</a></p>Autonomous closed-loop framework for reproducible perovskite solar cells",
-      "body": "Nature, Published online: 14 April 2026; doi:10.1038/s41586-026-10482-y Autonomous closed-loop framework for reproducible perovskite solar cells",
-      "image": null,
-      "pubDate": "2026-04-14T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6e9f8be3649cc44e",
-      "title": "Stop overlooking librarians’ expertise",
-      "link": "https://www.nature.com/articles/d41586-026-01217-0",
-      "summary": "<p>Nature, Published online: 14 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01217-0\">doi:10.1038/d41586-026-01217-0</a></p>Stop overlooking librarians’ expertise",
-      "body": "Nature, Published online: 14 April 2026; doi:10.1038/d41586-026-01217-0 Stop overlooking librarians’ expertise",
-      "image": null,
-      "pubDate": "2026-04-14T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7a92b96d47dc1a16",
-      "title": "Deep-sea mining mustn’t go ahead until there are baseline data",
-      "link": "https://www.nature.com/articles/d41586-026-01215-2",
-      "summary": "<p>Nature, Published online: 14 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01215-2\">doi:10.1038/d41586-026-01215-2</a></p>Deep-sea mining mustn’t go ahead until there are baseline data",
-      "body": "Nature, Published online: 14 April 2026; doi:10.1038/d41586-026-01215-2 Deep-sea mining mustn’t go ahead until there are baseline data",
-      "image": null,
-      "pubDate": "2026-04-14T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3daac0ba088074c3",
-      "title": "AI agents replicate human social dynamics in days",
-      "link": "https://www.nature.com/articles/d41586-026-01218-z",
-      "summary": "<p>Nature, Published online: 14 April 2026; <a href=\"https://www.nature.com/articles/d41586-026-01218-z\">doi:10.1038/d41586-026-01218-z</a></p>AI agents replicate human social dynamics in days",
-      "body": "Nature, Published online: 14 April 2026; doi:10.1038/d41586-026-01218-z AI agents replicate human social dynamics in days",
-      "image": null,
-      "pubDate": "2026-04-14T00:00:00.000Z",
-      "source": {
-        "name": "Nature — Latest",
-        "homepage": "https://www.nature.com/nature.rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "060a1ef0a4cbd98b",
@@ -7025,22 +5985,6 @@
       },
       "lang": "ar",
       "category": "lifestyle",
-      "region": "gulf"
-    },
-    {
-      "id": "281de94f75e630c4",
-      "title": "كشف أثري جديد يعود للدولة القديمة في جنوب مصر",
-      "link": "https://www.skynewsarabia.com/varieties/1854507-%D9%83%D8%B4%D9%81-%D8%A3%D8%AB%D8%B1%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9-%D8%AC%D9%86%D9%88%D8%A8-%D9%85%D8%B5%D8%B1",
-      "summary": "تمكنت بعثة أثرية مصرية تابعة للمجلس الأعلى للآثار من العثور على مجموعة من المقابر الصخرية التي تعود لعصر الدولة القديمة، بها آبار وغرف للدفن، وذلك أثناء موسم حفائرها الحالي بمنطقة قبة الهواء بأسوان في جنوب مصر.",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v1/2026/02/22/1854506/95/53/1-1854506.png",
-      "pubDate": "2026-02-22T14:10:14.000Z",
-      "source": {
-        "name": "Sky News Arabia Varieties",
-        "homepage": "https://www.skynewsarabia.com/varieties"
-      },
-      "lang": "ar",
-      "category": "entertainment",
       "region": "gulf"
     },
     {
