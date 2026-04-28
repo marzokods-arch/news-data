@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T03:34:05.166Z",
-    "total": 200,
-    "processed_feeds": 21,
+    "generated_at": "2026-04-28T06:19:57.709Z",
+    "total": 197,
+    "processed_feeds": 20,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/ca7616e3-2af9-41bf-8f93-9a1035ae1e75",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -31,6 +18,19 @@
           "general"
         ],
         "taken": 0,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 73,
         "error": null,
         "notModified": false
       },
@@ -48,19 +48,6 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 73,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Hollywood Reporter",
         "url": "https://www.hollywoodreporter.com/feed/",
         "homepage": "https://www.hollywoodreporter.com/feed/",
@@ -69,7 +56,7 @@
         "cats": [
           "general"
         ],
-        "taken": 7,
+        "taken": 4,
         "error": null,
         "notModified": false
       },
@@ -108,7 +95,20 @@
         "cats": [
           "general"
         ],
-        "taken": 20,
+        "taken": 19,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Oilprice.com — Latest",
+        "url": "https://oilprice.com/rss/main",
+        "homepage": "https://oilprice.com/rss/main",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 8,
         "error": null,
         "notModified": false
       },
@@ -126,15 +126,15 @@
         "notModified": false
       },
       {
-        "name": "Oilprice.com — Latest",
-        "url": "https://oilprice.com/rss/main",
-        "homepage": "https://oilprice.com/rss/main",
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 7,
+        "taken": 18,
         "error": null,
         "notModified": false
       },
@@ -152,29 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -191,29 +178,16 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -243,16 +217,29 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -269,115 +256,243 @@
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 20,
+        "error": null,
         "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "62854a8a51154523",
-      "title": "BOJ leaves interest rates steady; flags more rate hikes amid inflation risks",
-      "link": "https://www.investing.com/news/economy-news/boj-leaves-interest-rates-steady-flags-more-rate-hikes-amid-inflation-risks-4640232",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEB1304I_M.jpg",
-      "pubDate": "2026-04-28T03:26:20.000Z",
+      "id": "02ea50e6468b5b8b",
+      "title": "كيفية الحصول على باقات الضيافة لكأس العالم 2026: التذاكر المميزة وخيارات الشراء والمزيد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%89-%D8%A8%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B6%D9%8A%D8%A7%D9%81%D8%A9-%D9%84%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D9%88%D8%AE%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF/blt0a8b0a1dcfe3fb2d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "إليك كيف يمكنك مشاهدة مباريات كأس العالم بأناقة هذا الصيف",
+      "body": "إليك كيف يمكنك مشاهدة مباريات كأس العالم بأناقة هذا الصيف يعتبر الجلوس في ملاعب متطورة ومشاهدة أفضل اللاعبين على كوكب الأرض وهم يسعون لتحقيق المجد العالمي تجربة لا تتكرر إلا مرة واحدة في العمر لعشاق كرة القدم. بالنسبة للمحظوظين الذين سيتوجهون إلى كأس العالم 2026 في أمريكا الشمالية هذا الصيف، يمكنهم تعزيز هذه التجربة بشكل أكبر من خلال شراء باقات الضيافة أو التذاكر المميزة. دعونا في كووورة نستعرض لكم جميع الخيارات المتاحة لضيافة كأس العالم، بما في ذلك الباقات والأسعار والمزيد. باقات وتذاكر الضيافة الرسمية لكأس العالم 2026 اشترِ تذكرتك الآن! متى ينطلق كأس العالم FIFA 2026؟ ستقام بطولة كأس العالم FIFA 2026 في الفترة من 11 يونيو إلى 19 يوليو 2026 ، وتغطي 16 مدينة مستضيفة في كندا والمكسيك والولايات المتحدة. سيتم لعب 104 مباراة على مدار 34 يومًا عبر أمريكا الشمالية. ولأول مرة، ستضم البطولة 48 فريقًا وتستضيفها ثلاث دول بشكل مشترك. كيفية الحصول على تذاكر ضيافة كأس العالم 2026 تتوفر تذاكر أو باقات الضيافة الرسمية لكأس العالم 2026 حصرياً من خلال منصة الضيافة التابعة للفيفا (FIFA) أو عبر \"On Location\" ، المزود الرسمي لخدمات الضيافة للبطولة. تختلف الباقات حسب مستوى الفخامة وعدد المباريات المشمولة. تشمل معظمها مقاعد مميزة، وطعامًا فاخرًا، ودخولاً حصريًا إلى الصالات. الباقات المتاحة هي كالتالي: …",
+      "image": null,
+      "pubDate": "2026-04-28T10:22:37.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
-      "id": "ac57886d33112c4d",
-      "title": "BOJ keeps rates steady but 3 board members dissent, call for hike",
-      "link": "https://www.investing.com/news/economy-news/boj-keeps-rates-steady-but-3-board-members-dissent-call-for-hike-4640230",
+      "id": "69ddd0cfcbd651c9",
+      "title": "Google signs classified AI deal with Pentagon, The Information reports",
+      "link": "https://www.investing.com/news/stock-market-news/google-signs-classified-ai-deal-with-pentagon-the-information-reports-4640272",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3R065_L.jpg",
-      "pubDate": "2026-04-28T03:24:42.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "10327f954ca20e0d",
-      "title": "Investors react to BOJ’s decision to hold rates",
-      "link": "https://www.investing.com/news/economy-news/investors-react-to-bojs-decision-to-hold-rates-4640231",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3R06H_L.jpg",
-      "pubDate": "2026-04-28T03:24:30.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0b08efd302373e52",
-      "title": "Suspect in Washington dinner shooting charged with trying to assassinate Trump",
-      "link": "https://www.investing.com/news/world-news/suspect-in-washington-dinner-shooting-set-to-appear-in-court-4638164",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3Q0JR_L.jpg",
-      "pubDate": "2026-04-28T03:13:05.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "86b57c32ff9c13a3",
-      "title": "Meta prepares to undo Manus acquisition after China ban, WSJ reports",
-      "link": "https://www.investing.com/news/stock-market-news/meta-prepares-to-undo-manus-acquisition-after-china-ban-wsj-reports-4640228",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3R05J_L.jpg",
-      "pubDate": "2026-04-28T03:12:45.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "aa75ac3e0259ed16",
-      "title": "OpenAI falls short of revenue and user targets as it races toward IPO, WSJ reports",
-      "link": "https://www.investing.com/news/stock-market-news/openai-falls-short-of-revenue-and-user-targets-as-it-races-toward-ipo-wsj-reports-4640229",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3R05O_L.jpg",
-      "pubDate": "2026-04-28T03:12:32.000Z",
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3R09Y_L.jpg",
+      "pubDate": "2026-04-28T06:06:55.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5a37a9a18f8911e7",
+      "title": "Zealand Pharma’s survodutide shows 16.6% weight loss in trial",
+      "link": "https://www.investing.com/news/company-news/zealand-pharmas-survodutide-shows-166-weight-loss-in-trial-93CH-4640300",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-28T06:05:49.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c7d12ca8625b7013",
+      "title": "Zealand Pharma’s survodutide achieves 16.6% weight loss in trial",
+      "link": "https://www.investing.com/news/company-news/zealand-pharmas-survodutide-achieves-166-weight-loss-in-trial-93CH-4640299",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-28T06:05:12.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "93f149dd9bc591e2",
+      "title": "Atalaya Mining grants share awards to executives and employees",
+      "link": "https://www.investing.com/news/company-news/atalaya-mining-grants-share-awards-to-executives-and-employees-93CH-4640298",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-28T06:03:28.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5c7ee7088ea2cbee",
+      "title": "Mexico urges US to avoid unauthorized operations after fatal Chihuahua crash; state prosecutor resigns",
+      "link": "https://www.investing.com/news/world-news/mexicos-sheinbaum-warns-us-involvement-in-antidrug-operation-not-to-be-repeated-4639429",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3Q11I_L.jpg",
+      "pubDate": "2026-04-28T06:01:07.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d3c898cceeb83909",
+      "title": "STARTRADER Posts $3.145 Trillion in Q1 2026 Trading Volume, Up 340% Year-on-Year",
+      "link": "https://www.investing.com/news/company-news/startrader-posts-3145-trillion-in-q1-2026-trading-volume-up-340-yearonyear-4640295",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC0Q1B5_M.jpg",
+      "pubDate": "2026-04-28T06:00:45.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "7aa7321177879dc7",
+      "title": "Energy prices drag German consumer sentiment to three-year low, survey finds",
+      "link": "https://www.investing.com/news/economic-indicators/energy-prices-drag-german-consumer-sentiment-to-threeyear-low-finds-survey-4637662",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3Q0AQ_L.jpg",
+      "pubDate": "2026-04-28T06:00:32.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "36d8999ea3ca35e1",
+      "title": "Taiwan stocks lower at close of trade; Taiwan Weighted unchanged",
+      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-lower-at-close-of-trade-taiwan-weighted-unchanged-4640294",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC3K0AH_M.jpg",
+      "pubDate": "2026-04-28T06:00:05.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c1922df04db3efbe",
+      "title": "AddLife Q1 sales fall short of analyst forecasts",
+      "link": "https://www.investing.com/news/stock-market-news/addlife-q1-sales-fall-short-of-analyst-forecasts-93CH-4640293",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXMPEA7D094_M.jpg",
+      "pubDate": "2026-04-28T05:59:52.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "1de95da237e75f45",
+      "title": "Will rule changes make noticeable difference in Miami? F1 Q&A",
+      "link": "https://www.bbc.com/sport/formula1/articles/c87w70zp5l0o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport F1 correspondent Andrew Benson answers your latest questions before the Miami Grand Prix.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T05:56:22.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "ec93b8f684400a2f",
+      "title": "The tactical fluidity that makes PSG so impressive",
+      "link": "https://www.bbc.com/sport/football/articles/cx2w2d178j5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Despite boasting squads that have included the likes of Lionel Messi, Neymar and Kylian Mbappe, it is the current Paris St-Germain side that is playing the club's most impressive football.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T05:45:11.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "07b9ad3c2be01f6c",
+      "title": "Wall Street is getting twitchy on oil prices",
+      "link": "https://www.ft.com/content/016fc404-becc-4f80-a4b5-3257cf01d1d5",
+      "summary": "Plus, dollar dreams and reality",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T05:30:07.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "4af61a61ae88fc7b",
+      "title": "ADNOC Sets Sights on U.S. Gas With Multibillion-Dollar Expansion Plan",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Sets-Sights-on-US-Gas-With-Multibillion-Dollar-Expansion-Plan.html",
+      "summary": "The UAE’s ADNOC plans to invest billions of dollars in building a presence in the U.S. natural gas industry, the Financial Times reported today, citing the chief executive of ADNOC’s international investment division, XRG. Nameer Siddiqui told the FT that the company was in the process of evaluatin…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T05:22:22.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -387,7 +502,7 @@
       "summary": "China said Monday it has decided to block Meta's $2 billion acquisition of Manus, a Singaporean AI startup with Chinese roots.",
       "body": null,
       "image": null,
-      "pubDate": "2026-04-28T03:08:59.000Z",
+      "pubDate": "2026-04-28T05:06:24.000Z",
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
@@ -397,19 +512,131 @@
       "region": "global"
     },
     {
-      "id": "9d5ca7de8831559b",
-      "title": "Energizer Holdings declares $0.30 quarterly dividend",
-      "link": "https://www.investing.com/news/company-news/energizer-holdings-declares-030-quarterly-dividend-93CH-4640226",
-      "summary": "",
+      "id": "0f6a32f63819827b",
+      "title": "Meta, Google, OpenAI among Big Tech firms seeing top staff leaving to launch AI startups",
+      "link": "https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html",
+      "summary": "Former employees at AI giants are raising hundreds of millions of dollars from investors months on from launching.",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-04-28T03:01:16.000Z",
+      "image": null,
+      "pubDate": "2026-04-28T05:05:47.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "128efd9db556c8fc",
+      "title": "Much ado about the 1974 ‘petrodollar’ deal",
+      "link": "https://www.ft.com/content/a65efb54-306b-49ad-9920-40d59b195623",
+      "summary": "KSA 🤜 🤛 USA?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T05:00:07.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0f0146a028e4306f",
+      "title": "Ranking the players who could decide Champions League semi-finals",
+      "link": "https://www.bbc.com/sport/football/articles/c5yw5g3e7nko?at_medium=RSS&at_campaign=rss",
+      "summary": "Which players will prove key to their team’s chances in the Champions League last four? We've ranked the top 10.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T04:54:13.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "976b249c23fec6b4",
+      "title": "Jimmy Kimmel Defends Melania Trump “Widow” Joke, Refuses to Apologize for It",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/jimmy-kimmel-joke-trump-defends-1236578757/",
+      "summary": "The 'Jimmy Kimmel Live!' host reacted to the backlash to his joke about Trump before the WHCD shooting: \"Obviously it was a joke about their age difference ... and they know that.\"",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T04:17:26.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "730ed8bd56861e9b",
+      "title": "Milken family office alumni raise $4bn to target private capital upheaval",
+      "link": "https://www.ft.com/content/4bd56a80-948c-4749-a3ce-4cb1ae4ddfc5",
+      "summary": "Silver Rock Capital Partners draws in biggest credit fund to date",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T04:00:28.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "441c261b19baa7af",
+      "title": "After conquering nickel, Indonesia sets its sights on aluminium",
+      "link": "https://www.ft.com/content/cf80e859-ee81-4dd2-8f6c-a408ea13798b",
+      "summary": "Analysts fear Chinese-funded build-up of smelters will lead to oversupply",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T04:00:08.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "cf704358bbc099b4",
+      "title": "Private equity deals where the seller is also the buyer",
+      "link": "https://www.ft.com/content/541dd514-bad3-491f-9309-862a4dc6c633",
+      "summary": "Investors question if some institutions rubber-stamp deals that could benefit other businesses",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T04:00:00.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "4153f71777bfb47f",
+      "title": "Mac wants to 'earn' place in Wrexham history",
+      "link": "https://www.bbc.com/sport/football/articles/c39327e892jo?at_medium=RSS&at_campaign=rss",
+      "summary": "TV star and Wrexham co-owner Rob Mac is impressed as he tours the Football Museum of Wales which opens later this year and wants own section.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-28T03:49:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -442,38 +669,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b283d339eb12a99c",
-      "title": "BCI March 2026 slides: first salt crystals amid 81% construction",
-      "link": "https://www.investing.com/news/company-news/bci-march-2026-slides-first-salt-crystals-amid-81-construction-93CH-4640224",
-      "summary": "",
-      "body": null,
-      "image": "https://csv-storage.forexpros.com/slides/46f9a7e2b36ea9dabdab30edd5e97890c45f5eb696c23e318d9b0faae3edc80d.png",
-      "pubDate": "2026-04-28T02:51:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "a69ea600a9438b47",
-      "title": "Hut 8 prices $3.25 billion notes for data center project",
-      "link": "https://www.investing.com/news/company-news/hut-8-prices-325-billion-notes-for-data-center-project-93CH-4640223",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-04-28T02:33:04.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -701,6 +896,22 @@
       "region": "global"
     },
     {
+      "id": "8770932e2ffcd0c8",
+      "title": "How to complete The One That Got Away in Diablo 4",
+      "link": "https://www.pcgamer.com/games/action/diablo-4-the-one-that-got-away-fish-locations/",
+      "summary": "Help Shi Yugong catch Augur of Civo, Morayaga, Crookfish, Zakarati, Neme-Sanga, and Drakonbeard.",
+      "body": "Completing The One That Got Away quest in Diablo 4 likely won't interest you if you're not a fan of fishing, but if you're curious what aquatic horrors (and junk) you can find in Sanctuary's watery depths, you might decide to help Shi Yugong in his collection quest. Though the fishing itself is super straightforward, as you will have discovered in the previous Favor for a Favor quest, finding six specific fish across Sanctuary might seem overwhelming. Worry not, though, I've included details about where to find each below. Obviously, this guide will contain spoilers for this fishing quest . Otherwise, though, here's where to go. How to complete The One That Got Away in Diablo 4 You can find a yellow rarity fish in each of Sanctuary's regions (Image credit: Blizzard) While Shi Yugong asks you to catch six yellow rarity fish across Sanctuary, the good news is that Diablo 4's fish are region-based , meaning you don't have to track down a specific body of water—any pond or pool will eventually net you the right one, provided you're in the right region, and you just keep fishing. For simplicity, though, here's where I went for each: Rare Fish Location Augur of Civo Dry Steppes: I fishe…",
+      "image": "https://cdn.mos.cms.futurecdn.net/ph6XyTLBLMDcZPSUa2Wxpc-1280-80.jpg",
+      "pubDate": "2026-04-27T23:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "1c021375a85a275f",
       "title": "Best Warlock build in Diablo 4",
       "link": "https://www.pcgamer.com/games/action/diablo-4-warlock-build-guide/",
@@ -723,22 +934,6 @@
       "summary": "Solve each puzzle in the Labyrinthine Grove.",
       "body": "Completing The Path of Riddles in Diablo 4 might be a bit more puzzly than you're used to. After all, you've likely spent most of your time on Skovos blitzing through mobs and elites with your OP Warlock—ARPGs aren't always the most brain-on games, except in buildcrafting terms, I suppose. In this quest, you'll have to solve three riddles in the Labyrinthine Grove so you can reach the hidden sanctuary at its end. I've kept narrative details to a minimum, but this guide will contain spoilers for this main campaign puzzle in particular. Here's how to complete The Path of Riddles. First riddle answer When exploring the grove, you'll come to a Time-Worn Statue and upon inspection, will read the following riddle: \"I see all, yet know nothing. All of Sanctuary is beneath me. What am I?\" To give your answer to each riddle in the grove, you have to interact with one of the nearby braziers to light it. In this case, you'll want to light the Flame of the Mother brazier by interacting with it, which will open the way into the next area with a portal. What happens if you choose the wrong answer? You'll be funnelled into a room with an ambush encounter, so nothing too life-threatening. Second …",
       "image": "https://cdn.mos.cms.futurecdn.net/vogzhL8CLEYhgoYfjxzxmk-1280-80.jpg",
-      "pubDate": "2026-04-27T23:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8770932e2ffcd0c8",
-      "title": "How to complete The One That Got Away in Diablo 4",
-      "link": "https://www.pcgamer.com/games/action/diablo-4-the-one-that-got-away-fish-locations/",
-      "summary": "Help Shi Yugong catch Augur of Civo, Morayaga, Crookfish, Zakarati, Neme-Sanga, and Drakonbeard.",
-      "body": "Completing The One That Got Away quest in Diablo 4 likely won't interest you if you're not a fan of fishing, but if you're curious what aquatic horrors (and junk) you can find in Sanctuary's watery depths, you might decide to help Shi Yugong in his collection quest. Though the fishing itself is super straightforward, as you will have discovered in the previous Favor for a Favor quest, finding six specific fish across Sanctuary might seem overwhelming. Worry not, though, I've included details about where to find each below. Obviously, this guide will contain spoilers for this fishing quest . Otherwise, though, here's where to go. How to complete The One That Got Away in Diablo 4 You can find a yellow rarity fish in each of Sanctuary's regions (Image credit: Blizzard) While Shi Yugong asks you to catch six yellow rarity fish across Sanctuary, the good news is that Diablo 4's fish are region-based , meaning you don't have to track down a specific body of water—any pond or pool will eventually net you the right one, provided you're in the right region, and you just keep fishing. For simplicity, though, here's where I went for each: Rare Fish Location Augur of Civo Dry Steppes: I fishe…",
-      "image": "https://cdn.mos.cms.futurecdn.net/ph6XyTLBLMDcZPSUa2Wxpc-1280-80.jpg",
       "pubDate": "2026-04-27T23:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -861,8 +1056,8 @@
       "region": "global"
     },
     {
-      "id": "10bc9639987dd839",
-      "title": "Higgins beats O'Sullivan, Trump loses to Vafaei",
+      "id": "2045866cdbd393d0",
+      "title": "Trump, O'Sullivan and Selby fall on same day at Crucible",
       "link": "https://www.bbc.com/sport/snooker/articles/c3r3r5q3pl3o?at_medium=RSS&at_campaign=rss",
       "summary": "Four-time winner John Higgins produces a sensational recovery from 8-3 and 9-4 down to defeat Ronnie O'Sullivan 13-12, but world number one Judd Trump is eliminated on a thrilling day at the World Championship.",
       "body": null,
@@ -909,38 +1104,6 @@
       "region": "global"
     },
     {
-      "id": "ec1dceb6951cbf8c",
-      "title": "Luke Tennie on His Busy Spring With ‘Shrinking,’ ‘The Pitt’ and ‘Abbott Elementary’",
-      "link": "https://www.hollywoodreporter.com/tv/tv-features/luke-tennie-shrinking-the-pitt-abbott-elementary-interview-1236562877/",
-      "summary": "The 31-year-old actor reflects on ‘Shrinking’ and its future, joining ‘The Pitt’ and why comedy can be the hardest to execute but ‘Abbott Elementary’ makes it look easy: “When you're on the court and Michael Jordan is your teammate, how hard is the game?”",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T22:27:50.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "47d2a1230e879f05",
-      "title": "The Scariest Horror Shorts of the Overlook Film Festival",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/the-scariest-horror-shorts-of-2026-1236578209/",
-      "summary": "Some of the bigger horror filmmakers of the last few years started off in shorts. Is the next big horror maestro on this list?",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T22:18:45.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "09365fa6bdce2c78",
       "title": "Obsidian caused some trouble by using the Rorschach Test in Fallout: New Vegas: 'Those folks came to Bethesda and said we're gonna have a fun lawsuit on our hands, so pony up!'",
       "link": "https://www.pcgamer.com/games/fallout/obsidian-caused-some-trouble-by-using-the-rorschach-test-in-fallout-new-vegas-those-folks-came-to-bethesda-and-said-were-gonna-have-a-fun-lawsuit-on-our-hands-so-pony-up/",
@@ -970,22 +1133,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "cf608fcd57664f91",
-      "title": "‘Verity’ Trailer: Anne Hathaway Warns Dakota Johnson of “Darkness Ahead” in First Look at Colleen Hoover Film Adaptation",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/verity-trailer-anne-hathaway-dakota-johnson-1236578548/",
-      "summary": "Based on the bestseller from the author, Johnson stars in the film adaptation that teases lingering secrets and a dark sinister mystery awaiting to be solved.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T21:59:17.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1050,22 +1197,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "224990ec9ce3bb29",
-      "title": "Jack Reynor Talks ‘Lee Cronin’s The Mummy’ Original Ending and His Busy Upcoming Slate",
-      "link": "https://www.hollywoodreporter.com/movies/movie-features/jack-reynor-talks-lee-cronins-the-mummy-original-ending-1236578412/",
-      "summary": "He looks ahead to season two of 'Presumed Innocent,' as well as other upcoming turns opposite both Nick Jonas and Priyanka Chopra-Jonas.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T21:37:50.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1645,22 +1776,6 @@
       "region": "mena"
     },
     {
-      "id": "c8adad54f290b9ca",
-      "title": "Wales fly-half Sheedy signs new Cardiff contract",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cwyjy409pqyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 30-year-old says he is \"desperate to do everything possible to make sure it is a successful period for the club\".",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T18:00:09.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "41d2f7db59febb10",
       "title": "Nuclear Fusion’s Funding Rush Comes With a Catch",
       "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Nuclear-Fusions-Funding-Rush-Comes-With-a-Catch.html",
@@ -1795,22 +1910,6 @@
       "summary": "معركة ساخنة تنتظر الكبيرين",
       "body": "معركة ساخنة تنتظر الكبيرين بين ذكريات السقوط ومرارة الانكسار، تطل ذكرى التاسع والعشرين من أبريل بملامح درامية قد لا يتحملها قلب جورجي جيسوس، مدرب النصر، عندما يواجه الألماني ماتياس يايسله، المدير الفني للأهلي، بعد غدٍ الأربعاء، ضمن منافسات الجولة 30 من دوري روشن للمحترفين. اليوم، يعود التاريخ ليقف على أعتاب هذا الكلاسيكو المرتقب، حاملاً معه رائحة الانتقام أو الإبادة، في مواجهة لم تعد مجرد صراع على ثلاث نقاط، بل تحولت إلى اختبار مصيري قد يرسم ملامح بطل الموسم بشكل كبير. جيسوس يدرك جيدًا أن مواجهة “الشاب الألماني” ليست سهلة، خاصة بعدما تفوق يايسله عليه في آخر أربع مواجهات مباشرة، وهو ما يمنح اللقاء طابعًا شخصيًا وتحديًا فنيًا خاصًا بين المدربين. اقرأ أيضًا.. لغز محير.. كيف هزم الأهلي مليارات الهلال والنصر والاتحاد؟ اقرأ أيضًا.. على خطى برشلونة.. هل يدفع جيسوس ثمن انتحاره في كلاسيكو الأهلي؟ ويدخل النصر المباراة متربعًا على صدارة جدول الترتيب برصيد 76 نقطة، بينما يحتل الأهلي المركز الثالث بفارق 10 نقاط، مع امتلاك “الراقي” مباراة مؤجلة، ما يجعل نتيجة المواجهة حاسمة للطرفين. صراع متكافئ بين يايسله وجيسوس تقابل ماتياس يايسله وجورجي جيسوس في 8 مواجهات مباشرة من قبل، وشهدت هذه الصدامات تنافسًا كبيرًا بين المدربين، بعدما نجح جيسوس في فرض تفوقه خلال أول 4 مباريات، قبل أن يقلب يايسله المشهد ت…",
       "image": "https://assets.kooora.com/images/v3/bltcaddf5ad76724e0a/KOO250307_HIC_AlAhli_16x9.png",
-      "pubDate": "2026-04-27T17:01:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8c8db9c35967bb81",
-      "title": "صدمة غير متوقعة.. إعلامي سعودي يطالب بطرد محرز من الأهلي!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AF%D9%85%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%AA%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%95%D8%B9%D9%84%D8%A7%D9%85%D9%8A-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B7%D8%A7%D9%84%D8%A8-%D8%A8%D8%B7%D8%B1%D8%AF-%D9%85%D8%AD%D8%B1%D8%B2-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A/bltc04c78c7d54f3e79?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل يرحل الساحر الجزائري في نهاية الموسم؟",
-      "body": "هل يرحل الساحر الجزائري في نهاية الموسم؟ أثار مستقبل رياض محرز مع الأهلي السعودي جدلًا واسعًا، بعدما طالب أحد الإعلاميين برحيل الجناح الجزائري مع نهاية الموسم الجاري، رغم دوره البارز في نجاحات “الراقي” خلال الفترة الأخيرة. ويأتي هذا الجدل بعد أقل من 48 ساعة فقط من تتويج الأهلي بلقب دوري أبطال آسيا للنخبة، عقب الفوز على ماتشيدا الياباني بهدف دون رد في النهائي، في إنجاز جديد يُحسب للفريق ونجومه الكبار. وخلال ظهوره في برنامج \"كورة\"، علّق الإعلامي محمد الصدعان على مستوى محرز، مؤكدًا أنه لاعب كبير وصاحب قيمة فنية عالية، ونجح بالفعل في قيادة الأهلي لتحقيق أهداف مهمة، أبرزها التتويج القاري. اقرأ أيضًا.. بعد التتويج الآسيوي.. عقوبات صادمة تنتظر نجوم الأهلي كما أشاد بعقلية النجم الجزائري وبما يقدمه داخل الملعب، إلى جانب بعض الأسماء الأجنبية الأخرى مثل فرانك كيسي، معتبرًا أن هذه النوعية من اللاعبين لعبت دورًا مهمًا في بناء شخصية الفريق التنافسية. لكن في المقابل، رأى الصدعان أن المرحلة المقبلة قد تستدعي إعادة تقييم لبعض العناصر داخل الفريق، مشيرًا إلى أن محرز وكيسي قدّما كل ما لديهما، وأن الوقت قد يكون مناسبًا للتفكير في تغيير بعض الأسماء لضخ دماء جديدة. وأوضح أن الأندية الكبرى دائمًا ما تواجه قرارات صعبة بعد تحقيق النجاحات، مؤكدًا أن الاستمرارية في القمة تحتاج أحيانًا إلى تغييرات جذرية حتى …",
-      "image": null,
       "pubDate": "2026-04-27T17:01:32.000Z",
       "source": {
         "name": "Kooora",
@@ -1978,22 +2077,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "09aea8218e2f9b99",
-      "title": "Oil giant Shell to buy Canada’s ARC Resources for $16.4 billion in push to boost output",
-      "link": "https://www.cnbc.com/2026/04/27/shell-arc-resources-acquisition-16-billion-energy-oil.html",
-      "summary": "The transaction will add roughly 370,000 barrels of oil equivalent per day to Shell's portfolio and is designed to boost the firm's long-term production.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T16:27:38.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
@@ -2250,22 +2333,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0c44f0093eb9f653",
-      "title": "United Airlines CEO confirms he approached American Airlines about merger",
-      "link": "https://www.cnbc.com/2026/04/27/united-airlines-merger-with-american-airlines-ceo-airline-confirms.html",
-      "summary": "United CEO Scott Kirby said American rejected the idea, \"and without a willing partner, something this big simply can't get done.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T14:51:42.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2589,22 +2656,6 @@
       "region": "global"
     },
     {
-      "id": "11fcb34e26db7ed4",
-      "title": "Yafai to top Sheffield bill after Smith injury",
-      "link": "https://www.bbc.com/sport/boxing/articles/c04x4kq2xneo?at_medium=RSS&at_campaign=rss",
-      "summary": "Britain's WBC light-welterweight champion Dalton Smith is ruled out of his fight with Alberto Puello through injury.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T11:52:42.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "d50082ae2985ff84",
       "title": "'It surprised me' - how Sawe made history with sub-two-hour marathon",
       "link": "https://www.bbc.com/sport/athletics/articles/cp383n09030o?at_medium=RSS&at_campaign=rss",
@@ -2893,8 +2944,8 @@
       "region": "global"
     },
     {
-      "id": "ef251aa1370c1f11",
-      "title": "The winners & losers from the 2026 NFL Draft",
+      "id": "6709ac0e5497a7f1",
+      "title": "Winners & losers from the 2026 NFL Draft",
       "link": "https://www.bbc.com/sport/american-football/articles/cql7qwzgq30o?at_medium=RSS&at_campaign=rss",
       "summary": "Did the Los Angeles Rams make a big mistake? Did the Las Vegas Raiders build enough around Fernando Mendoza? And could there finally be something to shout about for the two New York teams?",
       "body": null,
@@ -2970,22 +3021,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2bbefa2ffbaa6828",
-      "title": "'Four days of hell in hospital' - Kearns on miscarriage",
-      "link": "https://www.bbc.com/sport/football/articles/ce8l826gq0lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Aston Villa and England midfielder Missy Bo Kearns says she spent \"four days of hell in hospital\" after suffering a miscarriage and contracting sepsis.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-26T22:15:27.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3165,22 +3200,6 @@
       "region": "global"
     },
     {
-      "id": "cc697c80ab000363",
-      "title": "Major City reforms to be set out in King’s Speech",
-      "link": "https://www.ft.com/content/5811b388-1b45-42c9-b2a3-baa72e7807b8",
-      "summary": "Legislative package will include financial services bill designed to complete several planned changes to regulation",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-26T12:00:07.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "b522b69239d245ef",
       "title": "'I am so happy' - Sawe reacts to record-breaking marathon win",
       "link": "https://www.bbc.com/sport/athletics/videos/cz676p3wp8po?at_medium=RSS&at_campaign=rss",
@@ -3194,22 +3213,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "90e13a6ba1257f5d",
-      "title": "UK car loan companies accept £9bn mis-selling redress scheme",
-      "link": "https://www.ft.com/content/a2e9cd62-3e0c-4600-9f1f-4a8442335c08",
-      "summary": "Main industry finance trade body reverses course on legal challenge to FCA plan",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-26T11:34:39.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3236,38 +3239,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-04-26T11:15:02.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b1d590ad5cc17b26",
-      "title": "Colombia hosts first meeting to quit fossil fuels as energy crisis worsens",
-      "link": "https://www.ft.com/content/38ecdbe0-a524-45bf-90d6-d90be82dcdee",
-      "summary": "‘Coalition of the willing’ kicks off strategy talks despite absence of big emitters",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-26T11:13:46.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5419744114191478",
-      "title": "Trophyless to treble? Man City's quest for more history",
-      "link": "https://www.bbc.com/sport/football/articles/c1d9v1qvpxqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City were in a state of turmoil this time last year – staring at a first trophyless season since 2017 – but they are now in with a chance of a domestic treble.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-25T20:13:26.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -3322,38 +3293,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6e4dc18b9ef0f44e",
-      "title": "Marketing collective The Independents explores $1bn stake sale",
-      "link": "https://www.ft.com/content/4652e9cf-8b59-41eb-9c5e-b48f4f7ecd8c",
-      "summary": "Paris-based group in talks with its investors amid slump in high-end market",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-25T10:00:09.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "bb2533e6264349de",
-      "title": "No edge, no hedge: why markets are stuck",
-      "link": "https://www.ft.com/content/fff7a84f-83bf-45af-9a3d-78e0cf181539",
-      "summary": "Neither extreme optimism nor extreme pessimism makes much sense, and neither is easy nor safe to express",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-25T04:00:40.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
