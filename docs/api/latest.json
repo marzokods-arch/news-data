@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-29T22:39:31.276Z",
-    "total": 194,
-    "processed_feeds": 20,
-    "discovered_feeds": 84,
+    "generated_at": "2026-04-29T23:34:28.487Z",
+    "total": 200,
+    "processed_feeds": 21,
+    "discovered_feeds": 85,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
@@ -17,7 +17,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 69,
+        "taken": 70,
         "error": null,
         "notModified": false
       },
@@ -35,6 +35,19 @@
         "notModified": false
       },
       {
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/7ef8de32-140c-4002-87cc-f1f94406bcbe",
+        "homepage": "https://www.espn.com/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
         "name": "Masrawy Sports",
         "url": "https://www.masrawy.com/rss",
         "homepage": "https://www.masrawy.com/channel/sports",
@@ -44,7 +57,7 @@
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -69,7 +82,7 @@
         "cats": [
           "general"
         ],
-        "taken": 21,
+        "taken": 22,
         "error": null,
         "notModified": false
       },
@@ -100,19 +113,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Investing.com News (EN)",
         "url": "https://www.investing.com/rss/news.rss",
         "homepage": "https://www.investing.com/rss/news.rss",
@@ -121,20 +121,7 @@
         "cats": [
           "general"
         ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 17,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -160,7 +147,20 @@
         "cats": [
           "general"
         ],
-        "taken": 6,
+        "taken": 7,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 17,
         "error": null,
         "notModified": false
       },
@@ -204,9 +204,35 @@
         "notModified": false
       },
       {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -239,38 +265,393 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 403",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 20,
+        "error": null,
         "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "efe7ccda4913f619",
+      "title": "Box Office Preview: ‘Devil Wears Prada 2’ to Sew Up at Least $70M-$75M in U.S. Opening, $175M Globally",
+      "link": "https://www.hollywoodreporter.com/news/general-news/box-office-devil-wears-prada-2-1236579757/",
+      "summary": "The sequel — reuniting Anne Hathaway, Meryl Streep, Emily Blunt and Stanley Tucci — is the first chick flick to ever kick off the summer box office as superheroes get their capes overhauled.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T23:28:24.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "be54dc8b89681704",
+      "title": "Form 424B5 HCA Holdings Inc For: 29 April",
+      "link": "https://www.investing.com/news/filings/form-424b5-hca-holdings-inc-for-29-april-93CH-4647483",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_10_M_1440052130.jpg",
+      "pubDate": "2026-04-29T23:27:16.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "6a595617f08bef82",
+      "title": "Form 13D/A NUVEEN NEW JERSEY QUALITY MUNICIPAL INCOME FUND For: 29 April",
+      "link": "https://www.investing.com/news/filings/form-13da-nuveen-new-jersey-quality-municipal-income-fund-for-29-april-93CH-4647482",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-29T23:27:14.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "0cebb1f038760511",
+      "title": "Magnolia Capital, Adam Peterson sell $14.03m RE/MAX Holdings stock",
+      "link": "https://www.investing.com/news/insider-trading-news/magnolia-capital-adam-peterson-sell-1403m-remax-holdings-stock-93CH-4647481",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+      "pubDate": "2026-04-29T23:25:47.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5b073d9e91360fbc",
+      "title": "Zenas BioPharma CEO Moulder buys $1.07m in ZBIO shares",
+      "link": "https://www.investing.com/news/insider-trading-news/zenas-biopharma-ceo-moulder-buys-107m-in-zbio-shares-93CH-4647480",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/international_newspapers_108x81.jpg",
+      "pubDate": "2026-04-29T23:25:40.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "1879051b61824966",
+      "title": "Wall Street ends mixed ahead of big tech earnings",
+      "link": "https://www.investing.com/news/economy-news/wall-street-ends-mixed-after-fed-decision-big-tech-earnings-on-tap-4646815",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3S1J3_L.jpg",
+      "pubDate": "2026-04-29T23:24:33.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "af50fd8625396b5b",
+      "title": "Werewolf Therapeutics director Luke Evnin sells $154,525 in stock",
+      "link": "https://www.investing.com/news/insider-trading-news/werewolf-therapeutics-director-luke-evnin-sells-154525-in-stock-93CH-4647479",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+      "pubDate": "2026-04-29T23:21:52.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "948058e833389044",
+      "title": "Form 13D/A Indaptus Therapeutics For: 29 April",
+      "link": "https://www.investing.com/news/filings/form-13da-indaptus-therapeutics-for-29-april-93CH-4647478",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-29T23:21:24.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "15202806f1f09644",
+      "title": "Form 13D/A NUVEEN PENNSYLVANIA QUALITY MUNICIPAL INCOME FUND For: 29 April",
+      "link": "https://www.investing.com/news/filings/form-13da-nuveen-pennsylvania-quality-municipal-income-fund-for-29-april-93CH-4647477",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-29T23:21:22.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "40af5ca89936c031",
+      "title": "Form DEF 14A GOODRX HOLDINGS For: 29 April",
+      "link": "https://www.investing.com/news/filings/form-def-14a-goodrx-holdings-for-29-april-93CH-4647476",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
+      "pubDate": "2026-04-29T23:21:14.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "29e19b1f5160b931",
+      "title": "Form 13D/A Smart Share Global Limited For: 29 April",
+      "link": "https://www.investing.com/news/filings/form-13da-smart-share-global-limited-for-29-april-93CH-4647475",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-04-29T23:21:12.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "724f4aebd263ee91",
+      "title": "This mod brings concussions back into Madden 26, including symptoms like blurred vision, dizziness, and slower reaction times",
+      "link": "https://www.pcgamer.com/games/sports/this-mod-brings-concussions-back-into-madden-26-including-symptoms-like-blurred-vision-dizziness-and-slower-reaction-times/",
+      "summary": "The mod was created by the Derek Sheely Foundation to bring more awareness to the dangers and warning signs of traumatic head injuries.",
+      "body": "The NFL has an extremely ugly history with concussions. I won't rehash it all here, but in broad strokes, the American football organization spent years denying a link between head injuries sustained by players and the devastating long-term effects, was eventually sued by more than 4,500 players for negligence and fraudulent concealment, and settled the suit for nearly a billion dollars in 2013. The Madden football series, for their part, included concussions in the games for a few years (in part due to John Madden's insistence), though a less-specific description of \"head injury\" replaced the term in Madden 13. It's obvious the NFL and the Madden games want to distance themselves from the word \"concussion,\" but now a mod called Modden 26 , created by a non-profit foundation dedicated to increasing awareness of sports-related brain injuries, is bringing concussions back into the game—along with their effects. While using the mod for Madden NFL 26, if your player sustains a head injury in the game, you'll begin experiencing some of the commonly reported effects of a concussion, which could be headaches (the screen will throb with a reddish color), shortness of breath (you'll hear t…",
+      "image": "https://cdn.mos.cms.futurecdn.net/aWKZ2spQv9txbEGCYnhL2k-1280-80.jpg",
+      "pubDate": "2026-04-29T23:16:25.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1c30597326532fd1",
+      "title": "Arteta 'fuming' at overturned Eze penalty",
+      "link": "https://www.bbc.com/sport/football/videos/c70vzwdzpylo?at_medium=RSS&at_campaign=rss",
+      "summary": "Arsenal manager Mikel Arteta believes that the penalty awarded against Atletico Madrid for a foul on Eberechi Eze was not a \"clear and obvious error\", meaning VAR did not need to intervene and the original on-field decision to give the penalty should have stood.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T23:15:26.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8e4611dcdb9a0ed3",
+      "title": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices",
+      "link": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+      "summary": "Microsoft's forecast on revenue and operating margin was light, but the company sees $190 billion in 2026 capital spending, well above Wall Street's estimate.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T23:15:22.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "78b234fd77f18c31",
+      "title": "Chinese-made soulslike Wuchang: Fallen Feathers, set in historical China, is now owned by... Italians?",
+      "link": "https://www.pcgamer.com/gaming-industry/chinese-made-soulslike-wuchang-fallen-feathers-set-in-historical-china-is-now-owned-by-italians/",
+      "summary": "The property was purchased by 505 Games parent company Digital Bros., following the reported dissolution of original developer Leenzee.",
+      "body": "We didn't care too much for Wuchang: Fallen Feathers when it released last year, but it was nonetheless a notable entry in what you might call the New Wave of Chinese Videogames : A game set in China, developed by a Chinese studio, that attracted global attention. It's a bit ironic, then—and more than a bit baffling—that the property is now owned by an Italian company called Digital Bros., parent of 505 Games. Despite Wuchang: Fallen Feathers' well-documented woes, Digital Bros. indicated the game was enough of a success to make it attractive: It topped the Steam bestsellers chart when it launched, and has since sold more than one million copies, generating over €30 million ($35 million) in revenue, \"confirming the strength of the product and its long-term potential.\" That out-of-the-gate success may have faded quickly, but it prompted Beijing-based analyst Zhao Yi to hold it up as another example of the growing ability of game devs in China to compete on the global stage. \"With continual advances in technology, Chinese homegrown games are becoming competitive internationally in quality of graphics, audio, and interactive design,\" Zhao told the Global Times . \"Games including Blac…",
+      "image": "https://cdn.mos.cms.futurecdn.net/Ghg6XifzF4jcWpRKChhFum-1280-80.jpg",
+      "pubDate": "2026-04-29T23:08:44.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "c14406a0205095af",
+      "title": "Roblox is pulling a DLSS 5, offering yet another example of a tool mistaking itself for an artist",
+      "link": "https://www.pcgamer.com/gaming-industry/roblox-is-pulling-a-dlss-5-offering-yet-another-example-of-a-tool-mistaking-itself-for-an-artist/",
+      "summary": "Roblox makes a new version of the AI slop pitch we've seen time and again: replacing the creative process instead of making it easier.",
+      "body": "Is there a word that tech companies relish more than democratize ? It sounds so good, doesn't it. Slam dunk marketing copy: Everybody loves democracy! (Billionaires, avert your eyes and whistle innocently). In our mind-numbing AI era the word is doing more heavy lifting than ever, serving as the go-to phrase to suggest that any creative act that once involved pesky barriers like curiosity, practice, or hard-earned expertise is now accessible to all. That's the heart of a new pitch from Roblox today: Roblox Reality , the company says, is a new AI platform aimed at \"Democratizing photorealistic, multiplayer gaming.\" The general idea seems to be that this is the \"good\" version of Google's \"AI worlds\" presentation , which spat out videos that vaguely looked like videogames but obviously would have no grounding in, you know, game design. Roblox is instead pairing \"the photorealism of Video World Models\" with the underlying Roblox game engine, so that any game designed in Roblox could theoretically replace its basic, blocky graphics with jaw-dropping, hyperreal GRAPHICS. In other words: Roblox creators will be able to slap an AI slop filter onto their games, though perhaps tactically th…",
+      "image": "https://cdn.mos.cms.futurecdn.net/iPqnby7LgJ3KWSkTNh4SnT-1280-80.jpg",
+      "pubDate": "2026-04-29T23:04:10.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "2da5c552cac85046",
+      "title": "California Refineries Max Out Jet Fuel While Gasoline Starves",
+      "link": "https://oilprice.com/Energy/Energy-General/California-Refineries-Max-Out-Jet-Fuel-While-Gasoline-Starves.html",
+      "summary": "California is one of the places where fuel prices have long traded above global averages, but the current crisis is pushing that premium into uncharted territory. A steadily shrinking refining base and declining domestic oil production had already tightened the system. However, the disruption in th…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T23:00:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "1199b94f25eb6309",
+      "title": "Who has the better front three - Bayern or PSG?",
+      "link": "https://www.bbc.com/sport/football/videos/cdjpeynmrn2o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport experts Stephen Warnock and Nedum Onuoha analyse the difference between the attacking trios of Bayern Munich and PSG in their Champions League semi-final first leg.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T22:58:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "dfa678be0db87736",
+      "title": "Amazon earnings beat expectations with strong cloud growth",
+      "link": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html",
+      "summary": "Revenue in Amazon's cloud computing segment expanded 28% year over year, topping analysts' estimates.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T22:57:06.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e20c584cf0342b93",
+      "title": "Were Arsenal right to be 'fuming' with refereeing after Atletico draw?",
+      "link": "https://www.bbc.com/sport/football/articles/cr5p4335v7qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Mikel Arteta was left \"fuming\" with the officials after Arsenal's draw at Atletico Madrid - what did they get right and wrong?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T22:53:34.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d252c95425a47c47",
+      "title": "Murphy to face Higgins after dashing Zhao's Crucible hopes",
+      "link": "https://www.bbc.com/sport/snooker/articles/c62er2ey37xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Shaun Murphy dashes Zhao Xintong's hopes of lifting the Crucible curse with a superb 13-10 win as he moves into the semi-finals of the World Championship.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T22:49:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7525f1828086b475",
+      "title": "Higgins faces Murphy after beating Robertson at Crucible",
+      "link": "https://www.bbc.com/sport/snooker/articles/c62er2ey37xo?at_medium=RSS&at_campaign=rss",
+      "summary": "John Higgins defeats Neil Robertson 13-10 to set up a World Snooker Championship semi-final with Shaun Murphy.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T22:49:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f34b4898bf71125d",
+      "title": "Jim Cramer reveals the secret to finding a winning tech stock in this market",
+      "link": "https://www.cnbc.com/2026/04/29/jim-cramer-secret-winning-tech-stock.html",
+      "summary": "CNBC's Jim Cramer said tech stocks need more than an earnings beat to rally right now. They need a shortage.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-04-29T22:45:30.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "db19eec254c96fa7",
       "title": "Qualcomm shares soar 16% on CEO comments about China orders, hyperscaler customer",
@@ -285,22 +666,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8e4611dcdb9a0ed3",
-      "title": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices",
-      "link": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
-      "summary": "Microsoft's forecast on revenue and operating margin was light, but the company sees $190 billion in 2026 capital spending, well above Wall Street's estimate.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-29T22:33:38.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "weather",
       "region": "global"
     },
     {
@@ -320,118 +685,6 @@
       "region": "global"
     },
     {
-      "id": "99531ba9c716463c",
-      "title": "EBay forecasts quarterly revenue above estimates on steady demand",
-      "link": "https://www.investing.com/news/stock-market-news/ebay-forecasts-secondquarter-revenue-above-estimates-4646829",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3S1JS_L.jpg",
-      "pubDate": "2026-04-29T22:32:16.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "weather",
-      "region": "global"
-    },
-    {
-      "id": "630ab8d2ea93addc",
-      "title": "US economy ’quite resilient’, should keep growing above 2%, Fed’s Powell says",
-      "link": "https://www.investing.com/news/economy-news/us-economy-quite-resilient-should-keep-growing-above-2-feds-powell-says-4646666",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3S1IG_L.jpg",
-      "pubDate": "2026-04-29T22:31:55.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9933ada2a7878bbd",
-      "title": "Rush Street Interactive COO sells $1.85m in shares",
-      "link": "https://www.investing.com/news/insider-trading-news/rush-street-interactive-coo-sells-185m-in-shares-93CH-4647373",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_108x81.jpg",
-      "pubDate": "2026-04-29T22:31:39.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6dc4885b0acda4c0",
-      "title": "Trump administration probes Stanford University over diversity practices",
-      "link": "https://www.investing.com/news/general-news/trump-administration-probes-stanford-university-over-diversity-practices-4647057",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM3S1LV_L.jpg",
-      "pubDate": "2026-04-29T22:31:12.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "6ce47035a70ca5bf",
-      "title": "Form 13G Employers Holdings Inc For: 29 April",
-      "link": "https://www.investing.com/news/filings/form-13g-employers-holdings-inc-for-29-april-93CH-4647371",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-04-29T22:31:10.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4cfe000b05530239",
-      "title": "Form 13G Safeguard Acquisition Corp. For: 29 April",
-      "link": "https://www.investing.com/news/filings/form-13g-safeguard-acquisition-corp-for-29-april-93CH-4647370",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-04-29T22:31:10.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f26d325d4c189517",
-      "title": "Form 13G Cummins Inc For: 29 April",
-      "link": "https://www.investing.com/news/filings/form-13g-cummins-inc-for-29-april-93CH-4647368",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-04-29T22:30:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "c9ecb6cdfc566082",
       "title": "Should VAR have intervened to overrule Arsenal penalty?",
       "link": "https://www.bbc.com/sport/football/videos/c2k2dgqxy1yo?at_medium=RSS&at_campaign=rss",
@@ -445,22 +698,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "dfa678be0db87736",
-      "title": "Amazon earnings beat expectations with strong cloud growth",
-      "link": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html",
-      "summary": "Revenue in Amazon's cloud computing segment expanded 28% year over year, topping analysts' estimates.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-29T22:23:23.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -493,38 +730,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d252c95425a47c47",
-      "title": "Murphy to face Higgins after dashing Zhao's Crucible hopes",
-      "link": "https://www.bbc.com/sport/snooker/articles/c62er2ey37xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Shaun Murphy dashes Zhao Xintong's hopes of lifting the Crucible curse with a superb 13-10 win as he moves into the semi-finals of the World Championship.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-29T22:10:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "7525f1828086b475",
-      "title": "Higgins faces Murphy after beating Robertson at Crucible",
-      "link": "https://www.bbc.com/sport/snooker/articles/c62er2ey37xo?at_medium=RSS&at_campaign=rss",
-      "summary": "John Higgins defeats Neil Robertson 13-10 to set up a World Snooker Championship semi-final with Shaun Murphy.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-29T22:10:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1150,22 +1355,6 @@
       "lang": "ar",
       "category": "sports",
       "region": "mena"
-    },
-    {
-      "id": "08b83cb576641e94",
-      "title": "Netflix Picks Up Taiwanese Male Escort Dramedy ‘A Controversial Entertainer’ (Exclusive)",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/netflix-taiwanese-dramedy-controversial-entertainer-1236580341/",
-      "summary": "The 10-parter from KC Global Media centers on the unexpected transformation of five ordinary guys into sought-after hosts.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-29T19:39:08.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "3142a67d15606a85",
@@ -2448,28 +2637,12 @@
       "region": "global"
     },
     {
-      "id": "d9eef73e42975638",
-      "title": "Diablo 4 Chronicles of Creation locations",
-      "link": "https://www.pcgamer.com/games/action/diablo-4-chronicles-of-creation-locations-weathered-statue/",
-      "summary": "Plus what to do with Weathered Shrines.",
-      "body": "The Chronicles of Creation in Diablo 4 are basically the equivalent of the Altars of Lilith in the base game, except for the isles of Skovos. That means they're a great way of quickly farming up Renown and so unlocking the bonus skill and paragon points you can get via that currency's reward track. These statues are a little more puzzly than Lilith's altars, though, since they require you to track down Weathered Shrines and then connect two other statues to them. Obviously, this guide will contain spoilers for the Skovos map , since I'm displaying the Chronicles of Creation locations across each isle, but otherwise, here's how they work and where to find them. How to use Weathered Shrines in Diablo 4 Find a statue of Lilith and a statue of Inarius nearby and turn them to face the shrine (Image credit: Blizzard) If you run across a Weathered Shrine in Diablo 4, you've found a Chronicle of Creation in-waiting. All you need to activate it, as the riddle on the shrine implies, is find a statue of Lilith and a statue of Inarius in the nearby area and turn them each to face the shrine , which will create a beam of light connecting them. Once done, interact with the shrine to complete th…",
-      "image": "https://cdn.mos.cms.futurecdn.net/geXtUVhpmqPD34zYsX7mG4-1280-80.jpg",
-      "pubDate": "2026-04-29T07:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "weather",
-      "region": "global"
-    },
-    {
-      "id": "06b96bd367c94f98",
-      "title": "Should you admit the truth or refute Adreona in Diablo 4?",
-      "link": "https://www.pcgamer.com/games/action/diablo-4-adreona-choice-fate-laughs-at-us-all/",
-      "summary": "And the outcome of both in the Fate Laughs at us All quest.",
-      "body": "Choosing whether to admit the truth or refute Adreona in Diablo 4 's Fate Laughs at us All quest is a little confusing. After all, choices don't often seem to matter in ARPGs, or at least, beyond their immediate consequences, the outcome is generally the same. But sometimes a decision will crop up that has you questioning what you thought you knew. This one such choice occurs when Queen Adreona confronts you in the observatory on Skovos. Obviously, this guide will contain spoilers surrounding this choice , so you shouldn't be here if you haven't yet reached this point in the Lord of Hatred campaign. Otherwise, though, I'll lay out each response below and explain the choice. Should you admit the truth or refute Adreona in Diablo 4? Oracle Cyra will come to your defense no matter which option you choose (Image credit: Blizzard) When you're confronted by Queen Adreona in the observatory on Skovos, you'll be given a choice. You can either tell her the truth about your history with Lilith or you can lie and try to shrug it off. What I'm sure you're really wondering, though, is whether this choice matters? Safe to say this choice makes no difference to the main story , and the outcome w…",
-      "image": "https://cdn.mos.cms.futurecdn.net/BEdBzmY4iCAXdAvognGLc-1280-80.jpg",
+      "id": "918134d3bb305c44",
+      "title": "How to solve Rathma's puzzle in Diablo 4",
+      "link": "https://www.pcgamer.com/games/action/diablo-4-rathmas-puzzle-a-blades-weight/",
+      "summary": "Complete A Blade's Weight in the Temple of Light.",
+      "body": "Solving Rathma's puzzle in Diablo 4 is likely the first little brain teaser you'll run into during the Lord of Hatred campaign, but like most of the ARPG's puzzles, it's pretty simple to complete. You'll encounter this during the main story when exploring Skovos, and it's a classic example of \"Choose three things in the right order\". I've kept any narrative details to a minimum below, focusing only on the puzzle, but this guide will, of course, contain spoilers for the puzzle itself . Otherwise, here's how to complete Rathma's puzzle in A Blade's Weight quest. How to solve Rathma's Puzzle in Diablo 4 (Image credit: Blizzard) While exploring the Archive of the Makers, you'll come to a Rathmic Statue with three altars in front of it, plus another three further back with a skull resting on each. You'll also find a Time-Worn Inscription off to the right side of the statue that reads: \"Power born of Hell begets Corruption.\" It's puzzle time! When you investigate the skull altars, you'll notice that they translate the three capitalized words above into Power (Dunaxys), Hell (Abythos), and Corruption (Coruphar). Armed with this knowledge, what you need to do is activate them in the order…",
+      "image": "https://cdn.mos.cms.futurecdn.net/pP3xCZkoe4A5niDwxb3CJh-1280-80.jpg",
       "pubDate": "2026-04-29T07:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2480,12 +2653,12 @@
       "region": "global"
     },
     {
-      "id": "918134d3bb305c44",
-      "title": "How to solve Rathma's puzzle in Diablo 4",
-      "link": "https://www.pcgamer.com/games/action/diablo-4-rathmas-puzzle-a-blades-weight/",
-      "summary": "Complete A Blade's Weight in the Temple of Light.",
-      "body": "Solving Rathma's puzzle in Diablo 4 is likely the first little brain teaser you'll run into during the Lord of Hatred campaign, but like most of the ARPG's puzzles, it's pretty simple to complete. You'll encounter this during the main story when exploring Skovos, and it's a classic example of \"Choose three things in the right order\". I've kept any narrative details to a minimum below, focusing only on the puzzle, but this guide will, of course, contain spoilers for the puzzle itself . Otherwise, here's how to complete Rathma's puzzle in A Blade's Weight quest. How to solve Rathma's Puzzle in Diablo 4 (Image credit: Blizzard) While exploring the Archive of the Makers, you'll come to a Rathmic Statue with three altars in front of it, plus another three further back with a skull resting on each. You'll also find a Time-Worn Inscription off to the right side of the statue that reads: \"Power born of Hell begets Corruption.\" It's puzzle time! When you investigate the skull altars, you'll notice that they translate the three capitalized words above into Power (Dunaxys), Hell (Abythos), and Corruption (Coruphar). Armed with this knowledge, what you need to do is activate them in the order…",
-      "image": "https://cdn.mos.cms.futurecdn.net/pP3xCZkoe4A5niDwxb3CJh-1280-80.jpg",
+      "id": "06b96bd367c94f98",
+      "title": "Should you admit the truth or refute Adreona in Diablo 4?",
+      "link": "https://www.pcgamer.com/games/action/diablo-4-adreona-choice-fate-laughs-at-us-all/",
+      "summary": "And the outcome of both in the Fate Laughs at us All quest.",
+      "body": "Choosing whether to admit the truth or refute Adreona in Diablo 4 's Fate Laughs at us All quest is a little confusing. After all, choices don't often seem to matter in ARPGs, or at least, beyond their immediate consequences, the outcome is generally the same. But sometimes a decision will crop up that has you questioning what you thought you knew. This one such choice occurs when Queen Adreona confronts you in the observatory on Skovos. Obviously, this guide will contain spoilers surrounding this choice , so you shouldn't be here if you haven't yet reached this point in the Lord of Hatred campaign. Otherwise, though, I'll lay out each response below and explain the choice. Should you admit the truth or refute Adreona in Diablo 4? Oracle Cyra will come to your defense no matter which option you choose (Image credit: Blizzard) When you're confronted by Queen Adreona in the observatory on Skovos, you'll be given a choice. You can either tell her the truth about your history with Lilith or you can lie and try to shrug it off. What I'm sure you're really wondering, though, is whether this choice matters? Safe to say this choice makes no difference to the main story , and the outcome w…",
+      "image": "https://cdn.mos.cms.futurecdn.net/BEdBzmY4iCAXdAvognGLc-1280-80.jpg",
       "pubDate": "2026-04-29T07:00:00.000Z",
       "source": {
         "name": "PC Gamer",
@@ -2509,6 +2682,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "d9eef73e42975638",
+      "title": "Diablo 4 Chronicles of Creation locations",
+      "link": "https://www.pcgamer.com/games/action/diablo-4-chronicles-of-creation-locations-weathered-statue/",
+      "summary": "Plus what to do with Weathered Shrines.",
+      "body": "The Chronicles of Creation in Diablo 4 are basically the equivalent of the Altars of Lilith in the base game, except for the isles of Skovos. That means they're a great way of quickly farming up Renown and so unlocking the bonus skill and paragon points you can get via that currency's reward track. These statues are a little more puzzly than Lilith's altars, though, since they require you to track down Weathered Shrines and then connect two other statues to them. Obviously, this guide will contain spoilers for the Skovos map , since I'm displaying the Chronicles of Creation locations across each isle, but otherwise, here's how they work and where to find them. How to use Weathered Shrines in Diablo 4 Find a statue of Lilith and a statue of Inarius nearby and turn them to face the shrine (Image credit: Blizzard) If you run across a Weathered Shrine in Diablo 4, you've found a Chronicle of Creation in-waiting. All you need to activate it, as the riddle on the shrine implies, is find a statue of Lilith and a statue of Inarius in the nearby area and turn them each to face the shrine , which will create a beam of light connecting them. Once done, interact with the shrine to complete th…",
+      "image": "https://cdn.mos.cms.futurecdn.net/geXtUVhpmqPD34zYsX7mG4-1280-80.jpg",
+      "pubDate": "2026-04-29T07:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "weather",
       "region": "global"
     },
     {
@@ -2864,22 +3053,6 @@
       "region": "global"
     },
     {
-      "id": "13efc518e8b856f9",
-      "title": "Discord is down for many users, struggling with connectivity problems and missing channels (Update: 'This incident has been resolved')",
-      "link": "https://www.pcgamer.com/games/discord-is-down-for-many-users-struggling-with-connectivity-problems-and-missing-channels/",
-      "summary": "It's not just you.",
-      "body": "Original story: Having trouble connecting to Discord? It's not just you: Discord says something's gone wrong, and it's working on figuring out what. \"We're aware of users experiencing delays connecting to the platform,\" Discord Support wrote on X. \"We are investigating and hope to have this resolved soon! We appreciate your patience.\" We're aware of users experiencing delays connecting to the platform. We are investigating and hope to have this resolved soon! We appreciate your patience.https://t.co/NbLzdLBNJC pic.twitter.com/1RNg3enU9L April 28, 2026 Reports of trouble began rolling in just prior to 3 pm ET, according to DownDetector. They're easing off now, but connectivity problems persist. Discord's own status page indicates \"delays connecting to the platform,\" as well as \"issues with large guilds being unavailable.\" You may notice some funkiness with Discord servers you're already connected to: The Larian Studios, Rusty Lake, and Helldivers Discords, for instance, which I was connected to prior to the trouble, are all currently showing that they have no channels available. We'll keep an eye on things and update when the situation changes.",
-      "image": "https://cdn.mos.cms.futurecdn.net/XnJ9Lq678VBAUso2zwfamS-1280-80.jpg",
-      "pubDate": "2026-04-28T20:05:48.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "8b4f103512a1db63",
       "title": "Gloom and boom",
       "link": "https://www.ft.com/content/2d177001-192e-420a-b888-6f0101f1b418",
@@ -2893,38 +3066,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4777e17ee6b8e618",
-      "title": "The Elon Musk vs. Sam Altman trial didn't even make it past jury selection before Musk started getting clowned on",
-      "link": "https://www.pcgamer.com/software/ai/the-elon-musk-vs-sam-altman-trial-didnt-even-make-it-past-jury-selection-before-musk-started-getting-clowned-on/",
-      "summary": "Let them fight.",
-      "body": "Opening arguments began on Tuesday in the case of Musk v. Altman, the Tesla CEO's lawsuit against Sam Altman and OpenAI for, in the attorney's words, \"preying on Musk’s humanitarian concern about the existential dangers posed by artificial intelligence\" in what is \"a textbook tale of altruism versus greed.\" Musk is the good guy in this framing, of course, though based on Monday's jury selection process I have a feeling that Musk's lawyers may struggle to make that case. \"Elon Musk is a greedy, racist, homophobic piece of garbage,\" said one prospective juror, as quoted by The Verge reporter Elizabeth Lopatto from the San Francisco courthouse Monday. Another was less harsh: they merely called Musk \"a world-class jerk.\" After the jury voir dire process was halfway through, Lopatto reported that out of the first 20 prospective jurors, five had such negative feelings about Elon that they said as much, though only one of them said they disliked him so much they couldn't be fair were they to serve on the jury—surely one of the easiest jury outs of all time. \"Elon Musk’s lawyer tried to get some jurors thrown out for disliking Musk,\" Lopatto reported as voir dire wound down. But—and this …",
-      "image": "https://cdn.mos.cms.futurecdn.net/8PAXEYssCGdWCEQCVsJErU-1280-80.jpg",
-      "pubDate": "2026-04-28T19:47:35.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8e3ef60a84f64af5",
-      "title": "Here we go again: AI deletes entire company database and all backups in 9 seconds, then cheerfully admits 'I violated every principle I was given'",
-      "link": "https://www.pcgamer.com/software/ai/here-we-go-again-ai-deletes-entire-company-database-and-all-backups-in-9-seconds-then-cheerfully-admits-i-violated-every-principle-i-was-given/",
-      "summary": "\"If you pay for car airbags and they don’t deploy because they don’t exist is that your fault because you got in the accident?\"",
-      "body": "The founder of PocketOS, a B2B company that handles reservations and payments for car rental businesses, has bemoaned the \"systemic failures\" that saw an AI agent decide to solve a problem by straight-up deleting his company's production database, and the backups. I'll say at the outset that this story has a happy ending, thanks to the involvement of cloud infrastructure provider Railway, but is nevertheless yet another example of why over-reliance on AI is a very bad thing indeed. \"Yesterday afternoon, an AI coding agent—Cursor running Anthropic's flagship Claude Opus 4.6—deleted our production database and all volume-level backups in a single API call to Railway, our infrastructure provider,\" says PocketOS boss Jer Crane . \"It took 9 seconds.\" Crane says the AI agent \"was working on a routine task in our staging environment\" when it encountered a \"credential mismatch and decided—entirely on its own initiative—to 'fix' the problem by deleting a Railway volume.\" The AI then found itself an unrelated API token which happened to have \"blanket authority across the entire Railway GraphQL API, including destructive operations like volumeDelete.\" And it did the most destructive thing po…",
-      "image": "https://cdn.mos.cms.futurecdn.net/i3bonQ5rxzT5qB9kbg4WbJ-1280-80.jpeg",
-      "pubDate": "2026-04-28T19:37:49.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3168,22 +3309,6 @@
       "region": "global"
     },
     {
-      "id": "9a098a732435160d",
-      "title": "Fitzpatrick brothers' victory seals Alex's PGA Tour card",
-      "link": "https://www.bbc.com/sport/golf/videos/c9qdq270rjeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Alex and Matt Fitzpatrick win the Zurich Classic of New Orleans pairs tournament, earning younger brother Alex automatic membership of the PGA Tour through to 2028.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T09:35:25.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f33f1a11d0d23a3f",
       "title": "Running 100 marathons in 100 days, having never run 18 months before",
       "link": "https://www.bbc.com/sport/articles/c4gxjg35jj4o?at_medium=RSS&at_campaign=rss",
@@ -3223,22 +3348,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-04-27T05:11:01.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "fde59bd1799ace7c",
-      "title": "Lingard on playing in Brazil and Man Utd",
-      "link": "https://www.bbc.com/sport/football/videos/clyr42vlkj2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Jesse Lingard talks about moving to Corinthians, and discusses why Michael Carrick should get the Manchester United manager's job.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T05:07:06.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
