@@ -1,23 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T09:56:17.524Z",
-    "total": 301,
-    "processed_feeds": 21,
-    "discovered_feeds": 84,
+    "generated_at": "2026-05-10T10:56:17.577Z",
+    "total": 275,
+    "processed_feeds": 22,
+    "discovered_feeds": 86,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
       {
-        "name": "WHO — News (EN)",
-        "url": "https://www.who.int/rss-feeds/news-english.xml",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
+        "name": "ESPN",
+        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/af8cc267-3393-4904-8309-f99c07c0d6e0",
+        "homepage": "https://www.espn.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 21,
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 65,
         "error": null,
         "notModified": false
       },
@@ -35,15 +48,28 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 70,
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "notModified": false
+      },
+      {
+        "name": "Masrawy - رياضة",
+        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -61,22 +87,9 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "Eater",
-        "url": "https://www.eater.com/rss/index.xml",
-        "homepage": "https://www.eater.com/rss/index.xml",
+        "name": "WHO — News (EN)",
+        "url": "https://www.who.int/rss-feeds/news-english.xml",
+        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -84,6 +97,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -100,35 +139,48 @@
         "notModified": false
       },
       {
-        "name": "Masrawy - رياضة",
-        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "lang": "ar",
+        "name": "Eater",
+        "url": "https://www.eater.com/rss/index.xml",
+        "homepage": "https://www.eater.com/rss/index.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 10,
-        "error": null,
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
+        "name": "Android Authority",
+        "url": "https://www.androidauthority.com/feed/",
+        "homepage": "https://www.androidauthority.com/feed/",
+        "lang": "en",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 20,
+        "taken": 80,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — اقتصاد",
+        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -152,74 +204,22 @@
         "notModified": false
       },
       {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Android Authority",
-        "url": "https://www.androidauthority.com/feed/",
-        "homepage": "https://www.androidauthority.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 80,
+        "taken": 20,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — اقتصاد",
-        "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -243,16 +243,16 @@
         "notModified": false
       },
       {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -260,6 +260,19 @@
         "url": "https://aawsat.com/feeds/section/sport.xml",
         "homepage": "https://aawsat.com/feeds/section/sport.xml",
         "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -284,6 +297,86 @@
     ]
   },
   "items": [
+    {
+      "id": "0890d35d54aacc8b",
+      "title": "بلعمري يقترب من العودة للأهلي في ختام الدوري",
+      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985746/%D8%A8%D9%84%D8%B9%D9%85%D8%B1%D9%8A-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D9%84%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%81%D9%8A-%D8%AE%D8%AA%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A",
+      "summary": "يعود المغربي يوسف بلعمري الظهير الأيسر للنادي الأهلي، للظهور في قائمة فريقه لمباراة المصري البورسعيدي التي تقام يوم 20 مايو الجاري في ختام مسابقة الدوري الممتاز.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-10T13:19:05.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "677928867817d22f",
+      "title": "ليفاندوفسكي أساسياً.. تشكيل برشلونة المتوقع لمواجهة ريال مدريد في الدوري",
+      "link": "https://www.masrawy.com/sports/sports-arab-international/details/2026/5/10/2985745/%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AF%D9%88%D9%81%D8%B3%D9%83%D9%8A-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A",
+      "summary": "تشكيل برشلونة المتوقع أمام ريال مدريد اليوم الأحد، ضمن منافسات الجولة 35 من الدوري الإسباني الممتاز لموسم 2025/2026",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-10T13:18:42.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "88a895531a459f06",
+      "title": "باسم مرسي يثير الجدل: سمعت \"بودني\" مكافأة أحد رجال الأعمال للاعبي سيراميكا",
+      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985735/%D8%A8%D8%A7%D8%B3%D9%85-%D9%85%D8%B1%D8%B3%D9%8A-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D8%B3%D9%85%D8%B9%D8%AA-%D8%A8%D9%88%D8%AF%D9%86%D9%8A-%D9%85%D9%83%D8%A7%D9%81%D8%A3%D8%A9-%D8%A3%D8%AD%D8%AF-%D8%B1%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%D8%A7",
+      "summary": "ويستعد الزمالك لمواجهة سيراميكا كليوباترا يوم 20 مايو الجاري، في الجولة الختامية من الدوري المصري الممتاز، حيث يحتاج الفريق الأبيض إلى نقطة واحدة فقط لحسم لقب البطولة .",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-10T13:06:36.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "118f6f46bf7da857",
+      "title": "هل ينضم مصطفي محمد للأهلي بعد هبوط نانت ؟ مصدر يوضح التفاصيل",
+      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985731/%D9%87%D9%84-%D9%8A%D9%86%D8%B6%D9%85-%D9%85%D8%B5%D8%B7%D9%81%D9%8A-%D9%85%D8%AD%D9%85%D8%AF-%D9%84%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A8%D8%B9%D8%AF-%D9%87%D8%A8%D9%88%D8%B7-%D9%86%D8%A7%D9%86%D8%AA-%D9%85%D8%B5%D8%AF%D8%B1-%D9%8A%D9%88%D8%B6%D8%AD-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-",
+      "summary": "مصطفي محمد ينتظر المشاركة مع منتخب مصر في كأس العالم بفارغ الصبر علي أمل تلقيه عروضا من أندية أوروبية ينتقل لها في بداية الموسم المقبل.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-10T13:02:29.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "287091d266f11b7a",
+      "title": "فينيسيوس أساسيًا.. تشكيل ريال مدريد المتوقع لمواجهة برشلونة في الدوري",
+      "link": "https://www.masrawy.com/sports/sports-arab-international/details/2026/5/10/2985724/%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A-%D8%A7-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A",
+      "summary": "تشكيل ريال مدريد المتوقع لمواجهة برشلونة في الجولة 35 من بطولة الدوري الإسباني لموسم 2025/2026",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-10T12:50:19.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "c281884aaa66c462",
       "title": "بمشاركة شيما.. رامي صبري يحتفل بعيد ميلاد ابنه زين (صور)",
@@ -333,86 +426,6 @@
       "region": "global"
     },
     {
-      "id": "686b30f1bd11b639",
-      "title": "اكتساح سماوي.. تاريخ مواجهات بيراميدز وزد قبل نهائي كأس مصر",
-      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985677/%D8%A7%D9%83%D8%AA%D8%B3%D8%A7%D8%AD-%D8%B3%D9%85%D8%A7%D9%88%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%88%D8%B2%D8%AF-%D9%82%D8%A8%D9%84-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1",
-      "summary": "كل ما تريد معرفته عن مواجهة بيراميدز وزد إف سي في نهائي كأس مصر وتاريخ مواجهات الفريقين في مختلف البطولات",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T11:41:21.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ba80fdb3a4cf6c6d",
-      "title": "موعد عودة بعثة الزمالك من الجزائر بعد خسارة ذهاب نهائي الكونفدرالية",
-      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985675/%D9%85%D9%88%D8%B9%D8%AF-%D8%B9%D9%88%D8%AF%D8%A9-%D8%A8%D8%B9%D8%AB%D8%A9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%B0%D9%87%D8%A7%D8%A8-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%86%D9%81%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9",
-      "summary": "ويحتاج الزمالك لتحقيق الفوز بفارق أكثر من هدف من أجل التتويج بلقب الكونفدرالية الأفريقية، بينما يكفي اتحاد العاصمة تحقيق التعادل أو الخسارة بفارق هدف مع التسجيل، لحصد اللقب.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T11:39:39.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "77fdca74f78075a1",
-      "title": "بعد حالة الوفاة.. موعد عودة توروب لقيادة مران الأهلي",
-      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985671/%D8%A8%D8%B9%D8%AF-%D8%AD%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%88%D9%81%D8%A7%D8%A9-%D9%85%D9%88%D8%B9%D8%AF-%D8%B9%D9%88%D8%AF%D8%A9-%D8%AA%D9%88%D8%B1%D9%88%D8%A8-%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A",
-      "summary": "ويقود توروب تدريبات الفريق يوم الإثنين المقبل وذلك مع نهاية الراحة التي حصل عليها الأهلي استعدادًا لمباراة المصري البورسعيدي التي تقام يوم 20 مايو الجاري في ختام مسابقة الدوري الممتاز.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T11:34:58.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "37afbdb2fb6d0d47",
-      "title": "الثلاثاء..اتحاد اليد يحتفل بأبطال أفريقيا في حضور وزير الرياضة",
-      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985664/%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%8A%D8%AF-%D9%8A%D8%AD%D8%AA%D9%81%D9%84-%D8%A8%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D9%81%D9%8A-%D8%AD%D8%B6%D9%88%D8%B1-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-      "summary": "يقيم الاتحاد المصري لكرة اليد برئاسة خالد فتحي، مساء الثلاثاء المقبل احتفالية كبرى لتكريم المنتخب الوطني الأول للرجال بعد تتويجه بلقب بطولة أفريقيا الأخيرة.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T11:21:00.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "86e7d205c26c8b17",
-      "title": "مصراوي يكشف.. شرط الأهلي لإعادة أكرم توفيق في الموسم المقبل",
-      "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985657/%D9%85%D8%B5%D8%B1%D8%A7%D9%88%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%B4%D8%B1%D8%B7-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%84%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A3%D9%83%D8%B1%D9%85-%D8%AA%D9%88%D9%81%D9%8A%D9%82-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84",
-      "summary": "يواصل النادي الأهلي رحلة البحث عن تدعيمات قوية لفريق الكرة الأول في الموسم المقبل .",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T11:14:45.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "55ef7882db87dade",
       "title": "أول تحرك من الزمالك ضد حكم نهائي الكونفدرالية بعد الخسارة من اتحاد العاصمة",
       "link": "https://www.masrawy.com/sports/sports_news/details/2026/5/10/2985655/%D8%A3%D9%88%D9%84-%D8%AA%D8%AD%D8%B1%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%B6%D8%AF-%D8%AD%D9%83%D9%85-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%86%D9%81%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D9%85%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9",
@@ -442,6 +455,70 @@
       },
       "lang": "ar",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "86a45e2386ef0798",
+      "title": "How I stopped Nova Launcher from tracking me without sacrificing my setup",
+      "link": "https://www.androidauthority.com/block-nova-launcher-trackers-3662141/",
+      "summary": "User privacy or that decade-old setup? You can have both.",
+      "body": "It’s fair to say that Nova Launcher was once the pinnacle of the Android launcher space. While many of its loyal fans still believe it is, there’s no doubt it has experienced some ups and downs in recent years. You likely know the Nova Launcher story by now. The app was sold in 2022, lay dormant for years afterward, and was recently purchased, with development ramping up once more. The launcher’s new custodians have focused on stability over new features, but some worrying additions have alienated me. From an injection of trackers to the proliferation of ads, to plans for an agentic AI assistant , and an admission in the privacy policy that the launcher may sample user information — I just don’t feel comfortable using Nova anymore. But, a slew of users still rely on this app as an important cog in their carefully synchronized workflows — yanking it simply isn’t an option.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/04/nova-launcher-home-screen-1.jpg",
+      "pubDate": "2026-05-10T10:30:50.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "d6ab287362c2a48e",
+      "title": "Dubois beats Wardley in epic world title fight",
+      "link": "https://www.bbc.com/sport/boxing/videos/c78k049mz9zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Daniel Dubois fights back from two knockdowns to stop Fabio Wardley in an epic all-British WBO world heavyweight title fight.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-10T10:28:59.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "ac3501283b38dff8",
+      "title": "التعرف على \"المريض صفر\" المسبب لتفشي فيروس هانتا على السفينة",
+      "link": "https://www.skynewsarabia.com/technology/1868664-%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B6-%D8%B5%D9%81%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D8%A8-%D9%84%D8%AA%D9%81%D8%B4%D9%8A-%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D9%87%D8%A7%D9%86%D8%AA%D8%A7-%D8%A7%D9%84%D8%B3%D9%81%D9%8A%D9%86%D8%A9",
+      "summary": "لكل وباء مسبب وعندما ينتشر وباء ما، لا بد أن يكون هناك ما يسمى بـ\"المريض صفر\"، أي المريض الذي أصيب أولا وتسبب بانتشار الوباء أو المرض.",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v1/2026/05/10/1868663/95/53/1-1868663.jpg",
+      "pubDate": "2026-05-10T10:06:43.000Z",
+      "source": {
+        "name": "Sky News Arabia — تكنولوجيا",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
+      },
+      "lang": "ar",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5591277569b9f3e8",
+      "title": "5 Android phones you should buy instead of the Motorola Razr Fold",
+      "link": "https://www.androidauthority.com/5-android-phones-you-should-buy-instead-of-motorola-razr-fold-3663544/",
+      "summary": "Motorola's track record in book-style foldables has yet to be proven, so consider other options first.",
+      "body": "Motorola has been teasing its first book-style foldable, the Razr Fold, since January. Finally, though, the phone will be available for pre-order in the US on May 14 , with sales starting a week later on May 21. There’s a lot to get excited about here, including the large 8.1-inch 2K LTPO display with pen support, the 6,000mAh battery with 80W of fast charging, and a triple 50MP camera setup with a main lens, an ultrawide, and a 3x telephoto. But, despite Motorola’s pedigree in the Razr clamshell line-up, this is still its first foray into larger foldables, and there are concerns about the Razr Fold’s crease, the real performance of those cameras, and whether the software optimization is just as good for a larger screen as it is for a smaller one.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/01/Motorola-Razr-Fold-tent-folded.jpg",
+      "pubDate": "2026-05-10T10:00:57.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -509,11 +586,107 @@
       "region": "global"
     },
     {
+      "id": "dfaf38e87c627078",
+      "title": "نجم الزمالك يشكك في ركلة جزاء اتحاد العاصمة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%8A%D8%B4%D9%83%D9%83-%D9%81%D9%8A-%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A7%D8%A1-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9/bltb39f461bc9dc0bcf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المباراة شهدت إثارة في دقائقها الأخيرة",
+      "body": "المباراة شهدت إثارة في دقائقها الأخيرة أبدى محمود حمدي \"الونش\"، مدافع الزمالك، استياءه من الطريقة التي خسر بها فريقه أمام اتحاد العاصمة الجزائري (1-0)، أمس السبت، في موقعة ذهاب نهائي الكونفدرالية الإفريقية، التي احتضنها استاد \"5 جويلية\". وقال الونش، في تصريحات لشبكة \"بي إن سبورتس\" عقب اللقاء: \"الزمالك قدم مباراة كبيرة، واللاعبون بذلوا قصارى جهدهم، ولا نحب الحديث عن التحكيم\". واستدرك الدولي المصري: \"لكن ركلة الجزاء (المحتسبة لاتحاد العاصمة) فيها وعليها.. كانت هناك قرارات تحكيمية جدلية، والنتيجة مفاجئة بالنسبة لنا\". اقرأ أيضًا من تمرد هيسبيريا إلى فتنة مورينيو.. \"حروب أهلية\" سبقت كلاسيكو الريال وبرشلونة قبل الكلاسيكو.. بيريز يؤكد استمرار حربه الباردة مع برشلونة وأردف: \"سنعمل على ترتيب أوراق الفريق، وسنتحدث معًا ومع الكابتن معتمد جمال (المدير الفني)، ونستعد بجدية للتعويض في لقاء العودة وسط جماهير الزمالك\". يُذكر أن الزمالك ينافس بقوة أيضًا على لقب الدوري المصري الممتاز، الذي يتصدره حاليًا بفارق نقطتين عن بيراميدز الوصيف، و3 نقاط عن الأهلي صاحب المركز الثالث، قبل الجولة الختامية للمسابقة.",
+      "image": null,
+      "pubDate": "2026-05-10T08:45:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "61db57e1ecead07b",
+      "title": "هل يلحق حكيمي بنهائي دوري الأبطال؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D9%84%D8%AD%D9%82-%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D8%A8%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84/blt93ab438622a17338?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مخاطرة قبل المونديال",
+      "body": "مخاطرة قبل المونديال يسابق المغربي أشرف حكيمي ، ظهير باريس سان جيرمان، الوقت من أجل المشاركة في نهائي دوري أبطال أوروبا ضد آرسنال المقرر إقامته في 30 مايو الجاري. ووفقا لإذاعة \"مونت كارلو\" الفرنسية، يسود تفاؤل كبير داخل أروقة سان جيرمان بشأن جاهزية حكيمي لخوض نهائي دوري أبطال أوروبا، وذلك بعد غيابه عن إياب نصف النهائي أمام بايرن ميونخ. ويأمل لويس إنريكي، مدرب باريس، في دخول المباراة بصفوف مكتملة خاصة مع تحسن حالة حكيمي الذي تعافى بشكل جيد من إصابة في العضلة الخلفية للفخذ. ويعمل الجهاز الفني لباريس حاليا على إدارة الحالة البدنية للاعبين لتجنب الإجهاد قبل الموعد المرتقب، لا سيما فيما يخص الحارس ماتفي سافونوف ولاعب الوسط وارن زاير إيمري بالإضافة إلى ورود أنباء إيجابية تتعلق بالحارس لوكاس شيفالييه. ويستهدف حكيمي البالغ من العمر 27 عاما المشاركة في النهائي الأوروبي قبل الالتحاق بمنتخب المغرب في كأس العالم. وتبدو المؤشرات إيجابية أيضا للحارس لوكاس شيفالييه الذي عانى من إصابة في الفخذ الأيمن خلال التدريبات الأسبوع الماضي أثارت المخاوف حول انتهاء موسمه، لكنه بدأ في التعافي وبات مرشحا للتواجد ضمن القائمة. ويواجه لويس إنريكي وطاقمه تحدي التعامل مع مرحلة ما بعد مباراة ميونخ حيث عاد اللاعبون بحالة إرهاق شديد ومنهم عثمان ديمبلي الذي استبدل في الدقيقة 65، بعد مجهود بدني كبير في التغطية الدفاعية…",
+      "image": null,
+      "pubDate": "2026-05-10T08:42:47.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f52821876d9b5a88",
+      "title": "موعد ومكان حفل جوائز إنديفيزا للكرة النسائية السعودية المقدمة من مجموعة روشن",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D8%B9%D8%AF-%D9%88%D9%85%D9%83%D8%A7%D9%86-%D8%AD%D9%81%D9%84-%D8%AC%D9%88%D8%A7%D9%8A%D9%94%D8%B2-%D8%A7%D9%95%D9%86%D8%AF%D9%8A%D9%81%D9%8A%D8%B2%D8%A7-%D9%84%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%B1%D9%88%D8%B4%D9%86/bltbbc8ec724d9f2ec7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "التفاصيل الكاملة لحفل جوائز إنديفيزا للكرة النسائية السعودية",
+      "body": "التفاصيل الكاملة لحفل جوائز إنديفيزا للكرة النسائية السعودية تستعد جوائز إنديفيزا السعودية لكرة القدم النسائية، المقدمة مجموعة روشن، المطور العقاري الرائد متعدد الأصول في السعودية، وإحدى الشركات التابعة لصندوق الاستثمارات العامة، للحفل الأول لها. وستكون جميع الجوائز، مقدمة برعاية مجموعة روشن، بالشراكة مع منصة إنديفيزا. ولا تقتصر جوائز كرة القدم النسائية في السعودية، على الحفل الرسمي فقط، إذ ستُدعَم بسلسلة من المواد الإعلامية عبر شبكة العلامات الإعلامية التابعة لشركة فوتبولكو باللغة العربية، والتي تشمل \"جول\" و\"كووورة\" و\"إنديفيزا، وتصل هذه المنصات مجتمعة إلى أكثر من 170 مليون مشجع ناطق بالعربية شهرياً، من بينهم أكثر من 20 مليون مشجع في المملكة العربية السعودية. متى موعد حفل جوائز إنديفيزا للكرة النسائية السعودية المقدمة من مجموعة روشن؟ موعد حفل جوائز إنديفيزا للكرة النسائية السعودية المقدمة من مجموعة روشن هو الأربعاء 13 مايو 2026. وتبدأ مراسم الحفل في السابعة مساءً بتوقيت السعودية على أن تنتهي في العاشرة والنصف مساءً بتوقيت السعودية. أين يٌقام حفل جوائز إنديفيزا للكرة النسائية السعودية المقدمة من مجموعة روشن؟ سوف يتم تنظيم الحفل في مقر مجموعة روشن \"The Venue by ROSHN Group\". ويمكن التسجيل في الرابط الآتي لحضور الحفل. ( من هنا ) View this post on Instagram ما فئات جوائز إنديفيزا للكر…",
+      "image": null,
+      "pubDate": "2026-05-10T08:30:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "deac16894726a7a2",
+      "title": "بارتوميو يكشف مفاجأة عن فينيسيوس ومبابي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D8%B1%D8%AA%D9%88%D9%85%D9%8A%D9%88-%D9%8A%D9%83%D8%B4%D9%81-%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D8%B9%D9%86-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%88%D9%85%D8%A8%D8%A7%D8%A8%D9%8A/blt901d15d659815d7f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "برشلونة كان قريبًا من ضم الثنائي قبل ريال مدريد",
+      "body": "برشلونة كان قريبًا من ضم الثنائي قبل ريال مدريد كشف جوسيب ماريا بارتوميو، رئيس برشلونة&nbsp; السابق، أن النادي الكتالوني كان قريبًا من ضم فينيسيوس جونيور، وكيليان مبابي، نجمي ريال مدريد ، قبل انتقالهما إلى فريق العاصمة الإسبانية. وكان ريال مدريد، بقيادة مدربه آنذاك زين الدين زيدان، أعلن في عام 2017 توصله لاتفاق مع فلامنجو لضم فينيسيوس، على أن تكتمل الصفقة بعد عام عندما يبلغ اللاعب سن الـ18. ومنذ ذلك الحين، أصبح فينيسيوس أحد أبرز عناصر نجاح ريال مدريد في الدوري الإسباني ودوري أبطال أوروبا، كما تحول إلى واحد من أعلى المهاجمين تقييمًا في العالم. وقال بارتوميو، في تصريحات لشبكة &nbsp;ESPN Deportes إن برشلونة قطع شوطًا متقدمًا في مفاوضاته مع اللاعب البرازيلي، قبل أن ينتقل إلى الملكي. وأوضح \"فينيسيوس كان محل اهتمام النادي، تحدثنا مع عائلته ووكلائه، وكان هناك بالفعل اتفاق مبدئي. ربما قدم ريال مدريد عرضًا أفضل من برشلونة، ولهذا نجح في التعاقد مع اللاعب\". كما قال بارتوميو إنه تحدث أيضًا مع نجم آخر لريال مدريد قبل انتقاله إلى إسبانيا، في إشارة إلى كيليان مبابي عندما كان لاعبًا في موناكو\". وتابع الرئيس السابق للبارسا \"موناكو كان يطلب مبالغ مالية ضخمة، وكان برشلونة قادرًا على دفعها في ذلك الوقت. كنا النادي الأعلى دخلاً في العالم، والأفضل من حيث المؤشرات المالية، وكنا نعيش وضعًا اقتصاديًا ممتا…",
+      "image": null,
+      "pubDate": "2026-05-10T08:28:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0eb7321cda08fd9d",
+      "title": "رسميًا.. استبعاد مبابي من الكلاسيكو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88/blt4d847b5cfdc725c5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ضربة قوية لخطة ريال مدريد",
+      "body": "ضربة قوية لخطة ريال مدريد أعلن ألفارو أربيلوا، مدرب ريال مدريد، قائمة الملكي لمواجهة برشلونة، اليوم الأحد، في الجولة 35 من الدوري الإسباني. وشهدت اختيارات أربيلوا استبعاد المهاجم الفرنسي كيليان مبابي لعدم تعافيه الكامل الإصابة. وجاءت باقي غيابات الريال في الكلاسيكو، كالآتي: فيدي فالفيردي، فيرلاند ميندي، إيدير ميليتاو، داني كارفاخال، داني سيبايوس، أردا جولر، ورودريجو جوس للإصابة. ويحتاج برشلونة للتعادل أو الفوز في الكلاسيكو من أجل حسم لقب الليجا بشكل رسمي. وتضم قائمة ريال مدريد في الكلاسيكو، كلا من: حراس المرمى: كورتوا - لونين - سيرجيو ميستري. المدافعون: ألابا - أرنولد - أسينسيو - ألفارو كاريراس - فران جارسيا - روديجر - هويسن - ديفيد خيمينيز. لاعبو الوسط: بيلينجهام - كامافينجا - تشواميني - تياجو - سيستيرو - بالاسيوس. المهاجمون: فينيسيوس جونيور - جونزالو جارسيا - إبراهيم دياز - ماستانتونو.",
+      "image": null,
+      "pubDate": "2026-05-10T08:05:24.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "82020d73e621ffc6",
+      "title": "عضة سواريز وتأديب رافينيا.. غرامة ثنائي الريال ترافق أقسى العقوبات التاريخية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B9%D8%B6%D8%A9-%D8%B3%D9%88%D8%A7%D8%B1%D9%8A%D8%B2-%D9%88%D8%AA%D8%A7%D9%94%D8%AF%D9%8A%D8%A8-%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D8%A7-%D8%BA%D8%B1%D8%A7%D9%85%D8%A9-%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%AA%D8%B1%D8%A7%D9%81%D9%82-%D8%A7%D9%94%D9%82%D8%B3%D9%89-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9/blt816b0037decdc13b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تصريحات مكلفة.. وأخطاء فادحة",
+      "body": "تصريحات مكلفة.. وأخطاء فادحة أصدر نادي ريال مدريد قرارًا بتغريم لاعبه فيدريكو فالفيردي وأوريلين تشواميني بمبلغ نصف مليون يورو لكل منهما، عقابًا لهما على خلفية الأحداث التي وقعت في مدينة \"فالدبيباس\" التدريبية. ورغم أن هذا الرقم ضخم، إلا أن تاريخ الرياضة وكرة القدم تحديدا شهد عقوبات مالية مساوية لكن نظير مخالفات أقل وزنا، وأخرى أكثر قسوة. عضّة سواريز وتمرد تيفيز ستبقى حادثة الأوروجواياني لويس سواريز نجم برشونة السابق وإنتر ميامي حاليا، في كأس العالم بالبرازيل 2014 في ذاكرة المونديال في خانة الغرائب. عضّة المهاجم الشهيرة لمدافع إيطاليا جورجيو كيليني تحولت إلى أيقونة للغرابة في تاريخ كرة القدم الحديث، لكن قيمة الغرامة التي دفعها لم تكن الأضخم على الإطلاق، إذ بلغت العقوبة المفروضة على سواريز حوالي 85 ألف يورو فقط. اقرأ أيضا: اتهام مقلق.. أوناحي يثير الشكوك قبل المونديال اقرأ أيضا: النصر يخشى أسبوع الرعب.. هل يدخل رونالدو المونديال بفشل ذريع؟ هذا الرقم يبدو ضئيلا إلى جانب ما عوقب به كارلوس تيفيز. فقد فرض على الأرجنتيني غرامة قدرها مليون جنيه إسترليين عام 2011 بعدما رفض المشاركة من مقاعد البدلاء ضد بايرن ميونخ في دوري الأبطال، قبل أن يتم تخفيض العقوبة إلى النصف تقريبا بما يكاد يطاب عقوبة ثنائي الريال الحالية. أما روميلو لوكاكو فقد دفع نصف مليون يورو أيضا خلال تجربته مع تشيلسي، بسبب إجرائ…",
+      "image": null,
+      "pubDate": "2026-05-10T08:01:52.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "7fc66761b203c0c5",
       "title": "قرار مفاجئ.. بنفيكا يقتحم مفاوضات ريال مدريد ومورينيو",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D8%A8%D9%86%D9%81%D9%8A%D9%83%D8%A7-%D9%8A%D9%82%D8%AA%D8%AD%D9%85-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88/blte215c47a655411e2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "<p>عاد اسم جوزيه مورينيو ليتصدر المشهد داخل أروقة ريال مدريد، بعد تطورات جديدة كشفت عن قرب إمكانية عودته إلى ملعب سانتياجو برنابيو خلال الفترة المقبلة.</p><p>وبحسب ما أكده الصحفي الإيطالي فابريزيو مورينيو، فإن إدارة بنفيكا دخلت على خط المفاوضات بين المدرب وريال مدريد، حيث تستعد لتقديم عرض جديد من أ…",
-      "body": "عاد اسم جوزيه مورينيو ليتصدر المشهد داخل أروقة ريال مدريد، بعد تطورات جديدة كشفت عن قرب إمكانية عودته إلى ملعب سانتياجو برنابيو خلال الفترة المقبلة. وبحسب ما أكده الصحفي الإيطالي فابريزيو مورينيو، فإن إدارة بنفيكا دخلت على خط المفاوضات بين المدرب وريال مدريد، حيث تستعد لتقديم عرض جديد من أجل تمديد عقد المدرب واستمراره في قيادة الفريق. ورغم ذلك، أشار رومانو إلى أن المدرب البرتغالي سيكون مستعدا للموافقة على العودة إلى ريال مدريد حال قرر النادي الإسباني المضي قدما في الملف بشكل رسمي. وأوضح أن الاتصالات ستتواصل خلال الأسبوع المقبل، في انتظار القرار النهائي من فلورنتينو بيريز رئيس الملكي، الذي يدرس كافة الخيارات المتعلقة بالمستقبل الفني للفريق. ويعد مورينيو أحد أبرز المدربين الذين مروا على ريال مدريد في العصر الحديث، بعدما قاد الفريق بين عامي 2010 و2013، ونجح خلال تلك الفترة في التتويج بلقب الدوري الإسباني وكسر هيمنة برشلونة محليا. اقرأ أيضا: فالفيردي يخرج عن صمته: تشواميني لم يضربني.. وهناك من ينقل الحكايات &nbsp; &nbsp;",
+      "body": "عاد اسم جوزيه مورينيو ليتصدر المشهد داخل أروقة ريال مدريد، بعد تطورات جديدة كشفت عن قرب إمكانية عودته إلى ملعب سانتياجو برنابيو خلال الفترة المقبلة. وبحسب ما أكده الصحفي الإيطالي فابريزيو مورينيو، فإن إدارة بنفيكا دخلت على خط المفاوضات بين المدرب وريال مدريد، حيث تستعد لتقديم عرض جديد من أجل تمديد عقد المدرب واستمراره في قيادة الفريق. وكشف أن المدرب الإسباني ألفارو أربيلوا بات خارج حسابات ريال مدريد بنسبة كبيرة تصل إلى 95%، مع وجود نسبة ضئيلة جدًا لا تتجاوز 5% قد تُبقيه في منصبه، لكنها مرتبطة بتغيرات غير متوقعة داخل النادي. وفي المقابل، أوضح رومانو أن ملف مورينيو دخل مرحلة \"الاتصالات المستمرة\"، مشيرًا إلى أن المفاوضات بين الطرفين لن تُحسم خلال نهاية هذا الأسبوع، بل تحتاج إلى مزيد من الوقت، رغم أن ما يُوصف بـ\"عملية مورينيو\" قد بدأ فعليًا داخل النادي الملكي. وأكد أن مورينيو لا يمانع على الإطلاق فكرة العودة إلى ريال مدريد، بل على العكس، هو منفتح تمامًا على المشروع، لكنه يسعى أولًا لفهم طبيعة الدور والصلاحيات داخل النادي، وكيفية إدارة الفريق وغرفة الملابس، قبل اتخاذ القرار النهائي. وأضاف أن إدارة بنفيكا ترغب بشدة في الإبقاء على المدرب البرتغالي، وتعمل حاليًا على تجهيز عرض لتجديد عقده ومنحه كل الضمانات الممكنة للاستمرار، بعد الأداء الجيد الذي قدمه مع الفريق. لكن رغم ذلك، أشار رومانو غل…",
       "image": null,
       "pubDate": "2026-05-10T07:54:57.000Z",
       "source": {
@@ -813,70 +986,6 @@
       "region": "mena"
     },
     {
-      "id": "e9cd6450f841006b",
-      "title": "\"مباراة عالية الخطورة\".. جماهير ريال مدريد وبرشلونة تواجه إجراءات استثنائية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B1%D8%A9-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AA%D9%88%D8%A7%D8%AC%D9%87-%D8%A7%D9%95%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9/blta19557d7ba17d12e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "قرارات صارمة قبل الموقعة المرتقبة",
-      "body": "قرارات صارمة قبل الموقعة المرتقبة اتخذت السلطات الأمنية في إسبانيا إجراءات استثنائية لتأمين مباراة \"الكلاسيكو\" المرتقبة بين برشلونة وريال مدريد، المقررة اليوم الأحد على ملعب \"سبوتيفاي كامب نو\"، ضمن منافسات الجولة 35 من الدوري الإسباني، وهي المواجهة التي قد تشهد حسم لقب الليجا رسمياً. وبناءً على طلب رسمي من الشرطة، تم تصنيف المواجهة كمباراة \"عالية الخطورة\"، مما استوجب فرض حزمة من القرارات التنظيمية الصارمة؛ حيث تقرر منع بيع التذاكر حضورياً في محيط الملعب اليوم، لتنظيم عملية الدخول ومنع التجمعات غير المرخصة. اقرأ أيضًا فليك عن مشاكل ريال مدريد: الأنا تقتل النجاح قبل الكلاسيكو.. بيريز يؤكد استمرار حربه الباردة مع برشلونة كما تتضمن الخطة الأمنية تشديد إجراءات الفصل والرقابة بين جماهير الفريقين، سواء داخل الملعب أو في المناطق المحيطة به، إلى جانب تطبيق إجراءات تفتيش خاصة، لمنع إدخال أي مواد خطرة أو محظورة إلى المدرجات. وذكرت السلطات أن قائمة الممنوعات تشمل: الزجاجات بكافة أنواعها. الألعاب النارية وقنابل الدخان. الأسلحة البيضاء وأي مواد قد تُستخدم في أعمال الشغب. ويحتاج برشلونة نقطة واحدة من أجل حسم لقب الليجا، حيث تفصله 11 نقطة عن وصيفه ريال مدريد، قبل 4 جولات من النهاية.",
-      "image": null,
-      "pubDate": "2026-05-10T05:37:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a753df42782b336e",
-      "title": "فيديو.. الحبسي: فرص عمان كثيرة في كآس آسيا.. ومواجهة السعودية ميزة إضافية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AD%D8%A8%D8%B3%D9%8A-%D9%81%D8%B1%D8%B5-%D8%B9%D9%85%D8%A7%D9%86-%D9%83%D8%AB%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%83%D8%A7%D9%93%D8%B3-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-%D9%88%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%85%D9%8A%D8%B2%D8%A9-%D8%A7%D9%95%D8%B6%D8%A7%D9%81%D9%8A%D8%A9/blt6402737d07a6c159?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أسطورة عمان متفائل بشأن التأهل",
-      "body": "أسطورة عمان متفائل بشأن التأهل كشف أسطورة الكرة العمانية علي الحبسي عن رأيه في قرعة كأس آسيا 2027 التي جرت مساء السبت في المملكة العربية السعودية. وسوف تقام البطولة القارية للمرة الأولى على الأراضي السعودية، وذلك خلال الفترة من 7 يناير إلى 5 فبراير 2027. وقال الحبسي إن القرعة جاءت مناسبة تماما للمنتخب العماني، حيث وقع مع السعودية والكويت وفلسطين. وصرح الحارس السابق للهلال السعودي لصحيفة الشرق الأوسط: \"أنا دائما أقول إنه من الجيد أن تلعب في نفس مجموعة مستضيف البطولة، من الناحية الجماهيرية والإعلامية، وقد يكون لك الحظ أن تلعب المباراة الافتتاحية\". وأضاف: \"المجموعة ليست سهلة وليست صعبة. الفرص عندك كثيرة إن لم تسنح لك فرصة الصدارة أو الوصافة يمكنك التأهل كأفضل ثالث\". اقرأ أيضا: نموذج آخر للفوضى.. واقعة غريبة تصدم رئيس الريال اقرأ أيضا: نجم الريال السابق: عقوبة فالفيردي وتشواميني ستخلق صراعا جديدا وأردف: \"الأمور بيد المنتخب العماني وإن شاء الله يتأهل\". وعن تكرار المواجهات العمانية السعودية مؤخرا، أكد: \"هذه ميزة إضافية، أن تلعب مع المنتخب السعودي أحد أفضل المنتخبات الآسيوية والخليجية\". &nbsp; 🎙️ | علي الحبسي قائد المنتخب العُماني السابق لـ«الشرق الأوسط»: - من الجيد أن تكون في مجموعة البلد المستضيف، وأتوقع تأهل السعودية وعُمان من المجموعة. #كأس_آسيا2027 pic.twitter.com/qQpwfJxJqP &mdash…",
-      "image": null,
-      "pubDate": "2026-05-10T05:34:08.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "59d820a5ca04aefc",
-      "title": "ثورة انضباط.. مهمة مورينيو الأولى في ريال مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D9%88%D8%B1%D8%A9-%D8%A7%D9%86%D8%B6%D8%A8%D8%A7%D8%B7-%D9%85%D9%87%D9%85%D8%A9-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84%D9%89-%D9%81%D9%8A-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blta4c94f28b42d1029?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الميركاتو ليس أولوية",
-      "body": "الميركاتو ليس أولوية بدأ العد التنازلي في ريال مدريد لإحداث ثورة شاملة تتجاوز المستطيل الأخضر، حيث سيبدأ الإصلاح فور تعيين المدير الفني الجديد للملكي. ووفقاً لصحيفة \"آس\" الإسبانية، بدأ مسؤولو ريال مدريد التحرك بشكل عاجل لإعادة فرض الانضباط واستعادة قيم النادي المفقودة، حيث باتت هذه المهمة هي الأولوية القصوى للمدرب الجديد، في ظل اقتراب البرتغالي جوزيه مورينيو من العودة لتولي المسؤولية. وأشارت الصحيفة إلى أن هذا الأسبوع لن يُمحى من ذاكرة مشجعي كرة القدم، سواء من المنتمين لريال مدريد أو منافسيهم، خاصة وأنه ترتب عليه عواقب تجاوزت الغرامة المالية البالغة 500 ألف يورو التي فرضها النادي بشكل مفاجئ على الثنائي فالفيردي وتشواميني كإجراء غير مسبوق، إذ يسعى النادي لتغيير سيناريو الموسم المقبل ليتجاوز الجوانب الرياضية ويصل إلى استعادة كبرياء وشرف النادي. وأوضحت أن تحركات إدارة الريال التي كان من المقرر تنفيذها بهدوء، تسارعت نتيجة الأحداث الحزينة في الأيام الأخيرة، مما دفع مسؤولي الملكي لاتخاذ قرار بحسم ملف المدرب الجديد فور انتهاء منافسات الدوري لهذا الموسم، إيماناً منهم بأنه لا يوجد وقت لإضاعته. ويتمثل الهدف الرئيسي في استعادة الاستقرار والاحترام والنظام الذي افتقدته التشكيلة الحالية التي تفتقر للاتجاه والقيادة، ما يعد المهمة الأولى للمدرب الجديد، حيث يبدو مورينيو الأقرب للعودة ومستعداً لقبو…",
-      "image": null,
-      "pubDate": "2026-05-10T05:25:23.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "c3e4ad4fca1e407e",
-      "title": "ليلة الحسم.. الذكاء الاصطناعي يتوقع نتيجة الكلاسيكو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%85-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%8A%D8%AA%D9%88%D9%82%D8%B9-%D9%86%D8%AA%D9%8A%D8%AC%D8%A9-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88/blt1276813eedb95653?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "صراع مرتقب وسط ظروف متباينة",
-      "body": "صراع مرتقب وسط ظروف متباينة يترقب عشاق كرة القدم حول العالم المواجهة المرتقبة اليوم بين برشلونة وغريمه ريال مدريد، في كلاسيكو جديد يحمل طابعًا حاسمًا. ويحتضن ملعب سبوتيفاي كامب نو لقاء الليلة، ضمن منافسات الجولة 35 من بطولة الدوري الإسباني. ويدخل برشلونة اللقاء متصدرًا جدول ترتيب الليجا برصيد 88 نقطة، متفوقًا بفارق 11 نقطة على ريال مدريد صاحب المركز الثاني برصيد 77 نقطة، في واحدة من أكثر نسخ الكلاسيكو حساسية على مستوى الصراع على اللقب. وتكفي البارسا نقطة واحدة من أجل التتويج باللقب رسميا. وقبل انطلاق اللقاء، قدمت نماذج الذكاء الاصطناعي الرياضية توقعا لنتيجة مباراة الفريقين، اعتمادا على الأداء الأخير، والاستقرار الفني، والعوامل التكتيكية، بالإضافة إلى أفضلية الأرض والجمهور. ووفقًا للتوقعات التحليلية، تميل الكفة بشكل طفيف لصالح برشلونة، في ظل تفوقه النسبي على مستوى الانسجام الجماعي، وقدرته على التحكم في إيقاع المباريات الكبيرة خلال الموسم الحالي، إلى جانب استقراره في النتائج مقارنة بغريمه. في المقابل، أشارت النماذج إلى أن ريال مدريد يظل طرفا خطيرا في مثل هذه المواجهات، بفضل خبرته وقدرته على استغلال المساحات والتحولات السريعة، ما يجعله قادرًا على قلب أي سيناريو في اللقاء. وجاء التوقع الأقرب وفقًا للتحليل: فوز برشلونة 2-1 على ريال مدريد في مباراة متقاربة، مع احتمالية تسجيل الفريقين. و…",
-      "image": null,
-      "pubDate": "2026-05-10T05:24:45.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "b299fba7dc12524e",
       "title": "Defiant Dubois sheds quitter tag to write new narrative",
       "link": "https://www.bbc.com/sport/boxing/articles/cx21rlkl5jgo?at_medium=RSS&at_campaign=rss",
@@ -891,54 +1000,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "b299fba7dc12524e",
-      "title": "Defiant Dubois sheds quitter tag to write new narrative",
-      "link": "https://www.bbc.com/sport/boxing/articles/cx21rlkl5jgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Daniel Dubois faced questions over his heart and mentality before facing Fabio Wardley, but silenced his critics by overcoming adversity to become WBO heavyweight champion.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T05:16:48.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "d3faed558307a822",
-      "title": "الطيب والشرس والقبيح.. ثلاثية مدريدية تشعل الكلاسيكو أمام برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%B7%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D8%B4%D8%B1%D8%B3-%D9%88%D8%A7%D9%84%D9%82%D8%A8%D9%8A%D8%AD-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt44a6d316e85347ee?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل ينجح الملكي في مهمة تعطيل برشلونة؟",
-      "body": "هل ينجح الملكي في مهمة تعطيل برشلونة؟ يدخل ريال مدريد مواجهته المرتقبة أمام برشلونة في كلاسيكو الليجا وسط أجواء مشتعلة وضغوط غير مسبوقة، في مباراة قد تتحول إلى لحظة فاصلة داخل البيت المدريدي. صحيفة ماركا الإسبانية اختارت وصف المشهد الحالي داخل ريال مدريد بطريقة سينمائية مستوحاة من الفيلم الشهير \"الطيب والشرس والقبيح\"، معتبرة أن تيبو كورتوا وأوريلين تشواميني وكيليان مبابي يمثلون 3 شخصيات فارقة في محاولة ملكية لتأخير تتويج برشلونة باللقب. يحتضن ملعب سبوتيفاي كامب نو مواجهة مرتقبة تجمع بين برشلونة وغريمه التقليدي، اليوم الأحد، ضمن منافسات الجولة 35 من بطولة الدوري الإسباني. ويدخل برشلونة اللقاء متصدرًا جدول ترتيب الليجا برصيد 88 نقطة، متفوقًا بفارق 11 نقطة على ريال مدريد صاحب المركز الثاني برصيد 77 نقطة، في واحدة من أكثر نسخ الكلاسيكو حساسية على مستوى الصراع على اللقب. كورتوا.. عودة المنقذ يمثل تيبو كورتوا نقطة الأمل الأكبر داخل ريال مدريد قبل الكلاسيكو، بعدما استعاد جاهزيته ليعود إلى التشكيل الأساسي في توقيت بالغ الحساسية. وترى الصحيفة الإسبانية أن أهمية الحارس البلجيكي لا تتعلق فقط بقدراته الفنية، بل أيضا بثقله داخل غرفة الملابس، باعتباره أحد أكثر اللاعبين تأثيرا واحتراما بين زملائه. ويأمل ريال مدريد أن تمنح عودة كورتوا الفريق حالة من التوازن النفسي بعد فترة من الاضطرابات، خاصة أن …",
-      "image": null,
-      "pubDate": "2026-05-10T05:01:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "363b6cf7af96e1b5",
-      "title": "هل تلقى استدعاء من منتخب ألمانيا؟.. حارس بايرن ميونخ يرد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D8%AA%D9%84%D9%82%D9%89-%D8%A7%D8%B3%D8%AA%D8%AF%D8%B9%D8%A7%D8%A1-%D9%85%D9%86-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D8%AD%D8%A7%D8%B1%D8%B3-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D8%B1%D8%AF/bltb2f8f88e66a5a859?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أوربيج يستعد لخلافة نوير",
-      "body": "أوربيج يستعد لخلافة نوير تحدث جوناس أوربيج، حارس مرمى بايرن ميونخ، عن طموحاته وتفكيره في الانضمام لقائمة المنتخب الألماني المشاركة في كأس العالم 2026، مشيراً إلى أنه يفضل التركيز على الأهداف القريبة مع ناديه، في الوقت الراهن. ورداً على سؤال حول تفكيره في المونديال، وتواصله مع المدرب جوليان ناجلسمان، قال أوربيج في تصريحات صحفية: \"بشكل عام، قلت هذا عدة مرات للأسف، وأعلم أن ذلك ليس جيدًا لكم كصحفيين، لكنني أحاول العمل بجد أسبوعًا بعد أسبوع، وأركز فقط من يوم إلى يوم ومن أسبوع إلى أسبوع\". اقرأ أيضًا فليك عن مشاكل ريال مدريد: الأنا تقتل النجاح قبل الكلاسيكو.. بيريز يؤكد استمرار حربه الباردة مع برشلونة واعتبر الحارس الشاب أن التفكير في البطولة العالمية سابق لأوانه حاليا: \"كأس العالم ما زال يفصلنا عنه بعض الوقت. وحتى ذلك الحين لدينا مباراة على أرضنا ضد كولن، ثم نهائي الكأس، للأسف ليس نهائي دوري الأبطال، لكنه نهائي الكأس (أمام شتوتجارت)\". واختتم صاحب الـ22 عامًا: \"بعد ذلك فقط، إذا كان ذلك مناسبًا لكم، سأبدأ بالتفكير في الأمر (كأس العالم)\". ويُعد أوربيج الخليفة المرتقب للأسطورة مانويل نوير في حراسة العرين البافاري، وسيتحدد دوره في الموسم المقبل بناءً على نتيجة مفاوضات الحارس المخضرم مع إدارة بايرن حول تجديد عقده، الذي ينتهي بنهاية الموسم الجاري.",
-      "image": null,
-      "pubDate": "2026-05-10T05:00:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "71b4b34f073b8e1c",
@@ -1085,38 +1146,6 @@
       "region": "global"
     },
     {
-      "id": "124b6a2dc7e14535",
-      "title": "Hearts fans drunk on drama as intoxicating title race takes twist",
-      "link": "https://www.bbc.com/sport/football/articles/cx21xl971yzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Hearts' mentality monsters dig deep for a point in a frenetic game at Motherwell that sums up this Scottish Premiership title race for the ages.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-09T22:50:04.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2bb29319bacdd33b",
-      "title": "Forest beat Mavericks to boost play-off hopes",
-      "link": "https://www.bbc.com/sport/netball/articles/c775n6p28zpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nottingham Forest take a big step toward securing their place in the Netball Super League play-offs with a crucial 57-49 win over chasing London Mavericks.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-09T21:14:05.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "727504df1fd58f76",
       "title": "Wafer scores twice as Ireland beat Wales",
       "link": "https://www.bbc.com/sport/rugby-union/videos/cx217x8lvwjo?at_medium=RSS&at_campaign=rss",
@@ -1204,22 +1233,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-05-09T19:47:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0632b089a69e2906",
-      "title": "Would Old Firm derby win be Rangers' 'trophy' this season?",
-      "link": "https://www.bbc.com/sport/football/articles/cd7pv5l4gzpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Rangers manager Danny Rohl is under pressure after their title bid wilted - so an Old Firm win against Celtic on Sunday would be a timely tonic.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-09T19:34:48.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1469,8 +1482,8 @@
       "region": "global"
     },
     {
-      "id": "7ab5eccf5a27030d",
-      "title": "Boos, no intensity and no identity - what is Slot's Liverpool?",
+      "id": "4c3add9ab850f7bd",
+      "title": "Boos, no intensity and no identity - who are Slot's Liverpool?",
       "link": "https://www.bbc.com/sport/football/articles/cqjp4nex0lyo?at_medium=RSS&at_campaign=rss",
       "summary": "More boos at Anfield highlight why Liverpool must change their style during a seismic summer for Arne Slot.",
       "body": null,
@@ -1674,38 +1687,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "5c65983fcfac872f",
-      "title": "What would Women's FA Cup success do for Liverpool?",
-      "link": "https://www.bbc.com/sport/football/articles/c1e2pd0j35yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool's season has not gone to plan, but the Women's Super League side are now just two wins away from lifting a trophy.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-09T11:59:14.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "8fbd4309ddb90f1d",
-      "title": "Message by the WHO Director-General to the people of Tenerife regarding the hantavirus response",
-      "link": "https://www.who.int/news/item/09-05-2026-message-by-the-who-director-general-to-the-people-of-tenerife-regarding-the-hantavirus-response",
-      "summary": "To the people of Tenerife, My name is Tedros, and I serve as the Director-General of the World Health Organization, the United Nations agency responsible for global public health. It is not common for me to write directly to the people of a single community, but today I feel it is not only appropri…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-09T11:14:23.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -1914,22 +1895,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "ac1b6850e968c6b8",
-      "title": "Dortmund beat Eintracht Frankfurt in five-goal thriller",
-      "link": "https://www.bbc.com/sport/football/videos/cx215090p3xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Borussia Dortmund survive a late scare as they hang on to beat Eintracht Frankfurt 3-2 at Signal Iduna Park to secure second place in the German Bundesliga.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-08T20:58:05.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2701,22 +2666,6 @@
       "region": "global"
     },
     {
-      "id": "5ad247728c3256a6",
-      "title": "WHO’s response to hantavirus cases linked to a cruise ship",
-      "link": "https://www.who.int/news/item/07-05-2026-who-s-response-to-hantavirus-cases-linked-to-a-cruise-ship",
-      "summary": "Dr Tedros Adhanom Ghebreyesus, WHO Director-General, briefed media today on a cluster of hantavirus cases linked to a cruise ship, the MV Hondius. Eight cases have been reported so far, including three deaths. Five of the 8 cases have been confirmed as hantavirus. The hantavirus involved is the And…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-07T17:21:37.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "b3fe5801a99f30b2",
       "title": "DREAME Z1 Pro Robotic Pool Cleaner is now cheaper than Black Friday",
       "link": "https://www.androidauthority.com/dreame-z1-pro-cordless-robotic-pool-cleaner-deal-3664840/",
@@ -3277,38 +3226,6 @@
       "region": "global"
     },
     {
-      "id": "4ff4ede2160d321e",
-      "title": "We haven’t seen new Wi-Fi audio products in over a year, but Qualcomm has some good news",
-      "link": "https://www.androidauthority.com/qualcomm-xpan-update-2026-3663562/",
-      "summary": "Qualcomm will also launch improved versions of XPAN, much like new Bluetooth versions.",
-      "body": "Credit: Hadlee Simons / Android Authority TL;DR Qualcomm has confirmed that new XPAN-enabled products are in the works, as well as new versions of XPAN. This news comes over a year after we saw the last XPAN-enabled products from a major manufacturer. XPAN uses Wi-Fi to transmit audio instead of Bluetooth, resulting in longer range and better stability. Qualcomm launched its XPAN technology a few years ago, promising an intriguing alternative to Bluetooth audio. Unfortunately, we haven’t seen products with this tech in over a year. This left us wondering about the fate of XPAN, but Qualcomm has now confirmed that more products are on the way. We asked Qualcomm representative Shamly N.V. during a media briefing whether more XPAN-enabled products are coming in 2026 and beyond:",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/03/Xiaomi-Buds-5-Pro-Wi-Fi-scaled.jpg",
-      "pubDate": "2026-05-07T06:00:56.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "340141b701c3f71f",
-      "title": "Qualcomm’s new midrange Snapdragon chips offer flagship gaming and audio features",
-      "link": "https://www.androidauthority.com/qualcomm-snapdragon-4-6-gen-5-3664450/",
-      "summary": "Qualcomm's budget Snapdragon 4 Gen 5 chip gets 90 FPS gameplay, and the 6 Gen 5 platform gets XPAN for the first time.",
-      "body": "TL;DR Qualcomm announced the Snapdragon 4 Gen 5 and Snapdragon 6 Gen 5 mobile platforms, ushering in the next era of entry-level and mid-tier device performance. Both chipsets focus on GPU improvements, with the Snapdragon 4 Gen 5 supporting 90 FPS gameplay for the first time. The Snapdragon 6 Gen 5 chipset is more well-rounded, offering performance and battery life improvements in addition to flagship-caliber connectivity specs. Qualcomm’s latest midrange processors, the Snapdragon 4 Gen 5 and Snapdragon 6 Gen 5 mobile platforms, are official. The chipmaker announced the new budget chips with key performance upgrades, with gaming, camera, and AI performance taking focus. The two midrange processors also prioritize efficiency and longer battery life, as Qualcomm tries to entice entry-level and mid-tier smartphone buyers with upgrades they care about. The brand teases that these chipsets will launch in upcoming Android phones from Honor, OPPO, and others. The budget Snapdragon 4 Gen 5 processor is all about gaming and graphical performance improvements. For the first time in the Snapdragon 4 series, the Gen 5 chip delivers 90 FPS gaming. It also offers a 77% improvement in Adreno G…",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/Qualcomm-Snapdragon-6-Gen-5-scaled.jpg",
-      "pubDate": "2026-05-07T06:00:06.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "845d0a759877babd",
       "title": "بكين وواشنطن تدرسان إطلاق محادثات رسمية حول الذكاء الاصطناعي",
       "link": "https://www.skynewsarabia.com/technology/1868188-%D8%A8%D9%83%D9%8A%D9%86-%D9%88%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D8%AF%D8%B1%D8%B3%D8%A7%D9%86-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
@@ -3645,22 +3562,6 @@
       "region": "global"
     },
     {
-      "id": "02e361c0463ab77a",
-      "title": "WHO Member States agree to extend negotiations on Pathogen Access and Benefit Sharing annex",
-      "link": "https://www.who.int/news/item/01-05-2026-who-member-states-agree-to-extend-negotiations-on-pathogen-access-and-benefit-sharing-annex",
-      "summary": "Member States of the World Health Organization (WHO) have progressed work on the Pathogen Access and Benefit Sharing (PABS) annex, a key part of the WHO Pandemic Agreement, and today agreed additional time was needed to finalize the framework for ensuring a better, more equitable, response to futur…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-01T16:52:42.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "d8082bae1ada0213",
       "title": "صدمة ما بعد الحرب.. أزمة نفسية تضرب الجيش الإسرائيلي",
       "link": "https://www.skynewsarabia.com/technology/1867268-%D8%B5%D8%AF%D9%85%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A3%D8%B2%D9%85%D8%A9-%D9%86%D9%81%D8%B3%D9%8A%D8%A9-%D8%AA%D8%B6%D8%B1%D8%A8-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A",
@@ -3693,22 +3594,6 @@
       "region": "global"
     },
     {
-      "id": "2c7d070abae5c9cf",
-      "title": "Australia becomes the 30th country to eliminate trachoma as a public health problem",
-      "link": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
-      "summary": "The World Health Organization (WHO) has validated Australia for eliminating trachoma as a public health problem, marking a significant milestone in the health of indigenous peoples and in global efforts to combat neglected tropical diseases (NTDs). Trachoma, the world’s leading infectious cause of …",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-29T06:10:07.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "c9302d8b080e6edf",
       "title": "دراسة تكشف تأثيرا خفيا لتناول المانجو والأفوكادو معا",
       "link": "https://www.skynewsarabia.com/technology/1866724-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%D8%A7-%D8%AE%D9%81%D9%8A%D8%A7-%D9%84%D8%AA%D9%86%D8%A7%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%88%D8%A7%D9%84%D8%A3%D9%81%D9%88%D9%83%D8%A7%D8%AF%D9%88-%D9%85%D8%B9%D8%A7",
@@ -3721,22 +3606,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c71a9cc01314b999",
-      "title": "Efforts to eliminate hepatitis delivers gains but more action needed to meet 2030 targets",
-      "link": "https://www.who.int/news/item/28-04-2026-efforts-to-eliminate-hepatitis-delivers-gains-but-more-action-needed-to-meet-2030-targets",
-      "summary": "Global efforts to combat viral hepatitis are delivering measurable progress in reducing infections and deaths, but the disease remains a major global health challenge, according to a new World Health Organization (WHO) report released today at the World Hepatitis Summit. Viral hepatitis B and C – t…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-28T05:37:30.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
       "category": "technology",
       "region": "global"
     },
@@ -3754,22 +3623,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "cb52c0cd897c342c",
-      "title": "Practicing today for tomorrow’s emergencies – WHO convenes countries and partners to simulate response to major disease outbreak",
-      "link": "https://www.who.int/news/item/27-04-2026-practicing-today-for-tomorrow-s-emergencies-who-convenes-countries-and-partners-to-simulate-response-to-major-disease-outbreak",
-      "summary": "The World Health Organization (WHO) wrapped up Exercise Polaris II, a 2-day high-level simulation exercise, based around an outbreak of a fictional new bacterium spreading across the world. Bringing together 26 countries and territories, 600 health emergency experts and over 25 partners, the exerci…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-27T13:12:09.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -3837,22 +3690,6 @@
       "region": "global"
     },
     {
-      "id": "a17ef83d6400429a",
-      "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests",
-      "link": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests",
-      "summary": "Ahead of World Malaria Day on 25 April, the World Health Organization (WHO) has announced a significant step forward in the fight against malaria with the prequalification of the first treatment developed specifically for newborns and young infants weighing between two and five kilograms. The prequ…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-24T16:11:22.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "1e5ee3f0d6dd18f4",
       "title": "حين ينطفئ الإنترنت.. تكنولوجيا خاصة تبقي التواصل حيا بإيران",
       "link": "https://www.skynewsarabia.com/technology/1866019-%D9%8A%D9%86%D8%B7%D9%81%D8%A6-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D8%AE%D8%A7%D8%B5%D8%A9-%D8%AA%D8%A8%D9%82%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%AD%D9%8A%D8%A7-%D8%A8%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
@@ -3866,22 +3703,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "6768f596c05af908",
-      "title": "Largest catch-up initiative delivers over 100 million childhood vaccinations",
-      "link": "https://www.who.int/news/item/24-04-2026-largest-catch-up-initiative-delivers-over-100-million-childhood-vaccinations",
-      "summary": "The Big Catch-Up, launched during World Immunization Week 2023, has delivered over 100 million vaccine doses to an estimated 18.3 million children across 36 countries Around 12.3 million were “zero-dose children” who had not previously received any vaccines and 15 million who had never received a m…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-24T00:01:25.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -3933,38 +3754,6 @@
       "region": "global"
     },
     {
-      "id": "1ce76195f12882bd",
-      "title": "Algeria eliminates trachoma as a public health problem",
-      "link": "https://www.who.int/news/item/23-04-2026-algeria-eliminates-trachoma-as-a-public-health-problem",
-      "summary": "The World Health Organization (WHO) has validated Algeria as having eliminated trachoma as a public health problem, making it the 10th country in WHO’s African Region and the 29th country globally to achieve this significant milestone.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-23T10:46:17.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "cea55f7912122ee4",
-      "title": "WHO reports measurable health impact in 2025 amid transition to new strategy",
-      "link": "https://www.who.int/news/item/23-04-2026-who-reports-measurable-health-impact-in-2025-amid-transition-to-new-strategy",
-      "summary": "The World Health Organization (WHO) today released its Results Report, highlighting measurable improvements in people’s health worldwide in 2025, despite funding cuts affecting both the organization and the broader global health sector. Published at a pivotal moment for global health, the Results R…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-23T08:07:28.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "e184999cdec5294f",
       "title": "القضية الغامضة.. أميركا تمنع نشر بحث حول فعالية لقاح كورونا",
       "link": "https://www.skynewsarabia.com/technology/1865710-%D8%A7%D9%84%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%BA%D8%A7%D9%85%D8%B6%D8%A9-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D9%85%D9%86%D8%B9-%D9%86%D8%B4%D8%B1-%D8%A8%D8%AD%D8%AB-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D9%84%D9%82%D8%A7%D8%AD-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7",
@@ -3978,22 +3767,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d5fe56864057bd73",
-      "title": "WHO certifies the Bahamas for eliminating mother-to-child transmission of HIV",
-      "link": "https://www.who.int/news/item/22-04-2026-who-certifies-the-bahamas-for-eliminating-mother-to-child-transmission-of-hiv",
-      "summary": "In a landmark achievement for Caribbean public health, the World Health Organization (WHO) congratulates The Bahamas for becoming the latest Caribbean nation to be certified as having eliminated the mother-to-child transmission of HIV. “I congratulate The Bahamas on this outstanding achievement, wh…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-22T20:34:27.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -4413,22 +4186,6 @@
       "region": "global"
     },
     {
-      "id": "e305908cf489a9d9",
-      "title": "First-ever WHO Forum unites 800+ Collaborating Centres for stronger scientific collaboration",
-      "link": "https://www.who.int/news/item/09-04-2026-first-ever-who-forum-unites-800--collaborating-centres-for-stronger-scientific-collaboration",
-      "summary": "The World Health Organization (WHO) has convened the historic first Global Forum of Collaborating Centres—one of the world’s largest and most diverse public health networks—bringing together representatives from over 800 institutions designated as WHO Collaborating Centres (CCs) across more than 80…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-09T15:59:24.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "0e5cb93548b4ee7f",
       "title": "جيتكس إفريقيا.. المغرب يجمع \"رواد التكنولوجيا\" من 103 دول",
       "link": "https://www.skynewsarabia.com/technology/1863117-%D8%AC%D9%8A%D8%AA%D9%83%D8%B3-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%8A%D8%AC%D9%85%D8%B9-%D8%B1%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-103-%D8%AF%D9%88%D9%84",
@@ -4442,22 +4199,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8bedda142869f139",
-      "title": "WHO and France shift One Health vision to action with new high-impact initiatives",
-      "link": "https://www.who.int/news/item/07-04-2026-who-and-france-shift-one-health-vision-to-action-with-new-high-impact-initiatives",
-      "summary": "The World Health Organization (WHO) and France hosted the One Health Summit on World Health Day 2026, announcing new initiatives to protect human, animal, and environmental health through the One Health approach. The Summit highlighted urgent global challenges such as climate change, zoonotic disea…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-04-07T19:02:21.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -4765,22 +4506,6 @@
       "region": "global"
     },
     {
-      "id": "df35e3dabd78b3e3",
-      "title": "WHO Member States agree to extend negotiations on key annex to the Pandemic Agreement",
-      "link": "https://www.who.int/news/item/28-03-2026-who-member-states-agree-to-extend-negotiations-on-key-annex-to-the-pandemic-agreement",
-      "summary": "WHO Member States have agreed to extend negotiations on the Pathogen Access and Benefit Sharing (PABS) annex to the WHO Pandemic Agreement, with discussions to resume in late‑April ahead of its scheduled consideration by the World Health Assembly (WHA) in May.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-28T19:14:12.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "b64878dffd94758b",
       "title": "When football turned to penalties to end 'cruel' system",
       "link": "https://www.bbc.com/sport/football/articles/cr71enxvrd3o?at_medium=RSS&at_campaign=rss",
@@ -4877,22 +4602,6 @@
       "region": "global"
     },
     {
-      "id": "fa42a33ae1d5370d",
-      "title": "Encouraging progress in inclusive health policies for refugees and migrants",
-      "link": "https://www.who.int/news/item/26-03-2026-encouraging-progress-in-inclusive-health-policies-for-refugees-and-migrants",
-      "summary": "WHO reports a major shift in how countries are responding to the health needs of refugees and migrants, with new data showing more than 60 countries – two thirds of those surveyed – now include them in their national health policies and laws.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-26T08:50:26.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "88e2526b1a2522c3",
       "title": "القمر لم يعد مجرد محطة.. خطوة جديدة تغيّر مستقبل البشرية",
       "link": "https://www.skynewsarabia.com/technology/1860487-%D8%A7%D9%84%D9%82%D9%85%D8%B1-%D9%8A%D8%B9%D8%AF-%D9%85%D8%AC%D8%B1%D8%AF-%D9%85%D8%AD%D8%B7%D8%A9-%D8%AE%D8%B7%D9%88%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9",
@@ -4922,22 +4631,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "89b9a0cd3c2590c0",
-      "title": "WHO recommends new diagnostic tools to help end TB",
-      "link": "https://www.who.int/news/item/24-03-2026-who-recommends-new-diagnostic-tools-to-help-end-tb",
-      "summary": "On World TB Day, the World Health Organization (WHO) is urging countries to accelerate action to end tuberculosis (TB) and expand access to lifesaving services by using new innovations such as diagnostic tests that can be used near the point-of-care and tongue swabs that can help detect the disease…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-24T08:29:49.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -4973,38 +4666,6 @@
       "region": "global"
     },
     {
-      "id": "e1d917dfb259bb7f",
-      "title": "العلماء يكتشفون \"نوعا جديد تماما\" من الكواكب",
-      "link": "https://www.skynewsarabia.com/technology/1859466-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1-%D9%8A%D9%83%D8%AA%D8%B4%D9%81%D9%88%D9%86-%D9%86%D9%88%D8%B9%D8%A7-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AA%D9%85%D8%A7%D9%85%D8%A7-%D8%A7%D9%84%D9%83%D9%88%D8%A7%D9%83%D8%A8",
-      "summary": "اكتشف العلماء نوعاً جديداً تماماً من الكواكب خارج المجموعة الشمسية، وهو كوكب من نوع الكواكب العملاقة، يتحدى مفاهيمنا التقليدية حول تكوين الكواكب.",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v2/2020/03/12/1327751/95/53/1-1327751.jpg",
-      "pubDate": "2026-03-19T07:02:20.000Z",
-      "source": {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "64d57b6fbbd31cc2",
-      "title": "Progress in reducing child deaths slows as 4.9 million children die before age five",
-      "link": "https://www.who.int/news/item/18-03-2026-progress-in-reducing-child-deaths-slows-as-4.9-million-children-die-before-age-five",
-      "summary": "An estimated 4.9 million children died before their fifth birthday in 2024, including 2.3 million newborns, according to new estimates released today. Most of these deaths are preventable with proven, low-cost interventions and access to quality health care. According to the report – Levels & Trend…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-18T00:01:15.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "7484dd71aa8b630e",
       "title": "Find out more here",
       "link": "https://www.bbc.com/sport/football/articles/ce8e6y90g2jo?at_medium=RSS&at_campaign=rss",
@@ -5018,70 +4679,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "677bbfb07e6ffd5f",
-      "title": "Chile becomes the first country in the Americas to be verified by WHO for the elimination of leprosy",
-      "link": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy",
-      "summary": "The World Health Organization (WHO), together with the Pan American Health Organization (PAHO), congratulates Chile for becoming the first country in the Americas – and the second globally – to be officially verified as having eliminated leprosy disease.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-03-04T14:57:17.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "5e9b5b77a1f09e9c",
-      "title": "Recommendations for influenza vaccine composition for the 2026-2027 northern hemisphere season",
-      "link": "https://www.who.int/news/item/27-02-2026-recommendations-for-influenza-vaccine-composition-for-the-2026-2027-northern-hemisphere-season",
-      "summary": "The World Health Organization (WHO) today announced recommendations for the viral composition of influenza (or “flu”) vaccines for the 2026-2027 northern hemisphere influenza season. The announcement was made following a 4-day consultation examining global influenza surveillance data.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-27T10:01:29.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "b0f85bd2a29d139c",
-      "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
-      "link": "https://www.who.int/news/item/27-02-2026-denmark-becomes-first-country-in-the-european-union-to-eliminate-of-mother-to-child-transmission-of-hiv-and-syphilis",
-      "summary": "The World Health Organization (WHO) has certified Denmark for the elimination of mother-to-child transmission (EMTCT) of HIV and syphilis, recognizing the country's sustained commitment to ensuring every child is born free of these infections.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-26T17:17:17.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "1165abc5dfe450b4",
-      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
-      "link": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
-      "summary": "The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental h…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-02-25T18:06:55.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
