@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-12T07:34:44.880Z",
-    "total": 190,
+    "generated_at": "2026-05-12T10:09:21.970Z",
+    "total": 197,
     "processed_feeds": 20,
-    "discovered_feeds": 85,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
@@ -19,6 +19,19 @@
         ],
         "taken": 0,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -48,32 +61,6 @@
         "notModified": false
       },
       {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 21,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 7,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -84,32 +71,6 @@
         ],
         "taken": 0,
         "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
         "notModified": false
       },
       {
@@ -126,6 +87,45 @@
         "notModified": false
       },
       {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 24,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 9,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Financial Times — Markets",
         "url": "https://www.ft.com/markets?format=rss",
         "homepage": "https://www.ft.com/markets?format=rss",
@@ -139,6 +139,19 @@
         "notModified": false
       },
       {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
         "name": "Oilprice.com — Latest",
         "url": "https://oilprice.com/rss/main",
         "homepage": "https://oilprice.com/rss/main",
@@ -147,33 +160,7 @@
         "cats": [
           "general"
         ],
-        "taken": 5,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
+        "taken": 7,
         "error": null,
         "notModified": false
       },
@@ -191,22 +178,74 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
         "lang": "ar",
-        "region": "egypt",
+        "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
         "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
         "name": "Al Jazirah (KSA) - رياضة",
         "url": "https://www.al-jazirah.com/rss/rss09.xml",
         "homepage": "https://www.al-jazirah.com/rss/rss09.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Bloomberg — Markets",
+        "url": "https://www.bloomberg.com/markets/rss",
+        "homepage": "https://www.bloomberg.com/markets/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Kooora - الدوريات العربية",
+        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
+        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -228,57 +267,18 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
-      },
-      {
-        "name": "Kooora - الدوريات العربية",
-        "url": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Bloomberg — Markets",
-        "url": "https://www.bloomberg.com/markets/rss",
-        "homepage": "https://www.bloomberg.com/markets/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
       }
     ]
   },
   "items": [
     {
-      "id": "515eb5e07264dfcb",
-      "title": "James unsure over future after Lakers eliminated",
-      "link": "https://www.bbc.com/sport/basketball/articles/cg7p5jer8jmo?at_medium=RSS&at_campaign=rss",
-      "summary": "NBA legend LeBron James says he is unsure \"what the future holds\" after the Los Angeles Lakers are knocked out of the play-offs.",
+      "id": "80645d2a8f6bde3c",
+      "title": "Southampton ask for more time over spying claims",
+      "link": "https://www.bbc.com/sport/football/articles/cx21kpmdj97o?at_medium=RSS&at_campaign=rss",
+      "summary": "Southampton request more time to conduct an internal review after being charged with spying on Championship play-off rivals Middlesbrough.",
       "body": null,
       "image": null,
-      "pubDate": "2026-05-12T07:24:24.000Z",
+      "pubDate": "2026-05-12T10:08:49.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -288,13 +288,77 @@
       "region": "global"
     },
     {
-      "id": "c1df287fba5f953c",
-      "title": "Earnings call transcript: Nolato Q1 2026 reveals earnings miss, stock slides",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-nolato-q1-2026-reveals-earnings-miss-stock-slides-93CH-4679088",
+      "id": "a76d915cfc5dd309",
+      "title": "First ‘Dogma 25’ Film, BDSM Love Story ‘Mr. Nawashi’ Starts Shoot, Gets Netflix Deal",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/first-dogma-25-film-bdsm-love-story-mr-nawashi-starts-shoot-1236593138/",
+      "summary": "Dogma 25, inspired by Lars von Trier and Thomas Vinterberg's Dogma 95 cinema movement, aims to make films without artistic interference, using found materials, and without the use of the internet.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T10:08:48.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0bd80860683b4888",
+      "title": "$135 Billion on Film and TV and 425,000 Jobs: Ted Sarandos Touts “The Netflix Effect”",
+      "link": "https://www.hollywoodreporter.com/business/business-news/netflix-effect-2026-ted-sarandos-blog-post-1236592877/",
+      "summary": "\"While other entertainment companies pull back, we’re leaning in,\" the co-CEO writes about a report underscoring the company's expansive reach on the economy and culture.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T10:00:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e1712f4e037417c4",
+      "title": "Trump puts Taiwan arms sales, Hong Kong jailed activist Lai on agenda ahead of meeting with Xi",
+      "link": "https://www.cnbc.com/2026/05/12/trump-xi-china-summit-taiwan-arms-sale-jimmy-lai-.html",
+      "summary": "Trump said Monday that U.S. arms sales to Taiwan and the imprisonment of Hong Kong media tycoon Jimmy Lai would be among the issues at the summit in Beijing.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:48:16.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "cce1c9e52824c23b",
+      "title": "David Rooney’s Must-See Cannes Movies",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/cannes-2026-10-most-anticipated-competition-titles-1236575387/",
+      "summary": "THR’s chief film critic highlights promising competition entries from some of world cinema’s most highly regarded directors.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:45:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "a994a62063a2e5d5",
+      "title": "Jenoptik surges on strong order intake, beating estimates",
+      "link": "https://www.investing.com/news/stock-market-news/jenoptik-reports-74-jump-in-firstquarter-order-intake-93CH-4679079",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-05-12T07:21:15.000Z",
+      "image": "https://i-invdn-com.investing.com/news/fa8a2f803ea2ddf92359d55091dcde0a_M.jpg",
+      "pubDate": "2026-05-12T09:44:34.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -304,29 +368,13 @@
       "region": "global"
     },
     {
-      "id": "9819b85a749eecc2",
-      "title": "Encore Capital plans €300M floating rate notes offering",
-      "link": "https://www.investing.com/news/company-news/encore-capital-plans-300m-floating-rate-notes-offering-93CH-4679087",
+      "id": "3cb4a0733c144c46",
+      "title": "Factbox-Australia unveils changes to negative gearing, capital gains tax",
+      "link": "https://www.investing.com/news/economy-news/factboxaustralia-unveils-changes-to-negative-gearing-capital-gains-tax-4679371",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-05-12T07:20:53.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5b822dbf4b86f6a2",
-      "title": "IMI plc Posts Strong Q1 Sales Growth, Maintains Full-Year Outlook",
-      "link": "https://www.investing.com/news/stock-market-news/imi-plc-posts-strong-q1-sales-growth-maintains-fullyear-outlook-93CH-4679084",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/LYNXMPEDAF0IH_M.jpg",
-      "pubDate": "2026-05-12T07:19:00.000Z",
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM4B0ND_L.jpg",
+      "pubDate": "2026-05-12T09:42:56.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -336,13 +384,13 @@
       "region": "global"
     },
     {
-      "id": "8e332932c12b71b4",
-      "title": "Earnings call transcript: Uniper SE Q1 2026 shows strong financial recovery",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-uniper-se-q1-2026-shows-strong-financial-recovery-93CH-4679083",
+      "id": "45b840caefead3aa",
+      "title": "Australia’s tax reforms expected to knock some heat out of housing",
+      "link": "https://www.investing.com/news/economy-news/australias-tax-reforms-expected-to-knock-some-heat-out-of-housing-4679370",
       "summary": "",
       "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-05-12T07:18:20.000Z",
+      "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM4B0NE_L.jpg",
+      "pubDate": "2026-05-12T09:42:35.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -352,29 +400,13 @@
       "region": "global"
     },
     {
-      "id": "02f364809908db1f",
-      "title": "Earnings call transcript: Duke Energy beats Q1 2026 forecasts but stock dips",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-duke-energy-beats-q1-2026-forecasts-but-stock-dips-93CH-4679082",
+      "id": "c83ee3d84ba7747c",
+      "title": "WPP awards restricted shares to CEO and CFO",
+      "link": "https://www.investing.com/news/company-news/wpp-awards-restricted-shares-to-ceo-and-cfo-93CH-4679369",
       "summary": "",
       "body": null,
       "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-05-12T07:17:49.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "weather",
-      "region": "global"
-    },
-    {
-      "id": "6f2957c8fcbed5f5",
-      "title": "Jenoptik reports 74% jump in first-quarter order intake",
-      "link": "https://www.investing.com/news/stock-market-news/jenoptik-reports-74-jump-in-firstquarter-order-intake-93CH-4679079",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/fa8a2f803ea2ddf92359d55091dcde0a_M.jpg",
-      "pubDate": "2026-05-12T07:14:00.000Z",
+      "pubDate": "2026-05-12T09:41:58.000Z",
       "source": {
         "name": "Investing.com News (EN)",
         "homepage": "https://www.investing.com/rss/news.rss"
@@ -382,6 +414,422 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "37cf6297149c4751",
+      "title": "Aletheia Capital raises Circle Internet stock price target on platform shift",
+      "link": "https://www.investing.com/news/analyst-ratings/aletheia-capital-raises-circle-internet-stock-price-target-on-platform-shift-93CH-4679368",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-05-12T09:41:06.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e5960d5645ff6ca2",
+      "title": "Shares of Rheinmetall are at a 52-week low. Here’s why",
+      "link": "https://www.investing.com/news/stock-market-news/shares-of-rheinmetall-are-at-a-52week-low-heres-why-93CH-4679364",
+      "summary": "",
+      "body": null,
+      "image": "https://i-invdn-com.investing.com/news/LYNXNPEC180BO_M.jpg",
+      "pubDate": "2026-05-12T09:39:48.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "08bc0f5e3ca2c89b",
+      "title": "Imperial Brands H1 2026 slides: pricing power drives growth",
+      "link": "https://www.investing.com/news/company-news/imperial-brands-h1-2026-slides-pricing-power-drives-growth-93CH-4679363",
+      "summary": "",
+      "body": null,
+      "image": "https://csv-storage.forexpros.com/slides/c53a6cb5b8b52208014b1991eaf10bb19a22a39c741089da89c8eb093b6b8847.png",
+      "pubDate": "2026-05-12T09:39:28.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "236e530fc03140e2",
+      "title": "Bytes Technology FY26 slides: revenue jumps 11.5%, margins squeezed",
+      "link": "https://www.investing.com/news/company-news/bytes-technology-fy26-slides-revenue-jumps-115-margins-squeezed-93CH-4679362",
+      "summary": "",
+      "body": null,
+      "image": "https://csv-storage.forexpros.com/slides/4c48d8c16b38fd07f989f8e8e4437dd2a7c27fdd3862201de18db1b47446f731.png",
+      "pubDate": "2026-05-12T09:39:13.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ed2c1880c3629e7a",
+      "title": "On The Beach H1 FY26 slides: volumes surge amid profit pressure",
+      "link": "https://www.investing.com/news/company-news/on-the-beach-h1-fy26-slides-volumes-surge-amid-profit-pressure-93CH-4679360",
+      "summary": "",
+      "body": null,
+      "image": "https://csv-storage.forexpros.com/slides/59fc3d1f5b276a8321b995fa63202f8959c0a33f698317d4534a6f7006a09e8b.png",
+      "pubDate": "2026-05-12T09:38:55.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "512ff86aabe1a17a",
+      "title": "‘Train to Busan’ Director Yeon Sang-ho’s New Zombie Thriller ‘Colony’ Lands Distribution Deals Worldwide",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/train-to-busan-director-zombie-thriller-colony-deals-cannes-1236593124/",
+      "summary": "The Showbox-backed action thriller will world-premiere in the Midnight Screenings section of the Cannes Film Festival on Friday before opening at home in South Korea on May 21.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:36:30.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e8b9901c0cc2a16c",
+      "title": "AMD reportedly planning a new budget graphics card with a surprising number of cores",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-reportedly-planning-a-new-budget-graphics-card-with-a-surprising-number-of-cores/",
+      "summary": "Though much lower clocks.",
+      "body": "How's about some positive whispers from the hardware grapevine amidst the relentless talk of increasing prices? Admittedly these whispers are not quite as positive or exciting as a new mid-range GPU might be, but the word on the street is that we'll soon be seeing a new low -end card in the form of the AMD Radeon RX 9050. According to VideoCardz , it has received information about the graphics card, and that includes not just information about its existence but also its specs—although it notes thes are \"preliminary and only single-sourced\". On this front, things are quite strange, as it will share the same Stream Processor (SP) count as the RX 9060 XT, not RX 9060. RX 9050* RX 9060 RX 9060 XT Stream Processors 2,048* 1,792 2,048 Game clock 1,920 MHz* 2,400 MHz 2,530 MHz Boost clock 2,600 MHz* 2,990 MHz 3,130 MHz *Rumoured The RX 9050 will apparently have the same Navi 44 GPU as you'll find in both the RX 9060 and RX 9060 XT, but it will have the latter's full 2,048 cores. The RX 9060, which we might expect the RX 9050 to ape, uses the same GPU but has 1,792 cores. The low-end sacrifice seemingly comes in the form of clock speed, as VideoCardz's information has it that the RX 9050 …",
+      "image": "https://cdn.mos.cms.futurecdn.net/cRoyydJRwswHw3gLE33yP7-1280-80.jpg",
+      "pubDate": "2026-05-12T09:31:15.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "b81a92a3728f8bdb",
+      "title": "Shell Moves to Exit French Fuel Retail Market in Strategic Pivot",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Moves-to-Exit-French-Fuel-Retail-Market-in-Strategic-Pivot.html",
+      "summary": "Shell plans to sell its network of about 60 service stations in France in a deal that could be finalized early next year, French daily Les Echos reported on Tuesday, quoting a communication the UK-based supermajor has shared with the affected employees, suppliers, and concessionaires. Shell expects…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:30:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0a3d4fc085e72742",
+      "title": "SA's Ismail reverses retirement for T20 World Cup",
+      "link": "https://www.bbc.com/sport/cricket/articles/clyplkknq7no?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa fast bowler Shabnim Ismail reverses her international retirement and is included in the Proteas' squad for this summer's T20 World Cup in England.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:27:43.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d68fda2665f79126",
+      "title": "UK MPs are turning on PM Starmer — Now analysts say he's unlikely to last the year",
+      "link": "https://www.cnbc.com/2026/05/12/uk-starmer-mps-quit-eurasia-politics.html",
+      "summary": "Analysts have slashed the odds of Starmer facing a leadership challenge by September.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:16:14.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "73e54429681e3f13",
+      "title": "On Holding beats first-quarter expectations, sees double-digit growth in China as Nike lags",
+      "link": "https://www.cnbc.com/2026/05/12/on-onon-earnings-q1-2026.html",
+      "summary": "Swiss sneaker company On beat Wall Street's expectations on the top and bottom lines, helped in part by strong sales in China.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:01:12.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "22e31466e6a2e129",
+      "title": "Crypto legislation faces another hurdle: Labor unions",
+      "link": "https://www.cnbc.com/2026/05/12/congress-crypto-legislation-labor-unions.html",
+      "summary": "Major labor groups ask senators in a letter obtained first by CNBC to oppose a crypto bill over concerns retirement accounts could be harmed.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T09:00:01.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "2cc3150463105ddb",
+      "title": "Crocker to defend against Paro in Brisbane in June",
+      "link": "https://www.bbc.com/sport/boxing/articles/c87q34xg0q8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Belfast boxer Lewis Crocker will defend his IBF welterweight title against Liam Paro at the Pat Rafter Arena in Brisbane on 24 June.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:57:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2cc3150463105ddb",
+      "title": "Crocker to defend against Paro in Brisbane in June",
+      "link": "https://www.bbc.com/sport/boxing/articles/c87q34xg0q8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Belfast boxer Lewis Crocker will defend his IBF welterweight title against Liam Paro at the Pat Rafter Arena in Brisbane on 24 June.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:57:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a60b01201a763c07",
+      "title": "Archibald avoids 'nasty crash' as she seals dominant omnium gold",
+      "link": "https://www.bbc.com/sport/cycling/videos/c8r8p0x1n8jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Great Britain's Katie Archibald wins a dominant gold medal in the women's omnium at the 2021 Track Cycling World Championships after earlier narrowly avoiding being taken out by a \"nasty looking crash\" in the elimination race.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:40:28.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "9e45f7603e3fccda",
+      "title": "Forty years of the EFL play-offs - choose your favourite memories",
+      "link": "https://www.bbc.com/sport/football/articles/c8dlg6veyyzo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport looks back at 15 memorable moments from 40 years of the play-offs in the English Football League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:29:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0a83ea27d396cbe3",
+      "title": "China’s LNG Imports Rebound From Eight-Year Low",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-LNG-Imports-Rebound-From-Eight-Year-Low.html",
+      "summary": "China’s imports of liquefied natural gas are on the mend, with the 30-day moving average rising to the highest level since late February, Bloomberg reported today, citing shipping data. The number is below the five-year average, the publication noted, but higher than it was in April, when China’s L…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:15:00.000Z",
+      "source": {
+        "name": "Oilprice.com — Latest",
+        "homepage": "https://oilprice.com/rss/main"
+      },
+      "lang": "en",
+      "category": "markets",
+      "region": "global"
+    },
+    {
+      "id": "f401129544bb4a7e",
+      "title": "وليد الفراج يفجّر الجدل: لا أريد صلاح في الدوري السعودي!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D9%84%D9%8A%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%AC-%D9%8A%D9%81%D8%AC%D9%91%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D9%84%D8%A7-%D8%A7%D9%94%D8%B1%D9%8A%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/blt761ba6993bb81356?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "لماذا يرفض تواجد \"الفرعون\" في روشن؟",
+      "body": "لماذا يرفض تواجد \"الفرعون\" في روشن؟ أثار الإعلامي السعودي وليد الفراج موجة من التفاعل بعد تصريحات لافتة تناول فيها مستقبل النجم المصري محمد صلاح، واضعا سقفا واضحا لاحتمالية انتقاله إلى دوري روشن السعودي خلال الفترة المقبلة. ووضع صلاح حدا لمسيرته التاريخية مع ليفربول، معلنا رحيله رسميا عن قلعة \"أنفيلد\" مع نهاية الموسم الحالي 2025-2026. وقال الفراج، في تغريدة عبر حسابه الرسمي على موقع \"إكس\": \"أتمنى للنجم الكبير محمد صلاح ختاما مثاليا لمسيرته الملهمة التي قام بها في إنجلترا، البقاء في أوروبا أو أمريكا سيكون مناسبا له أكثر من احترافه في الشرق الأوسط\". وأضاف الإعلامي السعودي: \"صلاح لم يعد يناسب خطط روشن المقبلة ، سيطالب بما كان يقدمه قبل 3 سنوات وجمهورنا لا يرحم، ولا أظنه يحتاج هذا الضغط الآن\". تصريحات الفراج جاءت لتفتح باب النقاش مجددا حول إمكانية قدوم قائد منتخب مصر إلى الدوري السعودي، بعدما ارتبط اسمه مرارا بأندية القمة في روشن خلال فترات الانتقالات الماضية.&nbsp; ورأى متابعون أن حديث الفراج يعكس تحولاً في أولويات الأندية السعودية، التي باتت تبحث عن لاعبين في ذروة العطاء البدني لمواكبة المشروع الرياضي طويل المدى. ولم يصدر أي تعليق من محمد صلاح أو ممثليه على تصريحات الفراج حتى الآن، فيما يواصل اللاعب موسمه مع ليفربول وسط ترقب لمستقبله بعد نهاية عقده. &nbsp; اتمني للنجم الكبير محمد صل…",
+      "image": null,
+      "pubDate": "2026-05-12T08:05:37.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "515eb5e07264dfcb",
+      "title": "James unsure over future after Lakers eliminated",
+      "link": "https://www.bbc.com/sport/basketball/articles/cg7p5jer8jmo?at_medium=RSS&at_campaign=rss",
+      "summary": "NBA legend LeBron James says he is unsure \"what the future holds for me\" after the Los Angeles Lakers are knocked out of the play-offs.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:03:24.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "ec45eb51cd97d5f5",
+      "title": "Karlis Arnolds Avots on His ‘Hamlet’ Moment With Croisette Debut ‘Ulya,’ Acting With Soul, Being Told He Was Too Tall and Championing Misfits",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/cannes-rising-star-karlis-arnolds-avots-ulya-interview-1236587637/",
+      "summary": "The up-and-coming Latvian actor had the idea for and co-wrote the Un Certain Regard film and stars as female basketball legend Uļjana Semjonova. He couldn't sleep until 4 a.m. the night the film got selected.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T08:01:00.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "99aeb6cb62c8eaee",
+      "title": "ضربة موجعة للجيش الملكي قبل موقعة صن داونز",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D9%88%D8%AC%D8%B9%D8%A9-%D9%84%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%B5%D9%86-%D8%AF%D8%A7%D9%88%D9%86%D8%B2/bltf6724b39af4bbc7e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المواجهة الأحد المقبل في جنوب أفريقيا",
+      "body": "المواجهة الأحد المقبل في جنوب أفريقيا يستأنف فريق الجيش الملكي المغربي، اليوم الثلاثاء تدريباته استعدادًا لمواجهة ماميلودي صن داونز الجنوب إفريقي، في ذهاب نهائي دوري أبطال إفريقيا المقرر إقامته يوم الأحد المقبل. وسيخوض الفريق المغربي اللقاء الحاسم في غياب مدافعه السنغالي فالو ميندي، الذي تأكدت إصابته بتمزق عضلي في الفخذ الأيسر، وفق ما أظهرته الفحوصات الطبية التي خضع لها اللاعب خلال الساعات الماضية. ومن المنتظر أن تغادر بعثة الجيش الملكي إلى جوهانسبرج يوم الخميس المقبل على متن طائرة خاصة، قبل التوجه إلى مدينة بريتوريا التي ستحتضن مباراة الذهاب، على أن تُقام مواجهة الإياب في الرباط الأسبوع التالي. ويطمح الجيش الملكي إلى تحقيق نتيجة إيجابية خارج الديار تُمهد له الطريق نحو التتويج باللقب القاري للمرة الثانية في تاريخه، بعد إنجازه الأول عام 1985.",
+      "image": null,
+      "pubDate": "2026-05-12T07:53:32.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "a553f6f08d08f52b",
+      "title": "تجربة ميسي تقرب باستوني \"المظلوم\" من برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D9%8A%D8%B3%D9%8A-%D8%AA%D9%82%D8%B1%D8%A8-%D8%A8%D8%A7%D8%B3%D8%AA%D9%88%D9%86%D9%8A-%D8%A7%D9%84%D9%85%D8%B8%D9%84%D9%88%D9%85-%D9%85%D9%86-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/bltaf876e3dc8b39fcf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ما فعله البرغوث قد يتكرر مع إنتر",
+      "body": "ما فعله البرغوث قد يتكرر مع إنتر دخل مستقبل المدافع الدولي الإيطالي أليساندرو باستوني مع إنتر ميلان مرحلة الحسم، بعد أسابيع من التكهنات حول إمكانية انتقاله إلى صفوف برشلونة. وتشير تقارير صحفية إيطالية إلى أن انتقال قلب الدفاع إلى النادي الكتالوني بات أقرب إلى الواقع، في ظل تحركات ملموسة من إدارة برشلونة لحسم الصفقة خلال فترة الانتقالات الصيفية المقبلة. وبحسب ما أوردته صحيفة \"لا جازيتا ديلو سبورت\"، من المقرر أن يُعقد هذا الأسبوع اجتماع بين مسؤولي برشلونة ووكلاء اللاعب لبدء مناقشة تفاصيل انتقاله المحتمل للموسم المقبل. وأوضحت الصحيفة الإيطالية أن النادي الكتالوني سيستمع خلال الاجتماع إلى المطالب المالية لباستوني وناديه إنتر ميلان، قبل أن تتخذ إدارة برشلونة قرارها النهائي بشأن المضي في الصفقة، وذلك في ضوء وضعها المالي الحرج وقيود اللعب المالي النظيف. ورغم أن المدافع الإيطالي يُعد من الركائز الأساسية في تشكيلة إنتر ميلان، إلا أن محللين يرون أن رحيله عن \"السيري آ\" بات واردا مع انتهاء الموسم الحالي. وفي هذا السياق، علّق كريستيان فييري، سفير الدوري الإيطالي والمهاجم السابق لإنتر ميلان ولاتسيو وأتلتيكو مدريد، على موقف اللاعب قائلاً: \"عليه أن يتخذ قراره بعقله وقلبه، لا أحد يستطيع فهم وضعه تماما، وكل قرار يتخذه يستحق احترام الجميع\". وأضاف فييري، وفقا لما نشرته \"ماركا\" الإسبانية: \"لقد عومل بظ…",
+      "image": null,
+      "pubDate": "2026-05-12T07:47:35.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "02b17a932cd398ec",
+      "title": "\"مبابي في الواجهة\".. تحرك مثير من مورينيو تجاه مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AA%D8%AD%D8%B1%D9%83-%D9%85%D8%AB%D9%8A%D8%B1-%D9%85%D9%86-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D8%AA%D8%AC%D8%A7%D9%87-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt96ff4956e03ae5ba?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اتصالات غامضة من المدرب البرتغالي..",
+      "body": "اتصالات غامضة من المدرب البرتغالي.. تعيش أروقة ريال مدريد واحدة من أكثر فتراتها توترًا في السنوات الأخيرة، بعد موسم خالٍ من الألقاب وتزايد الخلافات داخل غرفة الملابس، في وقت تتصاعد فيه المؤشرات حول عودة محتملة للمدرب البرتغالي جوزيه مورينيو إلى قيادة الفريق. ووفقاً لما كشفه الصحفي الإسباني ميجيل سيرانو، ا، عبر إذاعة \"أوندا سيرو\"، فإن مورينيو بدأ فعليًا في رسم ملامح مشروعه الجديد داخل النادي الملكي، مشيرًا إلى أنه \"قد تحدث بالفعل مع كيليان مبابي\". وأضاف أنه \"أجرى اتصالات مباشرة مع 3 لاعبين آخرين من الفريق، جميعهم من غير الإسبان، دون أن يكون من بينهم فيديريكو فالفيردي أو أوريليان تشواميني\". أزمة داخلية وتوترات متصاعدة يأتي هذا التطور في ظل أزمة داخلية حادة يعيشها ريال مدريد منذ رحيل تشابي ألونسو وتولي ألفارو أربيلوا المسؤولية الفنية بشكل مؤقت. وتشير التقارير إلى وجود خلافات بين اللاعبين والجهاز الفني، وصلت إلى حد وصف بعض اللاعبين لأربيلوا بـ\"القمعي\" أو \"الكون\" (Cone) في أحاديثهم الخاصة. كما طالت التوترات النجم الفرنسي كيليان مبابي، الذي يواجه انتقادات لاذعة من الجماهير والإعلام الإسباني بسبب تراجع مستواه وسلوكياته داخل الفريق، ما زاد من حدة الانقسام في غرفة الملابس. مورينيو المرشح الأبرز في ظل هذا المناخ المتوتر، يرى سيرانو أن مورينيو هو المرشح الأبرز لتولي القيادة الفنية الصيف المق…",
+      "image": null,
+      "pubDate": "2026-05-12T07:46:26.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "a421d21d1a733caa",
+      "title": "ليست مجرد استثمارات.. ميسي يستعد للعودة إلى برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D8%B3%D8%AA-%D9%85%D8%AC%D8%B1%D8%AF-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%8A%D8%B3%D9%8A-%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D8%A7%D9%95%D9%84%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt4c61ab2da8d36096?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "البرغوث يجهز لحقبة جديدة",
+      "body": "البرغوث يجهز لحقبة جديدة يواصل النجم الأرجنتيني ليونيل ميسي رسم ملامح عودته إلى برشلونة، لا سيما أنه يقضي حاليا العقد الأخير من مسيرته الاحترافية في صفوف إنتر ميامي الأمريكي الذي ينتهي في ديسمبر 2028. ووفقا لصحيفة \"سبورت\" الإسبانية، من المقرر أن يعود ميسي عقب اعتزاله كرة القدم للسكن في منزله ببلدية كاستيلديفيلس التابعة لمنطقة بايكس يوبريجات، وهي المنطقة التي عاش فيها كامل فترته التاريخية مع نادي برشلونة. وكشفت أن قائد منتخب الأرجنتين بدأ بالفعل في التحضير لهذه العودة من خلال سلسلة استثمارات نفذها خلال الأسابيع الأخيرة، انطلقت بشراء معدات متطورة لصالة ألعابه الرياضية الخاصة لتجهيز منطقة تدريباته، وتبع ذلك الاستحواذ على نادي كورنيلا لكرة القدم، الذي يعد واحدا من أبرز أندية كرة القدم للناشئين والشباب في الإقليم الكتالوني. وتأتي خطوة شراء النادي الذي يقع بجوار ملعب \"آر سي دي إي ستاديوم\" وينشط في الدرجة الخامسة لدوافع استراتيجية، نابعة من رغبة ميسي في امتلاك فريق رياضي بمنطقة برشلونة الكبرى، وهو مشروع يهدف من خلاله \"البولجا\" للحفاظ على ارتباطه الوثيق بعالم كرة القدم. وفي سياق متصل، استحوذ ميسي &nbsp;على صالات \"واجنر\" التجارية الواقعة بجوار \"تورو بارك\" في مدينة برشلونة، وأكد مكتب \"سانتوميرا باي\" التابع لأليخاندرو ألكاراز بصفتهم الطرف البائع أن العملية تمت عبر شركة \"إيديفيسيو روستاور\" ال…",
+      "image": null,
+      "pubDate": "2026-05-12T07:41:04.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "863642387b1ac400",
+      "title": "StudioCanal Acquires International Sales Rights to ‘Pan’s Labyrinth’ Re-Release",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/studiocanal-international-sales-rights-pans-labyrinth-cannes-1236593088/",
+      "summary": "Guillermo del Toro will be in attendance at the celebratory screening in Cannes.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T07:36:29.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "894a10be56fd97a6",
+      "title": "إنجاز تاريخي يهز أوروبا.. إيتا تكسر هيمنة الرجال في الدوريات الكبرى",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%8A%D9%87%D8%B2-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%A7%D9%95%D9%8A%D8%AA%D8%A7-%D8%AA%D9%83%D8%B3%D8%B1-%D9%87%D9%8A%D9%85%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89/blt7f9a325563ae172c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ماري لويز تحتفل بإنجاز غير مسبوق",
+      "body": "ماري لويز تحتفل بإنجاز غير مسبوق دخلت المدربة ماري لويز إيتا تاريخ كرة القدم من أوسع أبوابه، بعدما أصبحت أول امرأة تحقق الفوز مع فريق رجالي في الدوريات الأوروبية الخمس الكبرى، عقب قيادة يونيون برلين للفوز على ماينز بنتيجة (3-1)، ضمن منافسات الجولة الثالثة والثلاثين من الدوري الألماني. وشهدت المباراة، التي أُقيمت الأحد الماضي، تقدم يونيون برلين في الدقيقة 38 عن طريق أندريه إيليك، قبل أن ينجح شيرالدو بيكر في إدراك التعادل لماينز مع بداية الشوط الثاني وتحديدًا في الدقيقة 48. وفي الوقت الذي كانت المباراة تتجه فيه نحو التعادل، خطف أوليفر بيرك الهدف الثاني ليونيون برلين في الدقيقة 88، قبل أن يؤكد جوسيب يورانوفيتش الانتصار بإضافة الهدف الثالث في الدقيقة الأولى من الوقت بدل الضائع للشوط الثاني. وبهذا الفوز، رفع يونيون برلين رصيده إلى 36 نقطة ليتقدم إلى المركز الثاني عشر في جدول الترتيب، بينما تجمد رصيد ماينز عند 37 نقطة في المركز العاشر. حكاية المكسيك وكأس العالم.. رحلة بين الهوية والتاريخ والحلم المؤجل من دموع 2010 إلى حلم 2026.. حكاية شعب لم يفقد شغفه بالمونديال رحلة إلى المدرجات.. الوجه الآخر لمونديال الأثرياء وعقب صافرة النهاية، احتفلت إيتا بحماس كبير مع لاعبي الفريق والجماهير، حيث رفعت قبضتها في الهواء احتفاءً بالإنجاز التاريخي، بعدما حققت الفوز الأول لها خلال أربع مباريات قادت فيها …",
+      "image": null,
+      "pubDate": "2026-05-12T07:16:38.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "6f5d5871bf44552b",
@@ -416,36 +864,52 @@
       "region": "global"
     },
     {
-      "id": "d2288709e1e8d814",
-      "title": "Safestay partners with India’s Zostel to expand hostel network",
-      "link": "https://www.investing.com/news/company-news/safestay-partners-with-indias-zostel-to-expand-hostel-network-93CH-4679071",
-      "summary": "",
-      "body": null,
-      "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-      "pubDate": "2026-05-12T07:10:51.000Z",
+      "id": "dea53da87fc20975",
+      "title": "برتقال فاسد وفوضى.. فضيحة تنظيمية كبرى تهز ماراثون الرباط الدولي",
+      "link": "https://www.kooora.com/%D8%A7%D9%94%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%82%D9%88%D9%89/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D8%AA%D9%82%D8%A7%D9%84-%D9%81%D8%A7%D8%B3%D8%AF-%D9%88%D9%81%D9%88%D8%B6%D9%89-%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9-%D9%83%D8%A8%D8%B1%D9%89-%D8%AA%D9%87%D8%B2-%D9%85%D8%A7%D8%B1%D8%A7%D8%AB%D9%88%D9%86-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A/blt77c96191ca238bb1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كارثة تنظيمية",
+      "body": "كارثة تنظيمية شهد ماراثون الرباط الدولي، الذي أُقيم تحت إشراف الجامعة الملكية المغربية لألعاب القوى برئاسة عبد السلام أحيزون، موجة انتقادات حادة بعد سلسلة من الاختلالات التنظيمية التي أثارت استياء المشاركين والمتابعين على حد سواء. كان من المفترض أن تمثل هذه التظاهرة الرياضية واجهة مشرفة للرياضة المغربية، غير أن ما رافقها من فوضى ومشاكل لوجستية حوّلها إلى محور جدل واسع على منصات التواصل الاجتماعي. واقعة \"البرتقال الفاسد\" تثير الغضب أحد أبرز أسباب الغضب تمثل في تداول مقاطع فيديو تُظهر توزيع فاكهة برتقال غير صالحة للاستهلاك على العدائين بعد نهاية السباقات، ما أثار موجة استنكار واسعة بين المشاركين والجمهور. واعتبر عدد من العدائين أن الواقعة تمس بصحتهم وبصورة الرياضة المغربية، مطالبين بمحاسبة المسؤولين عن هذا الإهمال. شكاوى من سوء التنظيم والخدمات إلى جانب ذلك، عبّر العديد من المشاركين عن استيائهم من سوء التنظيم، مشيرين إلى فوضى في انطلاقة السباق وضعف في التوجيه والخدمات اللوجستية، وهو ما انعكس سلبًا على أجواء المنافسة ونتائج العدائين.",
+      "image": null,
+      "pubDate": "2026-05-12T07:10:05.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
-      "id": "3c169430222b3fa4",
-      "title": "Higgins hopes Aviva fixture is 'the first of many'",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c042dpyr0q1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ireland's Eve Higgins hopes Sunday's Six Nations game against Scotland at Dublin's Aviva Stadium will be \"the first of many\".",
-      "body": null,
+      "id": "a486a36d73582cde",
+      "title": "تشيزني يحصل على هدية ممنوعة في احتفالات الليجا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B4%D9%8A%D8%B2%D9%86%D9%8A-%D9%8A%D8%AD%D8%B5%D9%84-%D8%B9%D9%84%D9%89-%D9%87%D8%AF%D9%8A%D8%A9-%D9%85%D9%85%D9%86%D9%88%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7/blt8e54f01713c7cca7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بإذن فليك",
+      "body": "بإذن فليك حصل فويتشيك تشيزني ، حارس برشلونة، على هدية مثيرة للجدل من أحد المشجعين خلال احتفالات البارسا بلقب الليجا. وحسم برشلونة لقب الليجا رسميا عقب الفوز على ريال مدريد بنتيجة 2-0، الأحد الماضي، في الجولة 35 من المسابقة. واحتفل لاعبو برشلونة باللقب مع الجماهير عبر حافلة مفتوحة في شوارع المدينة الكتالونية، أمس الاثنين. ووفقا لصحيفة \"موندو ديبورتيفو\" الإسبانية، ألقى أحد المشجعين بعلبة سجائر إلى تشيزني أثناء الاحتفالات، حيث تأكد الحارس البولندي أولا أنها ليست فارغة ووضعها في جيبه. وأظهر تشيزني روح الدعابة المعتادة لديه عندما ألقى إليه أحد المشجعين قميصاً لمنتخب بولندا، فمرره إلى مواطنه روبرت ليفاندوفسكي كي يوقعه، وقبل أن يعيده، سأل المشجع: \"أنا أيضاً؟\"، وانتهى به الأمر بوضع توقيعه هو الآخر. ومع تقدم الوقت أثناء الاحتفالات، بدأ المشجعون في تقديم الطعام للاعبين، ولم يرفض تشيزني أي عرض، حيث شارك ليفاندوفسكي في البداية آيس كريم بثلاث نكهات، وبعد ذلك واصل إشباع شهيته بتناول البيتزا. وعندما بدأت الحافلة في الالتفاف للعودة نحو \"سبوتيفاي كامب نو\" صعوداً عبر شارع \"باسيج دي جراسيا\"، التهم الحارس البولندي شطيرة هامبرجر. يذكر أن تشيزني سبق أن صرح بأن المدرب هانز فليك سمح له بالتدخين في حالات محددة.",
       "image": null,
-      "pubDate": "2026-05-12T07:05:47.000Z",
+      "pubDate": "2026-05-12T07:09:53.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
+    },
+    {
+      "id": "3b354d8ac8fb0086",
+      "title": "مكاسب موسم ريال مدريد الصفري.. كيف استعاد كارلو أنشيلوتي الاعتبار؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%83%D8%A7%D8%B3%D8%A8-%D9%85%D9%88%D8%B3%D9%85-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%B5%D9%81%D8%B1%D9%8A-%D9%83%D9%8A%D9%81-%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%AF-%D9%83%D8%A7%D8%B1%D9%84%D9%88-%D8%A7%D9%94%D9%86%D8%B4%D9%8A%D9%84%D9%88%D8%AA%D9%8A-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1/blt959c54a3ba5ba013?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "إخفاقات ألونسو وأربيلوا مع الميرينجي",
+      "body": "إخفاقات ألونسو وأربيلوا مع الميرينجي أنهى نادي ريال مدريد موسمه الكروي دون تحقيق أي لقب، في سابقة لم تتكرر منذ 16 عاما، ويُعد هذا الموسم الصفري الثالث للفريق الملكي في القرن الحادي والعشرين، بعد موسمي 2008-2009 و2009-2010. في موسم 2008-2009، تناوب على تدريب الفريق كل من الألماني بيرند شوستر والإسباني خواندي راموس، وفي الموسم التالي 2009-2010، تولى التشيلي مانويل بيليجريني المسؤولية الفنية. أما خلال الموسم الحالي، فشهدت مقاعد ريال مدريد تولي كل من تشابي ألونسو وألفارو أربيلوا قيادة الفريق، ليُسجلا اسميهما في قائمة المدربين الذين أنهوا الموسم دون بطولات. اقرأ أيضا: غزو كتالوني.. \"منتخب برشلونة\" مرشح لخوض مونديال 2026 نهاية حقبة أنشيلوتي مع الميرينجي غادر الإيطالي كارلو أنشيلوتي أسوار سانتياجو برنابيو الصيف الماضي بعد فترة ثانية امتدت أربعة أعوام بين 2021 و2025، متجهاً لتدريب المنتخب البرازيلي. ورغم تتويجه بـ13 لقبا خلال فترته الثانية (2021-2025)، تُضاف إلى لقبين حققهما في فترته الأولى بين 2013 و2015، ليصبح المدرب الأكثر تتويجا في تاريخ النادي، إلا أن رحيله جاء وسط ضغوط وانتقادات متزايدة. مصادر مقربة من النادي أشارت إلى أن أنشيلوتي خسر معركته داخل غرفة الملابس، ووفقا للمعطيات، توقف عدد من اللاعبين عن الالتزام بتعليماته، وفضلوا خوض \"معاركهم الخاصة\" رغم محاولاته المتكررة للدفع نحو اللع…",
+      "image": null,
+      "pubDate": "2026-05-12T07:04:30.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "bbca64427016af2c",
@@ -464,10 +928,10 @@
       "region": "global"
     },
     {
-      "id": "dfe65a496dc2d6c1",
-      "title": "40,000 Film Professionals from 140 Countries at This Year’s Cannes",
+      "id": "cced147f4e40f429",
+      "title": "40,000 Film Professionals From 140 Countries at This Year’s Cannes",
       "link": "https://www.hollywoodreporter.com/business/business-news/40000-professionals-from-140-countries-at-cannes-fest-1236593078/",
-      "summary": "U.S., France and the U.K. are the top three countries represented, but there's been a spike in attendance from Asia, Latin America and Sub-Saharan Africa.",
+      "summary": "U.S., France and the U.K. are the top three countries represented, but there's been a spike in attendance from Asia, Latin America and sub-Saharan Africa.",
       "body": null,
       "image": null,
       "pubDate": "2026-05-12T07:00:00.000Z",
@@ -496,6 +960,38 @@
       "region": "global"
     },
     {
+      "id": "8b00711f8ef0583f",
+      "title": "ما القنوات الناقلة لمباراة مانشستر سيتي وكريستال بالاس في الدوري الإنجليزي 2025-2026؟ وكيف تتابعها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%88%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%AA%D8%A7%D8%A8%D8%B9%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt118547841de86382?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة مانشستر سيتي وكريستال بالاس في الدوري الإنجليزي 2025-2026 وكيف تتابعها عبر الإنترنت",
+      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة مانشستر سيتي وكريستال بالاس في الدوري الإنجليزي 2025-2026 وكيف تتابعها عبر الإنترنت يستضيف ملعب الاتحاد مواجهة قوية ومرتقبة تجمع بين مانشستر سيتي وكريستال بالاس، مساء غدٍ الأربعاء، وذلك ضمن منافسات الجولة 31 من بطولة الدوري الإنجليزي الممتاز لموسم 2025-2026. ويتربع آرسنال على القمة برصيد 79 نقطة من 36 مباراة، متقدمًا بفارق 5 نقاط عن مانشستر سيتي صاحب المركز الثاني، والذي يمتلك 74 نقطة من 35 مباراة، مع استمرار المنافسة على اللقب في مراحلها الحاسمة. وفي المقابل، يدخل كريستال بالاس اللقاء وهو في المركز الخامس عشر برصيد 44 نقطة، باحثًا عن نتيجة إيجابية تعزز موقعه في منتصف الجدول وتمنحه قدرًا أكبر من الاطمئنان في الجولات المتبقية من الموسم. ويرصد \"كووورة\" في السطور التالية، القنوات الناقلة لمباراة مانشستر سيتي وكريستال بالاس في الدوري الإنجليزي الممتاز 2025-2026. ما القنوات الناقلة لمباراة مانشستر سيتي وكريستال بالاس في الدوري الإنجليزي 2025-2026؟ تمتلك شبكة بي إن سبورتس حق بث مباريات الدوري الإنجليزي الممتاز بشكل حصري في الشرق الأوسط وشمال أفريقيا، لذا يمكنك مشاهدة مباراة مانشستر سيتي وكريستال بالاس عبر شاشتها. وخصصت الشبكة قناة beIN Sports 1 HD لإذاعة المباراة المرتقبة. كيف تشاهد مباراة مانشستر سيتي وكريستال بالاس في الدوري الإنجليزي 2025-…",
+      "image": null,
+      "pubDate": "2026-05-12T06:59:48.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "506e6e0042d77623",
+      "title": "Two ex-Carillion finance directors fined by accountancy regulator",
+      "link": "https://www.ft.com/content/0e4afd5a-f08b-497f-8b19-256ed2cbbf10",
+      "summary": "FRC wraps up outstanding investigation into 2018 collapse of construction group",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-12T06:58:54.000Z",
+      "source": {
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "08efa6ad60e8ff18",
       "title": "Where problems started with 2026 rules & calendar congestion - F1 Q&A",
       "link": "https://www.bbc.com/sport/formula1/articles/cn4pq5gvkxxo?at_medium=RSS&at_campaign=rss",
@@ -510,6 +1006,150 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "6c67496b85cf72bb",
+      "title": "بشرى لجماهير الأخضر.. فتح باب حجز تذاكر موقعة السعودية والرأس الأخضر في كأس العالم 2026: تعرف على الأسعار والموعد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B4%D8%B1%D9%89-%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D8%B6%D8%B1-%D9%81%D8%AA%D8%AD-%D8%A8%D8%A7%D8%A8-%D8%AD%D8%AC%D8%B2-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%B1%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D8%B6%D8%B1-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%B9%D8%AF/blt233ef46f6be8f7b0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "إليك كل ما تحتاج معرفته لحجز تذاكر الرأس الأخضر ضد السعودية",
+      "body": "إليك كل ما تحتاج معرفته لحجز تذاكر الرأس الأخضر ضد السعودية تتجه الأنظار إلى المواجهة المرتقبة التي تجمع منتخب السعودية بنظيره منتخب الرأس الأخضر ضمن منافسات دور المجموعات من بطولة كأس العالم 2026، والتي تستضيفها الولايات المتحدة وكندا والمكسيك. وتقام المباراة على ملعب NRG بمدينة هيوستن الأمريكية، وسط توقعات بحضور جماهيري كبير، خاصة مع الشعبية الواسعة التي يحظى بها المنتخب السعودي في المنطقة العربية والاهتمام المتزايد بمنتخب الرأس الأخضر بعد نتائجه القوية في السنوات الأخيرة. ومع ارتفاع الطلب على تذاكر كأس العالم 2026، بدأت الجماهير في البحث مبكرًا عن أفضل طرق الحجز وأسعار التذاكر المتوفرة قبل نفاد المقاعد. ويستعرض لكم كووورة في هذا التقرير موعد مباراة السعودية والرأس الأخضر، وأسعار التذاكر، وطرق الشراء، بالإضافة إلى معلومات مهمة حول ملعب المباراة. &nbsp; &nbsp;تذاكر الرأس الأخضر ضد السعودية في كأس العالم اشترِ تذكرتك الآن! موعد مباراة السعودية والرأس الأخضر في كأس العالم 2026 التاريخ المباراة الملعب التذاكر 26 يونيو 2026 الرأس الأخضر ضد السعودية ملعب NRG - هيوستن التذاكر مباريات السعودية في كأس العالم 2026 التاريخ المباراة الملعب التذاكر 15 يونيو 2026 السعودية ضد أوروجواي هارد روك ستاديوم - ميامي التذاكر 21 يونيو 2026 إسبانيا ضد السعودية مرسيدس بنز ستاديوم - أتلانتا التذاكر 26 يون…",
+      "image": null,
+      "pubDate": "2026-05-12T06:52:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "50bde4be69732406",
+      "title": "مفاجأة.. نجم برشلونة السابق: تدريب الريال ليس خطا أحمر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%84%D9%8A%D8%B3-%D8%AE%D8%B7%D8%A7-%D8%A7%D9%94%D8%AD%D9%85%D8%B1/blt3b800d3d95afd211?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هل يمكن أن نراه على مقاعد الريال",
+      "body": "هل يمكن أن نراه على مقاعد الريال في وقت يواصل فيه ريال مدريد بحثه عن مدرب جديد للموسم المقبل، وسط ترشيحات قوية لعودة جوزيه مورينيو لخلافة ألفارو أربيلوا في قيادة الفريق، برز اسم مفاجئ في دائرة الحديث، وهو &nbsp;سيسك فابريجاس، لاعب برشلونة السابق والمدرب الحالي لنادي كومو 1907 الإيطالي. فابريجاس، الذي يقود مشروعًا طموحًا في إيطاليا، تحدث بصراحة عن مستقبله التدريبي وإمكانية توليه تدريب الغريم التقليدي لفريقه السابق، مؤكدًا أنه لا يضع حدودًا لمسيرته الجديدة في عالم التدريب. وقال فابريجاس في مقابلة مع برنامج \"El Partidazo\" &nbsp;الذي يقدمه الإعلامي خوانما كاستانيو عبر إذاعة Cadena COPE &nbsp;الإسبانية: \"ليس لدي أي خط أحمر. هناك خط أحمر واحد فقط، وكنت واضحًا بشأنه منذ البداية، وهو أنني لا أريد أن أكون مساعد مدرب، على سبيل المثال. أنا مقتنع بأنني أريد أن أكون المدرب الأول. إمكانية الذهاب إلى مدريد؟ لم أفكر في الأمر حتى ولم أقيّمه. لم يكن لدي وقت لأي شيء\". إعجاب بأنشيلوتي واعترف المدرب الكتالوني بأنه كان \"ليُسعده كثيرًا\" العمل مع كارلو أنشيلوتي، المدرب التاريخي لريال مدريد، الذي قاد الفريق في فترتين (2013-2015 و2021-2025) وأصبح الأكثر تتويجًا بالألقاب في تاريخ النادي الملكي متجاوزًا الأسطورة ميجيل مونيوث. كما تحدث فابريغاس عن تجربته الناجحة مع كومو، الذي ضمن مؤخرًا التأهل إلى الدوري الأو…",
+      "image": null,
+      "pubDate": "2026-05-12T06:48:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7da3afad9d5d2a12",
+      "title": "نادٍ أوروبي جديد ينضم إلى سباق التوقيع مع ليفاندوفسكي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%A7%D8%AF%D9%8D-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D9%86%D8%B6%D9%85-%D8%A7%D9%95%D9%84%D9%89-%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D9%85%D8%B9-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AF%D9%88%D9%81%D8%B3%D9%83%D9%8A/blt03b90d4b3c13a9f0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مستقبل غامض",
+      "body": "مستقبل غامض دخل أحد الأندية الكبرى في أوروبا سباق التعاقد مع النجم البولندي روبرت ليفاندوفسكي، مهاجم برشلونة، ليكون وجهته المفاجئة والجديدة خلال فترة الانتقالات المقبلة. وأفادت صحيفة \"سبورت\" الإسبانية، أن برشلونة لا يزال ينتظر القرار النهائي من ليفاندوفسكي بشأن عرض تجديد عقده لموسم إضافي، في وقت يتواجد فيه وكيل أعماله، بيني زهافي، في المدينة الكتالونية لدراسة كافة العروض المتاحة. وكان المهاجم البولندي قد صرح قبل ساعات بأنه لا يمانع الانتقال إلى دوري أقل تصنيفًا للاستمرار في الاستمتاع بكرة القدم، ما فتح الباب أمام ظهور وجهة غير متوقعة، حيث أكدت وسائل إعلام برتغالية مثل \"سبورت تي في\" و\"سابو\" أن بورتو مستعد للتعاقد مع اللاعب لموسم واحد لتعويض رحيل لوك دي يونج، وقد بدأ النادي بالفعل تحركاته لإقناع الهداف البولندي. وذكرت المعلومات الواردة أن بورتو يطمح لجمع ليفاندوفسكي بالموهبة البولندية الشابة أوسكار بيتوشيفسكي، الذي يعتبر أمل بلاده المستقبلي، ليكون ليفاندوفسكي بمثابة الراعي له. كما يضم قوام الفريق البرتغالي اللاعبين البولنديين يان بيدناريك وجاكوب كيويور، اللذين يمارسان ضغوطًا على ليفاندوفسكي لقبول العرض واللعب لمدة عام كمهاجم أساسي صريح للفريق. ويمتلك ليفاندوفسكي حاليًا عرضًا من برشلونة براتب منخفض، كما يبرز اهتمام من ميلان ويوفنتوس في الدوري الإيطالي، إلا أن العرض الذي قد يناسبه مال…",
+      "image": null,
+      "pubDate": "2026-05-12T06:36:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "8d5e02c1b365245b",
+      "title": "ما القنوات الناقلة لمباراة ألافيس وبرشلونة في الدوري الإسباني 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%94%D9%84%D8%A7%D9%81%D9%8A%D8%B3-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blta3a7dd7d5d5654d3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على القنوات الناقلة لمباراة ألافيس وبرشلونة في الدوري الإسباني 2025-2026 وكيف تشاهدها عبر الإنترنت",
+      "body": "تعرف على القنوات الناقلة لمباراة ألافيس وبرشلونة في الدوري الإسباني 2025-2026 وكيف تشاهدها عبر الإنترنت يستضيف ملعب مينديزوروزا مواجهة مرتقبة تجمع بين ديبورتيفو ألافيس وبرشلونة، وذلك ضمن منافسات الجولة 36 من بطولة الدوري الإسباني لموسم 2025-2026. وكان برشلونة قد حسم رسميًا لقب الدوري الإسباني للمرة التاسعة والعشرين في تاريخه، بعد فوزه في الكلاسيكو على ريال مدريد بنتيجة 2-0، ليؤكد تتويجه بالبطولة قبل نهاية الموسم. ولا تزال أمام الفريق الكتالوني ثلاث مباريات متبقية في المسابقة، حيث يلتقي أولًا مع ديبورتيفو ألافيس، ثم ريال بيتيس، قبل أن يختتم موسمه بمواجهة فالنسيا على ملعب ميستايا. وبعد حسم اللقب ووصوله إلى 91 نقطة، بات الهدف التالي لبرشلونة هو الاقتراب من حاجز 100 نقطة، في محاولة لإنهاء الموسم بأفضل حصيلة ممكنة من النقاط. في المقابل، يدخل ديبورتيفو ألافيس المباراة بدوافع البقاء، إذ يعاني الفريق من صراع الهروب من الهبوط، بعدما جمع 37 نقطة يحتل بها المركز الثامن عشر، ما يجعل كل مباراة متبقية بمثابة نهائي لا يحتمل التفريط في أي نقطة. وفي السطور التالية، يستعرض \"كووورة\" القنوات الناقلة لمباراة ألافيس وبرشلونة في الدوري الإسباني 2025-2026، وكيف تتابعها عبر الإنترنت. ما القنوات الناقلة لمباراة ألافيس وبرشلونة في الدوري الإسباني 2025-2026؟ تمتلك شبكة بي إن سبورتس حق بث مباريات الدوري الإسب…",
+      "image": null,
+      "pubDate": "2026-05-12T06:31:38.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ee4afa275d0e23e0",
+      "title": "لإثراء تجربة المشجعين.. شراكة تقنية غير مسبوقة لمنتخبي المغرب والعراق",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D9%95%D8%AB%D8%B1%D8%A7%D8%A1-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%AC%D8%B9%D9%8A%D9%86-%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%AA%D9%82%D9%86%D9%8A%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9-%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82/blt14ac741261493952?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "اتفاقية تاريخية للمغرب والعراق",
+      "body": "اتفاقية تاريخية للمغرب والعراق أعلنت شركة \"Google \" عن شراكة إقليمية رائدة تم بموجبها اعتماد Google Gemini، المساعد الذكي المدعوم بالذكاء الاصطناعي من &nbsp;Google، الراعي التقني الرسمي للمنتخبين العراقي والمغربي، بعد مشاركتهما في مونديال أمريكا وكندا والمكسيك 2026. وتمثل هذه الخطوة تعاونًا استراتيجيًا بين Google وكلٍّ من الاتحاد العراقي لكرة القدم، والجامعة الملكية المغربية لكرة القدم، إيذانًا بمرحلة جديدة في مسيرة الكرة العربية، حيث يجتمع الابتكار التكنولوجي مع الإرث الرياضي العريق لإحداث نقلة نوعية في تجربة المشجعين وتعزيز التواصل بين المنتخبات وجماهيرها محليًا وعالميًا. تجربة جماهيرية مدعومة بالذكاء الاصطناعي وسيُسخّرGoogle Gemini &nbsp;لتقريب المسافة بين المنتخبات وجماهيرها عبر أدوات تفاعلية مبتكرة تعتمد على الذكاء الاصطناعي، تتيح للمشجعين تصميم محتوى تشجيعي فريد والتفاعل مع فرقهم بطرق غير مسبوقة. كما ستُطلق &nbsp;Google، بالتعاون مع الاتحادين العراقي والمغربي، سلسلة من المبادرات الرقمية خلال فترة الشراكة الممتدة لثلاثة أشهر، تهدف إلى تعزيز المشاركة الجماهيرية باستخدام تقنيات Gemini المتقدمة. وسيتمكن المشجعون من استخدام نموذج تحويل النصوص إلى صور لتصميم لوحات تشجيعية مخصصة، أو نموذج تحويل النصوص إلى موسيقى (Lyria) &nbsp;لتأليف أغانٍ حماسية لمنتخباتهم، ما يمنحهم تجربة غامرة تح…",
+      "image": null,
+      "pubDate": "2026-05-12T06:31:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0ae32393b10f1c5e",
+      "title": "ضربة قاضية من هانز فليك تكشف زيف ريال مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%B1%D8%A8%D8%A9-%D9%82%D8%A7%D8%B6%D9%8A%D8%A9-%D9%85%D9%86-%D9%87%D8%A7%D9%86%D8%B2-%D9%81%D9%84%D9%8A%D9%83-%D8%AA%D9%83%D8%B4%D9%81-%D8%B2%D9%8A%D9%81-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt308bc9dc6b5d6cee?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "درس ألماني للملكي في وقت صعب",
+      "body": "درس ألماني للملكي في وقت صعب لا تُقاس هيمنة الفرق الكبرى بعدد الألقاب وحدها، بل بالطريقة التي تُنتزع بها والرسائل التي تبعثها للمنافسين، وعندما يتوج فريق بلقب الدوري للموسم الثاني على التوالي، وبفارق مريح عن أقرب مطارديه، فإن الأمر يتجاوز حدود الإنجاز العابر ليصبح إعلاناً واضحاً عن ميلاد حقبة جديدة، هذا ما فعله برشلونة تحت قيادة هانز فليك: لم يكتفِ بالفوز، بل فرض أسلوبه، ورفع سقف المنافسة، وأعاد تعريف معايير التفوق في الليجا. في المقابل، يجد ريال مدريد نفسه أمام لحظة مراجعة قاسية ، فالخسارة لا تكون مؤلمة فقط عندما تأتي بفارق كبير في النقاط، بل عندما تكشف عن فجوة في المشروع، والهوية، والروح الجماعية، موسم برشلونة الاستثنائي لم يمنحه اللقب فحسب، بل وضع الغريم التاريخي أمام مرآة تعكس أزمات فنية وإدارية تراكمت حتى انفجرت مع صافرة نهاية السباق على الدوري. واستعرض الصحفي الإسباني جوان ماريا باتل، واقع الغريمين الإسبانيين في مقال عبر صحيفة \"سبورت\"، على النحو التالي: \"لم يكن فوز برشلونة بلقب الدوري مجرد إضافة رقم جديد إلى سجل النادي، بل إعلاناً صريحاً عن بداية حقبة جديدة في كرة القدم الإسبانية.. فالتتويج بلقبين متتاليين، وبفارق 14 نقطة عن ريال مدريد رغم استثماراته الضخمة، يعني أن الفريق الكتالوني لم يكتفِ بالتفوق، بل فرض هيمنته بأسلوب كروي ممتع حسم الصراع قبل أسابيع من النهاية\". \"هذا اللق…",
+      "image": null,
+      "pubDate": "2026-05-12T06:12:52.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c11628db0a791c64",
+      "title": "ما القنوات الناقلة لمباراة سينسيناتي وإنتر ميامي في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B3%D9%8A%D9%86%D8%B3%D9%8A%D9%86%D8%A7%D8%AA%D9%8A-%D9%88%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D8%A7%D9%85%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D9%8A-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/bltc92338eb2c8d314c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة سينسيناتي وإنتر ميامي في الدوري الأمريكي 2026 وكيف تشاهدها على الإنترنت",
+      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة سينسيناتي وإنتر ميامي في الدوري الأمريكي 2026 وكيف تشاهدها على الإنترنت يحتضن استاد تي كيو إل مواجهة قوية ومثيرة تجمع بين سينسيناتي وإنتر ميامي، فجر يوم الخميس المقبل، وذلك ضمن منافسات الجولة الثالثة عشرة من بطولة الدوري الأمريكي لكرة القدم لموسم 2026. ويدخل إنتر ميامي هذه المباراة وهو في المركز الثالث بجدول ترتيب القسم الشرقي برصيد 22 نقطة، بعدما خاض 12 مباراة حتى الآن. ونجح الفريق في تحقيق 6 انتصارات، مقابل 4 تعادلات، بينما تلقى هزيمتين، ليواصل حضوره القوي في سباق المنافسة على المراكز المتقدمة. في المقابل، يخوض سينسيناتي اللقاء وهو في المركز السادس في ترتيب القسم الشرقي، برصيد 16 نقطة من 12 مباراة. وتمكن الفريق من تحقيق 4 انتصارات، إلى جانب 4 تعادلات، بينما تلقى 4 هزائم، في حصيلة تعكس تذبذب نتائجه هذا الموسم. ويرصد \"كووورة\" في السطور التالية، القنوات الناقلة لمباراة سينسيناتي وإنتر ميامي في الدوري الأمريكي 2026، والقنوات الناقلة. ما القنوات الناقلة لمباراة سينسيناتي وإنتر ميامي في الدوري الأمريكي 2026؟ لا تمتلك أي قناة عربية حقوق متابعة الدوري الأمريكي، لكن يمكن متابعة البث المباشر لمباراة سينسيناتي وإنتر ميامي عبر الإنترنت عن طريق تطبيق Apple TV . كيف تشاهد مباراة سينسيناتي وإنتر ميامي في الدوري الأمريكي 2026 عبر الإنترنت؟ يمكن متابع…",
+      "image": null,
+      "pubDate": "2026-05-12T06:07:41.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "be1b8fa3cbe82454",
+      "title": "ضربة موجعة.. مدرب مخضرم يستقيل قبل شهر على انطلاق المونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D9%88%D8%AC%D8%B9%D8%A9-%D9%85%D8%AF%D8%B1%D8%A8-%D9%85%D8%AE%D8%B6%D8%B1%D9%85-%D9%8A%D8%B3%D8%AA%D9%82%D9%8A%D9%84-%D9%82%D8%A8%D9%84-%D8%B4%D9%87%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt0cd95500a287d8c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "موقف صعب",
+      "body": "موقف صعب في تطور غير متوقع، أعلن الاتحاد كوراساو لكرة القدم استقالة المدرب الهولندي فريد روتن من منصبه بعد 4 أشهر فقط من توليه قيادة المنتخب، وذلك قبل شهر واحد من انطلاق كأس العالم 2026. وتأتي هذه الخطوة في وقت حرج، إذ يستعد المنتخب لخوض منافسات مجموعة صعبة تضم ألمانيا وساحل العاج والإكوادور. كان روتن، البالغ من العمر63 &nbsp;عامًا، قد تولى المهمة خلفًا لمواطنه ديك أدفوكات، الذي صنع التاريخ بقيادة كوراكاو إلى أول مشاركة في المونديال، قبل أن يقرر التنحي للتفرغ لعائلته بسبب ظروف صحية تخص ابنته. وفي بيان رسمي، أوضح روتن أسباب قراره قائلاً: \"يجب ألا يسود مناخ يضر بالعلاقات المهنية السليمة داخل الفريق أو الجهاز الفني، ولهذا فإن الاستقالة هي القرار الصحيح. الوقت يداهمنا، وعلى كوراساو أن تواصل التقدم. أأسف للطريقة التي سارت بها الأمور، لكنني أتمنى للجميع كل التوفيق.\" وتترك استقالة روتن المنتخب في موقف صعب قبل البطولة العالمية، وسط تساؤلات حول هوية المدرب الجديد الذي سيتولى المهمة في هذا التوقيت الحساس.",
+      "image": null,
+      "pubDate": "2026-05-12T06:05:46.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "803d865b2308e06e",
+      "title": "عرض رسمي.. بنعطية على طاولة عملاق سعودي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D8%B1%D8%B6-%D8%B1%D8%B3%D9%85%D9%8A-%D8%A8%D9%86%D8%B9%D8%B7%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/blt50b5ab65a5c52de8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مشروع جديد",
+      "body": "مشروع جديد يسعى أحد الأندية الكبرى بدوري روشن للمحترفين للتعاقد مع المغربي مهدي بنعطية المدير الرياضي لأولمبيك مارسيليا. وكتب فابريزيو رومانو، خبير الميركاتو، على حسابه بشبكة \"إكس\": \"تلقى مهدي بنعطية عرضاً لتولي منصب المدير الرياضي الجديد لنادي الاتحاد\". وأضاف خبير الميركاتو: \"رامون بلانيس مستعد للرحيل والانضمام إلى مشروع أوروبي، ويعد بنعطية أحد الأسماء المطروحة على طاولة الاتحاد\". ومن المتوقع رحيل بنعطية عن أولمبيك مارسيليا بنهاية الموسم الحالي بسبب خلافات مع إدارة النادي. ويحتل فريق الاتحاد المركز الخامس في دوري روشن برصيد 52 نقطة. يذكر أن مهدي بنعطية ارتبط أيضا في الساعات الأخيرة بالعمل في روما، بسبب تاريخه السابق مع الذئاب.",
+      "image": null,
+      "pubDate": "2026-05-12T06:05:15.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "fb7b15190b20022a",
@@ -528,45 +1168,13 @@
       "region": "global"
     },
     {
-      "id": "c255a182e1a61af0",
-      "title": "صحفي مدريدي: كل برشلوني احتفل سيموت وهو خلف الريال.. كم كأسًا أوروبيا لديكم!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AD%D9%81%D9%8A-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D9%8A-%D9%83%D9%84-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D9%8A-%D8%A7%D8%AD%D8%AA%D9%81%D9%84-%D8%B3%D9%8A%D9%85%D9%88%D8%AA-%D9%88%D9%87%D9%88-%D8%AE%D9%84%D9%81-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%83%D9%85-%D9%83%D8%A7%D9%94%D8%B3%D9%8B%D8%A7-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A7-%D9%84%D8%AF%D9%8A%D9%83%D9%85/bltc8b03cfbc88e32d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"ستظلون خلفنا حتى الموت\"",
-      "body": "\"ستظلون خلفنا حتى الموت\" تُوِّج برشلونة بطلاً للدوري الإسباني لكرة القدم بعد فوزه على ريال مدريد بنتيجة 2-0 في كلاسيكو حاسم أقيم على ملعب \"كامب نو\"، ليحصد الفريق الكتالوني لقبه التاسع والعشرين في تاريخ المسابقة. وسجّل هدفي اللقاء ماركوس راشفورد وفيران توريس، ليؤكد برشلونة تفوقه هذا الموسم ويحتفل بلقب جديد تحت أنظار جماهيره. موسم كارثي لريال مدريد على الجانب الآخر، عاش ريال مدريد ليلة قاسية أكدت نهاية موسم مليء بالفوضى والتوترات. فالهزيمة أمام الغريم التقليدي جاءت لتضع حدًا لعام اتسم بسوء النتائج، وتراجع الأداء، والخلافات داخل غرفة الملابس، ما جعل الفريق يخرج خالي الوفاض من جميع البطولات رغم امتلاكه أحد أقوى التشكيلات في أوروبا. رودريغيز يهاجم برشلونة بعد التتويج وبعد موكب احتفالات برشلونة باللقب، فجّر الإعلامي المدريدي خوانما رودريجيز موجة من الجدل بتصريحات حادة ضد النادي الكتالوني خلال ظهوره في برنامج \"التشيرنجيتو\". وقال رودريجيز: \"بالنسبة لي، جماهير تخطئ في الحافلة وترشقها بالحجارة لا يمكنها أن تسيء إليّ، أقولها لك بصراحة. أجد الأمر كوميديًا. لكن ما أعتقد أن هذا يُظهره هو عقدة نقص رهيبة.\" وأضاف موضحًا: \"إذا كان هناك أشخاص يبلغون من العمر 50 عامًا ويشجعون هذا النادي، فهم يقضون 50 عامًا خلف ريال مدريد.\" وتابع مؤكداً تفوق ريال مدريد التاريخي على برشلونة بالأرقام: \"ريال مدريد، إلا إ…",
+      "id": "fae89141f9c495b0",
+      "title": "صدمة في ليفربول.. أليسون يختار \"رقصته الأخيرة\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AF%D9%85%D8%A9-%D9%81%D9%8A-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%A7%D9%94%D9%84%D9%8A%D8%B3%D9%88%D9%86-%D9%8A%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B1%D9%82%D8%B5%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9/bltc0272286341e0bdf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل الطرق تقود إلى قرار واحد",
+      "body": "كل الطرق تقود إلى قرار واحد لا يزال مستقبل الحارس البرازيلي أليسون بيكر يشغل اهتمام الصحافة الإيطالية والإنجليزية، في ظل التحركات الجادة من يوفنتوس للتعاقد معه خلال الفترة المقبلة، وسط قناعة متزايدة لدى اللاعب بأن وجهته القادمة يجب أن تكون إلى تورينو. وبحسب ما كشفته صحيفة \"توتوسبورت\" الإيطالية ، فإن إدارة يوفنتوس حددت موعدًا لعقد اجتماع مع ليفربول من أجل مناقشة إمكانية رحيل الحارس البرازيلي، في وقت يتمسك فيه أليسون بفكرة خوض تجربة جديدة قد تكون الأخيرة له على أعلى مستوى في الكرة الأوروبية. الحارس البرازيلي فضّل التريث خلال الأيام الماضية من أجل دراسة عرض يوفنتوس بعناية، ومحاولة ترتيب أفكاره بين مشاعر الحنين لما حققه مع ليفربول، والطموح لخوض تحدٍ جديد يحمل أبعادًا خاصة في مسيرته. فبقميص ليفربول، حقق أليسون معظم أحلام طفولته، ونجح في فرض نفسه كأحد أفضل حراس المرمى في العالم، كما حصد احترام جماهير النادي الإنجليزي التي لطالما قدّرت التزامه ومستواه الكبير داخل الملعب. ولهذا السبب، لا يرغب الحارس البرازيلي في الدخول بأي صدام مع إدارة ليفربول أو جماهيره، رغم رغبته الواضحة في الرحيل، إذ يفضل أن يتم الأمر باتفاق هادئ يحفظ العلاقة المميزة التي جمعته بالنادي طوال السنوات الماضية. حكاية المكسيك وكأس العالم.. رحلة بين الهوية والتاريخ والحلم المؤجل من دموع 2010 إلى حلم 2026.. حكاية شعب لم يفقد…",
       "image": null,
-      "pubDate": "2026-05-12T05:33:41.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "04296905ce6229d4",
-      "title": "إليك خطوات حجز تذاكر مباراة إيران ونيوزيلندا في كأس العالم 2026 وقائمة الأسعار الرسمية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%84%D9%8A%D9%83-%D8%AE%D8%B7%D9%88%D8%A7%D8%AA-%D8%AD%D8%AC%D8%B2-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D9%86%D9%8A%D9%88%D8%B2%D9%8A%D9%84%D9%86%D8%AF%D8%A7-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026-%D9%88%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9/blt6a767bc9aefffef3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "إليك الطريقة المثلى للحصول على تذاكر مباراة إيران ونيوزيلندا",
-      "body": "إليك الطريقة المثلى للحصول على تذاكر مباراة إيران ونيوزيلندا تتواصل التحضيرات لانطلاق منافسات كأس العالم 2026، حيث يلتقي منتخب إيران مع منتخب نيوزيلندا ضمن مباريات دور المجموعات على ملعب SoFi في مدينة إنجلوود الأمريكية. وتحظى المباراة باهتمام جماهيري كبير، خاصة مع تطلع المنتخب الإيراني لمواصلة نتائجه القوية في البطولات العالمية، بينما يسعى منتخب نيوزيلندا لتحقيق انطلاقة مميزة أمام أحد أبرز منتخبات آسيا. ومع تزايد الطلب على تذاكر كأس العالم 2026، بدأت الجماهير في البحث عن أفضل الطرق لحجز المقاعد قبل ارتفاع الأسعار واقتراب موعد البطولة. ويستعرض كووورة خلال السطور التالية موعد مباراة إيران ضد نيوزيلندا، أسعار التذاكر، طرق الحجز، بالإضافة إلى معلومات مهمة عن ملعب المباراة. &nbsp; &nbsp;تذاكر مباراة إيران ضد نيوزلاندا في كأس العالم اشترِ تذكرتك الآن! موعد مباراة إيران ضد نيوزيلندا في كأس العالم 2026 تقام مباراة إيران ضد نيوزيلندا يوم 15 يونيو 2026 على ملعب SoFi في مدينة إنجلوود بولاية كاليفورنيا. التاريخ المباراة الملعب التذاكر 15 يونيو 2026 إيران ضد نيوزيلندا ملعب SoFi، إنجلوود التذاكر مباريات إيران في كأس العالم 2026 التاريخ المباراة الملعب التذاكر 15 يونيو 2026 إيران ضد نيوزيلندا ملعب SoFi، إنجلوود التذاكر 21 يونيو 2026 بلجيكا ضد إيران ملعب SoFi، إنجلوود التذاكر 26 يونيو 2026 مصر ضد…",
-      "image": null,
-      "pubDate": "2026-05-12T05:32:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "b953f31ec275d25f",
-      "title": "غزو كتالوني.. \"منتخب برشلونة\" مرشح لخوض مونديال 2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%BA%D8%B2%D9%88-%D9%83%D8%AA%D8%A7%D9%84%D9%88%D9%86%D9%8A-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%85%D8%B1%D8%B4%D8%AD-%D9%84%D8%AE%D9%88%D8%B6-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-2026/bltb7ca2747a69955c8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "دي لا فوينتي يستعيد بـ 11 لاعبا من البلوجرانا",
-      "body": "دي لا فوينتي يستعيد بـ 11 لاعبا من البلوجرانا يقترب برشلونة من فرض هيمنته على قائمة منتخب إسبانيا المشاركة في كأس العالم، بعدما ضمّت القائمة الأولية التي أعلنها المدرب لويس دي لا فوينتي 11 لاعبا من الفريق الكتالوني، في مؤشر واضح على أن لاعبي \"البلوجرانا\" سيشكلون العمود الفقري لـ\"لا روخا\" في رحلة البحث عن اللقب الثاني. وكان دي لا فوينتي قد كشف الاثنين الماضي عن قائمة مبدئية تضم 55 لاعبا مرشحا لتمثيل إسبانيا في المونديال، على أن يعلن التشكيلة النهائية يوم 25 مايو/ أيار الجاري؛ حيث تصدّر لاعبو برشلونة القائمة من حيث العدد، ما يعكس الثقل الفني الذي بات يتمتع به النادي داخل المنتخب. اقرأ أيضا: لامين يامال يصنع تاريخا من المدرجات.. أين زيدان وكريستيانو؟ تشكيلة برشلونة تكاد تكتمل في منتخب إسبانيا التشكيلة الأساسية التي اعتمدها برشلونة أمام ريال مدريد في آخر الكلاسيكو لا ينقصها سوى تغييرين فقط لتتحول إلى منتخب إسبانيا شبه كامل: دخول لامين يامال بدلاً من ماركوس راشفورد، وأليخاندرو بالدي بدلاً من جواو كانسيلو. ووفق التوقعات، قد يظهر منتخب إسبانيا بتشكيلة يغلب عليها طابع برشلونة؛ خوان جارسيا في حراسة المرمى، وإريك جارسيا، وباو كوبارسي، وجيرارد مارتين، ومارك كوكوريلا في الدفاع؛ بالإضافة إلى جافي، وبيدري، وداني أولمو في الوسط، وأخيرا لامين يامال، وفيران توريس، وفيرمين لوبيز في الهجوم. 6 أسماء …",
-      "image": null,
-      "pubDate": "2026-05-12T05:31:08.000Z",
+      "pubDate": "2026-05-12T05:51:58.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -608,35 +1216,19 @@
       "region": "global"
     },
     {
-      "id": "273379f25c1a612b",
-      "title": "الذكاء الاصطناعي يجيب: ما النتيجة المتوقعة لقمة النصر والهلال؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%8A%D8%AC%D9%8A%D8%A8-%D9%85%D8%A7-%D8%A7%D9%84%D9%86%D8%AA%D9%8A%D8%AC%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%82%D8%B9%D8%A9-%D9%84%D9%82%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84/blt60b14e1fa22ac752?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "خطوة واحدة على اللقب",
-      "body": "خطوة واحدة على اللقب لا تحمل الآلة أية عواطف أو مشاعر، لذلك قرر كووورة توجيه عدة أسئلة جدلية للذكاء الاصطناعي، واستعراض الإجابات دون تدخل تحريري. والسؤال الذي نطرحه في حلقة اليوم من السلسلة يثير شغف مشجعي كرة القدم في الوقت الحالي، وهو: \"ما النتيجة المتوقعة لقمة النصر والهلال&nbsp; في الجولة 32 من دوري روشن؟\". (ملحوظة): جميع الإجابات، بما يمكن أن تتضمنه من أخطاء لغوية أو معلوماتية، أوردناها كما ذكرها الذكاء الاصطناعي. الإجابة: توقعي لنتيجة مباراة النصر والهلال اليوم 12 مايو 2026 في الجولة 32 من دوري روشن هو: النصر 2 - 1 الهلال الشرح: يدخل النصر هذه المواجهة على ملعبه \"الأول بارك\" وهو في صدارة الترتيب برصيد 82 نقطة، بفارق 5 نقاط عن الهلال (الذي يمتلك مباراة مؤجلة). هذا الفارق يجعل النصر يلعب بضغوط أقل نسبياً، حيث أن الفوز اليوم يعني حسم اللقب بالوصول لفارق 8 نقاط. اعتمدت في هذا التوقع على العوامل التالية: &nbsp;القوة الهجومية الأرضية: النصر حقق 14 انتصاراً من أصل 15 مباراة لعبها على ملعبه هذا الموسم، بمعدل تهديفي يصل إلى 2.7 هدف في المباراة الواحدة، مع تألق لافت لكريستيانو رونالدو وجواو فيليكس في المباريات الأخيرة. &nbsp;الدوافع الانتقامية: يسعى النصر لرد اعتباره بعد خسارته في لقاء الدور الأول بنتيجة 3-1، وهو يمر حالياً بفترة استقرار فني عالية تحت قيادة مدربه خورخي جيسوس (الذي انتق…",
-      "image": null,
-      "pubDate": "2026-05-12T05:26:22.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5185a0a88b73c4f5",
-      "title": "Cannes Market Goes Beyond Film Sales With AI, Creator Economy Focus",
-      "link": "https://www.hollywoodreporter.com/business/business-news/cannes-market-goes-beyond-film-with-ai-creator-economy-1236591832/",
-      "summary": "Cannes Marché Chief Guillaume Esmiol on bringing innovation, AI, and the creator economy to the Cannes Market without losing focus on the movie business.",
+      "id": "0b76a45deb4c57e4",
+      "title": "Japan says Bessent offered ‘understanding’ on yen intervention",
+      "link": "https://www.ft.com/content/5c42387d-d5c2-40fc-a783-0be17b50af12",
+      "summary": "Currency weakens after US Treasury secretary meets finance minister Satsuki Katayama",
       "body": null,
       "image": null,
-      "pubDate": "2026-05-12T05:20:00.000Z",
+      "pubDate": "2026-05-12T05:27:09.000Z",
       "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
+        "name": "Financial Times — Markets",
+        "homepage": "https://www.ft.com/markets?format=rss"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "markets",
       "region": "global"
     },
     {
@@ -656,166 +1248,6 @@
       "region": "global"
     },
     {
-      "id": "bd9c3d42ed0fb967",
-      "title": "”بالطبع سنفوز اليوم.. نحن ألمانيا“.. كيف يريد ناجلسمان إعادة إحياء إرث المانشافت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D8%B7%D8%A8%D8%B9-%D8%B3%D9%86%D9%81%D9%88%D8%B2-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%86%D8%AD%D9%86-%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D9%83%D9%8A%D9%81-%D9%8A%D8%B1%D9%8A%D8%AF-%D9%86%D8%A7%D8%AC%D9%84%D8%B3%D9%85%D8%A7%D9%86-%D8%A7%D9%95%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%95%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%95%D8%B1%D8%AB-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B4%D8%A7%D9%81%D8%AA/blt825e82e43ebe9990?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يريد جوليان ناجلسمان إعادة المنتخب الألماني إلى قوته السابقة، ليس من خلال الحنين إلى الماضي، بل من خلال استعادة المزايا التي كان يُعتقد أنها ضاعت. إنها محاولة لنقل إرث كرة القدم الألمانية إلى العصر الحديث، حتى تعود العبارة الأسطورية لغاري لينكر إلى معناها",
-      "body": "يريد جوليان ناجلسمان إعادة المنتخب الألماني إلى قوته السابقة، ليس من خلال الحنين إلى الماضي، بل من خلال استعادة المزايا التي كان يُعتقد أنها ضاعت. إنها محاولة لنقل إرث كرة القدم الألمانية إلى العصر الحديث، حتى تعود العبارة الأسطورية لغاري لينكر إلى معناها عندما كان المشجعون خارج ألمانيا يتحدثون عن المنتخب الوطني، كانوا غالبًا ما يقتبسون عبارة أصبحت منذ فترة طويلة شعارًا: ”كرة القدم لعبة بسيطة: 22 رجلاً يطاردون كرة لمدة 90 دقيقة - وفي النهاية، يفوز الألمان دائمًا“. قال غاري لينيكر هذه العبارة بعد نصف نهائي كأس العالم 1990، الذي خسرته إنجلترا بركلات الترجيح أمام ألمانيا. كان يقصدها نصف إعجاب ونصف استسلام. لكن هذه الجملة كانت أكثر من مجرد ملاحظة ذكية. فقد لخصت صورة أمة عرّفت كرة القدم لعقود طويلة ليس بأنها أجمل لعبة، بل بموقفها الثابت. كانت ألمانيا الفريق الذي لم يستسلم أبدًا، الذي تفوق بفضل تنظيمه وقوة إرادته وانضباطه التكتيكي، والذي برز في اللحظات الحاسمة. كانت هذه الهوية هي إرثها. كان كرة القدم قائمة على العقلية، وليس على الجماليات. كانت كأس العالم اختبارًا للشخصية، وليس عرضًا للكمال الفني. شكلت هذه القيم الصورة الذاتية الجماعية لكرة القدم الألمانية. أبطال برن في عام 1954، وحاملو اللقب في ميونيخ في عام 1974، والمقاتلون في روما في عام 1990 - جميعهم رمزوا لفريق وجد التوازن بين العزي…",
-      "image": null,
-      "pubDate": "2026-05-12T05:11:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0219e6bc029b59a9",
-      "title": "مدرب التعاون: ما حدث في المدرجات أمام الأهلي أغضبني",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%A7-%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D8%A7%D9%94%D8%BA%D8%B6%D8%A8%D9%86%D9%8A/blt15282ffa8e5b9ecc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "شاموسكا يهاجم جماهير التعاون",
-      "body": "شاموسكا يهاجم جماهير التعاون أكد البرازيلي بريكليس شاموسكا، المدير الفني لنادي التعاون، أن فريقه قدم مباراة كبيرة أمام الأهلي رغم الخسارة، مشيرا إلى أن الفريق كان يستحق على الأقل نقطة من اللقاء. وكان التعاون قد خسر أمام الأهلي بهدفين مقابل هدف، في المباراة التي جمعتهما مساء أمس على ملعب الملك عبد الله الرياضي ببريدة، ضمن الجولة الـ32 من دوري روشن السعودي للمحترفين. وبهذا الانتصار، رفع \"الراقي\" رصيده للنقطة 75 في المركز الثالث بجدول ترتيب دوري روشن، فيما توقف رصيده التعاون عند 52 نقطة في المرتبة السادسة . وسجل ثنائية الأهلي كل من إيفان توني في الدقيقة 17، وروجير إيبانيز (79)، فيما سجل هدف التعاون الوحيد أنجيلو فولجيني (55). وقال شاموسكا، في المؤتمر الصحفي عقب المباراة: \"أبارك لفريقي على المباراة الكبيرة التي قدمها أمام بطل آسيا، كنا متوازنين داخل الملعب، وأتيحت لنا فرص جيدة قبل هدف الأهلي، ولكن هذه هي كرة القدم\". وتابع: \"جماهير التعاون الحقيقية يقدرون العمل الذي نقوم به، وأنا كنت غاضبا جدا بسبب النتيجة.. من كان في المدرجات خلال المواجهة الأخيرة لا يعرف حجم الجهد والعمل الذي نبذله مع الفريق\"، في إشارة إلى الهتافات التي أطلقتها الجماهير.",
-      "image": null,
-      "pubDate": "2026-05-12T05:07:39.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "1df2725fbe68e5f7",
-      "title": "كروس: أزمات غرفة الملابس وراء خسارة الكلاسيكو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%B1%D9%88%D8%B3-%D8%A7%D9%94%D8%B2%D9%85%D8%A7%D8%AA-%D8%BA%D8%B1%D9%81%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3-%D9%88%D8%B1%D8%A7%D8%A1-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88/blt6255dac47f0ac17a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أسطورة الريال يوجه تحذيرا بشأن جولر",
-      "body": "أسطورة الريال يوجه تحذيرا بشأن جولر أكد توني كروس ، نجم ريال مدريد السابق، أن مرور موسمين دون تحقيق ألقاب يعد أمراً غير مقبول داخل قلعة \"سانتياجو برنابيو\"، مشدداً على أن الهزيمة في الكلاسيكو أمام برشلونة كانت متوقعة حتى قبل صافرة البداية. وحلل كروس أحداث مباراة الكلاسيكو الأخيرة رفقة شقيقه فيليكس عبر بودكاست \"لوبين\"، حيث اعترف بأن موسم الفريق الملكي لم يكن جيداً، موضحاً أن الأزمات الداخلية في غرفة الملابس ألقت بظلالها على أداء اللاعبين خلال المواجهة التي أقيمت يوم الأحد الماضي. وقال الألماني: \"خروج ريال مدريد بموسمين صفريين هو أمر غير مقبول، نقطة انتهى. النتيجة التي ظهرت على أرض الملعب هي نتاج للعلاقة السيئة داخل الفريق، وربما كان لديهم الحافز للفوز بالكلاسيكو، لكن ذلك لم يكن كافياً، فالهزيمة كانت مقبولة ضمنياً قبل البدء، وأعتقد أنهم كانوا سيرضون بهذه النتيجة قبل المباراة. الشوط الثاني كان أكثر توازناً لكنني لم أدون أي ملاحظات إيجابية، وببساطة أقول مبروك لبرشلونة\". وتطرق كروس للحديث عن هدف راشفورد، قائلاً: \"لا يمكن القول إن كورتوا كان بإمكانه تقديم ما هو أفضل، فقد كانت تسديدة رائعة في مساحة ضيقة للغاية. كورتوا اتخذ خطوة نحو القائم الآخر، لكن لا يمكن لومه على هذا الهدف\". كما فند الدولي الألماني السابق تفاصيل الهدف الثاني، معتبراً أنه يجسد الفارق الشاسع بين الفريقين هذا الموسم، قائل…",
-      "image": null,
-      "pubDate": "2026-05-12T05:05:17.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e9e38860eac61944",
-      "title": "ليلة كارثية لمورينيو في البرتغال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D9%84%D8%A9-%D9%83%D8%A7%D8%B1%D8%AB%D9%8A%D8%A9-%D9%84%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84/bltb05a7f5ba6e33a4a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب البرتغالي تحت الضغط",
-      "body": "المدرب البرتغالي تحت الضغط في ليلة درامية على ملعب \"النور\"، عاش جوزيه مورينيو واحدة من أكثر مبارياته توترًا منذ توليه تدريب بنفيكا، بعدما سقط فريقه في فخ التعادل (2-2) أمام سبورتينج براجا، في لقاء مثير شهد أحداثًا تحكيمية مثيرة للجدل، وأداءً متقلبًا من أصحاب الأرض الذين فرّطوا في فوز كان في متناول اليد. تعادل بطعم الخسارة دخل بنفيكا اللقاء وهو يدرك أن الفوز وحده يبقي على آماله في المنافسة على المراكز الأوروبية، بينما كان براجا بحاجة إلى نقطة واحدة فقط لضمان المركز الرابع، آخر المراكز المؤهلة للمسابقات القارية. ورغم تقدّم أصحاب الأرض في النتيجة، فإن الضيوف قلبوا الطاولة بهدف رائع في الدقائق الأخيرة، قبل أن يأتي التعادل النهائي من ركلة جزاء في الوقت بدل الضائع، ليخرج بنفيكا بنقطة لا تُغني ولا تُسمن. سيطرة بلا فاعلية في الشوط الأول، فرض بنفيكا سيطرة واضحة على مجريات اللعب، لكنه افتقد الحسم أمام المرمى. وأهدر لاعبوه فرصاً محققة أبرزها تسديدة أندرياس شيلدروب بعد مجهود فردي مميز، تصدى لها الحارس لوكاش هورنيتشيك ببراعة. أما براجا، فبدا عاجزاً عن تهديد مرمى أناتولي تروبين، مكتفياً بالدفاع المنظم والاعتماد على المرتدات. بداية نارية وفوضى تحكيمية مع انطلاق الشوط الثاني، اشتعلت المباراة سريعاً. فبعد مرور 30 ثانية فقط، افتتح رافا سيلفا التسجيل لبنفيكا بعد تمريرة متقنة من جيانلوكا بريستياني، ل…",
-      "image": null,
-      "pubDate": "2026-05-12T05:03:57.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "fc2a964afb7d5fe3",
-      "title": "جدول مباريات اليوم الثلاثاء 12 مايو 2026 .. القنوات الناقلة والمعلقين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-12-%D9%85%D8%A7%D9%8A%D9%88-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/bltfe1c6d9e1cfd720f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين",
-      "body": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين يترقّب عشّاق كرة القدم في مختلف أنحاء العالم، اليوم الثلاثاء 12 مايو/أيار 2026، أمسية كروية استثنائية مليئة بالإثارة والندية، في ظل جدول حافل بالمواجهات القوية والمنتظرة على مختلف الملاعب. وفي الدوري الإسباني، تُقام 3 مباريات قوية ضمن منافسات الجولة الـ36، يتصدرها اللقاء المرتقب الذي يجمع بين أوساسونا وأتلتيكو مدريد. أما في دوري روشن السعودي، فتتجه الأنظار إلى ملعب \"الأول بارك\"، الذي يحتضن قمة نارية بين النصر والهلال ضمن منافسات الجولة الـ32. وفي الدوري المصري الممتاز، تشهد الجولة العاشرة من مجموعة الهبوط إقامة 3 مواجهات قوية، وسط صراع مشتعل بين الأندية للهروب من شبح الهبوط وحسم البقاء في دوري الأضواء. وفي هذا التقرير، يستعرض معكم \"كووورة\" جدول مباريات اليوم الثلاثاء 12 مايو /أيار 2026، إلى جانب القنوات الناقلة لهذه المواجهات المرتقبة. ما القنوات الناقلة لمباريات اليوم الثلاثاء 12 مايو /أيار 2026؟ يمكن مشاهدة مباريات الدوري الإسباني عبر قنوات beIN SPORTS ، ولهواة البث المباشر، فإنّ تطبيق TOD TV هو الناقل الرسمي. كما يمكن مشاهدة دوري روشن السعودي على قنوات ثمانية . ويمكن مشاهدة مباريات الدوري المصري عبر قنوات ON Sport ،&nbsp; وإن كنت ترغب في مشاهد البث المباشر من أي مكان في العالم يمكن الاستعانة بتطبيق Nord VPN . beIN SPORTS HD…",
-      "image": null,
-      "pubDate": "2026-05-12T05:01:33.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a972d6472b9bd281",
-      "title": "Behind Big Oil’s first-quarter beat: The quiet rise of trading desks",
-      "link": "https://www.cnbc.com/2026/05/12/oil-energy-trading-iran-war-bp-shell.html",
-      "summary": "Europe's oil supermajors highlighted trading contributions as they reported stronger-than-expected profits through the first three months of the year.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T05:00:01.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "aebf22c5522ef112",
-      "title": "خطوة نحو مدريد؟.. مورينيو يفجرها: لن أجدد لبنفيكا!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%B7%D9%88%D8%A9-%D9%86%D8%AD%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D9%8A%D9%81%D8%AC%D8%B1%D9%87%D8%A7-%D9%84%D9%86-%D8%A7%D9%94%D8%AC%D8%AF%D8%AF-%D9%84%D8%A8%D9%86%D9%81%D9%8A%D9%83%D8%A7/blt165741cf99c20657?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "إنها تقترب..",
-      "body": "إنها تقترب.. تتزايد التكهنات في الأوساط الرياضية الإسبانية حول اقتراب جوزيه مورينيو من العودة إلى تدريب ريال مدريد، في ظل قناعة داخل النادي الملكي بأنه المدرب القادر على إعادة روح العمل الجماعي والانضباط إلى الفريق بعد موسم مخيب للآمال. ويُعد مورينيو أحد أبرز المدربين في تاريخ كرة القدم، رغم أنه لم يحقق إنجازات كبيرة في السنوات الأخيرة، إذ يقود حاليًا نادي بنفيكا البرتغالي في محاولة للتأهل إلى دوري أبطال أوروبا الموسم المقبل. سؤال مباشر ورد حاسم خلال المؤتمر الصحفي الأخير للمدرب البرتغالي، وجّه إليه أحد الصحفيين سؤالًا مباشرًا حول مستقبله مع بنفيكا، قائلاً: \"في مارس قلت إنك تريد البقاء في بنفيكا واحترام عقدك، وإذا عُرض عليك تمديد فستوقع دون أي اعتراض. بعد كل ما حدث، إذا تم عرض التمديد عليك، هل ستوقعه؟\". ورد مورينيو بحزم وبنبرة قاطعة، قائلاً: \"لا. ما قلته في مارس كان في مارس. سأتمكن من الإجابة عن مستقبلي يوم الاثنين\". مؤشرات على اقتراب العودة إلى مدريد تصريح مورينيو القصير والمحمّل بالرسائل فُسّر على نطاق واسع في الصحافة الإسبانية والبرتغالية على أنه تلميح واضح إلى اقتراب رحيله عن بنفيكا، وعودته إلى ريال مدريد، النادي الذي قاده بين عامي 2010 و2013 وحقق معه لقب الدوري الإسباني وكأس الملك. وتشير مصادر مقربة من إدارة ريال مدريد إلى أن اسم مورينيو يحظى بدعم قوي داخل أروقة النادي، خاصة …",
-      "image": null,
-      "pubDate": "2026-05-12T04:50:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6f84dc1e294aff85",
-      "title": "بالفيديو.. كواليس الاشتباك المثير بين فينيسيوس وجافي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D8%A7%D9%84%D9%85%D8%AB%D9%8A%D8%B1-%D8%A8%D9%8A%D9%86-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%88%D8%AC%D8%A7%D9%81%D9%8A/bltf9fd9ff89d1d9e4d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "توريس يسب النجم البرازيلي",
-      "body": "توريس يسب النجم البرازيلي كشفت تسريبات مصورة عن تفاصيل المشادة الكلامية المثيرة التي جمعت بين البرازيلي فينيسيوس جونيور، نجم ريال مدريد، وجافي، لاعب وسط برشلونة ، خلال مواجهة الكلاسيكو الأخيرة التي انتهت بفوز الفريق الكتالوني بنتيجة 2-0. وأظهرت مقاطع الفيديو التي نشرتها قناة \"Movistar+ Plus\" كواليس الحوار الساخن بين اللاعبين، حيث بدأ الصدام حين اقترب جافي من فينيسيوس قائلاً: \"يا صاحب الكرة الذهبية.. اصمت\"، ليرد عليه النجم البرازيلي ضاحكاً: \"أنا لدي بطولات دوري أبطال أوروبا، أما أنت فماذا تملك؟\". وفي لقطة أخرى من المباراة، حاول فينيسيوس تهدئة الموقف بقوله لجافي: \"ماذا تريد يا أخي؟ أنا هادئ\"، ليرد عليه اللاعب الإسباني بحدة: \"حسنًا، إذًا اصمت والعب.. توقف عن التصرف كالأحمق\". كما تدخل فيران توريس نجم برشلونة من مقاعد البدلاء موجهاً حديثه لفينيسيوس: \"اصمت أيها الغبي\". وعلى صعيد التحركات التكتيكية داخل الملعب، طالب فينيسيوس زملائه في إحدى اللقطات بمساندته، قائلاً: \"رافقوني في عملية الضغط، أنا أضغط بمفردي\". 🗣️ Vinícius: &quot;Me tenéis que acompañar en la presión, estoy solo.&quot; 🗣️ Tchouaméni: &quot;Debemos tocar.&quot; 😭😭😭😭😭😭 pic.twitter.com/LCDxFV10Sd &mdash; (fan) REAL MADRID FANS 🤍 (@AdriRM33) May 11, 2026",
-      "image": null,
-      "pubDate": "2026-05-12T04:47:41.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6e604ac039877cbc",
-      "title": "ريال مدريد يترك أربيلوا وحيدًا في قلب العاصفة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AA%D8%B1%D9%83-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%88%D8%AD%D9%8A%D8%AF%D9%8B%D8%A7-%D9%81%D9%8A-%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%81%D8%A9/bltd1bf470d12042beb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "صمت الإدارة يثير الشكوك!",
-      "body": "صمت الإدارة يثير الشكوك! سلّطت صحيفة \" موندو ديبورتيفو \" الضوء على حالة الارتباك التي يعيشها ريال مدريد في أعقاب خسارة لقب الدوري الإسباني، مؤكدة أن المدرب ألفارو أربيلوا وجد نفسه وحيدًا في مواجهة العاصفة الإعلامية بعد أحداث الأسبوع الأخير. وأشارت الصحيفة إلى أنه عقب إطلاق الحكم هيرنانديز هيرنانديز صافرة النهاية في ملعب كامب نو، وتتويج برشلونة رسميًا بلقب الدوري الإسباني، عاد لاعبو ريال مدريد إلى غرفة الملابس وهم يدركون أن الموسم انتهى عمليًا، حتى وإن كانت هناك ثلاث مباريات متبقية في المسابقة. ورغم أن الفريق لا يزال مطالبًا بخوض مواجهاته المقبلة أمام ريال أوفيدو وإشبيلية وأتلتيك بلباو، فإن الواقع داخل النادي يشير إلى غياب أي أهداف حقيقية بعد ضياع جميع الألقاب هذا الموسم. وأكدت الصحيفة أن أربيلوا كان الشخصية الوحيدة داخل النادي التي خرجت للحديث علنًا خلال الأيام الماضية، سواء بشأن ما حدث داخل غرفة الملابس عقب الأزمة التي جمعت بين فيديريكو فالفيردي وأوريلين تشواميني، أو فيما يتعلق بانتهاء موسم الفريق بصورة مخيبة للآمال. وفي المقابل، التزم مجلس الإدارة وبقية عناصر غرفة الملابس الصمت الكامل، دون أي تصريحات أو توضيحات بشأن المرحلة المقبلة، وهو ما زاد من حالة القلق والغموض بين جماهير النادي. وترى الصحيفة أن ريال مدريد يعاني منذ منتصف الموسم من غياب واضح للشخصية القيادية داخل غرفة الملاب…",
-      "image": null,
-      "pubDate": "2026-05-12T04:47:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "01cf93a4e65bf1e5",
-      "title": "Colbert Discusses Fate of Late Night With Kimmel, Fallon, Meyers and Oliver; Reveals New ‘Strike Force Five’ Podcast Episode",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/colbert-kimmel-fallon-meyers-oliver-strike-force-five-1236593015/",
-      "summary": "A special emergency episode of the podcast will debut on May 13.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T04:45:18.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "b83bb130c2595e4c",
       "title": "Asia's trillion-dollar titans are powering — and distorting — its fastest growing stock markets",
       "link": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html",
@@ -832,88 +1264,8 @@
       "region": "global"
     },
     {
-      "id": "8153069b6ca4a5dd",
-      "title": "صحفي مدريدي يفتح النار على مبابي: كنا قبل مجيئك أبطالا لأوروبا.. والآن!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AD%D9%81%D9%8A-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D9%8A-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%83%D9%86%D8%A7-%D9%82%D8%A8%D9%84-%D9%85%D8%AC%D9%8A%D9%8A%D9%94%D9%83-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84%D8%A7-%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D9%88%D8%A7%D9%84%D8%A7%D9%93%D9%86/bltc94c6c81f9af147a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "طالب بيريز باتخاذ خطوات حاسمة",
-      "body": "طالب بيريز باتخاذ خطوات حاسمة تعيش جماهير ريال مدريد حالة من الغضب العارم بعد الخسارة أمام برشلونة بنتيجة (2-0) في الكلاسيكو الذي أُقيم على ملعب \"كامب نو\"، وهي الهزيمة التي أنهت فعليًا آمال الفريق في المنافسة على أي لقب هذا الموسم، لتتوج كتيبة هانزي فليك بلقب الدوري الإسباني للموسم الثاني على التوالي، فيما يخرج الفريق الملكي بموسم صفري. غضب جماهيري ومطالب بتدخل بيريز الهزيمة أمام الغريم التقليدي فجّرت موجة من الانتقادات داخل أوساط النادي وجماهيره، التي عبّرت عن استيائها من تراجع الأداء والنتائج. وكان أبرز الأصوات المنتقدة الصحفي الإسباني توماس رونثيرو، نائب رئيس تحرير صحيفة \"آس\"، والمساهم في برنامج El Chiringuito de Jugones، الذي طالب رئيس النادي فلورنتينو بيريز برد قوي في سوق الانتقالات الصيفية المقبلة. وجّه رونثيرو رسالة صريحة وحادة إلى رئيس النادي فلورنتينو بيريز، قائلاً: \"أطلب من فلورنتينو أن يفعل كما فعل في عام 2009، وأن يُنجز هذا الصيف ما كان ينبغي القيام به خلال ثلاث فترات انتقالات. وأن يُحسن اختيار المدرب. وإذا كان جوزيه مورينيو، فليكن. لكن مع اتخاذ قرارات جذرية.\" &nbsp;\"منذ أن فاز ريال مدريد بالكأس الأوروبية الخامسة عشرة قبل عامين، والفريق يتراجع في قيمته. يلعب من دون شخصية أو هيبة. يشارك كاماڤينجا، لكنه يُرهقني بصراحة. وفي الدفاع، لا يمكننا أن نطلب أكثر: روديجر، وأسينسيو…",
-      "image": null,
-      "pubDate": "2026-05-12T04:39:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "8aa11e171871e037",
-      "title": "مانشستر سيتي يحدد موقفه من بيع عمر مرموش",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AF-%D9%85%D9%88%D9%82%D9%81%D9%87-%D9%85%D9%86-%D8%A8%D9%8A%D8%B9-%D8%B9%D9%85%D8%B1-%D9%85%D8%B1%D9%85%D9%88%D8%B4/blte7fc169237f3c0b0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "القرار النهائي بشأن النجم المصري بيد من؟",
-      "body": "القرار النهائي بشأن النجم المصري بيد من؟ كشفت تقارير صحفية إنجليزية عن تطورات مهمة بشأن مستقبل النجم المصري عمر مرموش في مانشستر سيتي، مع اقتراب موسم الانتقالات الصيفي. وانضم مرموش إلى السيتيزينز في يناير/ كانون الثاني 2025 قادمًا من آينتراخت فرانكفورت الألماني، إلا أنه لم يحظَ بفرص لعب منتظمة خلال الفترة التي قضاها مع الفريق حتى الآن، ما أثار تساؤلات عديدة حول مستقبله. وأفادت شبكة \"فوتبول إنسايدر\" أن مصير مرموش (27 عامًا) يعتمد في المقام الأول على رغبته الشخصية، وتحديدًا ما إذا كان يرغب في الرحيل بحثًا عن دقائق لعب أكثر في نادٍ آخر. وارتبط اسم مرموش خلال الفترة الأخيرة بعدة أندية أبرزها أستون فيلا وتوتنهام هوتسبير من الدوري الإنجليزي الممتاز، بالإضافة إلى برشلونة المتوج بالليجا مؤخرا. وأكدت الشبكة أن إدارة مانشستر سيتي لا تنوي بيع اللاعب المصري في الصيف المقبل، لكنها أشارت في الوقت ذاته إلى صعوبة حصوله على وقت لعب أكبر في الموسم المقبل، بسبب المنافسة الشرسة في خط الهجوم تحت قيادة بيب جوارديولا. وزاد انضمام المهاجم أنطوان سيمينيو من حدة هذه المنافسة، فضلًا عن وجود إيرلينج هالاند كخيار أول لا منافس له في مركز المهاجم الصريح، وهو المركز المفضل لمرموش. ويأمل الدولي المصري بالطبع في المشاركة بانتظام، لكن عدم حصوله على ذلك قد يدفعه إلى طلب الرحيل عن \"السيتيزينز\" خلال الصيف المقبل.",
-      "image": null,
-      "pubDate": "2026-05-12T04:39:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e7a0abb7b2bdaff2",
-      "title": "رد فعل مفاجئ من فينيسيوس على وصول مورينيو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%AF-%D9%81%D8%B9%D9%84-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%85%D9%86-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D8%B9%D9%84%D9%89-%D9%88%D8%B5%D9%88%D9%84-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88/blt737209c283fe77f0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل انتهى الجدل؟",
-      "body": "هل انتهى الجدل؟ حدد البرازيلي فينيسيوس جونيور ، نجم ريال مدريد، موقفه من عودة البرتغالي جوزيه مورينيو، مدرب بنفيكا، لقيادة الملكي خلال الموسم المقبل. وذكرت العديد من التقارير أن مورينيو المرشح الأول لدى فلورنتينو بيريز، رئيس ريال مدريد، لقيادة الميرنجي خلفا لألفارو أربيلوا. وقال الصحفي الإسباني ماركوس بينيتو، في تصريحات لبرنامج \"الشيرنجيتو\" الإسباني: \"لقد تجاوز فينيسيوس تماما قضية جيانلوكا بريستياني وتصريحات مورينيو عن تلك الفضية، ويعتقد أنه لا يوجد أي شيء يحتاج إلى توضيحه مع المدرب البرتغالي\". وأضاف: \"يرى النجم البرازيلي أن المرحلة الحالية في ريال مدريد تتطلب التركيز على العمل داخل الفريق فقط، بعيدا عن أي جدل أو ملفات خارجية، ويعتقد أن وصول المدرب البرتغالي سيكون أمرا إيجابيا للغاية\". يذكر أن فينيسيوس اتهم جيانلوكا بريستياني نجم بنفيكا بتوجيه إهانات عنصرية له خلال مباراة الفريقين بدوري أبطال أوروبا. وظل مورينيو يدافع عن موقف بريستياني قبل وبعد إعلان اليويفا لعقوبة نجم بنفيكا.",
-      "image": null,
-      "pubDate": "2026-05-12T04:30:50.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "b46ead2b8487290a",
-      "title": "صفقة القرن.. أكثر من 150 مليون يورو لخطف ألفاريز",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%81%D9%82%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%94%D9%83%D8%AB%D8%B1-%D9%85%D9%86-150-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%8A%D9%88%D8%B1%D9%88-%D9%84%D8%AE%D8%B7%D9%81-%D8%A7%D9%94%D9%84%D9%81%D8%A7%D8%B1%D9%8A%D8%B2/blt0d745a38d70f79c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "صدمة للكتالونيين",
-      "body": "صدمة للكتالونيين تتجه أنظار عشاق كرة القدم الأوروبية نحو العاصمة الفرنسية باريس، حيث تشير التقارير إلى أن إدارة باريس سان جيرمان تستعد لإبرام صفقة ضخمة قد تغيّر ملامح سوق الانتقالات الصيفية المقبلة. النادي الباريسي، الذي يسعى لتجديد دمائه الهجومية استعدادًا للموسم الجديد، يبدو عازمًا على ضم أحد أبرز المهاجمين في القارة العجوز. مفاوضات جادة بين باريس وأتلتيكو مدريد الصحفي الإسباني إيناكي فيلالون كشف عبر برنامج \"التشيرينجيتو\" أن باريس سان جيرمان وأتلتيكو مدريد دخلا بالفعل في مفاوضات رسمية بشأن انتقال المهاجم الأرجنتيني جوليان ألفاريز إلى صفوف الفريق الفرنسي، مشيرًا إلى أن قيمة الصفقة المحتملة \"تتجاوز 150 مليون يورو بكثير\". ووفقًا لما أوردته صحيفة \"ليكيب\" الفرنسية، فإن المدير الفني لويس إنريكي أبدى رغبة قوية في التعاقد مع ألفاريز لتدعيم خط الهجوم، معتبرًا أن اللاعب الأرجنتيني هو القطعة التي تنقص مشروعه الفني في الموسم المقبل. قرار مفاجئ من ألفاريز يفتح الباب أمام الكبار إذاعة\"SER\" &nbsp;الإسبانية كانت أكدت أن جوليان ألفاريز، البالغ من العمر 25 عامًا، اتخذ قراره النهائي بمغادرة أتلتيكو مدريد بعد موسم واحد فقط من انضمامه إلى الفريق، في خطوة فاجأت إدارة النادي الإسباني وفتحت الباب أمام كبار أوروبا للتنافس على خدماته. ويحظى اللاعب باهتمام واضح من برشلونة وآرسنال، غير أن المؤشرات الأخيرة …",
-      "image": null,
-      "pubDate": "2026-05-12T04:21:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0e7ecbede283cc56",
-      "title": "لعنة جيسوس.. كابوس بنفيكا يهدد النصر في ديربي الحسم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D8%B9%D9%86%D8%A9-%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D9%83%D8%A7%D8%A8%D9%88%D8%B3-%D8%A8%D9%86%D9%81%D9%8A%D9%83%D8%A7-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D8%AD%D8%B3%D9%85/blt0119a91f746a7607?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب البرتغالي بين لعنتين.. فهل يفلت هذة المرة؟",
-      "body": "المدرب البرتغالي بين لعنتين.. فهل يفلت هذة المرة؟ قبل نحو عام وتحديدا في أواخر أبريل 2025، كان البرتغالي جورجي جيسوس يواجه أسوأ أزمة في مسيرته التدريبية. خرج الهلال بقيادته من نصف نهائي دوري أبطال آسيا بخسارة 1-3 أمام الأهلي، وهو إخفاق كان بمثابة القشة التي قصمت ظهر علاقة بدت أنها تجاوزت طريقا مسدودا قبل موعدها بجولات. في الثاني من مايو، أعلن \"الزعيم\" رسميا فسخ التعاقد مع مدربه \"المخضرم\" بالتراضي. أنهى ذلك القرار فصلا استثنائيا قاد فيه الفريق لتسجيل رقم قياسي عالمي بالفوز في 34 مباراة متتالية. واليوم سيكون على المدرب البرتغالي الذي يقف في الجهة المقابلة في الرياض، أن يضع حدا لتلعثمه قبل جولات النهاية، ليكسر لعنتين: الانهيار في الأوقات الحاسمة، وانتظار عودة الدوري الغائب عن النصر منذ 7 سنوات. مفاجأة.. سعودي و8 أجانب بعد أقل من ثلاثة أشهر، على إقالته من الهلال، كانت المفاجأة: في يوليو 2025، عاد جيسوس إلى الرياض، ولكن عبر البوابة الأخرى: النصر. أثارت تلك الخطوة جدلا واسعا في الوسط الكروي السعودي. لم يكن جيسوس أول مدرب ينتقل مباشرة بين القطبين، إذ سبقه كثيرين أولهم السعودي حسن سلطان، و7 أجانب: اليوغوسلافي بروشيتش، البرازيلي زاجالو، البرازيلي جويل سانتانا، الروماني إيلي بلاتشي، البرتغالي آرثر جورج، الكولومبي ماتورانا، الكرواتي زوران ماميتش، لكنه (جيسوس) الأكثر إثارة في تاريخ صراع غريمي…",
-      "image": null,
-      "pubDate": "2026-05-12T04:02:10.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "509d27dbd10c00cc",
-      "title": "The UK strategy for the City needs more ambition",
+      "id": "46c074c74f8ff7ab",
+      "title": "The UK strategy for the City needs more ambition as market share slips",
       "link": "https://www.ft.com/content/2933fa44-685e-4474-82ee-f08c1c851058",
       "summary": "A hyperactive reform programme is not enough to drive the urgent national mission of driving growth and investment",
       "body": null,
@@ -976,38 +1328,6 @@
       "region": "global"
     },
     {
-      "id": "b8876939d1a591f5",
-      "title": "Lisa Kudrow on ‘The Comeback’ Finale and Saying Goodbye to Valerie Cherish: “She’s Not a Victim”",
-      "link": "https://www.hollywoodreporter.com/tv/tv-features/lisa-kudrow-the-comeback-finale-interview-1236590643/",
-      "summary": "The co-creator, co-writer, executive producer and star details the plot points of episode 8, and shares how she’s processing a goodbye to her beloved creation: “I’ll miss her. I know she’s here, I have access to her, but it’s sad.”",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T03:00:00.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c56f3feb65985e1b",
-      "title": "بين الانتقام والتدمير.. زلزال الرياض يهدد الهلال وحلم رونالدو التاريخي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%88%D8%AD%D9%84%D9%85-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A/blt9c517457aa2c86ef?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "من سيحسم ديربي الرياض في القمة المرتقبة؟",
-      "body": "من سيحسم ديربي الرياض في القمة المرتقبة؟ في مدينة لا تنام قبل الديربي، تبدو الرياض وكأنها تقف على حافة انفجار كروي قد يحسم هوية بطل دوري روشن للمحترفين. مباراة واحدة فقط قادرة على صناعة المجد لفريق، وفي الوقت ذاته هدم مشروع كامل لفريق آخر، وسط توتر يزداد مع اقتراب صافرة البداية. اقرأ أيضًا.. مهمة صعبة.. لماذا يعتبر ديربي الهلال والنصر الأصعب على رونالدو؟ اقرأ أيضًا.. ورقة معتادة.. جيسوس يضغط الهلال قبل ديربي الحسم خلف الأضواء والهتافات، تتحرك الكثير من القصص الخفية؛ مدرب يبحث عن انتقام مؤجل، ونادٍ يخشى السقوط المدوي، ونجم عالمي يطارد حلمًا تاريخيًا قد يتحول إلى كابوس في ليلة واحدة. وهنا الحديث يأتي عن ديربي الهلال والنصر، فهذه المرة لا يشبه أي مواجهة سابقة، لأن الخسارة لن تعني فقدان ثلاث نقاط فقط، بل ربما نهاية حقبة كاملة وبداية عاصفة جديدة داخل الكرة السعودية. الانتقام.. هل يثأر جيسوس من الهلال؟ يدخل البرتغالي جورجي جيسوس مدرب النصر السعودي المواجهة بعقلية مختلفة تمامًا، بعدما تحولت المباراة بالنسبة له إلى قضية شخصية تحمل الكثير من الرغبة في الانتقام الكروي. اقرأ أيضًا.. أجنحة مكسورة وغيابات صادمة.. من يضرب الآخر في ديربي الهلال والنصر؟ اقرأ أيضًا.. جيسوس: أنا من صنعت الهلال.. ولن نتنازل عن الدوري جيسوس لم ينسَ طريقة رحيله عن الهلال السعودي قبل أكثر من عام، كما لم يتجاوز خسارته أ…",
-      "image": "https://assets.kooora.com/images/v3/getty-2273875203/crop/MM5DIOBSGY5DENZRGU5G433XMU5DAORSGUYQ====/GettyImages-2273875203.jpg",
-      "pubDate": "2026-05-12T02:56:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "7e4ba4d4f25710f7",
       "title": "Five things to watch in Asia as Trump prepares to meet China's Xi this week",
       "link": "https://www.cnbc.com/2026/05/12/tump-xi-china-summit-taiwan-iran-trade.html",
@@ -1021,70 +1341,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7a1e931b2ee44780",
-      "title": "‘The Mystery of Richard Simmons:’ Where to Watch the Diane Sawyer ABC Special Online Free",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/mystery-of-richard-simmons-watch-abc-special-online-free-1236592692/",
-      "summary": "The hour-long special seeks to reveal what happened when the late fitness guru vanished from the public eye, sparking years of speculation about his well-being.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T01:55:29.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "e1712f4e037417c4",
-      "title": "Trump puts Taiwan arms sales, Hong Kong jailed activist Lai on agenda ahead of meeting with Xi",
-      "link": "https://www.cnbc.com/2026/05/12/trump-xi-china-summit-taiwan-arms-sale-jimmy-lai-.html",
-      "summary": "Trump said Monday that U.S. arms sales to Taiwan and the imprisonment of Hong Kong media tycoon Jimmy Lai would be among the issues at the summit in Beijing.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T01:37:46.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e3278517110e57ab",
-      "title": "New AI Protections and a Merged Pension Plan: Inside SAG-AFTRA’s Four-Year Deal With Studios",
-      "link": "https://www.hollywoodreporter.com/business/business-news/sag-aftra-four-year-deal-studios-new-ai-protections-1236590891/",
-      "summary": "The agreement, reached May 2, also raises minimum rates by 3 percent annually and gives the union the right to bargain on behalf of choreographers.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T01:37:16.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4ee113c8839270bb",
-      "title": "Inside Gold Gala 2026: Jet Li, Priyanka Chopra Jonas, Charles Melton, Simu Liu Honored During Glitzy Celebration of API Changemakers",
-      "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/inside-gold-gala-2026-gold-house-awards-1236592556/",
-      "summary": "Olympic gold medalist Eileen Gu and Flex CEO Revathi Advaithi were also presented with awards at the downtown Los Angeles event that’s previously been dubbed “the Asian Met Gala.”",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-12T01:17:16.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -1392,22 +1648,6 @@
       "region": "global"
     },
     {
-      "id": "473f87855f455ac7",
-      "title": "ما عدا رونالدو.. صحفي مدريدي: مبابي أفضل من يامال وفينيسيوس ونجوم أوروبا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%B9%D8%AF%D8%A7-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%B5%D8%AD%D9%81%D9%8A-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D9%8A-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%85%D9%86-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%88%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7/blt2f36ee7d894925bb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تصريح مثير في قلب الأزمة",
-      "body": "تصريح مثير في قلب الأزمة أطلق الصحفي الإسباني إيدو أجيري تصريحات قوية ومثيرة للجدل دافع فيها بشراسة عن الفرنسي كيليان مبابي نجم ريال مدريد، وذلك عبر برنامج الشيرينجيتو الشهير. ويواصل أجيري دفاعه المستميت عن مبابي، رافضا كل الانتقادات الموجهة لنجم الميرنجي، رغم كل ما يثار عنه مؤخرا. وقال أجيري خلال النقاش: \"مبابي بالنسبة لي هو أفضل لاعب في العالم بعد كريستيانو رونالدو الذي يعد الأفضل في التاريخ. لا يزال (مبابي) يمتلك الإمكانيات ليكون الأفضل على الإطلاق\". اقرأ أيضا: مفاجأة.. أسطورة البرازيل يصدم أنشيلوتي بشأن مونديال 2026 وأضاف بحماس: \"مبابي يصنع الفارق وهو أفضل من لامين يامال، وأفضل من أوليسيه، وأفضل من كين، وأفضل من ديمبلي وفينيسيوس أيضا. عندما يكون في قمة مستواه لا يمكن مقارنته بأحد\". وأكد أجيري أن ريال مدريد لا يستطيع الاستغناء عن مبابي تحت أي ظرف \"ولو على سبيل المزاح\" معتبرا أن الفرنسي يبقى عنصرا أساسيا وغير قابل للاستبدال في مشروع النادي الملكي. وغالبا ما تقيم آراء أجيري على أنها جريئة ومثيرة للجدل. وقد جاءت هذه التصريحات خلال نقاش ساخن حول أداء مبابي مع ريال مدريد ومستقبله مع الفريق، وسط الانتقادات التي يتعرض لها اللاعب في الفترة الأخيرة. اقرأ أيضا: قرار جديد.. \"موقف معقد\" بين السعودية والسوبر الإيطالي اقرأ أيضا: رهان قاطع .. مبابي يخطط للهروب من إذلال جماهير البرنابيو وحظي ف…",
-      "image": null,
-      "pubDate": "2026-05-11T20:54:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "a8f5e2ca61a9a8f0",
       "title": "Microsoft fires head of Israeli subsidiary and other managers over surveillance of Palestinians",
       "link": "https://www.pcgamer.com/gaming-industry/microsoft-fires-head-of-israeli-subsidiary-and-other-managers-over-surveillance-of-palestinians/",
@@ -1454,22 +1694,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "a8a10266712460a2",
-      "title": "مفاجأة.. أسطورة البرازيل يصدم أنشيلوتي بشأن مونديال 2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84-%D9%8A%D8%B5%D8%AF%D9%85-%D8%A7%D9%94%D9%86%D8%B4%D9%8A%D9%84%D9%88%D8%AA%D9%8A-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-2026/blt25abb9264098b6ef?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"هذان المنتخبان الأكثر قوة.. وأنتظر ما ستفعله البرتغال\"",
-      "body": "\"هذان المنتخبان الأكثر قوة.. وأنتظر ما ستفعله البرتغال\" فجر النجم البرازيلي السابق جيلبرتو سيلفا مفاجأة مدوية قبل شهر واحد فقط من انطلاق كأس العالم 2026، عند سؤاله عن المرشحين للتتويج باللقب. وعن ذلك قال سيلفا، عضو لجنة الدراسات الفنية التقنية في الفيفا، في مقابلة جماعية افتراضية اليوم الاثنين: \"عندما ننظر إلى السنوات الأخيرة، أرى أن فرنسا قوية جدا. كذلك إسبانيا\". وتابع: \"أما بالنسبة للبرازيل، فأنا لست متأكدا بعد، بصراحة. هناك الكثير من الشائعات التي تحيط بالفريق، لكنني أتمنى أن ينجح كارلو أنشيلوتي في جمع كل القطع معا ليقدم مونديالا قويا\". وأضاف اللاعب السابق لآرسنال المتوج بكأس العالم 2002 مع البرازيل: \"لا أعتبر البرازيل المرشح الأوفر حظا، لكن في مرحلة ما قد يحدث انسجام بين اللاعبين وتتغير الأمور\". وأردف: \"أنا مهتم برؤية كيف سيتعامل البرتغاليون. لديهم لاعبون في بعض أفضل أندية أوروبا\"، مشيرا تحديدا إلى فيتينيا وجواو نيفيس من باريس سان جيرمان. اقرأ أيضا: قرار جديد.. \"موقف معقد\" بين السعودية والسوبر الإيطالي اقرأ أيضا: رهان قاطع .. مبابي يخطط للهروب من إذلال جماهير البرنابيو ويشارك جيلبرتو سيلفا كأحد أعضاء مجموعة الدراسات التقنية المكونة من 11 خبيرا في الفيفا، التي ستقوم بتحليل جميع الـ104 مباريات في كأس العالم 2026، تحت إشراف المدرب الأسطوري أرسين فينجر. وأعرب سيلفا عن أسفه لعدم وج…",
-      "image": null,
-      "pubDate": "2026-05-11T20:14:38.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "893c2841a01c46af",
@@ -1744,22 +1968,6 @@
       "region": "global"
     },
     {
-      "id": "8dc93a69339b0c5b",
-      "title": "Hantavirus cases spark brief surge in pharma and biotech stocks — here’s why trading is so volatile",
-      "link": "https://www.cnbc.com/2026/05/11/hantavirus-cases-pharma-stocks-surge-moderna-novavax.html",
-      "summary": "The outbreak of Hantavirus on a cruise ship has led to biotech and pharmaceutical stocks surging on reports of firms developing vaccines.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T16:29:52.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "bc179cbe484dfe4e",
       "title": "Spanish football star Gerard Piqué fined €200,000 for insider trading",
       "link": "https://www.ft.com/content/04d3de6d-7660-48ee-9b95-87a01db415d8",
@@ -1824,22 +2032,6 @@
       "region": "global"
     },
     {
-      "id": "1774bec055d2b5fc",
-      "title": "Michael Burry is not a believer: 'For any stocks going parabolic reduce positions almost entirely'",
-      "link": "https://www.cnbc.com/2026/05/11/michael-burry-is-not-a-believer-for-any-stocks-going-parabolic-reduce-positions-almost-entirely.html",
-      "summary": "Michael Burry said investors should \"reject greed\" as enthusiasm around artificial intelligence and momentum-driven trades pushes valuations sharply higher.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T16:08:00.000Z",
-      "source": {
-        "name": "CNBC — Markets",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "a1d8d7320d0cb99c",
       "title": "Duckett hits unbeaten 203 in Notts draw with Surrey",
       "link": "https://www.bbc.com/sport/cricket/articles/cvgz5y3v009o?at_medium=RSS&at_campaign=rss",
@@ -1850,6 +2042,22 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "081413ae758c23a1",
+      "title": "Cole Allen pleads not guilty to trying to assassinate Trump",
+      "link": "https://www.cnbc.com/2026/05/11/trump-cole-allen-whcd-pleads-not-guilty-assassination-attempt.html",
+      "summary": "Allen is accused of trying to kill Trump, transporting firearms interstate, discharging a firearm during an act of violence and assaulting law enforcement.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-11T16:01:39.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
       },
       "lang": "en",
       "category": "sports",
@@ -1872,8 +2080,8 @@
       "region": "global"
     },
     {
-      "id": "e3540efdb4fad9be",
-      "title": "What does future hold for Barcelona striker Rashford?",
+      "id": "b076b061cbcaf820",
+      "title": "What does future hold for Barcelona forward Rashford?",
       "link": "https://www.bbc.com/sport/football/articles/clypn3d2jd8o?at_medium=RSS&at_campaign=rss",
       "summary": "Marcus Rashford has an uncertain future despite the on-loan Manchester United forward scoring a brilliant free-kick for Barcelona in El Clasico.",
       "body": null,
@@ -1901,6 +2109,22 @@
       },
       "lang": "en",
       "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b1f23aea243edb28",
+      "title": "IRS may owe millions of taxpayers refunds for pandemic-era penalty relief. How to file a claim",
+      "link": "https://www.cnbc.com/2026/05/11/kwong-v-united-states-tax-refund-deadline.html",
+      "summary": "Millions of Americans could be eligible for pandemic-era tax refunds based on Kwong v. United States ruling. Here's the deadline and who qualifies.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-11T15:43:14.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -1965,38 +2189,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "8043254bc2cf24a9",
-      "title": "Bosnia's Dzeko to join list of World Cup 40-year-olds",
-      "link": "https://www.bbc.com/sport/football/articles/cx21n45qr1xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Manchester City striker Edin Dzeko is set to join exclusive list of players aged over 40 to play in a World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T15:28:51.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "e294f136b3161f6c",
-      "title": "Rugby legend Moore to hang up microphone after 26 years",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c98rwywp45go?at_medium=RSS&at_campaign=rss",
-      "summary": "Former England hooker Brian Moore will end his broadcast commentary career after working on England's Women's Six Nations decider against France on Sunday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T15:24:07.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2096,24 +2288,8 @@
       "region": "global"
     },
     {
-      "id": "d17d21edc2f8bc22",
-      "title": "Wong to have scan amid concerns before World Cup",
-      "link": "https://www.bbc.com/sport/cricket/articles/c99l409ylnmo?at_medium=RSS&at_campaign=rss",
-      "summary": "Bowler Issy Wong will have a scan on a hamstring issue as England seek clarity before making a decision on her fitness for the T20 World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T14:55:07.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "43b3ffbb4ff0240c",
-      "title": "'It breaks my heart' – legend Mead to leave Arsenal",
+      "id": "361b8cc36eac7772",
+      "title": "'It breaks my heart' - legend Mead to leave Arsenal",
       "link": "https://www.bbc.com/sport/football/articles/cm2p62jq70qo?at_medium=RSS&at_campaign=rss",
       "summary": "Beth Mead says it \"breaks her heart\" to leave Arsenal after it is announced the forward will depart the club at the end of the season.",
       "body": null,
@@ -2237,6 +2413,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f6b3ba503bafcbbd",
+      "title": "High gas prices are hurting restaurant sales — but not all chains",
+      "link": "https://www.cnbc.com/2026/05/11/gas-prices-hurt-restaurant-spending-at-dominos-applebees.html",
+      "summary": "Restaurant traffic fell 2.3% in March compared with the year-ago period, according to Black Box Intelligence.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-11T13:00:01.000Z",
+      "source": {
+        "name": "CNBC — Markets",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2544,38 +2736,6 @@
       "region": "global"
     },
     {
-      "id": "8359fea9bd25b7f1",
-      "title": "Will the ECB shift tack on the digital euro?",
-      "link": "https://www.ft.com/content/f466b87e-688e-42e9-9987-cc9d28257e2c",
-      "summary": "Central bank appears to be shifting its focus more to wholesale markets",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T04:00:20.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5679229c4e462e05",
-      "title": "Britain’s bridging loan woes rattle US private credit firms",
-      "link": "https://www.ft.com/content/32f419d5-293c-427b-bb2a-77d730775e0e",
-      "summary": "High-octane area of mortgage market under scrutiny following messy collapses",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-11T04:00:12.000Z",
-      "source": {
-        "name": "Financial Times — Markets",
-        "homepage": "https://www.ft.com/markets?format=rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5374ecc2b92dbd9a",
       "title": "If you've ever had your shoes stolen in Kingdom Come Deliverance 2, that was apparently PC Gamer's fault, sorry",
       "link": "https://www.pcgamer.com/games/rpg/if-youve-ever-had-your-shoes-stolen-in-kingdom-come-deliverance-2-that-was-apparently-pc-gamers-fault-sorry/",
@@ -2679,22 +2839,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-05-10T22:34:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0c397713681cef9b",
-      "title": "Familiar failings but calm Corteen-Coleman provides England optimism",
-      "link": "https://www.bbc.com/sport/cricket/articles/cdepdxprnyro?at_medium=RSS&at_campaign=rss",
-      "summary": "Debutant Tilly Corteen-Coleman and stand-in captain Charlie Dean provide optimism for England despite underwhelming win over New Zealand.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T20:33:02.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2928,22 +3072,6 @@
       "region": "global"
     },
     {
-      "id": "43d4177b523bf72f",
-      "title": "The Sims 3 review (2009)",
-      "link": "https://www.pcgamer.com/games/the-sims/the-sims-3-review-2009/",
-      "summary": "Love, work and kleptomania return in The Sims 3, Electronic Arts' enormous life-controlling sequel to the bestselling PC game of all time.",
-      "body": "The Sims 3 review - PC Gamer issue #202 (UK, July 2009) An exact replica of hte PC Gamer office. (Image credit: EA) My wedding was a disaster, beginning when one of the guests died during the party. We weren't close, but witnessing his ghost prompted a recurring wish to see more. Soon I was wandering the catacombs beneath the graveyard, getting emotionally scarred by zombie bears and emerging, smeared with dirt, in only my underpants. To make matters worse, I misunderstood the purpose of a 'Wedding Party'. It's not meant to celebrate the engagement, but to be the wedding itself. My guests left unhappy when no marriage took place, and both my fiancée and I felt guilty for missing our big day. Make no mistake. That 'I' is me—a smaller, virtual but no less hairy me. The Sims 3, like the previous games, is all about controlling people. All growed up Need to Know What is it? The second sequel in the series of life simulators that have sold over 100 million copies. Release date June 2, 2009 Expect to pay £35 / $50 in 2009 Developer The Sims Studio Publisher EA Play it on 2GHz Dual Core, 2GB RAM, 128MB 3D card Link The Sims 3 official site You begin by moulding their appearance (bearded,…",
-      "image": "https://cdn.mos.cms.futurecdn.net/WNxzmRFmzDW4sK72fWk4ni-1280-80.jpg",
-      "pubDate": "2026-05-10T15:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "d0ced661e56f4460",
       "title": "This artist 'brings hair to life' by painting video game scenes on the back of wigs, and yes, it really is as impressive as it sounds",
       "link": "https://www.pcgamer.com/games/this-artist-brings-hair-to-life-by-painting-video-game-scenes-on-the-back-of-wigs-and-yes-it-really-is-as-impressive-as-it-sounds/",
@@ -2960,6 +3088,22 @@
       "region": "global"
     },
     {
+      "id": "43d4177b523bf72f",
+      "title": "The Sims 3 review (2009)",
+      "link": "https://www.pcgamer.com/games/the-sims/the-sims-3-review-2009/",
+      "summary": "Love, work and kleptomania return in The Sims 3, Electronic Arts' enormous life-controlling sequel to the bestselling PC game of all time.",
+      "body": "The Sims 3 review - PC Gamer issue #202 (UK, July 2009) An exact replica of hte PC Gamer office. (Image credit: EA) My wedding was a disaster, beginning when one of the guests died during the party. We weren't close, but witnessing his ghost prompted a recurring wish to see more. Soon I was wandering the catacombs beneath the graveyard, getting emotionally scarred by zombie bears and emerging, smeared with dirt, in only my underpants. To make matters worse, I misunderstood the purpose of a 'Wedding Party'. It's not meant to celebrate the engagement, but to be the wedding itself. My guests left unhappy when no marriage took place, and both my fiancée and I felt guilty for missing our big day. Make no mistake. That 'I' is me—a smaller, virtual but no less hairy me. The Sims 3, like the previous games, is all about controlling people. All growed up Need to Know What is it? The second sequel in the series of life simulators that have sold over 100 million copies. Release date June 2, 2009 Expect to pay £35 / $50 in 2009 Developer The Sims Studio Publisher EA Play it on 2GHz Dual Core, 2GB RAM, 128MB 3D card Link The Sims 3 official site You begin by moulding their appearance (bearded,…",
+      "image": "https://cdn.mos.cms.futurecdn.net/WNxzmRFmzDW4sK72fWk4ni-1280-80.jpg",
+      "pubDate": "2026-05-10T15:00:00.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "cb920f19bf3ef4a6",
       "title": "No, Richard Dawkins, AI is bloody well not conscious",
       "link": "https://www.pcgamer.com/software/ai/no-richard-dawkins-ai-is-bloody-well-not-conscious/",
@@ -2973,22 +3117,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "056266f880cbc8f4",
-      "title": "England debutants claim maiden wickets against New Zealand",
-      "link": "https://www.bbc.com/sport/cricket/videos/c7v9713z953o?at_medium=RSS&at_campaign=rss",
-      "summary": "England debutants Tilly Corteen-Coleman, Jodi Grewcock and Dani Gibson each pick up a wicket against New Zealand during the first one-day international in Durham.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-10T13:44:34.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3152,38 +3280,6 @@
       "region": "global"
     },
     {
-      "id": "2b7fac5b2c085181",
-      "title": "Final Fantasy 14 player harnesses the power of furniture slots to make their in-game house look like Pragmata",
-      "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-player-harnesses-the-power-of-furniture-slots-to-make-their-in-game-house-look-like-pragmata/",
-      "summary": "\"Increased placement limit is the best!\"",
-      "body": "MMOs stop being games where you go kill mobs for XP and chase fat loot when you discover player housing. Once that bug nips you, they become 3D diorama creation software with a bunch of useless RPG crap tacked on for a few days, or maybe forever, depending on your capacity for rotating couches. I've never been so lost in the sauce that I've recreated entire zones from other games inside an MMO's player housing feature, but then again, I'm just not built for this like X user Miya Shikhu. しばらく別ゲーやってましたが、FF14に戻ってきました新作ハウジング『PRAGMATA:シェルター』つくったエバーキープ系家具最高！設置数増加最高！SF近未来Capcomさん最高！Dianaマジかわゆす😍#FF14ハウジング #FF14 #PRAGMATA © SQUARE ENIX pic.twitter.com/geQ5bq6BEE May 6, 2026 Shikhu shared their latest creation in a post on X Wednesday, and it's an uncannily good recreation of the shelter from hack 'em up third person shooter Pragmata . If you haven't played that game, the shelter is a hub you return to between checkpoints to upgrade your stats and equip new build items. It's got a sleek, futuristic aesthetic and walls of computer screens, all of which have been approximated using Final Fantasy 14's housing props. \"I was playing a different game for a while, but I've come back to FF14,\" sai…",
-      "image": "https://cdn.mos.cms.futurecdn.net/xheNdKqPRSV9D65SL9BNZW-1280-80.jpg",
-      "pubDate": "2026-05-09T22:23:07.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2405a44c29a96dde",
-      "title": "Man City beat stubborn Brentford to keep title race alive",
-      "link": "https://www.bbc.com/sport/football/videos/c4g57xk140go?at_medium=RSS&at_campaign=rss",
-      "summary": "Goals from Jeremy Doku, Erling Haaland and Omar Marmoush help Manchester City beat Brentford 3-0 at the Etihad Stadium to secure a vital win in the Premier League title race, as City move two points behind leaders Arsenal with three games remaining.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-09T19:20:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f33f1a11d0d23a3f",
       "title": "Running 100 marathons in 100 days, having never run 18 months before",
       "link": "https://www.bbc.com/sport/articles/c4gxjg35jj4o?at_medium=RSS&at_campaign=rss",
@@ -3303,6 +3399,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-02-20T10:50:45.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "6e74e0038788f5fe",
+      "title": "Archibald makes golden return as GB win team pursuit",
+      "link": "https://www.bbc.com/sport/cycling/videos/ce8ve5vr280o?at_medium=RSS&at_campaign=rss",
+      "summary": "Katie Archibald's triumphant return from injury helps Team GB defeat Germany by seven seconds to comfortably retain the Women's Team Pursuit title at the Track Cycling World Championships in Copenhagen, Denmark.",
+      "body": null,
+      "image": null,
+      "pubDate": "2024-10-17T20:03:53.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
