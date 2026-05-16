@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-05-16T14:48:40.542Z",
-    "total": 367,
+    "generated_at": "2026-05-16T15:43:38.046Z",
+    "total": 364,
     "processed_feeds": 25,
     "discovered_feeds": 85,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "Engadget",
         "url": "https://www.engadget.com/category/news/feed/",
@@ -32,6 +19,32 @@
         ],
         "taken": 19,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 62,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
         "notModified": false
       },
       {
@@ -48,42 +61,16 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 47,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bdefault/id/258c2b92-94d3-4d77-a36e-12f508a88659",
-        "homepage": "https://www.espn.com/",
-        "lang": "en",
-        "region": "global",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -96,20 +83,7 @@
           "general"
         ],
         "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: Invalid character in entity name\nLine: 96\nColumn: 26\nChar:  ",
         "notModified": false
       },
       {
@@ -126,15 +100,15 @@
         "notModified": false
       },
       {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
         "cats": [
-          "general"
+          "lifestyle"
         ],
-        "taken": 48,
+        "taken": 100,
         "error": null,
         "notModified": false
       },
@@ -152,16 +126,42 @@
         "notModified": false
       },
       {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
+        "taken": 48,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 47,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya Technology",
+        "url": "https://www.alarabiya.net/tools/mrss",
+        "homepage": "https://www.alarabiya.net/technology",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "technology"
+        ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -175,45 +175,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -256,35 +217,22 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "gulf",
+        "region": "mena",
         "cats": [
-          "lifestyle"
+          "sports"
         ],
-        "taken": 100,
+        "taken": 20,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Unexpected close tag\nLine: 6\nColumn: 88\nChar: >",
-        "notModified": false
-      },
-      {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -295,9 +243,35 @@
         "notModified": false
       },
       {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "NOAA Climate.gov — News",
         "url": "https://www.climate.gov/feeds/all/rss.xml",
         "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -318,6 +292,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -353,6 +353,86 @@
       "region": "global"
     },
     {
+      "id": "b996c2b9df3d3e33",
+      "title": "أسعار الفواكه تلهب الأسواق المغربية",
+      "link": "https://assabah.ma/924833.html",
+      "summary": "تشهد أسواق الفواكه موجة غلاء لافتة خلال الأسابيع الأخيرة، أثارت استياء واسعا لدى المواطنين، خاصة من ذوي الدخل المحدود والمتوسط، الذين باتوا يجدون صعوبة في التوفيق بين متطلبات المعيشة اليومية وقدرتهم الشرائية. وخلال جولة ميدانية قامت بها “الصباح” بسيدي معروف بالبيضاء، رصدت زيادات متفاوتة في أسعار عد…",
+      "body": "تشهد أسواق الفواكه موجة غلاء لافتة خلال الأسابيع الأخيرة، أثارت استياء واسعا لدى المواطنين، خاصة من ذوي الدخل المحدود والمتوسط، الذين باتوا يجدون صعوبة في التوفيق بين متطلبات المعيشة اليومية وقدرتهم الشرائية. وخلال جولة ميدانية قامت بها &#8220;الصباح&#8221; بسيدي معروف بالبيضاء، رصدت زيادات متفاوتة في أسعار عدد أكمل القراءة &raquo; المقالة أسعار الفواكه تلهب الأسواق المغربية fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-05-16T15:30:28.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "2db6471ab0d53d8e",
+      "title": "Ulster want to 'salvage' season in Challenge Cup final",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c9q3np4355jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ulster's Nick Timoney says that his side will \"make sure nothing is left unturned\" in preparing for their Challenge Cup final against Montpellier.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-16T15:01:59.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "962e90951cc4fbab",
+      "title": "8-year-old African American boy from Colonial Maryland found buried with white Colonists, and it's unclear if he was enslaved",
+      "link": "https://www.livescience.com/archaeology/americas/8-year-old-african-american-boy-from-colonial-maryland-found-buried-with-white-colonists-and-its-unclear-if-he-was-enslaved",
+      "summary": "A 17th-century cemetery from Colonial Maryland held the remains of an 8-year-old boy with majority African ancestry, as well as two indentured servants.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/KJe8VpBP6dNq62M6J8LnM-1280-80.png",
+      "pubDate": "2026-05-16T15:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "4d33e8b192cb9645",
+      "title": "Arsenal clinch second spot in WSL with win at Liverpool",
+      "link": "https://www.bbc.com/sport/football/videos/cwy23jmx1wvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Russo scores twice as Arsenal beat Liverpool to finish second in the WSL clinching an automatic spot in the Women's Champions League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-16T14:57:45.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b06c98f9c1b9227c",
+      "title": "أمن كلميم يخلد الذكرى الـ70 لتأسيس المديرية العامة للأمن الوطني",
+      "link": "https://assabah.ma/925002.html",
+      "summary": "أحيت أسرة الأمن الوطني، اليوم (السبت)، بكلميم ذكرى تأسيس المديرية العامة للأمن الوطني السبعين، وذلك خلال حفل رسمي أقيم بمقر ثكنة الوحدة المتنقلة لحفظ النظام، تميز بمراسم رفع العلم الوطني. وشهد الحدث حضورا بارزا لمحمد الناجم أبهاي، والي جهة كلميم-وادنون وعامل الإقليم، رفقة العديد من الشخصيات القضائي…",
+      "body": "أحيت أسرة الأمن الوطني، اليوم (السبت)، بكلميم ذكرى تأسيس المديرية العامة للأمن الوطني السبعين، وذلك خلال حفل رسمي أقيم بمقر ثكنة الوحدة المتنقلة لحفظ النظام، تميز بمراسم رفع العلم الوطني. وشهد الحدث حضورا بارزا لمحمد الناجم أبهاي، والي جهة كلميم-وادنون وعامل الإقليم، رفقة العديد من الشخصيات القضائية، أكمل القراءة &raquo; المقالة أمن كلميم يخلد الذكرى الـ70 لتأسيس المديرية العامة للأمن الوطني fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-05-16T14:48:49.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "1d45314f2f099662",
       "title": "English takes stunning 800m win at Diamond League event",
       "link": "https://www.bbc.com/sport/athletics/articles/cy520xlqv30o?at_medium=RSS&at_campaign=rss",
@@ -369,6 +449,22 @@
       "region": "global"
     },
     {
+      "id": "99ab6f7e2386a8c3",
+      "title": "Celtic lift Premiership trophy after incredible ending",
+      "link": "https://www.bbc.com/sport/football/videos/c86d463p29eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Watch Celtic lift the Scottish Premiership trophy for the fifth season in a row, denying Hearts on an astonishing final day.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-16T14:35:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "1fafb3c911663d4f",
       "title": "Kerr equals record in final game as Chelsea beat Man Utd",
       "link": "https://www.bbc.com/sport/football/videos/cy42dled47yo?at_medium=RSS&at_campaign=rss",
@@ -376,6 +472,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-05-16T14:30:21.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a9737c467d07a35f",
+      "title": "Bush overcomes 'sleepless nights' to win Euro gold",
+      "link": "https://www.bbc.com/sport/taekwondo/articles/cjdpy7j97j7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Matt Bush says he will continue to rise to the challenges he faces in Para-taekwondo after winning European gold for Great Britain two months after the birth of his second child.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-16T14:30:05.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -433,6 +545,54 @@
       "region": "global"
     },
     {
+      "id": "32661518158bfef6",
+      "title": "بعد 20 عاما.. هاري كين يجرد أسطورة بايرن من رقمه القياسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-20-%D8%B9%D8%A7%D9%85%D8%A7-%D9%87%D8%A7%D8%B1%D9%8A-%D9%83%D9%8A%D9%86-%D9%8A%D8%AC%D8%B1%D8%AF-%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%86-%D8%B1%D9%82%D9%85%D9%87-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%B3%D9%8A/blt173f3d537a4e5ba8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "موسم استثنائي للنجم الإنجليزي",
+      "body": "موسم استثنائي للنجم الإنجليزي في موسم استثنائي لبايرن ميونخ، يعزز المهاجم الإنجليزي هاري كين أداءه المميز ومكانته كأحد أبرز المهاجمين في أوروبا. وتألق هاري كين كالعادة وسجل هاتريك اليوم السبت ضد كولن في الجولة 34 الخاتمة لمنافسات الدوري الألماني 2025-2026. وجاءت ثلاثية قائد المنتخب الإنجليزي ضد كولن في الدقائق 9 و12 و68، علما بأن الشوط الأول انتهى بتقدم البافاريين 3-0 بعدما سجل توم بيشوف الهدف الثالث في الدقيقة 21، ثم سجل نيكولاس جاكسون في الدقيقة 82 لينتهي اللقاء بفوز بايرن 5-1. ويبرز من بين إحصائيات كين هذا الموسم قدرته على التسجيل من خارج منطقة الجزاء. اقرأ أيضا: أجواء سامة.. صراع مغربي سنغالي يمزق مارسيليا اقرأ أيضا: مفاجأة.. ليفاندوفسكي يفتح الباب للعروض السعودية ووفقا لإحصائيات سكواوكا \"كسر هاري كين رقما عمره نحو 20 عاما كان مسجلا باسم النجم السابق مايكل بالاك\". وأوضحت: \"أحرز كين 6 أهداف من خارج الصندوق في الدوري الألماني (في موسم واحد)، ليخطف الرقم القياسي الذي كان بحوزة الأسطورة مايكل بالاك الذي سجل 5 أهداف في موسم 2005-2006 مع بايرن ميونخ\". ويُعرف كين بقوته في التصويب من مسافات بعيدة، وباستغلال المساحات خارج الصندوق، فضلا عن تميزه في ضربات الرأس، وهو ما أضاف تنوعا واضحا لأسلوب بايرن الهجومي منذ قدومه. وكان بايرن ميونخ قد حسم لقب الدوري الألماني قبل نهاية المسابقة بـ4 جولا…",
+      "image": null,
+      "pubDate": "2026-05-16T13:38:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ffca43eaf084f6d6",
+      "title": "تهميش مستمر.. هل يتلقى النصيري صدمة جديدة في الاتحاد؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%87%D9%85%D9%8A%D8%B4-%D9%85%D8%B3%D8%AA%D9%85%D8%B1-%D9%87%D9%84-%D9%8A%D8%AA%D9%84%D9%82%D9%89-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%B1%D9%8A-%D8%B5%D8%AF%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF/blt75028e850d2a2e6c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المهاجم المغربي يعيش فترة صعبة",
+      "body": "المهاجم المغربي يعيش فترة صعبة يعيش المهاجم المغربي يوسف النصيري، فترة صعبة داخل صفوف نادي الاتحاد السعودي، بعد تهميشه من قبل مدربه البرتغالي سيرجيو كونسيساو. وكان كونسيساو قد قرر استبعاد النصيري في الجولة الماضية أمام الاتفاق، بقرار فني مفاجئ للجميع، ورغم ذلك تمكن الاتحاد من تحقيق الفوز 3-1. وأشارت صحيفة \"الرياضية\" السعودية إلى أن كونسيساو، قد يستبعد النصيري مرة أخرى من قائمة الفريق لمواجهة الشباب، المقرر إقامتها، غدًا الأحد، والمؤجلة من الجولة 28 من دوري روشن للمحترفين. اقرأ أيضًا.. صراع الأشقاء.. هل يتسبب النصيري في رحيل حمد الله عن الشباب؟ وأوضحت أن كونسيساو يدرس أكثر من خيار قبل اتخاذ القرار النهائي، حيث تركز المفاضلة حاليًا بين يوسف النصيري والفرنسي جورج ألينيخيا، بعد أن تم استبعاد الثنائي من مواجهة الاتفاق الماضية لأسباب فنية تتعلق باختيار القائمة الأجنبية. ومن المقرر أن يحسم يوسف النصيري موقفه من الاستمرار مع الاتحاد عقب نهاية الموسم، بعدما فشل في تقديم أوراق اعتماده، غير أن اللاعب تلقى عدة عروض من أندية دوري روشن.",
+      "image": null,
+      "pubDate": "2026-05-16T13:34:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e04113f6b440207f",
+      "title": "بدون بنزيما والدوسري.. الهلال يواجه نيوم بخط هجوم جديد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%AF%D9%88%D9%86-%D8%A8%D9%86%D8%B2%D9%8A%D9%85%D8%A7-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D8%B3%D8%B1%D9%8A-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D9%86%D9%8A%D9%88%D9%85-%D8%A8%D8%AE%D8%B7-%D9%87%D8%AC%D9%88%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF/bltfb99b5ba75eb5941?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"الزعيم\" يخوض مباراة لا بديل فيها عن الفوز",
+      "body": "\"الزعيم\" يخوض مباراة لا بديل فيها عن الفوز اضطر الإيطالي سيموني إنزاجي، المدير الفني لفريق الهلال، للاعتماد على خط هجوم جديد خلال مواجهة نيوم في دوري روشن، بسبب غياب نجميه؛ الفرنسي كريم بنزيما والسعودي سالم الدوسري. الهلال يستضيف نيوم، اليوم السبت، على ملعب المملكة أرينا، في الجولة الثالثة والثلاثين وقبل الأخيرة من دوري روشن. وتشهد المباراة غياب بنزيما وسالم الدوسري ، حيث يعاني المهاجم الفرنسي من إصابة في العضلة الضامة، بينما يعاني \"التورنيدو\" من آلام في الركبة. وقرر إنزاجي الاعتماد على البرازيلي ماركوس ليوناردو والسعودي سلطان مندش في خط الهجوم، بدلًا من الثنائي المُصاب، في ظل مشاركة البرازيلي الآخر مالكوم كلاعب وسط أيمن كما حدث في الجولات الأخيرة. في المقابل، واصل المدرب الإيطالي الاعتماد على نفس التشكيلة التي واجهت النصر في الجولة الماضية، في المباراة التي انتهت بالتعادل الإيجابي 1-1. وجاء تشكيل الهلال على النحو التالي: حراسة المرمى: ياسين بونو خط الدفاع: متعب الحربي - روبين نيفيز - حسان تمبكتي خط الوسط: مالكوم - محمد كنو - سيرجي ميلينكوفيتش سافيتش - ناصر الدوسري - ثيو هيرنانديز خط الهجوم: ماركوس ليوناردو - سلطان مندش ويتحتم على الهلال الفوز من أجل الحفاظ على آماله في التتويج بالدوري السعودي حتى الجولة الأخيرة، حيث يحتل المركز الثاني برصيد 78 نقطة، بفارق 5 نقاط خلف النصر صاحب ال…",
+      "image": null,
+      "pubDate": "2026-05-16T13:34:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "8c307347fe8f8125",
       "title": "بنيزيد يحرز فضية 3000 متر موانع في بطولة إفريقيا لألعاب القوى",
       "link": "https://assabah.ma/924987.html",
@@ -465,6 +625,118 @@
       "region": "global"
     },
     {
+      "id": "088843ecd683994f",
+      "title": "مورينيو لا يعجبه سلوك مبابي.. ويشترط على ريال مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D9%84%D8%A7-%D9%8A%D8%B9%D8%AC%D8%A8%D9%87-%D8%B3%D9%84%D9%88%D9%83-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%8A%D8%B4%D8%AA%D8%B1%D8%B7-%D8%B9%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/bltf46d72f604d954f2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تصرفات النجم الفرنسي أثارت الكثير من الغبار مؤخرًا",
+      "body": "تصرفات النجم الفرنسي أثارت الكثير من الغبار مؤخرًا يستعد ريال مدريد لإحداث ثورة داخلية شاملة، هذا الصيف، ويبرز في واجهة المشهد اسم المدرب البرتغالي، جوزيه مورينيو، كخيار رئيسي لقيادة المرحلة المقبلة. لكن بحسب إذاعة \"كادينا سير\" الإسبانية، لن يقبل مورينيو مهمة تدريب ريال مدريد إلا إذا امتلك سلطة مطلقة داخل المشروع، حيث يجب أن تكون لديه صلاحيات كاملة ليقرر أي اللاعبين سيشاركونه \"المعركة\"، وأي لاعب لا يلتزم معه حتى النهاية سيتم استبعاده. اقرأ أيضًا بالفيديو.. رئيس وزراء إسبانيا للمعارضة: ادعموا يامال ضد نتنياهو في بيان رسمي.. نجم ريال مدريد ينفي صلته بانفصال فينيسيوس عن صديقته وأضافت الإذاعة أن مورينيو \"شخص يطالب بالعمل والانضباط، وسلوك كيليان مبابي خلال هذه الأسابيع لم يُعجبه إطلاقاً\". {\"type\":\"power-rankings-carousel\",\"data\":{}} وتابعت: \"في المقابل، فإن ريال مدريد يتمسك الآن بشخصية مورينيو، وخبرته، وقيادته، من أجل محاولة تغيير مسار المشروع بالكامل\". وكان مبابي قد دخل مؤخرًا في أزمة مع مدربه ألفارو أربيلوا، بعدما وضعه على مقاعد البدلاء أمام ريال أوفييدو في الليجا، كما تعرض النجم الفرنسي لانتقادات واسعة من جماهير النادي الملكي، بسبب سفره المتكرر في وقت حساس من الموسم.",
+      "image": null,
+      "pubDate": "2026-05-16T13:21:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "22e3cd1bcdc765d1",
+      "title": "صلاح يعترف: جماهير ليفربول لا تستحق هذا الانهيار",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D8%B9%D8%AA%D8%B1%D9%81-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%84%D8%A7-%D8%AA%D8%B3%D8%AA%D8%AD%D9%82-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%A7%D9%86%D9%87%D9%8A%D8%A7%D8%B1/blt28ed6bb165b45fe8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أريد عودة ليفربول لأسلوبه الهجومي الذي يرعب الخصوم",
+      "body": "أريد عودة ليفربول لأسلوبه الهجومي الذي يرعب الخصوم أطلق النجم المصري محمد صلاح، نجم ليفربول، رسالة نارية، بعد الخسارة القاسية التي تعرض لها فريقه أمام أستون فيلا. وخسر ليفربول بنتيجة 2-4 أمام أستون فيلا، أمس الجمعة، في الجولة 37 من عمر الدوري الإنجليزي الممتاز، وشارك صلاح كبديل في الدقيقة 74. وكتب صلاح، عبر حسابه على موقع إكس \"لقد شهدت هذا النادي، وهو يتحول من فريق تحاصره الشكوك، إلى فريق يؤمن بقدراته، ثم إلى بطل يعرف طريق التتويج\". وأضاف \"الرحلة لم تكن سهلة، بل احتاجت إلى عمل وتضحيات كبيرة، وكنت دائمًا أقدّم كل ما لدي من أجل مساعدة الفريق، على الوصول إلى هذه المكانة\". وأوضح صلاح \"انهيارنا مجددًا بهزيمة أخرى هذا الموسم، كان أمرًا مؤلمًا، جماهيرنا لا تستحق ذلك. أريد أن أرى ليفربول وهو يعود لأسلوبه الهجومي القوي الذي يرعب الخصوم، كما يعود لحصد الألقاب\". ونوه \"الفوز ببعض المباريات هنا وهناك، ليس ما يجب أن يكون عليه ليفربول. جميع الفرق تفوز بالمباريات.. سيظل ليفربول دائمًا ناديًا يعني الكثير لي ولعائلتي. أريد أن أراه ينجح حتى بعد وقت طويل من رحيلي\". وأتم \"كما قلت دائمًا، فإن التأهل إلى دوري أبطال أوروبا الموسم المقبل، هو الحد الأدنى، وسأفعل كل ما بوسعي لتحقيق ذلك\".&nbsp; I have witnessed this club go from doubters to believers, and from believers to champions. It took hard work and I …",
+      "image": null,
+      "pubDate": "2026-05-16T13:20:01.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "8d4165ec26128dbc",
+      "title": "ضربة موجعة.. الاتحاد يكشف تفاصيل إصابة بيرجوين الصادمة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D9%88%D8%AC%D8%B9%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%8A%D9%83%D8%B4%D9%81-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%95%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D9%8A%D8%B1%D8%AC%D9%88%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D8%A7%D8%AF%D9%85%D8%A9/blt5cb157f9324ce1fa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صدمة جديدة تصعق العميد",
+      "body": "صدمة جديدة تصعق العميد تلقى فريق الاتحاد، ضربة موجعة، بعدما كشف تفاصيل إصابة الهولندي ستيفن بيرجوين، جناح الفريق، والتي تعرض لها في مواجهة الاتفاق، التي فاز فيها \"العميد\"، بنتيجة (3-1)، ضمن الجولة 33 من دوري روشن. وخرج بيرجوين في الشوط الأول، متأثرًا من إصابة على مستوى الركبة، بعد تدخل مع أحد لاعبي الاتفاق، وهو ما تسبب في ضربة موجعة لخطط المدرب البرتغالي سيرجيو كونسيساو. وبحسب بيان طبي نشره نادي الاتحاد قبل قليل، فإن بيرجوين تعرض للإصابة في الرباط الجانبي الأوسط للركبة اليمنى، ليتأكد غيابه عن آخر مباراتين في دوري روشن. اقرأ أيضًا.. تهميش مستمر.. هل يتلقى النصيري صدمة جديدة في الاتحاد؟ وأكد الاتحاد عبر حسابه الرسمي بمنصة \"إكس\" للتواصل الاجتماعي، أن بيرجوين بدأ بالفعل برنامجه التأهيلي من أجل العودة سريعًا إلى الملاعب. وسيغيب بيرجوين أمام كل من الشباب، غدًا الأحد، ولن يلعب ضد القادسية، يوم الخميس الموافق 21 من الشهر الجاري.",
+      "image": null,
+      "pubDate": "2026-05-16T13:16:28.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "896d8b4d3910231d",
+      "title": "تأهبًا للنهائي الأوروبي.. بيان رسمي من سان جيرمان عن حكيمي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%A7%D9%94%D9%87%D8%A8%D9%8B%D8%A7-%D9%84%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%A8%D9%8A%D8%A7%D9%86-%D8%B1%D8%B3%D9%85%D9%8A-%D9%85%D9%86-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D8%B9%D9%86-%D8%AD%D9%83%D9%8A%D9%85%D9%8A/bltd737a876c8c5ae67?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "دفعة خماسية للفريق الباريسي",
+      "body": "دفعة خماسية للفريق الباريسي أصدر نادي باريس سان جيرمان، اليوم السبت، بياناً طبياً بشأن حالات لاعبيه المصابين، قبل مواجهة باريس إف سي غداً، ضمن منافسات الجولة 34 والأخيرة من موسم 2025-2026 في الدوري الفرنسي. وأعلن بطل الدوري أن 5 من لاعبيه قد استأنفوا التدريبات الفردية، وهم المدافعان ويليان باتشو ونونو مينديز، والمهاجم كوينتين نجانتو، والظهير أشرف حكيمي، بالإضافة إلى حارس المرمى لوكاس شوفالييه. اقرأ أيضًا بالفيديو.. رئيس وزراء إسبانيا للمعارضة: ادعموا يامال ضد نتنياهو في بيان رسمي.. نجم ريال مدريد ينفي صلته بانفصال فينيسيوس عن صديقته وبدأ هؤلاء الخمسة العمل بشكل فردي على أرض الملعب، وهو ما يُعتبر خطوة إيجابية في بروتوكول تعافيهم. {\"type\":\"power-rankings-carousel\",\"data\":{}} ولم يفصح النادي بعد عن وضع باقي اللاعبين المصابين، أو الموجودين في مرحلة التعافي، ومن المتوقع أن يصدر تحديثات إضافية خلال الساعات أو الأيام المقبلة. ويتأهب سان جيرمان حاليا لخوض نهائي دوري أبطال أوروبا أمام آرسنال الإنجليزي، يوم 30 مايو/آيار الجاري، في العاصمة المجرية بودابست.",
+      "image": null,
+      "pubDate": "2026-05-16T13:03:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7cb4e409b1c64e36",
+      "title": "رئيس ضمك يهدد النصر: سنخدم الهلال في جولة الحسم!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%B6%D9%85%D9%83-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%B3%D9%86%D8%AE%D8%AF%D9%85-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%81%D9%8A-%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%85/blt08d4b10a53cbafdd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تصريحات مثيرة للجدل",
+      "body": "تصريحات مثيرة للجدل أثار خالد آل مشعط، رئيس نادي ضمك، حالة من الجدل، بسبب تصريحاته الغريبة، بشأن رغبته في تعطيل النصر من أجل إهداء الهلال لقب دوري روشن للمحترفين. ويشهد الموسم الحالي منافسة شرسة بين النصر والهلال، إذ يتصدر \"العالمي\" جدول ترتيب دوري روشن، برصيد 83 نقطة، متفوقًا على \"الزعيم\" بفارق 5 نقاط. ويحتاج الهلال لتحقيق الفوز في آخر مباراتين له بشرط تعثر النصر أمام ضمك، من أجل التتويج باللقب، فيما يتطلع \"العالمي\" للفوز فقط أمام \"فارس الجنوب\" دون النظر لأي نتائج. اقرأ أيضًا.. برقم كارثي.. بينتو يدخل تاريخ الديربي من الباب الخلفي وقال رئيس ضمك في تصريحات عبر شبكة \"ثمانية\" السعودية: \"يمكن لنا أن نغير بوصلة الدوري بخدمة الهلال، حال نجحنا في إسقاط النصر خلال جولة الحسم، فنتيجة هذه المباراة تهمنا وتمثل أهمية كبرى لثنائي الرياض\". وأضاف: \"سنقاتل أمام النصر من أجل البقاء والحفاظ على حظوظنا، وهذا الأمر سيسعد الهلال بدون أدنى، ولكن ما يهمنا هو مصلحتنا في المقام الأول\". واختتم: \"مباراة النصر لن تكون سهلة، لأن الخصم يحتاج هو الآخر لتحقيق الانتصار من أجل التتويج رسميًا بلقب الدوري\".",
+      "image": null,
+      "pubDate": "2026-05-16T12:57:42.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "efa2bff0acde8299",
+      "title": "مشكلة \"الأنا\".. ثنائية مبابي وفينيسيوس تصل إلى مرحلة حساسة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%86%D8%A7-%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D8%AA%D8%B5%D9%84-%D8%A7%D9%95%D9%84%D9%89-%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%AD%D8%B3%D8%A7%D8%B3%D8%A9/blt4751d5d92fef6cdf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يمر نادي ريال مدريد، بفترة معقدة للغاية، بعد خروجه بلا ألقاب، للموسم الثاني على التوالي.",
+      "body": "يمر نادي ريال مدريد، بفترة معقدة للغاية، بعد خروجه بلا ألقاب، للموسم الثاني على التوالي. ونشرت صحيفة \"سبورت\"، تصريحات الصحفي روبرتو جوميز، عبر إذاعة راديو ماركا، حيث أكد أن الملكي يمر بلحظة حاسمة، وأن الإدارة ستكون مطالبة باتخاذ إجراءات مهمة لتجنب حدوث توترات داخل غرفة الملابس. وأوضح جوميز أن الوضع بين فينيسيوس جونيور وكيليان مبابي، وصل إلى مرحلة حساسة. ويرى روبرتو جوميز، أن وجود لاعبين بهذا الثقل الإعلامي والفني، قد ينتهي بصدام داخل المشروع الرياضي نفسه. وفي رأيه، سيكون على فلورنتينو بيريز رئيس الريال، إدارة مشكلة \"الأنا\" والقيادة داخل الفريق بعناية، للحفاظ على الاستقرار التنافسي.&nbsp; اقرأ أيضًا صفقة كبرى.. رحيل ليفاندوفسكي يخدم خطة برشلونة مبابي أظهر قيادة وشخصية قوية وقال روبرتو جوميز \"لقد حان الوقت، بعد انتهاء العملية الانتخابية، أن يقرر فلورنتينو بيريز، من سيستمر في ريال مدريد، مبابي أم فينيسيوس\". كما سلط جوميز، الضوء بشكل خاص على شخصية مبابي، معتبرًا أن المهاجم الفرنسي أظهر قيادة وشخصية قوية في تصريحاته العلنية الأخيرة. وأشاد أيضًا بالثقة التي أظهرها اللاعب أمام وسائل الإعلام، مؤكدًا أن تصريحاته تعكس نضجًا داخل غرفة ملابس ريال مدريد. وقال خلال النقاش \"ما فعله بيريز من أجل قدوم مبابي، لم يفعله مع أي لاعب آخر\". كما نوه أن الرهان المؤسسي والرياضي على مبابي، يوضح مدى أهميته با…",
+      "image": "https://assets.kooora.com/images/v3/getty-2244343855/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORQ/GettyImages-2244343855.jpg",
+      "pubDate": "2026-05-16T12:54:42.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "d5afd48af4307881",
+      "title": "في غياب الهلال.. الغموض يحاصر مصير كأس السوبر السعودي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%BA%D9%85%D9%88%D8%B6-%D9%8A%D8%AD%D8%A7%D8%B5%D8%B1-%D9%85%D8%B5%D9%8A%D8%B1-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A/bltf1f61451666d3f5e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"الزعيم\" يغيب عن النسخة المقبلة من البطولة",
+      "body": "\"الزعيم\" يغيب عن النسخة المقبلة من البطولة تسيطر حالة من الغموض على مصير النسخة المقبلة من بطولة كأس السوبر السعودي، في ظل غياب نادي الهلال عنها. ويغيب الهلال عن النسخة المقبلة من بطولة كأس السوبر السعودي ، على خلفية اعتذاره عن عدم المشاركة في النسخة الماضية التي أقيمت في هونج كونج، بسبب مشاركته في كأس العالم للأندية 2025. وقالت صحيفة \"الرياضية\" السعودية إن الاتحاد السعودي لكرة القدم لم يحسم حتى الآن الدولة التي ستستضيف بطولة كأس السوبر مطلع الموسم المقبل، في ظل وجود عدة عروض. وأوضحت الصحيفة أن الاتحاد الكويتي لكرة القدم تقدم بعرض رسمي بالفعل من أجل استضافة البطولة، غير أنه لم تتم الموافقة عليه بشكل رسمي حتى الآن. وكان وفد من الاتحاد السعودي لكرة القدم، يضم 10 أعضاء، قد خاض جولة تفقدية، يوم الإثنين الماضي، لتفقد منشآت رياضية وفندقية في الكويت، للوقوف على جاهزيتها لاستضافة البطولة. يُذكر أن النسخة المقبلة من بطولة كأس السوبر السعودي ستشهد مشاركة أندية النصر والأهلي والقادسية والخلود، وكان \"الراقي\" هو بطل النسخة الأخيرة في أغسطس/آب الماضي.",
+      "image": null,
+      "pubDate": "2026-05-16T12:52:33.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "825f4de7d631127f",
       "title": "أسرة الأمن الوطني بمراكش تخلد الذكرى الـ70 لتأسيس المديرية العامة للأمن الوطني",
       "link": "https://assabah.ma/924995.html",
@@ -479,22 +751,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "ffca43eaf084f6d6",
-      "title": "تهميش مستمر.. هل يتلقى النصيري صدمة جديدة في الاتحاد؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D9%87%D9%85%D9%8A%D8%B4-%D9%85%D8%B3%D8%AA%D9%85%D8%B1-%D9%87%D9%84-%D9%8A%D8%AA%D9%84%D9%82%D9%89-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%B1%D9%8A-%D8%B5%D8%AF%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF/blt75028e850d2a2e6c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المهاجم المغربي يعيش فترة صعبة",
-      "body": "المهاجم المغربي يعيش فترة صعبة يعيش المهاجم المغربي يوسف النصيري، فترة صعبة داخل صفوف نادي الاتحاد السعودي، بعد تهميشه من قبل مدربه البرتغالي سيرجيو كونسيساو. وكان كونسيساو قد قرر استبعاد النصيري في الجولة الماضية أمام الاتفاق، بقرار فني مفاجئ للجميع، ورغم ذلك تمكن الاتحاد من تحقيق الفوز 3-1. وأشارت صحيفة \"الرياضية\" السعودية إلى أن كونسيساو، قد يستبعد النصيري مرة أخرى من قائمة الفريق لمواجهة الشباب، المقرر إقامتها، غدًا الأحد، والمؤجلة من الجولة 28 من دوري روشن للمحترفين. اقرأ أيضًا.. صراع الأشقاء.. هل يتسبب النصيري في رحيل حمد الله عن الشباب؟ وأوضحت أن كونسيساو يدرس أكثر من خيار قبل اتخاذ القرار النهائي، حيث تركز المفاضلة حاليًا بين يوسف النصيري والفرنسي جورج ألينيخيا، بعد أن تم استبعاد الثنائي من مواجهة الاتفاق الماضية لأسباب فنية تتعلق باختيار القائمة الأجنبية. ومن المقرر أن يحسم يوسف النصيري موقفه من الاستمرار مع الاتحاد عقب نهاية الموسم، بعدما فشل في تقديم أوراق اعتماده، غير أن اللاعب تلقى عدة عروض من أندية دوري روشن.",
-      "image": null,
-      "pubDate": "2026-05-16T12:32:37.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "345817685a73da3d",
@@ -769,22 +1025,6 @@
       "region": "global"
     },
     {
-      "id": "0c74fb71d670b8f2",
-      "title": "تحديد صفقة مورينيو الأولى في مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF-%D8%B5%D9%81%D9%82%D8%A9-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84%D9%89-%D9%81%D9%8A-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt99ffe39b6f4123e2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مهاجم يوافق المواصفات التي يطلبها البرتغالي",
-      "body": "مهاجم يوافق المواصفات التي يطلبها البرتغالي في ظل صيف حافل بالتغييرات المرتقبة في ريال مدريد، يبرز اسم إندريك كأول صفقة عائدة إلى صفوف الفريق الملكي، بعد موسم استثنائي قضاه معارًا في أولمبيك ليون الفرنسي. أرقام استثنائية في فرنسا نجح المهاجم البرازيلي الشاب في استغلال فترة إعارته بشكل مثالي، حيث خاض 20 مباراة فقط مع النادي الفرنسي، لكنه ترك بصمة واضحة بتسجيله 8 أهداف وصناعته 8 تمريرات حاسمة، ليساهم بشكل مباشر في 16 هدفًا. والأبرز من ذلك، أن إندريك احتل المركز الثالث في قائمة هدافي ليون رغم مشاركته في نصف عدد المباريات التي لعبها زملاؤه المنافسون، ما يعكس كفاءته التهديفية العالية وقدرته على التأثير في وقت محدود. قناعة مدريدية بالعودة وتسود في أروقة النادي الملكي قناعة تامة بأن الموسم المقبل يجب أن يشهد عودة إندريك إلى فالديبيباس بشكل نهائي، مع توقعات بأن يكون عنصرًا أساسياً في خطط المدرب الجديد، خاصة مع التطور الملحوظ الذي أظهره خلال الأشهر الماضية. وحصل اللاعب البرازيلي على دقائق لعب أكثر في ليون، وشارك أساسيًا في مباريات عديدة، وأثبت أنه قادر على تقديم الكثير أمام مرمى الخصوم، ما يجعله جاهزاً للمنافسة على مركز أساسي في التشكيلة الملكية. المهاجم الذي يبحث عنه مورينيو ومع تصاعد الحديث عن احتمالية تولي جوزيه مورينيو تدريب ريال مدريد، رغم عدم وجود تأكيد رسمي حتى الآن، يبدو أن إندريك …",
-      "image": null,
-      "pubDate": "2026-05-16T11:01:49.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "6eeb9214dcb38c01",
       "title": "Old Oil and Gas Wells Could Find Second Life Producing Clean Energy",
       "link": "https://www.wired.com/story/oil-wells-second-life-clean-energy/",
@@ -817,22 +1057,6 @@
       "region": "global"
     },
     {
-      "id": "495f653e49f7b3d1",
-      "title": "\"الإشارات واضحة\".. برناردو سيلفا يلمح إلى ناديه الجديد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%95%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D8%B6%D8%AD%D8%A9-%D8%A8%D8%B1%D9%86%D8%A7%D8%B1%D8%AF%D9%88-%D8%B3%D9%8A%D9%84%D9%81%D8%A7-%D9%8A%D9%84%D9%85%D8%AD-%D8%A7%D9%95%D9%84%D9%89-%D9%86%D8%A7%D8%AF%D9%8A%D9%87-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF/blt8f684ac1298371a5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اللاعب رفض عروضا سعودية وأمريكية",
-      "body": "اللاعب رفض عروضا سعودية وأمريكية في تصريحات صريحة كشف من خلالها عن خططه المستقبلية، أكد برناردو سيلفا، لاعب وسط مانشستر سيتي، أنه يرغب في حسم مستقبله قبل انطلاق كأس العالم 2026، مع تلميحات واضحة لرغبته في الانتقال إلى برشلونة. \"عائلتي أولوية\" وقال البرتغالي في مقابلة مطولة مع صحيفة \"ذا أثلتيك\": \"أبحث عن فريق يمكنني فيه مواصلة المنافسة، وأن ألعب على أعلى مستوى، وهذا ما ما زلت أرغب في فعله، وأن تكون عائلتي سعيدة\". وأضاف: \"أريد أن تكون عائلتي سعيدة. هذا أمر مهم جدًا في حياتي. ابنتي ستبلغ الثالثة من عمرها، وزوجتي حامل مجددًا، لذا سنرزق بطفلنا الثاني في أكتوبر. لدي فكرة وتفضيل معين بخصوص فريقي المقبل، لكننا سنرى ما الذي سيحدث\". وكشف برناردو أنه حدد موعدًا واضحًا لحسم مستقبله، قائلاً: \"لقد قلت لوكيلي إنني سأتحدث معه يوم 25 مايو، أي في اليوم التالي للمباراة ضد أستون فيلا\". الإشارات واضحة وعندما سُئل مباشرة عن اهتمام برشلونة به، تهرب برناردو من الإجابة الصريحة قائلاً: \"برشلونة؟ لا أريد التحدث عن الأسماء. بصراحة، لا أعلم أين سأكون. أريد فقط الاستمتاع والتركيز على مبارياتي الأخيرة هنا\". وبحسب صحيفة \"سبورت\"، فإن تصريحاته حول رغبته في إسعاد عائلته، وإشارته إلى أن جزءًا من عائلته يقيم بالفعل في برشلونة، وأنها مدينة يزورها كثيرًا، تؤكد أن النادي الكتالوني هو وجهته المفضلة. استعداد لتخفيض الراتب…",
-      "image": null,
-      "pubDate": "2026-05-16T10:58:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "8de01e1719f7b291",
       "title": "Microsoft lets Insiders choose their Windows 11 Start menu size",
       "link": "https://www.engadget.com/2174306/microsoft-insider-windows-11-start-menu-size-taskbar/",
@@ -847,70 +1071,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "27abc8d326e68170",
-      "title": "فليك: لا أريد استمرار ليفاندوفسكي.. ورحيله جيد لبرشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D9%84%D8%A7-%D8%A7%D9%94%D8%B1%D9%8A%D8%AF-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AF%D9%88%D9%81%D8%B3%D9%83%D9%8A-%D9%88%D8%B1%D8%AD%D9%8A%D9%84%D9%87-%D8%AC%D9%8A%D8%AF-%D9%84%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/blt59251d2eff9e6895?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "غموض كبير حول البديل",
-      "body": "غموض كبير حول البديل أشاد هانز فليك، مدرب برشلونة، بمسيرة البولندي روبرت ليفاندوفسكي عقب إعلان رحيله عن البارسا. وقال فليك، خلال المؤتمر الصحفي قبل مواجهة ريال بيتيس بالليجا: \"الحديث مع ليفاندوفسكي سار بشكل جيد، لقد حققت كل ألقابي معه، وكان من دواعي سروري وشرف لي أن أعمل معه. إنه محترف بشكل لا يصدق، وكان دائما في أعلى مستوى ويعتني بجسده جيدا، ولن أنسى ذلك أبدا\". وأضاف: \"ليفا نموذج يحتذى به للاعبين الشباب. أعتقد أن هذا القرار جيد له، وربما للنادي أيضا لأننا سنعيد هيكلة الفريق بهذه الطريقة. نعم، لقد تحدثنا، وقام بإبلاغ القرار للجميع داخل غرفة الملابس، ونحن نعلم جميعا جودته كلاعب\". وسئل فليك \"هل كنتَ تتمنى استمرار ليفاندوفسكي لسنة أخرى؟\".. وأجاب: \"لا.. لقد اتُخذ القرار بالفعل\". وواصل: \"سيبدأ ليفا غداً لأنه يستحق ذلك. لا أعرف ما سيحدث الموسم المقبل. سندرس سوق الانتقالات، لكن لم يتم حسم أمر البديل بعد. لدينا متسع من الوقت. لن يكون من السهل إيجاد لاعب بهذا المستوى. لقد قلت ذلك من قبل. إنه رجل رائع، ومحترف مذهل. سنفتقده، لكننا سنتدبر الأمر\". واستمر: \"إذا فزنا غدا سنحقق شيئا تاريخيا، إذ لم يسبق لأي فريق أن فاز بجميع مبارياته على أرضه في الليجا. تحتاج دائما إلى أهداف وهذا أحدها. أعلم أننا نلعب ضد فريق رائع ومستقر خلال المواسم الأخيرة، ولن تكون المباراة سهلة، لكننا نمر بحالة معنوية جيدة\". و…",
-      "image": null,
-      "pubDate": "2026-05-16T10:21:26.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0d85965702b33636",
-      "title": "ما القنوات الناقلة لمباراة إشبيلية وريال مدريد في الدوري الإسباني 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D8%B4%D8%A8%D9%8A%D9%84%D9%8A%D8%A9-%D9%88%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt1f62ab4dadf4b787?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة إشبيلية وريال مدريد في الدوري الإسباني 2025-2026، وكيف تشاهدها عبر الإنترنت؟",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة إشبيلية وريال مدريد في الدوري الإسباني 2025-2026، وكيف تشاهدها عبر الإنترنت؟ يستضيف ملعب \"رامون سانشيز بيزخوان\" مواجهة مرتقبة تجمع بين إشبيلية وريال مدريد، ضمن منافسات الجولة السابعة والثلاثين من بطولة الدوري الإسباني 2025-2026. ويدخل ريال مدريد اللقاء بعد موسم مخيب للآمال، خرج خلاله دون تحقيق أي بطولة، في واحدة من أكثر الفترات صعوبة على الفريق خلال السنوات الأخيرة، رغم امتلاكه مجموعة كبيرة من النجوم. ويحتل النادي الملكي المركز الثاني في جدول الترتيب برصيد 80 نقطة. في المقابل، عاش إشبيلية موسمًا معقدًا ومليئًا بالتقلبات، إذ وجد نفسه قريبًا من مناطق الهبوط في فترات مختلفة من الموسم، قبل أن يحسن نتائجه تدريجيًا. ويأمل الفريق الأندلسي في تحقيق نتيجة إيجابية تمنحه مزيدًا من الاستقرار وتبعده نهائيًا عن حسابات الخطر، حيث يحتل المركز الثاني عشر برصيد 43 نقطة. ويرصد \"كووورة\" في السطور التالية، القنوات الناقلة لمباراة إشبيلية وريال مدريد في الدوري الإسباني 2025-2026 وطرق المشاهدة عبر الإنترنت .. ما القنوات الناقلة لمباراة إشبيلية وريال مدريد في الدوري الإسباني 2025-2026؟&nbsp; يمكن مشاهدة مباراة إشبيلية وريال مدريد في الدوري الإسباني 2025-2026 عن طريق قنوات بي إن سبورتس. وخصصت الشبكة قناة beIN SPORTS 2 لبث المواجهة المرتقبة في الدوري الإسباني. ك…",
-      "image": null,
-      "pubDate": "2026-05-16T10:21:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "2e55473485a98cc0",
-      "title": "صورة: قناة مجانية تعلن إذاعة نهائي دوري أبطال أفريقيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%88%D8%B1%D8%A9-%D9%82%D9%86%D8%A7%D8%A9-%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%95%D8%B0%D8%A7%D8%B9%D8%A9-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/blt3ea07fb78a79c10d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "خبر سار للجماهير الأفريقية",
-      "body": "خبر سار للجماهير الأفريقية في سابقة تعكس تصاعد الاهتمام الأوروبي بالكرة الأفريقية، أعلنت شبكة \"تشانل 4\" البريطانية عن نقلها المباشر والمجاني لمباراتي نهائي دوري أبطال أفريقيا 2025-2026، في خطوة تأتي امتداداً للنجاح الجماهيري الاستثنائي الذي حققته القناة خلال تغطيتها لكأس الأمم الأفريقية الماضية. نهائي بنكهة تاريخية وبحسب ما نشرته صحيفة \"ذا صن\" البريطانية، ستبث القناة مواجهتي الذهاب والإياب بين عملاق جنوب أفريقيا ماميلودي صن داونز ونظيره المغربي الجيش الملكي، عبر منصاتها المجانية وقناتها الرياضية على يوتيوب. وتنطلق مباراة الذهاب مساء غد الأحد على ملعب لوفتوس فيرسفيلد في بريتوريا، فيما يُحسم اللقب الأفريقي الأغلى في مباراة الإياب يوم 24 مايو الجاري على أرض الملعب الأميري بالرباط. شراكة حصرية مع الكاف وأكدت \"تشانل 4\" في بيان رسمي حصولها على الحقوق الحصرية لبث النهائي بموجب اتفاق مع شركة \"آي إم جي\"، الذراع الإعلامية والتسويقية للاتحاد الأفريقي لكرة القدم (كاف)، ما يتيح للجمهور البريطاني متابعة القمة الأفريقية دون أي رسوم اشتراك. Channel 4 secures shock Champions League broadcast deal to air showdown for FREE https://t.co/wVzBG3X401 &mdash; The Sun Football ⚽ (@TheSunFootball) May 15, 2026 صن داونز يطارد الحلم.. والجيش يبحث عن الفداء ويخوض ماميلودي صن داونز النهائي ساعياً لإحراز لقبه ا…",
-      "image": null,
-      "pubDate": "2026-05-16T10:19:19.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "fa69b576b087b180",
-      "title": "\"هل يرحل لاعبون آخرون بعد ليفاندوفسكي؟\".. فليك يجيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D8%B1%D8%AD%D9%84-%D9%84%D8%A7%D8%B9%D8%A8%D9%88%D9%86-%D8%A7%D9%93%D8%AE%D8%B1%D9%88%D9%86-%D8%A8%D8%B9%D8%AF-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AF%D9%88%D9%81%D8%B3%D9%83%D9%8A-%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%AC%D9%8A%D8%A8/blt14e522f7e1fe6761?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مؤتمر صحفي حافل",
-      "body": "مؤتمر صحفي حافل في تصريحات مؤثرة عشية المباراة الأخيرة للموسم على ملعب كامب نو، ودّع هانزي فليك، المدير الفني لبرشلونة، المهاجم البولندي روبرت ليفاندوفسكي، بينما ترك الباب مفتوحًا أمام بقاء المدافع الدنماركي أندرياس كريستنسن. لا أعتقد أن هناك وداعات أخرى وعندما سُئل فليك عما إذا كان هناك لاعبون آخرون سيغادرون النادي الكتالوني هذا الصيف، أجاب بحذر: \"لا أعتقد أن تكون هناك وداعات أخرى. في عالم كرة القدم لا يمكن أبدًا معرفة ما سيحدث، لكنني لا أعتقد ذلك\". ورفض المدرب الألماني الخوض كثيرًا في قضايا المستقبل، مبررًا ذلك بأن الموسم لم ينتهِ بعد، لكنه تحدث بوضوح عن موقف كريستنسن. كريستنسن سيشارك غداً الأحد وكشف فليك أن المدافع الدنماركي سيحصل على دقائق لعب في مباراة الغد الأحد، فيما قد يكون آخر ظهور له بقميص برشلونة على أرض كامب نو إذا قرر عدم تجديد عقده. وقال: \"الخطة هي منحه دقائق غدًا. كنا نريد أن يلعب أمام ألافيس لكننا غيّرنا رأينا. هذه المرة أعتقد أنه سيكون من الممكن بالفعل منحه فرصة للمشاركة\". عرض بنصف الراتب.. والقرار بيد اللاعب ويواجه كريستنسن قرارًا صعبًا بشأن مستقبله مع النادي الكتالوني؛ حيث يملك عرضًا لتجديد عقده مع تخفيض راتبه إلى النصف، ولم يمنح بعد رده النهائي للإدارة. كان خوان لابورتا، رئيس برشلونة، قد وعد اللاعب بتجديد العقد عندما تأكد أنه سيخضع لعملية جراحية ويغيب عن جزء كب…",
-      "image": null,
-      "pubDate": "2026-05-16T10:13:11.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "fd1932da33a4e66c",
@@ -945,22 +1105,6 @@
       "region": "global"
     },
     {
-      "id": "78fd6683da7e9dcb",
-      "title": "After Struggling With EVs, US Automakers Pivot to Energy",
-      "link": "https://www.wired.com/story/after-struggling-with-evs-us-automakers-pivot-to-energy/",
-      "summary": "Ford and GM are backing away from electric vehicles and moving into the battery storage business. And it all comes back to AI.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-16T10:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "a9da76d1e9523581",
       "title": "Newly discovered, blue-whale-size asteroid will fly super close to Earth Monday — and you can watch it live",
       "link": "https://www.livescience.com/space/asteroids/asteroid-2026-jh2",
@@ -977,36 +1121,20 @@
       "region": "global"
     },
     {
-      "id": "60d4b31cf8f7fb9b",
-      "title": "ما القنوات الناقلة لمباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D8%B1%D9%8A%D8%A7%D9%84-%D8%A8%D9%8A%D8%AA%D9%8A%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2025-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt9b5d311f0d00c2da?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على القنوات الناقلة لمباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026 وكيف تشاهدها عبر الإنترنت",
-      "body": "تعرف على القنوات الناقلة لمباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026 وكيف تشاهدها عبر الإنترنت يحتضن ملعب سبوتيفاي كامب نو مواجهة مرتقبة تجمع بين برشلونة وريال بيتيس، ضمن منافسات الجولة السابعة والثلاثين من بطولة الدوري الإسباني لموسم 2025-2026. وحسم برشلونة لقب الليجا رسميًا، محققًا البطولة التاسعة والعشرين في تاريخه، حيث يتصدر جدول الترتيب برصيد 91 نقطة. في المقابل، يخوض ريال بيتيس المواجهة وهو يحتل المركز الخامس في جدول ترتيب الدوري الإسباني برصيد 57 نقطة. وفي السطور التالية، يستعرض \"كووورة\" القنوات الناقلة لمباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026، وكيف تتابعها عبر الإنترنت. ما القنوات الناقلة لمباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026؟ تمتلك شبكة بي إن سبورتس حق بث مباريات الدوري الإسباني بشكل حصري، لذا يمكنك مشاهدة مباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026، عبر شاشتها. وخصصت الشبكة قناة beIN Sports 2 &nbsp; لإذاعة المباراة المرتقبة بتعليق عربي. كيف تشاهد مباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026&nbsp;عبر الإنترنت؟ يمكن مشاهدة مباراة برشلونة وريال بيتيس في الدوري الإسباني 2025-2026 عبر الإنترنت، وذلك عبر تطبيق \"TOD\" أو beIN Connect. شاهد البث المباشر في أي مكان بالعالم باستخدام Nord VPN اشترك الآن! من معلق …",
+      "id": "78fd6683da7e9dcb",
+      "title": "After Struggling With EVs, US Automakers Pivot to Energy",
+      "link": "https://www.wired.com/story/after-struggling-with-evs-us-automakers-pivot-to-energy/",
+      "summary": "Ford and GM are backing away from electric vehicles and moving into the battery storage business. And it all comes back to AI.",
+      "body": null,
       "image": null,
-      "pubDate": "2026-05-16T09:56:26.000Z",
+      "pubDate": "2026-05-16T10:00:00.000Z",
       "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "4b5c18a2721d4ede",
-      "title": "أسطورة ريال مدريد: المنافقون هم مشكلة بيريز الأكبر.. وبرشلونة متفوق علينا!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D9%82%D9%88%D9%86-%D9%87%D9%85-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A8%D9%8A%D8%B1%D9%8A%D8%B2-%D8%A7%D9%84%D8%A7%D9%94%D9%83%D8%A8%D8%B1-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%85%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%8A%D9%86%D8%A7/blt551162706f038ad8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"قضية نيجريرا\" لا تحجب حقيقة عجزنا التكتيكي",
-      "body": "\"قضية نيجريرا\" لا تحجب حقيقة عجزنا التكتيكي تحت عنوان: \"القوة لا تحتاج إلى ميكروفون\"، خطّ أسطورة ريال مدريد وعقله المفكر، خورخي فالدانو، مقالاً في صحيفة \"إل باييس\" الإسبانية، ليثبت مجدداً أنه أحد أصدق، وأعقل، وأهم الأصوات في الفضاء المدريدي. فالدانو في هذا المقال لم يكن مجرد ناقد، لكنه كان بمثابة \"مرآة الحقيقة\" التي تواجه النادي ورئيسه التاريخي فلورنتينو بيريز بلا إفراط في المديح، ولا تفريط في التقدير، مقدمًا تشريحًا هادئًا لـ\"علامات الضعف\" التي بدأت تظهر على هرم السلطة الملكية. إرث لا يحتاج إلى برهنة وعرض القوة \"المربك\" يبدأ فالدانو مقاله باعتراف صريح وجلي بالثورة التنظيمية والاقتصادية والرياضية التي قادها بيريز منذ تسلمه النادي قبل 26 عامًا، مؤكدًا أن حجم الاعتراف العالمي الذي يحظى به ريال مدريد اليوم، والبنية التحتية، والألقاب، كلها حقائق راسخة سيتكفل التاريخ بحفظها، ولن تحتاج من بيريز إلى أي جهد لإثباتها. ومن هذا المنطلق العقلاني، يرى فالدانو أن خروج بيريز الأخير أمام الميكروفونات غاضبًا ومنددًا بالشائعات التي طالت صحته، وإعلانه المفاجئ عن انتخابات مبكرة رغم تبقي 3 سنوات في ولايته، كان \"ظهورًا غير ضروري وعلامة ضعف مربكة\". وحلل فالدانو عقلية \"المدريديستا\" ليؤكد لبيريز أن أصوات أعضاء النادي مضمونة له بالكامل، بل إن القلق الحقيقي الذي يساور جماهير مدريد هو: \"من يمتلك القدرة على خ…",
-      "image": "https://assets.kooora.com/images/v3/getty-2275291854/crop/MM5DIMBUHA5DEMRXG45G433XMU5DKMBXHI2TANY=/GettyImages-2275291854.jpg",
-      "pubDate": "2026-05-16T09:43:17.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "3e0dcec898451e5b",
@@ -1025,22 +1153,6 @@
       "region": "global"
     },
     {
-      "id": "53645768dc0906e1",
-      "title": "الركراكي وبلماضي في فريق واحد.. عرض فرنسي غير مسبوق!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%83%D8%B1%D8%A7%D9%83%D9%8A-%D9%88%D8%A8%D9%84%D9%85%D8%A7%D8%B6%D9%8A-%D9%81%D9%8A-%D9%81%D8%B1%D9%8A%D9%82-%D9%88%D8%A7%D8%AD%D8%AF-%D8%B9%D8%B1%D8%B6-%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%A8%D9%88%D9%82/blt79fc80dd74aa460d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل تكتمل الصفقة؟",
-      "body": "هل تكتمل الصفقة؟ كشفت صحيفة \"ليكيب\" الفرنسية، مساء الجمعة، عن كواليس المفاوضات التي خاضتها إذاعة \"RMC \" الرياضية في محاولة لتعزيز طاقمها الإعلامي استعدادًا لتغطية كأس العالم 2026 التي ستُقام في الولايات المتحدة وكندا والمكسيك. طموح كبير.. وأسماء استثنائية وبحسب الصحيفة الرياضية الأبرز في فرنسا، فإن إذاعة \" RMC\"، التي تسعى دائمًا لتقديم تغطية مميزة للأحداث الكبرى، حاولت بجدية التعاقد مع اثنين من أبرز المدربين في العالم العربي للعمل كـمحللين فنيين ومستشارين تكتيكيين ضمن فريق التغطية الخاص بالمونديال. الاسمان اللذان استهدفتهما الإذاعة الفرنسية هما، جمال بلماضي، المدرب الجزائري السابق للمنتخب الوطني، وبطل كأس أمم أفريقيا 2019، ووليد الركراكي، المدرب المغربي الذي قاد أسود الأطلس إلى نصف نهائي كأس العالم 2022 في قطر، محققاً إنجازًا تاريخيًا غير مسبوق. وإلى جانب هذين الاسمين الكبيرين، كانت RMC قد نجحت بالفعل في التعاقد مع صامويل أومتيتي، المدافع الدولي الفرنسي السابق، للانضمام إلى طاقم المحللين. المفاوضات تصطدم بعقبات لكن رغم الجهود المبذولة، أوضحت \"ليكيب\" أن المحاولات لم تُكلل بالنجاح، على الأقل حتى الآن، دون أن تكشف الصحيفة عن الأسباب التفصيلية وراء فشل المفاوضات، سواء كانت مالية أو تتعلق بالتزامات مهنية أخرى للمدربين. الحلم لا يزال قائماً.. وبلماضي على الرادار ورغم هذه العقبات، أكدت ا…",
-      "image": null,
-      "pubDate": "2026-05-16T09:30:07.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "9080cc0abe25b28a",
       "title": "Some Asexuals Are Using AI Companions for Intimacy Without the Sex",
       "link": "https://www.wired.com/story/some-asexual-people-are-using-ai-companions-for-intimacy-without-the-sex/",
@@ -1054,22 +1166,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "12c62d3cb4b12afe",
-      "title": "Monaghan must take Armagh down the stretch - McManus",
-      "link": "https://www.bbc.com/sport/articles/clyp3yn06zlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Monaghan legend and BBC pundit Conor McManus outlines what Monaghan must do to upset free-scoring Armagh in Sunday's Ulster SFC final at Clones.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-16T09:17:26.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1089,22 +1185,6 @@
       "region": "global"
     },
     {
-      "id": "692e6aba1508667f",
-      "title": "Asteroid 2026 JH2 Is About to Fly Right Past Earth—Relatively Speaking",
-      "link": "https://www.wired.com/story/asteroid-2026-jh2-is-about-to-fly-right-past-the-earth-relatively-speaking/",
-      "summary": "On May 18, an asteroid about the size of Chicago’s Cloud Gate will fly four times closer to Earth than the moon.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-16T09:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "fb12feecafbef98b",
       "title": "Can people catch infections from plants?",
       "link": "https://www.livescience.com/health/can-people-catch-infections-from-plants",
@@ -1118,6 +1198,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "692e6aba1508667f",
+      "title": "Asteroid 2026 JH2 Is About to Fly Right Past Earth—Relatively Speaking",
+      "link": "https://www.wired.com/story/asteroid-2026-jh2-is-about-to-fly-right-past-the-earth-relatively-speaking/",
+      "summary": "On May 18, an asteroid about the size of Chicago’s Cloud Gate will fly four times closer to Earth than the moon.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-16T09:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "science",
       "region": "global"
     },
     {
@@ -1326,38 +1422,6 @@
       },
       "lang": "en",
       "category": "lifestyle",
-      "region": "global"
-    },
-    {
-      "id": "8f1eaba34640bbe7",
-      "title": "اغتيال مدينة",
-      "link": "https://assabah.ma/924854.html",
-      "summary": "في زحمة الأيام والاكتظاظ وعوادم السيارات والاختناق الطرقي والأعصاب، وكثير من الضغط النفسي بمدينة “غول” مثل البيضاء، قلما ننتبه إلى أهمية البيئة ومحورية الفضاءات الخضراء والمنتزهات والحدائق، التي يعتبرها عدد كبير من السكان ترفا وبذخا زائدين، وسط لائحة طويلة من “الضروريات والأساسيات”. عند شعوب وثقافا…",
-      "body": "في زحمة الأيام والاكتظاظ وعوادم السيارات والاختناق الطرقي والأعصاب، وكثير من الضغط النفسي بمدينة &#8220;غول&#8221; مثل البيضاء، قلما ننتبه إلى أهمية البيئة ومحورية الفضاءات الخضراء والمنتزهات والحدائق، التي يعتبرها عدد كبير من السكان ترفا وبذخا زائدين، وسط لائحة طويلة من &#8220;الضروريات والأساسيات&#8221;. عند شعوب وثقافات أخرى، تأتي أكمل القراءة &raquo; المقالة اغتيال مدينة fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-05-16T05:48:33.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "861a11d4afeaea4e",
-      "title": "صدى الثقافة على أطلال معرض الكتاب",
-      "link": "https://assabah.ma/924714.html",
-      "summary": "​أسدل الستار على فعاليات المعرض الدولي للنشر والكتاب، في دورته الواحدة والثلاثين، وعادت الثقافة تنبش وتنقب في بقايا أثره، تبحث لسؤالها الموجع عن جواب، ليبقى صوتها رجع صدى تتقاذفه أطلال المعرض. عدد العارضين كما عدد الزوار وكما عدد المبيع من الكتب، وكما الندوات الأدبية والفكرية والعلمية التيأكمل القر…",
-      "body": "​أسدل الستار على فعاليات المعرض الدولي للنشر والكتاب، في دورته الواحدة والثلاثين، وعادت الثقافة تنبش وتنقب في بقايا أثره، تبحث لسؤالها الموجع عن جواب، ليبقى صوتها رجع صدى تتقاذفه أطلال المعرض. عدد العارضين كما عدد الزوار وكما عدد المبيع من الكتب، وكما الندوات الأدبية والفكرية والعلمية التي أكمل القراءة &raquo; المقالة صدى الثقافة على أطلال معرض الكتاب fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-05-16T05:47:48.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "science",
       "region": "global"
     },
     {
@@ -1681,22 +1745,6 @@
       "region": "global"
     },
     {
-      "id": "fd98f125ac71e62a",
-      "title": "Resurgent Wigan deny Leeds top spot",
-      "link": "https://www.bbc.com/sport/rugby-league/articles/c809dykgkn0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Wigan put the brakes on in-form Leeds Rhinos to deny them the chance to go top of the table with a dominant 24-4 victory at the Brick Community Stadium.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-15T21:35:50.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "b1d63e838923536b",
       "title": "Guardiola insists he has 'one more year' on Man City deal",
       "link": "https://www.bbc.com/sport/articles/c794vqvll7eo?at_medium=RSS&at_campaign=rss",
@@ -1742,22 +1790,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "837a5a2fdeeda0a1",
-      "title": "Connacht dispatch Edinburgh to reach URC play-offs",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/ckgp66jlreeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Connacht seal a place in the United Rugby Championship play-offs with a bonus-point victory away to Edinburgh.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-15T20:56:41.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1870,22 +1902,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "720ec1a086cc483d",
-      "title": "Kohli will skip World Cup if he has to prove worth",
-      "link": "https://www.bbc.com/sport/cricket/articles/cgep22j7rdlo?at_medium=RSS&at_campaign=rss",
-      "summary": "India's Virat Kohli says he will not play in the 2027 Cricket World Cup if he needs to prove his worth to the team.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-15T17:18:34.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2049,22 +2065,6 @@
       "region": "global"
     },
     {
-      "id": "48d8269b570952da",
-      "title": "Companies Keep Slashing Employees’ Benefits for the Worst Reasons",
-      "link": "https://www.wired.com/story/companies-keep-slashing-employees-benefits-for-the-worst-reasons/",
-      "summary": "Workers are getting worse health care, parental leave, and retirement benefits, showing once and for all that your job doesn’t love you back.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-15T15:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "8f77dbaffefaace5",
       "title": "This Kitchen Tool Cuts My Cooking Prep Time In Half—Here’s How To Use It",
       "link": "https://www.delish.com/kitchen-tools/kitchen-secrets/a71219917/how-to-safely-use-a-mandoline/",
@@ -2091,6 +2091,22 @@
       "source": {
         "name": "Live Science",
         "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "48d8269b570952da",
+      "title": "Companies Keep Slashing Employees’ Benefits for the Worst Reasons",
+      "link": "https://www.wired.com/story/companies-keep-slashing-employees-benefits-for-the-worst-reasons/",
+      "summary": "Workers are getting worse health care, parental leave, and retirement benefits, showing once and for all that your job doesn’t love you back.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-15T15:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "technology",
@@ -2225,22 +2241,6 @@
       "region": "global"
     },
     {
-      "id": "ea0e82d121b1e529",
-      "title": "Withings ScanWatch 2 review: A stunningly elegant, health-focused ECG smartwatch",
-      "link": "https://www.livescience.com/products/health-fitness/withings-scanwatch-2-review",
-      "summary": "This hybrid smartwatch is everything your regular fitness tracker is not, and we absolutely love it for that. It is not without its faults, though.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/Tt9cdGAmuiyMMu6VjQU8QT-1280-80.jpg",
-      "pubDate": "2026-05-15T12:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "bbfb968840219742",
       "title": "Don Juan Pond: Antarctica's salty, syrupy lake that never freezes, even when it's minus 58 F",
       "link": "https://www.livescience.com/planet-earth/antarctica/don-juan-pond-antarcticas-salty-syrupy-lake-that-never-freezes-even-when-its-minus-58-f",
@@ -2254,6 +2254,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ea0e82d121b1e529",
+      "title": "Withings ScanWatch 2 review: A stunningly elegant, health-focused ECG smartwatch",
+      "link": "https://www.livescience.com/products/health-fitness/withings-scanwatch-2-review",
+      "summary": "This hybrid smartwatch is everything your regular fitness tracker is not, and we absolutely love it for that. It is not without its faults, though.",
+      "body": null,
+      "image": "https://cdn.mos.cms.futurecdn.net/Tt9cdGAmuiyMMu6VjQU8QT-1280-80.jpg",
+      "pubDate": "2026-05-15T12:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "health",
       "region": "global"
     },
     {
@@ -2369,22 +2385,6 @@
       "region": "global"
     },
     {
-      "id": "74cdbfb2f83a9b49",
-      "title": "A Woman Was in the US Legally. She Was Deported Anyway",
-      "link": "https://www.wired.com/story/a-woman-was-in-the-us-legally-she-was-deported-anyways/",
-      "summary": "María de Jesús Estrada Juárez was applying for her green card and thought she was doing everything right. Instead, she was arrested and deported to Mexico.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-15T10:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "128514d6ec5242f2",
       "title": "'I heard gasps' and 'oh my God': Artemis II astronauts reveal inside story of their mind-bending solar eclipse",
       "link": "https://www.livescience.com/space/space-exploration/i-heard-gasps-and-oh-my-god-artemis-ii-astronauts-reveal-inside-story-of-their-mind-bending-solar-eclipse",
@@ -2398,6 +2398,22 @@
       },
       "lang": "en",
       "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "74cdbfb2f83a9b49",
+      "title": "A Woman Was in the US Legally. She Was Deported Anyway",
+      "link": "https://www.wired.com/story/a-woman-was-in-the-us-legally-she-was-deported-anyways/",
+      "summary": "María de Jesús Estrada Juárez was applying for her green card and thought she was doing everything right. Instead, she was arrested and deported to Mexico.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-15T10:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2657,22 +2673,6 @@
       "region": "global"
     },
     {
-      "id": "579e1cb57c57eb6e",
-      "title": "Purple Promo Codes and Deals: Up to 30% Off",
-      "link": "https://www.wired.com/story/purple-promo-code/",
-      "summary": "On the hunt for the perfect mattress or pillow? Save on your soon-to-be favorite brand, Purple, with these Purple coupons and deals.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-15T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "e6873cb98af7837d",
       "title": "Uplift Promo Codes: $570 Off",
       "link": "https://www.wired.com/story/uplift-desk-coupon-code/",
@@ -2721,6 +2721,22 @@
       "region": "global"
     },
     {
+      "id": "579e1cb57c57eb6e",
+      "title": "Purple Promo Codes and Deals: Up to 30% Off",
+      "link": "https://www.wired.com/story/purple-promo-code/",
+      "summary": "On the hunt for the perfect mattress or pillow? Save on your soon-to-be favorite brand, Purple, with these Purple coupons and deals.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-15T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "4c7190f01b6e5049",
       "title": "Coleman Promo Codes and Deals: Up to 75% Off in May",
       "link": "https://www.wired.com/story/coleman-promo-code/",
@@ -2737,10 +2753,10 @@
       "region": "global"
     },
     {
-      "id": "f002f31aee5949d6",
-      "title": "Hostinger Promo Code: 79% Off for May 2026",
-      "link": "https://www.wired.com/story/hostinger-coupon-code/",
-      "summary": "Discover exclusive Hostinger promo codes, discounts, and deals on web hosting, cloud plans, and domain registration. Save big on your next Hostinger purchase today.",
+      "id": "e18bc478760eda0a",
+      "title": "HostGator Promo Codes: 76% Off for April 2026",
+      "link": "https://www.wired.com/story/hostagtor-coupon/",
+      "summary": "Unlock massive savings on HostGator web hosting, WordPress, VPS, and business email plans with our exclusive HostGator promo codes and deals.",
       "body": null,
       "image": null,
       "pubDate": "2026-05-15T05:00:00.000Z",
@@ -2753,10 +2769,10 @@
       "region": "global"
     },
     {
-      "id": "e18bc478760eda0a",
-      "title": "HostGator Promo Codes: 76% Off for April 2026",
-      "link": "https://www.wired.com/story/hostagtor-coupon/",
-      "summary": "Unlock massive savings on HostGator web hosting, WordPress, VPS, and business email plans with our exclusive HostGator promo codes and deals.",
+      "id": "f002f31aee5949d6",
+      "title": "Hostinger Promo Code: 79% Off for May 2026",
+      "link": "https://www.wired.com/story/hostinger-coupon-code/",
+      "summary": "Discover exclusive Hostinger promo codes, discounts, and deals on web hosting, cloud plans, and domain registration. Save big on your next Hostinger purchase today.",
       "body": null,
       "image": null,
       "pubDate": "2026-05-15T05:00:00.000Z",
@@ -3297,22 +3313,6 @@
       "region": "global"
     },
     {
-      "id": "339ac53cb80d2453",
-      "title": "Celtic score controversial late penalty to set up epic final day",
-      "link": "https://www.bbc.com/sport/football/videos/c0q2l7dk88jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Watch the highlights as Celtic score a controversial late penalty to win at Motherwell and take the Scottish Premiership title race to a final-day decider against Hearts.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-13T23:54:10.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "530ff2c372b93dff",
       "title": "Hearts put three past Falkirk to move within point of title",
       "link": "https://www.bbc.com/sport/football/videos/c0m2lld9jw7o?at_medium=RSS&at_campaign=rss",
@@ -3336,22 +3336,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-05-13T23:13:28.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "080da0721ccc20bc",
-      "title": "Man City were too good for us - Glasner",
-      "link": "https://www.bbc.com/sport/football/videos/cx21pev4w3wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Crystal Palace manager Oliver Glasner says Manchester City were \"too good\" for his side after losing 3-0 at Etihad Stadium.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-13T22:26:38.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -3614,22 +3598,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "645876964dbb13d0",
-      "title": "Levy optimistic Tottenham will avoid relegation",
-      "link": "https://www.bbc.com/sport/football/videos/c78km95ey1yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Tottenham chairman Daniel Levy is optimistic the club will remain in the Premier League despite battling relegation.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-13T15:52:30.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -4878,22 +4846,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "81397a26ea83f4e8",
-      "title": "500-year-old gold dental bridge is earliest known oral care of its kind in Scotland — and it likely held a fake tooth",
-      "link": "https://www.livescience.com/archaeology/500-year-old-gold-dental-bridge-is-earliest-known-oral-care-of-its-kind-in-scotland-and-it-likely-held-a-fake-tooth",
-      "summary": "Archaeologists discovered the 20-karat-gold dental wire in the lower jaw of a middle-aged man who lived around 500 years ago in Scotland.",
-      "body": null,
-      "image": "https://cdn.mos.cms.futurecdn.net/trKJbH9hh2bVCbcocBTjz4-1280-80.png",
-      "pubDate": "2026-05-08T11:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "markets",
       "region": "global"
     },
     {
