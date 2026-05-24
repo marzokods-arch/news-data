@@ -1,36 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T15:08:54.362Z",
-    "total": 351,
-    "processed_feeds": 25,
-    "discovered_feeds": 85,
+    "generated_at": "2026-05-24T16:13:38.268Z",
+    "total": 370,
+    "processed_feeds": 24,
+    "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 3,
     "results": [
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "Engadget",
+        "url": "https://www.engadget.com/category/news/feed/",
+        "homepage": "https://www.engadget.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "technology"
         ],
-        "taken": 65,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Culture",
-        "url": "https://www.bbc.com/culture/feed.rss",
-        "homepage": "https://www.bbc.com/culture/feed.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -48,16 +35,81 @@
         "notModified": false
       },
       {
-        "name": "ESPN",
-        "url": "https://www.espn.com/watch/player/_/om-navmethod/espn%3Ahome%3Afeed%2Bmulti-card%2Bcollection/id/962567e8-bf97-428d-b376-02f7a41f7969",
-        "homepage": "https://www.espn.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
         "lang": "en",
         "region": "global",
         "cats": [
           "sports"
         ],
+        "taken": 64,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Culture",
+        "url": "https://www.bbc.com/culture/feed.rss",
+        "homepage": "https://www.bbc.com/culture/feed.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 33\nColumn: 83\nChar: /",
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -74,28 +126,15 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 19\nColumn: 136\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 50,
+        "taken": 46,
         "error": null,
         "notModified": false
       },
@@ -113,120 +152,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Engadget",
-        "url": "https://www.engadget.com/category/news/feed/",
-        "homepage": "https://www.engadget.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "technology"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 - رياضة",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "RangeError: Invalid time value",
-        "notModified": false
-      },
-      {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
+        "error": "Error: Feed not recognized as RSS 1 or 2.",
         "notModified": false
       },
       {
@@ -256,6 +191,32 @@
         "notModified": false
       },
       {
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 - رياضة",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=298",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
         "name": "Gulf News — Lifestyle",
         "url": "https://gulfnews.com/lifestyle/rss",
         "homepage": "https://gulfnews.com/lifestyle/rss",
@@ -282,9 +243,9 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -295,9 +256,22 @@
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -312,6 +286,19 @@
         "url": "https://www.arabiaweather.com/en/rss",
         "homepage": "https://www.arabiaweather.com/en/rss",
         "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
@@ -336,6 +323,118 @@
     ]
   },
   "items": [
+    {
+      "id": "72c3bb8364501902",
+      "title": "Warrington beat Bradford to climb to second",
+      "link": "https://www.bbc.com/sport/rugby-league/articles/c0r29yz8lw1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Warrington Wolves beat Bradford Bulls to continue their fine form at the Halliwell Jones Stadium and turn up the heat in the Super League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-24T16:03:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "433e10e0c63cd688",
+      "title": "Memorial Day Tech Deals: Sony, Anker, Beats (2026)",
+      "link": "https://www.wired.com/story/memorial-day-tech-deals-2026-1/",
+      "summary": "Lots of our most-recommended headphones, power banks, and other gadgets are on sale for Memorial Day.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-24T15:55:15.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "cf0d2dffbd90c589",
+      "title": "Shankland set to join Rangers from Hearts",
+      "link": "https://www.bbc.com/sport/football/articles/c8d8lpqjy2go?at_medium=RSS&at_campaign=rss",
+      "summary": "Lawrence Shankland is close to joining Rangers from Hearts with a deal for the Scotland forward near.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-24T15:54:35.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "023fab78082c5b6e",
+      "title": "Shankland set to join Rangers from Hearts - is he the leader Ibrox side need?",
+      "link": "https://www.bbc.com/sport/football/articles/c8d8lpqjy2go?at_medium=RSS&at_campaign=rss",
+      "summary": "Lawrence Shankland is close to joining Rangers from Hearts with a deal for the Scotland forward near.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-24T15:54:35.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5fac77106e1f08c0",
+      "title": "Best Memorial Day Mattress Deals: Helix, Saatva (2026)",
+      "link": "https://www.wired.com/story/memorial-day-mattress-deals-2026-1/",
+      "summary": "It’s one of the best times of the year to buy a mattress, and deals on our favorite models are in full swing.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-24T15:50:18.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "lifestyle",
+      "region": "global"
+    },
+    {
+      "id": "2c24d121c827ca03",
+      "title": "“أوديتي” تطالب بتعميم منحة عيد الأضحى وإقرار “الشهر الـ13”",
+      "link": "https://assabah.ma/927463.html",
+      "summary": "طالبت المنظمة الديمقراطية للشغل الحكومة بتعميم منحة عيد الأضحى واعتماد “الشهر الثالث عشر” لفائدة جميع الموظفين والعمال والمتقاعدين، معتبرة أن هذا الإجراء أصبح ضرورة اجتماعية في ظل تدهور القدرة الشرائية وارتفاع تكاليف المعيشة. ودعت المنظمة، في رسالة موجهة إلى رئيس الحكومة ووزيرة الاقتصاد والمالية، إ…",
+      "body": "طالبت المنظمة الديمقراطية للشغل الحكومة بتعميم منحة عيد الأضحى واعتماد “الشهر الثالث عشر” لفائدة جميع الموظفين والعمال والمتقاعدين، معتبرة أن هذا الإجراء أصبح ضرورة اجتماعية في ظل تدهور القدرة الشرائية وارتفاع تكاليف المعيشة. ودعت المنظمة، في رسالة موجهة إلى رئيس الحكومة ووزيرة الاقتصاد والمالية، إلى إصدار مرسوم أكمل القراءة &raquo; المقالة “أوديتي” تطالب بتعميم منحة عيد الأضحى وإقرار “الشهر الـ13” fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-05-24T15:40:28.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "f954b2efacb72d0d",
+      "title": "Kalshi and Rhode Island sue each other in latest challenge to prediction markets",
+      "link": "https://www.engadget.com/2180225/kalshi-and-rhode-island-sue-each-other-in-latest-challenge-to-prediction-markets/",
+      "summary": "Rhode Island joins other states that have taken similar legal action.",
+      "body": "Rhode Island joins other states that have taken similar legal action.",
+      "image": "https://www.engadget.com/img/gallery/kalshi-and-rhode-island-sue-each-other-in-latest-challenge-to-prediction-markets/l-intro-1779636733.jpg",
+      "pubDate": "2026-05-24T15:38:37.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
     {
       "id": "c69b24f621c7fb31",
       "title": "Catapult the cow! 6 medieval castles that were never conquered",
@@ -417,13 +516,13 @@
       "region": "global"
     },
     {
-      "id": "cf0d2dffbd90c589",
-      "title": "Shankland set to join Rangers from Hearts",
-      "link": "https://www.bbc.com/sport/football/articles/c8d8lpqjy2go?at_medium=RSS&at_campaign=rss",
-      "summary": "Lawrence Shankland is close to joining Rangers from Hearts with a deal for the Scotland forward near.",
+      "id": "cc25365be9983c49",
+      "title": "UK's oldest para-ice hockey team celebrates 30 years",
+      "link": "https://www.bbc.com/sport/ice-hockey/articles/cx21wew72v2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Cardiff Huskies Para ice hockey team have come a long way from their fledgling side of just a handful of players three decades ago.",
       "body": null,
       "image": null,
-      "pubDate": "2026-05-24T13:39:53.000Z",
+      "pubDate": "2026-05-24T14:30:48.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -433,20 +532,132 @@
       "region": "global"
     },
     {
-      "id": "023fab78082c5b6e",
-      "title": "Shankland set to join Rangers from Hearts - is he the leader Ibrox side need?",
-      "link": "https://www.bbc.com/sport/football/articles/c8d8lpqjy2go?at_medium=RSS&at_campaign=rss",
-      "summary": "Lawrence Shankland is close to joining Rangers from Hearts with a deal for the Scotland forward near.",
-      "body": null,
+      "id": "8af47384ceeaf5ac",
+      "title": "فيديو: \"صلاح هو ملكنا\".. \"تيفو\" استثنائي تكريما لمحمد صلاح وروبرتسون",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B5%D9%84%D8%A7%D8%AD-%D9%87%D9%88-%D9%85%D9%84%D9%83%D9%86%D8%A7-%D8%AA%D9%8A%D9%81%D9%88-%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A-%D8%AA%D9%83%D8%B1%D9%8A%D9%85%D8%A7-%D9%84%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D8%B3%D9%88%D9%86/blt7e700c30ac8e4712?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "صلاح وروبرتسون خاضا آخر لقاء مع الريدز",
+      "body": "صلاح وروبرتسون خاضا آخر لقاء مع الريدز تفاعلت جماهير ليفربول، بطريقة مميزة، مع اللقاء الأخير للنجم المصري محمد صلاح، وأندي روبرتسون، مع الريدز. وأشرك الهولندي آرني سلوت، المدير الفني لليفربول، الثنائي في التشكيل الأساسي لمباراة برينتفورد ، مساء اليوم الأحد، على ملعب \"أنفيلد\"، بالجولة الـ 38 والأخيرة من مسابقة الدوري الإنجليزي. وفور نزول اللاعبين استقبلت الجماهير صلاخ وروبرتسون ، بالتصفيق والهتاف للثنائي، وتم رفع الكثير من اللافتات التي تحمل صورهما. ورفع عدد من الجماهير لافتات حملت صور اللاعبين وهما يحملان كأس دوري أبطال أوروبا، كما حملت عدة لافتات عبارة \"صلاح هو ملكنا\". كما نظمت الجماهير \"تيفو\" استثنائي لتوديع اللاعبين حيث تم كتابة اسم \"مو\" وكذلك \"روبرتسون\" في لوحة فنية رائعة. 😍🔴 تيفو استثنائي في الأنفيلد تكريماً لنجم ليفربول محمد صلاح وروبرتسون #الدوري_الإنجليزي | #ليفربول | #محمد_صلاح pic.twitter.com/3220ZwtMiO — beIN SPORTS (@beINSPORTS) May 24, 2026 ونشر ليفربول عبر حساباته على وسائل التواصل الاجتماعي صورا من الحدث وعلق \"الأساطير\". Legends ❤️ pic.twitter.com/f8EibjJgBl — Liverpool FC (@LFC) May 24, 2026 &nbsp; &nbsp;",
       "image": null,
-      "pubDate": "2026-05-24T13:39:53.000Z",
+      "pubDate": "2026-05-24T14:01:00.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
       },
-      "lang": "en",
+      "lang": "ar",
       "category": "sports",
-      "region": "global"
+      "region": "mena"
+    },
+    {
+      "id": "8272ac049e001a03",
+      "title": "إنجاز تاريخي.. برونو فرنانديز \"مستر أسيست\" البريميرليج",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D8%A8%D8%B1%D9%88%D9%86%D9%88-%D9%81%D8%B1%D9%86%D8%A7%D9%86%D8%AF%D9%8A%D8%B2-%D9%85%D8%B3%D8%AA%D8%B1-%D8%A7%D9%94%D8%B3%D9%8A%D8%B3%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/blte075fd58a0455489?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قائد الشياطين الحمر يصنع الحدث",
+      "body": "قائد الشياطين الحمر يصنع الحدث انفرد البرتغالي برونو فرنانديز قائد مانشستر يونايتد، بالرقم القياسي في عدد التمريرات الحاسمة بموسم واحد من الدوري الإنجليزي الممتاز. و صنع برونو فرنانديز هدفًا جديدًا&nbsp; في مباراة فريقه أمام برايتون، مساء اليوم الأحد، في الجولة الأخيرة من عمر البريميرليج، ليصل إلى 21 تمريرة حاسمة في الموسم الحالي. وجاء الهدف في الدقيقة 33، من ركلة ركنية أرسلها برونو عرضية، وقابلها باتريك دورجو برأسية قوية في الشباك. وكان برونو فيرنانديز الأضواء قد خطف الأضواء في فوز فريقه على نوتنجهام فورست (3-2)، بالجولة الماضية بعدما صنع الهدف الثالث لزميله برايان مبويمو في الدقيقة 76، ليصل إلى الصناعة التهديفية رقم 20 في موسم واحد بالبريميرليج، معادلًا الرقم التاريخي المسجل باسم كيفين دي بروين وتيري هنري كأكثر اللاعبين صناعة للأهداف في موسم واحد. وقالت شبكة \"أوبتا\" للإحصائيات، إن برونو فرنانديز أصبح أول لاعب في تاريخ الدوري الإنجليزي الممتاز يُسجل 21 تمريرة حاسمة في موسم واحد من البطولة، وهذا رقم قياسي. وكان برونو فرنانديز قد حصد جائزتي أفضل لاعب في البريميرليج من رابطة الدوري الإنجليزي ورابطة الكتاب الرياضيين في إنجلترا. يشار إلى أن مانشستر يونايتد بقيادة مدربه مايكل كاريك، نجح في العودة لدوري أبطال أوروبا في الموسم المقبل، باحتلال المركز الثالث في جدول ترتيب البريميرليج. &nbs…",
+      "image": null,
+      "pubDate": "2026-05-24T13:55:57.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "bc72664e42e6f8ed",
+      "title": "\"ملك الشمس\" يقتحم البرنابيو.. ريكيلمي مرشحًا رسميًا ضد بيريز",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-%D9%8A%D9%82%D8%AA%D8%AD%D9%85-%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D8%A8%D9%8A%D9%88-%D8%B1%D9%8A%D9%83%D9%8A%D9%84%D9%85%D9%8A-%D9%85%D8%B1%D8%B4%D8%AD%D9%8B%D8%A7-%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D8%B6%D8%AF-%D8%A8%D9%8A%D8%B1%D9%8A%D8%B2/blt18548e888389bdaf?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أول انتخابات منذ 20 عامًا..",
+      "body": "أول انتخابات منذ 20 عامًا.. في منعطف تاريخي لم يشهده النادي الملكي منذ عقدين، أقرّت اللجنة الانتخابية لريال مدريد رسميًا، ترشيح رجل الأعمال إنريكي ريكيلمي، 37 عامًا، لمنافسة فلورنتينو بيريز، 79 عامًا، على رئاسة النادي، في أول انتخابات حقيقية منذ عام 2006 عندما فاز رامون كالديرون بالمنصب عقب استقالة بيريز المفاجئة خلال ولايته الأولى. عشرون عامًا &nbsp;بلا منافسة وتولى بيريز رئاسة ريال مدريد لولاية ثانية منذ عام 2009 دون أن يخوض أي انتخابات، إذ لم يترشح ضده أحد في أعوام 2009، و2013، و2017 و2021، و2025، لكن هذه المرة وجد منافسًا حقيقيًا، وهو أمر صرّح بأنه كان يتطلع إليه خلال ظهوره الأسبوع الماضي في مدينة ريال مدريد بفالديبيباس. كانت آخر انتخابات خاضها بيريز في عام 2004، حيث فاز بأغلبية ساحقة بلغت 91.36% من الأصوات (21,377 صوتًا)، مقابل 5.08% للورينزو سانز و1.96% لأرتورو بالداسانو. تجميد صفقة مورينيو وتمثلت أولى تداعيات إجراء الانتخابات في تأجيل توقيع عقد المدير الفني جوزيه مورينيو والإعلان عنه، رغم الاتفاق الشفهي الذي أبرمه بيريز معه، إلى حين انتخاب رئيس جديد، حيث سيظل مجلس الإدارة الحالي في منصبه لكن دون صلاحية إتمام صفقات كبرى. وتنص اللوائح الانتخابية على أنه أمام اللجنة مدة أقصاها 15 يومًا لتحديد موعد الانتخابات، وسيُتاح للمرشحين خلال هذه الفترة عرض أفكارهما ومشاريعهما على الأعضاء…",
+      "image": null,
+      "pubDate": "2026-05-24T13:49:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "76573022f49ed24a",
+      "title": "موهبة آرسنال يحفر اسمه في تاريخ البريميرليج",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D9%87%D8%A8%D8%A9-%D8%A7%D9%93%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%8A%D8%AD%D9%81%D8%B1-%D8%A7%D8%B3%D9%85%D9%87-%D9%81%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC/blt055782c0711e2dea?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "إنجاز قياسي لنجم الجانرز الشاب",
+      "body": "إنجاز قياسي لنجم الجانرز الشاب حقق ماكس داومان موهبة آرسنال، إنجازًا تاريخيًا، بمشاركته أساسيًا في مباراة فريقه أمام كريستال بالاس، مساء اليوم الأحد، على ملعب سيلهرست بارك، في إطار الجولة الأخيرة من عمر البريميرليج. وتوّج آرسنال بلقب الدوري الإنجليزي الممتاز للمرة 14 في تاريخه، والمرة الأولى منذ 22 عامًا، بعد تعادل مانشستر سيتي أمام بورنموث (1-1) في الجولة الماضية. وقرر &nbsp;ميكيل أرتيتا مدرب الجانرز، الدفع بالبدلاء في المباراة الأخيرة بالبريميرليج، ومنهم داومان صاحب الـ16 عامًا. وذكرت شبكة \"أوبتا\" للإحصائيات، أن ماكس دومان بعمر 16 عامًا و144 يومًا، بات أصغر لاعب على الإطلاق يبدأ مباراة في الدوري الإنجليزي الممتاز. ويملك داومان إنجازًا تاريخيًا آخر، بأنه أصغر لاعب يسجل هدفًا في البريميرليج، وذلك عندما هز شباك إيفرتون وهو بعمر 16 عامًا و73 يومًا، خلال شهر مارس/آذار الماضي. &nbsp;",
+      "image": null,
+      "pubDate": "2026-05-24T13:38:05.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "de057f176633d2a0",
+      "title": "فاجأ جماهير توتنهام.. روميرو يتجنب \"الفضيحة\" ويعود إلى لندن",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%A7%D8%AC%D8%A7%D9%94-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85-%D8%B1%D9%88%D9%85%D9%8A%D8%B1%D9%88-%D9%8A%D8%AA%D8%AC%D9%86%D8%A8-%D8%A7%D9%84%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-%D9%88%D9%8A%D8%B9%D9%88%D8%AF-%D8%A7%D9%95%D9%84%D9%89-%D9%84%D9%86%D8%AF%D9%86/bltcac55732613ecc00?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بعد الهجوم عليه",
+      "body": "بعد الهجوم عليه في لفتة غير متوقعة، عاد قائد توتنهام هوتسبير الأرجنتيني كريستيان روميرو إلى لندن من الأرجنتين ليشهد المباراة النهائية الحاسمة لفريقه أمام إيفرتون اليوم الأحد، متخليًا عن حضور نهائي بطولة الأبرتورا بالدوري الأرجنتيني الذي يجمع فريق طفولته بيلجرانو مع ريفر بليت. تضحية القائد رغم الإصابة ورغم تأكد غياب المدافع البالغ من العمر 28 عامًا عن المباراة بسبب إصابة في الركبة، فضّل روميرو التواجد في ملعب توتنهام هوتسبير لدعم زملائه في مواجهة مصيرية، حيث يضمن الفوز بقاء السبيرز في الدوري الإنجليزي الممتاز، فيما قد يكون التعادل كافيًا أيضًا بفضل فارق الأهداف الكبير الذي يتفوقون به على وست هام يونايتد. جدل واسع وانتقادات لاذعة وكان قرار روميرو الأولي بالعودة إلى الأرجنتين لمواصلة برنامجه التأهيلي، في إطار سباقه مع الزمن ليكون جاهزًا للمشاركة في كأس العالم، قد أثار عاصفة من الانتقادات رغم موافقة الطاقم الطبي للنادي. ووصف القائد والمدرب السابق لتوتنهام جلين هودل القرار بأنه \"فضيحة\"، بينما اعتبر المهاجم السابق تيدي شيرينجهام أن السماح للمدافع الأرجنتيني بمغادرة النادي في هذا التوقيت الحرج \"أمر لا يُصدق\". دي زيربي يدافع ويتفهم الغضب من جهته، دافع المدير الفني روبرتو دي زيربي عن قائده في وقت سابق من الأسبوع، مؤكدًا أن القرار جاء بالاتفاق مع الطاقم الطبي، لكنه أقر في الوقت ذاته بأنه \"ي…",
+      "image": null,
+      "pubDate": "2026-05-24T13:36:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0aab00698831a6e2",
+      "title": "القائم يحرم صلاح من لحظة استثنائية في مباراة الوداع",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%82%D8%A7%D9%8A%D9%94%D9%85-%D9%8A%D8%AD%D8%B1%D9%85-%D8%B5%D9%84%D8%A7%D8%AD-%D9%85%D9%86-%D9%84%D8%AD%D8%B8%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%B9/blt937f7bef1148a8e7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم المصري يلعب آخر مباراة مع ليفربول",
+      "body": "النجم المصري يلعب آخر مباراة مع ليفربول كان محمد صلاح، نجم ليفربول، قريبا للغاية من ترك بصمة مميزة في مباراته الأخيرة مع الريدز، أمام برينتفورد، اليوم الأحد، في ختام البريميرليج. وشارك صلاح أساسيا في تشكيلة ليفربول ، في مباراته الأخيرة مع الفريق، حيث أعلن من قبل رحيله عقب الموسم الجاري. وحصل ليفربول على خطأ أمام منطقة الجزاء في الدقيقة 18، وتقدم صلاح لتسديد المخالفة ولعبها بطريقة رائعة مرت من الحائط البشري لكن القائم كان للكرة بالمرصاد، ليحرم محمد صلاح من تسجيل هدف من ركلة ثابتة. ولا يسجل صلاح الكثير من الأهداف من ركلات ثابتة من حدود منطقة الجزاء، لكنه كان قريبا من تحقيق ذلك اليوم. ومنذ انضمامه إلى ليفربول قادمًا من روما عام 2017، خاض صلاح 441 مباراة في كل البطولات، وسجل 257 هدفًا، وقدم 119 تمريرة حاسمة لزملائه. &nbsp; &nbsp;",
+      "image": null,
+      "pubDate": "2026-05-24T13:33:30.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1555c3980c3fcc0d",
+      "title": "جدار لندني صلب: تشيلسي يتحدى برشلونة.. وديكو يرد بورقتين لإغراء بيدرو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D8%A7%D8%B1-%D9%84%D9%86%D8%AF%D9%86%D9%8A-%D8%B5%D9%84%D8%A8-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D8%AF%D9%8A%D9%83%D9%88-%D9%8A%D8%B1%D8%AF-%D8%A8%D9%88%D8%B1%D9%82%D8%AA%D9%8A%D9%86-%D9%84%D8%A7%D9%95%D8%BA%D8%B1%D8%A7%D8%A1-%D8%A8%D9%8A%D8%AF%D8%B1%D9%88/bltde73eda055fd5e6c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هل ينجح الكتالوني في خطف بيدرو؟",
+      "body": "هل ينجح الكتالوني في خطف بيدرو؟ يواجه برشلونة جدارًا صلبًا في سعيه لضم المهاجم البرازيلي جواو بيدرو من تشيلسي، بعدما أكد الصحفي المتخصص في سوق الانتقالات بن جاكوبس أن النادي اللندني قرر بشكل قاطع عدم التفريط في اللاعب هذا الصيف تحت أي ظرف، حتى لو تلقى عرضًا قياسيًا من النادي الكتالوني. موقف حاسم من ستامفورد بريدج ورغم أن الاهتمام الكتالوني بالبرازيلي حقيقي وأن محادثات استكشافية جرت بالفعل بين الطرفين، وفق ما كشفته صحيفة \"سبورت\" الإسبانية، إلا أن تشيلسي أوضح موقفه بشكل لا لبس فيه، وهو أن جواو بيدرو قطعة استراتيجية للحاضر والمستقبل، ولا مجال لفتح باب الرحيل بعد عام واحد فقط من الاستثمار الكبير فيه. ويرى البلوز في المهاجم البرازيلي، 24 عامًا، أحد الركائز الهجومية للمشروع الجديد تحت قيادة تشابي ألونسو، خاصة بعد موسم مضطرب شهد تغييرات مستمرة على مقاعد البدلاء، ما يجعل الاحتفاظ بالعناصر المؤثرة أولوية قصوى. أرقام استثنائية تبرر التمسك وقدم جواو بيدرو موسمًا أول رائعًا في لندن، حيث أنهى الموسم برصيد 20 هدفًا و9 تمريرات حاسمة، ما جعله واحدًا من أكثر المهاجمين اكتمالًا وقيمة في السوق الأوروبية، بتقييم يتراوح بين 80 و100 مليون يورو. لكن وفق آخر تحديثات جاكوبس، فإن قرار تشيلسي بعدم التفاوض على بيعه يتجاوز المعايير الاقتصادية البحتة، إذ سرّب النادي اللندني أنه لن يغير رأيه مهما بلغت قيمة العر…",
+      "image": null,
+      "pubDate": "2026-05-24T13:23:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ac87b266855cc590",
+      "title": "سلوت: لهذا أشركت صلاح أساسيا أمام برينتفورد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%84%D9%88%D8%AA-%D9%84%D9%87%D8%B0%D8%A7-%D8%A7%D9%94%D8%B4%D8%B1%D9%83%D8%AA-%D8%B5%D9%84%D8%A7%D8%AD-%D8%A7%D9%94%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A8%D8%B1%D9%8A%D9%86%D8%AA%D9%81%D9%88%D8%B1%D8%AF/blte2ae04e3ad769e04?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الفرعون يخوض مباراته الأخيرة مع ليفربول",
+      "body": "الفرعون يخوض مباراته الأخيرة مع ليفربول كشف آرني سلوت، المدير الفني لليفربول، عن سر إشراك المصري محمد صلاح، نجم الريدز، في التشكيلة الأساسية للفريق أمام برينتفورد، مساء اليوم الأحد، في ختام البريميرليج. ويخوض صلاح مباراته الأخيرة مع ليفربول، حيث سيودع الجماهير في مواجهة اليوم. وكانت هناك شكوك حول الدفع بصلاح من البداية في مباراة اليوم، بحسب الكثير من التقارير الصحفية، لكن سلوت حسم الأمر ودفع به أساسيا . وفي حديثه مع قناة \"سكاي سبورتس\" قبل انطلاق المباراة، سُئل آرني سلوت عن أهمية اللقاء، وقراره بإعادة محمد صلاح إلى التشكيلة الأساسية. ورد سلوت: \"اللقاء مهم للغاية. لهذا السبب أشركتُ صلاح، لأننا بحاجة للفوز، ولتحقيق ذلك حللنا أسلوب لعبهم، ووجدنا أن الأجنحة عنصر حاسم في تحقيق الفوز عليهم. المهاجمون عمومًا، وبالتأكيد الأجنحة أيضًا. كان من المنطقي تمامًا أن نبدأ المباراة بمحمد صلاح إذا أردنا الفوز\". وعن عودة أليسون بيكر، قال مدرب ليفربول: \"أنا سعيدٌ للغاية لأجله ولأجلنا أيضاً. نعلم جميعاً أن هناك بطولةً قادمةً يرغب بشدةٍ في المشاركة فيها، ولكن من الضروري أيضاً، نظراً لأهمية مباراتنا اليوم، أن يعود إلينا، فقد افتقدناه كثيراً للأسف\". وختم: \"الأمر الجيد هو أن جيورجي وفريدي قدما أداءً جيداً، لكن أليسون كان لاعباً مميزاً جداً بالنسبة لنا، ولي شخصياً، وللنادي أيضاً، على مدى سنواتٍ طويلة، ولذلك…",
+      "image": null,
+      "pubDate": "2026-05-24T13:10:15.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "442cc24e9d15b6f8",
@@ -689,70 +900,6 @@
       "region": "global"
     },
     {
-      "id": "54714cf58a8e450c",
-      "title": "حسابات جولة الختام.. كيف يتأهل تشيلسي لمشاركة أوروبية؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AE%D8%AA%D8%A7%D9%85-%D9%83%D9%8A%D9%81-%D9%8A%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A-%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9/bltdc5a85ff940f467a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مصير البلوز بيد غيره",
-      "body": "مصير البلوز بيد غيره لا يزال تشيلسي يملك فرصة للتأهل إلى الدوري الأوروبي في اليوم الأخير من موسم الدوري الإنجليزي الممتاز 2025-2026. ويحتل فريق المدرب المؤقت كالوم مكفارلين حاليا المركز الثامن (52 نقطة) في البريميرليج، قبل رحلته إلى سندرلاند بعد ظهر اليوم الأحد. ووفقا لموقع ميترو، إذا أنهى تشيلسي الموسم في المركز الثامن، فسيضمن مكانا في دوري المؤتمر الأوروبي في الموسم المقبل. وخرج تشيلسي بالفعل من المنافسة على ضمان مكان في دوري أبطال أوروبا في الموسم المقبل، لكن الحصول على مكان في الدوري الأوروبي، وهي البطولة التي فاز بها في عامي 2013 و2019، لا يزال احتمالا قائما. اقرأ أيضا: رئيس الكاف يوجه رسالة إلى ملك المغرب اقرأ أيضا: في انتظار توليفة بيب وميسي.. رونالدو \"الصفري\" يبرئ مبابي من فوضى الريال ويتوقف تأهل تشيلسي إلى الدوري الأوروبي على نتيجة مباراة برايتون (السابع 53 نقطة) على أرضه أمام مانشستر يونايتد: إذا فاز فريق المدرب فابيان هوتسلر على الشياطين الحمر، فلن يتمكن تشيلسي من التأهل إلى الدوري الأوروبي. وبسبب فارق الأهداف الأفضل لديهم مقارنة ببرينتفورد (التاسع 52 نقطة)، إذا فاز تشيلسي على سندرلاند في ملعب النور وتعادل برايتون أو خسر أمام يونايتد، فمن شبه المؤكد أنهم سيحتلون المركز السابع. وإذا خسر برايتون أمام يونايتد بهدفين وفشل برينتفورد في الفوز خارج أرضه على ليفربول، فيمكن لتشي…",
-      "image": null,
-      "pubDate": "2026-05-24T11:33:25.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "4afbcd452016a362",
-      "title": "بالفيديو.. الرئيس السنغالي يستقبل المشجعين العائدين من المغرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84%D9%8A-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D8%B4%D8%AC%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%8A%D9%94%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blte02ca2ec05abddf9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "جمعة فاي يوجه الشكر لملك المغرب بعد قرار العفو عن المشجعين",
-      "body": "جمعة فاي يوجه الشكر لملك المغرب بعد قرار العفو عن المشجعين حرص الرئيس السنغالي بشير جمعة فاي على استقبال المشجعين العائدين من المغرب بعد احتجازهم لفترة طويلة على خلفية أحداث شغب بنهائي كأس أمم أفريقيا 2025، يناير الماضي. وكان العاهل المغربي الملك محمد السادس أصدر مساء أمس السبت عفوًا ملكيا عن عدد من المشجعين السنغاليين الذين صدرت بحقهم أحكام قضائية، وذلك بمناسبة عيد الأضحى. من جانبه، وجه الاتحاد السنغالي لكرة القدم الشكر للملك على قرار العفو ، مؤكدًا عمق العلاقات بين البلدين. وكان الرئيس السنغالي موجودًا في مطار بليز دياجن الدولي، للاطمئنان على وصول المشجعين إلى البلاد، بعد فترة طويلة من التوتر والقلق. وقال الرئيس السنغالي في كلمته \"يمثل هذا اليوم لحظة بالغة الأهمية بالنسبة لنا. أود أن أتوجه بالشكر إلى السلطات المغربية، وعلى وجه الخصوص إلى جلالة الملك، على منح هذا العفو بمناسبة عيد الأضحى المبارك\". Le Président de la République a accueilli ce jour, à l’Aéroport International Blaise Diagne, nos supporters libérés à la faveur de la Grâce Royale accordée par Sa Majesté le Roi Mohammed VI à l&#39;occasion de l&#39;Aïd el-Kébir. Un moment d&#39;émotion, de retrouvailles et de fraternité. pic.twitter.com/yTxhT5NZQE &mdash; Présidence Sénégal (@PR_Senegal) May 24, 2026 وكان رئيس السنغال …",
-      "image": "https://assets.kooora.com/images/v3/getty-2277390343/crop/MM5DIMRQGA5DENRVGQ5G433XMU5DAORQ/GettyImages-2277390343.jpg",
-      "pubDate": "2026-05-24T11:25:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "ef2add0fd1978c24",
-      "title": "ريكيلمي: هذا أول ما سأفعله كرئيس لريال مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D9%83%D9%8A%D9%84%D9%85%D9%8A-%D9%87%D8%B0%D8%A7-%D8%A7%D9%94%D9%88%D9%84-%D9%85%D8%A7-%D8%B3%D8%A7%D9%94%D9%81%D8%B9%D9%84%D9%87-%D9%83%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/bltaa1b91da83e0eda3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "منافس بيريز يولي اهتمامًا كبيرًا لقضية الأكاديميات",
-      "body": "منافس بيريز يولي اهتمامًا كبيرًا لقضية الأكاديميات تحدث رجل الأعمال الشاب إنريكي ريكيلمي، المرشح المحتمل لرئاسة ريال مدريد، لأول مرة بشكل موسع عن ملامح مشروعه الانتخابي، ورؤيته لمستقبل النادي الملكي على جميع الأصعدة. وحول الأسباب التي دفعته إلى الترشح ضد رئيس الريال التاريخي، فلورنتينو بيريز، قال ريكيلمي خلال مقابلة مطولة مع صحيفة \"ماركا\" الإسبانية: \"كنا نرى أن فلورنتينو بيريز هو أفضل رئيس في تاريخ ريال مدريد، رئيس عظيم ورجل أعمال كبير، والجميع يشهد له بذلك، وله إرث هائل يجب حمايته\". اقرأ أيضًا نجم إيران ليس الأول.. أساطير حطمت مطرقة السياسة أحلامهم المونديالية هونيس: برشلونة لا يملك المال أصلًا لضم كين واستدرك: \"لكن ريال مدريد فوق كل شيء، ويستحق خطة للمستقبل لا تقتصر على المدى القصير فحسب، بل تمتد إلى المتوسط والطويل. ونعتقد أنه من الصحي، بعد 20 عامًا، وجود بديل صحي، جاد، ومهني ليتمكن أعضاء النادي من التصويت والمفاضلة بين مشروعين؛ قد تتشابه بعض النقاط وتختلف أخرى، لكن الهدف هو إتاحة الديمقراطية للأعضاء، ليقرروا بأنفسهم المسار الذي يريدون اتباعه\". {\"type\":\"power-rankings-carousel\",\"data\":{}} وعما إذا كان سيعين مديرًا رياضيًا، أو سيكشف عن أسماء قد تحمس الجماهير، أجاب ريكيلمي: \"لقد شددت خلال الأيام الماضية، أثناء دراستي لقرار الترشح من عدمه، على الجانب الاقتصادي والاجتماعي، وخاصةً ا…",
-      "image": null,
-      "pubDate": "2026-05-24T11:20:38.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "41d95bde0488634f",
-      "title": "Tribe staking England claim with Lions share",
-      "link": "https://www.bbc.com/sport/cricket/articles/cp3p8d88xgjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Glamorgan's Jersey-born batter Asa Tribe continues to stake his claim for a senior call-up by impressing for England Lions against South Africa A.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-24T11:19:42.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "41d95bde0488634f",
       "title": "Tribe staking England claim with Lions share",
       "link": "https://www.bbc.com/sport/cricket/articles/cp3p8d88xgjo?at_medium=RSS&at_campaign=rss",
@@ -849,70 +996,6 @@
       "region": "global"
     },
     {
-      "id": "60981d7baf05035e",
-      "title": "بالأرقام: كريستيانو الرياضي الأعلى دخلا في العالم.. فما مركز ميسي ومبابي؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%B9%D9%84%D9%89-%D8%AF%D8%AE%D9%84%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%81%D9%85%D8%A7-%D9%85%D8%B1%D9%83%D8%B2-%D9%85%D9%8A%D8%B3%D9%8A-%D9%88%D9%85%D8%A8%D8%A7%D8%A8%D9%8A/blt90de54c7c44d6796?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الدون يواصل التربع على العرش",
-      "body": "الدون يواصل التربع على العرش واصل النجم البرتغالي كريستيانو رونالدو تربعه على عرش الرياضيين الأعلى دخلًا في العالم للعام الرابع على التوالي، بعدما تصدر قائمة مجلة \"فوربس\" لعام 2026 بإجمالي أرباح وصل إلى 223 مليون جنيه إسترليني خلال آخر 12 شهرًا، ليؤكد استمرار هيمنته التجارية والرياضية رغم بلوغه 41 عامًا. وبات رونالدو يتصدر تصنيف \"فوربس\" للمرة السادسة خلال آخر 11 عامًا، كما حافظ على الصدارة منذ تجاوزه لغريمه التاريخي ليونيل ميسي في عام 2023. وكشفت الأرقام أن قائد النصر السعودي حقق ما يعادل 300 مليون دولار قبل خصم الضرائب وعمولات الوكلاء، وهو رقم يعادل الرقم القياسي التاريخي الذي سجله الملاكم فلويد مايويذر عام 2015. وجاء الجزء الأكبر من أرباح رونالدو من عقده الضخم مع النصر، والذي وفر له 175 مليون جنيه إسترليني، بينما حصل على 48 مليونًا إضافية عبر الإعلانات والرعايات ومشروعاته التجارية المختلفة، كما ارتفعت أرباحه بمقدار 19 مليون جنيه مقارنة بعام 2025. وفي المركز الثاني جاء الملاكم المكسيكي كانيلو ألفاريز بإجمالي 126 مليون جنيه إسترليني، بفارق 97 مليونًا خلف رونالدو، بعدما اعتمدت معظم أرباحه على نزالاته داخل الحلبة، خاصة بعد فوزه على ويليام سكول ثم خسارته أمام تيرينس كروفورد. وحل ليونيل ميسي ثالثًا بأرباح بلغت 104 ملايين جنيه إسترليني، ليكون ثاني لاعب كرة قدم فقط ضمن العشرة الأوائل إل…",
-      "image": null,
-      "pubDate": "2026-05-24T10:54:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7e9432dca92c9521",
-      "title": "أحلام بين علمين.. كيف فجر منير الحدادي ثورة في قوانين كرة القدم؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%AD%D9%84%D8%A7%D9%85-%D8%A8%D9%8A%D9%86-%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%83%D9%8A%D9%81-%D9%81%D8%AC%D8%B1-%D9%85%D9%86%D9%8A%D8%B1-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF%D9%8A-%D8%AB%D9%88%D8%B1%D8%A9-%D9%81%D9%8A-%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86-%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85/blt0102db5380cbf7ed?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اللاعب المغربي دفع الفيفا لإجراء تعديلات جوهرية",
-      "body": "اللاعب المغربي دفع الفيفا لإجراء تعديلات جوهرية تعد مسيرة المهاجم المغربي، منير الحدادي، واحدة من أهم المنعطفات التشريعية في تاريخ كرة القدم الحديث؛ حيث تحولت إلى حراك قانوني ودبلوماسي معقد، قاد إلى صياغة جديدة كلياً للوائح الاتحاد الدولي لكرة القدم (فيفا) بشأن أهلية اللاعبين مزدوجي الجنسية. فلسنوات طويلة، كبّلت القوانين الجامدة مسيرة مواهب واعدة، وجمّدت مسيرتها الدولية نتيجة خيارات مبكرة، حتى جاءت قصة الحدادي بين منتخبي إسبانيا والمغرب لتصنع ثورة تشريعية، منحت مئات اللاعبين فرصة ثانية لكتابة فصول جديدة مع منتخبات أخرى. اقرأ أيضًا نجم إيران ليس الأول.. أساطير حطمت مطرقة السياسة أحلامهم المونديالية هونيس: برشلونة لا يملك المال أصلًا لضم كين نشأ منير الحدادي متمتعاً بالثقافتين الإسبانية والمغربية، وبدأت موهبته الاستثنائية تتبلور في أكاديمية \"لا ماسيا\" الخاصة بنادي برشلونة. {\"type\":\"power-rankings-carousel\",\"data\":{}} وخلال صيف عام 2014، قدم المهاجم الشاب البالغ حينها 19 عاماً مستويات مبهرة مع الفريق الأول للبارسا، مما عجل باستدعائه من قِبل مدرب منتخب إسبانيا آنذاك، فيسنتي ديل بوسكي، لتعويض غياب مهاجمه المصاب دييجو كوستا. وفي الثامن من سبتمبر 2014، شارك الحدادي بديلاً لمدة 13 دقيقة فقط أمام مقدونيا الشمالية، في تصفيات يورو 2016.&nbsp;&nbsp;&nbsp; اقرأ أيضًا نجم إيران ليس الأول.. أساط…",
-      "image": null,
-      "pubDate": "2026-05-24T10:52:45.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "28f003320cef62cb",
-      "title": "لم يتردد.. فليك يتحدى مورينيو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%85-%D9%8A%D8%AA%D8%B1%D8%AF%D8%AF-%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88/blt714c17d81630a0b9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رد حاسم من مدرب برشلونة",
-      "body": "رد حاسم من مدرب برشلونة اقتحمت الأنباء عن عودة جوزيه مورينيو المحتملة إلى ريال مدريد معسكر برشلونة، في الليلة الختامية لليجا، حيث خسر الفريق الكتالوني 3-1 على أرض فالنسيا. وخلال المؤتمر الصحفي عقب المباراة، طُرح سؤال عن استعداد فليك لمواجهة مورينيو إذا تمت الصفقة وأعلن ريال مدريد تعيينه خلفا لألفارو أربيلوا. ولم يبدِ فليك أي تردد، موضحا أن هوية الرجل الموجود على مقاعد البدلاء المقابلة لن تغير من نهجه. وأكد: \"بالطبع، أنا مستعد لمواجهة مورينيو. لماذا لا؟ إنه مدرب مثل أي مدرب آخر، وأنا دائما مستعد لأي شخص\"، وفقا لموقع جول. اقرأ أيضا: رئيس الكاف يوجه رسالة إلى ملك المغرب ولا يعد مورينيو غريبا على برشلونة نفسه، حيث سبق له العمل كمساعد في كامب نو تحت قيادة بوبي روبسون ولويس فان جال. ومن المتوقع أن يعلن ريال مدريد عن تعيين المدرب البرتغالي في الأسابيع المقبلة. وتوقف رصيد برشلونة بعد الهزيمة أمس عند 94 نقطة في صدارة جدول الليجا، وكان الفريق الكتالوني قد حسم اللقب أمام غريمه المدريدي حيث فاز بالكلاسيكو 2-0 في الجولة 35. اقرأ أيضا: في انتظار توليفة بيب وميسي.. رونالدو \"الصفري\" يبرئ مبابي من فوضى الريال اقرأ أيضا: فيديو: قبل موقعة آرسنال.. حرب باردة بين نجمي سان جيرمان",
-      "image": null,
-      "pubDate": "2026-05-24T10:47:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "bed1224b3562c0f4",
-      "title": "مواجهات سهلة لأندية القمة.. نتائج قرعة دور الـ32 لكأس الملك",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D8%B3%D9%87%D9%84%D8%A9-%D9%84%D8%A7%D9%94%D9%86%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D9%85%D8%A9-%D9%86%D8%AA%D8%A7%D9%8A%D9%94%D8%AC-%D9%82%D8%B1%D8%B9%D8%A9-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%8032-%D9%84%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D9%85%D9%84%D9%83/blt03f6def6c90aa201?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا ينتظر الفرق الكبرى؟",
-      "body": "ماذا ينتظر الفرق الكبرى؟ أُقيمت عصر اليوم الأحد مراسم قرعة دور الـ32 من بطولة كأس خادم الحرمين الشريفين، وسط ترقب جماهيري كبير لانطلاقة واحدة من أقوى البطولات المحلية في الكرة السعودية. وأسفرت القرعة عن مواجهات تبدو في المتناول بالنسبة لأندية القمة، وعلى رأسها النصر والهلال والأهلي والاتحاد، في ظل الفوارق الفنية الكبيرة بينها وبين منافسيها بالدور الأول. اقرأ أيضًا.. يتصدرها ماني وتوني.. 4 إنجازات استثنائية في دوري روشن وكان الهلال قد تُوج بلقب النسخة الماضية من البطولة، بعدما تفوق على الخلود بنتيجة (2-1) في المباراة النهائية. مواجهات الكبار أوقعت القرعة فريق النصر في مواجهة الدرعية، بينما يلتقي الهلال مع الرائد، في مواجهة تبدو مريحة نسبيًا للزعيم. أما الأهلي فسيواجه الأنوار، في حين يصطدم الاتحاد بفريق النجمة. وشهدت القرعة أيضًا عدة مواجهات متوازنة ومثيرة، أبرزها لقاء الشباب أمام الوحدة، إضافة إلى مواجهة الاتفاق ضد الجبلين، والقادسية أمام الطائي. نتائج قرعة دور الـ32 الاتفاق × الجبلين الفتح × العلا الخلود × جدة التعاون × ضمك الخليج × الأخدود الهلال × الرائد أبها × العروبة نيوم × الفيصلي الرياض × الزلفي النصر × الدرعية الأهلي × الأنوار الحزم × البكيرية الاتحاد × النجمة الفيحاء × العدالة القادسية × الطائي الشباب × الوحدة ومن المقرر أن تُقام مباريات دور الـ32 خلال الفترة من 16 إلى 19 …",
-      "image": null,
-      "pubDate": "2026-05-24T10:38:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "0767141da8056806",
       "title": "These Robots Are Making Meals for a Nonprofit in San Francisco’s Tenderloin",
       "link": "https://www.wired.com/story/these-robots-are-making-meals-for-a-nonprofit-in-san-franciscos-tenderloin/",
@@ -927,22 +1010,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "8d7f7c1207a42bd3",
-      "title": "بالفيديو: لم تنتظر مباراة برينتفورد.. جماهير ليفربول تودع صلاح بكلمات مؤثرة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%85-%D8%AA%D9%86%D8%AA%D8%B8%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%B1%D9%8A%D9%86%D8%AA%D9%81%D9%88%D8%B1%D8%AF-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%AA%D9%88%D8%AF%D8%B9-%D8%B5%D9%84%D8%A7%D8%AD-%D8%A8%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%88%D9%94%D8%AB%D8%B1%D8%A9/blteb967c1d21811414?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رسائل جماهير ليفربول لصلاح في يوم الوداع",
-      "body": "رسائل جماهير ليفربول لصلاح في يوم الوداع ودعت جماهير ليفربول نجمها المصري محمد صلاح بعبارات عاطفية مؤثرة، قبل ساعات من خوضه آخر مباراة بقميص الفريق. وحقق صلاح عددًا من الإنجازات مع ليفربول على مدار 9 أعوام قضاها داخل أروقة \"أنفيلد\"، كما حطم عديد الأرقام القياسية الفردية في مشواره، وتمكن من يصبح ثالث أكثر لاعب تهديفًا في تاريخ الفريق بكل البطولات، والهدّاف التاريخي في الدوري الإنجليزي الممتاز \"بريميرليج\". وتدرك جماهير ليفربول مكانة النجم المصري في تاريخ النادي، ويأتي دعمها في وقت يرحل اللاعب بسبب مشاكل مع مدربه الهولندي آرني سلوت. ونشر ليفربول عبر حسابه على \"فيس بوك\" مقطع فيديو يتضمن رسائل مباشرة من الجماهير في الشارع لصلاح. وجاءت التعليقات بمعظم اللغات، وأبرزها \"مو صلاح، أنت واحد من أفضل لاعبي كرة القدم الذين مرّوا على ليفربول على الإطلاق\"، و\"جئتَ وأهديتَ أفضل سنوات مسيرتك لهذا النادي، وأعطيتنا لحظات لن ننساها أبداً\"، و\"هو لاعب لا يُصدَّق\". ومن بين التعليقات أيضًا \"كل ما أريد قوله هو: شكراً لك لأنك فعلت ذلك باللون الأحمر\"، و\"ليس فقط البطولات، بل عملك الشاق وإسهامك في هذا النادي وفي هذه المدينة\". ومن المقرر أن يودع صلاح الجماهير في مباراة برينتفورد، التي تقام مساء اليوم الأحد، على ملعب \"أنفيلد\" في ختام موسم الدوري الإنجليزي، علمًا بأن الفريق الأحمر يحتاج للتعادل على الأقل لتأمين مش…",
-      "image": null,
-      "pubDate": "2026-05-24T10:29:28.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "e50d7580c71b5606",
@@ -1070,22 +1137,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "f6d7b9d636840e2d",
-      "title": "'Shocking' World semi-final miss still hurts Allen",
-      "link": "https://www.bbc.com/sport/snooker/articles/clypj08x9rno?at_medium=RSS&at_campaign=rss",
-      "summary": "Northern Ireland's Mark Allen admits it \"hurts too much\" at present to watch back the missed shot which ultimately cost him a place in this year's World Championship final.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-24T07:53:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1313,6 +1364,22 @@
       "region": "gulf"
     },
     {
+      "id": "e662cbec9cac5687",
+      "title": "Ansel Adams' trust says AI-colorized version of his work was exhibited without permission",
+      "link": "https://www.engadget.com/2180105/ansel-adams-trust-says-ai-colorized-version-moonrise-was-exhibited-without-permission/",
+      "summary": "The AI-generated version of 'Moonrise, Hernandez, New Mexico' was on display at AIPAD's The Photography show.",
+      "body": "The AI-generated version of 'Moonrise, Hernandez, New Mexico' was on display at AIPAD's The Photography show.",
+      "image": "https://www.engadget.com/img/gallery/ansel-adams-trust-says-ai-colorized-version-of-his-work-was-exhibited-without-permission/l-intro-1779567408.jpg",
+      "pubDate": "2026-05-23T20:22:19.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "2bd9e10ba1108675",
       "title": "Wembley, Vegas, Premier League - jubilant Hull back in the big time",
       "link": "https://www.bbc.com/sport/football/articles/ckgpe8krnkro?at_medium=RSS&at_campaign=rss",
@@ -1489,22 +1556,6 @@
       "region": "global"
     },
     {
-      "id": "eeb865c7ac894540",
-      "title": "Poor England beaten as New Zealand level T20 series",
-      "link": "https://www.bbc.com/sport/cricket/articles/cdxpk6zllx4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Sophie Devine hits a majestic 87 as New Zealand level the T20 series to set up a decider at Hove on Monday.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-23T17:15:46.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "1e3e5d726ba4ca33",
       "title": "Devine stars as New Zealand recover from dismal start to beat England",
       "link": "https://www.bbc.com/sport/cricket/videos/c62x4l0041ko?at_medium=RSS&at_campaign=rss",
@@ -1585,6 +1636,22 @@
       "region": "global"
     },
     {
+      "id": "e4eed4c2c4e20eb2",
+      "title": "DeepSeek permanently reduces the price of its flagship V4 model by 75 percent",
+      "link": "https://www.engadget.com/2180062/deepseek-permanently-reduces-the-price-of-its-flagship-v4-model-by-75-percent/",
+      "summary": "The lower prices could be aimed at undercutting the competition.",
+      "body": "The lower prices could be aimed at undercutting the competition.",
+      "image": "https://www.engadget.com/img/gallery/deepseek-permanently-reduces-the-price-of-its-flagship-v4-model-by-75-percent/l-intro-1779550016.jpg",
+      "pubDate": "2026-05-23T15:31:41.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "24a127e8baa13668",
       "title": "Best Power Banks (2026): My Picks After Testing Over 100",
       "link": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
@@ -1614,22 +1681,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e29d36c377b8c318",
-      "title": "مدرب الجيش الملكي: عازمون على التتويج باللقب",
-      "link": "https://assabah.ma/927348.html",
-      "summary": "أكد ألكسندر سانتوس، مدرب الجيش الملكي لكرة القدم، اليوم السبت بالرباط، أن لاعبي الفريق واثقون من قدراتهم وعازمون على التتويج بلقب دوري أبطال إفريقيا. وأوضح سانتوس في الندوة الصحفية التي سبقت مباراة إياب النهائي أمام ماميلودي صن داونز الجنوب إفريقي، المقررة غدا الأحد بملعب الأمير مولاي عبدأكمل القرا…",
-      "body": "أكد ألكسندر سانتوس، مدرب الجيش الملكي لكرة القدم، اليوم السبت بالرباط، أن لاعبي الفريق واثقون من قدراتهم وعازمون على التتويج بلقب دوري أبطال إفريقيا. وأوضح سانتوس في الندوة الصحفية التي سبقت مباراة إياب النهائي أمام ماميلودي صن داونز الجنوب إفريقي، المقررة غدا الأحد بملعب الأمير مولاي عبد أكمل القراءة &raquo; المقالة مدرب الجيش الملكي: عازمون على التتويج باللقب fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-05-23T14:48:19.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1921,22 +1972,6 @@
       "region": "global"
     },
     {
-      "id": "2d3cadc2d0c0dc9d",
-      "title": "Best Early Memorial Day Mattress Deals: Helix, Saatva (2026)",
-      "link": "https://www.wired.com/story/memorial-day-mattress-deals-2026-1/",
-      "summary": "It’s one of the best times of the year to buy a mattress, and deals on our favorite models are in full swing.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-23T06:54:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "lifestyle",
-      "region": "global"
-    },
-    {
       "id": "6f298798906263f0",
       "title": "بعد الإعلان عنه.. اكتشاف فخ خطير في \"هاتف ترامب\"",
       "link": "https://www.skynewsarabia.com/varieties/1871104-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%B9%D9%86%D9%87-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D9%81%D8%AE-%D8%AE%D8%B7%D9%8A%D8%B1-%D9%87%D8%A7%D8%AA%D9%81-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8",
@@ -1966,38 +2001,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "1de8faf56e46a7a3",
-      "title": "Loop Earplugs Discount Codes: 40% Off",
-      "link": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-23T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "7e247782f1573ce8",
-      "title": "Hoka Coupon Codes: 30% Off | May 2026",
-      "link": "https://www.wired.com/story/hoka-coupon-code/",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for May 2026.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-23T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -2046,6 +2049,38 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "1de8faf56e46a7a3",
+      "title": "Loop Earplugs Discount Codes: 40% Off",
+      "link": "https://www.wired.com/story/loop-earplugs-discount-code/",
+      "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-23T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "7e247782f1573ce8",
+      "title": "Hoka Coupon Codes: 30% Off | May 2026",
+      "link": "https://www.wired.com/story/hoka-coupon-code/",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for May 2026.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-23T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2126,22 +2161,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0630aee3883de27f",
-      "title": "Memorial Day Tech Deals: Sony, Apple, Beats (2026)",
-      "link": "https://www.wired.com/story/memorial-day-tech-deals-2026-1/",
-      "summary": "Lots of our most-recommended headphones, power banks, and other gadgets are on sale for Memorial Day.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-22T18:52:47.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2257,22 +2276,6 @@
       "region": "global"
     },
     {
-      "id": "e15e944c0e332924",
-      "title": "Even If You Hate AI, You Will Use Google AI Search",
-      "link": "https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/",
-      "summary": "The search giant’s AI-crafted answers are so convenient, you’ll be sucked in—to the detriment of the web and the artists and thinkers behind it.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-22T15:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "0c9f57abb35bfb4f",
       "title": "I Bake For A Living &amp; Here Are My Best Tips For Fixing Cracked Cheesecakes",
       "link": "https://www.delish.com/kitchen-tools/kitchen-secrets/a71375914/how-to-fix-cracked-cheesecakes/",
@@ -2302,6 +2305,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e15e944c0e332924",
+      "title": "Even If You Hate AI, You Will Use Google AI Search",
+      "link": "https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/",
+      "summary": "The search giant’s AI-crafted answers are so convenient, you’ll be sucked in—to the detriment of the web and the artists and thinkers behind it.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-22T15:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2657,10 +2676,10 @@
       "region": "global"
     },
     {
-      "id": "21b318b2b366725d",
-      "title": "Nike Promo Codes and Discounts: 30% for May 2026",
-      "link": "https://www.wired.com/story/nike-promo-code/",
-      "summary": "Check out our deals for Nike this month, including 15% off select purchases.",
+      "id": "dbbc268cb978af69",
+      "title": "Chewy Promo Codes: $20 Off May 2026",
+      "link": "https://www.wired.com/story/chewy-promo-code/",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more May 2026 discounts.",
       "body": null,
       "image": null,
       "pubDate": "2026-05-22T05:00:00.000Z",
@@ -2673,10 +2692,26 @@
       "region": "global"
     },
     {
-      "id": "dbbc268cb978af69",
-      "title": "Chewy Promo Codes: $20 Off May 2026",
-      "link": "https://www.wired.com/story/chewy-promo-code/",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more May 2026 discounts.",
+      "id": "dacb6dec7811feb3",
+      "title": "Peacock Promo Codes: 40% Off May 2026",
+      "link": "https://www.wired.com/story/peacock-promo-code/",
+      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-05-22T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "21b318b2b366725d",
+      "title": "Nike Promo Codes and Discounts: 30% for May 2026",
+      "link": "https://www.wired.com/story/nike-promo-code/",
+      "summary": "Check out our deals for Nike this month, including 15% off select purchases.",
       "body": null,
       "image": null,
       "pubDate": "2026-05-22T05:00:00.000Z",
@@ -2702,22 +2737,6 @@
       },
       "lang": "en",
       "category": "science",
-      "region": "global"
-    },
-    {
-      "id": "dacb6dec7811feb3",
-      "title": "Peacock Promo Codes: 40% Off May 2026",
-      "link": "https://www.wired.com/story/peacock-promo-code/",
-      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-22T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -4897,6 +4916,166 @@
       "region": "gulf"
     },
     {
+      "id": "7f6875a3ff6cac9f",
+      "title": "Apple reportedly has a lot of changes planned for the Camera app",
+      "link": "https://www.engadget.com/2171448/apple-reportedly-has-a-lot-of-changes-planned-for-the-camera-app/",
+      "summary": "iOS 27 may integrate Visual Intelligence into the Camera and make it more customizable.",
+      "body": "iOS 27 may integrate Visual Intelligence into the Camera and make it more customizable.",
+      "image": "https://www.engadget.com/img/gallery/apple-reportedly-has-a-lot-of-changes-planned-for-the-camera-app/l-intro-1778622782.jpg",
+      "pubDate": "2026-05-12T21:53:39.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "993a4c3ec164f519",
+      "title": "Samsung's One UI 9 beta will roll out for Galaxy S26 owners this week",
+      "link": "https://www.engadget.com/2171333/samsungs-one-ui-9-beta-will-roll-out-for-galaxy-s26-owners-this-week/",
+      "summary": "However, its marquee features won't arrive until the final release.",
+      "body": "However, its marquee features won't arrive until the final release.",
+      "image": "https://www.engadget.com/img/gallery/samsungs-one-ui-9-beta-will-roll-out-for-galaxy-s26-owners-this-week/l-intro-1778616991.jpg",
+      "pubDate": "2026-05-12T20:18:34.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "8155dcab05da91db",
+      "title": "Waymo recalls nearly 4,000 robotaxis after a car drove directly into a flooded road",
+      "link": "https://www.engadget.com/2171165/waymo-recalls-nearly-4000-robotaxis-after-a-car-drove-directly-into-a-flooded-road/",
+      "summary": "The company has deployed an OTA software fix.",
+      "body": "The company has deployed an OTA software fix.",
+      "image": "https://www.engadget.com/img/gallery/waymo-recalls-nearly-4000-robotaxis-after-a-car-drove-directly-into-a-flooded-road/l-intro-1778610717.jpg",
+      "pubDate": "2026-05-12T18:33:10.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e6cdb8a843fb5c24",
+      "title": "Spotify has recovered from an outage that lasted hours",
+      "link": "https://www.engadget.com/2171078/spotify-is-down-for-some-users/",
+      "summary": "The service confirmed issues on X.",
+      "body": "The service confirmed issues on X.",
+      "image": "https://www.engadget.com/img/gallery/spotify-is-down-for-some-users/l-intro-1778621256.jpg",
+      "pubDate": "2026-05-12T17:44:24.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "99632d06db2737fd",
+      "title": "Panasonic's L10 camera honors 25 years of Lumix",
+      "link": "https://www.engadget.com/2171075/panasonics-l10-camera-honors-25-years-of-lumix/",
+      "summary": "It offers a new multi-aspect ratio feature and up to 5.6K 60 fps video.",
+      "body": "It offers a new multi-aspect ratio feature and up to 5.6K 60 fps video.",
+      "image": "https://www.engadget.com/img/gallery/panasonics-l10-camera-honors-25-years-of-lumix/l-intro-1778607667.jpg",
+      "pubDate": "2026-05-12T17:42:31.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "66b99021fd81b273",
+      "title": "Everything announced at The Android Show: I/O 2026 edition",
+      "link": "https://www.engadget.com/2171038/everything-announced-at-android-show-google-io-2026/",
+      "summary": "Google had a whole lot of news to share, including on new laptops and Gemini Intelligence.",
+      "body": "Google had a whole lot of news to share, including on new laptops and Gemini Intelligence.",
+      "image": "https://www.engadget.com/img/gallery/everything-announced-during-the-android-show-io-2026-edition/l-intro-1778605292.jpg",
+      "pubDate": "2026-05-12T17:10:07.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "0a973e9ea1759a8f",
+      "title": "Googlebooks are the Android-based evolution of the Chromebook",
+      "link": "https://www.engadget.com/2170814/googlebooks-are-the-android-based-evolution-of-the-chromebook/",
+      "summary": "Google's only giving us a tease of what it has planned for its new laptop lineup.",
+      "body": "Google&#39;s only giving us a tease of what it has planned for its new laptop lineup.",
+      "image": "https://www.engadget.com/img/gallery/googlebooks-are-the-android-based-evolution-of-the-chromebook/l-intro-1778606290.jpg",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "79202e0c9190f7c3",
+      "title": "Gemini in Chrome arrives on Android devices in June",
+      "link": "https://www.engadget.com/2169854/gemini-in-chrome-arrives-on-android-devices-in-june/",
+      "summary": "A device with at least 4GB of RAM is required to use the software.",
+      "body": "A device with at least 4GB of RAM is required to use the software.",
+      "image": "https://www.engadget.com/img/gallery/gemini-in-chrome-arrives-on-android-devices-in-june/l-intro-1778518391.jpg",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c3f22b37accf9375",
+      "title": "Gemini Intelligence brings app automation to Android",
+      "link": "https://www.engadget.com/2170770/gemini-intelligence-brings-app-automation-to-android/",
+      "summary": "It will arrive on Pixel and Samsung Galaxy phones first.",
+      "body": "It will arrive on Pixel and Samsung Galaxy phones first.",
+      "image": "https://www.engadget.com/img/gallery/gemini-intelligence-brings-app-automation-to-android/l-intro-1778596392.jpg",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "fb11b33a537ed454",
+      "title": "Android 17 includes better iOS file sharing and a forced break for addictive apps",
+      "link": "https://www.engadget.com/2170845/android-17-includes-better-ios-file-sharing-and-a-forced-break-for-addictive-apps/",
+      "summary": "Google is also launching 3D Emoji.",
+      "body": "Google is also launching 3D Emoji.",
+      "image": "https://www.engadget.com/img/gallery/android-17-includes-better-ios-file-sharing-and-a-forced-break-for-addictive-apps/l-intro-1778612111.jpg",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "81e3477e63e9d07d",
       "title": "فيديو.. غفوة ترامب تثير الجدل والبيت الأبيض يعلق",
       "link": "https://www.skynewsarabia.com/varieties/1869135-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%BA%D9%81%D9%88%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AA%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D9%8A%D8%B9%D9%84%D9%82",
@@ -4911,6 +5090,70 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
+    },
+    {
+      "id": "42c2490b054bc4ea",
+      "title": "Rivian is rolling out its AI-powered voice assistant",
+      "link": "https://www.engadget.com/2170527/rivian-ai-voice-assistant/",
+      "summary": "It will be available on all Rivian Gen 1 and Gen 2 vehicles, as well as on the R2 when it launches.",
+      "body": "It will be available on all Rivian Gen 1 and Gen 2 vehicles, as well as on the R2 when it launches.",
+      "image": "https://www.engadget.com/img/gallery/rivian-is-rolling-out-its-ai-powered-voice-assistant/l-intro-1778579700.jpg",
+      "pubDate": "2026-05-12T15:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e32a984cdee644a7",
+      "title": "Hey @meta.ai is that true? Threads is testing a Grok-like AI feature",
+      "link": "https://www.engadget.com/2170387/hey-meta-ai-is-that-true-threads-is-testing-a-grok-like-ai-feature/",
+      "summary": "What could go wrong?",
+      "body": "What could go wrong?",
+      "image": "https://www.engadget.com/img/gallery/hey-meta-ai-is-that-true-threads-is-testing-a-grok-like-ai-feature/l-intro-1778606596.jpg",
+      "pubDate": "2026-05-12T14:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3901c9007e989fed",
+      "title": "TikTok adds in-app travel booking services",
+      "link": "https://www.engadget.com/2170275/tiktok-adds-in-app-travel-booking-services/",
+      "summary": "Your next impulse vacation is just a few taps away.",
+      "body": "Your next impulse vacation is just a few taps away.",
+      "image": "https://www.engadget.com/img/gallery/tiktok-adds-in-app-travel-booking-services/l-intro-1778535621.jpg",
+      "pubDate": "2026-05-12T13:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "dd50970bb307d7e4",
+      "title": "Spotify is celebrating its 20th birthday with a Wrapped-like feature that covers your entire time on the app",
+      "link": "https://www.engadget.com/2170063/spotify-is-celebrating-its-20th-birthday-with-a-wrapped-feature/",
+      "summary": "This will display joining date, first song streamed and more.",
+      "body": "This will display joining date, first song streamed and more.",
+      "image": "https://www.engadget.com/img/gallery/spotify-is-celebrating-its-20th-birthday-with-a-wrapped-like-feature-that-covers-your-entire-time-on-the-app/l-intro-1778525493.jpg",
+      "pubDate": "2026-05-12T12:15:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "f5992542e784297d",
@@ -4929,6 +5172,22 @@
       "region": "gulf"
     },
     {
+      "id": "a506b8fa4e996d36",
+      "title": "Lotus will return to combustion engines for its cars",
+      "link": "https://www.engadget.com/2170515/lotus-vision-2030-type-135/",
+      "summary": "It's part of yet another ambitious pivot for the UK car maker.",
+      "body": "It&#39;s part of yet another ambitious pivot for the UK car maker.",
+      "image": "https://www.engadget.com/img/gallery/lotus-will-return-to-combustion-engines-for-its-cars/l-intro-1778577453.jpg",
+      "pubDate": "2026-05-12T09:19:41.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
       "id": "b1b493a47763b322",
       "title": "في فلوريدا.. شرطيان يقاضيان بن أفليك ومات ديمون",
       "link": "https://www.skynewsarabia.com/varieties/1869036-%D9%81%D9%84%D9%88%D8%B1%D9%8A%D8%AF%D8%A7-%D8%B4%D8%B1%D8%B7%D9%8A%D8%A7%D9%86-%D9%8A%D9%82%D8%A7%D8%B6%D9%8A%D8%A7%D9%86-%D8%A8%D9%86-%D8%A3%D9%81%D9%84%D9%8A%D9%83-%D9%88%D9%85%D8%A7%D8%AA-%D8%AF%D9%8A%D9%85%D9%88%D9%86",
@@ -4945,6 +5204,22 @@
       "region": "gulf"
     },
     {
+      "id": "066c1efca6116327",
+      "title": "Digg is back again, this time to aggregate AI news",
+      "link": "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
+      "summary": "Kevin Rose says Digg will introduce new topics in the future.",
+      "body": "Kevin Rose says Digg will introduce new topics in the future.",
+      "image": "https://www.engadget.com/img/gallery/digg-is-back-again-this-time-to-aggregate-ai-news/l-intro-1778568783.jpg",
+      "pubDate": "2026-05-12T06:56:35.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "ce419812f8736667",
       "title": "\"هاجرت في سبيل الله\".. قصة بتول علوش تشعل الجدل في سوريا",
       "link": "https://www.skynewsarabia.com/varieties/1868865-%D9%87%D8%A7%D8%AC%D8%B1%D8%AA-%D8%B3%D8%A8%D9%8A%D9%84-%D8%A7%D9%84%D9%84%D9%87-%D9%82%D8%B5%D8%A9-%D8%A8%D8%AA%D9%88%D9%84-%D8%B9%D9%84%D9%88%D8%B4-%D8%AA%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
@@ -4959,6 +5234,22 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
+    },
+    {
+      "id": "4bad8e3e688831e7",
+      "title": "Gemini for Google Home will no longer freak out if you ask it how to make a margarita",
+      "link": "https://www.engadget.com/2170470/gemini-google-home-cocktail-recipes-update/",
+      "summary": "Google has rolled out updates to make Gemini for Home faster and more useful.",
+      "body": "Google has rolled out updates to make Gemini for Home faster and more useful.",
+      "image": "https://www.engadget.com/img/gallery/gemini-for-google-home-will-no-longer-freak-out-if-you-ask-it-how-to-make-a-margarita/l-intro-1778563492.jpg",
+      "pubDate": "2026-05-12T05:26:56.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "fd08f8676fecbaff",
