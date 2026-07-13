@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-07-13T05:06:40.509Z",
-    "total": 338,
+    "generated_at": "2026-07-13T08:26:44.919Z",
+    "total": 309,
     "processed_feeds": 21,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 1,
     "results": [
-      {
-        "name": "WHO — News (EN)",
-        "url": "https://www.who.int/rss-feeds/news-english.xml",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 22,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
@@ -32,6 +19,19 @@
         ],
         "taken": 82,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
         "notModified": false
       },
       {
@@ -61,6 +61,19 @@
         "notModified": false
       },
       {
+        "name": "Masrawy - رياضة",
+        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Youm7 Sports",
         "url": "https://www.youm7.com/rss/rss",
         "homepage": "https://www.youm7.com/Section/298/1/رياضة",
@@ -74,15 +87,54 @@
         "notModified": false
       },
       {
-        "name": "Billboard",
-        "url": "https://www.billboard.com/feed/",
-        "homepage": "https://www.billboard.com/feed/",
+        "name": "WHO — News (EN)",
+        "url": "https://www.who.int/rss-feeds/news-english.xml",
+        "homepage": "https://www.who.int/rss-feeds/news-english.xml",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 7,
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya - صحة",
+        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — منوعات",
+        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
+        "name": "NASA — Breaking News",
+        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -100,58 +152,6 @@
         "notModified": false
       },
       {
-        "name": "Masrawy - رياضة",
-        "url": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "homepage": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — منوعات",
-        "url": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/variety.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya - صحة",
-        "url": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/health.xml",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
-        "notModified": false
-      },
-      {
         "name": "Android Authority",
         "url": "https://www.androidauthority.com/feed/",
         "homepage": "https://www.androidauthority.com/feed/",
@@ -162,19 +162,6 @@
         ],
         "taken": 78,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
         "notModified": false
       },
       {
@@ -191,6 +178,19 @@
         "notModified": false
       },
       {
+        "name": "Billboard",
+        "url": "https://www.billboard.com/feed/",
+        "homepage": "https://www.billboard.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Al Arabiya — اقتصاد",
         "url": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/aswaq.xml",
@@ -204,9 +204,9 @@
         "notModified": false
       },
       {
-        "name": "Condé Nast Traveller",
-        "url": "https://www.cntraveller.com/feeds/all",
-        "homepage": "https://www.cntraveller.com/feeds/all",
+        "name": "Kitco — Gold",
+        "url": "https://www.kitco.com/rss/gold.xml",
+        "homepage": "https://www.kitco.com/rss/gold.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -217,9 +217,9 @@
         "notModified": false
       },
       {
-        "name": "Kitco — Gold",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "homepage": "https://www.kitco.com/rss/gold.xml",
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main/rss",
+        "homepage": "https://www.thekitchn.com/main/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -256,9 +256,9 @@
         "notModified": false
       },
       {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main/rss",
-        "homepage": "https://www.thekitchn.com/main/rss",
+        "name": "Condé Nast Traveller",
+        "url": "https://www.cntraveller.com/feeds/all",
+        "homepage": "https://www.cntraveller.com/feeds/all",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -285,13 +285,29 @@
   },
   "items": [
     {
-      "id": "4d8f731bd7aabd1b",
-      "title": "Bombs, blood, ambushes - football coaching with the army",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd7we8we4xgo?at_medium=RSS&at_campaign=rss",
-      "summary": "From kidnappings to invasions, military training takes football coaches out of their comfort zone as part of the Football Association of Wales' Uefa pro licence course.",
+      "id": "238ce7952dca0388",
+      "title": "ياسين منصور يصدم عمروأديب: \"هتقعدوا 6 7 سنين تاني متخدوش الدوري\" والأخير يرد",
+      "link": "https://www.masrawy.com/sports/sports_news/details/2026/7/13/3016877/%D9%8A%D8%A7%D8%B3%D9%8A%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D9%8A%D8%B5%D8%AF%D9%85-%D8%B9%D9%85%D8%B1%D9%88%D8%A3%D8%AF%D9%8A%D8%A8-%D9%87%D8%AA%D9%82%D8%B9%D8%AF%D9%88%D8%A7-6-7-%D8%B3%D9%86%D9%8A%D9%86-%D8%AA%D8%A7%D9%86%D9%8A-%D9%85%D8%AA%D8%AE%D8%AF%D9%88%D8%B4-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D9%88%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%8A%D8%B1%D8%AF",
+      "summary": "نقاش ودي وممازح بين ياسين منصور مع الإعلامي عمرو أديب حول المنافسة التقليدية بين الأهلي والزمالك، وذلك خلال لقاء تلفزيوني تناول عددًا من الملفات الاقتصادية والاستثمارية.",
       "body": null,
       "image": null,
-      "pubDate": "2026-07-13T03:56:53.000Z",
+      "pubDate": "2026-07-13T11:07:00.000Z",
+      "source": {
+        "name": "Masrawy - رياضة",
+        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "4a75a8d460edce26",
+      "title": "England top air miles among semi-finalists - does it matter?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss",
+      "summary": "England have travelled far more than rivals France and Argentina as World Cup 2026 tests teams across North America.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T07:30:25.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -299,6 +315,534 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "0770caabe3f8eb0d",
+      "title": "Meet Team NI athletes heading to the Commonwealth Games",
+      "link": "https://www.bbc.co.uk/sport/articles/cy9rp9v882qo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport NI looks at all 65 athletes who will be part of Team NI at the Commonwealth Games this summer.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T07:08:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1b3af73c31da8295",
+      "title": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
+      "summary": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T06:57:04.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "b5033d94ffcee01f",
+      "title": "Samsung will kill your health data if you don’t consent to AI training",
+      "link": "https://www.androidauthority.com/samsung-health-train-ai-data-3686684/",
+      "summary": "Samsung Health has a new AI-related toggle, but it's not optional if you want to keep your health data.",
+      "body": "Credit: Andy Walker / Android Authority TL;DR Some Samsung Health users are reportedly seeing a controversial new toggle in the app. The toggle allows Samsung to use your health data for AI training and modeling. Disabling this toggle means you can’t sync health data to your Samsung account and that this data will be deleted. The Samsung Health app has received some major additions so far this year. Unfortunately, it looks like the company is holding your health data hostage if you don’t agree to a controversial move. Some Samsung Health users (h/t: How-To Geek ) are now seeing a notice and toggle titled “Consent to the Use of Health Data for AI Training and Modelling.” Yes, Samsung is using your health data to train AI. But that’s not the worst part. Disabling this toggle results in a message warning users that they won’t be able to sync health data to their Samsung account and that this data will be deleted unless required by law. Check out the outlet’s screenshots below.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/samsung-health-app-redesign-top-shortcuts-bar-1-e1781880849893-500w-260h.jpg",
+      "pubDate": "2026-07-13T06:50:35.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "3d3478abe1a04cd9",
+      "title": "This strange Pixel bug keeps launching Circle to Search, and no one knows why",
+      "link": "https://www.androidauthority.com/android-17-circle-to-search-bug-3686687/",
+      "summary": "Circle to Search is making itself way too comfortable on some Pixels.",
+      "body": "TL;DR Some Pixel users report a new Android 17 bug that randomly launches Circle to Search when leaving apps like WhatsApp and Telegram. The issue has been reported across multiple Pixel models, including the Pixel 9 Pro, Pixel 9a, Pixel 7a, Pixel 6 Pro, and Pixel 6. Google is investigating the reports after reaching out to affected users, but a fix hasn’t been announced yet. Android 17 may have arrived with plenty of useful features, but Pixel owners are still stumbling across some frustrating quirks. Just weeks after users complained about disappearing widgets following the stable release, another odd bug has surfaced — this time involving Circle to Search popping up when it shouldn’t. The issue first gained traction on Reddit , where a Pixel 7 owner noticed something strange. Every time they swiped up to go Home or open the recent apps screen after closing WhatsApp, Circle to Search would suddenly launch on its own. They even shared a screen recording showing the bug in action, making it clear this wasn’t just an accidental long press.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/04/using-circle-to-search-to-identify-a-plant-scaled.jpg",
+      "pubDate": "2026-07-13T06:47:40.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "03461a742a30d000",
+      "title": "Samsung’s HomeUp update is finally rolling out with powerful new gestures",
+      "link": "https://www.androidauthority.com/samsung-homeup-new-gestures-customization-3686698/",
+      "summary": "It's getting more customization options as well.",
+      "body": "TL;DR Samsung has started rolling out a new Home Up app update in South Korea. The update brings support for multi-finger gestures with two, three, four, and five fingers. It also adds new customization options for the Edge panel and dock. Last week, we reported that Samsung’s Home Up app was set to receive an update with a bunch of useful features and support for One UI 9 . It seems that’s finally happening as Samsung has started rolling out a new HomeUp update in South Korea. According to an X post by tipster Tarun Vats, the HomeUp app is receiving an update to v18.0.00.24, and it introduces some great new features. Also, the app now officially supports One UI 9 , which is great news for users running Samsung’s latest software.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2020/02/Samsung-Good-Lock-Galaxy-Store-listing.jpg",
+      "pubDate": "2026-07-13T06:34:01.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "405554f385e09c81",
+      "title": "Samsung may delay the TriFold 2, but another wild phone could arrive first",
+      "link": "https://www.androidauthority.com/samsung-galaxy-z-trifold-2-delay-leak-3686677/",
+      "summary": "We may see a slidable Samsung phone before the next TriFold comes into the picture.",
+      "body": "Credit: Lanh Nguyen / Android Authority TL;DR According to a new leak, Samsung’s rumored Galaxy Z TriFold 2 could be delayed beyond its originally planned launch. The same leak claims Samsung’s long-rumored slidable phone may now arrive sooner than previously expected. The report follows earlier rumors that Samsung is redesigning the Galaxy Z TriFold 2 to feature a thinner, lighter hinge. Samsung’s next-generation TriFold phone may have hit a bump in the road. According to Korean leaker Lanzuk (yeux1122), the company is now likely to push back the launch of the rumored Galaxy Z TriFold 2 , while its long-rumored slidable smartphone could arrive earlier than expected.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/01/Samsung-Galaxy-Z-TriFold-at-CES-2026-5-of-6.jpg",
+      "pubDate": "2026-07-13T06:26:43.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "568d4c0c2b0e78d7",
+      "title": "بعد الاتهام الإسباني.. رئيس الاتحاد الفرنسي يتحدث عن \"شهادة الجنسية\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%A7%D8%AA%D9%87%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D9%8A%D8%AA%D8%AD%D8%AF%D8%AB-%D8%B9%D9%86-%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9/blt6247516e3bf372b9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ماذا قال رئيس وزراء إسبانيا الأسبق عن لاعبي \"الديوك\"؟",
+      "body": "ماذا قال رئيس وزراء إسبانيا الأسبق عن لاعبي \"الديوك\"؟ ندد فيليب ديالو، رئيس الاتحاد الفرنسي لكرة القدم، بالتصريحات التي أطلقها ماريانو راخوي رئيس وزراء إسبانيا الأسبق، حول منتخب \"الديوك\"، مؤكدا أن اللاعبين ليسوا بحاجة إلى \"شهادة جنسية\" من أحد. وجاءت ردود ديالو بعدما كتب راخوي في مقال نُشر بإحدى الصحف الإلكترونية أن المنتخب الفرنسي \"يتمتع بمستوى عالٍ جدًا دون لاعبين فرنسيين\"، وهي عبارة فجّرت موجة غضب واسعة في الأوساط الرياضية والسياسية الفرنسية. وجّه ديالو، انتقادًا لاذعًا إلى رئيس الوزراء الإسباني الأسبق، على خلفية تصريحاته الأخيرة بشأن تشكيلة المنتخب الفرنسي، معتبرًا أنها \"تنطوي على عنصرية مرفوضة ولا تمتّ للواقع بصلة\". وقال رئيس الاتحاد الفرنسي، في بيان نشره عبر حساباته على منصات التواصل الاجتماعي: \"الكلمات التي استخدمها ماريانو راخوي في حديثه عن المنتخب الفرنسي تفوح منها رائحة عنصرية لا يمكن التسامح معها\".&nbsp; وانتقد ديالو ما وصفه بـ \"المناخ البغيض الذي يُنتج مثل هذه النبرة المسيئة\"، مدافعا بقوة عن هوية لاعبي المنتخب، ورافضًا أي تشكيك في انتمائهم الوطني، مضيفًا: \"لاعبونا ليسوا بحاجة إلى شهادة جنسية من رئيس وزراء إسباني سابق. منتخب فرنسا هو منتخب فرنسا، بكل ما يمثله من قيم وهوية\". من جانبها، وصفت الحكومة الفرنسية تصريحات راخوي بأنها \"غير مقبولة على الإطلاق\". وقال وزير الداخلية …",
+      "image": null,
+      "pubDate": "2026-07-13T06:24:28.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0606cc478c674faf",
+      "title": "ليجانيس يخطف لاعبا مغربيا من فرنسا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D8%AC%D8%A7%D9%86%D9%8A%D8%B3-%D9%8A%D8%AE%D8%B7%D9%81-%D9%84%D8%A7%D8%B9%D8%A8%D8%A7-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A7-%D9%85%D9%86-%D9%81%D8%B1%D9%86%D8%B3%D8%A7/bltc0ff8712851e496e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "انتهى عقده مع لوهافر",
+      "body": "انتهى عقده مع لوهافر تعاقد نادي ليجانيس الإسباني، رسميا مع الدولي المغربي ياسين كيشتا، قادما من لوهافر الفرنسي، بعقد يمتد إلى غاية صيف عام 2030. ويأتي انضمام لاعب خط الوسط البالغ من العمر 24 عاما إلى ليجانيس بعد نهاية عقده مع لوهافر، ليخوض أول تجربة له خارج الملاعب الفرنسية. وخلال الموسم الماضي، شارك الدولي المغربي في 31 مباراة بمختلف المسابقات، سجل خلالها هدفين وقدم تمريرة حاسمة. وكانت تقارير صحفية، أكدت أن الدولي المغربي ياسين كيشتا ، دخل دائرة اهتمام نادي ستاندار دو لييج البلجيكي، الذي يسعى إلى تعزيز خط وسط ميدانه خلال فترة الانتقالات الصيفية الحالية لكنه رحل في النهاية إلى إسبانيا. &nbsp;",
+      "image": null,
+      "pubDate": "2026-07-13T06:09:08.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1c77b94d4ee879bf",
+      "title": "هل ينوي مورينيو تفجير ثورة داخل ريال مدريد؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D9%84-%D9%8A%D9%86%D9%88%D9%8A-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D8%AA%D9%81%D8%AC%D9%8A%D8%B1-%D8%AB%D9%88%D8%B1%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/bltc801fb426d6e3b1b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بدأ جوزيه مورينيو، فترته التدريبية الثانية مع ريال مدريد، برسالة باتت تتردد داخل مدينة فالديبيباس الرياضية، وهي ضرورة تغيير ثقافة العمل اليومية، من أجل العودة لحصد الألقاب.",
+      "body": "بدأ جوزيه مورينيو، فترته التدريبية الثانية مع ريال مدريد، برسالة باتت تتردد داخل مدينة فالديبيباس الرياضية، وهي ضرورة تغيير ثقافة العمل اليومية، من أجل العودة لحصد الألقاب. وذكرت \" صحيفة ماركا \" أن مورينيو شدد خلال اجتماعاته الأولى، على أن النجاح لن يتحقق إلا إذا حافظ كل فرد داخل النادي، على المستوى نفسه من الالتزام اليومي والجوع للمنافسة. ورغم أن الفوز بالألقاب هو الهدف النهائي، فإن المدرب البرتغالي يرى أن البداية الحقيقية تكمن في تغيير ثقافة العمل اليومية داخل النادي. وبداية من اليوم الإثنين، سيبدأ جوزيه مورينيو في تطبيق أفكاره على أرض الملعب. وسينضم اللاعبون الدوليون الذين شاركوا في كأس العالم بشكل تدريجي، بعد حصولهم على الحد الأدنى من الراحة البدنية والذهنية، والذي يبلغ نحو 3 أسابيع، فيما سيقود المدرب، التدريبات الأولى باللاعبين المتاحين، إلى جانب عدد كبير من عناصر أكاديمية النادي. وخلال الأسابيع الماضية، درس مورينيو، تقارير فردية عن اللاعبين، واختار بنفسه مجموعة من المواهب الشابة التي يرغب في متابعتها عن قرب. وبالنسبة للكثير منهم، لن تكون المشاركة في تدريبات الفريق الأول، مجرد فرصة، بل ستكون أول اختبار حقيقي أمام مدرب يريد التعرف عليهم بنفسه، دون الاعتماد على آراء أو تقارير الآخرين. مورينيو لا يستهدف إجراء حملة تطهير وشددت \"ماركا\" في تقريرها، على أن مورينيو لا ينوي إحداث ثورة…",
+      "image": "https://assets.kooora.com/images/v3/blt8cda5f97f481d8bf/crop/MM5DGMZUGE5DCOBXHE5G433XMU5DAORRG42A====/GettyImages-2262844461.jpg",
+      "pubDate": "2026-07-13T06:08:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "b0327a344289cf93",
+      "title": "اجتماع سري في نيويورك.. فسخ عقد كلوب مع ريد بول خلال ساعات",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%B3%D8%B1%D9%8A-%D9%81%D9%8A-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D9%81%D8%B3%D8%AE-%D8%B9%D9%82%D8%AF-%D9%83%D9%84%D9%88%D8%A8-%D9%85%D8%B9-%D8%B1%D9%8A%D8%AF-%D8%A8%D9%88%D9%84-%D8%AE%D9%84%D8%A7%D9%84-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA/blte5d88b630fb7c923?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مدرب ليفربول سابق لن يستمر سفيرًا للعلامة التجارية الألمانية",
+      "body": "مدرب ليفربول سابق لن يستمر سفيرًا للعلامة التجارية الألمانية أكدت تقارير صحفية أن مسؤولين في الاتحاد الألماني لكرة القدم، سيجتمعون مع أوليفير مينتزلاف، الرئيس التنفيذي الرياضي لشركة \"ريد بول\"، غدا الثلاثاء، في محاولة لإتمام إجراءات فسخ عقد يورجن كلوب مع المنتخب الألماني، ليتولى تدريبه. وبحسب مجلة \" كيكر \" الألمانية، سيناقش الاجتماع إمكانية إنهاء عقد كلوب مع ريد بول مبكراً، وهو يمتد حتى عام 2029، بصفته رئيس قسم كرة القدم العالمية في المجموعة، حيث سيلتقي &nbsp;مينتزلاف مع كلوب في نيويورك لاحقاً هذا الأسبوع. وقد توصل كلوب بالفعل إلى اتفاق مبدئي مع مسؤولي الاتحاد الألماني لكرة القدم، بمن فيهم الرئيس بيرند نويندورف ونائبه هانز يواكيم فاتسكه، خلال اجتماع عقد في الولايات المتحدة، حيث يعمل المدرب السابق لبوروسيا دورتموند وليفربول محللاً رياضياً في قناة \"ماجنتا تي في\" خلال كأس العالم. ومن المقرر أن يوقع كلوب عقداً يمتد حتى عام 2030، إلا أن الاتفاق مع \"ريد بول\"، حيث يعمل حالياً، لم يحسم بعد. ويعد استمرار كلوب مع \"ريد بول\" كسفير للعلامة التجارية، مطروحاً بقوة في وسائل الإعلام، لكن بعض المسؤولين في الاتحاد الألماني لا يؤيدون هذا الحل. وأوضحت \"كيكر\" أنه قد يُسمح لكلوب بمواصلة تقديم المشورة لقطاع الامتيازات الرياضية التابع للشركة العالمية في الأوقات التي لا يعمل فيها مع المنتخب . ويحتاج المنتخب…",
+      "image": null,
+      "pubDate": "2026-07-13T05:57:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "93073010e2a343b9",
+      "title": "بالفيديو.. نجم إنجلترا السابق: سنرسل ميسي للنوم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%86%D8%AC%D9%85-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D8%B3%D9%86%D8%B1%D8%B3%D9%84-%D9%85%D9%8A%D8%B3%D9%8A-%D9%84%D9%84%D9%86%D9%88%D9%85/bltf059768993838c88?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "علق جو كول، نجم المنتخب الإنجليزي السابق، على المواجهة المرتقبة أمام الأرجنتين، في نصف نهائي كأس العالم، بعد غد الأربعاء.",
+      "body": "علق جو كول، نجم المنتخب الإنجليزي السابق، على المواجهة المرتقبة أمام الأرجنتين، في نصف نهائي كأس العالم، بعد غد الأربعاء. ويستعد ليونيل ميسي، قائد الأرجنتين، لخوض مباراته الأولى ضد منتخب الأسود الثلاثة. وقال كول، خلال استضافته في بودكاست The Rest Is Football \"سيتوجب علينا إنهاء خطورة ميسي، وإرساله إلى النوم\". وأضاف \"أعتقد أن منتخبنا الإنجليزي يتفوق على الأرجنتين، فنحن ذاهبون إلى نهائي كأس العالم\". وتابع جول كول \"أشعر من أعماق قلبي، بأننا سنهزم الأرجنتين\". وبلغ منتخب إنجلترا، المربع الذهبي، بعد فوزه 2-1 على النرويج في دور الثمانية، بعد التمديد للوقت الإضافي. فيما تأهل منتخب الأرجنتين (حامل اللقب) للمربع الذهبي، بعد انتصاره 3-1 على سويسرا، بعد التمديد أيضًا للوقت الإضافي. View this post on Instagram",
+      "image": null,
+      "pubDate": "2026-07-13T05:55:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1875f2189de7110b",
+      "title": "صبر أياكس نفد.. أزمة بين شتيجن وبرشلونة تهدد رحيله المنتظر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%A8%D8%B1-%D8%A7%D9%94%D9%8A%D8%A7%D9%83%D8%B3-%D9%86%D9%81%D8%AF-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%A8%D9%8A%D9%86-%D8%B4%D8%AA%D9%8A%D8%AC%D9%86-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AA%D9%87%D8%AF%D8%AF-%D8%B1%D8%AD%D9%8A%D9%84%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B8%D8%B1/bltc85727025991aa2d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الحارس سيتواجد في تدريبات البارسا",
+      "body": "الحارس سيتواجد في تدريبات البارسا كشف تقرير صحفي، اليوم الإثنين، عن أزمة تواجه الألماني تير شتيجن، حارس مرمى برشلونة، تهدد مغادرته للنادي الكتالوني هذا الصيف. وقالت صحيفة \" موندو ديبورتيفو \"، إنه من المتوقع أن ينضم تير شتيجن (34 عامًا)&nbsp; اليوم إلى المدينة الرياضية مع بقية لاعبي برشلونة غير الدوليين. &nbsp;ويختلف وضعه عن بقية لاعبي برشلونة، حيث اتفق الحارس الألماني مع أياكس على إعارته لمدة عام واحد، إلا أن الخلافات الضريبية مع البارسا تحول دون إتمام الاتفاق وتؤخر الإعلان عنه. &nbsp;وفي حال عدم التوصل إلى اتفاق خلال ساعات، سيتواجد اللاعب في مرافق برشلونة. إلا أن الموافقة النهائية تتأخر، وقد نفد صبر أياكس، الذي يرغب في حل فوري. فهم لا يفهمون سبب التأخير بعد أن اعتقدوا أن كل شيء واضح ومتفق عليه. &nbsp;وقد بلغ استغرابهم حداً جعلهم يحذرون من أنه إذا لم تُحل الخلافات سريعاً، سواء من جانب اللاعب وحده أو بين اللاعب وبرشلونة، فهناك خطر من فشل الصفقة. يخطط تير شتيجن لمغادرة برشلونة والتوجه إلى أمستردام فور تعافيه التام من إصابته الأخيرة في أوتار الركبة، والتي تعرض لها في يناير الماضي أثناء إعارته إلى جيرونا، والتي استدعت جراحةً أبعدته عن كأس العالم. &nbsp;كما أن اللاعب في عجلة من أمره، إذ كان يخطط لرحلته منذ أيام لإجراء فحص طبي مع النادي الهولندي وإتمام إجراءات إعارته إلى أياكس. بدأ النا…",
+      "image": null,
+      "pubDate": "2026-07-13T05:48:04.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "08bd67b3b954e1e3",
+      "title": "قناع بيلينجهام يثير الجدل قبل مواجهة الأرجنتين",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D9%86%D8%A7%D8%B9-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86/blt966e7039f07df025?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نجم ريال مدريد يواصل تألقه",
+      "body": "نجم ريال مدريد يواصل تألقه أثار جود بيلينجهام، نجم منتخب إنجلترا وريال مدريد، جدلاً واسعًا على وسائل التواصل الاجتماعي بعد نشره صورة له وهو يرتدي قناع أكسجين، عقب تأهل الأسود الثلاثة إلى نصف نهائي كأس العالم 2026 على حساب النرويج. وشارك بيلينجهام، الذي يتابعه أكثر من 46.8 مليون مستخدم على إنستجرام، عدة صور احتفالية مع زملائه في المنتخب، مرفقة بتعليق متفائل: \"ما زلنا في المعركة، الآن الدور نصف النهائي، فلنؤمن!\"، لكن الصورة التي استحوذت على اهتمام المتابعين كانت تلك التي ظهر فيها مرتديًا قناع الأكسجين. وليست هذه المرة الأولى التي ينشر فيها لاعب الوسط الإنجليزي صورًا مماثلة، إذ يستخدم هذه التقنية بانتظام خلال الموسم كجزء من برنامجه للتعافي البدني والحفاظ على اللياقة. وفي تصريحات لبرنامج &nbsp;\"CuídatePlus\"، أوضح أخصائي علاج الإصابات خوان أرنال أن هذا النوع من الأقنعة \"يشبه غرف العلاج بالأكسجين عالي الضغط، الشائعة بين الرياضيين النخبة، والتي تعتمد على زيادة الضغط الجوي لتحسين امتصاص الأكسجين\". وأكد الطبيب الإسباني أن \"هناك أدلة علمية على أن زيادة الإمداد الأيضي بالأكسجين تسرع من تعافي إصابات العضلات\"، مشيرًا إلى أن \"هذا الاستخدام هو الأكثر شيوعًا بين لاعبي كرة القدم، حيث يتم الجمع بين إعطاء الأكسجين واستخدام غرفة الضغط العالي لتسريع الشفاء\". وتُعد تقنية العلاج بالأكسجين من الوسائل الم…",
+      "image": null,
+      "pubDate": "2026-07-13T05:44:04.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "055afdbad4561241",
+      "title": "\"انتحر أيها الأحمق\".. سورلوث يتلقى رسائل تهديد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%86%D8%AA%D8%AD%D8%B1-%D8%A7%D9%94%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D9%94%D8%AD%D9%85%D9%82-%D8%B3%D9%88%D8%B1%D9%84%D9%88%D8%AB-%D9%8A%D8%AA%D9%84%D9%82%D9%89-%D8%B1%D8%B3%D8%A7%D9%8A%D9%94%D9%84-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF/bltd048b2e9fdea722b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "هل فشل في إقناع جماهير بلاده؟",
+      "body": "هل فشل في إقناع جماهير بلاده؟ قررت لينا سيلنيس، شريكة مهاجم النرويج ألكسندر سورلوث، أن تتخذ إجراءات قانونية بعد تلقيها رسائل مسيئة عبر بريدها الإلكتروني ومنصات التواصل الاجتماعي. وفي أعقاب خروج منتخب النرويج من ربع نهائي كأس العالم على يد إنجلترا، اضطرت لينا سيلنيس للخروج عن صمتها عبر حسابها على \"إنستجرام\" للرد على موجة الكراهية التي استهدفت شريكها ولاعب المنتخب ألكسندر سورلوث. ونشرت سيلنيس، التي تتابعها أكثر من 40 ألف شخص، نماذج من الرسائل المسيئة التي وصلتها عبر خاصية \"الستوري\"، وجاء فيها: \"أرجوك انتحر أيها الأحمق!\" و\"أخبري حبيبك أن يغادر النرويج ويقفز من أعلى جرف!\" وعلقت سيلنيس، والدة طفلي سورلوث، على الحادثة قائلة بحسب موقع \" tv2 \" النرويجي: \"كأس العالم يجلب الكثير من البهجة، لكنه يجلب معه أيضًا قدرًا كبيرًا من الكراهية\".&nbsp; وأضافت: \"لم أكن أرغب في منح هذه التعليقات أي اهتمام، لكن بعد رسائل بهذا المستوى، أصبح الصمت مستحيلًا\". ولفتت إلى: \"أتمنى أن يفكر الجميع مليًا قبل كتابة مثل هذه التعليقات، أيًا كانت الظروف\". من جهته، أدان ستال سولباكن، المدير الفني للمنتخب النرويجي، هذه الحملة بشدة، واصفًا ما حدث بأنه \"مأساوي\"، مضيفا: \"هذا هو الواقع الذي نعيشه اليوم\".&nbsp; وتابع: \"لهذا السبب أنصح اللاعبين الشباب بالابتعاد قدر الإمكان عن وسائل التواصل الاجتماعي\". يُذكر أن سورلوث شارك أسا…",
+      "image": "https://assets.kooora.com/images/v3/blt177784fb54cbe244/3322.jpg",
+      "pubDate": "2026-07-13T05:36:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "71298f8f7886f809",
+      "title": "القهوة وضغط الدم.. لماذا يختلف تأثيرها من شخص إلى آخر؟",
+      "link": "https://www.skynewsarabia.com/technology/1880513-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D9%88%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D9%85-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%AE%D8%AA%D9%84%D9%81-%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%D9%87%D8%A7-%D8%B4%D8%AE%D8%B5-%D8%A2%D8%AE%D8%B1",
+      "summary": "قد يؤدي تناول الكافيين إلى ارتفاع طفيف ومؤقت في ضغط الدم، وعند التوقف عنه، يزول هذا الارتفاع المرتبط بتناوله، لكن تأثير الامتناع عن الكافيين على ضغط الدم على المدى الطويل ليس بسيطاً، إذ يعتمد على درجة تحمّل الجسم للكافيين، ومستوى ضغط الدم الأساسي، ومصدر الكافيين، وعوامل فردية أخرى.",
+      "body": null,
+      "image": "https://images.skynewsarabia.com/images/v3/2022/08/31/1551372/95/53/1-1551372.jpg",
+      "pubDate": "2026-07-13T05:36:19.000Z",
+      "source": {
+        "name": "Sky News Arabia — تكنولوجيا",
+        "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
+      },
+      "lang": "ar",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "798195a4d027e560",
+      "title": "مأساة تهز البرتغال.. وفاة نجم بنفيكا في حادث مروري",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D9%94%D8%B3%D8%A7%D8%A9-%D8%AA%D9%87%D8%B2-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D9%88%D9%81%D8%A7%D8%A9-%D9%86%D8%AC%D9%85-%D8%A8%D9%86%D9%81%D9%8A%D9%83%D8%A7-%D9%81%D9%8A-%D8%AD%D8%A7%D8%AF%D8%AB-%D9%85%D8%B1%D9%88%D8%B1%D9%8A/blt3dc0f1ab9f0cede0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فاجعة جديدة تهز كرة القدم",
+      "body": "فاجعة جديدة تهز كرة القدم لقي إيمانويل دي جيسوس بونفيم إيفاريستو، الشهير بـ\"مانو\"، نجم بنفيكا السابق، مصرعه في حادث سير مروع ببلدية سوبرال دي مونتي أجراسو، شمال العاصمة لشبونة، عن عمر يناهز 43 عامًا. وأفادت وسائل الإعلام البرتغالية، أن اللاعب الدولي السابق فقد السيطرة على سيارته أثناء عودته منفردًا إلى منزله، على بعد 4 كيلومترات من موقع الحادث، في طريق كان يعرفه جيدًا. وعُثر على مانو محاصرًا داخل السيارة وقد أصيب بسكتة قلبية تنفسية، وعلى الرغم من محاولات الإنعاش المكثفة، أُعلنت وفاته في موقع الحادث، فيما يواصل الحرس الوطني الجمهوري التحقيق في ملابسات الحادث الذي لم تتورط فيه مركبات أخرى. O Sport Lisboa e Benfica manifesta o seu profundo pesar pelo falecimento de Manú, antigo jogador do Clube. À família e aos amigos, o Clube endereça as mais sentidas condolências. 🤍 pic.twitter.com/RaDiZysMKt &mdash; SL Benfica (@SLBenfica) July 12, 2026 وبرز مانو خلال مسيرته الكروية كجناح أيمن موهوب، حيث دافع عن ألوان أندية عديدة أبرزها بنفيكا الذي لعب له بين عامي 2004 و2008، إلى جانب ألفيركا وإستريلا أمادورا وماريتيمو وفيتوريا سيتوبال، قبل أن يعتزل اللعب عام 2019 مع نادي فيلافرانكوينسي. وأعرب نادي بنفيكا عن \"خالص تعازيه لوفاة مانو، اللاعب السابق في النادي\"، مقدمًا \"تعازيه القلبية لعائلته وأصدقائ…",
+      "image": null,
+      "pubDate": "2026-07-13T05:33:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "a46d71cdabe629f2",
+      "title": "Who am I? Guess World Cup star No 36",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62elldp6l7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Will you get today's player in as few attempts as possible?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T05:29:30.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "25d93639e5fee8f2",
+      "title": "'Out of this world!' - Best shots of Wimbledon 2026",
+      "link": "https://www.bbc.co.uk/sport/tennis/videos/cx2k9v4957no?at_medium=RSS&at_campaign=rss",
+      "summary": "Enjoy the best shots of Wimbledon 2026, featuring Great Britain's Arthur Fery, Novak Djokovic, Coco Gauff and more.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T05:27:44.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8cd82ebc8c7c0118",
+      "title": "These are unprecedented times for England - enjoy them",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
+      "summary": "A record of four semi-finals in the past five international tournaments for England is outstanding. It is time to accept that this is where England belong.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T05:25:22.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "6f00ff9c65126425",
+      "title": "\"خيبة أمل كبيرة\".. برناردو سيلفا يكسر صمته بعد توديع المونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D9%8A%D8%A8%D8%A9-%D8%A7%D9%94%D9%85%D9%84-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D8%A8%D8%B1%D9%86%D8%A7%D8%B1%D8%AF%D9%88-%D8%B3%D9%8A%D9%84%D9%81%D8%A7-%D9%8A%D9%83%D8%B3%D8%B1-%D8%B5%D9%85%D8%AA%D9%87-%D8%A8%D8%B9%D8%AF-%D8%AA%D9%88%D8%AF%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt669e742c9a10922b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "البرتغال ودعت من ثمن النهائي",
+      "body": "البرتغال ودعت من ثمن النهائي كسر برناردو سيلفا، نجم البرتغال صمته بعد أيام من الخروج من كأس العالم 2026، بالخسارة أمام إسبانيا، بهدف نظيف في ثمن النهائي. وتعرض لاعبو البرتغال لانتقادات واسعة بعد ظهورهم بمستوى ضعيف في البطولة المقامة بأمريكا وكندا والمكسيك، والخروج من ثمن النهائي بخسارة محبطة أمام إسبانيا. وقال برناردو سيلفا، عبر حسابه على إنستجرام: \"كأس عالم مُحبطة وخيبة أمل كبيرة لانتهاء البطولة بهذه السرعة، أسرع مما كنا نتصور\". وختم: \"لقد كان وسيظل شرفًا عظيمًا تمثيل منتخبنا الوطني. شكرًا جزيلًا للشعب البرتغالي على دعمه وأمله الذي منحه لنا\". View this post on Instagram &nbsp; &nbsp; &nbsp;",
+      "image": null,
+      "pubDate": "2026-07-13T05:18:46.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "90c3acadf9237323",
+      "title": "أثار الجدل بطرد مثير.. الفيفا يختار حكم قمة فرنسا وإسبانيا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%AB%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D8%A8%D8%B7%D8%B1%D8%AF-%D9%85%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%8A%D8%AE%D8%AA%D8%A7%D8%B1-%D8%AD%D9%83%D9%85-%D9%82%D9%85%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7/blt905f419433093261?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "نقلة نوعية للحكم",
+      "body": "نقلة نوعية للحكم أعلن الاتحاد الدولي لكرة القدم \"فيفا\"، رسميًا تكليف الحكم السلفادوري إيفان بارتون بإدارة المواجهة الحاسمة بين المنتخبين الفرنسي والإسباني في نصف نهائي كأس العالم 2026، المقررة غدًا الثلاثاء. وسيعاون بارتون طاقم تحكيمي من أمريكا الوسطى، يضم مواطنه دافيد موران كمساعد أول، إلى جانب أنطونيو بوبيرو من نيكاراجوا كمساعد ثانٍ، فيما يتولى السويدي جلين نيبرج مهمة الحكم الرابع. ويخوض الحكم السلفادوري، أولى تجاربه في الأدوار النهائية المتقدمة لكأس العالم، بعدما أدار 3 مباريات في النسخة الحالية، كانت أولاها بين تركيا وباراجواي في دور المجموعات، والتي شهدت طرد اللاعب الباراجواياني ميجيل ألميرون؛ بسبب تغطية الفم. وواصل بارتون مشواره التحكيمي بإدارة لقاء اليابان والسويد في الدور الأول أيضًا، قبل أن يُسند إليه قيادة مباراة ثمن النهائي المثيرة بين سويسرا وكولومبيا، التي حُسمت بركلات الترجيح لصالح المنتخب السويسري. ويُعد هذا التكليف قفزة نوعية في مسيرة الحكم السلفادوري، الذي سبق له المشاركة في نسخة كأس العالم 2022، حيث أدار 3 مباريات أيضًا، كان آخرها مواجهة إنجلترا والسنغال في دور الستة عشر.",
+      "image": null,
+      "pubDate": "2026-07-13T05:15:45.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "d5f4551f78e23646",
+      "title": "The hardest test - Wales need reaction in South Africa",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c04ywzp116wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Josh Adams says Wales face the toughest test of their progress under Steve Tandy when facing South Africa in the Nations Championship.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T05:14:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d5f4551f78e23646",
+      "title": "The hardest test - Wales need reaction in South Africa",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c04ywzp116wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Josh Adams says Wales face the toughest test of their progress under Steve Tandy when facing South Africa in the Nations Championship.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-13T05:14:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2ea14bff8b375871",
+      "title": "Claude just delayed the Fable 5 paywall again, extending free access until this date",
+      "link": "https://www.androidauthority.com/claude-fable-5-access-extended-3686668/",
+      "summary": "Fable 5 dodges the paywall yet again, and we're not complaining.",
+      "body": "TL;DR Anthropic has extended free access to Claude Fable 5 for paid subscribers until July 19, 2026. You can use Claude Fable 5 at no extra charge until you’ve consumed half of your weekly usage quota. After July 19, Fable 5 is expected to move to a pay-per-use model, requiring usage credits beyond your subscription. If you’ve been holding off on trying Claude’s latest AI model because of all the confusion around its availability, here’s some good news. Anthropic is giving paid subscribers another chance to use Claude Fable 5 without paying anything extra — at least for now. The company has had a surprisingly messy rollout for its flagship model. Fable 5 launched as Claude’s most advanced AI, but its momentum didn’t last long. Export restrictions soon limited access in several countries, and once the model became available again , Anthropic announced it would move to a pay-per-use system. That means even people already paying for Claude Pro or other premium plans would eventually need to spend extra to keep using its newest model.",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2023/12/claude-homepage.jpg",
+      "pubDate": "2026-07-13T05:08:42.000Z",
+      "source": {
+        "name": "Android Authority",
+        "homepage": "https://www.androidauthority.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ce7d7f3ec84a6e1c",
+      "title": "بعد الانزعاج.. مورينيو يقتحم مفاوضات فينيسيوس",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%A7%D9%86%D8%B2%D8%B9%D8%A7%D8%AC-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D9%8A%D9%82%D8%AA%D8%AD%D9%85-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3/blted7febecceaf91a6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يحاول نادي ريال مدريد، تسريع مفاوضات تجديد عقد لاعبه البرازيلي فينيسيوس جونيور، بعد خروجه من كأس العالم مع منتخب بلاده، من دور 16.",
+      "body": "يحاول نادي ريال مدريد، تسريع مفاوضات تجديد عقد لاعبه البرازيلي فينيسيوس جونيور، بعد خروجه من كأس العالم مع منتخب بلاده، من دور 16. وذكرت صحيفة \" سبورت \" أن المدرب البرتغالي جوزيه مورينيو، طلب المشاركة في مفاوضات التجديد لفينيسيوس، الذي ينتهي عقده في صيف 2027. ويحرص مورينيو، على منع تحول مستقبل فينيسيوس، إلى أزمة، حيث أن دخول اللاعب البرازيلي، عامه الأخير في العقد، من دون التوصل إلى اتفاق، يجعل الوضع أكثر تعقيدًا. ولا يزال موقف فينيسيوس، واضحًا، فهو يريد الاستمرار مع ريال مدريد، لكن ليس بأي ثمن، فهو يطالب بأن يتم الاعتراف بقيمته، ليس فقط كلاعب، بل أيضًا كأصل استثماري مهم للملكي.&nbsp; ونوهت سبورت \"يعتقد ريال مدريد أن الطرفين محكومان في النهاية بالتوصل إلى اتفاق، لكن فينيسيوس يشعر بالانزعاج من بعض التسريبات الإعلامية التي تتحدث عن اتفاق وشيك، في حين أن المفاوضات لا تزال عند النقطة نفسها التي كانت عليها قبل كأس العالم\". ولهذا السبب، قرر مورينيو، التدخل بشكل مباشر، حيث تواصل مع اللاعب شخصيًا في محاولة لمنع تحول القضية إلى مسلسل طويل من الجدل. وتقوم فلسفة المدرب البرتغالي على فكرة واضحة، بوجود مكان للجميع في فريقه، فهو يدرك أنه يمتلك بعضًا من أفضل اللاعبين في العالم، وأن مهمته تتمثل في ترتيب هذه القطع بالشكل الصحيح، لتجنب الأخطاء التي شهدها الموسم الماضي. وتجاوز الجدل حول نجوم ريال مدر…",
+      "image": null,
+      "pubDate": "2026-07-13T05:08:27.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "4a30aa82af04b53b",
+      "title": "لابورتا: سمعت بوجود عرض من باريس لضم لاعبنا الخطير",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D8%B3%D9%85%D8%B9%D8%AA-%D8%A8%D9%88%D8%AC%D9%88%D8%AF-%D8%B9%D8%B1%D8%B6-%D9%85%D9%86-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%84%D8%B6%D9%85-%D9%84%D8%A7%D8%B9%D8%A8%D9%86%D8%A7-%D8%A7%D9%84%D8%AE%D8%B7%D9%8A%D8%B1/bltb5317c4ad2b62a3a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "رئيس برشلونة يغلق الباب في وجه سان جيرمان",
+      "body": "رئيس برشلونة يغلق الباب في وجه سان جيرمان علّق خوان لابورتا، رئيس نادي برشلونة، للمرة الأولى على التقارير التي ربطت فيران توريس بالانتقال إلى نادي باريس سان جيرمان، مؤكدا عدم تلقي أي اتصال رسمي من النادي الباريسي بشأن انتقال محتمل. وأثناء وجوده في الولايات المتحدة لمتابعة نصف نهائي كأس العالم بين إسبانيا وفرنسا، سُئل لابورتا عن مستقبل المهاجم الدولي، فقلّل من أهمية الشائعات المتداولة، مشددًا على أن اللاعب لا يزال ضمن صفوف برشلونة. وقال لابورتا ردًا على إمكانية انتقال فيران إلى بطل أوروبا عقب المونديال: \"سمعت شيئًا عن هذا الأمر، لكننا لم نتلقَّ أي تأكيد رسمي. فيران لاعب في برشلونة\". وتأتي تصريحات رئيس النادي الكتالوني بعد تقارير صحفية أشارت إلى تزايد اهتمام باريس سان جيرمان باللاعب خلال الساعات الماضية.&nbsp; ووفقًا لصحيفة \" موندو ديبورتيفو \"، دخل النادي الباريسي في مفاوضات مع وكلاء اللاعب منذ عدة أيام، ويُقال إن الصفقة وصلت إلى مراحل متقدمة، غير أن الإعلان الرسمي مؤجل إلى ما بعد كأس العالم. من جانبه، لا يزال فيران توريس يُبقي جميع الخيارات مفتوحة، ورغم تلقيه عرضًا لتجديد عقده مع برشلونة، إلا أنه لم يحسم قراره النهائي بعد، وفي حال قرر الرحيل عن \"البلوجرانا\"، فإن أولويته ستكون الانضمام إلى أحد أندية القمة في أوروبا، ويُعد باريس سان جيرمان بقيادة لويس إنريكي الخيار الأبرز أمامه. ورغم…",
+      "image": null,
+      "pubDate": "2026-07-13T05:05:43.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "5d1f5a2587a27aad",
+      "title": "النصر في ورطة.. أزمة مالية خانقة تلتهم الرواتب وتوقف صفقات الصيف!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%81%D9%8A-%D9%88%D8%B1%D8%B7%D8%A9-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D8%A7%D9%86%D9%82%D8%A9-%D8%AA%D9%84%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D8%AA%D8%A8-%D9%88%D8%AA%D9%88%D9%82%D9%81-%D8%B5%D9%81%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D9%8A%D9%81/blt3ee1c7eef6c9a52c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "العالمي يواجه مصيرًا صعبًا",
+      "body": "العالمي يواجه مصيرًا صعبًا دخل نادي النصر السعودي مرحلة حساسة على الصعيد الإداري والمالي خلال الفترة الحالية، بعدما كشفت تقارير عن وجود أزمة سيولة أثرت على عدد من الملفات المهمة داخل النادي، سواء المتعلقة بالفريق الأول لكرة القدم أو بالجوانب الإدارية الأخرى. وبحسب صحيفة \" الرياضية \" السعودية، فإن إدارة شركة نادي النصر تواجه ضغوطًا مالية أدت إلى تعليق بعض القرارات والخطوات التي كان من المنتظر حسمها قبل انطلاق الموسم الجديد. وامتدت الأزمة إلى ملف الرواتب، حيث أوضح المصدر أن عددًا من لاعبي الفريق الأول تسلموا راتب شهر يونيو بشكل منقوص، فيما تعمل الإدارة حاليًا على توفير المبالغ المتبقية وصرفها خلال الفترة المقبلة. وأشار المصدر إلى أن ضعف السيولة المالية انعكس أيضًا على تحركات النادي في سوق الانتقالات، خاصة فيما يتعلق بالتعاقد مع لاعب أجنبي لتعويض رحيل الكرواتي مارسيلو بروزوفيتش. وأضاف أن إدارة النصر لم تدخل حتى الآن في أي مفاوضات رسمية مع بديل لبروزوفيتش، رغم حاجة الفريق الفنية إلى تدعيم خط الوسط، وذلك بسبب انتظار اتضاح الصورة المالية بشكل أكبر قبل التحرك في الملف. اقرأ أيضًا.. الدور على مبابي.. هل يصبح يامال \"العميل السري\" في رقصة ميسي الأخيرة؟ وكان النصر قد أعلن الإثنين الماضي نهاية مشوار بروزوفيتش مع الفريق بعد انتهاء عقده، ليصبح مركز الوسط أحد أبرز المراكز التي يسعى الجهاز الفني …",
+      "image": null,
+      "pubDate": "2026-07-13T05:05:38.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "def9dfc28ada974b",
+      "title": "\"فضيحة كبرى\".. مفاجأة مدوية بشأن إلغاء بطاقة بالوجون",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-%D9%83%D8%A8%D8%B1%D9%89-%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%85%D8%AF%D9%88%D9%8A%D8%A9-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%95%D9%84%D8%BA%D8%A7%D8%A1-%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A8%D8%A7%D9%84%D9%88%D8%AC%D9%88%D9%86/bltd57e8526a056606f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الضغط يتزايد على الفيفا",
+      "body": "الضغط يتزايد على الفيفا كشفت تحقيقات صحفية بريطانية، تفاصيل صادمة بشأن قرار الفيفا المثير للجدل بإلغاء إيقاف المهاجم الأمريكي فولارين بالوجون، مؤكدة أن مسؤولًا واحدًا فقط هو من اتخذ القرار دون مشاركة بقية أعضاء لجنة الانضباط. ونشرت صحيفة \"التايمز\" البريطانية، معلومات تفيد بأن محمد الكمالي، رئيس لجنة الانضباط في الفيفا، هو من قرر منفردًا رفع الإيقاف عن لاعب موناكو، رغم اجتماع اللجنة المكونة من 18 عضوًا لمناقشة طرده أمام البوسنة والهرسك. كان بالوجون قد طُرد في مباراة دور المجموعات ضد البوسنة، لكن الفيفا سمح له بالمشاركة في مواجهة دور الـ16 أمام بلجيكا التي خسرتها الولايات المتحدة المضيفة بنتيجة 1-4، قبل نحو 10 أيام، في قرار أثار عاصفة من الانتقادات. وتفاقمت الأزمة بعد تدخل الرئيس الأمريكي دونالد ترامب، الذي أكد شفهيًا أنه تواصل شخصيًا مع رئيس الفيفا جياني إنفانتينو، طالبًا مراجعة العقوبة المفروضة على اللاعب البالغ 25 عامًا، مؤكدًا أن تصرفات بالوجون لا تستدعي أي عقاب. وأوضح ترامب أنه طلب من الفيفا إعادة فحص اللقطات، نافيًا مطالبته بإلغاء القرار مباشرة، لكن تصريحاته أثارت موجة استياء واسعة في الأوساط الكروية، ما دفع الاتحاد الدولي لإصدار بيان دفاعي أكد فيه أن القرار اتُخذ \"بشكل مستقل\". غير أن الكشف عن انفراد الكمالي باتخاذ القرار يطرح تساؤلات جدية حول شرعية لجنة الانضباط، التي استندت …",
+      "image": null,
+      "pubDate": "2026-07-13T05:03:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0c189ead8cc0844a",
+      "title": "فيديو: نيمار يفجر غضب البرازيليين بعد أيام من صاعقة المونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%8A%D9%81%D8%AC%D8%B1-%D8%BA%D8%B6%D8%A8-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A%D9%8A%D9%86-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D9%8A%D8%A7%D9%85-%D9%85%D9%86-%D8%B5%D8%A7%D8%B9%D9%82%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt85e822f0a1a63a5f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "البرازيل ودعت كأس العالم من ثمن النهائي",
+      "body": "البرازيل ودعت كأس العالم من ثمن النهائي &nbsp;ودعت البرازيل كأس العالم 2026 بعد خروج مؤلم من دور الـ16، إثر هزيمتها أمام النرويج (2-1 بعد الوقت الإضافي). &nbsp;ورغم التوقعات العالية التي كانت تُحيط بالسيلساو ونيمار ، فشل المنتخب البرازيلي في تحقيق المزيد من التقدم في البطولة، مما أثار خيبة أمل كبيرة لدى الجماهير. وقال موقع \" فوت ميركاتو \"، إنه بعد أيام قليلة من خروجه المبكر، فاجأ نيمار الجميع بظهوره في لاس فيجاس للمشاركة في بطولة بوكر. وأثار حضور قائد المنتخب البرازيلي في هذا الحدث ردود فعل واسعة على مواقع التواصل الاجتماعي، حيث رأى البعض فيه تناقضاً صارخاً مع خيبة الأمل التي لا تزال حاضرة في أذهانهم بعد خروج البرازيل من البطولة. &nbsp; Welcome to the 2026 WSOP @neymarjr ! The Brazilian soccer superstar has entered the $10,000 six-max after his country was eliminated from the FIFA World Cup roughly one week ago. pic.twitter.com/Mjb3a7i0uG — WSOP - World Series of Poker (@WSOP) July 11, 2026",
+      "image": null,
+      "pubDate": "2026-07-13T04:59:16.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "fd35f64be2f417f6",
+      "title": "\"هزمناهم مرتين ولن نتوقف\".. دي لا فوينتي يشعل مواجهة فرنسا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D8%B2%D9%85%D9%86%D8%A7%D9%87%D9%85-%D9%85%D8%B1%D8%AA%D9%8A%D9%86-%D9%88%D9%84%D9%86-%D9%86%D8%AA%D9%88%D9%82%D9%81-%D8%AF%D9%8A-%D9%84%D8%A7-%D9%81%D9%88%D9%8A%D9%86%D8%AA%D9%8A-%D9%8A%D8%B4%D8%B9%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D8%A7/blt08773e376460e2cc?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "من يهزم الآخر؟",
+      "body": "من يهزم الآخر؟ أطلق نجوم المنتخب الإسباني، رسائل واثقة إلى نظيرهم الفرنسي، عشية مواجهة نصف نهائي كأس العالم 2026 المرتقبة غدًا الثلاثاء، مؤكدين أن قوة الفريق الجماعية وأسلوب اللعب المحكم كفيلان بحسم التأهل للمباراة النهائية. وفي تصريحات متفرقة لوسائل إعلام إسبانية، شدد حارس المرمى أوناي سيمون، ولاعب الوسط ميكيل ميرينو، والمدير الفني لويس دي لا فوينتي، على ثقتهم المطلقة بإمكانية تجاوز العقبة الفرنسية رغم اعتبار الديوك المرشح الأوفر حظًا للفوز. وقال سيمون لإذاعة \"كادينا كوبي\": \"فرنسا قوة كروية عظمى بلا شك، لكننا نمتلك ثقة هائلة في أدائنا. عقليتنا تقوم على أنه إذا بذل كل فرد قصارى جهده، فلا يوجد فريق يستطيع هزيمتنا\". وأضاف الحارس الإسباني: \"يمتلك المنتخب الفرنسي لاعبين مميزين في الهجوم مثل ديمبيلي ومبابي، وهذا خطر حقيقي، لكن قوتنا تكمن في الفريق ككل. نحن فريق ذو خطة محكمة، ومن الصعب جدًا التغلب علينا\". من جهته، كشف ميرينو في حديثه لصحيفة \"ماركا\" عن وصفة التفوق على فرنسا، قائلًا: \"بتقديم مباراة جيدة والالتزام بأسلوبنا والسيطرة على اللحظات الحاسمة، ستكون هناك مواجهات ثنائية يتألق فيها اللاعبون بشكل فردي، وأي لاعب من فريقهم قادر على خلق الخطورة، لذا علينا التركيز التام\". وأشار ميرينو، إلى أن كون إسبانيا المرشح الأبرز للفوز لا يعني شيئًا، مؤكدًا ضرورة الحذر من القدرات الفردية الاستثنائية…",
+      "image": null,
+      "pubDate": "2026-07-13T04:54:41.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "bd1c4724001adc16",
+      "title": "هاري كين قبل مواجهة الأرجنتين: نلعب لنفوز بكأس العالم.. لا لنُمتع توخيل",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D8%A7%D8%B1%D9%8A-%D9%83%D9%8A%D9%86-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D9%86%D9%84%D8%B9%D8%A8-%D9%84%D9%86%D9%81%D9%88%D8%B2-%D8%A8%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%84%D8%A7-%D9%84%D9%86%D9%8F%D9%85%D8%AA%D8%B9-%D8%AA%D9%88%D8%AE%D9%8A%D9%84/blt955e68c3c55a9b72?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مهاجم البايرن يؤد خلاف بيلينجهام مع مدرب إنجلترا",
+      "body": "مهاجم البايرن يؤد خلاف بيلينجهام مع مدرب إنجلترا تحدّث هاري كين، قائد المنتخب الإنجليزي وهدّافه، عن الخلاف بين المدير الفني توماس توخيل ولاعب الوسط جود بيلينجهام، عقب الانتصار على النرويج بنتيجة 2-1 بعد التمديد، ضمن منافسات ربع نهائي كأس العالم 2026. وأبدى كين تفهّمه لموقف مدربه، حتى وإن لم يحظَ ذلك برضا بيلينجهام. فبعد أن أظهر منتخب \"الأسود الثلاثة\" تماسكًا منذ انطلاق البطولة، شهد أداؤه بعض التذبذب عقب التأهل الصعب إلى نصف النهائي أمام النرويج. ويعود القلق إلى الانتقادات التي وجّهها توخيل لأداء الفريق، إذ أقرّ بأن منتخبه \"حالفه الحظ\"، واصفًا الأداء بأنه \"اتسم بالفوضى والحذر المفرط، وافتقر إلى السرعة والفاعلية المطلوبة\". في المقابل، ردّ نجم ريال مدريد جود بيلينجهام، الذي سجّل هدفي اللقاء، قائلًا: \"ربما لا يدرك المدرب صعوبة اللعب في مثل هذه الظروف، وأمام لاعبين بحجم هالاند وأوديجارد ونوسا وسورلوث\".&nbsp; وأضاف بيلينجهام: \"مواجهتهم ليست سهلة على الإطلاق. لقد سعينا إلى خلق أجواء إيجابية، وعلينا مواصلة ذلك، لن تنتصر في كل مباراة بتمرير الكرة ألف مرة. أحيانًا يجب أن تعرف كيف تحقق الفوز حتى عندما لا يكون الطريق إليه ممهدًا، وهذا ما فعلناه الليلة\". على مدار الساعات الأربع والعشرين الماضية، شكّل هذا الخلاف محور النقاش في وسائل الإعلام البريطانية، وخلال المؤتمر الصحفي الذي عُقد يوم الأحد، …",
+      "image": null,
+      "pubDate": "2026-07-13T04:48:44.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "3a69bd83c856c2f2",
+      "title": "نجم فرنسا يرد على استفزاز يامال: الملعب سيحسم من الخائف",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%8A%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D8%B3%D8%AA%D9%81%D8%B2%D8%A7%D8%B2-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%B9%D8%A8-%D8%B3%D9%8A%D8%AD%D8%B3%D9%85-%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D8%A7%D9%8A%D9%94%D9%81/blt35c2d5791e74b31f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ما توقعاتك للمواجهة؟",
+      "body": "ما توقعاتك للمواجهة؟ رفض نجما المنتخب الفرنسي، إبراهيما كوناتي، وماكسينس لاكروا، الانجرار وراء التصريحات الاستفزازية التي أطلقها لامين يامال، جناح برشلونة ومنتخب إسبانيا، قبيل المواجهة المرتقبة بين الفريقين غدًا الثلاثاء في نصف نهائي كأس العالم 2026. كان يامال، قد أثار جدلًا واسعًا بتصريحات نارية قال فيها: \"فزنا على فرنسا في آخر مباراتين، وإذا كان هناك من يخشى الآخر، فهم من يخشوننا، لسنا خائفين\"، ما أثار حفيظة الجماهير الفرنسية واللاعبين على حد سواء. وفي رد هادئ لكنه حاسم، قال كوناتي: \"لا نكترث لما يُقال، يجب ألا نخشى أحدًا، بل نبقى متواضعين ولا نقع في هذا الفخ، خاصة في هذه المرحلة الحاسمة، بإمكانه أن يقول ما يشاء، وسنستعد بأفضل صورة، والملعب سيحسم من الفائز\". من جانبه، شدد لاكروا على ثقة الديوك بإمكانياتهم، قائلًا: \"لسنا خائفين، ندرك قدراتنا، ونعلم أن إسبانيا فريق قوي يقدم مباريات رائعة، لكننا نلعب للفوز، وسنبذل قصارى جهدنا لإيقاف يامال الذي أثبت خطورته، فريقنا يمتلك الجودة الكافية لإنجاز المهمة\". ويبدو أن المنتخب الفرنسي تعلّم من درس بطولة أمم أوروبا 2024، حين انتقد أدريان رابيو يامال قبل المباراة، ليتألق الأخير في نصف النهائي ويردّ عليه ساخرًا أثناء الاحتفال: \"هيا، تكلم الآن\". ورغم بريق اسم يامال، إلا أن أداءه في المونديال الحالي لم يرتقِ لمستواه المعهود، حيث اكتفى بتسجيل هدف و…",
+      "image": null,
+      "pubDate": "2026-07-13T04:44:54.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "af6a1a6245ab05a1",
+      "title": "لابورتا يؤكد صفقة برشلونة.. ويمنح أتلتيكو مدريد \"مهلة\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA%D8%A7-%D9%8A%D9%88%D9%94%D9%83%D8%AF-%D8%B5%D9%81%D9%82%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D9%8A%D9%85%D9%86%D8%AD-%D8%A7%D9%94%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%85%D9%87%D9%84%D8%A9/blt060d69e2e56c022b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كشف موقف رافينيا",
+      "body": "كشف موقف رافينيا حطّ خوان لابورتا، رئيس برشلونة، رحاله في مدينة دالاس الأمريكية، استعدادًا لمتابعة المواجهة الحاسمة التي تجمع المنتخبين الإسباني والفرنسي في الدور قبل النهائي لمونديال كرة القدم، المقرر إقامتها مساء غدٍ الثلاثاء. وفي تصريحات صحفية، أدلى بها عقب وصوله إلى مقر إقامته بتكساس، تطرق المسؤول الكتالوني إلى ملفات انتقالات ساخنة، أبرزها موقف النادي من البرازيلي رافينيا، وصفقتي كريم أديمي، والأرجنتيني جوليان ألفاريز. وقطع لابورتا الشك باليقين بشأن مستقبل رافينيا، مؤكدًا في حديثه لصحيفة \"موندو ديبورتيفو\": \"رافينيا عنصر محوري في مشروعنا، ولا نفكر مطلقًا في التخلي عنه، خاصة بعد تدعيم خط الهجوم بضم أنتوني جوردون، وأديمي\". وأعرب عن أسفه لغياب البرازيلي في المنعطفات الحاسمة من الموسم المنصرم، قائلًا: \"لو كان رافينيا متاحًا في الجولات الأخيرة من الليجا والأبطال وكأس الملك، لاختلفت الحصيلة جذريًا\". وبخصوص أديمي، أبدى رئيس البارسا حماسة واضحة: \"يثير إعجابنا منذ زمن بعيد، فهو يمتلك سرعة فائقة وخطورة هجومية، وديكو أنجز المفاوضات ببراعة، وسنكشف عن انضمامه رسميًا قريبًا\". أما عن ألفاريز، نجم أتلتيكو مدريد، فأشاد لابورتا بتألقه أمام سويسرا، لكنه اتخذ نبرة حذرة حيال الصفقة: \"قدمنا عرضًا ضخمًا ينال إعجاب المدرب والإدارة الفنية، لكنه محدد المدة، وليس مفتوحًا إلى أجل غير مسمى\". وأضاف: \"تواصلت…",
+      "image": null,
+      "pubDate": "2026-07-13T04:32:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "a7fbaccd690d85a5",
@@ -461,38 +1005,6 @@
       "region": "global"
     },
     {
-      "id": "8e91189ccbfac6b9",
-      "title": "Artists With the Most No. 1 Albums on the Billboard 200: The Beatles, Madonna & More",
-      "link": "https://www.billboard.com/lists/drake-taylor-swift-most-billboard200-no1-albums-soloists/",
-      "summary": "Madonna's CONFESSIONS II lands the Queen of Pop her 10th leader.",
-      "body": "As Madonna &#8216;s CONFESSIONS II debuts at No. 1 on the latest Billboard 200 albums chart (dated July 18), the Queen of Pop secures her 10th chart-topper. In doing so, she becomes only the 11th act, and third woman, with at least 10 No. 1 albums. Madonna scored her first No. 1 album in 1985 with Like a Virgin . CONFESSIONS II is the sequel to the 2005 No. 1 Confessions on a Dance Floor , and reunites Madonna with her main collaborator from that project, DJ/writer/producer Stuart Price. The new album was announced on April 15, released on July 3 and marks Madonna’s first studio album since 2019’s No. 1 Madame X . Take a look at the list of every act with at least 10 No. 1 albums on the Billboard 200 — since the chart began publishing on a regular, weekly basis in March 1956 — below. The Billboard 200 chart ranks the most popular albums of the week in the U.S. based on multi-metric consumption as measured in equivalent album units, compiled by Luminate. Units comprise album sales, track equivalent albums (TEA) and streaming equivalent albums (SEA). Each unit equals one album sale, or 10 individual tracks sold from an album, or 2,500 ad-supported or 1,000 paid/subscription on-deman…",
-      "image": null,
-      "pubDate": "2026-07-12T23:03:10.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "72e90e2296bf873e",
-      "title": "Madonna & Michael Jackson Are in the Billboard 200’s Top 10 Together for the First Time in 25 Years",
-      "link": "https://www.billboard.com/music/chart-beat/madonna-michael-jackson-together-top10-billboard-200-1236292722/",
-      "summary": "Madonna’s CONFESSIONS II debuts at No. 1, joining Jackson’s chart-topping Thriller in the top 10.",
-      "body": "As Madonna ’s new studio album, CONFESSIONS II , debuts at No. 1 on the Billboard 200 (dated July 18), the Queen of Pop joins the King of Pop, Michael Jackson , in the top 10. Jackson’s former 1983-84 No. 1 Thriller falls 7-8 on the latest chart. Perhaps surprisingly, this is only the second time that the pair has appeared in the top 10 at the same time, and it last happened nearly 25 years ago. (All July 18-dated charts will refresh to Billboard ’s website on Tuesday, July 14.) Madonna and Jackson previously shared space in the top 10 on the Dec. 1, 2001-dated chart. That week, Jackson’s chart-topping Invincible fell 3-4 in its third week on the list, while Madonna’s compilation GHV2: Greatest Hits Volume 2 debuted at No. 7. The next week both albums dropped out of the top 10 – although they remained in the top 15 together. The two icons almost met up in the top 10 in the 1980s — when they spent a combined 57 weeks at No. 1 — but missed one another by a single week. On the Sept. 19, 1987-dated chart, the Madonna-led Who’s That Girl film soundtrack spent its third and final week in the top 10, at No. 7. The following week Who’s That Girl fell to No. 11, while Michael Jackson’s Bad…",
-      "image": null,
-      "pubDate": "2026-07-12T23:00:31.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "5fcc73885632aca2",
       "title": "From shock loss to Wimbledon title - resilient Sinner rises back to top",
       "link": "https://www.bbc.co.uk/sport/tennis/articles/cx2v84zje83o?at_medium=RSS&at_campaign=rss",
@@ -505,22 +1017,6 @@
         "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "efca41d374bc33c2",
-      "title": "زيكو يتصدر اللاعبين المصريين في تصنيف كأس العالم2026",
-      "link": "https://www.masrawy.com/sports/sports-arab-international/details/2026/7/12/3016752/%D8%B2%D9%8A%D9%83%D9%88-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1-%D8%A7%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%852026",
-      "summary": "زيكو يتصدر اللاعبين المصريين في تصنيف كأس العالم2026",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T22:38:00.000Z",
-      "source": {
-        "name": "Masrawy - رياضة",
-        "homepage": "https://www.masrawy.com/rss/feed/27/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9"
-      },
-      "lang": "ar",
       "category": "sports",
       "region": "global"
     },
@@ -589,38 +1085,6 @@
       "region": "global"
     },
     {
-      "id": "ff2d1d4fc77af82b",
-      "title": "Tears of joy & Tiger text as Kim ends long title wait at Scottish Open",
-      "link": "https://www.bbc.co.uk/sport/golf/articles/cx24ejkyvkyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Tom Kim excels in the final round to claim his first title in three years with a two-shot victory at the 2026 Genesis Scottish Open.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T20:39:30.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b3f4dd06dd968e92",
-      "title": "‘Michael’ Pulls Further Ahead of ‘Bohemian Rhapsody’ as Top-Grossing Music Biopic Worldwide: See the Top 25",
-      "link": "https://www.billboard.com/lists/top-grossing-music-biopics-movies/",
-      "summary": "It becomes the first biopic to top $1 billion in worldwide grosses.",
-      "body": "The Michael Jackson biopic Michael has pulled further ahead of the Freddie Mercury biopic Bohemian Rhapsody as the top-grossing musician biopic of all time. As of Sunday (July 12), Michael has grossed $1.002 billion. Bohemian Rhapsody has grossed $911 million. Moreover, Michael has topped Oppenheimer to become the top-grossing biopic (not just the top-grossing musician biopic) of all time . Christopher Nolan’s 2023 biopic of theoretical physicist J. Robert Oppenheimer, who helped develop the first nuclear weapons during World War II, has grossed $975.8 million worldwide . According to Box Office Mojo figures, international ticket sales account for 62.9% of Michael ’s worldwide boxoffice total to date. (The remainder is from the U.S. and Canada.) By way of comparison, international ticket sales accounted for 76.2% of Bohemian Rhapsody ’s worldwide boxoffice total. Jackson has a long history of ranking No. 1 on lists, dating back to The Jackson 5 landing their first No. 1 hit on the Billboard Hot 100 with “I Want You Back” in January 1970. Jackson and Mercury have much in common. Both rose to fame in groups, The Jackson 5 and Queen, respectively. Both are widely seen as two of the g…",
-      "image": null,
-      "pubDate": "2026-07-12T20:14:57.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "2397a8424240b9c5",
       "title": "Sinner holds off Zverev to defend Wimbledon title",
       "link": "https://www.bbc.co.uk/sport/tennis/articles/c78y2eqq317o?at_medium=RSS&at_campaign=rss",
@@ -651,22 +1115,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "4e22ebbe4bdabf55",
-      "title": "مفاجآت ورسالة وفاء.. تفاصيل حفل تكريم منتخب مصر في استاد القاهرة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%93%D8%AA-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%88%D9%81%D8%A7%D8%A1-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%AD%D9%81%D9%84-%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9/bltd32aeccf656a914e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بحضور تامر حسني وأساطير الكرة",
-      "body": "بحضور تامر حسني وأساطير الكرة شهدت استعدادات حفل تكريم منتخب مصر بعد مشاركته التاريخية في كأس العالم 2026 تطورات جديدة، بعدما كشف مصطفى عزام، الأمين العام للاتحاد المصري لكرة القدم، عن تفاصيل الاحتفالية المرتقبة التي يستضيفها استاد القاهرة الدولي، والتي ستجمع نجوم المنتخب الحالي مع أساطير الكرة المصرية في ليلة استثنائية، تحمل العديد من المفاجآت للجماهير. وكان منتخب مصر قد أنهى مشاركته في نهائيات كأس العالم 2026 بوصوله إلى دور الـ16، قبل أن يودع البطولة عقب خسارته المثيرة أمام منتخب الأرجنتين، حامل اللقب، بنتيجة (3-2)، في واحدة من أبرز مباريات البطولة. وقال مصطفى عزام، في تصريحات تلفزيونية عبر قناة \"أون سبورت\"، إن احتفالية استاد القاهرة تأتي استكمالًا للاحتفال الذي أُقيم في مدينة العلمين، تقديرًا لما قدمه منتخب مصر خلال مشواره في كأس العالم 2026. وأوضح أن الاحتفالية ستشهد حضور لاعبي المنتخب الوطني برفقة أسرهم داخل أرضية الملعب، في أجواء احتفالية تهدف إلى تكريم الإنجاز الذي حققه الفريق وإشراك عائلات اللاعبين في هذه المناسبة المميزة. وأضاف عزام أن الاتحاد المصري لكرة القدم وجّه الدعوة، رغم ضيق الوقت، إلى عدد من الأجيال التاريخية للمنتخب الوطني، وفي مقدمتهم جيل 1986 بطل كأس الأمم الأفريقية، وجيل 1990 الذي شارك في نهائيات كأس العالم بإيطاليا، إلى جانب أبطال الثلاثية التاريخية في نسخ 20…",
-      "image": null,
-      "pubDate": "2026-07-12T20:00:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "495757f88af31938",
@@ -701,38 +1149,6 @@
       "region": "global"
     },
     {
-      "id": "77502147bd617ec1",
-      "title": "بالفيديو.. شوبير يكشف سر تصديه لركلة جزاء ميسي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B4%D9%88%D8%A8%D9%8A%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D8%B3%D8%B1-%D8%AA%D8%B5%D8%AF%D9%8A%D9%87-%D9%84%D8%B1%D9%83%D9%84%D8%A9-%D8%AC%D8%B2%D8%A7%D8%A1-%D9%85%D9%8A%D8%B3%D9%8A/blte8500d8441ce8dac?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشف مصطفى شوبير، حارس منتخب مصر، سر تصديه لركلة جزاء ليونيل ميسي، خلال لقاء الأرجنتين، في ثمن نهائي كأس العالم، والذي انتهى بخسارة الفراعنة 2-3.",
-      "body": "كشف مصطفى شوبير، حارس منتخب مصر، سر تصديه لركلة جزاء ليونيل ميسي، خلال لقاء الأرجنتين، في ثمن نهائي كأس العالم، والذي انتهى بخسارة الفراعنة 2-3. وقال شوبير، خلال استضافته على فضائية MBC Masr إنه حرص على دراسة أسلوب ميسي، في تسديد ركلات الجزاء. ولفت أن النجم الأرجنتيني يعتاد الدخول بهدوء وينتظر تحرك حارس الخصم، ليرسل الكرة في الزاوية المعاكسة. ونوه \"ميسي فعل ذلك، في إهداره لركلة الجزاء خلال لقاء النمسا، مما دفعه لتغيير أسلوبه في مباراة مصر، لكنني بقيت ثابتًا في مكاني حتى اللحظة الأخيرة\". وأشار إلى أن الحظ يلعب دوراً حاسماً، مستشهداً بتجربته في المباريات السابقة، حيث نجح في التصدي لركلة جزاء أمام إيران، بينما لم يستطع التصدي لركلات ترجيح منتخب أستراليا، الذي أهدر ركلتين خارج المرمى. وأكد مصطفى شوبير، أن التعامل مع ركلات الترجيح يعتمد بشكل كبير على \"التوفيق\" في المقام الأول، إلى جانب الدراسة الدقيقة لأسلوب المهاجم، وطريقة وقوفه قبل التسديد. ازاي صديت ضربة جزاء ميسي؟ مجاناً على MBC شاهد برنامج #الحكاية يعرض من الجمعة - الأثنين الساعة 10:00 مساءً بتوقيت القاهرة على #MBCMASR لمتابعة البث المباشر https://t.co/RTnAOFF7aE pic.twitter.com/kybI1F4oKw &mdash; MBC مصر (@mbcmasr) July 12, 2026",
-      "image": null,
-      "pubDate": "2026-07-12T19:53:32.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6804628838633117",
-      "title": "مفاجأة مدوية.. الاتحاد السعودي يتحرك نحو نجم المغرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%85%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%AA%D8%AD%D8%B1%D9%83-%D9%86%D8%AD%D9%88-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/blt26b944f78a777130?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "صفقة مرتقبة في الصيف",
-      "body": "صفقة مرتقبة في الصيف بدأ نادي الاتحاد تحركات جديدة في سوق الانتقالات الصيفية بحثًا عن تدعيم خط الوسط بلاعب يمتلك الخبرة الدولية والقدرة على صناعة الفارق، في إطار سعي الإدارة لتجهيز الفريق بأفضل صورة قبل انطلاق الموسم المقبل. وبحسب تقارير تركية، فإن النادي السعودي يضع أحد أبرز نجوم الكرة المغربية ضمن أولوياته خلال الفترة الحالية، وسط ترقب لما ستسفر عنه المفاوضات بين الأطراف المعنية. وذكرت قناة \"lue\" التركية أن إدارة الاتحاد تستعد للتقدم بعرض رسمي إلى نادي فنربخشة من أجل التعاقد مع لاعب الوسط المغربي سفيان أمرابط. وأضافت القناة أن قيمة العرض المنتظر تبلغ 20 مليون يورو، في خطوة تعكس جدية الاتحاد في حسم الصفقة خلال فترة الانتقالات الجارية. اقرأ أيضًا.. بعد العروض الإنجليزية.. تحديد سعر مفاجأة كأس العالم 2026 وأشارت التقارير إلى أن انتقال أمرابط إلى دوري روشن سيصبح ممكنًا في حال موافقة فنربخشة واللاعب على العرض المقدم من النادي السعودي، حيث لا تزال المفاوضات في مراحلها الأولية حتى الآن. ويعد أمرابط من أبرز لاعبي الوسط المغاربة في السنوات الأخيرة، بعدما لفت الأنظار بشكل كبير خلال مشاركاته مع منتخب المغرب، خاصة في كأس العالم 2022، قبل أن يواصل مسيرته الاحترافية في الملاعب الأوروبية. وفي حال نجح الاتحاد في إتمام الصفقة، فإن الفريق سيضيف عنصرًا يمتلك خبرة كبيرة على المستوى الدولي والأوروبي…",
-      "image": null,
-      "pubDate": "2026-07-12T19:48:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "bd8c2d9519cb1a95",
       "title": "'It takes two' - Sinner praises Zverev for pushing him in 'amazing' final",
       "link": "https://www.bbc.co.uk/sport/tennis/videos/c5yz1k3wj40o?at_medium=RSS&at_campaign=rss",
@@ -747,22 +1163,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "a1fe5e2f812e7ed4",
-      "title": "فيديو.. مصطفى شوبير يختار أفضل حارس مرمى في تاريخ العرب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D8%B4%D9%88%D8%A8%D9%8A%D8%B1-%D9%8A%D8%AE%D8%AA%D8%A7%D8%B1-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D8%AD%D8%A7%D8%B1%D8%B3-%D9%85%D8%B1%D9%85%D9%89-%D9%81%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/bltc180053c62d85268?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تألق مع الفراعنة في المونديال",
-      "body": "تألق مع الفراعنة في المونديال &nbsp;اختار مصطفى شوبير، حارس مرمى الأهلي ومنتخب مصر، أفضل حارس في تاريخ العرب. وتألق شوبير، مع منتخب مصر في ظهوره الأول مع الفراعنة بكأس العالم، وساهم بقوة في الوصول لدور الستة عشر للمرة الأولى في تاريخ الفريق. كما توهج شوبير، في مباراة الأرجنتين بثمن النهائي، وتصدى لركلة جزاء من ميسي ، قبل أن يخسر الفراعنة في النهاية بنتيجة 3/2، وسط اتهامات مصرية للتحكيم بتعمد توجيه المباراة لفوز الأرجنتين. وخلال لقاء تلفزيوني مع الإعلامي عمرو أديب، قال مصطفى شوبير: \"ياسين بونو حارس المغرب ذو أخلاق عالية جدا، ورجل محترم، وراسلني بعد مباراة الأرجنتين\". وتابع: \"تواصلت معه أيضا لأعرف كيف يتصدى لركلات الترجيح من الوضع واقفا، ومن وجهة نظري، ياسين بونو هو أفضل حارس في تاريخ العرب\". عمرو أديب: ايه الفرق بينك وبين ياسين بونو؟ .. اعرف مصطفى شوبير قال إيه؟ مجاناً على MBC شاهد برنامج #الحكاية يعرض من الجمعة - الأثنين الساعة 10:00 مساءً بتوقيت القاهرة على #MBCMASR لمتابعة البث المباشر https://t.co/uwHwlsCISw pic.twitter.com/DsbU4e9QrY — الحكاية (@Elhekayashow) July 12, 2026 &nbsp; &nbsp; &nbsp;",
-      "image": null,
-      "pubDate": "2026-07-12T19:43:19.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "9b38b88f3f2058ef",
@@ -797,22 +1197,6 @@
       "region": "global"
     },
     {
-      "id": "57cc038a7f552aba",
-      "title": "صدمة للمغرب.. إنفانتينو يفضل استضافة البرنابيو لنهائي 2030",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B5%D8%AF%D9%85%D8%A9-%D9%84%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A7%D9%95%D9%86%D9%81%D8%A7%D9%86%D8%AA%D9%8A%D9%86%D9%88-%D9%8A%D9%81%D8%B6%D9%84-%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D8%A8%D9%8A%D9%88-%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-2030/bltb2ff79cef7301211?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تتنافس إسبانيا مع المغرب، على استضافة المباراة النهائية لبطولة كأس العالم 2030، والتي ستقام بتنظيم مشترك بين الطرفين، بجانب البرتغال.",
-      "body": "تتنافس إسبانيا مع المغرب، على استضافة المباراة النهائية لبطولة كأس العالم 2030، والتي ستقام بتنظيم مشترك بين الطرفين، بجانب البرتغال. وتتزايد الأنباء حول تأثير الرئيس الأمريكي دونالد ترامب، في قرار استضافة المباراة النهائية لمونديال 2030، بسبب موقفه السلبي من إسبانيا، على خلفية سياسات رئيس الوزراء بيدرو سانشيز، أو لمجرد رغبته في ذلك. وذكرت \" صحيفة آس \" في تقرير لها، أن الفيفا سيبدأ مع انتهاء الصيف، في اتخاذ قراراته، وأولها تقليص عدد المدن والملاعب المستضيفة في الدول الثلاث المنظمة. ومن المنتظر أن تشهد إسبانيا والبرتغال والمغرب، تقليصًا في عدد الملاعب المعتمدة، مع إجراء تعديلات على القائمة، حيث ستتم إضافة بعض الملاعب واستبعاد أخرى. وخلال الأيام الماضية، زارت لجنة تضم ممثلين عن الأندية الإسبانية المشاركة في مشروع الاستضافة، عددًا من الملاعب الأمريكية، وذلك بدعوة من الفيفا.&nbsp; وفيما يتعلق بالمباراة النهائية، فإن إسبانيا تتحرك بطبيعة الحال لضمان استضافتها، لكن ريال مدريد كان السبّاق في هذا الملف، بقيادة رئيسه فلورنتينو بيريز، الذي يجري اتصالات مباشرة مع رئيس الفيفا، جياني إنفانتينو. وبحسب التقرير، فإن إنفانتينو يرغب في إقامة النهائي، على ملعب سانتياجو برنابيو، نظرًا لعلاقته الوثيقة مع رئيس ريال مدريد، وكذلك لما يمثله الملعب من قيمة تاريخية في عالم كرة القدم. ويشبه هذا التوجه ما حدث…",
-      "image": "https://assets.kooora.com/images/v3/getty-2236405469/crop/MM5DKMBQGM5DEOBRGQ5G433XMU5DAORSGYYQ====/GettyImages-2236405469.jpg",
-      "pubDate": "2026-07-12T19:22:04.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "17b71c5abdeda91c",
       "title": "Infantino opens door to 64-team World Cup",
       "link": "https://www.bbc.co.uk/sport/football/articles/cj9gm31jwg8o?at_medium=RSS&at_campaign=rss",
@@ -823,22 +1207,6 @@
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ab587396da187c74",
-      "title": "Madonna & the Elite Acts With 10 or More No. 1s on Both the Billboard 200 & Hot 100",
-      "link": "https://www.billboard.com/lists/acts-10-number-ones-billboard-200-hot-100/",
-      "summary": "Only four artists boasts double-digital totals on each of Billboard’s premier album and song charts.",
-      "body": "As Madonna materializes at No. 1 on the Billboard 200 chart (dated July 18) with the debut of Confessions II , she achieves a landmark 10th leader, as well as another impressive distinction in Billboard chart history. With her latest triumph, the Queen of Pop becomes one of just four acts to have earned at least 10 No. 1s on both of Billboard ’s two leading album and song charts, the Billboard 200 and the Billboard Hot 100 . The Billboard 200 began publishing on a regular, weekly basis in March 1956, while the Hot 100 launched in August 1958. Madonna scored her first No. 1 on the Billboard 200 in February 1985 with her second studio album, Like a Virgin . On the Hot 100, she has posted 12 No. 1s. Her first was “Like a Virgin,” in December 1984, and her most recent was “Music,” in September–October 2000. Related Madonna Achieves 10th No. 1 Album on Billboard 200 With ‘CONFESSIONS&nbsp;II’ Confessions II marks Madonna’s first new studio album since 2019’s Billboard 200 No. 1 Madame X . The new collection serves as a sequel to her 2005 album Confessions on a Dance Floor — her sixth leader — and reunites her with Stuart Price, who largely produced both LPs with Madonna. Confessions II…",
-      "image": null,
-      "pubDate": "2026-07-12T19:14:00.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
       },
       "lang": "en",
       "category": "sports",
@@ -858,54 +1226,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "bc221b4b4e3412ac",
-      "title": "لابورت يثير الجدل: هناك مصالح أخرى تلعب دورا في كرة القدم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%A8%D9%88%D8%B1%D8%AA-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D9%87%D9%86%D8%A7%D9%83-%D9%85%D8%B5%D8%A7%D9%84%D8%AD-%D8%A7%D9%94%D8%AE%D8%B1%D9%89-%D8%AA%D9%84%D8%B9%D8%A8-%D8%AF%D9%88%D8%B1%D8%A7-%D9%81%D9%8A-%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85/bltcd5464f5ddbfb424?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أشاد بكريستيانو رونالدو",
-      "body": "أشاد بكريستيانو رونالدو تحدث إيمريك لابورت، مجددًا عن أحد أهم قرارات مسيرته الكروية، بتمثيل منتخب إسبانيا، بدلا من فرنسا، مؤكدا أنه لم يندم قط على ذلك. &nbsp;في مقابلة مع برنامج \"لا تريبو\" على إذاعة \" راديو ماركا\" ، تذكر مدافع المنتخب الإسباني الجدل الذي أحاط بتجنيسه، وأوضح أنه لم يندم قط على ارتداء قميص المنتخب الإسباني. &nbsp;واعترف قائلًا: \"لقد كان وقتًا عصيبًا بالنسبة لي\"، لكنه وضع حدًا لأي جدل قائلًا: \"لقد اتخذت قرارًا وأنا سعيد للغاية به\". وأشار اللاعب الدولي الإسباني إلى أن لاعبين آخرين مروا بمواقف مماثلة دون أن يحظوا بنفس القدر من الاهتمام الإعلامي. &nbsp;وأوضح: \"لم يُثر ضجيجا كبيرا حول اللاعبين الذين سبقوني في هذه التجربة\". {\"type\":\"power-rankings-carousel\",\"data\":{}} &nbsp;فعلى سبيل المثال، أوضح أنه خلال فترة لعبه في منتخبات الشباب الفرنسية، لعب إلى جانب \" 22 أو 23 لاعبًا \" ممن انتهى بهم المطاف، مثله، بتمثيل منتخبات وطنية أخرى، على الرغم من أن قضاياهم \"لم تحظَ بنفس القدر من التغطية الإعلامية\" ولم تُحدث \" نفس القدر من الضجيج والصدى\". &nbsp;اهتمامات تتجاوز حدود الملعب تحدث لابورت أيضًا عن أدائه مع المنتخب الإسباني والانتقادات التي تلقاها في الأشهر الأخيرة. &nbsp;وأوضح المدافع أن أسلوب لعب إسبانيا يناسبه: \"أسلوب اللعب الذي نتبعه هنا هو ما أشعر فيه براحة أكبر، وأشعر فيه بأنن…",
-      "image": null,
-      "pubDate": "2026-07-12T19:11:01.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5d1f5a2587a27aad",
-      "title": "النصر في ورطة.. أزمة مالية خانقة تلتهم الرواتب وتوقف صفقات الصيف!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%81%D9%8A-%D9%88%D8%B1%D8%B7%D8%A9-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D8%A7%D9%86%D9%82%D8%A9-%D8%AA%D9%84%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D8%AA%D8%A8-%D9%88%D8%AA%D9%88%D9%82%D9%81-%D8%B5%D9%81%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D9%8A%D9%81/blt3ee1c7eef6c9a52c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "العالمي يواجه مصيرًا صعبًا",
-      "body": "العالمي يواجه مصيرًا صعبًا دخل نادي النصر السعودي مرحلة حساسة على الصعيد الإداري والمالي خلال الفترة الحالية، بعدما كشفت تقارير عن وجود أزمة سيولة أثرت على عدد من الملفات المهمة داخل النادي، سواء المتعلقة بالفريق الأول لكرة القدم أو بالجوانب الإدارية الأخرى. وبحسب صحيفة \" الرياضية \" السعودية، فإن إدارة شركة نادي النصر تواجه ضغوطًا مالية أدت إلى تعليق بعض القرارات والخطوات التي كان من المنتظر حسمها قبل انطلاق الموسم الجديد. وامتدت الأزمة إلى ملف الرواتب، حيث أوضح المصدر أن عددًا من لاعبي الفريق الأول تسلموا راتب شهر يونيو بشكل منقوص، فيما تعمل الإدارة حاليًا على توفير المبالغ المتبقية وصرفها خلال الفترة المقبلة. وأشار المصدر إلى أن ضعف السيولة المالية انعكس أيضًا على تحركات النادي في سوق الانتقالات، خاصة فيما يتعلق بالتعاقد مع لاعب أجنبي لتعويض رحيل الكرواتي مارسيلو بروزوفيتش. وأضاف أن إدارة النصر لم تدخل حتى الآن في أي مفاوضات رسمية مع بديل لبروزوفيتش، رغم حاجة الفريق الفنية إلى تدعيم خط الوسط، وذلك بسبب انتظار اتضاح الصورة المالية بشكل أكبر قبل التحرك في الملف. اقرأ أيضًا.. الدور على مبابي.. هل يصبح يامال \"العميل السري\" في رقصة ميسي الأخيرة؟ وكان النصر قد أعلن الإثنين الماضي نهاية مشوار بروزوفيتش مع الفريق بعد انتهاء عقده، ليصبح مركز الوسط أحد أبرز المراكز التي يسعى الجهاز الفني …",
-      "image": null,
-      "pubDate": "2026-07-12T19:05:22.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "bba81da6a834c408",
-      "title": "Madonna Achieves 10th No. 1 Album on Billboard 200 With ‘CONFESSIONS II’",
-      "link": "https://www.billboard.com/lists/madonna-confessions-ii-number-one-billboard-200-chart/",
-      "summary": "She's the first act with a No. 1 album in the 2020s and three other decades.",
-      "body": "Madonna earns her 10th No. 1 album on the Billboard 200 chart as her new studio album, CONFESSIONS II , debuts atop the list dated July 18. With the arrival, the Queen of Pop gets her first No. 1 album of the 2020s and becomes the first act with a No. 1 album in the 2020s to have also topped the chart in three other decades. Further, Madonna becomes only the fourth act to have achieved at least 10 No. 1s each on the Billboard 200 albums chart and the Billboard Hot 100 songs chart. On the latter, she has 12 leaders. CONFESSIONS II launches with 134,000 equivalent album units earned in the United States in the week ending July 9, according to Luminate. That marks the largest week for a dance album this year. It also scores Madonna her best week, by units, since the Billboard 200 transitioned to an equivalent album units-ranked list in December 2014. CONFESSIONS II additionally yields Madonna’s biggest streaming week ever for an album, and her largest pure album sales week in more than a decade. Related Madonna &amp; the Elite Acts With 10 or More No. 1s on Both the Billboard 200 &amp; Hot&nbsp;100 The new album is the sequel to 2005’s chart-topping Confessions on a Dance Floor , and…",
-      "image": null,
-      "pubDate": "2026-07-12T19:00:11.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -941,102 +1261,6 @@
       "region": "global"
     },
     {
-      "id": "75a548d1eeece9dd",
-      "title": "هل حسم محمد صلاح وجهته؟ تحرك جديد يقربه من مفاجأة كبرى",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D8%AD%D8%B3%D9%85-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D8%AC%D9%87%D8%AA%D9%87-%D8%AA%D8%AD%D8%B1%D9%83-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D9%82%D8%B1%D8%A8%D9%87-%D9%85%D9%86-%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%83%D8%A8%D8%B1%D9%89/blt9780b14049ec71a0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بعد الرحيل عن ليفربول",
-      "body": "بعد الرحيل عن ليفربول تزايدت حالة الغموض التي تحيط بمستقبل النجم المصري محمد صلاح، بعدما أشعل وكيل أعماله رامي عباس التكهنات بصورة جديدة نشرها عبر حسابه الشخصي على موقع \"إنستجرام\"، ظهر خلالها من مدينة إسطنبول التركية، في خطوة فتحت الباب أمام العديد من التساؤلات بشأن الوجهة المقبلة لقائد منتخب مصر. ونشر رامي عباس صورة من إسطنبول، دون الكشف عن سبب الزيارة أو أي تفاصيل إضافية، إلا أن ظهوره في تركيا جاء في توقيت حساس، بالتزامن مع استمرار الجدل حول مستقبل محمد صلاح، الذي لم يعلن حتى الآن عن ناديه الجديد بعد نهاية مشواره مع ليفربول الإنجليزي. وتزامن ظهور وكيل أعمال صلاح في إسطنبول مع تقارير صحفية تركية أكدت أن نادي جالطة سراي بات قريبًا من التوصل إلى اتفاق مع قائد منتخب مصر، تمهيدًا لانضمامه إلى صفوف الفريق خلال الموسم المقبل، في صفقة ستكون من أبرز صفقات سوق الانتقالات الصيفية. وكان محمد صلاح قد أسدل الستار على مسيرته مع ليفربول بنهاية الموسم الماضي، بعد تسعة أعوام حافلة بالإنجازات والألقاب مع \"الريدز\"، ليبدأ مرحلة جديدة في مسيرته الاحترافية وسط اهتمام عدد من الأندية الكبرى. ومن المنتظر أن يحسم صلاح وجهته المقبلة خلال الأيام القليلة المقبلة، في ظل استمرار المفاوضات وازدياد التكهنات بشأن النادي الذي سيرتدي قميصه في الموسم الجديد. ومنذ إعلان رحيله عن ليفربول، تلقى محمد صلاح العديد من العر…",
-      "image": null,
-      "pubDate": "2026-07-12T18:46:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "28f558bef7c20c14",
-      "title": "هيمنة يامال.. عقدة سوداء تحاصر الضحية مبابي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%8A%D9%85%D9%86%D8%A9-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D8%B9%D9%82%D8%AF%D8%A9-%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-%D8%AA%D8%AD%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D8%B6%D8%AD%D9%8A%D8%A9-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A/bltf28ffd024570994e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رقم سلبي يطارد مبابي أمام يامال",
-      "body": "رقم سلبي يطارد مبابي أمام يامال يترقب عشاق كرة القدم، موقعة فرنسا وإسبانيا، التي ستقام مساء الثلاثاء، في نصف نهائي كأس العالم 2026. وقطع المنتخب الفرنسي، تذكرة العبور للمربع الذهبي، بعد فوزه 2-0 على المغرب، فيما تأهلت إسبانيا، بعد فوزها المثير 2-1 على بلجيكا. وذكرت \" صحيفة ليكيب \" أن كيليان مبابي قائد الديوك، سيحاول التخلص من رقم سلبي يطارده، فعلى مستوى الأندية والمنتخبات، خاض 5 مباريات إقصائية أمام لامين يامال، وخسرها جميعًا. وتفوق يامال، على مبابي، في جميع المواجهات الإقصائية المباشرة التي جمعتهما في مباراة واحدة، سواء مع الأندية أو المنتخبات. وأمام منتخب إسبانيا، تلقى مبابي، هزيمتين متتاليتين في الدور نصف النهائي، الأولى في يورو 2024 بنتيجة (1-2)، والثانية في دوري الأمم الأوروبية العام الماضي بنتيجة (4-5). أما على مستوى الأندية، فلم يحقق نجم ريال مدريد، نجاحًا أكبر، إذ خسر 3 نهائيات أمام برشلونة بقيادة لامين يامال. وخسر كيليان مبابي، نهائي كأس ملك إسبانيا 2025 بنتيجة 2-3، ثم نهائي السوبر الإسباني في عامي 2025 و2026 بنتيجة 2-5 و2-3 على الترتيب. ونوهت ليكيب \"المرة الوحيدة التي تفوق فيها مبابي على يامال، في مواجهة إقصائية، تعود إلى ربع نهائي دوري أبطال أوروبا موسم 2023-2024، الذي أقيم بنظام الذهاب والإياب، وحينها خسر باريس سان جيرمان، مباراة الذهاب على أرضه بنتيجة 3-2، قبل أن يفوز…",
-      "image": null,
-      "pubDate": "2026-07-12T18:42:15.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e0ec8b5ded5e9fe5",
-      "title": "بانتظار اللمسات الأخيرة.. فورلان مدربًا لأوروجواي حتى مارس 2027",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1-%D8%A7%D9%84%D9%84%D9%85%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9-%D9%81%D9%88%D8%B1%D9%84%D8%A7%D9%86-%D9%85%D8%AF%D8%B1%D8%A8%D9%8B%D8%A7-%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%AC%D9%88%D8%A7%D9%8A-%D8%AD%D8%AA%D9%89-%D9%85%D8%A7%D8%B1%D8%B3-2027/blt784e9994718f1595?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الحماس يغمر نجم أتلتيكو مدريد السابق قبل المهمة الصعبة",
-      "body": "الحماس يغمر نجم أتلتيكو مدريد السابق قبل المهمة الصعبة بات دييجو فورلان أسطورة أوروجواي، على أعتاب تولي تدريب منتخب بلاده، خلفًا للأرجنتيني مارسيلو بيلسا الذي قاد السيلستي في كأس العالم 2026. وخيب منتخب أوروجواي بقيادة بيلسا آمال جماهيره في المونديال ، وودّع البطولة من دور المجموعات، بعدما جمع نقطتين فقط. سُئل رئيس الاتحاد الأوروجواياني لكرة القدم، إجناسيو ألونسو، على قناة تيليدوسي عن المدرب المستقبلي لمنتخب أوروجواي، أكد أن دييجو فورلان سيتولى المنصب في الأشهر المقبلة. وصرح ألونسو بحسب ما نقلت شبكة \" فوت ميركاتو \" قائلاً: \" إذا تم التوصل إلى اتفاق مع دييجو فورلان خلال الساعات القليلة المقبلة، فسيتولى تدريب منتخب تحت 20 عامًا والمباريات الودية المقبلة للمنتخب الأول\". وتابع: \"إنه متحمس للغاية، رغم وجود بعض التفاصيل التي لا تزال بحاجة إلى وضع اللمسات الأخيرة \". {\"type\":\"power-rankings-carousel\",\"data\":{}} يمتلك اللاعب الدولي السابق (112 مباراة دولية، 36 هدفًا) خبرتين تدريبيتين: الأولى مع نادي بينارول في الدوري الأوروجواياني الممتاز عام 2020، والثانية مع نادي أثينا في الدوري اليوناني عام 2021. وسيواجه لاعب أتلتيكو مدريد السابق مهمة صعبة تتمثل في إعادة إحياء المنتخب الأوروجواياني المتعثر، الذي خرج من دور المجموعات في كأس العالم 2026. ومن المتوقع أن يتولى أسطورة أوروجواي قيادة السيليست…",
-      "image": null,
-      "pubDate": "2026-07-12T18:41:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "fff0bc941ba19c90",
-      "title": "\"فضيحة جديدة بالمونديال\".. كلاتنبرج يدين الفيفا في واقعة هدف بيلينجهام",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%83%D9%84%D8%A7%D8%AA%D9%86%D8%A8%D8%B1%D8%AC-%D9%8A%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%81%D9%8A-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D9%87%D8%AF%D9%81-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85/blt34e067c127ca4f82?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "جدل كبير بعد موقفة ربع النهائي",
-      "body": "جدل كبير بعد موقفة ربع النهائي أكد الحكم الإنجليزي الأسبق، مارك كلاتنبرج، أن زاوية تصوير بديلة لحادثة كاميرا العنكبوت في لقاء إنجلترا والنرويج، تنذر بفضيحة جديدة تُلقي بظلالها على كأس العالم. وحلل الحكم الإنجليزي السابق، الواقعة الجدلية لهدف بيلينجهام، الأول في لقاء النرويج، الذي أثار اعتراضات نرويجية، بداعي ارتطام الكرة في الكابل الخاص بكاميرا العنكبوت عبر مقال في صحيفة \" ديلي ميل \" جاء كتالي: وقال كلاتنبرج، إن إنجلترا سجلت هدف التعادل في مباراة النرويج 1/1 (فاز الإنجليز 2/1)، فجر اليوم، في ربع نهائي كأس العالم 2026، وكان المشجعون يحتفلون بحماس شديد بهدف جود بيلينجهام الرائع. لكن بعد ذلك لاحظتُ أن حارس مرمى النرويج، أورجان نيلاند، كان يحتج على الحكم الفرنسي، كليمنت توربان. ثم أُطلقت صافرة نهاية الشوط الأول. &nbsp;بعد ذلك، ثارت مقاعد البدلاء النرويجية غضبًا على الحكم الرابع، أليخاندرو هيرنانديز.. من الواضح أن مدرب النرويج، ستال سولباكن، لم يكن راضيًا. {\"type\":\"power-rankings-carousel\",\"data\":{}} سمحت لي قناة فوكس، التي أعمل معها كمحلل قوانين في كأس العالم هذه، وللفريق بمراجعة سبب استيائهم الشديد. ثم شاهدنا المقطع. ذلك المقطع المصور. ربما شاهدتموه أنتم أيضاً على مواقع التواصل الاجتماعي. الزاوية التي تُظهر الكرة وهي تسقط فجأة من الهواء. يكاد لا أحد يعرف القوانين. جميعنا نتذكر كرة ال…",
-      "image": null,
-      "pubDate": "2026-07-12T18:40:50.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "aa73d587c4bcdd71",
-      "title": "Brennan calls on GAA to employ video technology",
-      "link": "https://www.bbc.co.uk/sport/articles/ce8m9j0mv8po?at_medium=RSS&at_campaign=rss",
-      "summary": "Dublin manager Ger Brennan calls on the GAA to introduce video technology to assist officials make key decisions following his team's All-Ireland SFC semi-final defeat by Kerry.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T18:26:09.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "210703929369947c",
-      "title": "الدور على مبابي.. هل يصبح يامال \"العميل السري\" في رقصة ميسي الأخيرة؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%B9%D9%84%D9%89-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%87%D9%84-%D9%8A%D8%B5%D8%A8%D8%AD-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B9%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A-%D9%81%D9%8A-%D8%B1%D9%82%D8%B5%D8%A9-%D9%85%D9%8A%D8%B3%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9/bltfb44c014b0449650?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "صراع شرس في أمتار المونديال الأخيرة",
-      "body": "صراع شرس في أمتار المونديال الأخيرة في عالم كرة القدم، هناك قصص لا تُكتب بالحسابات فقط، بل تصنعها التفاصيل الصغيرة والصدف التي تتحول مع الوقت إلى أساطير. وفي كأس العالم 2026، يبدو أن لامين يامال أصبح أحد أبطال الحكايات الأكثر إثارة، بعدما وجد نفسه في قلب صراع تاريخي بين أجيال مختلفة، وسط مقارنات لا تتوقف بين الماضي والحاضر والمستقبل. الفتى الإسباني، الذي لم يكمل عامه العشرين بعد، لا يخوض البطولة فقط بحثًا عن المجد مع منتخب بلاده، بل أصبح جزءًا من سيناريو يحمل أبعادًا أكبر بالنسبة لجماهير برشلونة وعشاق ليونيل ميسي، بعدما ارتبط اسمه بطريق قد يقوده لمواجهة ملهمه الأول في نهائي المونديال. البداية من بوابة رونالدو بدأت قصة يامال الفعلية في الأدوار الإقصائية عندما واجه منتخب البرتغال بقيادة كريستيانو رونالدو في دور الـ16، في مباراة حملت الكثير من الرمزية، باعتبارها مواجهة بين أحد أعظم لاعبي التاريخ وموهبة تمثل الجيل الجديد. ونجح يامال ورفاقه في إنهاء مغامرة المنتخب البرتغالي وإقصاء رونالدو من البطولة، ليغادر \"الدون\" المونديال وسط حالة من الحزن، بينما واصل النجم الشاب رحلته نحو كتابة فصل جديد من مسيرته. وبعيدًا عن الحسابات الفنية، حمل خروج رونالدو معنى خاصًا بالنسبة لعشاق ميسي، خاصة أن المنافسة التاريخية بين الثنائي كانت عنوانًا لعصر كامل في كرة القدم، قبل أن يبدأ جيل جديد في صناعة قصته …",
-      "image": "https://assets.kooora.com/images/v3/getty-2284402728/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2284402728.jpg",
-      "pubDate": "2026-07-12T18:24:28.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "b2f1b4e1034a477a",
       "title": "Goodbyes to Beaumont and Knight as India close in on Test win",
       "link": "https://www.bbc.co.uk/sport/cricket/videos/ce8m92z42m3o?at_medium=RSS&at_campaign=rss",
@@ -1051,22 +1275,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "c3f1df5c35e261d0",
-      "title": "بعد العرض الرسمي.. إبراهيم دياز ينتظر فرمان مورينيو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A-%D8%A7%D9%95%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%AF%D9%8A%D8%A7%D8%B2-%D9%8A%D9%86%D8%AA%D8%B8%D8%B1-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88/blt17857f65c63f8b4e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بين حلم البقاء وإغراء الرحيل!",
-      "body": "بين حلم البقاء وإغراء الرحيل! في وقت تتسارع فيه تحركات الأندية الأوروبية خلال سوق الانتقالات الصيفية، أصبح الدولي المغربي إبراهيم دياز أحد أبرز الأسماء المطروحة على طاولة المفاوضات، بعدما دخل بقوة ضمن اهتمامات جلطة سراي التركي. وبينما يسعى النادي التركي لحسم الصفقة، تتجه الأنظار إلى موقف المدرب البرتغالي جوزيه مورينيو، الذي ينتظر أن يحسم مستقبل اللاعب بعد تقييمه خلال فترة الإعداد للموسم الجديد. وذكرت صحيفة \" فاناتيك \" التركية أن إدارة جلطة سراي قدمت عرضًا رسميًا من أجل التعاقد مع إبراهيم دياز، في إطار خطتها لتدعيم صفوف الفريق بعناصر قادرة على المنافسة محليًا وقاريًا خلال الموسم المقبل. وأوضحت الصحيفة أن النادي التركي يواصل نشاطه المكثف في سوق الانتقالات، حيث يعمل أيضًا على إنهاء صفقة لاعب الوسط الفرنسي ليسلي أوجوتشوكو، المحترف في صفوف بيرنلي الإنجليزي. وبعد التوصل إلى اتفاق مع النادي الإنجليزي، بات جلطة سراي قريبًا من استكمال إجراءات ضم اللاعب. وفي المقابل، كشف الصحفي التركي ياجيز سابونجو أوغلو أن جلطة سراي أجرى اتصالات مباشرة مع إبراهيم دياز لاستطلاع موقفه من الانتقال إلى الدوري التركي، في محاولة لإقناعه بخوض تجربة جديدة بعيدًا عن ريال مدريد. ورغم الاهتمام التركي، تشير التقارير إلى أن الدولي المغربي يفضل في الوقت الحالي الاستمرار مع ريال مدريد وعدم مغادرة النادي خلال فترة الانتقا…",
-      "image": null,
-      "pubDate": "2026-07-12T18:21:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "f475dd596e84e590",
@@ -1098,38 +1306,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "eb24c22a6efec6c0",
-      "title": "ماذا قال؟ قراءة الشفاه تفضح توبيخ توخيل لنجوم إنجلترا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%A7%D9%84-%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D9%87-%D8%AA%D9%81%D8%B6%D8%AD-%D8%AA%D9%88%D8%A8%D9%8A%D8%AE-%D8%AA%D9%88%D8%AE%D9%8A%D9%84-%D9%84%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7/bltb6309f04cd012add?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كشفت خبيرة في قراءة الشفاه، تفاصيل الرسالة الغاضبة التي وجهها توماس توخيل، مدرب منتخب إنجلترا، إلى لاعبيه، خلال لقاء النرويج، في نصف نهائي كأس العالم.",
-      "body": "كشفت خبيرة في قراءة الشفاه، تفاصيل الرسالة الغاضبة التي وجهها توماس توخيل، مدرب منتخب إنجلترا، إلى لاعبيه، خلال لقاء النرويج، في نصف نهائي كأس العالم. وتمكن المنتخب الإنجليزي من قلب الطاولة، بعد تأخره بهدف، لينهي المباراة بفوز مثير بنتيجة 2-1 بعد التمديد للوقت الإضافي. ورغم أن إنجلترا كانت الطرف الأفضل خلال الدقائق الأولى من ربع نهائي كأس العالم، فإنها لم تنجح في صناعة فرص حقيقية تُذكر. وكانت أخطر فرص الأسود الثلاثة، عندما سدد نيكو أوريلي، كرة مرت بجوار المرمى من مسافة قريبة بعد عرضية رائعة من مادويكي، لكن بخلاف تلك اللقطة، لم يقدم المنتخب الإنجليزي، الكثير قبل الوصول إلى أول استراحة لشرب المياه. واستغل توماس توخيل، تلك الدقائق، ليوبخ لاعبيه، مذكرًا إياهم بحقيقة مباريات خروج المغلوب. وقالت خبيرة قراءة الشفاه، نيكولا هيكلينج، لصحيفة الديلي ميل ، عبر منصة Covers \"توخيل قال للاعبيه اعملوا بجد أكبر، تحركوا بسرعة أكبر، أنتم واقفون وثابتون\". رسائل توخيل الحماسية أداة مؤثرة لتحفيز لاعبيه وأضاف المدرب الألماني \"أحتاج أن أقول لكم شيئًا.. استمعوا إلى الجهاز الفني، علينا أن نقاتل من أجل مراكزنا. استمعوا إلى الجهاز الفني. أبقوا الكرة منخفضة. ادفعوا أقل، وركزوا أكثر على الكرة\". كما وجه تعليمات خاصة خلال الكرات الركنية، قائلًا \"في الركنيات، يجب أن تتحركوا إلى الجهة اليمنى. لا تأتوا من الأمام (م…",
-      "image": "https://assets.kooora.com/images/v3/getty-2285100484/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2285100484.jpg",
-      "pubDate": "2026-07-12T18:09:47.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "442b515a41398843",
-      "title": "‘Moana’ Makes Underwhelming Splash at Box Office With $43 Million Opening",
-      "link": "https://www.billboard.com/culture/tv-film/moana-box-office-opening-disney-1236292593/",
-      "summary": "The Disney live-action film cost a reported $250 million to produce.",
-      "body": "The Walt Disney Company’s live-action Moana may be the No. 1 movie at the domestic box office, but it did not make a big splash in its first weekend in theaters. Related Opetaia Foa‘i Calls Adding &#8216;Authenticity&#8217; to &#8216;Moana&#8217; Through Pacific Island Languages &#8216;A Huge&nbsp;Win&#8217; Squishmallows&#039; &#039;KPop Demon Hunters&#039; Collection Features 4 Fan-Favorite Characters in Plushie Form Taylor Swift Joins Travis Kelce at His Former Teammate&#039;s Wedding One Week After Their Own The movie, which cost a reported $250 million to produce, earned just $43 million from ticket sales in the U.S. and Canada, according to studio estimates Sunday (July 12). Internationally, it earned $52 million from 50 markets, adding up to a $95 million global debut. The studio bet big on Moana , one of its most popular franchises. The 2016 animated film is the most watched movie on Disney+. Its sequel, which was stitched together from a planned streaming series, made over $1 billion and scored a Thanksgiving record when it opened with $225 million in 2024. Moana 2 was also released just 19 months ago. This latest Moana , directed by Thomas Kail, brings Dwayne Johnson bac…",
-      "image": null,
-      "pubDate": "2026-07-12T18:06:07.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -1165,22 +1341,6 @@
       "region": "global"
     },
     {
-      "id": "aedd27b6ddc19356",
-      "title": "Jay-Z Shuts Down Yankee Stadium With ‘The Blueprint’ & Special Guests: 7 Best Moments",
-      "link": "https://www.billboard.com/lists/jay-z-yankee-stadium-concert-blueprint-best-moments/",
-      "summary": "Jay's second night at Yankee Stadium had its fair share of highs and surprises, thanks to Slick Rick, Eminem and Pharrell.",
-      "body": "The Blueprint turns 25 this year and is one of Jay-Z &#8216;s more popular albums. That was reflected in the massive crowd that made their way to the Bronx to watch the Brooklyn rapper perform for the second night in a row at Yankee Stadium. There was energy in the air for this one that was different from the first night . The audience was a bit more diverse in terms of age and race, and certainly more engaged, which made the show feel like a big party. Jay went through each song at what felt like a feverish pace, giving fans little time to rest. And they didn&#8217;t mind &#8212; they just kept getting louder. It was impressive to see in person, especially when the surprise guests hit the stage. Related Jay-Z&#8217;s Yankee Stadium Night Two Setlist: Every Song Played at the Second&nbsp;Show First was the legendary Slick Rick , who, of course, came out after Hov did &#8220;The Ruler&#8217;s Back&#8221; to start the show. He then brought out Eminem so they could perform &#8220;Renegades&#8221; together, and before the Detroit rapper peaced out, he lit the crowd up with &#8220;Lose Yourself.&#8221; However, Jay&#8217;s special guest that got the biggest pop from the rabid crowd Sat…",
-      "image": null,
-      "pubDate": "2026-07-12T17:47:21.000Z",
-      "source": {
-        "name": "Billboard",
-        "homepage": "https://www.billboard.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "509bc4c9f70f7c79",
       "title": "Microsoft may make big changes to bring Android and Windows 11 closer together",
       "link": "https://www.androidauthority.com/microsoft-more-deeply-integrating-android-in-windows-3686649/",
@@ -1195,70 +1355,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "681e2db65f28beeb",
-      "title": "بسيناريو ماراثوني.. سينر يحتفظ بعرش ويمبلدون في ليلة المئوية",
-      "link": "https://www.kooora.com/%D8%AA%D9%86%D8%B3/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D9%85%D8%A7%D8%B1%D8%A7%D8%AB%D9%88%D9%86%D9%8A-%D8%B3%D9%8A%D9%86%D8%B1-%D9%8A%D8%AD%D8%AA%D9%81%D8%B8-%D8%A8%D8%B9%D8%B1%D8%B4-%D9%88%D9%8A%D9%85%D8%A8%D9%84%D8%AF%D9%88%D9%86-%D9%81%D9%8A-%D9%84%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D9%94%D9%88%D9%8A%D8%A9/blt8e89e6cb36783e8f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "في انتصاره رقم 100 في بطولات الجراند سلام، نجح يانيك سينر، المصنف الأول عالميًا، في الدفاع عن لقب ويمبلدون للتنس بنجاح.",
-      "body": "في انتصاره رقم 100 في بطولات الجراند سلام، نجح يانيك سينر، المصنف الأول عالميًا، في الدفاع عن لقب ويمبلدون للتنس بنجاح. وقلب اللاعب الإيطالي، تأخره بمجموعة أمام خصمه الألماني ألكسندر زفيريف، إلى فوز ماراثوني، بنتيجة 6-7 و7-6 و6-3 و6-4، ليدافع عن لقبه بنجاح، ويحصد خامس ألقابه في البطولات الأربع الكبرى. واستعرضت \" صحيفة سبورت \" أبرز لمحات المباراة النهائية، حيث اعتمد زفيريف على إرسال ساحق، تجاوزت فاعليته في الكثير من الفترات 80% على الإرسال الأول، مع متوسط سرعة تخطى 200 كيلومتر في الساعة، ليحوّل كل شوط إرسال، إلى كابوس بالنسبة لسينر، الذي أهدر فرصته الوحيدة في المجموعة الأولى، قبل أن تُحسم عبر شوط كسر التعادل (تاي بريك)، حيث كان خطأ واحد فقط من الإيطالي على إرساله كافيًا لترجيح الكفة لصالح منافسه. وإذا كان أداء زفيريف مقنعًا منذ البداية، فإن فوزه بالمجموعة الأولى، منحه دفعة إضافية لمواصلة تنفيذ خطته، التي اتسمت بجرأة هجومية أكبر من المعتاد.&nbsp; واستمرت الإرسالات في فرض سيطرتها المطلقة على المباراة، لتُحسم المجموعة الثانية أيضًا عبر \"تاي بريك\"، لكن هذه المرة نجح سينر في إيجاد الحلول على الإرسال المقابل، ليعادل النتيجة ويعيد المباراة إلى نقطة البداية. وانخفضت وتيرة اللعب بعد مجموعتين، تجاوزت كل منهما الساعة، واستمد سينر، دفعة معنوية كبيرة من فوزه بالمجموعة الثانية، وبدأ يحقق نجاحًا …",
-      "image": null,
-      "pubDate": "2026-07-12T17:42:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a55af630954e5ef6",
-      "title": "من 5 كلمات.. بيكهام يوجه \"رسالة راقية\" لهاري كين بعد التأهل لنصف النهائي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86-5-%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D8%A8%D9%8A%D9%83%D9%87%D8%A7%D9%85-%D9%8A%D9%88%D8%AC%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%B1%D8%A7%D9%82%D9%8A%D8%A9-%D9%84%D9%87%D8%A7%D8%B1%D9%8A-%D9%83%D9%8A%D9%86-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D9%84%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A/blt2e7073eda04ed34b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "قاد إنجلترا لأقصاء النرويج",
-      "body": "قاد إنجلترا لأقصاء النرويج وجه ديفيد بيكهام \"رسالة راقية\" إلى قائد منتخب إنجلترا، هاري كين، بعد وصول منتخب الأسود الثلاثة إلى الدور نصف النهائي من كأس العالم. وسجل جود بيلينجهام هدفي الفوز لفريق توماس توخيل على النرويج 2/1، وجاء الثاني في الشوط الإضافي الأول بينما كان بيكهام يشاهد المباراة. كان بيكهام متواجداً في المدرجات في ملعب هارد روك في ميامي مع ابنيه روميو وكروز، بالإضافة إلى زوجته فيكتوريا وابنته هاربر. ووفقا لصحيفة \" ذا صن \"، التقطت العائلة صورة جماعية، وتم تسجيل بيكهام وهو يحتفل بالأهداف. ثم توجه إلى الإنترنت ليتمنى لكين التوفيق في مباراة نصف النهائي يوم الأربعاء ضد الأرجنتين. {\"type\":\"power-rankings-carousel\",\"data\":{}} وكتب كين: \"لنواصل الإيمان. إلى الدور نصف النهائي\"، ورد عليه بيكهام قائلاً: \"قائد رائع، استمر في الإيمان\". كما علّق العديد من نجوم إنجلترا على رسالة هاري كين، حيث وضع بيلينجهام رمزًا تعبيريًا لماعز، وأضاف جون ستونز قلبًا وكلمة \"سكيب\"، بينما اختار جوردان هندرسون رمزًا تعبيريًا للهب وقلبًا، وقام ماركوس راشفورد برسم قلب بينما كان آلان شيرر يصفق. &nbsp;",
-      "image": null,
-      "pubDate": "2026-07-12T17:40:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "13d55ae88cc0db3c",
-      "title": "بعد التألق في كأس العالم.. عملاق أوروبي يطارد ياسين بونو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%A7%D9%94%D9%84%D9%82-%D9%81%D9%8A-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B7%D8%A7%D8%B1%D8%AF-%D9%8A%D8%A7%D8%B3%D9%8A%D9%86-%D8%A8%D9%88%D9%86%D9%88/blt956be14ebf5b82b9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "متابعة واحدة تشعل التكهنات حول مستقبل المغربي",
-      "body": "متابعة واحدة تشعل التكهنات حول مستقبل المغربي كشفت تقارير إعلامية تركية عن دخول الدولي المغربي ياسين بونو، حارس مرمى الهلال السعودي، دائرة اهتمامات نادي فنربخشة خلال فترة الانتقالات الصيفية الحالية، في خطوة تعكس المكانة الكبيرة التي بات يحظى بها الحارس المغربي بعد تألقه اللافت مع ناديه ومنتخب بلاده في السنوات الأخيرة. وذكرت صحيفة \" فاناتيك \" التركية أن إدارة فنربخشة تدرس بجدية التعاقد مع بونو، تحسبًا لاحتمال رحيل الحارس البرازيلي إديرسون خلال سوق الانتقالات الحالية، بعدما ارتبط اسمه بإمكانية خوض تجربة جديدة، في ظل اهتمام عدد من الأندية الأوروبية، يتقدمها يوفنتوس الإيطالي، بالحصول على خدماته. وأوضح التقرير أن مسؤولي فنربخشة شرعوا بالفعل في إعداد قائمة مختصرة تضم عددًا من حراس المرمى المرشحين لتعويض إديرسون، ويتصدرها ياسين بونو، الذي لفت الأنظار بالمستويات المميزة التي قدمها مع الهلال السعودي، إلى جانب تألقه بقميص المنتخب المغربي، خاصة في نهائيات كأس العالم 2026، حيث كان أحد أبرز نجوم البطولة. وأضافت الصحيفة أن التكهنات بشأن إمكانية انتقال بونو إلى فنربخشة ازدادت خلال الساعات الماضية، بعدما أقدم الحارس المغربي على متابعة الحساب الرسمي للنادي التركي عبر منصات التواصل الاجتماعي، وهو ما دفع العديد من المتابعين إلى ربط هذه الخطوة بوجود اتصالات بين الطرفين، رغم أنها لا تمثل دليلًا رسميًا…",
-      "image": null,
-      "pubDate": "2026-07-12T17:38:28.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "84ac5fc1b508dce3",
-      "title": "بعد العروض الإنجليزية.. تحديد سعر مفاجأة كأس العالم 2026",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B6-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF-%D8%B3%D8%B9%D8%B1-%D9%85%D9%81%D8%A7%D8%AC%D8%A7%D9%94%D8%A9-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2026/blt1880a0687e3faa9c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نجم المكسيك يشعل الصراع",
-      "body": "نجم المكسيك يشعل الصراع شهد مونديال 2026 ظهور عدد من النجوم الذين خطفوا الأضواء بأداء استثنائي ومفاجئ، بعدما تجاوزوا كل التوقعات وفرضوا أنفسهم كأبرز الأسماء في البطولة، في الوقت الذي لم يظهر فيه بعض نجوم الصف الأول مع المنتخبات الكبرى بالمستوى المنتظر منهم. ومن بين هذه الأسماء، المكسيكي جوليان كينيونيس، مهاجم القادسية السعودي، والذي استطاع أن يقدم 5 مساهمات تهديفية في 5 مباريات (سجل 4 وصنع 1)، ليصبح هدفًا للعديد من الأندية الكبرى. وبحسب ما ذكره الإعلامي محمد البكيري، فإن القادسية حدد 70 مليون يورو، نظير التخلي عن كينيونيس خلال الصيف الجاري، خاصة وأن اللاعب يحظى باهتمام كبير من أندية أوروبا. اقرأ أيضًا.. رغم إغراءات السعودية.. نجم برشلونة يتمسك بالحلم الأوروبي وشهدت الأيام الأخيرة، خروج تقارير تشير إلى أن تشيلسي وأستون فيلا الإنجليزيين يرغبان في ضم اللاعب خلال الميركاتو الجاري. {\"type\":\"power-rankings-carousel\",\"data\":{}} وكان كينيونيس قد توج هدافًا لدوري روشن في نسخته الأخيرة بتسجيل 33 هدفًا، متفوقًا على العديد من النجوم، مثل إيفان توني، مهاجم الأهلي، وكريستيانو رونالدو، قائد النصر.",
-      "image": null,
-      "pubDate": "2026-07-12T17:35:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "38df9b059d861141",
@@ -1277,22 +1373,6 @@
       "region": "global"
     },
     {
-      "id": "a046920897bfa03a",
-      "title": "جيسوس يفضح مدربي أوروبا بسبب فيليكس.. ما القصة؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D9%8A%D8%B3%D9%88%D8%B3-%D9%8A%D9%81%D8%B6%D8%AD-%D9%85%D8%AF%D8%B1%D8%A8%D9%8A-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%A8%D8%B3%D8%A8%D8%A8-%D9%81%D9%8A%D9%84%D9%8A%D9%83%D8%B3-%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D8%B5%D8%A9/bltb971299dfd4a855b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تصريحات مثيرة من العجوز البرتغالي",
-      "body": "تصريحات مثيرة من العجوز البرتغالي أعاد جورجي جيسوس، المدير الفني الجديد لمنتخب البرتغال، فتح ملف جواو فيليكس، مؤكدًا أن اللاعب تعرض للظلم خلال السنوات الماضية بسبب عدم استخدامه في المركز الذي يناسب إمكانياته، قبل أن يظهر بصورة مختلفة خلال تجربته مع النصر السعودي. وكان فيليكس قد استعاد بريقه تحت قيادة جيسوس في الموسم الماضي، بعدما قرر المدرب البرتغالي تغيير طريقة توظيفه داخل الملعب، والاعتماد عليه كمهاجم ثانٍ خلف رأس الحربة، وهو الدور الذي أخرج أفضل ما لديه. وقال جيسوس في تصريحات تلفزيونية: \"جواو فيليكس لعب في أفضل الأندية في أوروبا، لكنه لم يثبت نفسه بالشكل الذي كان متوقعًا منه\". وأضاف: \"كان يلعب في العديد من المراكز المختلفة، وأعتقد أن المدربين لم يفهموا الطريقة الأفضل لاستغلال قدراته\". وأوضح مدرب البرتغال أن فيليكس يمتلك دورًا محددًا يظهر خلاله بأفضل صورة، قائلًا: \"هناك مركز واحد يؤدي فيه جواو أفضل أداء، وهو كمهاجم ثانٍ.\" اقرأ أيضًا.. رغم إغراءات السعودية.. نجم برشلونة يتمسك بالحلم الأوروبي وخلال فترة عملهما معًا في النصر، نجح جيسوس في إعادة تقديم فيليكس للجماهير بصورة مختلفة، بعدما منحه مساحة أكبر للتحرك بين الخطوط، والاستفادة من مهاراته في صناعة اللعب والتسجيل بدلًا من تقييده بأدوار لا تناسب أسلوبه. وقدم اللاعب البرتغالي موسمًا استثنائيًا مع النصر، بعدما ساهم في 33 هدفًا بدوري…",
-      "image": null,
-      "pubDate": "2026-07-12T17:27:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "1cf613b6e7dd0aa9",
       "title": "Van der Poel wins shortened Tour stage in 40C heat",
       "link": "https://www.bbc.co.uk/sport/cycling/articles/c9v2wyw41vko?at_medium=RSS&at_campaign=rss",
@@ -1307,22 +1387,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "8366985242754de2",
-      "title": "اسم مفاجئ يقترب من تدريب السنغال بعد صدمة كأس العالم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%B3%D9%85-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D8%A8%D8%B9%D8%AF-%D8%B5%D8%AF%D9%85%D8%A9-%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/blt3c257142ae5c3703?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اجتماع حاسم في داكار",
-      "body": "اجتماع حاسم في داكار أشعل الاتحاد السنغالي لكرة القدم سباق التكهنات حول هوية المدير الفني الجديد لمنتخب \"أسود التيرانجا\"، بعدما أطاح بالمدرب بابي ثياو عقب الخروج المخيب من كأس العالم 2026، في وقت برز فيه اسم النجم الفرنسي السنغالي الأصل باتريك فييرا باعتباره المرشح الأوفر حظًا لتولي المهمة وقيادة مرحلة إعادة البناء. وكشفت صحيفة \"ليكيب\" الفرنسية أن عددًا من صناع القرار داخل الاتحاد السنغالي يدفعون بقوة نحو تعيين باتريك فييرا مديرًا فنيًا للمنتخب، خلفًا لبابي ثياو، بعد الإقصاء من دور الـ32 أمام منتخب بلجيكا بنتيجة (3-2) عقب الوقت الإضافي، في نتيجة اعتُبرت بعيدة تمامًا عن طموحات الجماهير السنغالية. ومن المنتظر أن يعقد المكتب التنفيذي للاتحاد السنغالي لكرة القدم اجتماعًا طارئًا، السبت المقبل في العاصمة داكار، لمناقشة التقييم الكامل لمشاركة المنتخب في نهائيات كأس العالم التي استضافتها الولايات المتحدة، والتي انتهت بخروج مبكر ومخيب للآمال. وسيخصص الاجتماع لتحليل أسباب الإخفاق الذي أنهى حلم السنغال مبكرًا، خاصة أن المنتخب كان قريبًا للغاية من بلوغ دور الـ16، بعدما تقدم على بلجيكا بهدفين دون رد حتى الدقيقة 86، قبل أن يتلقى ثلاثة أهداف ويودع البطولة بطريقة دراماتيكية. وترى دوائر داخل الاتحاد السنغالي أن الأخطاء الفردية كانت أحد أبرز أسباب الخروج، وفي مقدمتها الخطأ الفادح في التعامل مع الكر…",
-      "image": null,
-      "pubDate": "2026-07-12T17:15:28.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "111250f545ad43df",
@@ -1460,6 +1524,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-07-12T14:05:53.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "bea0dddf395f94a5",
+      "title": "Scotland's great entertainers were scintillating and sloppy",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ce8k754pprro?at_medium=RSS&at_campaign=rss",
+      "summary": "Once more, Scotland's fantastic ability to score epic tries is not enough as the chance for a first away win over South Africa slips through their fingers, writes Tom English.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-12T14:03:26.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1725,22 +1805,6 @@
       "region": "global"
     },
     {
-      "id": "fc9319ccee5ea18e",
-      "title": "Jones makes brilliant catch as England strike early on day three",
-      "link": "https://www.bbc.co.uk/sport/cricket/videos/cy73rk8n82eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Amy Jones takes a brilliant diving catch to remove Smriti Mandhana, as India's opening batter misses out on making a century at Lord's as she departs for 70, with the tourists 161-2 in their second innings at Lord's.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T10:40:20.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "750810a4c74905a4",
       "title": "3 reasons why I want to ditch Google, and 3 reasons why I can’t",
       "link": "https://www.androidauthority.com/reasons-to-ditch-google-but-why-i-cant-3684072/",
@@ -1901,22 +1965,6 @@
       "region": "global"
     },
     {
-      "id": "703b09282262e5f9",
-      "title": "Who am I? Guess World Cup star No 35",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx21gn50e08o?at_medium=RSS&at_campaign=rss",
-      "summary": "Will you get today's player in as few attempts as possible?",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T06:15:52.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "6ef8e7b7da44cf09",
       "title": "دراسة جديدة تكشف أثرا غير متوقع لكرة القدم على الدماغ",
       "link": "https://www.skynewsarabia.com/technology/1880407-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D8%A3%D8%AB%D8%B1%D8%A7-%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%BA",
@@ -1949,22 +1997,6 @@
       "region": "global"
     },
     {
-      "id": "0317a52cbc3ebfaf",
-      "title": "Footballers more likely to suffer depression and anxiety - study",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn59nnkyy2go?at_medium=RSS&at_campaign=rss",
-      "summary": "A new study finds evidence of reduced brain volume in former elite footballers, who also report difficulties with thinking skills and decision-making.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T05:09:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "5c8b68b964a91757",
       "title": "'We should all be excited' - Messi set for first England meeting",
       "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
@@ -1972,38 +2004,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-07-12T04:48:18.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "e23e350e5ea3b4e0",
-      "title": "Bellingham reaching heights of World Cup legends with Messi next",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T04:35:19.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ec241053c29a10ce",
-      "title": "Embolo sent off as result of mistaken identity rule",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
-      "summary": "Switzerland's Breel Embolo becomes first player to be sent off as a result of a new law for mistaken identity at the World Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-12T04:22:57.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2132,22 +2132,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-07-11T15:36:56.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "6202dedce2ef7986",
-      "title": "Klopp agrees to replace Nagelsmann as Germany coach",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ced44061g8qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jurgen Klopp agrees a deal in principle to become the new head coach of Germany's men's national team after the resignation of Julian Nagelsmann.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-11T14:48:39.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -3437,54 +3421,6 @@
       "region": "global"
     },
     {
-      "id": "3e0def0f9186b022",
-      "title": "Samsung Galaxy Tab S12 Plus surfaces with first live image",
-      "link": "https://www.androidauthority.com/galaxy-tab-s12-plus-live-image-3685896/",
-      "summary": "Here's the first live image of Galaxy Tab S12 Plus.",
-      "body": "Credit: C. Scott Brown / Android Authority TL;DR The Galaxy Tab S12 Plus has stopped by the Bureau of Indian Standards for certification. The tablet was also spotted on the Safety Korea database. The listing in the Safety Korea database includes a live image of the tablet. The latest entries into the Galaxy Tab series are on the way. Samsung will be expanding the lineup with the Galaxy Tab S12 Plus and Ultra later this year. As the company continues its progress on both tablets, the Plus has recently been spotted on a couple of certification databases. One of those listings also gives us our first look at the upcoming tablet. Starting with the Bureau of Indian Standards (via 91mobiles ), the Galaxy Tab S12 Plus appeared with the model numbers SM-X840 and SM-X846B. The former refers to the Wi-Fi model, while the latter is for the 5G variant. This information isn’t new, as these model numbers were revealed earlier this year when the tablet was spotted on the GSMA IMEI database. However, this latest appearance serves as an indicator that the tablet is getting closer to launch.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/Samsung-Logo-on-back-of-Galaxy-Tab-S11.jpg",
-      "pubDate": "2026-07-09T17:00:26.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3201881199ff462b",
-      "title": "$600 discount drops the Anker SOLIX S2000 Power Station back to its all-time low price",
-      "link": "https://www.androidauthority.com/anker-solix-s2000-power-station-deal-3685911/",
-      "summary": "The highly rated portable power station is back at its record-low Prime Day price of $599.99 in this Amazon sale.",
-      "body": "Power cuts are a lot less stressful when you have a backup battery ready to go, and Amazon now has a strong deal on the Anker SOLIX S2000 Portable Power Station. It’s down to $599.99, which is a big drop for a unit built more for home backup than weekend trips. See the deal at Amazon",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/anker-solix-s2000-featured.jpg",
-      "pubDate": "2026-07-09T16:58:52.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9c957e3a48255e9f",
-      "title": "Google Store quietly starts selling Samsung wearables, starting with the Galaxy Watch 8",
-      "link": "https://www.androidauthority.com/samsung-galaxy-watch-8-google-play-store-3685828/",
-      "summary": "Google has started showing promos for the Galaxy Watch 8 on the Play Store, potentially hinting at a new collaboration.",
-      "body": "TL;DR The Google Play Store is showing a promotion for the Galaxy Watch 8 with a limited-time $20 discount. However, Samsung’s existing lineup of smartwatches isn’t available directly on the Google Store just yet. This discovery comes ahead of the expected release of the Galaxy Watch 9 at Unpacked this month. We loved the Samsung Galaxy Watch 8 and what it brought to the table in terms of features and overall comfort. While you’ve been able to buy the smartwatch from several retailers in the US, including Samsung’s own store, the wearable has now landed in an unlikely place. Listings for the Galaxy Watch 8 are popping up under the “Devices from the Google Store” section in the Play Store, as flagged by the folks at 9to5Google . Google is also offering a $20 discount on the smartwatch, with the promo running until July 14.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/08/Samsung-Galaxy-Watch-8-on-wrist-closeup.jpg",
-      "pubDate": "2026-07-09T16:38:53.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "38d28ce3c13fbfc6",
       "title": "Curiosity Sees Martian Sulfur Up Close",
       "link": "https://www.nasa.gov/image-article/curiosity-sees-martian-sulfur-up-close/",
@@ -3517,38 +3453,6 @@
       "region": "global"
     },
     {
-      "id": "5963109e2a292f8e",
-      "title": "Apple Watch Ultra 3 drops to $660 in its second-best Amazon deal ever",
-      "link": "https://www.androidauthority.com/deal-apple-watch-ultra-3-3685886/",
-      "summary": "The high-end Apple smartwatch is back near its record-low price on Amazon, with a 49mm titanium case, 5G, and 17% off.",
-      "body": "People who hike, dive, train hard, or spend a lot of time away from home need a watch that can do more than count steps. The Apple Watch Ultra 3 is built for that kind of use, and there’s a solid Amazon deal on it right now. See the deal at Amazon",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/Apple-Watch-Ultra-3-Apps-scaled.jpg",
-      "pubDate": "2026-07-09T15:31:06.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d48edc2fe2da7d22",
-      "title": "With great foldable power: Spider-Man teases the Galaxy Z Fold 8",
-      "link": "https://www.androidauthority.com/galaxy-z-fold-8-spider-man-teaser-3685841/",
-      "summary": "Samsung and Spider-Man team up for a spectacular Galaxy Z Fold 8 tease.",
-      "body": "Credit: Ice Universe TL;DR Samsung has shared a teaser of the Galaxy Z Fold 8 ahead of launch. The teaser features Spider-Man pulling the foldable toward him with his web shooters. The next Galaxy Unpacked is almost here, and there have been numerous leaks regarding Samsung’s upcoming foldables as we approach the launch. However, the latest news about one of the brand’s foldables doesn’t come from a leaker. This time, we’re getting something official from Samsung itself. In a new social post , Samsung shared a Galaxy Z Fold 8 teaser on X (formerly Twitter). The post specifically includes a picture featuring Spider-Man pulling a foldable phone toward him with his web shooters. It’s a continuation of Samsung’s marketing partnership with Spider-Man: Brand New Day, which is scheduled to come to theaters on July 31.",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Galaxy-Z-Fold-8-dummy.jpg",
-      "pubDate": "2026-07-09T15:29:16.000Z",
-      "source": {
-        "name": "Android Authority",
-        "homepage": "https://www.androidauthority.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "22b3ad155062d053",
       "title": "ألف إصابة بطفيلي غامض.. تفش غير مسبوق يقلق أميركا",
       "link": "https://www.skynewsarabia.com/technology/1879897-%D8%A3%D9%84%D9%81-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D8%B7%D9%81%D9%8A%D9%84%D9%8A-%D8%BA%D8%A7%D9%85%D8%B6-%D8%AA%D9%81%D8%B4-%D9%85%D8%B3%D8%A8%D9%88%D9%82-%D9%8A%D9%82%D9%84%D9%82-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7",
@@ -3561,22 +3465,6 @@
         "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
       },
       "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "74a8167b83b2cc8f",
-      "title": "WHO calls for urgent action as new cancer cases are projected to nearly double by 2050",
-      "link": "https://www.who.int/news/item/08-07-2026-who-calls-for-urgent-action-as-new-cancer-cases-are-projected-to-nearly-double-by-2050",
-      "summary": "Millions of people are facing physical, emotional and financial toll of cancer, a disease that claims more than 26 000 lives every day, according to a report released today by the World Health Organization (WHO). With an estimated 20.6 million new cases and close to 10 million deaths annually, canc…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-08T11:51:29.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
       "category": "technology",
       "region": "global"
     },
@@ -3949,22 +3837,6 @@
       "region": "global"
     },
     {
-      "id": "54058a06d1c32641",
-      "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
-      "link": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
-      "summary": "Today, the World Health Organization (WHO) has added the first molecular diagnostic test for Bundibugyo virus (BDBV) to its Emergency Use Listing (EUL). The test detects the virus by identifying its genetic material in blood samples, helping confirm infection rapidly and accurately. WHO’s EUL proce…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-02T16:21:23.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "80fb9aa4c23d8bea",
       "title": "When Did Making Reservations Get So Annoying?",
       "link": "https://www.eater.com/trends/972511/why-its-so-annoying-to-make-reservations-now-resy-opentable-doordash-tock",
@@ -3994,22 +3866,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "b5764af58eef785e",
-      "title": "Patient enrolment begins in a scientific trial to identify the first effective treatments for Bundibugyo virus disease",
-      "link": "https://www.who.int/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease",
-      "summary": "In a major international effort to evaluate potential treatments for Ebola disease due to Bundibugyo virus (BVD), the PARTNERS clinical trial has opened enrolment today for patients in the Democratic Republic of the Congo.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-02T12:19:20.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -4589,22 +4445,6 @@
       "region": "global"
     },
     {
-      "id": "7dd87f8c47ff6649",
-      "title": "655 million people still living without electricity underscore urgent need to deliver on universal energy access target",
-      "link": "https://www.who.int/news/item/24-06-2026-655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
-      "summary": "At a time when energy security and affordability have risen to the top of the development agenda, 655 million people globally still lack access to electricity, and two billion use polluting fuels and technologies for cooking putting their health and well-being at risk.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-24T11:57:55.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "4f6358f20e762626",
       "title": "رصد أجسام مضادة لـ\"فيروس قاتل ينقله البعوض\"",
       "link": "https://www.skynewsarabia.com/technology/1877219-%D8%B1%D8%B5%D8%AF-%D8%A3%D8%AC%D8%B3%D8%A7%D9%85-%D9%85%D8%B6%D8%A7%D8%AF%D8%A9-%D9%84-%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D9%82%D8%A7%D8%AA%D9%84-%D9%8A%D9%86%D9%82%D9%84%D9%87-%D8%A7%D9%84%D8%A8%D8%B9%D9%88%D8%B6",
@@ -4682,22 +4522,6 @@
       },
       "lang": "ar",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c76b1194300fdfa0",
-      "title": "WHO urges scale up of newborn screening to improve early detection and care of birth defects",
-      "link": "https://www.who.int/news/item/23-06-2026-who-urges-scale-up-of-newborn-screening-to-improve-early-detection-and-care-of-birth-defects",
-      "summary": "The World Health Organization (WHO) today calls on countries to expand newborn screening for birth defects, highlighting how early detection and treatment can save lives and reduce lifelong disability for millions of children. A new WHO report, Strengthening capacity for newborn screening, diagnosi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-23T10:01:11.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
@@ -5037,22 +4861,6 @@
       "region": "global"
     },
     {
-      "id": "6edc493dc8a8aa06",
-      "title": "WHO issues comprehensive guidelines on filovirus disease, including Ebola and Marburg disease",
-      "link": "https://www.who.int/news/item/17-06-2026-who-issues-comprehensive-guidelines-on-filovirus-disease--including-ebola-and-marburg-disease",
-      "summary": "As the Democratic Republic of the Congo is battling an Ebola disease outbreak caused by the Bundibugyo virus, the World Health Organization (WHO) has released its first comprehensive guidelines for the clinical management of filovirus disease which include all types of Ebola and Marburg viruses. Th…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-17T13:30:57.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "5c7ffc301f4cd4c1",
       "title": "إجراء مبتكر يخفف ألم الركبة.. علاج جديد يحقق نتائج واعدة",
       "link": "https://www.skynewsarabia.com/technology/1875808-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D9%85%D8%A8%D8%AA%D9%83%D8%B1-%D9%8A%D8%AE%D9%81%D9%81-%D8%A3%D9%84%D9%85-%D8%A7%D9%84%D8%B1%D9%83%D8%A8%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%AD%D9%82%D9%82-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%88%D8%A7%D8%B9%D8%AF%D8%A9",
@@ -5261,22 +5069,6 @@
       "region": "global"
     },
     {
-      "id": "d43bd755add5938c",
-      "title": "Open letter to leaders of G7, G20, BRICS and all nations on finalizing the WHO Pandemic Agreement’s Pathogen Access and Benefit Sharing annex",
-      "link": "https://www.who.int/news/item/15-06-2026-open-letter-to-leaders-of-g7-g20-brics-and-all-nations-on-finalizing-the-who-pandemic-agreement-s-pathogen-access-and-benefit-sharing-annex",
-      "summary": "Dear Leaders of the G7, the G20, BRICS and of all nations, We write to you together, from Geneva and from Brasília, with one shared conviction: that the world must finish what it started, and that you can help it do so. We begin not with an institution or an annex, but with a memory the whole world…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-15T09:05:36.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "b7a1e1b14e2d9deb",
       "title": "الكونغو الديمقراطية تعلن ارتفاع عدد الإصابات بفيروس إيبولا",
       "link": "https://www.skynewsarabia.com/technology/1874976-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7",
@@ -5357,38 +5149,6 @@
       "region": "global"
     },
     {
-      "id": "1b11b3d7bc8e0282",
-      "title": "آلاف الإصابات أسبوعيا.. تحذيرات دولية من \"عودة الإيدز\"",
-      "link": "https://www.skynewsarabia.com/technology/1874695-%D8%A2%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A%D8%A7-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7%D8%AA-%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%B9%D9%88%D8%AF%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%AF%D8%B2",
-      "summary": "حذرت الأمم المتحدة من أن الجهود العالمية لمكافحة فيروس نقص المناعة البشرية (الإيدز) تواجه ما وصفته بـ\"أكبر عاصفة شهدتها على الإطلاق\"، نتيجة التخفيضات الحادة في المساعدات الدولية، التي بدأت بالفعل في تقويض عقود من التقدم المحقق في مواجهة المرض.",
-      "body": null,
-      "image": "https://images.skynewsarabia.com/images/v1/2026/06/12/1874694/95/53/1-1874694.jpg",
-      "pubDate": "2026-06-12T15:11:47.000Z",
-      "source": {
-        "name": "Sky News Arabia — تكنولوجيا",
-        "homepage": "https://www.skynewsarabia.com/rss/technology.xml"
-      },
-      "lang": "ar",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "fddc48af478d39a9",
-      "title": "Safe blood supply improves as voluntary donations exceed 85%, but many people still lack access",
-      "link": "https://www.who.int/news/item/12-06-2026-safe-blood-supply-improves-as-voluntary-donations-exceed-85---but-many-people-still-lack-access",
-      "summary": "New data from the World Health Organization (WHO) show sustained progress towards safer blood supplies globally but also highlight persistent inequalities in access to safe blood and weaknesses in governance, financing and regulation of blood systems.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-12T12:35:26.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "f1349cfc23e4fd24",
       "title": "Find out more here",
       "link": "https://www.bbc.co.uk/sport/football/articles/ce8e6y90g2jo?at_medium=RSS&at_campaign=rss",
@@ -5402,22 +5162,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ea977bf4380dba24",
-      "title": "Africa CDC and WHO launch joint continental Ebola response plan",
-      "link": "https://www.who.int/news/item/05-06-2026-africa-cdc-and-who-launch-joint-continental-ebola-response-plan",
-      "summary": "The Africa Centres for Disease Control and Prevention (Africa CDC) and the World Health Organization (WHO) today launched a joint continental preparedness and response plan on the ongoing Ebola outbreak caused by the Bundibugyo virus. The plan aims to raise US$ 518 million to support African countr…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-05T12:28:26.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -5437,22 +5181,6 @@
       "region": "global"
     },
     {
-      "id": "116746793e086ab6",
-      "title": "Unsafe food causes 866 million illnesses and 1.5 million deaths annually, young children at highest risk",
-      "link": "https://www.who.int/news/item/04-06-2026-unsafe-food-causes-866-million-illnesses-and-1.5-million-deaths-annually--young-children-at-highest-risk",
-      "summary": "Children aged less than five years face almost three times the risk of illness from unsafe food than older children and adults, according to new estimates released today by the World Health Organization (WHO).",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-06-03T22:30:11.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
       "id": "fe82cb0c2d0bc6aa",
       "title": "How Cornish miners brought football to Mexico",
       "link": "https://www.bbc.co.uk/sport/football/articles/cx21q453l4jo?at_medium=RSS&at_campaign=rss",
@@ -5466,198 +5194,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "2f4b4098737aed2e",
-      "title": "WHO urges governments to protect young people from addiction to tobacco and nicotine products",
-      "link": "https://www.who.int/news/item/29-05-2026-who-urges-governments-to-protect-young-people-from-addiction-to-tobacco-and-nicotine-products",
-      "summary": "Worldwide, at least 40 million children aged 13–15 use tobacco products, and young people’s use of e-cigarettes and nicotine pouches continues to rise. In advance of World No Tobacco Day – 31 May – the World Health Organization (WHO) urges governments around the world to protect a new generation fr…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-29T08:48:28.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "1a041e3aaff371c1",
-      "title": "Experts convened by WHO advise on candidate treatments and vaccines for Ebola disease caused by Bundibugyo virus",
-      "link": "https://www.who.int/news/item/28-05-2026-experts-convened-by-who-advise-on-candidate-treatments-and-vaccines-for-ebola-disease-caused-by-bundibugyo-virus",
-      "summary": "In response to the current outbreak of Ebola disease caused by Bundibugyo virus occurring in the Democratic Republic of the Congo, with cases also reported in Uganda, WHO convened several of its expert and advisory groups. These groups assessed potential vaccines and therapeutics for both preventio…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-28T19:10:18.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "65dc7400fe155376",
-      "title": "Message by the WHO Director-General to the people of the Democratic Republic of the Congo",
-      "link": "https://www.who.int/news/item/28-05-2026-message-by-the-who-director-general-to-the-people-of-the-democratic-republic-of-the-congo",
-      "summary": "To the people of DRC, especially to the people of Ituri Jambo kwenu wakahaji wa Ituri Mbote na bino, bato ya Ituri My name is Tedros, and I am the Director-General of the World Health Organization (WHO). But today, I am not writing to you as an official. I am writing to you as someone who knows you…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-28T12:17:30.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "935d13c992793ff6",
-      "title": "Seventy-ninth World Health Assembly – Daily update: 23 May 2026",
-      "link": "https://www.who.int/news/item/23-05-2026-seventy-ninth-world-health-assembly---daily-update--23-may-2026",
-      "summary": "Summary of discussions of 23 May at the Seventy-ninth World Health Assembly.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-23T12:32:25.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "680204255f694c08",
-      "title": "Seventy-ninth World Health Assembly – Daily update: 22 May 2026",
-      "link": "https://www.who.int/news/item/22-05-2026-seventy-ninth-world-health-assembly-daily-update-22-may-2026",
-      "summary": "Summary of discussions of 22 May at the Seventy-ninth World Health Assembly.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-22T19:24:59.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "0371cc8a68163dd9",
-      "title": "First meeting of the IHR Emergency Committee regarding the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo and Uganda 2026 – Temporary recommendations",
-      "link": "https://www.who.int/news/item/22-05-2026-first-meeting-of-the-ihr-emergency-committee-regarding-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-and-uganda-2026-temporary-recommendations",
-      "summary": "The Committee’s advice aligned with the determination by the WHO Director-General that the event constitutes a public health emergency of international concern (PHEIC), but does not meet the criteria for pandemic emergency. The DG, considering the advice of the Committee, he is hereby issuing the f…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-22T15:22:03.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "a8b12f0e98f3b3a3",
-      "title": "Seventy-ninth World Health Assembly – Daily update: 21 May 2026",
-      "link": "https://www.who.int/news/item/21-05-2026-seventy-ninth-world-health-assembly---daily-update--21-may-2026",
-      "summary": "Summary of discussions of 21 May at the Seventy-ninth World Health Assembly.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-21T20:33:06.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "8200182fdafa7559",
-      "title": "Seventy-ninth World Health Assembly – Daily update: 20 May 2026",
-      "link": "https://www.who.int/news/item/20-05-2026-seventy-ninth-world-health-assembly---daily-update--20-may-2026",
-      "summary": "Summary of discussions of 20 May at the Seventy-ninth World Health Assembly.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-21T19:48:30.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4ef161bac2aa6db4",
-      "title": "Seventy-ninth World Health Assembly – Daily update: 19 May 2026",
-      "link": "https://www.who.int/news/item/19-05-2026-seventy-ninth-world-health-assembly---daily-update--19-may-2026",
-      "summary": "Summary of discussions of 19 May at Seventy-ninth World Health Assembly",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-20T15:01:32.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "019d338f1a26a0b0",
-      "title": "Director-General presents Award for Global Health to four distinguished leaders",
-      "link": "https://www.who.int/news/item/18-05-2026-director-general-presents-award-for-global-health-to-four-distinguished-leaders",
-      "summary": "At the Seventy-ninth World Health Assembly in Geneva, WHO Director-General Dr Tedros Adhanom Ghebreyesus has presented four distinguished leaders with the Award for Global Health, recognizing their lifetime achievements and exceptional contributions to improving the health and well-being of communi…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-18T13:30:25.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "55e4f878380eea3b",
-      "title": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of the Congo and Uganda determined a public health emergency of international concern",
-      "link": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
-      "summary": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of the Congo and Uganda determined a public health emergency of international concern",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-16T23:21:17.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
-      "region": "global"
-    },
-    {
-      "id": "54917c8f695f4fba",
-      "title": "WHO warns nicotine pouch brands targeting youth as sales surge",
-      "link": "https://www.who.int/news/item/15-05-2026-who-warns-nicotine-pouch-brands-targeting-youth-as-sales-surge",
-      "summary": "The World Health Organization (WHO) warns about the rapid growth and aggressive marketing of nicotine pouches, especially targeting youth, amid limited regulation worldwide. Nicotine pouches pose significant health risks and governments are urged to implement strong regulatory measures to prevent a…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-05-14T17:26:02.000Z",
-      "source": {
-        "name": "WHO — News (EN)",
-        "homepage": "https://www.who.int/rss-feeds/news-english.xml"
-      },
-      "lang": "en",
-      "category": "health",
       "region": "global"
     },
     {
