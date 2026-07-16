@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-16T10:53:17.155Z",
-    "total": 456,
+    "generated_at": "2026-07-16T12:13:15.284Z",
+    "total": 460,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -9,15 +9,15 @@
     "shard_index": 3,
     "results": [
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "Engadget",
+        "url": "https://www.engadget.com/category/news/feed/",
+        "homepage": "https://www.engadget.com/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "technology"
         ],
-        "taken": 75,
+        "taken": 19,
         "error": null,
         "notModified": false
       },
@@ -35,32 +35,6 @@
         "notModified": false
       },
       {
-        "name": "Engadget",
-        "url": "https://www.engadget.com/category/news/feed/",
-        "homepage": "https://www.engadget.com/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "technology"
-        ],
-        "taken": 19,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Sky News Arabia Varieties",
         "url": "https://www.skynewsarabia.com/rss/varieties.xml",
         "homepage": "https://www.skynewsarabia.com/varieties",
@@ -70,6 +44,19 @@
           "lifestyle"
         ],
         "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 79,
         "error": null,
         "notModified": false
       },
@@ -87,16 +74,42 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 49,
+        "error": null,
         "notModified": false
       },
       {
@@ -109,19 +122,6 @@
           "general"
         ],
         "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -139,29 +139,29 @@
         "notModified": false
       },
       {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 49,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
         "lang": "ar",
         "region": "egypt",
         "cats": [
           "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
         "notModified": false
       },
       {
@@ -191,16 +191,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
@@ -217,16 +217,16 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "lang": "en",
+        "name": "Masrawy — فن",
+        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 500",
         "notModified": false
       },
       {
@@ -243,6 +243,19 @@
         "notModified": false
       },
       {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Medical News Today",
         "url": "https://www.medicalnewstoday.com/rss",
         "homepage": "https://www.medicalnewstoday.com/rss",
@@ -256,22 +269,9 @@
         "notModified": false
       },
       {
-        "name": "Masrawy — فن",
-        "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 500",
-        "notModified": false
-      },
-      {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "name": "El Heddaf (DZ)",
+        "url": "https://www.elheddaf.com/rss.xml",
+        "homepage": "https://www.elheddaf.com/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -282,9 +282,9 @@
         "notModified": false
       },
       {
-        "name": "El Heddaf (DZ)",
-        "url": "https://www.elheddaf.com/rss.xml",
-        "homepage": "https://www.elheddaf.com/rss.xml",
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -324,6 +324,214 @@
   },
   "items": [
     {
+      "id": "bcd849a66e26db55",
+      "title": "11 Best Sleeping Bags (2026): Ultralight, Warm Weather, for Kids",
+      "link": "https://www.wired.com/story/the-best-sleeping-bags-for-every-adventure/",
+      "summary": "Whether you’re climbing peaks or taking the family to the local park, we’ve found the best sleeping bags for every temperature, budget, and camping expedition.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T12:06:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "weather",
+      "region": "global"
+    },
+    {
+      "id": "cc7d2ed7e722cb84",
+      "title": "الوزير الأول الفرنسي يزور ضريح محمد الخامس",
+      "link": "https://assabah.ma/937707.html",
+      "summary": "قام الوزير الأول الفرنسي، سيباستيان لوكورنو، والوفد المرافق له، صباح اليوم الخميس، بزيارة لضريح محمد الخامس بالرباط، حيث ترحم على روحي المغفور لهما جلالة الملك محمد الخامس وجلالة الملك الحسن الثاني، طيب الله ثراهما. ووضع لوكورنو، الذي رافقه الوزير المنتدب المكلف بالعلاقات مع البرلمان، الناطق الرسمي…",
+      "body": "قام الوزير الأول الفرنسي، سيباستيان لوكورنو، والوفد المرافق له، صباح اليوم الخميس، بزيارة لضريح محمد الخامس بالرباط، حيث ترحم على روحي المغفور لهما جلالة الملك محمد الخامس وجلالة الملك الحسن الثاني، طيب الله ثراهما. ووضع لوكورنو، الذي رافقه الوزير المنتدب المكلف بالعلاقات مع البرلمان، الناطق الرسمي باسم أكمل القراءة &raquo; المقالة الوزير الأول الفرنسي يزور ضريح محمد الخامس fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-07-16T12:03:47.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "21e9f351a0437986",
+      "title": "أخنوش: الاجتماع رفيع المستوى المغربي الفرنسي ترجمة للإطار السياسي الجديد الذي أرسى دعائمه جلالة الملك والرئيس ماكرون",
+      "link": "https://assabah.ma/937704.html",
+      "summary": "أكد رئيس الحكومة، عزيز أخنوش، اليوم الخميس بالرباط، أن الدورة الخامسة عشرة للاجتماع رفيع المستوى المغربي الفرنسي تشكل “أول ترجمة حكومية للإطار السياسي الجديد” الذي أرسى دعائمه صاحب الجلالة الملك محمد السادس، ورئيس الجمهورية الفرنسية، إيمانويل ماكرون، بمناسبة زيارة الدولة التي قام بها الرئيس الفرنسي…",
+      "body": "أكد رئيس الحكومة، عزيز أخنوش، اليوم الخميس بالرباط، أن الدورة الخامسة عشرة للاجتماع رفيع المستوى المغربي الفرنسي تشكل &#8220;أول ترجمة حكومية للإطار السياسي الجديد&#8221; الذي أرسى دعائمه صاحب الجلالة الملك محمد السادس، ورئيس الجمهورية الفرنسية، إيمانويل ماكرون، بمناسبة زيارة الدولة التي قام بها الرئيس الفرنسي إلى المملكة أكمل القراءة &raquo; المقالة أخنوش: الاجتماع رفيع المستوى المغربي الفرنسي ترجمة للإطار السياسي الجديد الذي أرسى دعائمه جلالة الملك والرئيس ماكرون fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-07-16T12:02:04.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "8d84b1e077a732d7",
+      "title": "Argentina face action over Falklands banner",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
+      "summary": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T12:01:37.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "567af800191ccd2f",
+      "title": "24m tune in to watch England-Argentina",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyjwdvq6dno?at_medium=RSS&at_campaign=rss",
+      "summary": "England's defeat to Argentina in the World Cup semi-final attracts an audience of 24 million on the BBC.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T11:51:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f3fce697008e4bad",
+      "title": "Hyundai reportedly looking to take total control of robotics giant Boston Dynamics",
+      "link": "https://www.engadget.com/2216427/hyundai-reportedly-looking-to-buy-all-of-boston-dynamics-from-softbank/",
+      "summary": "Hyundai could soon own Boston Dynamics in full.",
+      "body": "Hyundai could soon own Boston Dynamics in full.",
+      "image": "https://www.engadget.com/img/gallery/hyundai-is-reportedly-buying-the-rest-of-boston-dynamics-from-softbank/l-intro-1784202458.jpg",
+      "pubDate": "2026-07-16T11:49:17.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "36467c42e44371fc",
+      "title": "Alcaraz eyes return from injury at Cincinnati Open",
+      "link": "https://www.bbc.co.uk/sport/tennis/articles/c3ekj7l55vno?at_medium=RSS&at_campaign=rss",
+      "summary": "World number three Carlos Alcaraz enters next month's Cincinnati Open as he plans his return from a wrist injury.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T11:36:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5423a68098b2e1ba",
+      "title": "The Best Backpacking Water Filters of 2026",
+      "link": "https://www.wired.com/gallery/best-backpacking-water-filters/",
+      "summary": "We’ve tested filters from Sawyer, Katadyn, LifeStraw, MSR and more to find the best option for every adventure.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T11:33:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "573980911eb8891d",
+      "title": "Norris to have 10-place grid penalty in Belgium",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/cj038y0levyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lando Norris will have a 10-place grid penalty at the Belgian Grand Prix as a result of exceeding the permitted number of engine parts.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T11:15:04.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "9b08285b3563bb0c",
+      "title": "13.5 مليون طفل ما زالوا دون أي لقاح (منظمة الصحة)",
+      "link": "https://assabah.ma/937666.html",
+      "summary": "أظهرت التقديرات السنوية لمنظمة الصحة العالمية و”يونيسف” بشأن التطعيم على الصعيد الوطني، الصادرة اليوم، أن 90 في المائة من الرضع في العالم، أي نحو 116 مليون طفل، تلقوا خلال سنة 2025 جرعة واحدة على الأقل من اللقاح الثلاثي المضاد للخناق والكزاز والسعال الديكي، فيما أكمل 85 فيأكمل القراءة » المقالة 13.…",
+      "body": "أظهرت التقديرات السنوية لمنظمة الصحة العالمية و&#8221;يونيسف&#8221; بشأن التطعيم على الصعيد الوطني، الصادرة اليوم، أن 90 في المائة من الرضع في العالم، أي نحو 116 مليون طفل، تلقوا خلال سنة 2025 جرعة واحدة على الأقل من اللقاح الثلاثي المضاد للخناق والكزاز والسعال الديكي، فيما أكمل 85 في أكمل القراءة &raquo; المقالة 13.5 مليون طفل ما زالوا دون أي لقاح (منظمة الصحة) fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-07-16T11:00:49.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "ad7b70ed04dcd644",
+      "title": "Meta will alert parents is their teens discuss self harm",
+      "link": "https://www.engadget.com/2216412/meta-ai-alert-parents-if-teens-discuss-self-harm/",
+      "summary": "Meta has rolled out a new safeguard for teens' AI interactions.",
+      "body": "Meta has rolled out a new safeguard for teens' AI interactions.",
+      "image": "https://www.engadget.com/img/gallery/meta-will-alert-parents-is-their-teens-discuss-self-harm/l-intro-1784199378.jpg",
+      "pubDate": "2026-07-16T11:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a3595fdd33695d87",
+      "title": "Gay Men Flocked to Goose for Friendship. Some Still Feel Excluded",
+      "link": "https://www.wired.com/story/gay-men-flocked-to-goose-for-friendship-some-still-feel-excluded/",
+      "summary": "Despite positioning itself as an anti-hookup app, users tell WIRED that Goose has fake profiles, harsh acceptance standards, and problems with inclusivity.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5b75c89b3ead630f",
+      "title": "Hisense XR10 Smart Projector Review: RGB-Powered Wonder",
+      "link": "https://www.wired.com/review/hisense-xr10-smart-projector/",
+      "summary": "Projectors are adopting RGB backlighting, the hottest tech from the world of TVs. This large but vivid projector is a great option for summer movie nights.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T11:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "412459013d4c660a",
       "title": "How coach-on-pitch Messi undid England's tactics on the fly",
       "link": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
@@ -331,6 +539,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-07-16T10:46:31.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2827c661a4c26acf",
+      "title": "Why you should care about World Cup third-place play-off",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It might feel like the last thing anyone wants right now - but here is why, actually, you do want to watch the World Cup's third-place play-off.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-16T10:44:03.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -356,22 +580,6 @@
       "region": "global"
     },
     {
-      "id": "573980911eb8891d",
-      "title": "Norris to have 10-place grid penalty in Belgium",
-      "link": "https://www.bbc.co.uk/sport/formula1/articles/cj038y0levyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Lando Norris will have a 10-place grid penalty at the Belgian Grand Prix as a result of exceeding the permitted number of engine parts.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-16T10:30:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "cd59bdf135025a93",
       "title": "Three years added to French player's match-fixing ban",
       "link": "https://www.bbc.co.uk/sport/tennis/articles/c20jleg7003o?at_medium=RSS&at_campaign=rss",
@@ -386,6 +594,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "30d635df9ddbd62b",
+      "title": "بالفيديو: لحظة توقف عندها الزمن.. سكالوني يستحضر لقطته الشهيرة في نهائي لوسيل",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D8%AD%D8%B8%D8%A9-%D8%AA%D9%88%D9%82%D9%81-%D8%B9%D9%86%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D8%B2%D9%85%D9%86-%D8%B3%D9%83%D8%A7%D9%84%D9%88%D9%86%D9%8A-%D9%8A%D8%B3%D8%AA%D8%AD%D8%B6%D8%B1-%D9%84%D9%82%D8%B7%D8%AA%D9%87-%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%84%D9%88%D8%B3%D9%8A%D9%84/blt78253b9839a34b3e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ردود فعل غريبة من المدرب الأرجنتيني تلفت الأنظار",
+      "body": "ردود فعل غريبة من المدرب الأرجنتيني تلفت الأنظار أعاد ليونيل سكالوني، مدرب المنتخب الأرجنتيني، للأذهان لقطته الشهيرة في نهائي كأس العالم 2022، بتصرف آخر مشابه في نصف نهائي نسخة 2026 الجارية. بعد أن قاد سكالوني منتخب التانجو للتتويج باللقب للمرة الثالثة في تاريخه على حساب فرنسا بالفوز بركلات الترجيح في مباراة شهيرة احتضنها ملعب \"لوسيل\"، تبدو الفرصة مهيأة أمامه من جديد لتكرار الإنجاز ذاته على الأراضي الأمريكية. وحقق المنتخب الأرجنتيني فوزًا مثيرًا على إنجلترا بنتيجة 2-1 مساء أمس الأربعاء في نصف النهائي، ليضرب موعدًا مع إسبانيا يوم الأحد في المباراة النهائية. اقرأ أيضًا: الصحافة الأرجنتينية في رسالة ساخرة: وداعًا يا إنجلترا لكن اللافت أن سكالوني لم يحتفل بهدف الفوز القاتل، الذي أحرزه لاوتارو مارتينيز بعد كرة عرضية متقنة من ليونيل ميسي. ورغم أن الهدف أشعل مدرجات الأرجنتين في ملعب \"مرسيدس بنز\" بمدينة أتلانتا، بدا وكأن سكالوني لا يصدق ما حدث، حيث ضحك ونظر إلى السماء. 🇦🇷 هدف أشعل المدرجات... وأوقف الزمن عند سكالوني. 📦 اشترك الآن 👇 🔗 https://t.co/DWnvoh4EGW 📱 https://t.co/alkogGtHdW #كأس_العالم2026 pic.twitter.com/5YzNIZPV6N &mdash; beIN SPORTS (@beINSPORTS) July 16, 2026 هذا المشهد مشابه لما حدث له لحظة تسجيل ركلة الترجيح الحاسمة، التي أهدت للأرجنتين اللقب في 2022. وقتها رصدت عدسات…",
+      "image": null,
+      "pubDate": "2026-07-16T10:11:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "dfe4529d358e6556",
@@ -418,6 +642,22 @@
       "lang": "en",
       "category": "science",
       "region": "global"
+    },
+    {
+      "id": "6e150bfa3cdaf5af",
+      "title": "فيديو: رأي تحكيمي.. هل كان يجب إلغاء هدف لاوتارو مارتينيز بسبب خطأ على ميسي؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B1%D8%A7%D9%94%D9%8A-%D8%AA%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%87%D9%84-%D9%83%D8%A7%D9%86-%D9%8A%D8%AC%D8%A8-%D8%A7%D9%95%D9%84%D8%BA%D8%A7%D8%A1-%D9%87%D8%AF%D9%81-%D9%84%D8%A7%D9%88%D8%AA%D8%A7%D8%B1%D9%88-%D9%85%D8%A7%D8%B1%D8%AA%D9%8A%D9%86%D9%8A%D8%B2-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AE%D8%B7%D8%A7%D9%94-%D8%B9%D9%84%D9%89-%D9%85%D9%8A%D8%B3%D9%8A/blte32d95eac9550278?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الهدف منح الأرجنتين بطاقة النهائي",
+      "body": "الهدف منح الأرجنتين بطاقة النهائي &nbsp;أثار الهدف الثاني للأرجنتين، في شباك إنجلترا، أمس الأربعاء، بنصف نهائي كأس العالم، جدلا كبيرا خاصة وأنه منحها بطاقة النهائي. وأكد الكثيرون ومنهم خبراء تحكيم، أن الهدف كان يجب أن يلغى، بداعي وجود خطأ ضد ليونيل ميسي، نجم الأرجنتين، بعد تدخله على لاعب إنجلترا، جد سبينس. وأرسل ميسي كرة عرضية رائعة في الدقيقة 92، ارتقى لها لاوتارو مارتينيز، وسجلها برأسه، مانحا الأرجنتين بطاقة التأهل للنهائي ، المقرر يوم الأحد المقبل أمام إسبانيا. البديل لاوتارو مارتينيز يهدي الأرجنتين الهدف الثاني من رأسية متقنة #كأس_العالم2026 pic.twitter.com/r7HbquGAX5 — beIN SPORTS (@beINSPORTS) July 15, 2026 وقالت شبكة \"أرشيفو فار\"، المتخصصة في الحالات التحكيمية عبر حسابها على \"إكس\": \"هل هناك مخالفة من ميسي على سبينس قبل هدف لوتارو؟.. الإيجابة لا\". وتابعت: \" على الرغم من أن المشهد في بعض اللقطات قد يجعل الأمر يبدو وكأن هناك دهس بالقدم، إلا أن هذا الفعل لم يحدث\". {\"type\":\"power-rankings-carousel\",\"data\":{}} وختمت الشبكة: \"في الواقع، يشتكي سبينس من تشنّج في الساق المعاكسة، اليسرى\". ⁉️💥 ¿Hay infracción de Messi sobre Spance previa al gol de Lautaro? ✅ 𝗡𝗢. 👉🏻 Si bien la perspectiva desde algunas tomas puede hacer ver que existe un pisotón, dicho acción no sé produce. ▪️ De h…",
+      "image": null,
+      "pubDate": "2026-07-16T10:04:22.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "75f9dad262c82461",
@@ -466,6 +706,38 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "eae73c61e5480844",
+      "title": "\"أعرفهم جيدًا\".. ميسي يُرعب الإسبان برسالة نارية!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%B9%D8%B1%D9%81%D9%87%D9%85-%D8%AC%D9%8A%D8%AF%D9%8B%D8%A7-%D9%85%D9%8A%D8%B3%D9%8A-%D9%8A%D9%8F%D8%B1%D8%B9%D8%A8-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86-%D8%A8%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%86%D8%A7%D8%B1%D9%8A%D8%A9/blt1f14b730ba8ca5c9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أسطورة الأرجنتين يتحدى لاروخا في معركة التتويج",
+      "body": "أسطورة الأرجنتين يتحدى لاروخا في معركة التتويج أطلق ليونيل ميسي، قائد منتخب الأرجنتين، رسالة مثيرة قبل المواجهة المرتقبة أمام إسبانيا في نهائي كأس العالم 2026، مؤكدًا أنه يعرف المنتخب الإسباني ولاعبيه جيدًا، وهو ما اعتبره كثيرون تحذيرًا مبكرًا لـ \"لا روخا\" قبل صدام الأحد. وكانت الأرجنتين قد حجزت مقعدها في النهائي بعد الفوز على إنجلترا بنتيجة 2-1، بينما تأهلت إسبانيا عقب إقصاء فرنسا بهدفين دون رد، ليضرب المنتخبان موعدًا مع واحدة من أكثر المباريات المنتظرة في تاريخ البطولة. وفي تصريحات لشبكة \" DirecTV Sports \"، قال ميسي: \"إسبانيا منتخب رائع، ولديه أسلوب لعب أعرفه جيدً، إنهم يمتلكون فلسفة كرة قدم يتبعونها منذ سنوات طويلة\". وأضاف قائد الأرجنتين: \"أعرف العديد من اللاعبين، والكثير منهم يلعبون لبرشلونة، الفريق الذي أحبه وأتابعه باستمرار، ولذلك أتوقع مباراة متوازنة للغاية\". اقرأ أيضًا.. أكثر من مجرد حلم.. هل يتوج ميسي بالكرة الذهبية التاسعة؟ {\"type\":\"power-rankings-carousel\",\"data\":{}} وتحمل كلمات ميسي دلالات خاصة، إذ قضى الجزء الأكبر من مسيرته بقميص برشلونة، ما يجعله على دراية كبيرة بالطريقة التي يلعب بها عدد من نجوم المنتخب الإسباني، سواء من حيث التحركات أو فلسفة الاستحواذ التي تميز الكرة الإسبانية. ويأمل ميسي في قيادة الأرجنتين للحفاظ على لقب كأس العالم والتتويج بالمونديال للمرة الثاني…",
+      "image": null,
+      "pubDate": "2026-07-16T09:58:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "9270bff33eb73d22",
+      "title": "الانتقادات تتصاعد.. تصريحات توخيل عن ساوثجيت تطارده بعد الكابوس الأرجنتيني",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%D8%A7%D8%AA-%D8%AA%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA-%D8%AA%D9%88%D8%AE%D9%8A%D9%84-%D8%B9%D9%86-%D8%B3%D8%A7%D9%88%D8%AB%D8%AC%D9%8A%D8%AA-%D8%AA%D8%B7%D8%A7%D8%B1%D8%AF%D9%87-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D9%83%D8%A7%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86%D9%8A/blta56d288ddf5b2026?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المدرب الألماني لجأ إلى أساليب بدائية.. وفي النهاية لم يستطع تجنب الخسارة",
+      "body": "المدرب الألماني لجأ إلى أساليب بدائية.. وفي النهاية لم يستطع تجنب الخسارة عادت تصريحات الألماني توماس توخيل المدرب الحالي لمنتخب إنجلترا بشأن جاريث ساوثجيت المدرب السابق للإنجليز، لتطارده بعد انهيار حلم الأسود الثلاثة في التتويج بالمونديال. خسر المنتخب الإنجليزي أمام نظيره الأرجنتيني (2-1)، أمس الأربعاء، في نصف نهائي كأس العالم 2026، لتخوض كتيبة الأسود الثلاثة فجر الأحد المقبل، مباراة تحديد المركز الثالث أمام فرنسا. وكاد المنتخب الأرجنتيني في طريقه للخسارة (1-0) في ظل تقدم الإنجليز بهدف أنتوني جوردون في الدقيقة 55، قبل أن يقلب رفاق ليونيل ميسي الطاولة ويحرزون هدفين في الوقت القاتل (85 و90+2) عن طريق إنزو فرنانديز ولاوتارو مارتينيز. وتعرض توخيل لانتقادات إعلامية وجماهيرية واسعة، بسبب تراجع لاعبيه للدفاع لأكثر من نصف ساعة مع إجرائه تبديلات دفاعية فقط، ورغم ذلك استقبل هدفين في الدقائق الأخيرة ، أطاحا بآمال كتيبة الأسود الثلاثة في بلوغ نهائي المونديال للمرة الأولى منذ عام 1966. وذكرت صحيفة \" ذا صن \" الإنجليزية، أن بين هدف أنتوني جوردون وهدف لاوتارو مارتينيز، استحوذت إنجلترا على الكرة بنسبة 12% فقط، وهي نسبة لا تغتفر. {\"type\":\"power-rankings-carousel\",\"data\":{}} منذ الليلة الماضية، تضاعفت تقريبًا عمليات إعادة تغريد مقطع فيديو لتوخيل في مارس/آذار 2025، يتحدث فيه عن خسارة منتخب إنجلترا ف…",
+      "image": null,
+      "pubDate": "2026-07-16T09:55:48.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "d21dc6edc3e11887",
@@ -532,6 +804,22 @@
       "region": "global"
     },
     {
+      "id": "0843b57e5008d569",
+      "title": "فقد أعصابه ونظر إلى السماء.. ماذا قال بيلينجهام بعد هدف تعادل الأرجنتين؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%82%D8%AF-%D8%A7%D9%94%D8%B9%D8%B5%D8%A7%D8%A8%D9%87-%D9%88%D9%86%D8%B8%D8%B1-%D8%A7%D9%95%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%A1-%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%A7%D9%84-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D8%A8%D8%B9%D8%AF-%D9%87%D8%AF%D9%81-%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86/blt55025305440984de?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأرجنتين قلبت تأخرها بهدف لفوز بنتيجة 2/1",
+      "body": "الأرجنتين قلبت تأخرها بهدف لفوز بنتيجة 2/1 رصدت عدسات الكاميرات، رد فعل جود بيلينجهام، نجم إنجلترا، عقب هدف تعادل الأرجنتين، الذي جاء في الدقيقة 85 من اللقاء. وقلبت الأرجنتين تأخرها بهدف لفوز بنتيجة 2/1، في نصف نهائي كأس العالم، لتضرب موعدا مع إسبانيا يوم الأحد المقبل، في النهائي. وبدا أن جود بيلينجهام المحبط قد تم تصويره وهو يثور غضباً بعد أن تعادلت الأرجنتين في الدقيقة 85. مرر ليونيل ميسي، الكرة إلى إنزو فرنانديز، الذي كان لديه متسع من الوقت لتسديد الكرة لتتجاوز الحارس جوردان بيكفورد، إلى داخل الشباك. ووفقا لصحيفة \" ذا صن \"، سارع المشجعون ذوو الملاحظة الدقيقة إلى الإنترنت للإشارة إلى أن بيلينجهام، البالغ من العمر 23 عامًا، بدا مرتبكًا وهو يصرخ \"إنها في منتصف المرمى\" بينما كان ينظر إلى السماء. {\"type\":\"power-rankings-carousel\",\"data\":{}} وكتب أحد المشجعين على موقع \"أكس\": \"بيكفورد هو آخر شخص يجب إلقاء اللوم عليه، لقد أبقاهم في المباراة لفترة أطول مما ينبغي\". وقال آخر: \"كان الرجل محبطا. لم يكن ليتخيل حتى في أحلامه الجامحة هذه العودة\"، وكتب شخص آخر: \"ردة فعله لا تقدر بثمن! يمكنك أن تعرف أنه تجاوز الأمر تماماً\". وعلق رابع ساخراً: \"كانت النتيجة ستكون 1-4 لولا بيكفورد\". لكنّ المشجعين دافعوا أيضاً عن بيلينجهام ، وكتب أحدهم: \"كان يريد فقط التأهل للنهائي. أشعر بالحزن الشديد لأجله\". &nbsp;",
+      "image": null,
+      "pubDate": "2026-07-16T09:31:52.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "07392ccf878c0846",
       "title": "Astronomers Have Found a Sugar Molecule in Deep Space for the First Time Ever",
       "link": "https://www.wired.com/story/astronomers-found-sugar-molecule-in-deep-space/",
@@ -596,6 +884,38 @@
       "region": "global"
     },
     {
+      "id": "a5c4a3740d48ea6a",
+      "title": "\"أجمل نهائي في العالم\".. كيف استقبلت الصحف الإسبانية صدام الأرجنتين؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%AC%D9%85%D9%84-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%83%D9%8A%D9%81-%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9-%D8%B5%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86/blte499b010d52c4894?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "إسبانيا ضد الأرجنتين.. النهائي الحلم يشعل إعلام لا روخا",
+      "body": "إسبانيا ضد الأرجنتين.. النهائي الحلم يشعل إعلام لا روخا أشعل تأهل منتخبي إسبانيا والأرجنتين إلى نهائي كأس العالم 2026 حماس الصحافة العالمية، التي اعتبرت المواجهة المرتقبة بين بطلي أوروبا وأمريكا الجنوبية واحدة من أكثر النهائيات المنتظرة في تاريخ البطولة، بعدما نجح المنتخبان في تجاوز عقبات كبرى في طريقهما إلى المباراة الختامية. ويبحث المنتخب الأرجنتيني عن لقبه الرابع في كأس العالم، بينما يحلم نظيره الإسباني بالنجمة الثانية. وبعد إقصاء فرنسا ثم إنجلترا، رأت الصحف الإسبانية أن نهائي إسبانيا والأرجنتين يمثل السيناريو المثالي الذي كانت تنتظره الجماهير، في ظل وجود كوكبة من النجوم، وعلى رأسهم ليونيل ميسي ولامين يامال، في مواجهة تحمل أبعادًا رياضية وتاريخية استثنائية. نهائي الأحلام ومواجهة التاريخ وصفت صحيفة ماركا الإسبانية المباراة النهائية المرتقبة بأنها \"أجمل نهائي في العالم\"، معتبرة أن المواجهة بين إسبانيا والأرجنتين تجمع بين منتخبين يملكان الجودة والشخصية والطموح، في موعد يليق بقيمة كأس العالم. من جانبها، اعتبرت صحيفة آس أن النهائي يمثل \"نهائي الحلم\"، مشيرة إلى أن الجماهير ستشهد صدامًا بين اثنين من أقوى منتخبات العالم، في مباراة تجمع بين أسلوبين كرويين مختلفين وطموحات متشابهة نحو التتويج العالمي. Buenos días. Habrá FINALISSIMAAAA Aquí os dejamos las #PORTADAS de hoy 👀 https://t.co/d…",
+      "image": null,
+      "pubDate": "2026-07-16T09:15:28.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ac5985bbda6eef9a",
+      "title": "هل تنجو إسبانيا؟.. قصة 15 دقيقة أرجنتينية مرعبة في المونديال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D8%AA%D9%86%D8%AC%D9%88-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%82%D8%B5%D8%A9-15-%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86%D9%8A%D8%A9-%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt14351679da65461b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأرجنتين تفتك بالخصوم في اللحظات الأخيرة",
+      "body": "الأرجنتين تفتك بالخصوم في اللحظات الأخيرة لا يعرف منتخب الأرجنتين بقيادة مدربه ليونيل سكالوني، كلمة الاستسلام، في كأس العالم 2026، وهذا برهن عليه في أكثر من مباراة طوال مشواره في البطولة. بلغت الأرجنتين نهائي مونديال 2026، للمرة الثانية على التوالي ، بعد فوز بشق الأنفس (2-1) أمام إنجلترا، مساء أمس الأربعاء، في الدور نصف النهائي. وكانت إنجلترا في طريقها لبلوغ النهائي لأول مرة منذ عام 1966 بفضل هدف أنتوني جوردون في بداية الشوط الثاني، لكن الأرجنتين قلبت الطاولة وانتزعت فوزًا قاتلًا بتسجيل هدفين في الدقيقتين 85 و90+2 عن طريق إنزو فرنانديز ولاوتارو مارتينيز. وتستعد الأرجنتين لمواجهة إسبانيا مساء الأحد المقبل، في نهائي كأس العالم، وذلك بعد أن أطاحت كتيبة الماتادور بمنتخب فرنسا (2-0) في نصف النهائي الآخر. وتميز منتخب الأرجنتين في هذه النسخة من المونديال، بالعودة في النتيجة، وتسجيل الأهداف في الدقائق الأخيرة، فقد أحرز رفاق ليونيل ميسي 12 هدفًا من أصل 19 طوال البطولة، في آخر 15 دقيقة، وتحديدًا بداية من الدقيقة 76، وفقًا لما ذكرته صحيفة \" ماركا \". {\"type\":\"power-rankings-carousel\",\"data\":{}} سجلت الأرجنتين 3 أهداف في الوقت بدل الضائع، و4 في الوقت الإضافي، في المقابل، لم تستقبل شباكها سوى هدف وحيد (في آخر 15 دقيقة مع الوقت الإضافي) جاء في الدقيقة 103 أمام كاب فيردي في دور الـ32. سجل منتخب ا…",
+      "image": null,
+      "pubDate": "2026-07-16T09:14:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "97788bfe55f6e8b7",
       "title": "'Another dinosaur has entered the luxury collectibles market': Gus the T. rex just sold for $50 million. Here's what its loss means to science.",
       "link": "https://www.livescience.com/animals/dinosaurs/another-dinosaur-has-entered-the-luxury-collectibles-market-gus-the-t-rex-just-sold-for-usd50-million-heres-what-its-loss-means-to-science",
@@ -610,6 +930,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "18e4994c098d0899",
+      "title": "واقعة سابقة تثير القلق.. هل يغيب عدد من لاعبي الأرجنتين عن النهائي للإيقاف؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D8%AA%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D9%82%D9%84%D9%82-%D9%87%D9%84-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%B9%D8%AF%D8%AF-%D9%85%D9%86-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D8%B9%D9%86-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%84%D9%84%D8%A7%D9%95%D9%8A%D9%82%D8%A7%D9%81/blt2ea44e28f346d88b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "لاعبو الأرجنتين خالفوا اللوائح",
+      "body": "لاعبو الأرجنتين خالفوا اللوائح قال تقرير صحفي، اليوم الخميس، إن غياب عدد من لاعبي الأرجنتين، عن نهائي كأس العالم، أمام إسبانيا، يوم الأحد المقبل، أمر وارد. وأوضحت صحيفة \" آس \"، أن رفع العديد من اللاعبين الأرجنتينيين لافتة سياسية تُشير إلى ملكية جزر فوكلاند ، قد يؤدي إلى عقوبات رياضية بحقهم جميعًا، وفقًا لما ينص عليه قانون الانضباط. علاوة على ذلك، وبالنظر إلى سوابق مماثلة، قد يُمنع بعضهم من المشاركة في المباراة النهائية. &nbsp;وأوضح مثال على ذلك هو اللاعب الكوري الجنوبي بارك جونغ وو، الذي أُوقف لمباراتين لفعل الشيء نفسه تمامًا في أولمبياد لندن. &nbsp;فبعد فوزهم على اليابان في مباراة تحديد المركز الثالث، رفع لافتة تحمل شعارًا سياسيا يخص جزر ليانكورت، المعروفة باسم دوكدو أو توكتو، أو تاكيشيما باليابانية. {\"type\":\"power-rankings-carousel\",\"data\":{}} ونتيجةً لذلك، ولأنها كانت المباراة الأخيرة لكوريا بالبطولة، استبعدته لجنة الانضباط التابعة للفيفا من حفل توزيع الميداليات، وعلى عكس زملائه الـ 17، لم يحصل على الميدالية البرونزية وقتها. &nbsp;علاوة على ذلك، وبعد أشهر، تم إيقافه عن المشاركة في جميع المسابقات الدولية لمباراتين. ويحظر الاتحاد الدولي لكرة القدم (فيفا) الرسائل السياسية في الملاعب والاستاد وفقًا لقواعده التأديبية ولوائح مجلس الاتحاد الدولي لكرة القدم (IFAB). &nbsp;كما غُرِّم الا…",
+      "image": null,
+      "pubDate": "2026-07-16T09:01:07.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "3982146bf1042099",
@@ -696,7 +1032,7 @@
       "title": "العبقري المشاغب أم صائد الذهب.. هل جلس ميسي على عرش مارادونا؟",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%B9%D8%A8%D9%82%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%BA%D8%A8-%D8%A7%D9%94%D9%85-%D8%B5%D8%A7%D9%8A%D9%94%D8%AF-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%87%D9%84-%D8%AC%D9%84%D8%B3-%D9%85%D9%8A%D8%B3%D9%8A-%D8%B9%D9%84%D9%89-%D8%B9%D8%B1%D8%B4-%D9%85%D8%A7%D8%B1%D8%A7%D8%AF%D9%88%D9%86%D8%A7/bltec1f3fe7dc9e81f0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "جدل لن ينتهي بين عشاق الأسطورتين",
-      "body": "جدل لن ينتهي بين عشاق الأسطورتين &nbsp; لسنوات طويلة، عاشت الأرجنتين، على قاعدة رياضية واحدة ملخصها أن دييجو أرماندو مارادونا، هو النجم الأهم في عالم كرة القدم، ولا شريك له في قلوب عشاق اللعبة بهذا البلد. لكن ومع دوران عجلة الزمن، ظهر فتى يدعى ليونيل ميسي، ليعيد صياغة التاريخ ويكسر الأرقام تلو الأخرى، وصولاً إلى تتويجه بمونديال قطر 2022 والاقتراب من لقب كأس العالم 2026. &nbsp;وفجرت إنجازات نجم برشلونة السابق، السؤال الذي كان يُعد \"كفرا كرويا\" في شوارع بوينس آيرس: هل تفوق ميسي على مارادونا نهائيا ومحا أسطورته، أم أن مكانة دييجو ستظل عصية على اللمس مهما بلغت أرقام البرغوث؟ &nbsp; مارادونا.. كبرياء وطن بين أقدام أسطورة لا يمكن للكلمات وصف مكانة مارادونا في قلوب الأرجنتينيين، منذ ثمانينيات القرن الماضي، وحتى بعد وفاته في نوفمبر 2020. ولفهم قيمة الأسطورة مارادونا، لا يجب أن ننظر إلى الإحصائيات، بل إلى سياقها التاريخي، فلم يكن فوزه بمونديال المكسيك 1986 مجرد تتويج رياضي، بل كان عملاً ثأريا لبلد جريح بعد هزيمة في حرب \"المالفيناس\" أمام بريطانيا. &nbsp;ولخص هدفاه في شباك إنجلترا، شخصية دييجو، ذلك المحتال العبقري والساحر المتمرد. وفي مونديال 1990&nbsp; لعب مارادونا بما يمكن وصفه بـ \"قدم واحدة\"، حيث قاد الأرجنتين إلى نهائي مونديال إيطاليا بركبة متورمة وقدم مصابة، قبل أن يسقط بشرف في النهائي …",
+      "body": "جدل لن ينتهي بين عشاق الأسطورتين &nbsp; لسنوات طويلة، عاشت الأرجنتين، على قاعدة رياضية واحدة ملخصها أن دييجو أرماندو مارادونا، هو النجم الأهم في عالم كرة القدم، ولا شريك له في قلوب عشاق اللعبة بهذا البلد. لكن ومع دوران عجلة الزمن، ظهر فتى يدعى ليونيل ميسي، ليعيد صياغة التاريخ ويكسر الأرقام القياسية، وصولاً إلى تتويجه بمونديال قطر 2022 والاقتراب من لقب كأس العالم 2026. &nbsp;وأثارت إنجازات نجم برشلونة السابق، السؤال الذي كان يُعد \"كفرا كرويا\" في شوارع بوينس آيرس: هل تفوق ميسي على مارادونا نهائيا وانتزع عرشه، أم أن مكانة دييجو ستظل عصية على اللمس مهما بلغت أرقام البرغوث؟ &nbsp; مارادونا.. كبرياء وطن بين أقدام أسطورة لا يمكن للكلمات وصف مكانة مارادونا في قلوب الأرجنتينيين، منذ ثمانينيات القرن الماضي، وحتى بعد وفاته في نوفمبر 2020. ولفهم قيمة الأسطورة مارادونا، لا يجب أن ننظر إلى الإحصائيات، بل إلى سياقها التاريخي، فلم يكن فوزه بمونديال المكسيك 1986 مجرد تتويج رياضي، بل كان عملاً ثأريا لبلد جريح بعد هزيمة في حرب \"المالفيناس\" أمام بريطانيا. &nbsp;ولخص هدفاه في شباك إنجلترا، شخصية دييجو، ذلك المحتال العبقري والساحر المتمرد. وفي مونديال 1990&nbsp; لعب مارادونا بما يمكن وصفه بـ \"قدم واحدة\"، حيث قاد الأرجنتين إلى نهائي مونديال إيطاليا بركبة متورمة وقدم مصابة، قبل أن يسقط بشرف في النهائي أم…",
       "image": "https://assets.kooora.com/images/v3/blt802b61c58b565f53/crop/MM5DCNRXGI5DSNBRHJXG653FHIYDUMA=/ChatGPT%20Image%20Jun%2022,%202026,%2010_09_55%20AM.png",
       "pubDate": "2026-07-16T08:31:50.000Z",
       "source": {
@@ -964,22 +1300,6 @@
       "region": "mena"
     },
     {
-      "id": "6270f87aa3792206",
-      "title": "بالفيديو: بعد صلاح.. بيلينجهام أحدث ضحايا استفزاز لاعب الأرجنتين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B9%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D8%A7%D9%94%D8%AD%D8%AF%D8%AB-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D8%A7%D8%B3%D8%AA%D9%81%D8%B2%D8%A7%D8%B2-%D9%84%D8%A7%D8%B9%D8%A8-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86/bltd4138b1549172450?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كريستيان روميرو لا يغير أسلوبه في الاحتفال",
-      "body": "كريستيان روميرو لا يغير أسلوبه في الاحتفال كرر كريستيان روميرو، مدافع منتخب الأرجنتين، تصرفًا مثيرًا بعدما استفز جود بيلينجهام، لاعب وسط المنتخب الإنجليزي عقب صافرة نهاية مباراة الطرفين في نصف نهائي كأس العالم 2026. ونجح منتخب الأرجنتين في الفوز على إنجلترا بنتيجة 2-1، بعدما قلب تأخره إلى فوز في الدقائق الأخيرة من المباراة التي جرت في أتلانتا مساء أمس الأربعاء. وعقب صافرة نهاية المباراة، توجه روميرو ناحية بيلينجهام واحتفل بشكل مستفز ووجه بعض الكلمات، إلا أن نجم ريال مدريد لم يحرك ساكنًا. Cristian Romero celebrated Argentina’s victory over England in the face of Jude Bellingham. 😮 pic.twitter.com/Jh8igxMsPB &mdash; Spurs Army (@SpursArmyTweets) July 16, 2026 هذه اللقطة تعيد للأذهان ما فعله روميرو نفسه أمام محمد صلاح، قائد منتخب مصر، عقب نهاية مباراة الفريقين في دور الـ16 من النسخة الجارية. وقتها اقترب مدافع توتنهام من صلاح، واحتفل أيضًا بطريقة استفزازية ، غير أن أسطورة الفراعنة لم يبدِ أي رد فعل. ولم تكن هذه هي اللقطة الاستفزازية الوحيدة لهذا اللاعب في مباراة أمس، فعقب إحراز إنزو فرنانديز هدف التانجو الأول توجه روميرو ناحية الحارس جوردان بيكفورد واحتفل أمامه. وضرب المنتخب الأرجنتيني موعدًا ناريًا مع إسبانيا في المباراة النهائية لمونديال 2026، المقرر لها الأحد المقبل، بينما يلعب ال…",
-      "image": "https://assets.kooora.com/images/v3/getty-2285640159/crop/MM5DGMRXGA5DEMJYGA5G433XMU5DAORXGI======/GettyImages-2285640159.jpg",
-      "pubDate": "2026-07-16T06:43:19.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "93efd33937200e33",
       "title": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
       "link": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss",
@@ -996,22 +1316,6 @@
       "region": "global"
     },
     {
-      "id": "3712e284bca6ccbd",
-      "title": "شيرر وأوين يتفقان على رأي واحد بعد خسارة إنجلترا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B4%D9%8A%D8%B1%D8%B1-%D9%88%D8%A7%D9%94%D9%88%D9%8A%D9%86-%D9%8A%D8%AA%D9%81%D9%82%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%B1%D8%A7%D9%94%D9%8A-%D9%88%D8%A7%D8%AD%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7/blt8eee455d3b263f0e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الأرجنتين حولت تأخرها لفوز مثير",
-      "body": "الأرجنتين حولت تأخرها لفوز مثير اتفق آلان شيرر، ومايكل أوين، ثنائي منتخب إنجلترا السابق، على رأي واحد، عقب خسارة منتخب الأسود الثلاثة أمام الأرجنتين بهدفين لهدف، في نصف نهائي كأس العالم 2026.&nbsp; وقال آلان شيرر،وفقا لصحيفة \" ذا صن \": \"لقد لعب توماس بأوراقه مبكراً جداً، على أمل أن تتمكن إنجلترا من الصمود، لكن الأمر ارتد عليه سلباً. لكن هذه القرارات هي التي تُحدث فرقاً كبيراً\". وتابع: \"كنا نشيد به لما فعله، باللجوء إلى خمسة مدافعين، في المباراتين السابقتين عندما كانت إنجلترا تحت ضغط هائل\". وواصل: \"الآن أعتقد أننا سلكنا الطريق الآخر ونفكر: هل كان بإمكانه تغيير شيء ما بشكل مختلف وزيادة السرعة قليلاً؟ لأن كل شيء كان يعود إلى إنجلترا\". وأردف شيرر: \"لم يكن لديهم منفذ، لأنه كلما استعادوا الكرة كانوا يفتقرون للطاقة. لقد استنفدوا طاقتهم بدنياً وعقلياً بمجرد أن سجلت الأرجنتين الهدف الأول\". {\"type\":\"power-rankings-carousel\",\"data\":{}} وأضاف: \"فاز الفريق الأفضل. التغييرات تركتنا بلا أي فرصة للتمرير. كان لدينا 6 مدافعين في الملعب قبل 25 دقيقة من نهاية المباراة. أمر محبط\". واتفق معه مايكل أوين، بشأن أحقية الأرجنتين في الفوز على إنجلترا. وقال أوين: \"شاهدوا إسبانيا وهي متقدمة 1-0 الليلة الماضية. هذه هي الشجاعة. هذه هي الجرأة\". وتابع: \"ثم شاهد إنجلترا وهي متقدمة 1-0. ما الفرق؟ نحن فريق أفضل من ال…",
-      "image": null,
-      "pubDate": "2026-07-16T06:38:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "97e8d2e4dc68ab27",
       "title": "Kane unsure if he will play at next World Cup",
       "link": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
@@ -1026,38 +1330,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "0051ff9ff78e9d18",
-      "title": "من العجز أن تموت جبانًا.. خوف توخيل يمنح حسام حسن شهادة البراءة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D8%AC%D8%B2-%D8%A7%D9%94%D9%86-%D8%AA%D9%85%D9%88%D8%AA-%D8%AC%D8%A8%D8%A7%D9%86%D9%8B%D8%A7-%D8%AE%D9%88%D9%81-%D8%AA%D9%88%D8%AE%D9%8A%D9%84-%D9%8A%D9%85%D9%86%D8%AD-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%A1%D8%A9/blta77d152a77d91768?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الخسارة واحدة.. لكن الطريقة تحدد كيف سيذكرك الجميع بعد صافرة النهاية",
-      "body": "الخسارة واحدة.. لكن الطريقة تحدد كيف سيذكرك الجميع بعد صافرة النهاية إذا لم يكن من الموت بدٌ، فمن العجز أن تموت جبانًا. لم يكن بيت الشعر هذا مجرد حكمة خالدة، بل بدا وكأنه العنوان الأنسب لمباراتين حملتا النتيجة نفسها أمام الأرجنتين في كأس العالم 2026، لكنهما روتا قصتين مختلفتين تمامًا. في إحدى القصتين، اختار توماس توخيل مدرب إنجلترا أن يحتمي بالخوف في مباراة نصف النهائي، فتراجع إلى الخلف بعد تسجيل هدف مطلع الشوط الثاني، وترك الكرة والمبادرة لمنافسه، معتقدًا أن الحذر قد يكون طريق النجاة، لكن النهاية جاءت قاسية، فلا الدفاع أنقذه من الهزيمة، ولا منع عنه الانتقادات. أما في القصة الأخرى، فقد دخل حسام حسن مدرب مصر المواجهة في دور الـ16 مدركًا حجم الفارق مع بطل العالم، لكنه رفض أن يجعل هذا الفارق سببًا للاستسلام، حيث لعب المنتخب المصري بشخصية جريئة، وبحث عن مرمى الأرجنتين كلما سنحت الفرصة، ليخرج مهزومًا في النتيجة (3-2)، لكنه كسب احترام المتابعين وإشادة كل من شاهد المباراة. هنا يتجسد الفارق الحقيقي بين المدرستين. فالهزيمة ليست دائمًا عنوانًا للفشل ، بل قد تتحول إلى شهادة على الشجاعة عندما تقاتل حتى النهاية، بينما تصبح أكثر قسوة عندما تأتي بعد استسلام مبكر.. وبين توخيل وحسام حسن، كانت النتيجة واحدة، لكن الطريقة صنعت الفارق كله. خوف توخيل يقتل حلم إنجلترا جاءت مواجهة إنجلترا والأرجنتين في ن…",
-      "image": "https://assets.kooora.com/images/v3/getty-2286265030/crop/MM5DENBQGA5DCMZVGA5G433XMU5DCNZ2GQYQ====/GettyImages-2286265030.jpg",
-      "pubDate": "2026-07-16T06:33:58.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "2cd8460e6ab00951",
-      "title": "زجاجة بيكفورد الضائعة.. تفاصيل فجرت ضحكات لاعبي الأرجنتين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B2%D8%AC%D8%A7%D8%AC%D8%A9-%D8%A8%D9%8A%D9%83%D9%81%D9%88%D8%B1%D8%AF-%D8%A7%D9%84%D8%B6%D8%A7%D9%8A%D9%94%D8%B9%D8%A9-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D9%81%D8%AC%D8%B1%D8%AA-%D8%B6%D8%AD%D9%83%D8%A7%D8%AA-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86/bltc47a14a1f93bb7e2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لغز ما بعد الصافرة.. ميسي يعثر على مفاجأة إنجليزية",
-      "body": "لغز ما بعد الصافرة.. ميسي يعثر على مفاجأة إنجليزية شهدت احتفالات منتخب الأرجنتين عقب الفوز على إنجلترا بنتيجة 2-1 في نصف نهائي كأس العالم 2026، لقطة لافتة، بعدما عثر أفراد الجهاز الفني على الورقة التي كان يعتمد عليها الحارس الإنجليزي جوردان بيكفورد تحسبًا للاحتكام إلى ركلات الترجيح. وبعد تأهل الأرجنتين إلى المباراة النهائية لمواجهة إسبانيا، بقي لاعبو المنتخب الأرجنتيني داخل ملعب المباراة في أتلانتا للاحتفال مع الجماهير، قبل أن يتحول الانتباه إلى اكتشاف غير متوقع. \"زجاجة بيكفورد\" في يد ميسي وحسب شبكة TYC&nbsp; الأرجنتينية، عثر مدلك المنتخب الأرجنتيني مارسيلو \"دادي\" دي أندريا على زجاجة المياه الخاصة ببيكفورد، والتي كانت تحمل ورقة ملصقة تتضمن ملاحظات حول الأماكن المفضلة التي يسدد إليها لاعبو الأرجنتين ركلات الجزاء. وكانت هذه الملاحظات معدة لمساعدة الحارس الإنجليزي في حال امتدت المباراة إلى ركلات الترجيح، إلا أن سيناريو المباراة حسم قبل الوصول إلى هذه المرحلة. وأظهرت اللقطات التلفزيونية دي أندريا وهو يعرض الورقة على ليونيل ميسي، إلى جانب نيكولاس جونزاليس وماركوس سينيسي، حيث حاول الثلاثي قراءة الملاحظات المكتوبة وفهم تفاصيلها، قبل أن يدور بينهم نقاش قصير حول محتواها. ضحكات إنزو فيرنانديز ولم تخلُ اللقطة من الطرافة، بعدما انضم إنزو فيرنانديز إلى المجموعة، وبدا أنه تعرف سريعًا على اسمه د…",
-      "image": null,
-      "pubDate": "2026-07-16T06:26:41.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "e2e45ef6bdc25cb5",
@@ -1108,54 +1380,6 @@
       "region": "gulf"
     },
     {
-      "id": "43d66eb897d82363",
-      "title": "صديق ميسي يورط تشيلسي مع جماهير إنجلترا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AF%D9%8A%D9%82-%D9%85%D9%8A%D8%B3%D9%8A-%D9%8A%D9%88%D8%B1%D8%B7-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A-%D9%85%D8%B9-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7/blt42220c5aaac01536?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا حدث بعد معركة الأرجنتين والإنجليز",
-      "body": "ماذا حدث بعد معركة الأرجنتين والإنجليز تسبب فوز الأرجنتين التاريخي على إنجلترا، بهدفين مقابل هدف، في هجوم ناري من الجماهير الإنجليزية على حساب تشيلسي بمنصة \"إكس\" للتواصل الاجتماعي، بسبب تصرف اعتبره البعض إهانة لمنتخب \"الأسود الثلاثة\". وسقط الإنجليز في فخ ليونيل ميسي ورفاقه، حيث كانت تشير النتيجة لتقدمهم 1-0، قبل أن يتمكن \"التانجو\" من تسجيل هدفين في 7 دقائق فقط من صناعة، أسطورة برشلونة. اقرأ أيضًا.. ميسي ينفجر: لم يجاملنا أحد.. وليغضب من يشاء! وجاء الهدف الأول من توقيع إنزو فيرنانديز، لاعب وسط تشيلسي من تسديدة صاروخية في الدقيقة 85 من الشوط الثاني، وهو ما دفع حساب \"البلوز\" لنشر صورته أثناء الاحتفال. وتسبب هذا التصرف في هجوم شديد اللهجة من الجماهير الإنجليزية في التعلقيات، والتي اعتبرت أن ذلك الأمر بمثابة إهانة للمنتخب ولا يعبر عن الوطنية. {\"type\":\"power-rankings-carousel\",\"data\":{}} وبعد دقائق قليلة، تم حذف التغريدة، تجنبًا للدخول في صدامات أكبر أو التعرض لعقوبة تأديبية على سبيل المثال، خاصة وأن الهزيمة كانت مريرة.",
-      "image": null,
-      "pubDate": "2026-07-16T05:51:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "93215811d11c2ed3",
-      "title": "\"طلب المتاعب\".. روني يضع توخيل في قفص الاتهام بعد ريمونتادا الأرجنتين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B7%D9%84%D8%A8-%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%B9%D8%A8-%D8%B1%D9%88%D9%86%D9%8A-%D9%8A%D8%B6%D8%B9-%D8%AA%D9%88%D8%AE%D9%8A%D9%84-%D9%81%D9%8A-%D9%82%D9%81%D8%B5-%D8%A7%D9%84%D8%A7%D8%AA%D9%87%D8%A7%D9%85-%D8%A8%D8%B9%D8%AF-%D8%B1%D9%8A%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AF%D8%A7-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86/blt9f92c4a947397034?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"تركناهم يضغطون علينا\"",
-      "body": "\"تركناهم يضغطون علينا\" وجه واين روني، نجم مانشستر يونايتد السابق، انتقادات كبيرة للألماني توماس توخيل، مدرب إنجلترا، بعد الخسارة بنتيجة 2/1، أمام الأرجنتين، أمس الأربعاء، في نصف نهائي كأس العالم 2026. وأكد روني، أن توماس توشيل كان \"يطلب المتاعب\" بتغييراته الدفاعية. وتقدم منتخب الأسود الثلاثة على الأرجنتين حتى الدقيقة 85، لكنه انهار في وقت متأخر من المباراة وخسر بنتيجة 2-1. تمكن أنتوني جوردون من كسر التعادل في الدقيقة 55، وبعد ذلك سعى المدرب توخيل إلى إغلاق دفاعاته أمام الخصم. أشرك مدرب إنجلترا إزري كونسا بدلاً من جوردون في الدقيقة 72، مباشرة ثم استعان بدان بيرن ونيكو أورايلي بدلاً من ريس جيمس وديكلان رايس المصابين. {\"type\":\"power-rankings-carousel\",\"data\":{}} وعن تغييرات توخيل، قال روني، في تصريحات نقلتها صحيفة \" ذا صن \": \"لقد وضعنا أنفسنا في وضع جيد للغاية ولم نكن نعرف ماذا نفعل\". وتابع: \"تراجعنا للخلف، وتركناهم يضغطون علينا. وضعونا تحت الضغط وانهار الفريق. بمجرد أن سجلوا الهدف الأول، كان من المحتم أن يسجلوا الهدف الثاني\". وأكمل: \"عندما تتقدم في النتيجة، عليك أن تحافظ على تقدمك. نتقدم بهدف، ثم نتراجع للخلف، ونجري تغييرات، ونلعب بخمسة أو ستة مدافعين. إذا سمحت لميسي والأرجنتين بالهجوم عليك، فأنت تجلب المشاكل لنفسك\". سجل إنزو فرنانديز هدفاً رائعاً من مسافة بعيدة في الدقيقة 85، بينما…",
-      "image": null,
-      "pubDate": "2026-07-16T05:50:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "d51c400ebdf5412c",
-      "title": "\"دقيقة صمت على روح إنجلترا\".. كيف دهس نجوم الأرجنتين كبرياء الإنجليز؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%82%D9%8A%D9%82%D8%A9-%D8%B5%D9%85%D8%AA-%D8%B9%D9%84%D9%89-%D8%B1%D9%88%D8%AD-%D8%A7%D9%95%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7-%D9%83%D9%8A%D9%81-%D8%AF%D9%87%D8%B3-%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D9%83%D8%A8%D8%B1%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2/blt702202fd3b7299b3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "سخرية أرجنتينية من سقوط الأسود الثلاثة",
-      "body": "سخرية أرجنتينية من سقوط الأسود الثلاثة أشعل لاعبو منتخب الأرجنتين موجة واسعة من الجدل بعد انتشار فيديو من داخل غرفة الملابس عقب الفوز على إنجلترا بنتيجة 2-1 في نصف نهائي كأس العالم 2026، وهو الانتصار الذي منح \"التانجو\" بطاقة العبور إلى النهائي لمواجهة إسبانيا. وأظهر المقطع المتداول أجواء احتفالية صاخبة داخل غرفة الملابس، حيث كان اللاعبون يرقصون ويغنون بحماس كبير احتفالًا بالتأهل، قبل أن تتغير الأجواء بشكل مفاجئ عندما توقف الجميع عن الرقص ووقفوا في صمت لثوانٍ. وبحسب الفيديو، طلب أحد اللاعبين الهدوء، ثم ردد اللاعبون بصوت واحد عبارة: \"دقيقة صمت على روح الإنجليز الذين ماتوا كرويًا اليوم\"، قبل أن تنفجر الغرفة مجددًا بالضحك والرقص وسط احتفالات صاخبة. ¡ARGENTINA Y UNA DEDICATORIA ESPECIAL A INGLATERRA EN EL FESTEJO EN EL VESTUARIO! #ESPNMundial 📺 Mirá los mejores partidos de la #FIFAWorldCup por ESPN, en el Plan Premium de #DisneyPlus pic.twitter.com/XsaPf8nLZi — SportsCenter (@SC_ESPN) July 15, 2026 وأثار هذا التصرف غضبًا واسعًا في وسائل الإعلام الإنجليزية، التي اعتبرت أن ما حدث تجاوز حدود الاحتفال الطبيعي بعد مباراة كبيرة، خاصة بعد الخسارة الدرامية التي تعرض لها منتخب \"الأسود الثلاثة\" في نصف النهائي. اقرأ أيضًا.. ميسي ينفجر: لم يجاملنا أحد.. وليغضب من يشاء! {\"type\":\"power-rankings-car…",
-      "image": null,
-      "pubDate": "2026-07-16T05:35:44.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "336bf5a8f6529f49",
       "title": "Tuchel retains FA backing despite England defeat",
       "link": "https://www.bbc.co.uk/sport/football/articles/cly5ljl414xo?at_medium=RSS&at_campaign=rss",
@@ -1170,22 +1394,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "476068112ed2f1bd",
-      "title": "نجم الأرجنتين ينتقد جاري نيفيل: أتمنى ألا أكون غبيًا مثله بعد الاعتزال!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D9%8A%D9%86%D8%AA%D9%82%D8%AF-%D8%AC%D8%A7%D8%B1%D9%8A-%D9%86%D9%8A%D9%81%D9%8A%D9%84-%D8%A7%D9%94%D8%AA%D9%85%D9%86%D9%89-%D8%A7%D9%94%D9%84%D8%A7-%D8%A7%D9%94%D9%83%D9%88%D9%86-%D8%BA%D8%A8%D9%8A%D9%8B%D8%A7-%D9%85%D8%AB%D9%84%D9%87-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84/blt6dded936160d84d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تحفز أرجنتيني بعد التصريح الساخر",
-      "body": "تحفز أرجنتيني بعد التصريح الساخر وجه الأرجنتيني كريستيان روميرو مدافع توتنهام، انتقادًا لجاري نيفيل لاعب مانشستر يونايتد السابق، بسبب تصريحاته قبل مباراة إنجلترا والأرجنتين في نصف نهائي كأس العالم 2026. وكانت إنجلترا في طريقها لبلوغ النهائي لأول مرة منذ عام 1966 بفضل هدف أنتوني جوردون في بداية الشوط الثاني ، لكن الأرجنتين قلبت الطاولة وانتزعت فوزًا قاتلًا بتسجيل هدفين في الدقيقتين 85 و90+2 عن طريق إنزو فرنانديز ولاوتارو مارتينيز. قبل المباراة سخر جاري نيفيل من دفاع الأرجنتين قائلًا: \"كيف لن نسجل هدفين في مرمى هذا الفريق مع وجود مدافعين بهذا المستوى\". لكن بعد المباراة رد روميرو على نيفيل قائلًا: \"كنت أنا وليساندرو (مارتينيز) متحمسين للغاية قبل المباراة بسبب ما قاله جاري نيفيل\". وأضاف بحسب ما نقلت شبكة \" فوت ميركاتو \": \"في إنجلترا، يحبون التحدث قبل المباريات. نرسل له تحية كبيرة.. أتمنى ألا أكون مثله عندما أعتزل، ولن أنتقد اللاعبين\". {\"type\":\"power-rankings-carousel\",\"data\":{}} وتستعد إنجلترا لمواجهة فرنسا فجر الأحد المقبل، في مباراة تحديد المركز الثالث، وذلك بعد خسارة الديوك أمام إسبانيا (2-0)، في نصف النهائي الآخر. على الجانب الآخر، تلعب الأرجنتين حاملة اللقب مساء الأحد المقبل، المباراة النهائية للمونديال للمرة الثانية على التوالي، ضد إسبانيا المتوجة بكأس العالم مرة وحيدة عام 2010.",
-      "image": null,
-      "pubDate": "2026-07-16T05:22:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "e799e3985a66e128",
@@ -1249,54 +1457,6 @@
       },
       "lang": "en",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "7fc52d899c608d1d",
-      "title": "مصرع عون سلطة في حادث اصطدام بالحسيمة",
-      "link": "https://assabah.ma/937548.html",
-      "summary": "لقي‭ ‬عون‭ ‬سلطة‭ ‬مصرعه،‭ ‬الاثنين‭ ‬الماضي،‭ ‬إثر‭ ‬حادث‭ ‬اصطدام‭ ‬عنيف‭ ‬بين‭ ‬دراجتين‭ ‬مائيتين‭ (‬جيت‭ ‬سكي‭) ‬بعرض‭ ‬مياه‭ ‬شاطئ‭ ‬الصفيحة،‭ ‬التابع‭ ‬لجماعة‭ ‬أجدير‭ ‬بإقليم‭ ‬الحسيمة‭. ‬ وأسفر‭ ‬الحادث‭ ‬عن‭ ‬إصابة‭ ‬الضحية‭ ‬الذي‭ ‬كان‭ ‬على‭ ‬متن‭ ‬الدراجة‭ ‬الأولى‭ ‬التي‭ ‬كان‭ ‬يسوقها‭…",
-      "body": "لقي‭ ‬عون‭ ‬سلطة‭ ‬مصرعه،‭ ‬الاثنين‭ ‬الماضي،‭ ‬إثر‭ ‬حادث‭ ‬اصطدام‭ ‬عنيف‭ ‬بين‭ ‬دراجتين‭ ‬مائيتين‭ (‬جيت‭ ‬سكي‭) ‬بعرض‭ ‬مياه‭ ‬شاطئ‭ ‬الصفيحة،‭ ‬التابع‭ ‬لجماعة‭ ‬أجدير‭ ‬بإقليم‭ ‬الحسيمة‭. ‬ وأسفر‭ ‬الحادث‭ ‬عن‭ ‬إصابة‭ ‬الضحية‭ ‬الذي‭ ‬كان‭ ‬على‭ ‬متن‭ ‬الدراجة‭ ‬الأولى‭ ‬التي‭ ‬كان‭ ‬يسوقها‭ ‬شخص‭ ‬آخر،‭ ‬بجروح‭ ‬خطيرة‭ ‬وإصابات‭ ‬بالغة‭ ‬فارق‭ ‬إثرها‭ أكمل القراءة &raquo; المقالة مصرع عون سلطة في حادث اصطدام بالحسيمة fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-07-16T05:00:57.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
-      "region": "global"
-    },
-    {
-      "id": "e4d9d36f22b5a9b9",
-      "title": "الحجز على حساب أولمبيك آسفي",
-      "link": "https://assabah.ma/937389.html",
-      "summary": "تضاعفت معاناة أولمبيك آسفي، بعد الحجز على حسابه البنكي، بسبب عدم أداء مجموعة من المستحقات المالية لفائدة عدد من لاعبيه. ووفق معطيات حصلت عليها» الصباح»، فإن مسؤولي الفريق كانوا ينتظرون انتعاشة خزينة الفريق ببعض المبالغ المالية، لكنهم تفاجؤوا بتأخر ذلك، وبعد الاستفسار اكتشفوا أن الحساب البنكي محجوزأ…",
-      "body": "تضاعفت معاناة أولمبيك آسفي، بعد الحجز على حسابه البنكي، بسبب عدم أداء مجموعة من المستحقات المالية لفائدة عدد من لاعبيه. ووفق معطيات حصلت عليها» الصباح»، فإن مسؤولي الفريق كانوا ينتظرون انتعاشة خزينة الفريق ببعض المبالغ المالية، لكنهم تفاجؤوا بتأخر ذلك، وبعد الاستفسار اكتشفوا أن الحساب البنكي محجوز أكمل القراءة &raquo; المقالة الحجز على حساب أولمبيك آسفي fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-07-16T05:00:57.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3786c920faf4dd41",
-      "title": "رسالة رياضية: الفتح وسعيد شيبا",
-      "link": "https://assabah.ma/937459.html",
-      "summary": "انتهت علاقة الفتح الرياضي بالمدرب سعيد شيبا، بطريقة قانونية، لكنها غير عادلة، لعدة اعتبارات، فماهي؟ أولا، تقييم حصيلة الفريق خلال الموسم الكروي، وإخطار المدرب برغبة النادي في فك الارتباط معه، يفترض أن يتما في اجتماع، أو في لقاء رسمي، ينتهي بإشعار الرجل بالقرار بطريقة تليق به، وتحترمأكمل القراءة » ا…",
-      "body": "انتهت علاقة الفتح الرياضي بالمدرب سعيد شيبا، بطريقة قانونية، لكنها غير عادلة، لعدة اعتبارات، فماهي؟ أولا، تقييم حصيلة الفريق خلال الموسم الكروي، وإخطار المدرب برغبة النادي في فك الارتباط معه، يفترض أن يتما في اجتماع، أو في لقاء رسمي، ينتهي بإشعار الرجل بالقرار بطريقة تليق به، وتحترم أكمل القراءة &raquo; المقالة رسالة رياضية: الفتح وسعيد شيبا fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-07-16T05:00:54.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1579,22 +1739,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-07-15T23:04:01.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "865dd20820649a4d",
-      "title": "Argentina face disciplinary action over Falklands banner after semi-final",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
-      "summary": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-15T22:49:47.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2036,12 +2180,12 @@
       "region": "global"
     },
     {
-      "id": "4e9fe20c79bac3c4",
-      "title": "Robot dog can climb stairs, navigate a forest and bound over logs thanks to new, rapid AI training technique",
-      "link": "https://www.livescience.com/technology/robotics/robot-dog-can-climb-stairs-navigate-a-forest-and-bound-over-logs-thanks-to-new-rapid-ai-training-technique",
-      "summary": "Researchers used reinforcement learning to train a quadrupedal robot to adapt to different environments using two different pre-learned gaits.",
-      "body": "A four-legged robot has learned to change the way it runs while navigating forests, staircases and obstacle courses. — seamlessly switching between a steady trot and a faster bounding gait without instructions from a human operator. The 100-pound (45 kilograms) robot, called KAIST HOUND, uses cameras and lidar to scan the ground ahead, then selects an appropriate gait and adjusts its movements in real time. In outdoor tests, it crossed a 0.7-mile (1.1- kilometers) university campus route and a 0.2-mile (0.3 km) forest trail strewn with roots, logs and slippery leaves. The researchers described the robotic framework on July 15 in the journal Science Robotics . Changing gait Animals naturally change their gait depending on their speed and surroundings. A dog might trot carefully across uneven ground, for example , before bounding over a fallen branch. Reproducing this adaptability in robots is tricky because different movements are often controlled by separate, highly specialized coding systems, and transitions between them can cause a lag that drives the robot to stumble. To overcome this issue, researchers developed a special training framework called action pretrained transformer…",
-      "image": "https://cdn.mos.cms.futurecdn.net/CWSjD3CY4eNcnSaHBWRcgU-1280-80.jpg",
+      "id": "49526aea5113c9d5",
+      "title": "Orange-lipped monkey that roars and snorts deep in Congo rainforest is new species to science",
+      "link": "https://www.livescience.com/animals/primates/orange-lipped-monkey-that-roars-and-snorts-deep-in-congo-rainforest-is-new-species-to-science",
+      "summary": "A striking new monkey species, Colobus congoensis, was discovered deep in the Congo rainforest and has been scientifically described for the first time.",
+      "body": "Scientists have identified a new species of monkey that has orange lips and makes unique roars and snorting sounds. The distinctive monkey lives in a remote region of the Democratic Republic of the Congo (DRC). It is only the fifth new monkey species to be identified in Africa in the past 75 years, and there might be more unknown monkey species in the region, scientists behind a new study suggested. Researchers named the newly identified species of monkey Colobus congoensis , after the region, and it is known by the common name \"lik­weli\" in the local Kilanga language. \"This is remarkable because it's not very common these days to find a new, never-before-documented primate species, let alone a relatively large species of monkey,\" said Joshua Linder , an anthropologist and president and co-founder of the The Forest Collective , a nonprofit that aims to conserve and restore tropical rainforests. In 2008, conservationists in the dense rainforests of Lomami National Park , within the Congo Basin in the DRC, photographed an unidentified monkey, but it was partially obscured. Then, in 2018 a similar-looking animal was captured on camera, prompting study co-author Junior Amboko , a Loma…",
+      "image": "https://cdn.mos.cms.futurecdn.net/2Jg2ZHFDcvEUi7Bp2Pw49d-1280-80.jpg",
       "pubDate": "2026-07-15T18:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -2052,12 +2196,12 @@
       "region": "global"
     },
     {
-      "id": "49526aea5113c9d5",
-      "title": "Orange-lipped monkey that roars and snorts deep in Congo rainforest is new species to science",
-      "link": "https://www.livescience.com/animals/primates/orange-lipped-monkey-that-roars-and-snorts-deep-in-congo-rainforest-is-new-species-to-science",
-      "summary": "A striking new monkey species, Colobus congoensis, was discovered deep in the Congo rainforest and has been scientifically described for the first time.",
-      "body": "Scientists have identified a new species of monkey that has orange lips and makes unique roars and snorting sounds. The distinctive monkey lives in a remote region of the Democratic Republic of the Congo (DRC). It is only the fifth new monkey species to be identified in Africa in the past 75 years, and there might be more unknown monkey species in the region, scientists behind a new study suggested. Researchers named the newly identified species of monkey Colobus congoensis , after the region, and it is known by the common name \"lik­weli\" in the local Kilanga language. \"This is remarkable because it's not very common these days to find a new, never-before-documented primate species, let alone a relatively large species of monkey,\" said Joshua Linder , an anthropologist and president and co-founder of the The Forest Collective , a nonprofit that aims to conserve and restore tropical rainforests. In 2008, conservationists in the dense rainforests of Lomami National Park , within the Congo Basin in the DRC, photographed an unidentified monkey, but it was partially obscured. Then, in 2018 a similar-looking animal was captured on camera, prompting study co-author Junior Amboko , a Loma…",
-      "image": "https://cdn.mos.cms.futurecdn.net/2Jg2ZHFDcvEUi7Bp2Pw49d-1280-80.jpg",
+      "id": "4e9fe20c79bac3c4",
+      "title": "Robot dog can climb stairs, navigate a forest and bound over logs thanks to new, rapid AI training technique",
+      "link": "https://www.livescience.com/technology/robotics/robot-dog-can-climb-stairs-navigate-a-forest-and-bound-over-logs-thanks-to-new-rapid-ai-training-technique",
+      "summary": "Researchers used reinforcement learning to train a quadrupedal robot to adapt to different environments using two different pre-learned gaits.",
+      "body": "A four-legged robot has learned to change the way it runs while navigating forests, staircases and obstacle courses. — seamlessly switching between a steady trot and a faster bounding gait without instructions from a human operator. The 100-pound (45 kilograms) robot, called KAIST HOUND, uses cameras and lidar to scan the ground ahead, then selects an appropriate gait and adjusts its movements in real time. In outdoor tests, it crossed a 0.7-mile (1.1- kilometers) university campus route and a 0.2-mile (0.3 km) forest trail strewn with roots, logs and slippery leaves. The researchers described the robotic framework on July 15 in the journal Science Robotics . Changing gait Animals naturally change their gait depending on their speed and surroundings. A dog might trot carefully across uneven ground, for example , before bounding over a fallen branch. Reproducing this adaptability in robots is tricky because different movements are often controlled by separate, highly specialized coding systems, and transitions between them can cause a lag that drives the robot to stumble. To overcome this issue, researchers developed a special training framework called action pretrained transformer…",
+      "image": "https://cdn.mos.cms.futurecdn.net/CWSjD3CY4eNcnSaHBWRcgU-1280-80.jpg",
       "pubDate": "2026-07-15T18:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -2516,22 +2660,6 @@
       "region": "global"
     },
     {
-      "id": "02e6b4c6b6c7f0c7",
-      "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
-      "link": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
-      "summary": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-15T12:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "5ebcb64cbde045d3",
       "title": "Driscoll’s Is Being Sued Over Alleged ‘Forever Chemicals’ In Its Strawberries",
       "link": "https://www.delish.com/food-news/a71933408/driscolls-strawberry-pfas-lawsuit/",
@@ -2542,6 +2670,22 @@
       "source": {
         "name": "Delish",
         "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "02e6b4c6b6c7f0c7",
+      "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
+      "link": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+      "summary": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-15T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "technology",
@@ -2689,6 +2833,22 @@
       },
       "lang": "en",
       "category": "health",
+      "region": "global"
+    },
+    {
+      "id": "9c26b82b9bc1bcb7",
+      "title": "Sunderland sign Belgium World Cup defender Meunier",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgjxjqpgq4xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Experienced Belgian defender Thomas Meunier signs for Sunderland after his contract with Lille comes to an end.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-15T09:44:49.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -2900,22 +3060,6 @@
       "region": "global"
     },
     {
-      "id": "9318c192bdd2f5d0",
-      "title": "Chegg Coupon Codes July 2026: Save on Study, Textbooks, & More",
-      "link": "https://www.wired.com/story/chegg-coupon-code/",
-      "summary": "Unlock Chegg promo codes, student discounts, and free trials for Chegg Study and Chegg Writing.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-15T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "5ca4875a2f31a497",
       "title": "Wayfair Coupons: Up to 80% Off July 2026",
       "link": "https://www.wired.com/story/wayfair-promo-code/",
@@ -2929,6 +3073,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "9318c192bdd2f5d0",
+      "title": "Chegg Coupon Codes July 2026: Save on Study, Textbooks, & More",
+      "link": "https://www.wired.com/story/chegg-coupon-code/",
+      "summary": "Unlock Chegg promo codes, student discounts, and free trials for Chegg Study and Chegg Writing.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-15T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
       "region": "global"
     },
     {
@@ -3604,8 +3764,8 @@
       "region": "global"
     },
     {
-      "id": "79254ded3fa4fba8",
-      "title": "How naked mole-rat queens stop rivals reproducing",
+      "id": "127f40232b9a7b39",
+      "title": "How naked mole rat queens stop rivals reproducing",
       "link": "https://www.nature.com/articles/d41586-026-02168-2",
       "summary": "<p>Nature, Published online: 15 July 2026; <a href=\"https://www.nature.com/articles/d41586-026-02168-2\">doi:10.1038/d41586-026-02168-2</a></p>The scent of a single chemical, made only by the queen, alters hormone production in other females.",
       "body": "Nature, Published online: 15 July 2026; doi:10.1038/d41586-026-02168-2 The scent of a single chemical, made only by the queen, alters hormone production in other females.",
@@ -3687,8 +3847,8 @@
       "id": "73ede708a3e2ab48",
       "title": "Biologists pinpoint how common virus triggers multiple sclerosis",
       "link": "https://www.nature.com/articles/d41586-026-02204-1",
-      "summary": "<p>Nature, Published online: 15 July 2026; <a href=\"https://www.nature.com/articles/d41586-026-02204-1\">doi:10.1038/d41586-026-02204-1</a></p>A connection between Epstein–Barr virus and MS has long been suspected, but the underlying mechanism was unclear until now.",
-      "body": "Nature, Published online: 15 July 2026; doi:10.1038/d41586-026-02204-1 A connection between Epstein–Barr virus and MS has long been suspected, but the underlying mechanism was unclear until now.",
+      "summary": "<p>Nature, Published online: 15 July 2026; <a href=\"https://www.nature.com/articles/d41586-026-02204-1\">doi:10.1038/d41586-026-02204-1</a></p>A connection with Epstein–Barr virus has long been suspected, but the underlying mechanism was unclear until now.",
+      "body": "Nature, Published online: 15 July 2026; doi:10.1038/d41586-026-02204-1 A connection with Epstein–Barr virus has long been suspected, but the underlying mechanism was unclear until now.",
       "image": null,
       "pubDate": "2026-07-15T00:00:00.000Z",
       "source": {
@@ -3908,38 +4068,6 @@
       "region": "global"
     },
     {
-      "id": "797c8cf860a7a54e",
-      "title": "Google Images is getting a makeover for its 25th anniversary",
-      "link": "https://www.engadget.com/2214477/google-images-25th-anniversary-makeover/",
-      "summary": "Google has updated Images to surface results 'intelligently tailored to your unique interests.\"",
-      "body": "Google has updated Images to surface results 'intelligently tailored to your unique interests.\"",
-      "image": "https://www.engadget.com/img/gallery/google-images-is-getting-a-makeover-for-its-25th-anniversary/l-intro-1784030411.jpg",
-      "pubDate": "2026-07-14T16:00:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "0476148fcbbff276",
-      "title": "If you're still on a single monitor, this is the best workflow upgrade you can make",
-      "link": "https://www.engadget.com/2210891/why-dual-smaller-monitors-beat-27-inch-displays-for-home-offices/",
-      "summary": "This simple, and sometimes free, change will enhance both your productivity and entertainment.",
-      "body": "This simple, and sometimes free, change will enhance both your productivity and entertainment.",
-      "image": "https://www.engadget.com/img/gallery/if-youre-still-on-a-single-monitor-this-is-the-best-workflow-upgrade-you-can-make/l-intro-1783537654.jpg",
-      "pubDate": "2026-07-14T15:30:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "b9ebd8f6dd5c2859",
       "title": "New York Governor Signs First Statewide Data Center Moratorium",
       "link": "https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/",
@@ -4036,22 +4164,6 @@
       "region": "global"
     },
     {
-      "id": "e0462b1762d911d8",
-      "title": "Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
-      "link": "https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/",
-      "summary": "If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-14T12:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "70e0d0718a61e927",
       "title": "Costco Members Are OBSESSED With The Newest Protein-Packed Deli Meal",
       "link": "https://www.delish.com/food-news/a71921206/costco-chicken-grain-protein-bowl/",
@@ -4062,6 +4174,22 @@
       "source": {
         "name": "Delish",
         "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e0462b1762d911d8",
+      "title": "Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
+      "link": "https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/",
+      "summary": "If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-14T12:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
       "category": "general",
@@ -4116,22 +4244,6 @@
       "region": "global"
     },
     {
-      "id": "62cc0686769f7936",
-      "title": "Oura Ring 5 Review: Still the Smart Ring to Beat",
-      "link": "https://www.wired.com/review/oura-ring-5/",
-      "summary": "It’s not the upgrade Ring 4 owners have been waiting for, but it’s easily the best smart ring Oura has ever made.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-14T11:07:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "e082a3860594b9f9",
       "title": "Walked for 47% of the World Cup - the evolution of Messi",
       "link": "https://www.bbc.co.uk/sport/football/articles/cy4e943j1j1o?at_medium=RSS&at_campaign=rss",
@@ -4161,54 +4273,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "c9ed8033c306d86d",
-      "title": "This German Man Is on a Quest to Cut the Perfect Slice of Bread",
-      "link": "https://www.wired.com/story/this-german-man-is-on-a-mad-quest-to-cut-the-perfect-slice-of-bread/",
-      "summary": "Armed with high-end knives and digital calipers, Germanbreadcutter has entranced thousands of fans, one loaf at a time.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-14T11:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "2e57ffde183378cf",
-      "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
-      "link": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
-      "summary": "On this week’s episode of The Big Interview podcast, WIRED’s senior culture editor Manisha Krishnan talks to Gowanus about eschewing Big Tech, going outside, and rejection in the age of dating apps.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-14T10:30:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "3a1c88b3e200a7f4",
-      "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT",
-      "link": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/",
-      "summary": "In the 1960s an MIT professor named Joseph Weizenbaum created a chatbot called ELIZA. The conversations people had with it set precedents for the chatbots to come.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-14T10:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
