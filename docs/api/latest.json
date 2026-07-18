@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T17:34:05.862Z",
-    "total": 376,
+    "generated_at": "2026-07-18T18:33:41.023Z",
+    "total": 378,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -30,7 +30,7 @@
         "cats": [
           "sports"
         ],
-        "taken": 75,
+        "taken": 77,
         "error": null,
         "notModified": false
       },
@@ -48,6 +48,19 @@
         "notModified": false
       },
       {
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
         "name": "Sky News Arabia Varieties",
         "url": "https://www.skynewsarabia.com/rss/varieties.xml",
         "homepage": "https://www.skynewsarabia.com/varieties",
@@ -57,45 +70,6 @@
           "lifestyle"
         ],
         "taken": 100,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Delish",
-        "url": "https://www.delish.com/rss/all.xml/",
-        "homepage": "https://www.delish.com/rss/all.xml/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 50,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
-        "homepage": "https://www.wired.com/feed/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 46,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 48,
         "error": null,
         "notModified": false
       },
@@ -113,42 +87,16 @@
         "notModified": false
       },
       {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Feed not recognized as RSS 1 or 2.",
-        "notModified": false
-      },
-      {
-        "name": "Al Arabiya — تكنولوجيا",
-        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
-        "lang": "ar",
+        "name": "Delish",
+        "url": "https://www.delish.com/rss/all.xml/",
+        "homepage": "https://www.delish.com/rss/all.xml/",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
+        "taken": 50,
+        "error": null,
         "notModified": false
       },
       {
@@ -165,19 +113,6 @@
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Youm7 — منوعات",
         "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
         "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
@@ -188,6 +123,45 @@
         ],
         "taken": 0,
         "error": "RangeError: Invalid time value",
+        "notModified": false
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "homepage": "https://www.wired.com/feed/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 46,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Al Arabiya — تكنولوجيا",
+        "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -204,19 +178,6 @@
         "notModified": false
       },
       {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
         "name": "National Geographic — Environment",
         "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
         "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
@@ -227,6 +188,19 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 48,
+        "error": null,
         "notModified": false
       },
       {
@@ -266,6 +240,32 @@
         ],
         "taken": 20,
         "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -323,6 +323,102 @@
     ]
   },
   "items": [
+    {
+      "id": "480ba69b0d7bdeb0",
+      "title": "South Africa ease to seven-try win over pointless Wales",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ckg9mprjrvjo?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa ease to a seven-try bonus-point victory over Wales in the third round of the Nations Championship in Durban.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-18T18:31:59.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "480ba69b0d7bdeb0",
+      "title": "South Africa ease to seven-try win over pointless Wales",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ckg9mprjrvjo?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa ease to a seven-try bonus-point victory over Wales in the third round of the Nations Championship in Durban.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-18T18:31:59.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8e4a232b12068215",
+      "title": "Chelsea agree record £117m deal for Villa midfielder Rogers",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0ej1jyy8yyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea have agreed a club record £117m deal to sign England international midfielder Morgan Rogers from Aston Villa.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-18T18:02:48.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8e4a232b12068215",
+      "title": "Chelsea agree record £117m deal for Villa midfielder Rogers",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0ej1jyy8yyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea have agreed a club record £117m deal to sign England international midfielder Morgan Rogers from Aston Villa.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-18T18:02:48.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0380f4511fe13db9",
+      "title": "Hodgkinson wins in London after 'tough couple of weeks'",
+      "link": "https://www.bbc.co.uk/sport/athletics/articles/c4gw9lpgx2no?at_medium=RSS&at_campaign=rss",
+      "summary": "Keely Hodgkinson returns to winning ways at the London Diamond League after what the Olympic 800m champion admits has been a tough time.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-18T17:42:30.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1acddf8da66006e7",
+      "title": "Spain's final training session before World Cup final cancelled",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-18T17:32:45.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
     {
       "id": "a111ec1c42a656c7",
       "title": "Ten-man Kilmarnock leave it late against Elgin - Scottish League Cup round-up",
@@ -404,6 +500,22 @@
       "region": "global"
     },
     {
+      "id": "319cb48ca2133e53",
+      "title": "مبابي يودع ديشامب برسالة مؤثرة قبل \"الرقصة الأخيرة\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%8A%D9%88%D8%AF%D8%B9-%D8%AF%D9%8A%D8%B4%D8%A7%D9%85%D8%A8-%D8%A8%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D9%88%D9%94%D8%AB%D8%B1%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D8%B5%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9/blta82961c2e3deb464?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قبل مباراة إنجلترا",
+      "body": "قبل مباراة إنجلترا وجّه كيليان مبابي، قائد المنتخب الفرنسي لكرة القدم، رسالة وداع مؤثرة إلى المدرب ديدييه ديشامب قبل ساعات قليلة من خوض مباراة المركز الثالث أمام إنجلترا مساء اليوم السبت في كأس العالم 2026، معترفًا بأن الديوك لم توفق في منح مدربها الراحل النهاية التي يستحقها. وكتب مبابي عبر حسابه الرسمي على منصة \"إكس\": \"اليوم رقصتك الأخيرة. أنت من منحتنا الكثير\"، في إشارة واضحة إلى المباراة الأخيرة لديشامب على رأس الجهاز الفني للمنتخب الفرنسي بعد مسيرة امتدت 14 عامًا حافلة بالإنجازات. وأضاف النجم الفرنسي بنبرة حزينة: \"كان من المفترض أن نقدم لك نهاية أفضل، لكننا لم نوفق. من الصعب وصف ما قدمته على مدار 14 عامًا، فقد كنتَ عنصرًا أساسيًا في تطور هذا الفريق\"، معبرًا عن أسفه لعدم تمكن المنتخب الفرنسي من الوصول إلى نهائي كأس العالم للمرة الثالثة على التوالي. وكانت فرنسا تحلم بتحقيق إنجاز تاريخي بالوصول إلى نهائي المونديال للمرة الثالثة توالياً، لكن أحلامها تحطمت بعد الخسارة القاسية 2-0 أمام إسبانيا في نصف النهائي، لتجد نفسها مضطرة للاكتفاء بخوض مباراة تحديد المركز الثالث أمام إنجلترا. وتابع مبابي في رسالته المؤثرة: \"لم تحصل على التقدير المستحق، لكن الزمن والتاريخ سيُخلّدان ذلك\". وأعرب قائد الديوك عن امتنانه العميق للمدرب، قائلاً: \"شكرًا لك على منحي فرصة تمثيل بلادي على أكبر مسرح رياضي طو…",
+      "image": null,
+      "pubDate": "2026-07-18T16:27:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "139a168f722ddbcd",
       "title": "'I'm not fond of him' - McIlroy accuses DeChambeau of holding Open 'hostage'",
       "link": "https://www.bbc.co.uk/sport/golf/articles/czdm1emd44no?at_medium=RSS&at_campaign=rss",
@@ -452,6 +564,22 @@
       "region": "global"
     },
     {
+      "id": "291e2a2cd60fe3d2",
+      "title": "ملك الحلول.. ميسي يصدم صلاح ونجوم المونديال برقم مذهل",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84-%D9%85%D9%8A%D8%B3%D9%8A-%D9%8A%D8%B5%D8%AF%D9%85-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A8%D8%B1%D9%82%D9%85-%D9%85%D8%B0%D9%87%D9%84/blt58f00f5d9a4ba4a3?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم الأرجنتيني يواصل كتابة التاريخ",
+      "body": "النجم الأرجنتيني يواصل كتابة التاريخ يواصل الأرجنتيني ليونيل ميسي، قائد الأرجنتين، الهيمنة على أرقام بطولة كأس العالم، بعدما تصدر قائمة جديدة، وذلك قبل خوض المباراة النهائية ضد إسبانيا، غدًا الأحد. وبحسب شبكة \" سكوكا \" لإحصائيات كرة القدم، فإن ميسي يحتاج إلى 24.8 دقيقة فقط لصناعة فرصة واحدة، وهو أفضل معدل في المونديال حتى الآن، متفوقًا على عدد من أبرز صناع اللعب في العالم. اقرأ أيضًا.. ميسي: اللعبة انتهت بالنسبة لي في مونديال 2022 وجاء خلفه الأوروجوياني ماكسي أراوخو بمعدل 25.2 دقيقة، ثم المصري محمد صلاح الذي احتاج إلى 26.8 دقيقة لصناعة فرصة، يليه الفرنسي ديزيري دوي بـ27.2 دقيقة، والكولومبي خاميس رودريجيز بـ28.8 دقيقة، ثم الفرنسي ريان شرقي بـ28.9 دقيقة. وتعكس هذه الأرقام حجم التأثير الهجومي الذي يقدمه ميسي، ليس فقط عبر التسجيل، بل أيضًا من خلال صناعة الفرص لزملائه بمعدل أسرع من جميع منافسيه في البطولة. {\"type\":\"power-rankings-carousel\",\"data\":{}} وتزداد قيمة هذا الرقم بالنظر إلى عمر قائد الأرجنتين، الذي يخوض المونديال وهو في 39 عامًا, لكنه لا يزال يتفوق على نجوم أصغر سنًا في واحدة من أهم الإحصائيات الهجومية.",
+      "image": null,
+      "pubDate": "2026-07-18T16:18:20.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "02cf36616ba01902",
       "title": "Warrington bounce back to brush aside Hull KR",
       "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cj3gkggp7rzo?at_medium=RSS&at_campaign=rss",
@@ -466,6 +594,22 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "2bd8aab590ef1925",
+      "title": "صفعة قاتلة لأرسنال.. روجرز يتفق مع ناديه الجديد في \"صفقة تاريخية\"",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D9%81%D8%B9%D8%A9-%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D9%84%D8%A7%D9%94%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D8%B1%D9%88%D8%AC%D8%B1%D8%B2-%D9%8A%D8%AA%D9%81%D9%82-%D9%85%D8%B9-%D9%86%D8%A7%D8%AF%D9%8A%D9%87-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%B5%D9%81%D9%82%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9/blt9616cd6e1873902c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يجري الكشف الطبي يوم الإثنين",
+      "body": "يجري الكشف الطبي يوم الإثنين حطم تشيلسي، رقمه القياسي في سوق الانتقالات بعدما وافق على ضم النجم الإنجليزي مورجان روجرز، من أستون فيلا مقابل 117 مليون جنيه إسترليني، في صفقة تُعد الأغلى في تاريخ النادي اللندني، فيما يستعد اللاعب البالغ من العمر 23 عامًا للخضوع للفحص الطبي يوم الإثنين. وأكدت صحيفة \"ذا أثليتيك\" البريطانية، أن روجرز وافق على بنود عقد يمتد لـ6 سنوات في ستامفورد بريدج، بعدما قبل أستون فيلا العرض الضخم المقدم من البلوز، في صفقة تضع اللمسات الأخيرة على انتقال أحد أبرز المواهب الإنجليزية الصاعدة. ومن المقرر أن يخضع المهاجم الإنجليزي للفحص الطبي فور عودته من كأس العالم يوم الإثنين، حيث تجري حاليًا إدارة تشيلسي وضع اللمسات النهائية على بنود الصفقة التي أثارت ضجة كبيرة في الأوساط الكروية الإنجليزية. كان روجرز، محط اهتمام أرسنال بشكل جدي، لكنه فضّل الانضمام إلى تشيلسي، متأثرًا برؤية المدرب الإسباني تشابي ألونسو، الذي تولى مؤخرًا قيادة الفريق اللندني، والذي يُقال إن خططه المستقبلية للنادي أقنعت اللاعب باختيار ستامفورد بريدج وجهة له. ويمثل هذا المبلغ الضخم رقمًا قياسيًا جديدًا لتشيلسي، متجاوزًا الرقم السابق الذي دفعه النادي لضم إنزو فرنانديز من بنفيكا البرتغالي، في إشارة واضحة إلى طموحات الإدارة الجديدة لإعادة البلوز إلى دائرة المنافسة على الألقاب. وتُعد هذه الصفقة بمثابة ضربة ق…",
+      "image": null,
+      "pubDate": "2026-07-18T16:11:49.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "9a17c882d4f872d0",
@@ -484,6 +628,22 @@
       "region": "global"
     },
     {
+      "id": "f85f529c283c684b",
+      "title": "ثلاثة أهداف أو أكثر؟.. كروس للأرجنتين: انسوا اللقب إن حدث هذا الأمر",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D9%84%D8%A7%D8%AB%D8%A9-%D8%A7%D9%94%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%94%D9%88-%D8%A7%D9%94%D9%83%D8%AB%D8%B1-%D9%83%D8%B1%D9%88%D8%B3-%D9%84%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D8%A7%D9%86%D8%B3%D9%88%D8%A7-%D8%A7%D9%84%D9%84%D9%82%D8%A8-%D8%A7%D9%95%D9%86-%D8%AD%D8%AF%D8%AB-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1/blt7eeb028f9abac9fa?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تحذير شديد للفريقين",
+      "body": "تحذير شديد للفريقين كشف النجم الألماني المعتزل توني كروس عن توقعاته بشأن المباراة النهائية لكأس العالم 2026، التي ستجمع الأرجنتين حاملة اللقب ومنتخب إسبانيا مساء غد الأحد في الولايات المتحدة الأمريكية. ويعتقد لاعب خط الوسط الألماني السابق أن إسبانيا ستدخل نهائي كأس العالم لكرة القدم غدا الأحد ضد الأرجنتين كمرشحة للفوز، شريطة أن تقدم نفس مستوى الأداء الذي قادها خلال البطولة. وفي حديثه في البودكاست الخاص به (كروس وكروس: كأس العالم تحت المجهر) على تطبيق تيك توك ، الذي يقدمه مع شقيقه فيليكس، أشاد نجم ريال مدريد السابق، الفائز بكأس العالم 2014 بقدرة إسبانيا على التحكم في المباريات بمجرد أن تسيطر على مجريات اللعب. وقال: \"إذا قدموا هذا الأداء على أرض الملعب مرة أخرى في المباراة النهائية، فسيكونون المرشحين الأوفر حظا وسيفوزون بالمباراة\". اقرأ أيضا: سكالوني ودي لا فوينتي: نهائي الأستاذ والتلميذ.. من يمنح الآخر الدرس الأخير؟ وحذر كروس المنتخب الأرجنتيني من قدرة إسبانيا على إدارة المباريات عندما تتقدم في النتيجة، موضحًا: \"إذا تمكن فريق مثل إسبانيا من اللعب وهو متقدم، فلن ترغب في مواجهته\". وأبرز شقيقه، فيليكس كروس، التباين الكبير في شخصيات المتأهلين للنهائي، فقال: \"لدينا فريق عاطفي للغاية، والدموع في عينيه (من الحماس) والزبد يخرج من فمه، وهم الأرجنتينيون، وفي المقابل هناك الإسبان بموضوعيتهم ا…",
+      "image": null,
+      "pubDate": "2026-07-18T16:06:07.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "dca9cd5f6be6a91b",
       "title": "Inside Iraola's first week at Liverpool and big decisions he faces",
       "link": "https://www.bbc.co.uk/sport/football/articles/ce34zpppy6qo?at_medium=RSS&at_campaign=rss",
@@ -498,6 +658,54 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "5425527c7c324f42",
+      "title": "وسط غضب بريطاني.. البيت الأبيض ينحاز للأرجنتين في أزمة لافتة فوكلاند",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%B3%D8%B7-%D8%BA%D8%B6%D8%A8-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D9%8A%D8%B6-%D9%8A%D9%86%D8%AD%D8%A7%D8%B2-%D9%84%D9%84%D8%A7%D9%94%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D9%84%D8%A7%D9%81%D8%AA%D8%A9-%D9%81%D9%88%D9%83%D9%84%D8%A7%D9%86%D8%AF/blt4901898bd465c16c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بريطانيا طالبت بفتح تحقيق في الواقعة",
+      "body": "بريطانيا طالبت بفتح تحقيق في الواقعة دخل البيت الأبيض على خط الجدل المثار بشأن احتفال لاعبي المنتخب الأرجنتيني بلافتة، كُتب عليها \"Las Malvinas son argentinas\" (جزر مالفيناس/فوكلاند أرجنتينية)، عقب الفوز على إنجلترا (2-1) في نصف نهائي كأس العالم 2026، مدافعًا عن حق اللاعبين في رفعها. وخلال مؤتمر صحفي، قال أندرو جولياني، رئيس اللجنة الأمريكية لتنظيم كأس العالم، إن لاعبي المنتخب الأرجنتيني \"يمكنهم القيام بهذه التصريحات\" داخل الولايات المتحدة. اقرأ أيضًا ترامب: نريد استضافة المونديال دون كندا والمكسيك.. وإنفانتينو اتخذ قرارًا رائعًا مهاجم إسبانيا: سأصافح ترامب مضطرًا حتى لا يضعني في السجن واستند جولياني إلى التعديل الأول للدستور الأمريكي الخاص بحرية التعبير، والذي ينص على: \"لن يصدر الكونجرس أي قانون يتعلق بإقامة دين أو يحظر ممارسته بحرية، أو يقيد حرية الكلام أو الصحافة، أو حق الشعب في التجمع السلمي وتقديم العرائض إلى الحكومة لإصلاح المظالم\"، حسبما نقلت صحيفة \"ليكيب\" الفرنسية. {\"type\":\"power-rankings-carousel\",\"data\":{}} ويأتي هذا الموقف، في وقت طالبت فيه الحكومة البريطانية الاتحاد الدولي لكرة القدم (فيفا) بفتح تحقيق في الواقعة، وسط تصاعد الجدل المرتبط بقضية جزر فوكلاند. وتعود جذور الخلاف إلى حرب عام 1982، التي دارت بين الأرجنتين وبريطانيا على الأرخبيل الواقع في جنوب المحيط الأطلسي، ع…",
+      "image": null,
+      "pubDate": "2026-07-18T15:52:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "4cd8649b2422c358",
+      "title": "بجانب الخرافات.. الشفرة 69 تبشر ميسي بكأس العالم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A8%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D8%AE%D8%B1%D8%A7%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D9%81%D8%B1%D8%A9-69-%D8%AA%D8%A8%D8%B4%D8%B1-%D9%85%D9%8A%D8%B3%D9%8A-%D8%A8%D9%83%D8%A7%D9%94%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/blt9d2b057da804275c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يدخل ليونيل ميسي، قائد منتخب الأرجنتين، نهائي كأس العالم 2026، غدًا الأحد، وهو يحمل سلسلة مميزة من النجاحات مع التانجو.",
+      "body": "يدخل ليونيل ميسي، قائد منتخب الأرجنتين، نهائي كأس العالم 2026، غدًا الأحد، وهو يحمل سلسلة مميزة من النجاحات مع التانجو. وذكرت \" صحيفة آس \" أن ميسي فاز في آخر 4 مباريات نهائية خاضها بقميص بلاده، وهي نهائي كأس العالم 2022، ونهائي كوبا أمريكا 2021 و2024، بالإضافة إلى نهائي كأس الفيناليسيما. لكن الطريق إلى المجد لم يكن دائمًا مفروشًا بالورود بالنسبة للنجم الأرجنتيني، إذ سبق له أن خسر 4 مباريات نهائية متتالية مع منتخب بلاده، وهي نهائي كوبا أمريكا 2007 و2015 و2016، إضافة إلى نهائي كأس العالم 2014 أمام ألمانيا. وبذلك، يبلغ سجل ميسي في النهائيات مع الأرجنتين، 4 ألقاب من أصل 8 مباريات نهائية، بنسبة نجاح تبلغ 50%. أما على مستوى مسيرته الكروية مع الأندية والمنتخب الأرجنتيني، فقد خاض ميسي 43 مباراة نهائية، نجح في الفوز بـ 30 منها، بنسبة نجاح تصل إلى 69%، وهو رقم يعكس قدرته الكبيرة على التألق في المباريات الحاسمة. الكابالا.. هوس الأرجنتين لتكرار النجاح أصبح ميسي، شديد التمسك بالعادات والطقوس التي يعتقد أنها ساهمت في تتويجه بكأس العالم في قطر.&nbsp; وحتى على وسائل التواصل الاجتماعي، يحرص على نشر الرسائل والمنشورات نفسها التي استخدمها خلال مونديال 2022، وبالكلمات ذاتها، إيمانًا منه بأن ذلك يساعده على استعادة الطاقة الإيجابية التي قادته إلى اللقب العالمي. واتبع المنتخب الأرجنتيني بأكمله، نهج قائد…",
+      "image": "https://assets.kooora.com/images/v3/getty-2286310225/crop/MM5DKMRRGU5DEOJTGM5G433XMU5DAORRGM2A====/GettyImages-2286310225.jpg",
+      "pubDate": "2026-07-18T15:42:55.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "6ec8c2f2e5b25ad2",
+      "title": "كتيبة ميسي تتحدى العاصفة وتعلن الطوارئ قبل نهائي الحلم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%AA%D9%8A%D8%A8%D8%A9-%D9%85%D9%8A%D8%B3%D9%8A-%D8%AA%D8%AA%D8%AD%D8%AF%D9%89-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%81%D8%A9-%D9%88%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D9%8A%D9%94-%D9%82%D8%A8%D9%84-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D8%AD%D9%84%D9%85/blt3d5075c8bc75cb59?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الأرجنتين لا تخشى أي شيء",
+      "body": "الأرجنتين لا تخشى أي شيء واصل منتخب الأرجنتين تحضيراته المكثفة للمواجهة المرتقبة أمام إسبانيا في نهائي كأس العالم 2026، المقرر إقامته مساء الأحد، وسط أجواء من التركيز والحذر قبل ساعات من أهم مباراة في البطولة. وتعرضت مدينة نيوجيرسي خلال الساعات الماضية لأمطار غزيرة وعواصف رعدية قوية، ما أثر بشكل مباشر على استعدادات المنتخبين قبل النهائي المرتقب. المنتخب الإسباني اضطر إلى تأجيل حصته التدريبية الأخيرة بسبب نشاط البرق في محيط الملعب، قبل أن يتخذ الجهاز الفني قرارًا بإلغاء المران نهائيًا حفاظًا على سلامة اللاعبين. وفي المقابل، تمسك المنتخب الأرجنتيني بتنفيذ برنامجه التدريبي رغم الظروف الجوية الصعبة، وخاض حصته الأخيرة بصورة طبيعية استعدادًا للمواجهة الحاسمة. اقرأ أيضًا.. ميسي: اللعبة انتهت بالنسبة لي في مونديال 2022 {\"type\":\"power-rankings-carousel\",\"data\":{}} ويكتسب هذا القرار أهمية خاصة، لأن ملعب تدريب الأرجنتين يبعد نحو 8 كيلومترات فقط عن مقر تدريب المنتخب الإسباني، ما يعني أن المنتخبين واجها تقريبًا الظروف الجوية نفسها. وبدا واضحًا أن كتيبة ليونيل ميسي أرادت إرسال رسالة قوية قبل النهائي، مفادها أن الفريق جاهز لخوض معركة اللقب مهما كانت الظروف، وأن هدف التتويج بكأس العالم للمرة الثانية تواليًا يتقدم على كل التحديات الأخرى.",
+      "image": null,
+      "pubDate": "2026-07-18T15:40:15.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "6b6696d08f63bcbf",
@@ -724,22 +932,6 @@
       "region": "global"
     },
     {
-      "id": "7ef2618c2a03b46b",
-      "title": "Britain's Kerr breaks 27-year mile world record in London",
-      "link": "https://www.bbc.co.uk/sport/athletics/articles/cx2jl1wge2po?at_medium=RSS&at_campaign=rss",
-      "summary": "Great Britain's Josh Kerr smashes the long-standing men's mile world record in a spectacular performance at the London Diamond League.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-18T14:48:16.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "816ce238ca50918d",
       "title": "شيرر: مباراة المركز الثالث سخيفة.. والفيفا يهتم بالأرباح أكثر من اللاعبين",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B4%D9%8A%D8%B1%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%B3%D8%AE%D9%8A%D9%81%D8%A9-%D9%88%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%8A%D9%87%D8%AA%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D9%94%D8%B1%D8%A8%D8%A7%D8%AD-%D8%A7%D9%94%D9%83%D8%AB%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86/blt354906e81c9e6c41?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -875,118 +1067,6 @@
       "body": "ماذا حدث؟ ألغت عاصفة رعدية عنيفة ضربت ولاية نيوجيرسي الأمريكية، مساء السبت، الحصة التدريبية الأخيرة لمنتخبي إسبانيا والأرجنتين قبل ساعات من نهائي كأس العالم المرتقب غدًا الأحد، في موقف غير مسبوق يهدد استعدادات الفريقين للمباراة الحاسمة. وأعلن الاتحاد الإسباني لكرة القدم، رسميًا تعليق تدريبات \"لا روخا\" في ملعب ميلاني لين التدريبي، موضحًا: \"تم تعليق التدريبات تماشيًا مع بروتوكول السلامة الخاص بالعواصف في الولايات المتحدة. ويخضع اللاعبون حاليًا لجلسة تنشيطية في المرافق المغلقة\". وشهد مركز تدريب ريد بول نيويورك، المقرر إقامة الحصة التدريبية فيه، حالة من الفوضى عندما صرخ موظفو الفيفا قبل 12 دقيقة فقط من موعد بدء التدريب: \"على الجميع الاحتماء. يجب على الإعلاميين العودة إلى أماكنهم المخصصة\"، بعد وصول تحذير رسمي من عاصفة رعدية. وبحسب بروتوكول الطقس الأمريكي، تأجل التدريب لمدة 30 دقيقة كحد أدنى، وهي الفترة الإلزامية للانتظار قبل استئناف أي أنشطة خارجية، لكن استمرار العاصفة أجبر المسؤولين على إلغاء الحصة بالكامل. وفي تمام الساعة 11:30 صباحًا بالتوقيت المحلي، أعلن الاتحاد الدولي لكرة القدم \"فيفا\" عن فترة زمنية وحيدة متاحة من الساعة 12:15 ظهرًا إلى الساعة 1:00 ظهرًا، لكن بعد دقائق قليلة تم تعليق التدريب رسميًا بشكل نهائي. وليست هذه المرة الأولى التي يواجه فيها المنتخب الإسباني هذا الموقف خلال…",
       "image": null,
       "pubDate": "2026-07-18T14:14:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5ada734d6b58a3b4",
-      "title": "إنجاز تاريخي غير مسبوق يلمع أمام مبابي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%A8%D9%88%D9%82-%D9%8A%D9%84%D9%85%D8%B9-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A/bltf76063ff5d43fdfe?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لا يزال النجم الفرنسي كيليان مبابي، يمتلك فرصة المنافسة على جائزة الحذاء الذهبي لكأس العالم 2026، وذلك خلال مباراة تحديد المركزين الثالث والرابع أمام إنجلترا.",
-      "body": "لا يزال النجم الفرنسي كيليان مبابي، يمتلك فرصة المنافسة على جائزة الحذاء الذهبي لكأس العالم 2026، وذلك خلال مباراة تحديد المركزين الثالث والرابع أمام إنجلترا. وسيضطر نجم ريال مدريد، للاكتفاء بخوض مواجهة المركز الثالث، مع سعيه لتحقيق هدفين في آن واحد، وهما قيادة فرنسا إلى الميدالية البرونزية، وخطف جائزة هداف البطولة. ويتساوى مبابي حاليًا مع ليونيل ميسي في صدارة ترتيب الهدافين برصيد 8 أهداف لكل منهما، إلا أن النجم الأرجنتيني يتفوق في الوقت الراهن بفضل عدد التمريرات الحاسمة، حيث يمتلك 4 تمريرات مقابل 3 لمبابي، وهو ما يمنحه الأفضلية في سباق الحذاء الذهبي. وذكرت \" صحيفة آس \" أن مبابي يمتلك فرصة ذهبية في مباراة المركز الثالث، للانفراد بصدارة الهدافين وإضافة إنجاز فردي جديد إلى سجله، بعدما سبق له الفوز بالحذاء الذهبي في كأس العالم 2022. ولم يسبق لأي لاعب في تاريخ كأس العالم، أن توج بجائزة هداف البطولة في نسختين مختلفتين، مما يعني أن مبابي قد يحقق إنجازًا تاريخيًا إذا نجح في الفوز بها مجددًا.&nbsp; بينما يسعى ميسي للتتويج بها للمرة الأولى في مسيرته، أما هاري كين، الذي سجل 6 أهداف في البطولة الحالية، فقد سبق له الفوز بالحذاء الذهبي في مونديال روسيا 2018. ولا يتوقف طموح مبابي عند الحذاء الذهبي، إذ يواصل أيضًا مطاردة ميسي في قائمة الهدافين التاريخيين لكأس العالم. ويتصدر قائد الأرجنتين، القائ…",
-      "image": null,
-      "pubDate": "2026-07-18T14:07:30.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a06b95a61880644e",
-      "title": "أجويرو لنجم إسبانيا: لا تعيش دور \"المستفز\" لأنك المواجهة ستفضحك!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%AC%D9%88%D9%8A%D8%B1%D9%88-%D9%84%D9%86%D8%AC%D9%85-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D8%A7-%D8%AA%D8%B9%D9%8A%D8%B4-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D8%B2-%D9%84%D8%A7%D9%94%D9%86%D9%83-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%B3%D8%AA%D9%81%D8%B6%D8%AD%D9%83/blta280af5e7113ca75?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هجوم شرس يضرب مدافع لاروخا",
-      "body": "هجوم شرس يضرب مدافع لاروخا فتح الأرجنتيني سيرجيو أجويرو، أسطورة مانشستر سيتي، النار على أحد لاعبي إسبانيا قبل نهائي كأس العالم 2026 الذي سيجمع لاروخا والتانجو. وتعرض المنتخب الأرجنتيني لاتهامات مستمرة حول الحصول على مجاملات تحكيمية في العديد من المباريات، وهو ما دفع إيمريك لابورت، مدافع إسبانيا، للحديث عن هذا الأمر قبل النهائي المرتقب بين الطرفين. اقرأ أيضًا.. ميسي: اللعبة انتهت بالنسبة لي في مونديال 2022 وقال أجويرو في تصريحات عبر منصة \" Ataque Futbolero \" في نسختها الإسبانية: \"ماذا تريد أن تفعل يا لابورت؟ أنا أعرفك جيدًا لأنني لعب معك في مانشستر سيتي، هذه ليست شخصيتك\". وأضاف: \"لقد قلت إنك رأيت في المباريات الأخيرة بعض الأشياء التي أدهشتك (التحكيم)، أريد أن أعرف ما هذه الأشياء؟\". {\"type\":\"power-rankings-carousel\",\"data\":{}} وأتم: \"لا تتظاهر بالشجاعة ولا تعيش دور الرجل المستفز، لأنك ستتراجع عند المواجهة وسيتغير موقفك أمامنًا، لأنني أعرفك\".",
-      "image": null,
-      "pubDate": "2026-07-18T14:01:42.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "f011d0bb23b57538",
-      "title": "تشافي يكسر صمته ويكشف وجهته التدريبية المقبلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B4%D8%A7%D9%81%D9%8A-%D9%8A%D9%83%D8%B3%D8%B1-%D8%B5%D9%85%D8%AA%D9%87-%D9%88%D9%8A%D9%83%D8%B4%D9%81-%D9%88%D8%AC%D9%87%D8%AA%D9%87-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84%D8%A9/blt9bb18ed88ff29df0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ما هي؟",
-      "body": "ما هي؟ كسر تشافي هيرنانديز، العاطل عن العمل منذ مغادرته برشلونة عام 2024، صمته الطويل وأعلن صراحة رغبته في تدريب منتخب وطني، مؤكدًا أن التحدي القادم في مسيرته سيكون بعيدًا عن الأندية وأقرب إلى البطولات القارية الكبرى. وفي مقابلة مع إذاعة \"RNE Deportes\" اليوم السبت، قال بطل كأس العالم 2010 بوضوح تام: \"أرغب بالانضمام إلى المنتخب الوطني، نعم. أقولها صراحةً\"، في تصريح يُعد الأول من نوعه منذ رحيله عن البارسا قبل عامين. ولم يحدد تشافي، البالغ من العمر 46 عامًا، وجهة بعينها، مؤكدًا انفتاحه على جميع الخيارات: \"متحمس للمشاركة في كأس العالم، أو بطولة أوروبا، أو كأس الأمم الأفريقية، أو حتى كأس آسيا\"، مشيرًا إلى أن المعيار الوحيد هو \"مشروع جيد يتيح لنا العمل في جو هادئ ومريح\". وبرر لاعب خط الوسط السابق تفضيله للعمل مع المنتخبات بدلاً من الأندية بسبب ظروفه العائلية، قائلاً: \"الحياة في النادي لا تسمح لي بقضاء الكثير من الوقت مع عائلتي\"، في إشارة إلى رغبته في التوفيق بين طموحاته المهنية ومسؤولياته تجاه أطفاله الصغار. وظل تشافي بعيدًا عن الأضواء منذ إنهاء مهمته مع برشلونة بعد 3 مواسم قضاها في كامب نو، حيث كانت المؤشرات حول وجهته المقبلة شحيحة طوال العامين الماضيين، قبل أن يفجر هذه التصريحات المثيرة. ورغم أن تشافي لم يستبعد أي قارة من حساباته، إلا أن مستقبله يبدو بعيدًا عن إسبانيا، التي تستعد لموا…",
-      "image": null,
-      "pubDate": "2026-07-18T13:58:45.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "97deb8a9b7366635",
-      "title": "سكالوني: أتمنى حبس يامال قبل نهائي المونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%83%D8%A7%D9%84%D9%88%D9%86%D9%8A-%D8%A7%D9%94%D8%AA%D9%85%D9%86%D9%89-%D8%AD%D8%A8%D8%B3-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%82%D8%A8%D9%84-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/bltf168fc683da67642?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "شدد ليونيل سكالوني، المدير الفني لمنتخب الأرجنتين، على خطورة النجم الإسباني لامين يامال، مؤكدًا أنه لاعب استثنائي.",
-      "body": "شدد ليونيل سكالوني، المدير الفني لمنتخب الأرجنتين، على خطورة النجم الإسباني لامين يامال، مؤكدًا أنه لاعب استثنائي. ومن المتوقع أن يكون يامال، أحد أبرز أسلحة المنتخب الإسباني، في نهائي المونديال، غدًا الأحد، أمام الأرجنتين. ورغم أن يامال لم يقدم أفضل مستوياته المعهودة حتى الآن، لكنه يواصل استعادة جاهزيته الكاملة بعد تعافيه من إصابة في العضلة الخلفية للفخذ. ونشر موقع News18 تصريحات سكالوني خلال المؤتمر الصحفي، حيث قال \"كيف يمكن إيقاف يامال؟ أتمنى لو استطعنا حبس لامين داخل غرفته\". وأضاف \"يامال لاعب استثنائي بحق. هذا الفتى كنز لكرة القدم، ولا زال صغير السن للغاية، ولديه الكثير ليقدمه لهذه اللعبة\". وتابع \"يامال موهبة ستجلب الكثير من السعادة لإسبانيا في المستقبل، لكننا نأمل ألا يكون ذلك يوم الأحد. إنه، مثل ليونيل ميسي، أحد اللاعبين الذين يصعب للغاية مراقبتهم وإيقافهم\". رداً على سؤال &quot;ما خطتك لإيقاف يامال؟&quot;.. سكالوني: أتمنّى حبسه في غرفته 👀🔥 pic.twitter.com/oQabdkUsXU &mdash; الشرق رياضة (@AsharqSports) July 18, 2026 &nbsp; 😁🇦🇷 Lionel Scaloni: “How to stop Yamal? I wish we could lock Lamine in his room!”. “He’s a fantastic player, a treasure for football, he&#39;s still so very young, with so much more to offer to our game”. pic.twitter.com/avWRHe5PV2 &mdash; Fabrizio Roma…",
-      "image": null,
-      "pubDate": "2026-07-18T13:45:26.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "3b59b6a5bbdd0d90",
-      "title": "رسميًا.. الأهلي السعودي يخطف ترينكاو من أنياب كبار أوروبا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%AE%D8%B7%D9%81-%D8%AA%D8%B1%D9%8A%D9%86%D9%83%D8%A7%D9%88-%D9%85%D9%86-%D8%A7%D9%94%D9%86%D9%8A%D8%A7%D8%A8-%D9%83%D8%A8%D8%A7%D8%B1-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7/blt046a22b062ebefac?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الأهلي يحسم رابع صفقاته",
-      "body": "الأهلي يحسم رابع صفقاته أعلن النادي الأهلي السعودي، تعاقده الرسمي مع البرتغالي فرانشيسكو ترينكاو، قادمًا من سبورتنج لشبونة، بعد سلسلة طويلة من المفاوضات. وبذلك، سيصبح ترينكاو رابع صفقات الأهلي خلال الميركاتو الجاري، بعد كل من المدافع الجامبي أبوبكر سيدي كينتيه من ترومسو النرويجي، الجناح السعودي مشعل المطيري من أبها، والأرميني إدوارد سبيرتسيان من كراسنودار الروسي. اقرأ أيضًا.. ميسي: اللعبة انتهت بالنسبة لي في مونديال 2022 يأتي ذلك في الوقت الذي يقترب فيه الأهلي من حسم صفقة أخرى، تتمثل في لاعب الوسط نايف مسعود الذي سينضم من نادي الفتح. ونشر الأهلي فيديو عبر حسابه الرسمي بمنصة \"إكس\" للتواصل الاجتماعي، يظهر خلاله ترينكاو وهو يوقع العقود ويرتدي قميص الراقي والذي يحمل الرقم 7. وكتب الراقي عبر حسابه: \"من بلاد البحارة.. جاء ليغوص في أعماق التاريخ\"، في إشارة لانضمامه لصفوف الأهلي. ونجح \"الراقي\" في حسم الصفقة بعد سلسلة من المفاوضات، حيث دخل في منافسة مع عدة أندية أوروبية كانت ترغب في الحصول على اللاعب.",
-      "image": null,
-      "pubDate": "2026-07-18T13:40:12.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "4ee1efe3bf512068",
-      "title": "هل يعود للدوري الإيطالي؟.. مليونا يورو تعلق مستقبل كيسيه",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7-%D9%8A%D9%88%D8%B1%D9%88-%D8%AA%D8%B9%D9%84%D9%82-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%83%D9%8A%D8%B3%D9%8A%D9%87/blt18d2cfc5a98a5681?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "باب وحيد مفتوح للنجم الإيفواري",
-      "body": "باب وحيد مفتوح للنجم الإيفواري بعد أن وجه يوفنتوس ضربة لروما بحسم صفقة التعاقد مع زكي شيليك بشكل مفاجئ، بدا أن نادي العاصمة الإيطالية قد يرد بالمنافسة بقوة على ضم الإيفواري فرانك كيسيه. ولفت كيسيه الأنظار خلال بطولة كأس العالم 2026، ما أعاد الحديث عن إمكانية عودته إلى الدوري الإيطالي. لكن الصحفي الإيطالي ألفريدو بيدولا أكد أن روما لا يعتزم حاليًا التحرك للتعاقد مع لاعب الوسط الإيفواري. وأوضح بيدولا أنه لا توجد حتى الآن أي مؤشرات على إمكانية إتمام الصفقة، إذ لم تجرِ أي اتصالات مع وكيل أعمال اللاعب، مشيرًا إلى أن مثل هذه الاتصالات لن تحدث من الأساس. ويركز روما جهوده في سوق الانتقالات على تدعيم مراكز أخرى، وعلى رأسها الخط الهجومي، بدلًا من التعاقد مع لاعب وسط. وكان اسم كيسيه قد ارتبط بنادي روما في الأشهر الأخيرة بسبب فريدريك ماسارا، المدير الرياضي السابق للنادي، الذي سبق أن عمل مع اللاعب في ميلان ويُعرف بإعجابه الكبير بإمكاناته، إلا أن بيدولا أكد أن ماسارا الذي عين أواخر الشهر الماضي في منصب الرئيس التنفيذي لشؤون كرة القدم في يوفنتوس، يركز حاليًا على محاولة ضم الدولي الإيفواري إلى السيدة العجوز. وعلق بيدولا عن مفاوضات كيسيه ويوفنتوس قائلا: \"رغم الدبلوماسية ومحاولات التمويه المعتادة، فإن اهتمام يوفنتوس، كما سبق أن ذكرت، لا يزال قائمًا\". اللاعب، الذي أصبح متاحًا في صفقة انتقال حر، يطلب…",
-      "image": null,
-      "pubDate": "2026-07-18T13:39:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "0e11f47dd21c805f",
-      "title": "تطور عاجل في موقف أوليسي من الانتقال لريال مدريد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B7%D9%88%D8%B1-%D8%B9%D8%A7%D8%AC%D9%84-%D9%81%D9%8A-%D9%85%D9%88%D9%82%D9%81-%D8%A7%D9%94%D9%88%D9%84%D9%8A%D8%B3%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt924fc201a980fb44?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ما هو؟",
-      "body": "ما هو؟ في ضربة قاسية لطموحات فلورنتينو بيريز، أبلغ الفرنسي مايكل أوليسي إدارة بايرن ميونخ بعدم نيته مغادرة النادي البافاري هذا الصيف، رافضًا بذلك الانتقال إلى ريال مدريد الذي يسعى لضمه بقوة. وأفادت قناة \"سكاي\" الألمانية، بأن أوليسي، البالغ من العمر 24 عامًا، أكد لإدارة بايرن رغبته في البقاء، نافية بذلك ما تردد في وسائل الإعلام الفرنسية عن إبلاغه النادي برغبته في الرحيل للعاصمة الإسبانية. وأضافت القناة، أن اللاعب الدولي الفرنسي ووكلاءه، لم يُبدوا أي رغبة في مغادرة الأليانز أرينا، رغم الإغراءات الملكية التي يقدمها ريال مدريد لإقناعه بالانضمام إلى صفوفه. ويرتبط أوليسي بعقد مع بايرن ميونخ حتى عام 2029، ما يمنح النادي البافاري موقفًا تفاوضيًا قويًا في رفض أي عروض، مهما بلغت قيمتها، خاصة أن الإدارة الألمانية، أعلنت صراحة عدم نيتها بيع أي من نجومها. في المقابل، يستعد بايرن ميونخ لمكافأة ولاء نجمه الفرنسي بتجديد عقده وجعله واحدًا من اللاعبين الثلاثة الأعلى أجرًا في تشكيلة الفريق، في خطوة تهدف إلى إغلاق الباب نهائيًا أمام أي محاولات مستقبلية من ريال مدريد. ورغم إدراك المسؤولين في ميونخ أن ريال مدريد يمثل خيارًا مستقبليًا محتملاً لأوليسي، إلا أنهم يراهنون على تحسين شروطه المالية وتعزيز مكانته داخل الفريق لضمان بقائه على المدى الطويل. ويُعد أوليسي أحد أبرز الأهداف الصيفية لفلورنتينو بيريز، ا…",
-      "image": null,
-      "pubDate": "2026-07-18T13:39:13.000Z",
       "source": {
         "name": "Kooora",
         "homepage": "https://www.kooora.com/"
@@ -1156,22 +1236,6 @@
       "region": "global"
     },
     {
-      "id": "5ed10e5849ff2879",
-      "title": "Clear-cut to punish DeChambeau - R&A boss",
-      "link": "https://www.bbc.co.uk/sport/golf/articles/cqx7rlere11o?at_medium=RSS&at_campaign=rss",
-      "summary": "The two-shot penalty given to Bryson DeChambeau at the Open is a \"clear-cut decision\" and Donald Trump has not called the R&A, says CEO Mark Darbon.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-18T12:24:21.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "3637c50d1d14df93",
       "title": "'Fireball' meteorite that smashed into New Jersey home contains ingredients of life from an ancient proto-planet, study finds",
       "link": "https://www.livescience.com/space/meteoroids/fireball-meteorite-that-smashed-into-new-jersey-home-contains-ingredients-of-life-from-an-ancient-proto-planet-study-finds",
@@ -1316,10 +1380,10 @@
       "region": "global"
     },
     {
-      "id": "82c766e360acf318",
-      "title": "The Best Motion Sensors and Home Security Gadgets Without Cameras",
-      "link": "https://www.wired.com/story/best-motion-sensors-private-alternatives-security/",
-      "summary": "If you prefer not to have cameras in and around your home, try one of these more private, WIRED-tested security devices.",
+      "id": "d91e295552cac796",
+      "title": "Your Period Tracker Is (Probably) Spying on You",
+      "link": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
+      "summary": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
       "body": null,
       "image": null,
       "pubDate": "2026-07-18T10:30:00.000Z",
@@ -1332,10 +1396,10 @@
       "region": "global"
     },
     {
-      "id": "d91e295552cac796",
-      "title": "Your Period Tracker Is (Probably) Spying on You",
-      "link": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
-      "summary": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
+      "id": "82c766e360acf318",
+      "title": "The Best Motion Sensors and Home Security Gadgets Without Cameras",
+      "link": "https://www.wired.com/story/best-motion-sensors-private-alternatives-security/",
+      "summary": "If you prefer not to have cameras in and around your home, try one of these more private, WIRED-tested security devices.",
       "body": null,
       "image": null,
       "pubDate": "2026-07-18T10:30:00.000Z",
@@ -1441,22 +1505,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "29bebd073008aabc",
-      "title": "All Blacks punish Ireland in dominant Eden Park win",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c4gk5exp8eko?at_medium=RSS&at_campaign=rss",
-      "summary": "Ruthless New Zealand score five tries to overwhelm Ireland and preserve their 32-year unbeaten run at Eden Park in a largely one-sided Nations Championship contest.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-18T09:15:09.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2212,22 +2260,6 @@
       "region": "global"
     },
     {
-      "id": "8a9a68d6f0ef146a",
-      "title": "England could walk off if players racially abused in Argentina",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cx2k46n7x1ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Captain Jamie George says England are considering the prospect of walking off the pitch should any of their players suffer racial abuse against Argentina.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-17T15:22:36.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "e10fce6c9698316c",
       "title": "Got Free Milk? These Coffee Chains Don't Charge Extra For Non-Dairy Alternatives",
       "link": "https://www.delish.com/food/a72770983/coffee-chains-with-no-alternative-milk-fee/",
@@ -2836,6 +2868,22 @@
       "region": "global"
     },
     {
+      "id": "a03c9583f19c0e6b",
+      "title": "30% Off Canon Promo Codes | July 2026",
+      "link": "https://www.wired.com/story/canon-promo-code/",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this July.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-07-17T05:00:00.000Z",
+      "source": {
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "45ca9e85e5f8b37f",
       "title": "Chewy Promo Codes: $20 Off July 2026",
       "link": "https://www.wired.com/story/chewy-promo-code/",
@@ -2897,22 +2945,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a03c9583f19c0e6b",
-      "title": "30% Off Canon Promo Codes | July 2026",
-      "link": "https://www.wired.com/story/canon-promo-code/",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this July.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-07-17T05:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -3700,12 +3732,12 @@
       "region": "gulf"
     },
     {
-      "id": "49526aea5113c9d5",
-      "title": "Orange-lipped monkey that roars and snorts deep in Congo rainforest is new species to science",
-      "link": "https://www.livescience.com/animals/primates/orange-lipped-monkey-that-roars-and-snorts-deep-in-congo-rainforest-is-new-species-to-science",
-      "summary": "A striking new monkey species, Colobus congoensis, was discovered deep in the Congo rainforest and has been scientifically described for the first time.",
-      "body": "Scientists have identified a new species of monkey that has orange lips and makes unique roars and snorting sounds. The distinctive monkey lives in a remote region of the Democratic Republic of the Congo (DRC). It is only the fifth new monkey species to be identified in Africa in the past 75 years, and there might be more unknown monkey species in the region, scientists behind a new study suggested. Researchers named the newly identified species of monkey Colobus congoensis , after the region, and it is known by the common name \"lik­weli\" in the local Kilanga language. \"This is remarkable because it's not very common these days to find a new, never-before-documented primate species, let alone a relatively large species of monkey,\" said Joshua Linder , an anthropologist and president and co-founder of the The Forest Collective , a nonprofit that aims to conserve and restore tropical rainforests. In 2008, conservationists in the dense rainforests of Lomami National Park , within the Congo Basin in the DRC, photographed an unidentified monkey, but it was partially obscured. Then, in 2018 a similar-looking animal was captured on camera, prompting study co-author Junior Amboko , a Loma…",
-      "image": "https://cdn.mos.cms.futurecdn.net/2Jg2ZHFDcvEUi7Bp2Pw49d-1280-80.jpg",
+      "id": "4e9fe20c79bac3c4",
+      "title": "Robot dog can climb stairs, navigate a forest and bound over logs thanks to new, rapid AI training technique",
+      "link": "https://www.livescience.com/technology/robotics/robot-dog-can-climb-stairs-navigate-a-forest-and-bound-over-logs-thanks-to-new-rapid-ai-training-technique",
+      "summary": "Researchers used reinforcement learning to train a quadrupedal robot to adapt to different environments using two different pre-learned gaits.",
+      "body": "A four-legged robot has learned to change the way it runs while navigating forests, staircases and obstacle courses. — seamlessly switching between a steady trot and a faster bounding gait without instructions from a human operator. The 100-pound (45 kilograms) robot, called KAIST HOUND, uses cameras and lidar to scan the ground ahead, then selects an appropriate gait and adjusts its movements in real time. In outdoor tests, it crossed a 0.7-mile (1.1- kilometers) university campus route and a 0.2-mile (0.3 km) forest trail strewn with roots, logs and slippery leaves. The researchers described the robotic framework on July 15 in the journal Science Robotics . Changing gait Animals naturally change their gait depending on their speed and surroundings. A dog might trot carefully across uneven ground, for example , before bounding over a fallen branch. Reproducing this adaptability in robots is tricky because different movements are often controlled by separate, highly specialized coding systems, and transitions between them can cause a lag that drives the robot to stumble. To overcome this issue, researchers developed a special training framework called action pretrained transformer…",
+      "image": "https://cdn.mos.cms.futurecdn.net/CWSjD3CY4eNcnSaHBWRcgU-1280-80.jpg",
       "pubDate": "2026-07-15T18:00:00.000Z",
       "source": {
         "name": "Live Science",
@@ -3716,12 +3748,12 @@
       "region": "global"
     },
     {
-      "id": "4e9fe20c79bac3c4",
-      "title": "Robot dog can climb stairs, navigate a forest and bound over logs thanks to new, rapid AI training technique",
-      "link": "https://www.livescience.com/technology/robotics/robot-dog-can-climb-stairs-navigate-a-forest-and-bound-over-logs-thanks-to-new-rapid-ai-training-technique",
-      "summary": "Researchers used reinforcement learning to train a quadrupedal robot to adapt to different environments using two different pre-learned gaits.",
-      "body": "A four-legged robot has learned to change the way it runs while navigating forests, staircases and obstacle courses. — seamlessly switching between a steady trot and a faster bounding gait without instructions from a human operator. The 100-pound (45 kilograms) robot, called KAIST HOUND, uses cameras and lidar to scan the ground ahead, then selects an appropriate gait and adjusts its movements in real time. In outdoor tests, it crossed a 0.7-mile (1.1- kilometers) university campus route and a 0.2-mile (0.3 km) forest trail strewn with roots, logs and slippery leaves. The researchers described the robotic framework on July 15 in the journal Science Robotics . Changing gait Animals naturally change their gait depending on their speed and surroundings. A dog might trot carefully across uneven ground, for example , before bounding over a fallen branch. Reproducing this adaptability in robots is tricky because different movements are often controlled by separate, highly specialized coding systems, and transitions between them can cause a lag that drives the robot to stumble. To overcome this issue, researchers developed a special training framework called action pretrained transformer…",
-      "image": "https://cdn.mos.cms.futurecdn.net/CWSjD3CY4eNcnSaHBWRcgU-1280-80.jpg",
+      "id": "49526aea5113c9d5",
+      "title": "Orange-lipped monkey that roars and snorts deep in Congo rainforest is new species to science",
+      "link": "https://www.livescience.com/animals/primates/orange-lipped-monkey-that-roars-and-snorts-deep-in-congo-rainforest-is-new-species-to-science",
+      "summary": "A striking new monkey species, Colobus congoensis, was discovered deep in the Congo rainforest and has been scientifically described for the first time.",
+      "body": "Scientists have identified a new species of monkey that has orange lips and makes unique roars and snorting sounds. The distinctive monkey lives in a remote region of the Democratic Republic of the Congo (DRC). It is only the fifth new monkey species to be identified in Africa in the past 75 years, and there might be more unknown monkey species in the region, scientists behind a new study suggested. Researchers named the newly identified species of monkey Colobus congoensis , after the region, and it is known by the common name \"lik­weli\" in the local Kilanga language. \"This is remarkable because it's not very common these days to find a new, never-before-documented primate species, let alone a relatively large species of monkey,\" said Joshua Linder , an anthropologist and president and co-founder of the The Forest Collective , a nonprofit that aims to conserve and restore tropical rainforests. In 2008, conservationists in the dense rainforests of Lomami National Park , within the Congo Basin in the DRC, photographed an unidentified monkey, but it was partially obscured. Then, in 2018 a similar-looking animal was captured on camera, prompting study co-author Junior Amboko , a Loma…",
+      "image": "https://cdn.mos.cms.futurecdn.net/2Jg2ZHFDcvEUi7Bp2Pw49d-1280-80.jpg",
       "pubDate": "2026-07-15T18:00:00.000Z",
       "source": {
         "name": "Live Science",
