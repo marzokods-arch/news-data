@@ -1,26 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-08-22T04:54:11.626Z",
-    "total": 204,
+    "generated_at": "2026-08-22T05:15:02.199Z",
+    "total": 196,
     "processed_feeds": 20,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 69,
-        "error": null,
-        "notModified": false
-      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -35,41 +22,15 @@
         "notModified": false
       },
       {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
         "cats": [
           "sports"
         ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
-        "notModified": false
-      },
-      {
-        "name": "Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/feed/",
-        "homepage": "https://www.hollywoodreporter.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 25,
+        "taken": 69,
         "error": null,
         "notModified": false
       },
@@ -113,6 +74,45 @@
         "notModified": false
       },
       {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 25,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 429",
+        "notModified": false
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "homepage": "https://www.hollywoodreporter.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "Financial Times — Markets",
         "url": "https://www.ft.com/markets?format=rss",
         "homepage": "https://www.ft.com/markets?format=rss",
@@ -136,32 +136,6 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "The Information - Tech",
-        "url": "https://www.theinformation.com/rss",
-        "homepage": "https://www.theinformation.com/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 403",
         "notModified": false
       },
       {
@@ -204,9 +178,48 @@
         "notModified": false
       },
       {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 17\nColumn: 136\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "The Information - Tech",
+        "url": "https://www.theinformation.com/rss",
+        "homepage": "https://www.theinformation.com/rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 403",
+        "notModified": false
+      },
+      {
         "name": "Sada El-Balad — فن",
         "url": "https://www.elbalad.news/rss/257",
         "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -230,32 +243,6 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
         "name": "Kooora - الدوريات العربية",
         "url": "https://www.kooora.com/?region=o&module=content&rss=1",
         "homepage": "https://www.kooora.com/?region=o&module=content&rss=1",
@@ -267,10 +254,39 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "7730754bc479155d",
+      "title": "Pentagon removes Stars and Stripes newspaper leadership",
+      "link": "https://www.investing.com/news/economy-news/pentagon-removes-stars-and-stripes-newspaper-leadership-4872300",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/news/LYNXMPEE1B1NL_M.jpg",
+      "pubDate": "2026-08-22T04:40:48.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
     {
       "id": "417774f6883b8ef4",
       "title": "springbig Holdings earnings missed by $0.03, revenue fell short of estimates",
@@ -301,22 +317,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "4235b550610896d6",
-      "title": "Former Child Actress Raquel Lee Alleges Disney Negligent in On-Set Sexual Abuse",
-      "link": "https://www.hollywoodreporter.com/business/business-news/raquel-lee-alleges-disney-negligent-sexual-abuse-1236678925/",
-      "summary": "Her claim, pertaining to the 2001 Disney Channel movie 'The Poof Point,' asserts that a “middle-aged, male employee who was involved in the filming” groomed and then repeatedly assaulted her.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-22T03:43:35.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -384,38 +384,6 @@
       "region": "global"
     },
     {
-      "id": "34b75129b2fab6f4",
-      "title": "Archer Aviation CSO Eric Lentell sells $631,000 in company stock",
-      "link": "https://www.investing.com/news/insider-trading-news/archer-aviation-cso-eric-lentell-sells-631000-in-company-stock-93CH-4872285",
-      "summary": "",
-      "body": null,
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
-      "pubDate": "2026-08-22T02:46:02.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "5d2f524013ef3095",
-      "title": "Emmy Nominee Patrick Ball on His Rollercoaster Journey to ‘The Pitt’ and How His Own Addiction Battle Has Informed His Performance",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/patrick-ball-awards-chatter-interview-the-pitt-addiction-1236658375/",
-      "summary": "The Yale School of Drama alum also reveals just how close he came to quitting acting after years of financial struggle and how he is acclimating to success: \"I need to come up with some new dreams because all of my dreams are coming true.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-22T02:14:19.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "718a55690c18fecf",
       "title": "Still more GTA 6 details from the latest leaked video: traffic cameras, car trackers, and drivers that put up a fight",
       "link": "https://www.pcgamer.com/games/grand-theft-auto/still-more-gta-6-details-from-the-latest-leaked-video-traffic-cameras-car-trackers-and-drivers-that-put-up-a-fight/",
@@ -426,22 +394,6 @@
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c2a58897cceaf873",
-      "title": "Gavin Newsom Says Paramount Settlement Talks Happening in “Real Time,” Signals He’d Like a Deal",
-      "link": "https://www.hollywoodreporter.com/business/business-news/gavin-newsom-support-paramount-antitrust-settlement-talks-1236678841/",
-      "summary": "The California governor said he was concerned about the state's reputation and added that he takes CEO David Ellison's threat to move companies out of California “seriously.”",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-21T23:39:01.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "technology",
@@ -464,38 +416,6 @@
       "region": "global"
     },
     {
-      "id": "8ce110013b556df7",
-      "title": "Madonna Tops U.K. Dance Charts a Record Fifth Time in 15 Weeks",
-      "link": "https://www.hollywoodreporter.com/music/music-news/madonna-kylie-minogue-love-sensation-1236678801/",
-      "summary": "The Stuart Price rework of \"Love Sensation\" with Kylie Minogue — unveiled at WorldPride Amsterdam — took the song to No. 1 a second time.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-21T23:23:05.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "3418e9d39fb6659d",
-      "title": "Hayden Panettiere’s Boyfriend Gave Her Narcan Before Death, Brother Says",
-      "link": "https://www.hollywoodreporter.com/news/general-news/hayden-panettiere-narcan-death-boyfriend-brian-hickerson-1236678791/",
-      "summary": "Zach Hickerson tells TMZ he and Brian Hickerson performed CPR on the actor after finding her unconscious in a Greenville, South Carolina, Airbnb.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-21T23:13:18.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "e00460611bd43cd8",
       "title": "McIlroy falls off pace after tough second round",
       "link": "https://www.bbc.co.uk/sport/golf/articles/cp8x6p4x60lo?at_medium=RSS&at_campaign=rss",
@@ -512,22 +432,6 @@
       "region": "global"
     },
     {
-      "id": "67b486c5fa620027",
-      "title": "‘The Girls’: Khloé Kardashian Wanted Her Friends to Have Their Own Show. Then Things Got Complicated",
-      "link": "https://www.hollywoodreporter.com/tv/tv-features/khloe-kardashian-the-girls-hulu-reality-show-1236677849/",
-      "summary": "The reality TV veteran and businesswoman speaks about executive producing her inner circle, the moments when she \"regretted doing any of this,\" what's next for 'Khloé in Wonder Land' and the October premiere of 'The Kardashians' season eight, exclusively confirmed to The Hollywood Reporter.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-21T22:59:33.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "45d241202e2cd54d",
       "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff",
       "link": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html",
@@ -538,22 +442,6 @@
       "source": {
         "name": "CNBC — Markets",
         "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "47d344940eb47600",
-      "title": "Paramount Sued by Ex-Distribution Chief Chris Aronson Over Millions of Dollars in Pay",
-      "link": "https://www.hollywoodreporter.com/business/business-news/paramount-sued-by-ex-distribution-chief-chris-aronson-1236678740/",
-      "summary": "The theatrical executive had inked a new deal with the studio last year only to be terminated and replaced months later.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-21T22:22:25.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
       },
       "lang": "en",
       "category": "general",
@@ -637,22 +525,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c75594fe5ffe25e7",
-      "title": "The Best Sunscreens for Your Face (and Body), as Recommended by Beauty Insiders",
-      "link": "https://www.hollywoodreporter.com/lifestyle/shopping/best-sunscreens-for-face-body-experts-recommended-1235195076/",
-      "summary": "Hollywood makeup artists and aestheticians share their go-to face and body sunscreens for protecting your visage all summer.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-08-21T21:51:16.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "lifestyle",
       "region": "global"
     },
     {
