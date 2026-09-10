@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-09-10T20:02:49.242Z",
-    "total": 392,
-    "processed_feeds": 19,
-    "discovered_feeds": 84,
+    "generated_at": "2026-09-10T22:27:18.033Z",
+    "total": 390,
+    "processed_feeds": 18,
+    "discovered_feeds": 83,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 2,
@@ -35,6 +35,19 @@
         "notModified": false
       },
       {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 65,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Sky News Arabia — اقتصاد",
         "url": "https://www.skynewsarabia.com/rss/business.xml",
         "homepage": "https://www.skynewsarabia.com/rss/business.xml",
@@ -48,42 +61,16 @@
         "notModified": false
       },
       {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
+        "name": "9to5Mac",
+        "url": "https://9to5mac.com/feed/",
+        "homepage": "https://9to5mac.com/feed/",
         "lang": "en",
         "region": "global",
         "cats": [
-          "sports"
+          "general"
         ],
-        "taken": 67,
+        "taken": 97,
         "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
         "notModified": false
       },
       {
@@ -113,32 +100,6 @@
         "notModified": false
       },
       {
-        "name": "9to5Mac",
-        "url": "https://9to5mac.com/feed/",
-        "homepage": "https://9to5mac.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 97,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "المصري اليوم - ملاعب",
-        "url": "https://sports.almasryalyoum.com/feed/",
-        "homepage": "https://sports.almasryalyoum.com/feed/",
-        "lang": "ar",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 10,
-        "error": null,
-        "notModified": false
-      },
-      {
         "name": "Hacker News - Front",
         "url": "https://news.ycombinator.com/rss",
         "homepage": "https://news.ycombinator.com/rss",
@@ -165,10 +126,10 @@
         "notModified": false
       },
       {
-        "name": "Attounisia Sport",
-        "url": "https://attounisiyoun.com/feed/",
-        "homepage": "https://attounisiyoun.com/feed/",
-        "lang": "en",
+        "name": "المصري اليوم - ملاعب",
+        "url": "https://sports.almasryalyoum.com/feed/",
+        "homepage": "https://sports.almasryalyoum.com/feed/",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -204,19 +165,6 @@
         "notModified": false
       },
       {
-        "name": "New Scientist",
-        "url": "https://www.newscientist.com/feed/home",
-        "homepage": "https://www.newscientist.com/feed/home",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 406",
-        "notModified": false
-      },
-      {
         "name": "Al Quds Al Arabi - رياضة",
         "url": "https://www.alquds.co.uk/feed/?cat=10",
         "homepage": "https://www.alquds.co.uk/feed/?cat=10",
@@ -230,16 +178,29 @@
         "notModified": false
       },
       {
-        "name": "Met Office (UK) — News",
-        "url": "https://www.metoffice.gov.uk/rss/news",
-        "homepage": "https://www.metoffice.gov.uk/rss/news",
+        "name": "Attounisia Sport",
+        "url": "https://attounisiyoun.com/feed/",
+        "homepage": "https://attounisiyoun.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 10,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "New Scientist",
+        "url": "https://www.newscientist.com/feed/home",
+        "homepage": "https://www.newscientist.com/feed/home",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "Error: HTTP 404",
+        "error": "Error: HTTP 406",
         "notModified": false
       },
       {
@@ -254,10 +215,548 @@
         "taken": 0,
         "error": "Error: HTTP 404",
         "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Met Office (UK) — News",
+        "url": "https://www.metoffice.gov.uk/rss/news",
+        "homepage": "https://www.metoffice.gov.uk/rss/news",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
       }
     ]
   },
   "items": [
+    {
+      "id": "b7495d17a1b584e9",
+      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
+      "link": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
+      "summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
+      "body": "Fears that modern electronic devices may harm children are nothing new. Gadgets with screens of any size have long been allegedly melting, rotting, and/or corrupting the brains of youths for decades. However, a medical case report published this week offers a new and alarming way our digital doodads may cause physical harm. In BMJ Case Reports , two UK doctors, Mara Znagoveanu and Edward Artley, report the case of a boy who came to an emergency department with alarming marks on his abdomen. The marks were described as being in a patch about 15 centimeters (six inches) wide, made of flat, reddish-brown \"interlacing lines forming irregular circles and a lace-like morphology.\" A picture of the marks is here . Mysterious marks The boy, whom they described only as being in \"mid-childhood,\" was not in any pain, and the rash was not warm to the touch or tender. He and his parents said they couldn't think of any recent injuries or trauma that might explain the marks. He was otherwise healthy, hadn't recently been ill, and had no systemic symptoms, such as fever or fatigue. Everything about the boy's health, growth, and medical history looked normal. Read full article Comments",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1370964080-1152x648.jpg",
+      "pubDate": "2026-09-10T22:16:05.000Z",
+      "source": {
+        "name": "Ars Technica",
+        "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "aef9444a8b7640fb",
+      "title": "Late drama as Lens fight back to beat 10-man Slavia Prague",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cly4ll2wwz5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Lens score two goals in stoppage time as they come from behind twice to beat 10-man Slavia Prague at the Fortuna Arena.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T22:07:09.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d2c8efe8baa7b2a4",
+      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "summary": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:51:59.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e25eff63b73e5294",
+      "title": "Champions League new boys Como dominate Leipzig",
+      "link": "https://www.bbc.co.uk/sport/football/videos/czxzwwdz19zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Como made an impressive Champions League debut by defeating visitors RB Leipzig 4-1 in their opening league-phase outing at Stadio Giuseppe Sinigaglia.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:45:10.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "52e6e7aa7f2b5aea",
+      "title": "Fenerbahce boss stuns club by quitting after Roma draw",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8r6vyjpye2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ismail Kartal resigns as Fenerbahce's head coach just minutes after the Turkish side's 1-1 draw with Roma in the Champions League.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:42:26.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e612e85603755d79",
+      "title": "Apple now accepting App Store submissions built for iOS 27, macOS 27, more",
+      "link": "https://9to5mac.com/2026/09/10/apple-now-accepting-app-store-submissions-built-for-ios-27-macos-27-more/",
+      "summary": "Developers can now submit apps built for iOS 27 and Apple’s other new operating system releases, ahead of their official rollout next Monday. Here are the details. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:35:08.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "2995f8f9843c1df6",
+      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "link": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness and building businesses.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:35:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "7754a0f89109236d",
+      "title": "NTSB Issues Investigative Update on B-767 Runway Excursion Accident in Miami",
+      "link": "https://www.ntsb.gov/news/press-releases/Pages/NR20260909.aspx",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:30:55.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "5bbd028b242a4f54",
+      "title": "The part of Navier-Stokes no one is talking about",
+      "link": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:22:59.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "aaba589077173b46",
+      "title": "England captain Jones calls for fertility support",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ce9er3xdgvdo?at_medium=RSS&at_campaign=rss",
+      "summary": "England captain Meg Jones wants the Red Roses to have access to fertility support and egg freezing.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:18:57.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "8c61e9446ec57882",
+      "title": "Brown scores fine equaliser as Fenerbahce draw with Roma",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c1dlnedp7yeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Englishman Archie Brown scores as Fenerbahce begin their return to Champions League football by holding Roma to a draw.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:05:17.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "12e19f8b6ddf9ab7",
+      "title": "Anthropic caught scientists using Claude to further biological weapon research",
+      "link": "https://www.engadget.com/2255473/anthropic-caught-scientists-using-claude-to-further-biological-weapon-research/",
+      "summary": "Anthropic produced an extensive collection of case studies covering the ways its current AI models have been misused.",
+      "body": "Anthropic produced an extensive collection of case studies covering the ways its current AI models have been misused.",
+      "image": "https://www.engadget.com/img/gallery/anthropic-caught-scientists-using-claude-to-further-biological-weapon-research/l-intro-1789073866.jpg",
+      "pubDate": "2026-09-10T21:04:54.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/rss.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5b8444b3c7f0b8ed",
+      "title": "Man United put four past Sabah on Champions League return",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crl600nz58lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United recorded their biggest Champions League victory since 2020 as they swept Sabah FK aside at Old Trafford.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T21:01:24.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "24d94fc057189472",
+      "title": "Fernandes finishes off brilliant move to double Man Utd lead",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c70d1rg9e0wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United captain Bruno Fernandes rounds off a brilliant team move to double his side's lead over Sabah at Old Trafford.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:59:52.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "270d0d9c42ed67a7",
+      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "link": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:59:51.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "50c992200b0947af",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:57:30.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b328f1e121f655c2",
+      "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
+      "link": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
+      "summary": "Judge tosses lawsuits, says plaintiffs didn't allege any real privacy violation.",
+      "body": "LinkedIn beat two lawsuits over its practice of scanning users’ browser extensions, with a judge granting the Microsoft subsidiary's motion to dismiss the cases. The users who sued LinkedIn failed to adequately allege that they have standing to sue because neither asserted that they \"had browser extensions installed that conveyed private information to LinkedIn,\" ruled Judge Vince Chhabria in US District Court for the Northern District of California. In his ruling on Tuesday, Chhabria gave the plaintiffs leave to amend their complaints but said he doubts they can make a plausible case. \"Given LinkedIn’s further arguments that users voluntarily download browser extensions, which by their nature intentionally expose data to websites, it seems unlikely that the plaintiffs will ever be able to allege a privacy violation, much less prevail at the end of the day,\" Chhabria wrote. California residents Nicholas Farrell and Jeff Ganan separately filed class actions against LinkedIn in April, seeking to represent themselves and other LinkedIn users. Ganan's attorney, J.R. Howell, said he is evaluating whether to bring the claims in a California state court, which has different requirements …",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/linkedin-headquarters-1152x648-1789072079.jpg",
+      "pubDate": "2026-09-10T20:55:29.000Z",
+      "source": {
+        "name": "Ars Technica",
+        "homepage": "https://arstechnica.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "c83b80e65a757aeb",
+      "title": "Furo’s founders left Silicon Valley — and it’s paying off",
+      "link": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
+      "summary": "The three 28-year-old founders behind energy startup Furo moved from Silicon Valley and back to Germany, and yet secured $4 million in funding from mostly U.S. backers.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:48:00.000Z",
+      "source": {
+        "name": "TechCrunch",
+        "homepage": "https://techcrunch.com"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "602766b71c438538",
+      "title": "Meta is testing Community Notes in Latin America. Fact checkers are worried.",
+      "link": "https://www.engadget.com/2255433/meta-is-testing-community-notes-in-latin-america-fact-checkers-are-worried/",
+      "summary": "The company is suggesting that its work with traditional fact checkers could come to an end.",
+      "body": "The company is suggesting that its work with traditional fact checkers could come to an end.",
+      "image": "https://www.engadget.com/img/gallery/meta-is-testing-community-notes-in-latin-america-fact-checkers-are-worried/l-intro-1789072494.jpg",
+      "pubDate": "2026-09-10T20:41:21.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/rss.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "6b0d868afaea332a",
+      "title": "Apple TV shares intense trailer for ‘The Last First: Winter K2’",
+      "link": "https://9to5mac.com/2026/09/10/apple-tv-shares-intense-trailer-for-the-last-first-winter-k2/",
+      "summary": "Premiering October 2, The Last First: Winter K2 promises “an unflinching look at the industry of extreme mountain climbing and its changing culture.” Watch the trailer below. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:40:28.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0da3f8f5f98f210c",
+      "title": "Bodily Oddities",
+      "link": "https://vester.si/bodily-oddities/",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:33:11.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "235591765d448e65",
+      "title": "Don't buy the 'regular' AirPods 5",
+      "link": "https://www.engadget.com/2255399/dont-buy-the-regular-airpods-5/",
+      "summary": "The first time you need to adjust volume, you'll wish you'd spent that extra $20.",
+      "body": "The first time you need to adjust volume, you'll wish you'd spent that extra $20.",
+      "image": "https://www.engadget.com/img/gallery/dont-buy-the-regular-airpods-5/l-intro-1789071874.jpg",
+      "pubDate": "2026-09-10T20:30:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/rss.xml"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ad7e3c1b51eb1096",
+      "title": "McIlroy four off lead after his 'longest round'",
+      "link": "https://www.bbc.co.uk/sport/golf/articles/crr4j0n8zkvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Defending champion Rory McIlroy says his opening round at the Irish Open, which was played in stormy conditions and took in excess of six hours, may have been the longest of his career as he sits four behind leader Joacquin Niemann.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:27:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "e6fda97dae12bc48",
+      "title": "McIlroy four off Irish Open lead after 'longest round'",
+      "link": "https://www.bbc.co.uk/sport/golf/articles/crr4j0n8zkvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Defending champion Rory McIlroy says his opening round at the Irish Open, which was played in stormy conditions and took in excess of six hours, may have been the longest of his career as he sits four behind leader Joacquin Niemann.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:27:33.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "53d573c1fd1a2a5c",
+      "title": "Chelsea and Real Madrid keen on Arsenal's Zubimendi - Friday's gossip",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd68352z4vjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Martin Zubimendi may seek to leave Arsenal in January, Mauro Icardi open to Everton move while Toffees play down move for Anthony Martial.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:13:27.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c12feed9af8ed4f6",
+      "title": "13 سنة من الهيمنة.. بايرن ميونخ يعزز رقمه الإعجازي في دوري الأبطال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/13-%D8%B3%D9%86%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%87%D9%8A%D9%85%D9%86%D8%A9-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D8%B9%D8%B2%D8%B2-%D8%B1%D9%82%D9%85%D9%87-%D8%A7%D9%84%D8%A7%D9%95%D8%B9%D8%AC%D8%A7%D8%B2%D9%8A-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84/blt1956ebd984f99dd8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كتيبة كومباني ضربت بقوة في افتتاح المشوار الأوروبي",
+      "body": "كتيبة كومباني ضربت بقوة في افتتاح المشوار الأوروبي واصل بايرن ميونخ هيمنته في المباريات الأوروبية في ملعبه، بعدما رفع سلسلة عدم الخسارة على أرضه، في دور المجموعات أو مرحلة الدوري بدوري أبطال أوروبا، إلى 39 مباراة متتالية. جاء ذلك عقب الفوز الكاسح على بودو جليمت النرويجي (5-0)، مساء الخميس، في الجولة الأولى من مرحلة الدوري. وكان بايرن قد دخل المباراة بسجل خالٍ من الهزائم، في آخر 38 مباراة على أرضه بهذه المرحلة، منذ خسارته أمام مانشستر سيتي بنتيجة (3-2) في ديسمبر 2013. اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي وخلال هذه السلسلة، حقق الفريق البافاري 37 انتصاراً مقابل تعادلين، دون أن يتعرض لأي هزيمة، ليحافظ على الرقم القياسي الممتد منذ 13 عاماً، بحسب شبكة \"سكواكا\" للإحصائيات. وكان جمال موسيالا قد افتتح التهديف لبايرن في الدقيقة 47، قبل أن يضيف هاري كين الهدف الثاني بضربة رأس، في الدقيقة 61، ثم عزز ألفونسو ديفيز تقدم أصحاب الأرض في الدقيقة 77، بتسديدة قوية من خارج منطقة الجزاء. واختتم مايكل أوليسي خماسية بايرن، بتسجيل هدفين في الدقيقتين 83 و90+2، ليحقق الفريق الألماني انتصاراً كبيراً في مستهل مشواره الأوروبي، ويحتل الوصافة بعد الجولة الأولى بفارق الأهداف خلف باريس سان جيرمان، حامل اللقب في آخر نسختين.…",
+      "image": null,
+      "pubDate": "2026-09-10T20:06:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "deb36a54cb31cfd8",
+      "title": "Report: iPhone Duo could give Apple a 25% share of foldable market in 2026",
+      "link": "https://9to5mac.com/2026/09/10/report-iphone-duo-could-give-apple-a-25-share-of-foldable-market-in-2026/",
+      "summary": "A new TrendForce report says the iPhone Duo is expected to capture 24,8% of the foldable smartphone market in 2026 alone, countering a 20% slump in the segment. Here are the details. more…",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-10T20:04:18.000Z",
+      "source": {
+        "name": "9to5Mac",
+        "homepage": "https://9to5mac.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ac82099bde34d56b",
+      "title": "جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2026-2027 .. القنوات الناقلة والترتيب",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2026-2027-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt56473d3cd4534cf2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2026-2027 والقنوات الناقلة والترتيب..",
+      "body": "تعرف على جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2026-2027 والقنوات الناقلة والترتيب.. يبدأ بايرن ميونخ رحلة جديدة في دوري أبطال أوروبا ورغبته في تحقيق اللقب الغائب عن الفريق منذ موسم 2019-2020. وقدّم البافاري نسخة قوية الموسم الماضي ووصل إلى نصف النهائي بعدما أطاح بريال مدريد، ويحاول التسلح بنجمه مثل هاري كين وأوليسي لحصد البطولة. ويواجه بايرن ميونخ عدد من الفرق الكبرى في مرحلة الدوري مثل آرسنال وأتلتيكو مدريد ومانشستر يونايتد. ونستعرض في التقرير الآتي جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2026-2027 وترتيبه العام في مرحلة الدوري.. ما القنوات الناقلة لمباريات بايرن ميونخ في دوري أبطال أوروبا 2026-2027 تمتلك مجموعة قنوات بي إن سبورت القطرية، حقوق بث جميع مباريات دوري أبطال أوروبا في الشرق الأوسط حصريًا. ويمكن متابعة البث المباشر عبر الإنترنت عن طريق تطبيق TOD TV أو beIN connect. وإن كنت ترغب في إنترنت آمن وسريع يمكن الاعتماد على Nord VPN . احصل على اتصال إنترنت آمن وسريع باستخدام NordVPN اشترك الآن! جدول مباريات بايرن ميونخ في دوري أبطال أوروبا 2026-2027 - مرحلة الدوري يبدأ بايرن ميونخ رحلته في دوري أبطال أوروبا بمواجهة على أرضه أمام بودو/جليمت، على أن تكون الجولة الختامية أمام ريال بيتيس. &nbsp; المباراة الموعد النتيجة الملعب بايرن ميونخ - بودو/جليمت الخميس 10 سبتمبر…",
+      "image": null,
+      "pubDate": "2026-09-10T20:01:05.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ac862e4533bd7ddc",
+      "title": "جدول مباريات وترتيب إنتر ميامي في الدوري الأمريكي 2026 .. والقنوات الناقلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D8%A7%D9%85%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D9%8A-2026-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt60e8fe6a4a867d12?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "كل ما تريد معرفته عن مباريات إنتر ميامي في الدوري الأمريكي 2026",
+      "body": "كل ما تريد معرفته عن مباريات إنتر ميامي في الدوري الأمريكي 2026 يرفع نادي إنتر ميامي راية التحدي في موسم جديد بالدوري الأمريكي 2026 \"MLS\"، بعد تحقيق اللقب الأول في الموسم الماضي بالتغلب على فانكوفر في المباراة النهائي.. إنتر ميامي الذي تأسس في 2018، واستطاع أن يدعم صفوفه بنجوم كبار بحجم ليونيل ميسي، سيرجيو بوسكيتس، جوردي ألبا ولويس سواريز، يستعد لموسم جديد بعناصر جديدة. وبعد الفوز في الموسم قبل الماضي بدرع المجمتع كأفضل فريق حصدًا للنقاط بين مجموعتي الشرق والغرب، جاء الموسم الماضي ليشهد تتويج النادي الذي يرأسه ديفيد بيكهام باللقب الأول في تاريخه. وفي التقرير التالي من كووورة، سنتعرف على جدول مباريات وترتيب إنتر ميامي في الدوري الأمريكي لعام 2026، والقنوات الناقلة لمباريات الفريق الذي يقوده الأسطورة ليونيل ميسي ما هو نظام الدوري الأمريكي MLS؟ نظام الدوري الأمريكي \"MLS\" يشهد منافسة بين 29 فريقًا، مقسمة إلى مجموعتين بواقع 15 ناديًا في الشرق و14 في الغرب. إنتر ميامي يلعب في القسم الشرقي، وبذلك فإنه يخوض 34 مباراة في الموسم المنتظم، على أن يتقدم أصحاب المراكز السبعة الأولى إلى النهائيات، بينما يتأهل صاحبا المركزين الثامن والتاسع إلى التصفيات. تُلعب الجولة الأولى من التصفيات بنظام الأفضل من ثلاث مباريات، بعد ذلك، تكون مباريات نصف النهائي والنهائي في مباراة واحدة على ملعب الفريق صاحب الم…",
+      "image": null,
+      "pubDate": "2026-09-10T20:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f46b6a95b3936c8e",
+      "title": "جدول ترتيب هدافي دوري أبطال أوروبا 2026-2027",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%87%D8%AF%D8%A7%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2026-2027/bltca026fdda58eaf07?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على قائمة هدافي دوري أبطال أوروبا 2026-2027",
+      "body": "تعرف على قائمة هدافي دوري أبطال أوروبا 2026-2027 تتجه أنظار عشاق كرة القدم حول العالم إلى منافسات دوري أبطال أوروبا لموسم 2026-2027، في نسخة جديدة تحمل الكثير من التطلعات والطموحات، مع رغبة كبار أندية القارة الأوروبية في اعتلاء منصة التتويج وحصد الكأس الأغلى على مستوى الأندية. وتُعد نسخة موسم 2026-2027 من دوري أبطال أوروبا النسخة الثانية والسبعين في تاريخ البطولة الأعرق على مستوى الأندية الأوروبية، كما تمثل الموسم الخامس والثلاثين منذ تغيير اسم المسابقة من كأس أوروبا إلى دوري أبطال أوروبا. ومن المقرر أن تُقام المباراة النهائية لبطولة دوري أبطال أوروبا يوم 5 يونيو 2027، على ملعب ميتروبوليتانو في العاصمة الإسبانية مدريد، في واحدة من أبرز المحطات المنتظرة في الموسم الأوروبي. ويدخل باريس سان جيرمان منافسات دوري أبطال أوروبا 2026-2027 بصفته حامل اللقب، بعدما نجح في التتويج بالبطولة في آخر نسختين، ليؤكد حضوره بين كبار القارة ويبدأ رحلة الدفاع عن لقبه وسط منافسة قوية من أبرز الأندية الأوروبية. وسيكون الفريق الفرنسي أمام تحدٍ جديد للحفاظ على الكأس وإثبات قدرته على مواصلة الهيمنة القارية، في ظل رغبة العديد من الأندية الكبرى في انتزاع اللقب من حامل اللقب. وعلى المستوى الفردي، تصدر الفرنسي كيليان مبابي، نجم ريال مدريد، قائمة هدافي دوري أبطال أوروبا في الموسم الماضي، بعدما أنهى البطولة برصيد …",
+      "image": null,
+      "pubDate": "2026-09-10T20:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "784c33301641c809",
+      "title": "ترتيب هدافي دوري أبطال أوروبا عبر التاريخ",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%87%D8%AF%D8%A7%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE/1294397?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على ترتيب هدافي دوري أبطال أوروبا التاريخيين",
+      "body": "تعرف على ترتيب هدافي دوري أبطال أوروبا التاريخيين تعتبر بطولة دوري أبطال أوروبا هي الأهم والأغلى بين كل البطولات التي تتنافس عليها الفرق حول العالم، بل يعتبرها البعض في مكانة كأس العالم بالنسبة للمنتخبات. البطولة الأكثر إثارة والتي شهدت ظهور وإبداع العديد من اللاعبين ومعهم نجوم عالميين جعلوا ليالي الثلاثاء والأربعاء بمثابة سهرة ساحرة لا ينساها أي مشجع لكرة القدم. البطولة قدمت لنا دي ستيفانو وبوشكاش ويوهان كرويف إيزيبيو وخينتو، وكذلك كريسبو وديل بييرو ودروجبا وراؤول وشيفتشينكو وفان نيستلروي، ثم ليونيل ميسي وكريستيانو رونالدو وإرلينج هالاند وكيليان مبابي ومحمد صلاح وغيرهم من النجوم عبر التاريخ. ما ترتيب هدافي دوري أبطال أوروبا عبر التاريخ؟ وما موقف محمد صلاح ومبابي وهالاند وغيرهم من النجوم التي لا تزال تنشط في المسابقة الأكثر متابعة حول العالم؟ من الهداف التاريخي لدوري أبطال أوروبا؟ حينما نتحدث عن دوري أبطال أوروبا، فلا صوت يعلو فوق صوت كريستيانو رونالدو، فهو اللاعب الأكثر تسجيلًا للأهداف في البطولة والذي حققها خمس مرات. لا يمكن أيضًا تجاهل ليونيل ميسي الذي يعد أسرع من وصل إلى 100 هدف في البطولة وأول من كسر رقم راؤول الذي ظل لسنوات طويلة مسيطرًا على صدارة الهدافين. هذا بجانب روبرت ليفاندوفسكي وكريم بنزيما ومحمد صلاح الذين أظهروا قدرات خاصة في دوري أبطال أوروبا وقادوا فرقهم لحصد البط…",
+      "image": null,
+      "pubDate": "2026-09-10T20:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e648d9aae1a8b39f",
+      "title": "حادثة الزجاجة.. استقالة مدرب على الهواء بعد جولة أبطال أوروبا",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9-%D8%A7%D9%84%D8%B2%D8%AC%D8%A7%D8%AC%D8%A9-%D8%A7%D8%B3%D8%AA%D9%82%D8%A7%D9%84%D8%A9-%D9%85%D8%AF%D8%B1%D8%A8-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-%D8%A8%D8%B9%D8%AF-%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7/blt70133307faf7d5c1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "أعلن مدرب فنربخشه، إسماعيل كارتال، استقالته على الهواء، عقب تعادل فريقه 1-1 مع روما، في مستهل عودته إلى دوري أبطال أوروبا.",
+      "body": "أعلن مدرب فنربخشه، إسماعيل كارتال، استقالته على الهواء، عقب تعادل فريقه 1-1 مع روما، في مستهل عودته إلى دوري أبطال أوروبا. ونشرت شبكة رويترز للأنباء ، تصريحات كارتال، البالغ من العمر 65 عامًا، خلال مؤتمر صحفي، حيث قال إنه سيرحل دون أن يعود أبدًا، مضيفًا أنه اتخذ هذا القرار لإفساح الطريق أمام النادي. وبعد دقائق من انتهاء المؤتمر الصحفي، قال رئيس فنربخشة، عزيز يلدريم، إن كارتال مستمر في منصبه. وأوضح يلدريم \"ألقى بعض المشجعين، زجاجة على رأس المدرب هذا المساء خلال المباراة. لقد تأثر بذلك\". وأضاف \"لقد تحدثت للتو مع إسماعيل كارتال. تحدث عن واقعة الزجاجة، كما اشتكى من تعرضه لضغوط\". وعندما سُئل يلدريم عما إذا كان كارتال قد أبلغه بأنه سيستمر في منصبه، أجاب \"لا داعي لأن يقول علانية إنه سيستمر. أنا أكبر منه، وقلت له أن يواصل عمله، وانتهى الأمر. نحن عائلة\". وقضى كارتال، عقدًا من الزمن لاعبًا في صفوف فنربخشه، وتولى تدريب النادي خلال موسم 2014-2015، ثم عمل مدربًا مؤقتًا خلال موسم 2021-2022، قبل أن يعود لتولي المهمة بصورة كاملة في موسم 2023-2024.&nbsp; وكان كارتال، مساعدًا للمدرب في فنربخشه خلال آخر مرتين توج فيهما النادي بلقب الدوري التركي الممتاز، قبل أن يعود لتولي منصبه للمرة الرابعة في يونيو/حزيران الماضي. واحتل فنربخشه، المركز الثاني في الدوري التركي الممتاز خلال المواسم الخمسة الأخيرة، ونج…",
+      "image": null,
+      "pubDate": "2026-09-10T19:59:09.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
     {
       "id": "7bc012bc973553dc",
       "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
@@ -275,36 +774,116 @@
       "region": "global"
     },
     {
-      "id": "470d443b2f4a7dfa",
-      "title": "McIlroy four behind leader Niemann at Irish Open",
-      "link": "https://www.bbc.co.uk/sport/golf/articles/crr4j0n8zkvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Defending champion Rory McIlroy sits four shots behind leader Joaquin Niemann after day one of the Irish Open at Doonbeg.",
+      "id": "0baba9a726ab8a5c",
+      "title": "بالفيديو.. أسطورة النصر يفتح النار على الفريق.. وينصح رونالدو",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D9%88%D9%8A%D9%86%D8%B5%D8%AD-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/bltf26cf9b739eef9ec?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"العالمي\" يزاحم الهلال على صدارة روشن",
+      "body": "\"العالمي\" يزاحم الهلال على صدارة روشن تعرض فريق النصر لانتقادات قوية من قبل أسطورته، رغم مزاحمته لجاره وغريمه التقليدي الهلال على عرش دوري روشن السعودي. وقال فهد الهريفي، أسطورة النصر، في تصريحات لبرنامج \"دورينا غير\" على قناة \"SBC\": \"هناك تهاون وعدم انضباط، ويوجد خلل واضح في الفريق، لا سيما بعد عدم التعاقد مع لاعب في مركز 6\". وأضاف: \"(مارسيلو) بروزوفيتش كان يمثل 20% من قوة الفريق، ولكنه رحل وتم التعاقد مع لاعب أقل منه في المستوى (سامو كوستا)، كما أن مستويات (كينجسلي) كومان أقل من الموسم الماضي\". يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وأردف: \"أرى أن وضع النصر في خطر، فرغم أن الفوارق كانت واضحة مع أبها الذي لم يمتلك سوى نقطة وحيدة، ولكن لم يتم الاستفادة من هزيمة الاتحاد في بث الحماس والروح وخلق الفرص\". واستدرك: \"على العكس، شاهدنا نوعًا من التهاون والتعالي والأنانية والتباعد في الخطوط، حتى إن أبها صنع 4 فرص لأول مرة، وهو ما لم يسبق أن يفعله أمام فرق أخرى أقل في المستوى من النصر بطل الدوري\". فهد الهريفي: أرقام النصر الدفاعية توضح أن هناك خلل بمنظومة الفريق. @Fahadalhurifi #دورينا_غير #قناة_SBC pic.twitter.com/Zk3iDxqJUl &mdash; #دورينا_غير (@SBA_sport) September 10, 2026 من ناحية أخرى، وجه الهريفي نصيحة للبرتغا…",
+      "image": null,
+      "pubDate": "2026-09-10T19:47:25.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "250760852b146509",
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "link": "https://merybenavente.me/blog/proof-of-capture",
+      "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-09-10T19:42:16.000Z",
+      "pubDate": "2026-09-10T19:44:15.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "general",
       "region": "global"
     },
     {
-      "id": "470d443b2f4a7dfa",
-      "title": "McIlroy four behind leader Niemann at Irish Open",
-      "link": "https://www.bbc.co.uk/sport/golf/articles/crr4j0n8zkvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Defending champion Rory McIlroy sits four shots behind leader Joaquin Niemann after day one of the Irish Open at Doonbeg.",
+      "id": "8149604adc09f4ae",
+      "title": "OpenAI Agents API",
+      "link": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-09-10T19:42:16.000Z",
+      "pubDate": "2026-09-10T19:43:22.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "85fdf26126b457e0",
+      "title": "جدول مباريات مرحلة الدوري من دوري أبطال أوروبا 2026-2027.. والقنوات الناقلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D9%85%D9%86-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2026-2027-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/blt749bd4726783f14b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على جدول مباريات مرحلة الدوري في دوري أبطال أوروبا 2026-2027 والقنوات الناقلة وكل ما تريد معرفته..",
+      "body": "تعرف على جدول مباريات مرحلة الدوري في دوري أبطال أوروبا 2026-2027 والقنوات الناقلة وكل ما تريد معرفته.. تتجه أنظار جماهير كرة القدم إلى منافسات دوري أبطال أوروبا 2026-2027، التي انطلقت وسط اهتمام كبير بمتابعة النسخة الثانية من البطولة بعد تطبيق النظام الجديد، والذي أعاد تشكيل طريقة المنافسة ورفع عدد المواجهات القوية بين أندية القارة منذ المراحل الأولى. ويأتي النظام الموحد في مقدمة أبرز التغييرات التي طرأت على المسابقة، بعدما أصبح دور الدوري يضم 36 فريقًا بدلًا من النظام السابق، مع خوض الأندية عددًا أكبر من المباريات أمام منافسين مختلفين. وأسهم هذا الشكل الجديد في زيادة مساحة المنافسة ومنح الجماهير مواجهات قوية في وقت مبكر من البطولة. وتدخل مجموعة من أبرز الأندية الأوروبية النسخة الجديدة بطموحات كبيرة، وفي مقدمتها مانشستر سيتي وبرشلونة وريال مدريد وإنتر وليفربول وبايرن ميونخ، حيث تسعى هذه الفرق إلى الذهاب بعيدًا في البطولة والمنافسة على الكأس الأغلى على مستوى الأندية الأوروبية. ويحاول باريس سان جيرمان الحفاظ على مكانته بعد تتويجه التاريخي بلقبه الأول في دوري أبطال أوروبا خلال الموسم الماضي، بينما يأمل منافسوه في استعادة الكأس وإضافة فصل جديد إلى تاريخ البطولة، مستفيدين من امتلاكهم تشكيلات قوية وخبرات فنية كبيرة. ومع اكتمال مراسم القرعة واتضاح مواجهات مرحلة الدوري، تبدأ رحلة جديدة ن…",
+      "image": null,
+      "pubDate": "2026-09-10T19:41:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "38cb841d59e7b021",
+      "title": "بأمر الفيفا.. تعديل لائحة فسخ العقود بعد أزمة ألفاريز",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%94%D9%85%D8%B1-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%84%D8%A7%D9%8A%D9%94%D8%AD%D8%A9-%D9%81%D8%B3%D8%AE-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%A7%D9%94%D9%84%D9%81%D8%A7%D8%B1%D9%8A%D8%B2/blt24667865b1daf96f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الفيفا يحاصر بنود فسخ العقود التعجيزية بتعديلات جديدة",
+      "body": "الفيفا يحاصر بنود فسخ العقود التعجيزية بتعديلات جديدة اعتبارًا من مطلع يناير/كانون ثان المقبل، سيُجري الاتحاد الدولي لكرة القدم، تعديلًا على المادة 17، التي تنظم بنود فسخ العقود وإنهاء العلاقات التعاقدية.&nbsp; وعند دخول التعديل حيز التنفيذ، سيتعين على المسابقات، تكييف عقودها وفق نموذج تكون فيه قيمة فسخ العلاقة من جانب واحد بين اللاعب والنادي، متناسبة بصورة معقولة مع ظروف الصفقة، والهدف من ذلك هو ألا يتمكن أي من الطرفين، من استخدام مبلغ، مبالغ فيه، كوسيلة لتعطيل رحيل لاعب بصورة فعلية.&nbsp; وذكرت صحيفة سبورت ، أن هذا التغيير يأتي بعد فشل عدة صفقات بسبب ارتفاع قيمة بنود الفسخ، أو بسبب رفض بعض الأندية، التفاوض بشأن رحيل لاعب أعلن أنه لا يرغب في الاستمرار مع النادي، وهي الحالة التي حدثت هذا الصيف بين جوليان ألفاريز وأتلتيكو مدريد. والهدف الرئيسي من هذه اللائحة الجديدة، هو محاولة الحد من النزاعات بين الأندية واللاعبين في حالات فسخ العقود، وهو الأمر الذي حدث في القضية المعروفة باسم قضية لاس ديارا. وقد أبدى ممثلو اللاعبين، دعمهم لهذا التغيير، الذي أجراه الاتحاد الدولي لكرة القدم. وحتى الآن، كان يتم تقييم التعويض المالي الواجب دفعه، حالة بحالة، من دون وجود منهجية محددة أو معايير واضحة بشأن القيمة الدقيقة، وهو ما كان يؤدي إلى نتائج متباينة للغاية. ولهذا السبب، قرر الاتحاد الدولي، تعديل ال…",
+      "image": null,
+      "pubDate": "2026-09-10T19:40:03.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "06da35201bbd3795",
+      "title": "جدول مباريات دوري أبطال أوروبا 2026-2027 .. والقنوات الناقلة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2026-2027-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/bltb86ec57e89974664?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "جدول مباريات دوري أبطال أوروبا 2026-2027 والقنوات الناقلة وكل ما تريد معرفته عن نظام البطولة وجوائزها المالية..",
+      "body": "جدول مباريات دوري أبطال أوروبا 2026-2027 والقنوات الناقلة وكل ما تريد معرفته عن نظام البطولة وجوائزها المالية.. انطلقت منافسات دوري أبطال أوروبا 2026-2027 وسط ترقب جماهيري واسع، وهي النسخة الثانية على التوالي بالنظام الجديد، وسط تغييرات تنظيمية شاملة ضاعفت من متعة البطولة مع مواجهات نارية بين الكبار في جميع المراحل. وكانت أبرز التغييرات في نظام دوري أبطال أوروبا، هو زيادة عدد الفرق المشاركة في دور المجموعات إلى 36 فريقًا، ضمن نظام الدوري الموحد الذي أقره الاتحاد الأوروبي لكرة القدم، علمًا بأن هذه التعديلات نجحت في زيادة التنافسية وأسفرت في النسختين الماضية عن مواجهات أكثر إثارة بين كبار القارة في مراحل مبكرة من البطولة. وبعد فوز باريس سان جيرمان للمرة الأولى في تاريخه بلقب دوري أبطال أوروبا العام الماضي، تدخل أندية مثل مانشستر سيتي، برشلونة، ريال مدريد، إنتر، ليفربول وبايرن ميونخ المسابقة وهي تحمل ترشيحات قوية للظفر باللقب، مدعومة بكوكبة من النجوم ومدربين ذوي خبرة أوروبية. ونرصد في السطور التالية جدول مباريات دوري أبطال أوروبا 2026-2027 وترتيب مرحلة الدوري، على النحو التالي: مواعيد مباريات دوري أبطال أوروبا 2026-2027 تبدأ جولات الدور الأول من دوري أبطال أوروبا 2026-2026 يوم الثلاثاء 8 سبتمبر 2026 وتنتهي يوم الأربعاء 27 يناير 2027 أما الأدوار الإقصائية فتبدأ من 29 يناير 2027 على أن…",
+      "image": null,
+      "pubDate": "2026-09-10T19:39:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "07b1e7c6fb86b63e",
+      "title": "كين يكرر إنجاز كريستيانو وليفاندوفسكي التاريخي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%8A%D9%86-%D9%8A%D9%83%D8%B1%D8%B1-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D9%88%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AF%D9%88%D9%81%D8%B3%D9%83%D9%8A-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A/blt61df635d2f82cea5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم الإنجليزي وضع بصماته مجددًا",
+      "body": "النجم الإنجليزي وضع بصماته مجددًا واصل هاري كين تألقه مع بايرن ميونخ في دوري أبطال أوروبا، بتسجيله هدفاً خلال الفوز الكبير على بودو جليمت النرويجي (5-0)، مساء اليوم الخميس، في الجولة الأولى من المسابقة. وبحسب شبكة \"أوبتا\" للإحصائيات، أصبح كين واحداً من 4 لاعبين فقط في تاريخ دوري أبطال أوروبا، سجلوا في 8 مباريات متتالية أو أكثر، إلى جانب كريستيانو رونالدو، الذي حقق ذلك مرتين، وروبرت ليفاندوفسكي مرتين، ورود فان نيستلروي. اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي وسجل كين هدف بايرن الثاني في الدقيقة 61، بعدما ارتقى لعرضية من ركلة حرة نفذها مايكل أوليسي، وحولها برأسه إلى داخل الشباك، ليواصل التسجيل للمباراة الثامنة على التوالي في دوري أبطال أوروبا. وكان جمال موسيالا قد افتتح التهديف لبايرن في الدقيقة 47، قبل أن يضيف كين الهدف الثاني، ثم عزز ألفونسو ديفيز تقدم أصحاب الأرض في الدقيقة 77، بتسديدة قوية من خارج منطقة الجزاء. واختتم مايكل أوليسي خماسية بايرن، بتسجيل هدفين في الدقيقتين 83 و90+2، ليحقق الفريق الألماني انتصاراً كبيراً في مستهل مشواره الأوروبي. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات \"كووورة\". 8 - Harry Kane is one of only four players to score in 8+ consecutive appearances in th…",
+      "image": null,
+      "pubDate": "2026-09-10T19:36:11.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "868466c80a91627b",
@@ -323,8 +902,56 @@
       "region": "global"
     },
     {
-      "id": "f2edf5748f0a78b3",
-      "title": "Genuine Creativity Is Your New Moat (2026)",
+      "id": "8b82db0b04f040f4",
+      "title": "حفيد شريك محمد علي كلاي.. نجم الـ NBA يخوض نزاله الأول في الملاكمة",
+      "link": "https://www.kooora.com/%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83%D9%85%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%81%D9%8A%D8%AF-%D8%B4%D8%B1%D9%8A%D9%83-%D9%85%D8%AD%D9%85%D8%AF-%D8%B9%D9%84%D9%8A-%D9%83%D9%84%D8%A7%D9%8A-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D9%80-nba-%D9%8A%D8%AE%D9%88%D8%B6-%D9%86%D8%B2%D8%A7%D9%84%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83%D9%85%D8%A9/blt57b4d608008fd77b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يخلع قميص السلة ويرتدي قفازات الملاكمة",
+      "body": "يخلع قميص السلة ويرتدي قفازات الملاكمة في خطوة لم يتوقعها أحد، وقبل شهر ونصف فقط من انطلاق الموسم الجديد لدوري كرة السلة الأمريكي، قرر أحد أكبر نجوم الـ NBA خلع قميص كرة السلة وارتداء قفازات الملاكمة. وخاض النجم الأمريكي جيلين براون (29 عاماً) أول نزال ملاكمة له في مسيرته، وكان المكان مفاجئاً بقدر القرار نفسه: نيجيريا. ونشر براون، المنتقل هذا الصيف من بوسطن سيلتكس إلى فيلادلفيا سفنتي سيكسرز، مقطع فيديو من النزال عبر حسابه الرسمي على \"إنستجرام\"، مؤكداً أنه خاض المواجهة دون أي استعدادات مسبقة. وكشف براون في وقت سابق عن رغبته في دخول عالم الرياضات القتالية بعد اعتزال كرة السلة، بل إنه ناقش الفكرة بالفعل مع دانا وايت، رئيس منظمة UFC للفنون القتالية المختلطة. ولا تعد الملاكمة غريبة على نجم السلة، فهو يمارسها منذ سنوات إلى جانب رياضة المواي تاي، متأثراً بجده ويلي براون، الذي كان شريكاً في تدريبات أسطورة الملاكمة محمد علي كلاي. ويعتبر براون أحد أبرز نجوم الدوري، حيث شارك 5 مرات في مباراة كل النجوم، وتوج بجائزة أفضل لاعب في نهائيات 2024 عندما قاد بوسطن سيلتكس إلى اللقب. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات \"كووورة\" ويستعد براون حالياً لخوض موسمه الأول بقميص فيلادلفيا سفنتي سيكسرز، الذي سيفتتح مشواره في 21 أكتوبر المقبل أمام نيويورك نيكس، فيما يبقى حلم خوض تجربة احترافية ف…",
+      "image": null,
+      "pubDate": "2026-09-10T19:23:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1ed7b4635b58c453",
+      "title": "بالفيديو: كومو يمزق شباك لايبزيج.. وروما يتعثر أمام فنربخشة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D9%88%D9%85%D9%88-%D9%8A%D9%85%D8%B2%D9%82-%D8%B4%D8%A8%D8%A7%D9%83-%D9%84%D8%A7%D9%8A%D8%A8%D8%B2%D9%8A%D8%AC-%D9%88%D8%B1%D9%88%D9%85%D8%A7-%D9%8A%D8%AA%D8%B9%D8%AB%D8%B1-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%81%D9%86%D8%B1%D8%A8%D8%AE%D8%B4%D8%A9/bltacfdb0a5de7faaa4?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بدأ كومو الإيطالي، مشواره في دوري أبطال أوروبا، بفوز ساحق على ضيفه لايبزيج الألماني، بنتيجة 4-1، مساء الخميس، في الجولة الأولى من مرحلة الدوري.",
+      "body": "بدأ كومو الإيطالي، مشواره في دوري أبطال أوروبا، بفوز ساحق على ضيفه لايبزيج الألماني، بنتيجة 4-1، مساء الخميس، في الجولة الأولى من مرحلة الدوري. ولم ينتظر رجال المدرب سيسك فابريجاس كثيرًا، وسجلوا هدفا مبكرا في الدقيقة 15 عن طريق مارتن باتورينا. وعزز أناستاسيوس دوفيكاس، تقدم كومو، بالهدف الثاني، في الدقيقة 38. واستمرت هجمات كومو، لتسفر عن الهدف الثالث في الدقيقة 54 من توقيع الحسن دياو. وقلص أندريا ماكسيموفيتش، الفارق، بتسجيل هدف لايبزيج الوحيد، في الدقيقة 58. وفي الدقيقة 90، اختتم ماكسيمو بيروني، مهرجان أهداف كومو، بتسجيل الهدف الرابع لكومو، الذي يشارك لأول مرة في دوري أبطال أوروبا. أما روما الإيطالي، فقد بدأ مشواره، بالتعادل خارج الديار أمام فنربخشة التركي، بنتيجة 1-1. وتقدم روما بهدف بريان كريستانتي في الدقيقة 39، لكن الفريق التركي أدرك التعادل في الدقيقة 48 عن طريق أرشي براون. في المقابل، تعادل آيندهوفن الهولندي مع ضيفه شاختار دونيتسك الأوكراني، بنتيجة 1-1. وكان شاختار دونيتسك، المبادر بالتسجيل في الدقيقة (45+1) عن طريق ميندوزا. لكن الفريق الهولندي أدرك التعادل سريعا مع مرور 3 دقائق من عمر الشوط الثاني، عن طريق سيرجينيو ديست. وفي إطار نفس المرحلة، خسر سلافيا براج التشيكي، على أرضه أمام لانس الفرنسي، بنتيجة 3-2. وحملت ثنائية سلافيا براج، توقيع دانيجيل ستورم في الدقيقتين 51 و88. في…",
+      "image": null,
+      "pubDate": "2026-09-10T19:07:20.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c5b1e937cae58551",
+      "title": "بالفيديو: بايرن ميونخ يمطر شباك بودو جليمت.. ويزاحم باريس على القمة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D9%85%D8%B7%D8%B1-%D8%B4%D8%A8%D8%A7%D9%83-%D8%A8%D9%88%D8%AF%D9%88-%D8%AC%D9%84%D9%8A%D9%85%D8%AA-%D9%88%D9%8A%D8%B2%D8%A7%D8%AD%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%82%D9%85%D8%A9/blt6e2eee14ccad99f9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "البافاري سجل جميع أهدافه في الشوط الثاني",
+      "body": "البافاري سجل جميع أهدافه في الشوط الثاني استهل بايرن ميونخ الألماني مشواره في دوري أبطال أوروبا، اليوم الخميس، بفوز كاسح على ضيفه بودو جليمت النرويجي (5-0)، في ملعب أليانز أرينا. وانتهى الشوط الأول بالتعادل السلبي، بعد فشل العملاق البافاري في ترجمة فرصه إلى أهداف، بينما تمكن دفاع بودو جليمت من الصمود بشكل كبير وتقليص خطورة أصحاب الأرض، خصوصًا في أول نصف ساعة من اللقاء. اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي لكن في مطلع الشوط الثاني، افتتح جمال موسيالا التسجيل لبايرن بالدقيقة 47، من تسديدة قريبة من المرمى. جمال موسيالا يفتتح التسجيل لبايرن ميونيخ #دوري_أبطال_أوروبا pic.twitter.com/ULsWwrgE5m — beIN SPORTS (@beINSPORTS) September 10, 2026 وأضاف هاري كين الهدف الثاني في الدقيقة 61، عندما وجه ضربة رأسية إثر ركلة حرة من مايكل أوليسيه، لتصطدم الكرة برأس حارس الضيوف وتعانق الشباك. وشهدت الدقيقة 65 أول مشاركة للنجم المغربي، إسماعيل الصيباري، بقميص بايرن ميونخ في دوري أبطال أوروبا، عندما دخل بديلًا لموسيالا. هاري كين يضيف الهدف الثاني لبايرن ميونيخ برأسية قوية، بعد عرضية متقنة من مايكل أوليسيه. #دوري_أبطال_أوروبا pic.twitter.com/XIW8JDVlRW — beIN SPORTS (@beINSPORTS) September 10, 2026 وأحرز ألفونسو دي…",
+      "image": null,
+      "pubDate": "2026-09-10T19:05:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "1de97a6fbf91080e",
+      "title": "Creativity is the New Moat",
       "link": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
       "summary": "Comments",
       "body": null,
@@ -337,6 +964,38 @@
       "lang": "en",
       "category": "general",
       "region": "global"
+    },
+    {
+      "id": "cac327c22a4cca61",
+      "title": "جدول مباريات اليوم الجمعة 11 سبتمبر 2026 .. القنوات الناقلة والمعلقين",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-11-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/bltb917e7001a600f4a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين",
+      "body": "تعرف على مباريات اليوم والقنوات الناقلة وجدول المعلقين يشهد اليوم الجمعة 11 سبتمبر 2026 إقامة مجموعة من المباريات المرتقبة في عدد من البطولات، ضمن منافسات الموسم الكروي الجديد. وتتواصل اليوم منافسات الدوري الإيطالي والإسباني والفرنسي والألماني إضافة إلى مباريات هامة في دوري روشن. وفي هذا التقرير، نستعرض معكم جدول مباريات اليوم الجمعة 11 سبتمبر 2026 ، إلى جانب القنوات الناقلة لهذه المواجهات المرتقبة. ما القنوات الناقلة لمباريات اليوم الجمعة 11 سبتمبر 2026؟ يمكن مشاهدة مباريات الدوري الإسباني والفرنسي عبر قنوات beIN SPORTS ، ولهواة البث المباشر، فإنّ تطبيق TOD TV هو الناقل الرسمي. كما يمكن مشاهدة مباريات دوري روشن السعودي عبر قنوات ثمانية ، ولهواة البث المباشر، فإنّ تطبيق ثمانية هو الناقل الرسمي. ويمتلك تطبيق stc tv&nbsp; حقوق بث مباريات الدوري الإيطالي. وإن كنت ترغب في انترنت آمن وسريع في أي مكان في العالم يمكن الاستعانة بتطبيق Nord VPN . ثمانية شاهد من هنا stc tv شاهد من هنا beIN SPORTS HD شاهد من هنا TOD TV شاهد من هنا Nord VPN اشترك الآن &nbsp; جدول مباريات اليوم الجمعة 11 سبتمبر 2026 \"11-09-2026\" دوري روشن السعودي - الجولة 7 المباراة الموعد القنوات الناقلة المعلق&nbsp; القادسية - الاتفاق&nbsp; 18:25 السعودية، 19:25 الإمارات &nbsp;ثمانية 1 جعفر الصليح الفيصلي - الاتحاد&nbsp; 18:…",
+      "image": null,
+      "pubDate": "2026-09-10T19:00:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "869ef2101bb64356",
+      "title": "بالفيديو: اليونايتد يدهس صباح الأذري برباعية.. ويعلن الحرب في دوري الأبطال",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%8A%D8%AF%D9%87%D8%B3-%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D8%A7%D9%94%D8%B0%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A%D8%A9-%D9%88%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84/blt88b27660c273a31f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "مهرجان أهداف في مسرح الأحلام",
+      "body": "مهرجان أهداف في مسرح الأحلام عادت الليالي الأوروبية الكبيرة إلى مسرح الأحلام، حيث لم يكتف مانشستر يونايتد بالفوز، بل وجه رسالة قاسية لكل منافسيه في دوري أبطال أوروبا، بعدما اكتسح ضيفه صباح الأذربيجاني برباعية نظيفة، في مباراة من طرف واحد تسيدها الشياطين الحمر من الدقيقة الأولى حتى الأخيرة. دخل يونايتد المباراة بضغط هجومي خانق، ولم يمنح ضيفه فرصة لالتقاط الأنفاس، فكانت النتيجة مهرجان أهداف بدأ مبكراً وانتهى بصافرات احتفالية في المدرجات. البداية من كونيا جاء الافتتاح في الدقيقة 27، بعد جملة فنية من الجهة اليسرى. الظهير الشاب باتريك دورغو توغل وأرسل عرضية أرضية متقنة، قابلها البرازيلي ماتيوس كونيا، صاحب القميص رقم 10، بتسديدة مباشرة سكنت الشباك، ليعلن تقدم يونايتد 1-0 ويسجل أول أهدافه الأوروبية بقميص الفريق. &nbsp; ماتيوس كونيا يفتتح التسجيل لمانشستر يونايتد بعد عرضية من باتريك دورغو #دوري_أبطال_أوروبا pic.twitter.com/Pf2DphAlVN &mdash; beIN SPORTS (@beINSPORTS) September 10, 2026 هدية تيليمانس لبرونو ولم ينتظر القائد برونو فيرنانديز طويلاً لمضاعفة النتيجة. في الدقيقة 42، استغل خطأ فادحاً من البلجيكي يوري تيليمانس، لاعب وسط صباح، الذي مرر الكرة بالخطأ في منتصف الملعب، ليخطفها برونو وينطلق ويسدد بثقة في المرمى، مسجلاً الهدف الثاني 2-0. الثالث قبل الاستراحة وقبل أن يلتقط الضيوف أنفاسهم…",
+      "image": null,
+      "pubDate": "2026-09-10T18:56:31.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "5cc2e98300fb5fe0",
@@ -369,6 +1028,38 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
+    },
+    {
+      "id": "07b43f3e0106d6bf",
+      "title": "فيديو: \"بدون ركبة أفضل من فريقكم\".. نيمار يشعل البرازيل برد ناري على مشجع",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%AF%D9%88%D9%86-%D8%B1%D9%83%D8%A8%D8%A9-%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%85%D9%86-%D9%81%D8%B1%D9%8A%D9%82%D9%83%D9%85-%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%8A%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84-%D8%A8%D8%B1%D8%AF-%D9%86%D8%A7%D8%B1%D9%8A-%D8%B9%D9%84%D9%89-%D9%85%D8%B4%D8%AC%D8%B9/blte2c4266229742dfb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم البرازيلي يفقد السيطرة",
+      "body": "النجم البرازيلي يفقد السيطرة خطف نيمار دا سيلفا الأضواء مجدداً، لكن هذه المرة برد لم يتجاوز ثوانٍ، أشعل به مواقع التواصل في البرازيل، ولم يكن بحاجة إلى أن يلمس الكرة لإحداث هذه الضجة. وتداول نشطاء مقطع فيديو مثير للجدل للنجم البرازيلي خلال فوز فريقه سانتوس على أتلتيكو مينيرو 2-0 في كأس سودامريكانا، يظهر فيه وهو يدخل في مشادة كلامية مع أحد مشجعي الفريق الخصم. وبحسب ما نقلته وسائل إعلام برازيلية ، فإن أحد مشجعي أتلتيكو مينيرو استفز نيمار أثناء متابعته اللقاء من المدرجات، ليرد عليه نجم سانتوس بطريقته الخاصة، مشيراً إلى ركبته قبل أن يتلفظ بعبارة أصبحت حديث الساعة. وشوهد نيمار وهو يقول للمشجع: \"أنا بدون ركبة ولا زلت أفضل من أي لاعب في فريقكم\". الرد، الذي اتسم بالجرأة والثقة المفرطة، انقسمت حوله الجماهير بين من اعتبره ردا طبيعيا من نجم يتعرض للاستفزاز، وبين من رأى فيه تقليلاً من احترام المنافس. وغاب نيمار عن المواجهة بسبب إصابة جديدة في الفخذ الأيمن تعرض لها أمام بالميراس، وكشفت الفحوصات عن تمزق جزئي من الدرجة الثانية في العضلة المستقيمة الخلفية عند منطقة اتصال العضلة بالوتر. ومن المنتظر أن يغيب النجم البالغ من العمر 33 عاماً عن لقاء الإياب أمام أتلتيكو مينيرو يوم 16 سبتمبر، حيث تتراوح مدة تعافيه بين 4 إلى 8 أسابيع. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات \"كووورة\" ورغم الإ…",
+      "image": null,
+      "pubDate": "2026-09-10T18:48:08.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ded79fffb8b1b6f5",
+      "title": "\"اسألوا يايسله\".. الأهلي يتبرأ من رحيل محرز وكيسيه",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%B3%D8%A7%D9%94%D9%84%D9%88%D8%A7-%D9%8A%D8%A7%D9%8A%D8%B3%D9%84%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%8A%D8%AA%D8%A8%D8%B1%D8%A7%D9%94-%D9%85%D9%86-%D8%B1%D8%AD%D9%8A%D9%84-%D9%85%D8%AD%D8%B1%D8%B2-%D9%88%D9%83%D9%8A%D8%B3%D9%8A%D9%87/bltd740fb3f4a3c7058?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "\"الراقي\" يعاني منذ رحيل النجمين",
+      "body": "\"الراقي\" يعاني منذ رحيل النجمين تبرأ نادي الأهلي السعودي من المسؤولية عن قرار رحيل نجميه؛ الجزائري رياض محرز والإيفواري فرانك كيسيه، عقب نهاية الموسم الماضي. وكان الأهلي قد قرر فسخ عقده مع محرز من طرف واحد، قبل موسم من نهايته، فيما رفض تجديد عقد كيسيه بعد انتهائه بنهاية الموسم الماضي. خالد أبو راشد، عضو شرف الأهلي السابق، نقل تصريحات على لسان أحمد الشنقيطي، رئيس اللجنة التنفيذية في النادي السعودي، تبرأ فيها من اتخاذ قرار رحيل محرز وكيسيه. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وقال أبو راشد، في تصريحات لبرنامج \"دورينا غير\" على قناة \"SBC\": \"رحيل محرز وكيسيه كان قرارًا فنيًا من قبل المدرب السابق ماتياس يايسله\". وأثار رحيل النجمين الجزائري والإيفواري حالة كبيرة من الغضب بين جماهير الأهلي، لا سيما في ظل المعاناة التي تظهر على الفريق بعد رحيلهما، منذ بداية الموسم الحالي. الأهلي يحتل المركز التاسع في جدول ترتيب الدوري السعودي، بعد مرور 6 جولات، لم يحصد فيها سوى 9 نقاط، من 3 انتصارات و3 هزائم. يُذكر أن يايسله رحل هو الآخر عن الأهلي قبل بداية الموسم الحالي، من أجل الانتقال لتدريب نيوكاسل يونايتد، بعد 3 سنوات تاريخية، قاد فيها الفريق للتتويج بلقب دوري أبطال آسيا للنخبة مرتين.",
+      "image": null,
+      "pubDate": "2026-09-10T18:47:30.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "8b66b0c9af6534f3",
@@ -435,6 +1126,22 @@
       "region": "global"
     },
     {
+      "id": "b321ec903a451b1d",
+      "title": "إحصائيات الكالتشيو: إنتر يستعد لدهس أودينيزي.. وإنجاز تاريخي ينتظر أموريم مع ميلان",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%95%D8%AD%D8%B5%D8%A7%D9%8A%D9%94%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%88-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%AF%D9%87%D8%B3-%D8%A7%D9%94%D9%88%D8%AF%D9%8A%D9%86%D9%8A%D8%B2%D9%8A-%D9%88%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%8A%D9%86%D8%AA%D8%B8%D8%B1-%D8%A7%D9%94%D9%85%D9%88%D8%B1%D9%8A%D9%85-%D9%85%D8%B9-%D9%85%D9%8A%D9%84%D8%A7%D9%86/bltcc0a0ff38a074245?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تنطلق منافسات الجولة الرابعة من عمر الدوري الإيطالي، المذاع على stc tv، مساء الجمعة، بإقامة مباراة فينيزيا وضيفه فيورنتينا.",
+      "body": "تنطلق منافسات الجولة الرابعة من عمر الدوري الإيطالي، المذاع على stc tv ، مساء الجمعة، بإقامة مباراة فينيزيا وضيفه فيورنتينا. وسيكون عشاق الكالتشيو، على موعد مع القمة المرتقبة بين ميلان ومضيفه لاتسيو، بعد غد السبت، فيما يحل يوفنتوس، ضيفا على ساسولو، الأحد، ويستضيف نابولي، خصمه بولونيا. وتختتم منافسات الجولة، بمواجهة إنتر ميلان، حامل اللقب، وضيفه أودينيزي، يوم الإثنين المقبل. &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! وبحسب شبكة \"أوبتا\" للإحصائيات، فقد فاز إنتر ميلان في 18 من آخر 23 مباراة له أمام أودينيزي في الدوري الإيطالي، مقابل تعادلين و3 هزائم.&nbsp; ولم يحقق أي فريق انتصارات أكثر على أودينيزي في المسابقة خلال الفترة نفسها، منذ بداية عام 2015، سوى روما برصيد 19 انتصارًا. في الوقت نفسه، فاز أودينيزي في آخر مباراة له خارج أرضه أمام إنتر في الدوري الإيطالي، بعدما خسر مبارياته السبع السابقة خارج ملعبه أمامه على التوالي.&nbsp; وفاز إنتر ميلان في مبارياته الثلاث الأولى بالدوري الإيطالي هذا الموسم، ويمكنه تحقيق 4 انتصارات في أول 4 مباريات له بالكالتشيو للمرة التاسعة في تاريخه، وللمرة السادسة في القرن الحالي، بعد مواسم 2002-2003 و2015-2016 و2017-2018 و2019-2020 و2023-2024. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كوو…",
+      "image": "https://assets.kooora.com/images/v3/getty-2267734196/crop/MM5DGOJZGY5DEMRUHA5G433XMU5DAORSGI4Q====/GettyImages-2267734196.jpg",
+      "pubDate": "2026-09-10T18:29:53.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "6d1974c5848483b9",
       "title": "How to watch the Flame Fatales 2026 speedrunning marathon",
       "link": "https://www.engadget.com/2255188/how-to-watch-the-flame-fatales-2026-speedrunning-marathon/",
@@ -449,6 +1156,22 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "f7e98bb1b2f7ca27",
+      "title": "فيديو: بعد خسارة الكلاسيكو.. كيف ألهب رونالدو حماس لاعبي النصر أمام أبها؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B9%D8%AF-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D9%83%D9%8A%D9%81-%D8%A7%D9%94%D9%84%D9%87%D8%A8-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%AD%D9%85%D8%A7%D8%B3-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%94%D8%A8%D9%87%D8%A7/blt0d1a9c65a14a0695?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم البرتغالي لم يكتفِ بهدفه",
+      "body": "النجم البرتغالي لم يكتفِ بهدفه لعب البرتغالي كريستيانو رونالدو، قائد النصر، دورًا كبيرًا في الفوز على أبها بدوري روشن السعودي، ليس فقط على المستوى الفني، ولكن على الصعيد النفسي أيضًا. وفاز النصر على أبها بنتيجة 2-1، خلال المباراة التي جمعت بينهما، أمس الأربعاء ، على ملعب الأول بارك، في الجولة السادسة من دوري روشن. وكان رونالدو صاحب هدف التقدم، عندما حول كرة عرضية أرسها لاعب الوسط البرازيلي أنجيلو من ركلة ركنية، إلى داخل الشباك بضربة رأسية. غير أن الهدف لم يكن الشيء الوحيد الذي ساعد به النجم البرتغالي فريقه العاصمي على الفوز، حيث وجه رسالة حماسية للاعبين في غرف خلع الملابس، قبل بداية المباراة مباشرةً. وقال رونالدو في رسالته: \"دعوني أقول لكم شيئًا، المباراة الأخيرة انتهت وأصبحت من الماضي\". يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! ويشير \"الدون\" إلى الهزيمة التي تعرض لها النصر أمام الاتحاد بنتيجة 1-2، يوم السبت الماضي، على ملعب الإنماء بجدة، في الجولة الخامسة من دوري روشن. وواصل: \"اليوم، في أول عشرين دقيقة، علينا أن ندخل بكل قوة، اجعلوهم يعتقدون أن الفوز اليوم أمر مستحيل، أول عشرين دقيقة ستكون حاسمة يا شباب، لنبدأ بقوة كبيرة اليوم، هيا بنا\". يُذكر أن الفوز رفع رصيد النصر إلى 15 نقطة، يحتل بها المركز الثاني في جدو…",
+      "image": null,
+      "pubDate": "2026-09-10T18:21:10.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "a423d4829351c17f",
@@ -547,54 +1270,6 @@
       "region": "global"
     },
     {
-      "id": "0153c91f46bac367",
-      "title": "مبابي عن الانتقادات: تميزي يجعلهم ينظرون إلى ما لا أفعله",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D8%B9%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%D8%A7%D8%AA-%D8%AA%D9%85%D9%8A%D8%B2%D9%8A-%D9%8A%D8%AC%D8%B9%D9%84%D9%87%D9%85-%D9%8A%D9%86%D8%B8%D8%B1%D9%88%D9%86-%D8%A7%D9%95%D9%84%D9%89-%D9%85%D8%A7-%D9%84%D8%A7-%D8%A7%D9%94%D9%81%D8%B9%D9%84%D9%87/bltf1c36b6281c8b70d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مبابي قلل من أهمية الانتقادات الموجهة إليه",
-      "body": "مبابي قلل من أهمية الانتقادات الموجهة إليه رد كيليان مبابي، نجم ريال مدريد ومنتخب فرنسا، على الانتقادات الموجهة إلى أدائه دون كرة، معتبرًا أن اللاعب الذي اعتاد تقديم مستويات استثنائية لسنوات، يصبح معرضًا بشكل أكبر للتركيز على الجوانب التي لا يقدمها، بدلًا من الأمور التي يجيدها. وقال مبابي، خلال حوار مع صحيفة \"ليكيب\" الفرنسية: \"أعتقد أن هذا ليس طبيعيًا، لكن هذه هي حياة شخص عايش التميز لسنوات. لم أعد شيئًا جديدًا. الجميع يعرف منذ سنوات ما يمكنني القيام به. وأعتقد أن هذا هو الجانب الإنساني في الأمر\". اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي وأردف مبابي: \"من الطبيعي أن ينظر الناس دائمًا إلى ما لا يفعله شخص ما. عندما يفعل ذلك منذ 10 سنوات، لم يعد الناس ينظرون إلى ما يفعله. هم يعرفون أنه قادر على القيام به. لذلك يحاولون دائمًا النظر إلى ما لا يفعله. ومنذ تلك اللحظة، فهذا ليس شيئًا آخذه على محمل شخصي\". وحول الانتقادات عمومًا، قال مهاجم الميرينجي: \"لدي نهج متوازن تجاه الانتقادات، فهناك نقد بنّاء، وهناك نقد غير منطقي. الانتقادات لا تخيفني، وعندما أتخذ قرارًا، لا أفكر في إمكانية تعرضي للانتقاد. إذا كنت أعرف أن القرار صحيح بالنسبة لي، أو حتى لو لم يكن كذلك لكنه ضروري، فإن مسيرتي أثبتت أنني أواصل التقدم\". و…",
-      "image": null,
-      "pubDate": "2026-09-10T17:38:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "da9f54a218c6304f",
-      "title": "بالفيديو.. عقاب فوري لبغداد بونجاح بعد إشارة مسيئة للحكم",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B9%D9%82%D8%A7%D8%A8-%D9%81%D9%88%D8%B1%D9%8A-%D9%84%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF-%D8%A8%D9%88%D9%86%D8%AC%D8%A7%D8%AD-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%95%D8%B4%D8%A7%D8%B1%D8%A9-%D9%85%D8%B3%D9%8A%D9%8A%D9%94%D8%A9-%D9%84%D9%84%D8%AD%D9%83%D9%85/blt7e4bb0632f3d0f9c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم الجزائري يضع الشمال القطري في ورطة!",
-      "body": "النجم الجزائري يضع الشمال القطري في ورطة! في مشهد غريب عن ملاعب دوري نجوم قطر، تحولت صافرة النهاية في مباراة الشمال والوكرة إلى بداية أزمة حقيقية بطلها المهاجم الجزائري بغداد بونجاح، الذي تلقى بطاقة حمراء هي الأغرب والأكثر إثارة للجدل هذا الموسم. المباراة التي انتهت بالتعادل 1-1 مساء اليوم الخميس في افتتاح الجولة الرابعة، لم تنته عند صافرة الحكم محمد الشمري، بل بدأت بعدها. بدأت القصة في الدقيقة الثامنة من الوقت بدل الضائع، عندما احتج بونجاح، قائد الشمال وأحد أكثر اللاعبين خبرة في تاريخ الدوري القطري، على قرار للحكم الشمري، ليتلقى بطاقة صفراء قبل استئناف اللعب مباشرة. وبعد ثوانٍ قليلة، أطلق الشمري صافرة النهاية معلناً تعادل الفريقين. هنا توجه بونجاح مجدداً نحو الحكم لطلب تفسير لبعض القرارات، لكن الشمري طلب منه مغادرة أرض الملعب باعتبار أن اللقاء انتهى. نفذ بونجاح الطلب واتجه بالفعل نحو غرف تبديل الملابس، لكنه في طريقه قام بتوجيه إشارات \"صادمة\" تجاه الحكم. هذا التصرف لم يمر مرور الكرام، فما كان من الحكم محمد الشمري إلا أن لحق باللاعب الجزائري وأشهر في وجهه البطاقة الحمراء المباشرة وسط ذهول كامل من لاعبي الشمال. انفجر بونجاح غضباً بعد القرار، ورمى شارة قيادة الفريق أرضاً تعبيراً عن احتجاجه الشديد، قبل أن يدخل مسؤولون من نادي الشمال لمحاولة تهدئته، لكنه واصل حالة الغضب ودفع أحد مسؤولي…",
-      "image": null,
-      "pubDate": "2026-09-10T17:35:33.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e5b6a894e6f93322",
-      "title": "باللون الأسود.. هل بدأ اكتشاف يايسله رحلة التمرد على الأهلي؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D9%88%D8%AF-%D9%87%D9%84-%D8%A8%D8%AF%D8%A7%D9%94-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D9%8A%D8%A7%D9%8A%D8%B3%D9%84%D9%87-%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A/bltb199fd86b89afb0b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "أزمة جديدة في \"الراقي\"",
-      "body": "أزمة جديدة في \"الراقي\" أزمة جديدة تفوح رائحتها داخل الأهلي السعودي، بسبب المدير الفني الهولندي مارينو بوسيتش، بطلها أحد اكتشافات المدرب الألماني السابق للفريق ماتياس يايسله. ويتعلق الأمر بالبرازيلي ماتيوس جونسالفيس، جناح الأهلي، الذي لم يعد من بين الخيارات التي يلجأ إليها بوسيتش، منذ وصوله لقيادة الأهلي مطلع الموسم الحالي، خلفًا لنظيره الألماني. جونسالفيس نشر رسالة غامضة غاضبة عبر حسابه الشخصي على موقع \"إكس\"، كتب فيها: \"مرة أخرى؟ من المستحيل أن أفهم ذلك\". Once again, it&#39;s impossible to understand. 😡🤦🏻‍♂️ &mdash; Matheus Gonçalves (@oficialm10_) September 10, 2026 غير أن اللاعب البرازيلي لم يكتفِ بتلك الرسالة الغامضة، حيث غير الصورة الخاصة بحسابه على موقع \"إنستجرام\" إلى اللون الأسود، وأزال الصور التي كان يظهر فيها بقميص الأهلي. تصرفات جونسالفيس جاءت في ظل استبعاده التام من حسابات بوسيتش، حيث لم ينضم للقائمة في آخر 5 مباريات للأهلي في دوري روشن السعودي. ويبدو أن هذا الأمر سوف يتكرر عندما يواجه \"الراقي\" نظيره الحزم، غدًا الجمعة، على ملعب الإنماء بجدة، في الجولة السابعة من دوري روشن. صاحب الـ21 عامًا كان أحد أبرز اكتشافات يايسله في الموسم الماضي، عندما انضم من فلامنجو، ليشارك مع الفريق في 34 مباراة، نجح خلالها في تسجيل 4 أهداف وصناعة مثلها. في المقابل، لم يشارك جونسالفيس سوى في…",
-      "image": null,
-      "pubDate": "2026-09-10T17:35:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "7031535a2af00503",
       "title": "JEP 544: Ahead-of-Time Code Compilation",
       "link": "https://openjdk.org/jeps/544",
@@ -643,20 +1318,20 @@
       "region": "global"
     },
     {
-      "id": "91b231fdf4abb160",
-      "title": "كانسيلو يروي كواليس تمرده على الهلال.. ويختار مرشحه للكرة الذهبية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%A7%D9%86%D8%B3%D9%8A%D9%84%D9%88-%D9%8A%D8%B1%D9%88%D9%8A-%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3-%D8%AA%D9%85%D8%B1%D8%AF%D9%87-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%88%D9%8A%D8%AE%D8%AA%D8%A7%D8%B1-%D9%85%D8%B1%D8%B4%D8%AD%D9%87-%D9%84%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blt5a63aaafa7fc48eb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا قال الظهير البرتغالي عن النادي السعودي؟",
-      "body": "ماذا قال الظهير البرتغالي عن النادي السعودي؟ كشف البرتغالي جواو كانسيلو، ظهير برشلونة، عن كواليس تمرده على ناديه السابق الهلال، من أجل الانتقال إلى النادي الكتالوني خلال فترة الانتقالات الصيفية الماضية. وكان برشلونة قد نجح في التعاقد مع كانسيلو، خلال فترة الانتقالات الصيفية الماضية، بعقد يمتد لـ3 سنوات مقبلة، بعد إنهاء علاقته مع الهلال الذي لعب له منذ صيف 2024. وقال كانسيلو في تصريحات نقلتها صحيفة \"سبورت\" الكتالونية : \"أنا في النادي الذي لطالما أردت اللعب له (برشلونة)\". يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وأوضح: \"كان يتبقى لي عام في عقدي مع الهلال، وقلت لهم إما أن أبقى وأحصل على راتبي كاملًا، أو لا أذهب إلى أي مكان آخر، برشلونة أو لا يوجد نادٍ آخر\". في المقابل، رشح الظهير البرتغالي زميله الإسباني في نادي برشلونة؛ لامين يامال، للفوز بجائزة الكرة الذهبية كأفضل لاعب في العالم لعام 2026، مؤكدًا أنه لا يوجد لاعب آخر يستحقها غيره. وأوضح: \"اللاعب الوحيد الذي يستحق الفوز بالكرة الذهبية هو لامين يامال، لقد فاز بالعديد من الألقاب وهو في التاسعة عشرة من عمره؛ كأس العالم، وكأس الأمم الأوروبية، وجميع الألقاب مع برشلونة\". وأتم: \"كان موسمه مذهلًا، وهو بفارق كبير أفضل موهبة وأفضل لاعب في العالم، بالنسبة لي، لا يوجد لاعب…",
+      "id": "aecac227dad23b85",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "summary": "Comments",
+      "body": null,
       "image": null,
-      "pubDate": "2026-09-10T17:16:15.000Z",
+      "pubDate": "2026-09-10T17:23:42.000Z",
       "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
       },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "cb0b72dc2faf14d7",
@@ -691,26 +1366,10 @@
       "region": "global"
     },
     {
-      "id": "f0f72f3913653765",
-      "title": "حليف إنفانتينو.. أسطورة برشلونة يُورط الفيفا في تهمة جديدة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AD%D9%84%D9%8A%D9%81-%D8%A7%D9%95%D9%86%D9%81%D8%A7%D9%86%D8%AA%D9%8A%D9%86%D9%88-%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D9%8F%D9%88%D8%B1%D8%B7-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%81%D9%8A-%D8%AA%D9%87%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/blt86ccbcb56d560d04?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يواجه الاتحاد الدولي لكرة القدم، تهمة جديدة، بسبب عدم التحقيق مع صامويل إيتو رئيس الاتحاد الكاميروني، على خلفية علاقته بجياني إنفانتينو، رئيس الفيفا.",
-      "body": "يواجه الاتحاد الدولي لكرة القدم، تهمة جديدة، بسبب عدم التحقيق مع صامويل إيتو رئيس الاتحاد الكاميروني، على خلفية علاقته بجياني إنفانتينو، رئيس الفيفا. وذكرت صحيفة تليجراف ، أن إنفانتينو يواجه تساؤلات بشأن علاقته بصامويل إيتو، وسط اتهامات بأن أحد أبرز داعمي رئيس الفيفا، أساء التعامل مع ما يقرب من 500 ألف جنيه إسترليني، دفعتها روسيا إلى حسابه المصرفي الشخصي. وكان إيتو، أسطورة برشلونة، قد ورد اسمه في وثائق قضائية الأسبوع الماضي، باعتباره أحد الداعمين لإنفانتينو في مخططه الفاشل لبيع حصص في كأس العالم. والآن، ادعى مسؤولون تنفيذيون سابقون في الاتحاد الكاميروني، يقولون إن إيتو أجبرهم على الرحيل، أنهم تقدموا بشكاوى رسمية إلى لجنة الأخلاقيات في الفيفا قبل أكثر من عام، بشأن دفعة مالية بقيمة 567 ألف يورو، يقولون إن الاتحاد الروسي، دفعها إلى إيتو. كما نشرت صحيفة \"ذا تايمز\"، ما قالت إنه فاتورة بقيمة 455 ألف يورو، لتحويلها إلى حساب إيتو، وتتعلق بنسبة 80% من إجمالي رسوم المشاركة في المباراة الودية بين روسيا والكاميرون التي أقيمت في موسكو في أكتوبر/تشرين أول 2023. وتساءل منتقدو إيتو، عما إذا كان يحظى بالحماية بسبب دعمه لإنفانتينو، وقد استشهد الفيفا، بصامويل إيتو، أحد عظم لاعبي كرة القدم الأفارقة في التاريخ، في دفاعه ضد دعوى قضائية رفعها الاتحاد الأوروبي، في الولايات المتحدة، على خلفية الخطة التي ت…",
-      "image": "https://assets.kooora.com/images/v3/blt1ef4c35587cfde3d/crop/MM5DSNZWHI2TIOJ2NZXXOZJ2GE3DSORY/Samuel-Etoo-et-Gianni-Infantino-1.jpg",
-      "pubDate": "2026-09-10T17:13:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "62926710a51eb344",
-      "title": "England march to early win over Pakistan halted by rain",
+      "id": "680ba6bf2ff18d67",
+      "title": "England march to early win over Pakistan held up by rain",
       "link": "https://www.bbc.co.uk/sport/cricket/videos/cz9zjypykqqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Harry Brook, Dan Lawrence, Jamie Smith and Ollie Robinson all bat half-centuries on day two of the third Test for England, with rain the only respite for a Pakistan side trailing by 268.",
+      "summary": "Harry Brook, Dan Lawrence, Jamie Smith and Ollie Robinson all post half-centuries on day two of the third Test for England, with rain the only respite for a Pakistan side trailing by 268.",
       "body": null,
       "image": null,
       "pubDate": "2026-09-10T17:05:35.000Z",
@@ -739,11 +1398,11 @@
       "region": "global"
     },
     {
-      "id": "774815f131b5587a",
-      "title": "Drones deliver food and remove bodies after Nepal’s flood disaster",
+      "id": "5f07e4eeb19d1a8f",
+      "title": "China’s drone supremacy shows in airlifting bodies and food after Nepal flood disaster",
       "link": "https://arstechnica.com/gadgets/2026/09/drones-deliver-food-and-remove-bodies-after-nepals-flood-disaster/",
       "summary": "DJI drones that already supply Mount Everest camps assist Nepal’s flood relief.",
-      "body": "Chinese-made drones are airlifting the bodies of flood victims and delivering food to survivors in the aftermath of devastating flash floods on the border of Nepal and China’s Tibetan region. Nepal’s army has been using four DJI FlyCart 100 drones donated from China to make 10 to 16 aid deliveries each day, according to Reuters . This comes after a partial glacier collapse in the Himalayan mountains unleashed a sudden surge of water, mud, and debris that swept through border crossings, valley communities, and hydropower projects on August 26. The DJI Flycart 100 Drones come with a 30-meter rope and winch system for picking up and dropping off heavy loads. The website of Chinese drone company DJI describes the drones as being able to carry between 187 and 220 pounds, depending on the battery configuration. Read full article Comments",
+      "body": "Chinese-made drones are flying out the bodies of flood victims and delivering food to survivors in the aftermath of devastating flash floods on the border of Nepal and China’s Tibetan region. Nepal’s army has been using four DJI FlyCart 100 drones donated from China to make 10 to 16 aid deliveries each day, according to Reuters . This comes after a partial glacier collapse in the Himalayan mountains unleashed a sudden surge of water, mud, and debris that swept through border crossings, valley communities, and hydropower projects on August 26. The DJI Flycart 100 Drones come with a 98-foot rope and winch system for picking up and dropping off heavy loads. The website of Chinese drone company DJI describes the drones as being able to carry between 187 and 220 pounds, depending on the battery configuration. Read full article Comments",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Drone-Nepal-flood-disaster-relief-1152x648.jpg",
       "pubDate": "2026-09-10T16:53:52.000Z",
       "source": {
@@ -801,22 +1460,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "572c59f67fb9b9cf",
-      "title": "بسبب ألمانيا.. نجم الدوري البلجيكي يرفض الاستجابة لدعوة إيطاليا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A7%D9%94%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%AC%D9%8A%D9%83%D9%8A-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D8%AF%D8%B9%D9%88%D8%A9-%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A7/bltabb19e7fc8a49ae2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "اللاعب يفضل التريث",
-      "body": "اللاعب يفضل التريث قرر نيكولو تريسولدي، مهاجم كلوب بروج البلجيكي، عدم تلبية دعوة منتخب إيطاليا للمشاركة في مباريات دوري الأمم الأوروبية المقبلة، مفضلًا الحصول على مزيد من الوقت، قبل اتخاذ قراره النهائي بشأن المنتخب الذي سيمثله، بحسب تقرير صحفي. وكتب الصحفي الإيطالي البارز، نيكولو شيرا، اليوم الخميس عبر حسابه على منصة \"إكس\": \"قرر نيكولو تريسولدي عدم الاستجابة لاستدعاء المنتخب الإيطالي لمباريات دوري الأمم. إنه بحاجة إلى مزيد من الوقت لاتخاذ قرار نهائي بين إيطاليا وألمانيا\". اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي ويأتي موقف تريسولدي ليؤكد أن الصراع بين إيطاليا وألمانيا على خدمات المهاجم الشاب لم يُحسم بعد، رغم تقارير سابقة أشارت إلى اقترابه من اختيار الآزوري. وتريسولدي مولود في مدينة كالياري الإيطالية، لكنه نشأ كرويًا في ألمانيا بعد انتقال عائلته إلى هانوفر، حيث تدرج في أكاديمية هانوفر 96 قبل أن يبدأ مسيرته الاحترافية مع الفريق. ويحمل صاحب الـ22 عامًا الجنسيتين الإيطالية والألمانية. ويمتلك المهاجم الشاب خبرة كبيرة مع منتخبات ألمانيا للفئات السنية، إذ شارك مع منتخب (تحت 19 عامًا) ثم منتخب (تحت 21 عامًا) الذي وصل معه إلى نهائي بطولة أوروبا. وانتقل تريسولدي إلى كلوب بروج في صيف 2025 قادمًا من هانوفر…",
-      "image": null,
-      "pubDate": "2026-09-10T16:46:43.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "f5adedf6fbaedc1b",
@@ -899,22 +1542,6 @@
       "region": "global"
     },
     {
-      "id": "fe0b152223bf2a23",
-      "title": "\"إنه لقجع وهنا تكمن المشكلة\".. تيباس يشكك في نفي الفيفا بشأن نهائي المونديال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%86%D9%87-%D9%84%D9%82%D8%AC%D8%B9-%D9%88%D9%87%D9%86%D8%A7-%D8%AA%D9%83%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%AA%D9%8A%D8%A8%D8%A7%D8%B3-%D9%8A%D8%B4%D9%83%D9%83-%D9%81%D9%8A-%D9%86%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84/blt5f43a9d85cf3e5a7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "من يقول الحقيقة.. المغرب أم الفيفا؟",
-      "body": "من يقول الحقيقة.. المغرب أم الفيفا؟ لم يمر نفي الفيفا السريع لإعلان المغرب عن استضافة نهائي كأس العالم 2030 مرور الكرام.. فمن قلب إسبانيا، خرج خافيير تيباس، رئيس رابطة الدوري الإسباني، ليضع الاتحاد الدولي في قفص الاتهام بمنشور ناري على مواقع التواصل الاجتماعي. ولم يهاجم تيباس - العدو اللدود لإنفانتينو - المغرب، بل هاجم سياسة النفي التي أصبحت علامة مسجلة للاتحاد الدولي لكرة القدم تحت قيادة المسؤول السويسري. \"ليس صحفياً.. إنه لقجع!\" وكتب تيباس ساخراً: \"نفي جديد من الفيفا! ليس بالأمر الجديد، لقد أصبح النفي سياسة شبه رسمية لهذا الاتحاد، والآن يصف إقامة نهائي كأس العالم 2030 في المغرب بأنه كذب وتضليل\". ثم وجه الضربة الأقوى متسائلاً عن مصدر الخبر: \"المشكلة تكمن في هوية من قال ذلك، ليس صحفياً، ولا مجرد شائعة على مواقع التواصل الاجتماعي، إنه فوزي لقجع، رئيس الاتحاد المغربي لكرة القدم، وعضو مجلس الفيفا نفسه، والوزير المنتدب للحكومة المغربية المسؤول عن الميزانية\". وأضاف: \"لقجع يزعم أن المباراة النهائية ستقام في الدار البيضاء، والفيفا ينفي ذلك، فمن الكاذب؟ رئيس الاتحاد المنظم، وعضو في مجلس الفيفا، ووزير في الحكومة المغربية؟ أم نصدق، مرة أخرى، النفي الرسمي لإنفانتينو؟\". &nbsp; LA FIFA DE INFANTINO VUELVE A DESMENTIR. Nada nuevo. El desmentido se ha convertido casi en una política instituciona…",
-      "image": null,
-      "pubDate": "2026-09-10T16:24:49.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "f85bce0164510957",
       "title": "iPhone Duo is no Apple Vision Pro",
       "link": "https://9to5mac.com/2026/09/10/iphone-duo-is-no-apple-vision-pro/",
@@ -925,54 +1552,6 @@
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "2e7b2e2499b0b80d",
-      "title": "اشتكى من غياب العدالة.. يايسله يشعل أولى أزماته في الدوري الإنجليزي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%B4%D8%AA%D9%83%D9%89-%D9%85%D9%86-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D9%84%D8%A9-%D9%8A%D8%A7%D9%8A%D8%B3%D9%84%D9%87-%D9%8A%D8%B4%D8%B9%D9%84-%D8%A7%D9%94%D9%88%D9%84%D9%89-%D8%A7%D9%94%D8%B2%D9%85%D8%A7%D8%AA%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A/blt23361c61279ff0e5?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المدرب الألماني يثير الجدل",
-      "body": "المدرب الألماني يثير الجدل أشعل الألماني ماتياس يايسله، المدير الفني لفريق نيوكاسل يونايتد، أول أزمة له في الدوري الإنجليزي الممتاز، بعد مرور أول 3 جولات فقط منه. يايسله قاد نيوكاسل للتعادل مع بورنموث بنتيجة 2-2، يوم السبت الماضي ، على ملعب سانت جيمس بارك، في الجولة الثالثة من الدوري الإنجليزي الممتاز، وهو التعادل الثاني في 3 مباريات. أزمة المدرب الألماني لم تكن فقط في النتيجة، ولكن أيضًا في كونه أصبح أول مدرب يحصل على بطاقة صفراء في الموسم الحالي من \"البريميرليج\"، وذلك بسبب إصراره على الخروج من منطقته الفنية. وحدث هذا الأمر في الدقيقة 70 من عمر المبارة، عندما قرر الحكم روب جونز منح يايسله بطاقة صفراء، بسبب خروجه من المنطقة الفنية، رغم تلقيه عدة تحذيرات من الحكم الرابع بخصوص هذا الأمر. يايسله عبر عن اعتراضه على هذه البطاقة الصفراء، ليس فقط في أثناء المباراة، ولكن أيضًا في تصريحات جديدة نقلتها شبكة \"سكاي سبورتس\" ، وذلك بسبب ارتكاب بعض المدربين لنفس التصرف دون عقاب. وقال المدرب الألماني في هذا الصدد: \"لقد كنت واضحًا جدًا بشأن شعوري بالإحباط، وأوضحت ذلك أيضًا في العديد من الجوانب\". يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وأوضح: \"من وجهة نظري، إذا كنت خارج منطقتك (المنطقة الفنية) بمسافة 20 سنتيمترًا وتشجع وتدعم …",
-      "image": null,
-      "pubDate": "2026-09-10T16:20:23.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5d124ca9fa133842",
-      "title": "في الانطلاقة الأوروبية.. نجم بايرن ميونخ يعود أساسيًا على حساب الصيباري",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-%D9%86%D8%AC%D9%85-%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D8%B9%D9%88%D8%AF-%D8%A7%D9%94%D8%B3%D8%A7%D8%B3%D9%8A%D9%8B%D8%A7-%D8%B9%D9%84%D9%89-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D9%84%D8%B5%D9%8A%D8%A8%D8%A7%D8%B1%D9%8A/bltcf51c998de7f57d1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كومباني فضل الاحتفاظ بالصيباري بديلًا",
-      "body": "كومباني فضل الاحتفاظ بالصيباري بديلًا يبدأ بايرن ميونخ الألماني مشواره في دوري أبطال أوروبا (2026-2027) بالقوة الضاربة أمام بودو جليمت النرويجي، على ملعب أليانز أرينا مساء اليوم الخميس. ووفقًا للتشكيل الذي أعلنه النادي البافاري، سيعتمد المدرب البلجيكي فينسنت كومباني على مانويل نوير في حراسة المرمى، وأمامه كونراد لايمر، دايوت أوباميكانو، جوناثان تاه وألفونسو ديفيز في خط الدفاع. وفي خط الوسط، يلعب جوشوا كيميتش وألكسندر بافلوفيتش والعائد للتشكيل الأساسي، جمال موسيالا، بعد فترة من الشكوك حول حالته الصحية، بينما يجلس النجم المغربي إسماعيل الصيباري على مقاعد البدلاء. اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي وفي الأمام، يبدأ مايكل أوليسي ولويس دياز على الجناحين، خلف المهاجم المخضرم هاري كين. وحقق بايرن الفوز في جميع مبارياته الافتتاحية الـ22 السابقة في دوري الأبطال، منذ عام 2003. كما يمتلك الفريق سجلًا قويًا على ملعبه، إذ لم يخسر في آخر 38 مباراة بدور المجموعات، أو مرحلة الدوري من دوري الأبطال، في أليانز أرينا، محققًا 36 انتصارًا وتعادلين. ويخوض بايرن اللقاء بعد تعادله سلبيًا مع شالكه في الدوري الألماني، وهو ما أنهى سلسلة طويلة للعملاق البافاري دون تحقيق هذه النتيجة محليًا، بينما يدخل بودو جليمت المواج…",
-      "image": null,
-      "pubDate": "2026-09-10T16:14:36.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "30df4460b1fe2805",
-      "title": "I have a theory that software drives people insane",
-      "link": "https://graybeard.ing/software-drives-people-insane/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T16:13:42.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
       },
       "lang": "en",
       "category": "technology",
@@ -1011,22 +1590,6 @@
       "region": "global"
     },
     {
-      "id": "31bebb6e4d2ca1a9",
-      "title": "Fans pay their respects at Sir Billy Boston's funeral",
-      "link": "https://www.bbc.co.uk/news/articles/cvgyvj01le3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The funeral of rugby league legend Sir Billy Boston has taken place in his beloved Wigan.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T15:58:38.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "b543e1102e205d67",
       "title": "Forgejo <=16.0.3 Critical RCE",
       "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
@@ -1034,86 +1597,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-09-10T15:57:40.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f2be760f1edaa45f",
-      "title": "ما القنوات الناقلة لمباراة لاتسيو وميلان في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%84%D8%A7%D8%AA%D8%B3%D9%8A%D9%88-%D9%88%D9%85%D9%8A%D9%84%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt46f429caea637756?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة لاتسيو وميلان في الدوري الإيطالي 2026-2027 .. وكيف تشاهدها عبر الإنترنت",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة لاتسيو وميلان في الدوري الإيطالي 2026-2027 .. وكيف تشاهدها عبر الإنترنت يخوض كل من لاتسيو الثالث وميلان الخامس مباراة هامة من القمم الكلاسيكية لبطولة الدوري الإيطالي 2026-2027 حينما يستضيف لاتسيو على ملعب الأولمبيكو نظيره الروسونيري، مساء السبت. ميلان يطمح لتحقيق الفوز على خصم يفوقه بنقطتين في جدول الترتيب، لذلك ستكون المباراة بمثابة مباراة بست نقاط بالنسبة لكتيبة المدرب روبن أموريم. وفي التقرير الآتي من كووورة نستعرض لكم القنوات الناقلة لمباراة لاتسيو وميلان في الجولة الرابعة من الدوري الإيطالي 2026-2027 والقنوات الناقلة وطريقة المشاهدة عبر الإنترنت. ما القنوات الناقلة لمباراة لاتسيو وميلان في الدوري الإيطالي 2026-2027؟ يمتلك تطبيق stc tv ، حقوق بث مباريات الدوري الإيطالي 2026-2027، ومن المنتظر أن يقوم بإذاعة مباراة لاتسيو وميلان في الدوري الإيطالي عبر شاشته، بتعليق عربي. كيف تشاهد مباراة&nbsp;لاتسيو وميلان في الدوري الإيطالي 2026-2027&nbsp;عبر الإنترنت؟ لهواة البث عبر الإنترنت، يمكنهم مشاهدة مباراة لاتسيو وميلان في الدوري الإيطالي 2026-2027 عبر تطبيق stc . ويمكن الاشتراك الآن في التطبيق ومتابعة الدوري&nbsp;الإيطالي&nbsp;مجانًا&nbsp;على&nbsp;stc tv&nbsp;لجميع&nbsp;عملاء&nbsp;باقات&nbsp;مفوتر&nbsp;4&nbsp;ومفوتر&nbsp;ماكس&nbsp;وبيتي&nbsp…",
-      "image": null,
-      "pubDate": "2026-09-10T15:54:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "7f1f525df500046d",
-      "title": "Show HN: MultiMatte, a Promptable Image Background Removal Model",
-      "link": "https://usefeyn.com/blog/multimatte/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T15:50:25.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f7cc4090a5b09504",
-      "title": "الهداف ورجل النهائي.. 5 مواهب تستحق المشاهدة في رابع جولات دوري جوي للنخبة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%81-%D9%88%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-5-%D9%85%D9%88%D8%A7%D9%87%D8%A8-%D8%AA%D8%B3%D8%AA%D8%AD%D9%82-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D9%81%D9%8A-%D8%B1%D8%A7%D8%A8%D8%B9-%D8%AC%D9%88%D9%84%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9/blt18c4e59987ec1881?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "نجوم صغيرة تتلألأ في الدوري السعودي تحت 21 عامًا",
-      "body": "نجوم صغيرة تتلألأ في الدوري السعودي تحت 21 عامًا ستكون جماهير الكرة السعودية على موعد مع الاستمتاع ببعض المواهب من جديد، مع استئناف مباريات دوري جوي للنخبة (الدوري السعودي تحت 21 عامًا). وتنطلق مباريات الجولة الرابعة من دوري جوي للنخبة، يوم الأحد 13 سبتمبر/أيلول ، بـ7 مواجهات، قبل أن تُختتم بـ5 مباريات أخرى في اليوم التالي. حسان إدريس.. رجل النهائي ولا شك أن اللاعب الذي ستتجه إليه كل الأنظار، سيكون رجل نهائي النسخة الماضية من دوري جوي للنخبة، حين تتكرر تلك المواجهة في الجولة الرابعة بين الحزم والفتح. عندما التقى الفريقان، قبل نحو 4 أشهر، في نهائي الدوري السعودي تحت 21 عامًا، لم يكن حسان إدريس هو اللاعب الذي ينتظر الكثيرون تألقه، لكنه نجح في أن يكون رجل النهائي الأول. وسجل حسان إدريس هدفين في 5 دقائق تقريبًا، ليقود الحزم للفوز على الفتح بنتيجة 3-1، ومن ثم الظفر بلقب النسخة الأولى من دوري جوي للنخبة. وعندما تتكرر المواجهة، في الجولة الرابعة، يوم الإثنين، فإن حسان إدريس سيكون اللاعب الذي تنتظر جماهير الحزم أن يظهر مجددًا، من أجل قيادة الفريق لتحقيق الفوز الثاني على التوالي. حسان إدريس ظهر أخيرًا في الموسم الحالي، خلال الجولة الماضية، حين سجل الهدف الثالث في فوز الحزم على الفيحاء بنتيجة 3-1، وهو ما يعني أنه جاهز للتألق من جديد في مواجهة الفتح. شاهد دوري جوّي السعودي عبر stc tv سجل الا…",
-      "image": null,
-      "pubDate": "2026-09-10T15:50:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "36146244026d18bc",
-      "title": "الليجا تكشف ثروات الكبار.. ريال مدريد وبرشلونة يهربان بعيدًا عن باقي إسبانيا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7-%D8%AA%D9%83%D8%B4%D9%81-%D8%AB%D8%B1%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A8%D8%A7%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D9%87%D8%B1%D8%A8%D8%A7%D9%86-%D8%A8%D8%B9%D9%8A%D8%AF%D9%8B%D8%A7-%D8%B9%D9%86-%D8%A8%D8%A7%D9%82%D9%8A-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7/blt4b8653bdd9ba0e3c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "فجوة الرواتب تهدد ميزانيات الأندية",
-      "body": "فجوة الرواتب تهدد ميزانيات الأندية كشفت رابطة الدوري الإسباني عن الفجوة الحقيقية التي باتت تهدد عدالة المنافسة، فبينما يحلق عملاقا الكرة الإسبانية بميزانيات فلكية، وجد إشبيلية، أحد كبار الأندلس، نفسه في قاع الحضيض المالي، مجبراً على الاعتماد على أكاديميته للبقاء ضمن المنافسة. وأعلنت \"لا ليجا\" اليوم الخميس عن أحد أكثر أسرارها حراسة، وهو سقف الرواتب الرسمي لجميع أندية الدرجتين الأولى والثانية البالغ عددها 42 نادياً، في تقرير قلب كل التوقعات. ريال مدريد في القمة.. وبرشلونة يعود من بعيد وللعام الثاني على التوالي، تربع ريال مدريد على عرش الأغنى في إسبانيا، ونجح النادي الملكي في رفع سقف إنفاقه بأكثر من 70 مليون يورو، ليؤكد تفوقه المالي المطلق. لكن المفاجأة الكبرى جاءت من غريمه برشلونة. ففي الصيف نفسه الذي احتفل فيه النادي الكتالوني بعودته التاريخية إلى قاعدة 1:1 للإنفاق، أي القدرة على صرف كل يورو يدخله، قفز سقفه المالي بأكثر من 200 مليون يورو دفعة واحدة، قفزة هائلة تعكس نجاح الإدارة في بيع الأصول وتخفيض الديون. وبهذه الأرقام، اتسعت الفجوة بشكل مرعب بين القطبين وباقي المنافسين.. أما أتلتيكو مدريد، صاحب المركز الثالث، فقد حافظ على موقعه بزيادة متواضعة لم تتجاوز 35 مليون يورو، ليبدو بعيداً جداً عن سباق العملاقين. سقوط حر لإشبيلية.. ومفاجأة الصاعدين في النقيض تماماً، يعيش إشبيلية كابوساً ما…",
-      "image": null,
-      "pubDate": "2026-09-10T15:48:21.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e2a5113d8205497b",
-      "title": "Neki is sharded Postgres by PlanetScale",
-      "link": "https://neki.dev/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T15:48:14.000Z",
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
@@ -1169,22 +1652,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "f6d705edf8a8b3aa",
-      "title": "رغم تفوق الريال.. قفزة هائلة في سقف رواتب برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D8%BA%D9%85-%D8%AA%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%82%D9%81%D8%B2%D8%A9-%D9%87%D8%A7%D9%8A%D9%94%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%82%D9%81-%D8%B1%D9%88%D8%A7%D8%AA%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/bltbd0bcfeb845e1821?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يواصل نادي برشلونة، اتخاذ خطوات إلى الأمام في عملية تعافيه الاقتصادي، على الأقل فيما يتعلق بسقف الرواتب.",
-      "body": "يواصل نادي برشلونة، اتخاذ خطوات إلى الأمام في عملية تعافيه الاقتصادي، على الأقل فيما يتعلق بسقف الرواتب. وذكرت صحيفة سبورت ، أن رابطة الدوري الإسباني، كشفت التحديث الخاص بموسم 2026-2027، لينتقل الحد الأقصى للبارسا في سقف الرواتب، من 432.807 مليون يورو إلى 582.769 مليونًا. ويعني ذلك ما يقرب من 150 مليون يورو إضافية من هامش المناورة، وتحديدًا 149.962 مليون يورو، وهو ما يمثل زيادة هائلة بنسبة 34.6% مقارنة بالمراجعة السابقة.&nbsp; ففي مارس/آذار الماضي، وبعد انتهاء سوق الانتقالات الشتوية، رفعت رابطة الدوري الإسباني، سقف رواتب برشلونة إلى 432.8 مليون يورو، بزيادة قدرها 81.5 مليون يورو مقارنة بالوضع الذي كان عليه النادي في سبتمبر/أيلول 2025. ويمثل الرقم المعلن الآن، قفزة نوعية، فقد أصبح برشلونة يمتلك سقفًا يبلغ 582.7 مليون يورو، ولا يتفوق عليه سوى ريال مدريد، الذي يظهر في القائمة الجديدة بسقف يبلغ 832.786 مليون يورو.&nbsp; ويأتي أتلتيكو مدريد بفارق كبير، بسقف يبلغ 361.287 مليون يورو، ثم فياريال بـ 170.564 مليون يورو، وأتلتيك بيلباو بـ 139.203 مليون يورو. ولا يتعلق هذا الرقم بالمسألة المحاسبية فقط، بل يمثل أيضًا إشارة إلى أن برشلونة يقوم بما هو مطلوب منه، فالتحسن في سقف الرواتب يعكس تطور الوضع الاقتصادي للنادي، وقبل كل شيء، قدرته على تحمل تكلفة أكبر لتشكيلته ضمن المعايير التي تحددها رابطة…",
-      "image": null,
-      "pubDate": "2026-09-10T15:42:03.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "7fcb91cbe1dbfcff",
@@ -1267,26 +1734,10 @@
       "region": "global"
     },
     {
-      "id": "9c7b94f2eaf11cbd",
-      "title": "ما القنوات الناقلة لمباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%81%D9%8A%D8%B5%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt5aa6edd8a552313f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت يحتضن ملعب المجمعة مواجهة مرتقبة تجمع بين الفيصلي والاتحاد، ضمن منافسات الجولة السابعة من دوري روشن السعودي موسم 2026-2027. ويدخل الاتحاد المباراة بحثًا عن تحقيق الانتصار ومحاولة تحقيق تقدم في مركزه بجدول الترتيب وهو الذي يحتل المركز الرابع. ونرصد في السطور التالية، القنوات الناقلة لمباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027 وطرق المشاهدة عبر الإنترنت. ما القنوات الناقلة لمباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027؟&nbsp; يمكن مشاهدة مباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027 عن طريق قنوات ثمانية. ما تردد قنوات ثمانية الناقلة لمباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027؟ &nbsp; القمر عرب سات التردد 11919 الاستقطاب أفقي (H) معدل الترميز 27500 معدل الخطأ 3/4 &nbsp; كيف تشاهد مباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027 عبر الإنترنت؟ أصدرت شبكة ثمانية تطبيقها الخاص الذي يمكن من خلاله مشاهدة مباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027 عبر الإنترنت. احصل على اتصال إنترنت آمن وسريع باستخدام NordVPN اشترك الآن! من معلق مباراة الفيصلي والاتحاد في دوري روشن السعودي 2026-2027؟ اختارت شبكة ثمانية، خالد المدي…",
-      "image": null,
-      "pubDate": "2026-09-10T15:31:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "94cce471029fbf0f",
       "title": "Gordon a better fit for Barca than Rashford - Deco",
       "link": "https://www.bbc.co.uk/sport/football/articles/clyl7njnk46o?at_medium=RSS&at_campaign=rss",
-      "summary": "Barcelona sporting director Deco says Anthony Gordon's style was a better fit for Hansi Flick's side than Marcus Rashford's as the club strengthened their squad this summer.",
+      "summary": "Barcelona sporting director Deco says Anthony Gordon's style was a better fit for Hansi Flick's side than Marcus Rashford's as the club strengthened their squad in the summer.",
       "body": null,
       "image": null,
       "pubDate": "2026-09-10T15:30:53.000Z",
@@ -1331,8 +1782,8 @@
       "region": "global"
     },
     {
-      "id": "233f79a483825109",
-      "title": "Don't Let Anyone Take Away Your Big Box of Cables",
+      "id": "b755cd99659ea1a3",
+      "title": "Don't let anyone take away your big box of cables",
       "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
       "summary": "Comments",
       "body": null,
@@ -1379,22 +1830,6 @@
       "region": "global"
     },
     {
-      "id": "4772cd93a7336c62",
-      "title": "رئيس الاتحاد الفرنسي: ثقتنا في إنفانتينو انتهت.. ومركزنا العالمي يمنحنا شرعية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D8%AB%D9%82%D8%AA%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%95%D9%86%D9%81%D8%A7%D9%86%D8%AA%D9%8A%D9%86%D9%88-%D8%A7%D9%86%D8%AA%D9%87%D8%AA-%D9%88%D9%85%D8%B1%D9%83%D8%B2%D9%86%D8%A7-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A-%D9%8A%D9%85%D9%86%D8%AD%D9%86%D8%A7-%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9/blt380561a84a889e75?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "فرنسا انضمت رسميًا للمعسكر المناهض لرئيس الفيفا",
-      "body": "فرنسا انضمت رسميًا للمعسكر المناهض لرئيس الفيفا رد رئيس الاتحاد الفرنسي لكرة القدم، فيليب ديالو، للمرة الأولى بعد إعلان اللجنة التنفيذية للاتحاد، اليوم الخميس، موقفها الرافض لإعادة انتخاب رئيس الفيفا، جياني إنفانتينو، في مارس 2027. وكان التحول الفرنسي نحو معسكر معاداة إنفانتينو متوقعًا منذ أيام، قبل أن يُعلن رسميًا اليوم، عقب اجتماع اللجنة التنفيذية للاتحاد الفرنسي. اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي وقبل ستة أشهر من انتخابات الفيفا، المقررة في 18 مارس 2027 بمدينة الرباط المغربية، شرح ديالو أسباب قرار الاتحاد الفرنسي سحب دعمه لإنفانتينو. وقال ديالو أمام الصحافة، حسبما نقلت صحيفة \"ليكيب\" الفرنسية: \"في البداية، استُقبل إعلان ترشح جياني إنفانتينو لإعادة انتخابه بشكل إيجابي نسبياً. في نهاية يونيو، قدّمت دعمي مثل أكثر من 200 منتخب\". واستدرك: \"لكن في يوليو، لم تعد شروط دعمنا متوفرة. مع زملائي في اللجنة التنفيذية، نعتبر أن الثقة الممنوحة لجياني إنفانتينو قد انقطعت. أسلوب إدارة كرة القدم الحالي ليس ما نريده\". وأردف: \"بالإجماع، قرر الاتحاد الفرنسي سحب دعمه لترشح إنفانتينو لرئاسة الفيفا. موقفنا واضح. لفرنسا شرعية تاريخية للتدخل، لأنها ساهمت في تأسيس الفيفا، ولنا أيضاً شرعية رياضية، لأن فرنسا ضمن الث…",
-      "image": null,
-      "pubDate": "2026-09-10T15:22:45.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "c46d566438a79c21",
       "title": "'Get a life' - non-league club condemn man impersonating manager",
       "link": "https://www.bbc.co.uk/sport/football/articles/c0re0gevpnxo?at_medium=RSS&at_campaign=rss",
@@ -1411,22 +1846,6 @@
       "region": "global"
     },
     {
-      "id": "f9f944d2f455eba2",
-      "title": "حمزة عبد الكريم؟ خطوة رسمية من برشلونة لتحصين نجمه الواعد",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AE%D8%B7%D9%88%D8%A9-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-%D9%85%D9%86-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%86-%D9%86%D8%AC%D9%85%D9%87-%D8%A7%D9%84%D9%88%D8%A7%D8%B9%D8%AF/blt320c786f52419c95?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "شهد مستقبل اللاعب برايان فارينياس، تحولًا مهمًا هذا الصيف، بعدما كان قريبًا من مغادرة برشلونة، لتعزيز صفوف جيرونا، لكن المدرب هانز فليك، أوقف رحيله بعد إصابة فرينكي دي يونج.",
-      "body": "شهد مستقبل اللاعب برايان فارينياس، تحولًا مهمًا هذا الصيف، بعدما كان قريبًا من مغادرة برشلونة، لتعزيز صفوف جيرونا، لكن المدرب هانز فليك، أوقف رحيله بعد إصابة فرينكي دي يونج. ويبلغ فارينياس من العمر 20 عامًا، ويعد من العناصر الواعدة داخل البارسا، بجانب المصري حمزة عبد الكريم. وذكرت صحيفة سبورت ، أن فليك منح فارينياس، مكانًا ضمن قائمة الفريق الأول، بعد ظهوره بشكل مميز خلال فترة الاستعداد للموسم الجديد. وكان برايان فارينياس، قد اختار القميص رقم 4 الذي يحمل تاريخًا خاصًا في برشلونة، وبعد مرور بضعة أيام على إغلاق سوق الانتقالات الصيفية، اتصل ديكو المدير الرياضي، بوكيل اللاعب، للحديث عن مستقبله وبدء التفاوض بشأن تجديد عقده الحالي. ويمتد عقد فارينياس حتى صيف 2028، ولم يخض لاعب الوسط، مباراته الأولى مع الفريق الأول حتى الآن، لكن داخل النادي، هناك إيمان كبير بقدراته وإمكانياته. وتواجد وكيل برايان فارينياس، بورخا جارسيا، اليوم الخميس في المدينة الرياضية خوان جامبر، للاجتماع مع ديكو، وكان اللقاء إيجابيًا للغاية، حيث تم وضع الأسس اللازمة لتمديد عقد اللاعب. وشهد الاجتماع، تقدمًا كبيرًا، ولن تكون هناك أي مشكلة في التوصل إلى اتفاق يضمن استمرار اللاعب لما بعد عام 2030، وسيتم تحسين راتب اللاعب، ليتناسب مع مكانته الجديدة، كما سيتم رفع قيمة الشرط الجزائي في عقده، والذي يبلغ حاليًا 15 مليون يورو. وحص…",
-      "image": null,
-      "pubDate": "2026-09-10T15:19:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "843efa956134387b",
       "title": "This is Apple’s new Wrist Strap accessory for iPhone",
       "link": "https://9to5mac.com/2026/09/10/this-is-apples-new-wrist-strap-accessory-for-iphone/",
@@ -1441,22 +1860,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "713eebdeb2d9eea2",
-      "title": "الفيفا يصدم المغرب مجددًا.. وينفي وعد نهائي مونديال 2030 لملعب الحسن الثاني",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%8A%D8%B5%D8%AF%D9%85-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%85%D8%AC%D8%AF%D8%AF%D9%8B%D8%A7-%D9%88%D9%8A%D9%86%D9%81%D9%8A-%D9%88%D8%B9%D8%AF-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-2030-%D9%84%D9%85%D9%84%D8%B9%D8%A8-%D8%A7%D9%84%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A/bltc70d26e5a11b304d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل تسرّع لقجع في إعلان نهائي المونديال؟",
-      "body": "هل تسرّع لقجع في إعلان نهائي المونديال؟ في رد حاسم وصارم، نفى الاتحاد الدولي لكرة القدم \"فيفا\" بشكل قاطع وجود أي اتفاق أو وعد للمغرب باستضافة نهائي كأس العالم 2030، ليضع حداً للجدل الذي فجره فوزي لقجع ويثير المزيد من الشكوك حول استخدام ملف المونديال كورقة في صراع السلطة داخل الفيفا. وجاء النفي الرسمي بعد تصريحات مثيرة أدلى بها مسؤول كروي مغربي رفيع، أكد خلالها أن أهم مباراة في البطولة بعد أربع سنوات ستقام على أرضية ملعب الحسن الثاني الكبير بالدار البيضاء، الذي لا يزال قيد الإنشاء. تصريح انتخابي يربك الفيفا وبحسب ما كشفته صحيفة \" ماركا \" الإسبانية نقلاً عن متحدث رسمي باسم الفيفا، فإن الرد كان مقتضباً وحاسماً: \"كما تم الإعلان عنه في 5 أغسطس 2026، ستتخذ الفيفا قراراً في الوقت المناسب\". وكان صاحب التصريحات هو فوزي لقجع، أحد أبرز الشخصيات في كرة القدم المغربية ويشغل أيضاً منصب نائب وزير المالية، والذي أدلى بهذا التصريح خلال تجمع انتخابي لحزب الأصالة والمعاصرة (PAM) الليبرالي الذي يخوض حملته الانتخابية اليوم. وتصريح لقجع لم يكن الأول من نوعه، فقبل شهر بالضبط، في 5 أغسطس، نشرت صحيفة \"التايمز\" البريطانية تقريراً صادماً يفيد بأن رئيس الفيفا جياني انفانتينو عرض على المغرب استضافة النهائي مقابل دعمه، وهو ما دفع الفيفا حينها للرد بنفس الجملة: \"من غير الصحيح والمضلل الادعاء بأن رئيس الفيفا قدّ…",
-      "image": null,
-      "pubDate": "2026-09-10T15:10:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "3a75f069ee9d21f3",
@@ -1491,22 +1894,6 @@
       "region": "global"
     },
     {
-      "id": "bb4a43b1d65d0336",
-      "title": "ما القنوات الناقلة لمباراة الأهلي والحزم في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%87%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D8%AD%D8%B2%D9%85-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt02e359604542c058?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة الأهلي والحزم في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة الأهلي والحزم في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت يحتضن ملعب الإنماء مواجهة مرتقبة تجمع بين الأهلي والحزم، ضمن منافسات الجولة السابعة من دوري روشن السعودي موسم 2026-2027. ويدخل الأهلي المباراة بحثًا عن التخلص من أثر التعثرات السابقة ومحاولة تحقيق تقدم في مركزه بجدول الترتيب وهو الذي يحتل المركز التاسع. ونرصد في السطور التالية، القنوات الناقلة لمباراة الأهلي والحزم في دوري روشن السعودي 2026-2027 وطرق المشاهدة عبر الإنترنت. ما القنوات الناقلة لمباراة الأهلي والحزم في دوري روشن السعودي 2026-2027؟&nbsp; يمكن مشاهدة مباراة الأهلي والحزم في دوري روشن السعودي 2026-2027 عن طريق قنوات ثمانية. ما تردد قنوات ثمانية الناقلة لمباراة الأهلي والحزم في دوري روشن السعودي 2026-2027؟ &nbsp; القمر عرب سات التردد 11919 الاستقطاب أفقي (H) معدل الترميز 27500 معدل الخطأ 3/4 &nbsp; كيف تشاهد مباراة الأهلي والحزم في دوري روشن السعودي 2026-2027 عبر الإنترنت؟ أصدرت شبكة ثمانية تطبيقها الخاص الذي يمكن من خلاله مشاهدة مباراة الأهلي والحزم في دوري روشن السعودي 2026-2027 عبر الإنترنت. احصل على اتصال إنترنت آمن وسريع باستخدام NordVPN اشترك الآن! من معلق مباراة الأهلي والحزم في دوري روشن السعودي 2026-2027؟ اختارت شبكة ثمانية، فهد العتيبي للتعليق عل…",
-      "image": null,
-      "pubDate": "2026-09-10T15:04:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "9b9142fb10d3bc6b",
       "title": "Nintendo's latest sale is 'made possible' by the tariff refunds it's hoarding",
       "link": "https://www.engadget.com/2254785/nintendos-latest-sale-is-made-possible-by-the-tariff-refunds-its-hoarding/",
@@ -1521,22 +1908,6 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
-    },
-    {
-      "id": "c035ed915385a30a",
-      "title": "تجاهل ميسي.. بوتشيتينو يرشح نجمًا أوروبيًا للكرة الذهبية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AC%D8%A7%D9%87%D9%84-%D9%85%D9%8A%D8%B3%D9%8A-%D8%A8%D9%88%D8%AA%D8%B4%D9%8A%D8%AA%D9%8A%D9%86%D9%88-%D9%8A%D8%B1%D8%B4%D8%AD-%D9%86%D8%AC%D9%85%D9%8B%D8%A7-%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D9%8B%D8%A7-%D9%84%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blt92dd9f2822cd398d?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بوتشيتينو يؤكد استحقاق لاعبه السابق للجائزة",
-      "body": "بوتشيتينو يؤكد استحقاق لاعبه السابق للجائزة يرى المدرب الأرجنتيني للمنتخب الأمريكي، ماوريسيو بوتشيتينو، أن هاري كين، مهاجم بايرن ميونخ والمنتخب الإنجليزي، يستحق الفوز بجائزة الكرة الذهبية هذا العام، تقديرًا لما قدمه طوال مسيرته في كرة القدم، وذلك رغم ترشيح مواطنه ليونيل ميسي أيضًا للجائزة. وقال بوتشيتينو، في تصريحات نقلتها شبكة \"سكاي سبورتس\" ، عن إمكانية فوز لاعبه السابق في توتنهام هوتسبير بالكرة الذهبية: \"أتمنى ذلك. أعتقد أنه يستحقها كمكافأة على مسيرته، وعلى كل ما قدمه في كرة القدم\". اقرأ أيضًا أسسه مشجعو برشلونة.. ماذا نعرف عن نادي ميسي الجديد؟ فيران توريس يبدي رأيه في ترشيح برشلونة وريال مدريد للقب الأوروبي وتابع المدير الفني: \"لا أعرف ما إذا كان سيتم معاقبته بسبب كأس العالم أو دوري أبطال أوروبا، لأنه لعب نصف نهائي البطولتين.. ربما يتم معاقبته، لا أعرف، لكن بالنسبة لي، حان وقت هاري كين. أعتقد أنه يستحقها\". وأردف: \"إنه يستحقها (الكرة الذهبية) في مسيرته، مثل مودريتش وكانافارو وبنزيما. إذا كان عليّ اختيار لاعب واحد، فسيكون هاري كين\". وودع كين النسخة الماضية من دوري أبطال أوروبا من نصف النهائي، على يد باريس سان جيرمان الذي انتصر (5-4) ثم تعادل (1-1) مع بايرن ميونخ، قبل أن يتوج باللقب على حساب آرسنال بركلات الترجيح. كما خرج الدولي الإنجليزي من نفس الدور في مونديال 2026، بعد الهزيمة …",
-      "image": null,
-      "pubDate": "2026-09-10T15:00:33.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "4e235f94b31f5ed6",
@@ -1619,22 +1990,6 @@
       "region": "global"
     },
     {
-      "id": "e898d3da7a027f9a",
-      "title": "دوري جوي للنخبة.. الهلال يواجه مأساته في روشن.. والنهائي يتكرر بالجولة الرابعة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D9%85%D8%A7%D9%94%D8%B3%D8%A7%D8%AA%D9%87-%D9%81%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D9%8A%D8%AA%D9%83%D8%B1%D8%B1-%D8%A8%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9/blt629ecb029874d9ef?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "جولة جديدة بمباريات قوية جديدة تظهر في دوري جوي للنخبة (الدوري السعودي تحت 21 عامًا)، مع انطلاق منافسات الجولة الرابعة.",
-      "body": "جولة جديدة بمباريات قوية جديدة تظهر في دوري جوي للنخبة (الدوري السعودي تحت 21 عامًا)، مع انطلاق منافسات الجولة الرابعة. وانطلقت منافسات الموسم الثاني من دوري جوي للنخبة، في أغسطس/آب الماضي، بمشاركة 24 فريقًا، يحلم بعضها باللقب، والبعض بالوجود بين الكبار، والبعض الآخر بعدم الهبوط لدوري المناطق. مباريات الجولة الرابعة من دوري جوي للنخبة الجولة الرابعة من دوري جوي للنخبة ستكون مختلفة، لا سيما وأنها ستكون الأولى التي تُقام جميع مبارياتها بدون أي تأجيل كما حدث في الجولات الثلاثة الماضية. وتبدأ الجولة يوم الأحد 13 سبتمبر/أيلول، حين يستضيف الخليج نظيره ضمك بسيهات، ويلتقي الاتفاق مع الوحدة في الدمام، فيما يواجه الرياض نظيره التضامن بالعاصمة السعودية، وهي نفس وجهة مباراة النصر والفيحاء. الخلود يحل ضيفًا على النجمة، على ملعب إدارة التعليم بعنيزة، فيما يستضيف الأهلي نظيره الخلود في جدة، ويستضيف الهلال نظيره نيوم بالعاصمة السعودية الرياض. في اليوم الثاني تُقام 5 مباريات، يبدأها التعاون عندما يحل ضيفًا على الأخدود، على ملعب نادي ضمك بخميس مشيط، بينما يحل الفتح ضيفًا على الحزم بالرس، ويلتقي الأنصار مع الجبلين في المدينة المنورة. العروبة والفيصلي سيلتقيان بالجوف، فيما تُختتم مباريات الجولة بقمة نارية تجمع بين الاتحاد والقادسية على ملعب الأول في جدة. النصر.. للانتفاضة أمام الفيحاء يدخل النصر مبار…",
-      "image": null,
-      "pubDate": "2026-09-10T14:47:53.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "76701b22cf01df4c",
       "title": "Seven Premier League games scheduled for Boxing Day",
       "link": "https://www.bbc.co.uk/sport/football/articles/cd94y2vx8gno?at_medium=RSS&at_campaign=rss",
@@ -1696,22 +2051,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "80c169b158263304",
-      "title": "AI 2027 (2025)",
-      "link": "https://ai-2027.com/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T14:27:00.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2019,22 +2358,6 @@
       "region": "global"
     },
     {
-      "id": "eacd16bb43b5f540",
-      "title": "European founders and VCs urge lawmakers ‘to get EU Inc right’",
-      "link": "https://techcrunch.com/2026/09/10/european-founders-and-vcs-urge-lawmakers-to-get-eu-inc-right/",
-      "summary": "Amid negotiations for a new EU-wide corporate status, an open letter signed by unicorn founders and investors warns that 'EU Inc.' shouldn’t be watered down.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T12:25:08.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "69e752d89fbb7890",
       "title": "List of references on Sony websites to players \"owning\" their digital games",
       "link": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
@@ -2048,22 +2371,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f0fa9922d1dc1565",
-      "title": "US Army places $11M bet on Austin-based GPS alternative Tern",
-      "link": "https://techcrunch.com/2026/09/10/us-army-places-11m-bet-on-austin-based-gps-alternative-tern/",
-      "summary": "Tern has described its tech as \"Google Maps for the battlefield.\"",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T12:00:00.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2218,22 +2525,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-09-10T09:56:33.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c9db6eb800b89fea",
-      "title": "Atomic bomb survivor who became baseball legend - Harimoto dies age 86",
-      "link": "https://www.bbc.co.uk/sport/baseball/articles/ceq82n3jvqxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Korean-Japanese baseball legend Isao Harimoto, who survived the atomic bombing of Hiroshima to record the most hits in Japanese baseball history, has died at the age of 86 in Tokyo.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T09:50:40.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -2403,22 +2694,6 @@
       "region": "global"
     },
     {
-      "id": "cbcd3461a1eef7af",
-      "title": "Xbox swoops in to publish Hideo Kojima's 'Physint' after Sony dropped out",
-      "link": "https://www.engadget.com/2254521/xbox-publishes-hideo-kojima-physint-after-sony-withdrawal/",
-      "summary": "Kojima and Xbox are teaming up after Sony pulled out of 'Physint.'",
-      "body": "Kojima and Xbox are teaming up after Sony pulled out of &#39;Physint.&#39;",
-      "image": "https://www.engadget.com/img/gallery/xbox-swoops-in-to-publish-hideo-kojimas-physint-after-sony-dropped-out/l-intro-1789028295.jpg",
-      "pubDate": "2026-09-10T08:21:28.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "6d6676da9a7eb0bf",
       "title": "نسيبة: نتوقع توقيع 45 اتفاقية بين الإمارات وألمانيا",
       "link": "https://www.skynewsarabia.com/business/1891122-%D9%86%D8%B3%D9%8A%D8%A8%D8%A9-%D9%86%D8%AA%D9%88%D9%82%D8%B9-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-45-%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7",
@@ -2435,22 +2710,6 @@
       "region": "global"
     },
     {
-      "id": "e12705af28a0752d",
-      "title": "Barca's Rodri apologises over Valencia 'weak' comments",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyrx8gd71o?at_medium=RSS&at_campaign=rss",
-      "summary": "Barcelona midfielder Rodri says he has apologised to the entire Valencia squad after television cameras appeared to catch him describing the La Liga strugglers as \"very weak\".",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T07:27:34.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "52b5a993c88fc2ff",
       "title": "مصر تبني مركزاً ضخماً لبيانات الذكاء الاصطناعي بمليار دولار",
       "link": "https://www.skynewsarabia.com/business/1891109-%D9%85%D8%B5%D8%B1-%D8%AA%D8%A8%D9%86%D9%8A-%D9%85%D8%B1%D9%83%D8%B2%D8%A7-%D8%B6%D8%AE%D9%85%D8%A7-%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A8%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
@@ -2464,22 +2723,6 @@
       },
       "lang": "ar",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "f7b555dbacf799d7",
-      "title": "2028 Volvo XC40 First Look: Hello new tech, goodbye EV",
-      "link": "https://www.engadget.com/2252476/2028-volvo-xc40-first-look/",
-      "summary": "Volvo refreshed the XC40, but it's sadly doing away with the all-electric EX40 in the US.",
-      "body": "Volvo refreshed the XC40, but it&#39;s sadly doing away with the all-electric EX40 in the US.",
-      "image": "https://www.engadget.com/img/gallery/2028-volvo-xc40-first-look-hello-new-tech-goodbye-ev/l-intro-1788868210.jpg",
-      "pubDate": "2026-09-10T07:00:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2611,38 +2854,6 @@
       "region": "global"
     },
     {
-      "id": "9e602b63b5339d1c",
-      "title": "Google has removed the Pixel Tablet from its store",
-      "link": "https://www.engadget.com/2254487/google-store-removed-pixel-tablet/",
-      "summary": "Google has erased the listing for the Pixel Tablet from its e-commerce store, signaling that the device has been discontinued.",
-      "body": "Google has erased the listing for the Pixel Tablet from its e-commerce store, signaling that the device has been discontinued.",
-      "image": "https://www.engadget.com/img/gallery/google-store-removed-pixel-tablet/l-intro-1789049382.jpg",
-      "pubDate": "2026-09-10T06:11:07.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/rss.xml"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e83326d1a375c04e",
-      "title": "DeepSeek v4.1 Flash",
-      "link": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T06:11:05.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "27867c20a7974e7c",
       "title": "9to5Mac Daily: September 9, 2026 – iPhone 18 Pro and iPhone Duo are here",
       "link": "https://9to5mac.com/2026/09/09/september-9-2026-iphone-18-pro-and-iphone-duo-are-here/",
@@ -2755,38 +2966,6 @@
       "region": "global"
     },
     {
-      "id": "aa87e9b31baec9e1",
-      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-      "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-      "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-10T00:00:37.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "4ac61cfce4df0ae3",
-      "title": "Automattic’s board forces CEO Matt Mullenweg into leave of absence",
-      "link": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
-      "summary": "Mullenweg said in a company Slack message that it was against his will.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T23:14:29.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "2e11e9de7334da84",
       "title": "Apple launches iPhone Duo developer resources ahead of October release",
       "link": "https://9to5mac.com/2026/09/09/apple-launches-iphone-duo-developer-resources-ahead-of-october-release/",
@@ -2816,38 +2995,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f6a8f9c6e3dfdf46",
-      "title": "Arsenal are passing every test - and Odegaard is in form of his life",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8737p0977o?at_medium=RSS&at_campaign=rss",
-      "summary": "Another Arsenal win, another Martin Odegaard goal - the Gunners captain looks back to his best, writes Phil McNulty.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T22:35:51.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "710b0799cd065227",
-      "title": "OpenAI adds a prominent AI doomer to its board of directors",
-      "link": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
-      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T22:25:22.000Z",
-      "source": {
-        "name": "TechCrunch",
-        "homepage": "https://techcrunch.com"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -2979,70 +3126,6 @@
       "region": "global"
     },
     {
-      "id": "fa9c716096e235c5",
-      "title": "Marin's free-kick brilliance earns AEK victory over LASK",
-      "link": "https://www.bbc.co.uk/sport/football/videos/czez19xnd54o?at_medium=RSS&at_campaign=rss",
-      "summary": "Razvan Marin's stunning free-kick earns AEK Athens a 1-0 win over LASK, securing their first Champions League points of the season.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T21:00:42.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "a3fc7066b0aafde3",
-      "title": "Guirassy double and late own goal seals frantic Dortmund win",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9v9e23xgeeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Borussia Dortmund's Serhou Guirassy scores a second-half double to secure all three points against Villarreal, despite the forward netting a late own goal to set up a nervous finish at Signal Iduna Park.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T21:00:19.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3ab42962d786c963",
-      "title": "Betis twice come from behind to seal dramatic win over Lille",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cvgy3dm0r62o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Republic of Ireland's Troy Parrott scores the winning goal as Real Betis fought back from behind to mark their Champions League return with a thrilling victory at Lille.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T21:00:15.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3ab42962d786c963",
-      "title": "Betis twice come from behind to seal dramatic win over Lille",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cvgy3dm0r62o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Republic of Ireland's Troy Parrott scores the winning goal as Real Betis fought back from behind to mark their Champions League return with a thrilling victory at Lille.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T21:00:15.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "e1439ebd4ca78678",
       "title": "Raphinha on target again as Barcelona put five past Feyenoord",
       "link": "https://www.bbc.co.uk/sport/football/videos/cwyznkd209xo?at_medium=RSS&at_campaign=rss",
@@ -3050,6 +3133,22 @@
       "body": null,
       "image": null,
       "pubDate": "2026-09-09T20:59:56.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d969f05b5f193f96",
+      "title": "Mac Allister's brilliant finish puts Liverpool ahead",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c9qry93558po?at_medium=RSS&at_campaign=rss",
+      "summary": "The ball falls to Alexis Mac Allister on the edge of the box who hits it first time past Jan Oblak to give Liverpool the lead.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-09T20:59:20.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -3763,22 +3862,6 @@
       "region": "global"
     },
     {
-      "id": "4859f31325f28a82",
-      "title": "Show HN: DOOM in the kernel, or fibers in eBPF",
-      "link": "https://ayles.github.io/doom-in-kernel/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T17:31:39.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "355d7ad07ec66112",
       "title": "iPhone 18 Pro offers three times the cooling performance",
       "link": "https://9to5mac.com/2026/09/09/iphone-18-pro-offers-three-times-the-cooling-performance/",
@@ -3824,54 +3907,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "9e292017ac7a2886",
-      "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
-      "link": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
-      "summary": "\"We really do earnestly believe AI could kill all humans!\"",
-      "body": "When a prominent researcher quits a job at a frontier AI lab these days, it's often to pursue a new startup or protest a new business model . But AI researcher Jacob Coxon is using his departure from Anthropic to publicly warn that frontier AI companies are \"gambling with our lives\" with systems that they \"earnestly believe... could kill us all by the end of the decade.\" In a social media thread Tuesday night , Coxon said that this existential risk is inherent not so much in today's models but more in the impending prospect of \"self-improving superintelligence\" creating \"superhuman systems that can hack anything, revolutionize any field overnight, and acquire real power and resources.\" Others working on these models have either not \"internalized the civilizational stakes\" or believe that they need to \"speedrun\" the race to superintelligence to prevent an irresponsible party from getting there first, he wrote. Lest you think this is just one departing researcher expressing an unpopular opinion, Anthropic Alignment Science lead Evan Hubinger piped in on social media to say that \"Jacob is correct here—we really do earnestly believe AI could kill all humans! I personally think it is &…",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-504013302-1152x648-1788971374.jpg",
-      "pubDate": "2026-09-09T16:59:40.000Z",
-      "source": {
-        "name": "Ars Technica",
-        "homepage": "https://arstechnica.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "a55b919b622638e9",
-      "title": "Prime Video releases full trailer for Mike Flanagan's Carrie",
-      "link": "https://arstechnica.com/culture/2026/09/prime-video-releases-full-trailer-for-mike-flanagans-carrie/",
-      "summary": "\"All I ever wanted was to go to school.\"",
-      "body": "I'm on record expressing a certain amount of skepticism about Mike Flanagan's rebooted Carrie miniseries for Prime Video. We don’t need another disappointing remake , so what story is there left to tell—especially stretched out over six episodes? On the plus side, I'm a staunch fan of Flanagan's excellent Netflix horror fare, and he has a particular affinity for the works of Stephen King. He insists he has no intention of creating yet another straight adaptation of the novel. “ Carrie was written half a century ago,” Flanagan said at San Diego Comic-Con earlier this year. “ Carrie was adapted spectacularly by Brian De Palma. It is iconic. It is untouchable. There is no reason whatsoever to try to follow in those footsteps and to try to walk on that path. However, the world has changed quite a lot. I think a lot of people think they know what the show is. And the biggest thing I’m excited about today is just knowing what a big surprise our Carrie is going to be.” Read full article Comments",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/carrieTOP-1152x648-1788968889.jpg",
-      "pubDate": "2026-09-09T16:40:45.000Z",
-      "source": {
-        "name": "Ars Technica",
-        "homepage": "https://arstechnica.com/feed/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e261888c2be7c763",
-      "title": "'What a wicket to get!' - Debutant Razaullah removes Root in first over",
-      "link": "https://www.bbc.co.uk/sport/cricket/videos/c1l6e9296lmo?at_medium=RSS&at_campaign=rss",
-      "summary": "Pakistan debutant Razaullah Khan enjoys a perfect first over in Test cricket as he traps England captain Joe Root lbw for eight, as England fall to 39-3 in their first innings of the third and final Test at Edgbaston.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T15:30:45.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -4016,22 +4051,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "c7995a5243b8b0e4",
-      "title": "Pakistan in 'disarray' as England take seven wickets in first session",
-      "link": "https://www.bbc.co.uk/sport/cricket/videos/cevw2n88r8wo?at_medium=RSS&at_campaign=rss",
-      "summary": "England make stunning start to their third and final Test against Pakistan by taking seven wickets in the opening session on the first day at Edgbaston, leaving the tourists 100-7 at lunch.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-09T12:20:19.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -4611,6 +4630,22 @@
       "region": "global"
     },
     {
+      "id": "7794f88291548b4c",
+      "title": "What happens when a GPU writes memory",
+      "link": "https://blog.doubleword.ai/what-happens-when-a-gpu-writes-memory",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-08T19:46:59.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
       "id": "810cea928940360b",
       "title": "Report: Apple Watch shipments rise 14% in Q2 as overall market drops",
       "link": "https://9to5mac.com/2026/09/08/report-apple-watch-shipments-rise-14-in-q2-as-overall-market-drops/",
@@ -4739,8 +4774,8 @@
       "region": "global"
     },
     {
-      "id": "99d6f884ccef832c",
-      "title": ">10x More Efficient Pretraining",
+      "id": "11189a99bfe0d456",
+      "title": "Compute-efficient pretraining and scaling to trillion-parameter models",
       "link": "https://magic.dev/blog/pretraining",
       "summary": "Comments",
       "body": null,
@@ -4768,22 +4803,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "13f81de3c33bb162",
-      "title": "Python sets and dictionaries can have quadratic-time performance",
-      "link": "https://lemire.me/blog/2026/09/03/python-sets-and-dictionaries-can-have-quadratic-time-performance/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-08T16:17:51.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
       "region": "global"
     },
     {
@@ -4851,22 +4870,6 @@
       "region": "global"
     },
     {
-      "id": "7f79d933b4561932",
-      "title": "To write non-fiction, draw the trunk, then the rest of the tree",
-      "link": "https://devz.cl/posts/how-to-write/",
-      "summary": "Comments",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-08T14:25:04.000Z",
-      "source": {
-        "name": "Hacker News - Front",
-        "homepage": "https://news.ycombinator.com/rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "968910e195789d3a",
       "title": "watchOS 27 code reveals four changes for Apple Watch Ultra 4, more",
       "link": "https://9to5mac.com/2026/09/08/watchos-27-code-reveals-four-changes-for-apple-watch-ultra-4-more/",
@@ -4874,54 +4877,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-09-08T13:57:17.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "0b2387013957ba82",
-      "title": "Which of the upcoming new Apple products most excites you? [Poll]",
-      "link": "https://9to5mac.com/2026/09/08/which-of-the-upcoming-new-apple-products-most-excites-you-poll/",
-      "summary": "We’re one day away from Apple’s Surprise and Shine event, where we’re expecting to see anywhere from six to nine shiny new products. The iPhone Ultra foldable is set to be the headline news, but which of the expected announcements most excites you personally … ? more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-08T13:54:08.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "76560aeaa9cae2a9",
-      "title": "The Cadillac Lyriq EV is the first crack in GM’s CarPlay ban",
-      "link": "https://9to5mac.com/2026/09/08/the-cadillac-lyriq-ev-is-the-first-crack-in-gms-carplay-ban/",
-      "summary": "General Motors first announced that it was ditching CarPlay in all future EVs back in 2023, subsequently issuing a series of ridiculous justifications – and at one point even implying it’s what Steve Jobs would have done. But it seems there is now one exception. Since that U-turn was reportedly bas…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-08T13:21:31.000Z",
-      "source": {
-        "name": "9to5Mac",
-        "homepage": "https://9to5mac.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "d336642eec9a2a6c",
-      "title": "New Apple Watch models launch this week, here’s what’s coming",
-      "link": "https://9to5mac.com/2026/09/08/new-apple-watch-models-launch-this-week-heres-whats-coming/",
-      "summary": "This week brings Apple’s big iPhone launch event, where new Apple Watch models will be introduced too. Here’s what to expect from Apple Watch Ultra 4 and Apple Watch Series 12. more…",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-08T13:03:15.000Z",
       "source": {
         "name": "9to5Mac",
         "homepage": "https://9to5mac.com/feed/"
@@ -5235,13 +5190,29 @@
       "region": "global"
     },
     {
-      "id": "fa6835fbaef28b51",
-      "title": "Macbeth and His Problems",
-      "link": "https://porticoquarterly.com/essay/macbeth-and-his-problems/",
+      "id": "0f66e1bc9e35fc87",
+      "title": "Show HN: Vertumnus – printable posters of farmers' market produce seasonality",
+      "link": "https://vertumnus.fyi/",
       "summary": "Comments",
       "body": null,
       "image": null,
-      "pubDate": "2026-09-07T20:34:32.000Z",
+      "pubDate": "2026-09-08T01:08:10.000Z",
+      "source": {
+        "name": "Hacker News - Front",
+        "homepage": "https://news.ycombinator.com/rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "4ea5380aa30aac54",
+      "title": "Recursion into Madness",
+      "link": "https://blog.coredump.cx/p/recursion-into-madness",
+      "summary": "Comments",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-07T21:50:12.000Z",
       "source": {
         "name": "Hacker News - Front",
         "homepage": "https://news.ycombinator.com/rss"
@@ -5472,22 +5443,6 @@
       },
       "lang": "ar",
       "category": "markets",
-      "region": "global"
-    },
-    {
-      "id": "3566e631f75840e3",
-      "title": "Smaller ball for women makes it 'harder to do my job'",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwyz72pp22yo?at_medium=RSS&at_campaign=rss",
-      "summary": "A smaller ball is being trialled in women's international rugby union for September and October's WXV Global Series - and it is dividing opinion.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-07T06:30:17.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
