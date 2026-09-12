@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-12T13:48:46.297Z",
-    "total": 364,
+    "generated_at": "2026-09-12T16:33:12.772Z",
+    "total": 361,
     "processed_feeds": 24,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
@@ -22,6 +22,19 @@
         "notModified": false
       },
       {
+        "name": "Sky News Arabia Varieties",
+        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
+        "homepage": "https://www.skynewsarabia.com/varieties",
+        "lang": "ar",
+        "region": "gulf",
+        "cats": [
+          "lifestyle"
+        ],
+        "taken": 100,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "homepage": "https://www.bbc.com/sport",
@@ -30,7 +43,33 @@
         "cats": [
           "sports"
         ],
-        "taken": 66,
+        "taken": 63,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Masrawy Sports",
+        "url": "https://www.masrawy.com/rss",
+        "homepage": "https://www.masrawy.com/channel/sports",
+        "lang": "ar",
+        "region": "egypt",
+        "cats": [
+          "sports"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 21\nColumn: 135\nChar: /",
+        "notModified": false
+      },
+      {
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
+        "lang": "ar",
+        "region": "mena",
+        "cats": [
+          "sports"
+        ],
+        "taken": 20,
         "error": null,
         "notModified": false
       },
@@ -48,16 +87,29 @@
         "notModified": false
       },
       {
-        "name": "Sky News Arabia Varieties",
-        "url": "https://www.skynewsarabia.com/rss/varieties.xml",
-        "homepage": "https://www.skynewsarabia.com/varieties",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "gulf",
+        "region": "egypt",
         "cats": [
-          "lifestyle"
+          "sports"
         ],
-        "taken": 100,
-        "error": null,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "Youm7 — منوعات",
+        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
+        "lang": "ar",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "RangeError: Invalid time value",
         "notModified": false
       },
       {
@@ -70,32 +122,6 @@
           "general"
         ],
         "taken": 43,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
-        "lang": "ar",
-        "region": "mena",
-        "cats": [
-          "sports"
-        ],
-        "taken": 20,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Live Science",
-        "url": "https://www.livescience.com/feeds/all",
-        "homepage": "https://www.livescience.com/feeds/all",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 48,
         "error": null,
         "notModified": false
       },
@@ -113,45 +139,6 @@
         "notModified": false
       },
       {
-        "name": "Khaleej Times - Lifestyle",
-        "url": "https://www.khaleejtimes.com/rss/lifestyle",
-        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 58\nColumn: 17\nChar: i",
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Nature — Latest",
-        "url": "https://www.nature.com/nature.rss",
-        "homepage": "https://www.nature.com/nature.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
         "name": "Al Arabiya — تكنولوجيا",
         "url": "https://www.alarabiya.net/.mrss/ar/technology.xml",
         "homepage": "https://www.alarabiya.net/.mrss/ar/technology.xml",
@@ -165,22 +152,35 @@
         "notModified": false
       },
       {
-        "name": "Youm7 — منوعات",
-        "url": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "homepage": "https://www.youm7.com/rss/SectionRss?SectionID=89",
-        "lang": "ar",
+        "name": "National Geographic — Environment",
+        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
         "taken": 0,
-        "error": "RangeError: Invalid time value",
+        "error": "Error: HTTP 404",
         "notModified": false
       },
       {
-        "name": "Medical News Today",
-        "url": "https://www.medicalnewstoday.com/rss",
-        "homepage": "https://www.medicalnewstoday.com/rss",
+        "name": "Live Science",
+        "url": "https://www.livescience.com/feeds/all",
+        "homepage": "https://www.livescience.com/feeds/all",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 48,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Gulf News — Lifestyle",
+        "url": "https://gulfnews.com/lifestyle/rss",
+        "homepage": "https://gulfnews.com/lifestyle/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -204,45 +204,6 @@
         "notModified": false
       },
       {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "homepage": "https://www.technologyreview.com/feed/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 304",
-        "notModified": false
-      },
-      {
-        "name": "Gulf News — Lifestyle",
-        "url": "https://gulfnews.com/lifestyle/rss",
-        "homepage": "https://gulfnews.com/lifestyle/rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
-        "notModified": false
-      },
-      {
-        "name": "Masrawy Sports",
-        "url": "https://www.masrawy.com/rss",
-        "homepage": "https://www.masrawy.com/channel/sports",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
-        ],
-        "taken": 0,
-        "error": "Error: Attribute without value\nLine: 21\nColumn: 135\nChar: /",
-        "notModified": false
-      },
-      {
         "name": "Masrawy — فن",
         "url": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
         "homepage": "https://www.masrawy.com/rss/feed/19/%D9%81%D9%86%D9%88%D9%86",
@@ -256,9 +217,9 @@
         "notModified": false
       },
       {
-        "name": "NOAA Climate.gov — News",
-        "url": "https://www.climate.gov/feeds/all/rss.xml",
-        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
+        "name": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss",
+        "homepage": "https://www.medicalnewstoday.com/rss",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -282,6 +243,19 @@
         "notModified": false
       },
       {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "homepage": "https://www.technologyreview.com/feed/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
+        "notModified": false
+      },
+      {
         "name": "ArabiaWeather — مقالات",
         "url": "https://www.arabiaweather.com/en/rss",
         "homepage": "https://www.arabiaweather.com/en/rss",
@@ -295,9 +269,9 @@
         "notModified": false
       },
       {
-        "name": "National Geographic — Environment",
-        "url": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
-        "homepage": "https://www.nationalgeographic.com/content/ngdotcom/en_us/environment/_jcr_content/feed.rss",
+        "name": "NOAA Climate.gov — News",
+        "url": "https://www.climate.gov/feeds/all/rss.xml",
+        "homepage": "https://www.climate.gov/feeds/all/rss.xml",
         "lang": "en",
         "region": "global",
         "cats": [
@@ -305,6 +279,32 @@
         ],
         "taken": 0,
         "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Khaleej Times - Lifestyle",
+        "url": "https://www.khaleejtimes.com/rss/lifestyle",
+        "homepage": "https://www.khaleejtimes.com/rss/lifestyle",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: Attribute without value\nLine: 58\nColumn: 17\nChar: i",
+        "notModified": false
+      },
+      {
+        "name": "Nature — Latest",
+        "url": "https://www.nature.com/nature.rss",
+        "homepage": "https://www.nature.com/nature.rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 304",
         "notModified": false
       },
       {
@@ -324,6 +324,326 @@
   },
   "items": [
     {
+      "id": "71a490baa349127b",
+      "title": "Osborne makes history as first female jockey to win British Classic",
+      "link": "https://www.bbc.co.uk/sport/horse-racing/articles/clykz8n7zd7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Saffie Osborne becomes the first female jockey to win a British Classic Flat race, claiming victory in the St Leger on Highwayman.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T16:15:11.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "2c82adda622ba6f7",
+      "title": "Snickers’ Newest Flavor Is  Banana Bread In Candy Bar Form",
+      "link": "https://www.delish.com/food-news/a73698901/snickers-banana-nut-bread-candy-bar-walgreens/",
+      "summary": "This one could be ripe for the taking.",
+      "body": null,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/56a3b31f-76cf-4972-8c94-3cced16d7c91.jpeg",
+      "pubDate": "2026-09-12T16:06:32.000Z",
+      "source": {
+        "name": "Delish",
+        "homepage": "https://www.delish.com/rss/all.xml/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "ef497242b47fbae8",
+      "title": "England's second-half response crushes Australia",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq8je0z88nzo?at_medium=RSS&at_campaign=rss",
+      "summary": "England produce dominant second-half performance to comfortably defeat Australia at CorpAcq Stadium in the opening game of the new WXV Global Series.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T16:00:03.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "aacca4c16ba16ade",
+      "title": "Is a free VPN worth using? Here's why it could be risky",
+      "link": "https://www.engadget.com/2252776/is-free-vpn-worth-using-risks-explained/",
+      "summary": "A free VPN might seem like a great deal, but they're not all created equal. While you can expect some compromises, you shouldn't use any old service.",
+      "body": "A free VPN might seem like a great deal, but they&#39;re not all created equal. While you can expect some compromises, you shouldn&#39;t use any old service.",
+      "image": "https://www.engadget.com/img/gallery/is-a-free-vpn-worth-using-heres-why-it-could-be-risky/l-intro-1787937397.jpg",
+      "pubDate": "2026-09-12T16:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "33eb915fb8988d71",
+      "title": "England chasing the rainbow with more questions than answers",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/cj64nxkx22jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Are England a better team in September than in June? BBC cricket correspondent Stephan Shemilt discusses the positives and negatives of the Test summer and what the next period may bring.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T15:59:44.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c07256a3bc6c9f1a",
+      "title": "Norris takes Madrid pole with 'gorgeous' lap",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/c8r60g7nrn6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Lando Norris takes a superb pole position for McLaren at the Spanish Grand Prix, beating Mercedes' Kimi Antonelli and Red Bull's Max Verstappen.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T15:58:27.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a87176e6f7fd81d2",
+      "title": "How to know it's time to replace your EV battery",
+      "link": "https://www.engadget.com/2252773/how-to-know-time-replace-ev-battery/",
+      "summary": "EV batteries usually fade gradually, so the real warning signs are often changes in behavior rather than age alone.",
+      "body": "EV batteries usually fade gradually, so the real warning signs are often changes in behavior rather than age alone.",
+      "image": "https://www.engadget.com/img/gallery/how-to-know-its-time-to-replace-your-ev-battery/l-intro-1787858122.jpg",
+      "pubDate": "2026-09-12T15:30:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "331f5bffc958847a",
+      "title": "إيقاف شخصين بابن أحمد للاشتباه في سرقة وإحراق مركبات",
+      "link": "https://assabah.ma/949213.html",
+      "summary": "أوقفت عناصر المصلحة الولائية للشرطة القضائية بسطات، مساء أمس الجمعة، شخصين، أحدهما من ذوي السوابق القضائية، للاشتباه في تورطهما في قضية تتعلق بالسرقة الموصوفة وإضرام النار عمدا في مركبات متوقفة بالشارع العام بمدينة ابن أحمد. وحسب ما أفاد به مصدر أمني، جاء إيقاف المشتبه فيهما على خلفيةأكمل القراءة »…",
+      "body": "أوقفت عناصر المصلحة الولائية للشرطة القضائية بسطات، مساء أمس الجمعة، شخصين، أحدهما من ذوي السوابق القضائية، للاشتباه في تورطهما في قضية تتعلق بالسرقة الموصوفة وإضرام النار عمدا في مركبات متوقفة بالشارع العام بمدينة ابن أحمد. وحسب ما أفاد به مصدر أمني، جاء إيقاف المشتبه فيهما على خلفية أكمل القراءة &raquo; المقالة إيقاف شخصين بابن أحمد للاشتباه في سرقة وإحراق مركبات fمنشورة على جريدة الصباح .",
+      "image": null,
+      "pubDate": "2026-09-12T15:11:26.000Z",
+      "source": {
+        "name": "Assabah Sports (MA)",
+        "homepage": "https://www.assabah.ma/feed/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "be654863df1b7c3e",
+      "title": "England in better place than start of summer - Root",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/c0klpz5k383o?at_medium=RSS&at_campaign=rss",
+      "summary": "Captain Joe Root says England are in a better place at the end of their tumultuous summer and is impressed by how they have handled the chaos.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T15:04:42.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "7f6526401f14dc32",
+      "title": "Are you using the right Ethernet port on your router? Here's how to know",
+      "link": "https://www.engadget.com/2252768/using-right-ethernet-port-on-router/",
+      "summary": "The various Ethernet ports on your router can serve different purposes, depending on the model. Thankfully, it's not hard to discern what they're for.",
+      "body": "The various Ethernet ports on your router can serve different purposes, depending on the model. Thankfully, it&#39;s not hard to discern what they&#39;re for.",
+      "image": "https://www.engadget.com/img/gallery/are-you-using-the-right-ethernet-port-on-your-router-heres-how-to-know/l-intro-1787853916.jpg",
+      "pubDate": "2026-09-12T15:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "219f7033288056ec",
+      "title": "Ingebrigtsen withdraws from 1500m showdown with Kerr",
+      "link": "https://www.bbc.co.uk/sport/athletics/articles/clykzvnv686o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jakob Ingebrigtsen will not contest the men's 1500m final at the World Athletics Ultimate Championship, putting his reunion with rival Josh Kerr on hold.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T14:49:18.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "5957c2bd9ab375ed",
+      "title": "How to properly clean and sanitize your secondhand tech finds",
+      "link": "https://www.engadget.com/2252766/how-to-clean-sanitize-secondhand-electronics-tech/",
+      "summary": "Cleaning secondhand gadgets is essential, since you never know how dirty something is. Thankfully, it's not hard to polish them up before reuse.",
+      "body": "Cleaning secondhand gadgets is essential, since you never know how dirty something is. Thankfully, it&#39;s not hard to polish them up before reuse.",
+      "image": "https://www.engadget.com/img/gallery/how-to-properly-clean-and-sanitize-your-secondhand-tech-finds/l-intro-1787851067.jpg",
+      "pubDate": "2026-09-12T14:30:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "b870032e55ce8921",
+      "title": "بالفيديو.. مارتينيلي يفتح سجلاته مع الهلال بهدف غاب 7 شهور",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D8%A7%D8%B1%D8%AA%D9%8A%D9%86%D9%8A%D9%84%D9%8A-%D9%8A%D9%81%D8%AA%D8%AD-%D8%B3%D8%AC%D9%84%D8%A7%D8%AA%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A8%D9%87%D8%AF%D9%81-%D8%BA%D8%A7%D8%A8-7-%D8%B4%D9%87%D9%88%D8%B1/blt880249c297187c9a?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "النجم البرازيلي يتألق مع \"الزعيم\"",
+      "body": "النجم البرازيلي يتألق مع \"الزعيم\" افتتح البرازيلي جابرييل مارتينيلي، نجم الهلال الجديد، سجلاته مع الفريق السعودي بهدف غاب 7 أشهر كاملة. وحل الهلال ضيفًا على التعاون، اليوم السبت ، على ملعب الأخير ببريدة، في الجولة السابعة من دوري روشن السعودي. وفي الدقيقة 18 من عمر المباراة، سجل مارتينيلي الهدف الثاني للهلال، بعدما استغل كرة مرتدة من الدفاع داخل منطقة الجزاء، ليسددها ببراعة داخل المرمى. الهدف كان الأول لمارتينيلي مع نادي الهلال، وذلك في مشاركته الثالثة معه، منذ الانتقال إلى صفوفه خلال فترة الانتقالات الصيفية الماضية، قادمًا من نادي أرسنال. ولم تكن أهمية الهدف فقط في كونه الأول للمهاجم البرازيلي مع \"الزعيم\"، ولكنه أيضًا كان الأول له على مستوى الأندية منذ 7 شهور كاملة. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وسجل مارتينيلي آخر أهدافه مع أرسنال يوم 15 فبراير/شباط الماضي، خلال الفوز على ويجان أتلتيك 4-0، في الدور الرابع من بطولة كأس الاتحاد الإنجليزي. وخلال تلك الفترة، لم يسجل جابرييل سوى هدف وحيد، كان مع منتخب البرازيل، خلال الفوز على اليابان بنتيجة 2-1، في دور الـ32 من بطولة كأس العالم 2026 في أمريكا وكندا والمكسيك. أما على مستوى بطولة الدوري، فقد كان هذا الهدف هو الأول للنجم البرازيلي منذ نحو عام تقريبًا، وتح…",
+      "image": null,
+      "pubDate": "2026-09-12T14:25:21.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "c6d643b3fff6d30a",
+      "title": "حمزة عبد الكريم يشعل \"شرارة\" برشلونة ويدفعه لتحرك رباعي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D9%8A%D8%B4%D8%B9%D9%84-%D8%B4%D8%B1%D8%A7%D8%B1%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D9%8A%D8%AF%D9%81%D8%B9%D9%87-%D9%84%D8%AA%D8%AD%D8%B1%D9%83-%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A/blteb72f436b4c12bd7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ما القصة؟",
+      "body": "ما القصة؟ يستعد برشلونة لإجراء تعديلات على عقود عدد من لاعبيه الشباب، في خطوة تستهدف تأمين مستقبل المواهب التي اكتسبت أهمية متزايدة داخل الفريق الأول تحت قيادة المدير الفني هانزي فليك، عقب تمديد عقد المصري حمزة عبد الكريم حتى عام 2030. وذكرت صحيفة \"موندو ديبورتيفو\" الإسبانية، أن إدارة برشلونة بدأت التحرك لتعديل عقود مارك بيرنال، وجيرارد مارتين، وتشافي إسبارت، وبريان فارينياس، بما يتناسب مع أدوارهم الجديدة وارتفاع قيمتهم داخل الفريق. وبحسب الصحيفة، بدأت المفاوضات بالفعل مع ممثلي مارك بيرنال، البالغ من العمر 19 عامًا، رغم ارتباطه ببرشلونة حتى 2029، ويتضمن عقده الحالي شرطًا جزائيًا تبلغ قيمته500 &nbsp;مليون يورو. كما يسعى برشلونة إلى تحسين عقد جيرارد مارتين، الذي يمتد حتى 2028، من خلال تمديده لعدة سنوات، إلى جانب زيادة راتبه ورفع قيمة الشرط الجزائي. وتشمل خطة النادي أيضًا تعديل عقدي تشافي إسبارت، وبريان فارينياس، بعدما فرض اللاعبان نفسيهما في حسابات الفريق الأول خلال الموسم الجاري. ونجح إسبارت، البالغ 19 عامًا، في الحصول على مساحة أكبر مع الفريق، رغم استمرار حصوله على راتب قريب من راتب لاعبي الفريق الرديف. أما بريان فارينياس، البالغ 20 عامًا، فقد قرر فليك الإبقاء عليه ضمن الفريق الأول عقب إصابة فرينكي دي يونج، ما عزز مكانته داخل المجموعة، وسط توقعات بأن يتم تمديد عقده مع برشلونة حتى …",
+      "image": null,
+      "pubDate": "2026-09-12T14:17:39.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "ab1058babf980cff",
+      "title": "استفاقة أربيلوا.. ليفربول يسقط في فخ فولهام",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D9%82%D8%A9-%D8%A7%D9%94%D8%B1%D8%A8%D9%8A%D9%84%D9%88%D8%A7-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D8%B3%D9%82%D8%B7-%D9%81%D9%8A-%D9%81%D8%AE-%D9%81%D9%88%D9%84%D9%87%D8%A7%D9%85/blt177ce57ae03c9243?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تعادل ليفربول، على أرضه ووسط جماهيره، على ملعب أنفيلد، أمام فولهام، دون أهداف، عصر السبت، في الجولة الرابعة من عمر الدوري الإنجليزي الممتاز.",
+      "body": "تعادل ليفربول، على أرضه ووسط جماهيره، على ملعب أنفيلد، أمام فولهام، دون أهداف، عصر السبت، في الجولة الرابعة من عمر الدوري الإنجليزي الممتاز. ولم ينجح لاعبو ليفربول وفولهام، في هز الشباك، على مدار 90 دقيقة، لتنتهي المباراة على إيقاع التعادل السلبي. وارتفع رصيد ليفربول إلى 6 نقاط في المركز السادس، فيما بدأ فولهام، عملية الاستفاقة مع مدربه ألفارو أربيلوا، بحصد نقطته الأولى، ليستقر في المرتبة 17 بعدما خسر أول 3 جولات. واستعرضت شبكة ليفربول إيكو ، أبرز لمحات اللقاء، حيث كان ألكسندر إيزاك، نجم ليفربول، قريبًا من افتتاح التسجيل، بعد تمريرة باركولا، لكنه سدد الكرة بجوار المرمى. وحاول ليفربول، السيطرة على الكرة بشكل كبير في الدقائق الأولى، في محاولة لفرض سيطرته على المباراة. وكاد فولهام أن يباغت ليفربول، بعد هفوة دفاعية، حيث فقد ريان جرافنبيرخ، الكرة، داخل منطقة الجزاء، لكن جاكيه أبعد الكرة من على خط المرمى. وفي الدقيقة 22، منعت العارضة، ليفربول، من افتتاح التسجيل، بعدما ارتقى مونيوز بشكل جيد عند القائم القريب لمقابلة ركلة سوبوسلاي الركنية، لكن رأسيته ارتطمت بالعارضة. وحاول باركولا، خطف هدف التقدم للريدز، قبل نهاية الشوط الأول، بعدما سدد الكرة على الطائر، إثر عرضية سوبوسلاي، لكن كاستانيي لاعب فولهام، أبعد الكرة بنجاح.&nbsp; وتحصل ليفربول، على ركلة حرة في موقع مميز، ليسدد سوبوسلاي، كرة قوية…",
+      "image": null,
+      "pubDate": "2026-09-12T14:15:15.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "4dbb3abbf2436317",
+      "title": "فيديو: تشيلسي يواصل نزيف النقاط بسقوط صادم أمام هال سيتي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D9%86%D8%B2%D9%8A%D9%81-%D8%A7%D9%84%D9%86%D9%82%D8%A7%D8%B7-%D8%A8%D8%B3%D9%82%D9%88%D8%B7-%D8%B5%D8%A7%D8%AF%D9%85-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D9%87%D8%A7%D9%84-%D8%B3%D9%8A%D8%AA%D9%8A/blt48011143f165a0c0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ضربة جديدة تصعق البلوز",
+      "body": "ضربة جديدة تصعق البلوز واصل تشيلسي مسلسل نزيف النقاط في الدوري الإنجليزي الممتاز، بعدما اكتفى بتعادل مثير أمام هال سيتي بنتيجة 2-2، في المباراة التي جمعت الفريقين مساء اليوم السبت، ضمن منافسات الجولة الرابعة من عمر المسابقة. وبدأ تشيلسي المباراة بالطريقة التي كان يتمناها، بعدما نجح مورجان روجرز في وضع الفريق اللندني بالمقدمة مبكرًا، إلا أن الأفضلية لم تستمر طويلًا، وتحولت المباراة سريعًا إلى اختبار صعب لأصحاب الأرض. &nbsp; A clinical counter-attack and Morgan Rogers opens the scoring at Stamford Bridge 🔵 #CFC pic.twitter.com/LJ3byRgovh &mdash; beIN SPORTS (@beINSPORTS_EN) September 12, 2026 اقرأ أيضًا.. بالفيديو: محمد بلومي يفرض الصمت بثنائية في عرين تشيلسي ولم يحتج هال سيتي إلى الكثير من الوقت للعودة إلى المواجهة، حيث استغل الجزائري محمد بلومي أخطاء دفاع تشيلسي بصورة مثالية، وقلب النتيجة رأسًا على عقب بتسجيل هدفين متتاليين خلال دقائق قليلة، ليضع فريقه في المقدمة وسط صدمة كبيرة لأصحاب الأرض. وجاء هدفا بلومي في الدقيقتين 28 و34، بعدما ظهر الارتباك واضحًا في الخط الخلفي لتشيلسي، ليقدم اللاعب الجزائري واحدة من أبرز لحظاته في المباراة ويمنح هال سيتي فرصة تاريخية للخروج بنتيجة إيجابية أمام منافس بحجم الفريق اللندني. &nbsp; The Tigers strike back 🐯 Mohamed Belloumi hammers in the @Hul…",
+      "image": null,
+      "pubDate": "2026-09-12T14:06:02.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f6c3938c5a01e5bc",
+      "title": "How to get started with Meta's new AI agent, Muse",
+      "link": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+      "summary": "After a few days of testing Meta's AI agent Muse. I can confirm that there is very little learning curve to get started.",
+      "body": "After a few days of testing Meta&#39;s AI agent Muse. I can confirm that there is very little learning curve to get started.",
+      "image": "https://www.engadget.com/img/gallery/how-to-get-started-with-metas-new-ai-agent-muse/l-intro-1789165341.jpg",
+      "pubDate": "2026-09-12T14:00:00.000Z",
+      "source": {
+        "name": "Engadget",
+        "homepage": "https://www.engadget.com/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "e833fb8df97671de",
+      "title": "Scientists got diamond's melting point wrong by more than 1,000 degrees, crushing new laser experiment reveals",
+      "link": "https://www.livescience.com/physics-mathematics/scientists-got-diamonds-melting-point-wrong-by-more-than-1-000-degrees-crushing-new-laser-experiment-reveals",
+      "summary": "Scientists blasted diamonds with lasers to get the best measurement of the mineral's melting point yet. The new, more accurate numbers could help improve fusion experiments and studies of giant planets.",
+      "body": "Scientists melted diamonds with a powerful laser to take some of the most precise measurements of the mineral's elusive melting point — and found that previous experiments were off by more than 1,300 degrees Fahrenheit (700 degrees Celsius). It's odd to think of diamond, the hardest natural material on Earth , melting — but melt it does when blasted with extremely powerful lasers under the right conditions. Understanding how diamond responds to shock waves from lasers is an important part of developing nuclear fusion , the process that powers stars. Nuclear fusion is also a potential energy source for the future, so researchers have put a lot of effort into developing models that describe and predict how diamond behaves. However, diamond is weird. Although the experimental data and theoretical models match up pretty well most of the time, there have been some strange discrepancies scientists haven't been able to explain. The biggest one is the 2,240 F (1,244 C) ‪—‬ roughly 20% ‪—‬ difference between previous experimental data and model-predicted melting temperatures of diamond. There's also been some debate about whether diamond reorganizes its atoms into a different kind of solid…",
+      "image": "https://cdn.mos.cms.futurecdn.net/qhtQyJ2qmM5YV8Bi9ZEjv9-1280-80.jpg",
+      "pubDate": "2026-09-12T14:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
+      "region": "global"
+    },
+    {
+      "id": "d79d08609a9fa16d",
+      "title": "لاعب وسط برتبة هداف.. التعاون يمنح سافيتش رقمًا تاريخيًا في روشن",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%B9%D8%A8-%D9%88%D8%B3%D8%B7-%D8%A8%D8%B1%D8%AA%D8%A8%D8%A9-%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%8A%D9%85%D9%86%D8%AD-%D8%B3%D8%A7%D9%81%D9%8A%D8%AA%D8%B4-%D8%B1%D9%82%D9%85%D9%8B%D8%A7-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D9%8B%D8%A7-%D9%81%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/blt53c7d6413b50f863?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "لاعب الوسط الصربي يدخل التاريخ",
+      "body": "لاعب الوسط الصربي يدخل التاريخ منح نادي التعاون، لاعب الوسط الصربي سيرجي ميلينكوفيتش سافيتش، نجم الهلال، رقمًا تاريخيًا في دوري روشن السعودي. ويحل الهلال ضيفًا على التعاون، اليوم السبت ، على ملعب الأخير ببريدة، في الجولة السابعة من دوري روشن السعودي. وشهدت التشكيلة الأساسية لفريق الهلال مشاركة سافيتش في وسط الملعب كالمعتاد، بجوار البرتغالي روبين نيفيز والسعودي محمد كنو. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! مشاركة سافيتش منحته رقمًا تاريخيًا، حيث باتت هذه المباراة هي رقم 100 له في دوري روشن السعودي، منذ وصوله إلى الهلال في صيف 2023، قادمًا من لاتسيو الإيطالي. ومنذ ذلك الحين، شارك لاعب الوسط الصربي في 99 مباراة قبل مواجهة التعاون، سجل فيها 35 هدفًا، بمعدل يزيد عن هدف في كل 3 مباريات، وهو معدل مرتفع للغاية بالنسبة للاعب وسط. ولم يكتفِ صاحب الـ31 عامًا بأدواره التهديفية المميزة، لكنه نجح أيضًا في صناعة 27 هدفًا، بمعدل يزيد عن تمريرة حاسمة في كل 4 مباريات. يُذكر أن سافيتش هو هداف الهلال في الموسم الحالي من دوري روشن السعودي، رغم أنه لاعب وسط، حيث سجل 4 أهداف في المباريات الستة الماضية، بينما صنع هدفًا آخر.",
+      "image": null,
+      "pubDate": "2026-09-12T13:45:51.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "9edc007c4084ecb7",
+      "title": "بعد 4 سنوات.. إينياكي ويليامز يفاجئ غانا بقرار صادم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-4-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%95%D9%8A%D9%86%D9%8A%D8%A7%D9%83%D9%8A-%D9%88%D9%8A%D9%84%D9%8A%D8%A7%D9%85%D8%B2-%D9%8A%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D8%BA%D8%A7%D9%86%D8%A7-%D8%A8%D9%82%D8%B1%D8%A7%D8%B1-%D8%B5%D8%A7%D8%AF%D9%85/bltd9d5fb610138502e?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ما القصة؟",
+      "body": "ما القصة؟ أعلن إيناكي ويليامز، مهاجم وقائد أتلتيك بلباو، اعتزاله اللعب الدولي مع منتخب غانا، منهيا مسيرة استمرت منذ عام 2022، في بيان نشره عبر حسابه على موقع \"إنستجرام\"، أكد خلاله مغادرته المنتخب وهو يشعر بالفخر والرضا عما قدمه بقميص \"النجوم السوداء\". وأوضح ويليامز في بيانه، الذي أرفقه بمجموعة من الصور بقميص المنتخب الغاني، أن قرار الاعتزال جاء بعدما شعر بأن الوقت حان لإنهاء مشواره الدولي، قائلاً: \"أغادر سعيدًا وفخورًا، ومطمئنًا إلى أنني بذلت قصارى جهدي في كل مرة ارتديت فيها هذا القميص\". كان مهاجم أتلتيك بلباو قد سبق له الظهور مع المنتخب الإسباني عام 2016، قبل أن يعلن في يوليو 2022 اختياره تمثيل غانا، التي تنحدر منها عائلته، وتلقى استدعاءه الأول في سبتمبر من العام نفسه لخوض مباراتين وديتين أمام البرازيل ونيكاراغوا. وسجل ويليامز ظهوره الأول بقميص غانا يوم 23 سبتمبر 2022 أمام البرازيل، في المباراة التي أقيمت بمدينة لو هافر الفرنسية وانتهت بفوز \"السيليساو\" بثلاثة أهداف دون رد، بعدما دخل بديلاً لكمال الدين سليمانا مع بداية الشوط الثاني. واختتم اللاعب البالغ من العمر 32 عامًا مشواره الدولي مع غانا برصيد 28 مباراة وهدفين، كما شارك في نسختين من كأس العالم، إلى جانب ظهوره في نسخة واحدة من كأس الأمم الأفريقية. وأكد ويليامز أن تجربته مع غانا منحته ما هو أبعد من كرة القدم، قائلاً: \"لقد منحتن…",
+      "image": null,
+      "pubDate": "2026-09-12T13:36:01.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "728d0d2e64919ea1",
       "title": "أمن بني ملال يوضح حقيقة فيديو شجار بين أفراد حملة انتخابية",
       "link": "https://assabah.ma/949209.html",
@@ -340,6 +660,22 @@
       "region": "global"
     },
     {
+      "id": "18e2253ca172fcc4",
+      "title": "كابيلو يعترف: لن نرى ريال مدريد بهذه الصورة مرة أخرى",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%A7%D8%A8%D9%8A%D9%84%D9%88-%D9%8A%D8%B9%D8%AA%D8%B1%D9%81-%D9%84%D9%86-%D9%86%D8%B1%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%A8%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D8%B1%D8%A9-%D8%A7%D9%94%D8%AE%D8%B1%D9%89/blt1cc2a299182e58c8?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "يرى فابيو كابيلو، مدرب ريال مدريد السابق، أن الملكي كان سيقدم مستوى أعلى بكثير أمام إنتر ميلان، في دوري أبطال أوروبا، لو لم يكن يعاني من الغيابات في خط الوسط.",
+      "body": "يرى فابيو كابيلو، مدرب ريال مدريد السابق، أن الملكي كان سيقدم مستوى أعلى بكثير أمام إنتر ميلان، في دوري أبطال أوروبا، لو لم يكن يعاني من الغيابات في خط الوسط. وتعرض فريق المدرب جوزيه مورينيو، لانتقادات كثيرة، خلال الأيام الماضية، بسبب طريقة خوض مباراة إنتر ميلان في الجولة الأولى من دوري أبطال أوروبا، ومع ذلك، يبدو أن البعض لم يأخذ في الاعتبار، جميع الغيابات التي ضربت خط وسط الفريق. وكان إدواردو كامافينجا وبرناردو سيلفا وأردا جولر موقوفين، بينما لم يكن تشواميني قد أصبح جاهزًا للمشاركة. ونشرت شبكة ديفينسا سنترال ، ما قاله فابيو كابيلو في تحليله لأداء ريال مدريد، حيث قال \"أثبت إنتر ميلان، أنه فريق يحظى باحترام كبير، لكنه قادر على تقديم المزيد. يحتاجون إلى الاقتناع بأنهم أقوى. كانت المباراة جيدة، ولعبوا بشخصية، لكننا لن نرى ريال مدريد بهذه الصورة مرة أخرى\". وتابع \"كان الفريق الملكي عمليًا من دون خط وسط. أنا أعرف ريال مدريد، واللعب في ملعب سانتياجو برنابيو قد يكون أمرًا مستحيلًا. لذلك أعتقد أنهم غادروا الملعب وهم مقتنعون بأن بإمكانهم تقديم المزيد وأن يصبحوا أكثر تنافسية، سواء في دوري أبطال أوروبا أو الدوري الإسباني\". وقد يمر ريال مدريد بفترات سيئة ولا يقدم كرة قدم جيدة، لكنه يظل دائمًا فريقًا قادرًا على المنافسة في الدوري الإسباني والمسابقات المحلية وأوروبا. وتفاجأ إنتر ميلان كثيرًا في…",
+      "image": null,
+      "pubDate": "2026-09-12T13:30:33.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "5c1591e5a0f9c28a",
       "title": "How Google Maps knows when a business is packed",
       "link": "https://www.engadget.com/2252763/how-google-maps-knows-businesses-packed/",
@@ -354,6 +690,102 @@
       "lang": "en",
       "category": "technology",
       "region": "global"
+    },
+    {
+      "id": "eb5877e96e002ed8",
+      "title": "بالفيديو: محمد بلومي يفرض الصمت بثنائية في عرين تشيلسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%84%D9%88%D9%85%D9%8A-%D9%8A%D9%81%D8%B1%D8%B6-%D8%A7%D9%84%D8%B5%D9%85%D8%AA-%D8%A8%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B9%D8%B1%D9%8A%D9%86-%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A/blta8ba743184ff5c66?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بلومي أحرز ثنائية في 6 دقائق",
+      "body": "بلومي أحرز ثنائية في 6 دقائق سجل الجزائري محمد بلومي هدفين متتاليين ليقود هال سيتي إلى التقدم (2-1) على مضيفه تشيلسي، اليوم السبت على ملعب ستامفورد بريدج، ضمن منافسات الدوري الإنجليزي الممتاز. وتقدم تشيلسي مبكرًا عن طريق مورجان روجرز، في الدقيقة 7، قبل أن يستغل بلومي خطأ دفاعيًا ليحرز التعادل في الدقيقة 28. Mohamed Belloumi does it again 🇩🇿👏 Incredible turnaround from @HullCity at Stamford Bridge! #HCAFC pic.twitter.com/dluzbIjm2C — beIN SPORTS (@beINSPORTS_EN) September 12, 2026 اقرأ أيضًا يامال يلامس رقم مبابي التاريخي في دوري أبطال أوروبا.. وهالاند ثالثًا البطاقة السوداء تظهر لأول مرة في أوروبا.. ما دورها؟ وعاد النجم الجزائري، صاحب الـ24 عامًا، بعد 6 دقائق فقط، ليسجل هدفه الثاني ويمنح هال سيتي التقدم على البلوز، من تسديدة قوية اصطدمت بأحد لاعبي تشيلسي قبل أن تعانق الشباك. ويلعب بلومي مع هال سيتي منذ انتقاله إليه من فارينسي البرتغالي، في أغسطس 2024، وهو نجل النجم الجزائري السابق لخضر بلومي وقدم بلومي بداية لافتة مع هال سيتي في البريميرليج، هذا الموسم، وكان قريبًا من التسجيل أمام أستون فيلا في الجولة الماضية، بعدما سدد كرة رائعة ارتدت من العارضة، في مباراة انتهت بالتعادل السلبي. وكانت صحيفة \"الجارديان\" البريطانية قد أشادت بأدائه في بداية الموسم، مشيرةً إلى خطورته وقدرته على صن…",
+      "image": null,
+      "pubDate": "2026-09-12T13:23:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "93367fc56ea7000a",
+      "title": "على خطى حمدالله.. لعنة الهلال تضرب هداف دوري جوي للنخبة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D9%84%D9%89-%D8%AE%D8%B7%D9%89-%D8%AD%D9%85%D8%AF%D8%A7%D9%84%D9%84%D9%87-%D9%84%D8%B9%D9%86%D8%A9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%AA%D8%B6%D8%B1%D8%A8-%D9%87%D8%AF%D8%A7%D9%81-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AC%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9/blt9d53f7f3c356efdd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المهاجم المغربي يغيب أمام \"الزعيم\"",
+      "body": "المهاجم المغربي يغيب أمام \"الزعيم\" ضربت لعنة الهلال، هداف دوري جوي للنخبة (الدوري السعودي تحت 21 عامًا)، قبل مواجهة التعاون في دوري روشن. ويحل الهلال ضيفًا على التعاون، اليوم السبت، على ملعب الأخير ببريدة، في الجولة السابعة من دوري روشن السعودي. التعاون يخوض المباراة في ظروف صعبة، حيث لم يحقق أي انتصار في الموسم الحالي من دوري روشن السعودي، إذ اكتفى بـ3 تعادلات و3 هزائم، ليتوقف رصيده عند 3 نقاط، يحتل بها المركز الرابع عشر في جدول الترتيب. وزادت تلك الظروف صعوبة، بعدما تأكد غياب المهاجم المغربي عبدالرزاق حمدالله، بسبب الإصابة التي تعرض لها خلال مواجهة الفتح، يوم السبت الماضي، في الجولة الخامسة من دوري روشن. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وكان من المُتوقع أن يشارك باسم العريني كمهاجم للتعاون، في غياب حمدالله، غير أنه تعرض للإصابة هو الآخر، ليغيب عن الفريق لفترة قد تصل إلى شهر ونصف تقريبًا. وقال التعاون، في بيان عبر حسابه الرسمي على موقع \"إكس\": \"أثبتت الفحوصات التي أُجريت للاعب باسم العريني تعرضه لإصابة في الرباط الجانبي الداخلي في الركبة اليمنى\". وأوضح التعاون أن مهاجمه الشاب \"يحتاج لبرنامج علاجي وتأهيلي يمتد من 4 إلى 6 أسابيع مقبلة\". شاهد دوري جوّي السعودي عبر stc tv سجل الآن! يُذكر أن باسم العريني ك…",
+      "image": null,
+      "pubDate": "2026-09-12T13:17:40.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "bc1d5cdf6b9cd50e",
+      "title": "ثنائية النخبة والدوري غير كافية.. المنتشري يفاجئ جماهير الاتحاد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D8%A7%D9%84%D9%86%D8%AE%D8%A8%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%BA%D9%8A%D8%B1-%D9%83%D8%A7%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B4%D8%B1%D9%8A-%D9%8A%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF/blt029ad29d5c9f8520?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "تصريح مثير من مدير العميد",
+      "body": "تصريح مثير من مدير العميد فاجأ حمد المنتشري، مدير فريق الاتحاد، جماهير العميد بتصريحات قوية عقب الانتصار على الفيصلي بنتيجة 3-1، في المباراة التي جمعت الفريقين مساء الجمعة ضمن منافسات الجولة السابعة من دوري روشن السعودي، مؤكدًا أن طموحات الفريق لا تتوقف عند المنافسة على البطولات، وأن جماهير النادي تستحق أكثر مما يمكن تحقيقه داخل الملعب. وأكد المنتشري أن الاتحاد يمتلك مجموعة مميزة من اللاعبين إلى جانب جهاز فني قادر على قيادة الفريق، مشددًا على أن حالة التكاتف داخل النادي تمثل أحد أهم أسباب النتائج الإيجابية التي يحققها العميد خلال الفترة الحالية. اقرأ أيضًا.. سر حزن فيسينج رغم الانتصار على الفيصلي! وقال مدير فريق الاتحاد: \"لدينا مجموعة جيدة ومدرب متميز، ومتكاتفين ومجتهدين، وجماهيرنا خلفنا وسنقاتل لأجلهم\"، مشيرًا إلى أن اللاعبين والجهاز الفني يشعرون بحجم المسؤولية الملقاة على عاتقهم، خاصة في ظل الدعم الكبير الذي يحصل عليه الفريق من المدرجات. ورغم وصول الاتحاد إلى صدارة جدول ترتيب دوري روشن بعد الفوز على الفيصلي، رفض المنتشري الحديث عن التركيز على المركز الأول في هذه المرحلة، مؤكدًا أن الموسم لا يزال في بدايته، وأن الفريق يتعامل مع كل مباراة على حدة دون الانشغال بالترتيب الحالي. تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! وأوضح: \"الصدارة لا نفكر بها، ولا زلنا في بداية الدوري…",
+      "image": null,
+      "pubDate": "2026-09-12T13:09:58.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "7c87e8ed6bc83f81",
+      "title": "بالفيديو: الزابيري يتوهج مجددًا في الليجا.. ويزاحم رافينيا على صدارة الهدافين",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%B2%D8%A7%D8%A8%D9%8A%D8%B1%D9%8A-%D9%8A%D8%AA%D9%88%D9%87%D8%AC-%D9%85%D8%AC%D8%AF%D8%AF%D9%8B%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7-%D9%88%D9%8A%D8%B2%D8%A7%D8%AD%D9%85-%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D8%A7-%D8%B9%D9%84%D9%89-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%81%D9%8A%D9%86/blt40566634e50f595b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الزابيري كان قد سجل هاتريك في شباك إلتشي",
+      "body": "الزابيري كان قد سجل هاتريك في شباك إلتشي قاد المغربي ياسر الزابيري فريقه راسينج سانتاندير إلى الفوز على ضيفه ديبورتيفو ألافيس بنتيجة (2-1)، اليوم السبت، ضمن الجولة الخامسة من الدوري الإسباني، بتسجيل ثنائية قلبت تأخر أصحاب الأرض إلى انتصار. وتقدم ألافيس أولًا عبر فيل كوسكي، في الدقيقة 18، قبل أن يدرك الزابيري التعادل في الدقيقة 38، إثر انطلاقة سريعة ثم انفراد من الجهة اليمنى، قبل أن يسدد بإتقان في الزاوية البعيدة. 🔥 | ZABIRI, ENCORE LUI ! 🇲🇦 L'attaquant du @realracingclub sait faire vibrer El Sardinero ! 🥁 Suivez la rencontre en direct sur DAZN. 📲 #LALIGA #RacingAlavés pic.twitter.com/ddrYeqfsBl — DAZN France (@DAZN_FR) September 12, 2026 وفي الدقيقة 53، عاد النجم المغربي ليسجل هدفه الثاني، من تمريرة عرضية أمام مرمى ألافيس، ليمنح فريقه نقاط المباراة كاملةً. اقرأ أيضًا يامال يلامس رقم مبابي التاريخي في دوري أبطال أوروبا.. وهالاند ثالثًا البطاقة السوداء تظهر لأول مرة في أوروبا.. ما دورها؟ ورفع الزابيري رصيده بذلك إلى 5 أهداف، خلال أول 5 جولات من الدوري الإسباني، محتلًا وصافة الهدافين خلف رافينيا نجم برشلونة (6)، وبالتساوي مع روبرتو فيرنانديز من إسبانيول، وسيرجيو كاميلو من رايو فاليكانو. وكان النجم المغربي، صاحب الـ21 عامًا، قد سجل ثلاثية أيضًا في شباك إلتشي، يوم 28 أغسطس الماضي،…",
+      "image": null,
+      "pubDate": "2026-09-12T13:08:22.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "192c83236eab0161",
+      "title": "سيميوني يرفع راية الدفاع عن نجله.. ورسالة قوية إلى المنتقدين",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%8A%D9%85%D9%8A%D9%88%D9%86%D9%8A-%D9%8A%D8%B1%D9%81%D8%B9-%D8%B1%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%B9%D9%86-%D9%86%D8%AC%D9%84%D9%87-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%82%D9%88%D9%8A%D8%A9-%D8%A7%D9%95%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D9%82%D8%AF%D9%8A%D9%86/bltf25153fa22e49e88?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ماذا قال؟",
+      "body": "ماذا قال؟ دافع دييجو سيميوني، المدير الفني لأتلتيكو مدريد، عن نجله جوليانو سيميوني في ظل الانتقادات وحملة التشويه التي يتعرض لها خلال الفترة الحالية، مؤكدًا أن ما يقدمه اللاعب داخل الملعب كفيل بالرد على منتقديه، قبل مواجهة ريال سوسيداد في الدوري الإسباني. ورفض سيميوني، الخوض في تفاصيل الانتقادات الموجهة إلى نجله، لكنه اختار التأكيد على ثقته في مسيرته وما يقدمه، قائلًا: \"أفعال جوليانو وأعماله تتحدث عن نفسها\". ويأتي موقف مدرب أتلتيكو مدريد في وقت يمر فيه الفريق بفترة صعبة، بعدما خسر أمام أتلتيك بلباو وليفربول، لتزداد الضغوط على اللاعبين والجهاز الفني قبل المواجهة المرتقبة أمام ريال سوسيداد على ملعب أنويتا. ويبحث أتلتيكو عن استعادة توازنه، بعدما انتهت 5 من آخر 10 مباريات رسمية له بالهزيمة، مقابل 4 انتصارات وتعادل واحد، إلى جانب استقبال الفريق 8 أهداف، وهو ما دفع سيميوني إلى التأكيد على ضرورة تحسين الأداء الدفاعي والحفاظ على نظافة الشباك. كما تلقى الفريق ضربة جديدة بغياب بابلو باريوس بسبب الإصابة، فيما يواصل سورلوث الغياب، في الوقت الذي يسعى فيه سيميوني إلى إيجاد الحلول اللازمة لإيقاف نزيف النتائج واستعادة أتلتيكو لمساره الصحيح.",
+      "image": null,
+      "pubDate": "2026-09-12T13:05:00.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f0e6ad9afc47ab98",
+      "title": "للإيمان بحظوظه.. نجم باريس يستشهد بسيناريو رودري في الكرة الذهبية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%84%D8%A7%D9%95%D9%8A%D9%85%D8%A7%D9%86-%D8%A8%D8%AD%D8%B8%D9%88%D8%B8%D9%87-%D9%86%D8%AC%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%8A%D8%B3%D8%AA%D8%B4%D9%87%D8%AF-%D8%A8%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%B1%D9%88%D8%AF%D8%B1%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blt384e138a7710b7b0?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "بعد موسم استثنائي من حيث الألقاب، يريد فابيان رويز، نجم باريس سان جيرمان، الإيمان بفرصه في المنافسة على الكرة الذهبية.",
+      "body": "بعد موسم استثنائي من حيث الألقاب، يريد فابيان رويز، نجم باريس سان جيرمان، الإيمان بفرصه في المنافسة على الكرة الذهبية.&nbsp; ويملك فابيان رويز، اللاعب الوحيد الذي تمكن من الفوز بكأس العالم ودوري أبطال أوروبا في الموسم الماضي، مجموعة أوراق قوية للمنافسة على البالون دور، وبعد أن احتل المركز 24 في الموسم الماضي، في أول ترشيح له للكرة الذهبية، يستطيع فابيان رويز، أن يطمح إلى مركز أفضل بكثير هذا العام. ونشر موقع فوت ميركاتو ، تصريحات فابيان رويز، خلال حواره مع مجلة فرانس فوتبول، حيث قال \"أين أرى نفسي في سباق الكرة الذهبية؟ هذا الأمر يعود إلى المصوتين. الأهم بالنسبة لي هو أن أضع نفسي تحت تصرف الفريق، مع السعي في الوقت نفسه إلى أن أكون ضمن الأفضل\". وتابع \"كنت محظوظًا بوجودي ضمن قائمة المرشحين الثلاثين العام الماضي. الوجود ضمن الثلاثين، شرف كبير. ليصوتوا لمن يرونه الأجدر بالجائزة. أنا ممتن وفخور لمجرد ترشيحي\". وعندما سُئل عما إذا كان بعض اللاعبين قد قدموا موسمًا أفضل منه، أجاب \"هذا يعتمد. من حيث الألقاب، لا. على المستوى الفردي، قدم لاعبون كبار موسمًا رائعًا، ولا شك في مستواهم. هناك الكثير من المرشحين. مجرد وجودي ضمن اللاعبين المرشحين للكرة الذهبية، شرف كبير ومصدر سعادة هائلة\". ومن وجهة نظره، فإن غيابه لمدة 3 أشهر بسبب إصابة في الركبة خلال الموسم الماضي، لا يمثل نقطة سلبية في ملف ترشحه، وي…",
+      "image": null,
+      "pubDate": "2026-09-12T13:00:17.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
     },
     {
       "id": "b21c0767444342e2",
@@ -388,6 +820,38 @@
       "region": "global"
     },
     {
+      "id": "cfe1c149f7a7af0d",
+      "title": "بونو يعود لعرين الهلال أمام التعاون.. ومثلث الرعب يقود الهجوم",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%88%D9%86%D9%88-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D8%B9%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D9%85%D8%AB%D9%84%D8%AB-%D8%A7%D9%84%D8%B1%D8%B9%D8%A8-%D9%8A%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85/bltb5a976520824b2a6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الزعيم يرغب في استعادة نغمة الانتصارات",
+      "body": "الزعيم يرغب في استعادة نغمة الانتصارات عاد المغربي ياسين بونو، حارس مرمى الهلال، إلى تشكيلة الفريق خلال مواجهة التعاون في دوري روشن السعودي، فيما يقود مثلث الرعب خط الهجوم. ويحل الهلال ضيفًا على التعاون، اليوم السبت، على ملعب الأخير ببريدة ، في الجولة السابعة من دوري روشن السعودي. وأعلن الإيطالي سيموني إنزاجي، المدير الفني لفريق الهلال، عن التشكيلة الرسمية، حيث شهدت عودة بونو، بعد تعافيه من الإصابة التي غيبته عن المباراة الماضية ضد نيوم، والتي انتهت بالهزيمة بثنائية نظيفة. وسيلعب بونو خلف الرباعي المُكون من محمد محزري ومتعب الحربي على الجانبين، وحسان تمبكتي والسنغالي كاليدو كوليبالي في قلب الدفاع. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة تذاكر مباريات دوري روشن السعودي اشترِ تذكرتك الآنَ! ثلاثي وسط الملعب سيتكون كالعادة من الصربي سيرجي ميلينكوفيتش سافيتش والبرتغالي روبين نيفيز ومحمد كنو. أما خط الهجوم، فسيتكون من الثلاثي الأجنبي، بقيادة الإنجليزي أولي واتكينز، وعلى جانبيه الهولندي كريسينسيو سامرفيل والبرازيلي جابرييل مارتينيلي. ويرغب الهلال في استعادة صدارة الدوري السعودي، حيث يحتل المركز الثالث في الوقت الحالي برصيد 15 نقطة، حصدها من 5 انتصارات وهزيمة، بفارق نطقتين خلف الاتحاد، ونقطة خلف القادسية اللذين خاضا مباراة إضافية. في المقابل، يحتل التعاون المركز الرا…",
+      "image": null,
+      "pubDate": "2026-09-12T12:47:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "e5db97d2c4f930c7",
+      "title": "مفارقة تسبق المواجهة: 9 مباريات مع ليفانتي وصفر مع برشلونة",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%81%D8%A7%D8%B1%D9%82%D8%A9-%D8%AA%D8%B3%D8%A8%D9%82-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-9-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%85%D8%B9-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AA%D9%8A-%D9%88%D8%B5%D9%81%D8%B1-%D9%85%D8%B9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/bltb3cc1938b0067d84?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "ما القصة؟",
+      "body": "ما القصة؟ أعلنت لجنة الحكام، تعيين جون أندر جونزاليس كويستا، لإدارة مباراة ليفانتي وبرشلونة المقرر إقامتها غدًا الأحد على ملعب سيوتات دي فالنسيا، ضمن منافسات الدوري الإسباني، في أول ظهور للحكم الباسكي مع الفريق الكتالوني خلال مسيرته التحكيمية. ويبلغ جونزاليس كويستا 41 &nbsp;عامًا، وهو واحد من 4 حكام يخوضون أولى مبارياتهم في الدوري الإسباني هذا الموسم، بينما سيتولى خافيير إجليسياس فيلانويفا مهمة حكم تقنية الفيديو المساعدVAR &nbsp;خلال اللقاء. وتعد مواجهة الأحد المباراة الثالثة لجونزاليس كويستا في الدوري الإسباني، بعدما أدار من قبل مباراتي فالنسيا وريال بيتيس التي انتهت بفوز الأخير 1-0، وأوساسونا وخيتافي التي حسمها أوساسونا بنتيجة 1-0. وستكون هذه المباراة العاشرة التي يديرها الحكم لفريق ليفانتي، بعدما أدار له 9 مباريات سابقة في دوري الدرجة الثانية، حقق خلالها الفريق 5 انتصارات و3 تعادلات مقابل هزيمة واحدة. وتحمل مواجهة برشلونة أهمية خاصة للحكم الباسكي، إذ ستكون المباراة الأولى التي يديرها للفريق الكتالوني في مسيرته التحكيمية، في ظهور جديد له على مستوى الدوري الإسباني.",
+      "image": null,
+      "pubDate": "2026-09-12T12:43:01.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "22c1c95b6eff777b",
       "title": "Get the best battery life for your Windows laptop by changing these settings",
       "link": "https://www.engadget.com/2252761/best-battery-life-for-windows-laptop-settings/",
@@ -404,6 +868,22 @@
       "region": "global"
     },
     {
+      "id": "2259e7eede75817c",
+      "title": "نجم ريال مدريد يحطم رقم ميسي القياسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%86%D8%AC%D9%85-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AD%D8%B7%D9%85-%D8%B1%D9%82%D9%85-%D9%85%D9%8A%D8%B3%D9%8A-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%B3%D9%8A/bltd78bc181d42756d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "قاد اللاعب الأرجنتيني فرانكو ماستانتونو، ناديه فيورنتينا، لفوز ثمين على حساب مضيفه فينيزيا، بنتيجة 4-2 في الجولة الرابعة من عمر الدوري الإيطالي.",
+      "body": "قاد اللاعب الأرجنتيني فرانكو ماستانتونو، ناديه فيورنتينا، لفوز ثمين على حساب مضيفه فينيزيا، بنتيجة 4-2 في الجولة الرابعة من عمر الدوري الإيطالي. وبعد تقدم فينيزيا بهدف أكور آدامز في الدقيقة 22، رد الفيولا، برباعية متتالية، قبل أن يسجل أنتوني هاينو، الهدف الثاني لأصحاب الأرض. وحملت رباعية فيورنتينا، توقيع ماستانتونو \"هاتريك\" في الدقائق 29 و30 و84، بجانب هدف ماتيو بيليجرينو، في الدقيقة 66. &nbsp; &nbsp;الدوري الإيطالي مجانًا على stc tv لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الآن! وذكرت شبكة ESPN أن ماستانتونو، نجم ريال مدريد، الذي يلعب معارًا للفيولا، تجاوز مواطنه ليونيل ميسي، ليصبح أصغر لاعب أرجنتيني يسجل هاتريك في الدوريات الأوروبية الخمس الكبرى. وبعمر 19 عامًا و28 يومًا، كان ماستانتونو أصغر من ميسي بـ 231 يومًا، عندما سجل الأخير أول ثلاثية في مسيرته مع برشلونة، أمام ريال مدريد في 10 مارس/آذار 2007. وكانت أهداف ماستانتونو، أمس الجمعة، هي الأولى له مع فيورنتينا منذ انضمامه إلى الفريق الإيطالي، قادمًا من ريال مدريد على سبيل الإعارة لمدة موسم واحد. وبفضل الثلاثية، عادل ماستانتونو، عدد الأهداف الذي سجله خلال 35 مباراة خاضها مع ريال مدريد في الموسم الماضي. يمكنكم مناقشة الموضوعات والأخبار بشكل أعمق في منتديات كووورة &nbsp;",
+      "image": null,
+      "pubDate": "2026-09-12T12:24:54.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
       "id": "6e586d19a383a68c",
       "title": "Who has given selectors food for thought? England-Pakistan player ratings",
       "link": "https://www.bbc.co.uk/sport/cricket/articles/cvgy4xy8gl9o?at_medium=RSS&at_campaign=rss",
@@ -411,22 +891,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-09-12T12:24:31.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "0d4d4515b20b3429",
-      "title": "England survive scare to sweep Pakistan series",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/c770z1j5l0ko?at_medium=RSS&at_campaign=rss",
-      "summary": "England survive an almighty scare to eventually win the third Test against Pakistan by eight wickets and complete a 3-0 clean sweep.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-12T12:20:38.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -644,38 +1108,6 @@
       "region": "mena"
     },
     {
-      "id": "e2081fd74fcd404c",
-      "title": "شروط مورينيو تقيد نجم الريال.. هل يصبح شبيه رودري؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B4%D8%B1%D9%88%D8%B7-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D8%AA%D9%82%D9%8A%D8%AF-%D9%86%D8%AC%D9%85-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%87%D9%84-%D9%8A%D8%B5%D8%A8%D8%AD-%D8%B4%D8%A8%D9%8A%D9%87-%D8%B1%D9%88%D8%AF%D8%B1%D9%8A/bltc4c9084ddf606fd6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "سبيشيال وان يطالبه بالمزيد",
-      "body": "سبيشيال وان يطالبه بالمزيد تركز الجدل داخل نادي ريال مدريد خلال سوق الانتقالات حول ضرورة التعاقد مع لاعب لخط الوسط، وهي الحاجة التي اعترف بها النادي نفسه عندما استكشف إمكانية ضم رودري، قبل أن تتوقف الصفقة ويقرر النادي الاعتماد على العناصر المتاحة إلى جانب برناردو سيلفا، الذي أصبحت أدواره مع الفريق الأبيض تتناسب أكثر مع لاعب وسط بدلاً من صانع ألعاب، وهو المركز الذي كان يلعب فيه عادة مع سيتي. ووفقاً لصحيفة \"آس\" الإسبانية ، انطلقت المنافسات الرسمية وتكررت المشكلات ذاتها مجدداً، وهو ما ظهر بشكل خاص خلال مواجهة إنتر، حيث لم يتمكن ريال مدريد من فرض سيطرته على مجريات اللعب في أي وقت تقريباً، فيما صرح فالفيردي عقب اللقاء موضحاً أن مورينيو نفسه كان يطالب اللاعبين بالاحتفاظ بالكرة وتهدئة رتم المباراة، غير أن ذلك لم يحدث. وتعود هذه الأزمة إلى الموسم الماضي، حيث نجح أربيلوا حينها في معالجتها جزئياً بفضل ظهور اسم غير متوقع فرض نفسه في التشكيلة الأساسية لريال مدريد، وهو تياجو بيتارش، إذ بدأ لاعب الوسط، الذي كان يلعب حينها في كاستيا، المشاركة بانتظام كلاعب أساسي مع الفريق الأول، وجمع أكثر من 800 دقيقة وشارك أساسياً في مواجهتي سيتي في ثمن نهائي دوري أبطال أوروبا وفي ذهاب ربع النهائي أمام بايرن. ولم يكن دور تياجو بيتارش واضحاً هذا الموسم، إذ كانت فكرة رحيله واردة، غير أن إصابته في بداية الفترة الت…",
-      "image": null,
-      "pubDate": "2026-09-12T10:44:13.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "e374dbe8fa56eb2b",
-      "title": "إنريكي عن انتقادات نجمه: انظروا إلى ديمبلي وباركولا",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D9%86%D8%B1%D9%8A%D9%83%D9%8A-%D8%B9%D9%86-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%D8%A7%D8%AA-%D9%86%D8%AC%D9%85%D9%87-%D8%A7%D9%86%D8%B8%D8%B1%D9%88%D8%A7-%D8%A7%D9%95%D9%84%D9%89-%D8%AF%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D9%88%D8%A8%D8%A7%D8%B1%D9%83%D9%88%D9%84%D8%A7/bltc769bf5563d864c7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مدرب سان جيرمان يتقبل الانتقادات",
-      "body": "مدرب سان جيرمان يتقبل الانتقادات حرص لويس إنريكي، مدرب باريس سان جيرمان، على الدفاع عن مدافعه الأوكراني إيليا زابارني، مؤكدًا أن تعرض لاعبي الفريق للانتقادات أمر طبيعي في نادٍ بحجم النادي الفرنسي. وتحدث إنريكي في مؤتمر صحفي، اليوم السبت، قبل مواجهة بريست غدًا الأحد، ضمن منافسات الدوري الفرنسي، حيث تلقى سؤالًا بشأن الانتقادات الموجهة إلى زابارني، الذي يخوض موسمه الثاني مع باريس سان جيرمان بعد انتقاله إلى الفريق صيف 2025 مقابل أكثر من 60 مليون يورو. وشارك زابارني أساسيًا للمرة الثانية هذا الموسم خلال مواجهة سلوفان براتيسلافا، الأربعاء الماضي، في دوري أبطال أوروبا، والتي انتهت بفوز باريس سان جيرمان 6-1. وقال إنريكي فيما نقلته شبكة RMC : \"الانتقادات؟ هذا أمر طبيعي. إذا كنتم تتذكرون، فهذا طبيعي. عندما تكون في نادٍ مثل باريس سان جيرمان، ستكون هناك دائمًا انتقادات\". وأضاف: \"حتى إذا فزت 6-1، فستجد انتقادات للاعبين. من الإيجابي جدًا أن يكون هناك هذا الضجيج، لأنه يعني أننا في نادٍ كبير\". إنريكي يستحضر أمثلة سابقة ولم يكتفِ المدرب الإسباني بالدفاع عن زابارني، بل استشهد بعدد من لاعبي باريس سان جيرمان الذين تعرضوا هم الآخرون للانتقادات خلال فترات سابقة، قبل أن يحققوا نجاحات كبيرة مع الفريق. وأوضح: \"أتذكر الانتقادات التي تعرض لها باركولا، وديمبلي، ودويه، وبالطبع لويس إنريكي\"، في إشارة إلى نفسه …",
-      "image": null,
-      "pubDate": "2026-09-12T10:43:46.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "eb0f68cfb735f518",
       "title": "أوزين: “الحركة الشعبية” تطمح إلى الصدارة وتراهن على جيل جديد من الكفاءات",
       "link": "https://assabah.ma/949198.html",
@@ -690,22 +1122,6 @@
       "lang": "en",
       "category": "general",
       "region": "global"
-    },
-    {
-      "id": "7713f4b6c7c60e70",
-      "title": "جدول مباريات برشلونة في الدوري الإسباني 2026-2027 .. والقنوات الناقلة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2026-2027-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9/bltc9ca6ec2d0eea0ea?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن مباريات برشلونة في الدوري الإسباني 2026-2027 .. القنوات الناقلة، ترتيب الفريق، وكل التفاصيل ..",
-      "body": "كل ما تريد معرفته عن مباريات برشلونة في الدوري الإسباني 2026-2027 .. القنوات الناقلة، ترتيب الفريق، وكل التفاصيل .. يضع برشلونة نصب عينيه في الموسم الجديد 2026-2027، مواصلة هيمنته على عرش كرة القدم الإسبانية، في ظل القيادة الفنية المثمرة مع الألماني هانز فليك. في الموسم الماضي، فرض برشلونة سيطرته بعد الفوز بالدوري الإسباني للمرة الثانية على التوالي، وحقق اللقب أمام ريال مدريد في كلاسيكو \"كامب نو\" ليجعل للبطولة طعمًا خاصًا. وفي الموسم الجديد، لن تتهاون جماهير برشلونة بشأن الاحتفاظ بلقب الليجا والتوسع نحو الفوز بعدة ألقاب مهمة، خصوصًا بعد ارتفاع القيمة الفنية للفريق تحت قيادة فليك وتدعيم صفوفه بصفقات من العيار الثقيل. في السطور التالية، نرصد جدول مباريات برشلونة في الدوري الإسباني 2026-2027 والقنوات الناقلة وجدول ترتيب الفريق الكتالوني. ما القنوات الناقلة لمباريات برشلونة في الدوري الإسباني 2026-2027؟ ينقل الدوري الإسباني في الشرق الأوسط حصريًا على مجموعة قنوات بي إن سبورت القطرية، وعادةً ما تذاع المباريات على القناة الثالثة لها 'beIN SPORTS HD 3' ما لم يكن هناك تعارض. إلا أنّ أغلب مباريات برشلونة تكون معروضة إما على beIN SPORTS HD 1 أو beIN SPORTS HD 2 إن لم يكن هناك مباراة أكثر أهمية خاصة في الدوري الإنجليزي. كيف تشاهد البث المباشر لمباراة برشلونة في الدوري الإسباني 2026-2027 عبر …",
-      "image": null,
-      "pubDate": "2026-09-12T10:37:08.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "43bbb47469ad54ab",
@@ -740,22 +1156,6 @@
       "region": "global"
     },
     {
-      "id": "0411cc1f4bec622d",
-      "title": "ضربة ثلاثية تربك النصر قبل موقعة الخليج",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D8%B1%D8%A8%D8%A9-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A8%D9%83-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/bltebe5074f2991572b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "بوستيكوجلو في اختبار جديد وسط غيابات بالجملة",
-      "body": "بوستيكوجلو في اختبار جديد وسط غيابات بالجملة يحتضن استاد الأمير محمد بن فهد مواجهة مرتقبة تجمع بين الخليج والنصر، ضمن منافسات الجولة السابعة من بطولة دوري روشن السعودي. ويدخل النصر المباراة وسط غيابات مؤثرة، بعدما استبعد الأسترالي أنج بوستيكوجلو، المدير الفني للفريق، الثلاثي الفرنسي كينجسلي كومان وأيمن يحيى وعبد الرحمن غريب من قائمة مواجهة الخليج، المقرر إقامتها يوم السبت، وفقًا لما أفادت به صحيفة \" الرياضية \" السعودية . وأوضح التقرير أن كينجسلي كومان يعاني من آلام في العضلة الخلفية، وهو ما دفع بوستيكوجلو إلى استبعاده من حساباته لمواجهة الخليج، في ظل حرص الجهاز الفني على عدم المجازفة باللاعب وتجنب تفاقم الإصابة. تذاكر مباريات دوري روشن السعودي اشتر تذكرتك الآن ومن المنتظر أن يخضع الجناح الفرنسي لفحوصات طبية إضافية عقب مباراة الخليج، من أجل تحديد مدى قدرته على العودة إلى قائمة النصر في المواجهة المقبلة أمام العين الإماراتي. ويحل النصر ضيفًا على العين، يوم الثلاثاء المقبل، على ملعب هزاع بن زايد، ضمن منافسات البطولة القارية، حيث يأمل الجهاز الفني في استعادة كومان سريعًا حال أثبتت الفحوصات الطبية جاهزيته للمشاركة. ولن يقتصر الغياب على كومان، إذ خسر النصر أيضًا خدمات أيمن يحيى، الذي يعاني من إصابة في العضلة الضامة، ليتأكد غيابه عن مواجهتي الخليج والعين. كما يغيب عبد الرحمن غريب عن المب…",
-      "image": null,
-      "pubDate": "2026-09-12T10:33:19.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "c958c936e57af7b8",
       "title": "The Best 3-in-1 Apple Charging Stations After Testing 30+ Models",
       "link": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
@@ -788,22 +1188,6 @@
       "region": "global"
     },
     {
-      "id": "d74b9b3a415055e5",
-      "title": "\"يمكنك شراء حمار بـ200 مليون\".. نجم بلجيكا ينتقد جنون الميركاتو بعد صفقة بوعدي",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%8A%D9%85%D9%83%D9%86%D9%83-%D8%B4%D8%B1%D8%A7%D8%A1-%D8%AD%D9%85%D8%A7%D8%B1-%D8%A8%D9%80200-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%86%D8%AC%D9%85-%D8%A8%D9%84%D8%AC%D9%8A%D9%83%D8%A7-%D9%8A%D9%86%D8%AA%D9%82%D8%AF-%D8%AC%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%83%D8%A7%D8%AA%D9%88-%D8%A8%D8%B9%D8%AF-%D8%B5%D9%81%D9%82%D8%A9-%D8%A8%D9%88%D8%B9%D8%AF%D9%8A/blt9751fea830e87608?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "مونييه يشيد بالنجم المغربي لكنه منزعج من المبالغ الخيالية",
-      "body": "مونييه يشيد بالنجم المغربي لكنه منزعج من المبالغ الخيالية انتقد البلجيكي توماس مونييه، لاعب سندرلاند الحالي وليل السابق، الارتفاع الجنوني في أسعار اللاعبين، مؤكدًا أن قيمة الانتقالات لم تعد معيارًا منطقيًا للحكم على مستوى أي لاعب، وذلك عقب انتقال المغربي أيوب بوعدي إلى مانشستر سيتي مقابل 100 مليون يورو. وكان مونييه لعب إلى جانب بوعدي في صفوف ليل خلال موسم 2024-2025، ويعرف جيدًا الإمكانات التي يمتلكها لاعب الوسط المغربي، حيث لم يتردد في الإشادة بموهبته، لكنه في الوقت نفسه رفض ربط قيمته بالمبلغ الضخم الذي دفعه النادي الإنجليزي لضمه. وقال مونييه، في تصريحات نقلتها شبكة \" فوت ميركاتو \": \"أيوب لاعب مذهل، لكن لم نعد بحاجة إلى الحديث عن الأموال، لأنه لم يعد هناك أي منطق في سوق الانتقالات\". وأضاف اللاعب البلجيكي البالغ من العمر 35 عامًا: \"يمكنك شراء حمار مقابل 200 مليون جنيه إسترليني، وشراء لاعب جيد جدًا مقابل 20 مليونًا. لم يعد هناك أي معنى\". بوعدي.. من ليل إلى مانشستر سيتي ورغم انتقاداته لسوق الانتقالات، أكد مونييه أن بوعدي يستحق الإشادة، بعدما واصل اللاعب الشاب تطوره بصورة لافتة منذ ظهوره مع الفريق الأول لليل. وكان بوعدي قد خاض 96 مباراة بقميص ناديه الفرنسي، قبل أن يلفت الأنظار بشكل أكبر خلال مشاركته مع منتخب المغرب في كأس العالم 2026، حيث بدأ أساسيًا في 5 من أصل 6 مباريات خاضها \"أسود …",
-      "image": null,
-      "pubDate": "2026-09-12T10:08:54.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "6a60d3c41720547f",
       "title": "'I've turned the page' - Camara on Chelsea deal collapse",
       "link": "https://www.bbc.co.uk/sport/football/articles/cj9x7e40gr2o?at_medium=RSS&at_campaign=rss",
@@ -817,38 +1201,6 @@
       },
       "lang": "en",
       "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "c0263f1cd38562b6",
-      "title": "متفوقا على ميسي.. خطة برشلونة تنجح مع يامال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AA%D9%81%D9%88%D9%82%D8%A7-%D8%B9%D9%84%D9%89-%D9%85%D9%8A%D8%B3%D9%8A-%D8%AE%D8%B7%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%AA%D9%86%D8%AC%D8%AD-%D9%85%D8%B9-%D9%8A%D8%A7%D9%85%D8%A7%D9%84/blteaa11cca7b39889b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "انطلاقة مميزة للنجم الشاب",
-      "body": "انطلاقة مميزة للنجم الشاب حقق الواعد لامين يامال، نجم برشلونة ، إنجازًا تاريخيًا غير مسبوق بعدما أصبح أول لاعب يتجاوز 20 مساهمة تهدفية في دوري أبطال أوروبا (تسجيلًا وتمريرات حاسمة) قبل سن الـ20، كما بات أصغر من يحمل شارة قيادة برشلونة بعمر 19 عامًا وشهرين، إذ لا يصل أحد إلى هذه المستويات بهذه السرعة مثله. ورغم أن رافينيا وبيدري وفرينكي دي يونج وإريك جارسيا يسبقونه في ترتيب القادة، فإن ظهور يامال بشارة القيادة ضد فينورد حمل انطباعًا قويًا للغاية. ومع الأخذ بعين الاعتبار أن يامال لا يستبدل أبدًا، فإن هذا المشهد (ارتداء الشارة) سيصبح معتادًا أثناء المباريات. ووفقًا لصحيفة \"آس\" الإسبانية ، فإن وصول يامال إلى شارة القيادة مفاجأة، لكن قليلين فقط من انتبهوا إلى تفصيل مهم، وهو أن لامين يعد من أكثر لاعبي الفريق خبرة من حيث الأقدمية. وخاض يامال مباراته الأولى بقميص برشلونة في أبريل 2023، ويتبعه 17 لاعبًا في هذا الجانب. ومن بين الموجودين في غرفة ملابس الفريق، وباستثناء القادة الأربعة الأوائل، فإن بالدي، جافي، كوندي وكريستنسن فقط خاضوا مباراتهم الأولى مع الفريق الأول قبله. ورغم الأصوات التي تقول دائمًا إن يامال يسير وفق طريقته الخاصة، فإن اللاعب الشاب يفرض حضوره بموسيقاه داخل غرفة الملابس وبكرة القدم التي يقدمها في الملعب، لذا فإن هذه التفاصيل تعكس مكانة لامين داخل الفريق. ولتقدير مدى سرعة وص…",
-      "image": null,
-      "pubDate": "2026-09-12T10:01:48.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a3a3e4cff3631405",
-      "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
-      "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
-      "summary": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the seismic impact artificial intelligence has had on his life’s work.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-12T10:00:00.000Z",
-      "source": {
-        "name": "Wired",
-        "homepage": "https://www.wired.com/feed/rss"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -868,20 +1220,20 @@
       "region": "global"
     },
     {
-      "id": "f2b480087e2a3fc5",
-      "title": "صفقة برشلونة المشكوك فيها تتحول إلى صداع للمنافسين",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%B5%D9%81%D9%82%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%88%D9%83-%D9%81%D9%8A%D9%87%D8%A7-%D8%AA%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%95%D9%84%D9%89-%D8%B5%D8%AF%D8%A7%D8%B9-%D9%84%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D9%8A%D9%86/bltfc1c740876d8a9c1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لماذا هتف جمهور البرسا باسم جوردون بعد 5 مباريات فقط؟",
-      "body": "لماذا هتف جمهور البرسا باسم جوردون بعد 5 مباريات فقط؟ لم يحتج أنتوني جوردون إلى وقت طويل حتى يفرض نفسه على المشهد في برشلونة. فبعد خوضه خمس مباريات فقط منذ انتقاله إلى العملاق الكتالوني في مايو/أيار الماضي، بدأ الجناح الإنجليزي يبعث برسالة واضحة إلى جماهير فريقه الجديد: صفقة الـ70 مليون جنيه إسترليني قد تكون واحدة من أكثر صفقات الصيف نجاحًا. جوردون، القادم من نيوكاسل يونايتد، لم يسجل هدفه الأول مع برشلونة حتى الآن، لكنه عوّض ذلك بأرقام لافتة، بعدما صنع أربعة أهداف خلال مبارياته الأولى، ليؤكد سريعًا قدرته على التأثير في هجوم الفريق تحت قيادة المدرب هانز فليك. واللافت أن اللاعب البالغ من العمر 25 عامًا لم ينجح فقط في التأقلم داخل الملعب، وإنما بدأ أيضًا في كسب قلوب جماهير برشلونة خارجه. فقد ألقى كلمة ترحيبه باللغة الإسبانية، وهي اللغة التي تعلمها بمساعدة أحد أفراد الطاقم الطبي الإسباني في نيوكاسل، قبل أن يضيف بعض العبارات باللغة الكتالونية أثناء حديثه مع الجماهير. وبعدما أثارت قيمة الصفقة تساؤلات عديدة عند إتمامها، بات من السهل الآن فهم السبب وراء بدء مشجعي برشلونة في ترديد اسم جوردون في المدرجات، وذلك حسبما أفادت \" بي بي سي سبورت \". من صفقة مثيرة للجدل إلى بداية استثنائية عندما أكمل جوردون انتقاله إلى برشلونة هذا الصيف، أصبح ثاني لاعب إنجليزي فقط ينضم إلى النادي الكتالوني في صفقة ا…",
-      "image": "https://assets.kooora.com/images/v3/getty-2294350327/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHE4Q====/GettyImages-2294350327.jpg",
-      "pubDate": "2026-09-12T09:57:56.000Z",
+      "id": "a3a3e4cff3631405",
+      "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
+      "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+      "summary": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the seismic impact artificial intelligence has had on his life’s work.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-12T10:00:00.000Z",
       "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
+        "name": "Wired",
+        "homepage": "https://www.wired.com/feed/rss"
       },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
     },
     {
       "id": "32add8e95db520dd",
@@ -898,38 +1250,6 @@
       "lang": "en",
       "category": "science",
       "region": "global"
-    },
-    {
-      "id": "64c84cca0358005e",
-      "title": "الليجا أم دوري الأبطال؟ فليك يرد على السؤال الصعب بإجابة مفاجئة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%84%D9%8A%D8%AC%D8%A7-%D8%A7%D9%94%D9%85-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D9%81%D9%84%D9%8A%D9%83-%D9%8A%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%88%D9%94%D8%A7%D9%84-%D8%A7%D9%84%D8%B5%D8%B9%D8%A8-%D8%A8%D8%A7%D9%95%D8%AC%D8%A7%D8%A8%D8%A9-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94%D8%A9/blt3b72128bbb16b3a1?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رؤية مدرب برشلونة تختلف عن لابورتا",
-      "body": "رؤية مدرب برشلونة تختلف عن لابورتا قدم هانز فليك، مدرب برشلونة، إجابة مفاجئة على سؤال حول أولويته بين الدوري الإسباني ودوري أبطال أوروبا. وفاز برشلونة مع فليك بلقب الدوري الإسباني في آخر موسمين، لكن الفريق الكتالوني لم يتذوق طعم التتويج باللقب الأوروبي منذ 2015. وبينما منح خوان لابورتا، رئيس برشلونة، الأولوية للفوز بدوري أبطال أوروبا على باقي البطولات ، لم يسر فليك على نفس النهج، وقدم إجابة مختلفة. ففي المؤتمر الصحفي الذي عُقد اليوم السبت، قبل مواجهة ليفانتي المقرر لها غدًا الأحد، سُئل فليك عما إذا كان يجد صعوبة في تحفيز لاعبيه في الدوري الإسباني على اعتبار أنها أقل أهمية للفريق مقارنة بدوري أبطال أوروبا. فرد المدرب الألماني بقوله إن التعامل مع مباريات الدوري لا يختلف عن مباريات دوري أبطال أوروبا، رغم المكانة الخاصة التي تحظى بها المسابقة القارية. وأوضح فيما نقلته صحيفة \" آس \": \"لا شيء مختلف عن العامين الماضيين. دوري أبطال أوروبا حلم، لكن الفوز بالدوري 3 مرات متتالية سيكون أمرًا مذهلًا\". وشدد على أن العامل الأهم بالنسبة له هو الحفاظ على جاهزية اللاعبين بشكل مستمر، موضحًا: \"بالنسبة لي، المهم هو كيفية تدربنا كل يوم وكيف نحافظ على أفضل حالة ممكنة. كيف نعتني بأنفسنا، وكيف نحصل على الراحة، وكيف نحافظ على تركيزنا\". وأضاف: \"سأدعم اللاعبين، وعليهم التفكير في كيفية الوصول إلى أقصى مستوياته…",
-      "image": null,
-      "pubDate": "2026-09-12T09:27:08.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "6e42085ab6915e81",
-      "title": "ما القنوات الناقلة لمباراة مانشستر يونايتد ومانشستر سيتي في الدوري الإنجليزي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%88%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/bltcfcee68060cc2df7?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة مانشستر يونايتد ومانشستر سيتي في الدوري الإنجليزي 2026-2027.. وكيف تشاهدها على الإنترنت؟",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة مانشستر يونايتد ومانشستر سيتي في الدوري الإنجليزي 2026-2027.. وكيف تشاهدها على الإنترنت؟ يحتضن ملعب أولد ترافورد مواجهة قوية ومرتقبة تجمع بين مانشستر يونايتد ومانشستر سيتي، ضمن منافسات الجولة الرابعة من بطولة الدوري الإنجليزي الممتاز لموسم 2026-2027. ويسعى مانشستر سيتي إلى مواصلة انطلاقته القوية في الموسم الجديد، عندما يحل ضيفًا على غريمه مانشستر يونايتد، في واحدة من أبرز مواجهات الجولة، بحثًا عن تحقيق انتصار جديد يعزز موقعه في صدارة جدول ترتيب الدوري الإنجليزي الممتاز. ويدخل مانشستر سيتي المباراة وهو يتربع على قمة جدول ترتيب المسابقة برصيد 9 نقاط، بعدما حقق العلامة الكاملة منذ انطلاق الموسم، ليؤكد رغبته في المنافسة بقوة على لقب الدوري الإنجليزي الممتاز. في المقابل، يخوض مانشستر يونايتد المواجهة بهدف استعادة توازنه وتحقيق انتصار ثمين أمام غريمه التقليدي، بعدما جمع 4 نقاط فقط خلال الجولات الثلاث الأولى، ليحتل المركز الحادي عشر في جدول الترتيب. ويدرك مانشستر يونايتد أن مواجهة مانشستر سيتي تمثل اختبارًا صعبًا، لكنها في الوقت نفسه فرصة مثالية لإعادة ترتيب أوراقه والعودة بقوة إلى المنافسة، خاصة أن الفوز في مباراة الديربي قد يمنح الفريق دفعة معنوية كبيرة خلال المرحلة المقبلة. على الجانب الآخر، يأمل مانشستر سيتي في استغلال حالة التذبذب التي يم…",
-      "image": null,
-      "pubDate": "2026-09-12T09:19:09.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "32389a3e9fc91090",
@@ -978,118 +1298,6 @@
       "lang": "en",
       "category": "science",
       "region": "global"
-    },
-    {
-      "id": "8d947767ea228dea",
-      "title": "فليك: حمزة عبد الكريم أثبت نفسه.. ويمتلك قدرات مختلفة في برشلونة",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%84%D9%8A%D9%83-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%94%D8%AB%D8%A8%D8%AA-%D9%86%D9%81%D8%B3%D9%87-%D9%88%D9%8A%D9%85%D8%AA%D9%84%D9%83-%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9-%D9%81%D9%8A-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9/bltcf3c2cbc7dab636c?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "رهان كبير لمستقبل البارسا",
-      "body": "رهان كبير لمستقبل البارسا أكد هانز فليك، مدرب برشلونة، ضرورة الحفاظ على التركيز الكامل ومواصلة التحسن قبل مواجهة ليفانتي في الجولة الخامسة من الدوري الإسباني، مشيرًا إلى أن الفريق يسير في الطريق الصحيح لكن كل شيء قد يتغير سريعًا في عالم كرة القدم. وقال فليك، &nbsp;في المؤتمر الصحفي للمباراة : \"نحن سعداء للغاية بالطريقة التي نلعب بها، لكننا نعلم أن علينا إثبات ذلك في كل مباراة، وعندما تسير الأمور على ما يرام يكون ذلك مهمًا بالنسبة لنا، ولكن إذا فقدنا أيًا من هذه الأشياء ولم نكن في حالتنا بنسبة 100% فلن يكون الوضع جيدًا\". وتحدث المدرب الألماني عن هامش التحسن لدى الفريق، قائلا: \"هذا ما نريده، التحسن باستمرار هو عملنا كمدربين ولاعبين، ويجب أن نمتلك هذا الجوع للتحسن، ونحن قادرون على فعل ذلك\". وسئل فليك \"هل هذا أفضل مستوياته مع برشلونة؟\"، وأجاب قائلا: \"نعلم أنه في كرة القدم يمكن أن يتغير كل شيء بسرعة، يعجبني الوضع الحالي ولكن يجب أن نكون مركزين للغاية، وإذا تغير أي شيء فسنذهب في اتجاه سيئ وهذا ما لا نريده\". وكشف مدرب البلوجرانا عن إمكانية مداورة اللاعبين للحفاظ على تركيز الجميع، قائلا: \"أعتقد أن هذا جزء من اللعبة، لدينا لاعبان أو ثلاثة في كل مركز يمكنهم اللعب، وبعد مباراة فينورد أنا سعيد للغاية بمستوى التدريبات\". وعلق فليك على تصريحات سيسك فابريجاس، مدرب كومو، بأن برشلونة أصبح يرعب المن…",
-      "image": null,
-      "pubDate": "2026-09-12T08:47:14.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5f3a178fa0763f6a",
-      "title": "\"هذا هو مرشحي\".. ديمبلي يسير عكس مبابي في سباق الكرة الذهبية",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D8%B0%D8%A7-%D9%87%D9%88-%D9%85%D8%B1%D8%B4%D8%AD%D9%8A-%D8%AF%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D9%8A%D8%B3%D9%8A%D8%B1-%D8%B9%D9%83%D8%B3-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9/blte8e770190f0e99c2?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "النجم الفرنسي يتحلى بالتواضع",
-      "body": "النجم الفرنسي يتحلى بالتواضع رد الفرنسي عثمان ديمبلي، نجم باريس سان جيرمان، على الانتقادات التي طالته منذ تتويجه بجائزة الكرة الذهبية لعام 2025، مؤكدًا أنه لا يشعر بأي انزعاج من زيادة الضغط عليه بعد حصوله على أرفع جائزة فردية في كرة القدم. وفي مقابلة مع مجلة \"فرانس فوتبول\"، تحدث ديمبلي عن حياته بعد الفوز بالكرة الذهبية، مشيرًا إلى أن التغيير الأكبر الذي لمسه كان زيادة الانتقادات الموجهة إليه. وقال نجم باريس سان جيرمان فيما نقلته شبكة RMC : \"لا أهتم بانتقادي، فهذا جزء من اللعبة. ستتعرض دائمًا للانتقادات في كرة القدم، ويزداد الأمر عندما تكون حاملًا للكرة الذهبية\". وأضاف: \"لقد فزت بأكبر جائزة فردية، وبالتالي أصبحت تحت المجهر أكثر. هذا الأمر يضحكني، فأنت مراقب باستمرار، لكنه لا يزعجني\". الكرة الذهبية تفرض تحديًا جديدًا وخلال موسم 2025-2026، شارك ديمبلي في 40 مباراة مع باريس سان جيرمان بمختلف المسابقات، سجل خلالها 20 هدفًا وصنع 11 آخرين، مؤكدًا أن التتويج بالكرة الذهبية يفرض عليه الحفاظ على مستواه في كل مباراة. وأوضح: \"يجب أن تكون قويًا طوال الوقت. عليك أن تقدم أداءً جيدًا في كل مباراة، وإلا سيبدأ الجميع في الحديث عنك وانتقادك. هذا أمر مضحك، لكنه لا يغير شيئًا، فالانتقادات ستظل موجودة دائمًا\". ويرى ديمبلي أنه أصبح أكثر تأثيرًا في المباريات الحاسمة مقارنة بالموسم السابق، خاصة في دوري أب…",
-      "image": null,
-      "pubDate": "2026-09-12T08:46:02.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "54852d2e0261db30",
-      "title": "هل يؤثر على دوري الأبطال؟.. اليويفا يوجه تحذيرا مكررا للدوريات الكبرى",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%87%D9%84-%D9%8A%D9%88%D9%94%D8%AB%D8%B1-%D8%B9%D9%84%D9%89-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%84%D9%8A%D9%88%D9%8A%D9%81%D8%A7-%D9%8A%D9%88%D8%AC%D9%87-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7-%D9%85%D9%83%D8%B1%D8%B1%D8%A7-%D9%84%D9%84%D8%AF%D9%88%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89/blt4839722881d6a729?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "لا يجب مخالفة اللوائح",
-      "body": "لا يجب مخالفة اللوائح حذرت الاتحاد الأوروبي لكرة القدم \"يويفا\" جميع اتحاداتها من إقامة مباريات المسابقات المحلية في المواعيد نفسها التي تشهد مباريات بطولات الأندية التابعة للاتحاد القاري ، إلا في حالات استثنائية تفرض ذلك. ووفقًا لصحيفة \"موندو ديبورتيفو\" الإسبانية ، أرسل الاتحاد الأوروبي لكرة القدم، خلال الأسبوع الحالي، تعميمًا إلى جميع الاتحادات التابعة له، تضمن إلى جانب إبلاغها بمواعيد بطولات الأندية الثلاث للموسم 2027-2028، تذكيرًا بأن \"مباريات المسابقات المحلية يجب ألا تقام في المواعيد نفسها التي تقام فيها مباريات مسابقات الاتحاد الأوروبي لكرة القدم، ما لم تستدعِ الظروف الاستثنائية ذلك\". وأوضحت أعلى هيئة لكرة القدم الأوروبية أن الهدف من هذا الإجراء \"هو ضمان نجاح كل من كرة القدم المحلية ومسابقات الأندية التابعة للاتحاد الأوروبي لكرة القدم\". وأضاف: \"ندرك أن ظروفًا غير متوقعة قد تؤدي في بعض الأحيان إلى ضرورة تأجيل إحدى المباريات المحلية إلى موعد تقام فيه إحدى مسابقات الأندية التابعة للاتحاد الأوروبي لكرة القدم\". وشدد الاتحاد الأوروبي لكرة القدم، في المقابل، على أن \"تحديد مباريات الدوري أو الكأس المحلية بطريقة تتزامن مباشرة مع مباريات مسابقات الأندية التابعة للاتحاد الأوروبي لكرة القدم، أو العكس، لا يصب في مصلحة المشجعين ويضر بكرة القدم\". وطالب اليويفا الاتحادات المحلية والمنظمين ب…",
-      "image": null,
-      "pubDate": "2026-09-12T08:16:27.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "a839ce2af806ab07",
-      "title": "ما القنوات الناقلة لمباراة ليفانتي وبرشلونة في الدوري الإسباني 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AA%D9%8A-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt2a1dc4e4b9d25604?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة ليفانتي وبرشلونة في الدوري الإسباني 2026-2027.. وكيف تشاهدها على الإنترنت؟",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة ليفانتي وبرشلونة في الدوري الإسباني 2026-2027.. وكيف تشاهدها على الإنترنت؟ يحتضن ملعب سيوداد دي فالنسيا مواجهة مرتقبة تجمع بين ليفانتي وبرشلونة، ضمن منافسات الجولة الخامسة من بطولة الدوري الإسباني لموسم 2026-2027. ويدخل برشلونة المباراة بمعنويات مرتفعة، بعدما نجح في تحقيق العلامة الكاملة منذ انطلاق الموسم، ليعتلي صدارة جدول ترتيب الدوري الإسباني برصيد 12 نقطة، في ظل تطلعه إلى مواصلة سلسلة انتصاراته والحفاظ على موقعه في قمة المسابقة. في المقابل، يسعى ليفانتي إلى استغلال إقامة المباراة على ملعبه من أجل تحقيق نتيجة إيجابية أمام حامل اللقب، حيث يحتل الفريق المركز الحادي عشر في جدول ترتيب الليجا برصيد 5 نقاط، ويأمل في حصد نقاط المباراة لتحسين موقعه. ويرصد \" كووورة \" في السطور التالية، القنوات الناقلة لمباراة ليفانتي وبرشلونة في الدوري الإسباني 2026-2027 وطرق المشاهدة عبر الإنترنت. ما القنوات الناقلة لمباراة ليفانتي وبرشلونة في الدوري الإسباني 2026-2027 ؟ تمتلك شبكة بي إن سبورتس حق بث مباريات الدوري الإسباني بشكل حصري، لذا يمكنك مشاهدة مباراة ليفانتي وبرشلونة في الليجا 2026-2027، عبر شاشتها. كيف تشاهد مباراة ليفانتي وبرشلونة في الدوري الإسباني 2026-2027 عبر الإنترنت؟ لهواة البث المباشر، يمكن متابعة مباراة ليفانتي وبرشلونة في الدوري الإسباني 2…",
-      "image": null,
-      "pubDate": "2026-09-12T08:15:22.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "5245b5381770279d",
-      "title": "صحفي مدريدي: معضلة مبابي وفينيسيوس تسيطر على عقل مورينيو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B5%D8%AD%D9%81%D9%8A-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D9%8A-%D9%85%D8%B9%D8%B6%D9%84%D8%A9-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D8%AA%D8%B3%D9%8A%D8%B7%D8%B1-%D8%B9%D9%84%D9%89-%D8%B9%D9%82%D9%84-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88/bltbfd0bf85cc6670c9?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "هل يسقط في فخ أنشيلوتي وألونسو؟",
-      "body": "هل يسقط في فخ أنشيلوتي وألونسو؟ يتمثل الهدف الأكبر لجوزيه مورينيو، مدرب ريال مدريد، في إيجاد الانسجام أخيرا بين فينيسيوس جونيور وكيليان مبابي، بعدما فشل أي مدرب حتى الآن في تحويل الثنائي إلى شراكة هجومية قوية منذ اجتماعهما معا. وتأتي هذه المعلومات وفقا لصحيفة \"موندو ديبورتيفو\" الإسبانية ، التي أشارت إلى أن السؤال المتكرر دائما هو: \"فينيسيوس أم مبابي؟\" لكن الحقيقة أن الثنائي يستطيع، بل يجب، أن يشارك معا في التشكيل وأن يكمل كل منهما الآخر، وهو أمر لم يحدث منذ اجتماعهما، وأصبح الآن الهدف الأكبر لمورينيو في عودته إلى قلعة سانتياجو برنابيو. وقال الصحفي الشهير توماس رونسيرو، خلال برنامج \"إل لارجيرو\": \"كان هناك أشخاص يشككون، لأنهم كانوا يقولون إنه في ظل كل ما يحدث مع فينيسيوس، ربما يفكر مورينيو في وضع فيني على مقاعد البدلاء أحيانا، كما فعل تشابي ألونسو. لكن العكس هو الصحيح تماما. إنه يعلم أنه بحاجة إليه، وما لا يريده هو خسارته لأنه يعرف أنه سيكون لاعبا أساسيا\". وأضاف الصحفي المعروف بميوله لريال مدريد: \"صحيح أن فينيسيوس لا يعيش أفضل فتراته، خصوصا على مستوى الإلهام الهجومي. لكن قيل لي إن مورينيو يحيط به طوال الوقت، ويقدم له الدعم الحقيقي، وليس فقط من خلال التربيت على كتفه. وهو يدرك تماما أن الفريق يعتمد على فينيسيوس و10 لاعبين آخرين\". وتابع: \"هدفه الأكبر هو أن ينسجم فينيسيوس أخيرا مع مبابي…",
-      "image": null,
-      "pubDate": "2026-09-12T07:53:29.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "c7dbb9fe4e7117e9",
-      "title": "ريال مدريد يدخل \"الديربي الصغير\" بأرقام مرعبة.. وسجل مثالي لمورينيو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AF%D8%AE%D9%84-%D8%A7%D9%84%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1-%D8%A8%D8%A7%D9%94%D8%B1%D9%82%D8%A7%D9%85-%D9%85%D8%B1%D8%B9%D8%A8%D8%A9-%D9%88%D8%B3%D8%AC%D9%84-%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D9%84%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88/blta0a9903624e9dffd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "الملكي يتفوق على فرق الليجا في إحصائية هجومية",
-      "body": "الملكي يتفوق على فرق الليجا في إحصائية هجومية يملك ريال مدريد تفوقًا كبيرًا على ضيفه وجاره رايو فاليكانو قبل مباراة الفريقين مساء اليوم السبت ضمن الجولة الخامسة من الدوري الإسباني. ويأمل ريال مدريد، صاحب المركز الثالث، في العودة إلى طريق الانتصارات اليوم بعدما تلقى أول خسارة في الموسم أمام ريال بيتيس الجمعة الماضي. وحسب إحصائيات \"أوبتا\"، فاز ريال مدريد في 13 من آخر 14 مباراة خاضها على أرضه أمام رايو فاليكانو في الدوري الإسباني، مقابل تعادل وحيد، وجاء الاستثناء الوحيد في المباراة التي فشل خلالها في التسجيل وانتهت 0-0 في نوفمبر 2023. وسجل ريال مدريد خلال هذه المواجهات 46 هدفًا، مقابل 12 هدفًا استقبلتها شباكه. من جانبه، حصد رايو فاليكانو نقاطًا في 6 من آخر 11 مباراة له أمام ريال مدريد في الدوري الإسباني، بواقع انتصارين وتعادلين و5 هزائم، وذلك بعدما خسر مبارياته الـ17 السابقة أمام الفريق الملكي في المسابقة. وخسر ريال مدريد مباراتين من آخر 6 مواجهات ديربي أمام فرق العاصمة في الدوري الإسباني، مقابل 3 انتصارات وتعادل، بعدما لم يتعرض لأي هزيمة في ديربيات مدريد الـ12 السابقة بالمسابقة، محققًا 6 انتصارات و6 تعادلات. في المقابل، حقق رايو فاليكانو الفوز في آخر مباراتين له بالديربي، لكنه لم يسبق له تحقيق 3 انتصارات متتالية في هذه المواجهات طوال تاريخه في دوري الدرجة الأولى. وتعرض ريال مدريد لل…",
-      "image": null,
-      "pubDate": "2026-09-12T07:47:47.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "18560c5ec8a42f70",
-      "title": "ما القنوات الناقلة لمباراة بريست وباريس سان جيرمان في الدوري الفرنسي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%B1%D9%8A%D8%B3%D8%AA-%D9%88%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/bltd6d95c3e8b41f8d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "كل ما تريد معرفته عن القنوات الناقلة لمباراة بريست وباريس سان جيرمان في الدوري الفرنسي 2026-2027.. وكيف تشاهدها على الإنترنت؟",
-      "body": "كل ما تريد معرفته عن القنوات الناقلة لمباراة بريست وباريس سان جيرمان في الدوري الفرنسي 2026-2027.. وكيف تشاهدها على الإنترنت؟ يستضيف نادي بريست نظيره باريس سان جيرمان على ملعب \"فرانسيس لو بلي\" ضمن منافسات الجولة الرابعة من الدوري الفرنسي. باريس سان جيرمان بدأ الموسم بصورة سيئة، ولم يحقق أي انتصار في أول 3 مباريات بعد التعادل في مواجهتين ضد رين وليل، ثم الخسارة أمام موناكو. أما بريست، فلم يخسر أي لقاء حتى الآن ويتواجد في المركز السابع بخمس نقاط من انتصار وتعادلين. وفي التقرير الآتي نستعرض موعد مباراة ستاد بريست وباريس سان جيرمان ضمن منافسات الجولة الرابعة من الدوري الفرنسي 2026-2027 والقنوات الناقلة والتشكيل المتوقع والترتيب وكل ما تريد معرفته. متى موعد مباراة بريست وباريس سان جيرمان في الدوري الفرنسي 2026-2027؟ موعد مباراة بريست وباريس سان جيرمان ضمن منافسات الجولة الرابعة من الدوري الفرنسي 2026-2027 هو الأحد 13 سبتمبر 2026 على ملعب \"فرانسيس لو بلي\". وتنطلق صافرة البداية في تمام العاشرة إلا الربع مساءً (21:45) بتوقيت السعودية، الحادية عشر إلا الربع مساءً (22:45) بتوقيت الإمارات. {\"type\":\"w2w-match-details\",\"data\":{}} ما القنوات الناقلة لمباراة بريست وباريس سان جيرمان في الدوري الفرنسي 2026-2027؟ حصلت شبكة قنوات بي إن سبورتس، على حقوق بث مباريات الدوري الفرنسي 2026-2027، وسوف تنقل …",
-      "image": null,
-      "pubDate": "2026-09-12T07:43:10.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "3fdcdbecca78667a",
@@ -1268,22 +1476,6 @@
       "region": "global"
     },
     {
-      "id": "83e7066789cb1a0b",
-      "title": "النصب بـ “أكاديميات” رياضية بتركيا",
-      "link": "https://assabah.ma/949055.html",
-      "summary": "حشر قاصرين في شقق ضيقة وعائلات مغربية تلجأ للقروض لإنقاذهم كشفت شهادات عديدة عن استمرار مظاهر الاستغلال المالي والنفسي التي تطول العشرات من الشباب والقاصرين المغاربة الحالمين بولوج عالم الاحتراف الرياضي، في ظل نشاط شبكات احتيال منظمة تتحرك بين المغرب وتركيا، وتتخذ من إعلانات “الأكاديميات الكروية ال…",
-      "body": "حشر قاصرين في شقق ضيقة وعائلات مغربية تلجأ للقروض لإنقاذهم كشفت شهادات عديدة عن استمرار مظاهر الاستغلال المالي والنفسي التي تطول العشرات من الشباب والقاصرين المغاربة الحالمين بولوج عالم الاحتراف الرياضي، في ظل نشاط شبكات احتيال منظمة تتحرك بين المغرب وتركيا، وتتخذ من إعلانات &#8220;الأكاديميات الكروية الوهمية&#8221; أكمل القراءة &raquo; المقالة النصب بـ “أكاديميات” رياضية بتركيا fمنشورة على جريدة الصباح .",
-      "image": null,
-      "pubDate": "2026-09-12T05:29:40.000Z",
-      "source": {
-        "name": "Assabah Sports (MA)",
-        "homepage": "https://www.assabah.ma/feed/"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "06df1bda1d1ec76d",
       "title": "New Man City signings desperate to win - Dias",
       "link": "https://www.bbc.co.uk/sport/football/articles/cy5zp9llp3ro?at_medium=RSS&at_campaign=rss",
@@ -1348,54 +1540,6 @@
       "region": "gulf"
     },
     {
-      "id": "8a2f2761f2312c65",
-      "title": "US Open pays tribute on 25th anniversary of 9/11",
-      "link": "https://www.bbc.co.uk/sport/tennis/articles/cvgyn32xrdpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US Open pauses to remember the victims of the 9/11 attacks that took place 25 years ago.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-12T00:03:13.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ae0284dcaff7b9e2",
-      "title": "Murphy beats Trump in deciding frame to reach semis",
-      "link": "https://www.bbc.co.uk/sport/snooker/articles/cp8dynly163o?at_medium=RSS&at_campaign=rss",
-      "summary": "Shaun Murphy snatches a thrilling final-frame victory over Judd Trump to reach the semi-finals of the English Open.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T22:55:33.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "b3b7fe365019ff5c",
-      "title": "West Ham rout among 'lowest points' for Wrexham boss",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyzkxqqnp5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manager Phil Parkinson is downbeat after Wrexham suffer their heaviest league defeat for more than 22 years at London Stadium.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T22:40:40.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "66d42516033f14be",
       "title": "Glitzy innovations but Duplantis still wins - new Ultimate Championship begins",
       "link": "https://www.bbc.co.uk/sport/athletics/articles/c05r94l4j9go?at_medium=RSS&at_campaign=rss",
@@ -1403,22 +1547,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-09-11T22:24:31.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "4a710e09282530e5",
-      "title": "Richarlison could still leave Spurs - Saturday's gossip",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0jrn8n7pjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Interest in Richarlison, Philippe Coutinho agrees Santos deal and Manchester United monitoring Adrien Truffert.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T22:18:17.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1508,22 +1636,6 @@
       "region": "global"
     },
     {
-      "id": "7b3814ff834ad8ac",
-      "title": "Townsend & Siniakova complete career Slam in New York",
-      "link": "https://www.bbc.co.uk/sport/tennis/articles/cx2zp20ykeno?at_medium=RSS&at_campaign=rss",
-      "summary": "Katerina Siniakova and Taylor Townsend win the women's doubles at the US Open to complete a historic career doubles Grand Slam.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T20:21:41.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "e32f39cd05f9d7ae",
       "title": "Lenovo's Googlebook 15 seems decidedly premium based on a new leak",
       "link": "https://www.engadget.com/2256453/lenovo-googlebook-15-seems-decidedly-premium-based-on-a-new-leak/",
@@ -1537,38 +1649,6 @@
       },
       "lang": "en",
       "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "e1a1700be3f4c770",
-      "title": "Kartal still Fenerbahce boss despite resigning",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy0zvxx2eldo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ismail Kartal remains as head coach of Fenerbahce, despite resigning following Thursday's Champions League game with Roma.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T19:51:32.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "9566ee3b1f630547",
-      "title": "Hunt sets sights on Lions tour after injury return",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwyzl4d2850o?at_medium=RSS&at_campaign=rss",
-      "summary": "England scrum-half Natasha Hunt says the inaugural British and Irish Lions women's tour to New Zealand - the first Test of which is exactly a year away today - is a massive motivation as she prepares to make her comeback from injury.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T19:47:57.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1716,22 +1796,6 @@
       "region": "global"
     },
     {
-      "id": "077e0955cc5e1f20",
-      "title": "Tough chats and Three Peaks - Durham's road to Division Two title",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/c1e5d5vlxllo?at_medium=RSS&at_campaign=rss",
-      "summary": "Head coach Ryan Campbell explains how Durham turned a winter of soul-searching into a successful summer in Division Two.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T17:41:28.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "ce5bdd4f47629ed6",
       "title": "'There are no easy answers here': New study forecasts a dire dip in food production if key Atlantic currents collapse",
       "link": "https://www.livescience.com/planet-earth/climate-change/there-are-no-easy-answers-here-new-study-forecasts-a-dire-dip-in-food-production-if-key-atlantic-currents-collapse",
@@ -1828,22 +1892,6 @@
       "region": "global"
     },
     {
-      "id": "b0ecbb54496a5d02",
-      "title": "Brilliant Lowry surges clear as McIlroy struggles",
-      "link": "https://www.bbc.co.uk/sport/golf/articles/cvgyry5ydqgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Shane Lowry cards a course-record 62 to take control of the Irish Open as putting woes prevent defending champion Rory McIlroy from making a second-round charge in Doonbeg.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-09-11T15:48:27.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "8be17b9f2ce5142e",
       "title": "موسم الجوافة في غزة.. السعر يقفز لقرابة 7 أضعافه",
       "link": "https://www.skynewsarabia.com/varieties/1891498-%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%81%D8%A9-%D8%BA%D8%B2%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1-%D9%8A%D9%82%D9%81%D8%B2-%D9%84%D9%82%D8%B1%D8%A7%D8%A8%D8%A9-7-%D8%A3%D8%B6%D8%B9%D8%A7%D9%81%D9%87",
@@ -1858,6 +1906,22 @@
       "lang": "ar",
       "category": "lifestyle",
       "region": "gulf"
+    },
+    {
+      "id": "3306f85a8da8a27e",
+      "title": "Liverpool unveil memorials for former manager Beard",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20939pqy78o?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool have unveiled permanent memorials at their training ground and outside Anfield in tribute to former women's team manager Matt Beard.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-09-11T15:32:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
     },
     {
       "id": "f54d34689c3752d0",
@@ -2404,10 +2468,10 @@
       "region": "global"
     },
     {
-      "id": "caa550cd874f14e0",
-      "title": "Ulta Promo Codes: Up to 20% Off in September 2026",
-      "link": "https://www.wired.com/story/ulta-coupon/",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "id": "e52e2936926e3468",
+      "title": "Chewy Promo Codes: $20 Off September 2026",
+      "link": "https://www.wired.com/story/chewy-promo-code/",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more September 2026 discounts.",
       "body": null,
       "image": null,
       "pubDate": "2026-09-11T05:00:00.000Z",
@@ -2416,7 +2480,7 @@
         "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
-      "category": "technology",
+      "category": "general",
       "region": "global"
     },
     {
@@ -2436,10 +2500,10 @@
       "region": "global"
     },
     {
-      "id": "e52e2936926e3468",
-      "title": "Chewy Promo Codes: $20 Off September 2026",
-      "link": "https://www.wired.com/story/chewy-promo-code/",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more September 2026 discounts.",
+      "id": "caa550cd874f14e0",
+      "title": "Ulta Promo Codes: Up to 20% Off in September 2026",
+      "link": "https://www.wired.com/story/ulta-coupon/",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
       "body": null,
       "image": null,
       "pubDate": "2026-09-11T05:00:00.000Z",
@@ -2448,7 +2512,7 @@
         "homepage": "https://www.wired.com/feed/rss"
       },
       "lang": "en",
-      "category": "general",
+      "category": "technology",
       "region": "global"
     },
     {
@@ -2628,70 +2692,6 @@
       "region": "global"
     },
     {
-      "id": "170fb96a695cee8c",
-      "title": "iPhone 18 Pro Max vs Samsung Galaxy S26 Ultra: How these XL phones compete",
-      "link": "https://www.engadget.com/2255321/iphone-18-pro-max-vs-samsung-galaxy-s26-ultra-comparison/",
-      "summary": "Apple or Samsung? It really comes down to which ecosystem you prefer.",
-      "body": "Apple or Samsung? It really comes down to which ecosystem you prefer.",
-      "image": "https://www.engadget.com/img/gallery/iphone-18-pro-max-vs-samsung-galaxy-s26-ultra-how-these-xl-phones-compete/l-intro-1789068272.jpg",
-      "pubDate": "2026-09-10T23:00:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "d7db5ed52d952e59",
-      "title": "CA governor signs 'landmark' laws on youth use of social media and AI chatbots",
-      "link": "https://www.engadget.com/2255569/ca-governor-signs-landmark-laws-on-youth-use-of-social-media-and-ai-chatbots/",
-      "summary": "They're aimed at protecting minors, but the rules are not universally supported.",
-      "body": "They're aimed at protecting minors, but the rules are not universally supported.",
-      "image": "https://www.engadget.com/img/gallery/ca-governor-signs-landmark-laws-on-youth-use-of-social-media-and-ai-chatbots/l-intro-1789080229.jpg",
-      "pubDate": "2026-09-10T22:45:45.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "12e19f8b6ddf9ab7",
-      "title": "Anthropic caught scientists using Claude to further biological weapon research",
-      "link": "https://www.engadget.com/2255473/anthropic-caught-scientists-using-claude-to-further-biological-weapon-research/",
-      "summary": "Anthropic produced an extensive collection of case studies covering the ways its current AI models have been misused.",
-      "body": "Anthropic produced an extensive collection of case studies covering the ways its current AI models have been misused.",
-      "image": "https://www.engadget.com/img/gallery/anthropic-caught-scientists-using-claude-to-further-biological-weapon-research/l-intro-1789073866.jpg",
-      "pubDate": "2026-09-10T21:04:54.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
-      "id": "602766b71c438538",
-      "title": "Meta is testing Community Notes in Latin America. Fact checkers are worried.",
-      "link": "https://www.engadget.com/2255433/meta-is-testing-community-notes-in-latin-america-fact-checkers-are-worried/",
-      "summary": "The company is suggesting that its work with traditional fact checkers could come to an end.",
-      "body": "The company is suggesting that its work with traditional fact checkers could come to an end.",
-      "image": "https://www.engadget.com/img/gallery/meta-is-testing-community-notes-in-latin-america-fact-checkers-are-worried/l-intro-1789072494.jpg",
-      "pubDate": "2026-09-10T20:41:21.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
-    },
-    {
       "id": "2e969856a5f38885",
       "title": "These 12 Breakfast &amp; Brunch Recipes Are Easy Like Sunday Morning",
       "link": "https://www.delish.com/cooking/recipe-ideas/a73672202/sunday-morning-breakfast-recipes/",
@@ -2705,22 +2705,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "235591765d448e65",
-      "title": "Don't buy the 'regular' AirPods 5",
-      "link": "https://www.engadget.com/2255399/dont-buy-the-regular-airpods-5/",
-      "summary": "The first time you need to adjust volume, you'll wish you'd spent that extra $20.",
-      "body": "The first time you need to adjust volume, you'll wish you'd spent that extra $20.",
-      "image": "https://www.engadget.com/img/gallery/dont-buy-the-regular-airpods-5/l-intro-1789071874.jpg",
-      "pubDate": "2026-09-10T20:30:00.000Z",
-      "source": {
-        "name": "Engadget",
-        "homepage": "https://www.engadget.com/"
-      },
-      "lang": "en",
-      "category": "technology",
       "region": "global"
     },
     {
@@ -3380,22 +3364,6 @@
       "region": "global"
     },
     {
-      "id": "9773d8e29edc5933",
-      "title": "World's oldest evidence of habitual drug use traced back 25,000 years to Indonesia",
-      "link": "https://www.livescience.com/archaeology/worlds-oldest-evidence-of-habitual-drug-use-traced-back-25-000-years-to-indonesia",
-      "summary": "Hunter-gatherers from the last ice age sucked on betel nuts to soothe their toothaches, a new study reveals.",
-      "body": "The world's oldest known habitual drug use can be traced to an island in Indonesia, where ice age hunter-gatherers sucked on betel nuts — palm seeds that contain a neuroactive substance, a new study finds. Scientists made the discovery after studying strange grooves in the teeth of two prehistoric hunter-gatherers. The deep grooves were caused by regularly sucking on betel nuts ( Areca catechu ), likely for relief from the pain of toothache, according to the study, which was published Wednesday (Sept. 9) in the journal Science Advances . The partial skeletons of the two people were found on the island of Sulawesi, but their lives were separated in time by thousands of years. One of them, a man who died between about the ages of 40 and 50, lived between 25,000 and 16,000 years ago. This period roughly corresponds to the Last Glacial Maximum, the coldest part of the last ice age — although Sulawesi was not covered with ice at that time. The second person, who was around the same age when they died, lived on Sulawesi between 7,600 and 6,300 years ago, according to the study. The sex of this individual could not be determined. Betel nuts contain a neuroactive compound called arecoline…",
-      "image": "https://cdn.mos.cms.futurecdn.net/CfvAZTW3bDdw4YsAc2dP7i-1280-80.jpg",
-      "pubDate": "2026-09-09T18:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "062a48fea6e0ad11",
       "title": "Record-breaking rain in California was caused by abnormally high temperatures on the other side of the world, study finds",
       "link": "https://www.livescience.com/planet-earth/weather/record-breaking-rain-in-california-was-caused-by-abnormally-high-temperatures-on-the-other-side-of-the-world-study-finds",
@@ -3409,6 +3377,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "9773d8e29edc5933",
+      "title": "World's oldest evidence of habitual drug use traced back 25,000 years to Indonesia",
+      "link": "https://www.livescience.com/archaeology/worlds-oldest-evidence-of-habitual-drug-use-traced-back-25-000-years-to-indonesia",
+      "summary": "Hunter-gatherers from the last ice age sucked on betel nuts to soothe their toothaches, a new study reveals.",
+      "body": "The world's oldest known habitual drug use can be traced to an island in Indonesia, where ice age hunter-gatherers sucked on betel nuts — palm seeds that contain a neuroactive substance, a new study finds. Scientists made the discovery after studying strange grooves in the teeth of two prehistoric hunter-gatherers. The deep grooves were caused by regularly sucking on betel nuts ( Areca catechu ), likely for relief from the pain of toothache, according to the study, which was published Wednesday (Sept. 9) in the journal Science Advances . The partial skeletons of the two people were found on the island of Sulawesi, but their lives were separated in time by thousands of years. One of them, a man who died between about the ages of 40 and 50, lived between 25,000 and 16,000 years ago. This period roughly corresponds to the Last Glacial Maximum, the coldest part of the last ice age — although Sulawesi was not covered with ice at that time. The second person, who was around the same age when they died, lived on Sulawesi between 7,600 and 6,300 years ago, according to the study. The sex of this individual could not be determined. Betel nuts contain a neuroactive compound called arecoline…",
+      "image": "https://cdn.mos.cms.futurecdn.net/CfvAZTW3bDdw4YsAc2dP7i-1280-80.jpg",
+      "pubDate": "2026-09-09T18:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
       "region": "global"
     },
     {
@@ -4292,22 +4276,6 @@
       "region": "global"
     },
     {
-      "id": "53221b42f57b9bbb",
-      "title": "Ancient Egyptian tomb holding the king's 'keeper of secrets' unearthed at Saqqara",
-      "link": "https://www.livescience.com/archaeology/ancient-egyptians/ancient-egyptian-tomb-holding-the-kings-keeper-of-secrets-unearthed-at-saqqara",
-      "summary": "The tomb of a pyramid-age official has been found at Saqqara in Egypt.",
-      "body": "Archaeologists in Egypt have discovered an ancient tomb belonging to the \"keeper of the secrets of royal decrees,\" they announced following an excavation at Saqqara. The decorated burial belongs to an official named Sekhentio-Ptah, who lived during the Old Kingdom (2649 to 2150 B.C.), a period that's famous for the building of the pyramids, including those at Giza . While the title \"keeper of the secrets of royal decrees\" may sound mysterious, it was likely a more bureaucratic position, said Ann Macy Roth , a clinical professor of Egyptology at New York University who was not involved with the excavation. It \"probably merely means that as someone in charge of royal documents and the people who write them, he has access to confidential information,\" Roth told Live Science in an email. \"It's a common title among royal scribes.\" The official Sekhentio-Ptah had a number of other titles, according to his tomb, including \"Overseer of all the King's Works\" and \"Overseer of Royal Documents,\" representatives of Egypt's Ministry of Tourism and Antiquities wrote in a translated statement . Within the tomb, archaeologists found an offering table, a purification basin and two false doors. The …",
-      "image": "https://cdn.mos.cms.futurecdn.net/UWTHpC4LLwod3xw974hATd-1280-80.png",
-      "pubDate": "2026-09-06T16:05:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "683bb9426d6809cc",
       "title": "AI's water use is a problem, but shifting from electricity to solar or wind power could help",
       "link": "https://www.livescience.com/planet-earth/artificial-intelligence/ais-water-use-is-a-problem-but-shifting-from-electricity-to-solar-or-wind-power-could-help",
@@ -4321,6 +4289,22 @@
       },
       "lang": "en",
       "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "53221b42f57b9bbb",
+      "title": "Ancient Egyptian tomb holding the king's 'keeper of secrets' unearthed at Saqqara",
+      "link": "https://www.livescience.com/archaeology/ancient-egyptians/ancient-egyptian-tomb-holding-the-kings-keeper-of-secrets-unearthed-at-saqqara",
+      "summary": "The tomb of a pyramid-age official has been found at Saqqara in Egypt.",
+      "body": "Archaeologists in Egypt have discovered an ancient tomb belonging to the \"keeper of the secrets of royal decrees,\" they announced following an excavation at Saqqara. The decorated burial belongs to an official named Sekhentio-Ptah, who lived during the Old Kingdom (2649 to 2150 B.C.), a period that's famous for the building of the pyramids, including those at Giza . While the title \"keeper of the secrets of royal decrees\" may sound mysterious, it was likely a more bureaucratic position, said Ann Macy Roth , a clinical professor of Egyptology at New York University who was not involved with the excavation. It \"probably merely means that as someone in charge of royal documents and the people who write them, he has access to confidential information,\" Roth told Live Science in an email. \"It's a common title among royal scribes.\" The official Sekhentio-Ptah had a number of other titles, according to his tomb, including \"Overseer of all the King's Works\" and \"Overseer of Royal Documents,\" representatives of Egypt's Ministry of Tourism and Antiquities wrote in a translated statement . Within the tomb, archaeologists found an offering table, a purification basin and two false doors. The …",
+      "image": "https://cdn.mos.cms.futurecdn.net/UWTHpC4LLwod3xw974hATd-1280-80.png",
+      "pubDate": "2026-09-06T16:05:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
       "region": "global"
     },
     {
@@ -4676,22 +4660,6 @@
       "region": "gulf"
     },
     {
-      "id": "31d2eb699430eedb",
-      "title": "Excavation in Poland reveals Stone Age man buried with decapitated heads and a tooth necklace",
-      "link": "https://www.livescience.com/archaeology/excavation-in-poland-reveals-stone-age-man-buried-with-decapitated-heads-and-a-tooth-necklace",
-      "summary": "A Stone Age burial of a man with a toothy necklace and human skulls surprised archaeologists excavating in Poland.",
-      "body": "Archaeologists were excavating in a Roman-period cemetery in Poland when they came across something extremely unusual: the grave of a man who was buried with two decapitated human heads, a necklace made from 42 mammal teeth, and a battle ax. That ax provided an important clue: He was actually from the Stone Age, three millennia older than the Roman cemetery. \"We were practically packing up, and then we discovered a circular shape in the ground and began digging,\" Paweł Dąbrowski , a biological anthropologist at Wrocław Medical University, said in a Sept. 2 translated statement . \"We found fairly well-preserved animal teeth arranged in a necklace.\" The grave, which was found near Wrocław in southwest Poland, included the nearly complete skeleton of an adult male who was buried with amber beads, a flint blade and a battle ax made of serpentinite, a greenish metamorphic rock. The style of the stone ax suggests the burial was made around 2900 B.C., during the Middle Neolithic period (New Stone Age), according to the statement. But a handful of teeth and bones that were also deposited in the grave as funeral offerings made the burial stand out as particularly unusual. Archaeologists fo…",
-      "image": "https://cdn.mos.cms.futurecdn.net/booNSpbUxMVRLzpQZAVJBj-1280-80.png",
-      "pubDate": "2026-09-05T12:00:00.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "96d5d0b6f4ff70d9",
       "title": "Walmart Is Bringing Dunkin’ Delivery To Its App—And Not Just From In-Store Locations",
       "link": "https://www.delish.com/food-news/a73621358/walmart-dunkin-delivery-app/",
@@ -4705,6 +4673,22 @@
       },
       "lang": "en",
       "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "31d2eb699430eedb",
+      "title": "Excavation in Poland reveals Stone Age man buried with decapitated heads and a tooth necklace",
+      "link": "https://www.livescience.com/archaeology/excavation-in-poland-reveals-stone-age-man-buried-with-decapitated-heads-and-a-tooth-necklace",
+      "summary": "A Stone Age burial of a man with a toothy necklace and human skulls surprised archaeologists excavating in Poland.",
+      "body": "Archaeologists were excavating in a Roman-period cemetery in Poland when they came across something extremely unusual: the grave of a man who was buried with two decapitated human heads, a necklace made from 42 mammal teeth, and a battle ax. That ax provided an important clue: He was actually from the Stone Age, three millennia older than the Roman cemetery. \"We were practically packing up, and then we discovered a circular shape in the ground and began digging,\" Paweł Dąbrowski , a biological anthropologist at Wrocław Medical University, said in a Sept. 2 translated statement . \"We found fairly well-preserved animal teeth arranged in a necklace.\" The grave, which was found near Wrocław in southwest Poland, included the nearly complete skeleton of an adult male who was buried with amber beads, a flint blade and a battle ax made of serpentinite, a greenish metamorphic rock. The style of the stone ax suggests the burial was made around 2900 B.C., during the Middle Neolithic period (New Stone Age), according to the statement. But a handful of teeth and bones that were also deposited in the grave as funeral offerings made the burial stand out as particularly unusual. Archaeologists fo…",
+      "image": "https://cdn.mos.cms.futurecdn.net/booNSpbUxMVRLzpQZAVJBj-1280-80.png",
+      "pubDate": "2026-09-05T12:00:00.000Z",
+      "source": {
+        "name": "Live Science",
+        "homepage": "https://www.livescience.com/feeds/all"
+      },
+      "lang": "en",
+      "category": "science",
       "region": "global"
     },
     {
@@ -5076,22 +5060,6 @@
       "region": "global"
     },
     {
-      "id": "24830d3ed9869edb",
-      "title": "'A worrying snapshot': Satellite image shows large patches of open water less than 40 miles from the North Pole",
-      "link": "https://www.livescience.com/planet-earth/arctic/a-worrying-snapshot-satellite-image-shows-large-patches-of-open-water-less-than-40-miles-from-the-north-pole",
-      "summary": "An image from NASA Worldview shows how brittle Arctic sea ice is becoming due to global warming, with large patches of open water visible near the North Pole on Aug. 29.",
-      "body": "Large patches of open water were visible just 37 miles (60 kilometers) from the North Pole on Aug. 29, a NASA satellite image shows. Although this doesn't necessarily mean that Arctic ice is worse off this year than the past few years, the image reveals how severely climate change is affecting the region, experts say. The image is from the NASA Worldview satellite photo browsing tool and was shared last week on the blog Arctic News . The patches are \"quite striking,\" but it's not the first time that water has encroached upon Arctic ice in this way, said Julienne Stroeve , a professor of polar observation and modeling at University College London. \"We can see open water at times at the North Pole but I don't think it's ever been this extensive,\" Stroeve told Live Science in an email. For instance, the central Arctic Ocean and regions north of 80 degrees north latitude, an imaginary line that crosses Canada's Ellesmere Island and Spitsbergen in Norway, were highly fragmented in early September 2016. The time of year is one reason water is now visible in this region, said Zachary Labe , a climate scientist at Climate Central, a nonprofit news organization that analyzes and reports on…",
-      "image": "https://cdn.mos.cms.futurecdn.net/B7ttkxZs7BHiGJrHbescyY-1280-80.jpg",
-      "pubDate": "2026-09-04T10:06:44.000Z",
-      "source": {
-        "name": "Live Science",
-        "homepage": "https://www.livescience.com/feeds/all"
-      },
-      "lang": "en",
-      "category": "science",
-      "region": "global"
-    },
-    {
       "id": "e6b0fbce904d585e",
       "title": "'My position now is as one of two 10s' - Kane breaks down his evolution",
       "link": "https://www.bbc.co.uk/sport/articles/cx2z7rjn2p2o?at_medium=RSS&at_campaign=rss",
@@ -5394,22 +5362,6 @@
       "lang": "ar",
       "category": "entertainment",
       "region": "gulf"
-    },
-    {
-      "id": "bc0853c7b869b1ef",
-      "title": "I Went To The US Open &amp; These Are The 4 Must-Have Cocktails You NEED To Try",
-      "link": "https://www.delish.com/food/a73585043/best-us-open-cocktails-2026/",
-      "summary": "These are the drinks worth leaving your seat for.",
-      "body": null,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/15caa48c-ca78-4983-8bcb-e6f7d2595166.jpeg",
-      "pubDate": "2026-09-02T19:45:59.000Z",
-      "source": {
-        "name": "Delish",
-        "homepage": "https://www.delish.com/rss/all.xml/"
-      },
-      "lang": "en",
-      "category": "technology",
-      "region": "global"
     },
     {
       "id": "ffd4a98e1e8fda53",
