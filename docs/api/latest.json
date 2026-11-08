@@ -1,13 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T22:49:58.128Z",
-    "total": 189,
+    "generated_at": "2026-11-08T01:54:11.840Z",
+    "total": 197,
     "processed_feeds": 20,
     "discovered_feeds": 84,
     "sports_processed_every_run": true,
     "shard_of": 5,
     "shard_index": 4,
     "results": [
+      {
+        "name": "BBC Sport",
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "homepage": "https://www.bbc.com/sport",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "sports"
+        ],
+        "taken": 67,
+        "error": null,
+        "notModified": false
+      },
       {
         "name": "CDC — Newsroom",
         "url": "https://tools.cdc.gov/api/v2/resources/media/403372.rss",
@@ -18,19 +31,6 @@
           "general"
         ],
         "taken": 0,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "BBC Sport",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-        "homepage": "https://www.bbc.com/sport",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "sports"
-        ],
-        "taken": 62,
         "error": null,
         "notModified": false
       },
@@ -48,15 +48,28 @@
         "notModified": false
       },
       {
-        "name": "Kooora",
-        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
-        "homepage": "https://www.kooora.com/",
+        "name": "Youm7 Sports",
+        "url": "https://www.youm7.com/rss/rss",
+        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
         "lang": "ar",
-        "region": "mena",
+        "region": "egypt",
         "cats": [
           "sports"
         ],
-        "taken": 20,
+        "taken": 0,
+        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
+        "notModified": false
+      },
+      {
+        "name": "CNBC — Markets",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 18,
         "error": null,
         "notModified": false
       },
@@ -74,42 +87,16 @@
         "notModified": false
       },
       {
-        "name": "CNBC — Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "homepage": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "name": "Food52",
+        "url": "https://food52.com/blog.rss",
+        "homepage": "https://food52.com/blog.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
-        ],
-        "taken": 18,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Youm7 Sports",
-        "url": "https://www.youm7.com/rss/rss",
-        "homepage": "https://www.youm7.com/Section/298/1/رياضة",
-        "lang": "ar",
-        "region": "egypt",
-        "cats": [
-          "sports"
         ],
         "taken": 0,
-        "error": "TypeError: Cannot convert argument to a ByteString because the character at index 36 has a value of 1585 which is greater than 255.",
-        "notModified": false
-      },
-      {
-        "name": "Investing.com News (EN)",
-        "url": "https://www.investing.com/rss/news.rss",
-        "homepage": "https://www.investing.com/rss/news.rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 8,
-        "error": null,
+        "error": "Error: HTTP 429",
         "notModified": false
       },
       {
@@ -126,41 +113,15 @@
         "notModified": false
       },
       {
-        "name": "Food52",
-        "url": "https://food52.com/blog.rss",
-        "homepage": "https://food52.com/blog.rss",
+        "name": "Investing.com News (EN)",
+        "url": "https://www.investing.com/rss/news.rss",
+        "homepage": "https://www.investing.com/rss/news.rss",
         "lang": "en",
         "region": "global",
         "cats": [
           "general"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 429",
-        "notModified": false
-      },
-      {
-        "name": "PC Gamer",
-        "url": "https://www.pcgamer.com/rss/",
-        "homepage": "https://www.pcgamer.com/rss/",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 43,
-        "error": null,
-        "notModified": false
-      },
-      {
-        "name": "Financial Times — Markets",
-        "url": "https://www.ft.com/markets?format=rss",
-        "homepage": "https://www.ft.com/markets?format=rss",
-        "lang": "en",
-        "region": "global",
-        "cats": [
-          "general"
-        ],
-        "taken": 22,
+        "taken": 10,
         "error": null,
         "notModified": false
       },
@@ -178,10 +139,49 @@
         "notModified": false
       },
       {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "homepage": "https://www.pcgamer.com/rss/",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 44,
+        "error": null,
+        "notModified": false
+      },
+      {
+        "name": "Financial Times — Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "homepage": "https://www.ft.com/markets?format=rss",
+        "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 22,
+        "error": null,
+        "notModified": false
+      },
+      {
         "name": "Gulf News - Entertainment",
         "url": "https://gulfnews.com/entertainment/rss",
         "homepage": "https://gulfnews.com/entertainment/rss",
         "lang": "en",
+        "region": "global",
+        "cats": [
+          "general"
+        ],
+        "taken": 0,
+        "error": "Error: HTTP 404",
+        "notModified": false
+      },
+      {
+        "name": "Sada El-Balad — فن",
+        "url": "https://www.elbalad.news/rss/257",
+        "homepage": "https://www.elbalad.news/rss/257",
+        "lang": "ar",
         "region": "global",
         "cats": [
           "general"
@@ -204,16 +204,16 @@
         "notModified": false
       },
       {
-        "name": "Al Bayan (UAE) - رياضة",
-        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
-        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "name": "Kooora",
+        "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+        "homepage": "https://www.kooora.com/",
         "lang": "ar",
-        "region": "global",
+        "region": "mena",
         "cats": [
-          "general"
+          "sports"
         ],
-        "taken": 0,
-        "error": "Error: HTTP 404",
+        "taken": 20,
+        "error": null,
         "notModified": false
       },
       {
@@ -230,9 +230,9 @@
         "notModified": false
       },
       {
-        "name": "Sada El-Balad — فن",
-        "url": "https://www.elbalad.news/rss/257",
-        "homepage": "https://www.elbalad.news/rss/257",
+        "name": "Al Bayan (UAE) - رياضة",
+        "url": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
+        "homepage": "https://www.albayan.ae/polopoly_fs/1.441/rssDelivery",
         "lang": "ar",
         "region": "global",
         "cats": [
@@ -272,6 +272,566 @@
   },
   "items": [
     {
+      "id": "1364db3ca25ae682",
+      "title": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'",
+      "link": "https://www.pcgamer.com/gaming-industry/a-bioware-documentary-was-already-in-the-works-when-the-shutdown-was-announced-with-the-studios-recent-closure-the-film-is-now-a-profound-valediction/",
+      "summary": "\"The best stories never really end.\"",
+      "body": "Deadline reports that a Canadian documentary about the history of BioWare was already two years into filming when EA closed the studio. Now, it's becoming a sad goodbye to a legendary developer. \"The BioWare founders are my hometown heroes,\" the documentary's writer and director Akash Sherman said. \"It's a privilege and responsibility to share the journey of underdogs who came together to create deeply beloved storytelling. Their golden era kindled a spark in me and in an entire generation. With the studio's recent closure, the film is now a profound valediction.\" The documentary, Massive Effect: The BioWare Story, features interviews with the studio's founders, Ray Muzyka, Greg Zeschuk, and Augustine Yip, as well as developers Casey Hudson, Mark Darrah, David Gaider, Drew Karpyshyn, Aaryn Flynn, Mac Walters, Trent Oster, James Ohlen, and Caroline Livingstone, voice actor Jennifer Hale, former CEO of EA John Riccitello, and vice president of Lucasfilm Games Douglas Reilly. \"When the production team asked for our blessing to tell the BioWare story, we were honored and genuinely moved,\" Muzyka and Zeschuk said in a statement. \"BioWare was never just about the logo or the building. I…",
+      "image": "https://cdn.mos.cms.futurecdn.net/uSjqHDZA7WMXxsKULPqTL3-1920-80.jpg",
+      "pubDate": "2026-11-08T01:31:13.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "e1f84d124dfb7075",
+      "title": "AI stock selloff drives investors to China, India, and overlooked Asian sectors",
+      "link": "https://www.investing.com/news/stock-market-news/ai-stock-selloff-drives-investors-to-china-india-and-overlooked-asian-sectors-5010098",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/news/LYNXNPEB6R07D_M.jpg",
+      "pubDate": "2026-11-08T01:00:45.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "61846ab612baf5f6",
+      "title": "Billam-Smith stopped as Clarke repeats amateur win",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/c6ly3mr522vpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Former cruiserweight world champion Chris Billam-Smith is knocked down and stopped for the first time in his professional career as Chev Clarke wins their non-title bout.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:55:21.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "82b90cf8b1dd9c60",
+      "title": "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance",
+      "link": "https://www.pcgamer.com/games/puzzle/chess-is-immediately-more-fun-if-you-jettison-most-of-the-rules-and-replace-them-with-weapons-grade-game-boy-advance/",
+      "summary": "\"Pawn Chess\" is whatever you want it to be in Rulehouse.",
+      "body": "I have never been particularly good at The Game of Kings, but I do love when an indie developer turns their talents to turning chess into something more funky . Shotgun King stole my heart a few years ago, and now Rulehouse is looking to offer its own spin on the classic. Weird Weekend Weird Weekend is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Ted, and Rick have become obsessed with this time, whether it's the canon height of Thief's Garrett or that time someone in the Vatican pirated Football Manager . In a generous demo covering the first act of the game, Rulehouse presents a Wario Ware spin on things⁠—in multiple ways. Each level introduces at least one new mechanic or modifier you have to keep track of, starting with the basic \"pawns only, first one to the other side of the board wins,\" and ramping up to a simulated prison break where guards are firing on your pieces, and you have to get your king⁠—here the game's protagonist in a prison jumpsuit⁠—to the exit. The escalation in complexity had me genuinely scratching my head, stumped at how t…",
+      "image": "https://cdn.mos.cms.futurecdn.net/Y9Kr7JgAuyp7mudsm8uiRn-1920-80.png",
+      "pubDate": "2026-11-08T00:40:53.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "558d0f82f2348bcf",
+      "title": "Substitutes inspire Barnet to late win over Tranmere Rovers",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqd091gjpj4zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Barnet score three goals in the final 15 minutes of the match to beat Tranmere Rovers 3-0 in the first round of the FA Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:28:51.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f82aff3bbd3da000",
+      "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqev3rdvyvm1o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport commentator Steve Bower gives an insight into trying to commentate when thick fog engulfs a stadium and you can barely see the action.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:17:56.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "3355c1e72a624ca1",
+      "title": "'It's Savage junior's night' - Charlie scores against dad Robbie's side",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Robbie Savage's son Charlie scores for Reading against Peterborough United, the side his father manages in the first round of the FA Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:13:34.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "a46d72727f1306cb",
+      "title": "Charlie Savage shines for Reading to beat dad Robbie's Peterborough",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqx29ey1m9zpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Charlie Savage scores his first goal of the season and puts in a man-of-the-match performance for Reading who knock out dad Robbie's Peterborough United in the FA Cup first round.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:12:24.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "87077019e7d2e2ee",
+      "title": "Camerimage Founder Marek Zydowicz on AI, Aronofsky and Why “Cinematographers Are Artists, Not Technicians”",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/camerimage-founder-marek-zydowicz-ai-aronofsky-cinematographers-1236749343/",
+      "summary": "As Camerimage turns 34, its director explains how the world's leading festival on the art of cinematography continues to embrace new technology while drawing the line on fully AI-generated films.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:11:43.000Z",
+      "source": {
+        "name": "Hollywood Reporter",
+        "homepage": "https://www.hollywoodreporter.com/feed/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "5d73bf66479f3ef7",
+      "title": "'Wonderful goal' - Crewe's McNeill scores from halfway line",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Charlie McNeill scores from the halfway line in the 12th minute to open the scoring for Crewe Alexandra against AFC Wimbledon in the first round of the FA Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:07:11.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "c6d9b7fe6265fe16",
+      "title": "Fylde beat Harrogate Town in all-National League clash",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqp8g3xkvdk5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Two late goals secure a 4-1 win for Fylde against Harrogate Town in an all-National League FA Cup first round tie.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:04:58.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "0e1d3ad5253517bc",
+      "title": "'Curtains for Robinson' or can floundering Aberdeen boss survive?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crlyk582kpn1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Will the \"unacceptable\" 4-0 home defeat to fellow strugglers Hibernian signal the end of Stephen Robinson's Aberdeen tenure?",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:04:00.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "1a5011052a25fdba",
+      "title": "Was Leeds' Bogle lucky to escape red card?",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c6lyl7qvq8ejo?at_medium=RSS&at_campaign=rss",
+      "summary": "Match of the Day's Steph Houghton and Danny Murphy assess whether a challenge from Leeds United's Jayden Bogle on Tottenham's Mathys Tel was worthy of a red card.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:00:26.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "85804964743b6fa4",
+      "title": "Forest win over Man City 'a turning point' - Murphy",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c893zr4rlzp1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Match of the Day's Danny Murphy breaks down Nottingham Forest's impressive 3-1 win over Manchester City, a victory that he believes could be \"a turning point\" in Forest's first season under Oliver Glasner.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:00:14.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "f578152b15fdf354",
+      "title": "Arsenal should have been awarded penalty against Hull - Cann",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Former Premier League assistant referee Darren Cann explains why Arsenal should have been awarded a penalty for a foul on Kai Havertz in the Premier League champions' 1-0 win over Hull City.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-08T00:00:09.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "165248dcc7ca599a",
+      "title": "كتيبة المدفعية.. فالفيردي ثالثًا في قائمة يتصدرها ميسي",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%AA%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%81%D8%B9%D9%8A%D8%A9--%D9%81%D8%A7%D9%84%D9%81%D9%8A%D8%B1%D8%AF%D9%8A-%D8%AB%D8%A7%D9%84%D8%AB%D9%8B%D8%A7-%D9%81%D9%8A-%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1%D9%87%D8%A7-%D9%85%D9%8A%D8%B3%D9%8A/bltb5ea1a8ef58e4912?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "فالفيردي افتتح التسجيل للميرينجي",
+      "body": "فالفيردي افتتح التسجيل للميرينجي واصل الأوروجواياني فيديريكو فالفيردي، لاعب ريال مدريد، تألقه في التسديد من خارج منطقة الجزاء، بعدما افتتح التسجيل لفريقه خلال الفوز على فالنسيا بثلاثة أهداف دون رد، مساء السبت على ملعب ميستايا، ضمن منافسات الجولة الـ12 من الدوري الإسباني. وجاء هدف فالفيردي في الدقيقة 28 من تسديدة قوية. ووفقًا لحساب \"MisterChip\" الإسباني المتخصص في الإحصائيات، سجل لاعب الوسط 16 هدفًا من خارج منطقة الجزاء، من إجمالي 26 هدفًا أحرزها في الدوري الإسباني، بنسبة تبلغ 62%، ليحتل المركز الخامس في قائمة أعلى اللاعبين تسجيلًا من خارج المنطقة من حيث النسبة خلال القرن الحادي والعشرين، بين اللاعبين الذين سجلوا 20 هدفًا على الأقل. اقرأ أيضًا تهديدات بفض الشراكة مع المغرب.. مونديال 2030 في قلب معركة الانتخابات الإسبانية لماذا فضلت ريال مدريد على برشلونة؟.. جابرييل يرد بكلمتين ويتقدم على فالفيردي في القائمة أسونساو، الذي سجل 19 هدفًا من خارج المنطقة من أصل 24، بنسبة 79%، ثم روبرتو كارلوس بنسبة 70%، بعدما أحرز 19 هدفًا من أصل 27، وسينا وتيكو بنسبة 65% لكل منهما، بواقع 13 من 20. ومنذ ظهوره الأول في دوري الدرجة الأولى الإسباني، في سبتمبر 2017، لم يسجل من خارج منطقة الجزاء أكثر من فالفيردي سوى أسطورة برشلونة، ليونيل ميسي، برصيد 34 هدفًا، وياجو أسباس برصيد 20 هدفًا. وأضاف أردا جولر الهد…",
+      "image": null,
+      "pubDate": "2026-11-07T23:59:18.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "acb304ed35c0a7ec",
+      "title": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko?at_medium=RSS&at_campaign=rss",
+      "summary": "Polesitter Lando Norris says qualifying for the Sao Paulo Grand Prix brought \"some of the wettest conditions\" in which he had ever driven.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:53:30.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "df1010bd08ab6869",
+      "title": "How to invest in AI amid AI spending worries?",
+      "link": "https://www.investing.com/news/stock-market-news/how-to-invest-in-ai-amid-ai-spending-worries-5010090",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/news/ArtificialIntelligenceAI_800x533_L_1683035735.jpg",
+      "pubDate": "2026-11-07T23:53:16.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "25196e50985d114c",
+      "title": "York score after 10 seconds against Northampton following unique kick-off",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c893zrl4p7npo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ollie Pearce scores after 10 seconds as York City see off Northampton Town in a 4-0 win to reach the second round of the FA Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:38:38.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "407bb184f79b92ac",
+      "title": "Plymouth cruise past Alvechurch to reach FA Cup second round",
+      "link": "https://www.bbc.co.uk/programmes/p0plvxmx?at_medium=RSS&at_campaign=rss",
+      "summary": "Plymouth cruise past Alvechurch to reach FA Cup second round",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:32:35.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "58b024c55a1ca2d2",
+      "title": "OceanFirst director Jack Farris buys $10,008 in company stock",
+      "link": "https://www.investing.com/news/insider-trading-news/oceanfirst-director-jack-farris-buys-10008-in-company-stock-93CH-5010086",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEM3T1AG_1200_L.jpg",
+      "pubDate": "2026-11-07T23:31:06.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "350b62074c2fcd57",
+      "title": "Southern Co comptroller Matthew Kim sells $9,339 in shares",
+      "link": "https://www.investing.com/news/insider-trading-news/southern-co-comptroller-matthew-kim-sells-9339-in-shares-93CH-5010085",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEM3T1AG_1200_L.jpg",
+      "pubDate": "2026-11-07T23:30:59.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "general",
+      "region": "global"
+    },
+    {
+      "id": "54eacf41ab911a03",
+      "title": "Hutchinson beats Buatsi to win WBC light-heavyweight title",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/cqx2vw8demexo?at_medium=RSS&at_campaign=rss",
+      "summary": "Willy Hutchinson is crowned WBC light-heavyweight champion as he produces the performance of his career against Joshua Buatsi in Manchester.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:26:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "54eacf41ab911a03",
+      "title": "Hutchinson beats Buatsi to win WBC light-heavyweight title",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/cqx2vw8demexo?at_medium=RSS&at_campaign=rss",
+      "summary": "Willy Hutchinson is crowned WBC light-heavyweight champion as he produces the performance of his career against Joshua Buatsi in Manchester.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:26:08.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "9223a00282124365",
+      "title": "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again",
+      "link": "https://www.pcgamer.com/games/rpg/one-of-the-buggiest-d-and-d-games-ever-released-pool-of-radiance-ruins-of-myth-drannor-is-back-and-actually-playable-again/",
+      "summary": "But did anyone ask for this?",
+      "body": "(Image credit: SNEG) \"Not since the infamous debut of Daikatana has the release of a single game generated so much incensed indignation from early buyers.\" Our review of Pool of Radiance: Ruins of Myth Drannor didn't hold back. The 2001 dungeon crawler contained, our review said, \"A multitude of outrageous bugs,\" including ones that corrupted saves, made quest items disappear, and most infamously deleted system files when you uninstalled the game. SNEG's rerelease, available now on Steam and GOG , doesn't have those issues. It adds widescreen, controller support, adjustable combat speed, tooltips, an action bar, and sharpened visuals. If, like me, you skipped this one back in the day because of its reputation for being a hassle to play—even with the eventual patches and community fixes—now it's smooth and problem-free. I've played the opening hours without a single key item vanishing or save file going corrupt. Don't get the wrong idea, though. Ruins of Myth Drannor isn't Vampire: The Masquerade – Bloodlines. This isn't an RPG masterpiece held back by its buggy release. It's a simplistic turn-based dungeon crawl that's mostly notable for being a spiritual successor to the first Go…",
+      "image": "https://cdn.mos.cms.futurecdn.net/RTBYtRwwXNQ5uHRWkUh2FL-1920-80.jpg",
+      "pubDate": "2026-11-07T23:22:07.000Z",
+      "source": {
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "ed551dae4d2ac809",
+      "title": "قطار مبابي لا يتوقف.. هل يكرر إنجاز رونالدو؟",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%B7%D8%A7%D8%B1-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%84%D8%A7-%D9%8A%D8%AA%D9%88%D9%82%D9%81--%D9%87%D9%84-%D9%8A%D9%83%D8%B1%D8%B1-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88/blta1c230e9e2826b88?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "موقعة فالنسيا.. النجم الفرنسي على خطي \"الدون\" وبنزيما",
+      "body": "موقعة فالنسيا.. النجم الفرنسي على خطي \"الدون\" وبنزيما واصل كيليان مبابي مسيرته التهديفية المميزة مع ريال مدريد، بعدما هز شباك فالنسيا خلال الفوز بثلاثية نظيفة، مساء السبت، ضمن منافسات الجولة الثانية عشرة من الدوري الإسباني. وسجل مبابي الهدف الثالث للفريق الملكي في الدقيقة 75، مؤكدًا انتصار ريال مدريد الذي افتتح فيديريكو فالفيردي أهدافه في الدقيقة 28، قبل أن يضيف جولر الهدف الثاني في الدقيقة 36. ناقش الموضوعات والأخبار بشكل أعمق في منتديات كووورة اقرأ أيضا: ليلة من زمن برشلونة.. إنريكي يعادل رقمه الأفضل ويطارد إنجاز بلان وبحسب إحصائية نشرها الإسباني أليكسيس \"مستر شيب\" عبر حسابه على منصة \"إكس\"، فإن مبابي سجل في 7 مباريات متتالية مع ريال مدريد، ليعادل عددًا من السلاسل التهديفية التي حققها أساطير النادي، كريستيانو رونالدو وكريم بنزيما. #OJOALDATO - Kylian Mbappé ha marcado en 7 partidos consecutivos con el Real Madrid en todas las competiciones oficiales. Últimas rachas de 7+ partidos seguidos marcando de un jugador del Real Madrid (competiciones oficiales de clubes): 7 MBAPPÉ (2026, en curso) 8 Mbappé (2025)… pic.twitter.com/DoQNsFD9Xt — MisterChip (Alexis) (@2010MisterChip) November 7, 2026 وتكشف القائمة عن تفوق رونالدو في هذا الجانب، بعدما سجل في 12 مباراة متتالية خلال عامي 2014 و2…",
+      "image": null,
+      "pubDate": "2026-11-07T23:19:19.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "f8cc4beac56f1bad",
+      "title": "Pearce double fires York City past Northampton Town",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqj34km75eydo?at_medium=RSS&at_campaign=rss",
+      "summary": "York City captain Ollie Pearce scores after just 10 seconds followed by a second in the 13th minute, as his side cruise to a 4-0 FA Cup first round win at home to Northampton.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:18:46.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "76d619d82649dc81",
+      "title": "برناردو سيلفا: الحكم هو من سمح لفالنسيا بالعدوانية",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B1%D9%86%D8%A7%D8%B1%D8%AF%D9%88-%D8%B3%D9%8A%D9%84%D9%81%D8%A7-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D9%87%D9%88-%D9%85%D9%86-%D8%B3%D9%85%D8%AD-%D9%84%D9%81%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%A7-%D8%A8%D8%A7%D9%84%D8%B9%D8%AF%D9%88%D8%A7%D9%86%D9%8A%D8%A9/blteb53211dc8de0341?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "المباراة شهدت توترًا كبيرًا",
+      "body": "المباراة شهدت توترًا كبيرًا انتقد البرتغالي برناردو سيلفا، لاعب ريال مدريد، الأداء التحكيمي خلال مواجهة فالنسيا، التي انتهت بفوز الفريق الملكي بثلاثة أهداف دون رد، مساء اليوم السبت على ملعب ميستايا، ضمن منافسات الجولة الـ12 من الدوري الإسباني. وقال سيلفا، في تصريحات صحفية عقب المباراة: \"لعب فالنسيا بعدوانية شديدة، شديدة للغاية، لأن الحكم سمح لهم بأن يكونوا عدوانيين\". اقرأ أيضًا تهديدات بفض الشراكة مع المغرب.. مونديال 2030 في قلب معركة الانتخابات الإسبانية لماذا فضلت ريال مدريد على برشلونة؟.. جابرييل يرد بكلمتين وجاءت تصريحات لاعب ريال مدريد، في أعقاب مباراة شهدت تدخلات قوية من لاعبي فالنسيا، الذين نالوا العديد من البطاقات الصفراء، بينما طُرد قائد الفريق خوسيه جايا بالبطاقة الحمراء المباشرة في الدقيقة 79، بعد تدخله على كيليان مبابي. وتحدث برناردو سيلفا أيضًا عن تطلعه إلى العودة للعب على ملعب سانتياجو برنابيو، قائلًا: \"لا يمكننا الانتظار حتى نعود إلى البرنابيو، ونواصل سلسلة انتصاراتنا هناك. أعلم أن الجماهير تنتظرنا أيضًا\". يُذكر أن سيلفا بات القائد الجديد لمنتخب البرتغال، بعد إعلان زميله الأسطورة كريستيانو رونالدو اعتزاله اللعب الدولي، على خلفية أزمة مع المدرب جورجي جيسوس. وكان فيديريكو فالفيردي قد تقدم لصالح الريال، في الدقيقة 28، قبل أن يضيف أردا جولر الهدف الثاني للضيوف، في الدقي…",
+      "image": null,
+      "pubDate": "2026-11-07T23:13:53.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "2d8e6e612aef1db7",
+      "title": "قائد فالنسيا يتحدى: لم أستحق الطرد أمام ريال مدريد",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%A7%D9%8A%D9%94%D8%AF-%D9%81%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%A7-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D9%84%D9%85-%D8%A7%D9%94%D8%B3%D8%AA%D8%AD%D9%82-%D8%A7%D9%84%D8%B7%D8%B1%D8%AF-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt72fa4ff3a8ffedeb?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الخفافيش أنهوا المباراة بعشرة لاعبين",
+      "body": "الخفافيش أنهوا المباراة بعشرة لاعبين دافع خوسيه جايا، قائد فالنسيا، عن تدخله الذي تسبب في طرده بالبطاقة الحمراء المباشرة خلال مواجهة ريال مدريد، التي انتهت بفوز الفريق الملكي بثلاثة أهداف دون رد، مساء اليوم السبت، ضمن منافسات الدوري الإسباني. وقال جايا، في تصريحات صحفية عقب المباراة، تعليقًا على قرار الحكم: \"لم أشاهد اللقطة مجددًا، لكن كان عليّ إيقاف الهجمة. صحيح أن تدخلي كان قويًا، لكني لم أقصد إيذاء اللاعب إطلاقًا\". اقرأ أيضًا تهديدات بفض الشراكة مع المغرب.. مونديال 2030 في قلب معركة الانتخابات الإسبانية لماذا فضلت ريال مدريد على برشلونة؟.. جابرييل يرد بكلمتين وأضاف قائد الخفافيش: \"أعتقد أن الصور توضح أنني لم أتدخل بمسامير الحذاء، بل كانت قدمي منخفضة\". وتابع: \"لا أعرف إن كان الحكم طردني بسبب قوة التدخل، أم لأنني كنت آخر مدافع. كنت في وضعية دفاعية سيئة، لكن بالنسبة لي، اللقطة كانت تستحق بطاقة صفراء فقط\". وتلقى جايا البطاقة الحمراء المباشرة في الدقيقة 79، بعد تدخله على كيليان مبابي، الذي كان قد سجل الهدف الثالث لريال مدريد في الدقيقة 75، ليكمل فالنسيا الدقائق الأخيرة من المباراة بعشرة لاعبين. وكان فيديريكو فالفيردي قد تقدم لصالح الريال، في الدقيقة 28، قبل أن يضيف أردا جولر الهدف الثاني للضيوف، في الدقيقة 36، ثم اختتم مبابي الثلاثية، ليصبح الفريق الملكي في وصافة جدول ترتيب الليجا ب…",
+      "image": null,
+      "pubDate": "2026-11-07T23:09:48.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "0b089308ad423089",
+      "title": "Highlights: Exeter shock League One leaders Huddersfield",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cq8rz7lyl5g8o?at_medium=RSS&at_campaign=rss",
+      "summary": "League Two Exeter City pull off an upset 2-1 win away to League One leaders Huddersfield Town to progress into the second round of the FA Cup.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:08:32.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "76f66184acc4f7ee",
+      "title": "McNeill's superb halfway goal sparks Crewe upset over Wimbledon",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cv5yn15k5pz0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Charlie McNeill's strike from the halfway line helps League Two frontrunners Crewe progress to the second round of the FA Cup, with a 2-1 win over League One AFC Wimbledon.",
+      "body": null,
+      "image": null,
+      "pubDate": "2026-11-07T23:05:36.000Z",
+      "source": {
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
+      },
+      "lang": "en",
+      "category": "sports",
+      "region": "global"
+    },
+    {
+      "id": "d35c09ff68b0fa77",
+      "title": "Voyager Technologies selected for NASA’s $10B lunar contract",
+      "link": "https://www.investing.com/news/company-news/voyager-technologies-selected-for-nasas-10b-lunar-contract-93CH-5010080",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/news/LYNXMPEM3S13F_1200_L.jpg",
+      "pubDate": "2026-11-07T23:04:34.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
+      "id": "a50d05754fc1e9c9",
+      "title": "ليلة من زمن برشلونة.. إنريكي يعادل رقمه الأفضل ويطارد إنجاز بلان",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D9%8A%D9%84%D8%A9-%D9%85%D9%86-%D8%B2%D9%85%D9%86-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9--%D8%A7%D9%95%D9%86%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%B9%D8%A7%D8%AF%D9%84-%D8%B1%D9%82%D9%85%D9%87-%D8%A7%D9%84%D8%A7%D9%94%D9%81%D8%B6%D9%84-%D9%88%D9%8A%D8%B7%D8%A7%D8%B1%D8%AF-%D8%A7%D9%95%D9%86%D8%AC%D8%A7%D8%B2-%D8%A8%D9%84%D8%A7%D9%86/blt5b400e707499b241?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "محطة تاريخية",
+      "body": "محطة تاريخية واصل باريس سان جيرمان سلسلة انتصاراته اللافتة، بعدما حقق فوزه السابع في الدوري الفرنسي خلال الموسم الجاري 2026-27، بنتيجة 1-0 أمام تروا، مساء السبت، ضمن منافسات الجولة العاشرة. وحسم فريق المدرب لويس إنريكي انتصاره الليلة عبر إيليا زابارني الذي سجل هدف المباراة الوحيد في الدقيقة 39. ناقش الموضوعات والأخبار بشكل أعمق في منتديات كووورة واستعاد المدرب لويس إنريكي رقما ذهبيا من حقبة برشلونة، حيث عادل المدرب الإسباني الليلة أفضل سلسلة انتصارات حققها خلال مسيرته التدريبية: 11 انتصارًا متتاليًا، وهو الرقم ذاته الذي حققه إنريكي مع برشلونة خلال الفترة بين يناير وفبراير 2015، وفقا لإحصائيات \"أوبتا\". 11 - Le Paris SG reste sur 11 victoires toutes compétitions confondues, Luis Enrique égalant sa meilleure série comme entraîneur (11 aussi en janvier-février 2015 avec Barcelone). Comprendre. pic.twitter.com/kKuatQdokV — OptaJean (@OptaJean) November 7, 2026 لكن لا يزال الرقم القياسي التاريخي لباريس سان جيرمان أكبر من ذلك؛ إذ حقق الفريق 16 انتصارًا متتاليًا بين ديسمبر 2015 وفبراير 2016، تحت قيادة لوران بلان، وفقًا لبيانات ستاتس فوت. Le Paris SG a remporté ses 11 derniers matchs en compétition officielle. Sa meilleure série de victoires depuis décembre 2015-février 2016 sous Laurent B…",
+      "image": null,
+      "pubDate": "2026-11-07T22:50:34.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "32c9b27b87e4bc12",
+      "title": "بالفيديو.. وليد الفراج: روشن عبارة عن 4 فرق.. والباقي يكملون الدوري!",
+      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88--%D9%88%D9%84%D9%8A%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%AC-%D8%B1%D9%88%D8%B4%D9%86-%D8%B9%D8%A8%D8%A7%D8%B1%D8%A9-%D8%B9%D9%86-4-%D9%81%D8%B1%D9%82--%D9%88%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D9%8A-%D9%8A%D9%83%D9%85%D9%84%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A/bltc890cc7d180878fd?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
+      "summary": "الإعلامي السعودي يثير الجدل",
+      "body": "الإعلامي السعودي يثير الجدل أثار الإعلامي السعودي وليد الفراج حالة من الجدل، بعدما اعتبر أن دوري روشن السعودي يتكون من 4 فرق، فيما تكمن مهمة باقي الأندية في إكمال العدد فقط. وخلال تقديم برنامج \"روتانا سبورت مع وليد\" على قناة \"روتانا خليجية\"، سأل أحمد المتابعين الإعلامي السعودي عن سبب عدم الحديث عن الأندية الأخرى في دوري روشن، بخلاف الرباعي الكبير. وأجاب الفراج: \"المدرجات خالية، لا يوجد سوى هذا الرباعي، أنا أحترم وأقدر كل الأندية، ولكن هل تعتقد أن الأندية الثمانية عشرة التي تشارك في بطولة الدوري لها نفس التأثير؟\". وأضاف: \"البلد لا يوجد فيها سوى 4 أندية تمثل الكتلة الصلبة للمتابعة والحضور والتسويق والأموال، والباقي يكملون الدوري، إثبات الحضور ليس برفع الصوت، ولكن بالحضور داخل الملعب\". تذاكر مباريات دوري روشن السعودي اشتر تذكرتك الآن! واستعرض الإعلامي السعودي قائمة الحضور الجماهيري الأكبر خلال الموسم الحالي من دوري روشن حتى الآن، حيث يأتي الهلال في المقدمة بواقع 107 آلاف و688 مشجعًا، يليه الاتحاد بـ103 آلاف و215 مشجعًا. النصر جاء في المرتبة الثالثة بـ101 ألف و54 مشجعًا، ثم القادسية بحضور 62 ألفًا و530 مشجعًا، بعده الفتح بـ38 ألفًا و819 مشجعًا، فيما جاء الأهلي سادسًا بـ38 ألفًا و779 مشجعًا. مشاهد: ليش ما تتكلمون عن الشباب وباقي الأندية؟ #وليد_الفراج : شاهد المدرجات لتحكم بنفسك.. يوجد …",
+      "image": null,
+      "pubDate": "2026-11-07T22:50:33.000Z",
+      "source": {
+        "name": "Kooora",
+        "homepage": "https://www.kooora.com/"
+      },
+      "lang": "ar",
+      "category": "sports",
+      "region": "mena"
+    },
+    {
+      "id": "46bc5ab7062ccc76",
+      "title": "Binance CFO Kaiser Ng steps down, Justin Yek named new finance chief",
+      "link": "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
+      "summary": "",
+      "body": null,
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA60JD_L.jpg",
+      "pubDate": "2026-11-07T22:48:56.000Z",
+      "source": {
+        "name": "Investing.com News (EN)",
+        "homepage": "https://www.investing.com/rss/news.rss"
+      },
+      "lang": "en",
+      "category": "technology",
+      "region": "global"
+    },
+    {
       "id": "a775ed1fd1c71e1f",
       "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
       "link": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
@@ -304,11 +864,11 @@
       "region": "mena"
     },
     {
-      "id": "e639bb3291b318e1",
-      "title": "مورينيو يكشف سر التحول الكبير داخل ريال مدريد",
+      "id": "f62557f72659c8e2",
+      "title": "مورينيو: كل ما أطلبه هو ألا يفعلوا هذه الأشياء بنا.. واختيارات اللاعبين \"مروعة!\"",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D9%8A%D9%83%D8%B4%D9%81-%D8%B3%D8%B1-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%AF%D8%A7%D8%AE%D9%84-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF/blt43a186999a318d36?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
       "summary": "إشادة كبيرة من البرتغالي بفريقه",
-      "body": "إشادة كبيرة من البرتغالي بفريقه أبدى البرتغالي جوزيه مورينيو، المدير الفني لريال مدريد، سعادته الكبيرة بالفوز على فالنسيا بثلاثية نظيفة، في المواجهة التي جمعتهما على ملعب ميستايا، ضمن منافسات الدوري الإسباني، قبل فترة التوقف الدولي، ليحقق الفريق الملكي انتصاره الثامن على التوالي في جميع المسابقات، وسط إشادة مدربه بالأداء الجماعي والتطور المستمر للاعبين. وقال مورينيو، في تصريحات لقناة ريال مدريد التلفزيونية، ونقلته صحيفة \" موندو ديبورتيفو \" إن فريقه قدم عرضًا استثنائيًا، مشيدًا بالمستوى الذي ظهر به اللاعبون، وأضاف: \"لقد استحقوا إشادة رائعة بهذا الأداء\"، مؤكدًا أن الفريق يواصل التطور ويعيش حالة فنية ممتازة. وأوضح المدرب البرتغالي أن الانتصار على فالنسيا اتسم بالكمال، مقارنة بالفوز الأخير على أيك أثينا، الذي تحقق بهدف في اللحظات الأخيرة، قائلًا: \"كما قلت في أثينا، الفوز بمباراة بعد العودة في اللحظات الأخيرة يمنح شعورًا رائعًا، لكنه يعني أنك لم تقدم مباراة مثالية، أما اليوم فقد قدمنا مباراة مثالية\". وكشف مورينيو أن الالتزام التكتيكي والتركيز كانا العاملين الحاسمين في تحقيق الفوز، موضحًا أن كل لاعب أدى دوره بتركيز كبير، مع إدراكه لصعوبة المواجهة وأهمية حصد النقاط قبل فترة التوقف الدولي، في ظل المنافسة المحتدمة على صدارة الترتيب. وفي حديثه عن الجانب الدفاعي، شدد مدرب ريال مدريد على أهمي…",
+      "body": "إشادة كبيرة من البرتغالي بفريقه وجّه البرتغالي جوزيه مورينيو، المدير الفني لريال مدريد، انتقادات حادة إلى روزنامة الدوري الإسباني، عقب فوز فريقه بثلاثية نظيفة على فالنسيا في ملعب ميستايا، مؤكدًا أن ضغط المباريات والرحلات المتتالية لا يمنح لاعبيه الوقت الكافي للتعافي، فيما أشاد بروح المجموعة ونسب الفضل بالكامل إلى اللاعبين في الانتصارات المتتالية. وذكرت صحيفة \" سبورت \" الإسبانية، أن مورينيو استغل المؤتمر الصحفي عقب المباراة للاعتراض على جدول مباريات فريقه، بعدما خاض ريال مدريد 3 مواجهات خارج ملعبه أمام سانتاندير وأثينا وفالنسيا خلال 7 أيام فقط، واضطر للعودة من اليونان في الثالثة فجرًا. وعندما سُئل عن الرسالة التي يوجهها إلى خافيير تيباس، رئيس رابطة الدوري الإسباني، رد المدرب البرتغالي بسخرية: \"لا، ليست لدي رسالة، يجب أن أظل متواضعًا، فهم يمتلكون كل السلطة\". وأضاف مورينيو اعتراضًا على مواعيد المباريات: \"كل ما أطلبه هو ألا يضعونا في مثل هذه الظروف مجددًا؛ أن نلعب يوم الأحد، ثم الأربعاء، ثم السبت. هذا لا معنى له، إنه أمر أشبه بالمزحة\". وقارن مدرب ريال مدريد جدول فريقه بمواعيد منافسيه المباشرين، برشلونة وأتلتيكو مدريد، موضحًا أن الفريقين لعبا يوم الثلاثاء وسيخوضان مباراتيهما التاليتين يوم الأحد، بينما اضطر لاعبوه إلى النوم في مقر التدريبات بفالديبيباس عقب العودة من أثينا. واختتم حديثه …",
       "image": null,
       "pubDate": "2026-11-07T22:41:18.000Z",
       "source": {
@@ -496,22 +1056,6 @@
       "region": "mena"
     },
     {
-      "id": "0e47b75d97cff4c4",
-      "title": "Hamilton & Verstappen to start from back in Brazil",
-      "link": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Red Bull's Max Verstappen and Ferrari drivers Lewis Hamilton and Charles Leclerc will all have grid penalties at the Sao Paulo Grand Prix.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T22:07:41.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "f19eac7e1ad7cc62",
       "title": "بالفيديو.. طوفان باريس يجرف ضحية جديدة في غياب حكيمي",
       "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88--%D8%B7%D9%88%D9%81%D8%A7%D9%86-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%8A%D8%AC%D8%B1%D9%81-%D8%B6%D8%AD%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%AD%D9%83%D9%8A%D9%85%D9%8A/bltb11a563b31e90353?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
@@ -608,86 +1152,6 @@
       "region": "mena"
     },
     {
-      "id": "f197ff0631489ce4",
-      "title": "جدول مباريات الدوري الإيطالي 2026-2027.. القنوات الناقلة والترتيب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-2026-2027-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8/blt843f0442b12aad88?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "تعرف على جدول مباريات الدوري الإيطالي 2026-2027.. القنوات الناقلة والترتيب",
-      "body": "تعرف على جدول مباريات الدوري الإيطالي 2026-2027.. القنوات الناقلة والترتيب نجح إنتر في حصد لقب الدوري الإيطالي 2025-2026 للمرة الـ 21 في تاريخه. ونجحت كتيبة المدرب كريستيان كيفو في مواصلة التفوق المحلي، بينما تسعى أندية نابولي وميلان وروما ويوفنتوس للمنافسة بقوة في الموسم الجديد نستمر الإثارة لموسم جديد مع طموح الفرق الكبرى في الوصول إلى لقب الدوري الكالتشيو مجددًا. ونستعرض لكم في هذه السطور جدول مباريات الدوري الإيطالي 2026-2027، والقنوات الناقلة للمسابقة وترتيب الفرق، وكل ما تريد معرفته. جدول ترتيب الدوري الإيطالي 2026-2027 متى يبدأ وينتهي الدوري الإيطالي 2026-2027؟ انطلقت مباريات الدوري الإيطالي لموسم 2026-2027 يوم السبت 22 أغسطس 2026 على أن ينتهي يوم الأحد 30 مايو 2027. ما القنوات الناقلة لمباريات الدوري الإيطالي 2026-2027 وكيف تشاهدها عبر الإنترنت؟ تمتلك منصة stc tv بحقوق بث مباريات الدوري الإيطالي في المملكة العربية السعودية. الدوري الإيطالي مجانًا على&nbsp;stc tv&nbsp;لعملاء باقات بيتي فايبر ومفوتر 4 وماكس وبرو 4 و5 شاهد الدوري الإيطالي عبر stc tv اشترك الآن! جدول مباريات الدوري الإيطالي 2026-2027 - الجولة الحادية عشرة المباراة الموعد النتيجة القنوات الناقلة الملعب فينيسيا - أودينيزي الجمعة 6 نوفمبر 2026 22:45 السعودية، 23:45 الإمارات 1-2 stc tv بييرلويجي بينزو تورينو - ليت…",
-      "image": null,
-      "pubDate": "2026-11-07T21:55:00.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "9b673248a88bd293",
-      "title": "وجهان متناقضان.. ماكينة فليك التهديفية تصطدم بصلابة سيميوني",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%AC%D9%87%D8%A7%D9%86-%D9%85%D8%AA%D9%86%D8%A7%D9%82%D8%B6%D8%A7%D9%86--%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9-%D9%81%D9%84%D9%8A%D9%83-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D9%81%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B7%D8%AF%D9%85-%D8%A8%D8%B5%D9%84%D8%A7%D8%A8%D8%A9-%D8%B3%D9%8A%D9%85%D9%8A%D9%88%D9%86%D9%8A/bltce249edf696ef9d6?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "يستضيف أتلتيكو مدريد، نظيره برشلونة، مساء الأحد، على ملعب ميتروبوليتانو، في قمة الجولة 12 من عمر الدوري الإسباني.",
-      "body": "يستضيف أتلتيكو مدريد، نظيره برشلونة، مساء الأحد، على ملعب ميتروبوليتانو، في قمة الجولة 12 من عمر الدوري الإسباني. وذكرت صحيفة سبورت ، أن موقعة البارسا والروخي بلانكوس، ستقيس الفاعلية التهديفية للفريق الكتالوني، في مواجهة الصلابة الدفاعية التي استعادها الأتلتي هذا الموسم. وتحول برشلونة إلى ماكينة تهديفية حقيقية، تحت قيادة المدرب هانز فليك، حيث وصل إلى 60 هدفا خلال 15 مباراة فقط، بمعدل 4 أهداف في المباراة الواحدة. لكن الفريق الكتالوني يستقبل في المتوسط 1.2 هدف في المباراة الواحدة. وبالفعل، تبدو المعادلة على الورق، 4 أهداف مسجلة مقابل 1.2 هدف مستقبَل. لكن الأمر يصبح أكثر إثارة للقلق، إذا نظرنا إلى أهم مباراتين خاضهما برشلونة هذا الموسم، أمام باريس سان جيرمان (2-4) وريال مدريد (1-2)، فقد سجل الفريق 3 أهداف فقط، بينما استقبلت شباكه 6 أهداف. في المقابل، يقدم فريق المدرب دييجو سيميوني، بداية مميزة للموسم، إذ أصبحت الصلابة الدفاعية، السمة الأبرز التي تميز الفريق. ومرة أخرى، وبعد مرور 11 جولة من الدوري الإسباني، يملك لاعبو أتلتيكو مدريد، أفضل الأرقام الدفاعية في المسابقة بأكملها، وبالطبع يتفوقون في هذا الجانب على برشلونة. ولم تستقبل شباك أتلتيكو مدريد سوى 8 أهداف خلال الجولات 11 الأولى من المسابقة، بمعدل 0.73 هدف في المباراة الواحدة. وإضافة إلى ذلك، نجح الفريق في الحفاظ على نظافة شباكه في …",
-      "image": null,
-      "pubDate": "2026-11-07T21:53:22.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "16ca7689d084e1c4",
-      "title": "فيديو: سلسلة اللاهزيمة مستمرة.. روما يفترس ساسولو",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D9%84%D8%A7%D9%87%D8%B2%D9%8A%D9%85%D8%A9-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9--%D8%B1%D9%88%D9%85%D8%A7-%D9%8A%D9%81%D8%AA%D8%B1%D8%B3-%D8%B3%D8%A7%D8%B3%D9%88%D9%84%D9%88/bltb8ed0e823330aa35?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "واصل روما مسيرته دون هزيمة في الدوري الإيطالي، بعدما اكتسح ضيفه ساسولو بثلاثية نظيفة، مساء اليوم السبت، ضمن منافسات الجولة الحادية عشرة، ليبقى إلى جانب لاتسيو الفريقين الوحيدين اللذين لم يتعرضا للهزيمة في المسابقة هذا الموسم.",
-      "body": "واصل روما مسيرته دون هزيمة في الدوري الإيطالي، بعدما اكتسح ضيفه ساسولو بثلاثية نظيفة، مساء اليوم السبت، ضمن منافسات الجولة الحادية عشرة، ليبقى إلى جانب لاتسيو الفريقين الوحيدين اللذين لم يتعرضا للهزيمة في المسابقة هذا الموسم. وافتتح روما التسجيل في الدقيقة 27، عن طريق ماريو هيرموسو، وأضاف سيباستيان والوكيويس لاعب ساسولو هدفا عكسيا في الدقيقة 30، قبل أن يحسمها رودريجو مورا بتسجيل الثالث في الدقيقة 58. ورفع روما رصيده إلى 27 نقطة في المركز الثاني مؤقتا، بفارق نقطة واحدة خلف لاتسيو المتصدر، الذي سيلعب ضد نابولي غدا، في حين توقف رصيد ساسولو عند 8 نقاط في المركز السابع عشر. اقرأ أيضا: \"وسط لا مثيل له\".. هل يتجاوز ثلاثي باريس أساطير برشلونة والريال؟ سيطرة مبكرة لأصحاب الأرض فرض أصحاب الأرض سيطرتهم وحسموا المواجهة بثلاثة أهداف، بينها هدف عكسي. بدأ ساسولو المباراة بمحاولة مبكرة في الدقيقة الثالثة، لكن حارس روما ديفيس فاسكيز تصدى لتسديدة نيمانيا ماتيتش من خارج المنطقة. ورد الضيوف بمحاولتين عبر سيباستيان فالوكييفيتش وجاي إيدزيس في الدقيقة الرابعة، قبل أن يتولى روما زمام المبادرة الهجومية. وفي الدقيقة السابعة، تصدى دفاع ساسولو لمحاولة مانو كوني، قبل أن يهدر المدافع ليوناردو باليردي فرصة أخرى في الدقيقة 12، ثم واصل روما ضغطه إثر ركلة ركنية لرودريجو مورا في الدقيقة 17، ورأسية برايان كريستانتي …",
-      "image": null,
-      "pubDate": "2026-11-07T21:52:08.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "50fb1097a99e90ca",
-      "title": "Match of the Day",
-      "link": "https://www.bbc.co.uk/iplayer/episode/l00592bk?at_medium=RSS&at_campaign=rss",
-      "summary": "Highlights of the day's games, including pacesetters Arsenal and Man City.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T21:50:21.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "f67be790f1f623a3",
-      "title": "لاعب فالنسيا ينفجر: كل ما نحتاج إليه هو أن يكون الحكم عادلا!",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%84%D8%A7%D8%B9%D8%A8-%D9%81%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%A7-%D9%8A%D9%86%D9%81%D8%AC%D8%B1-%D9%83%D9%84-%D9%85%D8%A7-%D9%86%D8%AD%D8%AA%D8%A7%D8%AC-%D8%A7%D9%95%D9%84%D9%8A%D9%87-%D9%87%D9%88-%D8%A7%D9%94%D9%86-%D9%8A%D9%83%D9%88%D9%86-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%B9%D8%A7%D8%AF%D9%84%D8%A7/blt0d687c4ab1e1d29b?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "المواجهة اتسمت بالعنف",
-      "body": "المواجهة اتسمت بالعنف شنّ بابلو مافيو، الظهير الأيمن لفالنسيا، هجومًا على القرارات التحكيمية خلال مواجهة ريال مدريد، معربًا عن استيائه من احتساب مخالفات اعتبرها غير صحيحة، وذلك عقب نهاية الشوط الأول الذي انتهى بتقدم الفريق الملكي بهدفين دون رد، على ملعب ميستايا، ضمن منافسات الدوري الإسباني. وقال مافيو، في تصريحات لشبكة \" DAZN \" خلال المقابلة التي أُجريت بين الشوطين، إنه لا يرغب في إجراء الحوار، معتبرًا أن توقيته غير مناسب في ظل انشغال اللاعبين بالمباراة، قبل أن يوافق على الإجابة عن الأسئلة الموجهة إليه. وأضاف لاعب فالنسيا: \"كل ما نحتاج إليه هو أن يكون الحكم أكثر إنصافًا. لا أعتقد أن الهدف الأول كان نتيجة مخالفة، وهذا يؤثر علينا\". وفي الوقت نفسه، أقر مافيو بضرورة تحسين أداء فريقه والوصول بصورة أفضل إلى منطقة المنافس، لكنه شدد على أن فالنسيا يقدم مباراة تنافسية رغم تأخره بهدفين. جاء غضب مافيو بعدما احتسب الحكم مخالفة لصالح كيليان مبابي إثر تدخل من الظهير الإسباني، انطلقت منها الهجمة التي أسفرت عن هدف فيدي فالفيردي، قبل أن يضيف أردا جولر الهدف الثاني، ليُنهي ريال مدريد الشوط الأول متقدمًا بثنائية. ناقش الموضوعات والأخبار بشكل أعمق في منتديات كووورة",
-      "image": null,
-      "pubDate": "2026-11-07T21:50:04.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
       "id": "38b14a310497676f",
       "title": "World Acceptance director Benjamin Robinson sells $14,878 in shares",
       "link": "https://www.investing.com/news/insider-trading-news/world-acceptance-director-benjamin-robinson-sells-14878-in-shares-93CH-5010063",
@@ -734,38 +1198,6 @@
       "lang": "en",
       "category": "sports",
       "region": "global"
-    },
-    {
-      "id": "626310b0c9ef6c99",
-      "title": "مشهد مفاجئ في ميستايا.. حالة حرجة تجبر الحكم على إيقاف مباراة الريال",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B4%D9%87%D8%AF-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%81%D9%8A-%D9%85%D9%8A%D8%B3%D8%AA%D8%A7%D9%8A%D8%A7--%D8%AD%D8%A7%D9%84%D8%A9-%D8%AD%D8%B1%D8%AC%D8%A9-%D8%AA%D8%AC%D8%A8%D8%B1-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%B9%D9%84%D9%89-%D8%A7%D9%95%D9%8A%D9%82%D8%A7%D9%81-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84/blt9573bea550fa5a3f?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "ماذا حدث؟",
-      "body": "ماذا حدث؟ أوقف الحكم هيرنانديز مايسو، مباراة ريال مدريد وفالنسيا، مؤقتًا، بعدما تعرض أحد المشجعين لوعكة صحية في مدرجات ملعب المستايا، ليتسنى تقديم الإسعافات اللازمة له في المنطقة الجانبية من الملعب. وتوجه الحكم إلى شرح الموقف للاعبين برفقة مندوب الملعب، بينما تولى المسعفون تقديم الرعاية الطبية للمشجع، بمشاركة أعضاء الصليب الأحمر والطاقم الطبي لنادي فالنسيا. وفي مشهد لاقى تفاعلًا من الجماهير، جرى إخراج المشجع المصاب من المدرجات، وسط تصفيق الحاضرين، قبل أن يتم استئناف المباراة. ناقش الموضوعات والأخبار بشكل أعمق في منتديات كووورة",
-      "image": null,
-      "pubDate": "2026-11-07T21:42:18.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
-    },
-    {
-      "id": "324664bf10d71fdc",
-      "title": "كشف حالة رايس.. أرتيتا عن جدل الڤار: لا أريد أن أكذب",
-      "link": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%83%D8%B4%D9%81-%D8%AD%D8%A7%D9%84%D8%A9-%D8%B1%D8%A7%D9%8A%D8%B3--%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D8%B9%D9%86-%D8%AC%D8%AF%D9%84-%D8%A7%D9%84%DA%A4%D8%A7%D8%B1-%D9%84%D8%A7-%D8%A7%D9%94%D8%B1%D9%8A%D8%AF-%D8%A7%D9%94%D9%86-%D8%A7%D9%94%D9%83%D8%B0%D8%A8/blt6d05ebd34b7d7431?utm_medium=feed&utm_id=6p5bsxot7te8yick&utm_source_platform=none&utm_source=none_ar",
-      "summary": "\"نحتاج إلى فوضى أكبر\"!",
-      "body": "\"نحتاج إلى فوضى أكبر\"! تحدث ميكيل أرتيتا، المدير الفني لآرسنال، إلى وسائل الإعلام عقب فوز فريقه على هال سيتي في ملعب الإمارات، في مباراة عانى خلالها الجانرز لحسم الانتصار بفارق هدف واحد. وأثار استبدال ديكلان رايس، بعد نحو 60 دقيقة، تساؤلات بشأن حالته البدنية، كما شهدت المباراة قرارًا مثيرًا للجدل من تقنية الفيديو، بعدما حُرم كاي هافيرتز من ركلة جزاء. وتطرق أرتيتا أيضًا إلى أزمة التسلل التي تلاحق فريقه، بعدما وصل عدد حالات تسلل هافيرتز إلى 15 هذا الموسم. ناقش الموضوعات والأخبار بشكل أعمق في منتديات كووورة اقرأ أيضا: هل أنقذهم أوديجارد من فضيحة؟.. خطأ تحكيمي يحرم آرسنال من ركلة جزاء فوز مهم قبل التوقف الدولي.. \"المرحلة المقبلة صعبة للغاية\" قال أرتيتا إنه سعيد بالفوز الذي جاء قبل التوقف الدولي، مضيفا: \"كنا الأفضل وتوفرت لنا عدة فرص لكننا افتقرنا للفاعلية، لذلك كثفنا المحاولات حتى كسرنا دفاع المنافس. هدف مارتن لم يكن الأجمل لكنه كان فعالًا. وعن تحقيق 9 انتصارات في 10 مباريات، وتقييمه لهذه البداية صرح: \"أشيد باللاعبين والجهاز الفني. كانت الفترة الماضية مرهقة، مع كثرة السفر، وقلة وقت التعافي بين المباريات، لكن الفريق أظهر عقلية وجودة مذهلتين\". وأضاف: \"لسنا في وضع مثالي، ونعلم أن هناك جوانب كثيرة يمكننا تحسينها. سنحلل ذلك خلال فترة التوقف، ونحدد كيفية التطور، لأن المرحلة المقبلة ستكون صع…",
-      "image": null,
-      "pubDate": "2026-11-07T21:33:16.000Z",
-      "source": {
-        "name": "Kooora",
-        "homepage": "https://www.kooora.com/"
-      },
-      "lang": "ar",
-      "category": "sports",
-      "region": "mena"
     },
     {
       "id": "8e28c5019c2fb3fb",
@@ -848,22 +1280,6 @@
       "region": "global"
     },
     {
-      "id": "c841f2577171a216",
-      "title": "Equity positioning suffered one of its sharpest weekly drops on record: DB",
-      "link": "https://www.investing.com/news/stock-market-news/equity-positioning-suffered-one-of-its-sharpest-weekly-drops-on-record-db-5010048",
-      "summary": "",
-      "body": null,
-      "image": "https://content-media.investing.com/news/SP500StandardandPoors500Index_800x533_L_1657544297.jpg",
-      "pubDate": "2026-11-07T21:07:06.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "1c16eb73facc1470",
       "title": "Wales let themselves down despite win - Lake",
       "link": "https://www.bbc.co.uk/sport/rugby-union/articles/crgj9323we9go?at_medium=RSS&at_campaign=rss",
@@ -880,19 +1296,19 @@
       "region": "global"
     },
     {
-      "id": "71bdfe3c9201ad5a",
-      "title": "CoreWeave seeks truce with Texas Governor-elect Hinojosa",
-      "link": "https://www.investing.com/news/stock-market-news/coreweave-seeks-truce-with-texas-governorelect-hinojosa-5010044",
-      "summary": "",
+      "id": "1c16eb73facc1470",
+      "title": "Wales let themselves down despite win - Lake",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/crgj9323we9go?at_medium=RSS&at_campaign=rss",
+      "summary": "Captain Dewi Lake knows there is plenty to improve following a lacklustre 28-21 Nations Championship victory over Japan.",
       "body": null,
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEL660HL_L.jpg",
-      "pubDate": "2026-11-07T20:59:29.000Z",
+      "image": null,
+      "pubDate": "2026-11-07T21:03:07.000Z",
       "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
+        "name": "BBC Sport",
+        "homepage": "https://www.bbc.com/sport"
       },
       "lang": "en",
-      "category": "general",
+      "category": "sports",
       "region": "global"
     },
     {
@@ -976,38 +1392,6 @@
       "region": "global"
     },
     {
-      "id": "0f21e9268816fe99",
-      "title": "Amex chief legal officer Laureen Seeger sells $22.9M in stock",
-      "link": "https://www.investing.com/news/insider-trading-news/amex-chief-legal-officer-laureen-seeger-sells-229m-in-stock-93CH-5010032",
-      "summary": "",
-      "body": null,
-      "image": "https://content-media.investing.com/news/LYNXNPED911VD_M.jpg",
-      "pubDate": "2026-11-07T20:16:24.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "189f445ab2f3b00d",
-      "title": "Century Casinos earnings missed, revenue fell short of estimates",
-      "link": "https://www.investing.com/news/earnings/century-casinos-earnings-missed-revenue-fell-short-of-estimates-5010028",
-      "summary": "",
-      "body": null,
-      "image": "https://content-media.investing.com/news/LYNXMPEDAF0IH_M.jpg",
-      "pubDate": "2026-11-07T20:15:15.000Z",
-      "source": {
-        "name": "Investing.com News (EN)",
-        "homepage": "https://www.investing.com/rss/news.rss"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "169d64ff676cf1f0",
       "title": "Delap double inspires Forest to stunning win over Man City",
       "link": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss",
@@ -1088,22 +1472,6 @@
       "region": "global"
     },
     {
-      "id": "cf8bef15ac56d190",
-      "title": "Seven-try New Zealand too strong for Scotland",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/videos/c9vgr21ejk40o?at_medium=RSS&at_campaign=rss",
-      "summary": "Watch highlights from Murrayfield as New Zealand prove too strong for Scotland in the Nations Championship",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T19:40:55.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "ef486960ae14aaf5",
       "title": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
@@ -1120,54 +1488,6 @@
       "region": "global"
     },
     {
-      "id": "f85668b9f9591693",
-      "title": "Former winners Wigan progress to second round of FA Cup",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmkgekz29k2yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wigan live up to their pedigree as FA Cup winners as they sweep aside Boreham Wood with goals from Jon Mellish and Morgan Fox, who strikes twice.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T19:23:57.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "251150280e8c9ca2",
-      "title": "Altrincham take shock lead against Notts County",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c8vgx29yyrw0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Lewis Banks scores from close range to put the National League's Altrincham 2-1 up against League One side Notts County in the first round of the FA Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T19:08:23.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "512905d27ebd245d",
-      "title": "Highlights: Wales 28-21 Japan",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/videos/ckd6d1496g3wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Watch the highlights as Wales beat Japan 28-21 in their opening game of the Nations Championship in Cardiff.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T19:02:48.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "c3ae53aa303b9da5",
       "title": "Tuipulotu takes 'full responsibility' for Scotland collapse",
       "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvx28xpn57r9o?at_medium=RSS&at_campaign=rss",
@@ -1175,22 +1495,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-11-07T18:38:00.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "ade341bd8c307408",
-      "title": "Chelsea surrender top spot after home draw with Everton",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmz98dpl3vjgo?at_medium=RSS&at_campaign=rss",
-      "summary": "A Lucy Bronze own goal gives Everton a hard earned 1-1 draw at Stamford Bridge, as Chelsea drop to second in the WSL table.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T18:35:49.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1232,22 +1536,6 @@
       "region": "global"
     },
     {
-      "id": "dfc81a019453e654",
-      "title": "Seventh-tier Guiseley stun Sutton with stoppage-time penalty",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm4g1nx3xgdjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jordan Thewlis scores a stoppage-time penalty to give seventh-tier Guiseley a dramatic 1-0 win over Sutton United in their FA Cup first round tie at Nethermoor Park.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T18:32:30.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "c54009d7095e482a",
       "title": "National League Carlisle upset League Two leaders Salford",
       "link": "https://www.bbc.co.uk/sport/football/videos/cm1exw70d49po?at_medium=RSS&at_campaign=rss",
@@ -1280,22 +1568,6 @@
       "region": "global"
     },
     {
-      "id": "6fe956fa59e44c60",
-      "title": "Bowler's extra-time winner for Blackpool sinks 10-man Hornchurch",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqm26j0x2xzlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Blackpool survive a scare at Hornchurch, needing a 118th-minute winner from Josh Bowler to secure a 2-1 comeback victory at the Hornchurch Stadium.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T18:11:12.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
       "id": "d2f678065c05781b",
       "title": "AMD CEO Lisa Su: 'We are a data center-first company'",
       "link": "https://www.pcgamer.com/gaming-industry/amd-ceo-lisa-su-we-are-a-data-center-first-company/",
@@ -1309,22 +1581,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "37ff5832debd2883",
-      "title": "Powell and Phillips star as Bradford put seven past Marine",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Nick Powell and Adam Phillips both score a brace as Bradford City hammer National League North side Marine 7-0 in the first round of the FA Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T18:02:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -1344,22 +1600,6 @@
       "region": "global"
     },
     {
-      "id": "f4c40eb08fd8df4c",
-      "title": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay",
-      "link": "https://www.pcgamer.com/games/world-of-warcraft/after-seeing-them-myself-im-convinced-wow-forevers-rp-servers-dont-need-to-be-this-separate-and-i-say-that-as-a-decorated-veteran-of-mmo-roleplay/",
-      "summary": "I'm kinda just playing chiller PvE, here.",
-      "body": "I've been stuck into World of Warcraft: Forever —at the time of writing, I'm around 15 hours /played (and will likely be 20+ hours by the time you're reading this) on my warrior. I chose the roleplay ruleset because, well, I'm a roleplayer. I've been writing and being cringe in videogames for over 15 years . RP in WoW is, actually, what got me into writing in the first place. My clear and obvious mastery over the written word was hard-won by being a terribly annoying edgelord death knight, for which I apologise. I was curious about the implementation of the roleplay ruleset back when it was properly announced—back then, I thought it was great that we're being given our own place, but being completely split off from \"normal\" ruleset (which I'll be calling PvE for simplicity) didn't seem necessary to me. Having played in the roleplay ruleset for a little while, my opinion has only been vindicated. Splitting PvE and PvP rulesets does make sense. For instance, a resource node might be easier to gather on PvE, throwing the economic balance of the PvP server out of the window. But beyond technical limitations, a complete, strict divide between RP and PvE just has me scratching my head. …",
-      "image": "https://cdn.mos.cms.futurecdn.net/6Ywe8m6nRRzBLZTNpNbAXn-1920-80.png",
-      "pubDate": "2026-11-07T18:00:00.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "9918c343f0cd7471",
       "title": "Trump-Backed Trade Corridor Advances Despite Geopolitical Resistance",
       "link": "https://oilprice.com/Geopolitics/Asia/Trump-Backed-Trade-Corridor-Advances-Despite-Geopolitical-Resistance.html",
@@ -1376,19 +1616,19 @@
       "region": "global"
     },
     {
-      "id": "e2aaf18bbe809e67",
-      "title": "Salisbury put six past Sholing to advance to second round",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6jrwe4q1le1o?at_medium=RSS&at_campaign=rss",
-      "summary": "National League South side Salisbury put six past Southern Premier League South club Sholing to advance to the second round of the FA Cup for the first time in their history.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T17:39:21.000Z",
+      "id": "f4c40eb08fd8df4c",
+      "title": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay",
+      "link": "https://www.pcgamer.com/games/world-of-warcraft/after-seeing-them-myself-im-convinced-wow-forevers-rp-servers-dont-need-to-be-this-separate-and-i-say-that-as-a-decorated-veteran-of-mmo-roleplay/",
+      "summary": "I'm kinda just playing chiller PvE, here.",
+      "body": "I've been stuck into World of Warcraft: Forever —at the time of writing, I'm around 15 hours /played (and will likely be 20+ hours by the time you're reading this) on my warrior. I chose the roleplay ruleset because, well, I'm a roleplayer. I've been writing and being cringe in videogames for over 15 years . RP in WoW is, actually, what got me into writing in the first place. My clear and obvious mastery over the written word was hard-won by being a terribly annoying edgelord death knight, for which I apologise. I was curious about the implementation of the roleplay ruleset back when it was properly announced—back then, I thought it was great that we're being given our own place, but being completely split off from \"normal\" ruleset (which I'll be calling PvE for simplicity) didn't seem necessary to me. Having played in the roleplay ruleset for a little while, my opinion has only been vindicated. Splitting PvE and PvP rulesets does make sense. For instance, a resource node might be easier to gather on PvE, throwing the economic balance of the PvP server out of the window. But beyond technical limitations, a complete, strict divide between RP and PvE just has me scratching my head. …",
+      "image": "https://cdn.mos.cms.futurecdn.net/6Ywe8m6nRRzBLZTNpNbAXn-1920-80.png",
+      "pubDate": "2026-11-07T18:00:00.000Z",
       "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
+        "name": "PC Gamer",
+        "homepage": "https://www.pcgamer.com/rss/"
       },
       "lang": "en",
-      "category": "sports",
+      "category": "general",
       "region": "global"
     },
     {
@@ -1511,22 +1751,6 @@
       "body": null,
       "image": null,
       "pubDate": "2026-11-07T16:13:03.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "97cbe7af3711f4aa",
-      "title": "New Zealand beat Tonga to reach World Cup final",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cq80z8l8zgzno?at_medium=RSS&at_campaign=rss",
-      "summary": "Kalyn Ponga returns to inspire New Zealand to a 34-10 victory in a pulsating encounter with Tonga as they reach their first World Cup final since 2013.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T15:47:06.000Z",
       "source": {
         "name": "BBC Sport",
         "homepage": "https://www.bbc.com/sport"
@@ -1904,22 +2128,6 @@
       "region": "global"
     },
     {
-      "id": "f462d3de92b51476",
-      "title": "‘Ellen DeGeneres Show’ Producer Matthew Wright’s Cause of Death Revealed",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/ellen-degeneres-show-producer-matthew-wright-cause-of-death-1236749895/",
-      "summary": "The nine-time Emmy winner died Oct. 30 at age 52.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-07T02:04:19.000Z",
-      "source": {
-        "name": "Hollywood Reporter",
-        "homepage": "https://www.hollywoodreporter.com/feed/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
       "id": "7b32db67771023ad",
       "title": "Inside the card-grading empire shaping the price of Pokémon cards",
       "link": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html",
@@ -1933,38 +2141,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "106fe175d94e6e68",
-      "title": "Leicester hold nerve to knock out sixth-tier Oxford City",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c8qlnn4dvp3yo?at_medium=RSS&at_campaign=rss",
-      "summary": "League One side, and 2021 champions, Leicester City avoid an upset as they beat sixth-tier Oxford City 4-2 at the MGroup Stadium, to reach the second round of the FA Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-06T23:37:23.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
-      "region": "global"
-    },
-    {
-      "id": "3120e5e1eb10dcd2",
-      "title": "Bristol Rovers shock Cambridge United to reach round two",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cxdd88g97lm7o?at_medium=RSS&at_campaign=rss",
-      "summary": "League Two side Bristol Rovers end a run of six matches without a win, as they shock League One side Cambridge United, beating them 2-0 at the Memorial Stadium, to reach the second round of the FA Cup.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-06T23:26:39.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -2013,22 +2189,6 @@
       },
       "lang": "en",
       "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "13ef6e6cbf018939",
-      "title": "Barry scores twice as Everton fight back to beat Coventry",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
-      "summary": "In-form Thierno Barry scores twice as Everton came from behind to beat Coventry as the Toffees move into fifth in the Premier League table.",
-      "body": null,
-      "image": null,
-      "pubDate": "2026-11-06T22:30:12.000Z",
-      "source": {
-        "name": "BBC Sport",
-        "homepage": "https://www.bbc.com/sport"
-      },
-      "lang": "en",
-      "category": "sports",
       "region": "global"
     },
     {
@@ -3127,38 +3287,6 @@
       "body": "Yesterday, after eight years of waiting, Bethesda finally gave The Elder Scrolls 6 a title: Sentinel . It then warned that, after eight years of waiting , more waiting is in store because \"it'll be some time before we're ready to share more.\" Then Bloomberg's Jason Schreier, one of the industry's best-known and most reliable reporters, weighed in, saying the game is \"still more than two years away.\" You know what comes next, right? Schreier's 'two more years' statement, echoed by Jez Corden of Windows Central , attracted quite a range of comments, not all of them of the polite sort. That led Schreier to Reddit , where he could elaborate on his statement. Pointing out his record of accurate calls on previous Bethesda releases Fallout 76 and Starfield, Schreier wrote, \"I'm a reporter. I am not telling you this because I enjoy watching people get mad about having to wait for sequels to their favorite video games. I am telling you this because it is true, and because my job is to report accurate facts and clear up misinformation. TES6: Sentinel is more than two years away.\" Did this clarification calm the roiling waters? Well... (Image credit: Ok-rutabaga_B442 (Reddit)) Many of the re…",
       "image": "https://cdn.mos.cms.futurecdn.net/2tZ8acjKKVc9o26nuhBAEi-1920-80.jpg",
       "pubDate": "2026-11-05T00:18:02.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "36b92e4f403fead6",
-      "title": "No GTA 6 November: Here's what you can play on PC instead",
-      "link": "https://www.pcgamer.com/games/november-games-2026/",
-      "summary": "World of Warcraft: Forever, Warhammer Survivors, and a batch of fresh updates.",
-      "body": "I can't ignore the elephant in the room: Grand Theft Auto 6 is out this month, but we still don't know when we'll see Rockstar's return trip to Vice City launch on PC . When we asked in a poll whether y'all planned to wait for the PC release, play it on console at launch, or double dip and do both, a whopping 71% said you would wait. Modding is half the fun for me, so I get it. I'm with you. But even PC releases are dodging the big GTA 6-shaped gap in November, so what new games are even out there for you to play? Well, World of Warcraft: Forever kicks off the beginning of the month if you need a new MMO to get sucked into. Then Warhammer Survivors is just a few days later, and there's a whole slew of updates to pick through. It may be a light month, but it's not empty. I'm eyeing a few November releases myself, though I wouldn't mind taking the time to catch up on the 2026 games I missed. As for recommendations, I'll let my colleagues take it from here. November 2026 PC Gamer picks World of Warcraft: Forever Battle.net | November 4 World of Warcraft is 22 years old, which is bananas , and somehow I've gone all that time without touching it once. I've reported on it extensively (a…",
-      "image": "https://cdn.mos.cms.futurecdn.net/uEeQBN2oCc55CcCkNVRYiQ-1920-80.jpg",
-      "pubDate": "2026-11-04T23:37:01.000Z",
-      "source": {
-        "name": "PC Gamer",
-        "homepage": "https://www.pcgamer.com/rss/"
-      },
-      "lang": "en",
-      "category": "general",
-      "region": "global"
-    },
-    {
-      "id": "b4c2876a91a24b6c",
-      "title": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
-      "link": "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/",
-      "summary": "The STJV union says Microsoft imposed hiring freezes at Arkane that resulted in delays and additional expenses, which it then cited as reasons for shutting it down.",
-      "body": "France's Syndicat des Travailleureuses du Jeu Vidéo (STJV) union has accused Microsoft of sabotaging work on Marvel's Blade and then using the inevitable results to justify Arkane's closure. The union said development of Blade \"is going fine,\" and that the game is on par with Arkane's previous body of work, which includes the Dishonored series, Prey, Deathloop, and the sadly overlooked Dark Messiah of Might and Magic. Despite that, \"workers have to face the harsh reality: our studio might get closed because, and only because, Microsoft decided to, even if that means sabotaging the game it funded.\" \"Microsoft chose to justify the closure on economic reasons,\" the union wrote. \"But Microsoft is actually why those economic reasons even exist. Because after freezing hiring for 19 months, which artificially caused delays and additional cost, Microsoft now uses those same delays and additional costs as a reason to close down the studio.\" Closing Arkane would defy \"financial logic,\" the union claimed, as it would likely cost more money than just allowing it to finish Blade—and furthermore, it added, Arkane is profitable—\"just not profitable enough for Microsoft.\" \"Microsoft is responsibl…",
-      "image": "https://cdn.mos.cms.futurecdn.net/9T4FzWUTqHonQG2a65VZak-1920-80.jpg",
-      "pubDate": "2026-11-04T20:51:28.000Z",
       "source": {
         "name": "PC Gamer",
         "homepage": "https://www.pcgamer.com/rss/"
